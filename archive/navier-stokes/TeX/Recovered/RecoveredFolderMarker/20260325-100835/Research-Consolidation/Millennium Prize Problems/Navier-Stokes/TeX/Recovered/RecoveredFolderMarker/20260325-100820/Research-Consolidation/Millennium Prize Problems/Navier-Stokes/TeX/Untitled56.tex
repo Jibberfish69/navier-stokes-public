@@ -1,0 +1,83 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath, amssymb, amsthm}  % amsthm is included for theorem environments
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\geometry{margin=1in}
+
+\title{Proof of Global Existence and Smoothness for the Regularized Navier-Stokes Equations}
+\author{Your Name}
+\date{\today}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We present a proof of the global existence and smoothness of solutions to a regularized version of the Navier-Stokes equations. By introducing a regularization parameter, we aim to prevent the formation of singularities and ensure that the velocity field remains smooth for all time. We provide detailed energy estimates and rigorous mathematical justifications to support our claims. Furthermore, we discuss the implications of the regularization and its relation to the classical Navier-Stokes equations.
+\end{abstract}
+
+\tableofcontents
+
+\section{Introduction}
+
+The Navier-Stokes equations describe the motion of incompressible fluid flows and are fundamental in fluid dynamics. In three dimensions, they are given by
+\begin{equation}
+\begin{aligned}
+\frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla)\mathbf{u} &= -\nabla p + \nu \Delta \mathbf{u} + \mathbf{f}, \\
+\nabla \cdot \mathbf{u} &= 0,
+\end{aligned}
+\label{eq:NS}  % Correct label placement
+\end{equation}
+where $\mathbf{u}(\mathbf{x}, t)$ is the velocity field, $p(\mathbf{x}, t)$ is the pressure, $\nu > 0$ is the kinematic viscosity, and $\mathbf{f}(\mathbf{x}, t)$ represents external forces.
+
+One of the Millennium Prize Problems is to prove or disprove the global existence and smoothness of solutions to the Navier-Stokes equations with smooth initial data in three dimensions. The challenge arises from the potential formation of singularities (blow-up) in finite time.
+
+In this paper, we consider a regularized version of the Navier-Stokes equations, introducing a regularization parameter $\epsilon > 0$, and prove that the regularized equations admit global smooth solutions. We provide rigorous mathematical analysis, including detailed energy estimates and handling of nonlinear terms.
+
+\section{The Regularized Navier-Stokes Equations}
+
+We introduce a regularization to the Navier-Stokes equations to control the high-frequency components that may lead to singularities. The regularized equations are defined as
+\begin{equation}
+\begin{aligned}
+\frac{\partial \mathbf{u}^\epsilon}{\partial t} + (\mathbf{u}^\epsilon \cdot \nabla)\mathbf{u}^\epsilon + \nabla p^\epsilon &= \nu \Delta \mathbf{u}^\epsilon - \epsilon (-\Delta)^m \mathbf{u}^\epsilon + \mathbf{f}, \\
+\nabla \cdot \mathbf{u}^\epsilon &= 0,
+\end{aligned}
+\label{eq:RegNS}  % Correct label placement
+\end{equation}
+
+\subsection{Physical Interpretation}
+
+The term $- \epsilon (-\Delta)^m \mathbf{u}^\epsilon$ introduces additional dissipation, particularly at small scales (high frequencies). This hyper-viscosity term enhances the damping of high-frequency modes, potentially preventing the development of singularities.
+
+As $\epsilon \to 0$, the regularized equations (\ref{eq:RegNS}) formally converge to the classical Navier-Stokes equations (\ref{eq:NS}).
+
+\subsection{Function Spaces}
+
+We work in the whole space $\Omega = \mathbb{R}^3$ or a periodic domain $\Omega = [0, L]^3$ with periodic boundary conditions. The relevant function spaces are:
+
+\begin{itemize}[itemsep=0pt]
+    \item $L^2(\Omega)$: Square-integrable functions.
+    \item $H^s(\Omega)$: Sobolev spaces of order $s \geq 0$, consisting of functions whose derivatives up to order $s$ are in $L^2(\Omega)$.
+    \item $\mathbf{H}^s_{\text{div}}(\Omega)$: Vector functions in $H^s(\Omega)$ that are divergence-free.
+\end{itemize}
+
+\section{Existence of Global Smooth Solutions}
+
+We aim to prove that for any initial data $\mathbf{u}_0 \in \mathbf{H}^s_{\text{div}}(\Omega)$ with $s > \frac{d}{2} + 1$ (where $d=3$), there exists a unique global solution $\mathbf{u}^\epsilon$ to the regularized Navier-Stokes equations (\ref{eq:RegNS}) satisfying
+\begin{equation}
+\mathbf{u}^\epsilon \in C([0, \infty); \mathbf{H}^s_{\text{div}}(\Omega)) \cap C^1([0, \infty); \mathbf{H}^{s - 2m}_{\text{div}}(\Omega)).
+\end{equation}
+
+\subsection{Local Existence}
+
+Using standard results for parabolic partial differential equations, we obtain local existence of solutions to (\ref{eq:RegNS}).
+
+\begin{theorem}[Local Existence]
+Given initial data $\mathbf{u}_0 \in \mathbf{H}^s_{\text{div}}(\Omega)$ with $s > \frac{d}{2} + 1$, there exists a time $T > 0$ such that a unique solution $\mathbf{u}^\epsilon$ to (\ref{eq:RegNS}) exists on $[0, T)$ satisfying
+\begin{equation}
+\mathbf{u}^\epsilon \in C([0, T); \mathbf{H}^s_{\text{div}}(\Omega)) \cap C^1([0, T); \mathbf{H}^{s - 2m}_{\text{div}}(\Omega)).
+\end{equation}
+\end{theorem}

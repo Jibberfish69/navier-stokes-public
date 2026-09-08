@@ -14,7 +14,7 @@ Construct a present-time same-material functional \(\mathscr A_N(t)\) such that
 \int_0^{T^*}dR_N^{legal}<\infty .
 ```
 
-Here \(d\Omega_N^{PLS}\) is the full participation-law--strain clock: pressure constraint, material Hodge/Stokes projection, material coefficient/metric motion, transported collar motion, annular Cauchy stress-work, strain, and viscosity on the same fluid packet.
+Here \(d\Omega_N^{PLS}\) is the full participation-law--strain clock: pressure constraint, material Helmholtz--Leray/Stokes projection, material coefficient/metric motion, transported collar motion, annular Cauchy stress-work, strain, and viscosity on the same fluid packet.
 
 ## Non-circularity requirement
 

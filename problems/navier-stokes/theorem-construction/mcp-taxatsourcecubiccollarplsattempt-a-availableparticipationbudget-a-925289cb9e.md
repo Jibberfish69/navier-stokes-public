@@ -84,7 +84,7 @@ The natural storage is a coupled annular/material storage of the form
 X_{ann,N}=a\,M_\phi+b\,F_\phi^\sharp+X_{press,N}+X_{met/collar,N},
 ```
 
-where \(X_{press,N}\) is the pressure-time/Hodge correction and \(X_{met/collar,N}\) is the transported metric/collar correction.  The target is not termwise positivity.  It is the signed inequality
+where \(X_{press,N}\) is the pressure-time/Helmholtz--Leray correction and \(X_{met/collar,N}\) is the transported metric/collar correction.  The target is not termwise positivity.  It is the signed inequality
 
 ```math
 dX_{ann,N}

@@ -1,0 +1,50 @@
+{
+  "schema_version": 3,
+  "producer": {
+    "agent_path": "/root",
+    "input_packet": {
+      "path": "/tmp/ns-publication-edits-20260904/producer-packet.json",
+      "sha256": "1d12cd89c17847ed6184152de87832c55d04aa20bd133aac9ae4f7a3e0c510a5"
+    }
+  },
+  "candidate": {
+    "path": "/private/tmp/ns-publication-edits-20260904/candidate.txt",
+    "sha256": "b8465b9b6ba7b7463ba22011a647035dcab065b50db8ea3698754003ec585be2"
+  },
+  "pdf": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/build/output/publication-edits-20260904/main.pdf",
+    "sha256": "8697aa85e35f915017d551609a53f53c67d8f45a8ab3579663344441d21f6cf6"
+  },
+  "render": [
+    {
+      "path": "/tmp/ns-publication-edits-20260904/renders/page-009.png",
+      "sha256": "d75d8ea17df8d07a5f41e760c25510729c5434f3c15b9ebb22b61313f347da6d"
+    },
+    {
+      "path": "/tmp/ns-publication-edits-20260904/renders/page-010.png",
+      "sha256": "c547f5e02ed31dc48afef98d10dc3d77707e599001afc1e70570524cd99927e5"
+    },
+    {
+      "path": "/tmp/ns-publication-edits-20260904/renders/page-026.png",
+      "sha256": "662cf6518cea637fb479f8eab6fbfc9cc508bc5272294ed7af48ee8a51296a78"
+    },
+    {
+      "path": "/tmp/ns-publication-edits-20260904/renders/page-028.png",
+      "sha256": "fd0d13f989c6f8366105cb08a16bffcddfd0b96f600343bd17414a4aeec7fca4"
+    }
+  ],
+  "critic_packet": {
+    "path": "/tmp/ns-publication-edits-20260904/critic-packet.json",
+    "sha256": "d35278e0b73070c559c6ee6d476b466f18034b33c0d108081d5a94fb8b1da311"
+  },
+  "reviews": [
+    {
+      "path": "/tmp/ns-publication-edits-20260904/reader-review.json",
+      "sha256": "ad8988916e16f0c0e06dbce5e1004932887c01cb75501fb8af53a5b5735c5efa"
+    },
+    {
+      "path": "/tmp/ns-publication-edits-20260904/proof-review.json",
+      "sha256": "261fb2ed239ce44f345a06bf953d04c7bf468b708c0aa5be94da29fe5c2e69fc"
+    }
+  ]
+}

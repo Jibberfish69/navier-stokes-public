@@ -1,0 +1,58 @@
+{
+  "schema_version": 2,
+  "producer": {
+    "agent_path": "/root/final_author_v9",
+    "input_packet": {
+      "sha256": "2fa028d2c1804b9304b65ca809d6b0dcbc23af70ee66ece0c60892487e62e56a",
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/producer-input-v11.json"
+    }
+  },
+  "candidate": {
+    "sha256": "e75eb56d81bdef425a63e5950b6c6c1758dbed813e171bcf814e8363a6e24214",
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/draft-v11.tex"
+  },
+  "pdf": {
+    "sha256": "e7315b01c65f1e8d4da94c8932aeb8d6fad642ddf003eaa7bb243c422359dcfe",
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/build-v11/main-v11.pdf"
+  },
+  "render": [
+    {
+      "sha256": "6d761fb99fcbf7e7037ea45d3002218a4913384d6422a45f37d608476c96e85f",
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v11/page-1.png"
+    },
+    {
+      "sha256": "c4ced7629f8bf746d55fe1fd9845365fd1736209d0f54f4deed4eeb2dd7615bd",
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v11/page-2.png"
+    },
+    {
+      "sha256": "c6bf139b832c4d6f7267b2c871d3c491ca141ce6a60d21994feab72b651f5ee2",
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v11/page-3.png"
+    },
+    {
+      "sha256": "193bf19665fc74642a45fea4ae364071dd70104b3b5025f2fd3eef8ac136c22c",
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v11/page-4.png"
+    },
+    {
+      "sha256": "21a97bab06294b2db9f568f27f18114a61a7942480e908134b6db1076e56fa93",
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v11/page-5.png"
+    },
+    {
+      "sha256": "1268505d9176e23b16317ec0e0b9fdfff4ee8790be56fc35a5089c88c6fff8a7",
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v11/page-6.png"
+    }
+  ],
+  "critic_packet": {
+    "sha256": "deed6712e4d61b5c989f8a914f7bf4afb240051b140ceb35e2e60c502304be7c",
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/critic-packet-v11.json"
+  },
+  "reviews": [
+    {
+      "sha256": "e94277b6d004b4f1a4af45b6f57917adb4f837ff61cbbf22f3583b6d63ad64b2",
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/cold-review-v11.json"
+    },
+    {
+      "sha256": "f781f14dad5bae890bf94bcfb3593dd1274013a475bb7a89c7ebed58ffea9b81",
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/proof-review-v11.json"
+    }
+  ]
+}

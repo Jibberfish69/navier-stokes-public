@@ -98,7 +98,7 @@ The proof must show that a new one-way growth atom cannot appear for free.  It m
 
 ```math
 \text{initial smooth tail}
-+\text{pressure/Hodge source birth}
++\text{pressure/Helmholtz--Leray source birth}
 +\text{collar/metric deformation birth}
 +\text{annular stress-work birth}
 +\text{top-strain/frame birth}.

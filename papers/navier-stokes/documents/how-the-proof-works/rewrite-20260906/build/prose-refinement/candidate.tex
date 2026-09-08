@@ -1,0 +1,283 @@
+\begingroup
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.40\baselineskip}
+\setlength{\abovedisplayskip}{6.5pt plus 1.5pt minus 1.5pt}
+\setlength{\belowdisplayskip}{6.5pt plus 1.5pt minus 1.5pt}
+\setlength{\jot}{5pt}
+\clubpenalty=10000
+\widowpenalty=10000
+
+\section*{How the Proof Works}
+
+We start with a smooth, incompressible flow of finite energy and keep its
+viscosity fixed and positive. The problem is to prove that the flow remains
+smooth for all time. Its velocity \(u\) and pressure \(p\) satisfy the
+three-dimensional Navier--Stokes equation:
+\[
+ \underbrace{\partial_tu}_{\text{local acceleration}}
+ +\underbrace{(u\!\cdot\nabla)u}_{\text{nonlinear transport}}
+ =\underbrace{-\nabla p}_{\text{pressure}}
+ +\underbrace{\nu\Delta u}_{\text{viscous diffusion}},
+ \qquad \nabla\!\cdot u=0.
+\]
+The hope is simple: viscosity smooths the fluid faster than nonlinear
+transport can sharpen it.
+
+Consider the case of a vortex within the fluid. Its vorticity
+\(\omega=\nabla\times u\) satisfies
+\[
+ \partial_t\omega+(u\cdot\nabla)\omega
+ =(\omega\cdot\nabla)u+\nu\Delta\omega.
+\]
+Strain within the fluid's flow can naturally stretch a vortex.
+Incompressibility forces a tube of fluid particles along its core to narrow
+as it lengthens. For a thin, locally circular tube with length \(\ell\),
+radius \(r\), and positive axial strain \(\sigma\),
+\[
+ \dot\ell=\sigma\ell>0,
+ \qquad r\propto\ell^{-1/2}.
+\]
+If circulation \(\Gamma\) is retained through that narrowing, the mean
+swirl speed \(v\) increases:
+\[
+ v=\frac{|\Gamma|}{2\pi r}.
+\]
+Viscosity diffuses momentum between neighbouring regions of fluid, reducing
+velocity differences and spreading rotation through the surrounding fluid.
+Over an elapsed time \(\tau\), diffusion reaches a distance of order
+\[
+ r_{\mathrm{diff}}\sim\sqrt{\nu\tau}.
+\]
+The vortex core can spread beyond the narrowing material tube, weakening
+the circulation enclosed by it. Faster swirl depends on that circulation
+remaining strong enough as the radius shrinks.
+
+A narrower core gives viscosity less distance to act across, but the
+growing velocity can also sharpen the flow more quickly. To compare these
+effects at progressively smaller scales, we rescale the flow by
+\(\lambda>1\):
+\[
+ \begin{aligned}
+ u_\lambda(x,t)&=\lambda u(\lambda x,\lambda^2t),\\
+ p_\lambda(x,t)&=\lambda^2p(\lambda x,\lambda^2t).
+ \end{aligned}
+\]
+Lengths shrink by \(\lambda\), velocities grow by \(\lambda\), and times
+shrink by \(\lambda^2\). Every term in the momentum equation gains a
+factor \(\lambda^3\), leaving the rescaled flow governed by the original
+equation at viscosity \(\nu\). Smaller scales alone give viscosity no
+advantage over transport.
+
+To measure the concentration, we need to count spatial variation as well
+as the size of the velocity. The Sobolev index \(s\) sets how strongly
+we count that variation: integer values count spatial derivatives in
+\(L^2\), while fractional values weight frequency \(\xi\) by
+\(|\xi|^s\). Velocity contributes \(\lambda\), differentiation
+\(\lambda^s\), and the square root of the volume \(\lambda^{-3/2}\), giving
+\[
+ \|u_\lambda(\cdot,t)\|_{\dot H^s}
+ =\lambda^{s-1/2}\|u(\cdot,\lambda^2t)\|_{\dot H^s}.
+\]
+Below \(s=\tfrac12\), concentration makes this norm smaller; above
+\(s=\tfrac12\), it makes it larger. At exactly \(s=\tfrac12\), the
+increased variation offsets the shrinking volume. This critical height
+lets us compare concentration without the measurement changing simply
+because we changed scale.
+
+\needspace{7\baselineskip}
+Energy sits below that height. For \(E=\tfrac12\|u\|_2^2\),
+\[
+ E[u_\lambda](t)=\lambda^{-1}E[u](\lambda^2t).
+\]
+The velocity grows while total energy falls: the faster motion occupies
+less volume. An energy bound alone cannot exclude this concentration.
+
+Nor does concentration necessarily run out of time. At width \(r\) and
+velocity scale \(U\), transport acts over a time of order \(r/U\), and
+viscosity over \(r^2/\nu\). Both shorten by \(\lambda^2\) under the
+rescaling. If a flow could repeat these narrowing stages, their durations
+would fit into a finite total:
+\[
+ \tau_j=\lambda^{-2j}\tau_0,
+ \qquad
+ \sum_{j=0}^{\infty}\tau_j
+ =\frac{\tau_0}{1-\lambda^{-2}}<\infty.
+\]
+In this hypothetical Zeno cascade, infinitely many stages accumulate at
+a finite time \(T_*\). There is no smallest width or final stage of
+acceleration. The scaling allows this picture; the regularity problem
+is whether the fluid can actually carry it out.
+
+For a finite-time singularity, velocity would have to blow up. That requires
+acceleration to blow up, then jerk, and so on, and so on. These changes in
+velocity are governed by the Navier--Stokes equation. Differentiating it
+shows what each further temporal order involves:
+\[
+ \begin{aligned}
+ \partial_tu={}&\nu\Delta u-(u\cdot\nabla)u-\nabla p,\\
+ \partial_t^2u={}&\nu\Delta\partial_tu
+ -(\partial_tu\cdot\nabla)u\\
+ &-(u\cdot\nabla)\partial_tu-\nabla\partial_tp,\\
+ \partial_t^3u={}&\nu\Delta\partial_t^2u
+ -(\partial_t^2u\cdot\nabla)u\\
+ &-2(\partial_tu\cdot\nabla)\partial_tu
+ -(u\cdot\nabla)\partial_t^2u
+ -\nabla\partial_t^2p.
+ \end{aligned}
+\]
+Each time derivative splits the transport product and applies a Laplacian
+to the preceding response. Substituting the first equation into the second
+exposes \(\Delta^2u\); the next substitution exposes \(\Delta^3u\).
+Higher temporal orders reach further into the spatial derivatives, with
+the nonlinear terms carried along:
+\[
+ \begin{aligned}
+ \partial_t^{n+1}u={}&\nu\Delta\partial_t^nu\\
+ &-\sum_{a=0}^{n}\binom na
+ (\partial_t^au\cdot\nabla)\partial_t^{n-a}u
+ -\nabla\partial_t^np.
+ \end{aligned}
+\]
+
+At the critical height, this relation exposes the spatial regularity
+behind those temporal demands. Write
+\(E_s=\tfrac12\|\Lambda^su\|_2^2\), where
+\(\Lambda=(-\Delta)^{1/2}\), and let \(H=E_{1/2}\).
+Differentiating \(E_s\) and integrating the viscous term by parts moves
+one spatial derivative onto each factor:
+\[
+ E_s'=-2\nu E_{s+1}+\mathcal P_s,
+\]
+with the transport and pressure contribution
+\[
+ \mathcal P_s=-\operatorname{Re}\langle\Lambda^su,
+ \Lambda^s((u\cdot\nabla)u+\nabla p)\rangle_{L^2}.
+\]
+Starting at \(s=\tfrac12\), each further time derivative exposes the next
+spatial energy:
+\[
+ \begin{aligned}
+ H'&=-2\nu E_{3/2}+\mathcal P_{1/2},\\
+ H''&=4\nu^2E_{5/2}-2\nu\mathcal P_{3/2}
+        +\partial_t\mathcal P_{1/2}.
+ \end{aligned}
+\]
+Continuing through \(H''',H^{(4)},\ldots\) reaches
+\(E_{7/2},E_{9/2},\ldots\), together with the differentiated nonlinear
+contributions.
+
+\needspace{7\baselineskip}
+Those spatial orders are enough for smoothness. Any chosen number \(k\)
+of continuous spatial derivatives needs only a finite Sobolev height:
+\[
+ m>k+\tfrac32
+ \quad\Longrightarrow\quad H^m(\mathbb R^3)\hookrightarrow C^k(\mathbb R^3).
+\]
+Every choice of \(k\) is covered by a sufficiently high half-integer order.
+With finite energy, their intersection is
+\[
+ L^2\cap\bigcap_{n\ge0}\dot H^{n+1/2}
+ =\bigcap_{m\ge0}H^m
+ =H^\infty\hookrightarrow C^\infty.
+\]
+The temporal requirements of a singularity have led us into the spatial
+requirements of smoothness. If these orders remain controlled together
+through \(T_*\), their limiting velocity is smooth enough to start the
+flow again.
+
+If a singularity were to form, we would expect the opposite: smoothness at
+every earlier instant, but an unbounded fixed Sobolev norm as \(t\) approaches
+\(T_*\). The temporal responses would become unbounded too, even while total
+energy remained finite. Having all finite derivatives before \(T_*\) would
+not give us the control needed to carry them through it.
+
+That control must come from the initial velocity
+\(u_0\in H^\infty_\sigma(\mathbb R^3)\) under the equation.
+Incompressibility fixes pressure through
+\(-\Delta p=\partial_i\partial_j(u_i u_j)\), with its decay normalization.
+Writing \(V_n=\partial_t^nu\) and \(Q_n=\partial_t^np\), the velocity
+and pressure responses obey
+\[
+ \begin{aligned}
+ V_{n+1}&=\nu\Delta V_n
+ -\sum_{a=0}^n\binom na(V_a\cdot\nabla)V_{n-a}-\nabla Q_n,\\
+ Q_n&=R_iR_j\sum_{a=0}^n\binom na V_{a,i}V_{n-a,j}.
+ \end{aligned}
+\]
+Here \(R_i\) are the Riesz transforms and repeated spatial indices are
+summed. Starting with \(V_0=u_0\) at \(t=0\), these relations determine
+each subsequent response. Spatial differentiation fills out each temporal
+row. The resulting collection of velocity and pressure derivatives is the
+mixed jet generated by the datum.
+
+We can retain any finite number of temporal rows and spatial orders.
+Choosing a temporal depth \(N\) and spatial height \(M\) gives a rectangle
+\(\mathcal R_{N,M}[u_0;T_*]\). The datum-generated rectangle theorem,
+Theorem~\ref{thm:datum-rectangles}, controls its adjacent temporal rows
+throughout the approach to \(T_*\):
+\[
+ \sup_{0<T<T_*}\sum_{n=0}^{N}\left(
+ \|V_n\|_{L^2(0,T;H^{M+1})}^2
+ +\|V_{n+1}\|_{L^2(0,T;H^{M-1})}^2
+ \right)<\infty.
+\]
+The bound can depend on the orders \(N,M\), but remains finite as
+\(T\) approaches \(T_*\). Since \(V_{n+1}=\partial_tV_n\), the
+adjacent rows control both a response and its change in time. The spaces
+\(H^{M+1}\) and \(H^{M-1}\) pair across \(H^M\); their time-integrable
+product gives a continuous endpoint trace by the Hilbert-triple theorem:
+\[
+ V_n\in C([0,T_*];H^M).
+\]
+
+\needspace{11\baselineskip}
+A larger rectangle retains the derivatives already present. On each
+overlap, both rectangles contain derivatives of the original velocity and
+pressure, so their entries and endpoint traces agree. We can increase
+temporal depth and spatial height independently without losing that
+agreement. Their compatible intersection gives
+\[
+ \begin{aligned}
+ \mathcal I[u_0]
+ &:=\bigl(\mathcal R_{N,M}[u_0;T_*]\bigr)_{N,M\ge0},\\
+ u&\in\bigcap_{r,m\ge0}H^r(0,T_*;H^m(\mathbb R^3)).
+ \end{aligned}
+\]
+Every finite request for derivatives fits inside one of these rectangles.
+In particular, the velocity reaches \(T_*\) in every spatial Sobolev
+space, and its traces agree as one limiting velocity:
+\[
+ \begin{aligned}
+ u_*&=\lim_{t\uparrow T_*}u(t)\quad\text{in every }H^m,\\
+ u_*&\in H^\infty_\sigma\hookrightarrow C^\infty.
+ \end{aligned}
+\]
+Smooth local existence starts the flow again from \(u_*\), and uniqueness
+joins it to the original solution. It continues beyond its supposed
+maximal time. A finite \(T_*\) is impossible, so \(T_*=\infty\).
+
+The constructed intersection now supplies finite estimates at any chosen
+orders. For any finite time \(T\), temporal order \(r\), spatial order
+\(k\), and \(2\le p\le\infty\), choose
+\(m>k+\tfrac32-\tfrac3p\). Sobolev embedding gives
+\[
+ \partial_t^ru\in C([0,T];H^m)
+ \hookrightarrow L^\infty(0,T;W^{k,p}).
+\]
+In particular, taking \(r=0\), \(k=1\), \(p=\infty\), and \(m=3\)
+controls the total strain over any finite time:
+\[
+ \int_0^T\|\nabla u(t)\|_\infty\,dt
+ \le T\sup_{0\le t\le T}\|\nabla u(t)\|_\infty<\infty.
+\]
+For the locally circular material tube at the start,
+\(\dot r/r=-\sigma/2\) and \(\sigma\le\|\nabla u\|_\infty\). Hence
+\[
+ r(t)\ge r(0)\exp\!\left(
+ -\frac12\int_0^t\|\nabla u(s)\|_\infty\,ds
+ \right)>0.
+\]
+Only a finite amount of stretching can accumulate in a finite time.
+The tube cannot be squeezed to zero radius there.
+
+\endgroup

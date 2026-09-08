@@ -1,0 +1,286 @@
+\begingroup
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45\baselineskip}
+\setlength{\abovedisplayskip}{7pt plus 1.5pt minus 1.5pt}
+\setlength{\belowdisplayskip}{7pt plus 1.5pt minus 1.5pt}
+\setlength{\jot}{5pt}
+
+\section*{How the Proof Works}
+
+The three-dimensional Navier--Stokes regularity problem asks whether a smooth
+flow can become singular in finite time. We begin with a smooth,
+divergence-free initial velocity \(u_0\in H^\infty(\mathbb R^3)\), of finite
+energy, and fix a positive viscosity \(\nu\). The fluid evolves according to
+\[
+ \partial_tu+(u\!\cdot\nabla)u=-\nabla p+\nu\Delta u,
+ \qquad \nabla\cdot u=0,
+ \qquad u(0)=u_0.
+\]
+The hope is simple: viscosity smooths the fluid faster than nonlinear transport can sharpen it.
+
+Strain within the fluid's flow can naturally stretch a vortex. When that
+happens, incompressibility narrows the stretched parcel: its volume stays
+fixed as its length increases. Stretching can intensify the rotation within
+this narrowing region, creating sharper differences between neighboring
+velocities. Viscosity smooths those differences. The difficulty is whether
+stretching can keep renewing them as the width tends to zero.
+
+We can follow that competition down in scale by rescaling the equation while
+keeping viscosity fixed. A contraction of lengths by a factor \(\lambda>1\),
+together with an increase in velocity by \(\lambda\), gives
+\[
+ u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
+ \qquad
+ p_\lambda(x,t)=\lambda^2p(\lambda x,\lambda^2t).
+\]
+Every term in the momentum equation gains a factor \(\lambda^3\). Nonlinear
+transport and viscous diffusion remain in their original proportion under
+this rescaling, however small the scale becomes. The smaller distance over
+which viscosity acts is accompanied by faster transport across it. Scaling
+alone leaves their competition unresolved.
+
+For kinetic energy, squaring the rescaled velocity contributes
+\(\lambda^2\), while the change of spatial variables contributes
+\(\lambda^{-3}\). The resulting kinetic energy is smaller by a factor
+\(\lambda^{-1}\), even as the velocity increases. To measure the
+sharper spatial variation, we use the Sobolev order \(s\). It counts spatial
+derivatives in a square-integrable sense, including fractional orders;
+increasing \(s\) gives finer variations more weight. Under the rescaling,
+\[
+ \|u_\lambda(\cdot,t)\|_{\dot H^s}
+ =\lambda^{s-1/2}\|u(\cdot,\lambda^2t)\|_{\dot H^s}.
+\]
+Below \(s=\tfrac12\), the norm falls as the flow concentrates; above it, the
+norm rises. At exactly \(s=\tfrac12\), it is unchanged. This is the critical
+height, where the measurement preserves its size through the fixed-viscosity
+comparison. Invariance under rescaling is a statement about comparing scales;
+the critical norm can still change as a solution evolves. Energy lies below
+this height, at \(s=0\). Its decrease is compatible with increasingly rapid
+motion concentrated into an increasingly small region.
+
+There is also less time between successive stages of concentration. A motion
+with length scale \(\ell\) and speed \(U\) has a crossing time \(\ell/U\).
+Contracting \(\ell\) by \(\lambda\) while increasing \(U\) by \(\lambda\)
+shortens that time by \(\lambda^2\), just as in the rescaled equation. If the
+fluid repeated this process at every stage, the durations would satisfy
+\[
+ \tau_j=\lambda^{-2j}\tau_0,
+ \qquad
+ \sum_{j=0}^{\infty}\tau_j
+ =\frac{\tau_0}{1-\lambda^{-2}}<\infty.
+\]
+Infinitely many stages could fit into a finite interval, with the width
+vanishing and the speed becoming unbounded. This is the hypothetical Zeno
+cascade. It explains how a finite-energy fluid could approach a singularity
+without running out of time for the required acceleration. Whether the
+Navier--Stokes evolution can actually carry out such a cascade still has to
+be decided.
+
+In order for a singularity to happen, velocity has to blow up. In order for
+that to happen, its acceleration would also have to blow up, which means its
+jerk has to blow up, and so on, and so on. Here blow-up means unbounded spatial
+supremum norm as a finite terminal time is approached, and acceleration and
+jerk refer to the local time derivatives \(\partial_tu\) and
+\(\partial_t^2u\). Following a moving fluid particle instead gives the
+material acceleration \(\partial_tu+(u\!\cdot\nabla)u\). The necessity in
+the local derivative sequence follows directly by integration: for every
+finite \(j\), and smooth times \(t_0<t\),
+\[
+ \|\partial_t^ju(t)\|_\infty
+ \le \|\partial_t^ju(t_0)\|_\infty
+   +\int_{t_0}^{t}\|\partial_t^{j+1}u(\tau)\|_\infty\,d\tau.
+\]
+An unbounded left side requires an infinite accumulated size of the next
+time derivative, at every step in the escalation.
+
+The equation expresses \(\partial_tu\) through \(\nu\Delta u\), nonlinear transport and
+pressure. Differentiating again brings in \(\nu\Delta\partial_tu\); substituting
+the equation into that term reaches \(\nu^2\Delta^2u\), along with the
+differentiated nonlinear and pressure terms. Repeating the operation keeps
+exposing higher spatial derivatives inside the higher time derivatives.
+
+We can see that content at the critical height already found. Write
+\(\Lambda=(-\Delta)^{1/2}\), let
+\(E_s(t)=\tfrac12\|\Lambda^su(t)\|_2^2\), and consider the scalar quantity
+\(H(t)=E_{1/2}(t)\). These are measurements of the evolving velocity field;
+their time derivatives combine derivatives of that field. Pairing the
+momentum equation with the velocity at Sobolev order \(s\), the viscous term
+integrates by parts to \(-\nu\|\Lambda^{s+1}u\|_2^2\). If we write
+\[
+ \mathcal P_s
+ =-\left\langle\Lambda^su,
+   \Lambda^s\bigl((u\!\cdot\nabla)u+\nabla p\bigr)\right\rangle_{L^2}
+\]
+for the transport and pressure contribution, the energy balance is
+\(E_s'=\mathcal P_s-2\nu E_{s+1}\). Differentiating the balance at the
+critical height, then using it at the newly appearing height, gives
+\[
+ \begin{aligned}
+ H'&=\mathcal P_{1/2}-2\nu E_{3/2},\\
+ H''&=\mathcal P_{1/2}'-2\nu\mathcal P_{3/2}
+                  +(2\nu)^2E_{5/2}.
+ \end{aligned}
+\]
+At temporal order \(n\), this repeated substitution gives
+\((-2\nu)^nE_{n+1/2}\) alongside differentiated transport and pressure terms.
+Controlling that complete balance would control the velocity at Sobolev order
+\(n+\tfrac12\). Each additional time differentiation reaches a higher spatial
+regularity requirement within the evolving fluid. The identity holds while
+the flow is smooth; the needed bounds must persist as the endpoint is
+approached.
+
+At one fixed Sobolev order, we can control only a finite number of continuous
+spatial derivatives. But there is no final order in this construction. Given
+any finite derivative order \(k\), we can choose \(n>k+1\), so that
+\(n+\tfrac12>k+\tfrac32\), and use Sobolev embedding to control that derivative.
+If a common velocity state belongs to every exposed height, with its
+finite-energy component retained, it belongs to
+\[
+ L^2\cap\bigcap_{n=0}^{\infty}\dot H^{n+1/2}
+ =\bigcap_{m=0}^{\infty}H^m
+ =H^\infty
+ \hookrightarrow C^\infty.
+\]
+For each requested derivative, a sufficiently high finite order does the
+work. Smoothness follows because the state satisfies all of those
+requirements together. Their bounds can grow with derivative order; smoothness
+does not require one number to bound them all.
+
+The temporal side has this interpretation too. At a fixed spatial order
+\(m\), controlling every finite time derivative makes the velocity smooth as
+an \(H^m\)-valued function of time. Allowing \(m\) to range through every
+finite spatial order then accounts for its mixed time and space derivatives.
+To use this connection for
+continuation, those requirements must hold through the full approach to the
+proposed terminal time. Their intersection can then supply a common terminal
+state with every spatial derivative, while the time regularity makes the
+approach to that state continuous. The fluid would arrive at the supposed
+singular time smooth enough to start again.
+
+If a singularity were to form, we would expect to see the opposite behavior:
+the velocity and its successive time derivatives escalating while spatial
+regularity fails at the limiting time. In the concentrating picture, the
+higher Sobolev norms would grow even though the kinetic energy remained
+bounded. Every earlier time could still look smooth. The failure would appear
+as the loss of control when the endpoint is approached, with bounds valid on
+shorter intervals becoming arbitrarily large. Excluding that
+loss requires control for every chosen finite set of time and space
+derivatives throughout the approach to the endpoint. We have to obtain that
+control from the evolution of the given initial velocity.
+
+The initial velocity also determines its initial time derivatives, through
+the momentum equation and its differentiated forms:
+\begin{flalign*}
+ &\partial_tu=\nu\Delta u-(u\!\cdot\nabla)u-\nabla p,&&\\
+ &\partial_t^2u=\nu\Delta\partial_tu
+   -(\partial_tu\!\cdot\nabla)u
+   -(u\!\cdot\nabla)\partial_tu-\nabla\partial_tp,&&\\
+ &\partial_t^3u=\nu\Delta\partial_t^2u
+   -(\partial_t^2u\!\cdot\nabla)u
+   -2(\partial_tu\!\cdot\nabla)\partial_tu
+   -(u\!\cdot\nabla)\partial_t^2u-\nabla\partial_t^2p.&&
+\end{flalign*}
+Each differentiation distributes itself over the two factors in transport.
+The coefficients count the ways this can happen. Writing
+\(V_r=\partial_t^ru\) and \(Q_r=\partial_t^rp\), the pattern becomes
+\[
+ V_{r+1}=\nu\Delta V_r
+ -\sum_{a=0}^{r}\binom ra(V_a\!\cdot\nabla)V_{r-a}-\nabla Q_r.
+\]
+Pressure is determined by incompressibility. Taking the divergence of the
+original equation gives \(-\Delta p=\partial_i\partial_j(u_i u_j)\).
+With the decay normalization, its differentiated form is
+\[
+ Q_r=R_iR_j\sum_{a=0}^{r}\binom raV_{a,i}V_{r-a,j},
+ \qquad R_i=\partial_i(-\Delta)^{-1/2},
+\]
+where repeated component indices are summed. Starting with \(V_0(0)=u_0\),
+these relations determine \(Q_0(0)\), then \(V_1(0)\), then \(Q_1(0)\), and
+continue through any finite order. Taking spatial derivatives as well gives
+the mixed velocity and pressure derivatives generated by the datum.
+
+A finite piece of this structure retains time derivatives through a chosen
+order and measures their spatial regularity through another chosen order.
+We call it a rectangle because these two depths, \(N\) and \(M\), can be
+chosen independently. The datum-generated rectangle theorem,
+Theorem~\ref{thm:datum-rectangles}, establishes the control needed on the
+entire maximal interval \([0,T_*)\), under the assumption \(T_*<\infty\):
+for every finite \(n,M\),
+\[
+ V_n\in L^2(0,T_*;H^{M+1}),
+ \qquad
+ V_{n+1}\in L^2(0,T_*;H^{M-1}).
+\]
+These adjacent spatial orders reflect the two derivatives in the Laplacian
+linking a temporal response to the next. The theorem supplies their
+integrability all the way to \(T_*\). Restricting to any earlier cutoff
+\(T<T_*\) gives bounds independent of that cutoff; a fixed rectangle
+contains only finitely many such norms. The recurrence determines which
+coordinates belong in the rectangle, and the datum-generated theorem gives
+the full-interval control. Pressure remains attached through its displayed
+formula, which also gives the required finite pressure norms.
+
+Enlarging a rectangle adds derivatives and stronger spatial requirements.
+Every coordinate already present remains the corresponding derivative of
+\(u\) or \(p\). This agreement on overlap is what lets the finite pieces
+combine. If we ask for \(r\) time derivatives measured in \(H^m\), one
+sufficiently large rectangle contains all of them, and every larger rectangle
+agrees with that choice. Ranging over finite \(r,m\) gives the compatible
+intersection \(\mathcal I[u_0]\), whose velocity satisfies
+\[
+ u\in\bigcap_{r,m=0}^{\infty}H^r(0,T_*;H^m(\mathbb R^3)).
+\]
+Here membership means that each specified finite set of derivatives has a
+finite norm. Compatibility ensures that all these statements describe the
+original fluid evolving from \(u_0\).
+
+We can now follow that fluid to its endpoint. Fix a spatial order \(m\).
+The zeroth temporal row of the intersection gives
+\(u\in L^2(0,T_*;H^{m+2})\). Sobolev multiplication and the pressure formula
+place \((u\!\cdot\nabla)u+\nabla p\) in \(L^1(0,T_*;H^m)\); the
+Laplacian term \(\nu\Delta u\) belongs there too, by Cauchy--Schwarz in time
+on the finite interval. The equation
+then gives \(u_t\in L^1(0,T_*;H^m)\). Between two late times,
+\[
+ \|u(t)-u(s)\|_{H^m}
+ \le\int_s^t\|u_t(\tau)\|_{H^m}\,d\tau
+ \longrightarrow0
+ \qquad(s,t\uparrow T_*).
+\]
+The remaining time integral shrinks to zero, so the velocity converges in
+\(H^m\). This holds at every finite \(m\). The limits agree under the
+Sobolev embeddings because they are limits of the original velocity, giving
+one divergence-free terminal state
+\[
+ u_*:=\lim_{t\uparrow T_*}u(t)
+ \in\bigcap_{m=0}^{\infty}H^m(\mathbb R^3)
+ =H^\infty(\mathbb R^3).
+\]
+
+The pressure formula and differentiated momentum equation determine every
+endpoint time derivative from \(u_*\). Local existence supplies a solution
+starting from this smooth state. Its existence time is stable for nearby
+late data \(u(t_0)\), and uniqueness identifies the local solutions on their
+overlapping intervals. This continues the original solution past \(T_*\),
+with the velocity and pressure derivatives agreeing across the join. A finite
+maximal lifespan is impossible, so \(T_*=\infty\).
+
+The completed intersection also gives the finite estimates we want to use.
+On any finite interval \([0,T]\), choose a time derivative order \(r\), a
+spatial derivative order \(k\), and an exponent \(2\le p\le\infty\).
+Choosing a spatial height \(m>k+\tfrac32-\tfrac3p\) gives
+\[
+ \partial_t^ru\in C([0,T];H^m)
+ \hookrightarrow L^\infty(0,T;W^{k,p}).
+\]
+For example, the \(r=0\), \(m=3\) coordinate controls the velocity gradient
+in spatial supremum norm, so
+\[
+ \int_0^T\|\nabla u(t)\|_\infty\,dt
+ \le C T\|u\|_{C([0,T];H^3)}<\infty.
+\]
+The desired estimate determines which finite part of the intersection to
+take. Having constructed that intersection and continued the fluid, we can
+derive the finite estimates, and use them.
+
+\endgroup

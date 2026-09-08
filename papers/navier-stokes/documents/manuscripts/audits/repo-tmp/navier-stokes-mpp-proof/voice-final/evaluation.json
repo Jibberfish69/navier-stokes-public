@@ -1,0 +1,88 @@
+{
+  "task_id": "task-a83a785e02a053f8",
+  "task_sha256": "3457c950505f9d3da2760897b75e75042097a5738ab2bc6a445481d48b2611fa",
+  "prediction_sha256": "9922896bd9a8655ae3e35255b0dca57b0fef92d8c29c2b2a61aae819e889187e",
+  "candidate_sha256": "048d35d568f8be8735ddbe709f716bae6fe11305d7c7a44a793537f4884f9927",
+  "selected_move_id": "full-proof-paper",
+  "producer_id": "root-author",
+  "evaluator_id": "independent-reader-audit",
+  "dimensions": {
+    "task_fidelity": {
+      "status": "pass",
+      "evidence": "The candidate is a complete standalone proof paper governed by the supplied note."
+    },
+    "work_advancement": {
+      "status": "pass",
+      "evidence": "The note is developed into a compiled sixteen-page artifact with derivations, endpoint construction, restart, appendix, and references."
+    },
+    "structural_meshing": {
+      "status": "pass",
+      "evidence": "Every section preserves the chain from one history through the mixed jet, compatible intersection, projections, endpoint, and restart."
+    },
+    "bridge_quality": {
+      "status": "pass",
+      "evidence": "Each completed object is explicitly used to generate the next object in the proof."
+    },
+    "enrichment_control": {
+      "status": "pass",
+      "evidence": "Added trace, product, dyadic, and local-theory details serve referee verification without adding another proof route."
+    },
+    "intellectual_value": {
+      "status": "pass",
+      "evidence": "The estimate-generator idea is made operational through repeated finite-coordinate selections."
+    },
+    "authorial_completion": {
+      "status": "pass",
+      "evidence": "The paper carries the argument to the global conclusion and includes its technical boundaries."
+    },
+    "thought_selection": {
+      "status": "pass",
+      "evidence": "The supplied causal order remains the organizing thought of the paper."
+    },
+    "direct_object_fidelity": {
+      "status": "pass",
+      "evidence": "The same datum, parameter, velocity-pressure history, rectangles, intersection, endpoint, and restart remain in custody throughout."
+    },
+    "connection": {
+      "status": "pass",
+      "evidence": "The prose states why each mathematical landing creates the need for the next."
+    },
+    "development": {
+      "status": "pass",
+      "evidence": "Every consequence named in the note has its own displayed derivation and exact finite-order scope."
+    },
+    "expression": {
+      "status": "pass",
+      "evidence": "The prose is direct, causal, reader-facing, and uses standard mathematical notation."
+    },
+    "nuance": {
+      "status": "pass",
+      "evidence": "The paper distinguishes fixed-order bounds from an all-order uniform constant and finite horizon from infinite-horizon decay."
+    },
+    "understanding": {
+      "status": "pass",
+      "evidence": "The candidate preserves the difference between the inverse-limit record and its velocity realization, and between fixed-position and material responses."
+    },
+    "authorship": {
+      "status": "pass",
+      "evidence": "The paper follows Thomas's one-object reasoning and lets the estimate generator emerge through consequences rather than summary language."
+    },
+    "reader_continuity": {
+      "status": "pass",
+      "evidence": "A reader enters with one maximal history and exits with the same-history continuation, with no change of object between them."
+    },
+    "deeper_connections_and_thoughts": {
+      "status": "pass",
+      "evidence": "Classical criteria, critical height, shell sums, pressure, and frequency tails are connected as projections of one intersection."
+    },
+    "sample_content_leakage": {
+      "status": "pass",
+      "evidence": "The final source passed the quarantined-term scan and contains no repository or process locators."
+    },
+    "confidence_calibration": {
+      "status": "pass",
+      "evidence": "Claims are restricted to the displayed finite indices, finite horizon, and settled theorem supplied to the paper."
+    }
+  },
+  "verdict": "pass"
+}

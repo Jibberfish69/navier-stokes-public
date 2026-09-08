@@ -1,0 +1,105 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.2 Finite-Time Response Escalation
+% ============================================================
+
+\subsection{Finite-Time Response Escalation}\label{sub:FiniteTimeResponseEscalation}
+
+Set
+\[
+  V_j(t)
+  :=
+  \partial_t^j u(\,\cdot\,,t),
+  \qquad
+  j\in\Nzero.
+\]
+These are Eulerian time derivatives: the spatial coordinate is held fixed while time changes.
+Let \(X\) be any Banach space in which two consecutive rows are defined on a strict interval \([t_0,t]\subset[0,T_*)\).
+The fundamental theorem of calculus gives
+\[
+  V_j(t)
+  =
+  V_j(t_0)
+  +
+  \int_{t_0}^{t}V_{j+1}(\tau)\,d\tau.
+\]
+Taking the \(X\)-norm gives
+\[
+  \norm{V_j(t)}_X
+  \leq
+  \norm{V_j(t_0)}_X
+  +
+  \int_{t_0}^{t}\norm{V_{j+1}(\tau)}_X\,d\tau.
+\]
+Thus
+\[
+  \int_{t_0}^{T_*}\norm{V_{j+1}(\tau)}_X\,d\tau
+  <
+  \infty
+\]
+gives a finite upper bound for \(V_j\) throughout the remaining interval.
+It also gives a unique endpoint value in \(X\), since for \(t_0<s<t<T_*\),
+\[
+  \norm{V_j(t)-V_j(s)}_X
+  \leq
+  \int_s^t\norm{V_{j+1}(\tau)}_X\,d\tau.
+\]
+The absolute continuity of the integral makes \(V_j(t)\) Cauchy as \(t\uparrow T_*\).
+
+Now suppose that the \(j\)-th row becomes unbounded in \(X\):
+\[
+  \sup_{t_0\leq t<T_*}
+  \norm{V_j(t)}_X
+  =
+  \infty.
+\]
+The preceding estimate forces
+\[
+  \int_{t_0}^{T_*}
+  \norm{V_{j+1}(\tau)}_X
+  \,d\tau
+  =
+  \infty.
+\]
+Since \(T_*-t_0\) is finite,
+\[
+  \int_{t_0}^{T_*}
+  \norm{V_{j+1}(\tau)}_X
+  \,d\tau
+  \leq
+  (T_*-t_0)
+  \sup_{t_0\leq t<T_*}
+  \norm{V_{j+1}(t)}_X
+\]
+whenever the supremum on the right is finite.
+Consequently,
+\[
+  \sup_{t_0\leq t<T_*}
+  \norm{V_j(t)}_X
+  =
+  \infty
+  \quad\Longrightarrow\quad
+  \sup_{t_0\leq t<T_*}
+  \norm{V_{j+1}(t)}_X
+  =
+  \infty.
+\]
+Repeating the same argument gives
+\[
+  \sup_{t_0\leq t<T_*}
+  \norm{V_{j+k}(t)}_X
+  =
+  \infty
+  \qquad
+  \text{for every finite }k\geq1.
+\]
+
+This is the exact content of the earlier statement that a finite-time blow-up must be led by faster responses above it.
+The statement begins at whichever Eulerian row first becomes unbounded in the chosen norm.
+Velocity can remain bounded while a gradient or a higher time derivative becomes the first escaping quantity; the same argument then starts at that coordinate.
+The implication concerns size alone.
+Each higher row may oscillate, change direction, and pass through zero while still having the unbounded size required by the implication.
+
+The physical language of acceleration and jerk follows a moving fluid particle, whereas \(V_1\) and \(V_2\) hold space fixed.
+The distinction matters because transport separates these two kinds of differentiation.
+The original equation tells us exactly how they fit together, and differentiating that equation produces the full response family forced by the fluid itself.

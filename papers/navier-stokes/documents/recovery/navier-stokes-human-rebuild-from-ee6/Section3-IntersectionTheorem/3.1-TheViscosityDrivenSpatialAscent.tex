@@ -1,0 +1,105 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{A spatial column inside every temporal response}\label{sub:TheViscosityDrivenSpatialAscent}
+
+Before estimating anything, fix the algebraic point at which the two directions
+meet.  Begin with \(V_0=u\), whose critical height first exposed the spatial
+movement.  For \(s\geq0\), set
+\[
+  E_s(t):=\frac12\norm{\Lambda^su(t)}_2^2
+\]
+and retain the complete transport--pressure pairing
+\[
+  \mathcal P_s(t)
+  :=-
+  \operatorname{Re}
+  \pair{\Lambda^su}
+  {\Lambda^s\bigl((u\cdot\nabla)u+\nabla p\bigr)}_{L^2}.
+\]
+The momentum equation paired at that height is
+\begin{equation}\label{eq:BodyFullSpatialEnergyBalance}
+  E_s'=\mathcal P_s-2\nu E_{s+1}.
+\end{equation}
+At \(s=\tfrac12\),
+\begin{equation}\label{eq:BodyFirstCriticalRow}
+  H'=\mathcal P_{1/2}-2\nu E_{3/2}.
+\end{equation}
+Differentiate this same row.  The first two steps are
+\begin{align}
+  H''
+  &=\partial_t\mathcal P_{1/2}
+  -2\nu\mathcal P_{3/2}
+  +(2\nu)^2E_{5/2},
+  \label{eq:BodySecondCriticalRow}\\
+  H'''
+  &=\partial_t^2\mathcal P_{1/2}
+  -2\nu\partial_t\mathcal P_{3/2}
+  +(2\nu)^2\mathcal P_{5/2}
+  -(2\nu)^3E_{7/2}.
+  \label{eq:BodyThirdCriticalRow}
+\end{align}
+Each differentiation exposes one higher spatial energy, and each lower
+transport--pressure transfer survives beside it.
+
+At finite order \(n\), the complete identity is
+\begin{equation}\label{eq:BodyCriticalHeightSpatialAscent}
+  H^{(n)}
+  =(-2\nu)^nE_{n+1/2}
+  +\sum_{j=0}^{n-1}
+  (-2\nu)^j
+  \partial_t^{\,n-1-j}\mathcal P_{j+1/2},
+  \qquad n\geq1.
+\end{equation}
+Its induction from \eqref{eq:BodyFullSpatialEnergyBalance} is carried out in
+\Cref{prop:CriticalHeightSpatialAscent}.  Because \(\nu>0\), the row can be
+solved for its top coordinate:
+\begin{equation}\label{eq:BodyCompletedCriticalRow}
+  E_{n+1/2}
+  =\frac{
+    H^{(n)}-
+    \displaystyle\sum_{j=0}^{n-1}
+    (-2\nu)^j\partial_t^{\,n-1-j}\mathcal P_{j+1/2}
+  }{(-2\nu)^n}.
+\end{equation}
+The division has not erased the transfer sum.  It has isolated the exact
+collection that must be controlled before the exposed spatial energy is
+controlled.  This is where the hoped-for reversal becomes conditional:
+viscosity has put a higher energy in the equation, but writing the equation has
+not bounded the nonlinear chain on its right.
+
+The height derivative remains a contraction of the velocity responses:
+\begin{equation}\label{eq:BodyHeightDerivativeVelocityContraction}
+  H^{(n)}
+  =\frac12\sum_{a=0}^{n}\binom{n}{a}
+  \operatorname{Re}
+  \pair{\Lambda^{1/2}V_a}
+       {\Lambda^{1/2}V_{n-a}}_{L^2}.
+\end{equation}
+The three readings at order \(n\) must remain distinct.  \(V_n\) is the
+Eulerian response of the velocity, \(H^{(n)}\) is a quadratic contraction of
+the temporal responses, and \(E_{n+1/2}\) is the highest spatial energy
+exposed after the full transfer chain has been retained.
+
+\begin{center}
+\captionsetup{hypcap=false}
+\captionof{table}{The temporal response and the spatial height exposed at the same order.}
+\label{tab:CompletedCriticalHeightRows}
+\small
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{@{}c c c c@{}}
+\toprule
+order & velocity response & critical response & exposed height \\
+\midrule
+\(0\) & \(V_0=u\) & \(H=E_{1/2}\) & \(E_{1/2}\) \\
+\(1\) & \(V_1=u_t\) & \(H'\) & \(E_{3/2}\) \\
+\(2\) & \(V_2=u_{tt}\) & \(H''\) & \(E_{5/2}\) \\
+\(3\) & \(V_3=u_{ttt}\) & \(H'''\) & \(E_{7/2}\) \\
+\(n\) & \(V_n=\partial_t^nu\) & \(H^{(n)}\) & \(E_{n+1/2}\) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Now shift the base from \(u\) to any fixed response \(V_r\).  The Laplacian
+still acts linearly on that same response, and every split of the transport
+derivative remains in the binomial sum.  The question is no longer whether a
+higher spatial coordinate appears.  It is where the equation actually pays
+for that coordinate on the history already in hand.

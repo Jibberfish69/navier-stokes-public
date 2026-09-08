@@ -44,7 +44,7 @@ For a stopped packet \(P\subseteq S\), construct \(b_P\) from a local adjoint ma
 =\mathbf 1_P-\langle \mathbf 1_P\rangle_S
 ```
 
-or the corresponding stopped same-material pressure-Hodge / martingale adjoint equation. Then set
+or the corresponding stopped same-material pressure-Helmholtz--Leray / martingale adjoint equation. Then set
 
 ```math
 b_P := 1+\nabla_A\Phi_P\cdot \eta_P

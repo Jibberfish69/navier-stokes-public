@@ -1,0 +1,255 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.1 Vortex Stretching
+% ============================================================
+
+The momentum equation has four pieces:
+\[
+  \underbrace{\partial_t u}_{\text{local acceleration}}
+  +
+  \underbrace{(u\cdot\nabla)u}_{\text{nonlinear transport}}
+  =
+  \underbrace{-\nabla p}_{\text{pressure}}
+  +
+  \underbrace{\nu\Delta u}_{\text{viscous diffusion}}.
+\]
+The central regularity problem lies in the competition between nonlinear transport and viscosity.
+The hope is simple: viscosity smooths the fluid faster than nonlinear transport can sharpen it.
+If that remains true at every scale, the velocity stays smooth.
+
+\subsection{Vortex Stretching}\label{sub:ThePerfectlyStretchingVortex}
+
+In three dimensions, a material vortex segment can sharpen the velocity while the fluid carries it forward. Axial strain lengthens the segment, and incompressibility contracts its transverse cross-section, forcing the rotating fluid inward. The aligned stretching contribution then supplies faster rotation. Viscosity acts throughout this motion, so the rotation grows only when stretching wins the full vorticity balance.
+
+Take a small material fluid element carrying vorticity along a unit axis direction \(e\). Suppose the strain is locally uniform across the element and extends it along that axis. If \(L(t)\) is its length and \(S\) is the symmetric strain tensor, then
+\[
+  S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr),
+  \qquad
+  Se=\sigma(t)e,
+  \qquad
+  \sigma(t)>0,
+  \qquad
+  \frac{\dot L(t)}{L(t)}
+  =
+  e\cdot Se
+  =
+  \sigma(t).
+\]
+The positive fractional rate \(\sigma(t)\) lengthens the material segment. Its material volume \(\mathcal V\) cannot change, so its transverse area \(A(t):=\mathcal V/L(t)\) must contract. With the effective radius \(r_{\mathrm{eff}}(t):=\sqrt{A(t)/\pi}\), incompressibility gives
+\[
+  \nabla\cdot u=0,
+  \qquad
+  \frac{d}{dt}(A L)=0,
+  \qquad
+  \frac{\dot A}{A}=-\sigma(t),
+  \qquad
+  \frac{\dot r_{\mathrm{eff}}}{r_{\mathrm{eff}}}
+  =
+  -\frac{\sigma(t)}{2}.
+\]
+Thus the radius loses one half of the axial fractional growth rate. As the cross-section contracts, the rotating fluid carried by the segment is concentrated nearer its axis. Writing \(\omega:=\nabla\times u\) for vorticity and \(D/Dt\) for differentiation along the fluid motion, its evolution is
+\[
+  \frac{D\omega}{Dt}
+  =
+  S\omega+\nu\Delta\omega,
+  \qquad
+  \frac{D}{Dt}
+  :=
+  \partial_t+u\cdot\nabla,
+\]
+and under the alignment \(\omega=|\omega|e\),
+\[
+  S\omega
+  =
+  \sigma(t)\omega,
+  \qquad
+  \frac12\frac{D|\omega|^2}{Dt}
+  =
+  \sigma(t)|\omega|^2
+  +
+  \nu\,\omega\cdot\Delta\omega.
+\]
+The first term on the right is the rotational gain supplied by aligned stretching; the second is the simultaneous viscous contribution. On any interval where their sum stays positive, the inwardly concentrated rotation strengthens as the radius contracts.
+
+The first available obstruction is finite kinetic energy. The energy identity proved in \Cref{prop:ClassicalKineticEnergyIdentity}, together with the antisymmetric part of \(\nabla u\), gives
+\[
+  \norm{u(t)}_2
+  \leq
+  \norm{u_0}_2
+  <\infty,
+  \qquad
+  \left|\frac12\bigl(\nabla u-(\nabla u)^{\mathsf T}\bigr)\right|_{\mathrm F}
+  =
+  \frac{|\omega|}{\sqrt2}
+  \leq
+  |\nabla u|_{\mathrm F}.
+\]
+Finite \(L^2\) energy does not prevent the rotational part of the gradient from rising inside a shrinking region. The width can fall while the global velocity norm remains finite, leaving viscosity to restrain the concentration at the finer scale itself.
+
+\divider{\NavierStokes{} Scaling}
+
+Fix a time \(t_0<T_*\) and call the segment's effective radius \(\ell:=r_{\mathrm{eff}}(t_0)\). For \(\lambda>1\), the exact \NavierStokes{} comparison at width \(\lambda^{-1}\ell\) is
+\[
+  u_\lambda(x,t)
+  :=
+  \lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)
+  :=
+  \lambda^2p(\lambda x,\lambda^2t).
+\]
+At time \(\lambda^{-2}t_0\), the corresponding segment in \(u_\lambda\) has effective radius \(\lambda^{-1}\ell\). This rescaled field is another solution at another scale, not a later state of the original material segment. Each momentum term in the comparison field transforms by the same power:
+\[
+\begin{aligned}
+  \partial_tu_\lambda(x,t)
+  &=
+  \lambda^3(\partial_tu)(\lambda x,\lambda^2t),
+  \\
+  (u_\lambda\cdot\nabla)u_\lambda(x,t)
+  &=
+  \lambda^3\bigl((u\cdot\nabla)u\bigr)(\lambda x,\lambda^2t),
+  \\
+  \nabla p_\lambda(x,t)
+  &=
+  \lambda^3(\nabla p)(\lambda x,\lambda^2t),
+  \\
+  \nu\Delta u_\lambda(x,t)
+  &=
+  \lambda^3\nu(\Delta u)(\lambda x,\lambda^2t).
+\end{aligned}
+\]
+Viscosity acquires the same \(\lambda^3\) factor as nonlinear transport, while pressure and local acceleration scale with them. Finer width gives the viscous term no automatic advantage. The norms of the rescaled velocity must show which measurement can retain the unresolved concentration without favoring either side.
+
+\divider{Critical Height}
+
+Let \(\Lambda:=(-\Delta)^{1/2}\). The Fourier transform of the rescaled field satisfies
+\[
+  \widehat{u_\lambda}(\xi,t)
+  =
+  \lambda^{-2}\widehat u(\lambda^{-1}\xi,\lambda^2t),
+\]
+and a change of variables yields
+\[
+  \norm{u_\lambda(t)}_{\dot H^s}^2
+  =
+  \lambda^{2s-1}
+  \norm{u(\lambda^2t)}_{\dot H^s}^2.
+\]
+At \(s=0\), kinetic energy loses one power of \(\lambda\). At \(s=1\), the first-derivative norm gains one. Between them, the exponent \(2s-1\) vanishes at \(s=\tfrac12\), selecting the scale-invariant functional
+\[
+  H(t)
+  :=
+  \frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =
+  \frac12\norm{\Lambda^{1/2}u(t)}_2^2.
+\]
+Here \(H(t)\) is a global Sobolev quantity of the velocity field, not a geometric height of the vortex core. Writing \(H_\lambda\) for the same functional evaluated on \(u_\lambda\), the three levels read
+\[
+  \norm{u_\lambda(t)}_2^2
+  =
+  \lambda^{-1}\norm{u(\lambda^2t)}_2^2,
+  \qquad
+  H_\lambda(t)=H(\lambda^2t),
+  \qquad
+  \norm{\nabla u_\lambda(t)}_2^2
+  =
+  \lambda\norm{\nabla u(\lambda^2t)}_2^2.
+\]
+The rescaled velocity carries less kinetic energy and a larger first-derivative norm, while its half-derivative height is unchanged. This critical height can register concentration missed by energy, but scale invariance alone says nothing about whether it rises along the original velocity field.
+
+\divider{Nonlinear Production versus Viscous Dissipation}
+
+The nonlinear term changes the critical height through the signed production
+\[
+  \mathcal P_{1/2}[u](t)
+  :=
+  -\operatorname{Re}
+  \pair
+    {\Lambda^{1/2}u(t)}
+    {\Lambda^{1/2}\bigl((u(t)\cdot\nabla)u(t)\bigr)}_{L^2}.
+\]
+The pressure pairing vanishes because \(\nabla\cdot u=0\), while the Laplacian contributes \(-\nu\norm{\Lambda^{3/2}u}_2^2\). Along the original solution,
+\[
+  H'(t)
+  +
+  \nu\norm{\Lambda^{3/2}u(t)}_2^2
+  =
+  \mathcal P_{1/2}[u](t).
+\]
+Hence \(H'(t)>0\) exactly when the signed nonlinear production exceeds the viscous dissipation occurring at that time. Rescaling both rates gives
+\[
+  \mathcal P_{1/2}[u_\lambda](t)
+  =
+  \lambda^2\mathcal P_{1/2}[u](\lambda^2t),
+  \qquad
+  \nu\norm{\Lambda^{3/2}u_\lambda(t)}_2^2
+  =
+  \lambda^2\nu\norm{\Lambda^{3/2}u(\lambda^2t)}_2^2.
+\]
+Both acquire the same \(\lambda^2\) factor. Neither rate gains through concentration alone, and a rate with this square scaling still lacks the time interval over which a width could undergo an order-one viscous change.
+
+\divider{The Heat Clock}
+
+That interval can be read from a separate linear comparison. If \(v\) solves the heat equation \(v_t=\nu\Delta v\), then
+\[
+  \widehat v(\xi,t+\delta t)
+  =
+  e^{-\nu|\xi|^2\delta t}\widehat v(\xi,t).
+\]
+A structure localized at spatial width \(r\) has associated frequency \(r^{-1}\), so its scale-localized modes lie at \(|\xi|\simeq r^{-1}\). Those modes undergo an order-one viscous change when
+\[
+  \nu|\xi|^2\delta t\simeq1,
+\]
+which assigns the width the comparison time
+\[
+  \tau_\nu(r)
+  :=
+  \frac{r^2}{\nu}.
+\]
+This is a clock supplied by the linear heat flow, not a proved lifetime for the material vortex. Halving \(r\) quarters the clock, and more generally
+\[
+  \tau_\nu(\lambda^{-1}r)
+  =
+  \lambda^{-2}\tau_\nu(r).
+\]
+The contracted time agrees with the time coordinate in the full scaling comparison, but scale covariance does not make the original velocity field perform such a contraction. Repetition first gives only a family of shorter comparison times.
+
+\divider{The Zeno Cascade}
+
+Take the arithmetic widths and their heat clocks to be
+\[
+  r_n:=2^{-n}r_0,
+  \qquad
+  \tau_n:=\frac{r_n^2}{\nu},
+\]
+so
+\[
+  \tau_n
+  =
+  \frac{r_0^2}{\nu}4^{-n},
+  \qquad
+  \sum_{n=0}^{\infty}\tau_n
+  =
+  \frac{4r_0^2}{3\nu}
+  <
+  \infty.
+\]
+The finite sum is arithmetic, not a realized cascade. To connect it to one \NavierStokes{} solution, define that solution's actual concentration width \(\rho(t)\) as the least radius for which a fixed fraction \(\theta\in(0,1)\) of a chosen scale-localized vorticity mass lies inside some ball of that radius. The fraction \(\theta\) and the localization convention are fixed throughout the history. The solution would then have to reach actual widths comparable to
+\[
+  r_0>r_1>r_2>\cdots\longrightarrow0
+\]
+at times
+\[
+  t_0<t_1<t_2<\cdots\uparrow T_*<\infty,
+  \qquad
+  t_{n+1}-t_n\asymp\tau_n,
+\]
+with constants independent of \(n\), including constants \(0<c\leq C<\infty\) such that \(c r_n\leq\rho(t_n)\leq C r_n\) for every \(n\). Only under these same-history comparisons does the remaining time satisfy
+\[
+  T_*-t_n
+  \asymp
+  \sum_{k=n}^{\infty}\tau_k
+  =
+  \frac{4r_n^2}{3\nu}.
+\]
+At the actual concentration width comparable to \(r_n\), both the next transition and the total time left would be of order \(r_n^2/\nu\). The one velocity field would have to produce each successive narrowing on an interval collapsing with that narrowing, until the intervals tend to zero as \(t\uparrow T_*\).

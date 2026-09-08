@@ -514,7 +514,7 @@ Then the natural operators become:
   \omega = d\alpha;
   ```
 - viscosity:
-  the Hodge Laplacian on the `1`-form side,
+  the Helmholtz--Leray Laplacian on the `1`-form side,
   ```math
   \Delta_H = d\delta + \delta d;
   ```
@@ -620,7 +620,7 @@ not the main Body II/IV closure engine.
 That does not make them irrelevant.
 It just means:
 
-- forms + Hodge + Cartan are likely the right intrinsic language for the
+- forms + Helmholtz--Leray + Cartan are likely the right intrinsic language for the
   transport/vorticity/exactness side;
 - currents may become useful later when the lane must pass to weak limits or
   generalized same-surface objects.

@@ -4,12 +4,12 @@
 
 - target obligation: MovingLowHighPressureStrainPumpFiniteWork.A
 - target label: prove finite work of the moving low-high same-material pressure/strain pump
-- route role: The hard-boundary note proves that the moving low-high pressure/strain pump is the exact continuation-strength coefficient of the Gold route. Fixed low modes, initial Fourier tail, linear heat damping, pure high-high transfer, relative Schur defect, Hodge overcount, and annular attachment are support facts around it. Finite work of the moving pump is equivalent to the continuation-depth material record bound at the chosen depth.
+- route role: The hard-boundary note proves that the moving low-high pressure/strain pump is the exact continuation-strength coefficient of the Gold route. Fixed low modes, initial Fourier tail, linear heat damping, pure high-high transfer, relative Schur defect, Helmholtz--Leray overcount, and annular attachment are support facts around it. Finite work of the moving pump is equivalent to the continuation-depth material record bound at the chosen depth.
 - theorem family: full-same-material-action
 
 ## Created Theorem
 
-MovingLowHighPressureStrainPumpFiniteWork.A. The hard-boundary note proves that the moving low-high pressure/strain pump is the exact continuation-strength coefficient of the Gold route. Fixed low modes, initial Fourier tail, linear heat damping, pure high-high transfer, relative Schur defect, Hodge overcount, and annular attachment are support facts around it. Finite work of the moving pump is equivalent to the continuation-depth material record bound at the chosen depth. This supplies the exact noncircular bridge needed for prove finite work of the moving low-high same-material pressure/strain pump.
+MovingLowHighPressureStrainPumpFiniteWork.A. The hard-boundary note proves that the moving low-high pressure/strain pump is the exact continuation-strength coefficient of the Gold route. Fixed low modes, initial Fourier tail, linear heat damping, pure high-high transfer, relative Schur defect, Helmholtz--Leray overcount, and annular attachment are support facts around it. Finite work of the moving pump is equivalent to the continuation-depth material record bound at the chosen depth. This supplies the exact noncircular bridge needed for prove finite work of the moving low-high same-material pressure/strain pump.
 
 ## Inventive Search
 
@@ -19,7 +19,7 @@ MovingLowHighPressureStrainPumpFiniteWork.A. The hard-boundary note proves that 
 - selected_mechanism: moving_low_high_pump_hard_boundary_to_continuation_strength_clock
 - candidate_count: 1
 - solver_chain_verdict: open
-- selection_reason: This theorem is the right next move because it changes the proof economy: The hard-boundary note proves that the moving low-high pressure/strain pump is the exact continuation-strength coefficient of the Gold route. Fixed low modes, initial Fourier tail, linear heat damping, pure high-high transfer, relative Schur defect, Hodge overcount, and annular attachment are support facts around it. Finite work of the moving pump is equivalent to the continuation-depth material record bound at the chosen depth. It deliberately reduces the remaining work to ContinuationStrengthMaterialClockAtDepth.A rather than pretending the frontier is closed.
+- selection_reason: This theorem is the right next move because it changes the proof economy: The hard-boundary note proves that the moving low-high pressure/strain pump is the exact continuation-strength coefficient of the Gold route. Fixed low modes, initial Fourier tail, linear heat damping, pure high-high transfer, relative Schur defect, Helmholtz--Leray overcount, and annular attachment are support facts around it. Finite work of the moving pump is equivalent to the continuation-depth material record bound at the chosen depth. It deliberately reduces the remaining work to ContinuationStrengthMaterialClockAtDepth.A rather than pretending the frontier is closed.
 
 ### Candidate Theorems
 

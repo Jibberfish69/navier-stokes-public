@@ -48,7 +48,7 @@ FullTowerChannelOrientation.A. Prove that every generated full-tower service ter
 
 ## Proof Attempt
 
-1. List the exact generated channel families: metric, coefficient, commutator, pressure/Hodge, viscous/collar, geometry, and radius spend.
+1. List the exact generated channel families: metric, coefficient, commutator, pressure/Helmholtz--Leray, viscous/collar, geometry, and radius spend.
 2. For each family, state the body coordinate and adjacent exchange current where it lands.
 3. Prove no positive service term remains merely eligible; every term has a sign, exchange partner, strict drain, or legal residual.
 4. Keep the proof on the one transported material packet and do not import finite total tower action.

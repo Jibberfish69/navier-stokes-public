@@ -1,0 +1,121 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.1 Critical Height at a Finite Endpoint
+% ============================================================
+
+\subsection{Critical Height at a Finite Endpoint}\label{sub:CriticalHeightAtAFiniteEndpoint}
+
+Fix a rapidly decaying datum \(u_0\) on \(\R^3\), a viscosity \(\nu>0\), and the maximal classical solution \((u,p)\) they generate on \([0,T_*)\).
+Assume \(T_*<\infty\).
+The dilation and the decaying pressure normalization used below are whole-space statements.
+On \(\mathbb T^3\), discrete frequencies replace this dilation and require a separate high-frequency or localization argument.
+
+The solution is smooth at every earlier time, so any singular behaviour must be approached through a sequence of regular states as \(t\uparrow T_*\).
+Kinetic energy controls the total \(L^2\) size of those states.
+That \(L^2\) ceiling remains compatible with rescaled states at progressively shorter length scales.
+Navier--Stokes scaling singles out the Sobolev height that stays unchanged under exactly that compression.
+
+If \((u,p)\) solves the Navier--Stokes equations with viscosity \(\nu>0\), then for every \(\lambda>0\),
+\[
+  u_\lambda(x,t)
+  :=
+  \lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)
+  :=
+  \lambda^2p(\lambda x,\lambda^2t)
+\]
+solves the same equation with the same viscosity on the rescaled time interval.
+The spatial scale is divided by \(\lambda\), while the corresponding time scale is divided by \(\lambda^2\).
+This is the parabolic relation already present in \(\partial_t-\nu\Delta\).
+
+Let \(\Lambda=(-\Delta)^{1/2}\), and write
+\[
+  \norm{v}_{\dot H^s}^2
+  :=
+  \int_{\R^3}
+  |\xi|^{2s}|\widehat v(\xi)|^2
+  \,d\xi.
+\]
+The Fourier transform of the rescaled velocity is
+\[
+  \widehat{u_\lambda}(\xi,t)
+  =
+  \lambda^{-2}
+  \widehat u(\xi/\lambda,\lambda^2t).
+\]
+Substituting this expression and setting \(\eta=\xi/\lambda\) gives
+\begin{align*}
+  \norm{u_\lambda(t)}_{\dot H^s}^2
+  &={}
+  \int_{\R^3}
+  |\xi|^{2s}\lambda^{-4}
+  \left|\widehat u(\xi/\lambda,\lambda^2t)\right|^2
+  \,d\xi
+  \\
+  &={}
+  \lambda^{2s-1}
+  \int_{\R^3}
+  |\eta|^{2s}
+  \left|\widehat u(\eta,\lambda^2t)\right|^2
+  \,d\eta.
+\end{align*}
+Hence
+\[
+  \norm{u_\lambda(t)}_{\dot H^s}
+  =
+  \lambda^{s-1/2}
+  \norm{u(\lambda^2t)}_{\dot H^s}.
+\]
+The exponent vanishes at \(s=1/2\).
+This gives the critical height
+\[
+  H(t)
+  :=
+  \frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =
+  \frac12\norm{\Lambda^{1/2}u(t)}_2^2.
+\]
+The scaling can compress a smooth configuration to a finer spatial length and a shorter time while preserving the value of \(H\).
+
+At the kinetic-energy level, the same calculation gives
+\[
+  \norm{u_\lambda(t)}_2^2
+  =
+  \lambda^{-1}
+  \norm{u(\lambda^2t)}_2^2.
+\]
+Successive rescalings can therefore lower the kinetic-energy scale while leaving the critical height unchanged.
+This is the precise opening through which a finite-energy estimate can fail to see a concentration at ever finer scales.
+
+The finite endpoint gives the scaling a second consequence.
+Choose a geometric sequence of lengths
+\[
+  \ell_k
+  :=
+  2^{-k}\ell_0.
+\]
+The viscous time associated with \(\ell_k\) has parabolic size
+\[
+  \tau_k
+  :=
+  \frac{c\ell_k^2}{\nu}
+  =
+  \frac{c\ell_0^2}{\nu}4^{-k},
+\]
+where \(c>0\) fixes the chosen normalization.
+These times have a finite sum,
+\[
+  \sum_{k=0}^{\infty}\tau_k
+  =
+  \frac{4c\ell_0^2}{3\nu}
+  <
+  \infty.
+\]
+Parabolic timing therefore permits an abstract Zeno schedule in which infinitely many progressively finer episodes fit before a finite time.
+The calculation establishes a dimensionally consistent schedule.
+Realizing that schedule would require the same Navier--Stokes history to generate every episode while transport, pressure, incompressibility, and viscosity continue to act together.
+
+The critical height tells us which spatial measurement can remain visible through such a schedule.
+The speed at which the field moves from one regular state to the next is still unknown.
+Finite time makes that response question exact: an unbounded rung can be reached only through the accumulated action of the rung above it.

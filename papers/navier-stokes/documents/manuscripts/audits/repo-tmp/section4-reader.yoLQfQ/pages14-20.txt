@@ -1,0 +1,398 @@
+4     The Missing Estimate and Global Smoothness
+
+   Now let the cutoff move. Keep (N, M ) fixed while T ↑ T∗ . Classical smoothness answers
+every fixed T < T∗ separately; the argument needs one bound that survives them all. The
+order of those two quantifiers is the entire question.
+
+
+4.1     The estimate that must survive the endpoint
+
+   Begin with the lowest rectangle. It is the first place where the spatial row and the response
+beneath it can reach one time slice together. At (N, M ) = (0, 1), it asks for
+
+                             u ∈ L2 (I∗ ; H 2 ),            ut ∈ L2 (I∗ ; L2 ).                    (4.1.1)
+
+    Which part of the equation could produce these two rows? Set
+                                                                               2
+                Z(t) := ∥Λu(t)∥22 = ∥ω(t)∥22 , Y (t) := Λ2 u(t)                    = ∥∇ω(t)∥22 ,
+                                                                               2
+                                         2
+                                                                                                   (4.1.2)
+                           3/2
+               D(t) := Λ         u(t)        .
+                                         2
+
+
+   The enstrophy balance (2.1.2) contains the stretching term that must be controlled. Since
+∇u is recovered from ω by Riesz transforms, Hölder followed by the Sobolev embeddings
+produces
+                                  Z
+                                         ω · Sω dx ≤ ∥ω∥2 ∥ω∥3 ∥S∥6
+                                   R3
+                                                     ≤ CZ 1/2 D1/2 Y 1/2 .                         (4.1.3)
+
+Young’s inequality then turns the enstrophy identity into
+
+                                  Z ′ (t) + νY (t) ≤ Cν −1 D(t)Z(t).                               (4.1.4)
+
+The coefficient multiplying Z has now been isolated. If
+                                  Z T∗               Z T∗
+                                                                          2
+                        D∗ :=            D(t) dt =            Λ3/2 u(t)       dt < ∞,              (4.1.5)
+                                   0                  0                   2
+
+then Gronwall gives                                  Z T∗
+                                       sup Z(t) +           Y (t) dt < ∞.                          (4.1.6)
+                                   0<t<T∗             0
+
+The first term supplies u ∈ L∞ (I∗ ; H 1 ), and the second, together with the kinetic-energy row,
+supplies u ∈ L2 (I∗ ; H 2 ). Applying the Leray projection to the momentum equation gives
+                                                                     
+                                        ut = ν∆u − P (u · ∇)u ,
+
+while
+                          ∥P((u · ∇)u)∥22 ≤ C ∥u∥26 ∥∇u∥23 ≤ CZD.                                  (4.1.7)
+
+                                                     12
+Thus D∗ < ∞ also gives ut ∈ L2 (I∗ ; L2 ), which completes (4.1.1). In the other direction, the
+cutoff-uniform L2 H 2 row and monotone convergence give u ∈ L2 (I∗ ; H 2 ), hence D∗ < ∞.
+Using the energy identity in Proposition A.2.1 for the lower Sobolev pieces, we have reached
+the exact equivalence
+
+                              D∗ < ∞          ⇐⇒            sup R0,1 (u; T ) < ∞.                       (4.1.8)
+                                                           0<T <T∗
+
+
+  The critical-height balance gives the same interface in its original coordinates. Because
+D = 2E3/2 , integrating (3.2.2) yields
+                                        Z t                            Z t
+                             H(t) + ν         D(s) ds = H(0) +                P1/2 (s) ds.              (4.1.9)
+                                         0                                0
+
+Since H ≥ 0, finiteness of the signed production prefix makes D∗ finite. Conversely, D∗ < ∞
+gives the first rectangle and hence a bounded H; the same equality then makes the prefix
+finite. Hence
+             Z t
+     sup           P1/2 (s) ds < ∞    ⇐⇒         D∗ < ∞              ⇐⇒        sup R0,1 (u; T ) < ∞.   (4.1.10)
+    0<t<T∗    0                                                               0<T <T∗
+
+The signed-prefix statement is another exact reading of the first rectangle; it is not a smaller
+estimate that produces the rectangle for free.
+   There is one genuine class of data for which this interface closes. Its boundary sits inside
+the critical balance itself. Put
+                                                                                        2
+                            a(t) := Λ1/2 u(t)          ,         d(t) := Λ3/2 u(t)          .
+                                                   2                                    2
+
+For B(u, u) := P((u · ∇)u), the dual Sobolev embeddings give
+
+                           ∥B(u, u)∥Ḣ −1/2 ≤ C ∥u · ∇u∥3/2
+                                               ≤ C ∥u∥3 ∥∇u∥3 ≤ Ca(t)d(t)1/2 .                         (4.1.11)
+
+The critical production pairs this source with one further half derivative of the velocity, so
+
+                                             |P1/2 (t)| ≤ Ca(t)d(t).                                   (4.1.12)
+
+Inserted into (3.2.2), this becomes
+                                     1d                   
+                                          a(t)2 + ν − Ca(t) d(t) ≤ 0.                                  (4.1.13)
+                                     2 dt
+If a(0) < ν/C, continuity prevents a from reaching the viscous threshold: until a first crossing,
+the coefficient is positive and a is nonincreasing, which rules out that crossing. Consequently
+                              1                  Z t          1
+                                a(t)2 + ν − Ca(0)      d(s) ds ≤ a(0)2 .                               (4.1.14)
+                              2                     0           2
+This pays D∗ from the datum in the small-critical-data regime. For an arbitrary Schwartz
+datum, a(0) need not lie below the threshold. The source and the dissipation have the same
+critical scaling, so shrinking the picture does not improve the coefficient in (4.1.13).
+
+                                                            13
+                                                                                  R T∗
+    The kinetic-energy identity in Proposition A.2.1 supplies only                 0     Z(t) dt < ∞. Interpo-
+lating D ≤ Z 1/2 Y 1/2 in (4.1.3) shows the gap directly:
+
+                                      Z ′ (t) + νY (t) ≤ Cν −3 Z(t)3 .                                (4.1.15)
+
+Control of Z does not control Z 3 or sup Z. The two calculations meet at the same
+            R                           R
+
+boundary: neither the energy row nor the critical row bounds the quantities in (4.1.10) for
+an arbitrary pair (u0 , ν).
+   Energy still tells us what a failure of that bound would have to look like. Interpolation
+between the energy and enstrophy heights gives
+                                         1 1/2   4 1
+                             H(t)2 =       Λ u(t) ≤ ∥u(t)∥22 Z(t).
+                                         4       2 4
+After the kinetic-energy identity is integrated once more in time,
+                                         Z T∗
+                                                                 ∥u0 ∥42
+                                                H(t)2 dt ≤               .                            (4.1.16)
+                                            0                     8ν
+This is not a pointwise roof. It says that large critical height can occupy only a short amount
+of time. The interpolation between the energy height and the critical dissipation makes the
+simultaneous spatial cost visible as well: for a nonzero datum,
+
+                                                             1/3                       8H(t)3
+                 Λ1/2 u(t)       ≤ ∥u(t)∥2/3
+                                         2   Λ3/2 u(t)                =⇒     D(t) ≥             .     (4.1.17)
+                             2                               2                          ∥u0 ∥42
+
+    Now take a height M ≥ H(0) that the history crosses on its way to 2M . Let t1 be its
+first arrival at 2M , and let t0 < t1 be its last visit to M before that arrival. On IM = (t0 , t1 ),
+the height stays between M and 2M . Equation (4.1.16) gives
+
+                                                        ∥u0 ∥42
+                                                |IM | ≤         .                                     (4.1.18)
+                                                        8νM 2
+                              √
+At the same time, |P1/2 | ≤ C 2H D. Integrating the critical balance across this first-hitting
+interval gives
+                                                                     √
+               Z                  √  Z               Z
+                                                                       M
+           M=      H ′ (t) dt ≤ 2C M     D(t) dt,         D(t) dt ≥      .            (4.1.19)
+                IM                    IM              IM             2C
+This is the rigorous Zeno remnant. Higher records are forced into shorter intervals, while
+each completed doubling carries a larger lower amount of critical dissipation. The first fact
+leaves room in finite time; the second is a lower cost, not the missing upper budget for D∗ .
+   That unpaid budget cannot remain at a fixed range of frequencies. For K ≥ 1, set
+                                                  Z
+                                   D≤K (t) :=              |ξ|3 |ub(t, ξ)|2 dξ.
+                                                   |ξ|≤K
+
+
+
+
+                                                       14
+Since |ξ|3 ≤ K|ξ|2 on this region, energy pays
+                        Z T∗                    Z T∗
+                                                                   K ∥u0 ∥22
+                               D≤K (t) dt ≤ K          Z(t) dt ≤             < ∞.     (4.1.20)
+                         0                        0                  2ν
+If D∗ diverges, its unpaid part must move beyond every fixed K. The missing estimate is
+an ultraviolet control on the same narrowing history, not a failure of low frequencies or of
+overlap compatibility.
+   The size of this first gap is visible from what the first rectangle would do. The adjacent
+trace lemma turns (4.1.1) into
+                                       u ∈ C([0, T∗ ]; H 1 ).
+Since H 1 (R3 ) ,→ L3 (R3 ), it follows that
+
+                                          sup ∥u(t)∥3 < ∞.                            (4.1.21)
+                                         0≤t≤T∗
+
+
+But the endpoint theorem of Escauriaza, Seregin, and Šverák gives the opposite conclusion
+at a finite maximal time (Escauriaza, Seregin, and Šverák 2003):
+
+                                T∗ < ∞     =⇒          sup ∥u(t)∥3 = ∞.               (4.1.22)
+                                                      0<t<T∗
+
+Thus the first rectangle already rules out the alleged last time. The larger intersection is
+not needed to repeat that contradiction; it is what carries every finite response and spatial
+derivative to one common terminal datum.
+    To make that larger conclusion, the same cutoff-independent control is needed at every
+finite coordinate. We state that remaining input at the point where the argument begins to
+use it.
+
+
+Assumption 4.1.1 (Whole-terminal rectangle condition). Let u0 ∈ Sσ , let ν > 0, and let
+(u, p) be the maximal classical solution generated by (u0 , ν) on [0, T∗ ), with T∗ < ∞. For
+every finite N, M ∈ N0 ,
+                                   sup RN,M (u; T ) < ∞.                              (4.1.23)
+                                      0<T <T∗
+
+The associated pressure rows are generated by (2.2.6) with the fixed decaying normalization.
+
+
+   Here (N, M ) is fixed before the supremum over T < T∗ is taken. The bound may depend
+on that pair; no constant uniform over all derivative orders is asserted. Every rectangle
+belongs to the same history, and larger rectangles return the identical derivatives on their
+overlaps.
+
+
+
+
+                                                      15
+   Fix N and M . Every term in (3.4.5) is an integral of a nonnegative squared norm. For
+any one integrand f , the intervals (0, T ) exhaust I∗ , so
+                                     Z                              Z T
+                                             f (t) dt = lim               f (t) dt.
+                                      I∗                    T ↑T∗    0
+
+The whole-terminal estimate keeps that limit finite for every row in the chosen rectangle:
+
+        Vn ∈ L2 (I∗ ; H M +1 ),      Vn+1 = ∂t Vn ∈ L2 (I∗ ; H M −1 ),                   0 ≤ n ≤ N.        (4.1.24)
+
+The pressure part of Proposition A.4.1, using the Riesz bounds and finite-order Sobolev
+products, gives the matching rows
+
+                                  Qn ∈ L1 (I∗ ; H M ),                   0 ≤ n ≤ N.                        (4.1.25)
+
+Together these velocity and pressure coordinates form RN,M [u0 ] on the whole interval I∗ .
+    A larger rectangle adds coordinates without replacing the ones already present. If N ′ ≤ N
+and M ′ ≤ M , let ρN,M
+                     N ′ ,M ′ forget the extra rows and lower the Sobolev height. Since every
+retained entry is the same derivative of u,
+
+                                    ρN,M
+                                     N ′ ,M ′ RN,M [u0 ] = RN ′ ,M ′ [u0 ].                                (4.1.26)
+
+This literal overlap lets the finite blocks be read as one compatible family:
+                                        
+                 I[u0 ] := RN,M [u0 ]                  ,         ρN,M
+                                                                  N ′ ,M ′ RN,M [u0 ] = RN ′ ,M ′ [u0 ].   (4.1.27)
+                                             N,M ∈N0
+
+The intersection creates no new field. Given any finite temporal order and spatial height,
+choose one rectangle large enough to contain that derivative; every larger rectangle returns
+the same derivative of the same u.
+
+
+Proposition 4.1.2 (The mixed intersection). The velocity component of I[u0 ] satisfies
+                                              ∞ \
+                                                ∞
+                                                           H r (I∗ ; H m (R3 )).
+                                              \
+                                     u∈                                                                    (4.1.28)
+                                              r=0 m=0
+
+In particular,
+                                                ∞
+                                                       L2 (I∗ ; H m (R3 )).
+                                                \
+                                         u∈                                                                (4.1.29)
+                                                m=0
+
+
+
+Proof. Fix finite r, m, and choose N ≥ r and M ≥ m. The upper edge of this one rectangle
+gives
+                     ∂tn u ∈ L2 (I∗ ; H M +1 ) ,→ L2 (I∗ ; H m ) (0 ≤ n ≤ r).
+These are the distributional time derivatives of the same velocity field, hence u ∈ H r (I∗ ; H m ).
+Because r and m were arbitrary, every finite derivative belongs to the intersection; r = 0
+gives (4.1.29).
+
+                                                            16
+4.2    The intersection reaches one terminal datum
+
+
+Theorem 4.2.1 (Global closure from whole-terminal rectangles). Let ν > 0 and u0 ∈ Sσ ,
+and assume that the maximal classical history generated by (u0 , ν) satisfies Assumption 4.1.1.
+Then                                                            
+                         T∗ = ∞,        u, p ∈ C ∞ R3 × [0, ∞) .                        (4.2.1)
+For every t ≥ 0,
+                          1              Z t
+                                                           1
+                            ∥u(t)∥22 + ν     ∥∇u(s)∥22 ds = ∥u0 ∥22 .                   (4.2.2)
+                          2               0                2
+
+Proof. Suppose the maximal history ends at some finite T∗ . For each finite pair (N, M ),
+Assumption 4.1.1 carries its pressure-complete rectangle all the way across I∗ . Whenever two
+rectangles overlap, (4.1.26) says that they contain the same derivatives of the same history.
+Their compatible union gives
+
+                                                   H r (I∗ ; H m (R3 )).
+                                           \
+                                 u∈
+                                        r,m<∞
+
+
+   Now hold one spatial height m fixed. The temporal row r = 1 puts u in H 1 (I∗ ; H m ), so
+the actual history has an H m limit as t ↑ T∗ . A higher spatial row cannot produce a different
+limit: after embedding it into H m , both limits come from the same u(t). All finite heights
+meet at one divergence-free endpoint
+
+                          u∗ := lim u(t) ∈ Hσ∞ (R3 ) ⊂                H m (R3 ).
+                                                                 \
+                                                                                        (4.2.3)
+                                t↑T∗                            m<∞
+
+This is the endpoint given by Lemma A.4.2.
+   The terminal face must also remember how the history arrives there. Given finite N
+and m, the row r = N + 1 places VN = ∂tN u in H 1 (I∗ ; H m ). It has a trace VN∗ , and spatial
+compatibility puts that trace in H ∞ . The normalized pressure recurrence and the velocity
+recurrence survive the limit:
+                                       N
+                                                   !
+                                              N
+                        Q∗N = Ri Rj             V∗ V∗
+                                       X
+                                                           ,
+                                       a=0    a a,i N −a,j
+                                             N
+                                                        !
+                                                    N
+                      VN∗ +1 = ν∆VN∗ −                (Va∗ · ∇)VN∗ −a − ∇Q∗N .
+                                             X
+
+                                             a=0    a
+
+The traces are the velocity and Riesz-normalized pressure responses generated by u∗ , as
+Proposition A.4.3 records.
+    Use u∗ as initial data at time T∗ . The smooth local construction in Lemma A.4.4 gives a
+right-hand history on [T∗ , T∗ + δ]. Its recurrence begins from the same datum and the same
+pressure normalization, so its entire jet agrees with the left-hand traces. The join is smooth.
+Strong uniqueness makes it the continuation of the history generated by u0 , contradicting
+the definition of T∗ .
+
+                                                       17
+    Hence T∗ = ∞, and the normalized pair is smooth on every finite time interval. The
+kinetic-energy identity in Proposition A.2.1 now holds on every initial segment of this global
+history and gives (4.2.2). In particular,
+                                   Z                       Z
+                                                      2
+                             sup         |u(x, t)| dx ≤              |u0 (x)|2 dx < ∞.
+                             t≥0    R3                         R3
+
+The rapid decay of u0 gives the last finiteness. This is the smooth global history with
+uniformly bounded kinetic energy required in (1.4).
+
+
+    The endpoint contradiction is complete. The higher rectangles now let us return to the
+critical height and to the gradient that stretches the vortex.
+
+
+4.3    The critical-height roof
+
+   Once the H 1 trace reaches the terminal face, the critical height cannot keep climbing
+                                     2
+underneath it. Indeed, H = 12 Λ1/2 u , so
+                                                  2
+
+                                                           1
+                         Hmax := sup H(t) ≤                   sup ∥u(t)∥2H 1 < ∞.                       (4.3.1)
+                                         0≤t≤T∗            2 0≤t≤T∗
+
+Start at any positive height H0 , double it successively by Lk := 2k H0 , and count the levels
+the same history actually reaches:
+                                n                                                                   o
+                 Nlevels := # k ∈ N0 : there is a t ∈ [0, T∗ ] with H(t) = Lk .
+
+The roof leaves room for only finitely many such doublings:
+                                       
+                                       0,                      Hmax < H0 ,
+                        Nlevels ≤                                                                       (4.3.2)
+                                       1 + ⌊log (Hmax /H0 )⌋ , Hmax ≥ H0 .
+                                                2
+
+This conclusion never asks how quickly one level is crossed. It rules out an infinite succession
+of critical-height doublings. It does not rule out an infinite succession of smaller widths at the
+same height: the rescaled profile in Section 2 was built to show exactly that possibility. The
+roof closes escalation in H; the geometric picture still has to close concentration at fixed H.
+   The next rectangle, R0,2 , follows the motion below the roof rather than only its maximum:
+
+                 u ∈ L2 (I∗ ; H 3 ),         ut ∈ L2 (I∗ ; H 1 ),           u ∈ C([0, T∗ ]; H 2 ).      (4.3.3)
+
+The two adjacent rows now contain both factors in the derivative
+                                                      D                         E
+                                   H ′ (t) = Re Λ1/2 u(t), Λ1/2 ut (t)                   ,
+                                                                                    L2
+
+and Cauchy–Schwarz bounds its total variation:
+                        Z T∗
+                               |H ′ (t)| dt ≤ Λ1/2 u                  Λ1/2 ut                < ∞.       (4.3.4)
+                         0                                 L2t L2x              L2t L2x
+
+
+                                                          18
+

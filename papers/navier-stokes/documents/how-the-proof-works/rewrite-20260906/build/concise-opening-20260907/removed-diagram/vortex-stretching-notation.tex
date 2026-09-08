@@ -1,0 +1,56 @@
+\documentclass[tikz,border=2pt]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usetikzlibrary{arrows.meta}
+\begin{document}
+\begin{tikzpicture}[x=1pt,y=1pt,font=\fontsize{10}{12}\selectfont,
+ every node/.style={inner sep=0pt},
+ flow/.style={line width=.65pt,line cap=round},
+ farflow/.style={line width=.45pt,line cap=round},
+ direction/.style={-{Stealth[length=5pt,width=3.7pt]}},
+ diffusion/.style={-{Latex[open,length=5pt,width=4pt]},line width=.6pt,
+  preaction={draw=white,line width=2.5pt}},
+ dimension/.style={<->,>=Stealth,line width=.3pt}]
+ \path[use as bounding box] (0,0) rectangle (448,240);
+ % Perspective outline of the material tube; no internal trajectories.
+ \draw[line width=.55pt] (92,138)--(335,157);
+ \draw[line width=.55pt] (92,110)--(335,89);
+ \draw[line width=.55pt]
+  (92,138) arc[start angle=90,end angle=270,x radius=7.5pt,y radius=14pt];
+ \draw[line width=.5pt,dash pattern=on 1.8pt off 1.8pt]
+  (92,110) arc[start angle=-90,end angle=90,x radius=7.5pt,y radius=14pt];
+ \draw[line width=.65pt] (335,123) ellipse[x radius=15.5pt,y radius=34pt];
+ \draw[line width=.7pt,direction] (233,124)--(286,124);
+ \draw[line width=.7pt,direction]
+  (355.203,90.234) arc[start angle=-55,end angle=55,x radius=31pt,y radius=40pt];
+
+ % The exterior paths converge radially while departing toward opposite ends.
+ % Perspective places the near exits farther from the projected axis.
+ \draw[farflow] (239,211) .. controls (242,164) and (305,160) .. (421,160);
+ \draw[farflow] (217,30) .. controls (211,87) and (153,104) .. (32,104);
+ \draw[flow,direction] (217,214) .. controls (211,159) and (157,139) .. (32,139);
+ \draw[flow,direction] (239,30) .. controls (243,81) and (299,83) .. (422,83);
+
+ % One label identifies the surrounding velocity field and its axial strain.
+ \node at (116,151) {Flow \(u\)};
+ \node at (228,231) {Strain \(\sigma>0\)};
+
+ % Typeset vector and speed notation sits beside the corresponding arrows.
+ \node at (264,132) {\(\omega\)};
+ \node at (382,137) {\(v\)};
+
+ % Viscous transport crosses the material boundary in opposite directions.
+ \draw[diffusion] (276,147)--(282,182);
+ \draw[diffusion] (276,103)--(269,72);
+ \node at (353,211) {Viscous diffusion};
+ \draw[line width=.3pt] (324,200)--(287,184);
+
+ % Radius and length refer to the material tube.
+ \draw[dimension] (335,123)--(335,157);
+ \node at (326,140) {\(r\)};
+ \draw[dimension] (92,17)--(335,17);
+ \draw[line width=.3pt] (92,14)--(92,20);
+ \draw[line width=.3pt] (335,14)--(335,20);
+ \node at (213.5,7) {\(\ell\)};
+\end{tikzpicture}
+\end{document}

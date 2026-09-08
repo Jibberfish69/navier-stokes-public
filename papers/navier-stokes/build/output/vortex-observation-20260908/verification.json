@@ -1,0 +1,32 @@
+{
+  "changed_extracted_pages": [
+    3,
+    4,
+    5
+  ],
+  "exact_passage_verified": true,
+  "deleted_sentence_absent": true,
+  "final_log_diagnostics": [],
+  "render_paths": [
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/build/output/vortex-observation-20260908/renders/page-02.png",
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/build/output/vortex-observation-20260908/renders/page-03.png",
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/build/output/vortex-observation-20260908/renders/page-04.png",
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/build/output/vortex-observation-20260908/renders/page-05.png",
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/build/output/vortex-observation-20260908/renders/page-06.png",
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/build/output/vortex-observation-20260908/renders/page-07.png"
+  ],
+  "candidate_sha256": "4e067057195664410b92f4dd862fbc394dceb5c78c0feb243346a71840b50157",
+  "canonical_pdf": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf",
+  "canonical_matches_candidate": true,
+  "visually_inspected_pages": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "visual_findings": "Text and equations are legible, page boundaries are continuous, and no clipping or overlap is visible.",
+  "source_sha256": "9a38d48ff94480a8aa77f5c6872f470cb3f5bab59e867cc7841df015332e84e6",
+  "other_source_hashes_unchanged": true
+}

@@ -28,7 +28,7 @@ Z_N=(q,C_N)=\Gamma_N(Y_N)+W_N,
 
 where \(Y_N\) is the free same-material packet, \(\Gamma_N(Y_N)\) is the forced elliptic/collar graph, and \(W_N\) is the relative pressure/collar defect.
 
-The graph driver is the PLS service required to move \(\Gamma_N(Y_N)\).  It consists only of free material variables: velocity tower, coefficient/frame, material Hodge/Stokes projection, transported collar, strain, viscosity/tower, and annular stress-work.  Therefore
+The graph driver is the PLS service required to move \(\Gamma_N(Y_N)\).  It consists only of free material variables: velocity tower, coefficient/frame, material Helmholtz--Leray/Stokes projection, transported collar, strain, viscosity/tower, and annular stress-work.  Therefore
 
 ```math
 d\Omega_N^{graph.driver}\subset d\Omega_N^{free\ material}.

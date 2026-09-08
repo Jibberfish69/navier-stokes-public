@@ -1,0 +1,94 @@
+1     Introduction
+1.1    Clay Requirements and Definitions
+Let u0 be a smooth, divergence-free initial velocity on R3 , with u0 and all of its spatial
+derivatives decaying rapidly at infinity. Fix a viscosity ν > 0 and set the external force to
+zero. For every finite time T > 0, the required velocity u(x, t) and pressure p(x, t) must
+satisfy
+                ∂t u + (u · ∇)u + ∇p = ν∆u,       ∇ · u = 0,     u(x, 0) = u0 ,        (1.1.1)
+for every (x, t) ∈ R3 × (0, T ], with
+                                                 
+                      u, p ∈ C ∞ R3 × [0, T ]             for every finite T > 0.       (1.1.2)
+    The whole-space solution must also retain bounded kinetic energy:
+                                           Z
+                                     sup        |u(x, t)|2 dx < ∞.                      (1.1.3)
+                                     t≥0   R3
+
+    The same problem may be posed on the periodic domain R3 /Z3 , with periodicity replacing
+decay at infinity. In either setting, the time requirement in Equation (1.1.2) is the global
+smoothness claim: the velocity and pressure must remain smooth on every finite interval
+[0, T ], and hence on the full interval [0, ∞).
+
+
+Definitions
+
+Definition 1.1.1 (Smoothness). A velocity–pressure pair (u, p) is smooth through a finite
+time T > 0 when u and p belong to C ∞ on the chosen spatial domain for 0 ≤ t ≤ T . This
+means that every mixed spatial and temporal derivative of finite order exists and is continuous
+through T . It is smooth for all time if this holds for every finite T > 0.
+Definition 1.1.2 (Continuation). Suppose (u, p) is a solution through time T in a regularity
+class X. A continuation of (u, p) past T in X is a solution (ue, e
+                                                                 p) on the same spatial domain
+for 0 ≤ t ≤ T + ε, for some ε > 0, that belongs to X and agrees with (u, p) for 0 ≤ t ≤ T .
+For the Clay problem, X = C ∞ , so continuation carries the same smooth solution past T
+while keeping every finite mixed derivative continuous.
+Definition 1.1.3 (Regularity). For k ∈ N0 , a velocity–pressure pair (u, p) has regularity C k
+through time T if every mixed spatial and temporal derivative of u and p of total order at
+most k exists and is continuous on the chosen spatial domain for 0 ≤ t ≤ T . Smoothness
+is the all-orders case: (u, p) has C ∞ regularity through T exactly when it has C k regularity
+through T for every finite k.
+   In short, regularity is what the solution has, smoothness is the all-orders regularity
+required here, and continuation is carrying that solution forward in time.
+   The required regularity is lost at a finite time T if any component of the velocity–pressure
+pair or any one of its mixed derivatives becomes unbounded as t ↑ T or fails to extend
+continuously to T . For the Clay problem, that loss rules out continuation past T in C ∞ .
+
+                                                      1
+1.2    Historical Background
+We already know how to solve the equations smoothly on a local time interval. The open
+problem begins when we try to keep restarting that solution forever. To restart it, we need
+some quantity the equations can stop from escaping. The first quantity they control for every
+finite time is kinetic energy.
+
+
+Leray’s Energy Estimate
+    Take the inner product of the momentum equation with u and integrate over space.
+Nonlinear transport can move kinetic energy from one part of the flow to another, but the
+divergence-free condition makes its total contribution vanish. Pressure can redirect the
+motion, but it cannot change the total energy either. Viscosity is the term left over, and
+it removes energy through spatial variation. For a smooth solution this calculation is an
+equality, so in particular
+                                           Z t
+                          ∥u(t)∥2L2 + 2ν         ∥∇u(s)∥2L2 ds ≤ ∥u0 ∥2L2 .            (1.2.1)
+                                            0
+
+The first term keeps the kinetic energy bounded at each time. The second pays for the total
+spatial variation dissipated by viscosity over the whole interval.
+   Leray then carried this inequality through a sequence of smooth approximations that only
+converge weakly. Weak lower semicontinuity keeps the left side from being lost in the limit,
+which is enough to construct a finite-energy weak solution on R3 for all time (Leray 1934).
+On every finite interval this gives
+
+                          u ∈ L∞ (0, T ; L2 ),          ∇u ∈ L2 (0, T ; L2 ).
+
+Leray reached every finite time, but only in the energy class. The estimate does not keep the
+solution classically differentiable, and it does not give uniqueness in three dimensions. Its
+dissipation already points at the first derivative that can still escape.
+
+
+The Enstrophy Problem
+   For a divergence-free decaying field,
+
+                             ∥∇u∥2L2 = ∥ω∥2L2 ,            ω := ∇ × u.
+
+The squared L2 size of the vorticity is the enstrophy. Leray’s estimate controls the area
+under its time graph. It does not control the height of that graph at each time, so very large
+enstrophy on very short intervals is still compatible with the energy inequality.
+   Taking the curl of the momentum equation shows where that growth can come from:
+
+                             ∂t ω + (u · ∇)ω = (ω · ∇)u + ν∆ω.                         (1.2.2)
+
+Transport carries the vorticity along the flow, while viscosity diffuses it. The extra three-
+dimensional term stretches it. In two dimensions this stretching term is absent, and the
+
+                                                    2
+

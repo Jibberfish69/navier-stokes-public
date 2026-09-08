@@ -1,0 +1,59 @@
+At every finite order k ≥ 1, the pattern is
+
+                                                           k−1
+                                                                 (−2ν)j ∂tk−1−j P0,j+1/2 .
+                                                           X
+                           H (k) = (−2ν)k E0,k+1/2 +
+                                                           j=0
+
+
+As temporal order rises, the Sobolev height rises with it. The temporal responses form H (k) , and the
+viscous term exposes E0,k+1/2 . The conserved L2 energy supplies the low-frequency part, so each finite
+homogeneous height combines with it into the corresponding inhomogeneous Sobolev space.
+
+This reverses the singularity picture. The narrowing cascade suggested that higher temporal responses
+should become spatially rougher. The equation instead opens a higher spatial Sobolev height at every
+finite temporal order. If all of those exposed heights reach T∗ , the Sobolev embedding theorem gives
+
+                                            3
+                                   s>k+             =⇒     H s (R3 ) ,→ C k (R3 ),
+                                            2
+and hence
+                                         H m (R3 ) = H ∞ (R3 ) ,→ C ∞ (R3 ).
+                                     \
+
+                                   m<∞
+
+The identities have exposed the heights. The finite rectangles carry each finite collection of them through
+the endpoint.
+
+Each temporal response has its own spatial Sobolev ladder:
+
+                                                    Hx0 Hx1 Hx2 Hx3          ···
+                                      V0 = u         ◦   ◦   ◦   ◦           ···
+                                     V1 = ut         ◦   ◦   ◦   ◦           ···
+                                     V2 = utt        ◦   ◦   ◦   ◦           ···
+                                     V3 = uttt       ◦   ◦   ◦   ◦           ···
+                                         ..          ..  ..  ..  ..          ..
+                                          .           .   .   .   .             .
+
+A circle is the coordinate (n, m): the response Vn = ∂tn u measured in Hxm . The rectangle theorem provides
+the bounds.
+
+Fix finite cutoffs N and M . At each 0 ≤ n ≤ N , the finite block uses the adjacent trace stencil
+
+                       Vn ∈ L2 (0, T∗ ; H M +1 ),        Vn+1 = ∂t Vn ∈ L2 (0, T∗ ; H M −1 ),
+
+which gives
+                                              Vn ∈ C([0, T∗ ]; H M ).
+
+Stacking these adjacent pairs through n = N , and retaining the corresponding pressure rows
+
+                                    Qn ∈ L1 (0, T∗ ; H M ),          0 ≤ n ≤ N,
+
+forms the whole-terminal pressure-complete rectangle RN,M [u0 ]. Every finite N and M has its own finite
+bound; the proof never asks for one norm that sums all derivative orders.
+
+
+                                                           4
+

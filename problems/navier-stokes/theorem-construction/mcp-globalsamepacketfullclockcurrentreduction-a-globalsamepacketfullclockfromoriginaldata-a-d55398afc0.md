@@ -61,14 +61,14 @@ D_tS+S^2+\Omega^2+\nabla^2p=\nu\Delta S.
 
 The collar graph differentiates through \(A,G,\phi,\mathbb P_A\); transported
 cutoff motion is base collar/frame service and projector motion is
-Hodge/Stokes service.  Therefore
+Helmholtz--Leray/Stokes service.  Therefore
 
 ```math
 d\Omega_N^{press/RHS}+d\Omega_N^{collar}
 \le
 C_N d\Omega_N^{rel.defect}
 +C_N(d\Omega_N^{strain/frame}
-+d\Omega_N^{Hodge/Stokes}
++d\Omega_N^{Helmholtz--Leray/Stokes}
 +d\Omega_N^{collar/base}
 +dD_N^{vis})
 +dR_N^{legal}.
@@ -157,7 +157,7 @@ variation of the low material coefficient itself:
 ```
 
 with pressure, viscosity, incompressibility, velocity, material frame,
-Hodge/Stokes projection, collar, annular Cauchy stress, and strain kept as one
+Helmholtz--Leray/Stokes projection, collar, annular Cauchy stress, and strain kept as one
 packet.
 
 ## Verdict

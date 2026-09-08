@@ -1,0 +1,52 @@
+    is a successful argument for the wrong object. The CM threat is direct class exit because the
+    object has changed the problem definition.
+
+11. Local critical translator and heat-ancestor records. The late L3 , Duhamel, heat-ancestor,
+    and same-record surfaces try to attach endpoint information to the same terminal record. The
+    failure picture is a readout or ancestor that survives as information while failing to attach to
+    the same Navier–Stokes object. The CM threat is detached terminal ancestry or Field readout
+    loss.
+
+12. Euler mirror and slip-sheet comparisons. The Euler mirror makes slip, shear, weak
+    branches, and smooth-layer-to-slip-sheet limits easy to picture. For fixed-viscosity Navier–
+    Stokes those pictures become tests of the one-field viscous law. The CM threat is a jump or
+    slip: two finite velocity pieces fail to form one smooth NS field.
+
+13. Current theorem-creation support surfaces. Reserve-creation, active-height, height-flux,
+    terminal angular depletion, and source-weighted variants add candidate ways a terminal reserve
+    could appear or be seen. The failure picture is a live candidate branch that supplies pressure
+    on the failure field before a final witness face has been selected. The CM threat is whichever
+    first face the candidate actually violates: Pack, Part, or Field.
+
+   This is the exhaustive positive-forward field as it matters to the class-membership argument.
+The later proof uses the full file-level inventory behind these surfaces. The introduction gives the
+reader the surface map first, before the class test arrives.
+
+
+6    Generally Classifying Failure Types From the List
+Now put the list down as physical stories. A few shapes keep coming back.
+    One shape is loss of body. The terminal picture points at a trace, a pulse, a residue, or a limiting
+record, yet the positive packet of the same transported fluid has disappeared.
+    Another shape is unpaid ancestry. The terminal reserve is assigned to a donor, a parent window,
+a pressure channel, or a previous shell, yet the ancestry has left the same fluid object.
+    Another shape is lost participation. The packet remains visible, while the pressure-viscosity-
+incompressibility law has stopped acting on it as the same Navier–Stokes law.
+    Another shape is broken neighbour relation. Two readings can be finite and locally meaningful
+while failing to join into one smooth velocity field. This is where the Euler slip picture helps the
+imagination.
+    Another shape is tower blowup. The packet stays positive, yet the derivative readings, pressure
+readings, or viscous readings lose finite tower control.
+    Another shape is wrong carrier. A proof may succeed on a regularized, filtered, geometric,
+exported, or strengthened object, while the Clay object stays untouched.
+    These are still pictures. They are deliberately earlier than the formal witness laws. The reader
+should first see what the failed objects look like; only then do Pack, Part, and Field become natural
+names for the tests.
+
+
+7    Silver Standard Approach
+The silver-standard approach is the class-membership audit of the same-solution terminal records left
+by the positive-forward field. Its input is narrower than the whole failure inventory. Branch-family
+
+
+                                                   8
+

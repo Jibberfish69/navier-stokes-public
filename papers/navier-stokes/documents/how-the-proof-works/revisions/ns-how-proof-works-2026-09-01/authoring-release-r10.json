@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "producer": {
+    "agent_path": "/root/fresh_section_producer",
+    "input_packet": {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/producer-input-r10.json",
+      "sha256": "14f9001bdd8fd0256514be65587f755d37c3071a86c95aca13a096a39980fa87"
+    }
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/pdfs/ns-how-proof-works-candidate-r10/00-how-proof-works.tex",
+    "sha256": "8c82bc44986de5b1e4b7524c26627ee8bad0a8413c45d8d50cd6914cb788fdb8"
+  },
+  "pdf": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/isolated-r10.pdf",
+    "sha256": "15e748770fd0d60b80f2b9819e0b20b85a4562fc30698afe7d993158a06616f9"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/isolated-render-r10/page-1.png",
+      "sha256": "a1e5cade65d30d4c2f41eb1b225ac8e8823a958550e47b0498ea2b053e979fbf"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/isolated-render-r10/page-2.png",
+      "sha256": "272d5a479e19a8978ee402d163470ca11456f1e394c9e18167923ffa4a2efb0e"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/isolated-render-r10/page-3.png",
+      "sha256": "cfaa48fae138d71a8cb0c5fae7f9bd954108a15a6a6194e7f5b89c1569268a23"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/isolated-render-r10/page-4.png",
+      "sha256": "ed38ada196b88c089dee5bc95ae896f356233dcd6e1ea32c1a69ee76ffc77039"
+    }
+  ],
+  "critic_packet": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/cold-critic-r10.json",
+    "sha256": "eab5ecb045ba85f13ad2be839246f36e3534106bde191f71929fa018f8ce5837"
+  },
+  "reviews": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/cold-review-r10.json",
+      "sha256": "91aedc7e65cf60b93181f51320c45a24d05afb06695b335f39aebd649deceab3"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/proof-review-r10.json",
+      "sha256": "7254e3a74a71cb6815add75a832985fe27101b74a9c2cef137cda183ea15c4b5"
+    }
+  ]
+}

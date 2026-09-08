@@ -1,0 +1,35 @@
+Consider the case of a vortex within the fluid. Strain within the fluid's
+flow can naturally stretch it. Incompressibility forces the tube to narrow
+as it lengthens, squeezing its fluid particles inward. For a locally circular
+tube, the length \(\ell\) and radius \(r\) respond to a positive axial
+strain \(\sigma\) as
+\[
+ \dot\ell=\sigma\ell>0,
+ \qquad r\propto\ell^{-1/2}.
+\]
+As the radius shrinks, the circulation \(\Gamma\) enclosed by the tube
+determines how fast the fluid turns around it. Its mean swirl speed \(v\) is
+\[
+ v=\frac{|\Gamma|}{2\pi r}.
+\]
+If circulation persists strongly enough through that narrowing, the fluid
+circulates faster around a smaller core.
+
+Viscosity diffuses momentum between neighbouring regions, reducing velocity
+differences and spreading the rotation through the surrounding fluid.
+It can carry rotation out of the narrowing tube and reduce its enclosed
+circulation. The vorticity equation contains this competition between
+stretching and diffusion:
+\[
+ \partial_t\omega+(u\cdot\nabla)\omega
+ =(\omega\cdot\nabla)u+\nu\Delta\omega,
+ \qquad \omega=\nabla\times u.
+\]
+While the tube's radius is shrinking, diffusion spreads rotation over
+a distance
+\[
+ r_{\mathrm{diff}}\sim\sqrt{\nu t}.
+\]
+The material tube can keep narrowing as its fluid particles move inward,
+even while rotation spreads beyond its boundary and its enclosed
+circulation weakens.

@@ -1,0 +1,132 @@
+\section{Introduction}
+\label{sec:introduction}
+
+Fix \(\nu>0\) and a divergence-free datum
+\(u_0\in H^\infty(\R^3;\R^3)\).  Smooth-data local theory gives a unique
+classical solution on a maximal interval \([0,T_*)\)
+\cite{FujitaKato1964,Kato1984}.  Throughout the paper, \((u,p)\) denotes that
+solution.  The problem is to decide whether \(T_*\) can be finite.  On each strict
+subinterval \([0,T]\), smoothness already makes every finite Sobolev norm
+finite.  That fact alone says nothing about what happens as \(T\uparrow T_*\):
+the bound may depend on \(T\) and diverge at the endpoint.  The proof must
+instead control the approach to \(T_*\) with constants that do not depend on
+the cutoff.
+
+Leray constructed global finite-energy weak solutions \cite{Leray1934}, and
+Caffarelli, Kohn, and Nirenberg bounded the size of the possible singular set
+for suitable weak solutions \cite{CKN1982}.  Serrin proved regularity under
+scale-balanced spacetime integrability hypotheses \cite{Serrin1962};
+Escauriaza, Seregin, and \v{S}ver\'ak treated the endpoint
+\(L^\infty_tL^3_x\) case \cite{ESS2003}.  Fujita--Kato and Kato supply the
+strong local theory used below at the terminal restart
+\cite{FujitaKato1964,Kato1984}, and Koch--Tataru place small-data
+global well-posedness in the critical space \(BMO^{-1}\)
+\cite{KochTataru2001}.
+Tao gives a localization and compactness formulation of the global problem
+\cite{Tao2013}.  The regularity criteria show that control of an appropriate
+critical quantity excludes singularity.  The argument below does not assume
+such control.  It derives it from one family of estimates for all finite time
+and space derivatives of the maximal solution.
+
+Pressure is part of that derivative structure.  With the decay normalization,
+incompressibility determines it from the current velocity:
+\[
+ -\Delta p=\partial_i\partial_j(u_i u_j),
+ \qquad
+ p=R_iR_j(u_i u_j).
+\]
+Here \(R_i\) are the Riesz transforms, and repeated indices are summed.
+Write
+\[
+ V_n:=\partial_t^nu,
+ \qquad
+ Q_n:=\partial_t^np.
+\]
+Differentiating the equation does not introduce a new solution.  It gives
+\begin{align}
+ Q_n
+ &=R_iR_j\sum_{a=0}^{n}\binom naV_{a,i}V_{n-a,j},
+ \label{eq:intro-pressure-recurrence}\\
+ V_{n+1}
+ &=\nu\Delta V_n
+ -\sum_{a=0}^{n}\binom na(V_a\cdot\nabla)V_{n-a}
+ -\nabla Q_n.
+ \label{eq:intro-velocity-recurrence}
+\end{align}
+Thus the time derivatives, spatial derivatives, and pressure derivatives are
+coordinates of one solution.  A time derivative raises the order of the
+viscous term by two spatial derivatives and distributes the transport and
+pressure terms among earlier time derivatives.  The resulting estimates must
+track temporal depth and spatial depth independently.
+
+For finite \(N,M\in\Nzero\), set
+\begin{equation}
+ \mathfrak R_{N,M}(u;T)
+ :=\sum_{n=0}^{N}\norm{V_n}_{L^2(0,T;H^{M+1})}^2
+ +\sum_{n=0}^{N}\norm{V_{n+1}}_{L^2(0,T;H^{M-1})}^2.
+ \label{eq:intro-rectangle-norm}
+\end{equation}
+The central estimate is that, under the contradiction hypothesis
+\(T_*<\infty\), every fixed finite pair satisfies
+\begin{equation}
+ \sup_{0<T<T_*}\mathfrak R_{N,M}(u;T)<\infty.
+ \label{eq:intro-terminal-rectangle}
+\end{equation}
+This is Theorem~\ref{thm:datum-rectangles} below.
+The bound is coordinatewise: its constant may depend on \(N\) and \(M\), but
+it does not depend on \(T\).  No uniform estimate over all derivative orders
+is asserted or needed.
+
+Every rectangle contains derivatives of the same solution.  If
+\(N'\le N\) and \(M'\le M\), restriction deletes the higher rows and applies
+Sobolev embeddings to the rows that remain; a shared derivative does not
+change.  Write \(\mathcal R_{N,M}[u_0;T_*]\) for the resulting whole-terminal
+finite rectangle, and denote the compatible family by
+\begin{equation}
+ \mathcal I[u_0]
+ :=\bigl(\mathcal R_{N,M}[u_0;T_*]\bigr)_{N,M\in\Nzero}.
+ \label{eq:intro-compatible-intersection}
+\end{equation}
+Given finite \(r,m\), choose one rectangle deep enough to contain the
+requested time and space derivatives.  Compatibility guarantees that this
+coordinate is the same one in every larger rectangle, and hence
+\begin{equation}
+ u\in\bigcap_{r,m\in\Nzero}H^r(0,T_*;H^m).
+ \label{eq:intro-all-orders-intersection}
+\end{equation}
+
+The zeroth time row of \eqref{eq:intro-all-orders-intersection} gives, for
+each finite \(m\), \(u\in L^2(0,T_*;H^{m+2})\).  Sobolev multiplication gives
+\[
+ \norm{\Pp\nabla\!\cdot(u\otimes u)}_{H^m}
+ \le C_m\norm u_{H^{m+2}}^2.
+\]
+Since \(T_*<\infty\), the nonlinear term and \(\Delta u\) belong to
+\(L^1(0,T_*;H^m)\); for the linear term, explicitly,
+\[
+ \norm{\Delta u}_{L^1(0,T_*;H^m)}
+ \le T_*^{1/2}\norm u_{L^2(0,T_*;H^{m+2})}.
+\]
+The equation
+\[
+ u_t=\nu\Delta u-\Pp\nabla\!\cdot(u\otimes u)
+\]
+now gives
+\[
+ u\in W^{1,1}(0,T_*;H^m)
+ \hookrightarrow C([0,T_*];H^m)
+ \qquad(m<\infty).
+\]
+The endpoint values agree under the Sobolev inclusions because they are limits
+of the same function \(u(t)\).  They define one terminal state
+\[
+ u_*:=u(T_*)\in\bigcap_{m<\infty}H^m.
+\]
+Since \(u_*\in H^\infty_\sigma\), local well-posedness restarts the equation
+at \(T_*\).  Equations \eqref{eq:intro-pressure-recurrence}--
+\eqref{eq:intro-velocity-recurrence} recover the endpoint pressure and time
+derivatives.  Uniqueness joins the restarted solution to \(u\), producing an
+extension past \(T_*\).  This contradicts maximality and proves global
+smoothness.
+
+\clearpage

@@ -19,13 +19,13 @@ The object is the original Navier--Stokes participation law coupled to strain on
 \mathbb P_A,\quad T=-pI+2\nu S,\quad S,\quad \phi,\quad m_j.
 ```
 
-Pressure/RHS, material Hodge/Stokes projection, coefficient motion, transported collar motion, Cauchy stress, viscosity, and strain are coordinates of this carrier.
+Pressure/RHS, material Helmholtz--Leray/Stokes projection, coefficient motion, transported collar motion, Cauchy stress, viscosity, and strain are coordinates of this carrier.
 
 ## Shorthand rule
 
 The phrase `pressure--strain interface` is coordinate-level shorthand. The theorem-level name is `participation-law--strain interface`.
 
-This prevents the pressure coordinate from being read as an isolated pressure mechanism and keeps the incompressibility constraint, Hodge projection, coefficient deformation, Cauchy stress, viscosity, and transported collar inside the same object.
+This prevents the pressure coordinate from being read as an isolated pressure mechanism and keeps the incompressibility constraint, Helmholtz--Leray projection, coefficient deformation, Cauchy stress, viscosity, and transported collar inside the same object.
 
 ## Correct no-recirculation statement
 

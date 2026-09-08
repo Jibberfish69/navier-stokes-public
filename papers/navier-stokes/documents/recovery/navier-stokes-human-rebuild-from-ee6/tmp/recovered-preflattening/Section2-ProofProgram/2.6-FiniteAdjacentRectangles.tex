@@ -1,0 +1,113 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.6 Finite Adjacent Rectangles
+% ============================================================
+
+\subsection{Finite Adjacent Rectangles}\label{sub:FiniteAdjacentRectangles}
+
+Fix a temporal depth \(N\in\Nzero\), a spatial height parameter \(M\in\Nzero\), and a strict interval \(I=(0,T)\) with \(T<T_*\).
+The temporal rows will be
+\[
+  V_n:=\partial_t^n u,
+  \qquad
+  0\leq n\leq N+1.
+\]
+The correct spatial pair around the middle height \(H^M\) is
+\[
+  H^{M+1}(\R^3)
+  \hookrightarrow
+  H^M(\R^3)
+  \hookrightarrow
+  H^{M-1}(\R^3).
+\]
+For \(M=0\), the lower space is \(H^{-1}\) in the standard inhomogeneous Sobolev scale.
+
+This adjacent pair has a specific temporal job.
+If
+\[
+  V_n\in L^2(I;H^{M+1}),
+  \qquad
+  \partial_tV_n=V_{n+1}\in L^2(I;H^{M-1}),
+\]
+then the standard Hilbert-triple trace mechanism gives
+\[
+  V_n\in C(\overline I;H^M).
+\]
+The upper row controls one spatial derivative above the trace height, and the time derivative is allowed to live one spatial derivative below it.
+Their two-order separation matches the parabolic scaling already visible in \(\partial_t-\nu\Delta\).
+The middle \(H^M\) value is the trace paid for by two adjacent spatial rows.
+
+The first useful example takes \(N=1\) and \(M=2\).
+We read \(u\) and \(\partial_tu\) at the upper spatial height \(H^3\), then read their time derivatives \(\partial_tu\) and \(\partial_t^2u\) at the lower height \(H^1\).
+The resulting finite quantity is
+\begin{align*}
+  \mathfrak R_{1,2}(u;T)
+  :={}&
+  \norm{u}_{L^2(0,T;H^3)}^2
+  +
+  \norm{\partial_tu}_{L^2(0,T;H^3)}^2
+  \\
+  &+
+  \norm{\partial_tu}_{L^2(0,T;H^1)}^2
+  +
+  \norm{\partial_t^2u}_{L^2(0,T;H^1)}^2.
+\end{align*}
+The first and third terms form the adjacent pair for \(u\), so they give \(u\in C([0,T];H^2)\).
+The second and fourth terms form the adjacent pair for \(\partial_tu\), so they give \(\partial_tu\in C([0,T];H^2)\).
+The repeated \(\partial_tu\) is the join between these two blocks.
+Its upper \(H^3\) membership already implies its lower \(H^1\) membership, while recording both appearances keeps its two structural roles visible.
+
+The same example can be read as a small rectangle of the mixed jet:
+\[
+  \begin{array}{c|cc}
+  & n=0 & n=1 \\
+  \hline
+  \text{upper row }H^3
+  & u & \partial_tu \\
+  \text{lower derivative row }H^1
+  & \partial_tu & \partial_t^2u
+  \end{array}
+\]
+The horizontal coordinate is temporal depth, and the vertical coordinate is the adjacent spatial pair.
+The word rectangle names this finite coordinate pattern.
+It is not a physical box inside the fluid.
+
+Nothing in the construction depends on the particular cutoffs \(1\) and \(2\).
+At arbitrary finite depths, define
+\begin{align*}
+  \mathfrak R_{N,M}(u;T)
+  :={}&
+  \sum_{n=0}^{N}
+  \norm{\partial_t^n u}_{L^2(0,T;H^{M+1})}^{2}
+  \\
+  &+
+  \sum_{n=0}^{N}
+  \norm{\partial_t^{n+1}u}_{L^2(0,T;H^{M-1})}^{2}.
+\end{align*}
+Each index \(n\) contributes one field row at upper spatial height and its time derivative at lower spatial height.
+Consequently, every \(0\leq n\leq N\) has the middle trace
+\[
+  \partial_t^n u
+  \in
+  C\bigl([0,T];H^M(\R^3)\bigr).
+\]
+Increasing \(N\) exposes more temporal responses, while increasing \(M\) raises the spatial height of every exposed row.
+The two cutoffs remain independent.
+
+The norm measures the velocity coordinates of a finite view.
+The pressure-complete record must also retain the corresponding pressure rows and the differentiated equations that connect them.
+Write \(\cR_{N,M}(u,p;T)\) for the record consisting of the velocity rows counted by \(\mathfrak R_{N,M}(u;T)\), the pressure coordinates determined by
+\[
+  -\Delta\Pi_{m,\alpha}
+  =
+  \partial_i\partial_j
+  \partial_t^m\partial_x^\alpha(u_i u_j),
+\]
+and every mixed recurrence needed inside the chosen finite depths.
+Attaching these equations prevents a list of Sobolev functions from being mistaken for a \NavierStokes\ derivative record.
+The finite view still carries viscosity, pressure, incompressibility, transport, and the binomial interactions among its coordinates.
+
+One rectangle pays only a finite part of smoothness.
+For fixed \(N\) and \(M\), it gives the middle traces available at those cutoffs.
+The all-orders intersection arises by allowing every finite \((N,M)\), with a separate finite bound permitted at each coordinate.
+Those separate views can form one intersection only when their shared rows agree.

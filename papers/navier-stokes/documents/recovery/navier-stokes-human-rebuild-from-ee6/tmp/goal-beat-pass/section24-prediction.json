@@ -1,0 +1,152 @@
+{
+  "field_resolutions": [],
+  "reader_start": "the reader understands that successive Eulerian responses of one candidate singularity satisfy a pressure-complete recurrence containing spatial derivatives",
+  "live_pressure": "scaling may match temporal and spatial weights but cannot identify different quantities or create regularity; every formal coordinate must remain a derivative of the same field; the Section 3 handoff must be the whole-terminal finite-rectangle burden",
+  "candidate_moves": [
+    {
+      "move_id": "user-fixed-spatial-ascent-to-rectangles",
+      "move": {
+        "selection": "each later temporal response exposes a higher spatial Sobolev height through the viscous term; this asks for more spatial regularity, not less, without yet proving a bound; every temporal row has its own spatial ladder; the ladders form one compatible mixed grid; every finite coordinate lies in a finite rectangle; Section 3 must control each fixed rectangle uniformly through the terminal interval and preserve overlap compatibility",
+        "connection": "The critical-height scaling diagonal identifies the spatial height paired with each time response, and the differentiated energy row exposes that height together with the transfer terms that still require control.",
+        "development": "Derive the diagonal, unfold the first three spatial-ascent identities, state the finite induction, connect height derivatives to velocity responses, repeat the ladder in every temporal row, then make the grid and finite-rectangle handoff concrete.",
+        "expression": "Keep the singularity and its responses as the subject, explain what every display changes for the reader, and reserve proof-administration language for the final burden."
+      },
+      "layer_status": {
+        "selection": "present",
+        "connection": "present",
+        "development": "present",
+        "expression": "present"
+      },
+      "reader_change": "The reader sees the mixed grid as the exact expansion of the singularity's response Tower and understands why finite rectangles are the next proof object.",
+      "next_possibility": "Section 3 can define the adjacent trace rectangles and state their whole-terminal bound.",
+      "content_basis": ["live-input"],
+      "sequence": [
+        {
+          "step_id": "scale-diagonal",
+          "thought": "The n-th time response of critical height and the spatial height n plus one half have the same scaling weight without being the same quantity.",
+          "connection": "The matching weight selects the spatial rung that belongs beside each temporal response.",
+          "reader_start": "the reader understands that successive Eulerian responses of one candidate singularity satisfy a pressure-complete recurrence containing spatial derivatives",
+          "reader_end": "the reader sees which spatial Sobolev height is paired with each temporal response and why equal weight is not equality",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "viscous-ascent",
+          "thought": "Repeated differentiation of the pressure-complete energy row exposes one higher viscous energy at every step together with all transfer terms already produced.",
+          "connection": "The Tower demands higher spatial regularity while retaining the exact unpaid terms.",
+          "reader_start": "the reader sees which spatial Sobolev height is paired with each temporal response and why equal weight is not equality",
+          "reader_end": "the reader understands the exposed spatial ladder and why it is not yet a regularity bound",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "each-row-ladder",
+          "thought": "Every Eulerian response has its own spatial energy row, so temporal depth and spatial height become independent coordinates.",
+          "connection": "One ladder expands into the full mixed grid.",
+          "reader_start": "the reader understands the exposed spatial ladder and why it is not yet a regularity bound",
+          "reader_end": "the reader sees every temporal response carrying its own independent spatial ladder",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "mixed-grid",
+          "thought": "All ladders belong to the same velocity and pressure jet and meet in one time-space grid.",
+          "connection": "The infinite object can be approached through finite blocks.",
+          "reader_start": "the reader sees every temporal response carrying its own independent spatial ladder",
+          "reader_end": "the reader sees the full mixed grid as one object rather than separate towers",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "finite-rectangles",
+          "thought": "Any finite request occupies finitely many rows and heights, while terminal control and overlap compatibility remain unpaid.",
+          "connection": "This gives Section 3 its exact burden.",
+          "reader_start": "the reader sees the full mixed grid as one object rather than separate towers",
+          "reader_end": "the reader sees the full mixed time-space grid, understands why finite rectangles are the usable pieces, and knows that Section 3 must control every fixed rectangle uniformly and compatibly",
+          "content_basis": ["live-input"]
+        }
+      ],
+      "evidence_uses": [
+        {
+          "record_id": "decision-unfold-causal-relations-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The spatial ascent must be derived through successive consequences rather than announced as a grid."
+        },
+        {
+          "record_id": "decision-preserve-discovery-order-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The user fixed spatial ascent, each-row ladders, grid, then finite rectangles."
+        },
+        {
+          "record_id": "decision-develop-to-reader-change-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "Each displayed identity must change the reader's grasp before the next abstraction arrives."
+        },
+        {
+          "record_id": "observation-section2-scaling-diagonal-movement-20260817",
+          "source_move_id": "observed-move",
+          "relation": "supports",
+          "applicability_reason": "This record directly concerns the Section 2 time-space scaling diagonal."
+        }
+      ],
+      "risks": [
+        "Treating equal scaling weights as equality of quantities.",
+        "Treating an exposed Sobolev energy as a proved bound.",
+        "Letting the grid become a topic inventory detached from the singularity.",
+        "Replacing fixed-pair terminal bounds with one common all-orders constant."
+      ],
+      "confidence": "low"
+    }
+  ],
+  "chosen_move_id": "user-fixed-spatial-ascent-to-rectangles",
+  "choice_reason": "Thomas fixed the movement from each temporal response into higher spatial regularity, the mixed grid, and finite rectangles.",
+  "rejected_move_ids": [],
+  "evidence_dispositions": [
+    {"record_id":"decision-live-obstacle-before-label-001","status":"not_applicable","reason":"The live obstacle is already established."},
+    {"record_id":"decision-carry-established-thought-forward-001","status":"not_applicable","reason":"The user-owned move fixes the continuation."},
+    {"record_id":"decision-unfold-causal-relations-001","status":"used","reason":"The spatial ascent must be developed causally."},
+    {"record_id":"decision-name-operational-objects-001","status":"not_applicable","reason":"The live source fixes every field and energy object."},
+    {"record_id":"decision-earn-technical-language-001","status":"not_applicable","reason":"The calculations earn their own formal names."},
+    {"record_id":"decision-preserve-discovery-order-001","status":"used","reason":"The exact order is central to this subsection."},
+    {"record_id":"decision-generate-expression-from-thought-001","status":"not_applicable","reason":"No separate expression authority is needed."},
+    {"record_id":"decision-use-reader-shared-language-001","status":"not_applicable","reason":"The manuscript vocabulary is already fixed."},
+    {"record_id":"decision-develop-to-reader-change-001","status":"used","reason":"Each step must change the reader before the grid arrives."},
+    {"record_id":"decision-keep-example-inside-idea-001","status":"not_applicable","reason":"No separate example is introduced."},
+    {"record_id":"decision-repair-exact-referent-001","status":"not_applicable","reason":"The same candidate singularity remains the referent."},
+    {"record_id":"decision-generalize-to-writing-faculty-001","status":"not_applicable","reason":"This run edits the manuscript only."},
+    {"record_id":"observation-reader-led-concept-before-formal-name-001","status":"not_applicable","reason":"The formal terms arise directly from the displayed derivation."},
+    {"record_id":"decision-preserve-local-movement-role-001","status":"not_applicable","reason":"The roles are fixed by the user-owned movement."},
+    {"record_id":"decision-separate-internal-inquiry-from-written-interrogative-001","status":"not_applicable","reason":"The subsection contains no need for written questions."},
+    {"record_id":"decision-sentence-possesses-complete-thought-001","status":"not_applicable","reason":"No separate sentence-pattern decision is needed."},
+    {"record_id":"decision-hold-object-transfer-only-behaviour-20260814","status":"not_applicable","reason":"The one-field boundary comes from the live source."},
+    {"record_id":"decision-abstract-learning-is-cross-document-not-local-edit-20260815","status":"not_applicable","reason":"No learning update is being made."},
+    {"record_id":"observation-direct-reader-train-of-thought-20260816","status":"not_applicable","reason":"The selected records cover the local movement."},
+    {"record_id":"decision-section-opening-reader-orientation-20260816","status":"not_applicable","reason":"This is not the section entrance."},
+    {"record_id":"decision-learning-updates-generation-not-artifact-20260816","status":"not_applicable","reason":"The edit is directly authorized."},
+    {"record_id":"observation-section2-scaling-diagonal-movement-20260817","status":"used","reason":"It directly supports this subsection's scaling diagonal."},
+    {"record_id":"decision-cold-open-developed-beats-gap-filling-20260817","status":"not_applicable","reason":"The cold-open decision belongs to the beginning of Section 2."}
+  ],
+  "uncertainties": [
+    "Exact sentence texture remains an authored realization inside the fixed movement."
+  ],
+  "authorial_commitment": {
+    "work_target": "A complete spatial-ascent subsection that makes the mixed grid and finite rectangles inevitable from the temporal Tower.",
+    "strongest_move_reason": "It keeps the singularity's responses as the subject while every new coordinate is earned by the equation.",
+    "intellectual_gain": "The reader sees why the Tower asks for higher spatial regularity and why exposure is not control.",
+    "reader_gain": "Finite rectangles arrive as the usable pieces of one mixed grid.",
+    "delivery": "complete_output",
+    "structural_commitment": {
+      "scope": "section",
+      "decision_origin": "user_supplied",
+      "voice_attribution": "user_owned",
+      "artifact_disposition": "preserve",
+      "inherited_reader_state": "The reader owns the pressure-complete temporal Tower.",
+      "section_job": "Expose higher spatial heights, build the mixed grid, and earn finite rectangles.",
+      "outgoing_reader_need": "Control every fixed rectangle uniformly through the terminal interval with compatible overlaps.",
+      "gap_decision": "strengthen_handoff",
+      "gap_payment": "End on the exact terminal and compatibility burden taken up by Section 3.",
+      "new_section_job": "",
+      "enrichment_reason": "Only explanations that connect a display to the next reader need are added.",
+      "enrichments": []
+    }
+  }
+}

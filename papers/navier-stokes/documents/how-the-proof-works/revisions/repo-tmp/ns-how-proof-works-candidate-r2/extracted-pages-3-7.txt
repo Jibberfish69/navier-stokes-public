@@ -1,0 +1,255 @@
+How the Proof Works
+
+One smooth three-dimensional incompressible flow can contain a vortex, stretch it, and drive its core
+toward finer scales. The global danger is whether that flow can sharpen one of its own structures so
+far that smooth continuation fails in finite time. Fix one velocity u, one pressure p, and one viscosity
+ν > 0, and follow only that history:
+                     ∂t u + (u· ∇)u + ∇p = ν∆u,                   ∇· u = 0,        u(0) = u0 .
+The transport term moves and deforms the velocity already in the fluid. Pressure responds across
+the whole field so that this motion remains incompressible. Viscosity diffuses a sharp change into its
+surroundings.
+Take one vortex tube inside that field. When the surrounding strain pulls the tube along its
+axis, incompressibility forces a transverse contraction: a longer piece of fluid cannot keep its old
+cross-section without gaining volume. The core narrows. At the level of vorticity ω = ∇ × u, this
+motion is visible in
+                                  ∂t ω + (u· ∇)ω = (ω· ∇)u + ν∆ω.
+The stretching term can amplify rotation aligned with the strain. As the core contracts, the velocity
+turns across a shorter transverse distance and its gradient steepens. Nonlinear motion can sharpen
+the vortex in this way, while ν∆ω spreads the concentrated vorticity and smooths that gradient.
+The narrower the core becomes, the stronger both effects can become.
+A narrowing vortex also changes the length and time scales on which the equation is being read. If
+(u, p) is viewed a factor λ deeper in space, then
+                         uλ (x, t) = λu(λx, λ2 t),              pλ (x, t) = λ2 p(λx, λ2 t).
+Space has contracted by λ−1 , the clock by λ−2 , and the velocity amplitude has grown by λ. Every
+term in the equation then carries a factor λ3 . This is what Navier–Stokes scaling says: it compares
+solutions seen at different resolutions. It does not say that an evolving vortex must pass through a
+chain of rescaled copies.
+The spatial Sobolev norms record what that comparison does to regularity:
+                                     ∥uλ (·, t)∥Ḣ s = λs−1/2 ∥u(·, λ2 t)∥Ḣ s .
+Below s = 12 , finer concentration lowers the scaled norm. Above s = 12 , it raises it. At s = 12 , it
+leaves the scaled size unchanged. Thus Ḣ 1/2 is scaling-critical; it is not a conserved quantity. Saying
+that nonlinear transport and viscosity have equal scaling weight means only that rescaling cannot
+make one term disappear beside the other. It gives no cancellation, sign, or bound. Kinetic energy
+behaves differently:
+                                    ∥uλ (·, t)∥22 = λ−1 ∥u(·, λ2 t)∥22 .
+The idealized core can move to finer scales while its energy remains finite and its higher gradients
+grow.
+Now suppose this sharpening repeats by a fixed spatial factor λ > 1. After j contractions, the scaling
+above gives a core length and a parabolic response time
+                                                                   ∞
+                             −j                    −2j
+                                                                   ∑︂              τ0
+                      ℓj = λ      ℓ0 ,     τj = λ        τ0 ,            τj =           < ∞.
+                                                                                1 − λ−2
+                                                                   j=0
+
+
+
+                                                           3
+Infinitely many scale changes can fit inside a finite T∗ . The resulting Zeno cascade is a picture of
+one finite-energy fluid reaching arbitrarily small scales while its gradients become arbitrarily large,
+not a theorem that a vortex actually follows this path.
+Inside that hypothetical velocity-blow-up picture, let X be the uniform norm in which u is supposed
+to diverge. If its acceleration stayed bounded in X, then the fundamental theorem of calculus would
+give
+                           sup ∥u(t)∥X ≤ ∥u(0)∥X + T∗ sup ∥∂t u(t)∥X < ∞,
+                         t<T∗                                t<T∗
+
+so the pictured velocity blow-up could not occur. Applied one order higher, bounded jerk keeps
+acceleration bounded; the calculation repeats at every finite order. In this picture, in order for a
+singularity to happen, velocity has to blow up. In order for that to happen, its acceleration would
+also have to blow up, which means its jerk has to blow up, and so on, and so on:
+
+                                       u,     ∂t u,       ∂t2 u,    ...
+
+The hypothetical cascade cannot stop at any fixed temporal order.
+The equation carries this repeated temporal climb into its nonlinear and viscous structure:
+                  ∂t u = ν∆u − (u· ∇)u − ∇p,
+                  ∂t2 u = ν∆∂t u − (∂t u· ∇)u − (u· ∇)∂t u − ∇∂t p,
+                  ∂t3 u = ν∆∂t2 u − (∂t2 u· ∇)u − 2(∂t u· ∇)∂t u − (u· ∇)∂t2 u − ∇∂t2 p.
+The Laplacian follows the rising temporal response, while the nonlinear term opens into every
+product allowed by the product rule. After three lines the bookkeeping is already hiding the relation,
+so put
+                                     Vr := ∂tr u,    Qr := ∂tr p.
+At order r, those product-rule copies occur with multiplicity ar , so the expansion closes as
+                                                                (︁ )︁
+
+                                    r (︃ )︃
+                                  ∑︂     r
+                           Vr+1 +          (Va · ∇)Vr−a + ∇Qr = ν∆Vr ,
+                                         a
+                                      a=0
+                                            r (︃ )︃
+                                           ∑︂   r
+                                Qr = Ri Rj         Va,i Vr−a,j .
+                                                a
+                                            a=0
+
+Incompressibility fixes Qr through the Riesz transforms Ri , so the pressure row stays with the
+nonlinear row at every order.
+If a singularity were forming, one would expect spatial regularity to erode as these temporal responses
+rise. Yet each next response contains ν∆Vr , hence two spatial derivatives of the preceding response.
+That does not give regularity on its own. It tells us which spatial coordinates the equation exposes.
+To measure the spatial order exposed by ∆Vr , let Λ = (−∆)1/2 and set
+                                      1
+                             Es (t) := ∥Λs u(t)∥22 ,          H(t) := E1/2 (t),
+                                      2
+and retain the complete pressure-coupled nonlinear transfer
+
+                           Ps (t) := − Re Λs u, Λs (u· ∇)u + ∇p L2 .
+                                         ⟨︁       (︁           )︁⟩︁
+
+
+
+                                                      4
+Pairing the equation at height s gives
+                                             Es′ = Ps − 2νEs+1 .
+Differentiate this identity and use it again at each new height. At every finite order n,
+                                                         n−1
+                                                               (−2ν)j ∂tn−1−j Pj+1/2 .
+                                                         ∑︂
+                          H (n) = (−2ν)n En+1/2 +
+                                                         j=0
+
+Acceleration, jerk, and the higher temporal responses have now exposed the Sobolev coordinates
+                                                   1
+                                        En+1/2 = ∥u∥2Ḣ n+1/2 .
+                                                   2
+If every finite exposed height reaches one terminal value u∗ , with the finite-energy row retained, then
+for any k one can choose n > k + 1 and read
+                                            ⋂︂
+                                 u∗ ∈ L2 ∩     Ḣ n+1/2 = H ∞ ↪→ C ∞ .
+                                               n<∞
+
+But exposure is not control. Differentiation does not bound H (n) , the transfer terms, or En+1/2 ; it
+only keeps their exact relation visible. The singular picture predicts loss of spatial regularity as
+temporal order rises, and these identities alone do not prevent it.
+Let [0, T∗ ) be the maximal classical lifespan and suppose T∗ < ∞. Fix one finite pair (N, M ) and
+one cutoff 0 < T < T∗ . For 0 ≤ n ≤ N , keep the whole transfer
+                                         n (︃ )︃
+                                        ∑︂   n
+                                Bn :=           (Va · ∇)Vn−a + ∇Qn .
+                                             a
+                                           a=0
+
+Pairing the recurrence for Vn at height M gives
+                     1d M
+                          ∥Λ Vn ∥22 + Re ΛM Vn , ΛM Bn L2
+                                         ⟨︁           ⟩︁
+                     2 dt
+                                    = ν Re ΛM Vn , ΛM ∆Vn L2 = −ν∥Vn ∥2Ḣ M +1 .
+                                            ⟨︁            ⟩︁
+
+The viscous term has a fixed sign, while every product-rule transfer and the pressure response remain
+coupled to it in this finite system. This identity shows what must be controlled; it does not supply
+the whole-terminal bound by itself. That payment is the datum-generated theorem:
+                              N (︂
+                             ∑︂                                                         )︂
+                       sup           ∥Vn ∥2L2 (0,T ;H M +1 ) + ∥Vn+1 ∥2L2 (0,T ;H M −1 ) < ∞.
+                     0<T <T∗ n=0
+
+Every term in the sum increases monotonically with the cutoff. Since one finite bound holds for all
+T < T∗ , the limit T ↑ T∗ places each adjacent pair on the full approach to T∗ . With Vn+1 = ∂t Vn ,
+that pair sits in the Hilbert triple
+                                           H M +1 ⊂ H M ⊂ H M −1
+and gives
+                                             Vn ∈ C([0, T∗ ]; H M ).
+The pressure formula supplies Qn ∈ L1 (0, T∗ ; H M ) and ∇Qn ∈ L1 (0, T∗ ; H M −1 ), so the finitely many
+rows now form one pressure-complete rectangle
+                         RN,M [u0 ; T∗ ] = (Vn )N             N          N
+                                           (︁                               )︁
+                                                 n=0 , (Vn+1 )n=0 ; (Qn )n=0 .
+
+
+                                                        5
+The bound may depend on N and M . No constant uniform over every derivative order is being used.
+A larger rectangle retains each older coordinate as the identical distributional derivative of u or p.
+Restricting from (N, M ) to (N ′ , M ′ ) consequently gives
+                                         ρN,M
+                                          N ′ ,M ′ RN,M [u0 ; T∗ ] = RN ,M [u0 ; T∗ ].
+                                                                       ′  ′
+
+
+All finite rectangles can now meet without changing the fluid on an overlap. The finite coordinate
+space containing one rectangle is
+                          N
+                          ∏︂                                N
+                                                            ∏︂                               N
+                                                                                             ∏︂
+                                                                                 M −1
+             XN,M :=             2
+                                L (0, T∗ ; H    M +1
+                                                       )×             2
+                                                                  L (0, T∗ ; H          )×         L1 (0, T∗ ; H M ).
+                          n=0                               n=0                              n=0
+
+The restriction maps make these spaces an inverse system, with
+         X∞ := lim XN,M = (ZN,M )N,M : ZN,M ∈ XN,M ,
+                             {︁
+                 ←−
+                 N,M
+
+                                                            ρN,M                       ′      ′
+                                                                                                  }︁
+                                                             N ′ ,M ′ ZN,M = ZN ,M if N ≤ N, M ≤ M .
+                                                                               ′  ′
+
+
+The datum-specific intersection is the compatible family
+                                                                                   ⋂︂
+           I[u0 ] := RN,M [u0 ; T∗ ] N,M ∈N0 ∈ X∞ ,                                      H r (0, T∗ ; H m (R3 )).
+                     (︁             )︁
+                                                        u∈
+                                                                                 r,m<∞
+
+There is no all-order estimate hidden in this notation. Each requested coordinate is obtained at a
+finite stage, and compatibility makes all of those finite coordinates parts of one history.
+Take the zeroth temporal row after this intersection has been formed. For every finite m,
+              u ∈ L2 (0, T∗ ; H m+1 ),             ut ∈ L2 (0, T∗ ; H m−1 ),             u ∈ C([0, T∗ ]; H m ).
+The endpoint values at different heights are compatible traces of one field. They produce a common
+endpoint                                ⋂︂
+                       u∗ := u(T∗ ) ∈       H m (R3 ) = H ∞ (R3 ) ↪→ C ∞ (R3 ).
+                                                 m<∞
+
+At T∗ , set V0∗ := u∗ . The pressure formula and binomial recurrence then define Q∗r and Vr+1    ∗
+
+through every finite order. Smooth local existence restarts the flow from u∗ . Uniqueness glues that
+continuation to the history already reaching T∗ , contradicting finite maximality. Hence
+                                                            T∗ = ∞.
+
+Only after I[u0 ] is present do the familiar finite estimates become available as coordinate projections.
+Fix any finite T , a temporal order r, a spatial derivative order k, and 2 ≤ p ≤ ∞, then choose
+                                                                      3 3
+                                                       m>k+            − .
+                                                                      2 p
+The corresponding row gives
+                                         Vr ∈ C([0, T ]; H m ) ↪→ L∞ (0, T ; W k,p ).
+For instance, the m = 3 coordinate yields
+                           ∫︂ T
+                                ∥∇u(t)∥∞ dt ≤ T ∥u∥L∞ (0,T ;W 1,∞ ) < ∞.
+                                     0
+
+
+                                                                  6
+This estimate appears because the fluid already occupies the compatible intersection; it is a finite
+readout of that object, not the source of it. Its source remains visible in the full dependence
+                                                        Vn ∈ L2 (0, T∗ ; H M +1 ),
+                                                     {︄                            }︄
+               u0 −→       {(Vr , Qr )}r≥0        −→
+                           ⏞      ⏟⏟      ⏞            Vn+1 ∈ L2 (0, T∗ ; H M −1 ) 0≤n≤N
+                      pressure-complete mixed jet                                    N,M <∞
+                                                     ⏞                  ⏟⏟                ⏞
+                                                                whole-terminal adjacent rows
+
+      −→ {RN,M [u0 ; T∗ ]}N,M <∞ −→               I[u0 ]            −→      (u∗ ∈ H ∞ , {(Vr∗ , Q∗r )}r≥0 )
+         ⏞         ⏟⏟          ⏞                  ⏞ ⏟⏟ ⏞                    ⏞            ⏟⏟              ⏞
+           finite compatible rectangles   projective intersection        common endpoint and pressure-complete
+                                                                                    endpoint jet
+
+                                  −→ restart and uniqueness −→ T∗ = ∞.
+
+
+
+
+                                                        7
+

@@ -96,7 +96,7 @@ DANGLING_SENTENCE_TAIL = re.compile(
     r"(?:supply|prove|yield|give|show|force|produce|close))\s*$",
     re.I,
 )
-SKIP_NAME = re.compile(r"(^ym-|yang|riemann|hodge|bsd|birch|p-vs-np|pnp|pvnp|theorem-creation)", re.I)
+SKIP_NAME = re.compile(r"(^ym-|yang|riemann|helmholtz|bsd|birch|p-vs-np|pnp|pvnp|theorem-creation)", re.I)
 PRIORITY_SOURCE_STEMS = [
     "mpp-selected-packet-euler-boundary-theorem-packet-20260612",
     "mpp-euler-boundary-clean-applicability-to-cm-exits-20260612",

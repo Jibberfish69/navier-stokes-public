@@ -1,0 +1,51 @@
+   The method fixes the structure of this paper. Each branch section has to end by placing its
+survivor into one of four bins:
+
+            continuation readout,       Pack failure,      Part failure,    Field failure.
+
+A branch can also remain marked as support or scope boundary until its terminal object is admitted
+to the test. This prevents source-wall, no-pulse, endpoint, local-critical, compactness, or comparison
+material from being promoted before it lands on a same-solution face.
+     The no-third-branch principle is the final class-law step. After the terminal object is admitted
+to the same-solution test, the branch cannot be both a lawful in-class continuation and the same
+finite nonsmooth terminal witness whose first membership requirement has failed. The pass branch
+and the exit branch have different membership conclusion. That distinction is the engine of the
+contrapositive proof.
+
+
+28     Branch-Family Support Exhaustion
+The preceding family analysis supports the atlas theorem. Every family enters through the same
+question: which same-atlas terminal object is selected, and which requirement fails first?
+Proposition 7 (Branch-family support exhaustion). Every non-Euler Navier–Stokes branch family
+used by the working class-membership program has one of the following support roles:
+
+                              Pack-exit,      Part-exit,     Field-exit,
+            finite typed disjunction,      auxiliary until a named face theorem lands it.
+
+Proof. We read the families by their selected terminal object.
+    Source-control and donor-refill branches select terminal source ancestry or reserve. Detached or
+unpaid ancestry without a positive same-fluid carrier is Pack-exit. Retained source residue with
+carrier and broken pressure-viscosity participation is Part-exit. Retained source residue that has
+passed Pack and Part becomes a Field/readout diagnostic.
+    Zero-radius and terminal-atom branches select a point-object with no positive terminal carrier
+unless a retained positive-scale packet has first been supplied. The point-object branch is Pack-exit.
+Retained Zeno and annular alternatives are finite typed subcases within the same witness tree.
+    Retained-amplitude, height-flux, low-strain, signed-current, and square-reserve branches select
+failures of gain, dwell, participation, source balance, or retained coherence. Each such failure either
+breaks the carrier, breaks the same pressure-viscosity participation tower after the carrier survives,
+breaks positive-scale coherence after Pack and Part survive, or remains a positive supplier theorem
+outside the class primitive.
+    Good-scale, endpoint-readout, no-pulse, averaged, and terminal-tail branches read a packet
+that has already retained enough structure to be read. They support the Field and continuation
+consequences. They become proof material only when the exact packet has already entered Pack,
+Part, or Field.
+    Local critical translators place local L3 or Duhamel mass back on the same witness record. Their
+role is branch-local: native source work or Pack/Part/Field exit.
+    Fixed-viscosity transfer and Euler mirror branches are comparison programs. They remain
+outside the non-Euler class-membership proof until a theorem transfers the exact Navier–Stokes
+object into the same witness tree.
+    These alternatives exhaust the branch families because every branch either supplies a selected
+same-solution terminal object or supplies context for such an object. Selected terminal objects are
+
+                                                  39
+

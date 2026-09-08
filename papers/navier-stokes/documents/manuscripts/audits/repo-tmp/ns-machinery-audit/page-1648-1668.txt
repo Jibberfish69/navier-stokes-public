@@ -1,0 +1,1056 @@
+    Until those are proved, generic public-critical, endpoint/no-pulse, readout, reserve-birth, signed-
+current, and transfer/mirror rows remain support or demoted comparison. They are not independent
+finite terminal obstruction rows.
+    This audit does not prove Clay Counterexample Exclusion Bridge.A, does not prove the whole-
+space R 3 export, and does not prove a positive no-exit theorem from original smooth data. It only
+closes the local L 3 Duhamel-mass row inside the finite terminal obstruction inventory.
+
+E.2529     Clay problem Forward Gold FBE Source-Square Pass Or CM Exit
+Bridge installed. The fixed-band endpoint branch no longer remains as an independent open
+endpoint surface after the source- dominance theorem.
+    This section does not prove Source Square Reserve.A. It proves that the endpoint survivor is
+governed by the already native source-/source-wall branch.
+    The terminal Zeno correction remains the first gate for a zero-radius endpoint. If the endpoint
+pulse has
+    Thus the zero-radius endpoint is already a Pack-Part/Field failure. It should not be reintroduced
+as an endpoint theorem debt unless the branch has first supplied a positive-radius retained carrier
+and the participation row.
+    Donor Reserve Adjoint Trace.A , source-residence/reverse-Holder , strict no-waste/compact
+rigidity .
+    If none of those supplies the reserve, the selected failure is a CM Pack/that Part/Field failure,
+not an unclassified endpoint obstruction.
+    This section is a branch-compression theorem. It does not prove global Navier-Stokes smoothness
+and does not prove the source- reserve from first-moment energy. That direct first-moment route
+was ruled out in
+
+E.2530 Clay problem Forward Gold No Free Terminal Zeno Donor Chain.A
+Shared Hinge Attempt
+                          D0 → D1 → D2 → · · · ,           rm ↓ 0,    tm ↑ T ∗ ,
+
+                                              a
+                                  gm (s) =      1        (s),    τm ↓ 0.
+                                             τm (−τm ,0]
+    It is not a spatial hidden defect. The spatial point-residue/multipole branch has already been
+coercively exposed under the critical local-energy hypotheses. The surviving obstruction is temporal:
+a positive amount of native source mass can remain in the terminal time face while every fixed
+negative-time slice sees nothing.
+    The local-energy and polar-saturation attempts both return to the same branch: signed-current
+visibility and finite measure compactness do not imply same-witness saturation of the selected
+positive carrier.
+    Try to use the donor graph itself as a descent argument. Assign each selected positive edge an
+unpaid balance
+
+                    bm = dπ + (Dm → Dm+1 ) − dπ − (Dm+1 → Dm ) − dDlegal (m).
+
+              M
+              X
+                    bm ≤ initial donor reserve − terminal retained reserve + legal spill.
+              m=0
+
+
+                                                    1642
+                                 lim terminal retained reserve(DM ).
+                                M →∞
+
+    Try to charge each donor transfer to finite energy or finite dissipation. The obstruction is scaling.
+For a fixed profile U L 2(B 1) , put
+    That physical energy tends to zero while the normalized critical packet remains fixed by the
+chosen profile normalization. Thus global finite energy can lose the packet without paying a fixed
+positive physical cost at each scale.
+    So finite energy and finite dissipation do not supply a per-edge quantum strong enough to sum
+over an infinite Zeno schedule.
+    Here pressure, viscosity, and boundary stress are all inside the same tensor flux u (-pI+2 S)n .
+This is the cleanest mathematical form of the participation law for finite material donor chains: the
+center cannot receive a stress/source transfer without the surrounding material interfaces recording
+the corresponding stress work, donor energy depletion, or dissipation.
+    So material participation proves the finite-chain accounting exactly, and it identifies the infinite-
+chain obstruction sharply. It does not by itself prove No Free Terminal Zeno Donor Chain.A;
+that theorem needs an unweighted material stress-work Carleson bound, source- reserve, critical-
+strain/CKN reserve, or strict no-waste rigidity.
+    This is the curve form of the shell-underpayment idea. For the normalized moving packet, define
+the terminal cumulative source mass
+    For each fixed m , the curve rises from 0 to a , so there is a large slope somewhere. The problem
+is that the large slope occurs at = m , and m 0 . Thus every fixed positive terminal strip can miss
+the crossing scale in the limit.
+    Result: the debt-curve method is exactly Terminal Moving Packet Trace Modulus.A, Positive
+Source TraceAC.A, or a source-residence theorem. It is the right picture, but it needs a coercive
+modulus not currently installed.
+    The checked active- pass-or-exit note shows the boundary precisely. Residual/source-balanced
+LPAS is a valid forward pass branch. Failure after legal/payment removals selects a source-balanced
+heat-scale terminal pulse. Positive-radius ancestry pays or exits; zero-radius ancestry lands first at
+
+E.2531      Clay problem Forward Gold Source Residue Evacuation.A Direct Test
+Direct test complete. Source Residue Evacuation.A is not an independent theorem from current
+inputs. It is exactly the missing step that turns a compact source-residue limit into either vanishing
+residue, a paid source- / no-waste cost, or a CM witness exit.
+    The current inputs prove visibility of the residue and compactness of a defect-bearing limit.
+They do not prove evacuation of the positive native source residue.
+    Here R is not arbitrary forcing. It is the selected native positive source residue obtained from
+the localized pre-Cauchy carrier
+                                           h                i
+                                               loc
+                                             ⟨S<j  wj , wj ⟩ .
+                                                              +
+
+                             −
+                        µsrc
+                         ∗ (Q1 ) ≥ c0     =⇒     contradiction or paid reserve.
+
+
+
+        u(m) (y, s) = rm u(xm + rm y, tm + rm
+                                            2
+                                              s),          p(m) (y, s) = rm
+                                                                          2                    2
+                                                                            p(xm + rm y, tm + rm s),
+
+
+
+                                                    1643
+                                             (u∗ , p∗ , µsrc
+                                                         ∗ )
+
+
+                                                 −
+                                            µsrc
+                                             ∗ (Q1 ) ≥ c0 .
+
+    The compactness part and the residue-vanishing consumer are available only after the limit is
+placed in a cancellation or rigid class. The missing production theorem is
+    A genuine terminal source-residence modulus would prove evacuation. For example, if for every
+fixed R
+    With the no-earlier-selected-source property from the first-pulse extraction, this removes the
+pure terminal atom branch.
+    But current inputs give only finite L 1 source mass on terminal windows. They permit
+    The selected high packet may be aligned with an expanding eigenvector of the lower strain.
+Incompressibility gives signed redistribution, not one-sided absorption after localization, lifting,
+packet selection, and positive-part extraction.
+    The first bridge fails because the local-energy measure is assembled before positive selection,
+while the native carrier is retained after localization, projection, weights, packet selection, and
+positive-part extraction. The second bridge fails because finite physical local energy controls only
+the radius-weighted sum
+    So no-waste evacuation returns to the already isolated same-carrier source- / Carleson / strict
+Lyapunov reserve.
+    This is useful for the CM pass-or-exit route. It is not a forward-gold anti-atom proof.
+    Current inputs provide compactness, residue visibility, and CM witness conversion. They do not
+provide forward evacuation of the selected positive native source residue.
+
+E.2532 Clay problem Forward-Gold Tensor L 5 Branch To Retained Field
+Subcase
+This section consumes one precise subcase of the tensor L 5 branch. It does not prove a generic
+public-critical-to-Field bridge.
+     Here Field L 5 N, ,Q means only the Field certificate subcase whose one-field coherence includes
+a finite same-packet Serrin-critical L 5 budget on the selected terminal packet family. Other possible
+Field N, ,Q certificates require their own incompatibility theorem.
+     This is a same-packet Serrin-critical concentration on the retained terminal family.
+     for every public critical class X . The finite-obstruction audit already warns that generic public-
+critical translators require same-atlas localization and a specific Field incompatibility theorem.
+     Here, the same-atlas localization is supplied by the tensor branch itself, and the Field incompat-
+ibility is proved only for the Field certificate subcase with finite same-packet L 5 coherence.
+     The forward-gold production theorem is still not proved. The retained tensor branch is consumed
+only after same-witness admission and only against this explicit L 5 -Field budget. Gold closure
+still needs an unweighted terminal-family budget on the actual selected carrier, such as source-,
+selected critical-strain/CKN control, strict no-waste, or profile production.
+
+E.2533      Clay problem Forward Source Supplier Stabilization And CM Turnover
+The positive forward supplier loop has now stabilized. The CM contrapositive use has also been
+separated cleanly from the positive supplier theorem.
+
+
+
+                                                 1644
+    This atom would prove temporal non-atomicity and force the Zeno branch to vanish. It would
+also close the retained source-wall -reserve branch by contradiction with inherited source residue.
+    The CM task is different. It does not require proving the positive supplier. It requires typing
+selected retained failures into Part/Field.
+    Thus selected retained source-wall failure is already a typed Field witness for the CM program.
+
+                      U nif ormT emporalSourceIntegrabilityp .A,         p > 1.
+
+                                       gm (s) = m1(−1/m,0] (s)
+
+                                         Fj (Au) = A3 Fj (u),
+    so a scale-normalized shell theorem needs new structure beyond smooth data, energy, and
+preterminal compactness.
+    The rigid-class route also fails to produce a lower theorem. The minimal Zeno compactness class
+is too broad for residue Liouville; stronger known classes are not produced.
+    Therefore the forward supplier has no further installed lower target beneath the stabilized fork.
+    Without one of those, the forward supplier cannot be advanced by the current installed route.
+The CM contrapositive branch should use the installed Field-face diagnostics instead of replaying
+the positive supplier loop.
+
+E.2534     Clay problem Generic Pack-Face Exclusion Work-Order Target Repair
+That target was a faithful test of one possible positive Pack-retention route, and the test failed for
+the right reason: same-fluid ancestry and incompressible volume do not prove positive terminal
+carrier scale plus finite deformation comparability. Terminal Collar Strain Integrability.A would be
+sufficient, but proving it is continuation-strength unless a strictly weaker mechanism is supplied.
+    The newer authority changes the target. The June 3 correction says the local proof job is not
+    The June 7 CM referee audit applies that corrected target. It reports that the current finite-
+obstruction inventory gate passed, that the branch record has no open proof-bearing rows, and that
+no CM-referee blocker remains on currently promoted surfaces. It also states the future rule: a new
+proof-bearing branch must pass CM-test entry plus Part/Field face witness record before
+    In the installed witness grammar, an actual same-solution terminal obstruction is first asked
+whether a positive readout-compatible same-fluid carrier survives. When that carrier does not
+survive, the correct conclusion is
+    That conclusion is the Field-window evidence of the CM exit witness. Treating it as proof that
+the obstruction was not actual would delete one of the lawful failure faces after the proof has already
+used the face tree. That is the same drift rejected by the June 3 target correction: the fail branch is
+supposed to be classified, not made illegal merely because it is a fail branch.
+    So Same Solution Terminal Pack Retention.A is not a live global blocker unless a named promoted
+obstruction row specifically requires retained Field-window evidence on the pass side and lacks a
+certified Pack-failure landing on the fail side.
+    The branch-family record and finite-obstruction row audit supply the row-level answer.
+    The rows that are not certified as proof-bearing are not Pack blockers. They are classified as
+support, supplier, readout, generic translator, or comparison rows until a same-atlas proof promotes
+them. The retained positive-scale native reserve birth row is the key example: it remains optional
+positive Pack-support work, not a current CM proof-bearing row, unless same-witness payment or
+concrete CM-test admission plus first-Part/Field derivation is proved on the global atlas.
+
+                                                1645
+     The generic Field-window evidence-exclusion work order is reclassified as a stale generic blocker,
+not a live theorem burden.
+     Terminal Collar Strain Integrability.A remains a sufficient analytic route to Pack retention, but
+it is not the current live blocker merely because a generic Pack-retention theorem can be written. It
+becomes live only for a named promoted row whose proof-bearing pass branch genuinely requires
+terminal Pack retention and whose fail branch has not already landed at not Pack Q.
+     This section does not prove the Navier-Stokes Clay problem and does not claim Clay closure. It
+repairs the Pack task: the live CM work is finite-obstruction row coverage, not a global theorem
+excluding Pack failure for every actual same-solution terminal obstruction.
+
+E.2535      Clay problem Major Non-Euler CM Contrapositive Closures
+Installed for the major non-Euler Navier-Stokes surfaces named by the live edge.
+    This is not a census theorem for every text artifact in the route. It is the object-level closure of
+the major surfaces that actually try to move retained source mass, terminal source atoms, active
+height flux, signed current, reserve, or readout cover structure.
+    All other major surfaces are kept as supplier, route, or readout support. They may be useful,
+but they are not promoted to a fourth CM Part/Field.
+
+                                                          work
+                                  Exit(Q) := ¬M ember(Q; ON S ).
+
+
+                                 CMN,r,Q := P artN,Q ∧ F ieldN,r,Q .
+    This is the Carleson turnover. The failed scale-critical source reserve is not an outside estimate
+anymore. If the carrier and PDE participation still survive, the only place the retained failure can
+go is one-field coherence.
+    So the Zeno terminal atom has the Carleson-tree landing: after Pack and Part survive, the
+selected terminal source atom breaks Field.
+    The missing piece there is whether the current Pack Q already includes the positive low-strain
+gain record. Current notes say it does not.
+    It is not closed as a positive proof of Height Flux Control.A or Square Reserve Evolution.A.
+                                          Z X
+                                                 Dℓ (t) dt → 0
+                                             ℓ>N
+
+                                     Z X                          !2
+                                                     X
+                                                 k
+                          RN (I) =           2               Dℓ (t)    dt ≥ csq > 0.
+                                     I k>N           ℓ>k+4
+
+  If the obstruction is merely the absent -charge identity, it remains open supplier work, not a
+CM landing.
+  This is a downstream readout interface. It is not an upstream source-wall primitive.
+
+                       ZenoBoundedClassB .A + ZenoResidueLiouvilleB .A.
+   Therefore selected readout failure is Field-side support only. It may expose a failure in endpoint
+one-field readout, but it does not become Pack or Part unless a separate hypothesis in the readout
+chain fails.
+   This is the major-surface analogue of the Carleson turnover: a surface matters to the CM
+contrapositive program only once its selected failure has a face.
+
+                                                     1646
+   The live edge names several child surfaces that do not need separate major closures because
+they are already consumed by one of the major buckets above. They are recorded here so absence
+from a headline is not read as omission.
+
+E.2536      Clay problem Native Singular Residue To Scale Critical Tree Carleson
+Failure
+                                              Z
+                             µ+
+                              src,N (P ) =
+                                                         loc
+                                                       [NpreCauchy (u; P )]+ dxdt.
+                                               Q(P )
+
+             ρinst,N = ρenergy + ρdiss + ρsched + ρpress/cut + ρsigned/res + ρlocal + ρlegal .
+
+
+                      µsrc,+
+                       ∗     = f ρinst
+                                  ∗    + µsing
+                                          ∗    ,             µsing
+                                                              ∗    ⊥ ρinst
+                                                                      ∗ ,          µsing
+                                                                                    ∗    > 0.
+
+                          Z X                               !2
+                                           X
+                                       k
+                                   2               Dℓ (t)        dt ≤ oN (1) + Losslegal .
+                             k>N           ℓ>k+4
+
+    On a selected retained terminal active family where the localized pre-Cauchy source decomposition
+and Parent Square Embed.A apply,
+    Equivalently, any retained native singular source residue forces failure of the remaining scalar
+reserve once the installed parent- embedding is available.
+
+                                                     µsing
+                                                      ∗    > 0.
+    Suppose Scale Critical Tree Carleson.A holds on the same selected family. The source decompo-
+sition writes the localized positive pre-Cauchy source as the legal-loss part plus the parent-child
+donor term. Parent Square Embed.A controls the full diffuse parent cloud by the donor reserve.
+Scale Critical Tree Carleson.A controls that donor reserve by o N(1)+Loss legal .
+    This estimate charges the selected native positive source measure to the installed route record
+and a vanishing terminal error. A nonzero singular component perpendicular to the installed route
+record cannot survive under that estimate.
+    So the native residue lands in the CM Field face through the scale-critical -reserve diagnostic.
+    The present bridge shows that this direct response theorem is unnecessary for the retained
+source-family covered by the installed parent- and scale-critical Carleson reductions. The retained
+residue already forces failure of the scalar reserve, and that failure already has a Field-face diagnostic.
+    Native Residue Response Lower Bound.A remains useful only for residue notions placed outside
+the localized pre-Cauchy source decomposition or outside the selected retained family used by Parent
+Square Embed.A.
+    Thus the architecture is repaired: a surviving native residue is routed as a typed Field witness
+through the installed scale-critical Carleson failure diagnostic.
+
+E.2537      Clay problem No-Third-Branch Clay Closure Audit
+The phrase "capable of nonsmoothness" is not itself a proof of Exit(Q). It is only the reason the
+failure branch must be tested against the CM witnesses. The exit conclusion is earned only after
+the Part/Field failure has actually been derived.
+    Let (u,p) be the maximal smooth Navier-Stokes solution from the original smooth datum on
+[0,T *), and let O be an obstruction reached by the positive program on a terminal tail.
+
+                                                        1647
+                                                                5
+                                   sup ∥u(t)∥H s < ∞,         s> .
+                                   t<TQ                         2
+    The H s Navier-Stokes local theory gives a lifespan depending only on , s, and this bound;
+restarting the same solution at times t j T Q therefore extends it past the alleged terminal time.
+Therefore a pass branch cannot also be the finite nonsmooth obstruction.
+    If O is on the fail branch, the audit may not jump from "bad enough to be nonsmooth" to
+Exit(Q). The branch must first be entered into the CM terminal test by a Clay-facing entry theorem
+such as Clay Admissible Finite Breakdown.A
+    Thus a mechanism-derived fail branch is not an in-class continuation branch. It is a classified
+class-exit branch.
+    The two predicates are incompatible. Therefore no legal in-class continuation branch can also
+be a finite nonsmoothness witness.
+    This corollary is not allowed to describe the alleged Clay breakdown object as a continuation
+candidate. The alleged breakdown object is the terminal obstruction under test; the continuation
+candidate is the pass branch that
+    Such an object is ruled out by the membership readout on the pass side and by the derived
+Pack/that Part/Field failure classification on the fail side.
+    That phrase names the whole positive no-exit theorem in different words. It is too large to serve
+as the next local proof obligation for this branch-law note.
+    That is Thomas’s pass/fail engine in a referee-usable form. It avoids forcing one favorite positive
+estimate to be the unique smoothness mechanism, while also avoiding the cheap move where any
+bad branch is called Exit(Q) before its witness mechanism is proved.
+    Do not describe the alleged Clay breakdown witness as a legal continuation candidate. It is the
+terminal obstruction under test.
+    Do not treat CM as a positive regularity class that a smooth solution must be proved to
+preserve. In this section, CM is the class-membership and witness grammar used to separate
+pass-as-continuation from fail-as-exit.
+
+E.2538 Original Smooth Data Production Theorem: Proof Attempt and HFG
+Reduction
+This section performs the mathematical proof attempt for the requested closure list. The downstream
+production theorem is proved from a critical vorticity continuation bound, and the raw Original
+Smooth Data step is reduced exactly to the dyadic high-frequency gain theorem HFG.
+
+                                               ω = ∇ × u.
+
+                                       Z T
+                                              ∥ω(t)∥B∞,1
+                                                     0   dt < ∞.
+                                          0
+
+                                    ∥∇u(t)∥L∞ ≤ C∥ω(t)∥B∞,1
+                                                        0   .
+
+
+                                   L(t) := ∥∇u(t)∥L∞ ∈ L1 (0, T ).
+
+
+                        ∂t F = (∇u)(Φ, t)F,         ∂t F −1 = −F −1 (∇u)(Φ, t).
+
+
+                                                  1648
+    From (1.2) with s chosen above the required embedding threshold, for every 0 k N,
+    The viscous term uses U k+2 and is covered by the depth N+2 readout. The pressure term is
+controlled by the local pressure response plus finite-energy far tail. Finite cover summation gives
+    Thus the baseline energy/enstrophy scale cannot yield HFG by functional interpolation alone.
+The missing proof must use an actual Navier-Stokes cascade mechanism: a dyadic high-frequency
+gain, an all-scale frequency-transfer inefficiency theorem, or an equivalent critical continuation
+estimate.
+    Everything downstream from that estimate is proved above and by the installed class-membership
+packet.
+
+E.2539      Clay problem Pack Gain record.A Direct Test And Obstruction
+The implication may still be made true by strengthening the Field-window evidence, or by proving
+a separate Navier–Stokes-specific retained pack-gain theorem. It is not currently installed by the
+existing pack gauge.
+
+                       Γpack,Q (t) =    sup max{∥F (a, t)∥, ∥F (a, t)−1 ∥} < ∞,
+                                       a∈AQ (t)
+
+                                           Ḟ = ∇u(X(a, t), t)F.
+
+                                                                
+                                                            1 0
+                                          A(t) = a(t)              ,
+                                                            0 −1
+
+                                                  S(t) = A(t).
+
+
+                                                  Ḟ = A(t)F,
+    Therefore finite deformation gauge does not control accumulated positive strain action.
+    This theorem requires either a rule excluding rapid positive/negative strain oscillation along
+retained packet paths, or a charge of that oscillation to a CM witness exit.
+
+E.2540      Clay problem Participation Debt Pass Exit Target Closure.A
+The no-third-branch law says there is no legal branch that both remains inside Member(Q) and
+carries the derived Part/Field failure used as the finite nonsmooth terminal witness.
+     Consequently the four target types are closed as CM blockers. Their positive supplier versions
+remain optional support programs; they are not required current CM closure obligations.
+     By the installed membership readout, this is a Member(Q) branch and gives smooth continuation.
+It is not the finite nonsmooth witness.
+     On the fail branch, the obstruction is being offered as the finite terminal nonsmooth event. Since
+it comes from the same maximal solution and the same original datum, Clay Admissible Finite
+Breakdown.A makes it CM-test-admissible. By Clay Terminal WitnessCMEntry.A and Canonical
+Terminal Packet Capture.A, it enters the Field-certification CM terminal tree.
+     It remains to verify that each target’s fail branch really lands in one of the faces rather than in
+a fourth object.
+     If the packet receives the claimed load through lawful transport flux, pressure work, viscous
+boundary exchange, and finite participation envelope, then the branch is a pass branch.
+
+
+                                                     1649
+    Thus donor attenuation is closed as a CM blocker. It remains a positive supplier only when the
+proof elects to delete the source residue rather than use it as the fail-branch witness.
+    If the branch supplies this return budget lawfully while retaining Pack, Part, and Field, it is a
+pass branch.
+    So the return-rate budget has been closed as a CM blocker. A sharp positive return estimate is
+useful support, not the current branch-law obligation.
+    Thus the singulet knife-edge is closed as a CM blocker. It cannot be both the finite nonsmooth
+terminal witness and a lawful in-class smooth exterior point
+    The pass branch gives Member(Q) and smooth continuation. The fail branch gives Exit(Q). No
+Third InClass Branch.A excludes a branch that is both.
+    The installed No Third InClass Branch.A forbids that third branch after CM-test entry and
+Part/Field Part/Field derivation.
+
+E.2541      Clay problem Participation Debt Six Mechanism Workflow Integration.A
+This section executes the requested workflow for the first terminal Pack/source failure.
+    The workflow target is not to check whether the PDF is reader-facing paper ready. The target
+is to determine what this model costs, what the field can lawfully pay, how the clocks compare, and
+where each surviving branch lands in the CM Part/Field grammar.
+    Four bounded extraction passes were used as support only. Final theorem judgment remains in
+the parent thread.
+    The positive supplier route is preserved as context, not as a current CM blocker.
+    This proves that packet load cannot increase as private donation. It must appear through
+transport flux, pressure work, viscous boundary exchange, or a lawful source term.
+    These remain open only as positive supplier programs. They are not current CM blockers after
+Participation Debt Pass Exit Target Closure.A, because failure of
+    The current CM proof does not need the sharp positive clock comparison to delete the residue.
+The branch either pays and passes, or fails payment/return and lands in the CM Part/Field tree.
+    The recent theorem tree made tangible progress where it narrowed the problem to these six
+mechanisms and proved the low-high cost, endpoint artifact, endpoint Pack landing, return-clock
+structural dichotomy, donor/payment accounting, and singulet compatibility dichotomy.
+    The tree did not prove the sharp positive-forward pressure/flux, donor, or return supplier.
+Repeating those direct attempts is not current CM progress unless the proof explicitly switches to
+residue deletion.
+    The remaining positive pressure/flux, donor, and return-rate estimates are support-only unless
+the proof changes target to deleting the bad residue instead of using the fail branch as the terminal
+CM witness.
+
+E.2542      R3 Exterior Dyadic Survivor Field Incompatibility
+Let Q be the terminal CM test object selected by that survivor. If Q and M,Q are retained, then
+no fixed positive field scale >0 can satisfy M, ,Q .
+    The only point to prove is that fixed positive field scale is incompatible with the dyadic survivor.
+    Assume, toward contradiction, that M, ,Q holds for some fixed >0 and some M>s+2 . In the
+CM route, this means that the selected terminal packet has a positive-scale same-fluid readout
+window with a finite derivative tower through depth M . After choosing a smooth partition of unity
+subordinate to the retained -scale field windows, each localized piece f of the selected packet satisfies
+a uniform finite-depth bound
+
+
+                                                 1650
+    The bounded-frequency lemma has already removed the fixed-band response, so the branch
+under consideration is the selected high-frequency packet. If a surviving piece is outside the retained
+material address, Q has failed. If it is detached from the same Navier–Stokes equation, pressure,
+viscosity, and source ancestry, M,Q has failed. On the branch currently under consideration, Pack
+and Part are retained, so the survivor must be seen inside the finite -scale Field windows.
+    This closes the previous gap where the dyadic survivor was only described as a possible Pack/Field
+reading. It is now a first-face CM landing: no material address gives Pack failure; no same-fluid
+participation gives Part failure; retained Part plus Field-window evidence forces Field failure.
+    This argument does not use global H s , a BKM integral, or a continuation-grade Lipschitz
+bound. It uses only the installed exterior L 2 tightness, the prior dyadic-survivor reduction, the
+local meaning of retained Field-window evidence and Part, and the finite-depth derivative control
+supplied by the assumed Field face. The Field assumption is used only to reject the Field branch; it
+is not used to prove positive smoothness.
+
+E.2543      Clay problem Retained CM Tower Bound Bridge Proof
+The remaining burden was to consume tower-blown without falsely projecting it to a pure Pack,
+Part, or Field row by definition.
+    Logical skeleton: contradiction under retained Part+Field at one higher endpoint depth.
+    Mechanism: energy anchors the base velocity rung under fixed positive Field scale; Field finite
+differences bound higher velocity rungs; Part plus Field bound force rungs.
+    The fixed positive Field scale is essential here. A shrinking local scale would not anchor the
+base amplitude.
+    This is a valid Exit(Q):=not Member(Q) landing through the Part/Field central gate, with the
+depth shift recorded.
+    After that propagation lands, the two PDFs still need fresh referee and normal reader rereads
+before pdfs final may be true.
+
+E.2544     Clay problem Retained Face Amplitude Gain.A Target And Pack-Gain
+Gap
+                                                     1/2
+                                   ∥UP ∥2 ≤ εN νrP ,             εN → 0.
+    The retained-face idea is correct in shape: amplitude gain is not proved as a raw finite-energy
+theorem. Its proof is relative to retained CM Part/Fields.
+    Without this gain record, current Pack Q as finite deformation gauge does not by itself control
+the positive low-strain gain used in the first-crossing argument.
+
+                                             rP = 2−jP ,
+
+                                                     ∥UP (t)∥2
+                                         aP (t) :=         1/2
+                                                                  .
+                                                       νrP
+
+                                        ¬P ackQ ∨ ¬P artN,Q .
+
+                                       ẊP = u≤jP −C (XP , t).
+   Here P is legal loss, and Part N,Q is responsible for routing pressure, viscous-participation,
+cutoff, and off-packet pieces into legal loss plus the quadratic high-tail term.
+
+                                                1651
+E.2545     Retained Field Actkx License And Conditional Closure
+The first one is enough to close the retained Field branch conditionally. The second one is the
+still-open noncircular production burden.
+
+                           P ackQ ,      P artN,Q ,      Γpack,Q ∈ L∞ (I),
+
+
+                                      ¬ (∀r > 0 : ¬F ieldN,r,Q ) .
+
+
+                                          AN +1,Q ∈ L∞ (I).
+    The retained H1-H6 completion file is a conditional replay surface, not an unconditional source
+of endpoint data. Its endpoint persistence lines use End NS to exclude first-failure faces. That is
+legitimate only after the terminal packet has already been produced.
+    That loop spends the endpoint conclusion to build the DTC/tower supplier for the same endpoint
+conclusion.
+    No proof may promote the retained H1-H6 replay to an original-data proof unless it supplies
+this pre-endpoint production without End NS, pointwise Field, or old readout objects.
+    This is the same source-control atom that appears under the active-window Carleson / -source /
+source-parent reserve names. It is not the old positive theorem Original Smooth Data => Scale
+Critical Tree Carleson.A; it is the contrapositive branch killer needed to remove Jump avg without
+using the endpoint package upstream.
+
+E.2546     Clay problem Retained Field Endpoint/Tower Reduction
+Theorem-facing continuation of the retained Field branch after any selected surface has already
+been legally sorted into the Field row.
+
+                  P artplusF ield − windowevidence + ¬F ield =⇒ tower-blown
+    This does not prove Navier–Stokes smoothness. It removes one fake degree of freedom: a
+retained Field failure cannot stay as vague source/receiver language. It must become failure of the
+same-family tower/DTC analytic package, or else an earlier Pack or Part exit.
+
+                           P ackQ ,      P artN,Q ,      Γpack,Q ∈ L∞ (I),
+
+
+                                        ∀r > 0 : ¬F ieldN,r,Q .
+
+
+                                      ¬F ieldN,r,Q =⇒ Jump.
+
+
+                                          AN +1,Q ∈ L∞ (I),
+   Apply DTC-to-Tower Bound at tower depth N+1. The theorem requires DTC depth two rungs
+higher, hence N+3, because the forcing rung is
+
+
+
+
+                                                 1652
+E.2547     Clay problem Retained Native Source Residue Field Exit Reduction
+CM-facing bridge note; strengthened by the 2026-05-22 polarity correction Terminal Source
+ResidueCMExit.A.
+    The retained native source residue is not a request to prove * sing =0 inside the CM route. It is
+the witness of class exit.
+
+                                µsing
+                                 ∗    ̸= 0 =⇒ ¬P ackQ ∨ ¬P artN,Q .
+    The previous Field-row wording below is retained only as historical/sharper diagnostic language
+for a residue that has already been converted into a lawful participating tower object. A raw unpaid
+source residue cannot break Field without breaking Part first. For the live CM target, it lands at
+Pack if no carrier survives, and otherwise at Part.
+
+            P artN,Q plusF ield − windowevidence + µsing
+                                                    ∗    ̸= 0 =⇒ ∀r > 0 ¬F ieldN,r,Q
+    The older conditional lower-response language below is retained as a sharper quantitative readout
+only after a separate theorem has licensed participation. The qualitative raw source-residue landing
+is now supplied by Terminal Source ResidueCMExit.A at Part/Field.
+    Object boundary: this section is historical support for the retained-Field diagnostic. It does
+not classify the positive supplier theorem itself. Positive Remainder Depletion.A remains the
+forward source-control burden. Raw native source residue is now seated by Terminal Source
+ResidueCMExit.A at Part/Field; Field language below applies only after a separate participation
+license has already converted the object into a coherence/readout residue.
+                               h                i        h            i
+                                   loc
+                                ⟨S<j   wj , wj ⟩ = |wj |2 ej · S<j
+                                                                loc
+                                                                    ej .
+                                             +                     +
+
+
+                                          µsing
+                                           ∗    ⊥ ρinst,N .
+
+
+                                CMN,r,Q := P artN,Q + F ieldN,r,Q .
+    This is no longer the live landing for raw native source residue. A raw unpaid source residue
+breaks Part before Field. The statement is usable only for a coherence/readout residue after a
+separate theorem has already licensed the source term as lawful participation.
+    Pack Q is the retained same-fluid carrier condition. If the selected residue cannot stay on a
+bounded same-fluid terminal carrier, the branch has already selected the Field-window evidence.
+    For the live CM route this hypothesis is not automatic for native source residue. A raw unpaid
+source residue is exactly a failure of lawful participation, so it exits through Part once Pack is
+retained.
+    The historical Field theorem below is read only after a separate theorem has already converted
+the object into a lawful participating source/readout term. Only then can the remaining residue
+belong to the one-field coherence row.
+    Viscosity supplies the signed defect dissipation. Pressure remains within the shared participation
+carrier. The native positive source residue supplies the retained positive strain/cascade carrier on
+the selected terminal family.
+    This is the native analogue of the retained scale-critical source-reserve response used by Re-
+tainedSCTCFailure Field Exit.A.
+    The selected retained residue is localized to terminal same-fluid packet windows by the construc-
+tion of sing after route records and non-selected alternatives are removed.
+
+                                                 1653
+E.2548      Clay problem Same-Witness Clay Exclusion Propagation Direct Attempt
+Gold/positive supplier context. This section corrects the attempted propagation after the Pack/tower
+branch work and is now read through the 2026-06-19 Silver CM Part/Field-failure correction.
+     The original version of this section stated that public Clay finality still needed No Genuine Exit
+From Smooth Data.A or Original Smooth Data Pack Survival.A. That is stale for the accepted
+Silver route.
+     It is not a remaining finite-breakdown branch that must be separately deleted by No Genuine
+Exit From Smooth Data.A.
+     The theorem atoms named below remain meaningful only in the Gold/positive supplier context,
+or in manuscript support, unless a future surface names a concrete promoted finite-breakdown row
+that enters the CM test and still neither continues, reads out, nor lands in a real Part/Field failure.
+     The retained tower bridge strengthens this pass branch. It says that once Part and Field are
+retained at one higher endpoint depth, the tower face cannot survive as a fourth endpoint residue.
+     Equivalently, if Pack fails, the failure must be accompanied by tower escape or some loss that
+prevents the no-tower branch. That is classification. It is not a contradiction with a finite Clay
+breakdown, because a finite Clay breakdown may present exactly as a Pack Part/Field failure unless
+a further theorem forbids original smooth data from realizing that face.
+     Clay Counterexample Exclusion Bridge.A / No Genuine Exit From Smooth Data.A is not proved
+by the Pack/tower branch results.
+     It is also not a Silver blocker after the 2026-06-19 correction. For Silver, a same-solution terminal
+object that enters the CM test and lands in a concrete Part/Field failure has been consumed as the
+contrapositive witness.
+     NS-LIVE-20260609-163: the same-witness Clay exclusion propagation is not proved. The
+retained tower-bound bridge applies only after Part and Field are retained; it cannot exclude a
+first Pack failure, because that branch has not Pack Q at the root. The later Silver correction
+supersedes this as a public-finality blocker: the first Pack failure is a CM Part/Field failure once
+the same-solution terminal object has entered the CM test. In Gold/positive supplier context, the
+remaining atom is Original Smooth Data Pack Survival.A / Scale Critical Tree Carleson.A, with
+the next non-alias child Retained Positive Scale Native Reserve Birth Charge.A or an equivalent
+first-Pack-survival theorem.
+
+E.2549      Clay problem Scale Critical Tree Carleson Failure Field-Face Diagnostic
+This section proves the sharper use of Scale Critical Tree Carleson.A: on the selected CM source-wall
+branch, its failure is not first treated as a missing positive estimate. It is sorted through the
+witnesses.
+    Here sel means the failure has already been reduced to the active CM-selected source-wall branch:
+legal-loss windows, endpoint/readout alternatives, and non-selected branch alternatives have been
+routed before the theorem is spent.
+    So if the selected scale-critical source reserve failure is the way smoothness breaks, and if the
+carrier geometry and pressure-viscosity participation have not already broken, then the failure is a
+Field failure.
+
+           P artN,Q plusF ield − windowevidence + ∀r > 0 ¬F ieldN,r,Q =⇒ tower-blown,
+  That is a strong direct continuation theorem. It may still be useful, but it is not the primitive
+CM move.
+
+
+
+                                                  1654
+                                      Exit(Q) := ¬M ember(Q)
+
+
+                                CMN,r,Q := P artN,Q ∧ F ieldN,r,Q .
+    Therefore a real terminal smoothness failure must leave CM. A terminal Carleson/source-reserve
+failure is useful only after it is diagnosed against Pack, Part, and Field.
+    On the direct source-wall branch, after Parent Square Embed.A has priced diffuse parentage,
+sel Scale Critical Tree Carleson.A(Q) means the scale-critical reserve still has positive tail mass
+after declared losses and non-selected exits are removed. Concretely, there is an eta>0 and scales k
+m->infty for which a selected same-fluid terminal window satisfies
+                                                          2
+                                  Z             X
+                                        2km          Dℓ (t) dt ≥ η
+                                   Im       ℓ>km +4
+
+    This is the only form of Scale Critical Tree Carleson.A relevant to this CM face diagnostic.
+Raw failures outside this selected branch are routed first as Pack failure, Part failure, visible
+endpoint/readout failure, or legal-loss failure. They are not hidden fourth faces.
+    Then the source-reserve packet has lost the one bounded same-fluid carrier. The Carleson failure
+is not a Field theorem; it is a Pack exit.
+    Then the packet is not participating in the same differentiated pressure-viscosity law. The source
+term is not a lawful same-fluid source reserve on the retained branch. This is a Part exit.
+
+           infinite terminal positive source-reserve tree =⇒ ¬F ieldN,r,Q =⇒ ¬CMN,r,Q .
+   Raw energy and local energy can allow finite physical mass while normalized positive source mass
+keeps appearing on shrinking windows. Field is the stronger object: it says the velocity-pressure
+tower is one coherent local field at a uniform positive scale on the same retained carrier.
+   Once Pack and Part hold, the positive source reserve is a same-fluid differentiated NS carrier.
+For a terminal node at scale k, the local Duhamel response converts the positive tail source
+   Infinitely many lower bounds by a fixed c 0>0 of this form contradict the tail vanishing required
+by Field N,r,Q . Hence the source-reserve tree cannot coexist with Field.
+
+E.2550     Reader-Facing Closure Of The Source Field
+The source field is long because the proof program is long. Its length does not prove regularity. The
+proof force comes only when a recovered object is placed on the same witness record and then read
+through carrier, participation, and field coherence. Source material becomes proof material only
+through a selected terminal packet, a pass-side membership readout, a first Part or Field Part/Field
+failure, or a clearly quarantined support role.
+
+
+
+
+                                                1655
+F     Expanded CM Branch Obligations
+This appendix expands the source field into class-membership obligations. Each numbered obligation
+names the terminal mechanism, the CM requirement being tested, and the proof role it plays in the
+pass-or-exit engine. The full source inventory is kept outside the reader-facing paper.
+
+F.1    CM proof role 1: Field-face terminal obligations
+This proof role accounts for 769 branch obligations with one mathematical CM job. The proof
+rules represented here are retained field failure after the other faces have been removed (417); direct
+Part/Field failure (352). The tested requirements are FieldN,r,Q (769). The terminal mechanisms
+represented here are terminal source wall, source reserve, source pulse, square source, or active
+window failure (285); one field coherence, receiver, finite difference, Field readout, or endpoint Field
+failure (266); carrier, cover, or Pack gauge failure routed by the row’s face sort rule (96); source
+wall / Carleson type retained terminal source failure routed by the row’s face sort rule (69); Zeno or
+zero heat time source residue failure routed by the row’s face sort rule (33); one field coherence or
+Field readout failure routed by the row’s face sort rule (14); Zeno terminal atom, zero heat time
+residue, or terminal source residue failure (6).
+
+Family inventory role. Inventory statement. CM proof role 1 keeps carrier and participation but
+gives ∀r > 0 ¬FieldN,r,Q , hence Exit(Q; Owork
+                                           NS ).
+    Support explanation. This branch is read after carrier and participation have survived for the
+case split. The remaining continuation requirement is a positive-scale coherent field readout. The
+terminal branch has no such scale at any r > 0, so the Field face fails and the failure embeds as
+Exit(Q; Owork
+           NS ).
+    Reader-facing role. This is the last face of the witness tree, so the page has to make the order
+visible. The branch has already survived the packet and participation questions; what remains is the
+absence of any positive scale on which the field can be read coherently. The conclusion is Field-face
+exit, not a generic statement that the solution looks bad.
+
+F.2    CM proof role 2: finite Part/Field disjunction obligations
+This proof role accounts for 96 branch obligations with one mathematical CM job. The proof rules
+represented here are finite face disjunction (96). The tested requirements are FieldN,r,Q , PackQ ,
+PartN,Q (96). The terminal mechanisms represented here are branch local first failure routed by the
+surface’s trichotomy or boundary lemma (80); carrier, cover, or Pack gauge failure routed by the
+row’s face sort rule (7); source wall / Carleson type retained terminal source failure routed by the
+row’s face sort rule (5); Zeno or zero heat time source residue failure routed by the row’s face sort
+rule (2); one field coherence or Field readout failure routed by the row’s face sort rule (2).
+
+Family inventory role. Inventory statement. CM proof role 2 gives a finite disjunction of Part
+and Field losses, hence Exit(Q; Owork
+                                  NS ).
+    Support explanation. The terminal branch presents finitely many same-solution alternatives.
+Each alternative is tested in Pack-out-of-CM audited order. A finite disjunction of Part and Field
+losses is still exhausted by the CM witness tree, so every alternative gives the same class-exit
+conclusion.
+    Reader-facing role. This keeps the reader from seeing the alternatives as an open cloud of cases.
+There are only finitely many branch options here, and each option pays one of the same three
+
+
+                                                 1656
+witness costs. Once the finite list is exhausted, there is no remaining terminal branch outside the
+pass-or-exit law.
+
+F.3    CM proof role 3: inherited-authority obligations
+This proof role accounts for 44 branch obligations with one mathematical CM job. The proof rules
+represented here are authority inheritance with no new terminal face (44). The tested requirements
+are no independent Part/Field face (44). The terminal mechanisms represented here are authority
+or generated carrier for the installed face sweep boundary (24); copy of an authority or export
+support surface (17); carrier, cover, or Pack gauge failure routed by the row’s face sort rule (3).
+
+Family inventory role. Inventory statement. CM proof role 3 introduces no independent terminal
+alternative outside the installed Part/Field exhaustion.
+    Support explanation. The branch carries already established CM content. Its mathematical force
+is inherited from the terminal packet capture and face-exhaustion theorems. Since it supplies no
+new selected nonsmooth packet, it contributes no extra continuation requirement and no fourth
+branch.
+    Reader-facing role. For the reader, the point is restraint. This entry explains why already-paid
+proof work is not being reread as a new terminal branch. It belongs in the manuscript because it
+preserves the closed branch count and prevents a hidden fourth alternative from being smuggled
+back into the argument.
+
+F.4    CM proof role 4: carrier-window support obligations
+This proof role accounts for 244 branch obligations with one mathematical CM job. The proof rules
+represented here are direct Part/Field failure (244). The tested requirements are PackQ (244). The
+terminal mechanisms represented here are carrier, cover, packing, retained packet admission, or
+Pack bridge failure (164); carrier, cover, or Pack gauge failure routed by the row’s face sort rule
+(71); one field coherence or Field readout failure routed by the row’s face sort rule (7); participation,
+no drop, or Part envelope failure routed by the row’s face sort rule (2).
+
+Family inventory role. Inventory statement. CM proof role 4 records carrier-window support
+outside the CM-exit conclusion until the original participation law is tested.
+    Support explanation. A member branch must first carry Q by a positive same-fluid packet,
+but carrier loss is not itself a Part or Field face. The Pack-out-of-CM audited order records
+carrier-window evidence and then asks whether the selected original Navier–Stokes record admits
+the participation-law test. Only after carrier admission and original-participation typing can the
+branch be spent through Part or Field as Exit(Q; Owork
+                                                    NS ).
+    Reader-facing role. On the page, this keeps carrier loss from being mistaken for a fourth CM
+face. The proof is not claiming a new smooth solution and is not spending raw ¬PackQ as class
+exit. It is recording the admission boundary that must be crossed before the Part/Field witness
+tree carries proof force.
+
+F.5    CM proof role 5: Part-face terminal obligations
+This proof role accounts for 250 branch obligations with one mathematical CM job. The proof rules
+represented here are direct Part/Field failure (250). The tested requirements are PartN,Q (250).
+The terminal mechanisms represented here are same PDE participation, no drop, pressure viscosity
+
+
+                                                  1657
+tether, envelope, or Part bridge failure (195); carrier, cover, or Pack gauge failure routed by the
+row’s face sort rule (42); one field coherence or Field readout failure routed by the row’s face sort
+rule (7); participation, no drop, or Part envelope failure routed by the row’s face sort rule (6).
+
+Family inventory role. Inventory statement. CM proof role 5 keeps the carrier but gives ¬PartN,Q ,
+hence Exit(Q; Owork
+                 NS ).
+    Support explanation. Here the carrier question has already passed for the purpose of the split.
+The branch still has to participate in the same pressure-viscosity tower as the original Navier–Stokes
+solution. The selected failure breaks that tower, so the first surviving lost requirement is PartN,Q .
+The Part/Field failure embeds as class exit.
+    Reader-facing role. The reader-facing point is that this is a same-solution participation test.
+The same-fluid carrier is still present. The branch no longer participates in the Navier–Stokes
+pressure-viscosity tower that the member branch needs. The obligation therefore closes by loss of
+participation.
+
+F.6    CM proof role 6: support-boundary obligations
+This proof role accounts for 541 branch obligations with one mathematical CM job. The proof
+rules represented here are support retained outside the CM conclusion until a bridge supplies
+a face (541). The tested requirements are no independent Part/Field face (541). The terminal
+mechanisms represented here are history, audit, or context support (164); downstream export or
+readout consumer (94); root support or context surface (91); carrier, cover, or Pack gauge failure
+routed by the row’s face sort rule (71); supplier/readout claim without independent CM steering
+authority (42); runtime or governance surface (31); manuscript or export presentation (23); source
+recovery or history context (22); Zeno or zero heat time source residue failure routed by the row’s
+face sort rule (2); participation, no drop, or Part envelope failure routed by the row’s face sort rule
+(1).
+
+Family inventory role. Inventory statement. CM proof role 6 has no CM conclusion until it
+selects a same-fluid terminal packet.
+    Support explanation. A support branch can strengthen the positive pass side, sharpen a pressure
+test, or prepare a later terminal witness. It cannot assert Member(Q; Owork                   work
+                                                                           NS ) or Exit(Q; ONS ) by
+itself. Its proof role is to feed a later Part and Field, membership-readout, or no-third-branch hinge.
+    Reader-facing role. This is included so the reader can see the boundary of the proof claim. The
+material may be useful, but it has not yet selected the same-fluid terminal packet that the CM test
+consumes. Until that selection is made, the branch remains support for the argument rather than
+an independent class conclusion.
+
+
+G     Expanded Forward-Support Obligations
+Forward-positive material enters the paper only after it is rewritten as support for a class-membership
+hinge. Each obligation below records the support role without letting forward progress substitute
+for the CM conclusion.
+
+
+
+
+                                                 1658
+G.1 Support proof role 1: classified positive / export/legacy / supplier / readout
+/ positive smoothness / transfer/Euler
+This proof role accounts for 263 support obligations with one mathematical support job. The
+support classes represented here are separate positive smoothness support; forward supplier support;
+transfer or Euler comparison support; receiver, readout, or endpoint support (45); separate positive
+smoothness support; forward supplier support; transfer or Euler comparison support; receiver,
+readout, or endpoint support; downstream export or legacy engine support; previously classified
+positive support language (34); separate positive smoothness support; forward supplier support;
+transfer or Euler comparison support; receiver, readout, or endpoint support; downstream export or
+legacy engine support (31); forward supplier support; transfer or Euler comparison support (20);
+transfer or Euler comparison support (20); transfer or Euler comparison support; receiver, readout,
+or endpoint support; downstream export or legacy engine support (19); transfer or Euler comparison
+support; downstream export or legacy engine support (14); separate positive smoothness support;
+forward supplier support; transfer or Euler comparison support; receiver, readout, or endpoint
+support; previously classified positive support language (10); forward supplier support; transfer or
+Euler comparison support; receiver, readout, or endpoint support (7); transfer or Euler comparison
+support; separate positive smoothness support (7); transfer or Euler comparison support; separate
+positive smoothness support; receiver, readout, or endpoint support; downstream export or legacy
+engine support (7); forward supplier support; separate positive smoothness support; transfer or
+Euler comparison support; receiver, readout, or endpoint support; downstream export or legacy
+engine support; previously classified positive support language (6); separate positive smoothness
+support; transfer or Euler comparison support; receiver, readout, or endpoint support (6); separate
+positive smoothness support; transfer or Euler comparison support; receiver, readout, or endpoint
+support; downstream export or legacy engine support (4); 19 further mechanisms. The support
+may enter a CM hinge only through a Field-certification admission, a receiver/readout bridge, or a
+same-branch transfer license.
+
+Family support role. Support statement. Support proof role 1 enters the Navier–Stokes class
+proof only after it selects an exact same-fluid Navier–Stokes packet.
+    Support explanation. Comparison information may locate an analogous obstruction or exclude a
+misleading branch shape. The CM proof still acts on the Navier–Stokes packet itself. Once that
+packet is selected, the same Part and Field decision tree applies; before selection, the comparison
+statement remains hinge support.
+    Reader-facing role. The reader-facing role is to keep comparison from becoming authority by
+accident. The comparison can show why a branch is worth testing, but the Clay-facing proof is
+charged to the Navier–Stokes packet and its own witnesses. This paragraph therefore marks the
+exact point where comparison stops and same-fluid proof begins.
+
+G.2    Support proof role 2: export/legacy
+This proof role accounts for 283 support obligations with one mathematical support job. The
+support classes represented here are downstream export or legacy engine support (283). The support
+may enter a CM hinge only through a Field-certification admission, a receiver/readout bridge, or a
+same-branch transfer license.
+
+Family support role. Support statement. Support proof role 2 contributes only through a named
+proof hinge: terminal packet capture, membership readout, class exit, or no-third-branch exclusion.
+
+
+                                               1659
+    Support explanation. A downstream statement carries no separate continuation requirement. Its
+mathematical value is measured by whether it verifies one of the hinges already used by the proof
+spine. If it does, the hinge supplies the proof force; if it does not, it remains outside the terminal
+branch law.
+    Reader-facing role. This keeps the manuscript from making the reader trust a downstream label
+as though it were a theorem. The page has to show which hinge is being paid and what that hinge
+already proves. Anything that does not pay one of those hinges remains outside the terminal proof
+claim.
+
+G.3 Support proof role 3: classified positive / export/legacy / supplier / positive
+smoothness
+This proof role accounts for 810 support obligations with one mathematical support job. The
+support classes represented here are forward supplier support (493); separate positive smoothness
+support (113); separate positive smoothness support; downstream export or legacy engine support
+(63); separate positive smoothness support; forward supplier support (50); forward supplier support;
+downstream export or legacy engine support (36); forward supplier support; previously classified
+positive support language (21); separate positive smoothness support; forward supplier support;
+downstream export or legacy engine support (10); downstream export or legacy engine support;
+separate positive smoothness support (7); forward supplier support; separate positive smoothness
+support (6); previously classified positive support language (3); separate positive smoothness support;
+forward supplier support; downstream export or legacy engine support; previously classified positive
+support language (3); separate positive smoothness support; previously classified positive support
+language (2); downstream export or legacy engine support; previously classified positive support
+language (1); downstream export or legacy engine support; separate positive smoothness support;
+previously classified positive support language (1); 1 further mechanism. The support may enter a
+CM hinge only through a Field-certification admission, a receiver/readout bridge, or a same-branch
+transfer license.
+
+Family support role. Support statement. Support proof role 3 strengthens the pass branch or
+selects the fail branch that the CM test later consumes.
+    Support explanation. A positive supplier estimate can pay a source term, preserve a packet, or
+narrow the terminal pressure. The CM proof uses that work at the hinge where the branch becomes
+a selected same-solution packet. After selection, failure is decided by Part or Field.
+    Reader-facing role. The reader-facing role is to show why forward estimates are present without
+letting them replace the contrapositive proof. They can pay costs on the pass side or select the
+branch that the fail side tests. Once the selected packet is on the page, the CM witness tree carries
+the final burden.
+
+G.4 Support proof role 4: classified positive / export/legacy / supplier / readout
+/ positive smoothness
+This proof role accounts for 1949 support obligations with one mathematical support job. The
+support classes represented here are receiver, readout, or endpoint support (781); forward supplier
+support; receiver, readout, or endpoint support (437); receiver, readout, or endpoint support;
+downstream export or legacy engine support (152); separate positive smoothness support; forward
+supplier support; receiver, readout, or endpoint support (106); separate positive smoothness support;
+receiver, readout, or endpoint support (101); separate positive smoothness support; receiver, readout,
+
+
+                                                 1660
+or endpoint support; downstream export or legacy engine support (84); forward supplier support;
+receiver, readout, or endpoint support; downstream export or legacy engine support (62); separate
+positive smoothness support; forward supplier support; receiver, readout, or endpoint support;
+downstream export or legacy engine support (33); forward supplier support; receiver, readout, or
+endpoint support; previously classified positive support language (29); receiver, readout, or endpoint
+support; separate positive smoothness support (24); separate positive smoothness support; forward
+supplier support; receiver, readout, or endpoint support; downstream export or legacy engine
+support; previously classified positive support language (24); forward supplier support; receiver,
+readout, or endpoint support; downstream export or legacy engine support; previously classified
+positive support language (22); separate positive smoothness support; forward supplier support;
+receiver, readout, or endpoint support; previously classified positive support language (17); forward
+supplier support; separate positive smoothness support; receiver, readout, or endpoint support
+(16); 15 further mechanisms. The support may enter a CM hinge only through a Field-certification
+admission, a receiver/readout bridge, or a same-branch transfer license.
+
+Family support role. Support statement. Support proof role 4 has proof force through membership
+readout or through a Field-face loss.
+     Support explanation. A readout statement is downstream of the carrier and participation
+requirements. When the readout remains bounded on a positive scale, it supports the pass-side
+continuation norm. When every positive-scale readout fails, it supplies ∀r > 0 ¬FieldN,r,Q and the
+fail side exits the class.
+     Reader-facing role. This tells the reader how to read endpoint material without turning it into
+a separate proof program. A good readout supports the member branch; a failed readout, after
+carrier and participation have survived, identifies the Field face. The obligation is therefore placed
+where the paper decides between positive-scale readability and field exit.
+
+
+H     Expanded Branch-Family Obligations
+The current-material coverage families are represented by mathematical proof roles rather than file
+names. Repetition is by branch family, so the visible appendix shows the obligation being carried
+instead of repeating the same anonymous sentence for every source item.
+
+Branch-family obligation 1. Source-reserve family. This family records 41 current support or
+inventory obligations.
+    This branch family is tested by source survival, zero-radius refinement, signed-current/no-free-
+sink pressure, retained amplitude, and terminal atom mechanisms.
+    Support explanation. The proof first asks whether a positive same-fluid packet carries the source
+residue. Carrier loss remains carrier-window support until the original participation law is typed.
+A surviving carrier then asks whether the pressure-viscosity tower remains the same; failure gives
+¬PartN,Q . Surviving participation finally asks for a positive-scale coherent field readout; failure at
+every scale gives the Field face.
+
+Branch-family obligation 2. Local translator family. This family records 3 current support or
+inventory obligations.
+    This family tests local critical translation as a same-solution packet question.
+    Support explanation. The translator has proof force only when it preserves the same Navier–
+Stokes pressure-viscosity participation on the transported packet. Loss of that participation is a
+
+
+                                                1661
+Part-side failure; a surviving translator then moves to Field readout.
+
+Branch-family obligation 3. Same-ledger family. This family records 4 current support or
+inventory obligations.
+    This family asks whether the terminal branch is still charged to the same witness record.
+    Support explanation. A terminal item on the same ledger enters the Field-certification test. A
+preterminal reflection or unpaid imported branch has no member conclusion until it supplies the
+same witness record, the same carrier, and the same participation tower.
+
+Branch-family obligation 4. Class-law family. This family records 2 current support or inventory
+obligations.
+    This family tests the pass-or-exit law against possible reopening branches.
+    Support explanation. A reopening branch must either be an in-class nonsmooth third branch
+or break terminal CM entry, finite Part/Field exhaustion, or class-exit embedding. Every other
+challenge is absorbed by the installed pass branch, fail branch, or no-third-branch law.
+
+Branch-family obligation 5. Local energy and elliptic family. This family records 3 current
+support or inventory obligations.
+   This family supplies analytic support for source-wall and classification tests.
+   Support explanation. Local energy and elliptic control matter when they select the terminal
+packet, verify pressure participation, or read out a positive field scale. The support is then consumed
+by Part and Field, or membership readout.
+
+Branch-family obligation 6. Candidate-branch family. This family records 34 current support
+or inventory obligations.
+    This family contains candidate pressure tests and route probes.
+    Support explanation. A candidate becomes proof material only when it names a terminal packet
+and a witness. The face then routes through Part and Field, membership readout, terminal capture,
+or no-third-branch exclusion.
+
+
+
+
+                                                 1662
+

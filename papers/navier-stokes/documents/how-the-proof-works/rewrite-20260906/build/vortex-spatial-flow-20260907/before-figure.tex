@@ -1,0 +1,58 @@
+\documentclass[tikz,border=2pt]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usetikzlibrary{arrows.meta}
+\begin{document}
+\begin{tikzpicture}[x=1pt,y=1pt,font=\fontsize{10}{12}\selectfont,
+ every node/.style={inner sep=0pt},
+ outline/.style={line width=.65pt},
+ motion/.style={-{Stealth[length=5pt,width=3.8pt]},line width=.7pt},
+ diffusion/.style={-{Latex[open,length=5.5pt,width=4.5pt]},line width=.6pt},
+ dimension/.style={<->,>=Stealth,line width=.35pt},
+ hidden/.style={dash pattern=on 2.4pt off 1.8pt,line width=.4pt}]
+ \path[use as bounding box] (0,0) rectangle (448,202);
+
+ % Horizontal cylinder in oblique projection; no fill or centreline.
+ \draw[outline] (140,145)--(308,145);
+ \draw[outline] (140,75)--(308,75);
+ \draw[outline] (140,145)
+  arc[start angle=90,end angle=270,x radius=14,y radius=35];
+ \draw[hidden] (140,75)
+  arc[start angle=270,end angle=450,x radius=14,y radius=35];
+ \draw[outline] (308,110) ellipse[x radius=14,y radius=35];
+
+ % Strain draws both ends apart and brings surrounding fluid inward.
+ \foreach \y in {99,121}{
+  \draw[motion] (122,\y)--(94,\y);
+  \draw[motion] (326,\y)--(354,\y);
+ }
+ \node at (57,119) {Stretching};
+ \node at (57,104) {\(\sigma>0\)};
+ \foreach \x in {175,250}{
+  \draw[motion] (\x,180)--(\x,153);
+  \draw[motion] (\x,40)--(\x,67);
+ }
+ \node[anchor=south] at (212.5,188) {Inward motion};
+
+ % Open arrowheads distinguish diffusion from particle motion.
+ \draw[diffusion] (280,139)--(280,174);
+ \draw[diffusion] (280,81)--(280,46);
+ \node[anchor=west] at (294,177) {Viscous diffusion};
+
+ % Vorticity follows the axis; the open curved arrow encircles it.
+ \draw[motion,line width=.8pt] (158,110)--(195,110);
+ \node[anchor=south] at (176.5,116) {\(\omega\)};
+ \draw[-{Stealth[length=6pt,width=4.5pt]},line width=.8pt]
+  ({224+13*cos(45)},{110+32*sin(45)})
+  arc[start angle=45,end angle=315,x radius=13,y radius=32];
+ \node[anchor=west] at (243,91) {\(v\)};
+
+ % Compact dimensions follow the axis and the visible end section.
+ \draw[dimension] (308,110)--(308,145);
+ \node at (301,128) {\(r\)};
+ \draw[dimension] (140,25)--(308,25);
+ \draw[line width=.35pt] (140,21)--(140,29);
+ \draw[line width=.35pt] (308,21)--(308,29);
+ \node[anchor=north] at (224,19) {\(\ell\)};
+\end{tikzpicture}
+\end{document}

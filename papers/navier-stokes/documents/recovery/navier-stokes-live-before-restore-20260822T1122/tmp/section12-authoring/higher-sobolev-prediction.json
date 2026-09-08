@@ -1,0 +1,282 @@
+{
+  "field_resolutions": [
+    {
+      "field": "writing_form",
+      "status": "accepted_for_run",
+      "value": "mathematical paper subsection block",
+      "reason": "The authorized span is one existing divider body."
+    },
+    {
+      "field": "writing_job",
+      "status": "accepted_for_run",
+      "value": "historical continuation hinge from enstrophy to localized regularity",
+      "reason": "The prior block exposes derivative escape and the next block asks where unresolved failure can concentrate."
+    },
+    {
+      "field": "domain",
+      "status": "accepted_for_run",
+      "value": "three-dimensional Navier--Stokes regularity",
+      "reason": "The live block and both neighbours belong to this exact mathematical problem."
+    },
+    {
+      "field": "audience",
+      "status": "accepted_for_run",
+      "value": "mathematically informed reader",
+      "reason": "The manuscript explains the mechanism without reteaching local PDE theory."
+    },
+    {
+      "field": "purpose",
+      "status": "accepted_for_run",
+      "value": "make the continuation result change the reader's model of the problem and prepare the next historical move",
+      "reason": "The result must alter the argument rather than sit as a theorem card."
+    },
+    {
+      "field": "reader_start",
+      "status": "accepted_for_run",
+      "value": "The reader knows kinetic energy controls time-integrated enstrophy but does not bound its instantaneous height.",
+      "reason": "This is the exact outgoing state of the enstrophy block."
+    },
+    {
+      "field": "reader_end",
+      "status": "accepted_for_run",
+      "value": "The reader understands why a finite maximal time is a failed same-history restart and why the absence of global restart control turns attention to local concentration.",
+      "reason": "This gives the CKN block its generating need."
+    },
+    {
+      "field": "live_pressure",
+      "status": "accepted_for_run",
+      "value": "The current prose lists sufficient criteria without explaining the restart mechanism or connecting it to this paper's terminal closure logic.",
+      "reason": "The user identified relevance, not surface style, as the failure."
+    }
+  ],
+  "reader_start": "The reader knows kinetic energy controls time-integrated enstrophy but does not bound its instantaneous height.",
+  "live_pressure": "The current prose lists sufficient criteria without explaining the restart mechanism or connecting it to this paper's terminal closure logic.",
+  "candidate_moves": [
+    {
+      "move_id": "criterion-summary",
+      "move": {
+        "selection": "Retain the strong Sobolev and accumulated Lipschitz criteria.",
+        "connection": "Present them as standard sufficient conditions after enstrophy.",
+        "development": "Add one sentence about Sobolev embedding and Gronwall.",
+        "expression": "Use compact historical survey prose."
+      },
+      "layer_status": {
+        "selection": "present",
+        "connection": "present",
+        "development": "present",
+        "expression": "present"
+      },
+      "reader_change": "The reader knows two classical conditions.",
+      "next_possibility": "The survey proceeds to CKN.",
+      "content_basis": [
+        "live-input"
+      ],
+      "sequence": [],
+      "evidence_uses": [],
+      "risks": [
+        "It repeats the current failure and duplicates the Gold subsection."
+      ],
+      "confidence": "unknown"
+    },
+    {
+      "move_id": "same-history-restart",
+      "move": {
+        "selection": "Keep the two classical criteria but centre the uniform local lifespan and overlap-uniqueness mechanism.",
+        "connection": "Let the unbounded enstrophy height create the need for a continuation threshold, then let the lack of equation-generated threshold control create CKN's local question.",
+        "development": "Restart from a late slice rather than assuming endpoint data, explain the accumulated-deformation form, and land on the finite-endpoint shape of the global problem.",
+        "expression": "Use direct causal prose, one decisive display, and no later proof-program terminology."
+      },
+      "layer_status": {
+        "selection": "present",
+        "connection": "present",
+        "development": "present",
+        "expression": "present"
+      },
+      "reader_change": "The reader understands why a finite maximal time is a failed same-history restart and why the absence of global restart control turns attention to local concentration.",
+      "next_possibility": "CKN can enter as the strongest local information left when global restart control is unavailable.",
+      "content_basis": [
+        "live-input"
+      ],
+      "sequence": [
+        {
+          "step_id": "restart-question",
+          "thought": "Ask how much regularity must survive near a candidate endpoint for local theory to take over.",
+          "connection": "Enstrophy has exposed a quantity whose instantaneous height is uncontrolled.",
+          "reader_start": "The reader knows kinetic energy controls time-integrated enstrophy but does not bound its instantaneous height.",
+          "reader_end": "The reader needs a precise restart threshold for the same smooth solution.",
+          "content_basis": [
+            "live-input"
+          ]
+        },
+        {
+          "step_id": "late-slice-restart",
+          "thought": "A bounded strong Sobolev ball supplies a common local lifespan, so restarting from a sufficiently late slice extends beyond the candidate endpoint.",
+          "connection": "Local existence is reusable at every time slice of the same solution.",
+          "reader_start": "The reader needs a precise restart threshold for the same smooth solution.",
+          "reader_end": "The reader sees why a late-slice restart contradicts finite maximality without presupposing an endpoint value.",
+          "content_basis": [
+            "live-input"
+          ]
+        },
+        {
+          "step_id": "accumulated-deformation",
+          "thought": "Finite accumulated Lipschitz deformation keeps each fixed higher Sobolev energy finite and supplies the same restart.",
+          "connection": "The differentiated equation explains what the integral criterion measures.",
+          "reader_start": "The reader sees why a late-slice restart contradicts finite maximality without presupposing an endpoint value.",
+          "reader_end": "The reader sees the accumulated Lipschitz condition as a second expression of the same continuation obstruction.",
+          "content_basis": [
+            "live-input"
+          ]
+        },
+        {
+          "step_id": "terminal-handoff",
+          "thought": "Global regularity becomes the task of carrying the original history through every alleged finite endpoint with enough regularity for local theory to resume.",
+          "connection": "Both classical criteria are restart certificates, while Leray energy does not supply either certificate.",
+          "reader_start": "The reader sees the accumulated Lipschitz condition as a second expression of the same continuation obstruction.",
+          "reader_end": "The reader understands why a finite maximal time is a failed same-history restart and why the absence of global restart control turns attention to local concentration.",
+          "content_basis": [
+            "live-input"
+          ]
+        }
+      ],
+      "evidence_uses": [
+        {
+          "record_id": "decision-live-obstacle-before-label-001",
+          "source_move_id": "move-from-live-obstacle",
+          "relation": "supports",
+          "applicability_reason": "The enstrophy escape must create the continuation question before the criterion is stated."
+        },
+        {
+          "record_id": "decision-carry-established-thought-forward-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The movement begins from the control already established and carries it into the next burden."
+        },
+        {
+          "record_id": "decision-unfold-causal-relations-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The replacement must explain why the criterion changes the problem."
+        },
+        {
+          "record_id": "decision-earn-technical-language-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The restart mechanism earns the continuation statement."
+        },
+        {
+          "record_id": "decision-preserve-discovery-order-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The replacement preserves enstrophy, continuation, and localization in that order."
+        },
+        {
+          "record_id": "decision-generate-expression-from-thought-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The prose is generated from the restart movement, not from a theorem-card template."
+        },
+        {
+          "record_id": "decision-use-reader-shared-language-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "Late slice, common lifespan, overlap, and restart make the mechanism readable."
+        },
+        {
+          "record_id": "decision-develop-to-reader-change-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The block must leave the reader with a new model of finite maximality."
+        },
+        {
+          "record_id": "observation-reader-led-concept-before-formal-name-001",
+          "source_move_id": "observed-move",
+          "relation": "supports",
+          "applicability_reason": "The reader performs the continuation argument before receiving its consequence."
+        },
+        {
+          "record_id": "decision-preserve-local-movement-role-001",
+          "source_move_id": "preserve-local-movement-and-role",
+          "relation": "supports",
+          "applicability_reason": "The block prepares later closure without naming later machinery."
+        },
+        {
+          "record_id": "decision-separate-internal-inquiry-from-written-interrogative-001",
+          "source_move_id": "hold-inquiry-realize-declaratively",
+          "relation": "supports",
+          "applicability_reason": "The driving question is realized in declarative prose."
+        },
+        {
+          "record_id": "decision-sentence-possesses-complete-thought-001",
+          "source_move_id": "make-the-payload-carry-the-thought",
+          "relation": "supports",
+          "applicability_reason": "Each sentence names its mathematical actor and consequence."
+        }
+      ],
+      "risks": [
+        "The block could repeat the Gold bootstrap.",
+        "The block could name later compatible-intersection machinery before the reader discovers it.",
+        "The prose could suggest that an endpoint value is assumed before it is obtained."
+      ],
+      "confidence": "low"
+    }
+  ],
+  "chosen_move_id": "same-history-restart",
+  "choice_reason": "It makes continuation the conceptual hinge used by the paper, corrects the premature restart-at-the-endpoint wording, and gives CKN a reason to appear.",
+  "rejected_move_ids": [
+    "criterion-summary"
+  ],
+  "evidence_dispositions": [
+    {"record_id": "decision-live-obstacle-before-label-001", "status": "used", "reason": "The prior obstruction generates the continuation question."},
+    {"record_id": "decision-carry-established-thought-forward-001", "status": "used", "reason": "The block spends the enstrophy result instead of resetting the survey."},
+    {"record_id": "decision-unfold-causal-relations-001", "status": "used", "reason": "The restart mechanism is the causal relation the old text omitted."},
+    {"record_id": "decision-name-operational-objects-001", "status": "not_applicable", "reason": "The live source already fixes the relevant solution and norms."},
+    {"record_id": "decision-earn-technical-language-001", "status": "used", "reason": "The local lifespan argument earns the continuation claim."},
+    {"record_id": "decision-preserve-discovery-order-001", "status": "used", "reason": "The existing historical order remains fixed."},
+    {"record_id": "decision-generate-expression-from-thought-001", "status": "used", "reason": "The expression follows the endpoint-restart thought."},
+    {"record_id": "decision-use-reader-shared-language-001", "status": "used", "reason": "The mechanism is stated with common mathematical actions."},
+    {"record_id": "decision-develop-to-reader-change-001", "status": "used", "reason": "The block changes how finite maximality is understood."},
+    {"record_id": "decision-keep-example-inside-idea-001", "status": "not_applicable", "reason": "This block uses no illustrative example."},
+    {"record_id": "decision-repair-exact-referent-001", "status": "not_applicable", "reason": "Target custody is fixed by the authorized span."},
+    {"record_id": "decision-generalize-to-writing-faculty-001", "status": "not_applicable", "reason": "This run edits the manuscript and does not modify the writing faculty."},
+    {"record_id": "observation-reader-led-concept-before-formal-name-001", "status": "used", "reason": "The argument comes before its verdict."},
+    {"record_id": "decision-preserve-local-movement-role-001", "status": "used", "reason": "The block prepares later reasoning without claiming it."},
+    {"record_id": "decision-separate-internal-inquiry-from-written-interrogative-001", "status": "used", "reason": "The internal question remains declarative on the page."},
+    {"record_id": "decision-sentence-possesses-complete-thought-001", "status": "used", "reason": "Every sentence carries its own mathematical action."}
+  ],
+  "uncertainties": [],
+  "authorial_commitment": {
+    "work_target": "A complete replacement of the existing Higher Sobolev Continuation body.",
+    "strongest_move_reason": "The restart mechanism is the precise bridge between historical continuation criteria and the paper's finite-endpoint closure.",
+    "intellectual_gain": "The criterion becomes a change in proof shape rather than an isolated sufficient condition.",
+    "reader_gain": "The reader understands why the same history only needs to reach each finite endpoint in a restartable state.",
+    "delivery": "complete_output",
+    "structural_commitment": {
+      "scope": "local",
+      "decision_origin": "assistant_proposed",
+      "voice_attribution": "unvalidated",
+      "artifact_disposition": "preserve",
+      "inherited_reader_state": "Energy controls the accumulated enstrophy but not its instantaneous height.",
+      "section_job": "Turn continuation theory into the endpoint-restart hinge between enstrophy and local concentration.",
+      "outgoing_reader_need": "Identify what can still be learned locally when no global restart certificate is available.",
+      "gap_decision": "strengthen_handoff",
+      "gap_payment": "Replace only the divider body.",
+      "new_section_job": "",
+      "enrichment_reason": "The late-slice restart is the missing mechanism and prevents circular endpoint language.",
+      "enrichments": [
+        {
+          "detail": "uniform local lifespan on a bounded strong Sobolev ball",
+          "reader_value": "shows exactly how a late slice continues past the candidate endpoint",
+          "placement": "after the strong Sobolev condition",
+          "restraint": "no full local-existence proof"
+        },
+        {
+          "detail": "accumulated Lipschitz deformation",
+          "reader_value": "explains why the integral condition is another form of the same restart control",
+          "placement": "after the late-slice argument",
+          "restraint": "no duplicate Gold bootstrap calculation"
+        }
+      ]
+    }
+  }
+}

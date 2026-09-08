@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "review_kind": "proof_reverse",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/critic-packet-v4.json",
+    "sha256": "0fdaebd71bc36b66f79326c159b330847d13013e955b3fd11a4dd03df0ac0522"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/draft-v4.tex",
+    "sha256": "ecb8e50b9b172d302ccd115c1ddec0dbb031458167efb6d5acb9b01661ce1c5a"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v4/page-1.png",
+      "sha256": "631aea887a57b86ae8d90b768ce867ebd112f5e6ee9e694a2a03e6eacce1d644"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v4/page-2.png",
+      "sha256": "6915af3cd3d30d1580fd9abc275503ecd6fae4362a25e83e7a81ed234f6ebee5"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v4/page-3.png",
+      "sha256": "06b6c8f4a5670f4adc40a1313783262b2d3968db2374edc851d48a464a165679"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v4/page-4.png",
+      "sha256": "96bdd44bad2fc59c6af9a79d0382d3ca0f01d6144e20e486b3f35a3306d2eb34"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v4/page-5.png",
+      "sha256": "99c26c045c35a00faef53e492b12a1b44560229cc07ed6f9fb93243e85c63efa"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/proof_reverse_v4",
+    "task_name": "proof_reverse_v4",
+    "isolation": "fork_none",
+    "request_nonce": "10989f6a09e307ac479631b4933d5e69605acc61f02afdde8229d5050e98847f"
+  },
+  "decision": {
+    "verdict": "fail",
+    "first_divergence": {
+      "exact_span": "draft-v4.tex:367-380 (from `Given a finite response order r` through the displayed L_t^q W_x^{k,p} implication)",
+      "mechanism": "The paragraph quantifies over an arbitrary temporal response V_r, but its displayed implication projects I[u_0] only to H_t^1 H_x^m for u. The index r disappears, so the chain proves a readout for u alone and does not establish the asserted readout for V_r.",
+      "repair_constraint": "Either remove the quantified response order and state this chain only for u, or retain r and begin with I[u_0] -> u in H_t^{r+1} H_x^m -> V_r in H_t^1 H_x^m -> V_r in C_t H_x^m -> V_r in L_t^q W_x^{k,p}. Keep H^1(R^3) -> L^6(R^3) as the endpoint case and keep the m=2 and m=3 readouts under the strict Sobolev condition already stated."
+    }
+  }
+}

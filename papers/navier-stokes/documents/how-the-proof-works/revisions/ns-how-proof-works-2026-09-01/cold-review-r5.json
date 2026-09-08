@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "review_kind": "cold_reader",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/cold-critic-r5.json",
+    "sha256": "22d764a5c0cca2aa03181ad3c17909be79bce9f8efd3b99501bd219597c57088"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/pdfs/ns-how-proof-works-candidate-r5/00-how-proof-works.tex",
+    "sha256": "854b544a2ee75e09c27dedfdfad119e02646a883736ee1a63492902f87a22fe7"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/isolated-render-r5/page-1.png",
+      "sha256": "b9f2828eb4ff13ee3c0142aaf911e04af81d9dfe13f266046a247b67fb02f6f9"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/isolated-render-r5/page-2.png",
+      "sha256": "4a28b9994b0eaf46290674438ceec9abe51fd5ca1b5c367b140619dca7cbb95a"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/isolated-render-r5/page-3.png",
+      "sha256": "5824ac05eb6246169aafe1e136cf7d923eefe90ae81467be7ea41305d69a6814"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/isolated-render-r5/page-4.png",
+      "sha256": "405ae258fce0a2f1b16fa756771ddb016e420227b7ad337254bb628a5c390a51"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/cold_reader_r5",
+    "task_name": "cold_reader_r5",
+    "isolation": "fork_none",
+    "request_nonce": "620f376759d94f26b4a5dc9aaef8277fea20d1f26f545c36c7bf0a6cf3d3c2f6"
+  },
+  "decision": {
+    "verdict": "fail",
+    "first_divergence": {
+      "exact_span": "This identity shows what must be controlled; it does not supply the whole-terminal bound by itself. Theorem~\\ref{thm:datum-rectangles} supplies the bound for this maximal history:",
+      "mechanism": "On rendered page 5, the section reaches its decisive question and answers it with a theorem label. The physical sharpening, temporal climb, and exposed Sobolev heights have prepared the reader to understand how the paper obtains terminal control. Instead, the bound already stated in the abstract is imported, and the account proceeds to its consequences. The reader learns how a supplied bound produces rectangles and an endpoint, but not the central move that makes those finite rectangles available. This breaks the promised commentary-level demonstration at its causal hinge; it is not a request to reproduce the full proof.",
+      "repair_constraint": "Repair only this handoff: give a short, source-faithful explanation of the theorem's decisive mechanism for obtaining compatible whole-terminal finite rows, connected to the recurrence and datum already in view. Distinguish that finite-stage payment from the familiar estimates extracted after intersection. Keep the theorem citation, preserve the preceding physical and temporal development, and do not replace this explanation with a full technical proof or another inventory of objects."
+    }
+  }
+}

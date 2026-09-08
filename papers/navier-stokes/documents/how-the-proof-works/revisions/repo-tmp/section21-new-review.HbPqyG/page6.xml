@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="26.04.0">
+<page number="6" position="absolute" top="0" left="0" height="1188" width="918">
+	<fontspec id="0" size="18" family="TTDJDT+LMRoman12" color="#000000"/>
+	<fontspec id="1" size="18" family="AWDQRX+LMMathSymbols10" color="#000000"/>
+	<fontspec id="2" size="18" family="TORJHR+LMMathItalic12" color="#000000"/>
+	<fontspec id="3" size="12" family="AVXBDH+LMMathItalic8" color="#000000"/>
+	<fontspec id="4" size="12" family="DECEVI+LMRoman8" color="#000000"/>
+	<fontspec id="5" size="9" family="NWOAKV+LMMathItalic6" color="#000000"/>
+	<fontspec id="6" size="12" family="LTYNDA+LMMathSymbols8" color="#000000"/>
+	<fontspec id="7" size="15" family="UBPAWB+LMMathExtension10" color="#000000"/>
+	<fontspec id="8" size="9" family="JZYORV+LMRoman6" color="#000000"/>
+	<fontspec id="9" size="22" family="SKIBUV+LMRoman12" color="#000000"/>
+<text top="113" left="108" width="203" height="16" font="0">a change of variables gives</text>
+<text top="155" left="344" width="9" height="17" font="1">∥</text>
+<text top="156" left="353" width="10" height="16" font="2"><i>u</i></text>
+<text top="163" left="363" width="7" height="11" font="3"><i>λ</i></text>
+<text top="156" left="371" width="7" height="16" font="0">(</text>
+<text top="156" left="378" width="6" height="16" font="2"><i>t</i></text>
+<text top="156" left="384" width="7" height="16" font="0">)</text>
+<text top="155" left="391" width="9" height="17" font="1">∥</text>
+<text top="152" left="400" width="6" height="11" font="4">2</text>
+<text top="163" left="405" width="4" height="11" font="4">˙</text>
+<text top="166" left="400" width="10" height="11" font="3"><i>H</i></text>
+<text top="164" left="411" width="5" height="8" font="5"><i>s</i></text>
+<text top="156" left="423" width="14" height="16" font="0">=</text>
+<text top="156" left="442" width="10" height="16" font="2"><i>λ</i></text>
+<text top="153" left="452" width="6" height="11" font="4">2</text>
+<text top="153" left="458" width="6" height="11" font="3"><i>s</i></text>
+<text top="152" left="464" width="10" height="11" font="6">−</text>
+<text top="153" left="474" width="6" height="11" font="4">1</text>
+<text top="150" left="484" width="8" height="7" font="7"></text>
+<text top="159" left="484" width="8" height="7" font="7"></text>
+<text top="168" left="484" width="8" height="7" font="7"></text>
+<text top="156" left="492" width="10" height="16" font="2"><i>u</i></text>
+<text top="156" left="502" width="7" height="16" font="0">(</text>
+<text top="156" left="509" width="10" height="16" font="2"><i>λ</i></text>
+<text top="153" left="520" width="6" height="11" font="4">2</text>
+<text top="156" left="527" width="6" height="16" font="2"><i>t</i></text>
+<text top="156" left="533" width="7" height="16" font="0">)</text>
+<text top="150" left="540" width="8" height="7" font="7"></text>
+<text top="159" left="540" width="8" height="7" font="7"></text>
+<text top="168" left="540" width="8" height="7" font="7"></text>
+<text top="147" left="548" width="6" height="11" font="4">2</text>
+<text top="167" left="553" width="4" height="11" font="4">˙</text>
+<text top="170" left="548" width="10" height="11" font="3"><i>H</i></text>
+<text top="169" left="559" width="5" height="8" font="5"><i>s</i></text>
+<text top="156" left="569" width="5" height="16" font="2"><i>.</i></text>
+<text top="197" left="107" width="19" height="16" font="0">At</text>
+<text top="197" left="132" width="8" height="16" font="2"><i>s</i></text>
+<text top="197" left="146" width="287" height="16" font="0">= 0, kinetic energy loses one power of</text>
+<text top="197" left="438" width="10" height="16" font="2"><i>λ</i></text>
+<text top="197" left="449" width="32" height="16" font="0">. At</text>
+<text top="197" left="486" width="8" height="16" font="2"><i>s</i></text>
+<text top="197" left="500" width="314" height="16" font="0">= 1, the first-derivative energy gains one.</text>
+<text top="218" left="107" width="337" height="16" font="0">The scale-neutral level lies between them at</text>
+<text top="218" left="450" width="8" height="16" font="2"><i>s</i></text>
+<text top="218" left="464" width="14" height="16" font="0">=</text>
+<text top="216" left="484" width="6" height="11" font="4">1</text>
+<text top="229" left="484" width="6" height="11" font="4">2</text>
+<text top="218" left="492" width="37" height="16" font="0">. Set</text>
+<text top="266" left="314" width="15" height="16" font="2"><i>H</i></text>
+<text top="266" left="330" width="7" height="16" font="0">(</text>
+<text top="266" left="337" width="6" height="16" font="2"><i>t</i></text>
+<text top="266" left="343" width="30" height="16" font="0">) :=</text>
+<text top="254" left="380" width="9" height="16" font="0">1</text>
+<text top="279" left="380" width="9" height="16" font="0">2</text>
+<text top="265" left="394" width="9" height="17" font="1">∥</text>
+<text top="266" left="403" width="10" height="16" font="2"><i>u</i></text>
+<text top="266" left="413" width="7" height="16" font="0">(</text>
+<text top="266" left="420" width="6" height="16" font="2"><i>t</i></text>
+<text top="266" left="426" width="7" height="16" font="0">)</text>
+<text top="265" left="433" width="9" height="17" font="1">∥</text>
+<text top="262" left="442" width="6" height="11" font="4">2</text>
+<text top="273" left="446" width="4" height="11" font="4">˙</text>
+<text top="276" left="442" width="10" height="11" font="3"><i>H</i></text>
+<text top="274" left="453" width="5" height="8" font="8">1</text>
+<text top="274" left="459" width="6" height="8" font="5"><i>/</i></text>
+<text top="274" left="464" width="5" height="8" font="8">2</text>
+<text top="266" left="476" width="14" height="16" font="0">=</text>
+<text top="254" left="497" width="9" height="16" font="0">1</text>
+<text top="279" left="497" width="9" height="16" font="0">2</text>
+<text top="260" left="510" width="8" height="7" font="7"></text>
+<text top="269" left="510" width="8" height="7" font="7"></text>
+<text top="278" left="510" width="8" height="7" font="7"></text>
+<text top="266" left="519" width="12" height="16" font="0">Λ</text>
+<text top="263" left="531" width="6" height="11" font="4">1</text>
+<text top="263" left="537" width="6" height="11" font="3"><i>/</i></text>
+<text top="263" left="544" width="6" height="11" font="4">2</text>
+<text top="266" left="551" width="10" height="16" font="2"><i>u</i></text>
+<text top="266" left="561" width="7" height="16" font="0">(</text>
+<text top="266" left="567" width="6" height="16" font="2"><i>t</i></text>
+<text top="266" left="574" width="7" height="16" font="0">)</text>
+<text top="260" left="581" width="8" height="7" font="7"></text>
+<text top="269" left="581" width="8" height="7" font="7"></text>
+<text top="278" left="581" width="8" height="7" font="7"></text>
+<text top="257" left="589" width="6" height="11" font="4">2</text>
+<text top="280" left="589" width="6" height="11" font="4">2</text>
+<text top="266" left="599" width="5" height="16" font="2"><i>.</i></text>
+<text top="309" left="107" width="60" height="16" font="0">Writing</text>
+<text top="309" left="172" width="15" height="16" font="2"><i>H</i></text>
+<text top="316" left="187" width="7" height="11" font="3"><i>λ</i></text>
+<text top="309" left="201" width="272" height="16" font="0">for the same quantity evaluated on</text>
+<text top="309" left="479" width="10" height="16" font="2"><i>u</i></text>
+<text top="316" left="489" width="7" height="11" font="3"><i>λ</i></text>
+<text top="309" left="497" width="313" height="16" font="0">, the three measurements now sit beside</text>
+<text top="331" left="108" width="96" height="16" font="0">one another:</text>
+<text top="369" left="156" width="9" height="17" font="1">∥</text>
+<text top="370" left="165" width="10" height="16" font="2"><i>u</i></text>
+<text top="377" left="175" width="7" height="11" font="3"><i>λ</i></text>
+<text top="370" left="183" width="7" height="16" font="0">(</text>
+<text top="370" left="190" width="6" height="16" font="2"><i>t</i></text>
+<text top="370" left="197" width="7" height="16" font="0">)</text>
+<text top="369" left="203" width="9" height="17" font="1">∥</text>
+<text top="365" left="212" width="6" height="11" font="4">2</text>
+<text top="379" left="212" width="6" height="11" font="4">2</text>
+<text top="370" left="224" width="14" height="16" font="0">=</text>
+<text top="370" left="243" width="10" height="16" font="2"><i>λ</i></text>
+<text top="366" left="253" width="10" height="11" font="6">−</text>
+<text top="366" left="263" width="6" height="11" font="4">1</text>
+<text top="364" left="273" width="8" height="7" font="7"></text>
+<text top="373" left="273" width="8" height="7" font="7"></text>
+<text top="382" left="273" width="8" height="7" font="7"></text>
+<text top="370" left="282" width="10" height="16" font="2"><i>u</i></text>
+<text top="370" left="292" width="7" height="16" font="0">(</text>
+<text top="370" left="298" width="10" height="16" font="2"><i>λ</i></text>
+<text top="366" left="309" width="6" height="11" font="4">2</text>
+<text top="370" left="316" width="6" height="16" font="2"><i>t</i></text>
+<text top="370" left="322" width="7" height="16" font="0">)</text>
+<text top="364" left="329" width="8" height="7" font="7"></text>
+<text top="373" left="329" width="8" height="7" font="7"></text>
+<text top="382" left="329" width="8" height="7" font="7"></text>
+<text top="361" left="337" width="6" height="11" font="4">2</text>
+<text top="384" left="337" width="6" height="11" font="4">2</text>
+<text top="370" left="347" width="5" height="16" font="2"><i>,</i></text>
+<text top="370" left="390" width="15" height="16" font="2"><i>H</i></text>
+<text top="377" left="405" width="7" height="11" font="3"><i>λ</i></text>
+<text top="370" left="413" width="7" height="16" font="0">(</text>
+<text top="370" left="420" width="6" height="16" font="2"><i>t</i></text>
+<text top="370" left="426" width="25" height="16" font="0">) =</text>
+<text top="370" left="457" width="15" height="16" font="2"><i>H</i></text>
+<text top="370" left="473" width="7" height="16" font="0">(</text>
+<text top="370" left="479" width="10" height="16" font="2"><i>λ</i></text>
+<text top="366" left="490" width="6" height="11" font="4">2</text>
+<text top="370" left="497" width="6" height="16" font="2"><i>t</i></text>
+<text top="370" left="503" width="7" height="16" font="0">)</text>
+<text top="370" left="510" width="5" height="16" font="2"><i>,</i></text>
+<text top="369" left="553" width="24" height="17" font="1">∥∇</text>
+<text top="370" left="577" width="10" height="16" font="2"><i>u</i></text>
+<text top="377" left="587" width="7" height="11" font="3"><i>λ</i></text>
+<text top="370" left="595" width="7" height="16" font="0">(</text>
+<text top="370" left="602" width="6" height="16" font="2"><i>t</i></text>
+<text top="370" left="608" width="7" height="16" font="0">)</text>
+<text top="369" left="615" width="9" height="17" font="1">∥</text>
+<text top="365" left="624" width="6" height="11" font="4">2</text>
+<text top="379" left="624" width="6" height="11" font="4">2</text>
+<text top="370" left="636" width="14" height="16" font="0">=</text>
+<text top="370" left="655" width="10" height="16" font="2"><i>λ</i></text>
+<text top="364" left="668" width="8" height="7" font="7"></text>
+<text top="373" left="668" width="8" height="7" font="7"></text>
+<text top="382" left="668" width="8" height="7" font="7"></text>
+<text top="369" left="676" width="15" height="17" font="1">∇</text>
+<text top="370" left="691" width="10" height="16" font="2"><i>u</i></text>
+<text top="370" left="701" width="7" height="16" font="0">(</text>
+<text top="370" left="708" width="10" height="16" font="2"><i>λ</i></text>
+<text top="366" left="718" width="6" height="11" font="4">2</text>
+<text top="370" left="725" width="6" height="16" font="2"><i>t</i></text>
+<text top="370" left="732" width="7" height="16" font="0">)</text>
+<text top="364" left="738" width="8" height="7" font="7"></text>
+<text top="373" left="738" width="8" height="7" font="7"></text>
+<text top="382" left="738" width="8" height="7" font="7"></text>
+<text top="361" left="747" width="6" height="11" font="4">2</text>
+<text top="384" left="747" width="6" height="11" font="4">2</text>
+<text top="370" left="757" width="5" height="16" font="2"><i>.</i></text>
+<text top="410" left="107" width="579" height="16" font="0">The finer comparison can carry less kinetic energy and a larger gradient while</text>
+<text top="410" left="691" width="15" height="16" font="2"><i>H</i></text>
+<text top="410" left="712" width="99" height="16" font="0">keeps exactly</text>
+<text top="432" left="108" width="587" height="16" font="0">the same size. This scale-invariant whole-field quantity is the critical height.</text>
+<text top="495" left="108" width="519" height="19" font="9"><b>Nonlinear Production versus Viscous Dissipation</b></text>
+<text top="536" left="107" width="703" height="16" font="0">The original velocity history now tells us whether that height is rising or falling. Keep</text>
+<text top="558" left="108" width="604" height="16" font="0">pressure inside the nonlinear side until the global pairing is formed, and define</text>
+<text top="596" left="224" width="12" height="17" font="1">P</text>
+<text top="604" left="237" width="6" height="11" font="4">1</text>
+<text top="604" left="243" width="6" height="11" font="3"><i>/</i></text>
+<text top="604" left="249" width="6" height="11" font="4">2</text>
+<text top="597" left="256" width="5" height="16" font="0">[</text>
+<text top="597" left="261" width="10" height="16" font="2"><i>u</i></text>
+<text top="597" left="271" width="12" height="16" font="0">](</text>
+<text top="597" left="283" width="6" height="16" font="2"><i>t</i></text>
+<text top="597" left="289" width="30" height="16" font="0">) :=</text>
+<text top="596" left="325" width="14" height="17" font="1">−</text>
+<text top="597" left="342" width="21" height="16" font="0">Re</text>
+<text top="591" left="365" width="9" height="7" font="7">D</text>
+<text top="597" left="375" width="12" height="16" font="0">Λ</text>
+<text top="594" left="387" width="6" height="11" font="4">1</text>
+<text top="593" left="393" width="6" height="11" font="3"><i>/</i></text>
+<text top="594" left="399" width="6" height="11" font="4">2</text>
+<text top="597" left="407" width="10" height="16" font="2"><i>u</i></text>
+<text top="597" left="417" width="7" height="16" font="0">(</text>
+<text top="597" left="423" width="6" height="16" font="2"><i>t</i></text>
+<text top="597" left="430" width="7" height="16" font="0">)</text>
+<text top="597" left="437" width="5" height="16" font="2"><i>,</i></text>
+<text top="597" left="444" width="12" height="16" font="0">Λ</text>
+<text top="594" left="457" width="6" height="11" font="4">1</text>
+<text top="593" left="463" width="6" height="11" font="3"><i>/</i></text>
+<text top="594" left="469" width="6" height="11" font="4">2</text>
+<text top="591" left="476" width="9" height="7" font="7"></text>
+<text top="597" left="485" width="7" height="16" font="0">(</text>
+<text top="597" left="492" width="10" height="16" font="2"><i>u</i></text>
+<text top="597" left="502" width="7" height="16" font="0">(</text>
+<text top="597" left="509" width="6" height="16" font="2"><i>t</i></text>
+<text top="597" left="515" width="7" height="16" font="0">)</text>
+<text top="596" left="526" width="24" height="17" font="1">· ∇</text>
+<text top="597" left="550" width="7" height="16" font="0">)</text>
+<text top="597" left="557" width="10" height="16" font="2"><i>u</i></text>
+<text top="597" left="567" width="7" height="16" font="0">(</text>
+<text top="597" left="574" width="6" height="16" font="2"><i>t</i></text>
+<text top="597" left="580" width="24" height="16" font="0">) +</text>
+<text top="596" left="609" width="15" height="17" font="1">∇</text>
+<text top="597" left="623" width="9" height="16" font="2"><i>p</i></text>
+<text top="597" left="632" width="7" height="16" font="0">(</text>
+<text top="597" left="639" width="6" height="16" font="2"><i>t</i></text>
+<text top="597" left="645" width="7" height="16" font="0">)</text>
+<text top="591" left="652" width="18" height="7" font="7">E</text>
+<text top="611" left="670" width="9" height="11" font="3"><i>L</i></text>
+<text top="609" left="679" width="5" height="8" font="8">2</text>
+<text top="597" left="689" width="5" height="16" font="2"><i>.</i></text>
+<text top="637" left="108" width="395" height="16" font="0">Because Λ commutes with spatial derivatives and</text>
+<text top="637" left="510" width="10" height="16" font="2"><i>u</i></text>
+<text top="637" left="527" width="283" height="16" font="0">is divergence-free, the pressure part</text>
+<text top="663" left="108" width="466" height="16" font="0">vanishes in this global pairing. The viscous part integrates to</text>
+<text top="662" left="579" width="14" height="17" font="1">−</text>
+<text top="663" left="593" width="9" height="16" font="2"><i>ν</i></text>
+<text top="657" left="606" width="8" height="7" font="7"></text>
+<text top="666" left="606" width="8" height="7" font="7"></text>
+<text top="675" left="606" width="8" height="7" font="7"></text>
+<text top="663" left="614" width="12" height="16" font="0">Λ</text>
+<text top="661" left="626" width="6" height="11" font="4">3</text>
+<text top="661" left="633" width="6" height="11" font="3"><i>/</i></text>
+<text top="661" left="639" width="6" height="11" font="4">2</text>
+<text top="663" left="646" width="10" height="16" font="2"><i>u</i></text>
+<text top="657" left="656" width="8" height="7" font="7"></text>
+<text top="666" left="656" width="8" height="7" font="7"></text>
+<text top="675" left="656" width="8" height="7" font="7"></text>
+<text top="654" left="664" width="6" height="11" font="4">2</text>
+<text top="677" left="664" width="6" height="11" font="4">2</text>
+<text top="663" left="671" width="139" height="16" font="0">, leaving the exact</text>
+<text top="687" left="108" width="58" height="16" font="0">balance</text>
+<text top="708" left="329" width="15" height="16" font="2"><i>H</i></text>
+<text top="705" left="345" width="3" height="11" font="6">′</text>
+<text top="708" left="349" width="7" height="16" font="0">(</text>
+<text top="708" left="356" width="6" height="16" font="2"><i>t</i></text>
+<text top="708" left="362" width="24" height="16" font="0">) +</text>
+<text top="708" left="390" width="9" height="16" font="2"><i>ν</i></text>
+<text top="702" left="403" width="8" height="7" font="7"></text>
+<text top="711" left="403" width="8" height="7" font="7"></text>
+<text top="720" left="403" width="8" height="7" font="7"></text>
+<text top="708" left="411" width="12" height="16" font="0">Λ</text>
+<text top="705" left="424" width="6" height="11" font="4">3</text>
+<text top="705" left="430" width="6" height="11" font="3"><i>/</i></text>
+<text top="705" left="436" width="6" height="11" font="4">2</text>
+<text top="708" left="443" width="10" height="16" font="2"><i>u</i></text>
+<text top="708" left="453" width="7" height="16" font="0">(</text>
+<text top="708" left="460" width="6" height="16" font="2"><i>t</i></text>
+<text top="708" left="467" width="7" height="16" font="0">)</text>
+<text top="702" left="473" width="8" height="7" font="7"></text>
+<text top="711" left="473" width="8" height="7" font="7"></text>
+<text top="720" left="473" width="8" height="7" font="7"></text>
+<text top="699" left="482" width="6" height="11" font="4">2</text>
+<text top="722" left="482" width="6" height="11" font="4">2</text>
+<text top="708" left="494" width="14" height="16" font="0">=</text>
+<text top="707" left="512" width="12" height="17" font="1">P</text>
+<text top="715" left="525" width="6" height="11" font="4">1</text>
+<text top="715" left="531" width="6" height="11" font="3"><i>/</i></text>
+<text top="715" left="538" width="6" height="11" font="4">2</text>
+<text top="708" left="545" width="5" height="16" font="0">[</text>
+<text top="708" left="550" width="10" height="16" font="2"><i>u</i></text>
+<text top="708" left="560" width="12" height="16" font="0">](</text>
+<text top="708" left="571" width="6" height="16" font="2"><i>t</i></text>
+<text top="708" left="578" width="7" height="16" font="0">)</text>
+<text top="708" left="585" width="5" height="16" font="2"><i>.</i></text>
+<text top="741" left="107" width="703" height="16" font="0">The critical height rises only when the complete signed nonlinear production exceeds the</text>
+<text top="763" left="108" width="198" height="16" font="0">simultaneous viscous loss.</text>
+<text top="791" left="108" width="199" height="16" font="0">Under the same rescaling,</text>
+<text top="833" left="197" width="12" height="17" font="1">P</text>
+<text top="841" left="209" width="6" height="11" font="4">1</text>
+<text top="841" left="215" width="6" height="11" font="3"><i>/</i></text>
+<text top="841" left="222" width="6" height="11" font="4">2</text>
+<text top="834" left="229" width="5" height="16" font="0">[</text>
+<text top="834" left="234" width="10" height="16" font="2"><i>u</i></text>
+<text top="841" left="244" width="7" height="11" font="3"><i>λ</i></text>
+<text top="834" left="252" width="12" height="16" font="0">](</text>
+<text top="834" left="264" width="6" height="16" font="2"><i>t</i></text>
+<text top="834" left="270" width="25" height="16" font="0">) =</text>
+<text top="834" left="300" width="10" height="16" font="2"><i>λ</i></text>
+<text top="831" left="311" width="6" height="11" font="4">2</text>
+<text top="833" left="318" width="12" height="17" font="1">P</text>
+<text top="841" left="330" width="6" height="11" font="4">1</text>
+<text top="841" left="337" width="6" height="11" font="3"><i>/</i></text>
+<text top="841" left="343" width="6" height="11" font="4">2</text>
+<text top="834" left="350" width="5" height="16" font="0">[</text>
+<text top="834" left="355" width="10" height="16" font="2"><i>u</i></text>
+<text top="834" left="365" width="12" height="16" font="0">](</text>
+<text top="834" left="377" width="10" height="16" font="2"><i>λ</i></text>
+<text top="831" left="387" width="6" height="11" font="4">2</text>
+<text top="834" left="394" width="6" height="16" font="2"><i>t</i></text>
+<text top="834" left="400" width="7" height="16" font="0">)</text>
+<text top="834" left="407" width="5" height="16" font="2"><i>,</i></text>
+<text top="834" left="450" width="9" height="16" font="2"><i>ν</i></text>
+<text top="828" left="463" width="8" height="7" font="7"></text>
+<text top="837" left="463" width="8" height="7" font="7"></text>
+<text top="846" left="463" width="8" height="7" font="7"></text>
+<text top="834" left="471" width="12" height="16" font="0">Λ</text>
+<text top="831" left="483" width="6" height="11" font="4">3</text>
+<text top="831" left="490" width="6" height="11" font="3"><i>/</i></text>
+<text top="831" left="496" width="6" height="11" font="4">2</text>
+<text top="834" left="503" width="10" height="16" font="2"><i>u</i></text>
+<text top="841" left="513" width="7" height="11" font="3"><i>λ</i></text>
+<text top="834" left="521" width="7" height="16" font="0">(</text>
+<text top="834" left="528" width="6" height="16" font="2"><i>t</i></text>
+<text top="834" left="535" width="7" height="16" font="0">)</text>
+<text top="828" left="541" width="8" height="7" font="7"></text>
+<text top="837" left="541" width="8" height="7" font="7"></text>
+<text top="846" left="541" width="8" height="7" font="7"></text>
+<text top="825" left="550" width="6" height="11" font="4">2</text>
+<text top="848" left="550" width="6" height="11" font="4">2</text>
+<text top="834" left="562" width="14" height="16" font="0">=</text>
+<text top="834" left="580" width="10" height="16" font="2"><i>λ</i></text>
+<text top="831" left="591" width="6" height="11" font="4">2</text>
+<text top="834" left="598" width="9" height="16" font="2"><i>ν</i></text>
+<text top="828" left="611" width="8" height="7" font="7"></text>
+<text top="837" left="611" width="8" height="7" font="7"></text>
+<text top="846" left="611" width="8" height="7" font="7"></text>
+<text top="834" left="619" width="12" height="16" font="0">Λ</text>
+<text top="831" left="631" width="6" height="11" font="4">3</text>
+<text top="831" left="637" width="6" height="11" font="3"><i>/</i></text>
+<text top="831" left="644" width="6" height="11" font="4">2</text>
+<text top="834" left="651" width="10" height="16" font="2"><i>u</i></text>
+<text top="834" left="661" width="7" height="16" font="0">(</text>
+<text top="834" left="668" width="10" height="16" font="2"><i>λ</i></text>
+<text top="831" left="678" width="6" height="11" font="4">2</text>
+<text top="834" left="685" width="6" height="16" font="2"><i>t</i></text>
+<text top="834" left="691" width="7" height="16" font="0">)</text>
+<text top="828" left="698" width="8" height="7" font="7"></text>
+<text top="837" left="698" width="8" height="7" font="7"></text>
+<text top="846" left="698" width="8" height="7" font="7"></text>
+<text top="825" left="707" width="6" height="11" font="4">2</text>
+<text top="848" left="707" width="6" height="11" font="4">2</text>
+<text top="834" left="717" width="5" height="16" font="2"><i>.</i></text>
+<text top="876" left="107" width="667" height="16" font="0">This is the scale match at the centre of the problem. When the length is reduced by</text>
+<text top="876" left="780" width="10" height="16" font="2"><i>λ</i></text>
+<text top="873" left="790" width="10" height="11" font="6">−</text>
+<text top="874" left="800" width="6" height="11" font="4">1</text>
+<text top="876" left="807" width="5" height="16" font="0">,</text>
+<text top="898" left="108" width="490" height="16" font="0">nonlinear production and viscous dissipation both accelerate by</text>
+<text top="898" left="604" width="10" height="16" font="2"><i>λ</i></text>
+<text top="895" left="614" width="6" height="11" font="4">2</text>
+<text top="898" left="621" width="189" height="16" font="0">. Passing to a finer scale</text>
+<text top="919" left="108" width="331" height="16" font="0">does not tip their balance toward viscosity.</text>
+<text top="983" left="107" width="168" height="19" font="9"><b>The Heat Clock</b></text>
+<text top="1024" left="107" width="703" height="16" font="0">The same factor fixes the amount of time associated with a smaller length. For the linear</text>
+<text top="1046" left="108" width="109" height="16" font="0">heat evolution</text>
+<text top="1046" left="223" width="8" height="16" font="2"><i>v</i></text>
+<text top="1053" left="232" width="5" height="11" font="3"><i>t</i></text>
+<text top="1046" left="242" width="14" height="16" font="0">=</text>
+<text top="1046" left="261" width="9" height="16" font="2"><i>ν</i></text>
+<text top="1046" left="270" width="15" height="16" font="0">∆</text>
+<text top="1046" left="285" width="8" height="16" font="2"><i>v</i></text>
+<text top="1046" left="294" width="5" height="16" font="0">,</text>
+<text top="1078" left="354" width="8" height="7" font="7">b</text>
+<text top="1068" left="353" width="8" height="16" font="2"><i>v</i></text>
+<text top="1067" left="362" width="7" height="16" font="0">(</text>
+<text top="1068" left="369" width="23" height="16" font="2"><i>ξ, t</i></text>
+<text top="1067" left="396" width="14" height="16" font="0">+</text>
+<text top="1068" left="413" width="15" height="16" font="2"><i>δt</i></text>
+<text top="1067" left="428" width="25" height="16" font="0">) =</text>
+<text top="1068" left="459" width="8" height="16" font="2"><i>e</i></text>
+<text top="1064" left="467" width="10" height="11" font="6">−</text>
+<text top="1064" left="477" width="6" height="11" font="3"><i>ν</i></text>
+<text top="1064" left="484" width="4" height="11" font="6">|</text>
+<text top="1064" left="487" width="6" height="11" font="3"><i>ξ</i></text>
+<text top="1064" left="493" width="4" height="11" font="6">|</text>
+<text top="1062" left="497" width="5" height="8" font="8">2</text>
+<text top="1064" left="503" width="11" height="11" font="3"><i>δt</i></text>
+<text top="1078" left="515" width="8" height="7" font="7">b</text>
+<text top="1068" left="514" width="8" height="16" font="2"><i>v</i></text>
+<text top="1067" left="524" width="7" height="16" font="0">(</text>
+<text top="1068" left="530" width="23" height="16" font="2"><i>ξ, t</i></text>
+<text top="1067" left="553" width="7" height="16" font="0">)</text>
+<text top="1068" left="560" width="5" height="16" font="2"><i>.</i></text>
+<text top="1112" left="455" width="9" height="16" font="0">4</text>
+</page>
+<outline>
+<item page="3">The Regularity Problem</item>
+<item page="4">Critical Height and the Derivative Tower</item>
+<outline>
+<item page="4">Vortex Stretching</item>
+<item page="8">The temporal Tower</item>
+<item page="9">More spatial regularity, not less</item>
+</outline>
+<item page="13">The Intersection Theorem</item>
+<outline>
+<item page="13">Why the finite pieces are rectangles</item>
+<item page="17">Every finite rectangle remains bounded</item>
+</outline>
+<item page="19">From the Intersection to Global Smoothness</item>
+<outline>
+<item page="19">The first coordinate already closes the endpoint</item>
+<item page="20">The critical-height roof</item>
+<item page="22">The two vortex readings</item>
+<item page="24">No finite singular time</item>
+</outline>
+<item page="25">Further Consequences and the Euler Boundary</item>
+<outline>
+<item page="25">A finite sum across infinitely many scales</item>
+<item page="26">Three classical criteria inside one low rectangle</item>
+<item page="27">The local singularity picture closes as well</item>
+<item page="27">Why the Euler Tower is different</item>
+</outline>
+<item page="29">Local Construction and Classical Estimates</item>
+<outline>
+<item page="29">The local construction behind the maximal history</item>
+<item page="33">The Classical Estimates Before Closure</item>
+</outline>
+<item page="38">Derivative and Finite-Record Calculus</item>
+<outline>
+<item page="38">Critical Height at a Finite Endpoint</item>
+<item page="39">What finite time implies after one response escapes</item>
+<item page="40">The Pressure-Complete Mixed Jet</item>
+<item page="41">The Spatial Column Inside Critical Height</item>
+<item page="43">Simultaneous Sobolev Intersections</item>
+<item page="45">Finite Adjacent Rectangles</item>
+</outline>
+<item page="48">Compatible Terminal Assembly</item>
+<outline>
+<item page="48">The Terminal Quantifier</item>
+<item page="51">The Compatible Intersection</item>
+<item page="52">The Critical Height at the Terminal Face</item>
+<item page="54">One Endpoint for the Whole Tower</item>
+<item page="55">Restarting the Same History</item>
+</outline>
+<item page="56">Bibliography</item>
+</outline>
+</pdf2xml>

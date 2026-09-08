@@ -1,0 +1,52 @@
+    Claim state: conditional. This section defines the target theorem and its bridge lemmas. It
+records no discharge of the live source-wall root.
+    2026-05-09 target hardening: the retained-budget bridge slot is deleted from the theorem-facing
+route. The fixed-viscosity bridge is not licensed through a generic retained-budget lemma, and the
+Euler mirror remains quarantined from live Navier–Stokes authority.
+
+                                        W = (Q, N, r, Φ, u, p, ν),
+
+                                                     ν
+                                                    VW
+
+                                                ν
+                                               VWjj −→ 0,
+   In this reading, an Euler terminal object is first classified by flux-volume and weak momentum-
+pressure fidelity. Regularity, Lagrangian carrier, and one-field coherence are extra layers, and
+comparison against Navier–Stokes still runs through the missing positive-viscosity receiver budget.
+   Fix nu>0 and a synchronized same-fluid terminal witness packet W for the classical incompressible
+Navier–Stokes equation.
+            ν
+           VWjj → 0    =⇒     Euler member or named defect-boundary terminal object,
+    Every genuine terminal object produced by the zero-budget branch is classified either as Member
+E or as a named defect-boundary object. ECFI/EOFP/ELCI can only type optional regularity
+support above membership; they do not define Euler membership.
+    and the same packet labels, covers, and readout records through the limiting procedure.
+    Then no terminal Part/Field defect occurs inside positive-viscosity Navier–Stokes class member-
+ship on W.
+    Assume a terminal Part/Field defect occurs on a positive-viscosity Navier–Stokes witness packet
+W while CM N,r,Q remains the governing class witness.
+    By ACTKX ELCI Dichotomy.A, either the normalized receiver budget vanishes along the defect
+extraction, or a positive budget remains.
+    Thus Part and Field propagate on the same witness record, contradicting the alleged terminal
+Part/Field defect.
+    If the receiver budget vanishes, the Euler-side conclusion still requires Euler Only Defect
+Classification.A plus same-witness compactness/no-residue transfer.
+
+D.1456     Clay problem Viscosity-Class Separation Unconditional Closure At-
+           tempt
+Result: the unconditional closure fails. The conditional theorem program remains useful, and the
+failure localizes the exact missing mathematical assertions.
+
+                                       ν         ν
+                                     CMN,r,Q =⇒ VW ≥ cν,W > 0.
+                                 Z
+                         ν
+                        VW ∼ν         Dlow (t) dt + top-viscous readout terms.
+                                  I
+    This fails. A smooth class-member packet can be locally rigid or constant on the selected collar.
+Then the relevant gradient and top-viscous records can vanish while Pack, Part, and Field remain
+true. Hence actual dissipation has no positive lower bound on all class-member packets.
+
+                                                    907
+

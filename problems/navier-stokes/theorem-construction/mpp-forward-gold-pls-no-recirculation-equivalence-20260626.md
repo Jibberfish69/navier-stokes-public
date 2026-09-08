@@ -101,7 +101,7 @@ A useful proof has to construct `\mathfrak R_N` from one of these sources:
 ```math
 \text{energy/dissipation reserve},
 \qquad
-\text{material-Hodge coercive reserve},
+\text{material-Helmholtz--Leray coercive reserve},
 \qquad
 \text{pressure-strain cancellation reserve},
 \qquad

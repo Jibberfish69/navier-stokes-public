@@ -1,0 +1,3340 @@
+The Three-Dimensional Navier–Stokes Regularity
+                  Problem
+                                  Thomas Birnie
+                                  August 15, 2026
+
+
+                                       Abstract
+    We prove global existence and smoothness for the unforced three-dimensional
+incompressible Navier–Stokes equations on R3 , for every viscosity ν > 0 and every
+divergence-free Schwartz initial velocity. Assume that the maximal classical time T∗ is
+finite. The energy identity still bounds kinetic energy, but continuation theory forces
+both the critical L3 norm and the half-derivative height
+                                       1
+                                 H(t) = ∥Λ1/2 u(t)∥22
+                                       2
+to escape every finite bound. A perfectly balanced stretching vortex gives that statement
+its physical form: the same fluid would have to complete infinitely many critical-height
+first passages before T∗ . Repeated integration in time then forces every fixed temporal
+derivative of the velocity to lose the same critical control.
+    Differentiating the original equation generates the complete time-and-space derivative
+Tower, including the pressure response. Viscosity opens a spatial Sobolev column inside
+each temporal row, so the very rows forced toward critical escape also contain stronger
+spatial regularity. The whole-terminal rectangle estimate controls every finite piece of
+this Tower, and compatibility places all of those pieces in one intersection belonging
+to the same fluid history. Its lowest rectangles bound the L3 norm, critical height,
+stretching action, and high-frequency tail; its higher rectangles give one common
+terminal velocity in H ∞ . Local well-posedness and uniqueness continue that velocity
+beyond T∗ , contradicting maximality. Thus T∗ = ∞, the velocity and normalized
+pressure are smooth for all time, and kinetic energy remains bounded by its initial
+value.
+
+
+
+
+                                            i
+Contents
+1 The Regularity Problem                                                                      1
+  1.1 The whole-space regularity problem . . . . . . . . . . . . . . . . . . . . . . .        1
+  1.2 What a finite last time would require . . . . . . . . . . . . . . . . . . . . . .       1
+
+2 Critical Height and the Derivative Tower                                                    3
+  2.1 The perfectly balanced rip-cord vortex . . . . . . . . . . . . . . . . . . . . .        3
+  2.2 Critical height and the Zeno cascade . . . . . . . . . . . . . . . . . . . . . .        4
+  2.3 Why finite-time escape opens the temporal Tower . . . . . . . . . . . . . . .           5
+  2.4 The pressure-complete mixed jet . . . . . . . . . . . . . . . . . . . . . . . . .       7
+
+3 The Intersection Theorem                                                                    9
+  3.1 The critical-height table . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     9
+  3.2 The Sobolev column inside every temporal row . . . . . . . . . . . . . . . . .         10
+  3.3 Finite adjacent rectangles . . . . . . . . . . . . . . . . . . . . . . . . . . . .     12
+  3.4 The whole-terminal estimate and the intersection . . . . . . . . . . . . . . .         13
+
+4 The Estimates and Global Smoothness                                                        15
+  4.1 Every finite estimate is a coordinate . . . . . . . . . . . . . . . . . . . . . . .    15
+  4.2 The critical-height roof . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   16
+  4.3 The two vortex readings . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      17
+  4.4 No finite singular time . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    18
+
+5 Further Consequences and the Euler Boundary                                                19
+  5.1 A finite sum across infinitely many scales . . . . . . . . . . . . . . . . . . . .     19
+  5.2 The critical endpoint seen from the other side . . . . . . . . . . . . . . . . .       19
+  5.3 Why the Euler Tower is different . . . . . . . . . . . . . . . . . . . . . . . .       20
+
+A Local Construction, Classical Estimates, and Alternative Proof Routes                      21
+  A.1 The local construction behind the maximal history . . . . . . . . . . . . . .          21
+  A.2 The Classical Estimates Before Closure . . . . . . . . . . . . . . . . . . . . .       25
+  A.3 Gold Standard Proof . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .      30
+  A.4 Silver Standard Proof . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    31
+  A.5 Class Membership and Participation . . . . . . . . . . . . . . . . . . . . . .         32
+  A.6 A Comparison with Euler . . . . . . . . . . . . . . . . . . . . . . . . . . . .        33
+
+B Endpoint Pictures and One-Fluid Formalism                                                  37
+  B.1 Singularity and the Derivative Tower . . . . . . . . . . . . . . . . . . . . . .       37
+  B.2 Dead, Jump, Blown, and Restart . . . . . . . . . . . . . . . . . . . . . . . .         40
+  B.3 One Fluid, One Coherent Field, and the VPI Law . . . . . . . . . . . . . . .           43
+
+C Derivative and Finite-Record Calculus                                                      46
+  C.1 Critical Height at a Finite Endpoint . . . . . . . . . . . . . . . . . . . . . . .     46
+  C.2 Finite-Time Response Escalation . . . . . . . . . . . . . . . . . . . . . . . .        47
+  C.3 The Pressure-Complete Mixed Jet . . . . . . . . . . . . . . . . . . . . . . . .        48
+
+
+                                               ii
+   C.4 The Spatial Column Inside Critical Height . . . . . . . . . . . . . . . . . . .      49
+   C.5 Simultaneous Sobolev Intersections . . . . . . . . . . . . . . . . . . . . . . .     51
+   C.6 Finite Adjacent Rectangles . . . . . . . . . . . . . . . . . . . . . . . . . . . .   53
+
+D Compatible Terminal Assembly                                                              56
+  D.1 The Terminal Quantifier . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     56
+  D.2 The Compatible Intersection . . . . . . . . . . . . . . . . . . . . . . . . . . .     58
+  D.3 The Critical Height at the Terminal Face . . . . . . . . . . . . . . . . . . . .      60
+  D.4 One Endpoint for the Whole Tower . . . . . . . . . . . . . . . . . . . . . . .        61
+  D.5 Restarting the Same History . . . . . . . . . . . . . . . . . . . . . . . . . . .     63
+
+Bibliography                                                                                64
+
+
+
+
+                                              iii
+1     The Regularity Problem
+1.1    The whole-space regularity problem
+Fefferman’s whole-space formulation fixes a positive viscosity, no external force, and a smooth
+divergence-free initial velocity on R3 whose derivatives decay faster than every power at
+infinity (Fefferman 2000). It asks whether the velocity and pressure generated by every such
+datum remain smooth for all time while kinetic energy stays bounded.
+    Write                           n                            o
+                             Sσ := a ∈ S (R3 ; R3 ) : ∇ · a = 0 ,                         (1.1.1)
+where S is the Schwartz class. Fix u0 ∈ Sσ and ν > 0. The unforced incompressible
+Navier–Stokes equations are
+
+                           ∂t u + (u · ∇)u + ∇p = ν∆u,
+                                           ∇ · u = 0,                 on R3 .             (1.1.2)
+                                          u(·, 0) = u0
+
+The required conclusion is
+                                                            Z
+                              ∞    3
+                   u, p ∈ C       R × [0, ∞) ,          sup        |u(x, t)|2 dx < ∞.     (1.1.3)
+                                                        t≥0   R3
+
+
+   Classical local theory gives a unique smooth solution on a nonzero interval (Fujita and
+Kato 1964; Kato 1984). Continue that solution for as long as classical regularity permits,
+and denote its maximal interval by [0, T∗ ), where 0 < T∗ ≤ ∞. The problem is to prove
+
+                                                 T∗ = ∞.                                  (1.1.4)
+
+    If T∗ were finite, the solution would still be smooth at every earlier time. Any failure
+would be confined to the approach t ↑ T∗ , where a bound strong enough to continue the same
+solution would have to escape.
+
+1.2    What a finite last time would require
+Assume that the maximal time is finite, and write
+
+                                       T∗ < ∞,      I∗ := (0, T∗ ).
+
+The solution is smooth at every time in I∗ . Any failure is pushed entirely into the terminal
+approach, where a norm capable of restarting the same solution has to lose its bound.
+   The equation still preserves one decisive low-order quantity all the way to that approach.
+Pairing (1.1.2) with u, incompressibility removes transport and pressure, while integration
+by parts turns viscosity into dissipation:
+                           1              Z t
+                                                            1
+                             ∥u(t)∥22 + ν     ∥∇u(s)∥22 ds = ∥u0 ∥22 .                    (1.2.1)
+                           2               0                2
+
+                                                    1
+Thus kinetic energy stays finite at every time, and one spatial derivative is square-integrable
+after time has been accumulated. Neither statement puts a ceiling over the gradient at each
+instant.
+    That missing pointwise-in-time control is where the three-dimensional mechanism lives.
+With
+                                                  1             
+                          ω := ∇ × u,        S := ∇u + (∇u)T ,
+                                                  2
+the vorticity obeys
+                            Dt ω := ∂t ω + (u · ∇)ω = Sω + ν∆ω.                          (1.2.2)
+The strain S can lengthen vorticity in one direction while incompressibility contracts the fluid
+transversely. Viscosity acts on the spatial curvature created during that same deformation.
+Both effects are generated by the same velocity field at the same time.
+    A fixed high Sobolev roof would stop the process. For every integer m ≥ 3, the standard
+differentiated estimate is
+                        1d
+                             ∥u∥2H m + ν ∥∇u∥2H m ≤ Cm ∥∇u∥∞ ∥u∥2H m .                   (1.2.3)
+                        2 dt
+At this level Sobolev embedding controls ∥∇u∥∞ , and a bounded late-time slice generates a
+new local interval of uniform positive length. Gronwall’s inequality propagates every fixed
+H m norm whenever ∥∇u∥∞ is integrable, and Proposition A.1.1 then restarts the solution
+from the resulting H 3 terminal datum.
+    The finite-time threat is now concrete. Kinetic energy can stay bounded while the variation
+of the velocity is driven across shorter distances and escapes every restart-grade roof. To see
+that threat without asking wobble, fragmentation, or lost alignment to rescue the flow, keep
+one vortex perfectly centred and let the surrounding fluid continue to stretch it.
+
+
+
+
+                                               2
+2     Critical Height and the Derivative Tower
+2.1    The perfectly balanced rip-cord vortex
+Picture one smooth vortex held exactly on its axis. The surrounding fluid pulls it lengthwise.
+Incompressibility makes that extension narrow the cross-section at the same time, so the
+spiral around the centre winds tighter and the velocity changes more sharply across the core.
+Now remove the ordinary ways that this alignment can be lost: no wobble, no buckling, no
+fragmentation, and no off-centre drift. Each narrower state becomes the starting state for
+the next stretch. The question is whether the same fluid can complete infinitely many such
+tightenings before one finite time.
+    This is the perfectly balanced rip-cord vortex. It is not asserted to be an exact special
+solution. It is the hardest clean version of the stretching picture: the geometry is kept
+favourable to concentration, and the fixed-viscosity equation is left responsible for stopping
+it.
+
+
+
+
+                                     stretch and narrow
+
+
+
+
+                   one smooth core
+                      radius r0                      same history, tighter winding
+                                                            radius r1 < r0
+
+                                   global                               infinitely many
+          finite last time                          critical height
+                               critical-norm                             first passages
+              T∗ < ∞                               H(t) unbounded
+                                   escape                                    tk ↑ T∗
+
+Figure 2.1.1: The balanced narrowing scene and the global chain it motivates. The drawing
+does not assign the singular escape to the depicted centre; each implication below concerns
+the complete velocity field.
+
+    The competition inside the drawing is the vorticity equation (1.2.2):
+
+                                      Dt ω = Sω + ν∆ω.
+
+The term Sω can amplify vorticity aligned with an expanding strain direction. The Laplacian
+acts on the spatial curvature created by the tightening. Pressure does not appear after curl
+is taken, but it still shapes the velocity and strain that enforce incompressibility around the
+core. Stretching, transverse contraction, pressure response, and diffusion are simultaneous
+actions of one fluid.
+
+
+                                               3
+   The vortex becomes a singularity scenario only when the whole solution loses continuation
+control. At the critical endpoint, the theorem of Escauriaza, Seregin, and Šverák says that
+a bounded L∞     3
+             t Lx norm would carry the solution regularly through T∗ (Escauriaza, G. A.
+Seregin, and Šverák 2003). Hence a finite maximal time forces
+
+                             T∗ < ∞      =⇒        sup ∥u(t)∥3 = ∞.                     (2.1.1)
+                                                  0<t<T∗
+
+A radius alone cannot distinguish genuine growth from a change of scale. The narrowing now
+needs a quantity unchanged by Navier–Stokes rescaling and strong enough to feel the global
+escape in (2.1.1).
+
+2.2    Critical height and the Zeno cascade
+The core in Figure 2.1.1 tightens by moving velocity variation to shorter distances. For λ > 0,
+the Navier–Stokes rescaling is
+
+                      uλ (x, t) = λu(λx, λ2 t),       pλ (x, t) = λ2 p(λx, λ2 t).       (2.2.1)
+
+Each term in the equation transforms with the same homogeneity:
+
+                ∂t uλ = λ3 (∂t u)(λx, λ2 t), (uλ · ∇)uλ = λ3 ((u · ∇)u)(λx, λ2 t),
+                                                                                        (2.2.2)
+                ∇pλ = λ3 (∇p)(λx, λ2 t),          ν∆uλ = λ3 (ν∆u)(λx, λ2 t).
+
+Narrowing gives neither nonlinear deformation nor viscous smoothing a scaling advantage.
+They meet again at each finer scale with the same relative homogeneity. This is the critical
+balance behind the perfectly centred picture.
+   The familiar norms move in different directions under the same rescaling:
+
+                                   ∥uλ (t)∥2 = λ−1/2 u(λ2 t)             ,
+                                                                     2
+                                  ∥uλ (t)∥∞ = λ u(λ2 t)          ,                      (2.2.3)
+                                                             ∞
+                                                             2
+                                 ∥∇uλ (t)∥2 = λ1/2 ∇u(λ t)                   .
+                                                                      2
+
+A finer copy can carry less kinetic energy while its amplitude and gradients become larger.
+That is why the energy ceiling in (1.2.1) does not settle the narrowing.
+    For homogeneous Sobolev norms,
+
+                                ∥uλ (t)∥Ḣ s = λs−1/2 u(λ2 t)                .
+                                                                     Ḣ s
+
+The neutral height is s = 1/2. Write Λ := (−∆)1/2 and define
+                                      1                 1 1/2   2
+                            H(t) :=     ∥u(t)∥2Ḣ 1/2 =   Λ u(t) .                      (2.2.4)
+                                      2                 2       2
+
+
+The embedding Ḣ 1/2 (R3 ) ,→ L3 (R3 ), together with (2.1.1), gives
+
+                              T∗ < ∞      =⇒          sup H(t) = ∞.                     (2.2.5)
+                                                   0<t<T∗
+
+
+                                                  4
+    There are two different facts here. A rescaled copy of one fixed profile keeps the same
+critical height while it moves to finer frequencies. A genuine finite-time singularity would
+need the actual solution’s critical height to pass beyond every finite level. The first explains
+why concentration can hide from the energy scale; the second is the continuation threat that
+the proof has to stop.
+    Because the solution is classical at every strict preterminal time, H is continuous on [0, T ]
+for each T < T∗ . Choose H0 > H(0) and set Lk = 2k H0 . Let
+                                t0 := inf{t ∈ (0, T∗ ) : H(t) = H0 },
+and, once tk is fixed, let
+                             tk+1 := inf{t ∈ (tk , T∗ ) : H(t) = Lk+1 }.
+The unboundedness in (2.2.5) makes every set nonempty, and continuity places the stated
+level at its first-passage time. Thus
+                    t0 < t1 < t2 < · · · < T∗ ,          H(tk ) = 2k H0 ,             tk ↑ T∗ .   (2.2.6)
+The last limit is forced because an earlier accumulation time would lie inside the smooth
+interval, where H is locally bounded.
+    This is the Zeno cascade. The same fluid would have to cross infinitely many critical-height
+levels before one finite last time, with no assumption that H rises monotonically between
+crossings. The next question is what that finite-time escape demands from the successive
+responses of the velocity itself.
+
+2.3    Why finite-time escape opens the temporal Tower
+Suppose the velocity really does escape in L3 before T∗ . Could its first time derivative stay
+uniformly bounded there? No, because
+                                                         Z t
+                                      u(t) = u0 +              ut (s) ds
+                                                          0
+
+would keep ∥u(t)∥3 finite on the finite interval. Could the second time derivative stay bounded
+instead? Then                                        Z t
+                                   ut (t) = ut (0) +     utt (s) ds
+                                                              0
+would bound ut , and the first integral would bound u. The same reasoning repeats at every
+fixed order.
+    At common spatial coordinates, write
+                             Vn := ∂tn u,         Qn := ∂tn p,             n ∈ N0 .               (2.3.1)
+The general integration step is the Banach-valued Taylor formula.
+Lemma 2.3.1 (Repeated finite-time integration). Let n ≥ 1, and let f : [0, T∗ ) → X have
+the derivatives required by the integral Taylor formula in a Banach space X. For 0 < t < T∗ ,
+                                    n−1
+                                    X j t             tn
+                       ∥f (t)∥X ≤          ∂tj f (0) + ∥∂tn f ∥L∞ (0,T∗ ;X) .                     (2.3.2)
+                                    j=0 j!            n!
+                                                    X
+
+
+
+                                                     5
+Proof. The integral Taylor formula gives
+                             n−1
+                             X j t j              1     Z t
+                     f (t) =        ∂t f (0) +              (t − s)n−1 ∂tn f (s) ds.
+                             j=0 j!            (n − 1)!  0
+
+
+Taking the X-norm and bounding the integral by its essential supremum gives (2.3.2).
+    Apply the lemma with f = u and X = L3 (R3 ). The smooth datum supplies every finite
+initial time derivative, and the finite value of T∗ keeps the polynomial factors finite. The
+escape in (2.1.1) forces, separately for every fixed n,
+
+                                           sup ∥Vn (t)∥3 = ∞.                                   (2.3.3)
+                                          0<t<T∗
+
+No common blow-up point, rate, or sequence is claimed. The conclusion is rowwise: no
+selected finite temporal response can remain bounded in the same critical space while the
+base velocity escapes before a finite time.
+    This is the intuitive entrance to the temporal derivative Tower,
+
+                                     u,    ut ,    utt ,   uttt ,   ....
+
+The words acceleration and jerk are useful for feeling the escalation, but the physical derivatives
+experienced by a moving particle are not ut , utt , . . . alone. If X(a, t) is the trajectory beginning
+at the material label a, then
+                            d
+                               X(a, t) = u(X(a, t), t),             X(a, 0) = a,                (2.3.4)
+                            dt
+and
+                        d
+                           u(X(a, t), t) = ∂t u + (u · ∇)u =: Dt u.                             (2.3.5)
+                        dt
+The equation makes the particle acceleration
+
+                                          Dt u = −∇p + ν∆u.                                     (2.3.6)
+
+One more material derivative differentiates pressure and curvature and also differentiates the
+moving frame through which they are observed. This is why the physical response already
+mixes time and space before the formal mixed jet is written down.
+   The fixed-coordinate rows reveal that structure without changing frames. At order zero,
+
+                                 V1 + (V0 · ∇)V0 + ∇Q0 = ν∆V0 .                                 (2.3.7)
+
+Differentiating once gives
+
+                          V2 + (V1 · ∇)V0 + (V0 · ∇)V1 + ∇Q1 = ν∆V1 .                           (2.3.8)
+
+The first nonlinear term changes the velocity doing the carrying. The second changes the
+response being carried through the existing flow. Viscosity acts two spatial derivatives above
+the current row.
+
+                                                      6
+   At arbitrary order, the temporal recurrence is
+                         n
+                                  !
+                         X      n
+                Vn+1 +            (Va · ∇)Vn−a + ∇Qn = ν∆Vn ,                             ∇ · Vn = 0.    (2.3.9)
+                         a=0    a
+
+Incompressibility reconstructs pressure from the same velocity history:
+
+                               −∆p = ∂i ∂j (ui uj ),                p = Ri Rj (ui uj ),                 (2.3.10)
+
+with the decaying whole-space normalization. Time differentiation gives
+                                                    n
+                                                                !
+                                                    X      n
+                                   Qn = Ri Rj                (Va )i (Vn−a )j .                          (2.3.11)
+                                                    a=0    a
+
+Every new temporal row retains all differentiated transport splits, the reconstructed pressure
+response, and the two-spatial-derivative viscous rung. The next question is what this ascent
+exposes in space.
+
+2.4    The pressure-complete mixed jet
+The temporal recurrence does more than list successive responses. Every row contains
+transport products, pressure, and the Laplacian, so spatial differentiation of that same row
+generates every finite spatial derivative inside it. This is the two-directional object smoothness
+requires.
+   For n ∈ N0 and α ∈ N30 , define
+
+                                 Jn,α := ∂tn ∂xα u,             Πn,α := ∂tn ∂xα p.                       (2.4.1)
+
+The temporal index and the spatial multi-index have different jobs. Increasing n follows the
+fixed-coordinate response. Increasing |α| asks how much spatial structure is retained inside
+that response. Neither index is determined by the other.
+    Apply ∂xα to the temporal recurrence (2.3.9). For β ≤ α, write
+                                                   3
+                                                !                        !
+                                             α    Y   αj
+                                               :=        .
+                                             β    j=1 βj
+
+The simultaneous temporal and spatial product rules give
+                                  n X
+                                                !     !
+                                  X         n       α
+                     Jn+1,α +                         (Ja,β · ∇)Jn−a,α−β + ∇Πn,α
+                                 a=0 β≤α    a       β
+                               = ν∆Jn,α ,           ∇ · Jn,α = 0.                                        (2.4.2)
+
+The pressure coordinate is fixed by the same velocity rows:
+                                                          n
+                                                                     !
+                                                                    n
+                               −∆Πn,α = ∂xα ∂i ∂j
+                                                          X
+                                                                      (Va )i (Vn−a )j .                  (2.4.3)
+                                                          a=0       a
+
+
+                                                          7
+The Riesz normalization in (2.3.10) chooses the unique pressure row in the whole-space
+Sobolev class.
+    Every term in (2.4.2) belongs to the same history. The binomial coefficient records how
+time derivatives divide between the transporting and transported velocity factors. The
+multi-index coefficient records the independent division of spatial derivatives. Viscosity acts
+two spatial derivatives above the present coordinate. Pressure returns the nonlocal response
+required by incompressibility.
+    The datum initializes the whole jet without any later choice of cutoffs. Set V00 = u0 , and
+define recursively
+                                           n
+                                                 !
+                                 0             n
+                                                  (Va0 )i (Vn−a
+                                                             0
+                                          X
+                              Qn := Ri Rj                       )j ,
+                                          a=0 a
+                                          n
+                                                 !
+                          0                     n
+                             := ν∆Vn0 −           (Va0 · ∇)Vn−a
+                                                             0
+                                                                − ∇Q0n .
+                                          X
+                        Vn+1
+                                          a=0   a
+The datum belongs to every finite Sobolev space. Sobolev multiplication, spatial differentiation,
+and boundedness of the Riesz transforms on each H m then show inductively that every Vn0
+and Q0n is smooth and belongs to every finite Sobolev space. Classical uniqueness identifies
+these recursively generated values with ∂tn u(0) and ∂tn p(0).
+   The complete mixed jet is the family
+                                      n                                 o
+                            J [u0 ] := Jn,α , Πn,α : n ∈ N0 , α ∈ N30
+
+together with the recurrences and divergence relations above. It is not an infinite norm and
+it is not a new solution. It is the complete set of finite derivatives generated by the one
+pressure-normalized maximal history.
+    An estimate can use only finitely many of these coordinates at once. Before choosing that
+finite shape, we need to determine which higher Sobolev energies the viscous term produces
+when time derivatives are taken. The critical-height calculation answers that question first;
+the rectangle will package the resulting temporal and spatial indices afterward.
+
+
+
+
+                                                8
+3     The Intersection Theorem
+3.1    The critical-height table
+The temporal Tower came from asking how a velocity can escape before a finite time. The
+same index can now be read in the opposite direction. Each time derivative of the critical
+height exposes a higher spatial Sobolev energy through viscosity.
+   For s ≥ 0, set
+                                            1
+                                   Es (t) := ∥Λs u(t)∥22
+                                            2
+and retain the complete nonlinear and pressure transfer in
+                                           D                               E
+                         Ps (t) := − Re Λs u, Λs (u · ∇)u + ∇p                        .
+                                                                                 L2
+
+The pressure contribution vanishes in this global scalar pairing because Λs u is divergence-free,
+but keeping it in Ps preserves the pressure-complete origin of the row. Pairing the equation
+with Λ2s u gives
+                                     Es′ = Ps − 2νEs+1 .                                 (3.1.1)
+One time derivative reaches one full Sobolev step higher.
+  At the critical height H = E1/2 , the first row is
+
+                                        H ′ = P1/2 − 2νE3/2 .                             (3.1.2)
+
+Across one Zeno first-passage interval, this becomes
+                          Z tk+1                             Z tk+1
+                                   P1/2 (t) dt = Lk + 2ν              E3/2 (t) dt.        (3.1.3)
+                            tk                                tk
+
+The nonlinear transfer has to supply both the next critical-height gain and the viscous cost
+accumulated during the same shrinking interval. The identity does not yet prevent the
+transfer from becoming more intense as those intervals shorten.
+   Differentiate (3.1.2) and use (3.1.1) at the next height:
+
+                                 H ′′ = ∂t P1/2 − 2νP3/2 + (2ν)2 E5/2 .                   (3.1.4)
+
+One more derivative gives
+
+                      H ′′′ = ∂t2 P1/2 − 2ν∂t P3/2 + (2ν)2 P5/2 − (2ν)3 E7/2 .            (3.1.5)
+
+The pattern is triangular: every new derivative retains all lower transfer terms and opens one
+new highest spatial energy.
+   For n ≥ 1, induction gives
+                                                    n−1
+                       H (n) = (−2ν)n En+1/2 +             (−2ν)j ∂tn−1−j Pj+1/2 .
+                                                    X
+                                                                                          (3.1.6)
+                                                    j=0
+
+
+
+
+                                                   9
+The identity that isolates the top viscous term is
+                                                  n−1
+                                                        (−2ν)j ∂tn−1−j Pj+1/2
+                                                  X
+                                        H (n) −
+                                                  j=0
+                     En+1/2 =                                                   (n ≥ 1).              (3.1.7)
+                                                         (−2ν)n
+
+Nothing has been discarded from the differentiated equation. The higher spatial energy
+appears only after the full transfer history below it has been retained.
+
+Table 3.1.1: The temporal derivative of critical height and the higher spatial energy isolated
+in the same completed row.
+order   critical-height row                                                           highest spatial energy
+
+  0     H = E1/2                                                                              E1/2
+  1     H ′ = P1/2 − 2νE3/2                                                                   E3/2
+  2     H ′′ = ∂t P1/2 − 2νP3/2 + (2ν)2 E5/2                                                  E5/2
+  3     H ′′′ = ∂t2 P1/2 − 2ν∂t P3/2 + (2ν)2 P5/2 − (2ν)3 E7/2                                E7/2
+ n      equation (3.1.6)                                                                     En+1/2
+
+   The scalar derivative H (n) is not the velocity row Vn . Its exact relation to the temporal
+Tower is the quadratic contraction
+                                             n
+                                                        !
+                                  (n)     1X    n   D                   E
+                              H         =         Re Λ1/2 Va , Λ1/2 Vn−a 2 .                          (3.1.8)
+                                          2 a=0 a                        L
+
+
+Finite-time escalation reads the index n as another temporal response that cannot stay
+bounded. The completed identity reads the same index as access to n + 12 spatial derivatives
+of the velocity. A concentrating singularity points toward rougher spatial behaviour; the
+viscous column points toward stronger Sobolev regularity.
+    This is the reversal at the centre of the argument. The identities show its exact shape, but
+appearance is not control. The next step is to show that the same spatial ascent exists inside
+every temporal row and then identify the finite object that can be bounded through T∗ .
+
+3.2     The Sobolev column inside every temporal row
+The critical-height table was built from the base velocity V0 = u. The mixed Tower asks
+for more: every fixed response Vr has to carry its own spatial column. The equation gives
+exactly that.
+    Begin with the first nonzero row. Equation (2.3.8) can be written as
+                           V2 + (V1 · ∇)V0 + (V0 · ∇)V1 + ∇Q1 = ν∆V1 .
+For s ≥ 0, define
+                                                             1 s
+                                                  E1,s :=      ∥Λ V1 ∥22
+                                                             2
+                                                             10
+and
+                 P1,s := − Re ⟨Λs V1 , Λs ((V1 · ∇)V0 + (V0 · ∇)V1 + ∇Q1 )⟩L2 .
+Pairing this row with Λ2s V1 gives
+                                         ′
+                                        E1,s = P1,s − 2νE1,s+1 .                          (3.2.1)
+The first temporal response has the same viscous spatial ascent as the base velocity.
+   The calculation is unchanged at an arbitrary fixed temporal order. Set
+                         1
+                Er,s := ∥Λs Vr ∥22 ,
+                         2
+                                          r
+                             *                 !                    !+
+                                         X r
+                 Pr,s := − Re Λs Vr , Λs        (Va · ∇)Vr−a + ∇Qr        .
+                                         a=0 a                         L2
+Using (2.3.9),
+                                         ′
+                                        Er,s = Pr,s − 2νEr,s+1 .                          (3.2.2)
+Starting at s = 1/2 and repeating the completed-height calculation yields
+                                                        n−1
+                   ∂tn Er,1/2 = (−2ν)n Er,n+1/2 +             (−2ν)j ∂tn−1−j Pr,j+1/2 .
+                                                        X
+                                                                                          (3.2.3)
+                                                        j=0
+
+Viscosity does not identify temporal order with spatial order. It opens the same spatial ladder
+separately inside each selected temporal response.
+   Equation (3.2.3) identifies the spatial ladder; it does not yet give a pointwise-in-time
+bound. That bound appears when a whole-terminal rectangle supplies the adjacent pair
+                    Vr ∈ L2 (I∗ ; H m+1 ),        Vr+1 = ∂t Vr ∈ L2 (I∗ ; H m−1 ).
+The trace identity then gives
+                                         sup ∥Vr (t)∥H m < ∞.
+                                        0≤t≤T∗
+In three dimensions,
+                                                                    3
+                        H m (R3 ) ,→ Cbk (R3 )          when
+                                                          m>k+ .
+                                                                    2
+For any fixed spatial derivative order k, choosing a finite integer m > k + 3/2 turns that
+adjacent trace into pointwise control of every derivative of Vr through order k.
+   The two independent directions can now be read in one grid.
+
+Table 3.2.1: The mixed derivative grid. A finite cell records one membership Vr ∈ H m ;
+temporal order runs downward and spatial height runs across.
+                                  Hx0            Hx1           Hx2         Hx3      ···
+
+                   V0 = u       V0 ∈ H 0     V0 ∈ H 1     V0 ∈ H 2      V0 ∈ H 3    ···
+                   V1 = ut      V1 ∈ H 0     V1 ∈ H 1     V1 ∈ H 2      V1 ∈ H 3    ···
+                   V2 = utt     V2 ∈ H 0     V2 ∈ H 1     V2 ∈ H 2      V2 ∈ H 3    ···
+                  V3 = uttt     V3 ∈ H 0     V3 ∈ H 1     V3 ∈ H 2      V3 ∈ H 3    ···
+                      ..            ..           ..           ..            ..      ...
+                       .             .            .            .             .
+
+                                                   11
+   Now read one row in both directions. A finite singular time forces
+
+                                               sup ∥Vr (t)∥3 = ∞
+                                             0<t<T∗
+
+
+by (2.3.3). If a whole-terminal adjacent pair centred at H 1 is available, then Vr ∈
+C([0, T∗ ]; H 1 ), and hence
+
+                             sup ∥Vr (t)∥3 ≤ C sup ∥Vr (t)∥H 1 < ∞.
+                            0<t<T∗                       0<t<T∗
+
+This is the collision the whole-terminal theorem will create inside the same temporal row.
+The response that a finite-time singularity asks to lose control is also a row in which viscosity
+opens stronger spatial regularity.
+    The identities alone do not provide the needed bounds. They identify the object the
+estimate has to control: every selected finite temporal depth together with every selected
+finite spatial height. At the terminal time, the smallest useful piece is not one cell but an
+adjacent pair that produces a strong middle-space trace.
+
+3.3     Finite adjacent rectangles
+To give one temporal row Vn a terminal value in H M , control that row one spatial step
+above M and its time derivative one step below. For a smooth Hilbert-valued function v, let
+A = (1 − ∆)1/2 . Then, for 0 ≤ a < b ≤ T ,
+                                                          Z bD                             E
+                ∥v(b)∥2H M − ∥v(a)∥2H M = 2 Re                   AM −1 vt (t), AM +1 v(t)           dt.   (3.3.1)
+                                                           a                                   L2
+
+Thus
+                          v ∈ L2 (0, T ; H M +1 ),             vt ∈ L2 (0, T ; H M −1 )                   (3.3.2)
+gives
+                                              v ∈ C([0, T ]; H M ).                                       (3.3.3)
+Indeed, Cauchy–Schwarz bounds the change of the squared H M norm by
+
+                                     2 ∥vt ∥L2 (a,b;H M −1 ) ∥v∥L2 (a,b;H M +1 ) ,
+
+and the standard Hilbert-triple argument supplies the strong continuous representative. Time
+mollification and Fourier truncation justify the identity for the pair in (3.3.2); weak H M
+continuity and continuity of the norm then give the strong representative in (3.3.3).
+   The first continuation-grade pair is already concrete:
+
+             u ∈ L2 (0, T ; H 3 ),         ut ∈ L2 (0, T ; H 1 )       =⇒        u ∈ C([0, T ]; H 2 ).    (3.3.4)
+
+The upper space controls the field one derivative above the desired trace height. The lower
+space controls its time derivative one derivative below. They meet at H 2 .
+
+
+
+
+                                                         12
+   Apply the same pair to v = Vn , so that vt = Vn+1 . For finite temporal depth N and
+middle Sobolev height M , define
+                                            N
+                                                  ∥Vn ∥2L2 (0,T ;H M +1 )
+                                            X
+                          RN,M (u; T ) :=
+                                            n=0
+                                                N
+                                                                                         (3.3.5)
+                                                       ∥Vn+1 ∥2L2 (0,T ;H M −1 ) .
+                                                X
+                                            +
+                                                n=0
+
+When M = 0, the lower edge is H −1 . The temporal and spatial cutoffs are independent, and
+the constant attached to one rectangle is allowed to depend on both.
+   For example, (N, M ) = (1, 2) contains two overlapping adjacent pairs:
+
+Table 3.3.1: The rectangle R1,2 . The shared row V1 traces V0 from below and traces itself
+from above.
+                     temporal row       upper edge                   lower edge
+
+                         n=0          V0 = u ∈ L2 H 3             V1 = ut ∈ L2 H 1
+                         n=1          V1 = ut ∈ L2 H 3           V2 = utt ∈ L2 H 1
+
+The repeated V1 is one actual derivative of the same solution, not a second copy created by
+the table.
+   The pressure-complete rectangle RN,M [u0 ; T ] is a finite view of the mixed jet itself. Its
+upper and lower velocity edges retain the coordinates Jn,α = ∂tn ∂xα u represented by the two
+adjacent Sobolev levels, and its pressure edge retains the corresponding Πn,α = ∂tn ∂xα p. The
+recurrences (2.4.2)–(2.4.3) identify every retained entry with the jet generated from u0 . For
+each strict cutoff T < T∗ , classicality on [0, T ] gives
+
+                         RN,M (u; T ) < ∞          for every finite N, M.                (3.3.6)
+
+This does not yet control the terminal approach. A norm may be finite on every strict
+subinterval while its values diverge as the cutoff approaches T∗ .
+   The missing quantifier is now exact. After N and M are fixed, one bound has to survive
+every T < T∗ . That is the whole-terminal theorem.
+
+3.4    The whole-terminal estimate and the intersection
+For each fixed T < T∗ , equation (3.3.6) controls the selected rectangle only up to that cutoff.
+The missing quantifier is uniformity in T : after N and M are fixed, one constant has to
+survive every T < T∗ .
+Theorem 3.4.1 (Datum-generated whole-terminal rectangles). Let u0 ∈ Sσ , let ν > 0, and
+let (u, p) be the maximal classical solution generated by (u0 , ν) on [0, T∗ ). If T∗ < ∞, then
+for every finite N, M ∈ N0 ,
+
+                           sup RN,M (u; T ) ≤ CN,M (u0 , ν, T∗ ) < ∞.                    (3.4.1)
+                         0<T <T∗
+
+
+                                                  13
+The constant may depend on the selected depths N, M , but it is independent of the terminal
+cutoff T . The pressure rows are the rows generated by (2.3.11), and restriction to lower
+temporal or spatial depths preserves every shared derivative.
+   Fix N, M . Since the integrands in (3.3.5) are nonnegative, monotone convergence as
+T ↑ T∗ gives, for 0 ≤ n ≤ N ,
+
+                     Vn ∈ L2 (I∗ ; H M +1 ),              Vn+1 = ∂t Vn ∈ L2 (I∗ ; H M −1 ).               (3.4.2)
+
+The corresponding pressure rows satisfy
+
+                                Qn ∈ L1 (I∗ ; H M ),                 0 ≤ n ≤ N,                           (3.4.3)
+
+by the pressure recurrence, Riesz-transform boundedness, and finite-order Sobolev product
+estimates.
+    Every larger rectangle is cut from the same mixed jet and restricts to every smaller one.
+For N ′ ≤ N and M ′ ≤ M , let ρN,M
+                                N ′ ,M ′ discard the higher temporal rows and lower the retained
+Sobolev heights through the natural embeddings. Then
+
+                                   ρN,M
+                                    N ′ ,M ′ RN,M [u0 ] = RN ′ ,M ′ [u0 ].                                (3.4.4)
+
+The compatible intersection is the full family of those finite views:
+                                       
+                 I[u0 ] := RN,M [u0 ]                 ,         ρN,M
+                                                                 N ′ ,M ′ RN,M [u0 ] = RN ′ ,M ′ [u0 ].   (3.4.5)
+                                            N,M ∈N0
+
+
+For every finite request, one sufficiently large rectangle supplies the requested coordinate; the
+compatibility relation identifies it with the same derivative in every larger rectangle. The
+restriction law (3.4.4) and the pressure rows (3.4.3) give the complete bonding data used
+below.
+Proposition 3.4.2 (The mixed intersection). The velocity component of I[u0 ] satisfies
+                                             ∞ \
+                                               ∞
+                                                          H r (I∗ ; H m (R3 )).
+                                             \
+                                    u∈                                                                    (3.4.6)
+                                             r=0 m=0
+
+In particular,
+                                               ∞
+                                                      L2 (I∗ ; H m (R3 )).
+                                               \
+                                       u∈                                                                 (3.4.7)
+                                               m=0
+
+Proof. Fix finite r, m, and choose N ≥ r and M ≥ m. The upper edges of that rectangle give
+
+                      ∂tn u ∈ L2 (I∗ ; H M +1 ) ,→ L2 (I∗ ; H m )              (0 ≤ n ≤ r).
+
+These are the distributional time derivatives of one velocity field, so u ∈ H r (I∗ ; H m ). The
+pair (r, m) was arbitrary. Taking r = 0 gives the complete spatial row.
+   The intersection has placed every fixed temporal row in every finite spatial column on
+one whole terminal interval. Section 4 now reads concrete estimates from those coordinates
+and returns them to the critical height and the balanced vortex.
+
+                                                           14
+4     The Estimates and Global Smoothness
+4.1    Every finite estimate is a coordinate
+Fix a temporal order r ∈ N0 and a spatial order m ∈ N0 . Choose one rectangle with N ≥ r
+and middle height M = m. Its adjacent rows give
+
+                    Vr ∈ L2 (I∗ ; H m+1 ),         ∂t Vr = Vr+1 ∈ L2 (I∗ ; H m−1 ).
+
+The adjacent trace identity (3.3.1) gives
+
+                               Mr,m := sup ∥∂tr u(t)∥H m < ∞.                         (4.1.1)
+                                           0≤t≤T∗
+
+
+The pair (r, m) was arbitrary. Every fixed temporal response is uniformly controlled through
+T∗ in every selected finite Sobolev space.
+    That single conclusion generates the standard finite-order estimates. Let k ∈ N0 , let
+2 ≤ p ≤ ∞, and choose an integer m with
+                                                         3 3
+                                          m>k+            − .                         (4.1.2)
+                                                         2 p
+Spatial Sobolev embedding gives
+
+                               ∇k ∂tr u(t)        ≤ Ck,m,p ∥∂tr u(t)∥H m .            (4.1.3)
+                                             Lp
+
+Using (4.1.1),
+                                    ∇k ∂tr u ∈ L∞ (I∗ ; Lp (R3 )).                    (4.1.4)
+Since T∗ is finite under the standing contradiction hypothesis,
+
+                          ∇k ∂tr u ∈ Lq (I∗ ; Lp (R3 ))       (1 ≤ q ≤ ∞).            (4.1.5)
+
+Each requested norm uses one finite rectangle and its own finite constant. No sum over all
+derivative orders and no common analytic radius is asserted.
+   The reversal from Section 3 is now an estimate rather than a pattern in an identity. For
+any fixed temporal row Vr , the finite-time argument gave
+
+                                          sup ∥Vr (t)∥3 = ∞.
+                                      0<t<T∗
+
+The coordinate (r, m) = (r, 1) gives instead
+
+                                  sup ∥Vr (t)∥3 ≤ CMr,1 < ∞.
+                                 0≤t≤T∗
+
+The temporal and spatial directions remain independent. They are controlled simultaneously
+inside the same fluid history, and the same row cannot satisfy both conclusions.
+    The lowest rectangles now return the argument to the critical height and the vortex that
+opened the Tower.
+
+                                                    15
+4.2     The critical-height roof
+The first rectangle that reaches the critical endpoint is R0,1 . It gives
+
+                 u ∈ L2 (I∗ ; H 2 ),        ut ∈ L2 (I∗ ; L2 ),       u ∈ C([0, T∗ ]; H 1 ).   (4.2.1)
+
+Hence
+                               sup ∥u(t)∥3 ≤ C sup ∥u(t)∥H 1 < ∞.                              (4.2.2)
+                              0≤t≤T∗                  0≤t≤T∗
+
+This is the same L3 norm that a finite maximal time forced to escape in (2.1.1). The first
+critical projection of the intersection already blocks that escape.
+    It also gives the critical height a finite roof:
+                                                       1
+                         Hmax := sup H(t) ≤               sup ∥u(t)∥2H 1 < ∞.                  (4.2.3)
+                                       0≤t≤T∗          2 0≤t≤T∗
+
+Only finitely many first-passage levels Lk = 2k H0 fit below this roof. If Nlevels denotes the
+number reached, then
+                                   
+                                   0,                                Hmax < H0 ,
+                        Nlevels ≤                                                             (4.2.4)
+                                        1 + ⌊log2 (Hmax /H0 )⌋ , Hmax ≥ H0 .
+
+No estimate on the duration of an individual crossing is needed. The infinite Zeno ladder
+fails because the height cannot cross beyond a finite roof.
+    The next low rectangle, R0,2 , records the critical-height dynamics as well as its ceiling:
+
+                 u ∈ L2 (I∗ ; H 3 ),       ut ∈ L2 (I∗ ; H 1 ),       u ∈ C([0, T∗ ]; H 2 ).   (4.2.5)
+
+The first two memberships give
+                                          D                       E
+                          H ′ (t) = Re Λ1/2 u(t), Λ1/2 ut (t)          ∈ L1 (I∗ ).
+                                                                  L2
+
+Also E3/2 ∈ L1 (I∗ ), so the first completed row
+
+                                           P1/2 = H ′ + 2νE3/2
+
+shows that the signed critical production is integrable on the entire candidate interval. The
+height can rise and fall sharply, but its total variation is finite before T∗ .
+   Sobolev embedding gives the finite stretching action
+                        Z T∗
+                               (∥∇u(t)∥∞ + ∥ω(t)∥∞ + ∥S(t)∥∞ ) dt < ∞.                         (4.2.6)
+                          0
+
+This is the estimate needed to return from the global critical-height obstruction to the two
+physical readings of the balanced vortex.
+
+
+
+
+                                                      16
+4.3    The two vortex readings
+Return first to a core made from the same material labels. If X(a, t) and X(b, t) are two
+trajectories in that core, then
+                   d
+                      |X(a, t) − X(b, t)| ≥ − ∥∇u(t)∥∞ |X(a, t) − X(b, t)|.
+                   dt
+The finite action in (4.2.6) gives
+                                                                 Z t                  
+                  |X(a, t) − X(b, t)| ≥ |a − b| exp −                   ∥∇u(s)∥∞ ds > 0    (4.3.1)
+                                                                   0
+
+for every t ≤ T∗ . A persistent material core containing two labels with positive initial
+separation cannot collapse those labels to one point in finite time.
+    Perfect centring does not open a loophole. The finite coordinate (r, m) = (0, 3) in (4.1.1)
+gives
+                                L∗ := sup ∥∇u(t)∥∞ < ∞.                                 (4.3.2)
+                                                0≤t≤T∗
+
+At a chosen centre xc (t),
+                                       |u(t, x) − u(t, xc )| ≤ L∗ |x − xc |.
+Let Cr (t) be a circle of radius r in a cross-section normal to the vortex axis. The constant
+vector u(t, xc ) integrates to zero around the closed curve, so
+                         I
+                                      u(t, x) · dℓ ≤ 2πL∗ r2 −→ 0           (r ↓ 0).       (4.3.3)
+                             Cr (t)
+
+The relative tangential speed is O(r), and the circulation is O(r2 ). Exact balance at the
+centre does not preserve nonzero circulation at zero radius.
+    Now take the second reading, in which the visible core recruits new material as earlier
+labels leave it. Particle separation no longer follows the changing membership of that core,
+so the test moves to the whole-field high-frequency tail. For s > 1/2 and K ≥ 1, define
+                                                   1Z
+                                      H>K (t) :=           |ξ| |ub(t, ξ)|2 dξ.
+                                                   2 |ξ|>K
+Then
+                                    1
+                          H>K (t) ≤ K 1−2s ∥u(t)∥2Ḣ s .                (4.3.4)
+                                    2
+Choose an integer m ≥ s. The coordinate M0,m < ∞ and the continuous embedding
+H m ,→ Ḣ s give
+                             lim sup H>K (t) = 0.                       (4.3.5)
+                                           K→∞ 0≤t≤T∗
+
+Even when material is continually recruited, the complete velocity field cannot retain a fixed
+amount of critical content beyond every frequency.
+   These conclusions do not use wobble, fragmentation, or broken symmetry. Persistent
+labels retain positive separation, exact centring carries vanishing circulation into a vanishing
+radius, and recruitment leaves a uniformly vanishing whole-field critical tail. The perfectly
+balanced vortex has no remaining route to a singular zero-scale concentration at T∗ .
+
+                                                         17
+4.4    No finite singular time
+Theorem 4.4.1 (Whole-space existence and smoothness). For every ν > 0 and every
+u0 ∈ Sσ , the maximal classical solution of (1.1.2) satisfies
+                                                                     
+                            T∗ = ∞,          u, p ∈ C ∞ R3 × [0, ∞) .                    (4.4.1)
+
+For every t ≥ 0,
+                          1              Z t
+                                                           1
+                            ∥u(t)∥22 + ν     ∥∇u(s)∥22 ds = ∥u0 ∥22 .                    (4.4.2)
+                          2               0                2
+Proof. Assume that T∗ < ∞. The whole-terminal estimate gives every finite rectangle, and
+(3.4.6) assembles their common coordinates. Applying (4.1.1) with r = 0 gives one terminal
+velocity
+                                              ∞
+                                                   H m (R3 ) = H ∞ (R3 ).
+                                              \
+                            u∗ := u(T∗ ) ∈                                               (4.4.3)
+                                             m=0
+
+The traces at different Sobolev heights are limits of the same function and agree under the
+natural embeddings. Local well-posedness starting from u∗ produces a smooth solution on
+[T∗ , T∗ + δ], and uniqueness joins it to the original solution across the endpoint (Kato 1984).
+Appendix D gives the trace compatibility, pressure-jet passage, and smooth gluing in full.
+The joined solution exists beyond T∗ , contradicting maximality.
+     Thus T∗ = ∞, which proves (4.4.1) and the time requirement (1.1.4). The energy identity
+(1.2.1) holds on every finite interval of the global solution and gives (4.4.2), completing
+(1.1.3).
+
+
+
+
+                                                   18
+5     Further Consequences and the Euler Boundary
+5.1    A finite sum across infinitely many scales
+The rectangle R0,2 controls one finite Sobolev row, yet that row sums the vorticity carried
+by every dyadic scale. Let (∆j )j≥−1 be an inhomogeneous Littlewood–Paley decomposition
+(Bahouri, Chemin, and Danchin 2011, Chapter 2). For j ≥ 0, the block ∆j ω is concentrated
+near wavelength 2−j , and ∥∆j ω∥∞ measures the strongest rotation present in that band.
+Define                                       X
+                                  ∥ω∥B 0 :=      ∥∆j ω∥∞ .
+                                        ∞,1
+                                                    j≥−1
+
+Bernstein’s inequality gives, for j ≥ 0,
+                                   ∥∆j ω∥∞ ≤ C23j/2 ∥∆j ω∥2 .
+Insert 23j/2 = 2−j/2 22j , sum, and use Cauchy–Schwarz in the shell index:
+                                                    1/2                       1/2
+                                                                               2
+                                                 2−j                24j ∥∆j ω∥2 
+                      X                     X                    X
+                            ∥∆j ω∥∞ ≤ C                     
+                      j≥0                  j≥0                j≥0
+
+                                   ≤ C ∥ω∥H 2 ≤ C ∥u∥H 3 .
+The low block ∆−1 ω is controlled by ∥ω∥2 , so
+                                      ∥ω∥B 0        ≤ C ∥u∥H 3 .                           (5.1.1)
+                                              ∞,1
+
+
+Since R0,2 gives u ∈ L2 (I∗ ; H 3 ), Cauchy–Schwarz in time yields
+                       X Z T∗                         Z T∗
+                                ∥∆j ω(t)∥∞ dt =              ∥ω(t)∥B 0        dt < ∞.      (5.1.2)
+                                                                        ∞,1
+                      j≥−1 0                             0
+
+
+This is a finite ℓ1 value across infinitely many possible shells, not a claim that only finitely
+many shells can become active. A recruited core may pass activity from one scale to the
+next, but the time-integrated shell suprema cannot form a nonsummable cascade on a finite
+interval. The same low rectangle supplies L2t Hx3 for this shell action and Ct Hx2 for the uniform
+critical-tail estimate (4.3.5).
+
+5.2    The critical endpoint seen from the other side
+The L3 endpoint first entered as a necessary escape. If T∗ were finite, (2.1.1) would force
+∥u(t)∥3 to become unbounded along the terminal approach. The rectangle R0,1 returns to
+that same norm from the other direction. Its adjacent pair gives u ∈ C([0, T∗ ]; H 1 ), and hence
+                                       sup ∥u(t)∥3 < ∞.
+                                      0≤t≤T∗
+
+Thus R0,1 supplies the hypothesis of the Escauriaza–Seregin–Šverák endpoint continuation
+theorem (Escauriaza, G. A. Seregin, and Šverák 2003). The norm that defined the singular
+threat is already bounded by the first critical rectangle.
+
+                                                    19
+   The upper edge of the same rectangle gives another historical reading:
+
+                                 u ∈ L2 (I∗ ; H 2 ) ,→ L2 (I∗ ; L∞ ).
+
+This is the endpoint pair (p, q) = (2, ∞) on the Ladyzhenskaya–Prodi–Serrin line 2/p+3/q = 1
+(Prodi 1959; Serrin 1962; Serrin 1963; Ladyzhenskaya 1967). Both criteria are projections of
+the same finite block.
+
+5.3    Why the Euler Tower is different
+The mixed derivative jet can be written for Euler as well as for Navier–Stokes, but the spatial
+ascent that drives this paper is viscous. To keep the histories distinct, write
+
+                               VnNS := ∂tn uNS ,        QNS    n NS
+                                                         n := ∂t p ,
+
+and define VnE , QEn from a separate Euler solution. Their temporal recurrences are
+                               n
+                                       !
+                                     n                            NS
+                        NS
+                                       (VaNS · ∇)Vn−a
+                                                   NS
+                                                      + ∇QNS
+                               X
+                      Vn+1 +                              n = ν∆Vn ,                    (5.3.1)
+                               a=0   a
+                                n
+                                       !
+                        E            n
+                                       (VaE · ∇)Vn−a
+                                                  E
+                                                     + ∇QEn = 0.
+                               X
+                      Vn+1 +                                                            (5.3.2)
+                               a=0   a
+
+Both equations retain differentiated transport and the nonlocal pressure response. Only
+Navier–Stokes has the linear path from temporal row n to two additional spatial derivatives
+of that row.
+    For the two separate histories, set
+                                     1 s NS 2                    1 s E 2
+                         EsNS :=       Λu     ,         EsE :=     Λu    ,
+                                     2      2                    2     2
+
+
+with corresponding transfer terms PsNS and PsE . Then
+
+                          (EsNS )′ = PsNS − 2νEs+1
+                                               NS
+                                                   ,         (EsE )′ = PsE .            (5.3.3)
+
+For Navier–Stokes, repeated differentiation and division by (−2ν)n isolate En+1/2
+                                                                              NS
+                                                                                    in (3.1.7).
+Euler retains the nonlinear mixing of time and space, but it has no signed coercive rung that
+isolates the next Sobolev height in this way.
+    An all-orders compatible intersection for an Euler history would still be a powerful
+conditional container. It would   imply every fixed Sobolev bound and, in particular, the
+Beale–Kato–Majda condition 0T ∥ω E (t)∥∞ dt < ∞ (Beale, Kato, and Majda 1984). The
+                               R
+
+fixed-viscosity theorem used here does not supply that Euler intersection, and its constants
+are not claimed to remain bounded as ν ↓ 0. The mixed jet survives without viscosity; the
+datum-generated viscous spatial ladder does not.
+
+
+
+
+                                                   20
+A      Local Construction, Classical Estimates, and
+       Alternative Proof Routes
+The local theorem and the classical continuation estimates are collected here after the
+main argument has identified the critical-height obstruction. The Gold route seeks a direct
+continuation-grade estimate; the Silver route asks which concrete feature of a hypothetical
+singular history fails.
+
+A.1     The local construction behind the maximal history
+The same local theorem first constructs the maximal history and later extends it from a
+smooth terminal value. The existence time depends only on the fixed viscosity and the H 3
+size of the datum, while higher Sobolev orders persist on that base interval.
+    For real s, write
+                          Hσs (R3 ) := {v ∈ H s (R3 ; R3 ) : ∇ · v = 0}.
+
+Proposition A.1.1 (Local construction and continuation alternative). Let t0 ≥ 0, ν > 0,
+and a ∈ Hσ3 (R3 ). There is a time δ = δ(ν, ∥a∥H 3 ) > 0 and a unique normalized-pressure
+solution (w, q) with
+
+           w ∈ C([t0 , t0 + δ]; Hσ3 ) ∩ L2 (t0 , t0 + δ; H 4 ),      wt ∈ L2 (t0 , t0 + δ; H 2 ).
+
+If a ∈ Hσm for an integer m > 3, the same interval also carries
+
+        w ∈ C([t0 , t0 + δ]; Hσm ) ∩ L2 (t0 , t0 + δ; H m+1 ),       wt ∈ L2 (t0 , t0 + δ; H m−1 ).
+
+The local solutions join uniquely into one maximal history, and a finite maximal time forces
+its H 3 norm to become unbounded along the terminal approach.
+
+Proof of Proposition A.1.1. Fix t0 ≥ 0, ν > 0, and a ∈ Hσ3 (R3 ). For real s, we use the
+inhomogeneous norm
+                                    Z
+                      ∥f ∥2H s :=        ⟨ξ⟩2s |fb(ξ)|2 dξ,    ⟨ξ⟩ = (1 + |ξ|2 )1/2 .
+                                    R3
+
+The Leray projection is denoted by P, and Rj denotes the Riesz transform with symbol
+iξj /|ξ|. Both are bounded on every H s .
+
+
+Why the base class has exactly these three rows
+    The nonlinear term fixes the base spatial index. In three dimensions,
+
+                     H 3 (R3 ) ,→ W 1,∞ (R3 ),          ∥f g∥H 3 ≤ C ∥f ∥H 3 ∥g∥H 3 .
+
+Thus an H 3 velocity is Lipschitz and H 3 is an algebra. In particular,
+
+                                ∥P∇· (f ⊗ g)∥H 2 ≤ C ∥f ∥H 3 ∥g∥H 3 .                                 (A.1.1)
+
+                                                       21
+For integer derivatives this follows directly from Leibniz’ rule and the Sobolev embeddings
+H 2 ,→ L∞ and H 1 ,→ L6 ; density gives the stated estimate on H 3 .
+    The heat operator determines the two neighbouring rows. A force in H 2 produces one
+square-integrable parabolic derivative above the base state, z ∈ L2t Hx4 , and the equation
+places zt back in L2t Hx2 . These rows meet exactly at H 3 . Indeed, whenever
+                                  v ∈ L2 (J; H 4 ),           vt ∈ L2 (J; H 2 ),
+frequency truncation, the fundamental theorem of calculus, and Cauchy–Schwarz give
+                        ∥v(t)∥2H 3 − ∥v(r)∥2H 3 ≤ 2 ∥vt ∥L2 (r,t;H 2 ) ∥v∥L2 (r,t;H 4 ) .             (A.1.2)
+The right side tends to zero on shrinking time intervals. Passing from the frequency truncations
+shows that v has a unique representative in C(J; H 3 ). This is why the local strong class is
+                                    Ct Hx3 ∩ L2t Hx4 ,         ∂t v ∈ L2t Hx2 .
+Its three components are the middle trace, the parabolic gain, and the equation’s time row of
+one closed estimate.
+
+
+The shifted linear estimate
+   Let Jδ = [t0 , t0 + δ], where 0 < δ ≤ 1, and consider
+                        zt − ν∆z = F,            z(t0 ) = a,            F ∈ L2 (Jδ ; H 2 ).
+The H 3 energy pairs the force with z through the adjacent spaces H 2 and H 4 . In Fourier
+variables define                                 Z
+                          ⟨F, z⟩H 2 ,H 4 ;H 3 :=   ⟨ξ⟩6 Fb (ξ) · zb(ξ) dξ.
+                                                         R3
+The factorization ⟨ξ⟩6 = ⟨ξ⟩2 ⟨ξ⟩4 and Cauchy–Schwarz give
+                                    |⟨F, z⟩H 2 ,H 4 ;H 3 | ≤ ∥F ∥H 2 ∥z∥H 4 .                         (A.1.3)
+For a smooth solution, the H 3 energy identity is
+                      1d
+                           ∥z∥2H 3 + ν ∥∇z∥2H 3 = Re⟨F, z⟩H 2 ,H 4 ;H 3 .
+                      2 dt
+The inhomogeneous weights also give the exact splitting
+                                       ∥z∥2H 4 = ∥z∥2H 3 + ∥∇z∥2H 3 .
+Using (A.1.3), Young’s inequality, and then Gronwall’s inequality yields
+                                                                                             
+                     ∥z∥C(Jδ ;H 3 ) + ∥z∥L2 (Jδ ;H 4 ) ≤ Cν ∥a∥H 3 + ∥F ∥L2 (Jδ ;H 2 ) .
+Since zt = ν∆z + F , the equation supplies the remaining row:
+                                                                                                 
+        ∥z∥C(Jδ ;H 3 ) + ∥z∥L2 (Jδ ;H 4 ) + ∥zt ∥L2 (Jδ ;H 2 ) ≤ Cν ∥a∥H 3 + ∥F ∥L2 (Jδ ;H 2 ) .      (A.1.4)
+The constant is independent of δ ∈ (0, 1]. Apply a bounded frequency cutoff to a and F ,
+solve the truncated equations, and use (A.1.4) on differences. The limits solve the general
+linear problem, and (A.1.2) supplies the prescribed strong H 3 trace at t0 . The same estimate
+applied to a difference gives linear uniqueness.
+
+                                                         22
+The projected fixed point
+   Set
+              Xδ := C(Jδ ; Hσ3 ) ∩ L2 (Jδ ; H 4 ),             ∥w∥Xδ := ∥w∥CH 3 + ∥w∥L2 H 4 .
+The projected mild equation is
+                                                     Z t
+                     Φ(w)(t) := e   ν(t−t0 )∆
+                                                a−         eν(t−s)∆ P∇· (w ⊗ w)(s) ds.           (A.1.5)
+                                                      t0
+
+All abbreviated time norms below are taken over Jδ . Estimate (A.1.1) and the length of the
+interval give
+
+                 ∥P∇· (w ⊗ w)∥L2 H 2 ≤ Cδ 1/2 ∥w∥2CH 3 ,                                         (A.1.6)
+                                                                                
+         ∥P∇· (w ⊗ w − v ⊗ v)∥L2 H 2 ≤ Cδ 1/2 ∥w∥CH 3 + ∥v∥CH 3 ∥w − v∥CH 3 .                    (A.1.7)
+
+Inserting these bounds into (A.1.4) gives
+
+                             ∥Φ(w)∥Xδ ≤ Cν ∥a∥H 3 + Cν Cδ 1/2 ∥w∥2Xδ
+
+and                                                                         
+                  ∥Φ(w) − Φ(v)∥Xδ ≤ Cν Cδ 1/2 ∥w∥Xδ + ∥v∥Xδ ∥w − v∥Xδ .
+For a ̸= 0, take R = 2Cν ∥a∥H 3 and choose δ ≤ 1 so that 4Cν Cδ 1/2 R ≤ 1. The map Φ then
+preserves the closed Xδ -ball of radius R and has Lipschitz constant at most 1/2 there. If
+a = 0, the fixed point is the zero solution. Banach’s fixed-point theorem produces w ∈ Xδ ,
+and the choice may be made so that
+                                                n                        o
+                                  δ ≥ min 1, cν (1 + ∥a∥H 3 )−2 .                                (A.1.8)
+
+Here cν > 0 depends only on the fixed viscosity and the normalization of the Sobolev
+estimates.
+    The contraction first proves uniqueness inside the chosen ball. It also gives uniqueness in
+the full stated strong class. If w, v ∈ Xδ have the same datum, apply (A.1.4) and (A.1.7) to
+w − v on a sufficiently short initial subinterval. The coefficient is then smaller than one, so
+w = v there. Their common endpoint is the initial value for the next subinterval. A finite
+partition of Jδ repeats the argument across the entire interval. The heat semigroup and P
+preserve divergence-free fields, and the projected equation together with (A.1.6) gives
+
+                                           wt ∈ L2 (Jδ ; H 2 ).                                  (A.1.9)
+
+
+
+Recovering the normalized pressure
+   Define
+                                           q := Ri Rj (wi wj ).                                 (A.1.10)
+Because H 3 is an algebra and the Riesz transforms are bounded on H 3 ,
+
+                                            q ∈ C(Jδ ; H 3 ).
+
+                                                       23
+For F = ∇· (w ⊗ w), the Fourier symbols give PF = F + ∇q. The projected fixed point
+consequently solves
+
+                wt + (w · ∇)w + ∇q = ν∆w,                   ∇ · w = 0,               w(t0 ) = a.
+
+The condition q(t) ∈ H 3 (R3 ) fixes the whole-space pressure constant. If two such pressures
+accompany the same velocity, their difference has zero gradient and belongs to L2 , hence
+vanishes. The projected uniqueness just proved is thus uniqueness of the pressure-complete
+pair (w, q).
+
+
+Higher spatial orders on the base interval
+    Fix an integer m ≥ 3 and first suppose a is smooth. Write the H m energy as the sum
+of the L2 energies of ∂ α w, |α| ≤ m. Apply ∂ α to the projected equation and pair with ∂ α w.
+The divergence-free transport of the top derivative cancels:
+                                                                
+                                           (w · ∇)∂ α w, ∂ α w           = 0.
+                                                                     2
+
+The remaining terms in the Leibniz expansion contain at least one derivative on the trans-
+porting factor. Summing over |α| ≤ m, the Sobolev embeddings H 2 ,→ L∞ and H 1 ,→ L6
+give the integer commutator bound
+                                                   1/2
+
+                                 ∥[∂ α , w · ∇]w∥22 
+                          X
+                                                          ≤ Cm ∥∇w∥∞ ∥w∥H m .
+                         |α|≤m
+
+The differentiated energy identity gives
+                      1d
+                           ∥w∥2H m + ν ∥∇w∥2H m ≤ Cm ∥∇w∥∞ ∥w∥2H m .                               (A.1.11)
+                      2 dt
+The base solution lies in C(Jδ ; H 3 ), so ∥∇w∥∞ is bounded, and in particular integrable, on
+this same interval. Gronwall gives
+                                                            Z t                        
+                     ∥w(t)∥2H m ≤ ∥a∥2H m exp 2Cm                        ∥∇w(s)∥∞ ds .             (A.1.12)
+                                                                 t0
+
+Keeping the dissipative term in (A.1.11) gives w ∈ L2 (Jδ ; H m+1 ). The product estimate at
+order m − 1 puts the projected transport term in L2 (Jδ ; H m−1 ), and the equation gives
+
+                                            wt ∈ L2 (Jδ ; H m−1 ).
+
+The order-m version of (A.1.2) now yields
+
+                  w ∈ C(Jδ ; H m ) ∩ L2 (Jδ ; H m+1 ),                   wt ∈ L2 (Jδ ; H m−1 ).    (A.1.13)
+
+Formula (A.1.10) and the H m algebra estimate give q ∈ C(Jδ ; H m ).
+   For a general a ∈ Hσm , approximate a by divergence-free frequency cutoffs ak . Their H 3
+norms are bounded by a common multiple of ∥a∥H 3 , so (A.1.8) places every smooth solution
+
+                                                      24
+on the same base interval. The fixed-point estimate identifies their limit with the H 3 solution
+already constructed, while (A.1.11)–(A.1.12) give uniform bounds in the three spaces of
+(A.1.13). Weak compactness identifies the higher-order limits with w. The adjacent trace
+gives a continuous H m representative, and the energy inequality at t0 , combined with weak
+convergence to a, gives strong convergence w(t) → a in H m as t ↓ t0 .
+    No higher order changes the interval: its length was chosen once from ν and ∥a∥H 3 . If
+a ∈ Hσ∞ , applying (A.1.13) at each fixed m and using H 3 uniqueness shows that all orders
+belong to the same pair. Repeatedly differentiating the pressure formula and the momentum
+equation then gives smoothness in time with values in every finite Sobolev space. Spatial
+Sobolev embedding makes (w, q) smooth in (x, t) on the construction interval.
+
+
+The maximal history and its continuation alternative
+   Starting at t0 , join all local intervals furnished by the construction. Strong uniqueness
+identifies the solutions and normalized pressures on every overlap, so their union is one
+pressure-complete solution on a maximal interval [t0 , Tmax ).
+   Suppose Tmax < ∞ and
+                                        sup ∥w(t)∥H 3 ≤ M.
+                                   t0 ≤t<Tmax
+
+The lifespan calculation supplies the same positive lower bound
+                                                n                o
+                                 δM := min 1, cν (1 + M )−2
+
+whenever the construction is started from the actual datum w(t) at a later time. Choose
+t > Tmax − δM /2. The solution starting from w(t) exists beyond Tmax , and uniqueness
+identifies it with the maximal history on their common interval. This extends that history
+past its maximal time, which is impossible. We have proved the continuation alternative
+
+                          Tmax < ∞     =⇒           lim sup ∥w(t)∥H 3 = ∞.             (A.1.14)
+                                                    t↑Tmax
+
+Every higher order present in the initial datum persists on each local piece, because each
+piece uses the same H 3 -controlled lifespan. For a ∈ Sσ ⊂ Hσ∞ , this gives the smooth
+pressure-normalized maximal history asserted in the proposition.
+
+A.2     The Classical Estimates Before Closure
+Local theory gives the smooth fluid a beginning, so the first serious question is what the
+equations preserve after that beginning. The first answer is kinetic energy, and almost every
+later regularity result can be read as an attempt to recover the derivative control that energy
+leaves behind.
+
+
+
+
+                                                    25
+Energy and the First Uncontrolled Derivative
+   For a smooth solution, multiply the momentum equation by u and integrate over space.
+Incompressibility removes nonlinear transport from the total energy because
+                            Z
+                                                             1Z
+                                 (u · ∇)u · u dx =                u · ∇|u|2 dx = 0.
+                            R3                               2 R3
+It removes the pressure contribution for the same divergence-free reason:
+                                 Z                           Z
+                                       ∇p · u dx = −                p ∇ · u dx = 0.
+                                  R3                           R3
+
+Viscosity is the surviving term, and integration by parts gives
+                                           Z
+                                       ν        ∆u · u dx = −ν∥∇u∥2L2 .
+                                           R3
+
+The resulting identity is
+                                                    Z t
+                            ∥u(t)∥2L2 + 2ν                ∥∇u(s)∥2L2 ds = ∥u0 ∥2L2 .
+                                                     0
+
+The velocity has an L2 ceiling at every time, and viscosity pays for the squared L2 gradient
+after it is accumulated in time.
+    Leray found a way to keep this estimate when smoothness is no longer assumed. Regular-
+ization, compactness, and the energy inequality produce a global weak solution satisfying
+(Leray 1934)
+                           u ∈ L∞ (0, T ; L2 (R3 )) ∩ L2 (0, T ; H 1 (R3 ))
+on every finite interval. This is genuine global existence at the energy level; the energy
+inequality alone does not settle uniqueness or spontaneous regularity for arbitrary three-
+dimensional Leray solutions.
+   The Sobolev embedding
+                                     H 1 (R3 ) ,→ L6 (R3 )
+turns Leray’s spatial derivative into
+
+                                               u ∈ L2 (0, T ; L6 (R3 )).
+
+That extra integrability is immediately spent on the nonlinear transport. For example,
+
+                                     ∥(u · ∇)u∥L3/2 ≤ ∥u∥L6 ∥∇u∥L2 ,
+
+so the transport term is integrable in time with values in L3/2 . This is strong enough to keep
+the equation meaningful in the weak construction. It still supplies no time-uniform ceiling on
+∥∇u(t)∥L2 , because a sequence of higher and shorter peaks can have a finite squared time
+integral.
+    Vorticity shows why that opening is specifically dangerous in three dimensions. Set
+
+                                                    ω := ∇ × u.
+
+                                                            26
+For the divergence-free decaying fields considered here,
+
+                                       ∥∇u∥2L2 = ∥ω∥2L2 ,
+
+so the dissipated gradient is also the enstrophy. Taking the curl of the momentum equation
+gives
+                              ∂t ω + (u · ∇)ω = (ω · ∇)u + ν∆ω.
+The new term (ω · ∇)u stretches and tilts vorticity with the velocity gradient generated by
+the same flow. Its energy balance is
+                         1d      2         2
+                                                Z
+                              ∥ω∥L2 + ν∥∇ω∥L2 =     (ω · ∇)u · ω dx.
+                         2 dt                    R3
+
+The stretching integral has no fixed sign, and the energy identity does not force it to remain
+below viscous dissipation at each time. The first estimate reaches the whole time interval at
+a level below the derivative control needed to restart the smooth solution.
+
+
+What Is Strong Enough to Continue the Solution
+    The natural way to ask for several derivative levels at once is a Sobolev norm. For an
+integer m ≥ 0, write
+                                 ∥u∥2H m :=     ∥∂ α u∥2L2 ,
+                                             X
+
+                                                 |α|≤m
+
+with the usual Fourier definition when the order is fractional. In three dimensions, Sobolev
+embedding gives (Cerdà 2010, Theorem 7.28)
+                                                                   3
+                        H s (R3 ) ,→ C k (R3 )        when     s>k+ .
+                                                                   2
+In particular,
+                              5
+                         s>         =⇒        H s (R3 ) ,→ W 1,∞ (R3 ).
+                              2
+This is the first level at which one Sobolev norm directly controls the pointwise velocity
+gradient that multiplies every higher differentiated energy estimate.
+   Suppose a smooth solution on [0, T ) satisfies
+                                                                     5
+                           sup ∥u(t)∥H s ≤ M             for some s > .
+                          0≤t<T                                      2
+
+For each fixed finite m ≥ s, differentiate the equation spatially through order m, pair with
+the corresponding derivative of u, and sum the resulting identities. The product rule and
+incompressibility give the standard estimate
+                        1d
+                             ∥u∥2H m + ν∥∇u∥2H m ≤ Cm ∥∇u∥L∞ ∥u∥2H m .
+                        2 dt
+The assumed H s ceiling controls the coefficient on the right, and Gronwall’s inequality
+propagates the chosen H m norm from the smooth datum. The constant may depend on m,
+
+                                                 27
+because smoothness asks for every finite order in turn rather than one constant for the entire
+infinite collection.
+    Pressure does not add an independent unknown at the next stage. Taking the divergence
+of the momentum equation gives
+                                                   3
+                                                   X
+                                     −∆p =             ∂i ∂j (ui uj ),
+                                               i,j=1
+
+with decay fixing the pressure normalization. Once the spatial derivatives of u are controlled,
+this elliptic relation recovers the corresponding spatial derivatives of p, and
+
+                                   ∂t u = ν∆u − (u · ∇)u − ∇p
+
+then recovers the first time derivative. Repeating the same two operations recovers each
+higher mixed spatial and temporal derivative. One uniform Sobolev bound above 5/2 has
+enough leverage to return the complete smooth velocity–pressure pair.
+   It also gives the missing time needed to cross an endpoint. Local well-posedness in H s
+supplies a positive lifespan determined by s, ν, and the size of the initial H s norm (Fujita
+and Kato 1964; Kato 1984). Choose t0 < T , regard u(·, t0 ) as a fresh initial slice, and restart
+the local theory from that slice. If ∥u(·, t0 )∥H s ≤ M uniformly, the restarted lifespans have
+a common positive lower bound, so a sufficiently late t0 carries the same solution past T .
+Uniqueness on the overlap joins the restarted piece to the original motion. Hence a finite
+maximal time forces
+                                                                    5
+                          lim sup∥u(t)∥H s = ∞        for every s > .
+                            t↑T∗                                    2
+The distance from Leray’s estimate to continuation is now exact: time-integrated H 1 control
+must somehow become time-uniform control at a Sobolev level above 5/2.
+
+
+Critical Scale and Singular Concentration
+    The equations themselves show where such a conversion can lose information. If (u, p) is
+a solution, then
+                    uλ (x, t) := λu(λx, λ2 t), pλ (x, t) := λ2 p(λx, λ2 t)
+has the same equation at a different spatial and temporal scale. A quantity left unchanged
+by this transformation sees an intensifying structure with the same strength no matter how
+small that structure becomes.
+    The Ladyzhenskaya–Prodi–Serrin criteria locate exactly this balance between spatial
+intensity and temporal persistence (Prodi 1959; Serrin 1962; Serrin 1963; Ladyzhenskaya
+1967). They give regularity through T when
+                                                        2 3
+                       u ∈ Lp (0, T ; Lq (R3 )),         + ≤ 1,          q > 3.
+                                                        p q
+The spatial exponent measures how tightly velocity may concentrate, and the time exponent
+measures how long that concentration may persist. Equality in the exponent relation is
+unchanged by Navier–Stokes scaling.
+
+                                                   28
+   The spatial endpoint of this family is L∞  3
+                                           t Lx , because
+
+                                   ∥uλ (t)∥L3 = ∥u(λ2 t)∥L3 .
+
+Escauriaza, Seregin, and Šverák proved that
+
+                                     u ∈ L∞ (0, T ; L3 (R3 ))
+
+still carries a solution regularly through T (Escauriaza, G. A. Seregin, and Šverák 2003).
+Their rescaling argument turns a first singularity into an ancient limiting solution and uses
+backward uniqueness to rule that limit out. Thus a finite endpoint cannot hide behind a
+bounded critical L3 norm.
+    The local theory of singular concentration reaches a complementary conclusion. For
+z0 = (x0 , t0 ), write the parabolic cylinder
+
+                               Qr (z0 ) := Br (x0 ) × (t0 − r2 , t0 ).
+
+Caffarelli, Kohn, and Nirenberg proved that sufficiently small scale-invariant velocity and
+pressure quantities on Qr (z0 ) force regularity on a smaller cylinder (Caffarelli, Kohn, and
+Nirenberg 1982). A singular point must retain a definite scale-invariant concentration in every
+sufficiently small parabolic neighbourhood. Their covering argument confines the possible
+singular set to zero one-dimensional parabolic Hausdorff measure, but a single point would
+still end global smoothness.
+     The endpoint result also has a direct blow-up consequence. For the smooth compactly
+supported whole-space data in Seregin’s theorem, a finite maximal time satisfies (G. Seregin
+2012)
+                                     lim∥u(t)∥L3 (R3 ) = ∞.
+                                     t↑T∗
+
+Tao’s quantitative refinement forces at least a positive power of a triple logarithm of the
+inverse time remaining along infinitely many times approaching the endpoint (Tao 2021).
+That forced rate is extremely slow compared with any power law, so much faster concentration
+remains compatible with all known critical lower bounds.
+
+
+What the Classical Estimates Leave Open
+    Taken on their own, the classical estimates put any finite maximal time in a narrow
+but still inhabited gap. Kinetic energy stays bounded, every continuation-grade Sobolev
+norm loses finite control, the critical L3 norm diverges, and every singular point retains
+scale-invariant concentration at arbitrarily small parabolic scales. None of those statements
+prevents the concentration itself.
+    The reason can be seen directly from scaling:
+
+                  ∥uλ (t)∥L3 = ∥u(λ2 t)∥L3 ,       ∥uλ (t)∥2L2 = λ−1 ∥u(λ2 t)∥2L2 .
+
+Moving a structure to a shorter length scale preserves its critical L3 reading while reducing
+the L2 energy carried by the rescaled piece. The global energy ceiling cannot become a
+scale-independent ceiling on that critical concentration.
+
+                                                 29
+   Time also contracts with scale. If a schematic cascade halves its active length at each
+stage, its parabolic durations are proportional to
+                                                 1 1
+                                            1,    ,   , ...,
+                                                 4 16
+and these durations fit inside a finite total time. This is the Zeno-cascade picture: successively
+smaller and faster activity is not excluded by the known estimates simply because each stage
+consumes less time. It describes room left open by the estimates and does not construct a
+singular Navier–Stokes fluid.
+    The classical estimates identify both the continuation-grade norm and the scale-critical
+behavior forced by a finite endpoint, but they do not supply terminal-uniform control of that
+norm.
+
+A.3     Gold Standard Proof
+At this point the most direct way to solve the problem is visible. Find one estimate produced
+by the initial datum, the fixed viscosity, and the Navier–Stokes equations that prevents the
+restart-grade Sobolev norm from escaping at a finite time. For some fixed s > 5/2, the
+desired estimate has the form
+
+                               sup      ∥u(t)∥H s (R3 ) ≤ Cs (u0 , ν, T ) < ∞
+                           0≤t<min{T,T∗ }
+
+for every finite T > 0. This is the Gold Standard proof in one line.
+    The rest is already forced by what the bound controls. Sobolev embedding keeps ∇u
+bounded, the differentiated equations propagate each fixed higher H m norm from the smooth
+datum, the pressure equation recovers the pressure rows, and the momentum equation recovers
+the time rows. If T∗ < ∞, choose T = T∗ and restart local theory from a time slice close
+enough to T∗ . The same constant keeps the local lifespan from collapsing, so the restarted
+solution crosses the alleged last time and contradicts maximality. Once the displayed estimate
+exists,
+                                            T∗ = ∞.
+   This route is so natural that the first attempt is almost unavoidable: differentiate the
+energy once and try to repeat the original argument at the gradient level. Pair the momentum
+equation with −∆u. One integration by parts, together with incompressibility, turns the
+nonlinear transport into the cubic derivative integral
+                       1d       2         2
+                                                 Z
+                            ∥∇u∥L2 + ν∥∆u∥L2 = −     ∂k ui ∂i uj ∂k uj dx.
+                       2 dt                       R3
+
+The cubic term is bounded by
+                   Z
+                                                                      3/2       3/2
+                          ∂k ui ∂i uj ∂k uj dx ≤ C∥∇u∥3L3 ≤ C∥∇u∥L2 ∥∆u∥L2 .
+                     R3
+
+Young’s inequality lets viscosity absorb the ∆u factor and produces
+                              d
+                                 ∥∇u∥2L2 + ν∥∆u∥2L2 ≤ Cν −3 ∥∇u∥6L2 .
+                              dt
+                                                   30
+    The energy identity controls        Z T
+                                              ∥∇u(t)∥2L2 dt,
+                                          0
+while the new row amplifies the same gradient through its sixth power. A short high peak
+can have finite quadratic time area and still make the cubic derivative energy run away. The
+inequality has exposed that analytic possibility without constructing such a fluid peak. Its
+conclusion is the exact place where the first direct estimate loses control.
+    Any direct Gold Standard argument has to reach into the same coupled equation and
+prevent that amplification at some continuation-grade level. It has to use transport, pressure,
+incompressibility, and viscosity as they act on the original fluid, because those are the only
+mechanisms available to turn the local solution into an all-time one. Historically, this was the
+estimate the standard energy hierarchy did not supply. The whole-terminal finite-rectangle
+theorem, theorem 3.4.1, pays that debt in a stronger, all-finite-orders form.
+
+A.4     Silver Standard Proof
+The central difficulty is to find an estimate strong enough to survive the limit toward a
+hypothetical terminal time, rather than stopping at control of each strict classical subinterval.
+Once one digs into that obstruction, it is natural to ask whether smoothness can instead be
+proved by excluding every possible nonsmooth continuation of the same fluid.
+    Assume you already solved the problem using the Gold standard method.
+    That would mean smoothness itself is a property of the Navier-Stokes equations. If
+smoothness is a property of the fluid itself, then it must’ve come from the only other
+properties in the fluid; velocity, pressure, viscosity, incompressibility, and non-linear transport,
+all acting in unison to keep the fluid smooth. Which means any hypothetical “blow-up”
+scenario (or any case that breaks smoothness) should not be reachable from those equations,
+and any imagined blow-up scenario must not be describing the same fluid from the original
+problem statement. If every possible loss of smoothness stops satisfying the original problem,
+or stops being about the same fluid, then none of those scenarios are valid Navier-Stokes
+counterexamples. If there are no valid counterexamples, then the fluid must be smooth.
+
+                                If Navier–Stokes =⇒ smooth,
+                           then not smooth =⇒ not Navier–Stokes.
+    The display is a logical equivalence, not a proof of either implication. It becomes a Silver
+Standard proof only if every proposed non-smooth outcome is shown, without assuming
+smoothness, to be unreachable from the original Navier–Stokes equations. The beauty of
+the Silver proof method is that it no longer asks “how is the fluid smooth?”, it only asks
+“is it smooth?”; which reveals why the Gold proof method is so hard — Gold requires an
+explanation of mechanism (and hence the reason for the podium-titles). So the upside
+here, for Silver, is that the burden shifts away from constructing the continuation estimate
+directly. The downside is exhaustively handling every non-smooth outcome. Coming up with
+a principle that handles every case is the key to simplifying that burden.
+
+
+
+
+                                                  31
+A.5     Class Membership and Participation
+The principle Silver needs has to answer one concrete question about every imagined failure:
+is this still the fluid generated by the original problem? That question is class membership.
+    Fix the initial datum u0 , the viscosity ν > 0, and the maximal classical solution (u, p)
+they generate on [0, T∗ ). Let Q = (ue, e p) be a proposed extension of this fixed solution to
+[0, T∗ + ε). Write Member(Q) when Q agrees with (u, p) before T∗ and continues to satisfy
+
+                         ∂t ue + (ue · ∇)ue + ∇pe = ν∆ue,    ∇ · ue = 0,
+
+with the same datum, the same positive viscosity, the same whole-space decay and finite-
+energy requirements, and pressure still determined by the same velocity field. When Q is not
+smooth enough for the classical derivatives, these requirements are read in the distributional
+and energy-inequality senses appropriate to the proposed class. Smoothness is deliberately
+absent from membership, because it is the conclusion at issue.
+   Class exit is the complement
+
+                                  Exit(Q) := ¬ Member(Q).
+
+For this explanatory picture, let Q be the collection of proposed continuations for which the
+preceding same-history, distributional, energy, decay, and pressure-normalization requirements
+are meaningful. This is a schematic universe for the Silver comparison; the closure in Sections C
+and D follows the fixed pressure-normalized maximal classical history generated by (u0 , ν),
+not an arbitrary Q ∈ Q. Within this picture, define
+
+               M := {Q ∈ Q : Member(Q)},             S := {Q ∈ Q : Smooth(Q)}.
+
+The Gold Standard starts inside M and proves that the admitted solution lies in S. The
+Silver Standard starts outside S and proves that the proposed failure lies outside M. Both
+routes aim to establish the same boundary:
+
+                                  M ⊆ S,         M ∩ S c = ∅.
+
+In implication form, this is
+
+                Member(Q) =⇒ Smooth(Q),              ¬ Smooth(Q) =⇒ Exit(Q).
+
+The Venn picture fixes the direction of the implication, but it does not prove it. For Silver,
+each proposed nonsmooth outcome still needs a concrete reason it cannot remain a member.
+A large derivative or a violent-looking picture counts only when it breaks one of the relations
+that makes the field the original Navier–Stokes fluid.
+
+
+What Participation Means
+   Those relations become physical when we follow the matter instead of holding the
+coordinate frame still. Let X(a, t) be the trajectory of the parcel labelled by a, so
+                                   d
+                                      X(a, t) = u(X(a, t), t).
+                                   dt
+                                                32
+The parcel is moved by the velocity field and carried into a new neighbourhood of that same
+field. Its velocity changes according to
+            d
+               u(X(a, t), t) = Dt u(X(a, t), t) = −∇p(X(a, t), t) + ν∆u(X(a, t), t),
+            dt
+where Dt = ∂t + u · ∇.
+    The two sides describe one event. The parcel accelerates, while the pressure generated by
+the incompressibility of the whole field and the viscous comparison with its local velocity
+neighbourhood determine that acceleration. Transport changes which spatial neighbourhood
+the parcel occupies and how nearby material is arranged, so the pressure and viscous responses
+are determined again from the changed field at the next instant. No parcel supplies its own
+detached motion while the rest of the fluid evolves around it.
+    This continuing agreement is what participation means here. A parcel participates while
+its position is transported by u, its velocity responds through the pressure and viscous terms
+generated by u, and its material neighbourhood remains inside the same divergence-free
+motion. A small packet participates when that relation holds through the packet and the
+stresses across its moving boundary agree with the surrounding fluid. Class membership says
+directly that this participation still belongs to the original problem: the same datum fixes
+the fluid, the same equations keep every parcel in the coupled motion, and the same pressure
+field keeps the local responses joined to the whole.
+    Participation does not require every reading to be nonzero. A parcel can be instantaneously
+motionless while its acceleration is nonzero, and it can have zero acceleration when pressure
+and viscosity balance. The zero solution has a vanishing derivative tower and remains a
+complete solution. A steady flow has no Eulerian time change while its spatial structure
+continues to satisfy the momentum equation. What matters is whether the value at each
+place agrees with the response demanded by the rest of the field.
+    To see that distinction instead of naming it abstractly, take one packet and prescribe
+two different tangential velocities across it. Couette flow shows how one fluid can join those
+readings continuously, layer by neighbouring layer.
+
+A.6     A Comparison with Euler
+Couette flow gives the continuous participation picture in its simplest physical form. Place
+fluid between two parallel plates a distance h apart, move the upper plate tangentially with
+velocity U+ e1 , and move the lower plate with velocity U− e1 , where U− ̸= U+ . The steady
+velocity between them is
+                              U+ − U−
+                                            
+                uC (x) = U− +         x3 e 1 ,        0 < x3 < h,       p = p0 .
+                                 h
+Every layer takes an intermediate tangential speed, and neighbouring layers differ by the
+finite shear
+                                                U+ − U−
+                                    ∂3 (uC )1 =         .
+                                                   h
+The plates maintain the physical laboratory flow, while the profile lets us see the continuous
+velocity relation carried through the fluid between them. Figure A.6.1 draws that relation.
+
+                                                 33
+         imaginary frame around the fluid packet            x3
+                                  upper reading: U+ e1
+                                                                              continuous profile
+
+                                          same fluid
+                                          at every layer
+
+                 lower reading: U− e1                                            u1
+                                                                 U−
+
+Figure A.6.1: Continuous shear imagined inside one fluid packet. The dashed outline is only
+an observation frame. Every layer takes an intermediate velocity, so the one velocity field
+remains smooth across the packet.
+
+    Now take one packet of the unforced fluid and draw two imaginary horizontal lines through
+it at the same separation. The lines mark two locations inside the packet and supply no
+walls, plates, or external forcing. Assign U− e1 near the lower line and U+ e1 near the upper
+line, and imagine the fluid took on these properties of the Couette profile between them. The
+same continuous formula then describes the packet locally.
+    The equation class of this imagined packet follows from its geometry. Because the velocity
+points in the e1 -direction and varies linearly in the x3 -direction,
+                ∇ · uC = 0,        (uC · ∇)uC = 0,         ∆uC = 0,        ∇p = 0.
+It satisfies the local Euler momentum law and the local fixed-viscosity Navier–Stokes momen-
+tum law at the same time. Positive viscosity is present. This linear profile has no spatial
+curvature for the Laplacian to act on. The nonzero shear by itself does not become a nonzero
+bulk viscous force.
+    Keep the same packet, the same two imaginary lines, and the same assigned velocities.
+Change how the one fluid joins them. Let all fluid below a middle plane move with U− e1
+and all fluid above it move with U+ e1 , leaving no intermediate velocities across that internal
+surface. The motion now has the rigid slip pattern of two boards passing one another. The
+boards describe the behaviour being imagined; the physical object remains one fluid packet.
+Figure A.6.2 draws this second velocity relation.
+    The velocity jump makes smoothness fail visibly. Class membership still has to be decided
+by the equations. Euler and Navier–Stokes must test the same proposed velocity, pressure,
+incompressibility, and nonlinear momentum transport. Across a jump, the common laws are
+read in divergence form:
+                       Euler:           ∂t u + ∇ · (u ⊗ u) + ∇p = 0,
+               Navier–Stokes:           ∂t u + ∇ · (u ⊗ u) + ∇p = ν∆u,       ν > 0,
+with ∇ · u = 0 in both cases. The shared requirements come first, because viscosity can
+separate the two classes only after the rest of the proposed field has been held fixed.
+   Let the internal surface be Σ = {x3 = 0}, with normal e3 , and set
+                                     
+                                     U       x3 < 0,
+                                          − e1 ,
+                            u(x) =                           p(x) = p0 .
+                                     U+ e1 , x3 > 0,
+
+
+                                                   34
+          the same packet, with a second imagined behaviour         x3
+
+                                               fluid above: U+ e1
+                                                                                      abrupt jump
+      Σ                        no normal crossing: u · e3 = 0
+                       fluid below: U− e1
+                                                                                        u1
+                                                                         U−      U+
+
+Figure A.6.2: Board-like motion imagined inside the same fluid packet. The dashed outline
+is not a wall, and the two regions are not separate bodies. The one velocity field jumps
+tangentially across Σ, so this profile is nonsmooth even though its normal flow remains zero.
+
+Its jump
+                                         [u] = (U+ − U− )e1
+lies completely along the interface. Writing δΣ for unit surface mass on Σ, the divergence
+defect is
+                                   ∇ · u = [u] · e3 δΣ = 0.
+There is no source, sink, or mass flux through the plane.
+   The same tangential geometry removes the nonlinear momentum flux across the interface.
+On either side,
+                                  (u ⊗ u)e3 = u(u · e3 ) = 0,
+so ∇ · (u ⊗ u) = 0 as a distribution. The field is stationary and the pressure is constant, which
+also gives ∂t u = 0 and ∇p = 0. Every term shared by Euler and Navier–Stokes vanishes for
+this proposed motion.
+    This stationary tangential discontinuity is a planar vortex sheet. It is a local distributional
+weak solution of the incompressible Euler equations. The velocities stay finite on the two
+sides, while the missing intermediate shear is concentrated on the interface:
+
+                                     ∇ × u = (U+ − U− )e2 δΣ .
+
+Euler admits the board-like behaviour locally because its law has no term that compares the
+two tangential velocities through spatial curvature.
+    Fixed positive viscosity makes that comparison unavoidable. For the unchanged stationary
+field,
+                                   ∆u = (U+ − U− )e1 ∂3 δΣ .
+The left side of the momentum equation is still zero while ν∆u is not. Pressure cannot absorb
+the unmatched viscous distribution because
+
+                    ∇ × (ν∆u) = ν(U+ − U− )e2 ∂32 δΣ ̸= 0,               ∇ × ∇p = 0
+
+for every scalar pressure distribution p. The fixed velocity–pressure candidate belongs locally
+to the Euler class and fails the fixed-positive-viscosity Navier–Stokes equation. Viscosity has
+distinguished the two laws without changing the fluid pattern offered to them.
+
+                                                  35
+   Allowing the jump to evolve shows what the viscous fluid does instead. Keep the planar
+form
+                          u(x, t) = (U (x3 , t), 0, 0), p = p0 .
+Incompressibility remains automatic and nonlinear transport remains zero, so the two
+equations reduce to
+
+                     Euler: ∂t U = 0,        Navier–Stokes: ∂t U = ν∂32 U.
+
+Euler leaves the tangential profile fixed in this ansatz. Navier–Stokes turns the same initial
+profile into one-dimensional heat flow. Starting from
+                                               
+                                               U
+                                                     −,  x3 < 0,
+                                   U (x3 , 0) = 
+                                                    U+ , x3 > 0,
+
+the solution at every t > 0 is
+                                                                      !
+                                      U− + U+ U+ − U−      x3
+                         U (x3 , t) =        +        erf √    .
+                                         2       2        2 νt
+
+The
+√ sharp interface immediately becomes a continuous layer with thickness comparable to
+   νt. Positive viscosity communicates tangential momentum across the internal surface and
+fills in the velocities that the stationary board-like picture omitted.
+     The contrast with Couette is now exact. The linear profile has nonzero shear but zero
+interior Laplacian; the step has a distributional second derivative, so fixed positive viscosity
+cannot leave it stationary. Actual plates maintain the laboratory shear, whereas the imaginary
+lines inside the packet exert no external action.
+     The planar sheet is only a local comparison: it does not decay, has infinite kinetic energy
+on R3 , lies outside H 1 , and is not the continuation generated by the fixed datum in Section A.5.
+Even before those global exclusions are used, its nonzero viscous residual gives
+
+                                         ¬ Member(Q)
+
+for the stationary sheet offered as a Navier–Stokes continuation.
+    That nonzero viscous residual makes the board-like tangential slip Euler-only in this
+comparison: its first disagreement with the viscous equation occurs in velocity itself. A subtler
+loss could keep velocity finite and continuous while acceleration, jerk, a spatial gradient, or
+another mixed derivative ceased to join one smooth response. That possibility is what opens
+the derivative Tower beyond the fluid’s lowest velocity reading.
+
+
+
+
+                                                36
+B     Endpoint Pictures and One-Fluid Formalism
+The fuller material-derivative, endpoint, trajectory, and VPI descriptions are collected here
+after the main argument has used the terminal threat to generate critical height and the
+mixed derivative Tower.
+
+B.1     Singularity and the Derivative Tower
+The vortex sheet broke at the first thing we looked at: velocity had two values across one
+surface. A singularity does not have to announce itself that low. One parcel may keep a
+finite velocity while the way that velocity is changing loses finite control. To see that failure,
+we have to follow the response of the same parcel as far upward as the equation carries it.
+    Let X(a, t) be the trajectory of material label a, and write
+
+                      Ẋ(a, t) = u(X(a, t), t),            U (a, t) := u(X(a, t), t).
+
+The curve U (a, ·) is the velocity experienced by that parcel. When this velocity changes, its
+first change is acceleration. When the acceleration changes, its next change is jerk. Each
+further change is a higher response of the same moving matter.
+    For this carried sequence, set
+                                          dr
+                           Ar (a, t) :=       U (a, t),               r = 0, 1, 2, . . . .
+                                          dtr
+On every classical interval,
+                                                             Z t
+                               Ar (a, t) = Ar (a, t0 ) +              Ar+1 (a, s) ds.
+                                                                 t0
+
+This elementary identity gives the response sequence its finite-time force. If one rung Ar
+escapes every finite bound as t ↑ T < ∞, the rung Ar+1 cannot stay bounded on the remaining
+interval, because a bounded integrand can change Ar by only a finite amount. Applying the
+same observation again carries the loss of boundedness into every higher material response
+for as long as those derivatives exist. Once a rung is genuinely running away at a finite time,
+the rung above cannot remain still and bounded while producing that change.
+    The first of these responses is already inside the Navier–Stokes equation. With
+
+                                           Dt := ∂t + u · ∇,
+
+the chain rule along the trajectory gives
+                                                                                
+                    A1 (a, t) = Dt u(X(a, t), t) = −∇p + ν∆u (X(a, t), t).
+
+Acceleration is the pressure and viscous response of the field occupied by the parcel. Its jerk
+is found by differentiating the same equality along the same path:
+                                                                                    
+                  A2 (a, t) = Dt2 u(X(a, t), t) = Dt −∇p + ν∆u (X(a, t), t).
+
+
+                                                    37
+Higher material differentiation keeps reopening the pressure, viscosity, transport, and spatial
+variation that generated the response below it.
+    This carried acceleration must be kept distinct from the time derivative seen at one fixed
+coordinate. Write
+                                  Vn := ∂tn u,   Qn := ∂tn p.
+Then
+                                     A1 = V1 + (V0 · ∇)V0
+along the parcel, so V1 supplies the Eulerian part of material acceleration and transport
+supplies the other part. The material jerk contains the next Eulerian time derivative together
+with the ways the parcel moves through a changing field:
+                                                                            
+                Dt2 u = V2 + 2(V0 · ∇)V1 + (V1 · ∇)V0 + (V0 · ∇) (V0 · ∇)V0 .
+
+Material response and fixed-coordinate response are two readings of one field, joined by
+Dt = ∂t + u · ∇.
+
+
+The Temporal Rungs
+   The first four fixed-coordinate time derivatives show how the equation organizes those
+readings. The original momentum equation gives
+
+                                V1 = ν∆V0 − (V0 · ∇)V0 − ∇Q0 .
+
+This V1 is the velocity change at fixed x, and adding transport recovers material acceleration.
+Differentiate once in time while holding x fixed. The derivative can land on either velocity in
+the nonlinear product, giving
+
+                         V2 = ν∆V1 − (V1 · ∇)V0 − (V0 · ∇)V1 − ∇Q1 .
+
+Differentiate again, and the middle allocation appears twice:
+
+                 V3 = ν∆V2 − (V2 · ∇)V0 − 2(V1 · ∇)V1 − (V0 · ∇)V2 − ∇Q2 .
+
+The fourth rung exposes the next Pascal row:
+
+                           V4 = ν∆V3 − (V3 · ∇)V0 − 3(V2 · ∇)V1
+                                − 3(V1 · ∇)V2 − (V0 · ∇)V3 − ∇Q3 .
+
+The coefficients count the ways the time derivatives can divide between the transporting and
+transported copies of velocity. At arbitrary order the same product rule reads
+                         n
+                                !
+                         X     n
+                Vn+1 +           (Vk · ∇)Vn−k + ∇Qn = ν∆Vn ,         ∇ · Vn = 0.
+                         k=0   k
+
+Each Vn+1 is tied to lower time rows through transport, to spatial curvature through viscosity,
+and to pressure at the same time order. The recurrence is an identity on the classical solution,
+and every row derives from that shared evolution.
+
+                                              38
+Pressure and the Spatial Rungs
+   Pressure and spatial derivatives have entered every temporal row from the beginning.
+Taking the divergence of the original momentum equation gives
+                                     −∆p = ∂i ∂j (ui uj ),
+where repeated spatial indices are summed. After n time derivatives,
+                                                 n
+                                                        !
+                                                 X     n
+                              −∆Qn = ∂i ∂j               Vk,i Vn−k,j .
+                                                 k=0   k
+The whole-space decay normalization fixes the spatial constant left open by the elliptic
+equation. Each pressure row is generated by the velocity rows across the field, so a pressure
+response at one parcel can depend on velocity far from that parcel.
+    Spatial differentiation opens the momentum equation in a second direction. One derivative
+in xℓ gives
+                          ∂t (∂ℓ u) + (u · ∇)(∂ℓ u) + ((∂ℓ u) · ∇)u + ∇(∂ℓ p)
+                                    = ν∆(∂ℓ u).
+The added transport term records the fact that the transporting velocity also varies across
+neighbouring positions. A second spatial derivative gives both cross allocations:
+                  ∂t (∂ℓm u) + (u · ∇)(∂ℓm u) + ((∂ℓ u) · ∇)(∂m u)
+                             + ((∂m u) · ∇)(∂ℓ u) + ((∂ℓm u) · ∇)u + ∇(∂ℓm p)
+                             = ν∆(∂ℓm u).
+Every further temporal or spatial differentiation repeats this nesting and creates the corre-
+sponding mixed response row.
+   Using a multi-index α, write
+                                  Jn,α (x, t) := ∂tn ∂xα u(x, t),
+and collect the velocity readings at that spacetime point as
+                                                           
+                             J ∞ u(x, t) := Jn,α (x, t)                      .
+                                                                n≥0, α∈N30
+
+This is the derivative tower. Its rungs are simultaneous readings of one velocity field, its
+material acceleration and jerk are combinations of those readings along a trajectory, and its
+pressure rows remain attached through the Poisson equation and incompressibility.
+    The tower can contain lawful zeroes. The zero solution has every rung equal to zero, a
+smooth steady flow has Vn = 0 for all n ≥ 1, and a changing response can pass through zero
+at an instant. The equation decides whether a zero or nonzero value fits the surrounding
+field. The finite-time escalation above begins only when a particular material rung actually
+escapes every finite bound.
+    A finite terminal velocity leaves all of these higher readings unsettled. Smooth arrival
+requires each finite temporal, spatial, and mixed rung to extend with one finite value
+compatible with the equations. The board-like jump is the lowest visible failure of that
+requirement; the opened tower shows where less visible failures can occur.
+
+                                                 39
+B.2     Dead, Jump, Blown, and Restart
+The derivative tower turns a vague loss of smoothness into a failure we can picture inside the
+fluid. At every regular point, each response belongs to one surrounding velocity field and
+satisfies the equation opened at that rung. Near an alleged endpoint, one portion may go still
+while pressure and viscous curvature continue to demand change from it. Two neighbouring
+approaches may carry incompatible finite values into the same location. A shrinking pulse or
+vortex may drive one response beyond every finite size in the time remaining. These are the
+three physical scenes developed below.
+
+
+Dead
+   Imagine one point of the fluid stopping dead in its tracks. Its velocity may be zero. Its
+acceleration may be zero too, and so may its jerk or any other particular rung. None of those
+zeroes proves a failure by itself. The question is whether the fluid around that point is still
+demanding that something change.
+   At the base of the tower, that demand is visible in
+
+                                         Dt u = −∇p + ν∆u.
+
+The left side is the response carried by the parcel. The right side is what pressure and viscous
+curvature in the surrounding field require from it. For a proposed extension Q = (ue, p), e set
+Dt := ∂t + ue · ∇. If the proposal assigns
+f
+
+                                                D te = 0
+                                                fu
+
+while
+                                          −∇pe + ν∆ue ̸= 0
+at that point, then the point has stopped while its fluid has not stopped asking it to move.
+The same picture applies to a material packet A(t) carried by ue. Its momentum response can
+go dead while the surrounding traction remains nonzero:
+              d Z                           Z         h                       i
+                      ue(x, t) dx = 0,                     pI + ν ∇ue + ∇ueT
+                                                          −e                        n dS ̸= 0.
+              dt A(t)                         ∂A(t)
+
+The packet then refuses the net pressure and viscous response transmitted through its
+boundary.
+   Now carry the test up the tower. Write
+
+                                   Ven := ∂tn ue,          e := ∂ n e
+                                                           Q n   t p.
+
+The row from Section B.1 says that the next response must be
+                                            n
+                                                      !
+                                            X       n e
+                         Ven+1 = ν∆Ven −              (Vk · ∇)Ven−k − ∇Q
+                                                                       e .
+                                                                        n
+                                            k=0     k
+
+Velocity can go to zero, and every chosen rung can go to zero. But when the surrounding
+pressure, spatial curvature, and lower responses make the right side nonzero, the rung
+
+                                                    40
+immediately above them has to remain alive. If the proposal instead lets the whole local
+tower go dead, then no response remains to carry information from the surrounding fluid
+into the point or packet.
+    Zero can also be completely lawful. The zero solution answers its surrounding field exactly,
+a smooth steady solution can have every positive Eulerian time rung equal to zero, and a
+changing response can pass through zero at an instant. Those cases remain alive because the
+equation asks for zero too. Dead begins only when the responses go still while some row of
+the full equation continues to demand change.
+    Define the mismatch in the proposed n-th row by
+                                       n
+                                              !
+                                       X     n e
+                   Dn [Q] := Ven+1 +           (Vk · ∇)Ven−k + ∇Q
+                                                                e − ν∆Ve .
+                                                                 n      n
+                                       k=0   k
+
+Every classical Navier–Stokes region has Dn [Q] = 0. If Q is classical and Dn [Q](z0 ) ̸= 0,
+the equation already fails at z0 , and continuity carries that mismatch into a spacetime
+neighbourhood of z0 . If Q is not pointwise classical but has enough local regularity that every
+term in Dn [Q] defines a distribution on a neighbourhood O, the witness is
+
+                                  Dn [Q] ̸= 0 in D′ (O; R3 ).
+
+Some vector-valued test function then detects it:
+
+                                         ⟨Dn [Q], ϕ⟩ ̸= 0
+
+for some ϕ ∈ Cc∞ (O; R3 ). That is the mathematical witness of the physical Dead scene: the
+point or packet has stopped participating, one of the fluid’s required properties has failed
+there, and the proposed field has left the Navier–Stokes class.
+
+
+Jump
+   Now imagine the response stays finite, yet neighbouring approaches to the same spacetime
+point refuse to produce one value. For a temporal, spatial, or mixed rung
+
+                                         Jn,α := ∂tn ∂xα u,
+                                         +           −
+suppose two sequences of regular points zm → z∗ and zm → z∗ satisfy
+                                       +            −
+                                Jn,α (zm ) − Jn,α (zm ) ≥ ε0 > 0
+
+along a subsequence. No single continuous value can join the two approaches at z∗ . The field
+has Jump at that rung.
+    The planar Euler sheet is the lowest visible version. The same one-fluid packet approaches
+its internal surface from below with velocity U− e1 and from above with velocity U+ e1 . Its
+missing intermediate velocities prevent the two neighbouring sides from becoming one contin-
+uous Navier–Stokes response, and fixed viscosity detects that loss through the distributional
+curvature of the jump.
+
+                                                  41
+    The same slip has an overlapping Blown reading when it is approached through thinner
+continuous layers. If the velocity difference ∆U = U+ − U− is spread across thickness ε, its
+shear has the scale
+                                             |∆U |
+                                                   .
+                                               ε
+The two velocities stay finite while this gradient diverges as ε ↓ 0, and the zero-thickness
+sheet carries the limiting shear as a surface distribution.
+    A higher Jump can leave velocity continuous. The two approaches may agree on u while
+disagreeing on ∇u, on a fixed-coordinate time rung Vn , or on the combination of mixed
+derivatives that forms material acceleration or jerk. Oscillation can create the same failure of
+the Cauchy test without producing two simple one-sided traces. The decisive fact is that
+one part of the field can no longer be joined continuously to the values carried toward it by
+neighbouring parts.
+    Jump can overlap with Dead. Assigning one of the competing values at the endpoint may
+create a finite equation mismatch, while leaving the value unassigned still blocks smooth
+continuation. The first statement concerns participation in the equation, and the second
+concerns arrival at one continuous field.
+
+
+Blown
+    The third scene begins when concentration drives the response upward inside a shrinking
+region. Imagine a smooth pulse or vortex structure being worked into a smaller region while
+its velocity difference is taken across a still shorter distance. The velocity can remain finite
+while a gradient, acceleration, jerk, or higher mixed response grows beyond every finite height
+near the concentrating region. At a point this appears as
+
+                                     lim sup |Jn,α (x, t)| = ∞,
+                                    (x,t)→(x∗ ,T )
+
+
+and on a neighbourhood it can appear as
+
+                               lim sup∥Jn,α (·, t)∥Lp (Br (x∗ )) = ∞.
+                                 t↑T
+
+This is Blown at the indicated rung.
+    A simple scale picture shows why finite velocity does not protect the tower. Let velocity
+increments and length scales satisfy
+
+                                      ak = 2−k ,          ℓk = 4−k .
+
+Then                           ∞
+                                                      ak
+                                                         = 2k −→ ∞.
+                               X
+                                    ak < ∞,
+                              k=1                     ℓk
+The total velocity change stays finite while the corresponding gradient scale diverges. This is
+a kinematic picture of how Blown can first appear above velocity. No Navier–Stokes solution
+realizing this sequence has been constructed here.
+
+
+                                                     42
+    Blown can meet the other two scenes. A divergent oscillation can lose finite size and
+a unique approach together, while a proposed truncation of that divergence can create an
+equation mismatch. The overlap matters because these are candidate general pictures of a
+failure inside the fluid. No exhaustiveness or exclusivity is claimed for the three scenes.
+    In all three general pictures, some portion of the fluid no longer responds to information
+from its neighbours. Neighbour information includes the global pressure response, because
+incompressibility generates pressure from the whole velocity field and a distant change can
+alter the response demanded at the portion under examination. Dead loses the demanded
+equation response, Jump loses a common value across neighbouring approaches, and Blown
+loses finite control as the response concentrates. Each picture must still be connected to the
+actual Navier–Stokes solution before it becomes a proof of class exit or failed continuation.
+
+
+Restart
+    The same solution also contains its own fresh initial slices whenever it is regular. Choose
+a regular time t0 < T∗ and set
+
+                      v(x, s) := u(x, t0 + s),        q(x, s) := p(x, t0 + s).
+
+Direct substitution gives
+
+              ∂s v + (v · ∇)v + ∇q = ν∆v,         ∇ · v = 0,        v(·, 0) = u(·, t0 ).
+
+The later regular slice u(·, t0 ) has become new initial data for the same evolution. Local
+uniqueness joins the restarted solution to the original one wherever their time intervals
+overlap. Changing the time origin changes no velocity, pressure, viscosity, or material parcel
+in the fluid. This is the restart that a continuation-grade bound makes long enough to cross
+a candidate endpoint.
+
+B.3     One Fluid, One Coherent Field, and the VPI Law
+Restart sharpens the one-fluid burden. A terminal slice can restart the same history only if
+velocity, pressure, and every required response arrive there as one compatible field. Call that
+joined relation the VPI law: viscosity, pressure, and incompressibility acting through one
+transported velocity. Dead, Jump, and Blown name ways that a portion of the field can lose
+this relation with the fluid around it. Following a material packet makes that relation literal.
+    Take a small parcel of fluid at time zero and let the flow map X(a, t) carry each initial
+material label a:
+                           ∂t X(a, t) = u(X(a, t), t),   X(a, 0) = a.
+The velocity field moves the parcel and simultaneously changes the distances, directions, and
+shapes in its material neighbourhood. The matter remains part of the same fluid while its
+geometry is continually rearranged.
+   Incompressibility fixes what this rearrangement can do to volume. If
+
+                                   V(a, t) := det ∇a X(a, t),
+
+                                                 43
+then
+                               d
+                                  V(a, t) = (∇ · u)(X(a, t), t)V(a, t).
+                               dt
+Since ∇ · u = 0,
+                                       V(a, t) = V(a, 0) = 1.
+The packet may stretch, turn, and fold through space while its material volume remains
+unchanged.
+   Its carried velocity is
+                                U (a, t) := u(X(a, t), t),
+and its acceleration is
+                          d
+                             U (a, t) = −∇p(X(a, t), t) + ν∆u(X(a, t), t).
+                          dt
+Transport has already chosen the point and neighbourhood at which pressure and viscosity
+act. Both forces determine the next velocity of the same parcel at the same instant.
+    The Laplacian gives viscosity a direct local meaning. For an interior point of a smooth
+three-dimensional field, the mean-value expansion over a ball gives component by component
+                                                                             !
+                                   10        1    Z
+                   ∆u(x, t) = lim 2                       u(y, t) dy − u(x, t) .
+                               r↓0 r      |Br (x)| Br (x)
+
+Viscosity reads how the velocity at x curves away from the average velocities in smaller
+and smaller spatial neighbourhoods. As transport changes those neighbourhoods, the local
+comparison acting on the parcel changes with them.
+   Pressure reaches through the fluid in a different way. Taking the divergence of momentum
+gives
+                                     −∆p = ∂i ∂j (ui uj ).
+For the decaying whole-space field, the decay normalization fixes pressure and gives
+
+                                          p = Ri Rj (ui uj ).
+
+Changing velocity far from the parcel can change the pressure gradient at the parcel, because
+pressure enforces the divergence-free constraint across the whole field.
+   The preceding relations are simultaneous parts of the VPI law. In compact form, viscosity,
+pressure, and incompressibility act through one transported velocity:
+
+                                          ∂t X = u(X, t),
+                               d
+                                  u(X, t) = −∇p(X, t) + ν∆u(X, t),
+                               dt
+                                ∇ · u = 0,    −∆p = ∂i ∂j (ui uj ).
+
+Viscosity couples the parcel to the curvature of its immediate velocity neighbourhood, pressure
+couples it to the configuration of the whole fluid, and incompressibility constrains how every
+material neighbourhood can move. Transport changes the geometry on which all three act
+
+
+                                                  44
+and carries their resulting velocity into the next instant. Together they form one law of one
+fluid, with every mechanism acting on the others in the same instant.
+    The same statement holds for a packet with a moving boundary. Let A(t) = Xt (A(0)) be
+a smooth material region. The Reynolds transport theorem and the momentum equation give
+                    d Z                  Z      h               i
+                            u(x, t) dx =         −pI + ν ∇u + ∇uT n dS.
+                    dt A(t)               ∂A(t)
+
+Pressure traction and viscous traction act together across the packet boundary, while incom-
+pressibility preserves the volume being carried. The packet momentum changes through the
+action of the surrounding part of the same fluid.
+    Vorticity and strain give another reading of this response without introducing another
+object. Write
+                                          1            
+                    ∇u = S + Ω,      S := ∇u + ∇uT ,           ω := ∇ × u.
+                                          2
+For an incompressible smooth solution,
+
+                                      Dt ω = Sω + ν∆ω.
+
+The strain generated by the velocity gradient stretches and turns the vorticity carried by
+the flow, while viscosity compares that vorticity with its local surroundings. Pressure is
+still determined by the velocity field through the normalized Poisson relation, and the flow
+map still preserves volume. Velocity, vorticity, strain, pressure, and the derivative tower are
+different readings of the same coherent field.
+     Take one parcel together with the nearby parcels carried beside it by the exact flow map.
+As their distances and directions change, viscosity reads the curvature of their shared velocity
+neighbourhood, pressure responds to the whole divergence-free field containing them, and
+the resulting acceleration remains the next response of that same parcel.
+     At every finite rung of the derivative tower, transport, pressure, viscosity, and incom-
+pressibility remain equations of this same field. Dead, Jump, and Blown describe ways a
+portion of that field can cease to join the response around it, while the fluid on every side of
+the failure remains the same one fluid. A shrinking structure can carry less kinetic energy
+while its derivative responses intensify, so the one-fluid picture still needs a measurement
+that remains visible under the change of scale and stays tied to the finite time available.
+
+
+
+
+                                              45
+C       Derivative and Finite-Record Calculus
+This appendix carries the expanded critical-height calculation, fixed-space escalation argument,
+pressure-complete recurrences, Sobolev intersections, and finite-rectangle calculus used in the
+body.
+
+C.1     Critical Height at a Finite Endpoint
+The one-fluid picture leaves a scale-critical Blown possibility to examine: the field can remain
+smooth at every earlier time while activity concentrates at smaller scales before a finite
+endpoint. Fix a rapidly decaying datum u0 on R3 , a viscosity ν > 0, and the maximal
+classical solution (u, p) they generate on [0, T∗ ). Suppose T∗ < ∞ so that we can follow that
+threat all the way to its alleged endpoint.
+    Kinetic energy stays bounded along the classical interval, but a fixed amount of energy is
+not equally visible at every scale. The Navier–Stokes scaling shows the difference. For every
+λ > 0, the rescaled fields
+
+                     uλ (x, t) := λu(λx, λ2 t),             pλ (x, t) := λ2 p(λx, λ2 t)
+
+solve the same equation with the same viscosity on the rescaled time interval. Length has
+been divided by λ, time by λ2 , and velocity has been multiplied by λ. The two spatial
+derivatives in viscosity and the one time derivative in acceleration are already setting the
+pace.
+    Let Λ = (−∆)1/2 , and measure a spatial Sobolev height by
+                                                 Z
+                                  ∥v∥2Ḣ s :=            |ξ|2s |vb(ξ)|2 dξ.
+                                                  R3
+
+The Fourier transform of the rescaled velocity is
+
+                                   ucλ (ξ, t) = λ−2 ub(ξ/λ, λ2 t).
+
+Putting this into the Sobolev norm and changing variables from ξ to η = ξ/λ gives
+                                            Z
+                                                                                    2
+                          ∥uλ (t)∥2Ḣ s =        |ξ|2s λ−4 ub(ξ/λ, λ2 t)                dξ
+                                            R3       Z
+                                                                                    2
+                                      = λ2s−1              |η|2s ub(η, λ2 t)            dη.
+                                                     R3
+
+Hence
+                                ∥uλ (t)∥Ḣ s = λs−1/2 u(λ2 t)                   .
+                                                                         Ḣ s
+Every Sobolev height tilts under the compression except s = 1/2. At that height the power
+of λ vanishes, so define
+                                      1                 1 1/2   2
+                            H(t) :=     ∥u(t)∥2Ḣ 1/2 =   Λ u(t) .
+                                      2                 2       2
+
+This is the critical height: exact rescaling can move a smooth configuration to a finer length
+and a shorter time without changing the value of H.
+
+                                                     46
+   The kinetic-energy scale moves in the other direction. Putting s = 0 in the same calculation
+gives
+                                                           2
+                                 ∥uλ (t)∥22 = λ−1 u(λ2 t) .
+                                                                    2
+                                              2
+A finer rescaled structure can carry less L energy while standing at the same critical height.
+That is the opening left by the ordinary energy estimate: it can keep the total energy finite
+while the scale at which the fluid is changing continues to fall.
+    The finite parabolic schedule already developed in Section A.2 shows that progressively
+smaller scale durations can fit before one finite time. At the critical height just derived, that
+schedule remains dimensionally possible while the L2 contribution shrinks, but it does not
+show that the equation generates the successive states. The actual fluid would still have to
+create each finer state from the state before it while transport, pressure, incompressibility,
+and viscosity all continue to act.
+    Critical height sees what can survive the loss of scale. It still says nothing about how
+rapidly the field must change to pass through infinitely many regular states before T∗ .
+Finite time turns that missing speed into a relation between one response and the response
+immediately above it.
+
+C.2     Finite-Time Response Escalation
+The Zeno schedule leaves open the only question that matters dynamically: can one solution
+perform all of those changes before the available time runs out? A scale can shrink on paper
+without any fluid moving through the intervening states. The Navier–Stokes field has no
+such freedom. Every finer state must be reached from the state already present, and a finite
+endpoint shortens the time in which that response can occur.
+   The material ladder was built in Section B.1: along one flow line, Ar = Dtr u(X, t) and
+dAr /dt = Ar+1 . Its fundamental-theorem identity gives the conditional mechanism needed
+here: if Ar escapes by T∗ , then Ar+1 cannot remain integrable along that path. This does not
+make any rung monotone or nonzero; it states what finite-time escape would require inside
+the same fluid.
+   The same dependence appears before choosing a particle, but its functional setting must
+stay fixed throughout the implication. Fix one Banach space B, retain the Eulerian rows
+
+                                       Vn (t) := ∂tn u(·, t),
+
+and suppose that Vn : [0, T∗ ) → B is locally absolutely continuous, with Bochner derivative
+Vn+1 . For 0 ≤ s < t < T < T∗ , the Banach-valued fundamental theorem of calculus gives
+                                                       Z t
+                                Vn (t) − Vn (s) =            Vn+1 (τ ) dτ
+                                                        s
+
+and                                                    Z t
+                            ∥Vn (t) − Vn (s)∥B ≤             ∥Vn+1 (τ )∥B dτ.
+                                                        s
+If
+                                      sup ∥Vn (t)∥B = ∞,
+                                     0<t<T∗
+
+
+                                                  47
+then the finiteness of ∥Vn (0)∥B forces
+                                          Z T∗
+                                                 ∥Vn+1 (τ )∥B dτ = ∞.
+                                             0
+
+Because T∗ < ∞, this in turn forces
+
+                                             sup ∥Vn+1 (t)∥B = ∞.
+                                          0<t<T∗
+
+The implication can be iterated upward only while the same fixed space B, absolute continuity,
+and Bochner-derivative identity hold at every successive row. That is the precise Eulerian
+form of finite-time response escalation.
+   The material and Eulerian ladders are not identical, as Section B.1 already showed: each
+material derivative brings transport into the temporal rows and mixes them with spatial
+derivatives and nonlinear products. The particle picture supplies the escalation, but the
+equation must keep the temporal, spatial, and pressure pieces coupled. A single time index
+can no longer hold the response, so the next object must retain the full mixed jet.
+
+C.3     The Pressure-Complete Mixed Jet
+The pressure-complete temporal recurrence in Section B.1 already couples Vn+1 to ν∆Vn ,
+the binomial transport sum, and ∇Qn , while the normalized pressure Poisson row recovers
+Qn from those same velocity rows. The fixed-space escalation above explains why adjacent
+temporal rows matter near a finite endpoint. What the temporal notation still hides is how
+spatial derivatives distribute through each nonlinear product. Differentiate one transport
+factor in the coordinate direction xℓ :
+                                         
+                     ∂ℓ (Va · ∇)Vn−a = ((∂ℓ Va ) · ∇)Vn−a + (Va · ∇)∂ℓ Vn−a .
+
+At higher spatial order, every derivative must choose between the two factors. For α ∈ N30 ,
+retain the velocity coordinate from the tower and attach the pressure coordinate at the same
+depth:
+                              Jn,α := ∂tn ∂xα u, Πn,α := ∂tn ∂xα p,
+and for β ≤ α, set
+                                                       3
+                                                   !                     !
+                                                 α    Y   αk
+                                                   :=        .
+                                                 β    k=1 βk
+The simultaneous temporal and spatial product rules give
+                                                 n
+                                                                    !    !
+                                                              n       α
+                     ∂tn ∂xα
+                                                 XX
+                                   (u · ∇)u =                             (Ja,β · ∇)Jn−a,α−β .
+                                                 a=0 β≤α        a       β
+
+Substitution into the equation exposes the full mixed recurrence:
+                                         n X
+                                                           !        !
+                                         X             n        α
+                           Jn+1,α +                               (Ja,β · ∇)Jn−a,α−β
+                                         a=0 β≤α       a        β
+                                       + ∇Πn,α = ν∆Jn,α ,                    ∇ · Jn,α = 0.
+
+                                                               48
+Its pressure coordinates satisfy
+                                        n
+                                                      !    !
+                                        XX        n       α
+                       −∆Πn,α = ∂i ∂j                       (Ja,β )i (Jn−a,α−β )j .
+                                        a=0 β≤α   a       β
+
+   This is the mixed jet of the original pressure-complete solution. The temporal rows,
+spatial columns, nonlinear splits, divergence relations, and pressure rows are coordinates of
+one object generated by the original equations. Nothing later generates a second jet or selects
+derivatives from outside this one. A finite rectangle will only cut out finitely many of these
+coordinates after the equation has produced them.
+   The escalation now has a precise geometry: climbing one temporal row repeatedly opens
+the spatial column already coupled to it. Critical height is the first scalar at which that
+column can be read without losing the scale singled out by the endpoint threat.
+
+C.4     The Spatial Column Inside Critical Height
+The mixed jet is too large to reveal at once how temporal escalation reaches into space.
+Critical height supplies a scalar through which one complete spatial column can be followed.
+For s ≥ 0, set
+                                              1
+                                     Es (t) := ∥Λs u(t)∥22 ,
+                                              2
+so that
+                                         H(t) = E1/2 (t).
+Keeping s free before returning to 1/2 exposes the mechanism that repeats at every height.
+   Apply Λs to the pressure-complete momentum equation and pair it in L2 with Λs u. The
+temporal term gives
+                                               d1 s 2
+                             ⟨Λs u, Λs ∂t u⟩ =      ∥Λ u∥2 = Es′ .
+                                               dt 2
+Rapid decay and commutation with spatial derivatives give
+                                                               2
+                          ν ⟨Λs u, Λs ∆u⟩ = −ν Λs+1 u              = −2νEs+1 .
+                                                               2
+
+The pressure pairing vanishes only after incompressibility and integration by parts have done
+their work:
+                            ⟨Λs u, Λs ∇p⟩ = − ⟨∇ · Λs u, Λs p⟩ = 0.
+This global cancellation does not remove pressure from the local equation or from the mixed
+jet that generated the balance. Keep the signed nonlinear transfer in its pressure-complete
+form,                                 D                      E
+                           Ps (t) := − Λs u, Λs (u · ∇)u + ∇p .
+The exact balance is
+                                        Es′ = Ps − 2νEs+1 .
+One time response at spatial height s has opened the velocity energy one full Sobolev step
+higher. It has also kept the signed transfer created by the lower mixed rows.
+
+
+                                                  49
+   At critical height, the first row reads
+
+                                      H ′ = P1/2 − 2νE3/2 .
+
+This is already the first spatial ascent, from the scale-invariant E1/2 to E3/2 . It is not a bound
+for E3/2 , because the transfer and dissipative terms can cancel inside the complete value of
+H ′ . The whole row has to be differentiated before its next spatial consequence can be seen.
+     The balance one step higher is
+                                      ′
+                                     E3/2 = P3/2 − 2νE5/2 .
+
+Substituting it into the derivative of the first critical row gives
+                                                ′
+                               H ′′ = P1/2
+                                       ′
+                                           − 2νE3/2
+                                      ′
+                                   = P1/2 − 2νP3/2 + (2ν)2 E5/2 .
+
+The highest visible spatial energy has climbed again, and the transfer at 3/2 has joined the
+transfer already present at 1/2. Differentiating once more uses
+                                       ′
+                                      E5/2 = P5/2 − 2νE7/2
+
+and yields
+                         H ′′′ = P1/2
+                                  ′′       ′
+                                      − 2νP3/2 + (2ν)2 P5/2 − (2ν)3 E7/2 .
+One more response gives
+                           ′′′      ′′           ′
+                  H (4) = P1/2 − 2νP3/2 + (2ν)2 P5/2 − (2ν)3 P7/2 + (2ν)4 E9/2 .
+
+Each temporal derivative reaches one spatial step higher, but it carries every transfer
+encountered on the way.
+   The pattern is triangular rather than diagonal. For every integer n ≥ 1,
+                                                 n−1
+                       H (n) = (−2ν)n En+1/2 +         (−2ν)j ∂tn−1−j Pj+1/2 .
+                                                 X
+
+                                                 j=0
+
+To pass from row n to row n + 1, differentiate the existing transfer terms and replace
+                                   ′
+                                  En+1/2 = Pn+1/2 − 2νEn+3/2 .
+
+The replacement creates the next transfer and the next highest spatial energy with the
+required coefficient. This proves the identity by induction, but the identity still supplies no
+estimate by itself. Even if H (n) is known, En+1/2 cannot be isolated without controlling the
+entire signed transfer sum. The highest energy appearing in a row is a coordinate discovered
+inside that row, not a quantity bounded by its appearance.
+    The homogeneous scale made the critical dilation exact, while continuation is usually
+read in the inhomogeneous scale. For s > 0,
+
+                     ∥u(t)∥2H s ≃ ∥u(t)∥22 + ∥Λs u(t)∥22 = ∥u(t)∥22 + 2Es (t).
+
+                                                50
+The unforced energy identity supplies the missing low-frequency part:
+                           1             Z t
+                                                            1
+                                   2
+                             ∥u(t)∥2 + ν     ∥∇u(τ )∥22 dτ = ∥u0 ∥22 .
+                           2              0                 2
+Thus control of Es (t) supplies the high-frequency part of an H s bound, and an L1 -in-time
+bound for Es supplies the high-frequency part of an L2t Hxs bound on each finite interval.
+    Critical height first exposed the column because 1/2 is fixed by scaling and the first
+derivative immediately reveals 3/2. The proof implication at the endpoint runs in the opposite
+logical direction. Once the equation-generated velocity jet is placed in every finite Sobolev
+row on the whole terminal interval, the complete intersection supplies the fixed 1/2 and 3/2
+readouts. Those readouts recover H and its first dissipative height without asking a scalar
+identity to manufacture their bounds.
+    Any finite number of temporal rows reaches only a finite spatial height. No one finite row
+can contain the entire climb demanded by an alleged finite-time escape. The object forced by
+this discovery is simultaneous membership in every finite temporal and spatial Sobolev row.
+
+C.5     Simultaneous Sobolev Intersections
+The spatial column discovered inside critical height has no final finite rung. Yet any particular
+derivative asks for only a finite amount of that column. Suppose, for example, that one wants
+∂xα u to be continuous for every |α| ≤ k. In three dimensions, the Sobolev embedding
+
+                                      H m (R3 ) ,→ C k (R3 )
+
+holds whenever
+                                                   3
+                                         m>k+ .
+                                                   2
+One requested spatial order k comes from one finite height m above its embedding threshold.
+As k ranges through all finite orders, no last m can be chosen, but no infinite-order norm is
+required either. The exact spatial object is the coordinatewise intersection
+                                           ∞
+                                                 H m (R3 ),
+                                           \
+
+                                           m=0
+
+whose membership means that every finite Sobolev norm is finite on the same field. For each
+fixed k, one of those finite memberships yields the desired C k control, so
+                                    ∞
+                                         H m (R3 ) ,→ C ∞ (R3 ).
+                                    \
+
+                                   m=0
+
+   Finite-time response asks for the same construction in the temporal direction. Let
+I = (0, T ) with T < T∗ , and let X be a Hilbert space. The vector-valued embedding
+
+                                     H r (I; X) ,→ C q (I; X)
+
+holds whenever
+                                                1
+                                            r>q+ .
+                                                2
+                                                  51
+One requested time derivative of order q comes from one finite temporal height r. Allowing
+every finite request gives
+                                     ∞
+                                         H r (I; X) ,→ C ∞ (I; X).
+                                     \
+
+                                  r=0
+
+The time intersection is again coordinatewise: each q chooses its own finite r.
+   The mixed jet requires these choices at the same time. Ask for one concrete coordinate,
+
+                                         ∂t2 ∂xα u,            |α| ≤ 4.
+
+The single finite membership                                           
+                                         u ∈ H 3 I; H 6 (R3 )
+places that coordinate in                                          
+                                            C 2 I; C 4 (R3 ) ,
+because
+                                          1              3
+                                  3>2+ ,         6>4+ .
+                                          2              2
+Nothing special happened at the pair (2, 4). For arbitrary finite temporal and spatial orders
+q and k, choose finite indices satisfying
+                                      1                            3
+                                  r>q+ ,                       m>k+ .
+                                      2                            2
+Then                                                                       
+                              H r I; H m (R3 ) ,→ C q I; C k (R3 ) .
+   This repeated finite choice determines the whole velocity target:
+                                               ∞
+                                             ∞ \                             
+                               V∞ (I) :=                   H r I; H m (R3 ) .
+                                             \
+
+                                             r=0 m=0
+
+Its meaning is
+
+             u ∈ V∞ (I)     ⇐⇒       ∥u∥H r (I;H m ) < ∞ for every finite pair (r, m).
+
+The constant may depend on r and m. Intersection membership asserts all finite coordinates
+on the same u; it does not assert one constant uniform across derivative orders. The
+embeddings above then give                         
+                               V∞ (I) ,→ C ∞ I × R3 .
+   The complete intersection also fixes the logical place of critical height. Choose a temporal
+index above 1/2 and a spatial index above 3/2. The resulting continuous Sobolev trace
+contains both
+                       u(t) ∈ H 1/2 (R3 )    and      u(t) ∈ H 3/2 (R3 )
+at each time in the closed interval. Only after those rows are supplied do the critical readouts
+                              1 1/2   2                                     1 3/2    2
+                     H(t) =     Λ u(t) ,                       E3/2 (t) =     Λ u(t)
+                              2       2                                     2        2
+
+
+                                                          52
+become available. Critical height motivated the search for the column, while the all-row
+velocity intersection supplies the critical coordinates used at the endpoint.
+    The velocity intersection does not contain pressure as one of its elements. Pressure remains
+attached through the original recurrence,
+
+                                               Qn = ∂tn p,
+
+the differentiated momentum equation, incompressibility, and the pressure Poisson equation
+at every finite depth. Those relations keep the velocity intersection pressure-complete without
+confusing the pressure jet reconstructed from (u) with membership in the velocity space itself.
+    The intersection ranges over every finite temporal–spatial pair, while any one estimate
+controls a finite block. The adjacent energy levels around a common time trace determine
+the shape of that block.
+
+C.6     Finite Adjacent Rectangles
+The whole intersection is reached through finite estimates, so begin with the first finite
+demand that cannot be met by one isolated Sobolev membership. Fix I = (0, T ) with T < T∗ ,
+and ask that both
+                               V0 = u     and     V1 = ∂t u
+arrive at the same time slice in H 2 (R3 ). An L2t Hx3 bound for V0 supplies spatial strength but
+no time trace by itself. The missing temporal side is
+
+                                      ∂t V0 = V1 ∈ L2 (I; H 1 ).
+
+To place V1 at the same H 2 trace height, the same argument asks for
+
+                          V1 ∈ L2 (I; H 3 ),            ∂t V1 = V2 ∈ L2 (I; H 1 ).
+
+The four requirements are
+
+                          V0 , V1 ∈ L2 (I; H 3 ),                V1 , V2 ∈ L2 (I; H 1 ).
+
+The repeated V1 is not redundant: it is the derivative of V0 in the first trace pair and the
+field whose own derivative is V2 in the second.
+    The trace mechanism explains why the two spatial levels must be adjacent around H 2 .
+Let
+                           A := (1 − ∆)1/2 ,    ∥v∥H s = ∥As v∥2 .
+For a smooth v,
+                                                         Z tD                          E
+                   ∥v(t)∥2H 2 − ∥v(s)∥2H 2 = 2 Re                  A∂τ v(τ ), A3 v(τ )          dτ.
+                                                             s                             L2
+
+The integrand satisfies        D               E
+                                 A∂τ v, A3 v            ≤ ∥∂τ v∥H 1 ∥v∥H 3 ,
+                                                   L2
+which belongs to L1 (I) by Cauchy–Schwarz when
+
+                              v ∈ L2 (I; H 3 ),              ∂t v ∈ L2 (I; H 1 ).
+
+                                                        53
+The standard density argument then yields
+                                                                      
+                                        v ∈ C [0, T ]; H 2 (R3 ) .
+
+Applied first to V0 and then to V1 , this gives
+                                                                          
+                                    V0 , V1 ∈ C [0, T ]; H 2 (R3 ) .
+
+Two adjacent spatial levels have joined two adjacent temporal responses at one common trace
+height.
+   Only now is there a finite pattern worth naming. Collect exactly the four norms above in
+
+                      R1,2 (u; T ) := ∥u∥2L2 (0,T ;H 3 ) + ∥∂t u∥2L2 (0,T ;H 3 )
+                                                                                 2
+                                         + ∥∂t u∥2L2 (0,T ;H 1 ) + ∂t2 u                          .
+                                                                                 L2 (0,T ;H 1 )
+
+This first adjacent rectangle did not generate any of its entries. It cut four finite coordinates
+from the pressure-complete mixed jet already generated by the original solution.
+    The same trace calculation determines the general cut. Fix independent integers N, M ∈
+N0 . The desired trace height is H M , and its adjacent pair is
+
+                             H M +1 (R3 ) ,→ H M (R3 ) ,→ H M −1 (R3 ).
+
+When M = 0, the lower member is the inhomogeneous negative space H −1 (R3 ). For every
+0 ≤ n ≤ N , the trace of Vn at height H M asks for
+
+                  Vn ∈ L2 (0, T ; H M +1 ),         Vn+1 = ∂t Vn ∈ L2 (0, T ; H M −1 ).
+
+The finite velocity norm containing all of these adjacent pairs is
+                                                N
+                                                       ∥Vn ∥2L2 (0,T ;H M +1 )
+                                                X
+                           RN,M (u; T ) :=
+                                                n=0
+                                                    N
+                                                            ∥Vn+1 ∥2L2 (0,T ;H M −1 ) .
+                                                    X
+                                                +
+                                                    n=0
+
+For a smooth representative, each retained temporal row obeys
+
+                        d
+                           ∥Vn (t)∥2H M ≤ 2 ∥Vn+1 (t)∥H M −1 ∥Vn (t)∥H M +1 .
+                        dt
+
+The right-hand side lies in L1 (0, T ), and density together with weak continuity yields
+                                                            
+                           Vn ∈ C [0, T ]; H M (R3 ) ,                 0 ≤ n ≤ N.
+
+Increasing N retains more temporal responses. Increasing M raises the spatial trace height.
+The two choices remain independent, and the bound attached to the rectangle may depend
+on both.
+
+                                                       54
+    The number RN,M (u; T ) measures only the velocity rows needed for those traces. The
+finite object must also retain the pressure-complete relations of the original mixed jet. For
+the solution (u, p) generated by u0 , define
+                                                                                   
+                       RN,M [u0 ; T ] := (Vn )N +1       N
+                                              n=0 , (Qn )n=0 ; RN,M (u; T ) ,
+
+where
+                                        Vn = ∂tn u,        Qn = ∂tn p.
+For every 0 ≤ n ≤ N , the retained rows satisfy
+                                    n
+                                            !
+                                    X     n
+                         Vn+1 +             (Va · ∇)Vn−a + ∇Qn = ν∆Vn ,
+                                    a=0   a
+
+                                                 ∇ · Vn = 0,
+and
+                                                    n
+                                                            !
+                                                    X      n
+                                  −∆Qn = ∂i ∂j               (Va )i (Vn−a )j .
+                                                    a=0    a
+Rapid decay fixes the normalization of every Qn . At the retained Sobolev depths, each mixed
+velocity coordinate is the weak spatial derivative
+
+                                                Jn,α = ∂xα Vn ,
+
+and its pressure coordinate is the corresponding derivative of Qn . Thus RN,M is the finite
+velocity norm, while RN,M is the pressure-complete finite cut through the original mixed jet.
+For any interval J = (0, τ ) with 0 < τ ≤ T∗ , let XN,M (J) denote the set of all records of this
+form whose velocity rows satisfy
+
+               Wn ∈ L2 (J; H M +1 ),            Wn+1 ∈ L2 (J; H M −1 )           (0 ≤ n ≤ N ),
+
+with ∂t Wn = Wn+1 in distributions on J × R3 for 0 ≤ n ≤ N , whose normalized pressure
+rows satisfy
+                            n
+                                    !
+                                   n
+                                     (Wa )i (Wn−a )j ∈ L1 (J; H M )
+                            X
+               Pn = Ri Rj                                                        (0 ≤ n ≤ N ),
+                            a=0    a
+
+with ∇Pn ∈ L1 (J; H M −1 ), and whose retained rows obey the displayed momentum and
+divergence equations in distributions on J × R3 . The scalar component of such a record is
+the adjacent-row norm computed from its velocity rows on J. In particular,
+
+                                    RN,M [u0 ; T ] ∈ XN,M ((0, T )).
+
+    Allowing every finite pair (N, M ) recovers every finite coordinate of the velocity intersection.
+No one rectangle is asked to control all derivative orders, and no rectangle constant is required
+to be uniform in N or M . The remaining question is whether overlapping finite cuts contain
+the identical derivatives wherever their coordinates meet.
+
+
+                                                      55
+D      Compatible Terminal Assembly
+This appendix gives the formal restriction maps, projective assembly, adjacent trace proof,
+common endpoint, complete endpoint jet, and smooth gluing at the terminal slice.
+
+D.1     The Terminal Quantifier
+Keep the rapid-decay datum u0 , the same viscosity ν > 0, and the maximal classical velocity
+and pressure history (u, p) that they generate. Let its maximal lifespan be [0, T∗ ), suppose
+for contradiction that T∗ < ∞, and write I∗ = (0, T∗ ). Every derivative introduced below is a
+coordinate of this one history. The datum is smooth and divergence-free, so it belongs to
+every finite solenoidal Sobolev space. Write
+                                                                                         
+                                                                                         
+                      Hσ∞ (R3 ) :=                       H m (R3 ; R3 ) : ∇ · v = 0 .
+                                                \
+                                         v∈                                                   (D.1.1)
+                                                                                         
+                                               m∈N0
+
+
+   Because the history decays at spatial infinity, the whole-space normalization fixes pressure
+from the same velocity field. If Rj = ∂j (−∆)−1/2 denotes the j-th Riesz transform, then
+
+                           −∆p = ∂i ∂j (ui uj ),                p = Ri Rj (ui uj ).           (D.1.2)
+
+For Vn = ∂tn u and Qn = ∂tn p, direct differentiation of the original equation gives
+                                         n
+                                                     !
+                                         X      n
+                          Qn = Ri Rj              Va,i Vn−a,j ,                               (D.1.3)
+                                         a=0    a
+                                               n
+                                                          !
+                                               X         n
+                        Vn+1 = ν∆Vn −                      (Va · ∇)Vn−a − ∇Qn .               (D.1.4)
+                                               a=0       a
+
+The binomial sum retains every way that the time derivatives divide across the transported
+and transporting velocity factors. At every temporal depth, transport, pressure, viscosity,
+and incompressibility remain joined inside the same evolution.
+   To inspect a finite part of the tower, choose independent temporal and spatial depths N
+and M . For finite N, M ∈ N0 and 0 < T < T∗ , define the adjacent-row rectangle norm
+                                                N
+                                                      ∥∂tn u∥2L2 (0,T ;H M +1 )
+                                                X
+                          RN,M (u; T ) :=
+                                               n=0
+                                                     N
+                                                                                              (D.1.5)
+                                                                     2
+                                                              ∂tn+1 u 2
+                                                     X
+                                                +                                     .
+                                                                     L (0,T ;H M −1 )
+                                                     n=0
+
+Negative Sobolev indices are understood in the inhomogeneous Bessel-potential scale. The
+finite record RN,M [u0 ; T ] consists of these velocity rows together with the pressure rows
+and differentiated equations that identify them as derivatives of the same history. Classical
+smoothness already gives every such record after a strict terminal time T < T∗ has been fixed.
+
+
+
+                                                         56
+Lemma D.1.1 (Rectangles on strict classical subintervals). For every T < T∗ and every
+finite N, M , one has
+                                RN,M (u; T ) < ∞.                              (D.1.6)
+If N ′ ≤ N , M ′ ≤ M , and T ′ ≤ T , restriction of the larger rectangle gives the smaller
+rectangle.
+
+Proof. The closed interval [0, T ] lies inside the classical lifespan. Smooth-data persistence
+gives ∂tn u ∈ C([0, T ]; H q (R3 )) for every finite temporal order n and every finite Sobolev order
+q. Compactness of [0, T ] makes each of these norms bounded. In particular,
+
+                          ∥∂tn u∥2L2 (0,T ;H q ) ≤ T sup ∥∂tn u(t)∥2H q < ∞.
+                                                  0≤t≤T
+
+
+Choosing the spatial orders in (D.1.5) proves (D.1.6). Restriction preserves the solution and
+every one of its derivatives, so every shared coordinate agrees.
+    The lemma identifies every finite coordinate before the terminal time, while its bound may
+depend on the chosen T . In the rectangle coordinates of this appendix, the whole-terminal
+estimate from Section 4 reads as follows. For N ′ ≤ N and M ′ ≤ M , define the terminal
+bonding map
+                              N ′ ,M ′ ;I∗ : XN,M (I∗ ) −→ XN ′ ,M ′ (I∗ )
+                             ρN,M   ;I∗
+
+
+by forgetting the higher rows, applying the Sobolev embeddings to every retained velocity
+and pressure row, and recomputing the scalar adjacent-row norm on I∗ . These maps have
+the same identity and composition laws as their strict-cutoff counterparts.
+
+Theorem D.1.2 (Whole-terminal estimate in rectangle form). For every finite N, M ∈ N0 ,
+the same datum-generated pressure-complete history satisfies
+
+                            sup RN,M (u; T ) ≤ CN,M (u0 , ν, T∗ ) < ∞.                      (D.1.7)
+                          0<T <T∗
+
+The constant may depend on the finite coordinate (N, M ). The bound defines
+
+                              RN,M (u; I∗ ) := lim RN,M (u; T ) < ∞
+                                                T ↑T∗
+
+and the whole-terminal record
+                                      RN,M [u0 ] ∈ XN,M (I∗ ),
+obtained from the same velocity and normalized pressure rows on I∗ . If N ′ ≤ N and M ′ ≤ M ,
+the terminal restriction map forgets the higher temporal coordinates, applies the continuous
+Sobolev embeddings, and satisfies
+                                                       
+                               ρN,M   ;I∗
+                                N ′ ,M ′ ;I∗ RN,M [u0 ] = RN ′ ,M ′ [u0 ].                  (D.1.8)
+
+Every shared coordinate is the corresponding distributional derivative of the same u, and
+every pressure row uses the normalization in (D.1.2).
+
+
+
+                                                   57
+Remark D.1.3 (Coordinate realization of the whole-terminal estimate). For every finite pair
+(n, m), Theorem 3.4.1 gives Vn ∈ L2 (I∗ ; H m+1 ) and Vn+1 ∈ L2 (I∗ ; H m−1 ), with every row
+belonging to the same pressure-complete history. Fix N, M , take m = M , and add the finitely
+many squared norms for 0 ≤ n ≤ N . Riesz-transform boundedness, the Sobolev product
+estimate, and Cauchy–Schwarz in time give, for 0 ≤ n ≤ N ,
+                                          n
+                                          X
+              ∥Qn ∥L1 (I∗ ;H M ) ≤ CM,n         ∥Va ∥L2 (I∗ ;H M +1 ) ∥Vn−a ∥L2 (I∗ ;H M +1 ) < ∞.
+                                          a=0
+
+The resulting whole-terminal sum is finite, and restriction to (0, T ) can only decrease its
+nonnegative integrals, which yields (D.1.7) in the present coordinates. Forgetting higher
+temporal rows or lowering the spatial index preserves every shared distributional derivative
+and every pressure row, which yields (D.1.8).
+   Conversely, the finite-rectangle form recovers the adjacent rows coordinate by coordinate.
+Proposition D.1.4 (Adjacent-row recovery). The whole-terminal estimate gives, for every
+finite n, m ∈ N0 ,
+
+                    Vn ∈ L2 (I∗ ; H m+1 ),           ∂t Vn = Vn+1 ∈ L2 (I∗ ; H m−1 ).                (D.1.9)
+
+No constant uniform in all temporal and spatial orders is required.
+Proof. Fix n and m, and choose the rectangle with N = n and M = m. The integrals in
+(D.1.5) increase monotonically with T . The bound in (D.1.7) and monotone convergence give
+the two whole-terminal memberships in (D.1.9). The derivative identity and compatibility
+are part of the same-history record in (D.1.8).
+   The strict-subinterval lemma identifies the same coordinates before terminal time, and
+the whole-terminal estimate places each fixed rectangle across I∗ . Compatibility makes their
+complete family one projective system.
+
+D.2     The Compatible Intersection
+For each finite pair (N, M ), the whole-terminal estimate gives one rectangle on I∗ . A larger
+rectangle already contains every coordinate of a smaller one. All rectangles are made from
+distributional derivatives of the same u, so their shared coordinates agree before any limit is
+taken. This compatibility is the formal passage from the tower to the intersection. Order the
+finite pairs (N, M ) coordinatewise and use the whole-terminal bonding maps from (D.1.8).
+Their inverse-limit record set is
+
+                                    X∞ (I∗ ) := lim XN,M (I∗ ).
+                                                ←−
+                                                      N,M
+
+A family (RN,M )N,M belongs to this set exactly when RN,M ∈ XN,M (I∗ ) for every finite pair
+and
+                                ρN,M   ;I∗
+                                 N ′ ,M ′ ;I∗ (RN,M ) = RN ′ ,M ′
+
+whenever N ′ ≤ N and M ′ ≤ M .
+
+                                                      58
+Proposition D.2.1 (Compatible projective assembly). The terminal rectangles determine
+the datum-specific inverse-limit element
+                                                                
+                                       I[u0 ] := RN,M [u0 ]                .
+                                                                     N,M
+
+This family belongs to X∞ (I∗ ). Its velocity realization is the same distribution u in every
+coordinate and satisfies
+                                          ∞   ∞
+                                                      H r (I∗ ; H m (R3 )).
+                                          \   \
+                                     u∈                                                       (D.2.1)
+                                          r=0 m=0
+
+Every coordinate projection commutes with every restriction map.
+
+Proof. Fix finite r, m ∈ N0 . Choose N ≥ r and M ≥ m. The rectangle RN,M [u0 ] supplies
+
+                     ∂tn u ∈ L2 (I∗ ; H M +1 ) ,→ L2 (I∗ ; H m )               (0 ≤ n ≤ r).
+
+These are the distributional time derivatives of the same velocity field, so u ∈ H r (I∗ ; H m ).
+The arbitrariness of r and m gives (D.2.1). Equation (D.1.8) makes every lower record the
+projection of every larger record. The compatible family thus determines one inverse-limit
+element with no representative choices to reconcile.
+   Taking the zeroth temporal projection means retaining u itself while allowing the spatial
+depth to range through every finite order. Define
+                                                  ∞
+                                    S0 (I∗ ) :=         L2 (I∗ ; H m (R3 )).
+                                                  \
+                                                                                              (D.2.2)
+                                                  m=0
+
+For each m, the projection selects the velocity coordinate of R0,m [u0 ]. Compatibility says
+that all of these coordinates are the same u, viewed in different Sobolev spaces. Consequently,
+                                                 
+                                       π0 I[u0 ] = u ∈ S0 (I∗ ).
+
+   This projection also contains every finite spatial energy read by the tower. For Λ = (−∆)1/2
+and s ≥ 0, set
+                                               1
+                                    Es (t) := ∥Λs u(t)∥22 .                              (D.2.3)
+                                               2
+Choosing an integer m ≥ s in (D.2.2) gives
+                             Z T∗
+                                    Es (t) dt ≤ Cs,m ∥u∥2L2 (I∗ ;H m ) < ∞.                   (D.2.4)
+                              0
+
+Nothing here sums the Sobolev norms over all orders. The construction asks for a finite
+constant CN,M only after a finite coordinate has been selected.
+
+
+
+
+                                                        59
+D.3     The Critical Height at the Terminal Face
+A Dead, Jump, or Blown endpoint would have to break the joined derivative structure of this
+same field. The first concrete terminal readout is the critical height carried by the adjacent
+spatial rows. The adjacent trace mechanism carries that readout to T∗ .
+Lemma D.3.1 (Adjacent Hilbert-scale trace). Let s ∈ R, and let v satisfy
+
+                            v ∈ L2 (I∗ ; H s+1 ),            vt ∈ L2 (I∗ ; H s−1 ).
+
+Then v has a unique representative in C([0, T∗ ]; H s ). For 0 ≤ a ≤ b ≤ T∗ , this representative
+satisfies
+                  ∥v(b)∥2H s − ∥v(a)∥2H s ≤ 2 ∥vt ∥L2 (a,b;H s−1 ) ∥v∥L2 (a,b;H s+1 ) .   (D.3.1)
+
+Proof. Put A = (1 − ∆)1/2 . Time mollification and Fourier truncation first give, for smooth
+approximants,
+                                                         Z bD                          E
+                  ∥v(b)∥2H s − ∥v(a)∥2H s = 2 Re               As−1 vt (t), As+1 v(t)            dt.   (D.3.2)
+                                                         a                                 L2
+
+Cauchy’s inequality gives (D.3.1) for the approximants. The two assumed L2 norms let the
+approximants converge in the right side of (D.3.2). The resulting identity makes the H s
+norm continuous, while the same approximation gives weak H s continuity. Weak continuity
+together with norm continuity gives strong H s continuity. Two continuous representatives
+that agree almost everywhere agree everywhere, which proves uniqueness.
+   The critical readout uses only the rectangle R0,2 [u0 ]. That rectangle supplies u ∈ L2 (I∗ ; H 3 )
+and ut ∈ L2 (I∗ ; H 1 ), hence
+
+                             u ∈ L2 (I∗ ; H 5/2 ),           ut ∈ L2 (I∗ ; H 1/2 ).                    (D.3.3)
+
+The fractional pair follows from the continuous inhomogeneous Sobolev embeddings, so no
+fractional-index rectangle is being assumed. Applying the adjacent trace lemma with s = 3/2
+gives
+                                      u ∈ C([0, T∗ ]; H 3/2 ).                       (D.3.4)
+    Let H(t) = E1/2 (t), with Es defined in (D.2.3). The homogeneous identity needed here
+follows directly on the critical pair. Apply time mollification together with Fourier multipliers
+that truncate to ε ≤ |ξ| ≤ R. For the resulting smooth, frequency-localized functions,
+differentiation and Plancherel’s theorem give
+             1 3/2   2    1 3/2   2
+                                          Z bD                       E
+               Λ u(b) 2 −   Λ u(a) 2 = Re      Λ1/2 ut (t), Λ5/2 u(t) 2 dt.
+             2       L    2       L        a                           L
+
+The two memberships in (D.3.3) give convergence of the integral by Cauchy’s inequality. The
+continuity in (D.3.4) gives convergence of the endpoint terms as ε ↓ 0, R ↑ ∞, and the time
+mollifier is removed. Consequently, for 0 ≤ a ≤ b ≤ T∗ ,
+                                                     Z bD                         E
+                     E3/2 (b) − E3/2 (a) = Re                Λ1/2 ut (t), Λ5/2 u(t)        dt.
+                                                     a                                L2
+
+
+                                                      60
+The pair in (D.3.3) places the integrand in L1 (I∗ ). Equation (D.2.4) supplies E3/2 ∈ L1 (I∗ ).
+Thus
+                            E3/2 ∈ W 1,1 (I∗ ) ∩ L1 (I∗ ) ⊂ L∞ (I∗ ).                 (D.3.5)
+   The stronger integer rows u, ut ∈ L2 (I∗ ; H 1 ) give
+                                         D                        E
+                            H ′ (t) = Λ1/2 u(t), Λ1/2 ut (t)            ∈ L1 (I∗ ).              (D.3.6)
+                                                                   L2
+
+The pressure-explicit critical production current is
+                                             D                                E
+                         P1/2 := − Re Λ1/2 u, Λ1/2 (u · ∇)u + ∇p                         .
+                                                                                    L2
+
+Pairing the original equation with Λu yields the exact balance
+                                         H ′ = −2νE3/2 + P1/2 .
+Equations (D.3.5) and (D.3.6) now give
+                H ∈ W 1,1 (I∗ ),         E3/2 ∈ L∞ (I∗ ) ∩ L1 (I∗ ),          P1/2 ∈ L1 (I∗ ).
+Thus the critical height and the E3/2 energy both reach the terminal face with continuous
+representatives. The pressure-explicit production current remains an integrable time-current.
+No endpoint value is assigned to that current. This single rectangle settles the critical readout.
+The whole tower supplies the further endpoint needed for restart.
+
+D.4     One Endpoint for the Whole Tower
+A smooth restart requires one terminal velocity that belongs to every finite Sobolev space.
+The complete spatial row produces that value through the original equation, with transport
+and pressure attached to viscosity at every order.
+Lemma D.4.1 (The complete spatial row reaches every endpoint topology). Let (u, p) be the
+fixed pressure-normalized Navier–Stokes history on I∗ . If u ∈ S0 (I∗ ), then, for every m ∈ N0 ,
+                  ut ∈ L1 (I∗ ; H m ),           u ∈ W 1,1 (I∗ ; H m ) ,→ C([0, T∗ ]; H m ).     (D.4.1)
+Proof. The Leray projection rewrites the pressure-completed interaction as
+                                    (u · ∇)u + ∇p = P∇ · (u ⊗ u).
+Under the fixed normalization, the Leray expression is exactly the combined transport-plus-
+pressure response. Sobolev multiplication in three dimensions and the boundedness of the
+Leray and Riesz multipliers give
+                                ∥P∇ · (u ⊗ u)∥H m ≤ Cm ∥u∥2H m+2 .
+The complete spatial row and the finiteness of T∗ yield
+                      ∥P∇ · (u ⊗ u)∥L1 (I∗ ;H m ) ≤ Cm ∥u∥2L2 (I∗ ;H m+2 ) < ∞,
+                                   ∥∆u∥L1 (I∗ ;H m ) ≤ T∗1/2 ∥u∥L2 (I∗ ;H m+2 ) < ∞.
+The momentum equation then places ut in L1 (I∗ ; H m ). The inclusion L2 (I∗ ; H m ) ⊂ L1 (I∗ ; H m )
+places u in the Bochner space W 1,1 (I∗ ; H m ). The Bochner fundamental theorem of calculus
+supplies the continuous representative in (D.4.1).
+
+                                                        61
+                     (m)
+    For each m, let u∗ ∈ H m denote the endpoint value supplied by (D.4.1). If k > m, the
+H k -continuous representative, viewed in H m , and the H m -continuous representative agree
+almost everywhere on I∗ . Their continuity makes them identical on the closed interval. Their
+terminal values are consequently compatible and define one element
+                                                     ∞
+                                                            H m (R3 ) = H ∞ (R3 ).
+                                                     \
+                              u∗ := u(T∗ ) ∈                                             (D.4.2)
+                                                   m=0
+
+No estimate uniform in m occurs in this conclusion. Continuity of divergence from H m to
+H m−1 makes u∗ divergence-free. The strong L2 trace gives u∗ finite kinetic energy.
+   The same terminal face is reached by every temporal row. Applying the adjacent trace
+lemma to (D.1.9) gives
+
+                             ∂tN u ∈ C([0, T∗ ]; H m )              (N, m ∈ N0 ).
+
+Each trace belongs to the same temporal row that appeared inside every compatible finite
+rectangle. For every N ∈ N0 , compatibility across the spatial orders defines
+
+                                   VN∗ := lim ∂tN u(t) ∈ H ∞ (R3 ).                      (D.4.3)
+                                              t↑T∗
+
+The recurrence now identifies these traces as the actual jet generated by u∗ .
+Proposition D.4.2 (Pressure-complete endpoint jet). The endpoint velocity u∗ determines
+a unique sequence (VN∗ , Q∗N )N ≥0 ⊂ H ∞ × H ∞ through
+
+                           V0∗ = u∗ ,
+                                            N
+                                                        !
+                                                   N
+                           Q∗N = Ri Rj               V∗ V∗
+                                            X
+                                                                ,                        (D.4.4)
+                                            a=0    a a,i N −a,j
+                                                  N
+                                                             !
+                                                         N
+                       VN∗ +1 = ν∆VN∗ −                    (Va∗ · ∇)VN∗ −a − ∇Q∗N .
+                                                  X
+                                                                                         (D.4.5)
+                                                  a=0    a
+
+This recursively generated sequence equals the left endpoint traces of the original velocity and
+pressure history.
+Proof. The Fréchet space H ∞ = m H m is closed under spatial differentiation and multipli-
+                                        T
+
+cation. Riesz transforms preserve every H m , so they preserve H ∞ . Equations (D.4.4) and
+(D.4.5) thus construct one unique pair at each finite order.
+    Fix a target Sobolev order m. The traces in (D.4.3) converge in Sobolev spaces high
+enough for every product and derivative appearing in the recurrence. Multiplication, spatial
+differentiation, and the Riesz transforms are continuous between those finite Sobolev spaces.
+Passing t ↑ T∗ in (D.1.3) and (D.1.4) gives (D.4.4) and (D.4.5). Induction in N , beginning
+with V0∗ = u∗ , identifies every recursively generated coordinate with the corresponding trace
+of the history. The arbitrariness of m gives the identities in H ∞ . Spatial differentiation then
+identifies every mixed coordinate ∂tN ∂xα u at the terminal face.
+   The endpoint carries both the smooth velocity value and the full pressure-normalized
+response demanded by the governing law.
+
+                                                            62
+D.5     Restarting the Same History
+At T∗ , the left history supplies the smooth datum u∗ and its pressure-complete jet. Local
+well-posedness gives a right-hand solution from that same datum. Higher regularity persists
+on one common restart interval, so the right-hand jet is generated by the same normalized
+recurrences. Uniqueness makes the two pieces one history.
+Lemma D.5.1 (Smooth local restart and uniqueness). Let t0 ∈ R and let a ∈ Hσ∞ (R3 ),
+with the class defined in (D.1.1). There is a δ > 0 and a unique smooth pressure-normalized
+solution (w, q) of the same Navier–Stokes system on [t0 , t0 + δ] × R3 with w(t0 ) = a and
+                                           q = Ri Rj (wi wj ).
+Every finite spatial Sobolev order persists on the same interval, and the temporal jet at t0 is
+generated by the pressure-normalized recurrences (D.4.4) and (D.4.5).
+Proof. Since a ∈ H 3 (R3 ) ,→ L3 (R3 ), apply Kato’s local strong L3 existence and uniqueness
+theorem (Kato 1984). The standard Sobolev persistence estimates place the solution in
+H 3 and retain every additional finite Sobolev order of a on the lifespan of that one strong
+solution. Differentiating the smooth solution at its initial face and using (D.1.2) gives the
+stated pressure and velocity recurrences.
+Theorem D.5.2 (Global continuation from whole-terminal rectangles). Let u0 be smooth
+and divergence-free on R3 , with u0 and all of its spatial derivatives decaying rapidly at
+infinity, let ν > 0, and let (u, p) be the corresponding maximal pressure-normalized classical
+history. Assume that this history satisfies the whole-terminal compatible-rectangle conclusion
+of Theorem D.1.2. Then T∗ = ∞, and its normalized velocity and pressure are smooth on
+every finite time interval.
+Proof. Assume for contradiction that the maximal time T∗ is finite. By the theorem’s
+hypothesis, every finite record RN,M [u0 ] exists on I∗ , with compatible restrictions. Their
+compatible intersection gives the common endpoint u∗ ∈ Hσ∞ (R3 ) in (D.4.2) and the actual
+pressure-complete endpoint jet in (D.4.4)–(D.4.5). Apply the local restart lemma at t0 = T∗
+with datum a = u∗ . It produces a smooth solution (w, q) on [T∗ , T∗ + δ]. Define
+                                           
+                                           (u, p)(t),   0 ≤ t < T∗ ,
+                           (ue, e
+                                p)(t) :=
+                                           (w, q)(t),   T∗ ≤ t ≤ T∗ + δ.
+The velocity values agree at T∗ by construction. The left and right pressure and velocity
+derivatives agree at every finite order because both jets obey the same normalized recurrences
+from the same endpoint datum. The piecewise pair is consequently smooth across T∗ and
+solves the same fixed-viscosity system there. Its lifespan is longer than the alleged maximal
+lifespan. Strong-solution uniqueness identifies this extension as the continuation of the original
+datum-generated history. This contradicts the definition of T∗ . Hence
+                                               T∗ = ∞.
+Every finite temporal and spatial derivative remains in the compatible Sobolev intersection
+on each finite interval, and Sobolev embedding gives
+                                     u, p ∈ C ∞ ([0, ∞) × R3 ).
+
+
+
+                                                   63
+Bibliography
+Bahouri, Hajer, Jean-Yves Chemin, and Raphaël Danchin (2011). Fourier Analysis and Nonlinear Partial
+    Differential Equations. Vol. 343. Grundlehren der mathematischen Wissenschaften. Berlin and Heidelberg:
+    Springer. doi: 10.1007/978-3-642-16830-7.
+Beale, J. Thomas, Tosio Kato, and Andrew Majda (1984). “Remarks on the Breakdown of Smooth Solutions
+    for the 3-D Euler Equations”. In: Communications in Mathematical Physics 94.1, pp. 61–66. doi:
+    10.1007/BF01212349.
+Caffarelli, Luis, Robert V. Kohn, and Louis Nirenberg (1982). “Partial regularity of suitable weak solutions of
+    the Navier–Stokes equations”. In: Communications on Pure and Applied Mathematics 35.6, pp. 771–831.
+    doi: 10.1002/cpa.3160350604.
+Cerdà, Joan (2010). Linear Functional Analysis. Vol. 116. Graduate Studies in Mathematics. Providence, RI:
+    American Mathematical Society. isbn: 978-0-8218-5115-9.
+Escauriaza, L., G. A. Seregin, and V. Šverák (2003). “L3,∞ -solutions of the Navier–Stokes equations
+    and backward uniqueness”. In: Russian Mathematical Surveys 58.2, pp. 211–250. doi: 10 . 1070 /
+    RM2003v058n02ABEH000609.
+Fefferman, Charles L. (2000). Existence and Smoothness of the Navier–Stokes Equation. Clay Mathematics
+    Institute. url: https : / / www . claymath . org / wp - content / uploads / 2022 / 06 / navierstokes . pdf
+    (visited on 08/13/2026).
+Fujita, Hiroshi and Tosio Kato (1964). “On the Navier–Stokes Initial Value Problem. I”. In: Archive for
+    Rational Mechanics and Analysis 16.4, pp. 269–315. doi: 10.1007/BF00276188.
+Kato, Tosio (1984). “Strong Lp -solutions of the Navier–Stokes equation in Rm , with applications to weak
+    solutions”. In: Mathematische Zeitschrift 187.4, pp. 471–480. doi: 10.1007/BF01174182.
+Ladyzhenskaya, O. A. (1967). “On the uniqueness and on the smoothness of weak solutions of the Navier–
+    Stokes equations”. In: Zapiski Nauchnykh Seminarov LOMI 5, pp. 169–185. url: https://www.mathnet.
+    ru/eng/znsl2228.
+Leray, Jean (1934). “Sur le mouvement d’un liquide visqueux emplissant l’espace”. In: Acta Mathematica 63,
+    pp. 193–248. doi: 10.1007/BF02547354.
+Prodi, Giovanni (1959). “Un teorema di unicità per le equazioni di Navier–Stokes”. In: Annali di Matematica
+    Pura ed Applicata 48.1, pp. 173–182. doi: 10.1007/BF02410664.
+Seregin, Gregory (2012). “A Certain Necessary Condition of Potential Blow Up for Navier–Stokes Equations”.
+    In: Communications in Mathematical Physics 312.3, pp. 833–845. doi: 10.1007/s00220-011-1391-x.
+Serrin, James (1962). “On the interior regularity of weak solutions of the Navier–Stokes equations”. In:
+    Archive for Rational Mechanics and Analysis 9, pp. 187–195. doi: 10.1007/BF00253344.
+— (1963). “The Initial Value Problem for the Navier–Stokes Equations”. In: Nonlinear Problems. Madison,
+    WI: University of Wisconsin Press, pp. 69–98.
+Tao, Terence (2021). “Quantitative Bounds for Critically Bounded Solutions to the Navier–Stokes Equations”.
+    In: Nine Mathematical Challenges—An Elucidation. Vol. 104. Proceedings of Symposia in Pure Mathe-
+    matics. Providence, RI: American Mathematical Society, pp. 149–193. doi: 10.1090/pspum/104/01874.
+
+
+
+
+                                                     64
+

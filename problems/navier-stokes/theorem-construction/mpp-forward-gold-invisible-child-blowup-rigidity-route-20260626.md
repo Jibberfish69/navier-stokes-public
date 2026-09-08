@@ -27,13 +27,13 @@ A(Q')=1,
 \langle U_Q,(\Lambda_Q-\oplus_{Q'}\Lambda_{Q'})U_Q\rangle+R_{legal}(Q)\to 0.
 ```
 
-That is: the child carries unit selected critical-strain action but is asymptotically invisible to the parent-child pressure-Hodge Dirichlet-to-Neumann Schur complement.
+That is: the child carries unit selected critical-strain action but is asymptotically invisible to the parent-child pressure-Helmholtz--Leray Dirichlet-to-Neumann Schur complement.
 
 After rescaling on the child material scale and using the same-packet laminar ancestry structure, one should obtain a limiting packet with:
 
 1. nonzero selected critical-strain action;
 2. zero parent Schur-complement defect;
-3. legal pressure-Hodge equation in the material coordinates;
+3. legal pressure-Helmholtz--Leray equation in the material coordinates;
 4. no nonlaminar exit or collar leakage.
 
 ## 3. Exact rigidity target
@@ -46,7 +46,7 @@ The missing theorem becomes:
 
 Statement:
 
-There is no nontrivial limiting laminar material packet carrying unit selected critical-strain action whose pressure-Hodge trace is invisible to the parent-child Dirichlet-to-Neumann Schur complement.
+There is no nontrivial limiting laminar material packet carrying unit selected critical-strain action whose pressure-Helmholtz--Leray trace is invisible to the parent-child Dirichlet-to-Neumann Schur complement.
 
 Equivalently, if the Schur-complement defect vanishes in the blow-up limit, then the selected critical-strain carrier vanishes.
 
@@ -64,14 +64,14 @@ The proof tools become specific:
 ```math
 \text{zero Schur defect}
 \Rightarrow
-\text{matching parent/child pressure-Hodge harmonic extensions}
+\text{matching parent/child pressure-Helmholtz--Leray harmonic extensions}
 \Rightarrow
-\text{no interior pressure-Hodge source jump}
+\text{no interior pressure-Helmholtz--Leray source jump}
 \Rightarrow
 \text{zero selected critical-strain carrier}.
 ```
 
-The analytic core is a Rellich/unique-continuation statement for the material pressure-Hodge operator coupled to the selected strain carrier.
+The analytic core is a Rellich/unique-continuation statement for the material pressure-Helmholtz--Leray operator coupled to the selected strain carrier.
 
 ## 5. Result
 

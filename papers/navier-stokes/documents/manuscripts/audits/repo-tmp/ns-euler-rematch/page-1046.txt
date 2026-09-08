@@ -1,0 +1,50 @@
+triadic CM witness is installed.
+     The May 17 narrow refresh adds the eight non-Euler supplier/diagnostic notes from the PRD,
+LPSC, -source, ASAG, non-Carleson Zeno, eigenframe, and pressure-Hessian attempts. The two
+same-date Euler-mirror notes stay excluded. Those rows record conditional supplier state and
+retained failure-face sorting; they do not prove a new positive source-wall theorem.
+     These counts are not proof burdens. They are routing diagnostics. A row that breaks Field does
+not mean Pack and Part are globally assumed. It means that for that row, after its local Pack/Part
+alternatives are removed or inherited from the selected branch, the remaining retained failure is a
+Field exit.
+     Thus there is no non-Euler surface left in the installed inventory that can be used as an unproved
+extra CM failure face. A surface either proves its face exit inside the contrapositive packet, or it is
+barred from theorem use until a named bridge upgrades it.
+     The inventory includes the index and this theorem note. The word non-euler inside those two
+filenames is the scope marker for this pass, not an Euler surface marker.
+     The exclusion pass is content-level, not filename-only. The index excludes the Euler mirror
+folder, explicit fixed-nu Euler-to-NS transfer notes, and zero-viscosity / Euler-class comparison
+surfaces even when their filenames do not contain Euler.
+     Ordinary Navier-Stokes viscous estimates and Eulerian-coordinate estimates stay included. Only
+Euler/fixed-nu transfer or Euler-class comparison surfaces are excluded.
+     The May 14 exhaustive check compares the filesystem text-surface universe against the index,
+diagnostic map, and certificate record.
+     The only included surface that still mentions Euler/fixed-nu language in the strong-pattern
+scan is this sweep note itself, because it records the exclusion rule and the moved paths. It is an
+authority carrier, not an Euler theorem surface.
+     The machine index proves exhaustion of the current non-Euler text surface set. The face label
+is theorem-role data, not a raw keyword hit. When a surface mentions Pack or Part only as a
+hypothesis for a Field, support, export, or endpoint role, the role controls.
+     Generated authority YAML, review/release state, reader-facing paper manifests, and derived
+copies are carriers. Their theorem content inherits the Pack/Part/Field witness-face gate from the
+theorem notes they cite; they do not create independent faces, and Member is reached only after
+the triadic CM witness.
+
+D.1704      Clay problem Clay Breakdown Preterminal Reflection Proof Attempt
+The object of this section was the proposed reflection step from terminal class-exit diagnosis to
+still-live preterminal class-exit. That proposal is now recorded as an invalid bridge attempt.
+     Clay Admissible Finite Breakdown.A places the finite same-surface Clay breakdown object inside
+the CM test grammar.
+     Clay Finite Failure TypeCMExhaustion.A and ClayCMContrapositive Embedding.A derive a
+terminal face failure and read that face failure as Exit(Q *):=not Member(Q *).
+     Existing Part closedness notes prove only a conditional row: retained positive Field scale,
+tower-amplitude control, and preterminal Part imply terminal Part. They do not supply the missing
+retained positive Field scale.
+     Existing terminal packet notes record the same pressure points: Pack needs a terminal strain/-
+carrier record, Part needs terminal tower and readout closedness, and Field is the positive-scale
+coherence/readout problem after participation has been licensed.
+     This reasoning is the invalid step. It treats terminal class-exit as something that must be
+reflected backward before it can serve the CM contrapositive. That changes the proof program. In
+
+                                                1046
+

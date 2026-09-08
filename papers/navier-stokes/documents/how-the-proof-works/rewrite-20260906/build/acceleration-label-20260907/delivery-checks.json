@@ -1,0 +1,12 @@
+{
+  "change": "local acceleration label replaced with acceleration",
+  "review_pages": 4,
+  "full_pages": 73,
+  "other_full_pages_text_unchanged": true,
+  "rendered_opening_matches_review": true,
+  "published": {
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/how-the-proof-works.pdf": "388ea859237904e534e15feb02b2551f74b209e8c702e21347d47da39a6b7e9c",
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf": "f0576822bc3a7b5597d5bdc039b53b0fc15634eca3442a7f3695e48aaabc1d04",
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/navier-stokes-with-rewrite.pdf": "f0576822bc3a7b5597d5bdc039b53b0fc15634eca3442a7f3695e48aaabc1d04"
+  }
+}

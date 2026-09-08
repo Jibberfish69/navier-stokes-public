@@ -1,0 +1,259 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.1 Vortex Stretching
+% ============================================================
+
+The momentum equation has four pieces:
+\[
+  \underbrace{\partial_t u}_{\text{local acceleration}}
+  +
+  \underbrace{(u\cdot\nabla)u}_{\text{nonlinear transport}}
+  =
+  \underbrace{-\nabla p}_{\text{pressure}}
+  +
+  \underbrace{\nu\Delta u}_{\text{viscous diffusion}}.
+\]
+The central regularity problem lies in the competition between nonlinear transport and viscosity.
+The hope is simple: viscosity smooths the fluid faster than nonlinear transport can sharpen it.
+If that remains true at every scale, the velocity stays smooth.
+
+\subsection{Vortex Stretching}\label{sub:ThePerfectlyStretchingVortex}
+
+The three-dimensional motion that puts this hope under pressure is vortex stretching. Take a small material fluid element whose fluid rotates around an axis. Axial strain lengthens the element; incompressibility forces the rotating core to narrow across that axis, drawing its fluid inward and supplying faster rotation through the stretching term. Viscosity acts throughout this motion, so the core spins up only when stretching wins in the full vorticity balance.
+
+Let \(e\) be the vortex axis, let \(L(t)\) be the element's length, and suppose the strain is locally uniform across the element. Writing \(S\) for the symmetric part of the velocity gradient and \(\sigma(t)\) for its positive axial eigenvalue gives
+\[
+  S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr),
+  \qquad
+  Se=\sigma(t)e,
+  \qquad
+  \sigma(t)>0,
+  \qquad
+  \frac{\dot L(t)}{L(t)}
+  =
+  e\cdot Se
+  =
+  \sigma(t).
+\]
+The length increases at the fractional rate \(\sigma(t)\). The transverse contraction is already contained in the same motion. Incompressibility preserves the material volume \(\mathcal V\), so define the effective transverse area by \(A(t):=\mathcal V/L(t)\) and the effective radius by \(r_{\mathrm{eff}}(t):=\sqrt{A(t)/\pi}\). Then
+\[
+  \nabla\cdot u=0,
+  \qquad
+  \frac{d}{dt}(A L)=0,
+  \qquad
+  \frac{\dot A}{A}=-\sigma(t),
+  \qquad
+  \frac{\dot r_{\mathrm{eff}}}{r_{\mathrm{eff}}}
+  =
+  -\frac{\sigma(t)}{2}.
+\]
+Thus the radius contracts at half the fractional rate at which the segment lengthens. The rotating fluid is being concentrated toward the axis while the segment is being extended along it.
+
+Let \(\omega:=\nabla\times u\) be the vorticity. Its material evolution, with \(D/Dt\) denoting differentiation along the fluid motion, is
+\[
+  \frac{D\omega}{Dt}
+  =
+  S\omega+\nu\Delta\omega,
+  \qquad
+  \frac{D}{Dt}
+  :=
+  \partial_t+u\cdot\nabla,
+\]
+and when the vorticity is aligned with the stretching direction, \(\omega=|\omega|e\), the physical spin-up appears directly in the stretching contribution:
+\[
+  S\omega
+  =
+  \sigma(t)\omega,
+  \qquad
+  \frac12\frac{D|\omega|^2}{Dt}
+  =
+  \sigma(t)|\omega|^2
+  +
+  \nu\,\omega\cdot\Delta\omega.
+\]
+The first term raises the squared vorticity as the core narrows. The second is present at the same instant and need not have a favourable pointwise sign, so net strengthening is confined to intervals on which the complete right-hand side stays positive.
+
+Kinetic energy does not close this possibility. The energy identity from \Cref{prop:ClassicalKineticEnergyIdentity}, together with the antisymmetric part of \(\nabla u\), gives
+\[
+  \norm{u(t)}_2
+  \leq
+  \norm{u_0}_2
+  <\infty,
+  \qquad
+  \left|\frac12\bigl(\nabla u-(\nabla u)^{\mathsf T}\bigr)\right|_{\mathrm F}
+  =
+  \frac{|\omega|}{\sqrt2}
+  \leq
+  |\nabla u|_{\mathrm F}.
+\]
+A velocity field may retain finite kinetic energy while its rotational gradient grows. The unresolved variable is the shrinking width: as the core concentrates, does viscosity acquire any relative advantage over nonlinear sharpening?
+
+\divider{\NavierStokes{} Scaling}
+
+Fix a time \(t_0<T_*\) and write \(\ell:=r_{\mathrm{eff}}(t_0)\) for the material segment's effective radius at that time. The equation can test the balance at the finer width \(\lambda^{-1}\ell\), for \(\lambda>1\), through the exact comparison
+\[
+  u_\lambda(x,t)
+  :=
+  \lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)
+  :=
+  \lambda^2p(\lambda x,\lambda^2t).
+\]
+Here \(u_\lambda\) and \(p_\lambda\) form another solution at another scale. They are not a later state of the material segment carried by \(u\). At time \(\lambda^{-2}t_0\), the corresponding segment in the comparison solution has effective radius \(\lambda^{-1}\ell\), and every term in its momentum equation changes by the same factor:
+\[
+\begin{aligned}
+  \partial_tu_\lambda(x,t)
+  &=
+  \lambda^3(\partial_tu)(\lambda x,\lambda^2t),
+  \\
+  (u_\lambda\cdot\nabla)u_\lambda(x,t)
+  &=
+  \lambda^3\bigl((u\cdot\nabla)u\bigr)(\lambda x,\lambda^2t),
+  \\
+  \nabla p_\lambda(x,t)
+  &=
+  \lambda^3(\nabla p)(\lambda x,\lambda^2t),
+  \\
+  \nu\Delta u_\lambda(x,t)
+  &=
+  \lambda^3\nu(\Delta u)(\lambda x,\lambda^2t).
+\end{aligned}
+\]
+Local acceleration, nonlinear transport, pressure, and viscosity all gain the factor \(\lambda^3\). Moving to a finer width does not strengthen viscosity relative to the nonlinear term. The balance survives the change of scale, so it must be read through a quantity that survives it as well.
+
+\divider{Critical Height}
+
+The familiar Sobolev measurements do not all survive this comparison. Let \(\Lambda:=(-\Delta)^{1/2}\), and define the homogeneous Sobolev norm by \(\norm{f}_{\dot H^s}:=\norm{\Lambda^s f}_2\). The Fourier transform of the rescaled velocity satisfies
+\[
+  \widehat{u_\lambda}(\xi,t)
+  =
+  \lambda^{-2}\widehat u(\lambda^{-1}\xi,\lambda^2t),
+\]
+which, after changing variables in frequency, yields
+\[
+  \norm{u_\lambda(t)}_{\dot H^s}^2
+  =
+  \lambda^{2s-1}
+  \norm{u(\lambda^2t)}_{\dot H^s}^2.
+\]
+At \(s=0\), kinetic energy loses one power of \(\lambda\). At \(s=1\), the first-derivative norm gains one. Between them, at \(s=\tfrac12\), the scaling exponent vanishes. This fixes the global scale-invariant functional
+\[
+  H(t)
+  :=
+  \frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =
+  \frac12\norm{\Lambda^{1/2}u(t)}_2^2.
+\]
+The name critical height refers to this functional of the entire velocity field, not to the physical height or radius of the vortex core. If \(H_\lambda\) denotes the same functional evaluated on \(u_\lambda\), the three neighboring levels separate cleanly:
+\[
+  \norm{u_\lambda(t)}_2^2
+  =
+  \lambda^{-1}\norm{u(\lambda^2t)}_2^2,
+  \qquad
+  H_\lambda(t)=H(\lambda^2t),
+  \qquad
+  \norm{\nabla u_\lambda(t)}_2^2
+  =
+  \lambda\norm{\nabla u(\lambda^2t)}_2^2.
+\]
+The comparison solution has less kinetic energy and a larger first-derivative norm, while the critical height is unchanged. It records concentration that finite energy can leave open. What matters now is how this scale-neutral quantity changes along the original solution.
+
+\divider{Nonlinear Production versus Viscous Dissipation}
+
+At the half-derivative level, define the signed nonlinear production by
+\[
+  \mathcal P_{1/2}[u](t)
+  :=
+  -\operatorname{Re}
+  \pair
+    {\Lambda^{1/2}u(t)}
+    {\Lambda^{1/2}\bigl((u(t)\cdot\nabla)u(t)\bigr)}_{L^2}.
+\]
+Pairing the momentum equation at this level removes the pressure because \(\nabla\cdot u=0\), while the Laplacian contributes \(-\nu\norm{\Lambda^{3/2}u}_2^2\). The evolution of the critical height is
+\[
+  H'(t)
+  +
+  \nu\norm{\Lambda^{3/2}u(t)}_2^2
+  =
+  \mathcal P_{1/2}[u](t).
+\]
+The sign now carries the original contest exactly. The critical height rises only when nonlinear production exceeds the viscous dissipation occurring with it. Rescaling gives both rates the same square factor:
+\[
+  \mathcal P_{1/2}[u_\lambda](t)
+  =
+  \lambda^2\mathcal P_{1/2}[u](\lambda^2t),
+  \qquad
+  \nu\norm{\Lambda^{3/2}u_\lambda(t)}_2^2
+  =
+  \lambda^2\nu\norm{\Lambda^{3/2}u(\lambda^2t)}_2^2.
+\]
+Production and dissipation remain matched as the width shrinks. Their common factor \(\lambda^2\) is accompanied by the contracted time coordinate \(t\mapsto\lambda^{-2}t\). The finer structure brings no change in relative strength, but it does bring a shorter time on which either contribution can act.
+
+\divider{The Heat Clock}
+
+The viscous term supplies a clean comparison for that shorter time through the separate linear heat equation \(v_t=\nu\Delta v\):
+\[
+  \widehat v(\xi,t+\delta t)
+  =
+  e^{-\nu|\xi|^2\delta t}\widehat v(\xi,t).
+\]
+This heat flow is not the evolution of the material vortex. It isolates the time carried by viscosity at a given spatial width. A structure localized at width \(r\) has associated frequency \(r^{-1}\), with its Fourier content concentrated where \(|\xi|\simeq r^{-1}\). The exponential changes by order one when
+\[
+  \nu|\xi|^2\delta t\simeq1,
+\]
+so define the viscous comparison clock
+\[
+  \tau_\nu(r)
+  :=
+  \frac{r^2}{\nu}.
+\]
+Halving the width quarters this clock. For a general narrowing by \(\lambda^{-1}\),
+\[
+  \tau_\nu(\lambda^{-1}r)
+  =
+  \lambda^{-2}\tau_\nu(r).
+\]
+The square contraction is the same one seen in the full Navier--Stokes scaling, although the heat clock itself remains a linear comparison. Repeating the spatial narrowing now produces a sequence of successively shorter clocks.
+
+\divider{The Zeno Cascade}
+
+Choose an initial spatial concentration width \(r_0>0\), and let the comparison widths halve:
+\[
+  r_n:=2^{-n}r_0,
+  \qquad
+  \tau_n:=\frac{r_n^2}{\nu},
+\]
+Here \(r_n\) is a spatial width and \(r_n^{-1}\) is its associated frequency. The corresponding heat clocks form the geometric sequence
+\[
+  \tau_n
+  =
+  \frac{r_0^2}{\nu}4^{-n},
+  \qquad
+  \sum_{n=0}^{\infty}\tau_n
+  =
+  \frac{4r_0^2}{3\nu}
+  <
+  \infty.
+\]
+The finite sum is an arithmetic fact about the comparison clocks. It does not realize a cascade or produce a singularity.
+
+To turn this arithmetic into a candidate history, fix a concentration scale \(\rho(t)\) for one actual Navier--Stokes solution \(u\), measured by the same width-localization criterion used to identify \(r\). That solution would have to reach the comparison widths
+\[
+  r_0>r_1>r_2>\cdots\longrightarrow0
+\]
+at times \(t_n\) for which \(\rho(t_n)\) is quantitatively comparable to \(r_n\). Explicitly, there must be constants \(0<c\leq C<\infty\), independent of \(n\), such that \(c r_n\leq\rho(t_n)\leq C r_n\), while the crossings obey
+\[
+  t_0<t_1<t_2<\cdots\uparrow T_*<\infty,
+  \qquad
+  t_{n+1}-t_n\asymp\tau_n,
+\]
+with the constants implicit in \(\asymp\) also independent of \(n\). Only under these uniform same-history comparisons does the remaining time follow the geometric tail:
+\[
+  T_*-t_n
+  \asymp
+  \sum_{k=n}^{\infty}\tau_k
+  =
+  \frac{4r_n^2}{3\nu}.
+\]
+At concentration width comparable to \(r_n\), both the next crossing time and the total time left are of order \(r_n^2/\nu\). The schedule has now become a demand on the velocity field itself: as its concentration width narrows, that one solution must produce each next narrowing on an interval collapsing to zero with the square of the width.

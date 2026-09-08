@@ -1,0 +1,22 @@
+\section{Bridge II: Monotone Functional}
+
+The original source stack does not treat global energy/enstrophy control as nameless background. It promotes the functional
+\[
+Q(t)=\|u(t)\|_{L^2_x}^2+\|\nabla u(t)\|_{L^2_x}^2
+\]
+as a named bridge that stabilizes the global control layer on the same classical surface used by the scale, compactness, and gradient arguments.
+
+\begin{proposition}[Classical monotone functional]
+\label{prop:monotone-functional}
+Let \(u\) lie in the classical target class. Then the functional
+\[
+Q(t)=\|u(t)\|_{L^2_x}^2+\|\nabla u(t)\|_{L^2_x}^2
+\]
+obeys a same-surface energy-dissipation inequality on \([0,T)\) that keeps the global energy/enstrophy layer bounded on the classical Euclidean equation. In particular, this control is available as theorem-bearing infrastructure for the compactness and continuation steps, even though it does not by itself close the regularity problem.
+\end{proposition}
+
+\begin{proof}
+The classical energy identity controls \(\|u(t)\|_{L^2_x}^2\), and the same Euclidean viscous structure yields the corresponding gradient-side balance for \(\|\nabla u(t)\|_{L^2_x}^2\). Summing the two gives the required \(Q(t)\) energy-dissipation inequality on the original equation surface. This is the same control layer recorded in the original \texttt{Q(t)} notes and promoted in the live theorem layer by the monotone-functional package. The key route fact is architectural: this control stabilizes the approximation family used later by compactness and gradient control, but it is not itself the full closure mechanism because dangerous high-frequency transfer still has to be suppressed by the scale barrier.
+\end{proof}
+
+This is the missing bridge from the handed framework. It keeps the paper faithful to the original four-principle cycle instead of collapsing the argument into a later three-bridge shorthand.

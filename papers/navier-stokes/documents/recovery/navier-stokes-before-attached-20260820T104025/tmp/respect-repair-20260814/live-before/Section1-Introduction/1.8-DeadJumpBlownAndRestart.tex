@@ -1,0 +1,203 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 1.8 Dead, Jump, Blown, and Restart
+% ============================================================
+\subsection{Dead, Jump, Blown, and Restart}\label{sub:DeadJumpBlownAndRestart}
+
+For the tower to arrive at a smooth endpoint, its finite rungs have to do three things.
+Whenever a differentiated equation can be evaluated, the assigned values have to satisfy it.
+Every approach to the same endpoint has to produce one compatible value.
+The values and norms required at that level have to remain finite.
+\emph{Dead}, \emph{Jump}, and \emph{Blown} name failures of these three requirements.
+They can overlap, and they are used here as concrete endpoint diagnostics rather than an exhaustive classification of every possible singularity.
+
+\divider{Dead}
+
+Dead is the most literal version of a point stopping while the surrounding field still calls for a response.
+The idea only applies when enough finite endpoint data have been assigned for a differentiated momentum row to make sense.
+At temporal level \(n\), write its residual as
+\[
+  \mathfrak D_n[u,p]
+  :=
+  V_{n+1}
+  +
+  \sum_{k=0}^{n}
+  \binom{n}{k}
+  (V_k\cdot\nabla)V_{n-k}
+  +
+  \nabla Q_n
+  -
+  \nu\Delta V_n.
+\]
+Every classical Navier--Stokes region satisfies
+\[
+  \mathfrak D_n[u,p]=0.
+\]
+
+At the base rung this is the material acceleration equation
+\[
+  D_tu=-\nabla p+\nu\Delta u.
+\]
+Suppose a proposed endpoint \(z_*=(T,x_*)\) assigns finite values to all of these terms and assigns
+\[
+  D_tu(z_*)=0,
+\]
+while the limiting field around the point gives
+\[
+  -\nabla p(z_*)+\nu\Delta u(z_*)\neq0.
+\]
+Then
+\[
+  \mathfrak D_0[u,p](z_*)\neq0.
+\]
+The assigned endpoint value has stopped responding to a field that requires a nonzero acceleration there.
+That finite mismatch is a pointwise Dead diagnosis.
+At a single endpoint it blocks classical compatibility, but changing one point does not change a spacetime distribution and cannot by itself prove \(\operatorname{Exit}(Q)\) under the distributional membership test.
+
+The same witness can occur higher in the tower.
+If \(V_{n+1}\) fails to equal the transport, pressure, and viscous combination determined by the lower rungs, then \(\mathfrak D_n\neq0\).
+To witness class exit, the mismatch has to persist in the solution sense used by \(\operatorname{Member}(Q)\).
+Where the differentiated row is defined distributionally on a spacetime neighbourhood \(\mathcal O\) of \(z_*\), it is enough to find \(\phi\in C_c^\infty(\mathcal O)\) such that
+\[
+  \left\langle
+    \mathfrak D_n[Q],\phi
+  \right\rangle
+  \neq0.
+\]
+If the residual is an \(L^2\) function there, the same neighbourhood witness can be written
+\[
+  \|\mathfrak D_n[Q]\|_{L^2(\mathcal O)}>0.
+\]
+Either statement identifies equation mismatch in a spacetime neighbourhood rather than at one freely reassignable point.
+
+Zero carries no such verdict by itself.
+A stagnation point can sit inside a smooth flow, the zero solution has every derivative equal to zero, and a steady solution can have all positive Eulerian time rungs equal to zero.
+Each remains lawful when its complete residual vanishes.
+Dead names a residual witness among finite assigned endpoint values.
+If the derivatives needed to form the residual have no value at all, another diagnosis is required.
+
+\divider{Jump}
+
+Jump concerns the attempt to assign one value to a rung at the endpoint.
+Let
+\[
+  W_{n,\alpha}
+  :=
+  \partial_t^n\partial_x^\alpha u.
+\]
+Suppose there are two sequences of regular spacetime points \(z_m^+\) and \(z_m^-\), both approaching \(z_*\), and a number \(\varepsilon_0>0\) such that
+\[
+  \left|
+    W_{n,\alpha}(z_m^+)
+    -
+    W_{n,\alpha}(z_m^-)
+  \right|
+  \geq
+  \varepsilon_0
+\]
+along a subsequence.
+The values fail the Cauchy test near \(z_*\).
+That rung cannot extend continuously to one value there.
+A proposed endpoint also has a Jump when one preterminal trace exists but the value assigned by \(Q\) differs from that trace.
+
+Unequal one-sided traces across an interface give the cleanest special case:
+\[
+  [W_{n,\alpha}]_\Sigma\neq0.
+\]
+The Euler vortex sheet has \(n=0\) and \(\alpha=0\), so the velocity itself has two tangential traces.
+A higher Jump can leave the velocity continuous while an Eulerian mixed derivative \(W_{n,\alpha}\) has incompatible limits.
+The same two-path test applies separately to \(D_tu\) or \(D_t^2u\), which are combinations of mixed Eulerian derivatives.
+Oscillation can also fail the Cauchy test even when two simple one-sided limits are unavailable.
+
+A pointwise assignment may be Dead and Jump at the same time.
+Attaching a finite value that disagrees with the earlier trace creates a Jump, and inserting that value into a classical row may also create a nonzero residual.
+The two names identify different facts about the same proposed endpoint.
+
+\divider{Blown}
+
+Blown concerns loss of finite size.
+The most localized form occurs at one spacetime point:
+\[
+  \limsup_{(t,x)\to(T,x_*)}
+  |W_{n,\alpha}(t,x)|
+  =
+  \infty.
+\]
+A localized Blown witness can instead be measured on a fixed small ball \(B_r(x_*)\), for example through
+\[
+  \limsup_{t\uparrow T}
+  \|W_{n,\alpha}(t)\|_{L^p(B_r(x_*))}
+  =
+  \infty.
+\]
+This localized norm can diverge because concentration is building on a region that shrinks inside the fixed ball, even while points outside that region remain mild.
+
+A global norm gives a different witness:
+\[
+  \limsup_{t\uparrow T}
+  \|\partial_t^n u(t)\|_{H^m(\mathbb R^3)}
+  =
+  \infty.
+\]
+It says that finite control has been lost somewhere across the whole space at the indicated level.
+It does not select a unique spatial point, and the localized and global statements should not be exchanged without an estimate connecting them.
+
+Infinite velocity is the lowest and most dramatic example.
+The velocity can remain finite while a gradient diverges.
+For a schematic Zeno sequence, take velocity increments
+\[
+  a_k=2^{-k}
+\]
+across length scales
+\[
+  \ell_k=4^{-k}.
+\]
+Then
+\[
+  \sum_{k=1}^{\infty}a_k<\infty,
+  \qquad
+  \frac{a_k}{\ell_k}=2^k\longrightarrow\infty.
+\]
+The accumulated velocity change stays finite while the gradient scale diverges.
+This sequence is a kinematic picture.
+It is not a constructed Navier--Stokes solution, and it supplies no claim that the equation can realize such a cascade.
+It shows why control of velocity alone cannot control the entire tower.
+
+Blown and Jump can also overlap.
+A divergent oscillation may lose both finite size and a unique approach.
+A bounded discontinuity can Jump while every value stays finite.
+Concentration can make a local norm diverge while the field remains bounded away from the concentrating region.
+No one name absorbs the others.
+
+Dead supplies finite endpoint data that fail a differentiated equation.
+Its distributional neighbourhood form is the one that witnesses class exit.
+Jump prevents a rung from acquiring one continuous endpoint value.
+Blown prevents the required value or norm from remaining finite.
+Any one of these witnesses blocks the proposed endpoint from being one finite smooth classical field.
+Jump and Blown may prevent a classical residual from being defined, so their conclusion does not depend on manufacturing a universal equation mismatch.
+
+Physically, the field has lost the ability to continue as one coherent response.
+At one place or scale, the proposed endpoint can no longer be joined to the velocity of its surroundings, the curvature communicated through viscosity, and the pressure response of the incompressible whole as a single smooth state.
+
+\divider{Restart}
+
+At every regular time before \(T_*\), the complete velocity field at that time can be used as new initial data for the same forward evolution.
+Choose any regular time \(t_0<T_*\) and set
+\[
+  v(s,x):=u(t_0+s,x),
+  \qquad
+  q(s,x):=p(t_0+s,x).
+\]
+Direct substitution gives
+\[
+  \partial_sv+(v\cdot\nabla)v+\nabla q
+  =
+  \nu\Delta v,
+  \qquad
+  \nabla\cdot v=0,
+  \qquad
+  v(0)=u(t_0).
+\]
+The full slice \(u(t_0,\cdot)\) has become the new initial datum.
+Uniqueness in the regular class identifies this restarted solution with the same forward evolution viewed from \(t_0\).
+The time origin has changed and the fluid history has not.

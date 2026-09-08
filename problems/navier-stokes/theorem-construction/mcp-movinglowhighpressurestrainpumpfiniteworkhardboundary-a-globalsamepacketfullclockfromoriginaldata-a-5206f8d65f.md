@@ -30,7 +30,7 @@ initial smooth Fourier tail,
 linear heat damping,
 pure high-high gradient transfer after spill/low-mode separation,
 relative pressure/collar Schur defect,
-projected Hodge pressure overcount.
+projected Helmholtz--Leray pressure overcount.
 ```
 
 Pure high-high transfer is absorbed by the existing high-high tail mechanism once the enstrophy/gradient layer is present.  Fixed low modes are bounded for every fixed dyadic threshold.  Neither pays the moving low band immediately below the active shell.

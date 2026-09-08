@@ -63,7 +63,7 @@ Use the continuation-depth material record
 ```math
 \mathcal P_N^{mat}
 =
-1+E_N^v+E_N^q+E_N^{A,G}+E_N^{collar}+E_N^{Hodge/interface}.
+1+E_N^v+E_N^q+E_N^{A,G}+E_N^{collar}+E_N^{Helmholtz--Leray/interface}.
 ```
 
 Each term is read on the same material packet and at the same fixed depth \(N\).
@@ -82,7 +82,7 @@ A^T\nabla_aD^\alpha q
 \mathcal C_\alpha^{PLS}.
 ```
 
-The commutator \(\mathcal C_\alpha^{PLS}\) consists only of the same PLS coordinates: pressure, viscosity, incompressibility, velocity, coefficient motion, Hodge/interface motion, collar motion, and strain.
+The commutator \(\mathcal C_\alpha^{PLS}\) consists only of the same PLS coordinates: pressure, viscosity, incompressibility, velocity, coefficient motion, Helmholtz--Leray/interface motion, collar motion, and strain.
 
 Testing against \(D^\alpha v\), summing over \(|\alpha|\le N\), and using \(\operatorname{div}_a(Av)=0\) gives
 
@@ -119,12 +119,12 @@ C_NE_N^{A,G}\,d\Omega_N^{PLS}
 +dR_N^{A,G}.
 ```
 
-The transported collar and Hodge/interface records are carried by the same \((A,G,v,q,S)\) packet, so
+The transported collar and Helmholtz--Leray/interface records are carried by the same \((A,G,v,q,S)\) packet, so
 
 ```math
-dE_N^{collar}+dE_N^{Hodge/interface}
+dE_N^{collar}+dE_N^{Helmholtz--Leray/interface}
 \le
-C_N(E_N^{collar}+E_N^{Hodge/interface})\,d\Omega_N^{PLS}
+C_N(E_N^{collar}+E_N^{Helmholtz--Leray/interface})\,d\Omega_N^{PLS}
 +dR_N^{int}.
 ```
 

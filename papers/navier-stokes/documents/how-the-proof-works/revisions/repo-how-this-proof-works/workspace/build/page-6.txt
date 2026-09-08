@@ -1,0 +1,34 @@
+Three useful projections follow immediately:
+
+                                      I[u0 ] −→ Ct Hx1 −→ L∞  6
+                                                           t Lx ,
+
+                                      I[u0 ] −→ Ct Hx2 −→ L∞  ∞
+                                                           t Lx ,
+
+                                      I[u0 ] −→ Ct Hx3 −→ L∞  1,∞
+                                                           t Wx   .
+
+For the standard finite-time gradient quantity, the third line gives
+                             Z T∗
+                                    ∥∇u(t)∥∞ dt ≤ T∗ sup ∥∇u(t)∥∞
+                              0                      0≤t≤T∗
+
+                                               ≤ CT∗ sup ∥u(t)∥H 3 < ∞.
+                                                        0≤t≤T∗
+
+The target norm chooses the finite height. The compatible intersection has already supplied it. This is
+the intersection-to-estimate order: the regularity object is constructed first, and its finite coordinates
+produce the classical estimates needed afterward.
+
+The whole argument can now be read in one line:
+
+                         u0 −→ {(Vn , Qn )}n≥0 −→ {RN,M [u0 ]}N,M <∞
+
+                            −→ I[u0 ] −→ S0 (0, T∗ ) −→ u∗ ∈ H ∞ −→ T∗ = ∞.
+
+
+
+
+                                                    6
+

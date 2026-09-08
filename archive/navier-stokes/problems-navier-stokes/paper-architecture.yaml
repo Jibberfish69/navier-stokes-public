@@ -1,0 +1,35 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  generated_at: '2026-03-17T19:12:02Z'
+  generator: system/runner/lib/paper_architecture_builder.rb
+surface_path: problems/navier-stokes/draft-v7.md
+core_theorem_spine:
+- The Clay target is the classical 3D equation on admissible data, so success for
+  regularized or morphic-regularized equations is diagnostic only and does not close
+  the original problem.
+mainline_section_order:
+- Abstract
+- Introduction
+- 'Definition: Classical Target Class'
+- 'Proposition: Target Fidelity'
+- 'Proposition: Coarse Control Is Necessary But Not Sufficient'
+- 'Proposition: Scale-Barrier Interface'
+- 'Proposition: Compactness And Nonlinear Closure Interface'
+- 'Proposition: Euclidean Gradient Interface'
+- 'Proposition: Provenance And Scope Audit'
+- 'Proposition: Integrated Conditional Closure'
+- 'Theorem: Conditional Classical Closure'
+- Conclusion
+appendix_section_order: []
+non_core_sections: []
+duplicate_sections: []
+forward_references: []
+mainline_scope_boundary:
+  lowest_safe_claim: The Clay target is the classical 3D equation on admissible data,
+    so success for regularized or morphic-regularized equations is diagnostic only
+    and does not close the original problem.
+  first_unsafe_overclaim: Treating any one of energy control, spectral decay, compactness,
+    or gradient rhetoric as if it already proves global regularity by itself.

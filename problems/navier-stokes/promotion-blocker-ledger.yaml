@@ -2,118 +2,21 @@
 version: 2
 identity:
   problem_id: navier-stokes
-  artifact_id: promotion-blocker-ledger-navier-stokes
-  created_by: chatgpt
-  purpose: promotion blocker ledger refreshed after CM convergence atlas alignment
-status: historical-context-only
-source_reads:
-  theorem_authority_frontier:
-    path: problems/navier-stokes/source-frontier.yaml
-    total_obligations: 27
-    blocking_count: 0
-    bridge_pending_count: 0
-    unresolved_count: 0
-    all_discharged: true
-  cm_convergence_atlas:
-    path: problems/navier-stokes/cm-convergence-atlas.yaml
-    status: historical-context-only
-  senior_research_architect_synthesis_memo:
-    path: problems/navier-stokes/theorem-construction/mpp-senior-research-architect-synthesis-memo-20260506.md
-    status: repo-wide mathematical architecture memo
-  actual_heightflux_synthesis_memo:
-    path: problems/navier-stokes/theorem-construction/mpp-actual-synthesis-heightfluxcontrol-class-exit-architecture-20260506.md
-    status: historical-context-only
-  donor_height_creation_reduction:
-    path: problems/navier-stokes/theorem-construction/mpp-reserve-creation-charge-height-variation-reduction-20260506.md
-    status: historical-context-only
-  heightflux_synthesis_adversarial_audit:
-    path: problems/navier-stokes/theorem-construction/mpp-heightflux-synthesis-adversarial-audit-20260506.md
-    status: blocks theorem-grade use of new synthesis atoms until a non-tautological
-      native height-charge / HeightFluxControl.A mechanism is proved
-  firstheight_creation_terminal_attempt:
-    path: problems/navier-stokes/theorem-construction/mpp-firstheightcreation-dichotomy-terminal-attempt-and-collapse-20260506.md
-    status: demotes FirstHeightCreationDichotomy.A as independent target; redirects
-      to HeightFluxControl.A plus structural mechanism
-  height_flux_control_attempt:
-    path: problems/navier-stokes/theorem-construction/mpp-donorheightcreation-shellbalance-direct-attempt-20260506.md
-    status: records positive weighted shell-flux obstruction beneath DonorHeightCreation.A
-  theorem_warrant:
-    path: problems/navier-stokes/theorem-to-warrant.yaml
-    theorem_2_1_status: local-theorem-program-closed
-  main_result_section:
-    path: problems/navier-stokes/external-paper/sections/main-result.tex
-    status: present
-  assumption_ledger:
-    path: problems/navier-stokes/assumption-ledger.yaml
-    status: local-theorem-program-closed
-promotion_packet_blockers: []
-proof_obligation_blockers: []
-branch_terminal_blockers: []
-resolved_blockers:
-- full-dependency-graph
-- theorem-2-1-warrant
-- one-field-forward-preservation-wall
-- lower-carrier-receiver-wall
-- collar-to-jump-converse-pivot
-- h1-h2-h6-endpoint-upgrade
-remaining_release_gates: []
-sourcepulse_may2_reduction:
-  exact_surviving_burden: CM witness bridge installed by `MemberSmooth.A / WitnessFace.A`;
-    SourceWall.Reconcile.A demotes normalized-adjoint source-drain to conditional
-    support, leaving `ScaleCriticalTreeCarleson.A` or `ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A`
-  real_frontier_evidence:
-  - problems/navier-stokes/theorem-construction/mpp-sourcepulse-exclusion-active-target-note.md
-  - problems/navier-stokes/theorem-construction/mpp-sourcepulse-irreducible-core-and-route-equivalence-note.md
-  - problems/navier-stokes/theorem-construction/mpp-sourcepulse-direct-core-self-attempt-note.md
-  - problems/navier-stokes/theorem-construction/mpp-sourcepulse-ancestry-route-conditional-closure-note.md
-  - problems/navier-stokes/theorem-construction/mpp-cm-field-face-sourcewall-reorientation-note-20260505.md
-  - problems/navier-stokes/theorem-construction/mpp-field-source-residue-jump-classification-note-20260505.md
-  - problems/navier-stokes/theorem-construction/mpp-gods-eye-cm-convergence-atlas-20260506.md
-  - problems/navier-stokes/cm-convergence-atlas.yaml
-  - problems/navier-stokes/theorem-construction/mpp-senior-research-architect-synthesis-memo-20260506.md
-  - problems/navier-stokes/theorem-construction/mpp-actual-synthesis-heightfluxcontrol-class-exit-architecture-20260506.md
-  - problems/navier-stokes/theorem-construction/mpp-reserve-creation-charge-height-variation-reduction-20260506.md
-  - problems/navier-stokes/theorem-construction/mpp-heightflux-synthesis-adversarial-audit-20260506.md
-  - problems/navier-stokes/theorem-construction/mpp-firstheightcreation-dichotomy-terminal-attempt-and-collapse-20260506.md
-  - problems/navier-stokes/theorem-construction/mpp-donorheightcreation-shellbalance-direct-attempt-20260506.md
-  route_equivalent_packaging:
-  - problems/navier-stokes/source-forensics/sourcepulse-q-dissipation-source-recovery-note.md
-  - May 2 mechanism audit notes; pressure-vortex, Beltrami/helical, vorticity-direction,
-    localized-drain, local-energy/CKN, compactness/Liouville, viscous-Duhamel, no-hop,
-    and classical criteria remain presentations of the same missing theorem.
-side_sandbox_status:
-  hfg_low: threshold-discharged
-  hfg_alt: no-free-gap; surviving primitive is MEG
-claim_boundary:
-  current_safe_claim: Route-wide promotion is blocked. SourcePulseCMExit.A may remain
-    branch support only; the direct-live package installs the CM bridge separately,
-    but the reopened Field-face source-wall root still has to be proved before release.
-  first_unsafe_overclaim: Treating retained-field `KC.Place_ret` or local CM-exit
-    closure as branch-native `Jump_avg` elimination, whole-space R^3 closure, or final
-    release approval.
-current_authority_status:
-  status: superseded-by-direct-live-clearance
-  checked_at: '2026-08-06T14:56:50Z'
-  reason: Direct live authority reports no open theorem frontier; this artifact is
-    retained as historical theorem-work context and must not respawn a live blocker.
-  authority_summary:
-    authority_mode: direct-live-surfaces
-    blocking_count: 0
-    frontier_count: 0
-    all_discharged: true
-  controlling_surfaces:
-  - problems/navier-stokes/live-theorem-edge.yaml
-  - problems/navier-stokes/source-frontier.yaml
-  - problems/navier-stokes/theorem-packet.yaml
-summary:
-  current_live_blocking_count: 0
-  current_live_frontier_count: 0
-  stale_surface_status: historical-context-only
-historical_promotion_packet_blockers: []
-historical_proof_obligation_blockers: []
-historical_branch_terminal_blockers: []
-historical_remaining_release_gates: []
-historical_promotion_packet_blockers_count: 1
-historical_proof_obligation_blockers_count: 0
-historical_branch_terminal_blockers_count: 0
-historical_remaining_release_gates_count: 1
+  display_name: Navier--Stokes global regularity
+  updated_at: '2026-08-24'
+  source_owner: Thomas Birnie
+lane_boundary:
+  status: isolated
+  audit: problems/navier-stokes/lane-isolation-audit.yaml
+  proof_source_pack: problems/navier-stokes/proof-source-pack.md
+proof_program_completion_projection:
+  status: established-complete
+  mpp_status: solved
+  producer_status: proved-datum-generated-whole-terminal-compatible-rectangles
+  closure_status: proved
+  authority: problems/navier-stokes/live-theorem-edge.yaml
+  external_recognition_status: separate-workflow-not-a-proof-prerequisite
+promotion:
+  internal_proof_status: established-complete
+  external_recognition: separate-workflow-not-a-proof-prerequisite
+  cross_problem_shortcuts: prohibited

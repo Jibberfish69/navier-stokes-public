@@ -1,0 +1,65 @@
+Write
+                                               Vn := ∂tn u,        Qn := ∂tn p.
+
+Taking the divergence fixes the pressure row from the velocity rows:
+                                                           n
+                                                                   !
+                                                           X     n
+                                         Qn = Ri Rj                (Va )i (Vn−a )j .
+                                                         a=0
+                                                                 a
+
+Thus every temporal response carries transport, pressure, and the viscous Laplacian together.
+
+Let Λ := (−∆)1/2 , and measure Vn at spatial height s by
+
+                                                           1
+                                                En,s (t) := ∥Λs Vn (t)∥22 .
+                                                           2
+Applying Λs to the recurrence and pairing with Λs Vn gives
+                                           *               " n      !                     #+
+                                                s      s
+                                                            X      n
+                      ∂t En,s = − Re Λ Vn , Λ                        (Va · ∇)Vn−a + ∇Qn
+                                                           a=0
+                                                                   a
+                                                                                           L2
+
+                                       + ν Re⟨Λs ∆Vn , Λs Vn ⟩L2
+
+                               = Pn,s − 2νEn,s+1 .
+
+The last term follows from integration by parts:
+
+                                      ν Re⟨Λs ∆Vn , Λs Vn ⟩L2 = −ν∥Λs+1 Vn ∥22 .
+
+One time derivative of the energy at height s has exposed the energy at height s + 1.
+
+Return to the critical height by setting
+
+                                                             1
+                                         H(t) := E0,1/2 (t) = ∥Λ1/2 u(t)∥22 .
+                                                             2
+Its k-th derivative is built from the temporal responses already written above:
+
+                                           1 k
+                                                     !
+                                             X k     D                          E
+                               (k)
+                           H         (t) =         Re Λ1/2 Va (t), Λ1/2 Vk−a (t) 2 .
+                                           2 a=0 a                               L
+
+
+The first three derivatives of the critical energy expose the first three higher spatial heights:
+
+                          H ′ = P0,1/2 − 2νE0,3/2 ,
+
+                         H ′′ = ∂t P0,1/2 − 2νP0,3/2 + (2ν)2 E0,5/2 ,
+
+                         H ′′′ = ∂t2 P0,1/2 − 2ν∂t P0,3/2 + (2ν)2 P0,5/2 − (2ν)3 E0,7/2 .
+
+
+
+
+                                                               3
+

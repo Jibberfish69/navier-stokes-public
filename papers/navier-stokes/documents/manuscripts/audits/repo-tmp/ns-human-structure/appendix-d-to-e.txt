@@ -1,0 +1,559 @@
+   The proof chose W minimally and decomposed the reserve into
+
+ inherited past reserve + first-created native reserve + child residual reserve + legal loss reserve.
+
+Minimality contracts the inherited term. Existing residual and legal ledgers route the child and
+legal terms. The survivor is
+                                first-created native reserve ≥ cη.
+    The direct proof stops here. The first-created positive-scale native donor-square reserve remains
+unpaid by the installed ledgers. Zero-radius donor ancestry is already a Pack-side failure. The
+retained positive-scale first-created reserve remains supplier-quarantined until a same-ledger payment
+theorem or a CM-test admission plus first face failure is proved.
+
+D.33     Zero-Moment Signed Pair
+The zero-moment attempt sharpened the source-reserve survivor again. It showed that zero first
+moment can coexist with order-one mass. On the first terminal window,
+
+                                   Rfirst (W ) ≥ η,               Mfirst (W ) = 0.
+
+Split the source carrier as
+                                      Z             Z                         Z
+                 J = J+ − J− ,               J+ =           J− ,       cJ ≤       (J+ + J− ) ≤ CJ .
+                                       W                W                     W
+
+The square reserve can see an order-one pair while the signed first moment vanishes.
+   Most cases route cleanly. A partner on the wrong carrier breaks Pack, Part, or Field. A partner
+that survives only through terminally shrinking windows becomes Zeno. The hard case is
+
+                 J+ and J− survive at positive scale on the same retained ledger,
+
+with order-one square reserve and zero first moment.
+    The tempting proof says that one packet must produce visible active height flux. That implication
+is too fast. The packets can exchange through the same retained ledger while the first moment
+cancels on every heat subwindow. The missing theorem is a same-ledger signed-pair no-free-sink
+theorem, or an equivalent two-tower donor depletion theorem.
+
+D.34     Public L3 , Duhamel, And Native Source
+The public critical L3 branch has to be read more carefully than the source-wall deletion branches.
+The useful bridge is a local CM-facing translator for terminal L3 Duhamel mass on the same witness
+ledger.
+    Start with terminal critical concentration on a ledger
+
+                                       W = (Owork
+                                             NS , Q, N, r, Φ, T )
+
+and a selected concentration                        Z
+                                              ℓ−2
+                                               m            |um |3 ≥ c0 .
+                                                    Qm
+On the terminal scale, Duhamel gives
+                                                        Z t
+                               (t−t0 )ν∆
+                   um (t) = e              um (t0 ) +         e(t−s)ν∆ P ∇ · (um ⊗ um )(s) ds.
+                                                         t0
+
+
+                                                            110
+    The heat side is checked by same-ledger heat ancestry. The nonlinear side is localized by the
+adjoint heat/Leray response and then captured by the paraproduct native-source argument. The
+installed branch-level conclusion is
+
+               terminal L3 Duhamel response mass =⇒ ¬PackQ ∨ ¬PartN,Q ∨ Legal.
+
+With retained Pack and Part, the local public translator gives the Field-facing critical readout.
+   This is a different role from the positive supplier route. It proves the same-ledger terminal
+branch: once terminal L3 Duhamel mass is already present on the same ledger, the local branch is
+routed into the CM witness grammar.
+
+D.35      Terminal Leray Saturation
+The terminal Leray branch sits next to the L3 translator. After legal commutator removal, the
+retained source work has the form
+                                     Z
+                                                       loc
+                                   − (wj ⊗ w  ej ) : ∇S<j  u.
+
+The desired saturated square is
+                              Z                    Z
+                                             loc      loc
+                            − (wj ⊗ wj ) : ∇S<j u = ⟨S<j  wj , wj ⟩.
+
+Writing
+                                                w
+                                                ej = wj + δj
+leaves the signed-partner defect            Z
+                                                               loc
+                                        −       (wj ⊗ δj ) : ∇S<j  u.
+
+    In the local L3 translator, the same-family signed-partner defect is handled by the installed
+signed-partner no-free-defect theorem. That closes the local terminal L3 route.
+    The independent pressure-Leray route remains open. An elliptic pressure lobe still needs a
+transported source/donor edge theorem. The remaining pressure-side residue is
+
+          PressureLobeSourceTether.A or PressureSustainResidueToSourceResidue.A.
+
+D.36      Critical H 1/2
+The H 1/2 audit is conditional. It remains a candidate translator. The proposed witness is a selected
+critical dyadic signal:                X
+                                              2j ∥Pj u(tm )∥2L2 (Qm )
+                                     |j−Jm |≤C
+
+with a positive terminal lower bound or normalized divergence.
+    The physical split is useful. L3 sees critical size. H 1/2 sees critical size together with frequency
+placement. So an H 1/2 terminal signal has two readings.
+    The amplitude reading routes to the installed local L3 translator. The pure oscillatory reading
+keeps amplitude under control and concentrates the defect in frequency organization. With retained
+Pack and Part, that pure oscillatory branch should be a Field failure: neighboring towers lose
+coherent agreement at the selected depth.
+
+
+                                                      111
+   The missing lemmas are exact:
+                 SameLedgerHHalfExtraction.A,            HHalfOscillationFieldExit.A,
+                                 HHalfAmplitudeToL3Translator.A.
+
+Until those are proved, H 1/2 remains a conditional translator.
+
+D.37     What The Failed Attempts Have In Common
+Across the positive branches the same pattern recurs:
+                     remove local or legal pieces
+                     =⇒ isolate an edge, collar, source, or reserve packet
+                     =⇒ convert the residue to a one-sided or terminal object
+                     =⇒ find a smaller survivor.
+The survivors have structure:
+                                   half-derivative lower-shell deficit,
+                                      lower-prefix active square,
+                           weighted quotient mode and affine moments,
+                                   same-ledger signed-pair reserve,
+                            terminal zero-thickness native source atom,
+                                    pure pressure-sustain residue,
+                                 conditional critical H 1/2 field defect.
+Each survivor is a real mathematical stopping point for the direct positive proof. Each proposed
+payment exposed a sharper unpaid object.
+
+D.38     How The Class-Membership Route Uses The Failure Record
+The class-membership route uses the open positive estimates as the failure record. It changes the
+proof role of the bad terminal object. Given an obstruction O reached by the positive program, the
+split is
+                                       Opass    and     Ofail .
+The pass branch is the continuation branch:
+
+                  Opass =⇒ PackQ ∧ PartN,Q ∧ FieldN,r,Q =⇒ Member(Q; Owork
+                                                                      NS ).
+
+The fail branch must do real work:
+
+ Ofail =⇒ CM-test-admissible terminal obstruction =⇒ ¬PackQ ∨ ¬PartN,Q ∨ ∀r > 0 ¬FieldN,r,Q .
+
+Only after the first face failure is derived does the class-exit conclusion apply:
+
+                                Exit(Q; Owork                work
+                                         NS ) := ¬Member(Q; ONS ).
+
+   This is why the failed attempts belong in the paper. They identify the actual objects a finite-time
+breakdown claim would have to carry. The CM proof then asks whether that same terminal object
+remains in the Navier–Stokes class or loses Pack, Part, or Field.
+
+                                                   112
+D.39   Branch Role Table
+ Branch                    Forward residue                  Later CM role
+ Four-body scale barrier   Unproved nonlinear               Source of tail, lifted-band, and
+                           high-frequency transfer law      scale-memory witness objects
+ Q(t) / enstrophy          Unpaid vortex-stretching         Ancestor of source-wall and
+                           source                           native source-reserve branches
+ Compactness               Exact object only after tail     Same-surface packet capture
+                           and energy controls are          support
+                           supplied
+ Curvature bridge          Positive-Ricci geometric         Motivation for
+                           theorem on the wrong surface     deformation-geometry Body
+                           for the torus branch             IV, pending same-surface
+                                                            drain theorem
+ Kernelized lifted band    Residual 2k lower-shell factor   Positive-route survivor;
+                                                            possible Field/tower readout
+                                                            after terminal admission
+ LPAS / cumulative tail    Lower-prefix active square       Positive-route survivor;
+                                                            support for source-reserve and
+                                                            scale-memory analysis
+ Volterra memory           Weighted quotient mode /         Reduced terminal survivor
+                           affine moments                   candidate; class exit requires
+                                                            face landing
+ Signed descent            Eigendirection sign              Returns to
+                           obstruction                      active-square/source-reserve
+                                                            wall when absolute values are
+                                                            taken
+ BASAC                     Terminal zero-thickness native   Zero-radius Pack/Part witness
+                           source atom                      support after CM-test
+                                                            admission
+ Pressure sustain          Pure pressure residue            Field diagnostic after pressure
+                           orthogonal to native source      exits are isolated
+ Transported no-flux       Interior terminal atom with      Pack/Part/Field support
+                           small boundary flux              depending on retained carrier
+                                                            and flux role
+ Quantized parent / Zeno   No quantized spend; terminal     Zero-radius residue lands first
+                           ancestry can shrink              at Pack-side failure unless a
+                           indefinitely                     positive-scale carrier is
+                                                            retained
+ Public local L3           Terminal Duhamel response        Installed local CM-facing
+                           mass                             witness translator
+ Critical H 1/2            Same-ledger extraction and       Conditional translator only
+                           Field landing was recorded as
+                           historical pressure before the
+                           current CM finite-obstruction
+                           inventory gate passed
+
+
+
+
+                                          113
+D.40     Closure Of The Failure Record
+The failed positive attempts above leave only a small number of mathematical survivors. Every
+route that tried to prove smoothness either asked for a direct estimate that would close the classical
+proof, or else exposed a terminal object that has to be tested as the same Navier–Stokes solution.
+    The surviving objects have the same shape from different directions. The scale route leaves
+unpaid high-frequency transfer. The Q(t) route leaves the vortex-stretching source. Compactness
+leaves the need for a same-surface exact object. The curvature route leaves the need for a periodic
+replacement for the geometric drain. The later source, pressure, Zeno, L3 , Leray, and critical-norm
+routes leave terminal packets, residues, or readouts that must either pay one of those debts or enter
+the class-membership test.
+    This is the point where the positive history becomes useful to the contrapositive proof. It asks
+a mathematical question about the object left by the failed route: does the object still carry a
+positive same-solution packet, does that packet still participate in the Navier–Stokes law, and does
+the resulting field still have a positive-scale coherent readout?
+    When the answer is yes through all three questions, the branch is the pass side. It gives the
+same-solution membership branch. When the answer first fails, the branch supplies the face failure:
+
+           ¬PackQ ,      PackQ ∧ ¬PartN,Q ,        PackQ ∧ PartN,Q ∧ ∀r > 0 ¬FieldN,r,Q .
+
+Those are the only exits used by the class proof. The record has a narrower job: it is the intake
+map for terminal evidence. Each failed smoothness strategy names the debt it could not pay,
+preserves the solution-surface on which that debt lives, and hands the remaining object to the same
+Pack/Part/Field test without changing the claim being tested.
+    Thus the failure record has a precise job. It identifies what a finite-time breakdown claim has to
+carry at the terminal time. The main proof then tests that terminal object. The proof succeeds
+only where the terminal object either remains a member of the working class or loses one of the
+three witness requirements that define membership.
+
+
+E    Source-Field Record and Reader Guide
+This appendix is the manuscript’s source-field record. It keeps recovered Navier–Stokes work on
+the page, but it does not ask the reader to treat every recovered note as a theorem in the main
+proof. Each retained entry has to be read through one of a small number of jobs: it explains a
+definition, records a reduction, states an estimate, names an obstruction, preserves a failed attempt
+that changed the proof burden, supplies context for a later proof step, or gives CM witness logic for
+Pack, Part, Field, and the member readout.
+    That distinction is essential for reading the appendix. A source-field entry becomes proof
+material only when the surrounding text says exactly what it pays for the same terminal record
+used in the main proof. Otherwise it remains context, history, or an open continuation. The point
+of keeping the record here is to make those distinctions visible instead of forcing the reader to guess
+which recovered notes are proof payments and which ones are only route history.
+
+Proof Role Map
+The main proof’s same-solution terminal test controls this appendix. A subsection is proof-bearing
+only where it names the same terminal record and derives a Pack, Part, or Field face, or where the
+main proof explicitly cites it as the source of that payment. A subsection is context-only where it
+
+
+                                                 114
+explains a definition, estimate, source route, reader payment, or branch mechanism without itself
+deriving a terminal face. A subsection is historical where it records an earlier attempt, an earlier
+blocker, or a target correction that led to the present route.
+
+   Material                   Role in proof            Reader use
+   Original source stack      context-only             Explain where the route came from; they
+   and framework notes                                 do not replace the same-solution terminal
+                                                       test.
+   Direct Pack, Part,         proof-bearing when       Supply branch-level face payments for the
+   Field, and                 tied to the same         pass-or-exit proof.
+   finite-disjunction rows    terminal record
+   Failed positive            historical/context-      Show why the forward estimate route did
+   smoothness attempts        only                     not pay the Clay burden and what
+                                                       residue entered the CM test.
+   Earlier Clay-readiness     historical unless used   Preserve the development history; they
+   and blocker checks         by the main proof        are not governing proof blockers by
+                                                       themselves.
+   Reader/export notes        context-only             Explain presentation context without
+                                                       adding a fourth terminal branch.
+
+     When an older subsection says that a route did not prove the Clay problem, that sentence is
+read in its historical local context. The current governing question is the one in the main proof: the
+alleged same-solution terminal record either passes Pack, Part, and Field and continues, or it fails
+first at one of those faces and is not an in-class nonsmooth terminal member of the original solution.
+
+Source Surfaces
+The route graphs, status files, criticism inventories, synchronization records, export verdicts, and
+automation ledgers behind this appendix are not additional theorems. They are source surfaces.
+They tell the manuscript which pieces of repo material are current, which pieces are historical,
+which pieces were superseded, and which pieces still have to be read as open continuations. Their
+mathematical effect enters the paper only after it has been translated into one of the subsection
+roles in the proof role map above.
+    This rule keeps the appendix readable. A route-lock or proof-program table can explain why the
+same-solution Pack–Part–Field test governs a family of notes. A source-forensics file can explain
+why an older paragraph is preserved as history. A criticism or submission verdict can force a local
+repair, but it does not become a proof step on its own. A synchronization or export record can
+record what was handed into the bundle, but the reader should look on the page for the actual
+theorem, obstruction, support calculation, obsolete status, or open continuation. The appendix uses
+those repo surfaces to assign the source material a truthful home; it does not ask the reader to
+accept a ledger as a mathematical argument.
+    Exactness convention for this appendix: every constant written Csf,n , csf,n , or with an indicated
+dependency such as Cσ,n is a finite positive constant attached to that displayed line or finite block.
+It is not reused across unrelated estimates unless the text says so. Older one-sided comparison
+markers have been replaced by these line-specific constants. The relation A Compn B abbreviates
+the exact two-sided statement
+                                         csf,n B ≤ A ≤ Csf,n B
+
+
+
+                                                 115
+inside the displayed line or finite block. The relation A Modeln B records a historical model target
+and is not a proof payment until a cited exact estimate replaces it. Historical or failed-attempt
+material remains support until the main proof explicitly cites it as a same-solution terminal payment.
+
+E.1    Canonical Source Stack And Original Framework
+The older source stack is part of the record because it fixes what later source-field work was trying
+to preserve. It is not an independent proof of the Clay conclusion. Its reader-facing use is more
+modest: it tells the manuscript which route features are source-fidelity requirements and which later
+features are replacements or upgrades.
+    The original framework has four main principles. The monotone functional Q(t) is one of those
+principles; it is not anonymous energy bookkeeping. The compactness bridge is an Aubin–Lions-
+type strong-convergence claim in L2 , but the source version relies on spectral decay together with
+bounded energy, not on an ordinary Sobolev embedding. The gradient bridge in the source family
+is curvature-based. Later Euclidean gradient-transfer packages can be useful, but they are theorem
+replacements unless they explicitly recover the same curvature role.
+    This is why the appendix keeps the source stack separate from the main proof. The main proof
+may use later Euclidean or CM replacements, but the page must not pretend that those replacements
+were already present in the original source framework. A source-faithful use of this material keeps
+Q(t), the non-Sobolev compactness claim, and the curvature-based gradient bridge visible. A later
+theorem may outrank the old source route only after it pays the same same-solution terminal-test
+cost used in the main proof.
+
+E.2    A1a Full-Data Euclidean Lift Coverage
+The full-data Euclidean lift is a downstream export check. Before this check is meaningful, a separate
+CM-to-Euclidean splice has already fixed the Euclidean carrier/readout surface, the admissible
+exported datum class KEuc , and the readout map C. The following check does not prove that splice.
+It only records what the downstream lift must do once the splice is already available.
+                             n                                                   o
+                  DClay := u0 ∈ C ∞ (R3 ; R3 ) : ∇ · u0 = 0, u0 rapidly decaying .
+
+    Let C denote the Euclidean readout already supplied by the earlier CM-to-Euclidean export
+splice, and let KEuc denote the admissible projected datum class on that already-exported Euclidean
+surface.
+    (A1a) is the surjectivity of the already-exported Euclidean readout onto the full Clay datum
+class, with admissibility on the carrier side built in.
+    The burden is downstream of the CM-to-Euclidean export splice and independent of the later
+exact strict-shadow theorem (A1b) and global carrier bound (A1c).
+    Proof. Statement (A1a.5) quantifies only over the Euclidean readout C and the admissible datum
+class KEuc fixed by the earlier splice. It does not assert that the Euclidean surface is the correct
+export of the CM packet. It also does not assert evolution, an exact projected nonlinear identity, or
+a global carrier norm bound. Those burdens belong to the earlier splice and to (A1b)–(A1c).
+    The clean sufficient mechanism for (A1a) is a right inverse for that already-exported Euclidean
+readout. Its exact form is
+
+                                         L : DClay → KEuc
+
+
+
+
+                                                 116
+                                   C(L(u0 )) = u0       ∀u0 ∈ DClay .
+    Proof. Given u0 ∈ DClay , take X 0 := L(u0 ). The definition of L puts X 0 ∈ KEuc , and (A1a.7)
+gives C(X 0 ) = u0 . This is exactly (A1a.5).
+
+                                                ρ = Id.
+
+
+                                             L(u0 ) := u0 .
+    Proof. By the realized-carrier equivalence, every smooth divergence-free rapidly decaying classical
+datum is already an admissible carrier datum on that Euclidean surface. Because the readout is the
+identity, C(L(u0 )) = u0 , so (A1a) holds.
+    The only genuinely new content in (A1a) is the existence of a full-data Euclidean right inverse,
+or an equivalent realized-carrier identification, on a Euclidean surface that has already been supplied
+by the earlier CM-to-Euclidean export splice.
+    The downstream export/discharge check consumes the Euclidean branch after that branch has
+acquired route authority elsewhere.
+
+E.3    Absorbable Weighted Form Reserve Result
+This subsection records a support calculation for the lifted-band route. The candidate reserve has
+the form
+
+                                       AN (t) := ΛN (t) + Θ♯N (t).
+    The desired absorption would spend this reserve against the shell dissipation in the next displayed
+inequality.
+
+                                 AN (t)EN (t) ≤ ενDN (t) + Cε RN (t)
+   The Bernstein-scale lower bound is
+
+                                         DN (t) ≥ 22N EN (t),
+   It gives the remainder inequality
+                                             2
+                                        A2N EN
+                                               ≤ 2−2N A2N EN .
+                                         DN
+   The unpaid remainder is
+
+                                    RN (t) := 2−2N AN (t)2 EN (t).
+    The proof value of the calculation is the shape of this remainder. The route has separate control
+on the reserve factor and the energy factor: the low-mode estimate gives an L2t -type bound for AN
+at fixed N , and the energy layer controls EN on its own energy surface. Those separate controls
+leave the product A2N EN unpaid.
+    The same issue appears after finite-collar reduction. The precise obstruction is that a collar or
+tail theorem must control the product A2N EN after the collar structure turns AN into a finite-band
+expression.
+
+
+                                                  117
+    Thus this subsection is support for the high-frequency-gain route rather than HFG itself. It
+identifies the exact reserve product that a later theorem must pay before the lifted-band material
+can become a member-side estimate or a Field-side obstruction.
+
+E.4    Active Coherent Projector Spectral Identification Theorem
+The exact gap is between the route’s abstract selector package on the persistent coherent support
+and the spectral low-pass selector needed by the readout theorem. The sharper question is whether
+the abstract selector package on the persistent carrier is the same package as the coherent-Laplacian
+spectral selector.
+
+                                  KD (j0 ) = KD ∩ Ran χ≤j0 (Dcoh ),
+
+
+                                      HD (j0 ) = χ≤j0 (Dcoh )HD .
+
+
+         active N C-coherence at threshold j0 ⇐⇒ low spectral support of Dcoh on KD .
+
+
+                                  KD (j0 ) = KD ∩ Ran χ≤j0 (Dcoh )
+
+
+                                      HD (j0 ) = χ≤j0 (Dcoh )HD ,
+    The current carrier note gives an intrinsic coherence regime. The coherent-Laplacian selector
+theorem remains an additional layer. More sharply, the spectral-floor route identifies KD with the
+co-closed zero eigenspace of D. On that package the coherent Laplacian vanishes on KD , so its
+spectral family collapses to the zero spectral slice. A nontrivial thresholded selector family needs an
+additional coherent-Laplacian realization on the same persistent carrier.
+    Under that strengthened realization, an active N C-coherent readout Y at threshold j0 lies in
+KD (j0 ). Transport compatibility preserves KD and each low spectral slice, so admissible transport
+keeps Y in the same thresholded selector sector. The abstract active projector HD (j0 ) and the
+spectral projector Hspec
+                     D (j0 ) are then orthogonal projections onto the same closed subspace KD (j0 ).
+Uniqueness of orthogonal projection gives their equality.
+    This proves the identification for the spectrally defined selector sector. The abstract
+holonomy/refinement-defined sector remains the open identification layer. The spectral layer
+proves the functional-calculus statement after the spectral selector is present. The remaining
+theorem is the identification of the active abstract coherent regime with the spectral low-pass regime
+of the coherent carrier generator on KD .
+
+E.5    Active Coherent Readout Carrier Localization Result
+This support lemma says where the active readout is allowed to live. Its proof role is Pack-side:
+before a Part or Field claim can be read on one terminal object, the readout has to remain attached
+to a controlled carrier region. The lemma applies after the active test class has already been
+restricted to the carrier-localized family Acar
+                                            j,i (t).
+    Under that carrier-localized reading the minimal active support lies inside the fixed collar
+enlargement described by the next inclusion.
+
+                                         min
+                                        Kj,i (t) ⊆ Γj (t)+M .
+
+                                                 118
+    Thus a controlled proper collar Γj (t)+M gives a controlled proper global selector plateau core.
+    The hypothesis is essential. If the active class is enlarged to all coherent readouts in the carrier
+space, support localization becomes a further theorem. Smooth low-pass readouts can have tails,
+and active test readouts can move their localized support across the ambient domain unless the class
+definition fixes carrier support. In that broader class the minimal active support can degenerate to
+the full ambient space,
+
+                                             min
+                                            Kj,i (t) = R3 .
+    That gives only the algebraic full-space selector wj ≡ 1, and it loses the geometric localization
+used by the plateau route.
+    So the localization claim is discharged only for the carrier-localized active class Acar
+                                                                                         j,i (t). For any
+broader active class, the route still owes a separate support-localization theorem.
+    The local fixed-collar selector remains valid for individual collar supports in either case; what
+changes is whether those local supports assemble into a global proper selector core. Thus the
+result supplies Pack support only for the carrier-localized active class; it records an open support-
+localization debt for broader active classes.
+
+E.6    Active-Readout Subordination To Persistent Carrier Core Result
+This result is the companion Pack-side support statement for smooth readouts. A smooth low-pass
+cutoff can have rapid tails, so the useful claim is not literal compact support. The useful claim is a
+core/tail statement: the principal part stays inside the persistent carrier core, and the smooth tail
+is lower-order.
+     Assume the physical localizer is contained in the carrier core,
+
+                                               e i (t) ⊆ Cj (t).
+                                          supp Q
+   The low-pass readout decomposes into its carrier-core and tail pieces as follows.
+
+                                   P≤j v = (P≤j v)core + (P≤j v)tail ,
+   The core support obeys
+                                                         
+                                          e i (P≤j v)core ⊆ Cj (t),
+                                     supp Q
+   and the tail obeys
+
+                                 ∥Q
+                                  e i (P≤j v)tail ∥W 1,∞ ≤ CΦ∗ (ED (X)),
+
+    These two estimates make every active readout subordinate to the persistent carrier core modulo
+the lower-order tail.
+    For standard smooth Littlewood–Paley cutoffs the kernel has rapid tails, so the exact global
+support statement is replaced by the core/tail statement
+
+                           principal support inside Cj (t)     +   tail in Φ∗ .
+    This is the proof role of the result. The global plateau selector acts on the carrier core, while
+the smooth kernel tail is absorbed into the already named Φ∗ remainder. The result does not close
+the low-mode export route by itself; it identifies the carrier region on which later export and Field
+estimates have to be paid.
+
+
+                                                   119
+E.7    Active-Square Control Blocked By Square-Source Estimate
+This subsection records the active-square upgrade that the current source stack would need in
+order to turn shell dissipation into a Carleson-type payment. The desired estimate controls the
+square-time size of a shell dissipation density from a corresponding square-source theorem for the
+shell source Fj .
+                                 Z
+                                   2−j Dj (t)2 dt ≤ εν22j |I| + C2−2δj .
+                                   I
+
+                                   Ej (t0 )2 ≤ cεν 2 2j |I| + Cν2−j 2−2δj .
+                              Z
+                                   |Fj (t)|2 dt ≤ cεν 3 23j |I| + Cν 2 2j 2−2δj .
+                               I
+    The attempted universal square-source estimate runs into fixed-shell cubic amplitude scaling.
+That scaling is the stopping point of this source route.
+    The surviving proof role is clear. Active-square control becomes usable in the proof after one
+replacement is supplied: a valid square-source theorem for Fj , a signed cancellation theorem for the
+shell flux, or a direct active-square Carleson theorem. Until one of those replacements is written,
+this subsection marks the missing theorem for the active-window branch. The Pack, Part, or Field
+landing remains a later step.
+
+E.8    Active-Square Upper-Tail Carleson Attempt And Tail-Square Bypass
+The upper-tail version asks for a Carleson estimate on the same active-square density, summed over
+far shells in the next displayed quantity.
+                      Z       X
+                                      2−j Dj (t)2 dt ≤ εν22k |I| + C2−2δ max(N,k) .
+                      I j≥max(N,k+C )
+                                        1
+
+
+   The density under pressure is 2−j Dj2 . The energy layer supplies DN , while the active-square
+theorem asks for a square-time bound on Dj . A direct absorption would require an active-shell
+amplitude estimate of the form
+
+                                             2−j Dj ≤ Csf,387 ν
+    A newer direct tail-square surface closes the far-separated reserve by the direct tail-square path.
+It proves
+
+                                       F arN (t) ≤ CC0 CE 2−2N DN (t),
+
+
+                                       2−2N EN (t)2 ≤ CE 2−2N DN (t),
+    LPAS remains a live theorem for the lifted-packet/far-corona route. The tail-square reserve is
+already handled by direct tail-square absorption, and the collar product and tail-generated low-mode
+product can use that path.
+
+
+
+
+                                                      120
+

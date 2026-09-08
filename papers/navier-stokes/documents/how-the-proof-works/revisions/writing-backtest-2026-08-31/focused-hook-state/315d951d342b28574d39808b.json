@@ -1,0 +1,1 @@
+{"prompt":"Diagnose the writing failure, assemble the writing configuration, backtest it, and show me the result.","active_lock_ids":[],"turn_id":"1","required_outcome":null,"continuation_guard":{"rejection_count":0,"last_rejected_candidate_sha256":"","last_veto_kind":""},"live_work_contract":{"active":false,"source_prompt":""}}

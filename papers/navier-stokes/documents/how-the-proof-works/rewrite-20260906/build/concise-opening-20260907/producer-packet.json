@@ -1,0 +1,14 @@
+{
+  "task": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/concise-opening-20260907/current-instructions.txt",
+    "sha256": "2db75cbc774e2a6d2efa43b6392ee133aa01f2426a7bb6275910e809df29a004"
+  },
+  "source": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/concise-opening-20260907/before-section.tex",
+    "sha256": "b02d9a16eb61ce2e7ef858c5d753462c2d89701d592908752c7af460167446ec"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/concise-opening-20260907/candidate-section.tex",
+    "sha256": "3278d9a218ccf8e435d42e340e79bb424c12a7fe64b5851132a545dc036d1553"
+  }
+}

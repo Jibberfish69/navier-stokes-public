@@ -1,0 +1,29 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% macros.tex -- project-wide semantic commands
+% ============================================================
+
+% Unnumbered mini-heading inside a manuscript unit.
+\newcommand{\DividerPreSkip}{1.5\baselineskip}
+\newcommand{\DividerPostSkip}{0.5\baselineskip}
+\newcommand{\divider}[1]{%
+  \par\Needspace{6\baselineskip}%
+  \vspace{\DividerPreSkip}%
+  {\noindent\large\textbf{#1}\par}%
+  \vspace{\DividerPostSkip}%
+}
+
+% Common mathematical objects used by the proof sections.
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Nzero}{\mathbb{N}_0}
+\newcommand{\Hinfty}{H^\infty}
+\newcommand{\Hsigma}{H^3_\sigma}
+\newcommand{\Ssigma}{\mathscr S_\sigma}
+\newcommand{\NavierStokes}{Navier--Stokes}
+\newcommand{\Leray}{\mathbb{P}}
+\newcommand{\cR}{\mathcal{R}}
+\newcommand{\cI}{\mathcal{I}}
+\newcommand{\Szero}{\mathscr{S}_0}
+\newcommand{\norm}[1]{\left\lVert #1\right\rVert}
+\newcommand{\pair}[2]{\left\langle #1,#2\right\rangle}
+% !TeX root = ../navier-stokes-manuscript.tex

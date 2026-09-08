@@ -1,0 +1,54 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ===== Engine and encoding: pdfLaTeX profile =====
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\setlength{\emergencystretch}{1.5em}
+
+% ===== Mathematics and formal environments =====
+\usepackage{amsmath,amssymb,mathtools,mathrsfs}
+\usepackage{amsthm}
+\usepackage{bm}
+
+% ===== Figures, tables, and typography =====
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{etoolbox}
+\usepackage{indentfirst}
+\newcommand{\UseManuscriptParagraphSpacing}{%
+  \setlength{\parskip}{0.5\baselineskip}%
+}
+\UseManuscriptParagraphSpacing
+\usepackage{titlesec}
+\usepackage{needspace}
+\usepackage{csquotes}
+\usepackage{xparse}
+\usepackage{tocloft}
+
+% ===== Links and references: load in this order =====
+\usepackage[hidelinks]{hyperref}
+\usepackage[nameinlink,capitalise,noabbrev]{cleveref}
+
+% ===== Bibliography =====
+\ifworkspacebibliography
+\usepackage[
+  backend=biber,
+  citestyle=authoryear,
+  bibstyle=authoryear,
+  sorting=nyt,
+  maxnames=10
+]{biblatex}
+\AtBeginBibliography{\footnotesize\setlength{\bibitemsep}{0pt}}
+\fi
+
+% ===== Page and contents layout =====
+\usepackage[letterpaper,margin=1in]{geometry}
+\setcounter{tocdepth}{2}

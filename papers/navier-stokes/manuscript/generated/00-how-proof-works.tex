@@ -1,0 +1,235 @@
+\begingroup
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.60\baselineskip}
+\setlength{\abovedisplayskip}{6pt plus 1pt minus 1pt}
+\setlength{\belowdisplayskip}{6pt plus 1pt minus 1pt}
+\setlength{\jot}{5pt}
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\section*{How the Proof Works}
+
+The three-dimensional Navier--Stokes regularity problem asks whether a smooth fluid flow can lose its smoothness in finite time. We start with smooth, divergence-free initial velocity \(u_0\), finite energy, and positive viscosity. The fluid evolves according to
+\[
+\partial_tu+(u\cdot\nabla)u=-\nabla p+\nu\Delta u,
+\qquad \nabla\cdot u=0.
+\]
+
+The problem starts with a vortex.
+
+Strain within the surrounding flow can stretch a vortex. As the vortex lengthens, incompressibility makes it thinner, and the fluid can spin faster as its rotation concentrates into the smaller cross-section. Viscosity spreads the vorticity while the surrounding flow continues pulling on the vortex. Even if the vortex loses circulation, its rotation can intensify if its cross-section shrinks fast enough. The narrowing and the viscous spreading happen together, and the danger lies in how their rates develop.
+
+Physically, we never witness a singularity in a real fluid. What we actually
+see is a vortex spinning faster and faster, getting thinner and thinner as
+it stretches, until it dissipates into the surrounding fluid and disappears
+altogether.
+
+So the intuition is that, perhaps, as the vortex thins out and speeds up,
+viscosity does something that allows it to overcome the nonlinear transport.
+But the equations describe an idealized continuum, with no minimum radius
+built into the model. We have to allow for the possibility that the vortex
+keeps narrowing toward an infinitesimally small radius. To study what happens
+there, we rescale the equations and examine how viscosity and nonlinear
+transport behave as the vortex becomes smaller and faster.
+
+Contract lengths by a factor \(\lambda>1\), increase the velocity by
+\(\lambda\), and run the motion \(\lambda^2\) times as fast:
+\[
+ u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
+ \qquad p_\lambda(x,t)=\lambda^2p(\lambda x,\lambda^2t).
+\]
+All terms in the momentum equation scale by \(\lambda^3\), preserving
+the balance between transport and viscosity at fixed \(\nu\). The velocity
+gradients scale by \(\lambda^2\), since the increase in speed is compressed
+into a smaller distance.
+
+Yet the energy decreases, because the \(\lambda^2\) increase in velocity
+squared is outweighed by the \(\lambda^{-3}\) decrease in volume:
+\[
+ E[u_\lambda](t)=\lambda^{-1}E[u](\lambda^2t),
+ \qquad E[u]=\frac12\int_{\mathbb R^3}|u|^2\,dx.
+\]
+
+A Sobolev norm includes the growing spatial derivatives in the measurement.
+Its order \(s\) contributes \(\lambda^s\), alongside the
+\(\lambda^{-1/2}\) from the velocity's \(L^2\) scaling:
+\[
+ \|u_\lambda(\cdot,t)\|_{\dot H^s}
+ =\lambda^{s-1/2}\|u(\cdot,\lambda^2t)\|_{\dot H^s}.
+\]
+Below \(s=\tfrac12\), the norm decreases under contraction; above it,
+the norm increases. At the critical height \(s=\tfrac12\), the growing
+velocity and spatial variation exactly compensate for the shrinking
+volume, leaving the norm unchanged.
+
+If each contraction generated another, the time rescaling would give the
+stages progressively shorter durations:
+\[
+ \tau_j=\lambda^{-2j}\tau_0,
+ \qquad \sum_{j=0}^{\infty}\tau_j
+ =\frac{\tau_0}{1-\lambda^{-2}}<\infty.
+\]
+The infinitely many stages would accumulate at a finite time, with the
+radius tending to zero and the velocity and its gradients growing without
+bound. This is the hypothetical Zeno cascade, and the critical height now
+looks like finite-time blowup.
+
+If a singularity were to actually form, the velocity would have to blow up,
+which means the acceleration would have to blow up, followed by its jerk,
+and so on, and so on.
+
+The equation already contains these derivatives. Differentiate it once,
+then again. Each time derivative of transport can fall on either velocity
+factor, giving
+\begin{flalign*}
+ &\partial_tu=\nu\Delta u-(u\cdot\nabla)u-\nabla p,&&\\
+ &\partial_t^2u=\nu\Delta\partial_tu-(\partial_tu\cdot\nabla)u
+   -(u\cdot\nabla)\partial_tu-\nabla\partial_tp,&&\\
+ &\partial_t^3u=\nu\Delta\partial_t^2u-(\partial_t^2u\cdot\nabla)u
+   -2(\partial_tu\cdot\nabla)\partial_tu
+   -(u\cdot\nabla)\partial_t^2u-\nabla\partial_t^2p.&&
+\end{flalign*}
+The coefficient two counts the two ways the middle product appears.
+Continuing gives the temporal derivative tower. Writing the derivatives at
+fixed spatial coordinates as \(V_n=\partial_t^nu\) and
+\(Q_n=\partial_t^np\), its general row is
+\[
+ \begin{aligned}
+ V_{n+1}&=\nu\Delta V_n
+ -\sum_{a=0}^{n}\binom na(V_a\cdot\nabla)V_{n-a}-\nabla Q_n,\\
+ -\Delta Q_n&=\partial_i\partial_j
+   \sum_{a=0}^{n}\binom na V_{a,i}V_{n-a,j}.
+ \end{aligned}
+\]
+Taking the divergence fixes the pressure equation, and decay at spatial
+infinity fixes its normalization. Every temporal row is also a spatial
+field. Taking its spatial derivatives gives the mixed jet
+\(J_{n,\alpha}=\partial_x^\alpha\partial_t^nu\), with pressure derivatives
+\(\Pi_{n,\alpha}=\partial_x^\alpha\partial_t^np\). The product rule now
+acts in both directions:
+\[
+ \begin{aligned}
+ J_{n+1,\alpha}
+ &=\nu\Delta J_{n,\alpha}-\nabla\Pi_{n,\alpha}\\
+ &\quad-\sum_{a=0}^{n}\sum_{\beta\le\alpha}
+   \binom na\binom\alpha\beta
+   (J_{a,\beta}\cdot\nabla)J_{n-a,\alpha-\beta}.
+ \end{aligned}
+\]
+Time order and spatial order can each be taken as far as we need. Their
+entries remain derivatives of the original velocity, and the equation
+relates them throughout the tower.
+
+The temporal escalation suggests a velocity field that is also becoming
+spatially rougher. We would expect the concentrating vortex to develop
+unbounded gradients and higher spatial derivatives, losing the spatial
+control required for smoothness.
+
+The critical-height quantity makes the spatial orders in this sequence
+explicit. Write \(E_s=\tfrac12\|\Lambda^su\|_2^2\), where
+\(\Lambda=(-\Delta)^{1/2}\), and let \(H=E_{1/2}\). Pairing the equation
+with \(\Lambda^{2s}u\) turns the viscous contribution into
+\(-\nu\|\Lambda^{s+1}u\|_2^2=-2\nu E_{s+1}\), giving
+\[
+ E_s'=-2\nu E_{s+1}+\mathcal P_s,
+ \qquad
+ \mathcal P_s=-\operatorname{Re}\langle\Lambda^su,
+ \Lambda^s((u\cdot\nabla)u+\nabla p)\rangle.
+\]
+One time derivative exposes an energy one spatial height higher.
+Differentiating again and substituting this relation into the next height
+gives
+\[
+ \begin{aligned}
+ H'&=-2\nu E_{3/2}+\mathcal P_{1/2},\\
+ H''&=4\nu^2E_{5/2}-2\nu\mathcal P_{3/2}
+       +\partial_t\mathcal P_{1/2},\\
+ H^{(n)}&=(-2\nu)^nE_{n+1/2}
+       +\sum_{j=0}^{n-1}(-2\nu)^j
+          \partial_t^{\,n-1-j}\mathcal P_{j+1/2}.
+ \end{aligned}
+\]
+Because \(\nu>0\), the coefficient \((-2\nu)^n\) never vanishes.
+The \(n\)th temporal row determines \(E_{n+1/2}\) when its nonlinear
+and pressure contributions are retained. Every step up the temporal tower
+reaches another spatial Sobolev level. With finite energy also controlling
+the low frequencies, these levels are
+\[
+ H^{1/2},\qquad H^{3/2},\qquad H^{5/2},\qquad H^{7/2},\qquad\ldots.
+\]
+For each spatial derivative order \(k\), the Sobolev embedding theorem
+gives bounded continuous derivatives through that order when
+\(s>k+\tfrac32\). Membership at arbitrarily high spatial levels would
+then control every derivative whose breakdown the cascade led us to expect.
+Those simultaneous requirements give the intersection
+\[
+ \begin{aligned}
+ L^2\cap\bigcap_{n\ge0}\dot H^{n+1/2}(\mathbb R^3)
+ &=\bigcap_{m\ge0}H^m(\mathbb R^3)\\
+ &=H^\infty(\mathbb R^3)\hookrightarrow C_b^\infty(\mathbb R^3).
+ \end{aligned}
+\]
+Beginning at \(1/2\) connects the tower to the scaling problem. The
+smoothness implication holds for membership along any sequence of Sobolev
+heights tending to infinity.
+
+The compatible-intersection theorem establishes these requirements together
+on the full approach to a proposed finite maximal time \(T_*\), starting
+from \(u_0\in H^\infty_\sigma(\mathbb R^3)\):
+\[
+ u\in\bigcap_{r,m\ge0}H^r(0,T_*;H^m(\mathbb R^3)).
+\]
+Each finite temporal and spatial requirement holds throughout that interval,
+with transport and normalized pressure retained. The orders can have
+different bounds. Their compatibility comes from belonging to the velocity
+generated by \(u_0\). Every temporal row is spatially smooth, and the time
+Sobolev orders give smoothness in time as well.
+
+To use the construction at a chosen finite order, retain temporal rows
+\(V_0,\ldots,V_N\) at spatial height \(M\), together with their adjacent
+derivatives and pressure. This finite portion is a rectangle:
+\[
+ V_n\in L^2(0,T_*;H^{M+1}),\qquad
+ V_{n+1}\in L^2(0,T_*;H^{M-1}),\qquad 0\le n\le N,
+\]
+with \(Q_n\in L^1(0,T_*;H^M)\). These are the finite pieces established
+from the datum in the rectangle theorem and assembled by the
+compatible-intersection theorem. A larger rectangle retains every derivative
+already present in a smaller one. We can choose the depth and height needed
+for a calculation without changing the velocity those coordinates describe.
+
+In particular, choose a height large enough to put \(V_{n+1}\) in
+\(L^2(0,T_*;H^m)\). Between two late times,
+\[
+ \|V_n(t)-V_n(s)\|_{H^m}
+ \le(t-s)^{1/2}\|V_{n+1}\|_{L^2(s,t;H^m)},
+ \qquad s<t<T_*.
+\]
+The remaining change tends to zero, so the row reaches an \(H^m\) limit.
+Limits at different spatial heights agree under restriction. For the
+velocity they identify a smooth endpoint
+\(u_*\in H^\infty_\sigma(\mathbb R^3)\), with the higher temporal rows
+and normalized pressure reaching their compatible endpoints. Local existence
+continues from \(u_*\), and uniqueness joins that continuation to the
+incoming flow. A finite \(T_*\) cannot be maximal.
+
+The finite estimates now come from whichever rectangle contains the
+orders they require. For temporal order \(r\), spatial derivative order
+\(k\), and finite time \(T\), choose \(m>k+\tfrac32\). Continuity in
+\(H^m\) and Sobolev embedding give
+\[
+ \sup_{0\le t\le T}\|\partial_t^ru(t)\|_{W^{k,\infty}}
+ \le C_{m,k}\sup_{0\le t\le T}\|\partial_t^ru(t)\|_{H^m}<\infty.
+\]
+In particular, the accumulated velocity gradient is finite. For two material
+trajectories, this gives
+\[
+ |X(a,t)-X(b,t)|\ge |a-b|
+ \exp\!\left(-\int_0^t\|\nabla u(s)\|_\infty\,ds\right)>0.
+\]
+The vortex can stretch and narrow, but a positive material separation
+retains a positive lower bound throughout each finite interval. The
+intersection supplies the regularity, and its finite rectangles supply
+the estimates at the orders where we need them.
+
+\endgroup

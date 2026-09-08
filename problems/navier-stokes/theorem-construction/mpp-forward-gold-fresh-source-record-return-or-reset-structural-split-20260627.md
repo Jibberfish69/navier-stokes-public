@@ -17,14 +17,14 @@ attacks_hinge:
 The source-origin normal form is no longer the global frontier. Its role is local support:
 
 ```math
-\text{Schur-invisible pressure-Hodge material}
+\text{Schur-invisible pressure-Helmholtz--Leray material}
 \Rightarrow
 \text{unselected hidden-potential material}
 \quad\text{or}\quad
 \text{same-material strain/exchange paid selected material}.
 ```
 
-Thus the surviving obstruction is a fresh selected half-tail, not pressure-Hodge invisibility.
+Thus the surviving obstruction is a fresh selected half-tail, not pressure-Helmholtz--Leray invisibility.
 
 The live target is a structural dichotomy:
 

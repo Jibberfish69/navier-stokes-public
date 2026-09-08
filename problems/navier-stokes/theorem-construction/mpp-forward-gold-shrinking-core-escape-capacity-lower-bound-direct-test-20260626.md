@@ -11,13 +11,13 @@ Q_k,
 \qquad r_k\downarrow 0,
 ```
 
-while retaining unit selected pressure-Hodge / critical-strain action:
+while retaining unit selected pressure-Helmholtz--Leray / critical-strain action:
 
 ```math
 A(Q_k)\simeq 1.
 ```
 
-To close this branch one needs a non-summable lower bound for the same-history pressure-Hodge, collar, or turnstile capacity cost of these escaping cores.
+To close this branch one needs a non-summable lower bound for the same-history pressure-Helmholtz--Leray, collar, or turnstile capacity cost of these escaping cores.
 
 ## 2. Raw capacity scaling
 
@@ -39,7 +39,7 @@ while the normalized selected material-time action satisfies
 \sum_k A(Q_k)=\infty.
 ```
 
-Thus ordinary elliptic capacity, collar area, or raw pressure-Hodge boundary cost is too weak to pay the first-ratio action.
+Thus ordinary elliptic capacity, collar area, or raw pressure-Helmholtz--Leray boundary cost is too weak to pay the first-ratio action.
 
 ## 3. Required stronger statement
 
@@ -63,7 +63,7 @@ The shrinking-core branch is therefore not closed by standard capacity. It needs
 
 Statement:
 
-For one original smooth Navier-Stokes material history, an infinite terminal family of shrinking material cores cannot each carry unit selected pressure-Hodge / critical-strain action with summable raw pressure-Hodge/collar/turnstile capacity cost.
+For one original smooth Navier-Stokes material history, an infinite terminal family of shrinking material cores cannot each carry unit selected pressure-Helmholtz--Leray / critical-strain action with summable raw pressure-Helmholtz--Leray/collar/turnstile capacity cost.
 
 Equivalently, either the selected capacity itself has a finite original-data root bound, or shrinking-core escape is impossible by a same-history compactness/packing law stronger than raw capacity.
 

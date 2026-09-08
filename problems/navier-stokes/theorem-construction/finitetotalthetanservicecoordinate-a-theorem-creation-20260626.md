@@ -4,12 +4,12 @@
 
 - target obligation: FiniteTotalThetaNServiceCoordinate.A
 - target label: finite total same-material service coordinate for the original material history
-- route role: The paid pieces of the service coordinate are already localized or absorbed: initial high-frequency entrance, linear viscous high-frequency tail, fixed finite collars, relative pressure/collar defect, Hodge overcount, and endpoint first-time-rung channel. The active unpaid densities are the cubic strain/gradient collar service and pressure-time elliptic service. Energy and local storage do not pay them. The noncircular target is retention of the global same-material pressure/strain partner before rectification.
+- route role: The paid pieces of the service coordinate are already localized or absorbed: initial high-frequency entrance, linear viscous high-frequency tail, fixed finite collars, relative pressure/collar defect, Helmholtz--Leray overcount, and endpoint first-time-rung channel. The active unpaid densities are the cubic strain/gradient collar service and pressure-time elliptic service. Energy and local storage do not pay them. The noncircular target is retention of the global same-material pressure/strain partner before rectification.
 - theorem family: full-same-material-action
 
 ## Created Theorem
 
-FiniteTotalThetaNServiceCoordinate.A. The paid pieces of the service coordinate are already localized or absorbed: initial high-frequency entrance, linear viscous high-frequency tail, fixed finite collars, relative pressure/collar defect, Hodge overcount, and endpoint first-time-rung channel. The active unpaid densities are the cubic strain/gradient collar service and pressure-time elliptic service. Energy and local storage do not pay them. The noncircular target is retention of the global same-material pressure/strain partner before rectification. This supplies the exact noncircular bridge needed for finite total same-material service coordinate for the original material history.
+FiniteTotalThetaNServiceCoordinate.A. The paid pieces of the service coordinate are already localized or absorbed: initial high-frequency entrance, linear viscous high-frequency tail, fixed finite collars, relative pressure/collar defect, Helmholtz--Leray overcount, and endpoint first-time-rung channel. The active unpaid densities are the cubic strain/gradient collar service and pressure-time elliptic service. Energy and local storage do not pay them. The noncircular target is retention of the global same-material pressure/strain partner before rectification. This supplies the exact noncircular bridge needed for finite total same-material service coordinate for the original material history.
 
 ## Inventive Search
 
@@ -19,7 +19,7 @@ FiniteTotalThetaNServiceCoordinate.A. The paid pieces of the service coordinate 
 - selected_mechanism: finite_theta_active_density_to_global_pressure_strain_partner_retention
 - candidate_count: 1
 - solver_chain_verdict: open
-- selection_reason: This theorem is the right next move because it changes the proof economy: The paid pieces of the service coordinate are already localized or absorbed: initial high-frequency entrance, linear viscous high-frequency tail, fixed finite collars, relative pressure/collar defect, Hodge overcount, and endpoint first-time-rung channel. The active unpaid densities are the cubic strain/gradient collar service and pressure-time elliptic service. Energy and local storage do not pay them. The noncircular target is retention of the global same-material pressure/strain partner before rectification. It deliberately reduces the remaining work to GlobalPressureStrainPartnerRetention.A rather than pretending the frontier is closed.
+- selection_reason: This theorem is the right next move because it changes the proof economy: The paid pieces of the service coordinate are already localized or absorbed: initial high-frequency entrance, linear viscous high-frequency tail, fixed finite collars, relative pressure/collar defect, Helmholtz--Leray overcount, and endpoint first-time-rung channel. The active unpaid densities are the cubic strain/gradient collar service and pressure-time elliptic service. Energy and local storage do not pay them. The noncircular target is retention of the global same-material pressure/strain partner before rectification. It deliberately reduces the remaining work to GlobalPressureStrainPartnerRetention.A rather than pretending the frontier is closed.
 
 ### Candidate Theorems
 

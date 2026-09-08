@@ -1,0 +1,346 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\clearpage
+\section{The Missing Estimate and Global Smoothness}\label{sec:TheMissingEstimateAndGlobalSmoothness}
+
+The table and its finite rectangles have reduced the endpoint to one demand:
+fix the rectangle first, then find a bound that survives every cutoff.  The
+lowest rectangle is enough to expose where that payment must come from.
+
+\input{Section3-IntersectionTheorem/3.4-TheIntersectionTheorem.tex}
+
+\subsection{The intersection reaches one terminal datum}\label{sub:NoFiniteSingularTime}
+
+Keep the alleged finite branch in view.  Under
+\Cref{ass:BodyWholeTerminalRectangleCondition}, the mixed intersection does not
+end as a list of norms.  Its adjacent controls force every spatial reading of
+the same velocity to arrive at the same time slice.
+
+\begin{proposition}[One terminal datum from the mixed intersection]
+\label[proposition]{prop:BodyTerminalDatumFromIntersection}
+Suppose \(T_*<\infty\) and the maximal history obeys
+\Cref{ass:BodyWholeTerminalRectangleCondition}.  Then
+\begin{equation}\label{eq:BodyCommonSmoothEndpoint}
+  u_*:=\lim_{t\uparrow T_*}u(t)
+  \in\Hinfty_\sigma(\R^3)
+  =\bigcap_{m<\infty}H^m_\sigma(\R^3).
+\end{equation}
+Every temporal response has one trace
+\[
+  V_N^*:=\lim_{t\uparrow T_*}\partial_t^Nu(t)\in\Hinfty(\R^3),
+  \qquad N\in\Nzero,
+\]
+and those traces retain the normalized pressure and velocity recurrences
+\begin{align*}
+  Q_N^*
+  &=R_iR_j\sum_{a=0}^{N}\binom{N}{a}V_{a,i}^*V_{N-a,j}^*,
+  \\
+  V_{N+1}^*
+  &=\nu\Delta V_N^*
+  -\sum_{a=0}^{N}\binom{N}{a}(V_a^*\cdot\nabla)V_{N-a}^*
+  -\nabla Q_N^*.
+\end{align*}
+\end{proposition}
+
+\begin{proof}
+\Cref{prop:BodyCompatibleProjectiveAssembly} gives
+\[
+  u\in\bigcap_{r,m<\infty}H^r(I_*;H^m(\R^3)).
+\]
+Hold one spatial height \(m\) fixed.  The temporal row \(r=1\) puts \(u\) in
+\(H^1(I_*;H^m)\), so the actual history has an \(H^m\) limit as
+\(t\uparrow T_*\).  A higher spatial row cannot produce a different limit:
+after embedding it into \(H^m\), both limits come from the same \(u(t)\).
+The complete-row argument in \Cref{lem:CompleteSpatialRowEndpoint} makes these
+limits the one datum in \eqref{eq:BodyCommonSmoothEndpoint}.
+
+Now hold \(N\) fixed.  The row \(r=N+1\) places
+\(V_N=\partial_t^Nu\) in \(H^1(I_*;H^m)\) for every finite \(m\).  Its trace
+is \(V_N^*\in\Hinfty\).  Passing to the limit in the two recurrences identifies
+the pressure and the next velocity response exactly as written above; this is
+the pressure-complete endpoint jet proved in
+\Cref{prop:PressureCompleteEndpointJet}.
+\end{proof}
+
+The alleged last time has now become a genuine smooth time slice.  Do not
+restart it yet.  First return, on this same finite branch, to the critical
+height and to the gradient that stretches the vortex.  Every conclusion through
+\Cref{sub:TheLocalSingularityPictureCloses} still depends on the whole-terminal
+rectangle condition; none of them derives that condition from \((u_0,\nu)\).
+
+\subsection{The critical-height roof}\label{sub:ClassicalContinuationCriteriaInsideFiniteRectangles}
+
+On this alleged finite branch, once the \(H^1\) trace reaches the terminal face,
+the critical height cannot keep climbing underneath it.  Indeed,
+\(H=\tfrac12\norm{\Lambda^{1/2}u}_2^2\), so
+\begin{equation}\label{eq:BodyCriticalHeightRoof}
+  H_{\max}
+  :=\sup_{0\leq t\leq T_*}H(t)
+  \leq\frac12\sup_{0\leq t\leq T_*}\norm{u(t)}_{H^1}^2
+  <\infty.
+\end{equation}
+Start at any positive height \(H_0\), double it successively by
+\(L_k:=2^kH_0\), and count the levels the same history actually reaches:
+\[
+  N_{\mathrm{levels}}
+  :=
+  \#\bigl\{k\in\Nzero:\text{there is a }t\in[0,T_*]\text{ with }H(t)=L_k\bigr\}.
+\]
+The roof leaves room for only finitely many such doublings:
+\begin{equation}\label{eq:BodyFiniteZenoOctaveCount}
+  N_{\mathrm{levels}}
+  \leq
+  \begin{cases}
+    0,&H_{\max}<H_0,\\
+    1+\left\lfloor\log_2(H_{\max}/H_0)\right\rfloor,
+      &H_{\max}\geq H_0.
+  \end{cases}
+\end{equation}
+This conclusion never asks how quickly one level is crossed.  It rules out an
+infinite succession of critical-height doublings.  It does not rule out an
+infinite succession of smaller widths at the same height: the rescaled profile
+in Section~\ref{sec:CriticalHeightAndDerivativeTower} was built to show exactly
+that possibility.  The roof closes escalation in \(H\); the geometric picture
+still has to close concentration at fixed \(H\).
+
+The next rectangle, \(\cR_{0,2}\), follows the motion below the roof rather than
+only its maximum:
+\begin{equation}\label{eq:LowRectangleZeroTwo}
+  u\in L^2(I_*;H^3),
+  \qquad
+  u_t\in L^2(I_*;H^1),
+  \qquad
+  u\in C([0,T_*];H^2).
+\end{equation}
+The two adjacent controls now contain both factors in the derivative
+\[
+  H'(t)
+  =\operatorname{Re}
+  \pair{\Lambda^{1/2}u(t)}{\Lambda^{1/2}u_t(t)}_{L^2},
+\]
+and Cauchy--Schwarz bounds its total variation:
+\begin{equation}\label{eq:CriticalHeightTotalVariationBound}
+  \int_0^{T_*}|H'(t)|\,dt
+  \leq
+  \norm{\Lambda^{1/2}u}_{L^2_tL^2_x}
+  \norm{\Lambda^{1/2}u_t}_{L^2_tL^2_x}
+  <\infty.
+\end{equation}
+For a vortex, the decisive entry in \(\cR_{0,2}\) is
+\(u\in L^2(I_*;H^3)\).  In three dimensions
+\(H^3\hookrightarrow W^{1,\infty}\), whence
+\[
+  \int_0^{T_*}\norm{\nabla u(t)}_\infty\,dt
+  \leq
+  T_*^{1/2}\norm{u}_{L^2(I_*;H^3)}<\infty.
+\]
+Both vorticity and strain are parts of this gradient.  Their accumulated action
+before \(T_*\) is finite in the precise sense
+\begin{equation}\label{eq:FiniteLipschitzVorticityStrainAction}
+  \int_0^{T_*}
+  \left(
+    \norm{\nabla u(t)}_\infty
+    +\norm{\omega(t)}_\infty
+    +\norm{S(t)}_\infty
+  \right)dt
+  <\infty.
+\end{equation}
+
+\subsection{The two vortex readings}\label{sub:ClosingCriticalHeightZenoAndTheVortex}
+
+What does a narrowing core mean for the fluid inside it?
+There are two answers to separate.  The first follows the same material
+particles.  The second allows the visible concentration to replace its
+particles as it moves.  Neither exhausts singular geometry, but each makes a
+different claim that the rectangle bounds can test.
+
+Follow the fixed labels first.
+Let \(X(a,t)\) solve
+\[
+  \partial_tX(a,t)=u(X(a,t),t),
+  \qquad
+  X(a,0)=a.
+\]
+Two such trajectories satisfy
+\[
+  \frac d{dt}|X(a,t)-X(b,t)|
+  \geq
+  -\norm{\nabla u(t)}_\infty|X(a,t)-X(b,t)|,
+\]
+and the finite Lipschitz action integrates this differential inequality to
+\begin{equation}\label{eq:BodyMaterialCoreLowerBound}
+  |X(a,t)-X(b,t)|
+  \geq
+  |a-b|
+  \exp\!\left(
+    -\int_0^t\norm{\nabla u(s)}_\infty\,ds
+  \right)
+  >0
+\end{equation}
+Because the same row also puts \(u\) in \(L^1(I_*;L^\infty)\), every trajectory
+has a limit at \(T_*\).  Letting \(t\uparrow T_*\) preserves the lower bound:
+\[
+  |X(a,T_*)-X(b,T_*)|
+  \geq |a-b|\exp\!\left(-\int_0^{T_*}\norm{\nabla u(s)}_\infty\,ds\right)>0.
+\]
+Distinct labels remain spatially distinct at the terminal time.
+If a drawn core collapses to one point, it cannot still contain exactly the
+material core with which it began.
+
+Even perfect centring cannot rescue a nonzero circulation from this fixed-label
+picture.  The adjacent trace of \(\cR_{0,3}\) gives
+\(u\in C([0,T_*];H^3)\); since \(H^3(\R^3)\hookrightarrow
+W^{1,\infty}(\R^3)\),
+\begin{equation}\label{eq:BodyUniformLipschitzBound}
+  L_*:=\sup_{0\leq t\leq T_*}\norm{\nabla u(t)}_\infty<\infty.
+\end{equation}
+Relative velocity at any chosen centre \(x_c(t)\) obeys
+\[
+  |u(t,x)-u(t,x_c)|\leq L_*|x-x_c|.
+\]
+Around a circular cross-section \(C_r(t)\), the constant centre velocity
+integrates to zero.  What remains is bounded by its Lipschitz variation:
+\begin{equation}\label{eq:BodyCenteredCirculationBound}
+  \left|
+    \oint_{C_r(t)}u(t,x)\cdot d\ell
+  \right|
+  \leq2\pi L_*r^2
+  \longrightarrow0
+  \qquad(r\downarrow0).
+\end{equation}
+As \(r\) shrinks, the tangential velocity relative to the centre is \(O(r)\)
+and the circuit has length \(O(r)\).  Their product is \(O(r^2)\), so this
+centred material core cannot carry a nonzero limiting circulation.
+
+Now let membership change.  Particle separation no longer tracks the visible
+core.  One precise spectral version of repeated recruitment says that a fixed
+amount of critical content survives at smaller and smaller wavelengths.  That
+version can be tested in the high-frequency tail of the whole velocity field.
+For \(s>1/2\) and \(K\geq1\), define
+\[
+  H_{>K}(t)
+  :=\frac12\int_{|\xi|>K}
+  |\xi|\,|\widehat u(t,\xi)|^2\,d\xi.
+\]
+For every \(s>1/2\), the tail satisfies
+\begin{equation}\label{eq:BodyUltravioletCriticalTail}
+  H_{>K}(t)
+  \leq
+  \frac12K^{1-2s}\norm{u(t)}_{\dot H^s}^2.
+\end{equation}
+Choose one integer \(m\geq s\).  The compatible assembly and adjacent trace
+proved in \Cref{prop:BodyCompatibleProjectiveAssembly,lem:AdjacentHilbertScaleTrace},
+followed by \(H^m\hookrightarrow\dot H^s\), make the estimate uniform in time
+and force
+\begin{equation}\label{eq:BodyUniformUltravioletVanishing}
+  \lim_{K\to\infty}
+  \sup_{0\leq t\leq T_*}H_{>K}(t)=0.
+\end{equation}
+Activity may move between scales, but it cannot leave a fixed amount of critical
+height beyond every cutoff.  This rules out the spectral version just stated.
+It does not prove that every geometrically narrowing core with changing
+membership must create such a tail; that geometric-to-Fourier implication would
+require a separate localization argument.  What the two calculations establish
+is narrower: fixed labels cannot collapse and their centred circulation
+vanishes, while a changing-membership model cannot preserve a fixed critical
+tail arbitrarily far into the ultraviolet.
+
+\subsection{The singularity conditions fail at both scales}\label{sub:TheLocalSingularityPictureCloses}
+
+The local signature disappears at the same alleged endpoint.  The common
+terminal trace in \Cref{lem:CompleteSpatialRowEndpoint} puts \(u\) in
+\(C([0,T_*];H^m)\) at every finite height.  Choose
+\(m>3/2\).  Since \(H^m(\R^3)\) is an algebra, the normalized pressure formula
+\(p=R_iR_j(u_i u_j)\) gives the common ceiling
+\begin{equation}\label{eq:FiniteIntervalVelocityPressureSupremum}
+  K_*
+  :=\sup_{0\leq t\leq T_*}
+  \left(
+    \norm{u(t)}_{L^\infty}
+    +\norm{p(t)}_{L^\infty}
+  \right)
+  <\infty.
+\end{equation}
+Now choose \(z_*=(x_*,T_*)\) on the terminal face.  For \(\rho>0\) small
+enough, place the backward parabolic cylinder
+\[
+  Q_\rho(z_*)
+  =B_\rho(x_*)\times(T_*-\rho^2,T_*)
+  \subset\R^3\times(0,T_*].
+\]
+Its spatial volume and time length contribute \(\rho^5\).  Dividing by the
+critical factor \(\rho^2\) still leaves three powers of the radius:
+\begin{equation}\label{eq:VanishingLocalScaleInvariantContent}
+  \rho^{-2}
+  \iint_{Q_\rho(z_*)}
+  \left(|u|^3+|p|^{3/2}\right)\,dx\,dt
+  \leq
+  C\rho^3\left(K_*^3+K_*^{3/2}\right)
+  \longrightarrow0
+  \qquad(\rho\downarrow0).
+\end{equation}
+A Caffarelli--Kohn--Nirenberg singular point would require a positive
+scale-invariant amount of velocity-pressure content to survive along shrinking
+cylinders \parencite{CaffarelliKohnNirenberg1982}.  Here that content vanishes.
+
+This is the return promised by the vortex picture.  The alleged endpoint has
+become a smooth time slice.  The critical height cannot climb through
+infinitely many doublings, but that roof is not being used as a bound on the
+number of spatial scales.  The remaining calculations answer the precise
+fixed-height scenarios posed above: the stretching action is integrable, a
+fixed material core cannot collapse its labels, a fixed critical tail cannot
+survive arbitrarily far into high frequency, and the local velocity-pressure
+content loses the mass a singular point would need at every smaller scale.
+
+\subsection{Restarting the same history}\label{sub:ConditionalGlobalRestart}
+
+The terminal slice still belongs to the history that began at \(u_0\).  It can
+now be used as initial data without changing the velocity, the pressure
+normalization, or any response by which the history arrived there.
+
+\begin{theorem}[Conditional global closure from whole-terminal rectangles]
+\label{thm:MainGlobalRegularity}
+Let \(\nu>0\) and \(u_0\in\Ssigma\), and assume that the maximal classical
+history generated by \((u_0,\nu)\) obeys
+\Cref{ass:BodyWholeTerminalRectangleCondition}.  Then
+\begin{equation}\label{eq:BodyGlobalSmoothnessConclusion}
+  T_*=\infty,
+  \qquad
+  u,p\in C^\infty\!\bigl(\R^3\times[0,\infty)\bigr).
+\end{equation}
+For every \(t\geq0\),
+\begin{equation}\label{eq:GlobalEnergyConclusion}
+  \frac12\norm{u(t)}_2^2
+  +\nu\int_0^t\norm{\nabla u(s)}_2^2\,ds
+  =\frac12\norm{u_0}_2^2.
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+Suppose \(T_*<\infty\).  The rectangle condition activates on this branch, and
+\Cref{prop:BodyTerminalDatumFromIntersection} gives the common smooth datum
+\(u_*\) and its pressure-complete left jet.  Use \(u_*\) as initial data at time
+\(T_*\).  The smooth local construction in \Cref{lem:SmoothLocalRestart} gives a
+right-hand history on \([T_*,T_*+\delta]\).  Its recurrence begins from the same
+datum and the same pressure normalization, so its jet agrees with the left-hand
+traces.  The join is smooth.  Strong uniqueness makes it the continuation of
+the history generated by \(u_0\), contradicting the definition of \(T_*\).
+
+Hence \(T_*=\infty\), and the normalized pair is smooth on every finite time
+interval.  The kinetic-energy identity in
+\Cref{prop:ClassicalKineticEnergyIdentity} holds on every initial segment and
+gives \eqref{eq:GlobalEnergyConclusion}.  In particular,
+\[
+  \sup_{t\geq0}\int_{\R^3}|u(x,t)|^2\,dx
+  \leq
+  \int_{\R^3}|u_0(x)|^2\,dx
+  <\infty.
+\]
+This is the global history required in
+\eqref{eq:WholeSpaceRegularityTarget}.
+\end{proof}
+
+The restart closes the implication from whole-terminal rectangles to global
+smoothness.  The unpaid direction is still the one isolated in
+\eqref{eq:BodyFirstRectangleSignedPrefixEquivalence}: this manuscript has not
+derived even the lowest rectangle, or equivalently \(D_*<\infty\), from an
+arbitrary pair \((u_0,\nu)\).

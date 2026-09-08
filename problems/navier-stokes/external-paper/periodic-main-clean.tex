@@ -1,0 +1,50 @@
+\section{Periodic Navier--Stokes Conditional Continuation}
+
+\paragraph{Current status.}
+This file is not a closed proof of periodic global smoothness.  The remaining
+open ingredient is the noncircular same-parent coupled active-capacity/full-
+exchange storage theorem at the Gold \(L^1\) source wall.  The argument below is
+only the continuation consequence available after that coupled parent-storage
+object is proved.
+
+\begin{proposition}[Conditional periodic global smoothness consequence]
+Let $\nu>0$ and let
+\[
+  u_0\in C^\infty(\mathbb T^3;\mathbb R^3),
+  \qquad \nabla\cdot u_0=0,
+  \qquad \int_{\mathbb T^3}u_0\,dx=0.
+\]
+Then the unforced incompressible Navier--Stokes system
+\[
+  \partial_tu+u\cdot\nabla u+\nabla p=\nu\Delta u,
+  \qquad \nabla\cdot u=0,
+  \qquad u(0)=u_0,
+\]
+on $\mathbb T^3$ has a unique global smooth solution
+\[
+  u\in C^\infty([0,\infty)\times\mathbb T^3).
+\]
+\end{proposition}
+
+\begin{proof}
+Let $(u,p)$ be the maximal smooth solution on $[0,T_*)$ supplied by the classical local theory. Suppose $T_*<\infty$.
+
+Assume the terminal-tail uniformization package applies to the original periodic solution. It gives a finite retained terminal readout cover, pointwise field coherence, and a finite-depth transported-center tower on the terminal approach tail. At the current checked frontier this package still depends on the unproved coupled same-parent active-capacity/full-exchange storage theorem.
+
+The pointwise endpoint matrix is exhaustive: a first finite endpoint must enter one of the four endpoint faces
+\[
+  Dead,\qquad packing\text{-}detached,\qquad tower\text{-}blown,\qquad Jump.
+\]
+Under the coupled storage assumption, the endpoint package removes all four rows. Participation persistence removes the dead row, pack control removes the packing-detached row, the terminal tower readout removes the tower-blown row, and field coherence removes the jump row. Cross entries reduce to those rows. Hence a first finite endpoint has no admissible endpoint face.
+
+Equivalently, the terminal tower remains bounded to finite depth $N$ on the terminal cover. Choose $s>5/2$ and $N>s+2$. Finite-cover Sobolev patching gives
+\[
+  \sup_{t<T_*}\|u(t)\|_{H^s(\mathbb T^3)}<\infty.
+\]
+The standard periodic $H^s$ continuation criterion then extends the smooth solution beyond $T_*$, contradicting maximality.
+
+Therefore $T_*=\infty$. Smoothness on all of $[0,\infty)$ follows from the smooth local theory and bootstrapping.
+\end{proof}
+
+\paragraph{Appendix map.}
+The conditional argument depends on four auxiliary packets: the terminal-tail uniformization theorem, the elliptic pressure readout, the frozen-family source theorem, and the endpoint matrix theorem. The current open frontier is the coupled same-parent active-capacity/full-exchange storage object feeding the source theorem.

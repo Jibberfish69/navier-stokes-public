@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "authorship_status": "complete",
+  "mechanical_status": "pass",
+  "voice_prediction_status": "evidence_supported_authorship",
+  "candidate_sha256": "3e3fb635a7dd0e2c26d4eea6aca92a3fecad6e7d83b6e2bbf318946f35fcea97",
+  "errors": [],
+  "predictive_transfer_validated": false,
+  "thomas_approval_recorded": false
+}

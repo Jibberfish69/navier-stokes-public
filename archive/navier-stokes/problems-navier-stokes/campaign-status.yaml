@@ -1,0 +1,105 @@
+---
+version: 4
+problem_id: navier-stokes
+chat_id: chat2
+campaign_owner: NS-Coordinator
+updated_at: '2026-03-24T21:49:39Z'
+route_lock:
+  path: problems/navier-stokes/route-lock.yaml
+  bridge_slot_map_path: problems/navier-stokes/bridge-slot-map.yaml
+  primary_route_id: source-grounded-four-bridge
+  import_rule: preserve the direct four-bridge NS route as primary and sterilize cross-problem imports into subordinate support unless a direct NS theorem file appears
+marvin_ingest:
+  enabled: true
+  direct_proof_pack_path: problems/navier-stokes/proof-source-pack.md
+  marvin_source_discovery_path: problems/navier-stokes/marvin-source-discovery.yaml
+  marvin_watchlist_path: problems/navier-stokes/marvin-watchlist.yaml
+  marvin_adaptation_notes_path: problems/navier-stokes/marvin-adaptation-notes.md
+  role_split: legacy NS corpus is proof-bearing; Marvin/V6 is currently synthesis and bridge-scaffolding
+current_checkpoint:
+  internal_checkpoint_label: conditional-route-reconciled
+  internal_completion_tier_claim: conditional-route-closure
+  external_theorem_audit_override: true
+  pre_submission_certification_standard: maximum-defensible-pre-submission
+  override_basis:
+    - problems/navier-stokes/theorem-to-warrant.yaml
+    - problems/navier-stokes/proof-assembly.yaml
+    - problems/navier-stokes/proof-obligation-matrix.yaml
+    - problems/navier-stokes/review-verdict.yaml
+    - problems/navier-stokes/submission-verdict.yaml
+    - problems/navier-stokes/source-forensics/master-program-analysis.md
+    - problems/navier-stokes/source-forensics/canonical-equation-ledger.md
+    - problems/navier-stokes/source-forensics/bridge-discharge-locus-map.md
+    - problems/navier-stokes/proof-source-pack.md
+    - problems/navier-stokes/marvin-adaptation-notes.md
+external_publication_target:
+  primary_goal: publishable full-claim Millennium Prize proof paper
+  current_safe_output: synchronized conditional route manuscript and external TeX package on the declared classical theorem surface
+  package_goal: journal-neutral TeX package plus arXiv-ready bundle
+  truth_reset_policy: No surface may claim stronger closure than the synchronized theorem, manuscript, export, and control record.
+current_claim_posture:
+  manuscript_claim_level: synchronized conditional route manuscript on the declared classical theorem surface
+  strongest_honest_claim: >-
+    The live lane now carries a source-grounded four-bridge conditional route
+    theorem on the classical Euclidean theorem surface, with Bridge IV already
+    discharged in pure Euclidean form, together with a secondary projected-flow
+    D.1--D.5 theorem track and a realized classical import layer. The theorem
+    packet, proof obligation matrix, proof assembly, theorem notes, manuscript,
+    and export package are synchronized at that conditional claim boundary.
+  unconditional_clay_claim_supported: false
+parallel_theorem_tracks:
+  - track_id: source-grounded-four-bridge
+    status: primary-source-track
+    summary: legacy NS TeX/PDF route through scale barrier, Q(t), compactness, and curvature-based regularity
+    open_burden: closed-loop warrant
+    anchors:
+      - problems/navier-stokes/source-grounded-framework-map.md
+      - problems/navier-stokes/theorem-to-warrant.yaml
+      - problems/navier-stokes/theorem-construction/classical-closure-warrant-carrier.md
+  - track_id: projected-nc-flow-d-route
+    status: secondary-validated-track
+    summary: NS-only dynamic route through projected ontic flow, coercive energy, commutative shadow, continuation, and final integration
+    open_burden: none on the realized carrier package; this track remains secondary exposition rather than the primary external-paper route
+    anchors:
+      - problems/navier-stokes/projected-nc-flow-clay-frontier.md
+      - problems/navier-stokes/theorem-construction/d1-projected-nc-flow-well-posedness.md
+      - problems/navier-stokes/theorem-construction/d2-global-coercive-energy-estimate.md
+      - problems/navier-stokes/theorem-construction/d3-commutative-shadow-theorem.md
+      - problems/navier-stokes/theorem-construction/d4-shadow-continuation-theorem.md
+      - problems/navier-stokes/theorem-construction/d5-clay-theorem-integration.md
+full_claim_lane:
+  blocked: true
+  block_level: theorem-critical
+  block_summary: The closed-loop warrant is not yet discharged on the declared Euclidean theorem surface.
+top_blockers:
+- closed-loop warrant discharge on the declared theorem surface
+current_manuscript_surface:
+  authoring_surface: problems/navier-stokes/draft-v8.md
+  safe_output_surface: problems/navier-stokes/external-paper/main.tex
+  external_surface: problems/navier-stokes/external-paper/main.tex
+  compiled_pdf: problems/navier-stokes/external-paper/main.pdf
+  consistency_note: Draft-v8, theorem-to-warrant, proof assembly, review verdict, and the external TeX package are synchronized at the conditional route boundary.
+bridge_audit:
+  scale_barrier: discharged on the lane-local Euclidean theorem surface
+  monotone_functional: discharged as a local same-surface control bridge with explicit insufficiency handoff
+  compactness: discharged downstream on one fixed classical approximation scheme
+  curvature_based_regularity: pure Euclidean gradient-control bridge stated and proved on the declared classical theorem surface
+  curvature_based_regularity_status: discharged on the declared classical theorem surface
+  closed_loop_warrant: not yet discharged on the declared classical theorem surface
+literature_state:
+  bibliography_present: true
+  in_text_citations_present: true
+  core_comparison_written: true
+current_external_package_state:
+  external_paper_directory_present: true
+  compiled_pdf_present: true
+  bibliography_present: true
+  arxiv_bundle_state: exported-authority-final
+  arxiv_bundle_path: problems/navier-stokes/external-paper/dist/navier-stokes-full-claim-arxiv-source.tar.gz
+  journal_bundle_state: exported-authority-final
+  journal_bundle_path: problems/navier-stokes/external-paper/dist/navier-stokes-full-claim-journal-package.tar.gz
+  releaseable_now: false
+next_gate:
+  required_to_unblock_full_claim_lane:
+  - closed-loop warrant discharge on the declared theorem surface
+  next_action: Keep the manuscript and control surfaces synchronized at the conditional route boundary while discharging the closed-loop warrant.

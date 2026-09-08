@@ -52,7 +52,7 @@ ProjectedStrainMetricCarleson.A. ProjectedStrainMetricCarleson.A is the analytic
 2. Project onto the strain/metric modes that actually change the transported material geometry.
 3. Build Phi_metric from a bounded-below capacity of those projected modes, not from -log(1+P_N^mat).
 4. Show the positive metric/coefficient channel enters the G-to-S exchange as E_{34}-dPhi_metric plus legal summable residual.
-5. Keep pressure/Hodge and endpoint trace surfaces closed; they are not the live obstruction.
+5. Keep pressure/Helmholtz--Leray and endpoint trace surfaces closed; they are not the live obstruction.
 
 ## Circularity Audit
 

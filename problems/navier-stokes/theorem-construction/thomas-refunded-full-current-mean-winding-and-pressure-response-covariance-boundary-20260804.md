@@ -398,7 +398,7 @@ orthogonal in the homogeneous \(H^{1/2}\) pairing.  Therefore
  \tag{RMW.32}
 \]
 
-This is a pressure-explicit Hodge identity for the one simultaneous material
+This is a pressure-explicit Helmholtz--Leray identity for the one simultaneous material
 acceleration, not a decomposition into independently acting fluids.
 
 ## 5. A clean upper bound for the exact `FSQ.37` numerator

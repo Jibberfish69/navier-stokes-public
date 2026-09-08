@@ -1,0 +1,154 @@
+{
+  "date": "2026-09-04",
+  "status": "working_pdf_updated",
+  "pdf": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf",
+    "sha256": "8697aa85e35f915017d551609a53f53c67d8f45a8ab3579663344441d21f6cf6"
+  },
+  "identical_companion": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/build/output/authoritative-edge/main.pdf",
+    "sha256": "8697aa85e35f915017d551609a53f53c67d8f45a8ab3579663344441d21f6cf6"
+  },
+  "pages": 73,
+  "contents_page": 7,
+  "body_pages": [
+    8,
+    73
+  ],
+  "source_sha256": {
+    "02-compatible-rectangles.tex": "671e28b48fdc0c8be419a5f2796bc6018df336537cabb20657f5ca09efa4beb1",
+    "03-matrix-forms.tex": "729c04e36d30e6775d54fe0154c8f4bf1da5099eb310c955696d9273a5a82f77",
+    "00-how-proof-works.tex": "8363b82b86e57bd0f90e5c960be1ca67aeb15cd4cf76f23f563ffa6633c74a7b",
+    "00-analytic-framework.tex": "8d7b6587d5ca77dddc908a19d8dd95722f9bf41f2bf05218b651e78ab669777e",
+    "00-introduction.tex": "6db9f3788d0da560e05d8aa691949d2c93cc649716beeccb03e1d9d2c7e0c75d",
+    "main.tex": "11122eab5501d670a39e5eae79edd81e27a460b3eee88716e05801fe9e525cfe",
+    "03-quantitative-consequences.tex": "bf9a97bec4ee4d859cf3bc1fe334cca2ac1876e5af45f8ad791738b382bc7839",
+    "06-conclusion.tex": "2c721860b17ab7e190ba7d123bbb58cdd0b1dc7691ddd33623ab0d807cf8c99e",
+    "05-three-dimensional-applications.tex": "0838b908772b0995bd4df750cfe450d150da20a9441cda0fd7164b674dc03225",
+    "01-setting-mixed-jet.tex": "11fb10bb2d810521217c7c203bfc933bbe6bba0d12b5093ec17b7e788d0a9602",
+    "04-intersection-endpoint-restart.tex": "6ae4cdbfa9d50d2f7e3e1f05a14e50a250fa9c4bafc80d7b17847fd0bd9667c2"
+  },
+  "mathml": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/manuscript/generated/main-luamml-mathml.html",
+    "sha256": "425df572b1a7ccece2034b713386ccdef96aaaa8836829c8ad3ad35e61d1ed19"
+  },
+  "verification": {
+    "pdf": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/build/output/publication-edits-20260904/main.pdf",
+    "sha256": "8697aa85e35f915017d551609a53f53c67d8f45a8ab3579663344441d21f6cf6",
+    "pages": 73,
+    "outline": [
+      [
+        1,
+        "Introduction",
+        8
+      ],
+      [
+        1,
+        "Analytic framework",
+        11
+      ],
+      [
+        1,
+        "The pressure-complete setting and mixed jet",
+        22
+      ],
+      [
+        1,
+        "Datum-generated compatible rectangles",
+        26
+      ],
+      [
+        1,
+        "Compatible intersection, endpoint jet, and restart",
+        31
+      ],
+      [
+        1,
+        "Matrix forms of the completed intersection",
+        37
+      ],
+      [
+        1,
+        "Quantitative consequences of the compatible rectangles",
+        40
+      ],
+      [
+        2,
+        "Completion in the global H1 mild class",
+        40
+      ],
+      [
+        2,
+        "Canonical coordinates and finite majorants",
+        43
+      ],
+      [
+        2,
+        "Mixed velocity and pressure rows",
+        50
+      ],
+      [
+        2,
+        "Frequency and critical-scale consequences",
+        52
+      ],
+      [
+        2,
+        "Continuation and quantitative restart",
+        54
+      ],
+      [
+        1,
+        "Three-dimensional applications",
+        55
+      ],
+      [
+        2,
+        "Explicit closure for small critical data",
+        55
+      ],
+      [
+        2,
+        "Low-rectangle and scale-local bounds",
+        60
+      ],
+      [
+        2,
+        "Vorticity and material flow",
+        61
+      ],
+      [
+        2,
+        "Relative energy and the Leray\u2013Hopf class",
+        63
+      ],
+      [
+        1,
+        "Conclusion",
+        68
+      ],
+      [
+        1,
+        "Canonical coordinate catalogue",
+        69
+      ],
+      [
+        1,
+        "References",
+        73
+      ]
+    ],
+    "issues": [],
+    "overfull_boxes": 0,
+    "undefined_references": 0,
+    "missing_mathml_warnings": 0,
+    "font_entries": 34,
+    "links": 606,
+    "pages_changed_from_visual_baseline": [
+      33,
+      72
+    ],
+    "render_dpi": 108
+  },
+  "evidence_directory": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/build/output/publication-edits-20260904/review-evidence"
+}

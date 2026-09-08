@@ -1,0 +1,463 @@
+\documentclass[12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[left=1in,right=1in,top=0.82in,bottom=0.84in]{geometry}
+\usepackage{setspace}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+
+\hypersetup{
+  pdftitle={How the Proof Works},
+  pdfauthor={Thomas Birnie}
+}
+
+\setstretch{1.23}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.72\baselineskip}
+\setlength{\abovedisplayskip}{15pt plus 3pt minus 2pt}
+\setlength{\belowdisplayskip}{15pt plus 3pt minus 2pt}
+\setlength{\abovedisplayshortskip}{13pt plus 2pt minus 2pt}
+\setlength{\belowdisplayshortskip}{13pt plus 2pt minus 2pt}
+\setlength{\jot}{9pt}
+\setlength{\emergencystretch}{3em}
+\allowdisplaybreaks[2]
+\raggedright
+\raggedbottom
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\footnotesize\thepage}
+
+\newcommand{\R}{\mathbb R}
+\newcommand{\I}{\mathcal I}
+\newcommand{\cR}{\mathcal R}
+\newcommand{\Szero}{\mathscr S_0}
+
+\begin{document}
+
+{\Large\bfseries How the Proof Works\par}
+\vspace{0.16\baselineskip}
+{\small Thomas Birnie\par}
+
+\vspace{0.55\baselineskip}
+
+Finite kinetic energy does not rule out concentration. An incompressible
+vortex can stretch along its axis only by narrowing across it. If \(r\) is
+the core radius and \(U\) is the change in velocity across that core, then
+\[
+  |\nabla u|
+  \sim
+  \frac{U}{r},
+  \qquad
+  \int_{B_r}|u|^2\,dx
+  \sim
+  U^2r^3.
+\]
+Shrinking \(r\) raises the velocity gradient through the factor \(1/r\), while
+the energy carried by that region can remain finite because its volume falls
+like \(r^3\). The energy bound leaves that possibility open, so the equation
+has to tell us what happens as the scale shrinks:
+
+\[
+  \partial_tu
+  +
+  (u\cdot\nabla)u
+  +
+  \nabla p
+  =
+  \nu\Delta u,
+  \qquad
+  \nabla\cdot u=0.
+\]
+Transport can sharpen the profile, while viscosity diffuses it. Rescaling a
+concentrating profile shows how both effects change as the profile narrows. For
+\(\lambda>1\), set
+\[
+  u_\lambda(x,t)
+  =
+  \lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)
+  =
+  \lambda^2p(\lambda x,\lambda^2t).
+\]
+The spatial width is divided by \(\lambda\), and the time scale is divided by
+\(\lambda^2\). With
+\(\Phi_\lambda(x,t)=(\lambda x,\lambda^2t)\), the chain rule gives
+\[
+\begin{aligned}
+  \partial_tu_\lambda
+  &=
+  \lambda^3(\partial_tu)\circ\Phi_\lambda,
+  &
+  (u_\lambda\cdot\nabla)u_\lambda
+  &=
+  \lambda^3((u\cdot\nabla)u)\circ\Phi_\lambda,
+  \\
+  \nabla p_\lambda
+  &=
+  \lambda^3(\nabla p)\circ\Phi_\lambda,
+  &
+  \nu\Delta u_\lambda
+  &=
+  \lambda^3(\nu\Delta u)\circ\Phi_\lambda.
+\end{aligned}
+\]
+All four parts grow by \(\lambda^3\). A narrower profile strengthens nonlinear
+transport and viscous diffusion together; scaling alone does not give either
+one control of the small scales.
+
+Under this rescaling,
+\[
+\begin{aligned}
+  \widehat{u_\lambda}(\xi,t)
+  &=
+  \lambda^{-2}
+  \widehat u(\xi/\lambda,\lambda^2t),
+  \\
+  \|u_\lambda(t)\|_{\dot H^s}^2
+  &=
+  \int_{\R^3}
+  |\xi|^{2s}\lambda^{-4}
+  |\widehat u(\xi/\lambda,\lambda^2t)|^2\,d\xi
+  \\
+  &=
+  \lambda^{2s-1}
+  \|u(\lambda^2t)\|_{\dot H^s}^2.
+\end{aligned}
+\]
+For 
+\(s<\tfrac12\), the norm falls as the profile narrows. For
+\(s>\tfrac12\), it rises. At
+\(s=\tfrac12\), it is unchanged. So \(s=\tfrac12\) is critical: its norm
+neither grows nor shrinks as the profile narrows.
+
+At that height, the critical measurement stays unchanged when the rescaling is
+repeated. Set \(\lambda=2\). Halving the core radius then quarters the
+corresponding time scale:
+\[
+  r_n=2^{-n}r_0,
+  \qquad
+  \delta t_n=4^{-n}\delta t_0,
+  \qquad
+  \sum_{n=0}^{\infty}\delta t_n
+  =
+  \frac43\delta t_0.
+\]
+The series shows how infinitely many scale reductions could fit inside a finite
+time. A singularity would require one solution to pass through every scale in
+that sequence.
+
+In order for a singularity to form, velocity has to blow up. In order for
+that to happen, its acceleration would also have to blow up, which means its
+jerk has to blow up, and so on, and so on:
+\[
+  u,
+  \qquad
+  \partial_tu,
+  \qquad
+  \partial_t^2u,
+  \qquad
+  \ldots
+\]
+If a singularity were forming, each higher time derivative should show less
+spatial regularity, not more. The differentiated equations reverse that
+expectation.
+
+\begingroup
+\setlength{\abovedisplayskip}{17pt}
+\setlength{\belowdisplayskip}{17pt}
+\begin{flushleft}
+\resizebox{\textwidth}{!}{%
+\(
+\begin{aligned}
+  \partial_tu
+  &=
+  \nu\Delta u-(u\cdot\nabla)u-\nabla p,
+  \\[0.95\baselineskip]
+  \partial_t^2u
+  &=
+  \nu\Delta\partial_tu-(\partial_tu\cdot\nabla)u-(u\cdot\nabla)\partial_tu-\nabla\partial_tp,
+  \\[0.95\baselineskip]
+  \partial_t^3u
+  &=
+  \nu\Delta\partial_t^2u-(\partial_t^2u\cdot\nabla)u-2(\partial_tu\cdot\nabla)\partial_tu-(u\cdot\nabla)\partial_t^2u-\nabla\partial_t^2p.
+\end{aligned}
+\)
+}
+\end{flushleft}
+\endgroup
+
+For \(n\geq0\),
+\[
+\begin{aligned}
+  \partial_t^{\,n+1}u
+  ={}&
+  \nu\Delta\partial_t^nu
+  \\
+  &-
+  \sum_{a=0}^{n}
+  \binom{n}{a}
+  \bigl(\partial_t^au\cdot\nabla\bigr)
+  \partial_t^{\,n-a}u
+  \\
+  &-
+  \nabla\partial_t^np.
+\end{aligned}
+\]
+Set
+\[
+  V_n:=\partial_t^nu,
+  \qquad
+  Q_n:=\partial_t^np.
+\]
+
+At the critical height, that temporal sequence appears inside one energy. Write
+\[
+  H(t)
+  :=
+  \frac12\|\Lambda^{1/2}u(t)\|_2^2,
+  \qquad
+  \Lambda:=(-\Delta)^{1/2}.
+\]
+For any \(s\geq0\), set
+\[
+  E_s(t)
+  :=
+  \frac12\|\Lambda^su(t)\|_2^2.
+\]
+Let \(\mathcal P_s\) denote the transport-pressure contribution at height
+\(s\). Pairing the viscous term at that height gives
+\[
+  \nu\operatorname{Re}
+  \left\langle
+    \Lambda^s\Delta u,
+    \Lambda^su
+  \right\rangle_{L^2}
+  =
+  -\nu\|\Lambda^{s+1}u\|_2^2
+  =
+  -2\nu E_{s+1}.
+\]
+Adding \(\mathcal P_s\) gives
+\[
+  E_s'
+  =
+  \mathcal P_s
+  -
+  2\nu E_{s+1}.
+\]
+This is where viscosity moves the calculation from height \(s\) to height
+\(s+1\), with coefficient \(2\nu\).
+
+With \(H=E_{1/2}\),
+\[
+\begin{aligned}
+  H'
+  &=
+  \mathcal P_{1/2}-2\nu E_{3/2},
+  \\
+  H''
+  &=
+  \partial_t\mathcal P_{1/2}
+  -2\nu\mathcal P_{3/2}
+  +(2\nu)^2E_{5/2},
+  \\
+  H'''
+  &=
+  \partial_t^2\mathcal P_{1/2}
+  -2\nu\partial_t\mathcal P_{3/2}
+  +(2\nu)^2\mathcal P_{5/2}
+  -(2\nu)^3E_{7/2}.
+\end{aligned}
+\]
+At order \(n\geq1\),
+\[
+  H^{(n)}
+  =
+  (-2\nu)^nE_{n+1/2}
+  +
+  \sum_{j=0}^{n-1}
+  (-2\nu)^j
+  \partial_t^{\,n-1-j}\mathcal P_{j+1/2}.
+\]
+The \(n\)-th derivative of \(H\) reaches \(E_{n+1/2}\). As temporal order
+rises, Sobolev height rises with it:
+\[
+  \text{higher temporal order}
+  \quad\longrightarrow\quad
+  \text{higher spatial Sobolev order}.
+\]
+Control of every finite height through \(T_*\) would give, by Sobolev
+embedding,
+\[
+  s>k+\frac32
+  \quad\Longrightarrow\quad
+  H^s(\R^3)
+  \hookrightarrow
+  C^k(\R^3),
+\]
+and hence
+\[
+  \bigcap_{m<\infty}H^m(\R^3)
+  =
+  H^\infty(\R^3)
+  \hookrightarrow
+  C^\infty(\R^3).
+\]
+
+Fix finite temporal order \(N\) and finite Sobolev height \(M\). At temporal
+order \(r\),
+\[
+\begin{aligned}
+  E_{r,s}(t)
+  &:=
+  \frac12\|\Lambda^sV_r(t)\|_2^2,
+  \\
+  \partial_tE_{r,s}
+  &=
+  \mathcal P_{r,s}
+  -
+  2\nu E_{r,s+1}.
+\end{aligned}
+\]
+Stopping at \(r=N\) and \(s=M\) leaves finitely many adjacent rows. Their total
+velocity norm \(\mathfrak R_{N,M}(u;T)\) stays bounded as \(T\uparrow T_*\):
+\[
+  \sup_{0<T<T_*}
+  \mathfrak R_{N,M}(u;T)
+  <
+  \infty
+  \qquad (N,M<\infty).
+\]
+Adding the corresponding \(Q_0,\ldots,Q_N\) coordinates gives the
+pressure-complete rectangle \(\cR_{N,M}[u_0;T]\).
+
+Whenever two rectangles overlap, their common entries are derivatives of \(u\)
+and \(p\) already fixed by the differentiated equations, so the overlaps
+agree. Their compatible intersection is
+\[
+  \I[u_0]
+  :=
+  \bigl(\cR_{N,M}[u_0]\bigr)_{N,M<\infty},
+\]
+and every finite pair of indices occurs in one of those blocks. Hence
+\[
+  u
+  \in
+  \bigcap_{r,m<\infty}
+  H^r(0,T_*;H^m(\R^3)).
+\]
+
+Projecting onto \(r=0\) gives
+\[
+  \Szero
+  :=
+  \pi_0\I[u_0].
+\]
+For every finite spatial height,
+\[
+  u\in C([0,T_*];H^m(\R^3)).
+\]
+Thus
+\[
+  u_*:=u(T_*)
+  \in
+  \bigcap_{m<\infty}H^m(\R^3)
+  =
+  H^\infty(\R^3)
+  \hookrightarrow
+  C^\infty(\R^3).
+\]
+Local existence gives a smooth solution starting from \(u_*\), and uniqueness
+makes it agree with \(u\) on their overlap. The solution passes through
+\(T_*\), contradicting finite maximality. Thus
+\[
+  T_*=\infty.
+\]
+
+For a finite \(L^p\) norm of \(\nabla^k\partial_t^ru\), choose an integer
+\(m\) with
+\[
+  m>k+\frac32-\frac3p,
+  \qquad
+  2\leq p\leq\infty.
+\]
+Since
+\(\partial_t^ru\in C_tH_x^m\), Sobolev embedding gives
+\[
+  \nabla^k\partial_t^ru
+  \in
+  L_t^\infty L_x^p.
+\]
+Choosing \(m=1,2,3\) gives
+\[
+\begin{aligned}
+  \I[u_0]
+  &\longrightarrow
+  C_tH_x^1
+  \longrightarrow
+  L_t^\infty L_x^6,
+  \\
+  \I[u_0]
+  &\longrightarrow
+  C_tH_x^2
+  \longrightarrow
+  L_t^\infty L_x^\infty,
+  \\
+  \I[u_0]
+  &\longrightarrow
+  C_tH_x^3
+  \longrightarrow
+  L_t^\infty W_x^{1,\infty}.
+\end{aligned}
+\]
+For \(m=3\),
+\[
+\begin{aligned}
+  \int_0^{T_*}\|\nabla u(t)\|_\infty\,dt
+  &\leq
+  T_*
+  \sup_{0\leq t\leq T_*}
+  \|\nabla u(t)\|_\infty
+  \\
+  &\leq
+  C T_*
+  \sup_{0\leq t\leq T_*}
+  \|u(t)\|_{H^3}
+  <
+  \infty.
+\end{aligned}
+\]
+
+In shorthand,
+\[
+\begin{aligned}
+  u_0
+  &\longrightarrow
+  \{(V_n,Q_n)\}_{n\geq0}
+  \longrightarrow
+  \{\cR_{N,M}[u_0]\}_{N,M<\infty}
+  \\
+  &\longrightarrow
+  \I[u_0]
+  \longrightarrow
+  \Szero
+  \longrightarrow
+  u_*\in H^\infty
+  \longrightarrow
+  T_*=\infty.
+\end{aligned}
+\]
+The estimates come from the intersection, not the other way around.
+
+\end{document}

@@ -1,0 +1,35 @@
+\contentsline {section}{\numberline {1}The Regularity Problem}{1}{section.1}%
+\contentsline {section}{\numberline {2}Critical Height and the Derivative Tower}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Vortex Stretching}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}The temporal Tower}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}More spatial regularity, not less}{6}{subsection.2.3}%
+\contentsline {section}{\numberline {3}The Intersection Theorem}{10}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Why the finite pieces are rectangles}{10}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Every finite rectangle remains bounded}{14}{subsection.3.2}%
+\contentsline {section}{\numberline {4}From the Intersection to Global Smoothness}{16}{section.4}%
+\contentsline {subsection}{\numberline {4.1}The first coordinate already closes the endpoint}{16}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}The critical-height roof}{17}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}The two vortex readings}{19}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}No finite singular time}{21}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Further Consequences and the Euler Boundary}{22}{section.5}%
+\contentsline {subsection}{\numberline {5.1}A finite sum across infinitely many scales}{22}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Three classical criteria inside one low rectangle}{23}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}The local singularity picture closes as well}{24}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Why the Euler Tower is different}{24}{subsection.5.4}%
+\contentsline {section}{\numberline {A}Local Construction and Classical Estimates}{26}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}The local construction behind the maximal history}{26}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}The Classical Estimates Before Closure}{30}{subsection.A.2}%
+\contentsline {section}{\numberline {B}Derivative and Finite-Record Calculus}{35}{appendix.B}%
+\contentsline {subsection}{\numberline {B.1}Critical Height at a Finite Endpoint}{35}{subsection.B.1}%
+\contentsline {subsection}{\numberline {B.2}What finite time implies after one response escapes}{36}{subsection.B.2}%
+\contentsline {subsection}{\numberline {B.3}The Pressure-Complete Mixed Jet}{37}{subsection.B.3}%
+\contentsline {subsection}{\numberline {B.4}The Spatial Column Inside Critical Height}{38}{subsection.B.4}%
+\contentsline {subsection}{\numberline {B.5}Simultaneous Sobolev Intersections}{40}{subsection.B.5}%
+\contentsline {subsection}{\numberline {B.6}Finite Adjacent Rectangles}{42}{subsection.B.6}%
+\contentsline {section}{\numberline {C}Compatible Terminal Assembly}{45}{appendix.C}%
+\contentsline {subsection}{\numberline {C.1}The Terminal Quantifier}{45}{subsection.C.1}%
+\contentsline {subsection}{\numberline {C.2}The Compatible Intersection}{48}{subsection.C.2}%
+\contentsline {subsection}{\numberline {C.3}The Critical Height at the Terminal Face}{49}{subsection.C.3}%
+\contentsline {subsection}{\numberline {C.4}One Endpoint for the Whole Tower}{51}{subsection.C.4}%
+\contentsline {subsection}{\numberline {C.5}Restarting the Same History}{52}{subsection.C.5}%
+\contentsline {section}{Bibliography}{54}{section*.1}%

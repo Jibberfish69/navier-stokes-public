@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "id": "navier-stokes-mpp-quick-proof-document",
+  "live_object": "Completed standalone MPP proof paper developed from the supplied note",
+  "why": "Deliver the full reader-facing proof document Thomas requested as a new PDF",
+  "established": [
+    "A separate 17-page proof paper now carries the supplied causal order in full",
+    "The settled datum-generated compatible-intersection theorem remains unchanged",
+    "The mixed jet, typed finite records, inverse limit, finite-coordinate readouts, endpoint, actual endpoint jet, and same-history restart are developed on one history",
+    "The final PDF compiles without warnings and passed page rendering, font, metadata, structure, formula, custody, and authorship checks",
+    "The rejected five-page draft was moved to the task archive"
+  ],
+  "open": [],
+  "current_pressure": "The completed artifact is ready for Thomas",
+  "next_move": "No further move is required unless Thomas requests a revision",
+  "holds": [
+    "Do not alter the existing navier-stokes-manuscript.pdf",
+    "Preserve the settled compatible-intersection custody lock",
+    "Keep this paper distinct from the automated manuscript"
+  ],
+  "status": "complete",
+  "source_refs": [
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/output/pdf/navier-stokes-mpp-proof/main.tex",
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/output/pdf/navier-stokes-mpp-proof.pdf"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "review_kind": "proof_reverse",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/proof-packet-v17.json",
+    "sha256": "6ea514175e180acf085557a10468f05b599a7c6f6d8219f4c3994ea5afad397a"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/candidate-v17.tex",
+    "sha256": "eaa0113910ab32f650a0ab5926dbe30a06eb4e9f8e37942d55e1e2ad07ba5ac9"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-1.png",
+      "sha256": "00b7628ea01080cef5fee995d51e622df9d461363cfa5a3490fc8c52358af053"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-2.png",
+      "sha256": "bdffd29142252e6c628d633f42f0106b29955e91b1d8206343fc0af8546cdbd7"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-3.png",
+      "sha256": "530948734a64cf1e90d348282f6359ff41b41d5e7ed5e77e59795bd10c197059"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-4.png",
+      "sha256": "43fb9979abce971934b32ca43b8c44d1f3974d80eed69b18f340732682347e62"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/proof_reverse_v17",
+    "task_name": "proof_reverse_v17",
+    "isolation": "fork_none",
+    "request_nonce": "4bb3ac721a7f4df191521f6718aa61c9"
+  },
+  "decision": {
+    "verdict": "pass",
+    "first_divergence": null
+  }
+}

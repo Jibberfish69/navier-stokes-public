@@ -1,0 +1,234 @@
+# Prewrite Packet
+
+## Target Block
+- file: workspaces/VSC-workspaces/navier-stokes/navier-stokes-manuscript.tex and its included section files.
+- span: whole manuscript, with the primary rewrite concentrated in body Sections 1--4.
+- mode: Authorial Draft.
+- block_kind: exposition, derivation, proof, and transition.
+- user_intent: Rebuild the paper so the reader reaches the regularity problem, the perfectly stretching vortex, critical height, the Zeno cascade, the derivative tower, the compatible intersection, and the closing estimates in one causal movement.
+- fixed_constraints: Develop rather than compress Thomas's supplied ideas; preserve the established theorem and one-solution proof order; put compatibility, projective assembly, endpoint-jet, restart, and one-history bookkeeping in appendices; distinguish a hypothetical vortex picture from a proved singularity mechanism; do not claim that a stated producer estimate has been rederived when its proof body is not present in the current source export.
+
+## Section Job
+- job_statement: Make the mixed-derivative intersection feel forced by the physical and mathematical shape of a hypothetical finite-time singularity, then carry its established finite-rectangle estimates all the way back to the original regularity question.
+- why_here: The existing paper contains the necessary ingredients but delays the Tower and critical height behind route taxonomy, so the reader does not experience why the proof object is needed.
+- formal_boundary: The vortex is motivational and schematic; the finite-endpoint criteria, critical-height identities, mixed recurrences, intersection theorem, producer estimate, and closure implications are formal, while full compatibility and endpoint implementation move to appendices.
+- intent_state_seed: claim_id=whole-paper-causal-rebuild; required_next_move=regularity target -> one stretching vortex -> critical height and Zeno -> response tower -> viscosity-driven spatial ascent -> finite rectangles -> compatible intersection -> whole-terminal estimate -> no finite terminal time; forbidden_detours=Gold/Silver taxonomy in the opening, abstract compatibility language before a reader need, pointwise-center claims from global Sobolev divergence, or coordinate translation presented as the producer proof.
+
+## Claim Ladder
+- claim: A global regularity proof must rule out a finite maximal time for the one classical Navier--Stokes velocity field issued from the datum.
+- warrant: This is the formal Clay problem and the continuation formulation already established in the manuscript.
+- handoff: A hypothetical finite maximal time gives the reader one concrete threat to follow.
+- claim: A perfectly balanced stretching vortex makes the threat visible: axial stretching can drive transverse thinning and increasingly severe gradients while the flow remains smooth at every preterminal instant.
+- warrant: The vorticity equation contains the stretching term and the repository discussion supplies the exact rip-cord scene.
+- handoff: The picture requires a scale-critical global readout rather than a premature claim about a singular point.
+- claim: Finite-time failure forces loss of the endpoint critical norm and hence unbounded critical height along a sequence; doubling first-passage levels produce the Zeno geometry.
+- warrant: The endpoint continuation criterion, the critical Sobolev embedding, and the exact height balance justify the chain.
+- handoff: If the same history climbs infinitely many levels in finite time, its time response cannot remain uniformly tame in a continuation-controlling space.
+- claim: Repeated integration forces escalation through every fixed temporal derivative, while the differentiated equation couples each time row to spatial derivatives and pressure.
+- warrant: The Banach-space fundamental theorem of calculus and the pressure-complete recurrences already appear in the source.
+- handoff: The singularity question has therefore generated a mixed time-space jet rather than an arbitrary tower.
+- claim: Differentiating critical height reveals a viscosity-driven ascent: after the transfer terms are completed, the nth temporal row reads exactly the spatial energy at height n+1/2.
+- warrant: The energy identity and its iterates give the exact formula R_n=E_{n+1/2}.
+- handoff: The apparent blow-up hierarchy and the increasing Sobolev hierarchy now occupy one grid and can be compared without conflating readout with control.
+- claim: Every finite window of that infinite grid is a finite adjacent rectangle, and the compatible collection of all windows is the intersection theorem's natural object.
+- warrant: The time and space Sobolev nesting and the established rectangle definitions provide the finite views.
+- handoff: The only unpaid global question is whether every chosen finite view stays uniformly bounded up to the same terminal time.
+- claim: The established whole-terminal producer estimate supplies precisely that cutoff-independent bound for every finite rectangle.
+- warrant: The repository's settled theorem authority states this estimate on the same maximal solution.
+- handoff: Once paid, the projective intersection contains the complete spatial row and a common smooth endpoint.
+- claim: The endpoint continuation chain contradicts finite maximality and, at the physical level, caps critical height and leaves only finitely many Zeno doublings.
+- warrant: The complete spatial row, momentum estimate, trace, pressure reconstruction, local existence, and uniqueness close the same history.
+- handoff: Classical continuation criteria and the Euler comparison become consequences and boundary tests, not opening detours.
+
+## Paragraph Movement Map
+- role: orient.
+- reader_in: The reader knows the Navier--Stokes equations are a famous open regularity problem but may not know the exact continuation target.
+- pressure: The phrase global smoothness is too vague to organize a proof.
+- core_move: Fix the datum, viscosity, pressure convention, maximal classical history, and the precise meaning of ruling out a finite terminal time.
+- hinge_question: n/a.
+- reader_out: The reader can state the target as T_*=infinity for one solution.
+- next_need: What would have to happen if T_* were finite?
+- must_keep: R^3, divergence-free datum, finite energy, smoothness, pressure slaved to u, continuation-grade Sobolev level.
+- avoid: Historical survey, proof-route names, compatibility vocabulary, or abstract status language.
+- role: mechanism.
+- reader_in: The reader is following one hypothetical finite-terminal history.
+- pressure: A norm blow-up statement alone gives no physical footing.
+- core_move: Follow one perfectly balanced rip-cord vortex whose exterior pull stretches the axis, narrows the core, and tightens the inner spiral without assuming wobble or symmetry loss.
+- hinge_question: What quantity records the increasingly fine spatial structure without pretending that the vortex picture itself proves a singular point?
+- reader_out: The reader sees how one smooth preterminal history can be driven toward finer scales.
+- next_need: A scale-critical height must measure the climb.
+- must_keep: Same vortex throughout; persistent-core and recruited-core possibilities; schematic status; no center-singularity inference.
+- avoid: Replacing the fluid with a spring, treating constant velocity as uniform in time, or calling the picture an exact solution.
+- role: consequence.
+- reader_in: The reader sees the physical tightening but lacks the correct mathematical gauge.
+- pressure: Energy is controlled and therefore cannot register the critical loss by itself.
+- core_move: Derive the scale-critical height H and show how a finite maximal time forces an unbounded sequence of height levels.
+- hinge_question: n/a.
+- reader_out: The reader understands critical height as a critical readout, not a viscosity-shear threshold.
+- next_need: The finite-time geometry of infinitely many height crossings must be made exact.
+- must_keep: Scaling, H=1/2||Lambda^{1/2}u||_2^2, L3 endpoint criterion, critical embedding.
+- avoid: Claiming H alone locates concentration or implies pointwise blow-up at the center.
+- role: mechanism.
+- reader_in: The reader knows H must become unbounded along a sequence.
+- pressure: Unboundedness does not yet show why Zeno is the right finite-time picture.
+- core_move: Define first hitting times of doubled levels and use H'=-2nu E_{3/2}+P_{1/2} to quantify what every octave costs.
+- hinge_question: n/a.
+- reader_out: Zeno is the first-passage geometry of the same height divergence, not a separate cause.
+- next_need: A finite-time singularity also places pressure on the time response of the same history.
+- must_keep: Level sequence, first passage, transfer integral, dissipation cost.
+- avoid: Paradox rhetoric or assuming a lower bound on crossing times before it is proved.
+- role: bridge.
+- reader_in: The reader sees an infinite critical-height climb compressed into finite time.
+- pressure: The spatial picture has not yet generated the temporal Tower.
+- core_move: Repeated integration in one fixed continuation-controlling Banach space shows that velocity blow-up cannot coexist with a uniformly bounded nth temporal derivative.
+- hinge_question: What does the equation make each of those time derivatives contain?
+- reader_out: The derivative tower is necessary evidence of finite-time response escalation.
+- next_need: The physical acceleration and the Eulerian derivative must be separated before differentiating the PDE.
+- must_keep: Same Banach space, fixed n, initial time derivatives, supremum interpretation, D_t u versus partial_t u.
+- avoid: A common blow-up sequence/rate claim or calling partial_t u particle acceleration without qualification.
+- role: mechanism.
+- reader_in: The reader now expects every temporal row to lose control in a genuine singularity.
+- pressure: A time-only tower does not yet expose the equation's full regularity content.
+- core_move: Differentiate velocity, pressure, and the nonlinearity to build the pressure-complete mixed jet J_{n,alpha}.
+- hinge_question: n/a.
+- reader_out: Each time row is inseparable from spatial differentiation of the same fluid history.
+- next_need: Critical height must reveal how the temporal and spatial directions meet.
+- must_keep: V_n, Q_n, Leray form, binomial recurrence, spatial multiindices.
+- avoid: Presenting the recurrence as a list before the motivating pressure has landed.
+- role: mechanism.
+- reader_in: The reader sees the mixed jet but not the intersection.
+- pressure: Saying time and space derivatives coexist is weaker than showing their exact relation.
+- core_move: Derive the energy ladder and then the completed-row formula R_n=E_{n+1/2}, so each ascent in temporal differentiation reaches one higher spatial height through viscosity.
+- hinge_question: n/a.
+- reader_out: The reader can read the central derivative grid as an equation-generated relation.
+- next_need: The grid must distinguish location of a spatial coordinate from an estimate controlling it.
+- must_keep: Transfer terms P_s, signs and powers of -2nu, n=1 and n=2 worked cases, no mythical peak cell.
+- avoid: Saying higher time derivatives automatically grant spatial regularity.
+- role: consequence.
+- reader_in: The reader can see the temporal-spatial ascent in the grid.
+- pressure: The infinite grid cannot be estimated all at once without hiding quantifiers.
+- core_move: Cut out a finite adjacent rectangle, show the Sobolev nesting inside it, then identify the full intersection as the compatible collection of every finite view.
+- hinge_question: n/a.
+- reader_out: The rectangle representation is the finite proof unit forced by the Tower.
+- next_need: Each finite rectangle requires one uniform estimate up to the same terminal roof.
+- must_keep: R_{N,M}, time and space nesting, full intersection before critical readouts, compatibility only in ordinary language in the body.
+- avoid: A table that implies a top or peak, or projective-limit language before the reader has the finite-window action.
+- role: landing.
+- reader_in: The reader knows exactly which finite estimates would close the singularity route.
+- pressure: Strict-subinterval finiteness still allows every bound to diverge as T approaches T_*.
+- core_move: State the established cutoff-independent rectangle producer estimate as the decisive theorem and separate its theorem status from the current manuscript's proof-body export.
+- hinge_question: n/a.
+- reader_out: The reader sees the one estimate that supplies the whole intersection.
+- next_need: Apply the estimate rather than adding more machinery.
+- must_keep: sup over 0<T<T_*, dependence on u_0, nu, T_*, every finite N,M, same solution.
+- avoid: Claiming the coordinate derivation proves this estimate or burying the theorem behind terminal vocabulary.
+- role: consequence.
+- reader_in: Every finite rectangle is uniformly bounded up to the terminal roof.
+- pressure: The theorem must visibly pay the original problem, not end at an abstract intersection.
+- core_move: Extract the complete spatial row, prove time-integrability of the momentum derivative, obtain one H^infinity endpoint, reconstruct pressure and the endpoint jet, and restart uniquely.
+- hinge_question: n/a.
+- reader_out: Finite maximality contradicts the equation's own continuation mechanism.
+- next_need: Return the closure to the vortex and Zeno picture.
+- must_keep: Momentum estimate, W^{1,1} trace, common endpoint, local existence, uniqueness.
+- avoid: Letting appendix bookkeeping interrupt the causal chain.
+- role: landing.
+- reader_in: The formal continuation contradiction is complete.
+- pressure: The reader should see exactly what changed in the opening physical threat.
+- core_move: The rectangle bound imposes a finite roof on H, so only finitely many height doublings can occur and neither vortex-core scenario reaches a finite-time singular endpoint.
+- hinge_question: n/a.
+- reader_out: The original singularity, critical-height, and Zeno beats are all explicitly closed.
+- next_need: Consequences can now be compared with classical criteria and with Euler.
+- must_keep: Floor log_2 octave count, no claim of a minimum universal crossing time, distinguish persistent and recruited cores.
+- avoid: Retrospective summary that introduces the purpose of earlier math for the first time.
+- role: bridge.
+- reader_in: The main global-regularity chain is complete.
+- pressure: The strength and boundary of the intersection theorem should be visible without bloating the core proof.
+- core_move: Derive finite shell summations and selected classical continuation criteria, then show that Euler loses the viscosity-driven spatial ascent when nu=0.
+- hinge_question: n/a.
+- reader_out: The reader sees both the theorem's reach and the Navier--Stokes-specific mechanism.
+- next_need: Technical proofs and quarantined historical routes may be consulted in appendices.
+- must_keep: Finite derivative weights only, one rigorous dyadic sum, no Euler regularity claim.
+- avoid: Claiming an all-orders arithmetic/Gevrey sum or treating Euler as solved by analogy.
+
+## Concept Introduction Ledger
+- concept: maximal classical time T_*.
+- earned_by: The formal global-smoothness target must be translated into a continuation question.
+- introduced_at: Section 1 opening formal statement.
+- immediate_job: Gives the paper one hypothetical finite endpoint to contradict.
+- concept: perfectly balanced rip-cord vortex.
+- earned_by: The reader needs one physical object through which to picture a finite-scale cascade.
+- introduced_at: Section 2 opening scene and schematic.
+- immediate_job: Makes stretching, thinning, and gradient growth simultaneous consequences of one flow geometry.
+- concept: critical height H.
+- earned_by: Energy remains bounded while the vortex scene demands a scale-critical measure of finer structure.
+- introduced_at: Section 2 after the physical scene.
+- immediate_job: Records the endpoint-critical climb.
+- concept: Zeno cascade.
+- earned_by: Unbounded H before finite T_* crosses infinitely many doubled first-passage levels.
+- introduced_at: Section 2 after the height criterion.
+- immediate_job: Names the finite-time geometry of the climb.
+- concept: temporal derivative tower V_n.
+- earned_by: Repeated integration shows finite-time velocity blow-up cannot leave any fixed time-derivative level uniformly bounded.
+- introduced_at: Section 2 after response escalation.
+- immediate_job: Organizes the equation's successive temporal responses.
+- concept: pressure-complete mixed jet J_{n,alpha}.
+- earned_by: Differentiating the PDE forces spatial derivatives and pressure into each temporal row.
+- introduced_at: End of Section 2.
+- immediate_job: Records the actual full derivative object of the same solution.
+- concept: completed critical row R_n and viscosity intersection identity.
+- earned_by: The reader needs an exact relation, not a pictorial juxtaposition, between time ascent and spatial Sobolev height.
+- introduced_at: Section 3 before the central table.
+- immediate_job: Identifies each completed temporal height derivative with E_{n+1/2}.
+- concept: finite adjacent rectangle R_{N,M}.
+- earned_by: The infinite derivative grid requires a finite estimate unit with explicit quantifiers.
+- introduced_at: Section 3 after the table and Sobolev nesting.
+- immediate_job: Makes the infinite intersection provable one finite window at a time.
+- concept: compatible intersection.
+- earned_by: Every finite window belongs to the same history and overlaps with larger windows.
+- introduced_at: Section 3 landing.
+- immediate_job: Names the common all-orders object assembled from every finite rectangle.
+- concept: whole-terminal producer estimate.
+- earned_by: Strict-subinterval rectangle membership does not rule out blow-up at the terminal roof.
+- introduced_at: Section 4 opening theorem.
+- immediate_job: Supplies cutoff-independent control needed for endpoint continuation.
+
+## Lexicon Lock
+- must_use: regularity problem; one fluid; one velocity field; perfectly balanced rip-cord vortex; critical height; Zeno cascade; temporal derivative tower; pressure-complete mixed jet; spatial height; finite adjacent rectangle; compatible intersection; whole-terminal estimate; same history at the local uniqueness step.
+- must_not_substitute: viscosity-shear threshold for critical height; particle acceleration for partial_t u without qualification; center singularity for global critical-norm blow-up; peak of the table for projective intersection; higher time derivatives create regularity for the completed-row identity; proof of the producer for a cited statement or coordinate translation.
+- deferred_terms: Gold Standard, Silver Standard, participation, Dead/Jump/Blown taxonomy, VPI, bonding map, inverse/projective limit, endpoint jet, restart compatibility, and one history are deferred to first local need or appendices.
+- tone_keys: physical footing; direct causal verbs; pressure carried forward; mathematical restraint; developed rather than compressed; formal at proof-bearing sites.
+
+## Cadence Target
+- anchor_choice: provisional_source:section-1-4-silver-standard-live-anchor.
+- match_reason: The live anchor begins from a felt obstruction, makes the alternative necessary sentence by sentence, develops its upside and downside, and lands on the exact burden the next idea must solve.
+- sentence_motion: Begin paragraphs with the live object, alternate short pressure sentences with longer causal developments, use explicit therefore/which-means links only when earned, and let displays interrupt only at the point where prose has created their need.
+
+## Formal Handoff
+- formal_entry_point: Section 1 begins with the equations and maximal-time formulation; each later formal environment follows its motivating physical or continuation pressure immediately.
+- required_formal_elements: formal problem and definitions; endpoint critical-height necessity; first-passage Zeno proposition; fixed-Banach response-escalation lemma; pressure-complete recurrence; energy ladder; completed-row identity; Sobolev intersection theorem; finite rectangle definition; whole-terminal producer theorem; global closure theorem; appendix proofs for compatibility, trace, endpoint jet, and uniqueness.
+- crossref_plan: Use prose-integrated noun phrases such as “the critical-height identity in \cref{eq:critical-height-balance}” and “the whole-terminal rectangle theorem in \cref{thm:whole-terminal-rectangles}.” Current labels are frozen where reused. New section and theorem labels should mirror printed titles. Every new symbol receives an adjacent first-use gloss. Avoid repeated serial cross-references in the causal body; move technical locators to appendices.
+
+## Reader-Value Gate
+- duh_factor_check: The intersection theorem is worth formalizing here because it converts the singularity's demanded temporal escalation into the exact finite family of spatial-time estimates that continuation can use.
+- strawman_risk: no -- the paper preserves the genuine distinction between a readout identity and the established estimates that control the readout.
+- effort_to_yield: high, justified by making one central table and four body sections replace the present delayed machinery inventory.
+- nonstarter_filter: The paper must not present a schematic vortex as an exact blow-up solution or a cited producer as a newly supplied proof; those claims are reframed before drafting.
+
+## Risks and Countermoves
+- risk: The vortex scene overclaims a pointwise center singularity.
+- countermove: Label the figure schematic, state that H is global, and place pointwise amplitude consequences only after the endpoint criterion and energy interpolation.
+- risk: The derivative Tower becomes an arbitrary list again.
+- countermove: Earn it through the same-space repeated-integration lemma and immediately differentiate the equation.
+- risk: The central table falsely suggests that time differentiation itself regularizes the solution.
+- countermove: Put the exact completed-row identity above the grid and state beside it that estimates, not coordinates, provide control.
+- risk: Technical appendix material leaks back into the body under theorem-status pressure.
+- countermove: State the exact local fact at first use and give a precise appendix locator; keep bonding maps, terminal traces, jet recursion, and uniqueness implementation outside the causal body.
+- risk: Section 4 says “missing estimates” but only restates the producer.
+- countermove: Distinguish the established theorem from its current proof-body export, apply it in full detail downstream, and insert a direct proof only if an authoritative proof-bearing source is recovered.
+- risk: The rewrite sounds compressed or assistant-generic.
+- countermove: Develop each supplied beat through one physical/mathematical pressure, preserve Thomas's causal vocabulary, and run section-by-section voice, slop, human-reading, and rendered-PDF passes.
+
+## Draft Acceptance Test
+- pass_if: The reader reaches the vortex before route taxonomy, understands why H is critical, sees Zeno as first-passage geometry, sees why singularity generates the derivative Tower, can read the viscosity identity and derivative grid without inferring automatic regularity, sees each finite rectangle and the compatible intersection before the producer theorem, and follows the established whole-terminal estimate through a complete endpoint-continuation contradiction. The landing explicitly caps H and the number of Zeno octaves. Every new symbol is glossed at first use, body cross-references read as grammatical noun phrases, and the appendices carry the quarantined compatibility/endpoint/history machinery.
+- fail_if: The opening advertises projective or endpoint machinery; the physical scene is replaced by a generic analogy; critical height is described as a literal viscosity-shear threshold; pointwise center blow-up is inferred from H alone; the Tower is merely listed; the table has a peak; completed rows are confused with estimates; the producer theorem is passed off as derived without a proof body; or the final theorem fails to return to the vortex, Zeno, and singularity beats.
+- closing_deletion_test: pass -- deleting the final consequences section would still leave the purpose and changed picture of every result legible because each result enters only after its local stake is visible and Section 4 already pays the original regularity problem.

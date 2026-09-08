@@ -1,0 +1,311 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.1 Vortex Stretching
+% ============================================================
+
+The energy estimate leaves one fact settled: the kinetic energy stays finite throughout the maximal smooth interval.
+That control does not stop the velocity from changing more sharply across shorter distances.
+Viscosity is the part of the equation we expect to stop that sharpening.
+It acts alongside the three other pieces of the same motion:
+\[
+  \underbrace{\partial_t u}_{\text{local acceleration}}
+  +
+  \underbrace{(u\cdot\nabla)u}_{\text{nonlinear transport}}
+  =
+  \underbrace{-\nabla p}_{\text{pressure}}
+  +
+  \underbrace{\nu\Delta u}_{\text{viscous diffusion}}.
+\]
+The regularity hope is that viscous smoothing always keeps pace with the sharpening produced by nonlinear transport.
+In three dimensions, vortex stretching gives the nonlinear motion a route to sharpen the flow.
+
+\subsection{Vortex Stretching}\label{sub:ThePerfectlyStretchingVortex}
+
+Follow a small material element whose vorticity points along one axis.
+Write \(e\) for that direction and \(L(t)\) for the element's length.
+If the strain is locally uniform across the element and keeps \(e\) as an extensional direction, then
+\[
+  S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr),
+  \qquad
+  Se=\sigma(t)e,
+  \qquad
+  \sigma(t)>0,
+\]
+and the length grows at the fractional rate
+\[
+  \frac{\dot L(t)}{L(t)}
+  =
+  e\cdot Se
+  =
+  \sigma(t).
+\]
+
+The element cannot lengthen without becoming narrower.
+Incompressibility preserves its material volume \(\mathcal V\), so if
+\[
+  A(t):=\frac{\mathcal V}{L(t)},
+  \qquad
+  r_{\mathrm{eff}}(t):=\sqrt{\frac{A(t)}{\pi}},
+\]
+then
+\[
+  \frac{d}{dt}(A L)=0,
+  \qquad
+  \frac{\dot A}{A}=-\sigma(t),
+  \qquad
+  \frac{\dot r_{\mathrm{eff}}}{r_{\mathrm{eff}}}
+  =
+  -\frac{\sigma(t)}{2}.
+\]
+Axial extension has forced transverse contraction in the same material element.
+
+The curl of the momentum equation tells us what happens to the rotation along that trajectory.
+With \(\omega:=\nabla\times u\),
+\[
+  \frac{D\omega}{Dt}
+  =
+  S\omega+\nu\Delta\omega,
+  \qquad
+  \frac{D}{Dt}:=\partial_t+u\cdot\nabla.
+\]
+If the vorticity is aligned with the extensional direction, \(\omega=|\omega|e\), then
+\[
+  S\omega=\sigma(t)\omega.
+\]
+Along that aligned trajectory, the full pointwise balance is
+\[
+  \frac12\frac{D|\omega|^2}{Dt}
+  =
+  \sigma(t)|\omega|^2
+  +
+  \nu\,\omega\cdot\Delta\omega.
+\]
+Whenever this right-hand side stays positive, the rotation strengthens while the effective radius contracts.
+
+Vorticity is already part of the velocity gradient.
+Indeed,
+\[
+  \left|
+    \frac12\bigl(\nabla u-(\nabla u)^{\mathsf T}\bigr)
+  \right|_{\mathrm F}
+  =
+  \frac{|\omega|}{\sqrt2}
+  \leq
+  |\nabla u|_{\mathrm F},
+\]
+while the global energy identity in \Cref{prop:ClassicalKineticEnergyIdentity} still gives
+\[
+  \norm{u(t)}_2
+  \leq
+  \norm{u_0}_2
+  <\infty.
+\]
+The energy can remain finite while the rotational gradient rises.
+The vortex stretches, narrows, and spins faster.
+The gradients rise.
+
+\divider{\NavierStokes{} Scaling}
+
+At a smaller length, viscosity acts more strongly, but nonlinear transport changes with it.
+The exact comparison is obtained by rescaling the whole equation.
+For \(\lambda>1\), set
+\[
+  u_\lambda(x,t)
+  :=
+  \lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)
+  :=
+  \lambda^2p(\lambda x,\lambda^2t).
+\]
+This produces another solution with the same viscosity at the finer length \(\lambda^{-1}\).
+It compares the equation across scales; it is not a later state of the material element we just followed.
+
+Every momentum term changes by the same factor:
+\[
+\begin{aligned}
+  \partial_tu_\lambda(x,t)
+  &=
+  \lambda^3(\partial_tu)(\lambda x,\lambda^2t),
+  \\
+  (u_\lambda\cdot\nabla)u_\lambda(x,t)
+  &=
+  \lambda^3\bigl((u\cdot\nabla)u\bigr)(\lambda x,\lambda^2t),
+  \\
+  \nabla p_\lambda(x,t)
+  &=
+  \lambda^3(\nabla p)(\lambda x,\lambda^2t),
+  \\
+  \nu\Delta u_\lambda(x,t)
+  &=
+  \lambda^3\nu(\Delta u)(\lambda x,\lambda^2t).
+\end{aligned}
+\]
+A finer scale strengthens viscous diffusion, nonlinear transport, pressure, and local acceleration together.
+The equation has given viscosity no relative advantage.
+
+\divider{Critical Height}
+
+The balance of the equation has stayed fixed, but the quantities used to measure the velocity do not behave alike under this rescaling.
+Let \(\Lambda:=(-\Delta)^{1/2}\).
+The Fourier transform of the rescaled velocity is
+\[
+  \widehat{u_\lambda}(\xi,t)
+  =
+  \lambda^{-2}\widehat u(\lambda^{-1}\xi,\lambda^2t).
+\]
+Changing variables in the \(\dot H^s\) norm gives
+\[
+  \norm{u_\lambda(t)}_{\dot H^s}^2
+  =
+  \lambda^{2s-1}
+  \norm{u(\lambda^2t)}_{\dot H^s}^2.
+\]
+At \(s=0\), kinetic energy loses one power of \(\lambda\).
+At \(s=1\), the first-derivative energy gains one.
+The scale-neutral level lies between them at \(s=\tfrac12\).
+Set
+\[
+  H(t)
+  :=
+  \frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =
+  \frac12\norm{\Lambda^{1/2}u(t)}_2^2.
+\]
+Writing \(H_\lambda\) for the same quantity evaluated on \(u_\lambda\), the three measurements now sit beside one another:
+\[
+  \norm{u_\lambda(t)}_2^2
+  =
+  \lambda^{-1}\norm{u(\lambda^2t)}_2^2,
+  \qquad
+  H_\lambda(t)=H(\lambda^2t),
+  \qquad
+  \norm{\nabla u_\lambda(t)}_2^2
+  =
+  \lambda\norm{\nabla u(\lambda^2t)}_2^2.
+\]
+The finer comparison can carry less kinetic energy and a larger gradient while \(H\) keeps exactly the same size.
+This scale-invariant whole-field quantity is the critical height.
+
+\divider{Nonlinear Production versus Viscous Dissipation}
+
+The original velocity history now tells us whether that height is rising or falling.
+Keep pressure inside the nonlinear side until the global pairing is formed, and define
+\[
+  \mathcal P_{1/2}[u](t)
+  :=
+  -\operatorname{Re}
+  \pair
+    {\Lambda^{1/2}u(t)}
+    {\Lambda^{1/2}\bigl((u(t)\cdot\nabla)u(t)+\nabla p(t)\bigr)}_{L^2}.
+\]
+Because \(\Lambda\) commutes with spatial derivatives and \(u\) is divergence-free, the pressure part vanishes in this global pairing.
+The viscous part integrates to \(-\nu\norm{\Lambda^{3/2}u}_2^2\), leaving the exact balance
+\[
+  H'(t)
+  +
+  \nu\norm{\Lambda^{3/2}u(t)}_2^2
+  =
+  \mathcal P_{1/2}[u](t).
+\]
+The critical height rises only when the complete signed nonlinear production exceeds the simultaneous viscous loss.
+
+Under the same rescaling,
+\[
+  \mathcal P_{1/2}[u_\lambda](t)
+  =
+  \lambda^2\mathcal P_{1/2}[u](\lambda^2t),
+  \qquad
+  \nu\norm{\Lambda^{3/2}u_\lambda(t)}_2^2
+  =
+  \lambda^2\nu\norm{\Lambda^{3/2}u(\lambda^2t)}_2^2.
+\]
+This is the scale match at the centre of the problem.
+When the length is reduced by \(\lambda^{-1}\), nonlinear production and viscous dissipation both accelerate by \(\lambda^2\).
+Passing to a finer scale does not tip their balance toward viscosity.
+
+\Needspace{15\baselineskip}
+\divider{The Heat Clock}
+
+The same factor fixes the amount of time associated with a smaller length.
+For the linear heat evolution \(v_t=\nu\Delta v\),
+\[
+  \widehat v(\xi,t+\delta t)
+  =
+  e^{-\nu|\xi|^2\delta t}\widehat v(\xi,t).
+\]
+Call \(r:=|\xi|^{-1}\) the length seen by a Fourier band concentrated near \(|\xi|\simeq r^{-1}\).
+The multiplier changes by an order-one amount when
+\[
+  \nu|\xi|^2\delta t\simeq1,
+\]
+which gives the viscous comparison time
+\[
+  \tau_\nu(r)
+  :=
+  \frac{r^2}{\nu}.
+\]
+Viscosity acts throughout the interval; \(\tau_\nu(r)\) is the time required for an order-one viscous change at that spectral length.
+Halving the length quarters the clock:
+\[
+  \tau_\nu(2^{-1}r)
+  =
+  \frac14\tau_\nu(r),
+\]
+and, more generally,
+\[
+  \tau_\nu(\lambda^{-1}r)
+  =
+  \lambda^{-2}\tau_\nu(r).
+\]
+This is exactly the time contraction in the full \NavierStokes{} rescaling.
+The material radius in the vortex picture and the spectral length in this calculation are different measurements; an actual concentrating history has to connect them rather than assume that connection.
+
+\divider{The Zeno Cascade}
+
+Now repeat the scale comparison.
+For the dyadic lengths
+\[
+  r_n:=2^{-n}r_0,
+  \qquad
+  \tau_n:=\frac{r_n^2}{\nu},
+\]
+the heat clocks form the geometric sequence
+\[
+  \tau_n
+  =
+  \frac{r_0^2}{\nu}4^{-n},
+  \qquad
+  \sum_{n=0}^{\infty}\tau_n
+  =
+  \frac{4r_0^2}{3\nu}
+  <
+  \infty.
+\]
+This finite sum is the Zeno image.
+Each finer length receives less time, yet the complete sequence of comparison clocks fits below a finite ceiling.
+
+The arithmetic does not produce a fluid cascade.
+For these clocks to describe a candidate singularity, one \NavierStokes{} solution must actually pass through successively finer lengths
+\[
+  r_0>r_1>r_2>\cdots\longrightarrow0
+\]
+at times
+\[
+  t_0<t_1<t_2<\cdots\uparrow T_*<\infty,
+  \qquad
+  t_{n+1}-t_n\asymp\tau_n.
+\]
+The comparison constants in this relation must not deteriorate with \(n\).
+The same history must also realize the connection between its material concentration and the spectral lengths measured by the heat clock.
+Under those requirements, the remaining time satisfies
+\[
+  T_*-t_n
+  \asymp
+  \sum_{k=n}^{\infty}\tau_k
+  =
+  \frac{4r_n^2}{3\nu}.
+\]
+The next transition and the total time left now have the same order, \(r_n^2/\nu\), at every rung.
+As \(r_n\) tends to zero, those intervals collapse with it.
+The spatial cascade has become a demand on how quickly the velocity can respond in time: \(u\), then \(\partial_tu\), then \(\partial_t^2u\), and onward through the same equation.

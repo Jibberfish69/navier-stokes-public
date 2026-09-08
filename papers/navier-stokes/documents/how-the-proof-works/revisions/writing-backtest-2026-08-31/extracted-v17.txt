@@ -1,0 +1,266 @@
+How the Proof Works
+For the global three-dimensional Navier–Stokes regularity problem, the fluid obeys
+∂t u + (u · ∇)u + ∇p = ν∆u,
+
+∇ · u = 0,
+
+u(0) = u0 ,
+
+with fixed viscosity ν > 0. The question is whether this one fluid can drive its motion into smaller
+and smaller scales quickly enough to lose smoothness in finite time, even while its total kinetic energy
+stays finite.
+That concentration question becomes concrete in a stretching vortex, because the flow itself can
+drive the vortex toward a smaller scale. Its vorticity obeys
+∂t ω + (u · ∇)ω = (ω · ∇)u + ν∆ω.
+When the vorticity aligns with an extensional direction of the strain, (ω · ∇)u amplifies it and
+lengthens the vortex along that axis. Incompressibility narrows the cross-section as the vortex
+lengthens. The narrowing places the vortex’s transverse velocity variation across a smaller inner
+radius. A velocity change that once took place across r0 now takes place across r, so
+|∇u| ∼
+
+|u|
+,
+r
+
+|∇2 u| ∼
+
+|u|
+,
+r2
+
+...
+
+As a vortex stretches and thins, its spatial derivatives can grow much faster than the energy itself.
+Scaling is the exact way of asking what Navier–Stokes sees when that smaller core is magnified. For
+λ > 1, define
+uλ (x, t) = λu(λx, λ2 t),
+pλ (x, t) = λ2 p(λx, λ2 t).
+This shrinks the spatial scale by λ−1 , speeds up the corresponding time scale by λ2 , and increases
+the velocity amplitude by λ. Under this change, each of the four terms
+∂t uλ ,
+
+(uλ · ∇)uλ ,
+
+∇pλ ,
+
+ν∆uλ
+
+acquires the factor λ3 . Nonlinear transport and viscosity remain evenly matched under this scaling:
+concentration leaves both in the equation.
+The Sobolev scale shows what the magnification does to regularity:
+∥uλ (·, t)∥Ḣ s = λs−1/2 ∥u(·, λ2 t)∥Ḣ s .
+Below s = 12 , this measurement gets smaller as the core concentrates. Above s = 12 , it gets larger.
+At the critical height s = 12 , it does not change at all. In particular,
+∥uλ ∥22 = λ−1 ∥u∥22 ,
+so finite energy can coexist with increasingly large gradients. The zoom makes the L2 energy smaller,
+so it can miss a concentrating structure. The invariant Ḣ 1/2 measurement stays fixed and follows
+that structure from scale to scale.
+The possible finite-time cascade can now be seen quickly. Suppose its active radii fall geometrically,
+rn = r0 q n ,
+
+0 < q < 1.
+1
+
+Navier–Stokes scaling assigns a time increment of order rn2 to the n-th scale, so
+∞
+X
+n=0
+
+∆tn ∼
+
+∞
+X
+
+rn2 = r02
+
+n=0
+
+∞
+X
+
+q 2n < ∞,
+
+n=0
+
+while quantities such as |∇u| ∼ |u|/rn can diverge as n → ∞. That is the Zeno cascade: smaller and
+smaller structures, faster and faster responses, and a potentially infinite climb through derivative
+size inside a finite amount of time, without any need for the kinetic energy to become infinite. The
+scaling calculation identifies the danger; it does not assume that the fluid can actually complete the
+cascade.
+In order for a singularity to happen, velocity has to blow up.
+Here “velocity has to blow up” means that a continuation norm must fail; it does not require the
+pointwise amplitude |u(x, t)| to diverge. The L2 energy can remain finite while concentration drives
+spatial derivatives upward, and the H m norm collects those derivatives into the quantity used for
+continuation. For any fixed m > 52 , a bound
+sup ∥u(t)∥H m < ∞
+t<T∗
+
+lets local H m existence continue the solution beyond T∗ . A finite maximal time forces this supremum
+to be infinite.
+The expected singular-cascade pattern is that velocity blows up, then its acceleration, then its jerk,
+and so on and so on. Acceleration and jerk here describe responses along fluid-particle paths. The
+transport term connects the first of them to differentiation at a fixed spatial point,
+Dt u := ∂t u + (u · ∇)u,
+without identifying the two. The proof holds x fixed and differentiates the pressure-complete equation
+because each differentiation produces the next Eulerian response together with its transport, pressure,
+and viscous terms:
+u,
+∂t u,
+∂t2 u,
+...
+What you would expect to see in this pattern, if a singularity were to form, is less spatial regularity
+as you go up the time derivatives, not more. Navier–Stokes tells us to look at the sequence directly.
+The first three lines are
+∂t u = ν∆u − (u · ∇)u − ∇p,
+∂t2 u = ν∆∂t u − (∂t u · ∇)u − (u · ∇)∂t u − ∇∂t p,
+∂t3 u = ν∆∂t2 u − (∂t2 u · ∇)u − 2(∂t u · ∇)∂t u − (u · ∇)∂t2 u − ∇∂t2 p.
+The nonlinear terms expand, the pressure differentiates with them, and the Laplacian moves one
+line higher each time. The complete pattern is the binomial form
+n  
+X
+
+n
+n+1
+n
+∂t u = ν∆∂t u −
+∂ta u · ∇ ∂tn−a u − ∇∂tn p.
+a
+a=0
+
+Only now compress the notation:
+Vn := ∂tn u,
+
+Qn := ∂tn p.
+2
+
+Then every temporal row is still the original pressure-complete equation,
+n  
+X
+n
+Vn+1 = ν∆Vn −
+(Va · ∇)Vn−a − ∇Qn .
+a
+a=0
+
+The recurrence keeps nonlinear transport and pressure in the row that links Vn+1 to two spatial
+derivatives of Vn . The critical-height identity expresses this link in Sobolev order. Put
+1
+Es (t) := ∥Λs u(t)∥22 ,
+2
+
+H := E1/2 .
+
+The original equation gives the pressure-complete height identity
+D
+E
+Es′ = −2νEs+1 + Ps ,
+Ps := − Λs u, Λs (u · ∇)u + ∇p .
+Differentiating that identity repeatedly gives
+H (n) = (−2ν)n En+1/2 +
+
+n−1
+X
+(−2ν)j ∂tn−1−j Pj+1/2 .
+j=0
+
+After the complete transfer terms have been kept, the sequence
+H,
+
+H ′,
+
+H ′′ ,
+
+E1/2 ,
+
+E3/2 ,
+
+E5/2 ,
+
+H ′′′ ,
+
+...
+
+exposes
+E7/2 ,
+
+...
+
+The temporal climb that was supposed to reveal worsening spatial roughness instead reaches higher
+and higher spatial Sobolev order.
+Follow that reversal all the way to its payoff. Sobolev embedding says
+s>k+
+
+3
+2
+
+=⇒
+
+H s (R3 ) ,→ C k (R3 ).
+
+So if this velocity belongs to every finite Sobolev space, it has every finite spatial derivative:
+\
+H m (R3 ) = H ∞ (R3 ) ,→ C ∞ (R3 ).
+m<∞
+
+That is the whole insight in one movement:
+higher temporal order −→ higher spatial Sobolev order −→ smoothness.
+The height identities expose arbitrarily high Sobolev orders, but they do not yet bound them. Fix
+finite cutoffs N, M and take all rows 0 ≤ n ≤ N and all heights 0 ≤ m ≤ M , with
+Vn ∈ L2 (0, T∗ ; H m+1 ),
+
+Vn+1 ∈ L2 (0, T∗ ; H m−1 )
+
+(0 ≤ n ≤ N, 0 ≤ m ≤ M ).
+
+This finite collection is one rectangle of the time–space grid. The finite-coordinate mixed-row theorem
+starts from a smooth divergence-free finite-energy datum u0 , a fixed viscosity ν > 0, and its one
+maximal pressure-complete history (u, p). Once N and M are fixed, every binomial product in
+3
+
+row n uses temporal indices no larger than n ≤ N , incompressibility fixes Qn through its pressure
+equation, and ν∆Vn stays coupled to Vn+1 in the mixed row. The theorem closes these finitely many
+pressure-complete rows together from the datum. Write RN,M (u; T ) for their whole-terminal norm
+over (0, T ). Its estimate is
+sup RN,M (u; T ) < ∞,
+0<T <T∗
+
+The constant may depend on N and M ; the theorem requires no common radius for the infinite
+tower.
+The rectangles overlap. Their common coordinates agree because they all come from the datumgenerated solution u. Intersecting them gives
+\
+I[u0 ] :=
+Htn (0, T∗ ; Hxm ).
+n,m<∞
+
+The raw differentiated equations expose the higher heights; the finite rectangles control them;
+compatibility assembles those finite controls into the intersection. Only then does the embedding
+above turn that intersection into smoothness.
+Assume the solution stops at a finite maximal time T∗ < ∞. For every finite m, these mixed rows
+give
+u ∈ L2 (0, T∗ ; H m+1 ),
+ut ∈ L2 (0, T∗ ; H m−1 ).
+The Hilbert-triple trace theorem then gives
+u ∈ C([0, T∗ ]; H m )
+
+for every m.
+
+Every trace comes from u, so they define one endpoint
+\
+u∗ := u(T∗ ) ∈
+H m = H ∞.
+m<∞
+
+Smooth local existence restarts Navier–Stokes from u∗ , and uniqueness glues that restarted solution
+to the original history. This extends the solution past T∗ , contradicting its maximality.
+This is not an a priori estimate proof. It is an intersection-to-estimate proof. Viscosity relates
+the velocity’s time derivatives to its spatial Sobolev derivatives. Taken through every finite order,
+those two directions meet in a common intersection. At that intersection, H ∞ (R3 ) ,→ C ∞ (R3 ) gives
+smoothness, and any familiar finite estimate can be taken from whichever Sobolev height it requires.
+The estimates come from the intersection, not the other way around.
+The entire route is
+u0 −→ {(Vn , Qn )}n≥0 −→ {RN,M [u0 ]}N,M <∞ −→ I[u0 ]
+−→ u∗ ∈ H ∞ −→ T∗ = ∞.
+
+4
+
+

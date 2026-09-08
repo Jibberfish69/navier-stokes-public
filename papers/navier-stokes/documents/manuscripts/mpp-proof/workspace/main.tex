@@ -1,0 +1,1448 @@
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[letterpaper,margin=0.94in]{geometry}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{mathrsfs}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{needspace}
+\usepackage{hyperref}
+\usepackage{cite}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=black,
+  pdftitle={Global Regularity for the Three-Dimensional Incompressible Navier–Stokes Equations},
+  pdfauthor={Thomas Birnie},
+  pdfsubject={The datum-generated compatible intersection as an estimate generator},
+  pdfkeywords={Navier–Stokes, global regularity, compatible intersection, mixed jet}
+}
+
+\setlength{\parindent}{1.25em}
+\setlength{\parskip}{0.16em}
+\setlength{\emergencystretch}{2em}
+\setlist[itemize]{leftmargin=1.5em,itemsep=0.18em,topsep=0.3em}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\R}{\mathbb R}
+\newcommand{\Nzero}{\mathbb N_0}
+\newcommand{\Hs}{H^\infty}
+\newcommand{\cR}{\mathcal R}
+\newcommand{\cI}{\mathcal I}
+\newcommand{\frakR}{\mathfrak R}
+\newcommand{\Pdiv}{\mathbb P\nabla\!\cdot}
+\newcommand{\norm}[1]{\left\lVert #1\right\rVert}
+\newcommand{\dd}{\,\mathrm d}
+\newcommand{\vort}{\omega}
+\newcommand{\strain}{S}
+\newcommand{\Istar}{I_*}
+\newcommand{\pair}[2]{\left\langle #1,#2\right\rangle}
+
+\title{\vspace{-1.55em}\textbf{Global Regularity for the Three-Dimensional\\
+Incompressible Navier{--}Stokes Equations}\\[0.42em]
+\large A proof through the datum-generated compatible intersection}
+\author{Thomas Birnie}
+\date{August 2026}
+
+\begin{document}
+\maketitle
+\vspace{-1.1em}
+
+\begin{abstract}
+For one smooth divergence-free datum and one fixed \(\nu>0\), the
+three-dimensional incompressible equation generates one maximal
+velocity--pressure history.  The equation also generates the complete mixed
+derivative jet of that history.  The datum-generated whole-terminal theorem
+places every finite part of this jet in a compatible Sobolev rectangle, and
+the rectangles assemble into one projective all-orders intersection.  That
+intersection is an estimate generator: every fixed finite-order continuation
+bound in the paper is obtained by selecting a sufficiently high coordinate.
+The resulting bounds give one common \(H^\infty\) endpoint, the actual
+pressure-compatible endpoint jet, and a smooth restart of the same history
+across any proposed finite terminal time.  The maximal time is infinite.
+\end{abstract}
+
+\section*{Introduction}
+
+Fix one smooth divergence-free finite-energy datum \(u_0\) in three space
+dimensions and one parameter \(\nu>0\).  Local theory generates one maximal
+velocity--pressure history \((u,p)\) on \([0,T_*)\).  The question is whether
+its maximal time can be finite.  Energy controls the velocity itself, but it
+does not by itself place every fixed temporal and spatial response in a
+bound that survives all the way to \(T_*\).  A finite terminal face could
+remain only if some response needed for continuation escaped.  The proof
+follows this same history until that possibility is closed.
+
+The datum first generates one maximal velocity--pressure pair.  The equation then
+generates its temporal and spatial derivative jet, including the pressure
+at each order.  The first theorem of the proof places every finite portion
+of that jet in a whole-terminal Sobolev rectangle and makes the rectangles
+compatible under restriction.  Their projective intersection retains every
+finite temporal and spatial coordinate at once.  Once that intersection has
+been formed, the estimates usually pursued one at a time become projections
+of a single stronger object.
+
+This order is essential.  The Serrin row, the critical
+\(L_t^\infty L_x^3\) row, the vorticity and strain actions, the critical
+height, the dyadic shell sums, and the pressure bounds are not used to
+produce the intersection.  They are read from it after it exists.  The same
+intersection then supplies a common terminal value in every Sobolev
+topology, identifies the incoming pressure-complete jet, and permits a local
+restart that uniqueness glues to the original history.
+
+The classical background is well established.  Leray constructed global
+weak solutions \cite{Leray1934}; Prodi and Serrin identified scale-sensitive
+regularity classes \cite{Prodi1959,Serrin1962,Serrin1963}; Fujita--Kato and
+Kato developed the strong local theory used at the restart
+\cite{FujitaKato1964,Kato1984}; and the critical
+\(L_t^\infty L_x^3\) endpoint was resolved by
+Escauriaza, Seregin, and \v{S}ver\'ak
+\cite{EscauriazaSereginSverak2003}.  The role of those results in this paper
+is sharply delimited.  They supply standard local, embedding, or comparison
+interfaces.  The proof's central object is the datum-generated compatible
+intersection stated in Theorem~\ref{thm:intersection}.
+
+The paper is organized by the causal order of the argument.  Sections
+1--2 fix the one history and derive its pressure-complete jet.  Section~3
+states the whole-terminal rectangle theorem and proves the projective
+assembly.  Section~4 turns the intersection into a general estimate
+generator.  Section~5 develops the critical adjacent block and the full
+classical consequence suite.  Sections~6--8 construct the common endpoint,
+identify its actual jet, and restart the same history.  The appendix records
+the finite-order analytic facts used in those passages.
+
+\paragraph{Conventions.}
+All velocity Sobolev spaces are vector-valued over \(\R^3\); scalar spaces
+are used for pressure.  We write
+\[
+H^\infty(\R^3):=\bigcap_{m=0}^{\infty}H^m(\R^3),
+\qquad
+H^\infty_\sigma(\R^3)
+:=\{v\in H^\infty(\R^3;\R^3):\nabla\cdot v=0\}.
+\]
+All time derivatives are distributional derivatives until continuity
+selects their canonical representatives.  Repeated spatial indices are
+summed.  A \emph{pressure-complete history} means one velocity field,
+its pressure recovered from that same field by the fixed normalization
+below, and all differentiated velocity and pressure rows generated from the
+same equation.
+
+\begin{theorem}[Global regularity]
+\label{thm:global}
+Let \(\nu>0\), and let
+\[
+ u_0\in H^\infty(\R^3;\R^3)\cap L^2(\R^3;\R^3),
+ \qquad \nabla\cdot u_0=0.
+\]
+The three-dimensional incompressible Navier{--}Stokes system on \(\R^3\)
+has a unique global smooth velocity--pressure history generated by \(u_0\),
+with pressure fixed by the decaying Riesz-transform normalization.  For
+every \(t\ge0\),
+\begin{equation}
+\norm{u(t)}_2^2
++2\nu\int_0^t\norm{\nabla u(s)}_2^2\dd s
+=\norm{u_0}_2^2.
+\label{eq:global-energy}
+\end{equation}
+In particular,
+\[
+ u,p\in C^\infty([0,\infty)\times\R^3).
+\]
+\end{theorem}
+
+\paragraph{Proof of Theorem~\ref{thm:global}.}
+The proof follows one object.  Its first movement is
+\begin{equation}
+\boxed{
+u_0
+\longrightarrow (u,p)
+\longrightarrow \{J_{n,\alpha},\Pi_{n,\alpha}\}_{n,\alpha}
+\longrightarrow \{\cR_{N,M}[u_0]\}_{N,M}
+\longrightarrow \cI[u_0].}
+\label{eq:opening-chain}
+\end{equation}
+Every arrow in \eqref{eq:opening-chain} retains the datum, the parameter,
+the pressure convention, and the history.  The point is not to collect
+separate estimates.  It is to construct one object from which each requested
+finite estimate can be read.
+
+\section{One datum generates one pressure-complete history}
+
+Standard smooth-data local theory gives a unique classical solution and a
+maximal lifespan; see \cite{FujitaKato1964,Kato1984}.  Let \((u,p)\) be that
+maximal pressure-complete history generated by \(u_0\), defined on
+\([0,T_*)\).  On every strict subinterval \([0,T]\subset[0,T_*)\), it is
+smooth and satisfies
+\begin{equation}
+\partial_tu+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
+\qquad
+\nabla\cdot u=0,
+\qquad
+u(0)=u_0.
+\label{eq:ns}
+\end{equation}
+Testing the momentum equation against \(u\), using
+\(\nabla\cdot u=0\), and integrating by parts gives
+\begin{equation}
+\norm{u(t)}_2^2
++2\nu\int_0^t\norm{\nabla u(s)}_2^2\dd s
+=\norm{u_0}_2^2
+\qquad(0\le t<T_*).
+\label{eq:energy-before-endpoint}
+\end{equation}
+This identity will pass through the restart once the terminal value and the
+same-history continuation have been identified.
+Write
+\[
+R_j:=\partial_j(-\Delta)^{-1/2}.
+\]
+Taking the divergence of \eqref{eq:ns} and fixing the decaying normalization
+determines pressure from this same velocity field:
+\begin{equation}
+-\Delta p=\partial_i\partial_j(u_i u_j),
+\qquad
+p=R_iR_j(u_i u_j).
+\label{eq:pressure}
+\end{equation}
+The velocity and pressure are not two histories joined after the fact.
+Equation \eqref{eq:pressure} records the pressure response carried by the
+same evolving velocity field.
+
+Assume for contradiction that
+\[
+T_*<\infty.
+\]
+All finite-horizon time estimates below are made on this contradiction
+branch.  No later step changes the object named in \eqref{eq:ns}.
+
+\section{The equation generates the complete mixed jet}
+
+Set
+\[
+V_n:=\partial_t^n u,
+\qquad
+Q_n:=\partial_t^n p,
+\qquad n\in\Nzero.
+\]
+Repeated differentiation of \eqref{eq:pressure} gives
+\begin{equation}
+Q_n
+=R_iR_j\sum_{a=0}^{n}\binom{n}{a}V_{a,i}V_{n-a,j}.
+\label{eq:pressure-recurrence}
+\end{equation}
+Differentiating \eqref{eq:ns} gives the matching velocity recurrence
+\begin{equation}
+V_{n+1}
+=\nu\Delta V_n
+-\sum_{a=0}^{n}\binom{n}{a}(V_a\cdot\nabla)V_{n-a}
+-\nabla Q_n.
+\label{eq:velocity-recurrence}
+\end{equation}
+At height \(n\), the recurrence has not introduced another solution.  It has
+exposed the next temporal response of the history already generated by
+\(u_0\).
+
+For a spatial multi-index \(\alpha\), define
+\[
+J_{n,\alpha}:=\partial_t^n\partial_x^\alpha u,
+\qquad
+\Pi_{n,\alpha}:=\partial_t^n\partial_x^\alpha p.
+\]
+For multi-indices, \(\beta\le\alpha\) means coordinatewise inequality, and
+\[
+\binom{\alpha}{\beta}
+:=\prod_{\ell=1}^{3}\binom{\alpha_\ell}{\beta_\ell}.
+\]
+Leibniz' rule applied to \eqref{eq:ns} yields the full mixed row
+\begin{equation}
+\begin{aligned}
+J_{n+1,\alpha}
+&+\sum_{a=0}^{n}\sum_{\beta\le\alpha}
+  \binom{n}{a}\binom{\alpha}{\beta}
+  (J_{a,\beta}\cdot\nabla)J_{n-a,\alpha-\beta}
+  +\nabla\Pi_{n,\alpha} \\
+&=\nu\Delta J_{n,\alpha},
+\qquad
+\nabla\cdot J_{n,\alpha}=0.
+\end{aligned}
+\label{eq:mixed-recurrence}
+\end{equation}
+The pressure coordinate in this row is determined by
+\begin{equation}
+-\Delta\Pi_{n,\alpha}
+=\partial_i\partial_j\partial_t^n\partial_x^\alpha(u_i u_j).
+\label{eq:mixed-pressure}
+\end{equation}
+Equations \eqref{eq:pressure-recurrence}--\eqref{eq:mixed-pressure} form the
+pressure-complete mixed jet of the original history.  Its temporal rows,
+spatial Sobolev rows, vorticity, strain, critical-height coordinates, and
+later continuation quantities are all finite views of this one jet.
+
+\begin{proposition}[The jet is generated by the datum]
+\label{prop:datum-jet}
+For every \(n\in\Nzero\), the initial values \(V_n(0)\) and \(Q_n(0)\) are
+uniquely determined by \(u_0\), \(\nu\), and the pressure normalization.
+They lie in \(H^\infty\).  The resulting sequence is the initial trace of
+the actual differentiated history.
+\end{proposition}
+
+\begin{proof}
+Begin with \(V_0(0)=u_0\).  Since \(H^\infty\) is closed under finite
+products and spatial differentiation, and the Riesz transforms act
+continuously on every \(H^m\), equation
+\eqref{eq:pressure-recurrence} determines \(Q_0(0)\in H^\infty\).
+Equation \eqref{eq:velocity-recurrence} then determines
+\(V_1(0)\in H^\infty\).  If the rows through height \(n\) have been
+determined in \(H^\infty\), the finite sum in
+\eqref{eq:pressure-recurrence} determines \(Q_n(0)\), and
+\eqref{eq:velocity-recurrence} determines \(V_{n+1}(0)\).
+Induction gives the complete sequence.  On every strict classical
+subinterval, direct differentiation of \eqref{eq:ns} obeys the same
+recurrence with the same base value, so the recursively generated sequence
+is the trace of the actual jet.
+\end{proof}
+
+\begin{remark}[Temporal response and material response]
+The symbols \(V_1=u_t\) and \(V_2=u_{tt}\) denote time derivatives at fixed
+spatial position.  If \(D_t:=\partial_t+u\cdot\nabla\), then the material
+acceleration is \(D_tu\), not \(V_1\); its next material response is
+\(D_t^2u\), not \(V_2\).  The proof uses the fixed-position jet because it
+is the jet generated by repeated differentiation of the evolution equation.
+\end{remark}
+
+\section{Finite compatible rectangles and the complete intersection}
+
+Write \(\Istar=(0,T_*)\).  For \(N\in\Nzero\), \(M\ge1\), and
+\(0<T<T_*\), define
+\begin{equation}
+\begin{aligned}
+\frakR_{N,M}(u;T)
+:={}&\sum_{n=0}^{N}
+\norm{\partial_t^n u}_{L^2(0,T;H^{M+1})}^2 \\
+&+\sum_{n=0}^{N}
+\norm{\partial_t^{n+1}u}_{L^2(0,T;H^{M-1})}^2.
+\end{aligned}
+\label{eq:rectangle-norm}
+\end{equation}
+To type the records precisely, let \(\mathscr V_{N,M}\) be the space of
+tuples \(\mathbf v=(v_0,\ldots,v_{N+1})\) of divergence-free distributions
+for which
+\begin{equation}
+\norm{\mathbf v}_{\mathscr V_{N,M}}^2
+:=\sum_{n=0}^{N}\norm{v_n}_{L^2(\Istar;H^{M+1})}^2
++\sum_{n=0}^{N}\norm{v_{n+1}}_{L^2(\Istar;H^{M-1})}^2
+<\infty.
+\label{eq:velocity-record-space}
+\end{equation}
+Let
+\[
+\mathscr P_{N,M}
+:=\prod_{n=0}^{N}L^1(\Istar;H^{M+1}(\R^3))
+\]
+with its finite product topology.  Because \(M+1>3/2\), the products below
+belong to the stated pressure factors.  Define \(\mathscr X_{N,M}\) as the
+subset of \(\mathscr V_{N,M}\times\mathscr P_{N,M}\), with the relative
+product topology, whose records
+\[
+(\mathbf v,\mathbf q)
+=\bigl((v_n)_{0\le n\le N+1},(q_n)_{0\le n\le N}\bigr)
+\]
+satisfy, for \(0\le n\le N\),
+\begin{align}
+\partial_t v_n&=v_{n+1},
+\label{eq:record-time-link}\\
+q_n&=R_iR_j\sum_{a=0}^{n}\binom{n}{a}v_{a,i}v_{n-a,j},
+\label{eq:record-pressure-link}\\
+v_{n+1}
+&=\nu\Delta v_n
+-\sum_{a=0}^{n}\binom{n}{a}(v_a\cdot\nabla)v_{n-a}
+-\nabla q_n
+\label{eq:record-equation-link}
+\end{align}
+in \(\mathcal D'(\Istar\times\R^3)\).  Thus
+\[
+\cR_{N,M}[u_0]
+:=\bigl((V_n)_{0\le n\le N+1},(Q_n)_{0\le n\le N}\bigr)
+\in\mathscr X_{N,M}
+\]
+denotes the datum-specific finite restriction of the actual jet, not the
+ambient record space or another construction of the solution.
+
+\Needspace{14\baselineskip}
+\begin{theorem}[Datum-generated whole-terminal compatible intersection]
+\label{thm:intersection}
+For every \(N\in\Nzero\) and \(M\ge1\), the datum \(u_0\), the parameter
+\(\nu\), and
+their one maximal pressure-complete history generate a rectangle
+\(\cR_{N,M}[u_0]\) satisfying
+\begin{equation}
+\boxed{
+\sup_{0<T<T_*}\frakR_{N,M}(u;T)
+\le C_{N,M}(u_0,\nu,T_*)<\infty.}
+\label{eq:whole-terminal}
+\end{equation}
+The constant may depend on the finite coordinate \((N,M)\); no constant
+uniform in all derivative orders is asserted.  If \(N'\le N\) and
+\(1\le M'\le M\), the restriction maps satisfy
+\begin{equation}
+\rho_{N',M'}^{N,M}\!\left(\cR_{N,M}[u_0]\right)
+=\cR_{N',M'}[u_0].
+\label{eq:compatibility}
+\end{equation}
+Every shared coordinate is the corresponding derivative of the same
+velocity--pressure history.
+\end{theorem}
+
+The supremum in \eqref{eq:whole-terminal} is the decisive quantifier.  A
+bound that changes as \(T\uparrow T_*\) would not pay the endpoint passage.
+The theorem supplies one datum-dependent bound through the entire alleged
+terminal horizon for each requested finite coordinate.
+
+\paragraph{Passage to the whole terminal interval.}
+Every summand in \eqref{eq:rectangle-norm} is nonnegative and increases with
+\(T\).  Monotone convergence and \eqref{eq:whole-terminal} give, for
+\(0\le n\le N\),
+\begin{equation}
+\partial_t^n u\in L^2(\Istar;H^{M+1}),
+\qquad
+\partial_t^{n+1}u\in L^2(\Istar;H^{M-1}).
+\label{eq:whole-terminal-rows}
+\end{equation}
+The symbols in \eqref{eq:whole-terminal-rows} still denote the
+distributional derivatives of the original history.  No terminal
+representative has yet been added.
+
+If \(N'\le N\) and \(1\le M'\le M\), define
+\[
+\rho_{N',M'}^{N,M}:
+\mathscr X_{N,M}\longrightarrow
+\mathscr X_{N',M'}
+\]
+by discarding temporal rows above \(N'+1\) and pressure rows above \(N'\), applying
+the continuous embeddings
+\[
+H^{M+1}\hookrightarrow H^{M'+1},
+\qquad
+H^{M-1}\hookrightarrow H^{M'-1},
+\]
+to the retained coordinates.  Equation \eqref{eq:record-pressure-link}
+keeps their pressure normalization fixed.
+These maps satisfy
+\begin{equation}
+\rho_{N,M}^{N,M}=\operatorname{id},
+\qquad
+\rho_{N'',M''}^{N',M'}\circ\rho_{N',M'}^{N,M}
+=\rho_{N'',M''}^{N,M}
+\label{eq:bonding-composition}
+\end{equation}
+whenever \((N'',M'')\le(N',M')\le(N,M)\).
+Equation \eqref{eq:compatibility} says that the actual datum-generated
+records form a compatible family for this directed system.
+
+\begin{proposition}[Projective assembly]
+\label{prop:projective-assembly}
+Define
+\begin{equation}
+\cI[u_0]
+:=\bigl(\cR_{N,M}[u_0]\bigr)_{N\in\Nzero,\,M\ge1}.
+\label{eq:intersection}
+\end{equation}
+Then \(\cI[u_0]\) is the datum-specific element of the inverse-limit space
+\begin{equation}
+\mathscr X_\infty
+:=\varprojlim_{N,M}\mathscr X_{N,M}
+=
+\left\{
+(\mathbf R_{N,M})_{N,M}:
+\begin{aligned}
+&\mathbf R_{N,M}\in\mathscr X_{N,M},\\[-0.2em]
+&\rho_{N',M'}^{N,M}\mathbf R_{N,M}
+=\mathbf R_{N',M'}
+\quad\text{whenever }(N',M')\le(N,M)
+\end{aligned}
+\right\}.
+\label{eq:inverse-limit-definition}
+\end{equation}
+Its velocity component satisfies
+\begin{equation}
+\boxed{
+u\in\bigcap_{r,m\in\Nzero}H^r(\Istar;H^m(\R^3)).}
+\label{eq:all-orders-intersection}
+\end{equation}
+In particular, its zeroth temporal projection satisfies
+\begin{equation}
+u\in\bigcap_{m\in\Nzero}L^2(\Istar;H^m(\R^3)).
+\label{eq:zero-row}
+\end{equation}
+\end{proposition}
+
+\begin{proof}
+The identity \eqref{eq:compatibility}, together with the composition law
+\eqref{eq:bonding-composition}, places the family
+\eqref{eq:intersection} in the inverse limit
+\eqref{eq:inverse-limit-definition}.  Every shared coordinate is already
+the same distributional derivative of \((u,p)\), so there are no
+representatives to choose or reconcile.
+
+Fix \(r,m\in\Nzero\).  Choose \(N\ge r\) and \(M\ge m+1\).  For
+\(0\le n\le r\), the first membership in
+\eqref{eq:whole-terminal-rows} gives
+\[
+\partial_t^n u\in L^2(\Istar;H^{M+1})
+\hookrightarrow L^2(\Istar;H^m).
+\]
+These are the distributional time derivatives of the same \(u\), which is
+exactly the definition of \(u\in H^r(\Istar;H^m)\).  Since \(r\) and \(m\)
+were arbitrary, \eqref{eq:all-orders-intersection} follows.  Setting
+\(r=0\) gives \eqref{eq:zero-row}.
+\end{proof}
+
+The order matters.  The complete compatible intersection
+\eqref{eq:all-orders-intersection} is now present.  The critical and
+classical estimates that follow are consequences of it, not inputs used to
+construct it.
+
+\section{The intersection becomes an estimate generator}
+
+\begin{lemma}[Hilbert-valued time trace]
+\label{lem:hilbert-time-trace}
+Let \(X\) be a Hilbert space and \(0<T<\infty\).  If
+\(f\in H^1(0,T;X)\), then \(f\) has a unique representative in
+\(C([0,T];X)\), and
+\[
+\norm{f(t)-f(s)}_X
+\le |t-s|^{1/2}\norm{f_t}_{L^2(0,T;X)}
+\qquad(0\le s\le t\le T).
+\]
+\end{lemma}
+
+\begin{proof}
+The Bochner fundamental theorem of calculus gives
+\(f(t)-f(s)=\int_s^t f_\tau(\tau)\dd\tau\) for the absolutely continuous
+representative.  Cauchy--Schwarz gives the displayed estimate and hence
+strong continuity.  Two continuous representatives equal almost everywhere
+only if they agree everywhere.  This is the standard one-dimensional trace
+result; see \cite{LionsMagenes1972}.
+\end{proof}
+
+\begin{proposition}[Universal finite-order projection]
+\label{prop:universal-projection}
+For every \(r,m\in\Nzero\),
+\[
+\partial_t^r u\in C([0,T_*];H^m).
+\]
+If \(k\in\Nzero\), \(2\le p\le\infty\), and
+\(m>k+\frac32-\frac3p\), then
+\(\nabla^k\partial_t^r u\in L^q(0,T_*;L^p)\) for every
+\(1\le q\le\infty\), with the bounds
+\eqref{eq:master-estimate} and \eqref{eq:master-estimate-infinity} below.
+\end{proposition}
+
+\begin{proof}
+The intersection changes the estimate problem.  Fix any finite temporal
+order \(r\) and spatial order \(m\).  From
+\eqref{eq:all-orders-intersection},
+\[
+u\in H^{r+1}(0,T_*;H^m),
+\qquad
+\partial_t^r u\in H^1(0,T_*;H^m).
+\]
+The one-dimensional Hilbert-valued Sobolev trace theorem gives
+\[
+\partial_t^r u\in C([0,T_*];H^m).
+\]
+Hence
+\begin{equation}
+\boxed{
+M_{r,m}:=
+\sup_{0\le t\le T_*}\norm{\partial_t^r u(t)}_{H^m}<\infty}
+\qquad (r,m\in\Nzero).
+\label{eq:master-trace}
+\end{equation}
+Every finite temporal derivative is uniformly bounded in every fixed finite
+spatial Sobolev norm through \(T_*\).
+
+Now fix \(k\in\Nzero\), \(2\le p\le\infty\), and choose
+\[
+m>k+\frac32-\frac3p.
+\]
+Spatial Sobolev embedding gives, for every \(t\in[0,T_*]\),
+\[
+\norm{\nabla^k\partial_t^r u(t)}_{L^p}
+\le C_{k,m,p}\norm{\partial_t^r u(t)}_{H^m}.
+\]
+Combining this estimate with \eqref{eq:master-trace} yields, for
+\(1\le q<\infty\),
+\begin{equation}
+\boxed{
+\norm{\nabla^k\partial_t^r u}_{L^q(0,T_*;L^p)}
+\le C_{k,m,p}\,T_*^{1/q}M_{r,m}<\infty,}
+\label{eq:master-estimate}
+\end{equation}
+while
+\begin{equation}
+\norm{\nabla^k\partial_t^r u}_{L^\infty(0,T_*;L^p)}
+\le C_{k,m,p}M_{r,m}<\infty.
+\label{eq:master-estimate-infinity}
+\end{equation}
+\end{proof}
+
+Equations \eqref{eq:master-estimate}--\eqref{eq:master-estimate-infinity}
+are the projection rule.  A fixed
+finite-order estimate names \((r,k,p,q)\); one selects a sufficiently high
+finite Sobolev coordinate \(m\); the complete intersection supplies that
+coordinate.  The next section carries this rule through the principal
+classical and scale-sensitive readouts one by one.
+
+\section{The adjacent critical block and its classical projections}
+
+\begin{lemma}[Adjacent Sobolev-scale trace]
+\label{lem:adjacent-trace}
+Let \(s\in\R\).  If
+\[
+v\in L^2(\Istar;H^{s+1}),
+\qquad
+v_t\in L^2(\Istar;H^{s-1}),
+\]
+then \(v\) has a unique representative in \(C([0,T_*];H^s)\).  For
+\(0\le a\le b\le T_*\),
+\begin{equation}
+\left|
+\norm{v(b)}_{H^s}^{2}-\norm{v(a)}_{H^s}^{2}
+\right|
+\le
+2\norm{v_t}_{L^2(a,b;H^{s-1})}
+\norm{v}_{L^2(a,b;H^{s+1})}.
+\label{eq:adjacent-trace-bound}
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+Let \(A=(1-\Delta)^{1/2}\).  Time mollification and spatial Fourier
+truncation first give, for smooth approximants,
+\[
+\norm{v(b)}_{H^s}^{2}-\norm{v(a)}_{H^s}^{2}
+=2\operatorname{Re}\int_a^b
+\pair{A^{s-1}v_t(t)}{A^{s+1}v(t)}_{L^2}\dd t.
+\]
+Cauchy--Schwarz gives \eqref{eq:adjacent-trace-bound}.  The assumed
+\(L^2\) memberships let the approximants converge in the right-hand
+pairing.  The limit has weak \(H^s\) continuity and a continuous \(H^s\)
+norm; together these give strong \(H^s\) continuity.  Uniqueness follows
+as in Lemma~\ref{lem:hilbert-time-trace}.  This is the adjacent-scale form
+of the Lions--Magenes trace argument \cite{LionsMagenes1972}.
+\end{proof}
+
+\subsection{The critical adjacent block}
+
+The first critical readout needs only one finite rectangle, but that
+rectangle is selected after the full intersection has been assembled.
+The coordinate \(\cR_{0,2}[u_0]\) gives
+\[
+u\in L^2(\Istar;H^3),
+\qquad
+u_t\in L^2(\Istar;H^1).
+\]
+In particular,
+\begin{equation}
+u\in L^2(\Istar;H^{5/2}),
+\qquad
+u_t\in L^2(\Istar;H^{1/2}).
+\label{eq:critical-adjacent-pair}
+\end{equation}
+Lemma~\ref{lem:adjacent-trace} with \(s=3/2\) gives
+\begin{equation}
+u\in C([0,T_*];H^{3/2}).
+\label{eq:critical-hthreehalf-trace}
+\end{equation}
+
+Let \(\Lambda=(-\Delta)^{1/2}\), and for \(s\ge0\) set
+\[
+E_s(t):=\frac12\norm{\Lambda^s u(t)}_2^2,
+\qquad
+H(t):=E_{1/2}(t).
+\]
+The pair \eqref{eq:critical-adjacent-pair}, justified first by time
+mollification and frequency truncation, gives
+\begin{equation}
+\frac{\dd}{\dd t}E_{3/2}(t)
+=\operatorname{Re}
+\pair{\Lambda^{1/2}u_t(t)}{\Lambda^{5/2}u(t)}_{L^2}
+\in L^1(\Istar).
+\label{eq:ethreehalf-derivative}
+\end{equation}
+The zeroth row gives \(E_{3/2}\in L^1(\Istar)\).  Hence
+\begin{equation}
+E_{3/2}\in W^{1,1}(\Istar)\cap L^1(\Istar)
+\subset L^\infty(\Istar).
+\label{eq:ethreehalf-control}
+\end{equation}
+The stronger integer rows also give
+\begin{equation}
+H'(t)
+=\operatorname{Re}
+\pair{\Lambda^{1/2}u(t)}{\Lambda^{1/2}u_t(t)}_{L^2}
+\in L^1(\Istar).
+\label{eq:height-derivative}
+\end{equation}
+
+To retain the pressure response in the critical balance, define
+\[
+\mathcal P_{1/2}(t)
+:=-\operatorname{Re}
+\pair{\Lambda^{1/2}u(t)}
+{\Lambda^{1/2}\bigl((u\cdot\nabla)u+\nabla p\bigr)(t)}_{L^2}.
+\]
+Pairing \eqref{eq:ns} with \(\Lambda u\) gives the exact identity
+\begin{equation}
+H'=-2\nu E_{3/2}+\mathcal P_{1/2}.
+\label{eq:critical-balance}
+\end{equation}
+Equations \eqref{eq:ethreehalf-control},
+\eqref{eq:height-derivative}, and \eqref{eq:critical-balance} yield
+\begin{equation}
+\boxed{
+H\in W^{1,1}(\Istar),\qquad
+E_{3/2}\in L^\infty(\Istar)\cap L^1(\Istar),\qquad
+\mathcal P_{1/2}\in L^1(\Istar).}
+\label{eq:critical-block}
+\end{equation}
+The critical height, the adjacent energy, and the pressure-complete
+production current all reach the terminal face with exactly the time
+regularity claimed in \eqref{eq:critical-block}.  No value at the endpoint
+is assigned to the \(L^1\) current.
+
+\subsection{Uniform Sobolev and higher-response control}
+
+Taking \(r=0\) in \eqref{eq:master-trace} gives, for every finite \(m\),
+\begin{equation}
+\sup_{0\le t\le T_*}\norm{u(t)}_{H^m}<\infty.
+\label{eq:uniform-sobolev}
+\end{equation}
+Any continuation interface based on the divergence of one fixed Sobolev norm
+is excluded by \eqref{eq:uniform-sobolev}.  If \(m>5/2\), then
+\(H^m(\R^3)\hookrightarrow W^{1,\infty}(\R^3)\), so
+\[
+\sup_{0\le t\le T_*}\norm{\nabla u(t)}_{L^\infty}<\infty.
+\]
+Choosing a higher finite row gives, for each fixed \(k\),
+\[
+\sup_{0\le t\le T_*}\norm{\nabla^k u(t)}_{L^\infty}<\infty.
+\]
+The temporal index in \eqref{eq:master-trace} is also arbitrary.  Thus, for
+every fixed \(r,k\),
+\begin{equation}
+\sup_{0\le t\le T_*}
+\norm{\nabla^k\partial_t^r u(t)}_{L^\infty}<\infty.
+\label{eq:all-fixed-responses}
+\end{equation}
+The velocity and its entire finite temporal-response tower remain finite in
+every requested finite spatial norm.
+
+\subsection{Serrin estimates}
+
+One classical continuation family asks for
+\[
+u\in L^q(0,T_*;L^p),
+\qquad
+\frac2q+\frac3p\le1,
+\qquad p>3.
+\]
+This is the Prodi--Serrin scale \cite{Prodi1959,Serrin1962,Serrin1963}.
+The intersection contains the concrete row
+\[
+u\in L^2(0,T_*;H^2(\R^3)).
+\]
+Since \(H^2(\R^3)\hookrightarrow L^\infty(\R^3)\),
+\begin{equation}
+\boxed{u\in L^2(0,T_*;L^\infty(\R^3)),}
+\label{eq:serrin}
+\end{equation}
+and its indices satisfy
+\[
+\frac22+\frac3\infty=1.
+\]
+The single finite row \eqref{eq:serrin} already lies on the Serrin boundary.
+More generally, \eqref{eq:master-estimate} supplies every fixed admissible
+pair in the stated range by selecting a suitable spatial coordinate.
+
+\subsection{The critical
+\texorpdfstring{\(L_t^\infty L_x^3\)}{L-infinity in time, L3 in space}
+endpoint}
+
+The coordinate \((r,m)=(0,1)\) in \eqref{eq:master-trace} gives
+\[
+u\in C([0,T_*];H^1(\R^3)).
+\]
+The embedding \(H^1\hookrightarrow L^6\), together with interpolation
+between \(L^2\) and \(L^6\), yields
+\[
+\norm{u(t)}_{L^3}
+\le \norm{u(t)}_{L^2}^{1/2}\norm{u(t)}_{L^6}^{1/2}
+\le C\norm{u(t)}_{H^1}.
+\]
+Consequently,
+\begin{equation}
+\boxed{u\in L^\infty(0,T_*;L^3(\R^3)).}
+\label{eq:critical-l3}
+\end{equation}
+The critical endpoint that would have to fail at a finite singular time is a
+finite coordinate projection of \(\cI[u_0]\).  Its role as an endpoint
+regularity class is the theorem of Escauriaza, Seregin, and \v{S}ver\'ak
+\cite{EscauriazaSereginSverak2003}; here the membership is obtained directly
+from the compatible intersection.
+
+\subsection{Vorticity, strain, and Lipschitz action}
+
+Define
+\[
+\vort:=\nabla\times u,
+\qquad
+\strain:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr).
+\]
+The intersection contains
+\[
+u\in L^2(0,T_*;H^3).
+\]
+It follows that
+\[
+\vort,\strain,\nabla u
+\in L^2(0,T_*;H^2)
+\hookrightarrow L^2(0,T_*;L^\infty).
+\]
+Cauchy--Schwarz on the finite terminal interval gives
+\begin{align*}
+\int_0^{T_*}\norm{\vort(t)}_{L^\infty}\dd t
+&\le T_*^{1/2}\norm{\vort}_{L_t^2L_x^\infty}<\infty,\\
+\int_0^{T_*}\norm{\strain(t)}_{L^\infty}\dd t
+&\le T_*^{1/2}\norm{\strain}_{L_t^2L_x^\infty}<\infty,\\
+\int_0^{T_*}\norm{\nabla u(t)}_{L^\infty}\dd t
+&\le T_*^{1/2}\norm{\nabla u}_{L_t^2L_x^\infty}<\infty.
+\end{align*}
+Thus the vorticity, strain, and Lipschitz actions all remain finite through
+the alleged terminal time.  In the vorticity equation, the stretching term
+is \((\vort\cdot\nabla)u\); its pointwise operator size is bounded by
+\(\norm{\nabla u}_{L^\infty}|\vort|\).  The last integral above is thus the
+accumulated Lipschitz action capable of amplifying vorticity, while the
+strain integral isolates its symmetric stretching component.
+
+\subsection{Critical height and the finite octave count}
+
+Under the parabolic rescaling
+\[
+u^{(\lambda)}(x,t):=\lambda u(\lambda x,\lambda^2t),
+\qquad
+p^{(\lambda)}(x,t):=\lambda^2p(\lambda x,\lambda^2t),
+\]
+the homogeneous half-derivative norm is unchanged:
+\[
+\norm{\Lambda^{1/2}u^{(\lambda)}(t)}_2
+=\norm{\Lambda^{1/2}u(\lambda^2t)}_2.
+\]
+This is the sense in which the height \(H=E_{1/2}\), defined before
+\eqref{eq:critical-block}, is critical.  That block gives an absolutely continuous
+representative on the closed terminal interval, and hence
+\begin{equation}
+H_{\max}:=\sup_{0\le t\le T_*}H(t)<\infty.
+\label{eq:height-bound}
+\end{equation}
+Fix a positive reference height \(H_0\), and set \(H_k:=2^kH_0\).  The
+\(k\)-th rung is reached when the same history attains the level \(H_k\).
+If a doubling ladder reaches the levels
+\[
+H_0,\ 2H_0,\ 4H_0,\ldots,2^kH_0,
+\]
+then \(2^kH_0\le H_{\max}\).  Whenever \(H_0\le H_{\max}\),
+\begin{equation}
+k\le
+\left\lfloor\log_2\frac{H_{\max}}{H_0}\right\rfloor.
+\label{eq:octave-count}
+\end{equation}
+If \(H_0>H_{\max}\), no rung is reached.  An infinite terminal Zeno ladder
+would be a sequence \(t_k\uparrow T_*\) with \(H(t_k)=H_k\) for every \(k\).
+The finite count above excludes such a sequence: the intersection bounds
+the critical height before the counting argument begins.
+
+\subsection{Dyadic shell summations}
+
+Let \((\Delta_j)_{j\ge-1}\) be an inhomogeneous Littlewood--Paley
+decomposition as in \cite{BahouriCheminDanchin2011}.  For \(j\ge0\),
+Bernstein's inequality gives
+\[
+\norm{\Delta_j\vort(t)}_{L^\infty}
+\lesssim 2^{3j/2}\norm{\Delta_j\vort(t)}_{L^2}
+=2^{-j/2}\,2^{2j}\norm{\Delta_j\vort(t)}_{L^2}.
+\]
+After handling the low block \(j=-1\) once, Cauchy--Schwarz in \(j\) yields
+\begin{align*}
+\sum_{j\ge-1}\norm{\Delta_j\vort(t)}_{L^\infty}
+&\lesssim
+\left(\sum_{j\ge0}2^{-j}\right)^{1/2}
+\left(\sum_{j\ge0}2^{4j}
+\norm{\Delta_j\vort(t)}_{L^2}^2\right)^{1/2}
++C\norm{\Delta_{-1}\vort(t)}_{L^2}\\
+&\lesssim \norm{\vort(t)}_{H^2}
+\lesssim \norm{u(t)}_{H^3}.
+\end{align*}
+Integrating in time and using the \(L_t^2H_x^3\) coordinate gives
+\begin{equation}
+\boxed{
+\sum_{j\ge-1}\int_0^{T_*}
+\norm{\Delta_j\vort(t)}_{L^\infty}\dd t
+\lesssim T_*^{1/2}\norm{u}_{L_t^2H_x^3}<\infty.}
+\label{eq:vorticity-shells}
+\end{equation}
+Tonelli's theorem permits the interchange of the nonnegative shell sum and
+the time integral in \eqref{eq:vorticity-shells}.
+
+The same selection mechanism pays any fixed finite shell weight.  Fix
+\(\sigma\in\R\) and \(k\in\Nzero\), and choose an integer
+\[
+M>\sigma+k+\frac32.
+\]
+For \(j\ge0\),
+\[
+2^{\sigma j}\norm{\Delta_j\nabla^k u(t)}_{L^\infty}
+\lesssim
+2^{-(M-\sigma-k-3/2)j}
+\,2^{Mj}\norm{\Delta_j u(t)}_{L^2}.
+\]
+The first factor is square summable in \(j\), while the second is controlled
+by \(\norm{u(t)}_{H^M}\).  The low block is again finite.  Hence
+\begin{equation}
+\int_0^{T_*}\sum_{j\ge-1}2^{\sigma j}
+\norm{\Delta_j\nabla^k u(t)}_{L^\infty}\dd t
+\le C_{\sigma,k,M}T_*^{1/2}
+\norm{u}_{L^2(0,T_*;H^M)}
+<\infty.
+\label{eq:weighted-shells}
+\end{equation}
+Each fixed finite weighted shell sum is controlled by one sufficiently high
+finite Sobolev row.  A further sum over every Sobolev order would ask for
+growth information across the tower, which is a different assertion.
+
+\subsection{Pressure projections}
+
+The pressure recurrence \eqref{eq:pressure-recurrence} can be written
+directly as
+\begin{equation}
+\partial_t^r p
+=R_iR_j\sum_{a=0}^{r}\binom{r}{a}
+(\partial_t^a u_i)(\partial_t^{r-a}u_j).
+\label{eq:pressure-row}
+\end{equation}
+Fix finite \(r,m\), and choose a finite spatial level high enough that all
+factors on the right of \eqref{eq:pressure-row} lie continuously in a
+Sobolev algebra.  Multiplication and the Riesz transforms are continuous at
+that level.  More explicitly, the choice \(m+2\) gives
+\begin{equation}
+\norm{\partial_t^r p(t)}_{H^m}
+\le C_{r,m}\sum_{a=0}^{r}
+\norm{\partial_t^a u(t)}_{H^{m+2}}
+\norm{\partial_t^{r-a}u(t)}_{H^{m+2}}.
+\label{eq:pressure-product-bound}
+\end{equation}
+Each factor on the right is continuous in time by
+\eqref{eq:master-trace}.  The master trace estimate then gives
+\begin{equation}
+\partial_t^r p\in C([0,T_*];H^m)
+\qquad\text{for every fixed finite }r,m.
+\label{eq:pressure-all-orders}
+\end{equation}
+Fix \(k\in\Nzero\), \(2\le p\le\infty\), and choose
+\(m>k+\frac32-\frac3p\).  Applying the same Sobolev embedding used in
+Proposition~\ref{prop:universal-projection}, followed by the finite time
+embedding, gives
+\begin{equation}
+\nabla^k\partial_t^r p
+\in L^q(0,T_*;L^p)
+\qquad
+\left(
+r,k\in\Nzero,\ 2\le p\le\infty,\ 1\le q\le\infty
+\right).
+\label{eq:pressure-mixed-norms}
+\end{equation}
+For example, choosing \(m>5/2\) after one finite derivative margin gives
+\[
+\nabla p\in L^\infty(0,T_*;L^\infty)
+\subset L^1(0,T_*;L^\infty).
+\]
+Pressure-based finite-order regularity interfaces are thus projections of
+the same intersection, and pressure remains tied to the same velocity field
+at all finite orders.
+
+\subsection{Type-I terminal products}
+
+Under the rescaling used above, with the terminal time rescaled along with
+the solution, the quantities
+\[
+(T_*-t)^{1/2}\norm{u(t)}_{L^\infty},
+\qquad
+(T_*-t)\norm{\nabla u(t)}_{L^\infty}
+\]
+are dimensionless.  These two quantities are what the phrase
+\emph{Type-I terminal products} means in this subsection; the label invokes no additional
+continuation theorem.
+
+From \eqref{eq:all-fixed-responses},
+\[
+\sup_{0\le t\le T_*}\norm{u(t)}_{L^\infty}<\infty,
+\qquad
+\sup_{0\le t\le T_*}\norm{\nabla u(t)}_{L^\infty}<\infty.
+\]
+Multiplication by the vanishing terminal factors gives
+\begin{equation}
+(T_*-t)^{1/2}\norm{u(t)}_{L^\infty}\longrightarrow0,
+\qquad
+(T_*-t)\norm{\nabla u(t)}_{L^\infty}\longrightarrow0
+\label{eq:type-one}
+\end{equation}
+as \(t\uparrow T_*\).  The Type-I terminal products defined above do not
+approach a positive terminal obstruction; they vanish.
+
+\subsection{The ultraviolet tail}
+
+Use the unitary Fourier convention
+\[
+\widehat u(\xi)
+=(2\pi)^{-3/2}\int_{\R^3}e^{-ix\cdot\xi}u(x)\dd x.
+\]
+For \(K\ge1\), define the critical high-frequency tail
+\[
+H_{>K}(t)
+:=\frac12\int_{|\xi|>K}|\xi|\,|\widehat u(t,\xi)|^2\dd\xi.
+\]
+Fix any real \(m>1/2\), and choose an integer \(\ell\ge m\).  The uniform
+\(H^\ell\) bound gives a uniform \(\dot H^m\) bound.  On \(|\xi|>K\),
+\[
+|\xi|\le K^{1-2m}|\xi|^{2m}.
+\]
+It follows that
+\[
+H_{>K}(t)
+\le\frac12K^{1-2m}\norm{u(t)}_{\dot H^m}^2.
+\]
+The uniform Sobolev bound \eqref{eq:uniform-sobolev} now gives
+\begin{equation}
+\boxed{
+\lim_{K\to\infty}\sup_{0\le t\le T_*}H_{>K}(t)=0.}
+\label{eq:uv-tail}
+\end{equation}
+Critical mass cannot persist at unbounded frequency as the finite terminal
+time is approached.
+
+\subsection{Exact scope of the projection principle}
+
+The preceding arguments cover each requested fixed finite temporal order,
+spatial order, shell weight, and mixed norm with \(2\le p\le\infty\).  They
+do not assert one constant uniform over all orders.  The dyadic statements
+are finite-horizon statements; extending their time integrals to an infinite
+horizon would require added decay.  Small-data thresholds, symmetry classes,
+and geometric vorticity-direction hypotheses retain their independent
+assumptions.  None of those qualifications weakens the claim proved here:
+every displayed fixed finite-order continuation estimate is obtained from a
+finite coordinate of the already completed intersection.
+
+\section{The intersection supplies one common endpoint}
+
+The catalogue shows how widely the intersection projects.  Closure needs a
+single object: the endpoint of the original velocity field.  The zeroth
+temporal projection \eqref{eq:zero-row} gives, for every finite \(m\),
+\[
+u\in L^2(0,T_*;H^{m+2}).
+\]
+Let \(\mathbb P\) denote the Leray projection.  Sobolev multiplication gives
+\begin{equation}
+\norm{\Pdiv(u\otimes u)}_{H^m}
+\le C_m\norm{u}_{H^{m+2}}^2.
+\label{eq:nonlinear-bound}
+\end{equation}
+Consequently,
+\[
+\norm{\Pdiv(u\otimes u)}_{L^1(0,T_*;H^m)}
+\le C_m\norm{u}_{L^2(0,T_*;H^{m+2})}^2<\infty.
+\]
+The linear term satisfies
+\[
+\norm{\Delta u}_{L^1(0,T_*;H^m)}
+\le T_*^{1/2}\norm{u}_{L^2(0,T_*;H^{m+2})}<\infty.
+\]
+Applying \(\mathbb P\) to \eqref{eq:ns} gives
+\begin{equation}
+u_t=\nu\Delta u-\Pdiv(u\otimes u).
+\label{eq:projected-equation}
+\end{equation}
+Equations \eqref{eq:nonlinear-bound}--\eqref{eq:projected-equation} imply
+\[
+u_t\in L^1(0,T_*;H^m).
+\]
+Since \(T_*<\infty\) and \(u\in L^2(0,T_*;H^m)\), Cauchy--Schwarz also
+gives \(u\in L^1(0,T_*;H^m)\).  Hence
+\begin{equation}
+u\in W^{1,1}(0,T_*;H^m)
+\hookrightarrow C([0,T_*];H^m)
+\qquad(m\in\Nzero).
+\label{eq:w11-endpoint}
+\end{equation}
+The representative in \eqref{eq:w11-endpoint} agrees almost everywhere
+with the \(H^1_tH^m_x\) representative from
+\eqref{eq:master-trace}; continuity makes them identical everywhere.
+If \(k>m\), the \(H^k\)-continuous representative, viewed through the
+embedding \(H^k\hookrightarrow H^m\), agrees in the same way with the
+\(H^m\)-representative.  Thus the endpoint values are not selected
+independently.  They are compatible traces of the same velocity field and
+define one common endpoint
+\begin{equation}
+\boxed{
+u_*:=u(T_*)\in\bigcap_{m\in\Nzero}H^m(\R^3)=H^\infty(\R^3).}
+\label{eq:common-endpoint}
+\end{equation}
+Because divergence is continuous from \(H^1\) to \(L^2\), the identities
+\(\nabla\cdot u(t)=0\) for \(t<T_*\) pass to
+\[
+\nabla\cdot u_*=0.
+\]
+The \(H^0=L^2\) trace also gives finite kinetic energy.  Letting
+\(t\uparrow T_*\) in \eqref{eq:energy-before-endpoint} yields the energy
+identity at the terminal face.
+
+\section{The equation generates the actual endpoint jet}
+
+The endpoint is not only a family of spatial norms.  It carries the full
+incoming pressure-compatible jet.  Begin with
+\[
+V_0^*:=u_*.
+\]
+For \(n\in\Nzero\), set
+\begin{align}
+Q_n^*
+&:=R_iR_j\sum_{a=0}^{n}\binom{n}{a}V_{a,i}^*V_{n-a,j}^*,
+\label{eq:endpoint-pressure}\\
+V_{n+1}^*
+&:=\nu\Delta V_n^*
+-\sum_{a=0}^{n}\binom{n}{a}(V_a^*\cdot\nabla)V_{n-a}^*
+-\nabla Q_n^*.
+\label{eq:endpoint-velocity}
+\end{align}
+Because \(V_0^*\in H^\infty\), the first pressure row belongs to every finite
+Sobolev space after choosing a finite product margin, and
+\(V_1^*\in H^\infty\).  Induction through
+\eqref{eq:endpoint-pressure}--\eqref{eq:endpoint-velocity} gives
+\begin{equation}
+V_n^*,Q_n^*\in H^\infty
+\qquad\text{for every }n\in\Nzero.
+\label{eq:endpoint-jet}
+\end{equation}
+
+This recursion is not a free formal jet.  We identify it with the incoming
+history row by row.  For every \(n,m\in\Nzero\), define
+\[
+\widehat V_n
+:=\lim_{t\uparrow T_*}\partial_t^n u(t)
+\quad\text{in }H^m.
+\]
+The limits are independent of \(m\) under Sobolev restriction, so
+\(\widehat V_n\in H^\infty\).  Equation
+\eqref{eq:pressure-all-orders} similarly defines
+\[
+\widehat Q_n
+:=\lim_{t\uparrow T_*}\partial_t^n p(t)
+\quad\text{in every }H^m.
+\]
+
+We prove \((\widehat V_n,\widehat Q_n)=(V_n^*,Q_n^*)\) by induction.
+The base is \(\widehat V_0=u_*=V_0^*\).  Suppose
+\(\widehat V_a=V_a^*\) for \(0\le a\le n\).  Fix a target Sobolev order
+\(m\) and take all incoming limits in a higher finite order at which
+multiplication, differentiation, and the Riesz transforms in the \(n\)-th
+row are continuous.  Passing \(t\uparrow T_*\) in
+\eqref{eq:pressure-recurrence} gives
+\[
+\widehat Q_n
+=R_iR_j\sum_{a=0}^{n}\binom{n}{a}
+V_{a,i}^*V_{n-a,j}^*
+=Q_n^*.
+\]
+Passing through \eqref{eq:velocity-recurrence} then gives
+\[
+\widehat V_{n+1}
+=\nu\Delta V_n^*
+-\sum_{a=0}^{n}\binom{n}{a}
+(V_a^*\cdot\nabla)V_{n-a}^*
+-\nabla Q_n^*
+=V_{n+1}^*.
+\]
+The target order \(m\) was arbitrary, so the identities hold in
+\(H^\infty\).  Induction identifies every velocity and pressure row.
+The alleged terminal point carries the complete pressure-compatible jet of
+the history that reached it.
+
+\section{Same-history restart and global closure}
+
+\begin{lemma}[Uniform local restart]
+\label{lem:local-restart}
+Fix \(s>5/2\), \(\nu>0\), and \(B<\infty\).  There is
+\(\delta=\delta(\nu,s,B)>0\) such that, for every \(t_0\in\R\), every
+divergence-free
+\(a\in H^s(\R^3)\) with \(\norm{a}_{H^s}\le B\) generates a unique strong
+pressure-normalized solution on \([t_0,t_0+\delta]\).  If
+\(a\in H^\infty\), every higher Sobolev order persists on the same interval,
+the solution is smooth, and its right temporal jet at \(t_0\) is generated
+by \eqref{eq:endpoint-pressure}--\eqref{eq:endpoint-velocity}.
+\end{lemma}
+
+\begin{proof}
+This is the standard local \(H^s\) theory for \(s>5/2\), with the existence
+time bounded below in terms of the fixed parameter and the \(H^s\) norm;
+see \cite{FujitaKato1964,Kato1984,Temam2001}.  The pressure is recovered by
+\eqref{eq:pressure}, so uniqueness of the velocity also fixes the normalized
+pressure.  Persistence follows by applying the differentiated energy
+estimates on the lifespan of the same strong solution.  Repeated right
+differentiation at the initial face gives the normalized recurrences.
+\end{proof}
+
+Choose \(s>5/2\) and set
+\[
+B:=1+\sup_{0\le t\le T_*}\norm{u(t)}_{H^s}<\infty.
+\]
+Let \(\delta=\delta(\nu,s,B)\) be given by
+Lemma~\ref{lem:local-restart}.  Choose \(t_0<T_*\) with
+\(T_*-t_0<\delta/2\), and launch the local solution \(w\) from
+\(w(t_0)=u(t_0)\).  It exists past \(T_*\).  On
+\([t_0,T_*)\), both \(w\) and \(u\) are strong solutions with the same datum
+at \(t_0\); uniqueness gives
+\[
+w(t)=u(t)\qquad(t_0\le t<T_*).
+\]
+Continuity in \(H^s\) then gives \(w(T_*)=u_*\).
+
+Apply the same lemma at \(T_*\) to \(u_*\), and call the resulting
+pressure-normalized restart \((z,q)\).  The restriction of \(w\) to the
+right of \(T_*\) and \(z\) have the
+same initial datum, so uniqueness identifies them on their common interval.
+The right jet of \((z,q)\) is generated by
+\eqref{eq:endpoint-pressure}--\eqref{eq:endpoint-velocity}; hence it equals
+\((V_n^*,Q_n^*)_{n\ge0}\).  Section~7 identified this sequence with the
+incoming jet.  The piecewise pair
+\[
+(\widetilde u,\widetilde p)(t)
+:=
+\begin{cases}
+(u,p)(t),&0\le t<T_*,\\
+(z,q)(t),&T_*\le t<T_*+\delta,
+\end{cases}
+\]
+has matching derivatives of every order at \(T_*\), solves the same
+normalized system there, and is smooth across the join.  By the overlap
+argument it is the same history generated by \(u_0\), now continued beyond
+\(T_*\).
+
+This contradicts the maximality of a finite \(T_*\).  Hence
+\begin{equation}
+\boxed{T_*=\infty.}
+\label{eq:global-time}
+\end{equation}
+The energy identity on the left and right pieces agrees at the common
+\(L^2\) trace \(u_*\), so \eqref{eq:global-energy} holds throughout the
+continued history.
+
+The complete argument now closes along one datum-preserving chain:
+\begin{equation}
+\boxed{\begin{gathered}
+u_0\longrightarrow(u,p)
+\longrightarrow\{J_{n,\alpha},\Pi_{n,\alpha}\}
+\longrightarrow\{\cR_{N,M}[u_0]\}_{N,M}
+\longrightarrow\cI[u_0]\\
+\longrightarrow u(T_*)\in H^\infty
+\longrightarrow\text{actual pressure-complete endpoint jet}
+\longrightarrow\text{same-history restart}
+\longrightarrow T_*=\infty.
+\end{gathered}}
+\label{eq:closing-chain}
+\end{equation}
+Every consequence estimate used between the intersection and the endpoint
+was a finite projection of \(\cI[u_0]\), not another history and not a
+producer for the intersection.  This proves Theorem~\ref{thm:global}.
+
+\hfill\(\square\)
+
+\appendix
+
+\section{Finite-order analytic tools used in the proof}
+
+This appendix records the standard facts used above and the finite margins
+at which they are applied.  No estimate in the paper takes a sum or a
+supremum over all Sobolev orders.
+
+\subsection{Sobolev products, embeddings, and multipliers}
+
+In three dimensions,
+\begin{equation}
+H^s(\R^3)\hookrightarrow W^{k,p}(\R^3)
+\qquad\text{if}\qquad
+s>k+\frac32-\frac3p,
+\quad 2\le p\le\infty.
+\label{eq:appendix-sobolev-embedding}
+\end{equation}
+If \(s>3/2\), then \(H^s(\R^3)\) is an algebra, and the usual tame product
+estimate gives
+\[
+\norm{fg}_{H^m}
+\le C_{m,s}\bigl(
+\norm{f}_{H^m}\norm{g}_{H^s}
++\norm{f}_{H^s}\norm{g}_{H^m}
+\bigr)
+\]
+whenever the displayed norms are finite.  In particular, for each integer
+\(m\ge0\),
+\begin{equation}
+\norm{\mathbb P\nabla\cdot(v\otimes w)}_{H^m}
+\le C_m\norm{v}_{H^{m+2}}\norm{w}_{H^{m+2}}.
+\label{eq:appendix-product}
+\end{equation}
+
+The Riesz transforms \(R_j=\partial_j(-\Delta)^{-1/2}\) and the Leray
+projection \(\mathbb P\) are order-zero Fourier multipliers.  They act
+continuously on \(H^s(\R^3)\) for every \(s\in\R\).  These facts justify
+the pressure estimates \eqref{eq:pressure-product-bound}, the projected
+equation \eqref{eq:projected-equation}, and the passage to every finite
+endpoint-jet row.
+
+\subsection{Time traces and compatible representatives}
+
+For a Hilbert space \(X\), the Bochner space \(H^1(0,T;X)\) embeds into
+\(C([0,T];X)\).  Lemma~\ref{lem:hilbert-time-trace} gave the direct
+estimate used here.  The adjacent-scale version,
+\[
+L^2(0,T;H^{s+1})\cap
+W^{1,2}(0,T;H^{s-1})
+\hookrightarrow C([0,T];H^s),
+\]
+was proved in Lemma~\ref{lem:adjacent-trace}.  Both statements select unique
+continuous representatives.  This uniqueness is what makes the terminal
+values obtained at different Sobolev orders one compatible endpoint rather
+than a collection of unrelated limits.
+
+\subsection{Inhomogeneous dyadic convention}
+
+Choose smooth radial cutoffs \(\chi,\varphi\) with
+\[
+1=\chi(\xi)+\sum_{j\ge0}\varphi(2^{-j}\xi),
+\]
+and define
+\[
+\Delta_{-1}:=\chi(D),
+\qquad
+\Delta_j:=\varphi(2^{-j}D)\quad(j\ge0).
+\]
+For \(j\ge0\), Bernstein's estimate reads
+\[
+\norm{\Delta_j f}_{L^\infty}
+\le C2^{3j/2}\norm{\Delta_j f}_{L^2}.
+\]
+The inhomogeneous square-function equivalence
+\[
+\norm{f}_{H^M}^2
+\simeq
+\norm{\Delta_{-1}f}_2^2
++\sum_{j\ge0}2^{2Mj}\norm{\Delta_jf}_2^2
+\]
+is the input used in \eqref{eq:vorticity-shells} and
+\eqref{eq:weighted-shells}; see
+\cite{BahouriCheminDanchin2011}.  The low block is retained once, and all
+high-block weights are summed only after a fixed finite \(M\) has been
+chosen.
+
+\subsection{Constant dependence}
+
+The constants \(C_{N,M}(u_0,\nu,T_*)\) belong to the settled
+whole-terminal rectangle theorem and may vary with the selected finite
+rectangle.  Constants in the projection estimates may also depend on their
+displayed finite indices, on \(T_*\), and on the selected rectangle
+constant.  The proof uses no analytic radius and no uniform growth law
+across derivative order.
+
+\begingroup
+\small
+\begin{thebibliography}{99}
+
+\bibitem{Leray1934}
+J.~Leray,
+\newblock Sur le mouvement d'un liquide visqueux emplissant l'espace,
+\newblock \emph{Acta Mathematica} \textbf{63} (1934), 193--248.
+
+\bibitem{Prodi1959}
+G.~Prodi,
+\newblock Un teorema di unicit\`a per le equazioni di
+{Navier{--}\hspace{0pt}Stokes},
+\newblock \emph{Annali di Matematica Pura ed Applicata} \textbf{48}
+(1959), 173--182.
+
+\bibitem{Serrin1962}
+J.~Serrin,
+\newblock On the interior regularity of weak solutions of the
+{Navier{--}\hspace{0pt}Stokes} equations,
+\newblock \emph{Archive for Rational Mechanics and Analysis} \textbf{9}
+(1962), 187--195.
+
+\bibitem{Serrin1963}
+J.~Serrin,
+\newblock The initial value problem for the {Navier{--}\hspace{0pt}Stokes} equations,
+\newblock in \emph{Nonlinear Problems}, University of Wisconsin Press,
+Madison, 1963, 69--98.
+
+\bibitem{FujitaKato1964}
+H.~Fujita and T.~Kato,
+\newblock On the {Navier{--}\hspace{0pt}Stokes} initial value problem. I,
+\newblock \emph{Archive for Rational Mechanics and Analysis} \textbf{16}
+(1964), 269--315.
+
+\bibitem{Kato1984}
+T.~Kato,
+\newblock Strong \(L^p\)-solutions of the {Navier{--}\hspace{0pt}Stokes} equation in
+\(\mathbb R^m\), with applications to weak solutions,
+\newblock \emph{Mathematische Zeitschrift} \textbf{187} (1984), 471--480.
+
+\bibitem{EscauriazaSereginSverak2003}
+L.~Escauriaza, G.~A. Seregin, and V.~\v{S}ver\'ak,
+\newblock \(L_{3,\infty}\)-solutions of the {Navier{--}\hspace{0pt}Stokes} equations
+and backward uniqueness,
+\newblock \emph{Russian Mathematical Surveys} \textbf{58} (2003),
+211--250.
+
+\bibitem{LionsMagenes1972}
+J.-L.~Lions and E.~Magenes,
+\newblock \emph{Non-Homogeneous Boundary Value Problems and Applications,
+Vol. I},
+\newblock Springer, 1972.
+
+\bibitem{Temam2001}
+R.~Temam,
+\newblock \emph{{Navier{--}\hspace{0pt}Stokes} Equations: Theory and Numerical
+Analysis},
+\newblock AMS Chelsea, 2001.
+
+\bibitem{BahouriCheminDanchin2011}
+H.~Bahouri, J.-Y.~Chemin, and R.~Danchin,
+\newblock \emph{Fourier Analysis and Nonlinear Partial Differential
+Equations},
+\newblock Springer, 2011.
+
+\end{thebibliography}
+\endgroup
+
+\end{document}

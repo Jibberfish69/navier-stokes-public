@@ -1,0 +1,153 @@
+---
+version: 1
+generated_at: '2026-08-23T20:38:11Z'
+status: ai-paper-production-complete
+scope:
+  lane: papers/navier-stokes
+  artifact: standalone AI-automated formal proof paper
+  spatial_setting: three-dimensional whole space
+custody:
+  settled_object: datum-generated compatible-intersection theorem
+  state: proved-and-closed
+  treatment_in_this_run: inherited without reopening, demotion, replacement, or added conditions
+  causal_order:
+    - initial datum and pressure-complete mixed jet
+    - differentiated critical-height tower
+    - datum-generated compatible finite rectangles
+    - compatible inverse intersection
+    - endpoint jet and same-history restart
+    - maximal-time contradiction and global closure
+    - downstream matrix forms
+    - downstream quantitative estimates
+    - downstream applications
+paper:
+  canonical_pdf: papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf
+  compatibility_pdf: papers/navier-stokes/build/output/authoritative-edge/main.pdf
+  manuscript_root: papers/navier-stokes/manuscript/generated/main.tex
+  pages: 64
+  bytes: 763886
+  sha256: 6c660dfb4b66403372a36fde45dcad5e9efac851f0a13913a0050fa5ef76316d
+  title: Global Smoothness for the Three-Dimensional Incompressible Navier-Stokes Equations
+  author: Thomas Birnie
+source:
+  modular_tex_files: 9
+  aggregate_lines: 6231
+  aggregate_bytes: 197779
+  main_tex_sha256: 8c5fa684091b3e6597fd4dce3ac9aa69a0a6b8b683f03d791f6b1e9b6bc60a98
+  input_order:
+    - 00-introduction.tex
+    - 00-analytic-framework.tex
+    - 01-setting-mixed-jet.tex
+    - 02-compatible-rectangles.tex
+    - 04-intersection-endpoint-restart.tex
+    - 03-matrix-forms.tex
+    - 03-quantitative-consequences.tex
+    - 05-three-dimensional-applications.tex
+proof_audit:
+  status: pass
+  checks:
+    - analytic constants, product estimates, traces, and restart class
+    - datum-generated pressure-complete mixed jet
+    - differentiated critical-height completion
+    - settled compatible-rectangle producer
+    - compatible inverse intersection
+    - endpoint velocity and pressure jets
+    - same-history restart and maximal-time contradiction
+    - global smoothness and energy identity
+  matrix_dependency: matrix forms encode the completed intersection after closure and do not produce it
+quantitative_audit:
+  status: pass
+  outputs:
+    - mixed-jet rows and endpoint traces
+    - pressure rows and pressure traces
+    - velocity and pressure frequency tails
+    - critical-height rows and production currents
+    - continuation norms
+    - endpoint restart lifespan and persistence size
+    - exact viscosity and finite-horizon covariance
+    - canonical datum-coordinate estimates for unrestricted data
+    - raw finite-datum-norm estimates in the small-critical regime
+  dependence_retained:
+    - initial datum Sobolev norms
+    - viscosity
+    - temporal and spatial derivative orders
+    - frequency threshold
+    - finite time horizon
+applications_audit:
+  status: pass
+  proved_applications:
+    - explicit small-critical-data global regularity
+    - explicit small-critical rectangles and matrix bounds
+    - low-rectangle regularity classes
+    - uniform extinction of parabolic scale content
+    - vorticity amplification and dissipation bounds
+    - quantitative volume-preserving material flow
+    - quantitative Leray-Hopf stability, uniqueness, and energy equality
+    - Leray-Hopf pressure-gauge identification
+abstract_audit:
+  status: pass
+  words: 232
+  citations: 0
+  displayed_equations: 0
+  claim_scope:
+    - exact global theorem and datum class stated first
+    - critical-height balance produces every finite temporal and Sobolev package on one history
+    - finite terminal traces alone are insufficient to produce one smooth endpoint
+    - restriction and terminal trace compatibility make the endpoint traces projectively consistent rather than independently selected
+    - compatible intersection assembles one all-orders endpoint
+    - pressure jet is recovered downstream through the pressure recurrence
+    - local existence and overlap uniqueness continue the same history past the alleged terminal time
+    - explicit finite-order dependence and proved three-dimensional applications
+  independent_result: no blocking claim, structure, prose, or rendering objection
+citation_audit:
+  status: pass
+  primary_sources_checked:
+    - Clay Mathematics Institute problem statement
+    - Fujita-Kato
+    - Leray
+    - Hopf
+    - Lieb
+    - Lions-Magenes
+    - Tao
+build_audit:
+  status: pass
+  engine: pdfLaTeX through latexmk in an isolated build directory
+  latex_warnings: 0
+  package_warnings: 0
+  undefined_references: 0
+  undefined_citations: 0
+  overfull_boxes: 0
+  underfull_boxes: 0
+  labels: 429
+  duplicate_labels: 0
+visual_audit:
+  status: pass
+  pages_inspected: 64
+  render_resolution_dpi: 200 minimum in independent page-by-page audits
+  embedded_fonts: 30
+  defects:
+    clipping: 0
+    overlap: 0
+    overflow: 0
+    mathematical_unit_splits: 0
+    orphaned_headings_or_connectives: 0
+    broken_glyphs: 0
+    blank_or_duplicate_pages: 0
+    footer_or_geometry_faults: 0
+independent_final_pdf_audit:
+  status: pass
+  audited_sha256: 6c660dfb4b66403372a36fde45dcad5e9efac851f0a13913a0050fa5ef76316d
+  referee_result: no blocking mathematical, semantic, reader-facing, or pagination objection
+  visual_ranges:
+    - pages 1-32 at 200 dpi
+    - pages 33-64 at 200 dpi
+prohibited_content_audit:
+  status: pass
+  non_three_dimensional_material: absent
+human_manuscript:
+  policy: read-only
+  modified_by_this_run: false
+production_boundary:
+  internal_paper_production_contract: passed
+  external_referee_or_prize_adjudication_asserted: false
+...

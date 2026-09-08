@@ -4,20 +4,20 @@ identity:
   problem_id: navier-stokes
   display_name: Navier-Stokes Global Regularity
   audit_id: auto-audit-navier-stokes
-  audited_at: '2026-08-06T14:56:50Z'
+  audited_at: '2026-08-26T22:39:57Z'
   generator: system/runner/lib/auto_auditor_support.rb
 certification:
-  current_package_status: established-complete
-  standalone_status: established-complete
-  completion_tier_achieved: established-complete
-  review_verdict: established-complete
-  theorem_packet_status: established-complete
+  current_package_status: ''
+  standalone_status: ''
+  completion_tier_achieved: ''
+  review_verdict: ''
+  theorem_packet_status: ''
 audit_certification:
-  audit_status: audited-established-complete
-  audit_completion_tier: audited-established-complete
-  audit_review_verdict: audited-established-complete
+  audit_status: audited-needs-fix
+  audit_completion_tier: audited-unknown
+  audit_review_verdict: audited-unknown
 branch_audit:
-  status: all-terminal
+  status: terminal-audit-open
   branch_count: 5
   live_import_count: 0
   route_equivalence_count: 5
@@ -30,7 +30,6 @@ branch_audit:
     terminal_status: route-equivalence
     exact_reason: This branch starts exactly at the first unresolved frontier for
       `global-same-packet-full-material-clock`.
-    promotion_status: quarantined
     falsification_verdict: quarantine
     reasons:
     - This branch starts exactly at the first unresolved frontier for `global-same-packet-full-material-clock`.
@@ -41,7 +40,6 @@ branch_audit:
     terminal_status: route-equivalence
     exact_reason: This is a route branch rather than a local theorem bridge, so it
       stays quarantined.
-    promotion_status: quarantined
     falsification_verdict: quarantine
     reasons:
     - This is a route branch rather than a local theorem bridge, so it stays quarantined.
@@ -51,7 +49,6 @@ branch_audit:
     terminal_status: route-equivalence
     exact_reason: This is a route branch rather than a local theorem bridge, so it
       stays quarantined.
-    promotion_status: quarantined
     falsification_verdict: quarantine
     reasons:
     - This is a route branch rather than a local theorem bridge, so it stays quarantined.
@@ -61,7 +58,6 @@ branch_audit:
     terminal_status: route-equivalence
     exact_reason: This is a route branch rather than a local theorem bridge, so it
       stays quarantined.
-    promotion_status: quarantined
     falsification_verdict: quarantine
     reasons:
     - This is a route branch rather than a local theorem bridge, so it stays quarantined.
@@ -71,221 +67,47 @@ branch_audit:
     terminal_status: route-equivalence
     exact_reason: This is a route branch rather than a local theorem bridge, so it
       stays quarantined.
-    promotion_status: quarantined
     falsification_verdict: quarantine
     reasons:
     - This is a route branch rather than a local theorem bridge, so it stays quarantined.
-downstream_overlay_drift: &1
-  status: stale
+  authority_frontier_open: true
+  authority_frontier_count: 1
+  authority_blocking_count: 1
+  authority_status: theorem-open-at-direct-live-frontier
+downstream_overlay_drift:
+  status: ok
   issue_id: downstream-overlay-drift
-  authority_surface_count: 2
-  stale_overlay_count: 2
-  authority_surfaces:
-  - artifact: source_frontier
-    path: problems/navier-stokes/source-frontier.yaml
-    sha1: 996f045261b6c962be20b87760db4e4afce7afcc
-    matched_terms:
-    - direct-live-surfaces
-    - source_authority_mode
-    - witness
-    - pctp.hard
-    - installed
-    - 'unresolved_count: 0'
-    - 'dashboard_unresolved_count: 0'
-  - artifact: submission_verdict
-    path: problems/navier-stokes/submission-verdict.yaml
-    sha1: 3fbc3c26b990d61af3ec6977e96501dc911df5e8
-    matched_terms:
-    - direct-live-surfaces
-    - source_authority_mode
-    - cm witness
-    - witness
-    - installed
-    - discharged
-    - certified
-    - accepted
-    - 'all_discharged: true'
-    - submission-candidate
-  stale_overlays:
-  - artifact: review_verdict
-    path: problems/navier-stokes/review-verdict.yaml
-    sha1: 9565072866ee1d275233855a6334267d3fda0afd
-    matched_terms:
-    - theorem-upgrade
-  - artifact: release_decision
-    path: problems/navier-stokes/release-decision.yaml
-    sha1: 0b7624c66173d1690dc8b0cb2a41ff41aa31be86
-    matched_terms:
-    - target fidelity failure
-    - target fidelity blocker
-  recommended_repair: refresh-review-verdict
-  recommended_next_cell_type: honesty-review
-  recommended_command: refresh-review-freshness
-  terminal_condition_failure: 'Downstream overlay drift: authoritative theorem edge/source
-    surfaces carry a promoted direct-live posture, but generated overlays still advertise
-    stale blocker language in review_verdict, release_decision: theorem-upgrade, target
-    fidelity failure, target fidelity blocker.'
+  authority_surface_count: 0
+  stale_overlay_count: 0
+  authority_surfaces: []
+  stale_overlays: []
+  recommended_repair: none
+  recommended_next_cell_type:
+  recommended_command:
 graph_snapshot:
   exploration_graph:
     present: true
-    node_count: 30
-    edge_count: 50
+    node_count: 0
+    edge_count: 0
   continuum_dependency_graph:
     present: true
     node_count: 0
     edge_count: 0
-surface_snapshot:
-  theorem_surface:
-    surface_id: theorem-surface-navier-stokes-79eee9fcc024
-    route_signature: 79eee9fcc02468cbf13f0873ff11be91dd0f35e1
-    theorem_target: datum-generated-compatible-intersection-global-regularity
-    theorem_statement: The established datum-generated compatible-intersection theorem
-      and its endpoint, pressure-complete jet, restart, and uniqueness consequences
-      form one complete proof. The repository must represent that composition as the
-      solved Navier--Stokes proof program and must not turn a later assistant's incomplete
-      recovery into a new theorem boundary.
-    route_chain:
-    - Alleged finite-time Clay terminal witness from the same original smooth Navier-Stokes
-      datum.
-    - ClayTerminalWitnessCMEntry.A places the witness in the same-fluid canonical
-      CM terminal participation-field tree.
-    - ClayFiniteFailureTypeCMExhaustion.A exhausts the finite failure type through
-      Silver Part/Field, with Part as the original NS participation ontology and outside-CM
-      participation-field/window failure branches tested under that law before Pack
-      disposal.
-    - ClayCMContrapositiveEmbedding.A embeds the derived Part/Field failure as `Exit(Q):=not
-      Member(Q)` while the pass branch remains the lawful smooth continuation branch.
-    route_slots: []
-    authority_layers:
-      authoritative_proof_surfaces:
-      - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-forensics/master-tex-corpus.md"
-      - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-forensics/master-conversation-corpus.md"
-      - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/Conversations/ChatGPT-Export-143e2e5c290ea3df37effccb9bc8a2c517ff138ba5dc43b05a9bb8b6b0ed3474-2026-02-06-16-38-45-a3284a5f4bec4f2089b5e82854afb5c0/extracts/direct/077-monograph-drafting-plan-68c1cea3-7eb.md"
-      - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/Consolidated-NS-TEX-PDF-Corpus/Rigorous
-        Mapping Between Discrete and Continuous Representations of the Navier-Stokes
-        Equations and Proof of Global Smoothness__desktop_navier_stokes_zip__2025-01-10.tex"
-      - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/RecoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium
-        Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarker/20260325-100820/Desktop/Navier-stokes/Rigorous
-        Mapping Between Discrete and Continuous Representations of the Navier–Stokes
-        Equations and Proof of Global Smoothness.tex"
-      - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/RecoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium
-        Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarker/20260325-100820/Research-Consolidation/Millennium
-        Prize Problems/Navier-Stokes/TeX/Rigorous Mapping Between Discrete and Continuous
-        Representations of the Navier–Stokes Equations and Proof of Global Smoothness.tex"
-      - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/RecoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium
-        Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarker/20260325-100820/Research-Consolidation/Millennium
-        Prize Problems/Navier-Stokes/TeX/Rigorous_Mapping_Between_Discrete_and_Continuous_Representations_of_the_Navier-Stokes_Equations_and_Proof_of_Global_Smoothness
-        (2).tex"
-      - "/Users/thomasbirnie/Workspace/ToE/RC-corpus-archive/Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/TeX/Recovered/RecoveredFolderMarker/20260325-100835/Research-Consolidation/Millennium
-        Prize Problems/Navier-Stokes/TeX/Recovered/RecoveredFolderMarker/20260325-100820/Research-Consolidation/Millennium
-        Prize Problems/Navier-Stokes/TeX/Rigorous_Mapping_Between_Discrete_and_Continuous_Representations_of_the_Navier-Stokes_Equations_and_Proof_of_Global_Smoothness.tex"
-      local_theorem_construction_surfaces:
-      - problems/navier-stokes/exploration-graph.yaml
-      - problems/navier-stokes/layered-route-graph.yaml
-      - problems/navier-stokes/claim-ladder.md
-      - problems/navier-stokes/formalization-ledger.md
-      - problems/navier-stokes/debt-map.yaml
-      - problems/navier-stokes/marvin-watchlist.yaml
-      - problems/navier-stokes/live-theorem-edge.yaml
-      - problems/navier-stokes/theorem-construction/mpp-source-reserve-birth-charge-direct-attempt-20260525.md
-      - problems/navier-stokes/theorem-construction/mpp-pack-first-source-reserve-face-audit-20260526.md
-      - problems/navier-stokes/theorem-construction/mpp-active-height-flux-trichotomy-proof-audit-20260525.md
-      - problems/navier-stokes/theorem-construction/mpp-zero-moment-reserve-visibility-direct-attempt-20260525.md
-      - problems/navier-stokes/theorem-construction/mpp-no-genuine-exit-from-smooth-data-direct-attempt-20260525.md
-      - problems/navier-stokes/theorem-construction/mpp-pack-first-unpaid-donor-reserve-dichotomy-20260523.md
-      - problems/navier-stokes/route-lock.yaml
-      - problems/navier-stokes/theorem-construction/modernized-four-body-schema-torus-tower-geometry.md
-      - problems/navier-stokes/theorem-construction/live-frontier-honest-cut-reduction.md
-      - problems/navier-stokes/theorem-construction/strict-shadow-no-remainder-corollary.md
-      - problems/navier-stokes/theorem-construction/euclidean-strict-shadow-clay-discharge-criterion.md
-      - problems/navier-stokes/theorem-construction/clay-discharge-ladder-from-current-reductions.md
-      - problems/navier-stokes/theorem-construction/tps-strong-bridge-sg-lemma-family.md
-      - problems/navier-stokes/theorem-construction/tps-dynamic-source-fit-and-open-frontier.md
-      - problems/navier-stokes/theorem-construction/tps-coarse-flow-pair-gap-theorem-candidate.md
-      - problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
-      - problems/navier-stokes/theorem-construction/mpp-class-membership-contradiction-frontier-packet.md
-      - problems/navier-stokes/theorem-construction/mpp-class-membership-forward-invariance-theorem-program.md
-      - problems/navier-stokes/theorem-construction/mpp-one-field-forward-preservation-theorem-program.md
-      - problems/navier-stokes/theorem-construction/mpp-lower-carrier-interval-integrability-theorem-program.md
-      - problems/navier-stokes/theorem-construction/mpp-lci-a-enlarged-ball-oscillation-closure-note.md
-      - problems/navier-stokes/theorem-construction/mpp-lci-a-halo-gradient-carrier-return-note.md
-      - problems/navier-stokes/theorem-construction/mpp-lci-a-widened-receiver-return-note.md
-      - problems/navier-stokes/theorem-construction/mpp-lci-a-widened-thickness-collar-wall-note.md
-      - problems/navier-stokes/theorem-construction/mpp-lci-a-widened-thickness-lower-carrier-note.md
-      - problems/navier-stokes/theorem-construction/mpp-lci-a-end-to-end-receiver-and-class-certificate-map.md
-      - problems/navier-stokes/theorem-construction/mpp-lci-a-uniform-lower-carrier-finite-parameter-closure-note.md
-      - problems/navier-stokes/theorem-construction/mpp-lci-a-direct-transported-center-package-note.md
-      - problems/navier-stokes/theorem-construction/mpp-class-membership-endpoint-matrix-closure-contract-note.md
-      - problems/navier-stokes/theorem-construction/mpp-class-membership-full-bridge-ledger-note.md
-      - problems/navier-stokes/theorem-construction/mpp-readout-endpoint-compatibility-completion-note.md
-      - problems/navier-stokes/theorem-construction/mpp-lci-a-pre-csp-still-live-receiver-admission-note.md
-      - problems/navier-stokes/theorem-construction/mpp-collar-to-jump-pivot-note.md
-      - problems/navier-stokes/theorem-construction/mpp-lci-a-transported-center-residual-forcing-note.md
-      - problems/navier-stokes/theorem-construction/mpp-frozen-family-pressure-channel-reduction-note.md
-      - problems/navier-stokes/theorem-construction/mpp-frozen-family-resonant-pressure-sufficient-reduction-note.md
-      - problems/navier-stokes/theorem-construction/mpp-pressure-source-supplier-verification-ledger-note.md
-      - problems/navier-stokes/theorem-construction/mpp-normalized-adjoint-amplitude-four-certificate-discharge-20260504.md
-      - problems/navier-stokes/theorem-construction/mpp-source-drain-definition-alignment-and-discharge-20260504.md
-      - problems/navier-stokes/theorem-construction/mpp-independent-math-verification-audit.md
-      - problems/navier-stokes/theorem-construction/mpp-pctp-hard-governance-consumption-audit-note.md
-      - problems/navier-stokes/theorem-construction/mcp-canonical-pctp-hard-bridge-from-averaged-terminal-tail-route-cfi-a-1500f83b37.md
-      - problems/navier-stokes/theorem-construction/mpp-pctp-hard-matrix-readable-discharge.md
-      - problems/navier-stokes/theorem-construction/mpp-pctp-hard-terminal-tail-uniformization-assembly.md
-      - problems/navier-stokes/theorem-construction/mcp-pctp-hard-discharge-via-averaged-terminal-tail-uniformization-avg-end-a-a92107787f.md
-      - problems/navier-stokes/theorem-construction/mcp-pctp-hard-averaged-assembly-through-read-end.md
-      - problems/navier-stokes/theorem-construction/tps-pair-defect-pde-packet.md
-      - problems/navier-stokes/theorem-construction/tps-selector-observability-to-sg4-bridge-proof-attempt.md
-      - problems/navier-stokes/theorem-construction/psj-plus-terminal-assembly.md
-      - problems/navier-stokes/theorem-construction/psj-plus-1-overlap-terminal-closure.md
-      - problems/navier-stokes/theorem-construction/spectral-transversality-cocycle-bridge-to-sg4.md
-      - problems/navier-stokes/theorem-construction/spectral-transversality-in-measure-implies-pd70.md
-      - problems/navier-stokes/theorem-construction/mpp-euler-smooth-ns-smooth-contrapositive-route-note-20260506.md
-      - problems/navier-stokes/theorem-construction/mpp-direct-fixed-nu-euler-smooth-ns-smooth-hierarchy-20260509.md
-      - problems/navier-stokes/proof-assembly.yaml
-      - problems/navier-stokes/source-frontier.yaml
-      - problems/navier-stokes/object-formalization.yaml
-      safe_output_surface: papers/navier-stokes/manuscript/generated/main.tex
-      synthesis_import_surfaces: []
-    same_surface_guard:
-      status: ok
-      route_locked: true
-      cross_surface_splice: false
-      sterilized_synthesis_import_count: 0
-  theorem_authority_summary:
-    total_obligations: 0
-    grounded_count: 0
-    structural_only_count: 0
-    structurally_supported_count: 0
-    bridge_pending_count: 0
-    unresolved_count: 0
-    frontier_count: 0
-    blocking_count: 0
-    all_discharged: true
-    authority_mode: direct-live-surfaces
-    source_authority_mode: direct-live-surfaces
+surface_snapshot: {}
 issues:
-- issue_id: stale-review-verdict
+- issue_id: terminal-audit-open
   severity: major
-  summary: Review verdict is stale relative to the current manuscript artifacts.
+  summary: The branch audit is terminal-open because direct-live authority still has
+    an open frontier.
   autofixable: false
-  recommended_action: Run honesty-review to refresh the review verdict.
+  recommended_action: Keep theorem-crank/theorem-creation running against the direct-live
+    frontier until the branch lands as live import, route equivalence with a discharged
+    authority edge, or death certificate.
   details:
-  - Primary manuscript changed after the current review verdict was written.
-  - Review verdict does not record a current authoritative export surface hash.
-  - Submission export status changed after the current review verdict was written.
-  - Typeset audit changed after the current review verdict was written.
-- issue_id: downstream-overlay-drift
-  severity: major
-  summary: Generated theorem/review/release overlays still advertise stale blockers
-    after the direct live theorem edge advanced.
-  autofixable: false
-  recommended_action: Regenerate the derived theorem chain, refresh honesty-review
-    if review-verdict is stale, and rerun release-or-respawn after review.
-  details: *1
-fix_plan:
-- fix_id: repair-downstream-overlay-drift
-  summary: Repair stale downstream overlays in a bounded promotion-preserving order.
-  autofixable: false
+    authority_frontier_count: 1
+    authority_blocking_count: 1
+    authority_status: theorem-open-at-direct-live-frontier
+fix_plan: []
 source_artifacts:
   theorem_packet: problems/navier-stokes/theorem-packet.yaml
   live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
@@ -300,23 +122,3 @@ source_artifacts:
   object_formalization: problems/navier-stokes/object-formalization.yaml
   debt_map: problems/navier-stokes/debt-map.yaml
   creative_theorem_search: problems/navier-stokes/creative-theorem-search.yaml
-proof_program_completion_projection:
-  mathematical_status: established-complete
-  mpp_status: solved
-  active_direct_boundary: none
-  producer_status: proved-datum-generated-whole-terminal-compatible-rectangles
-  producer_statement: From every smooth divergence-free finite-energy datum u_0 and
-    fixed viscosity nu>0, the one pressure-complete maximal history supplies every
-    finite whole-terminal mixed rectangle R_{N,M}[u_0], with constants allowed to
-    depend on N and M, and the rectangles agree under every restriction map.
-  closure_status: proved
-  proof_chain: u_0 -> compatible whole-terminal finite mixed rectangles -> their simultaneous
-    projective intersection -> complete zeroth spatial row -> one H_x^infinity endpoint
-    -> the actual pressure-complete endpoint jet -> smooth local restart and uniqueness
-    -> T_*=infinity.
-  silver_status: downstream-logical-classification-not-required-for-direct-closure
-  canonical_status_source: problems/navier-stokes/target-operating-contract.yaml#proof_program_completion
-  precedence: Later assistant audits that failed to recover the established first
-    theorem remain forensic history only. A missing derivation in one inspected surface
-    records incomplete recovery; it does not reverse the proof program or manufacture
-    an active mathematical boundary.

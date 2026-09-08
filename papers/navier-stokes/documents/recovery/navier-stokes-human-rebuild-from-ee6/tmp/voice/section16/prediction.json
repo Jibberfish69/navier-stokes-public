@@ -1,0 +1,340 @@
+{
+  "field_resolutions": [
+    {
+      "field": "writing_form",
+      "status": "accepted_for_run",
+      "value": "reader-facing mathematical manuscript subsection",
+      "reason": "This interpretation follows from the live source, adjacent reader state, and the user's explicit rewrite direction."
+    },
+    {
+      "field": "writing_job",
+      "status": "accepted_for_run",
+      "value": "teach the Euler versus Navier--Stokes comparison through Couette flow and a hypothetical tangential slip, then derive the membership split caused by viscosity",
+      "reason": "This interpretation follows from the live source, adjacent reader state, and the user's explicit rewrite direction."
+    },
+    {
+      "field": "domain",
+      "status": "accepted_for_run",
+      "value": "three-dimensional incompressible fluid equations",
+      "reason": "This interpretation follows from the live source, adjacent reader state, and the user's explicit rewrite direction."
+    },
+    {
+      "field": "audience",
+      "status": "accepted_for_run",
+      "value": "mathematically informed reader who is new to this proof's conceptual route",
+      "reason": "This interpretation follows from the live source, adjacent reader state, and the user's explicit rewrite direction."
+    },
+    {
+      "field": "purpose",
+      "status": "accepted_for_run",
+      "value": "let the reader discover why one imagined nonsmooth fluid can satisfy Euler while failing the fixed-viscosity Navier--Stokes class",
+      "reason": "This interpretation follows from the live source, adjacent reader state, and the user's explicit rewrite direction."
+    },
+    {
+      "field": "reader_start",
+      "status": "accepted_for_run",
+      "value": "The reader understands the Section 1.5 membership test and has seen Couette flow as viscous tangential momentum transfer, but has not yet been led through the Euler comparison.",
+      "reason": "This interpretation follows from the live source, adjacent reader state, and the user's explicit rewrite direction."
+    },
+    {
+      "field": "reader_end",
+      "status": "accepted_for_run",
+      "value": "The reader can explain which requirements Euler and Navier--Stokes share, why the planar tangential slip passes the Euler test, why viscosity rejects or smooths it in Navier--Stokes, and why singularity may hide above velocity itself.",
+      "reason": "This interpretation follows from the live source, adjacent reader state, and the user's explicit rewrite direction."
+    },
+    {
+      "field": "live_pressure",
+      "status": "accepted_for_run",
+      "value": "The current subsection begins after the conceptual inference, turns the boards into its premise, and presents distributional calculations before the reader has performed the class-membership thought experiment.",
+      "reason": "This is verified against the live source and the user's two corrections."
+    }
+  ],
+  "reader_start": "The reader understands the Section 1.5 membership test and has seen Couette flow as viscous tangential momentum transfer, but has not yet been led through the Euler comparison.",
+  "live_pressure": "The current subsection begins after the conceptual inference, turns the boards into its premise, and presents distributional calculations before the reader has performed the class-membership thought experiment.",
+  "candidate_moves": [
+    {
+      "move_id": "user-fixed-couette-to-membership-split",
+      "move": {
+        "selection": "Bring up what Couette flow is; then say, in effect, now imagine the fluid took on the properties of two wooden boards sliding tangentially; test that hypothetical against the overlapping Euler and Navier--Stokes properties; show pressure, transport, and incompressibility permit it while viscosity decides that it belongs to Euler and exits fixed-viscosity Navier--Stokes; give the discussion its full teachable depth and richness before landing on higher hidden failures.",
+        "connection": "Spend the Couette result by imagining one changed physical behaviour, then keep the same field fixed while the shared Euler and Navier--Stokes requirements are tested and viscosity produces the decisive class split.",
+        "development": "Move through Couette, board-like slip, shared equation properties, the exact Euler vortex sheet, fixed-viscosity failure, viscous smoothing, and bounded caveats before landing on singularity above the visible velocity.",
+        "expression": "Use direct reader invitation, ordinary physical verbs, explicit causal openings, and only then the minimum distributional notation needed to confirm what the reader has already understood."
+      },
+      "layer_status": {
+        "selection": "present",
+        "connection": "present",
+        "development": "present",
+        "expression": "present"
+      },
+      "reader_change": "The reader can explain which requirements Euler and Navier--Stokes share, why the planar tangential slip passes the Euler test, why viscosity rejects or smooths it in Navier--Stokes, and why singularity may hide above velocity itself.",
+      "next_possibility": "The reader is ready to climb from a failure visible in velocity to failures hidden in acceleration, jerk, and the mixed derivative tower.",
+      "content_basis": [
+        "live-input"
+      ],
+      "sequence": [
+        {
+          "step_id": "step-1",
+          "thought": "Reintroduce Couette flow as the viscous behaviour the comparison will alter, explaining the moving plate, neighbouring layers, smooth shear, and the separate roles of viscous stress and bulk Laplacian.",
+          "connection": "Section 1.5 has already supplied the physical pressure through Couette flow.",
+          "reader_start": "The reader understands the Section 1.5 membership test and has seen Couette flow as viscous tangential momentum transfer, but has not yet been led through the Euler comparison.",
+          "reader_end": "The reader can picture Couette flow as one smooth velocity profile created when viscosity communicates a moving plate's tangential influence through neighbouring fluid layers.",
+          "content_basis": [
+            "live-input"
+          ]
+        },
+        {
+          "step_id": "step-2",
+          "thought": "Invite the reader to imagine that the fluid instead takes on the kinematics of two wooden boards sliding along a common face, and convert that image into a fluid with a tangential velocity jump and no normal crossing.",
+          "connection": "This step answers the unresolved consequence created by the preceding step.",
+          "reader_start": "The reader can picture Couette flow as one smooth velocity profile created when viscosity communicates a moving plate's tangential influence through neighbouring fluid layers.",
+          "reader_end": "The reader can now imagine the deliberately different board-like behaviour: two neighbouring fluid regions slide tangentially while neither crosses their common interface.",
+          "content_basis": [
+            "live-input"
+          ]
+        },
+        {
+          "step_id": "step-3",
+          "thought": "Place Euler and fixed-viscosity Navier--Stokes side by side through the properties they share, then test the imagined field against those shared requirements in the order the reader can see them.",
+          "connection": "This step answers the unresolved consequence created by the preceding step.",
+          "reader_start": "The reader can now imagine the deliberately different board-like behaviour: two neighbouring fluid regions slide tangentially while neither crosses their common interface.",
+          "reader_end": "The reader sees that Euler and Navier--Stokes share velocity, nonlinear transport, pressure, and incompressibility, so the imagined field must be tested against each shared requirement before viscosity is allowed to decide anything.",
+          "content_basis": [
+            "live-input"
+          ]
+        },
+        {
+          "step_id": "step-4",
+          "thought": "Write the planar vortex sheet and derive its Euler membership: tangential jump gives zero distributional divergence, transport stays tangent, constant pressure supplies no sheet force, and normal momentum flux agrees.",
+          "connection": "This step answers the unresolved consequence created by the preceding step.",
+          "reader_start": "The reader sees that Euler and Navier--Stokes share velocity, nonlinear transport, pressure, and incompressibility, so the imagined field must be tested against each shared requirement before viscosity is allowed to decide anything.",
+          "reader_end": "The reader has followed the planar slip through divergence, transport, pressure, and momentum flux and understands why it is a stationary weak Euler vortex sheet.",
+          "content_basis": [
+            "live-input"
+          ]
+        },
+        {
+          "step_id": "step-5",
+          "thought": "Restore fixed positive viscosity and derive class exit: the sharp jump creates a derivative of a surface measure in the Laplacian, while a pressure gradient cannot cancel its nonzero curl.",
+          "connection": "This step answers the unresolved consequence created by the preceding step.",
+          "reader_start": "The reader has followed the planar slip through divergence, transport, pressure, and momentum flux and understands why it is a stationary weak Euler vortex sheet.",
+          "reader_end": "The reader sees the same sharp slip create a distributional viscous term that no pressure gradient can cancel, so the stationary field exits the fixed-viscosity Navier--Stokes class.",
+          "content_basis": [
+            "live-input"
+          ]
+        },
+        {
+          "step_id": "step-6",
+          "thought": "Use the planar shear ansatz to show the same split dynamically: Euler gives a frozen profile and Navier--Stokes gives one-dimensional heat flow, which rounds the step immediately for positive time.",
+          "connection": "This step answers the unresolved consequence created by the preceding step.",
+          "reader_start": "The reader sees the same sharp slip create a distributional viscous term that no pressure gradient can cancel, so the stationary field exits the fixed-viscosity Navier--Stokes class.",
+          "reader_end": "The reader understands the dynamic version of the split: Euler preserves a planar shear profile while Navier--Stokes turns its profile equation into heat flow and spreads a sharp jump over a layer of thickness comparable to the square root of viscosity times time.",
+          "content_basis": [
+            "live-input"
+          ]
+        },
+        {
+          "step_id": "step-7",
+          "thought": "State the exact limits and landing: the infinite sheet has infinite whole-space energy, the example is local and does not classify every nonsmooth outcome, and its visible velocity jump exposes why a hidden failure may first occur higher in the derivative tower.",
+          "connection": "This step answers the unresolved consequence created by the preceding step.",
+          "reader_start": "The reader understands the dynamic version of the split: Euler preserves a planar shear profile while Navier--Stokes turns its profile equation into heat flow and spreads a sharp jump over a layer of thickness comparable to the square root of viscosity times time.",
+          "reader_end": "The reader can explain which requirements Euler and Navier--Stokes share, why the planar tangential slip passes the Euler test, why viscosity rejects or smooths it in Navier--Stokes, and why singularity may hide above velocity itself.",
+          "content_basis": [
+            "live-input"
+          ]
+        }
+      ],
+      "evidence_uses": [
+        {
+          "record_id": "decision-live-obstacle-before-label-001",
+          "source_move_id": "move-from-live-obstacle",
+          "relation": "supports",
+          "applicability_reason": "The reader must feel the Couette-to-slip pressure before the Euler label and distributional calculation arrive."
+        },
+        {
+          "record_id": "decision-carry-established-thought-forward-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The subsection must spend the Couette result from Section 1.5 by changing one physical property and following its consequence."
+        },
+        {
+          "record_id": "decision-unfold-causal-relations-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The comparison succeeds only if each shared equation property is tested and viscosity then produces the membership split."
+        },
+        {
+          "record_id": "decision-preserve-discovery-order-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "Euler membership and Navier--Stokes exit must be discovered after the reader tests the same imagined field."
+        },
+        {
+          "record_id": "decision-develop-to-reader-change-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The user explicitly requested the depth needed for the reader to reconstruct the whole comparison rather than a capsule summary."
+        },
+        {
+          "record_id": "decision-keep-example-inside-idea-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The boards and vortex sheet must illuminate the class-membership distinction without seizing the larger singularity argument."
+        },
+        {
+          "record_id": "observation-reader-led-concept-before-formal-name-001",
+          "source_move_id": "observed-move",
+          "relation": "supports",
+          "applicability_reason": "The approved voice sample supplies the job-matched movement from ordinary hypothetical through causal consequences to formal compression."
+        },
+        {
+          "record_id": "decision-separate-internal-inquiry-from-written-interrogative-001",
+          "source_move_id": "hold-inquiry-realize-declaratively",
+          "relation": "supports",
+          "applicability_reason": "The class-membership inquiry should govern the thought while the prose develops it directly through invitation and consequence."
+        },
+        {
+          "record_id": "decision-sentence-possesses-complete-thought-001",
+          "source_move_id": "make-the-payload-carry-the-thought",
+          "relation": "supports",
+          "applicability_reason": "Every sentence in the teaching chain must name the fluid property and the consequence it produces."
+        }
+      ],
+      "risks": [
+        "The Couette reminder may become repetition instead of the cause of the new comparison.",
+        "The boards may remain a detached analogy instead of becoming a precise hypothetical fluid.",
+        "Formal distributional calculations may arrive before their physical and membership jobs are clear.",
+        "The added heat-flow connection may overtake the local class-membership point.",
+        "Caveats may flatten the landing into audit voice."
+      ],
+      "confidence": "low"
+    }
+  ],
+  "chosen_move_id": "user-fixed-couette-to-membership-split",
+  "choice_reason": "The movement is fixed by the user's correction and directly repairs the first divergence in the live source: it lets the reader perform the physical comparison before receiving its formal verdict.",
+  "rejected_move_ids": [],
+  "evidence_dispositions": [
+    {
+      "record_id": "decision-live-obstacle-before-label-001",
+      "status": "used",
+      "reason": "The reader must feel the Couette-to-slip pressure before the Euler label and distributional calculation arrive."
+    },
+    {
+      "record_id": "decision-carry-established-thought-forward-001",
+      "status": "used",
+      "reason": "The subsection must spend the Couette result from Section 1.5 by changing one physical property and following its consequence."
+    },
+    {
+      "record_id": "decision-unfold-causal-relations-001",
+      "status": "used",
+      "reason": "The comparison succeeds only if each shared equation property is tested and viscosity then produces the membership split."
+    },
+    {
+      "record_id": "decision-name-operational-objects-001",
+      "status": "not_applicable",
+      "reason": "This bounded record does not materially govern the user-fixed Couette-to-Euler comparison movement."
+    },
+    {
+      "record_id": "decision-earn-technical-language-001",
+      "status": "not_applicable",
+      "reason": "This bounded record does not materially govern the user-fixed Couette-to-Euler comparison movement."
+    },
+    {
+      "record_id": "decision-preserve-discovery-order-001",
+      "status": "used",
+      "reason": "Euler membership and Navier--Stokes exit must be discovered after the reader tests the same imagined field."
+    },
+    {
+      "record_id": "decision-generate-expression-from-thought-001",
+      "status": "not_applicable",
+      "reason": "This bounded record does not materially govern the user-fixed Couette-to-Euler comparison movement."
+    },
+    {
+      "record_id": "decision-use-reader-shared-language-001",
+      "status": "not_applicable",
+      "reason": "This bounded record does not materially govern the user-fixed Couette-to-Euler comparison movement."
+    },
+    {
+      "record_id": "decision-develop-to-reader-change-001",
+      "status": "used",
+      "reason": "The user explicitly requested the depth needed for the reader to reconstruct the whole comparison rather than a capsule summary."
+    },
+    {
+      "record_id": "decision-keep-example-inside-idea-001",
+      "status": "used",
+      "reason": "The boards and vortex sheet must illuminate the class-membership distinction without seizing the larger singularity argument."
+    },
+    {
+      "record_id": "decision-repair-exact-referent-001",
+      "status": "not_applicable",
+      "reason": "This bounded record does not materially govern the user-fixed Couette-to-Euler comparison movement."
+    },
+    {
+      "record_id": "decision-generalize-to-writing-faculty-001",
+      "status": "not_applicable",
+      "reason": "This bounded record does not materially govern the user-fixed Couette-to-Euler comparison movement."
+    },
+    {
+      "record_id": "observation-reader-led-concept-before-formal-name-001",
+      "status": "used",
+      "reason": "The approved voice sample supplies the job-matched movement from ordinary hypothetical through causal consequences to formal compression."
+    },
+    {
+      "record_id": "decision-preserve-local-movement-role-001",
+      "status": "not_applicable",
+      "reason": "This bounded record does not materially govern the user-fixed Couette-to-Euler comparison movement."
+    },
+    {
+      "record_id": "decision-separate-internal-inquiry-from-written-interrogative-001",
+      "status": "used",
+      "reason": "The class-membership inquiry should govern the thought while the prose develops it directly through invitation and consequence."
+    },
+    {
+      "record_id": "decision-sentence-possesses-complete-thought-001",
+      "status": "used",
+      "reason": "Every sentence in the teaching chain must name the fluid property and the consequence it produces."
+    }
+  ],
+  "uncertainties": [
+    "Voice fidelity beyond the approved complete-thought feature and the one job-matched handwritten observation remains unvalidated until Thomas judges the realized subsection."
+  ],
+  "authorial_commitment": {
+    "work_target": "A complete Section 1.6 that teaches the Couette-to-vortex-sheet comparison as a discovery of the Euler versus fixed-viscosity membership split.",
+    "strongest_move_reason": "It holds one imagined fluid fixed while each shared property is tested, so viscosity earns its role as the decisive difference rather than being announced.",
+    "intellectual_gain": "The dynamic planar-shear reduction connects the static distributional class test to the physical effect of viscosity: the same jump that Euler can preserve is spread by Navier--Stokes heat flow.",
+    "reader_gain": "The reader can reconstruct the example in ordinary language, verify it in equations, understand its limits, and see why the next singularity may be hidden above velocity.",
+    "delivery": "complete_output",
+    "structural_commitment": {
+      "scope": "section",
+      "decision_origin": "user_supplied",
+      "voice_attribution": "user_owned",
+      "artifact_disposition": "preserve",
+      "inherited_reader_state": "The reader understands the Section 1.5 membership test and has seen Couette flow as viscous tangential momentum transfer, but has not yet been led through the Euler comparison.",
+      "section_job": "Turn the Couette picture into a thought experiment that isolates viscosity as the membership-deciding property for one exact tangential-slip field.",
+      "outgoing_reader_need": "The reader can explain which requirements Euler and Navier--Stokes share, why the planar tangential slip passes the Euler test, why viscosity rejects or smooths it in Navier--Stokes, and why singularity may hide above velocity itself.",
+      "gap_decision": "strengthen_handoff",
+      "gap_payment": "Rebuild the opening and internal order so the Couette mechanism creates the board-like hypothetical, the membership tests generate the Euler and Navier--Stokes verdicts, and the visible jump creates the need for the derivative tower.",
+      "new_section_job": "",
+      "enrichment_reason": "The user explicitly requested the teachable depth needed to cover why the shared properties pass, what viscosity does statically and dynamically, and where the example stops.",
+      "enrichments": [
+        {
+          "detail": "A concise but physical reconstruction of Couette flow",
+          "reader_value": "The reader knows exactly which viscous behaviour is being altered.",
+          "placement": "Opening movement",
+          "restraint": "Use only the parts needed for the comparison and do not reteach all of Section 1.5."
+        },
+        {
+          "detail": "The planar-shear reduction to frozen Euler flow versus viscous heat flow",
+          "reader_value": "The distributional mismatch becomes a visible physical evolution rather than an isolated formal defect.",
+          "placement": "After the fixed-viscosity class-exit derivation",
+          "restraint": "Keep it subordinate to membership and omit unrelated boundary-layer theory."
+        },
+        {
+          "detail": "Exact local and energy caveats",
+          "reader_value": "The reader knows what the example establishes without mistaking it for a Millennium counterexample or an exhaustive classification.",
+          "placement": "Closing movement",
+          "restraint": "State the limits in two or three causal sentences and return immediately to the higher-derivative consequence."
+        }
+      ]
+    }
+  }
+}

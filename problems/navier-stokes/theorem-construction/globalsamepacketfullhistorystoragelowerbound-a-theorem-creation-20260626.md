@@ -56,9 +56,9 @@ GlobalSamePacketFullHistoryStorageLowerBound.A. Construct the global same-materi
 3. Derive the contraction N_{L+1} <= theta N_L + B_L from the storage inequality.
 4. Reject storages whose paying direction is bounded below only after assuming finite full same-material action.
 5. Recursive solver step for GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A: Use the original transported material history as the only carrier.
-6. Recursive solver step for GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A: Differentiate the high-band material energy with transported cutoffs and the moving material Hodge projector.
-7. Recursive solver step for GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A: Partition every positive high-band birth term into lower-band carry, weighted-summable entrance/legal mass, annular stress, Hodge/projector motion, or viscous loss.
-8. Recursive solver step for GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A: Use the dissipative sign of viscosity and the same-history Hodge/projector identity to rule out an invisible high-ratio birth remainder.
+6. Recursive solver step for GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A: Differentiate the high-band material energy with transported cutoffs and the moving material Helmholtz--Leray projector.
+7. Recursive solver step for GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A: Partition every positive high-band birth term into lower-band carry, weighted-summable entrance/legal mass, annular stress, Helmholtz--Leray/projector motion, or viscous loss.
+8. Recursive solver step for GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A: Use the dissipative sign of viscosity and the same-history Helmholtz--Leray/projector identity to rule out an invisible high-ratio birth remainder.
 9. Recursive solver step for GlobalSamePacketFullOriginalHistoryCarrierPartitionIdentity.A: Feed that carrier partition into the good-lambda tail as the noncircular lower-bound mechanism.
 
 ## Circularity Audit

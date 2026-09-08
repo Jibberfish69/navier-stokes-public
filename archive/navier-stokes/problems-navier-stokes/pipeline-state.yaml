@@ -1,0 +1,532 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  folder_name: navier-stokes
+workflow:
+  status: ready
+  current_stage: dependency-discharge-stalled
+  highest_artifact: dependency-discharge
+  owner_cell: automation-next-step
+  next_cell_type: dependency-discharge
+  next_action: 'Governor reroute: run dependency-discharge now so open obligations
+    are worked on the exact theorem-crank cell instead of cycling across adjacent
+    stages.'
+artifacts:
+  obstruction_capture:
+    path: problems/navier-stokes/obstruction-capture.md
+    status: present
+  spine:
+    path: problems/navier-stokes/spine.md
+    status: present
+  claim_ladder:
+    path: problems/navier-stokes/claim-ladder.md
+    status: present
+  draft_v6:
+    path: problems/navier-stokes/draft-v6.md
+    status: present
+  formalization_ledger:
+    path: problems/navier-stokes/formalization-ledger.md
+    status: present
+  draft_v7:
+    path: problems/navier-stokes/draft-v7.md
+    status: present
+  campaign_status:
+    path: problems/navier-stokes/campaign-status.yaml
+    status: present
+  theorem_to_warrant:
+    path: problems/navier-stokes/theorem-to-warrant.yaml
+    status: present
+  referee_objection_ledger:
+    path: problems/navier-stokes/referee-objection-ledger.yaml
+    status: present
+  review_log:
+    path: problems/navier-stokes/review-log.md
+    status: present
+  gap_ticket:
+    path: problems/navier-stokes/gap-ticket.yaml
+    status: present
+  backfill_report:
+    path: problems/navier-stokes/backfill-report.yaml
+    status: present
+  merge_verdict:
+    path: problems/navier-stokes/merge-verdict.yaml
+    status: present
+  debt_map:
+    path: problems/navier-stokes/debt-map.yaml
+    status: present
+  derivation_run:
+    path: problems/navier-stokes/derivation-run.yaml
+    status: present
+  review_verdict:
+    path: problems/navier-stokes/review-verdict.yaml
+    status: present
+  release_decision:
+    path: problems/navier-stokes/release-decision.yaml
+    status: present
+  post_release_plan:
+    path: problems/navier-stokes/post-release-plan.yaml
+    status: present
+  theorem_packet:
+    path: problems/navier-stokes/theorem-packet.yaml
+    status: present
+  continuum_stack:
+    path: problems/navier-stokes/continuum-stack.yaml
+    status: present
+  proof_obligation_matrix:
+    path: problems/navier-stokes/proof-obligation-matrix.yaml
+    status: present
+  submission_verdict:
+    path: problems/navier-stokes/submission-verdict.yaml
+    status: present
+  source_frontier:
+    path: problems/navier-stokes/source-frontier.yaml
+    status: present
+  frozen_core:
+    path: problems/navier-stokes/frozen-core.md
+    status: present
+  extension_branches:
+    path: problems/navier-stokes/extension-branches.yaml
+    status: present
+  lemma_falsification:
+    path: problems/navier-stokes/lemma-falsification.yaml
+    status: present
+  promotion_verdict:
+    path: problems/navier-stokes/promotion-verdict.yaml
+    status: present
+  proof_assembly:
+    path: problems/navier-stokes/proof-assembly.yaml
+    status: present
+  dependency_discharge:
+    path: Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/dependency-discharge.yaml
+    status: present
+  authority_reconciliation:
+    path: problems/navier-stokes/authority-reconciliation.yaml
+    status: present
+  artifact_self_repair:
+    path: problems/navier-stokes/artifact-self-repair.yaml
+    status: present
+  creative_theorem_search:
+    path: problems/navier-stokes/creative-theorem-search.yaml
+    status: present
+  authoritative_source_discovery:
+    path: problems/navier-stokes/authoritative-source-discovery.yaml
+    status: present
+  submission_metadata:
+    path: problems/navier-stokes/submission-metadata.yaml
+    status: present
+  bridge_scale_barrier:
+    path: problems/navier-stokes/bridge-memos/scale-barrier.md
+    status: present
+  bridge_compactness:
+    path: problems/navier-stokes/bridge-memos/compactness.md
+    status: present
+  bridge_gradient_control:
+    path: problems/navier-stokes/bridge-memos/gradient-control.md
+    status: present
+  lane_classification:
+    path: problems/navier-stokes/lane-classification.yaml
+    status: present
+  object_formalization:
+    path: problems/navier-stokes/object-formalization.yaml
+    status: present
+  paper_architecture:
+    path: problems/navier-stokes/paper-architecture.yaml
+    status: present
+  manuscript_depth:
+    path: problems/navier-stokes/manuscript-depth.yaml
+    status: present
+  paper_quality_verdict:
+    path: problems/navier-stokes/paper-quality-verdict.yaml
+    status: present
+  submission_bundle_pdf:
+    path: problems/navier-stokes/submission-bundle/navier-stokes-submission.pdf
+    status: missing
+  external_paper_main_tex:
+    path: problems/navier-stokes/external-paper/main.tex
+    status: missing
+  external_paper_pdf:
+    path: problems/navier-stokes/external-paper/main.pdf
+    status: missing
+  submission_bundle_manifest:
+    path: problems/navier-stokes/submission-bundle/submission-manifest.yaml
+    status: present
+  submission_export_status:
+    path: problems/navier-stokes/submission-bundle/submission-export-status.yaml
+    status: present
+  typeset_audit:
+    path: problems/navier-stokes/submission-bundle/typeset-audit.yaml
+    status: present
+  agent_contract:
+    path: problems/navier-stokes/agent-contract.yaml
+    status: present
+  finish_plan:
+    path: problems/navier-stokes/finish-plan.yaml
+    status: present
+  governance_escalation:
+    path: problems/navier-stokes/governance-escalation.yaml
+    status: present
+  halt_request:
+    path: problems/navier-stokes/halt-request.yaml
+    status: present
+  halt_gist:
+    path: problems/navier-stokes/halt-gist.md
+    status: present
+  inbox_escalation:
+    path: problems/navier-stokes/inbox-escalation.yaml
+    status: present
+  marvin_feed:
+    path: system/meta/collaboration/marvin-feeds/navier-stokes.yaml
+    status: present
+  marvin_ingest_notes:
+    path: problems/navier-stokes/marvin-ingest-notes.yaml
+    status: present
+  source_ledger:
+    path: problems/navier-stokes/source-ledger.yaml
+    status: present
+  route_hypothesis:
+    path: problems/navier-stokes/route-hypothesis.yaml
+    status: present
+  theorem_crank:
+    path: Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/theorem-crank.yaml
+    status: present
+automation:
+  queue_state: ready
+  blocking_reasons: []
+  allowed_transitions:
+  - route-synthesized -> backbone-build
+  - backbone-build -> extraction-backfill
+  - backbone-build -> hypothesis-generation
+  - extraction-backfill -> provenance-check
+  - hypothesis-generation -> provenance-check
+  - provenance-check -> merge-judge
+  - merge-judge -> backbone-build
+  - merge-judge -> human-rfi
+  - backbone-build -> debt-extract
+  - debt-extract -> debt-derive
+  - debt-extract -> prose-realization
+  - debt-derive -> backbone-build
+  - debt-derive -> prose-realization
+  - prose-realization -> honesty-review
+  - honesty-review -> release-or-respawn
+  - release-or-respawn -> debt-extract
+  - release-or-respawn -> debt-derive
+  - release-or-respawn -> prose-realization
+  - release-or-respawn -> backbone-build
+  - release-or-respawn -> human-rfi
+  - release-or-respawn -> released
+  stall_recovery:
+    trigger_stage: backbone-build
+    emit_artifact: problems/navier-stokes/gap-ticket.yaml
+    parallel_spawn:
+    - extraction-backfill
+    - hypothesis-generation
+    ordered_gates:
+    - provenance-check
+    - merge-judge
+    escalation_gate: human-rfi
+    promotion_targets:
+    - backbone-build
+    - debt-extract
+    - debt-derive
+    reject_generated_self_confirmation: true
+    max_questions: 3
+    dedupe_key_fields:
+    - problem_id
+    - current_stage
+    - backbone_stall_reason
+  writable_targets:
+  - problems/navier-stokes/spine.md
+  - problems/navier-stokes/claim-ladder.md
+  - problems/navier-stokes/draft-v6.md
+  - problems/navier-stokes/formalization-ledger.md
+  - problems/navier-stokes/draft-v7.md
+  - problems/navier-stokes/review-log.md
+  - problems/navier-stokes/gap-ticket.yaml
+  - problems/navier-stokes/backfill-report.yaml
+  - problems/navier-stokes/merge-verdict.yaml
+  - problems/navier-stokes/debt-map.yaml
+  - problems/navier-stokes/derivation-run.yaml
+  - problems/navier-stokes/prewrite-packet.md
+  - problems/navier-stokes/draft.md
+  - problems/navier-stokes/review-verdict.yaml
+  - problems/navier-stokes/release-decision.yaml
+  - problems/navier-stokes/post-release-plan.yaml
+  - problems/navier-stokes/theorem-packet.yaml
+  - problems/navier-stokes/proof-obligation-matrix.yaml
+  - problems/navier-stokes/submission-verdict.yaml
+  - problems/navier-stokes/source-frontier.yaml
+  - problems/navier-stokes/frozen-core.md
+  - problems/navier-stokes/extension-branches.yaml
+  - problems/navier-stokes/lemma-falsification.yaml
+  - problems/navier-stokes/promotion-verdict.yaml
+  - problems/navier-stokes/proof-assembly.yaml
+  - problems/navier-stokes/dependency-discharge.yaml
+  - problems/navier-stokes/artifact-self-repair.yaml
+  - problems/navier-stokes/creative-theorem-search.yaml
+  - problems/navier-stokes/authoritative-source-discovery.yaml
+  - problems/navier-stokes/object-formalization.yaml
+  - problems/navier-stokes/paper-architecture.yaml
+  - problems/navier-stokes/paper-quality-verdict.yaml
+  - problems/navier-stokes/lane-classification.yaml
+  - problems/navier-stokes/agent-contract.yaml
+  - problems/navier-stokes/finish-plan.yaml
+  - problems/navier-stokes/manuscript-depth.yaml
+  - problems/navier-stokes/halt-request.yaml
+  - problems/navier-stokes/halt-gist.md
+  - problems/navier-stokes/inbox-escalation.yaml
+  - problems/navier-stokes/marvin-ingest-notes.yaml
+  - system/meta/collaboration/marvin-feeds/navier-stokes.yaml
+  - problems/navier-stokes/source-ledger.yaml
+  - problems/navier-stokes/route-hypothesis.yaml
+  - problems/navier-stokes/theorem-crank.yaml
+  - Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/dependency-discharge.yaml
+  - Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/theorem-crank.yaml
+  role_permissions:
+    external_mathematician:
+      title: MPP Referee, Auditor, and Independent External Mathematical Certifier
+      short_role: External Mathematician
+      contract_path: problems/navier-stokes/agent-contract.yaml
+      source_discovery_path: problems/navier-stokes/authoritative-source-discovery.yaml
+      operating_posture: assistive-certification
+      read_permissions:
+        local_live_workspace:
+        - problems/navier-stokes/**/*.yaml
+        - problems/navier-stokes/**/*.md
+        - system/meta/collaboration/marvin-feeds/navier-stokes.yaml
+        external_authoritative_sources:
+          enabled: true
+          allowed_classes:
+          - sources already selected in authoritative-source-discovery
+          - standard classical Navier-Stokes references directly relevant to the realized
+            carrier facts
+          - canonical mathematical references used for claim comparison or falsification
+          prohibited_classes:
+          - unattributed summaries
+          - external material unrelated to the theorem surface under review
+      write_permissions:
+        posture: certification-surfaces-only
+        allowed_targets:
+        - problems/navier-stokes/agent-contract.yaml
+        - problems/navier-stokes/authoritative-source-discovery.yaml
+        - problems/navier-stokes/pipeline-state.yaml
+        - problems/navier-stokes/theorem-to-warrant.yaml
+        - problems/navier-stokes/theorem-packet.yaml
+        - problems/navier-stokes/proof-obligation-matrix.yaml
+        - problems/navier-stokes/proof-assembly.yaml
+        - problems/navier-stokes/source-frontier.yaml
+        - problems/navier-stokes/submission-verdict.yaml
+        - problems/navier-stokes/lemma-falsification.yaml
+        - problems/navier-stokes/promotion-verdict.yaml
+        prohibited_targets:
+        - problems/navier-stokes/frozen-core.md
+        - problems/navier-stokes/creative-theorem-search.yaml
+        - problems/navier-stokes/extension-branches.yaml
+      decision_outputs:
+      - pass
+      - conditional-pass
+      - fail
+      remediation_rule: Every non-pass must identify the smallest certifiable repair
+        path.
+      certification_standard:
+        name: maximum-defensible-pre-submission
+        required_checks:
+        - dependency and circularity audit
+        - hidden-hypothesis audit
+        - quantifier/domain/regularity audit
+        - manuscript/control-surface consistency audit
+        - typeset/export audit
+        - adversarial referee-objection audit
+        pass_rule: No theorem-critical vulnerability may remain unresolved on live
+          theorem or export surfaces.
+  external_mathematician_review:
+    status: conditional-pass
+    updated_at: '2026-03-25T00:55:10Z'
+    rationale: Proof assembly, theorem packet, proof-obligation matrix, review verdict,
+      manuscript, theorem notes, and external paper have been audited against one
+      another. The classical import layer is externally accepted, but the export theorem
+      remains conditional and the fourth bridge is not yet promoted onto the declared
+      Euclidean theorem surface.
+    evidence_surfaces:
+    - problems/navier-stokes/proof-obligation-matrix.yaml
+    - problems/navier-stokes/theorem-packet.yaml
+    - problems/navier-stokes/proof-assembly.yaml
+    active_certification_surfaces:
+    - problems/navier-stokes/theorem-construction/carrier-realization-classical-identification.md
+    - problems/navier-stokes/theorem-construction/d1-projected-nc-flow-well-posedness.md
+    - problems/navier-stokes/theorem-construction/d2-global-coercive-energy-estimate.md
+    - problems/navier-stokes/theorem-construction/d4-shadow-continuation-theorem.md
+    - problems/navier-stokes/theorem-construction/d8a-strong-convergence-approximants.md
+    no_new_lemmas_claimed: true
+    scheduler_note: The stale finalized full-claim posture has been superseded by
+      the conditional route audit state recorded here.
+  protected_dependency_mode: local_only
+  last_run:
+    status: completed
+    cell_id: dependency-discharge-navier-stokes-20260329T010550Z
+    cell_type: dependency-discharge
+    started_at: '2026-03-29T01:05:50Z'
+    completed_at: '2026-03-29T01:05:50Z'
+    event_file: Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/runtime/events/dependency-discharge-navier-stokes-20260329T010550Z.yaml
+    next_cell_type: creative-theorem-search
+  manual_override:
+    updated_at: '2026-03-17T23:08:27Z'
+    source: chat2 proof and export reconciliation
+    supersedes_release_candidate: true
+    note: The theorem and paper surfaces are reconciled into a typeset conditional
+      route manuscript. The package is not a full-claim submission candidate until
+      the same-surface Euclidean fourth bridge and closed-loop warrant are promoted.
+  governor_reroute:
+    reroute_id: governor-reroute-navier-stokes-20260329T010550Z
+    reason_class: theorem_exact_track_gap
+    from_next_cell_type: creative-theorem-search
+    to_next_cell_type: dependency-discharge
+    applied_at: '2026-03-29T01:05:50Z'
+    event_file: problems/navier-stokes/runtime/events/governor-reroute-navier-stokes-20260329T010550Z.yaml
+  finish_plan:
+    status: enacted
+    enacted_at: '2026-03-17T00:55:52Z'
+    entrypoint: enact-finish-plan
+    persistent_runtime_required: true
+    agent_contract_path: problems/navier-stokes/agent-contract.yaml
+    finish_plan_path: problems/navier-stokes/finish-plan.yaml
+  review_refresh_requested:
+    requested_at: '2026-03-27T23:44:18Z'
+    requested_by: chat2
+    reason: Review verdict does not record a current primary manuscript hash. | Review
+      verdict does not record a current submission export status hash. | Review verdict
+      does not record a current typeset audit hash.
+  governance_escalation:
+    status: resolved
+    resolved_at: '2026-03-22T22:04:03Z'
+    resolved_by: 
+    reason_signature: f88c71885a9886c439e13bd2a3c75ed0656b90c1
+    code_fingerprint_at_resolution: 39cd2d005cb8f24f407c1fce8485233808f2505d
+    lane_artifacts_advanced_since_emit: true
+  lane_local_failure:
+    status: resolved
+    failure_class: Psych::SyntaxError
+    detected_at: '2026-03-21T23:26:34Z'
+    path: problems/navier-stokes/object-formalization.yaml
+    line: 72
+    column: 24
+  marvin_ingest:
+    status: synced
+    last_synced_at: '2026-03-27T23:08:26Z'
+    manifest_path: system/meta/collaboration/marvin-feeds/navier-stokes.yaml
+    notes_path: problems/navier-stokes/marvin-ingest-notes.yaml
+    tracked_source_count: 48
+    trigger_source_count: 33
+    changed_source_count: 17
+    trigger_changed_source_count: 6
+    push_queue_path: 
+    authority_revision: b27879e5878ac3476e0889c2da4011c45df4ed3b
+    chat_y_rethread_request_id: chat-y-rethread-navier-stokes-0a99c54a67e9
+    changed_sources:
+    - path: working-notes/marvin-tandem-collaboration-protocol.md
+      role: global Marvin tandem protocol and execution contract
+      trigger: true
+      modified_at: '2026-03-24T21:35:54Z'
+    - path: working-notes/ns-clay-frontier-proof-pack.md
+      role: NS Clay frontier proof packet and route lock status | Marvin tandem active
+        source note
+      trigger: true
+      modified_at: '2026-03-24T19:32:33Z'
+    - path: working-notes/nc-leray-hodge-projection.md
+      role: Marvin tandem active source note
+      trigger: true
+      modified_at: '2026-03-24T21:06:03Z'
+    - path: working-notes/persistent-carrier-projector-and-coercivity.md
+      role: Marvin tandem active source note
+      trigger: true
+      modified_at: '2026-03-25T20:57:39Z'
+    - path: working-notes/global-carrier-coverage-and-hodge-completion.md
+      role: Marvin tandem active source note
+      trigger: true
+      modified_at: '2026-03-25T20:49:34Z'
+    - path: working-notes/ontic-flow-closure-proof-spine.md
+      role: Marvin tandem active source note
+      trigger: true
+      modified_at: '2026-03-25T20:49:34Z'
+    - path: working-notes/raw-user-working-theory-intake-log.md
+      role: archival wording-preservation intake log | Marvin tandem active source
+        note
+      trigger: false
+      modified_at: '2026-03-25T20:49:34Z'
+    - path: Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/proof-assembly.yaml
+      role: lane-local theorem frontier
+      trigger: false
+      modified_at: '2026-03-25T16:40:45Z'
+    - path: Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/source-frontier.yaml
+      role: lane-local source boundary
+      trigger: false
+      modified_at: '2026-03-25T16:40:45Z'
+    - path: Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/theorem-packet.yaml
+      role: theorem posture packet
+      trigger: false
+      modified_at: '2026-03-25T01:22:25Z'
+    - path: Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/claim-ladder.md
+      role: claim ladder
+      trigger: false
+      modified_at: '2026-03-25T17:11:34Z'
+    - path: Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/formalization-ledger.md
+      role: proof debt ledger
+      trigger: false
+      modified_at: '2026-03-24T21:06:41Z'
+    - path: Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/marvin-adaptation-notes.md
+      role: lane-local Marvin adaptation log
+      trigger: false
+      modified_at: '2026-03-25T16:40:45Z'
+    - path: Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/marvin-source-discovery.yaml
+      role: lane-local Marvin discovery mirror
+      trigger: false
+      modified_at: '2026-03-25T16:40:45Z'
+    - path: Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/marvin-watchlist.yaml
+      role: lane-local Marvin watchlist mirror
+      trigger: false
+      modified_at: '2026-03-25T16:40:45Z'
+    - path: Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/marvin-v6-tandem-crosswalk.yaml
+      role: Marvin tandem crosswalk
+      trigger: false
+      modified_at: '2026-03-21T01:19:49Z'
+    - path: Millennium Prize Problems/Navier-Stokes/NS-FORENSIC-CORPUS/problems-navier-stokes/monograph-V6-tandem-crosswalk.yaml
+      role: monograph-V6 tandem crosswalk mirror
+      trigger: false
+      modified_at: '2026-03-25T16:40:45Z'
+  theorem_crank_follow:
+    status: repaired
+    repaired_at: '2026-03-27T23:46:25Z'
+    repaired_by: chat2
+    from_next_cell_type: release-or-respawn
+    to_next_cell_type: dependency-discharge
+    open_obligation_count: 3
+  chat_y_rethread:
+    status: pending
+    request_id: chat-y-rethread-navier-stokes-0a99c54a67e9
+    request_signature: 0a99c54a67e97d90bda3ce61a5546b185adba891
+    requested_at: '2026-03-27T23:08:26Z'
+    problem_id: navier-stokes
+    display_name: Navier-Stokes Global Regularity
+    trigger_source_paths:
+    - working-notes/global-carrier-coverage-and-hodge-completion.md
+    - working-notes/marvin-tandem-collaboration-protocol.md
+    - working-notes/nc-leray-hodge-projection.md
+    - working-notes/ns-clay-frontier-proof-pack.md
+    - working-notes/ontic-flow-closure-proof-spine.md
+    - working-notes/persistent-carrier-projector-and-coercivity.md
+    trigger_source_count: 6
+    reason: route-authority-upgrade
+  active_lease: 
+corpus:
+  corpus_root: Millennium Prize Problems/Navier-Stokes
+  source_mode: local_only
+  external_certification_mode: targeted-authoritative-comparison
+governance:
+  lease_group: problem-navier-stokes
+  single_writer: true
+  terminate_if:
+  - lease_expired
+  - duplicate_stage_owner_detected
+  - target_path_missing
+  - stage_superseded

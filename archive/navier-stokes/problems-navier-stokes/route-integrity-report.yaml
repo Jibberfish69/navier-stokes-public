@@ -1,0 +1,95 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  artifact_id: route-integrity-report-navier-stokes
+  generated_at: '2026-03-25T16:40:45Z'
+  generator: tools/ns_pipeline_hardener.rb
+route_lock:
+  path: problems/navier-stokes/route-lock.yaml
+  primary_route_id: source-grounded-four-bridge
+  theorem_surface: classical-euclidean-navier-stokes
+  primary_slots:
+  - Scale-Barrier Principle
+  - Monotone Functional Q(t)
+  - Non-Sobolev Compactness
+  - Curvature-Based Regularity
+  - Closed-Loop Warrant
+same_surface_check:
+  theorem_target: classical three-dimensional incompressible Navier-Stokes on the
+    declared admissible Euclidean data class
+  theorem_2_1_exact_statement: If the scale-barrier, monotone-functional, nonlinear-compactness,
+    and curvature-based-regularity bridges all hold on one admissibility surface for
+    the classical target class, then the source-grounded four-bridge singularity pathway
+    through the Scale-Barrier Principle, the monotone functional \(Q(t)\), Non-Sobolev
+    Compactness, and Curvature-Based Regularity does not occur on \([0,T)\).
+  theorem_2_1_dependencies:
+  - Classical target class on the Euclidean 3D equation
+  - Scale-barrier bridge
+  - Monotone-functional Q(t) bridge
+  - Non-Sobolev compactness bridge
+  - Curvature-Based Regularity bridge
+  - Closed-loop warrant / same-surface pullback to the declared classical theorem
+    surface
+  - No-hidden-modified-equation-work condition
+  curvature_named_explicitly: true
+  generic_gradient_dependency_present: false
+  primary_route_preserved: true
+  findings: []
+bridge_slot_status:
+- slot_id: scale-barrier
+  canonical_label: Scale-Barrier Principle
+  direct_anchors:
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_2-_Scale-Barrier_Principle.tex"
+  verdict: discharged
+  primary_surface: problems/navier-stokes/bridge-memos/scale-barrier.md
+- slot_id: monotone-functional
+  canonical_label: Monotone Functional Q(t)
+  direct_anchors:
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_3-_Monotone_Functional.tex"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Energy_Boundedness_via_Q(t)_for_Global_Regularity.tex"
+  verdict: discharged
+  primary_surface: problems/navier-stokes/theorem-construction/monotone-functional-package.md
+- slot_id: nonlinear-compactness
+  canonical_label: Non-Sobolev Compactness
+  direct_anchors:
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_4-_Non-Sobolev_Compactness.tex"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Compactness
+    Proof for Discrete Navier–Stokes Solutions.tex"
+  verdict: discharged
+  primary_surface: problems/navier-stokes/bridge-memos/compactness.md
+- slot_id: curvature-based-regularity
+  canonical_label: Curvature-Based Regularity
+  direct_anchors:
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_5-_Curvature-Based_Regularity.tex"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Gradient_Control_Through_Geometric_Arguments.tex"
+  verdict: discharged
+  primary_surface: problems/navier-stokes/external-paper/sections/bridge-gradient-control.tex
+- slot_id: closed-loop-warrant
+  canonical_label: Closed-Loop Warrant
+  direct_anchors:
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Section_6-_Interdependencies_Among_Principles.tex"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/TeX/Global
+    Regularity Framework for Arbitrary Initial Data in L2.tex"
+  verdict: conditional
+  primary_surface: problems/navier-stokes/theorem-construction/classical-closure-warrant-carrier.md
+import_guard:
+  proof_bearing_selected_sources: 9
+  supplementary_synthesis_sources: 17
+  recent_import_bucket_summary:
+    synthesis-only: 7
+  recent_slot_summary:
+    scale-barrier: 5
+    curvature-based-regularity: 7
+    closed-loop-warrant: 4
+    projected-nc-flow-d-route: 7
+    monotone-functional: 2
+    nonlinear-compactness: 2
+frontier_alignment:
+  proof_assembly_open_obligation_count: 3
+  proof_assembly_next_solver_targets:
+  - Theorem 2.1 (Classical Closure)
+  - Prove D.1 projected NC-flow well-posedness
+  - Prove D.2 global coercive energy estimate
+  campaign_full_claim_blocked: true
+  theorem_2_1_proof_status: conditional

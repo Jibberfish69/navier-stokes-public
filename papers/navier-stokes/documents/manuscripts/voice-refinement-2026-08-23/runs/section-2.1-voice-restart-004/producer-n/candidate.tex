@@ -1,0 +1,262 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.1 Vortex Stretching
+% ============================================================
+
+The momentum equation has four pieces:
+\[
+  \underbrace{\partial_t u}_{\text{local acceleration}}
+  +
+  \underbrace{(u\cdot\nabla)u}_{\text{nonlinear transport}}
+  =
+  \underbrace{-\nabla p}_{\text{pressure}}
+  +
+  \underbrace{\nu\Delta u}_{\text{viscous diffusion}}.
+\]
+The central regularity problem lies in the competition between nonlinear transport and viscosity.
+The hope is simple: viscosity smooths the fluid faster than nonlinear transport can sharpen it.
+If that remains true at every scale, the velocity stays smooth.
+
+\subsection{Vortex Stretching}\label{sub:ThePerfectlyStretchingVortex}
+
+A narrow vortex is a rotating region of fluid carried by the flow.
+A material segment within it has its vorticity along an axial direction \(e\).
+Its vorticity and the surrounding symmetric strain are
+\[
+  \omega:=\nabla\times u,
+  \qquad
+  S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr),
+  \qquad
+  Se=\sigma(t)e,
+  \qquad
+  \omega=|\omega|e,
+  \qquad
+  \sigma(t)>0.
+\]
+If \(L(t)\) is the segment's length, \(A(t)\) its cross-sectional area, and
+\(r_{\mathrm{eff}}(t):=\sqrt{A(t)/\pi}\), then incompressibility fixes the
+material volume \(\mathcal V=A(t)L(t)\) and gives
+\[
+  \frac{\dot L(t)}{L(t)}
+  =
+  e\cdot Se
+  =
+  \sigma(t),
+  \qquad
+  \nabla\cdot u=\operatorname{tr}S=0,
+  \qquad
+  \frac{d}{dt}(A L)=0,
+  \qquad
+  \frac{\dot A}{A}=-\sigma(t),
+  \qquad
+  \frac{\dot r_{\mathrm{eff}}}{r_{\mathrm{eff}}}
+  =
+  -\frac{\sigma(t)}{2}.
+\]
+The same alignment enters the vorticity equation:
+\[
+  \frac{D\omega}{Dt}
+  =
+  S\omega+\nu\Delta\omega,
+  \qquad
+  \frac{D}{Dt}:=\partial_t+u\cdot\nabla,
+  \qquad
+  S\omega=\sigma(t)\omega,
+\]
+and hence
+\[
+  \frac12\frac{D|\omega|^2}{Dt}
+  =
+  \sigma(t)|\omega|^2
+  +
+  \nu\,\omega\cdot\Delta\omega.
+\]
+The viscous term has no fixed sign at an individual point.
+On an interval where the complete right-hand side stays positive, the segment lengthens, narrows, and rotates faster.
+If \(|u|\leq U_0\) on the material segment \(\Omega_{\mathrm{seg}}(t)\), then
+\[
+  E_{\mathrm{seg}}(t)
+  :=
+  \frac12\int_{\Omega_{\mathrm{seg}}(t)}|u(x,t)|^2\,dx
+  \leq
+  \frac12U_0^2\mathcal V
+  <
+  \infty,
+  \qquad
+  \frac{|\omega|}{\sqrt2}
+  =
+  \left|\frac12\bigl(\nabla u-(\nabla u)^{\mathsf T}\bigr)\right|_{\mathrm F}
+  \leq
+  |\nabla u|_{\mathrm F}.
+\]
+The gradients rise.
+
+\divider{\NavierStokes{} Scaling}
+
+At a fixed time \(t_0\), the segment has width
+\(\ell:=r_{\mathrm{eff}}(t_0)\).
+For \(\lambda>1\), the scale comparison uses
+\[
+  u_\lambda(x,t)
+  :=
+  \lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)
+  :=
+  \lambda^2p(\lambda x,\lambda^2t).
+\]
+The pair \((u_\lambda,p_\lambda)\) is another solution used to compare scales, not a later state of the material segment.
+At time \(\lambda^{-2}t_0\), its corresponding structure has width \(\lambda^{-1}\ell\), and
+\[
+\begin{aligned}
+  \partial_tu_\lambda(x,t)
+  &=
+  \lambda^3(\partial_tu)(\lambda x,\lambda^2t),
+  \\
+  (u_\lambda\cdot\nabla)u_\lambda(x,t)
+  &=
+  \lambda^3\bigl((u\cdot\nabla)u\bigr)(\lambda x,\lambda^2t),
+  \\
+  \nabla p_\lambda(x,t)
+  &=
+  \lambda^3(\nabla p)(\lambda x,\lambda^2t),
+  \\
+  \nu\Delta u_\lambda(x,t)
+  &=
+  \lambda^3\nu(\Delta u)(\lambda x,\lambda^2t).
+\end{aligned}
+\]
+Since nonlinear sharpening and viscous diffusion both carry the common \(\lambda^3\), finer width gives viscosity no relative gain.
+
+\divider{Critical Height}
+
+Under the same comparison, the homogeneous Sobolev norms satisfy
+\[
+  \norm{u_\lambda(t)}_{\dot H^s}^2
+  =
+  \lambda^{2s-1}
+  \norm{u(\lambda^2t)}_{\dot H^s}^2.
+\]
+The factor disappears at \(s=\tfrac12\).
+With \(\Lambda:=(-\Delta)^{1/2}\), the critical height is
+\[
+  H(t)
+  :=
+  \frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =
+  \frac12\norm{\Lambda^{1/2}u(t)}_2^2.
+\]
+The levels on either side of \(H\) move in opposite directions:
+\[
+  \norm{u_\lambda(t)}_2^2
+  =
+  \lambda^{-1}\norm{u(\lambda^2t)}_2^2,
+  \qquad
+  H_\lambda(t)=H(\lambda^2t),
+  \qquad
+  \norm{\nabla u_\lambda(t)}_2^2
+  =
+  \lambda\norm{\nabla u(\lambda^2t)}_2^2.
+\]
+Scale lowers kinetic energy and raises first-derivative size without moving the critical height.
+
+\divider{Nonlinear Production versus Viscous Dissipation}
+
+Along the original solution, applying \(\Lambda^{1/2}\) to the momentum equation and pairing with \(\Lambda^{1/2}u\) gives the signed critical-height production
+\[
+  \mathcal P_{1/2}(t)
+  :=
+  -\operatorname{Re}
+  \pair
+    {\Lambda^{1/2}u(t)}
+    {\Lambda^{1/2}\bigl((u(t)\cdot\nabla)u(t)+\nabla p(t)\bigr)}_{L^2}.
+\]
+Because \(\nabla\cdot u=0\), the pressure pairing vanishes, and the critical height obeys
+\[
+  H'(t)
+  +
+  \nu\norm{\Lambda^{3/2}u(t)}_2^2
+  =
+  \mathcal P_{1/2}(t).
+\]
+The production has no assumed sign, and \(H\) rises only where it exceeds the viscous dissipation.
+At the finer comparison scale,
+\[
+  \mathcal P_{1/2}[u_\lambda](t)
+  =
+  \lambda^2\mathcal P_{1/2}[u](\lambda^2t),
+  \qquad
+  \nu\norm{\Lambda^{3/2}u_\lambda(t)}_2^2
+  =
+  \lambda^2\nu\norm{\Lambda^{3/2}u(\lambda^2t)}_2^2.
+\]
+The common \(\lambda^2\) preserves the balance while the comparison time contracts by \(\lambda^{-2}\).
+
+\divider{The Heat Clock}
+
+For the linear heat flow \(v_t=\nu\Delta v\),
+\[
+  \widehat v(\xi,t+\delta t)
+  =
+  e^{-\nu|\xi|^2\delta t}\widehat v(\xi,t).
+\]
+A structure of width \(r\) is concentrated around frequencies \(|\xi|\simeq r^{-1}\).
+Order-one linear damping occurs when \(\nu|\xi|^2\delta t\simeq1\), so its viscous comparison time is
+\begin{equation}\label{eq:BodyHeatComparisonTime}
+  \tau_\nu(r)
+  \asymp
+  \frac{r^2}{\nu}.
+\end{equation}
+This measures the linear heat flow at that width; it does not specify how long a structure persists in the nonlinear solution.
+At the finer width,
+\[
+  \tau_\nu(\lambda^{-1}r)
+  \asymp
+  \lambda^{-2}\tau_\nu(r).
+\]
+Width and linear comparison time contract by the same square.
+
+\divider{The Zeno Cascade}
+
+After \(n\) halvings, the widths and comparison times are
+\[
+  r_n:=2^{-n}r_0,
+  \qquad
+  \tau_n:=\frac{r_n^2}{\nu}.
+\]
+The comparison times satisfy
+\[
+  \tau_n
+  =
+  \frac{r_0^2}{\nu}4^{-n},
+  \qquad
+  \sum_{n=0}^{\infty}\tau_n
+  =
+  \frac{4r_0^2}{3\nu}
+  <
+  \infty.
+\]
+Their finite sum is an arithmetic fact about comparison clocks; no \NavierStokes{} trajectory follows from it.
+A candidate singular cascade is a claim about one solution: it forms widths
+\[
+  r_0>r_1>r_2>\cdots\longrightarrow0
+\]
+at times
+\[
+  t_0<t_1<t_2<\cdots\uparrow T_*<\infty,
+\]
+and, as an additional hypothesis on that history,
+\[
+  t_{n+1}-t_n\asymp\tau_n,
+\]
+with comparison constants independent of \(n\).
+Under that hypothesis,
+\[
+  T_*-t_n
+  \asymp
+  \sum_{k=n}^{\infty}\tau_k
+  =
+  \frac{4r_n^2}{3\nu}.
+\]
+At the \(n\)-th width, the time left is already of order \(r_n^2/\nu\).
+The spatial sequence has become a demand on the rate at which the same velocity field can change.

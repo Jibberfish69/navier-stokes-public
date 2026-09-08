@@ -1,0 +1,72 @@
+{
+  "full_pages": 73,
+  "review_pages": 4,
+  "section_pages": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "outside_section_pages_verified": 69,
+  "outside_pages_with_extraction_order_change_and_identical_pixels": [
+    17,
+    53,
+    60,
+    66,
+    67,
+    71
+  ],
+  "full_section_pixels_match_review_above_footer": true,
+  "prose_and_formulas_unchanged": true,
+  "diagram_has_one_label_per_process": true,
+  "diagram_symbols": [
+    "v",
+    "omega",
+    "r",
+    "ell",
+    "sigma"
+  ],
+  "build_diagnostics": {
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/vortex-figure-20260907/full-paper/navier-stokes.log": [],
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/how-the-proof-works.log": [],
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/vortex-figure-20260907/figure-build/vortex-stretching-notation.log": []
+  },
+  "render_scale_pixels": 1400,
+  "page_boundaries_inspected": true,
+  "published_artifacts": [
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf",
+      "sha256": "62f74791cdf9e6f8052d9aaf8b1f6cb627b09b10b60db3f88f95973f792a01fa"
+    },
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/how-the-proof-works.pdf",
+      "sha256": "14987e689e408906acaa521a2c6c1fa54a3185d769c83f1936af23337d2dc2e6"
+    },
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/navier-stokes-with-rewrite.pdf",
+      "sha256": "62f74791cdf9e6f8052d9aaf8b1f6cb627b09b10b60db3f88f95973f792a01fa"
+    }
+  ],
+  "figure_asset": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/figures/vortex-stretching-notation.pdf",
+    "sha256": "1da4ffbae13d81576a28520d21ac746b75c2f1344b3d2ab7526814e6f4916d76"
+  },
+  "final_sources": [
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/manuscript/generated/00-how-proof-works.tex",
+      "sha256": "bfc19ed1e680f1aad5338d9426e382e1cfd411a08bb819a6e68c2308bc908cc3"
+    },
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/manuscript/generated/main.tex",
+      "sha256": "1225f9aae98f1a5c1a4879f8325dc3a48b7c423584d8dcb07d4e57a4898ba32e"
+    },
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/section.tex",
+      "sha256": "bfc19ed1e680f1aad5338d9426e382e1cfd411a08bb819a6e68c2308bc908cc3"
+    },
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/review.tex",
+      "sha256": "7d9739bff22d96cadaf0ac6add8264cba9ac52d3f06c4a2bc456bd38a6837c4c"
+    }
+  ]
+}

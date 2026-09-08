@@ -1,0 +1,52 @@
+Changing variables in the Ḣ s norm gives
+                                                                      2
+                                     ∥uλ (t)∥2Ḣ s = λ2s−1 u(λ2 t)           .
+                                                                      Ḣ s
+
+At s = 0, kinetic energy loses one power of λ. At s = 1, the first-derivative energy gains one.
+The scale-neutral level lies between them at s = 12 . Set
+
+                                             1                 1 1/2   2
+                             H(t) :=           ∥u(t)∥2Ḣ 1/2 =   Λ u(t) .
+                                             2                 2       2
+
+Writing Hλ for the same quantity evaluated on uλ , the three measurements now sit beside
+one another:
+                                 2                                                                          2
+      ∥uλ (t)∥22 = λ−1 u(λ2 t)       ,        Hλ (t) = H(λ2 t),        ∥∇uλ (t)∥22 = λ ∇u(λ2 t)                 .
+                                 2                                                                          2
+
+The finer comparison can carry less kinetic energy and a larger gradient while H keeps exactly
+the same size. This scale-invariant whole-field quantity is the critical height.
+
+
+Nonlinear Production versus Viscous Dissipation
+The original velocity history now tells us whether that height is rising or falling. Keep
+pressure inside the nonlinear side until the global pairing is formed, and define
+                                         D                                           E
+               P1/2 [u](t) := − Re Λ1/2 u(t), Λ1/2 (u(t) · ∇)u(t) + ∇p(t)                       .
+                                                                                           L2
+
+Because Λ commutes with spatial derivatives and u is divergence-free, the pressure part
+                                                                          2
+vanishes in this global pairing. The viscous part integrates to −ν Λ3/2 u , leaving the exact
+                                                                          2
+balance                                            2
+                              H ′ (t) + ν Λ3/2 u(t) = P1/2 [u](t).
+                                                          2
+The critical height rises only when the complete signed nonlinear production exceeds the
+simultaneous viscous loss.
+Under the same rescaling,
+                                                                      2                             2
+           P1/2 [uλ ](t) = λ2 P1/2 [u](λ2 t),         ν Λ3/2 uλ (t)       = λ2 ν Λ3/2 u(λ2 t)           .
+                                                                      2                             2
+
+This is the scale match at the centre of the problem. When the length is reduced by λ−1 ,
+nonlinear production and viscous dissipation both accelerate by λ2 . Passing to a finer scale
+does not tip their balance toward viscosity.
+
+
+
+
+                                                      4
+

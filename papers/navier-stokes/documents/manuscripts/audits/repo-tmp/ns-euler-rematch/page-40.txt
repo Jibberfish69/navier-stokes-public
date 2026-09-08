@@ -1,0 +1,56 @@
+exhausted by the atlas terminal-capture theorem. Context without a selected face remains support
+outside the proof spine.
+
+ Branch family                      Forward-positive burden               CM role
+ Source control and donor refill    prove scale-critical source reserve   Pack first; Part after carrier
+                                    control                               survives; retained Field only
+                                                                          after Pack and Part
+ Zero-radius, Zeno, and annular     prove temporal non-atomicity,         point-object Pack exit; retained
+ limit                              rigid residue exclusion, or           positive-scale typed subcases
+                                    annular control
+ Retained amplitude and low         prove gain, BV, or height-flux        Pack/Part/Field/Zeno finite
+ strain                             control                               routing
+ Signed current                     prove no-free-sink or edge            auxiliary route returning to
+                                    resistance                            Pack, Part, retained Field, or
+                                                                          Zeno
+ Square reserve                     prove square-source charge or         auxiliary theorem unless
+                                    native trilinear control              selected reserve lands in
+                                                                          first-face order
+ Endpoint readout and no-pulse      prove good scale, read cover, and     downstream support for
+                                    pulse exclusion                       membership readout and Field
+ Local critical translators         localize public-critical terminal     branch-local native source work
+                                    mass                                  or class exit
+ Transfer and mirror comparison     compare neighbouring theorem          outside this proof until an exact
+                                    worlds                                transfer lands
+
+  Object or branch        Use in the proof           What is proved here         Debt before
+                                                                                 stronger claim
+  Torus material atlas  load-bearing terminal        proved for the periodic     periodic atlas proof
+                        packet capture               theorem                     only
+  Source reserve and    Pack-side support and        used after selected reserve same-record payment
+  donor refill          same-packet payment          lands in the witness tree or first-face theorem
+                        pressure
+  Zeno, terminal atoms, Pack-side point-object       point-object gives Pack      positive-scale annular
+  and annular limit     branch or retained typed     failure; retained scale      theorem for retained
+                        subcase                      returns to the tree          alternatives
+  Retained amplitude, face-routing support           finite routing through       named first-face
+  height flux, and low                               Pack, Part, Field, or Zeno   certificate
+  strain
+  Signed current and    source-economy routing    no independent face;       same-witness face
+  no-free-sink                                    support returns to the     landing
+                                                  three requirements
+  Endpoint, no-pulse,     downstream continuation reads a packet after Pack, selected membership
+  and good-scale          readout                 Part, and Field survive    theorem
+  readout
+  Local L3 translators    witness-record recovery    local translation support    selected same-record
+                                                     before face testing          Pack/Part/Field
+                                                                                  theorem
+  Euler and               comparison pressure        outside this proof until     Navier–Stokes packet
+  fixed-viscosity                                    exact transfer               transfer theorem
+  comparison
+
+
+
+
+                                                    40
+

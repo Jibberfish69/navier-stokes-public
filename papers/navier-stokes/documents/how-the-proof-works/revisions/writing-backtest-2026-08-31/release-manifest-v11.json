@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-31T21:20:31Z",
+  "status": "backtest_passed_user_acceptance_pending",
+  "live_manuscript_modified": false,
+  "prior_opening_status": "rejected_not_approved",
+  "diagnosis": {
+    "first_divergence": "A quotation under review was misclassified as an accepted span, which froze prose Thomas was asking Codex to challenge.",
+    "consequence": "Mathematical coverage and orderly sequencing were allowed to stand in for a human writing judgment.",
+    "repairs": [
+      "Exact-span acceptance now requires direct affirmative evidence tied to that text range.",
+      "Quotation, selection, annotation, rewrite questions, and current rejection cannot create or inherit approval.",
+      "Topic-specific boundary language is withheld when writing evidence crosses domains.",
+      "The producer packet and cold-reader packet remain separate and hash-bound."
+    ]
+  },
+  "producer": "thomas-writing-voice",
+  "source_packet": {
+    "path": "recovery-packet-v11.json",
+    "sha256": "14c5e8ed3503955e02e32bb35080b39c1253f6096087e9c6db8ea3eb801ae35a"
+  },
+  "critic_packet": {
+    "path": "critic-packet-v11.json",
+    "sha256": "ba0d5e1643ea88c4428d87ba30212a8de7ac7ec8542147fb2e7a700454b4169a"
+  },
+  "candidate": {
+    "path": "candidate-v11.tex",
+    "sha256": "d0adb95e8b5856dd940251c1f213f7c50ad5dd5794a1f209fa73dbb365ff548c"
+  },
+  "wrapper": {
+    "path": "main-v11.tex",
+    "sha256": "d80aa4198e9ecdd34a3a3bcd3226ff8cf1aaba88de0ff72ea7e712f4149c1c0f"
+  },
+  "artifact": {
+    "path": "navier-stokes-how-proof-works-backtest-v11.pdf",
+    "sha256": "d10e6e38ab5a4bad3733631edd113b9f9f38028bd6e121ca4723afdf64783835",
+    "pages": 3,
+    "page_size": "612 x 792 pt",
+    "encrypted": false
+  },
+  "renders": [
+    {
+      "path": "render-v11/page-1.png",
+      "sha256": "a43514d89abb609ad3dcc79cceef532b0263317112e02e6bf4f94e7e045e7cff"
+    },
+    {
+      "path": "render-v11/page-2.png",
+      "sha256": "3fcd571c3b0edbd4914374dff888f7ee26b8a9feab5023bc56f685a52e6918a6"
+    },
+    {
+      "path": "render-v11/page-3.png",
+      "sha256": "555c76efa2e96b175ca39272bd6deb57e3bb35eb8ed4d10f0ff4c4cf012157c4"
+    }
+  ],
+  "independent_checks": {
+    "proof_check": "pass",
+    "opening_causal_read": "pass",
+    "whole_section_cold_reader": "pass",
+    "user_acceptance": "pending"
+  },
+  "mechanical_checks": {
+    "latex_compile": "pass",
+    "layout_warnings": 0,
+    "visual_pages_inspected": 3,
+    "recovery_packet_validation": "pass",
+    "critic_packet_validation": "pass",
+    "critic_validator_cases": 5,
+    "prose_release_hook_cases": 42,
+    "voice_runtime_cases": 56,
+    "lexical_release_scan": "pass"
+  },
+  "configuration_sha256": {
+    "thomas-writing-voice": "62aa4f2034220df8f3e3c87a05565bc416676d9735d4f8f342bc2a35e9552520",
+    "voice-replay-tests": "c75791c8c153f8a24d72dc45024abb3fd67deaaff2dace957088851e16581723",
+    "voice-runtime": "1fe2439f41a1e64831f5f9384f29c804361a591b36e5aedaa3859b125a6c8e12",
+    "voice-runtime-tests": "d3da9d92c1c5e5a9e5486772ff6bf1206a080a5feea427a3924f7f00425fe6ad",
+    "prose-release-hook": "101fbc4e0e429633d1f03b41320de82363b215286ab653f085a1e89c3a942fe9"
+  }
+}

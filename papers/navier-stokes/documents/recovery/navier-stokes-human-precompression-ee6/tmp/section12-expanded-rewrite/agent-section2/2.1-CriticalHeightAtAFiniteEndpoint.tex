@@ -1,0 +1,100 @@
+% !TeX root = ../../../navier-stokes-manuscript.tex
+% ============================================================
+% 2.1 Critical Height at a Finite Endpoint
+% ============================================================
+
+\subsection{Critical Height at a Finite Endpoint}\label{sub:CriticalHeightAtAFiniteEndpoint}
+
+Suppose, for the sake of following the singularity threat, that a classical solution is smooth on \([0,T_*)\) and that the alleged maximal time \(T_*\) is finite.
+The Blown picture from the introduction allows the first unbounded quantity to be a derivative, a pressure response, or another finite-depth readout of the fluid.
+The velocity itself does not have to be the first quantity that escapes.
+The first analytic question asks which measurement continues to see the fluid when its activity moves toward a smaller spatial scale.
+
+The \NavierStokes\ equation supplies that measurement through its scaling.
+If \((u,p)\) solves the equation with viscosity \(\nu>0\), then for every \(\lambda>0\),
+\[
+  u_\lambda(x,t)
+  :=\lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)
+  :=\lambda^2p(\lambda x,\lambda^2t)
+\]
+solves the same equation with the same viscosity on the rescaled time interval.
+The factor \(\lambda\) changes the velocity amplitude, the argument \(\lambda x\) compresses length by \(1/\lambda\), and the argument \(\lambda^2t\) compresses time by \(1/\lambda^2\).
+This is the parabolic relation between one temporal step and two spatial steps that will reappear inside the derivative tower.
+
+Let \(\Lambda=(-\Delta)^{1/2}\), and measure spatial height with the homogeneous Sobolev norm
+\[
+  \norm{v}_{\dot H^s}^2
+  :=
+  \int_{\R^3}|\xi|^{2s}|\widehat v(\xi)|^2\,d\xi.
+\]
+The Fourier transform of the rescaled velocity is
+\[
+  \widehat{u_\lambda}(\xi,t)
+  =
+  \lambda^{-2}\widehat u(\xi/\lambda,\lambda^2t).
+\]
+Substitution into the Sobolev norm and the change of variables \(\eta=\xi/\lambda\) give
+\begin{align*}
+  \norm{u_\lambda(t)}_{\dot H^s}^{2}
+  &={}
+  \int_{\R^3}
+  |\xi|^{2s}\lambda^{-4}
+  \left|\widehat u(\xi/\lambda,\lambda^2t)\right|^2
+  \,d\xi
+  \\
+  &={}
+  \lambda^{2s-1}
+  \int_{\R^3}
+  |\eta|^{2s}
+  \left|\widehat u(\eta,\lambda^2t)\right|^2
+  \,d\eta.
+\end{align*}
+Thus the exact scaling law is
+\[
+  \norm{u_\lambda(t)}_{\dot H^s}
+  =
+  \lambda^{s-1/2}
+  \norm{u(\lambda^2t)}_{\dot H^s}.
+\]
+At \(s=1/2\), the exponent vanishes.
+This earns the critical height
+\[
+  H(t)
+  :=
+  \frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =
+  \frac12\norm{\Lambda^{1/2}u(t)}_2^2.
+\]
+Exact rescaling can move a configuration to finer length and shorter time while leaving this height unchanged.
+
+The kinetic-energy scale behaves differently.
+Putting \(s=0\) in the same calculation gives
+\[
+  \norm{u_\lambda(t)}_2^2
+  =
+  \lambda^{-1}
+  \norm{u(\lambda^2t)}_2^2.
+\]
+The rescaled kinetic energy becomes smaller as the spatial concentration becomes finer.
+A global \(L^2\) energy ceiling can coexist with activity that remains visible at the critical height.
+This is why finite energy alone cannot settle a critical concentration scenario.
+
+The Zeno picture makes the finite-time pressure concrete.
+Take a sequence of length scales \(\ell_k=2^{-k}\).
+Their parabolic response times have size \(\ell_k^2=4^{-k}\), and hence
+\[
+  \sum_{k=0}^{\infty}\ell_k^2
+  =
+  \sum_{k=0}^{\infty}4^{-k}
+  <\infty.
+\]
+Infinitely many finer-scale episodes are dimensionally capable of accumulating before a finite time.
+The scaling law also allows their critical height to remain visible while their kinetic-energy scale decreases.
+This calculation describes the geometry of a possible cascade; it does not assert that the \NavierStokes\ equation realizes one.
+It tells us what an exclusion argument has to follow if the threatened failure keeps moving beyond every previously inspected scale.
+
+Scale alone still records only where the activity sits.
+Smoothness also asks how the fluid responds while that activity changes.
+The earlier velocity, acceleration, and jerk picture now acquires a precise finite-time consequence.

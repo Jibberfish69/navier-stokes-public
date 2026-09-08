@@ -1,0 +1,122 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  branch_set_id: extension-branches-navier-stokes
+  generated_at: '2026-03-28T01:25:08Z'
+  generator: system/runner/lib/lemma_synthesis_builder.rb
+  source_frontier_id: source-frontier-navier-stokes
+  source_theorem_packet_id: theorem-packet-navier-stokes
+provenance_policy:
+  branch_class: machine-derived-beyond-source-frontier
+  merge_rule: Do not merge any branch into the frozen core unless it survives falsification
+    and promotion.
+branches:
+- branch_id: branch-navier-stokes-1
+  origin_obligation_id: marvin-upstream-8e939525d3f2
+  branch_type: object-definition
+  provenance: machine-derived-beyond-source-frontier
+  hypothesis: Define the missing local object so that replace the torus carrier block
+    by a continuum coherent sector for curved D. becomes explicit with domain, codomain,
+    and invariance conditions.
+  depends_on:
+  - debt-d1-projected-nc-flow-well-posedness
+  - debt-d2-global-coercive-energy-estimate
+  - marvin-upstream-8e939525d3f2
+  risk_level: medium-low
+  notes:
+  - This branch starts exactly at the first unresolved frontier for `marvin-upstream-8e939525d3f2`.
+  merge_policy: quarantined-until-promoted
+- branch_id: branch-navier-stokes-2
+  origin_obligation_id: marvin-upstream-2adc051dd3a8
+  branch_type: object-definition
+  provenance: machine-derived-beyond-source-frontier
+  hypothesis: Define the missing local object so that construct theorem-grade measure
+    / dynamics on the global twisted continuum becomes explicit with domain, codomain,
+    and invariance conditions.
+  depends_on:
+  - debt-d1-projected-nc-flow-well-posedness
+  - debt-d2-global-coercive-energy-estimate
+  - marvin-upstream-2adc051dd3a8
+  risk_level: medium-low
+  notes: []
+  merge_policy: quarantined-until-promoted
+- branch_id: branch-navier-stokes-3
+  origin_obligation_id: marvin-upstream-16fa51055da0
+  branch_type: object-definition
+  provenance: machine-derived-beyond-source-frontier
+  hypothesis: Define the missing local object so that the exact sector does not define
+    the physical carrier. becomes explicit with domain, codomain, and invariance conditions.
+  depends_on:
+  - debt-d1-projected-nc-flow-well-posedness
+  - debt-d2-global-coercive-energy-estimate
+  - marvin-upstream-16fa51055da0
+  risk_level: medium-low
+  notes: []
+  merge_policy: quarantined-until-promoted
+- branch_id: branch-navier-stokes-4
+  origin_obligation_id: marvin-upstream-269065c546af
+  branch_type: local-lemma
+  provenance: machine-derived-beyond-source-frontier
+  hypothesis: Prove a bounded local lemma establishing that + spectral floor on K_D^\perp.
+  depends_on:
+  - debt-d1-projected-nc-flow-well-posedness
+  - debt-d2-global-coercive-energy-estimate
+  - marvin-upstream-269065c546af
+  risk_level: medium-low
+  notes: []
+  merge_policy: quarantined-until-promoted
+- branch_id: branch-navier-stokes-5
+  origin_obligation_id: marvin-upstream-558cbb8323fd
+  branch_type: local-lemma
+  provenance: machine-derived-beyond-source-frontier
+  hypothesis: Prove a bounded local lemma establishing that with the coherent class
+    controlling `X_ pers  ` and the spectral floor.
+  depends_on:
+  - debt-d1-projected-nc-flow-well-posedness
+  - debt-d2-global-coercive-energy-estimate
+  - marvin-upstream-558cbb8323fd
+  risk_level: medium-low
+  notes: []
+  merge_policy: quarantined-until-promoted
+- branch_id: branch-navier-stokes-6
+  origin_obligation_id: marvin-upstream-5d4a55021542
+  branch_type: local-lemma
+  provenance: machine-derived-beyond-source-frontier
+  hypothesis: Prove a bounded local lemma establishing that `Obs _ glue  `,.
+  depends_on:
+  - debt-d1-projected-nc-flow-well-posedness
+  - debt-d2-global-coercive-energy-estimate
+  - marvin-upstream-5d4a55021542
+  risk_level: medium-low
+  notes: []
+  merge_policy: quarantined-until-promoted
+- branch_id: branch-navier-stokes-7
+  origin_obligation_id: marvin-upstream-8880078593dc
+  branch_type: local-lemma
+  provenance: machine-derived-beyond-source-frontier
+  hypothesis: Prove a bounded local lemma establishing that prove that the persistent
+    obstruction/support readout globalizes strongly.
+  depends_on:
+  - debt-d1-projected-nc-flow-well-posedness
+  - debt-d2-global-coercive-energy-estimate
+  - marvin-upstream-8880078593dc
+  risk_level: medium-low
+  notes: []
+  merge_policy: quarantined-until-promoted
+- branch_id: branch-navier-stokes-8
+  origin_obligation_id: marvin-upstream-0fdc65ea42d5
+  branch_type: local-lemma
+  provenance: machine-derived-beyond-source-frontier
+  hypothesis: Prove a bounded local lemma establishing that but Hodge still has to
+    prove that persistent support on that object globalizes.
+  depends_on:
+  - debt-d1-projected-nc-flow-well-posedness
+  - debt-d2-global-coercive-energy-estimate
+  - marvin-upstream-0fdc65ea42d5
+  risk_level: medium-low
+  notes: []
+  merge_policy: quarantined-until-promoted
+summary:
+  branch_count: 8

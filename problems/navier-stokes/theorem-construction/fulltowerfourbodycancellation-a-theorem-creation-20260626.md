@@ -4,12 +4,12 @@
 
 - target obligation: FullTowerFourBodyCancellation.A
 - target label: prove the enlarged full-tower four-body cancellation for the exact same-carrier tower channel list
-- route role: The summation algebra of the full-tower four-body cancellation is proved. The theorem-grade content is the missing orientation of every generated metric, coefficient, commutator, pressure/Hodge, viscous/collar, geometry, and radius-spend channel into one of the four cancelling same-carrier body inequalities.
+- route role: The summation algebra of the full-tower four-body cancellation is proved. The theorem-grade content is the missing orientation of every generated metric, coefficient, commutator, pressure/Helmholtz--Leray, viscous/collar, geometry, and radius-spend channel into one of the four cancelling same-carrier body inequalities.
 - theorem family: full-same-material-action
 
 ## Created Theorem
 
-FullTowerFourBodyCancellation.A. The summation algebra of the full-tower four-body cancellation is proved. The theorem-grade content is the missing orientation of every generated metric, coefficient, commutator, pressure/Hodge, viscous/collar, geometry, and radius-spend channel into one of the four cancelling same-carrier body inequalities. This supplies the exact noncircular bridge needed for prove the enlarged full-tower four-body cancellation for the exact same-carrier tower channel list.
+FullTowerFourBodyCancellation.A. The summation algebra of the full-tower four-body cancellation is proved. The theorem-grade content is the missing orientation of every generated metric, coefficient, commutator, pressure/Helmholtz--Leray, viscous/collar, geometry, and radius-spend channel into one of the four cancelling same-carrier body inequalities. This supplies the exact noncircular bridge needed for prove the enlarged full-tower four-body cancellation for the exact same-carrier tower channel list.
 
 ## Inventive Search
 
@@ -19,7 +19,7 @@ FullTowerFourBodyCancellation.A. The summation algebra of the full-tower four-bo
 - selected_mechanism: full_tower_four_body_channel_orientation
 - candidate_count: 1
 - solver_chain_verdict: open
-- selection_reason: This theorem is the right next move because it changes the proof economy: The summation algebra of the full-tower four-body cancellation is proved. The theorem-grade content is the missing orientation of every generated metric, coefficient, commutator, pressure/Hodge, viscous/collar, geometry, and radius-spend channel into one of the four cancelling same-carrier body inequalities. It deliberately reduces the remaining work to FullTowerChannelOrientation.A rather than pretending the frontier is closed.
+- selection_reason: This theorem is the right next move because it changes the proof economy: The summation algebra of the full-tower four-body cancellation is proved. The theorem-grade content is the missing orientation of every generated metric, coefficient, commutator, pressure/Helmholtz--Leray, viscous/collar, geometry, and radius-spend channel into one of the four cancelling same-carrier body inequalities. It deliberately reduces the remaining work to FullTowerChannelOrientation.A rather than pretending the frontier is closed.
 
 ### Candidate Theorems
 
@@ -50,7 +50,7 @@ FullTowerFourBodyCancellation.A. The summation algebra of the full-tower four-bo
 
 1. Work on one fixed transported annular atlas and material gauge.
 2. Keep the already-proved algebraic cancellation separate from the unproved channel-orientation content.
-3. Assign metric, coefficient, commutator, pressure/Hodge, viscous/collar, geometry, and radius-spend terms to the four simultaneous body coordinates.
+3. Assign metric, coefficient, commutator, pressure/Helmholtz--Leray, viscous/collar, geometry, and radius-spend terms to the four simultaneous body coordinates.
 4. Construct the adjacent exchange currents E_{12}, E_{23}, E_{34}, and E_{41} for that exact channel list.
 5. Prove each positive tower channel is either an A_i term, a strict drain, an adjacent exchange, or a legal summable residual.
 

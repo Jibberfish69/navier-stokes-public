@@ -1,0 +1,18 @@
+{
+  "constraints": {
+    "required": [
+      "Use the exact approved opening around the Navier-Stokes system.",
+      "Preserve Thomas's supplied Section 1 subject order and Section 2 historical discovery order.",
+      "Develop each difficult connection with prose and mathematics sufficient for a reader to reconstruct it.",
+      "Preserve the datum-generated compatible-intersection theorem as the settled producer received by Section 3.",
+      "Use Section 1.4 as the only positive prose anchor."
+    ],
+    "forbidden": [
+      "Do not write document roadmaps or section-management prose.",
+      "Do not use NBB escalation constructions.",
+      "Do not use invented helper nouns such as job, payment, burden ledger, readout machinery, or record architecture to carry the argument.",
+      "Do not introduce rectangles or endpoint machinery before the reader has encountered the need they answer.",
+      "Do not reopen, demote, replace, or reprove the settled datum-generated compatible-intersection theorem."
+    ]
+  }
+}

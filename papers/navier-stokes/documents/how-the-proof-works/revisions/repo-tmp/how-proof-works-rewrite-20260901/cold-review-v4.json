@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "review_kind": "cold_reader",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/critic-packet-v4.json",
+    "sha256": "0fdaebd71bc36b66f79326c159b330847d13013e955b3fd11a4dd03df0ac0522"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/draft-v4.tex",
+    "sha256": "ecb8e50b9b172d302ccd115c1ddec0dbb031458167efb6d5acb9b01661ce1c5a"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v4/page-1.png",
+      "sha256": "631aea887a57b86ae8d90b768ce867ebd112f5e6ee9e694a2a03e6eacce1d644"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v4/page-2.png",
+      "sha256": "6915af3cd3d30d1580fd9abc275503ecd6fae4362a25e83e7a81ed234f6ebee5"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v4/page-3.png",
+      "sha256": "06b6c8f4a5670f4adc40a1313783262b2d3968db2374edc851d48a464a165679"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v4/page-4.png",
+      "sha256": "96bdd44bad2fc59c6af9a79d0382d3ca0f01d6144e20e486b3f35a3306d2eb34"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v4/page-5.png",
+      "sha256": "99c26c045c35a00faef53e492b12a1b44560229cc07ed6f9fb93243e85c63efa"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/cold_reader_v4",
+    "task_name": "cold_reader_v4",
+    "isolation": "fork_none",
+    "request_nonce": "ba2bed93fa4bf165d0525ee446c87335"
+  },
+  "decision": {
+    "verdict": "fail",
+    "first_divergence": {
+      "exact_span": "draft-v4.tex:230-239 — ‘Pressure has to travel with every response. The compact tower is’ and the ensuing Q_r/V_{r+1} display.",
+      "mechanism": "The prose moves from the differentiated momentum recurrence to a pressure-complete tower, but R_i appears without definition and the pressure identity has not been obtained from incompressibility. A reader who knows basic PDE cannot infer the first displayed equality for Q_r from the material already established, so the second tower equation arrives with an unearned pressure closure.",
+      "repair_constraint": "Before displaying the compact tower, take divergence of the r-th differentiated equation, use div V_a = 0 to obtain the pressure Poisson relation, and define R_i with its sign convention. Keep this as a compact causal join between the explicit time derivatives and the pressure-complete recurrence."
+    }
+  }
+}

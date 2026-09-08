@@ -1,0 +1,88 @@
+{
+  "task_id": "task-19cb1aaa911ef5f0",
+  "task_sha256": "aeb4ed9aa2cee7c13653a60b61bc5c326a309a8b85be7e8f4a1d6f53c16f4bc2",
+  "prediction_sha256": "f1f683c0d52fb9ad648d41f04630a16302cd084b43ba6a2cdd71009a1a9cabd7",
+  "candidate_sha256": "bca593b3d1c1c86e4a02766100a2d4db55b0b0fc27d1cb026b78c7bb9fed0a8e",
+  "selected_move_id": "honest-producer-to-global-implication",
+  "producer_id": "root-abstract-author-v2",
+  "evaluator_id": "reader-voice-audit-leibniz",
+  "dimensions": {
+    "task_fidelity": {
+      "status": "pass",
+      "evidence": "States the exact producer-to-global-continuation implication for the live data class and fixed viscosity."
+    },
+    "work_advancement": {
+      "status": "pass",
+      "evidence": "Replaces the empty abstract and makes the upstream theorem boundary visible before the body."
+    },
+    "structural_meshing": {
+      "status": "pass",
+      "evidence": "Preserves the one-fluid order and keeps the critical rows downstream of the complete family."
+    },
+    "bridge_quality": {
+      "status": "pass",
+      "evidence": "Carries the upstream rectangles through compatibility, the complete row, the momentum equation, the common endpoint, the jet, and restart."
+    },
+    "enrichment_control": {
+      "status": "pass",
+      "evidence": "Includes only the finite-order constant distinction and endpoint mechanism needed to prevent mathematical misreading."
+    },
+    "intellectual_value": {
+      "status": "pass",
+      "evidence": "Shows exactly why the complete row creates restart-grade endpoint data rather than merely listing the paper's parts."
+    },
+    "authorial_completion": {
+      "status": "pass",
+      "evidence": "Ends at the contradiction to finite maximality and the resulting all-time smooth history."
+    },
+    "thought_selection": {
+      "status": "pass",
+      "evidence": "Matches the user-fixed producer-to-intersection-to-restart sequence."
+    },
+    "direct_object_fidelity": {
+      "status": "pass",
+      "evidence": "All rows, traces, recurrences, and restart data belong to the same pressure-normalized maximal history."
+    },
+    "connection": {
+      "status": "pass",
+      "evidence": "Each sentence supplies the premise used by the next mathematical consequence."
+    },
+    "development": {
+      "status": "pass",
+      "evidence": "Retains every load-bearing step while clearly separating the cited producer from the closure."
+    },
+    "expression": {
+      "status": "pass",
+      "evidence": "Uses public mathematical language, complete sentences, and one internal theorem locator."
+    },
+    "nuance": {
+      "status": "pass",
+      "evidence": "Allows dependence on N and M and does not claim a uniform all-orders constant or an on-page producer derivation."
+    },
+    "understanding": {
+      "status": "pass",
+      "evidence": "Correctly makes the complete spatial row plus momentum equation, not adjacent traces alone, produce the common endpoint."
+    },
+    "authorship": {
+      "status": "pass",
+      "evidence": "The wording is generated from the live theorem packet and incorporates the independent reader's necessary corrections."
+    },
+    "reader_continuity": {
+      "status": "pass",
+      "evidence": "A specialist exits knowing both the proof dependency and the complete closure route."
+    },
+    "deeper_connections_and_thoughts": {
+      "status": "pass",
+      "evidence": "Connects the inverse-limit velocity realization to Bochner endpoint regularity and then to same-history uniqueness."
+    },
+    "sample_content_leakage": {
+      "status": "pass",
+      "evidence": "All domain language and mathematical content are grounded in the live source packet."
+    },
+    "confidence_calibration": {
+      "status": "pass",
+      "evidence": "Low predictive confidence remains appropriate until Thomas approves the voice, despite source and referee support."
+    }
+  },
+  "verdict": "pass"
+}

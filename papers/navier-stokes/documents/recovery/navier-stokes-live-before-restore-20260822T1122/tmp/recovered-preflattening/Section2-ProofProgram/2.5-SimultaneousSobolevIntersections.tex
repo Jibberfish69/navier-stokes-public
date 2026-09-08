@@ -1,0 +1,106 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.5 Simultaneous Sobolev Intersections
+% ============================================================
+
+\subsection{Simultaneous Sobolev Intersections}\label{sub:SimultaneousSobolevIntersections}
+
+The word smooth can now be connected to the tower one derivative order at a time.
+In three spatial dimensions, Sobolev embedding gives
+\[
+  H^m(\R^3)
+  \hookrightarrow
+  C^k(\R^3)
+  \qquad
+  \text{whenever }m>k+\frac32.
+\]
+Fix any requested spatial derivative order \(k\).
+One finite choice of \(m>k+3/2\) makes every derivative of \(u\) through order \(k\) continuous and bounded.
+Allowing \(m\) to range through all finite orders gives
+\[
+  \bigcap_{m=0}^{\infty}H^m(\R^3)
+  \hookrightarrow
+  C^\infty(\R^3).
+\]
+No individual Sobolev row has been called infinitely smooth.
+The intersection supplies every finite row, and each desired derivative chooses the one finite row high enough to control it.
+
+The temporal direction has the same form on a bounded strict interval \(I=(0,T)\) with \(T<T_*\).
+For a Hilbert space \(X\), the one-dimensional Sobolev embedding gives
+\[
+  H^r(I;X)
+  \hookrightarrow
+  C^q(\overline I;X)
+  \qquad
+  \text{whenever }r>q+\frac12.
+\]
+Fix a requested temporal derivative order \(q\), then choose one finite \(r>q+1/2\).
+Allowing all finite temporal orders gives
+\[
+  \bigcap_{r=0}^{\infty}H^r(I;X)
+  \hookrightarrow
+  C^\infty(\overline I;X).
+\]
+The temporal intersection has its own intersection-to-smoothness argument, just as the spatial intersection does.
+
+The mixed jet asks for both choices at once.
+Consider the coordinatewise mixed intersection
+\[
+  \mathscr J_\infty(I)
+  :=
+  \bigcap_{r=0}^{\infty}
+  \bigcap_{m=0}^{\infty}
+  H^r\bigl(I;H^m(\R^3)\bigr).
+\]
+Choose any temporal order \(q\) and spatial order \(k\).
+Selecting finite indices \(r>q+1/2\) and \(m>k+3/2\) gives
+\[
+  H^r\bigl(I;H^m(\R^3)\bigr)
+  \hookrightarrow
+  C^q\bigl(\overline I;C^k(\R^3)\bigr).
+\]
+Since \(q\) and \(k\) were arbitrary, the full mixed intersection satisfies
+\[
+  \mathscr J_\infty(I)
+  \hookrightarrow
+  C^\infty\bigl(\overline I\times\R^3\bigr).
+\]
+Every mixed derivative \(\partial_t^q\partial_x^\alpha u\) is reached by a finite coordinate of the intersection.
+
+These intersections are simultaneous readings of the fluid.
+The spatial column reads all spatial heights of \(u(t)\).
+The temporal column reads all time responses of a fixed field-valued coordinate.
+The critical-height column reads the scalar \(H\) and the nested energies and production terms exposed by its triangular identity.
+The mixed intersection reads every \(J_{m,\alpha}\) together with the pressure coordinates and recurrence that relate them.
+The columns do not describe successive configurations through which the fluid must pass.
+They expose different aspects of the same coupled equation at the same time.
+
+The critical-height column also has a strict limitation.
+The scalar \(H(t)\) records the size of \(\Lambda^{1/2}u(t)\), so it forgets the field's orientation, phase, and spatial arrangement.
+Even complete temporal information about \(H\) cannot reconstruct \(u\) by itself.
+Its value comes from the exact identities that place its derivatives on the compatible graph of the full mixed jet.
+The velocity and pressure coordinates remain the object that identifies which spatial field produced the scalar readout.
+
+Intersection means coordinatewise membership.
+For the mixed object, the statement
+\[
+  u\in\mathscr J_\infty(I)
+\]
+means that for every finite pair \((r,m)\),
+\[
+  \norm{u}_{H^r(I;H^m)}<\infty.
+\]
+It places no demand on the infinite series
+\[
+  \sum_{r,m=0}^{\infty}
+  \norm{u}_{H^r(I;H^m)}^2.
+\]
+That series may diverge while every finite coordinate needed for smoothness remains finite.
+Different temporal and spatial coordinates may also carry different constants.
+The smoothness implication uses one finite coordinate after the desired derivative order has been chosen.
+
+This distinction changes the proof design.
+There is no need to dominate the entire infinite tower by one universal all-orders norm.
+The work can be done at arbitrary finite temporal and spatial depth, provided the finite views agree whenever they contain the same derivative.
+The smallest useful view must preserve two independent cutoffs and the relation between a temporal row and its derivative.
+That requirement produces the adjacent-row rectangle.

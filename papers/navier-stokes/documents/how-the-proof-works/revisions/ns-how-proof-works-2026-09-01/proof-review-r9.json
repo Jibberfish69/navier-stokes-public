@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "review_kind": "proof_reverse",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/proof-critic-r9.json",
+    "sha256": "34dbc5613600bb15c6e76421c31c049c74615cad7026df5c0c5b4fff43e05272"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/pdfs/ns-how-proof-works-candidate-r9/00-how-proof-works.tex",
+    "sha256": "6700528e68978c75cae24806fce264d2204b2169c74ead427cfd40cbf0391acb"
+  },
+  "render": [],
+  "reviewer": {
+    "agent_path": "/root/proof_reverse_r9",
+    "task_name": "proof_reverse_r9",
+    "isolation": "fork_none",
+    "request_nonce": "82776df1349ce92ededdd7507464c3eeddf089bf4221ff99"
+  },
+  "decision": {
+    "verdict": "fail",
+    "first_divergence": {
+      "exact_span": "Incompressibility fixes \\(Q_r\\) through the Riesz transforms \\(R_i\\):",
+      "mechanism": "At candidate line 112, incompressibility is made sufficient for the absolute pressure identity at lines 114-116. It determines the pressure Poisson equation but leaves the transformation p(x,t) -> p(x,t) + c(t) available. That changes Q_r by the r-th derivative of c while leaving the velocity equation and the displayed Riesz expression unchanged. No pressure normalization has yet been fixed in the candidate. The governing sources explicitly use a pressure-normalized history (02-compatible-rectangles.tex:223-224) and the decaying pressure normalization (thomas-one-fluid-reversible-intersection-proof-spine-20260803.md:394-405). This missing hypothesis also matters for the later H^M pressure memberships, which exclude nonzero spatial constants on R^3.",
+      "repair_constraint": "Fix the decaying/Riesz pressure normalization before asserting the exact identity for Q_r. Preserve the velocity history, the binomial recurrence, and the later finite pressure-space memberships. No alteration of the established rectangle theorem or closure chain is required."
+    }
+  }
+}

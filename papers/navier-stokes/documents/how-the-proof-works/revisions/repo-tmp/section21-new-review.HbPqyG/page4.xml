@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="26.04.0">
+<page number="4" position="absolute" top="0" left="0" height="1188" width="918">
+	<fontspec id="0" size="26" family="SKIBUV+LMRoman12" color="#000000"/>
+	<fontspec id="1" size="18" family="TTDJDT+LMRoman12" color="#000000"/>
+	<fontspec id="2" size="18" family="TORJHR+LMMathItalic12" color="#000000"/>
+	<fontspec id="3" size="12" family="AVXBDH+LMMathItalic8" color="#000000"/>
+	<fontspec id="4" size="15" family="UBPAWB+LMMathExtension10" color="#000000"/>
+	<fontspec id="5" size="12" family="DECEVI+LMRoman8" color="#000000"/>
+	<fontspec id="6" size="18" family="AWDQRX+LMMathSymbols10" color="#000000"/>
+	<fontspec id="7" size="22" family="SKIBUV+LMRoman12" color="#000000"/>
+	<fontspec id="8" size="12" family="RYEVFW+LMSans8" color="#000000"/>
+<text top="113" left="108" width="15" height="23" font="0"><b>2</b></text>
+<text top="113" left="152" width="523" height="23" font="0"><b>Critical Height and the Derivative Tower</b></text>
+<text top="160" left="107" width="703" height="16" font="1">The energy estimate leaves one fact settled: the kinetic energy stays finite throughout the</text>
+<text top="182" left="108" width="702" height="16" font="1">maximal smooth interval. That control does not stop the velocity from changing more</text>
+<text top="203" left="108" width="702" height="16" font="1">sharply across shorter distances. Viscosity is the part of the equation we expect to stop that</text>
+<text top="225" left="108" width="552" height="16" font="1">sharpening. It acts alongside the three other pieces of the same motion:</text>
+<text top="265" left="290" width="9" height="16" font="2"><i>∂</i></text>
+<text top="271" left="299" width="5" height="11" font="3"><i>t</i></text>
+<text top="265" left="304" width="10" height="16" font="2"><i>u</i></text>
+<text top="286" left="288" width="27" height="7" font="4">|{z}</text>
+<text top="293" left="254" width="96" height="11" font="5">local acceleration</text>
+<text top="265" left="353" width="14" height="16" font="1">+</text>
+<text top="265" left="392" width="7" height="16" font="1">(</text>
+<text top="265" left="399" width="10" height="16" font="2"><i>u</i></text>
+<text top="264" left="413" width="24" height="17" font="6">· ∇</text>
+<text top="265" left="437" width="7" height="16" font="1">)</text>
+<text top="265" left="444" width="10" height="16" font="2"><i>u</i></text>
+<text top="288" left="392" width="7" height="7" font="4">|</text>
+<text top="288" left="416" width="13" height="7" font="4">{z</text>
+<text top="288" left="447" width="7" height="7" font="4">}</text>
+<text top="295" left="369" width="108" height="11" font="5">nonlinear transport</text>
+<text top="265" left="482" width="14" height="16" font="1">=</text>
+<text top="264" left="504" width="29" height="17" font="6">−∇</text>
+<text top="265" left="533" width="9" height="16" font="2"><i>p</i></text>
+<text top="287" left="504" width="38" height="7" font="4">| {z }</text>
+<text top="292" left="501" width="45" height="11" font="5">pressure</text>
+<text top="265" left="549" width="14" height="16" font="1">+</text>
+<text top="265" left="594" width="9" height="16" font="2"><i>ν</i></text>
+<text top="265" left="603" width="15" height="16" font="1">∆</text>
+<text top="265" left="618" width="10" height="16" font="2"><i>u</i></text>
+<text top="284" left="594" width="34" height="7" font="4">| {z }</text>
+<text top="291" left="566" width="91" height="11" font="5">viscous diffusion</text>
+<text top="265" left="659" width="5" height="16" font="2"><i>.</i></text>
+<text top="326" left="107" width="703" height="16" font="1">The regularity hope is that viscous smoothing always keeps pace with the sharpening produced</text>
+<text top="348" left="108" width="702" height="16" font="1">by nonlinear transport. In three dimensions, vortex stretching gives the nonlinear motion a</text>
+<text top="370" left="108" width="199" height="16" font="1">route to sharpen the flow.</text>
+<text top="419" left="108" width="31" height="19" font="7"><b>2.1</b></text>
+<text top="419" left="163" width="189" height="19" font="7"><b>Vortex Stretching</b></text>
+<text top="455" left="108" width="618" height="16" font="1">Follow a small material element whose vorticity points along one axis. Write</text>
+<text top="455" left="734" width="8" height="16" font="2"><i>e</i></text>
+<text top="455" left="749" width="61" height="16" font="1">for that</text>
+<text top="477" left="108" width="99" height="16" font="1">direction and</text>
+<text top="477" left="213" width="12" height="16" font="2"><i>L</i></text>
+<text top="477" left="225" width="7" height="16" font="1">(</text>
+<text top="477" left="232" width="6" height="16" font="2"><i>t</i></text>
+<text top="477" left="238" width="572" height="16" font="1">) for the element’s length. If the strain is locally uniform across the element</text>
+<text top="498" left="108" width="75" height="16" font="1">and keeps</text>
+<text top="498" left="189" width="8" height="16" font="2"><i>e</i></text>
+<text top="498" left="203" width="249" height="16" font="1">as an extensional direction, then</text>
+<text top="545" left="258" width="11" height="16" font="2"><i>S</i></text>
+<text top="545" left="275" width="19" height="16" font="1">:=</text>
+<text top="533" left="300" width="9" height="16" font="1">1</text>
+<text top="557" left="300" width="9" height="16" font="1">2</text>
+<text top="539" left="311" width="9" height="7" font="4"></text>
+<text top="544" left="320" width="15" height="17" font="6">∇</text>
+<text top="545" left="335" width="10" height="16" font="2"><i>u</i></text>
+<text top="545" left="349" width="24" height="16" font="1">+ (</text>
+<text top="544" left="373" width="15" height="17" font="6">∇</text>
+<text top="545" left="388" width="10" height="16" font="2"><i>u</i></text>
+<text top="545" left="398" width="7" height="16" font="1">)</text>
+<text top="541" left="405" width="9" height="11" font="8">T</text>
+<text top="539" left="415" width="9" height="7" font="4"></text>
+<text top="545" left="423" width="5" height="16" font="2"><i>,</i></text>
+<text top="545" left="466" width="20" height="16" font="2"><i>Se</i></text>
+<text top="545" left="491" width="14" height="16" font="1">=</text>
+<text top="545" left="510" width="10" height="16" font="2"><i>σ</i></text>
+<text top="545" left="521" width="7" height="16" font="1">(</text>
+<text top="545" left="528" width="6" height="16" font="2"><i>t</i></text>
+<text top="545" left="534" width="7" height="16" font="1">)</text>
+<text top="545" left="541" width="13" height="16" font="2"><i>e,</i></text>
+<text top="545" left="592" width="10" height="16" font="2"><i>σ</i></text>
+<text top="545" left="602" width="7" height="16" font="1">(</text>
+<text top="545" left="609" width="6" height="16" font="2"><i>t</i></text>
+<text top="545" left="616" width="7" height="16" font="1">)</text>
+<text top="545" left="627" width="14" height="16" font="2"><i>&gt;</i></text>
+<text top="545" left="646" width="9" height="16" font="1">0</text>
+<text top="545" left="655" width="5" height="16" font="2"><i>,</i></text>
+<text top="589" left="108" width="328" height="16" font="1">and the length grows at the fractional rate</text>
+<text top="623" left="385" width="5" height="16" font="1">˙</text>
+<text top="628" left="381" width="12" height="16" font="2"><i>L</i></text>
+<text top="627" left="393" width="7" height="16" font="1">(</text>
+<text top="628" left="400" width="6" height="16" font="2"><i>t</i></text>
+<text top="627" left="406" width="7" height="16" font="1">)</text>
+<text top="652" left="381" width="12" height="16" font="2"><i>L</i></text>
+<text top="652" left="393" width="7" height="16" font="1">(</text>
+<text top="652" left="400" width="6" height="16" font="2"><i>t</i></text>
+<text top="652" left="406" width="7" height="16" font="1">)</text>
+<text top="640" left="420" width="14" height="16" font="1">=</text>
+<text top="640" left="438" width="8" height="16" font="2"><i>e</i></text>
+<text top="639" left="451" width="5" height="17" font="6">·</text>
+<text top="640" left="460" width="20" height="16" font="2"><i>Se</i></text>
+<text top="640" left="485" width="14" height="16" font="1">=</text>
+<text top="640" left="503" width="10" height="16" font="2"><i>σ</i></text>
+<text top="640" left="514" width="7" height="16" font="1">(</text>
+<text top="640" left="521" width="6" height="16" font="2"><i>t</i></text>
+<text top="640" left="527" width="7" height="16" font="1">)</text>
+<text top="640" left="534" width="5" height="16" font="2"><i>.</i></text>
+<text top="695" left="107" width="703" height="16" font="1">The element cannot lengthen without becoming narrower. Incompressibility preserves its</text>
+<text top="716" left="108" width="124" height="16" font="1">material volume</text>
+<text top="715" left="238" width="11" height="17" font="6">V</text>
+<text top="716" left="250" width="43" height="16" font="1">, so if</text>
+<text top="771" left="325" width="13" height="16" font="2"><i>A</i></text>
+<text top="770" left="338" width="7" height="16" font="1">(</text>
+<text top="771" left="345" width="6" height="16" font="2"><i>t</i></text>
+<text top="770" left="351" width="30" height="16" font="1">) :=</text>
+<text top="757" left="398" width="11" height="17" font="6">V</text>
+<text top="783" left="389" width="12" height="16" font="2"><i>L</i></text>
+<text top="783" left="400" width="7" height="16" font="1">(</text>
+<text top="783" left="407" width="6" height="16" font="2"><i>t</i></text>
+<text top="783" left="414" width="7" height="16" font="1">)</text>
+<text top="771" left="422" width="5" height="16" font="2"><i>,</i></text>
+<text top="771" left="465" width="8" height="16" font="2"><i>r</i></text>
+<text top="777" left="473" width="13" height="11" font="5">eff</text>
+<text top="770" left="488" width="7" height="16" font="1">(</text>
+<text top="771" left="495" width="6" height="16" font="2"><i>t</i></text>
+<text top="770" left="501" width="30" height="16" font="1">) :=</text>
+<text top="752" left="536" width="15" height="7" font="4">s</text>
+<text top="758" left="553" width="13" height="16" font="2"><i>A</i></text>
+<text top="758" left="566" width="7" height="16" font="1">(</text>
+<text top="758" left="573" width="6" height="16" font="2"><i>t</i></text>
+<text top="758" left="579" width="7" height="16" font="1">)</text>
+<text top="783" left="564" width="10" height="16" font="2"><i>π</i></text>
+<text top="771" left="588" width="5" height="16" font="2"><i>,</i></text>
+<text top="819" left="108" width="34" height="16" font="1">then</text>
+<text top="836" left="282" width="9" height="16" font="2"><i>d</i></text>
+<text top="861" left="279" width="15" height="16" font="2"><i>dt</i></text>
+<text top="849" left="296" width="7" height="16" font="1">(</text>
+<text top="849" left="303" width="25" height="16" font="2"><i>AL</i></text>
+<text top="849" left="328" width="39" height="16" font="1">) = 0</text>
+<text top="849" left="367" width="5" height="16" font="2"><i>,</i></text>
+<text top="832" left="419" width="5" height="16" font="1">˙</text>
+<text top="836" left="412" width="13" height="16" font="2"><i>A</i></text>
+<text top="861" left="412" width="13" height="16" font="2"><i>A</i></text>
+<text top="849" left="432" width="14" height="16" font="1">=</text>
+<text top="848" left="451" width="14" height="17" font="6">−</text>
+<text top="849" left="465" width="10" height="16" font="2"><i>σ</i></text>
+<text top="849" left="475" width="7" height="16" font="1">(</text>
+<text top="849" left="482" width="6" height="16" font="2"><i>t</i></text>
+<text top="849" left="488" width="7" height="16" font="1">)</text>
+<text top="849" left="495" width="5" height="16" font="2"><i>,</i></text>
+<text top="836" left="543" width="5" height="16" font="1">˙</text>
+<text top="836" left="540" width="8" height="16" font="2"><i>r</i></text>
+<text top="843" left="548" width="13" height="11" font="5">eff</text>
+<text top="861" left="540" width="8" height="16" font="2"><i>r</i></text>
+<text top="868" left="548" width="13" height="11" font="5">eff</text>
+<text top="849" left="569" width="14" height="16" font="1">=</text>
+<text top="848" left="588" width="14" height="17" font="6">−</text>
+<text top="836" left="604" width="10" height="16" font="2"><i>σ</i></text>
+<text top="836" left="614" width="7" height="16" font="1">(</text>
+<text top="836" left="621" width="6" height="16" font="2"><i>t</i></text>
+<text top="836" left="627" width="7" height="16" font="1">)</text>
+<text top="861" left="615" width="9" height="16" font="1">2</text>
+<text top="849" left="636" width="5" height="16" font="2"><i>.</i></text>
+<text top="887" left="107" width="611" height="16" font="1">Axial extension has forced transverse contraction in the same material element.</text>
+<text top="915" left="107" width="706" height="16" font="1">The curl of the momentum equation tells us what happens to the rotation along that trajectory.</text>
+<text top="937" left="107" width="40" height="16" font="1">With</text>
+<text top="937" left="152" width="11" height="16" font="2"><i>ω</i></text>
+<text top="937" left="169" width="19" height="16" font="1">:=</text>
+<text top="936" left="193" width="33" height="17" font="6">∇ ×</text>
+<text top="937" left="229" width="10" height="16" font="2"><i>u</i></text>
+<text top="937" left="239" width="5" height="16" font="1">,</text>
+<text top="954" left="306" width="26" height="16" font="2"><i>Dω</i></text>
+<text top="979" left="308" width="21" height="16" font="2"><i>Dt</i></text>
+<text top="966" left="339" width="14" height="16" font="1">=</text>
+<text top="966" left="358" width="23" height="16" font="2"><i>Sω</i></text>
+<text top="966" left="385" width="14" height="16" font="1">+</text>
+<text top="966" left="403" width="9" height="16" font="2"><i>ν</i></text>
+<text top="966" left="413" width="15" height="16" font="1">∆</text>
+<text top="966" left="427" width="16" height="16" font="2"><i>ω,</i></text>
+<text top="954" left="487" width="15" height="16" font="2"><i>D</i></text>
+<text top="979" left="483" width="21" height="16" font="2"><i>Dt</i></text>
+<text top="966" left="512" width="19" height="16" font="1">:=</text>
+<text top="966" left="535" width="9" height="16" font="2"><i>∂</i></text>
+<text top="973" left="544" width="5" height="11" font="3"><i>t</i></text>
+<text top="966" left="554" width="14" height="16" font="1">+</text>
+<text top="966" left="571" width="10" height="16" font="2"><i>u</i></text>
+<text top="965" left="585" width="24" height="17" font="6">· ∇</text>
+<text top="966" left="609" width="5" height="16" font="2"><i>.</i></text>
+<text top="1003" left="108" width="415" height="16" font="1">If the vorticity is aligned with the extensional direction,</text>
+<text top="1003" left="528" width="11" height="16" font="2"><i>ω</i></text>
+<text top="1003" left="545" width="13" height="16" font="1">=</text>
+<text top="1002" left="563" width="5" height="17" font="6">|</text>
+<text top="1003" left="568" width="11" height="16" font="2"><i>ω</i></text>
+<text top="1002" left="580" width="5" height="17" font="6">|</text>
+<text top="1003" left="585" width="8" height="16" font="2"><i>e</i></text>
+<text top="1003" left="593" width="217" height="16" font="1">, the stretching part becomes</text>
+<text top="1043" left="412" width="23" height="16" font="2"><i>Sω</i></text>
+<text top="1043" left="440" width="14" height="16" font="1">=</text>
+<text top="1043" left="459" width="10" height="16" font="2"><i>σ</i></text>
+<text top="1043" left="470" width="7" height="16" font="1">(</text>
+<text top="1043" left="476" width="6" height="16" font="2"><i>t</i></text>
+<text top="1043" left="483" width="7" height="16" font="1">)</text>
+<text top="1043" left="490" width="16" height="16" font="2"><i>ω,</i></text>
+<text top="1112" left="455" width="9" height="16" font="1">2</text>
+</page>
+<outline>
+<item page="3">The Regularity Problem</item>
+<item page="4">Critical Height and the Derivative Tower</item>
+<outline>
+<item page="4">Vortex Stretching</item>
+<item page="8">The temporal Tower</item>
+<item page="9">More spatial regularity, not less</item>
+</outline>
+<item page="13">The Intersection Theorem</item>
+<outline>
+<item page="13">Why the finite pieces are rectangles</item>
+<item page="17">Every finite rectangle remains bounded</item>
+</outline>
+<item page="19">From the Intersection to Global Smoothness</item>
+<outline>
+<item page="19">The first coordinate already closes the endpoint</item>
+<item page="20">The critical-height roof</item>
+<item page="22">The two vortex readings</item>
+<item page="24">No finite singular time</item>
+</outline>
+<item page="25">Further Consequences and the Euler Boundary</item>
+<outline>
+<item page="25">A finite sum across infinitely many scales</item>
+<item page="26">Three classical criteria inside one low rectangle</item>
+<item page="27">The local singularity picture closes as well</item>
+<item page="27">Why the Euler Tower is different</item>
+</outline>
+<item page="29">Local Construction and Classical Estimates</item>
+<outline>
+<item page="29">The local construction behind the maximal history</item>
+<item page="33">The Classical Estimates Before Closure</item>
+</outline>
+<item page="38">Derivative and Finite-Record Calculus</item>
+<outline>
+<item page="38">Critical Height at a Finite Endpoint</item>
+<item page="39">What finite time implies after one response escapes</item>
+<item page="40">The Pressure-Complete Mixed Jet</item>
+<item page="41">The Spatial Column Inside Critical Height</item>
+<item page="43">Simultaneous Sobolev Intersections</item>
+<item page="45">Finite Adjacent Rectangles</item>
+</outline>
+<item page="48">Compatible Terminal Assembly</item>
+<outline>
+<item page="48">The Terminal Quantifier</item>
+<item page="51">The Compatible Intersection</item>
+<item page="52">The Critical Height at the Terminal Face</item>
+<item page="54">One Endpoint for the Whole Tower</item>
+<item page="55">Restarting the Same History</item>
+</outline>
+<item page="56">Bibliography</item>
+</outline>
+</pdf2xml>

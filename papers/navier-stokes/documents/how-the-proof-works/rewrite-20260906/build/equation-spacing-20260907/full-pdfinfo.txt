@@ -1,0 +1,21 @@
+Title:           Global Smoothness for the Three-Dimensional Incompressible Navier--Stokes Equations
+Subject:         A formal proof of global existence and smoothness
+Author:          Thomas Birnie
+Creator:         LaTeX with hyperref
+Producer:        pdftex-1.40.28
+CreationDate:    Mon Sep  7 11:49:17 2026 MDT
+ModDate:         Mon Sep  7 11:49:17 2026 MDT
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           73
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       1616571 bytes
+Optimized:       no
+PDF version:     2.0

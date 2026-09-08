@@ -1,0 +1,42 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{The trace between adjacent rows}
+
+\begin{lemma}[Adjacent Hilbert-scale trace]\label{lem:AdjacentHilbertScaleTrace}
+Let \(s\in\R\) and suppose
+\[
+  v\in L^2(I_*;H^{s+1}),
+  \qquad
+  v_t\in L^2(I_*;H^{s-1}).
+\]
+Then \(v\) has one representative in \(C([0,T_*];H^s)\), and for
+\(0\leq a\leq b\leq T_*\),
+\begin{equation}\label{eq:AdjacentHilbertScaleEstimate}
+  \left|
+  \norm{v(b)}_{H^s}^{2}
+  -\norm{v(a)}_{H^s}^{2}
+  \right|
+  \leq
+  2\norm{v_t}_{L^2(a,b;H^{s-1})}
+  \norm{v}_{L^2(a,b;H^{s+1})}.
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+Let \(A=(1-\Delta)^{1/2}\).  Time mollification and frequency truncation make
+the identity
+\begin{equation}\label{eq:AdjacentHilbertScaleIdentity}
+  \norm{v(b)}_{H^s}^{2}
+  -\norm{v(a)}_{H^s}^{2}
+  =
+  2\operatorname{Re}\int_a^b
+  \pair{A^{s-1}v_t(t)}{A^{s+1}v(t)}_{L^2}
+  \,dt
+\end{equation}
+legitimate for smooth approximants.  Cauchy--Schwarz gives
+\eqref{eq:AdjacentHilbertScaleEstimate}, and the two assumed \(L^2\) rows
+pass the right-hand side to the limit.  The limit identity makes the
+\(H^s\) norm continuous.  The same approximation gives weak \(H^s\)
+continuity, so the representative is strongly continuous.  Any two
+continuous representatives agree everywhere because they agree almost
+everywhere.
+\end{proof}

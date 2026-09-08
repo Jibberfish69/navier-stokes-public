@@ -1,0 +1,237 @@
+                        How the Proof Works
+                                        Thomas Birnie
+
+
+
+The three-dimensional Navier–Stokes regularity problem asks whether a smooth solution can
+lose its smoothness in finite time. Fix a smooth, divergence-free datum u0 and a viscosity
+ν > 0.
+
+Take a vortex tube as the physical picture. As it stretches and thins, the fluid around its
+shrinking core turns faster and faster, and the velocity changes across a smaller distance.
+The tube cannot lengthen without becoming narrower.
+
+To see where that concentration sits in the Sobolev scale, rescale the fluid:
+
+                 uλ (x, t) = λu(λx, λ2 t),   ∥uλ (t)∥Ḣ s = λs−1/2 ∥u(λ2 t)∥Ḣ s .
+
+Below s = 12 , concentration makes the Sobolev norm smaller. Above s = 12 , it makes the norm
+larger. At s = 12 , the power of λ disappears. The exponent vanishes between the energy level
+below it and the first-derivative level above it. That unchanged middle level is the critical
+height. At this height, viscosity and nonlinear transport have equal scaling weight.
+
+The kinetic energy can remain finite while smaller and smaller regions carry steeper gradients.
+
+In order for a singularity to form, velocity has to blow up. In order for that to happen, its
+acceleration would also have to blow up, which means its jerk has to blow up, and so on, and
+so on:
+                                 u,     ∂t u,    ∂t2 u,   ...
+If a singularity were forming, what we would expect to see as we move up those time
+derivatives is less spatial regularity, not more.
+
+
+
+
+                                              1
+What the time derivatives reveal
+
+Write out the first three derivatives:
+
+                       ∂t u = ν∆u − (u · ∇)u − ∇p,
+
+                       ∂t2 u = ν∆∂t u − (∂t u · ∇)u − (u · ∇)∂t u − ∇∂t p,
+
+                       ∂t3 u = ν∆∂t2 u − (∂t2 u · ∇)u − 2(∂t u · ∇)∂t u
+
+                               − (u · ∇)∂t2 u − ∇∂t2 p.
+
+By the third line, the nonlinear term is visibly branching. The binomial form writes the
+complete expansion at once:
+                                        r
+                                                  !
+                                              r  a        
+                          ∂tr+1 u +              (∂t u) · ∇ ∂tr−a u + ∇∂tr p
+                                        X
+
+                                        a=0   a
+
+                                   = ν∆∂tr u.
+
+Set
+                                    Vr := ∂tr u,                Qr := ∂tr p.
+
+Now ask what happened to spatial regularity while those time derivatives were climbing.
+Write Λ := (−∆)1/2 . At time-derivative order r and spatial height s, measure Vr by
+
+                                                   1
+                                        Er,s (t) := ∥Λs Vr (t)∥22 .
+                                                   2
+Keep the complete transport and pressure contribution in
+                               *                  " r       !                  #+
+                                    s         s
+                                                   X    r
+                 Pr,s := − Re Λ Vr , Λ                    (Va · ∇)Vr−a + ∇Qr         .
+                                                  a=0   a                       L2
+
+Taking the H s energy of the differentiated equation gives
+
+                                          ′
+                                         Er,s = Pr,s − 2νEr,s+1 .
+
+This is where viscosity enters the argument. The time derivative of the energy at height s
+contains the energy at height s + 1, with coefficient 2ν. Start with the original velocity at
+the critical height, H := E0,1/2 . Then
+
+                                        H ′ = P0,1/2 − 2νE0,3/2 .
+
+
+
+
+                                                        2
+Each derivative of H is built from the temporal responses above. Differentiating H =
+1
+2
+  ∥Λ1/2 u∥22 distributes the time derivatives between its two copies of u:
+                                        n
+                                               !
+                         (n)         1X    n   D                          E
+                     H         (t) =         Re Λ1/2 Va (t), Λ1/2 Vn−a (t) 2 .
+                                     2 a=0 a                               L
+
+
+Iterating the viscous energy identity n ≥ 1 times gives
+                                               n−1
+                      dn H        n
+                                                   (−2ν)j ∂tn−1−j P0,j+1/2 .
+                                               X
+                         n
+                           = (−2ν)  E0,n+1/2 +
+                       dt                      j=0
+
+
+
+The top term is the Sobolev energy at height n + 12 . As temporal order rises, Sobolev height
+rises with it. That is the reversal. The singularity picture led us to expect spatial regularity
+to fall away as we followed velocity, acceleration, and jerk. The equation exposes higher
+spatial energy instead.
+
+In three dimensions, the Sobolev embedding theorem gives
+
+               3
+                               H s (R3 ) ,→ C k (R3 ),             H m (R3 ) = H ∞ (R3 ) ,→ C ∞ (R3 ).
+                                                             \
+      s>k+         =⇒
+               2                                             m<∞
+
+
+This is the payoff waiting at the endpoint. If every finite height reaches T∗ , the endpoint lies
+in H ∞ and is smooth.
+
+
+
+How the heights reach the endpoint
+
+The calculation has exposed the heights. The finite rectangles carry them to T∗ .
+
+The index r tells us which time derivative Vr we are following, and the index m tells us the
+Sobolev height at which it is measured. The pairs (r, m) form the mixed grid. Cutting that
+grid off at a finite temporal depth N and a finite spatial height M gives one rectangle.
+
+For each n ≤ N , the adjacent pair
+
+              Vn ∈ L2t HxM +1 ,         Vn+1 = ∂t Vn ∈ L2t HxM −1        =⇒     Vn ∈ Ct HxM
+
+carries Vn continuously through T∗ at the middle height H M . Collecting finitely many adjacent
+pairs, together with their pressure rows Qn , gives the pressure-complete rectangle RN,M [u0 ].
+
+
+
+
+                                                         3
+The rectangle estimate keeps every fixed finite block controlled through T∗ . Larger blocks
+contain smaller ones, and their shared coordinates agree because every block comes from the
+fluid generated by u0 . Taking all finite blocks together gives I[u0 ], whose velocity belongs to
+
+                                              H r (0, T∗ ; H m (R3 )).
+                                      \
+
+                                    r,m<∞
+
+
+Every finite temporal order and every finite spatial height are now present at once.
+
+Taking r = 1 gives the terminal trace at every finite spatial height:
+
+                 u ∈ H 1 (0, T∗ ; H m (R3 )) ,→ C([0, T∗ ]; H m (R3 )),        m < ∞.
+
+The original velocity now has one endpoint in all of those spaces:
+
+                                              H m (R3 ) = H ∞ (R3 ) ,→ C ∞ (R3 ).
+                                       \
+                     u∗ := u(T∗ ) ∈
+                                      m<∞
+
+
+This complete zeroth row is S0 := π0 I[u0 ].
+
+The singularity picture led us to expect less spatial regularity as the time derivatives rose.
+The intersection reaches T∗ with every finite spatial height intact.
+
+Local smooth existence from u∗ continues the solution through [T∗ , T∗ + δ]. Uniqueness makes
+that continuation agree with the solution on [0, T∗ ). This crosses a supposedly maximal finite
+time, so
+                                           T∗ = ∞.
+
+
+
+Where the estimates come from
+
+Now choose any classical estimate. For finite r, k, 2 ≤ p ≤ ∞, and
+
+                                                         3 3
+                                          m>k+            − ,
+                                                         2 p
+
+the intersection and Sobolev embedding give
+
+                             ∂tr u ∈ Ct Hxm      =⇒       ∇k ∂tr u ∈ L∞  p
+                                                                      t Lx .
+
+
+
+
+                                                     4
+That one rule gives, for example,
+
+                                   I[u0 ] −→ Ct Hx1 −→ L∞  6
+                                                        t Lx ,
+
+                                   I[u0 ] −→ Ct Hx2 −→ L∞  ∞
+                                                        t Lx ,
+
+                                   I[u0 ] −→ Ct Hx3 −→ L∞  1,∞
+                                                        t Wx   .
+
+The H 3 line gives, on any finite interval [0, T ],
+                          Z T
+                                ∥∇u(t)∥L∞ dt ≤ CT sup ∥u(t)∥H 3 < ∞.
+                           0                          0≤t≤T
+
+
+Change r, k, or p, and choose the corresponding finite height. The intersection already
+contains it.
+
+The familiar continuation estimates are read from the intersection afterward. They are
+derived from u0 through the intersection, not the other way around.
+
+The entire proof can now be read in one line:
+
+                    u0 −→ {(Vn , Qn )}n≥0 −→ {RN,M [u0 ]}N,M <∞ −→ I[u0 ]
+
+                       −→ S0 −→ u∗ ∈ H ∞ −→ T∗ = ∞.
+
+
+
+
+                                                 5
+

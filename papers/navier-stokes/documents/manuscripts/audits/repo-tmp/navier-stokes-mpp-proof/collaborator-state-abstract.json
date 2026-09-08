@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "id": "navier-stokes-mpp-quick-proof-document",
+  "live_object": "Standalone MPP proof paper with its abstract now under direct review",
+  "why": "Deliver the full reader-facing proof document Thomas requested as a new PDF",
+  "established": [
+    "The 17-page standalone paper and settled compatible-intersection theorem remain unchanged",
+    "The current abstract is an internal proof-route inventory rather than a public theorem abstract",
+    "The global result is buried in the final sentence and the abstract omits the finite-energy class and uniqueness",
+    "This turn diagnosed the abstract only and made no manuscript edit"
+  ],
+  "open": [
+    "Replace the abstract if Thomas directs the rewrite"
+  ],
+  "current_pressure": "The abstract must state the global result first and name only the decisive closure move",
+  "next_move": "Write and verify the replacement abstract when authorized",
+  "holds": [
+    "Do not alter the existing navier-stokes-manuscript.pdf",
+    "Preserve the settled compatible-intersection custody lock",
+    "Do not edit the standalone paper from a diagnosis-only request"
+  ],
+  "status": "active",
+  "source_refs": [
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/output/pdf/navier-stokes-mpp-proof/main.tex",
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/output/pdf/navier-stokes-mpp-proof.pdf"
+  ]
+}

@@ -1,0 +1,44 @@
+---
+version: 4
+identity:
+  problem_id: navier-stokes
+  display_name: navier-stokes
+  gap_id: gap-navier-stokes-proof-program-complete
+  converted_by: release_surface_reconciler
+  converted_at: '2026-08-06T14:56:50Z'
+source:
+  live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
+  source_frontier: problems/navier-stokes/source-frontier.yaml
+  theorem_packet: problems/navier-stokes/theorem-packet.yaml
+  review_verdict: problems/navier-stokes/review-verdict.yaml
+  submission_verdict: problems/navier-stokes/submission-verdict.yaml
+  release_decision: problems/navier-stokes/release-decision.yaml
+  cm_contrapositive_referee_audit: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
+status:
+  ledger_status: established-complete
+  pass: true
+  route_pass: true
+  release_eligible: true
+  release_scope: theorem-complete
+pass: true
+resolution:
+  current_resolution: The direct datum-generated compatible-intersection proof is established complete.
+  resolved_burdens: []
+  open_burdens: &1 []
+summary:
+  authority_mode: cm-contrapositive-referee-gate
+  audit_path: problems/navier-stokes/cm-contrapositive-referee-audit.yaml
+  audit_status: classification-passed-terminal-retention-unproved
+  blocking_count: 0
+  frontier_count: 0
+  unresolved_count: 0
+  bridge_discharge_blocking_count: 0
+  theorem_warrant_blocking_count: 0
+  all_discharged: true
+  referee_blockers: *1
+  open_frontier_labels: []
+  mathematical_gap_count: 0
+  release_blocking_count_for_current_theorem_packet: 0
+verdict:
+  gaps_resolved_for_current_release_scope: true
+  use_as_gap_ledger: true

@@ -40,7 +40,7 @@ B_{Schur}=E_{top-ex}=S_{material}=S_{cov/frame}=Stop=Reset=Return=R_{legal}=0.
 Then the installed local classifications imply:
 
 1. no parent Schur-visible source;
-2. no selected silent pressure-Hodge carrier except unselected/gauge material;
+2. no selected silent pressure-Helmholtz--Leray carrier except unselected/gauge material;
 3. no top-strain exchange;
 4. no material service;
 5. no covector/frame drift;

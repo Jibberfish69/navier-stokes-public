@@ -1,0 +1,18 @@
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
+\contentsline {section}{\numberline {2}Analytic framework}{6}{section.2}%
+\contentsline {section}{\numberline {3}The pressure-complete setting and mixed jet}{17}{section.3}%
+\contentsline {section}{\numberline {4}Datum-generated compatible rectangles}{20}{section.4}%
+\contentsline {section}{\numberline {5}Compatible intersection, endpoint jet, and restart}{24}{section.5}%
+\contentsline {section}{\numberline {6}Matrix forms of the completed intersection}{31}{section.6}%
+\contentsline {section}{\numberline {7}Quantitative consequences of the compatible rectangles}{34}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Completion in the global \(H^1\) mild class}{34}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Canonical coordinates and finite majorants}{37}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Mixed velocity and pressure rows}{43}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Frequency and critical-scale consequences}{45}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Continuation and quantitative restart}{47}{subsection.7.5}%
+\contentsline {section}{\numberline {8}Three-dimensional applications}{49}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Explicit closure for small critical data}{49}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Low-rectangle classes, local scale content, and material flow}{53}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Relative energy and the Leray--Hopf class}{56}{subsection.8.3}%
+\contentsline {section}{\numberline {9}Conclusion}{61}{section.9}%
+\contentsline {section}{\numberline {A}Canonical coordinate catalogue}{62}{appendix.A}%

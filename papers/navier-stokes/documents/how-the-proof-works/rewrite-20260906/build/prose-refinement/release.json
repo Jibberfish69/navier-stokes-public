@@ -1,0 +1,50 @@
+{
+  "schema_version": 3,
+  "producer": {
+    "agent_path": "/root",
+    "input_packet": {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/prose-refinement/producer.json",
+      "sha256": "ce70035b90826de2fb4b28e7ee9a391cc18a4a1f21bb1c192f2e53dc820c143c"
+    }
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/prose-refinement/candidate.tex",
+    "sha256": "cf1ec4beb4ebfebcaf467d238231ec671f9436641e0dae13887ede4d88f7bc20"
+  },
+  "pdf": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/how-the-proof-works.pdf",
+    "sha256": "0ad9cfdf96b602efde82dd3b348318457f6647db6e76b655b17ef8064d9493c6"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/prose-refinement/page-1.png",
+      "sha256": "655fcf028fd4731097fd774abbf3392889e4e412313e5add10d6ff4b2b9ff215"
+    },
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/prose-refinement/page-2.png",
+      "sha256": "511f834539581e01b8177670d03ceb4d21cf97d3e8db89666d22464d240cd96f"
+    },
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/prose-refinement/page-3.png",
+      "sha256": "33d26640a23a181ed33e9dbda0b36eb35eb6de4355e0a3cd7e23ebc1b3b8ca95"
+    },
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/prose-refinement/page-4.png",
+      "sha256": "286e2d39f7aeb2d26af6997d3a55e8a5df5eaf2e72b587a74999b6cf0c12402a"
+    }
+  ],
+  "critic_packet": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/prose-refinement/critic-packet.json",
+    "sha256": "4f1239fdeae7527b7b8c0a7b26799d126d0ce66be50d78dc289a0b6c6fd13993"
+  },
+  "reviews": [
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/prose-refinement/reader-review.json",
+      "sha256": "bc9b7bbc104e21764efbdbdbe0079d6f5391eedc3b8e76aff15977384f53f946"
+    },
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/prose-refinement/proof-review.json",
+      "sha256": "1c4366cbfc513a9578fa0d11067d72c71e79ed3c21c05f09afb0a3567d5908a1"
+    }
+  ]
+}

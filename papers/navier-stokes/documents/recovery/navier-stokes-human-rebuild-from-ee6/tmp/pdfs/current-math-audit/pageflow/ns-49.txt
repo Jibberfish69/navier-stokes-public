@@ -1,0 +1,52 @@
+because
+                                           1                  3
+                                       3>2+ ,             6>4+ .
+                                           2                  2
+Nothing special happened at the pair (2, 4). For arbitrary finite temporal and spatial orders
+q and k, choose finite indices satisfying
+                                        1                     3
+                                    r>q+ ,                m>k+ .
+                                        2                     2
+Then
+                                                                             
+                               H r I; H m (R3 ) ,→ C q I; C k (R3 ) .
+
+   To satisfy every finite time–space request on the same velocity, take the intersection of
+these finite Sobolev memberships:
+                                               ∞ \
+                                                 ∞                            
+                                V∞ (I) :=              H r I; H m (R3 ) .
+                                               \
+
+                                             r=0 m=0
+
+Membership means
+
+             u ∈ V∞ (I)     ⇐⇒         ∥u∥H r (I;H m ) < ∞ for every finite pair (r, m).
+
+Each membership is a coordinate of the same u, and the intersection keeps their norms
+separate. The embeddings above then give
+                                                                        
+                                        V∞ (I) ,→ C ∞ I × R3 .
+
+    Choose temporal and spatial indices large enough to give a continuous trace above the
+critical levels. That trace contains both
+
+                          u(t) ∈ H 1/2 (R3 )      and                 u(t) ∈ H 3/2 (R3 )
+
+at each time in the closed interval. The critical quantities are then defined on the closed
+interval by
+                               1 1/2   2                                     1 3/2    2
+                      H(t) =     Λ u(t) ,                 E3/2 (t) =           Λ u(t)
+                               2       2                                     2        2
+
+
+The calculation of critical height led to these spatial levels; the intersection is what controls
+them at the endpoint.
+   Pressure is not an element of the velocity intersection. Write
+
+                                               Qn = ∂tn p,
+
+
+                                                     47
+

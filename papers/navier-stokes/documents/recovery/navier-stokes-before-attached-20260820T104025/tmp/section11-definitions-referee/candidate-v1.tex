@@ -1,0 +1,27 @@
+\divider{Definitions}
+
+\begin{definition}[Smoothness]\label{def:Smoothness}
+A velocity\textendash pressure pair \((u,p)\) is smooth through a finite time \(T>0\) when every mixed spatial and temporal derivative of finite order exists and is continuous on the chosen spatial domain for \(0\leq t\leq T\).
+Equivalently, \((u,p)\) belongs to \(C^\infty\) on the full space\textendash time slab through \(T\).
+It is smooth for all time when this holds for every finite \(T>0\).
+\end{definition}
+
+\begin{definition}[Continuation]\label{def:Continuation}
+Suppose \((u,p)\) is a solution through time \(T\) in a regularity class \(X\).
+A continuation of \((u,p)\) past \(T\) in \(X\) is a solution \((\widetilde u,\widetilde p)\) on the same spatial domain for \(0\leq t\leq T+\varepsilon\), for some \(\varepsilon>0\), that solves the same Navier\textendash Stokes problem, belongs to \(X\), and agrees with \((u,p)\) for \(0\leq t\leq T\).
+For the Clay problem, \(X=C^\infty\), so the continuation must remain smooth on the larger interval.
+\end{definition}
+
+\begin{definition}[Regularity]\label{def:Regularity}
+For \(k\in\mathbb N_0\), a velocity\textendash pressure pair \((u,p)\) has regularity \(C^k\) through time \(T\) when every mixed derivative \(\partial_t^j\partial_x^\alpha u\) and \(\partial_t^j\partial_x^\alpha p\) with \(j+\lvert\alpha\rvert\leq k\) exists and is continuous on the chosen spatial domain for \(0\leq t\leq T\).
+Thus \(C^0\) means continuity, \(C^k\) requires continuous derivatives through total order \(k\), and \(C^\infty\) requires this at every finite order.
+The \(C^\infty\) case is smoothness.
+\end{definition}
+
+Regularity fixes the level of continuity and differentiability required of the solution.
+Smoothness fixes that level at \(C^\infty\), and continuation asks whether the solution can be extended past \(T\) without leaving it.
+For the Clay problem, this must remain possible past every finite \(T\).
+
+A solution on \([0,T)\) loses \(C^k\) regularity at \(T\) when its velocity\textendash pressure pair has no \(C^k\) extension through the endpoint.
+For example, a required derivative may become unbounded as \(t\uparrow T\), or it may remain bounded without approaching a continuous limit there.
+Either failure at any finite order prevents continuation in \(C^\infty\).

@@ -50,7 +50,7 @@ GlobalSamePacketFullMonotoneBudget.A. Construct a bounded-below same-material st
 
 ## Proof Attempt
 
-1. Use the moving material Hodge projector rather than a raw pressure-lobe readout.
+1. Use the moving material Helmholtz--Leray projector rather than a raw pressure-lobe readout.
 2. Keep tangent pressure motion inside projector/metric strain service.
 3. Use Schur normal defect storage only for normal pressure/collar defect.
 

@@ -1,0 +1,25 @@
+{
+  "review_pages": 4,
+  "review_letter": true,
+  "review_text_changed_pages": [
+    1
+  ],
+  "full_pages": 73,
+  "full_letter": true,
+  "full_text_changed_pages": [
+    3
+  ],
+  "review_pages_2_to_4_pixel_identical": true,
+  "opening_matches_full_above_footer": true,
+  "figure_final_diagnostics": 0,
+  "review_final_diagnostics": 0,
+  "full_final_diagnostics": 0,
+  "theorem_reference_preserved": true,
+  "source_and_release_scope_verified": true,
+  "delivered": {
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/how-the-proof-works.pdf": "a98f69e84aa3dae8f1b9bfb065a5d022c72b46e266cd7c0e8255483eddb5f3f7",
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf": "7bbbe6322be6e91d94b930f1828d33174106c406d13122cc3263c8287564ff21",
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/navier-stokes-with-rewrite.pdf": "7bbbe6322be6e91d94b930f1828d33174106c406d13122cc3263c8287564ff21"
+  },
+  "visual_inspection": "Final figure, review page 1 and full-paper page 3 inspected at readable scale; no ribbons, shading, collisions or clipping."
+}

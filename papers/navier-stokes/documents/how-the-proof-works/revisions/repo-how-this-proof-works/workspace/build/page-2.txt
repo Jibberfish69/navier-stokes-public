@@ -1,0 +1,62 @@
+The three nearby heights respond in three different ways:
+
+                                                   ∥uλ (t)∥22 = λ−1 ∥u(λ2 t)∥22 ,
+
+                                              ∥uλ (t)∥2Ḣ 1/2 = ∥u(λ2 t)∥2Ḣ 1/2 ,
+
+                                                ∥uλ (t)∥2Ḣ 1 = λ∥u(λ2 t)∥2Ḣ 1 .
+
+Kinetic energy decreases under compression, the first-derivative norm increases, and the half-derivative
+norm does not move. The unchanged middle height s = 12 is the critical height.
+
+The time factor also permits a finite accumulation schedule. If a candidate history halves its active width
+at each stage, then
+                                                             ∞
+                               −n                −n
+                                                            X          4
+                        rn = 2 r0 ,       δtn = 4 δt0 ,          δtn = δt0 < ∞.
+                                                            n=0
+                                                                       3
+The widths can approach zero through intervals whose total length stays finite. Energy can remain finite
+while the gradients steepen at each stage. This is the Zeno cascade: a candidate scale schedule that one
+Navier–Stokes history would have to realize for concentration to reach a finite singular time.
+
+In order for a singularity to form, velocity has to blow up. In order for that to happen, its acceleration
+would also have to blow up, which means its jerk has to blow up, and so on, and so on:
+
+                                              u,       ∂t u,        ∂t2 u,      ...
+
+Each stage of the Zeno picture is narrower than the stage before it. Read along this temporal sequence,
+that predicts less spatial regularity at higher temporal order. Differentiating Navier–Stokes produces the
+opposite pattern.
+
+
+
+∂t u = ν∆u − (u · ∇)u − ∇p,
+
+
+∂t2 u = ν∆∂t u − (∂t u · ∇)u − (u · ∇)∂t u − ∇∂t p,
+
+
+∂t3 u = ν∆∂t2 u − (∂t2 u · ∇)u − 2(∂t u · ∇)∂t u − (u · ∇)∂t2 u − ∇∂t2 p.
+
+
+The complete expansion is the binomial recurrence
+
+                                         ∂tn+1 u = ν∆∂tn u
+                                                          n
+                                                                    !
+                                                                n
+                                                                        ∂ta u · ∇ ∂tn−a u
+                                                          X                     
+                                                      −
+                                                          a=0
+                                                                a
+
+                                                      − ∇∂tn p.
+
+
+
+
+                                                                2
+

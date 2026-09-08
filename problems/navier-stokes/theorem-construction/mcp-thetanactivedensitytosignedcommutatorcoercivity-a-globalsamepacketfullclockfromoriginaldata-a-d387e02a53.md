@@ -21,7 +21,7 @@ initial high-frequency entrance,
 linear viscous high-frequency tail,
 fixed-threshold finite-collar support,
 relative pressure/collar defect,
-projected Hodge pressure overcount,
+projected Helmholtz--Leray pressure overcount,
 endpoint first-time-rung trace channel after inclusion in the full tower action.
 ```
 
@@ -66,7 +66,7 @@ would assume the full material clock.
 
 ## 4. Correct noncircular primitive
 
-The pressure/Hodge and commutator orientation notes show that these terms must be retained before rectification as a signed same-packet current.  The needed primitive is
+The pressure/Helmholtz--Leray and commutator orientation notes show that these terms must be retained before rectification as a signed same-packet current.  The needed primitive is
 
 ```math
 \boxed{\text{SignedSmoothSamePacketCommutatorCoercivity.A}.}
@@ -86,7 +86,7 @@ A representative prelimit inequality is
 
 with \(X_{comm,m}\) bounded below on the same retained material packet.
 
-If this signed inequality is proved, the positive material-record log clock is paid before lower-semicontinuity and before the pressure/Hodge commutator is split into one-sided lobes.  The Body-II signed current can then pass to the adjacent four-body exchange and cancellation.
+If this signed inequality is proved, the positive material-record log clock is paid before lower-semicontinuity and before the pressure/Helmholtz--Leray commutator is split into one-sided lobes.  The Body-II signed current can then pass to the adjacent four-body exchange and cancellation.
 
 ## 5. Result
 
@@ -96,4 +96,4 @@ If this signed inequality is proved, the positive material-record log clock is p
 \boxed{\text{SignedSmoothSamePacketCommutatorCoercivity.A}.}
 ```
 
-That is the next theorem-grade target.  It is the only currently visible noncircular route because it keeps the pressure-Hodge/cubic-strain partner before rectification.
+That is the next theorem-grade target.  It is the only currently visible noncircular route because it keeps the pressure-Helmholtz--Leray/cubic-strain partner before rectification.

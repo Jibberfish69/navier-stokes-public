@@ -1,0 +1,704 @@
+A
+
+Branch Derivation Patterns
+
+The main proof uses one derivation pattern repeatedly. The positive attempt supplies a proposed
+continuation mechanism. The failed attempt supplies a selected terminal branch. The class proof
+asks which continuation requirement that selected branch loses ﬁrst.
+Lemma 3 (Carrier pattern). A terminal branch with zero terminal radius, detached ancestry, ﬁrstcreated unpaid reserve, or terminal carrier birth without a same-ﬂuid charge path fails the carrier
+requirement.
+Proof. Each listed mechanism removes the positive transported packet needed to carry Q as the
+same ﬂuid branch. The carrier requirement is exactly the existence of such a positive transported
+packet. The ﬁrst lost requirement is therefore ¬PackQ .
+Lemma 4 (Participation pattern). A terminal branch with a surviving carrier and broken pressure
+participation, broken viscosity participation, dwell failure, or incompatible local source participation
+fails the participation requirement.
+Proof. After a carrier survives, the continuation branch still has to solve the same diﬀerentiated
+Navier–Stokes equation on that carrier. The listed mechanisms break that same-equation participation while leaving the carrier question already passed. The ﬁrst lost surviving requirement is
+therefore PackQ ∧ ¬PartN,Q .
+Lemma 5 (Field pattern). A terminal branch with surviving carrier and participation but retained
+positive-window blowup, terminal pulse, averaged jump, good-scale failure, or incompatible surviving
+traces fails the ﬁeld requirement.
+Proof. After carrier and participation survive, membership readout needs one positive scale where
+the coherent N -level ﬁeld remains ﬁnite. Each listed mechanism removes that positive-scale readout
+while preserving the earlier requirements for the purpose of the case split. The ﬁrst lost remaining
+requirement is therefore PackQ ∧ PartN,Q ∧ ∀r > 0 ¬FieldN,r,Q .
+Proposition 11 (No hidden branch outside the patterns). Every selected branch handled in the
+forward-family analysis is a carrier branch, a participation branch, a ﬁeld branch, a ﬁnite disjunction of those three, or a support theorem awaiting a selected terminal packet.
+Proof. A selected branch either lacks a positive transported packet, keeps such a packet and loses
+the same Navier–Stokes law through the velocity tower, keeps both and loses positive-scale coherent
+ﬁeld readout, or has not yet supplied the selected packet needed for the class test. The ﬁrst three
+alternatives are Pack, Part, and Field. The last alternative is support for a later selected packet.
+There is no fourth continuation requirement in the working class object.
+
+B
+
+Proof Attempts And Failures To Prove Smoothness
+
+This appendix records the proof attempts that led into the class-membership proof. The order is
+historical and mathematical at the same time. The ﬁrst serious positive program was the four-body
+route: control the high scales, bind energy and enstrophy, use that control to build a compact exact
+object, and then recover derivative control from a fourth bridge. Later work did not replace that
+route with an unrelated list of ideas. It kept ﬁnding sharper versions of the same problem.
+A proof attempt is included here when it tried to control smoothness, remove a possible terminal
+defect, or translate a public critical signal into the native Navier–Stokes witness language. For each
+23
+
+route the useful question is plain: what did it try to pay, what calculation did it use, and where
+did the payment fail?
+
+B.1
+
+The Four-Body Circuit
+
+The source-grounded smoothness program was a four-part circuit. It was not a single estimate. It
+tried to move one packet of control around a loop:
+Scl −→ Qcl ,
+
+(Scl , Qcl ) −→ Ccl ,
+
+Ccl −→ Gcl ,
+
+Gcl −→ Scl .
+
+Here Scl is the scale-barrier body, Qcl is the energy/enstrophy body, Ccl is the compactness body,
+and Gcl is the gradient or curvature body.
+The attraction of the route is easy to see. A smoothness proof needs a way to keep the derivative
+stack ﬁnite. A scale barrier would stop energy from escaping into arbitrarily high frequencies. A
+bounded Q(t) would keep the energy/enstrophy level from feeding the cascade. Compactness would
+turn a controlled sequence into an exact Navier–Stokes object. The fourth body would upgrade
+that object back into derivative control, closing the loop.
+The circuit fails as a completed proof because none of the four bodies can carry the whole
+burden alone. The scale barrier needs a nonlinear transfer estimate. The Q(t) body needs the
+nonlinear source term to be paid. Compactness needs scale and energy control before it can produce
+a useful limit. The curvature body in the recovered source stack is geometric, so it does not by
+itself give a same-surface Euclidean or torus gradient theorem.
+The ﬁrst durable lesson is therefore this: the proof cannot be a slogan about viscosity. It has
+to say exactly how nonlinear transfer, energy/enstrophy, compactness, and gradient recovery pay
+one another without changing the problem.
+
+B.2
+
+Body I: Scale Barrier
+
+The scale-barrier attempt starts from the spectral balance
+∂t E(k, t) = T (k, t) − 2νk 2 E(k, t) + F (k, t).
+In the zero-force periodic problem the external forcing term is absent. The hope is that the viscous
+term dominates at high frequency. A typical source target is
+
+combined with a decay law
+
+T (k, t) ≤ Ck −α ,
+
+α > 2,
+
+E(k, t) ≤ Ck −β ,
+
+β > 3.
+
+That decay would be strong enough to keep the ﬁrst derivative ﬁnite because
+Z ∞
+2
+k 2 E(k, t) dk < ∞.
+∥∇u(t)∥L2 ∼
+0
+
+The calculation explains the route. If the nonlinear transfer into high frequency shells is
+genuinely smaller than viscous loss there, then the tail cannot feed an inﬁnite derivative stack.
+One can deﬁne a critical wave number by
+2
+T (kcrit , t) = 2νkcrit
+E(kcrit , t),
+
+24
+
+and then try to show that modes beyond that threshold decay fast enough to keep the gradient
+ﬁnite.
+The failure point is the transfer bound. The energy identity controls total kinetic energy and
+the time integral of ∥∇u∥2L2 . It does not give a pointwise-in-time high-frequency law of the form
+T (k, t) ≤ Ck −α . That law is already a cascade-control theorem. Once the proof asks for it, the
+route has moved the real diﬃculty into the tail.
+What survived from this attempt is the correct object: high-frequency transfer. Later notes
+rewrite the same obstruction as tail leakage, lower-preﬁx active square, lifted-band remainder, and
+scale-critical source reserve.
+
+B.3
+
+Body II: The Q(t) Monotone Functional
+
+The second body tries to use a named energy/enstrophy functional:
+Q(t) = ∥u(t)∥2L2 + ∥∇u(t)∥2L2 .
+The energy part behaves perfectly:
+1d
+∥u(t)∥2L2 + ν∥∇u(t)∥2L2 = 0.
+2 dt
+The trouble appears one derivative higher. Put
+1
+Y (t) = ∥∇u(t)∥2L2 ,
+2
+
+Z(t) = ∥∆u(t)∥2L2 .
+
+The enstrophy computation gives
+dY
++ νZ =
+dt
+
+Z
+T3
+
+(u · ∇)u · ∆u dx.
+
+Z
+
+The usual estimate is
+
+T3
+
+(u · ∇)u · ∆u dx ≤ ∥u∥L6 ∥∇u∥L3 ∥∆u∥L2 .
+
+Sobolev and interpolation give
+∥u∥L6 ≲ ∥∇u∥L2 ,
+Hence
+
+1/2
+
+Z
+
+3/2
+
+T3
+
+1/2
+
+∥∇u∥L3 ≲ ∥∇u∥L2 ∥∆u∥L2 .
+3/2
+
+(u · ∇)u · ∆u dx ≲ ∥∇u∥L2 ∥∆u∥L2 .
+
+Young’s inequality gives
+dY
+≤ Cν Y 3 .
+dt
+This is the obstruction in its most familiar form. The inequality is real, and it is useful locally.
+It does not give a global bound. The cubic term permits a ﬁnite-time ODE blow-up proﬁle. The
+source-forensic Q(t) audit says the same thing in the older notation: the clean dissipative Q(t)
+formula loses the nonlinear enstrophy/vortex-stretching source.
+Thus Q(t) is a ﬁrst-class body in the original program, and its failure is a ﬁrst-class failure. It
+does not disappear into generic energy bookkeeping. It becomes the ancestor of the source-wall
+problem: where does the nonlinear source go?
+25
+
+B.4
+
+Body III: Non-Sobolev Compactness
+
+The compactness body tries to turn scale decay and Q(t) control into an exact Navier–Stokes
+object. Its source norm has the form
+E(k)
+.
+β
+k>k0 k
+
+∥u∥Hns = ∥u∥L2 + ∥∇u∥L2 + sup
+
+With a strong enough tail bound, one can split a sequence into low and high frequencies:
+0)
+0)
+un = u(<k
++ u(>k
+.
+n
+n
+
+The low-frequency part is compact because only ﬁnitely many modes are involved. The highfrequency part is small because the tail is small:
+Z
+0) 2
+∥u(>k
+∥
+≲
+En (k, t) dk < ε.
+n
+L2
+k>k0
+
+That gives the desired strong convergence shape
+un → u
+
+in L2 (0, T ; L2 ).
+
+The calculation is useful because it tells us what compactness can actually do. It can help
+produce an exact object once the scale tail and energy/enstrophy level are already controlled. It
+can also help pass quadratic terms, provided the convergence is strong enough in the right places.
+The failure is that compactness does not create the missing tail law. It spends the scale barrier;
+it does not prove it. It also does not give the derivative stack by itself. At best it moves the proof
+to the question of what regularity the exact limit inherits. That question is the fourth body.
+
+B.5
+
+Body IV: Curvature-Based Regularity
+
+The recovered fourth body is geometric. It rewrites the equation on a Riemannian surface:
+∂t u + ∇u u = − gradg p + ν∆g u.
+The source gradient calculation has the schematic form
+∂t |∇u|2 = − Ric(g)(∇u, ∇u) + ν∆g |∇u|2 + C|∇u|3 .
+With a positive Ricci lower bound,
+Ric(g) ≥ κ > 0,
+the ﬁrst term is a damping term. One then hopes for an inequality like
+Z
+Z
+Z
+d
+2
+2
+|∇u| dVg ≤ −κ
+|∇u| dVg + C
+|∇u|3 dVg .
+dt M
+M
+M
+The failure is source ﬁdelity. The original fourth bridge is a curvature bridge, not a same-surface
+ﬂat-torus gradient theorem. On the ﬂat torus the Ricci term does not supply positive damping.
+A later Euclidean or torus replacement may be a legitimate theorem upgrade, but it has to be
+proved as an upgrade. It cannot be smuggled in as though the old geometric proof already closed
+the classical problem.
+What survived is the right kind of question: derivative control may have to be read through
+geometry, deformation, and the way viscosity acts on the moving ﬁeld. The modern route keeps
+that insight and moves it to Lagrangian deformation geometry.
+26
+
+B.6
+
+The First Full Failure Of The Circuit
+
+Putting the four bodies together gives a clean positive dream:
+tail control ⇒ Q(t) control ⇒ compact exact object ⇒ gradient recovery ⇒ tail recertiﬁcation.
+The actual proof state is weaker:
+tail control demanded
+⇒ nonlinear source demanded
+⇒ compactness depends on both
+⇒ geometric bridge changes surface
+⇒ tail recertiﬁcation still open.
+That is the ﬁrst real obstruction ﬁeld. It is where defects, tails, and remainders begin to proliferate.
+Every later branch below is a way of trying to make one part of this loop pay its bill.
+
+B.7
+
+Modernized Four-Body Packet
+
+The later route keeps the four body jobs and changes the readout. The modern packet can be
+written as
+(n)
+Pmod (T ) = (Stail , Qdrain , Cexact , Ggeo ; Elive ).
+The desired recurrence is
+(n) 
+(n+1) 
+Pmod (T ), Elive =⇒ Pmod (T + ), Elive .
+
+The live survivor is the lifted high-side remainder on the shell geometry
+N + M < k < j − 4,
+with the target estimate
+
+lift
+(t)| ≤ ενDN (t) + C∗ 2−2δN .
+|NN,grad
+
+This is a sharper target than the older four-body prose. The same survivor has three visible
+faces:
+tail leakage,
+tower ﬂux/debt,
+deformation-geometry commutator.
+The Lagrangian deformation version writes the viscous part as geometry-evolving heat:
+∂t v + A⊤ ∇a q = ν diva (G∇a v),
+
+G = AA⊤ .
+
+The failure point is the same as before, now exposed more honestly. The route has not proved
+that the live defect contracts when it is fed through the loop. It has proved that the defect can be
+tracked in better coordinates.
+
+27
+
+B.8
+
+Shell-Gain Route
+
+The shell-gain route tries to control a commutator by separating local and tail pieces:
+Cj = Cjlocal + Cjtail .
+The local piece is the part the known estimates can handle. The tail piece is where the route asks
+for a gain strong enough to sum the shell kernel. In schematic form, the desired bound is
+|Cjtail | ≤ ενDj + summable lower-order terms.
+The failure is the half-derivative deﬁcit. The known local cancellation lowers the size of the
+obstruction, but the tail still asks for a gain that the current energy and scale information do not
+supply. The route has killed the local bulk; it leaves a tail survivor.
+
+B.9
+
+Cumulative-Tail Stress And LPAS
+
+The cumulative-tail route starts from a one-sided far-corona stress. The positive collapse turns it
+into the lower-preﬁx active-square form
+Pj↓ (t) 2−j Dj (t)2 .
+This is a useful reduction. It says the obstruction is not everywhere in the ﬁeld. It lives in a
+one-sided preﬁx that feeds an active shell.
+The failure is that the lower-preﬁx active square is still scale critical. The known energy law
+can pay the total dissipation integral, but it does not decide how a one-sided lower-preﬁx history
+concentrates against the selected active shell near terminal time. The route changes the shape of
+the unpaid term. It does not make the term disappear.
+
+B.10
+
+Signed Descent
+
+The signed descent route tries to use cancellation before taking absolute values. The lifted commutator is rewritten as logarithmic scale descent, then telescoped, and only after that pushed to
+a positive residual:
+signed lifted bulk −→ boundary packet + mesoscopic residual.
+The mathematical gain is real. The bulk is no longer the live burden. The route has converted
+the bulk into edge objects that are smaller and more structured.
+The failure is that the boundary packet and mesoscopic residual still require a terminal payment.
+Once the telescoping stops, the proof still has to say why the edge packet cannot carry the missing
+source into the terminal window.
+
+B.11
+
+Volterra And Lower-Triangular Memory
+
+The Volterra route recognizes the one-sided tail as a memory operator. It then rewrites the scale
+interaction as a lower-triangular operator. The persistent mode is no longer the full preﬁx. The
+surviving quotient is ﬁnite-dimensional at the descriptive level:
+one-sided preﬁx −→ weighted quotient mode −→ (M0 , M1 ).
+
+28
+
+This route is valuable because it says that much of the apparent inﬁnite tail is bookkeeping.
+After quotienting, only a small family of moments remains visible.
+The failure is quantitative. A quotient description is not a contraction. The proof still needs a
+theorem saying that the moment pair cannot persist with the required terminal strength, or that
+its persistence forces a Pack, Part, or Field failure after CM entry.
+
+B.12
+
+Body I Lifted-Band Kernel
+
+The lifted-band route improves the raw packet by gaining a spectral-gap kernel:
+2−(j−k) .
+That kernel matters. It shows that the route has moved, and that the lifted band is not simply an
+unchanged restatement of the old tail.
+The remaining term is the lower-shell weight
+23k ∥∆k u∥22 = 2k 22k ∥∆k u∥22 .
+The second factor is the familiar gradient-scale energy. The extra 2k is the unpaid weight. The
+present Body I surface does not absorb it. This is the same four-body recurrence in a sharper form:
+Body IV exposes a lifted remainder, and Body I needs a stronger tail theorem to consume it.
+
+B.13
+
+Projected-Flow, TPS, And SG.4
+
+The projected-ﬂow sidecar and the TPS pair-defect route both try to put the defect into a parabolic
+equation. A typical projected-ﬂow energy identity has the form
+d
+ED (X) + viscous carrier dissipation + commutator-tier dissipation = N1 (X) + N2 (X).
+dt
+The TPS route deﬁnes a pair defect
+W J = KJ − K J
+and gives it a drift-diﬀusion-remainder equation.
+The attraction is that both objects look like the same source-wall in diﬀerent coordinates. The
+failure appears at the selector readout. SG.4 does not merely ask whether a normed defect is small.
+It asks for a one-sided lower envelope along selected active pairs:
+d
+(t) = sJ (a, b, t),
+log dcoarse
+ab
+dt
+
+sJ (a, b, t) ≥ λJ (t) − εJ (a, b, t).
+
+Raw defect control does not automatically give that selector-good inequality. The branch therefore
+contributes defect-language support, while the selector bridge remains a separate mathematical
+demand.
+
+B.14
+
+Source-Wall Deletion Cycle
+
+Once the Q(t) body exposed the nonlinear source, the repo repeatedly tried to delete that source.
+The pattern was stable:
+ﬁnd source pulse or reserve −→ try to charge it −→ ﬁnd a sharper survivor.
+
+29
+
+The BASAC, pure-pressure, transported-boundary, angular-saturation, quantized-parent, Zeno,
+and pressure-sustain notes belong to this family. They try to prove that a source residue cannot
+enter the terminal window without an incoming payment, a compact ancestry, a boundary ﬂux, a
+pressure charge, or a rigid Zeno class that can be exhausted.
+The family is large because each proposed payment opens its own payment question. A source
+pulse can be assigned to a parent; the parent can require an earlier parent; the ancestry can become
+terminally compressed; the pressure readout can hide in an angular channel; the transported
+boundary can be too thin; the Zeno class can carry residue without the visible ﬂux the previous
+argument wanted.
+The failure is not one missing citation. The direct positive estimate keeps ﬁnding a source bill
+that the known energy law has not paid. That is why the source-wall family eventually becomes
+useful to the CM route: a source object that cannot be paid as a same-solution continuation object
+may be evidence that the alleged terminal branch has left the class.
+
+B.15
+
+Source Reserve Birth
+
+The source-reserve direct attempt isolates the ﬁrst terminal window W where donor-reﬁll reserve
+surplus is born:
+!2
+Z X
+X
+Dℓ (t)
+dt.
+2k
+RN (W ) =
+W k>N
+
+ℓ>k+4
+
+The target charge inequality is
+
+
+RN (W ) − (1 − δ)RN (Past(W )) − Losslegal (W ) + ≤ Chargenative
+(W ) + oN (1).
+N
+The native charge must land on the same retained ledger. It can be paid by legal packing, by
+participation failure, by a licensed Field source charge, or by a terminal Zeno residue already
+sorted in the witness tree.
+The proof attempt chooses W minimally and decomposes the reserve into
+inherited past reserve + ﬁrst-created native reserve + child residual reserve + legal loss reserve.
+Minimality handles the inherited term. Installed residual and legal ledgers handle the child and
+loss terms. What remains is the ﬁrst-created native reserve:
+ﬁrst-created native reserve ≥ cη.
+The failure is exactly located. The installed ledgers do not prove that this ﬁrst-created reserve
+is automatically paid. The remaining burden is
+retained positive-scale ﬁrst-created native donor-square reserve surplus.
+Zero-radius donor ancestry already fails the carrier side. The hard case is the retained positive-scale
+reserve that still asks for payment.
+
+B.16
+
+Zero-Moment Signed Pair
+
+The zero-moment attempt sharpens the source-reserve survivor. The ﬁrst-created reserve can have
+order-one square mass while the ﬁrst signed moment vanishes:
+Rﬁrst (W ) ≥ η,
+
+Mﬁrst (W ) = 0.
+30
+
+Split the selected terminal source carrier into positive and negative packets:
+Z
+Z
+Z
+J+ =
+J− ,
+(J+ + J− ) ≃ 1.
+J = J+ − J− ,
+W
+
+W
+
+W
+
+The point is simple. Zero ﬁrst moment does not mean there is no mass. It can mean same-ledger
+signed-pair cancellation with order-one square reserve.
+Most cases are sorted. A partner on the wrong carrier fails the carrier or participation requirement. A partner that exists only through shorter and shorter windows becomes a Zeno residue.
+The remaining case is the same-ledger positive-scale pair:
+J+ and J− both survive on the same terminal ledger,
+their ﬁrst moments cancel, and their square reserve remains order one.
+The tempting proof says that one side of the pair must produce visible active height ﬂux.
+That implication is too fast. The pair can exchange through the same retained ledger while the
+ﬁrst moment cancels on every heat subwindow. The missing theorem is a same-ledger signed-pair
+no-free-sink or two-tower donor depletion theorem.
+
+B.17
+
+Public L3 , Duhamel, And Native Source
+
+The public critical route tries to translate terminal L3 concentration into the native source-wall
+language. Start with a terminal witness ledger
+W = (Owork
+NS , Q, N, r, Φ, T )
+and a critical concentration
+ℓ−2
+m
+
+Z
+|um |3 ≥ c0 > 0.
+Qm
+
+On the same ledger, write Duhamel at the terminal scale:
+Z t
+(t−t0 )ν∆
+um (t) = e
+um (t0 ) +
+e(t−s)ν∆ P ∇ · (um ⊗ um )(s) ds.
+t0
+
+The heat part should carry no new terminal critical atom unless the mass was already present
+on an earlier selected slice. The Duhamel part should identify native source residue, schematically
+loc
+|wj |2 [ej · S<j
+ej ]+ ,
+
+or a native singular source measure µsing
+∗ .
+The failure is the inverse localization step. The route needs
+terminal critical Duhamel mass =⇒ µsing
+>0
+∗
+
+or ¬sel ScaleCriticalTreeCarleson.
+
+That implication has to rule out harmless oscillatory cancellation while Pack and Part are retained.
+The current notes reduce the public L3 bridge to same-ledger heat ancestry plus Duhamel inverse
+native-source localization.
+
+31
+
+B.18
+
+Terminal Leray Saturation
+
+The terminal Leray saturation branch is another form of the same public-to-native translation.
+After anchoring and legal commutator removal, the retained source work is reduced to
+Z
+loc
+− (wj ⊗ w
+ej ) : ∇S<j
+u.
+The desired native edge is the saturated square
+Z
+Z
+loc
+loc
+− (wj ⊗ wj ) : ∇S<j
+u = ⟨S<j
+wj , wj ⟩.
+Write
+w
+ej = wj + δj .
+Z
+
+The defect term is
+−
+
+loc
+(wj ⊗ δj ) : ∇S<j
+u.
+
+Oﬀ-family, cutoﬀ, pressure, projection, high-high, and donor-reﬁll cases are sorted into legal
+leakage or selected source-wall failure. The remaining case is a retained same-family signed partner
+defect with ﬁxed terminal work and no independent legal charge. This is the same no-free signedpartner problem in another public-critical language.
+
+B.19
+
+What The Failed Attempts Have In Common
+
+The failed positive routes do not fail in random ways. They repeatedly perform the same four
+moves:
+remove local pieces
+−→ isolate edge or collar packets
+−→ convert the remainder to one-sided memory
+−→ read a positive or weighted survivor.
+At the structural level the recurrence is
+E (n+1) = R(E (n) ),
+where R is a descriptive reduction, not yet a proved contraction.
+The recurring survivors are:
+• half-derivative deﬁcit;
+• lower-preﬁx active square;
+• boundary packet and mesoscopic residual;
+• weighted quotient mode and aﬃne moment pair;
+• lower-shell weight;
+• same-ledger signed-pair reserve.
+They are not proof conclusions. They are the exact places where the direct smoothness proof keeps
+stopping.
+32
+
+B.20
+
+How The CM Route Uses This History
+
+The class-membership route does not pretend that the positive attempts closed. It uses their
+failures in a diﬀerent proof role. Given an obstruction O produced by the positive program, split
+it into
+Opass
+and
+Ofail .
+The pass branch keeps the same solution on the continuation side:
+Opass =⇒ PackQ ∧ PartN,Q ∧ FieldN,r,Q =⇒ Member(Q; Owork
+NS ).
+The failure branch has to do real work:
+Ofail =⇒ CM-test-admissible terminal obstruction =⇒ ¬PackQ ∨ ¬PartN,Q ∨ ∀r > 0 ¬FieldN,r,Q .
+Only after that ﬁrst face failure is derived does the class-exit conclusion apply:
+work
+Exit(Q; Owork
+NS ) := ¬Member(Q; ONS ).
+
+This is the reason for placing the failed proof attempts in the paper. They show where the
+ordinary forward proof hits the wall. They also identify the objects that a terminal breakdown
+claim would have to carry. Once those objects are admitted to the same-ﬂuid terminal test, they
+either remain on the smooth branch or lose Pack, Part, or Field.
+
+B.21
+
+Coverage Ledger For This Appendix
+
+The current coverage map counts 2425 text or checkable Navier–Stokes ﬁles. The non-Euler face
+sweep accounts for 1944 row-level surfaces, with 71 Euler or ﬁxed-ν exclusions kept out of this
+paper. The forward-positive quarantine accounts for 1853 support, readout, supplier, transfer,
+export, or positive-smoothness rows.
+The remaining current-material families are represented here as follows:
+Family
+BASAC, pressure, Zeno, source
+residue
+
+late L3 /Duhamel translator
+notes
+late CM direction and
+same-ledger notes
+CM class-law and adversarial
+audits
+local energy and elliptic
+formalization support
+Euler mirror exclusions
+proof-irrelevant build and
+provenance surfaces
+submission representation
+standard
+current theorem-creation
+candidates
+
+Representation in this appendix
+source-wall deletion cycle; source ancestry, pressure
+sustain, transported boundary, angular saturation,
+and Zeno residue as failed payments or witness
+candidates
+public critical concentration translated through heat
+ancestry and native Duhamel source localization
+CM-test admission, same-ledger terminal object,
+Pack-ﬁrst exhaustion, and pass/fail branch law
+pass-or-exit engine and no in-class nonsmooth third
+branch
+support under source-wall, pressure, Zeno, and local
+trace attempts
+comparison material kept outside the periodic
+Navier–Stokes proof spine
+source-forensic and build context kept out of proof
+prose
+the rule that broad source coverage must compress
+into mathematical proof roles
+candidate support unless a later audit lands them in
+Pack, Part, Field, membership readout, terminal
+packet capture, or CM entry/exhaustion/embedding
+33
+
+Thus the appendix gives the mathematical families behind the audit rows, shows the main
+derivations, names the failure point, and records the proof role that survived into the classmembership argument.
+
+34
+
+

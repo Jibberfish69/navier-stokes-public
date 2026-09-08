@@ -36,7 +36,7 @@ T_{j\leftarrow \ell}^{PLS}+T_{\ell\leftarrow j}^{PLS}=0.
 ```
 
 The transfers here are not free fuel.  They are the pressure constraint,
-material coefficient motion, Hodge/Stokes motion, collar motion, annular
+material coefficient motion, Helmholtz--Leray/Stokes motion, collar motion, annular
 Cauchy stress work, strain, and viscosity read on the same material packet.
 
 ## Candidate: decreasing organization potential
@@ -134,7 +134,7 @@ Therefore \(\mathscr A_N\) must be a genuinely coupled PLS object:
 +X_{PLS,N},
 ```
 
-where \(X_{PLS,N}\) is a same-packet pressure/strain/coefficient/Hodge/collar
+where \(X_{PLS,N}\) is a same-packet pressure/strain/coefficient/Helmholtz--Leray/collar
 cross-storage and is controlled by the positive organization part:
 
 ```math
@@ -153,5 +153,5 @@ dR_N^{legal}.
 
 So the remaining construction is not a scalar frequency reservoir.  It is a
 bounded-below full PLS symmetrizer whose cross-terms turn the pressure,
-material-coefficient, Hodge/collar, annular stress-work, strain, and viscous
+material-coefficient, Helmholtz--Leray/collar, annular stress-work, strain, and viscous
 channels into one coercive organization drop.

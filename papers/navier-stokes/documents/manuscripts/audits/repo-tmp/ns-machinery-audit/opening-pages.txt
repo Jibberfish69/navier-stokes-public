@@ -1,0 +1,1724 @@
+Three-Dimensional Navier–Stokes: Silver CM-Exit Route and
+                    Gold Counterpart
+                       Thomas Birnie
+
+                       June 17, 2026
+
+
+
+
+                             i
+                                          Abstract
+    This manuscript states the Silver CM-exit proof for three-dimensional incompressible Navier–
+Stokes. Start from a smooth divergence-free datum and the original classical solution (u, p)
+on a maximal interval [0, T∗ ). An alleged finite-time Clay breakdown must select a terminal
+record Q for that same branch. The CM test asks whether Q remains a member of the working
+Navier–Stokes class, where class membership is the same pressure-viscosity-incompressibility
+participation law together with one coherent positive-scale field readout.
+    The Silver route is the contrapositive branch. After the same-solution terminal record
+is admitted, a retained participation-field packet lies on the member/continuation side. A
+nonsmooth terminal record must lose the first available face in Pack-out-of-CM audited order:
+outside-CM field-window evidence after original-participation testing, failure of PartN,Q , or
+retained participation with ∀r > 0 ¬FieldN,r,Q . That first Part or Field failure gives
+
+                            Exit(Q; Owork                work
+                                     NS ) := ¬Member(Q; ONS ).
+
+The same record cannot be both a continuation-complete member packet and the finite nonsmooth
+obstruction for the original branch.
+    The Gold route remains active as the forward-positive counterpart: its current open theorem
+is the noncircular same-parent coupled active-capacity/full- exchange storage object at the Gold
+L1 source wall. The original parent packet and coupling come first; shell sums, native-reserve
+displays, and selected-density ledgers are only typed readouts of that parent object. That work
+is CM-bearing because it concerns the same participation law, but it is not a hidden condition
+on the Silver CM-exit proof stated here.
+
+
+
+
+                                               ii
+Contents
+
+1       Introduction                                                                                     1
+1.1      Classical Navier–Stokes Problem and Continuation Criterion                                      1
+1.2       Methods                                                                                        1
+      1.2.1    Proof program overview summary + explanation . . . . . . . . . . . . . . . . .            1
+      1.2.2    Repository structure and terminology (trunk, branch, leaf) . . . . . . . . . . . .        1
+
+
+2       Proof program ((demonstrated and explained with example)(full top-
+        level reasoning and train-of-thought)(reader facing walkthrough))                                2
+2.1      Silver Standard (class membership and contrapositive proof )                                    2
+2.2       Gold Counterpart (forward-positive proof )                                                     2
+      2.2.1     Public mainstream attempts (common-place revisiting of known routes) . . .               2
+      2.2.2     Our Original attempt: four body method (trying to handle everything at once)             2
+      2.2.3     Still Bootstrapping estimates and narrowing the ∗ (by example (aka “the never
+                ending chase”)) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    3
+      2.2.4     Realizations, Insights, and Final Obstructions to the gold standard route . . .          3
+2.3       Silver Witness Details                                                                         4
+      2.3.1      Handling gold standard obstructions . . . . . . . . . . . . . . . . . . . . . . .       4
+      2.3.2      Class Membership . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .    4
+      2.3.3      Smoothness Certification Window and Witnesses . . . . . . . . . . . . . . . .           6
+      2.3.4      Silver-standard CM completeness (No Hidden Third Terminal Alternative:
+                 (proves the classification is exhaustive: after the pass case and the Part/Field
+                 failures, there is no extra terminal object that escapes the argument.)) . . . .        7
+
+
+3       Main Theorem and Proof (“the entire NS repo” / the “show your work”
+        portion)                                                                                         7
+3.1      Claim (overview and results upfront in main theorem)                                            7
+3.2      T3                                                                                              8
+3.3      R3                                                                                              8
+
+
+4       Same-Law Participation and One-Field Coherence                                                   9
+
+
+5       The Packet Witness                                                                              9
+
+
+6       Packet Failure                                                                                  10
+
+
+7       Velocity Failure Mechanisms                                                                     11
+
+                                                     iii
+7.1     Dead                                                11
+7.2     Jump                                                11
+7.3     Blown                                               11
+
+
+8      The Contrapositive Test                              12
+
+
+9      Reading the Witness Table                            13
+
+
+10     From Witness Faces to Class Exit                     13
+10.1    Annular residual specialization                     15
+
+
+11     The Clay-Facing Completion Claim                     17
+
+
+12     How Forward Branches Enter the Proof                 19
+12.1    Source Reserve And Donor Refill                     20
+12.2    BASAC, Pressure, And Rigid Residue                  21
+12.3    Zeno And Terminal Atoms                             21
+12.4    Retained Amplitude, Low Strain, And Height Flux     22
+12.5    Signed Current And No-Free-Sink                     22
+12.6    Endpoint, No-Pulse, And Good-Scale Readout          23
+
+
+13     How Branch Families Pay the CM Proof                 23
+
+
+14     Direct Closure and the Four-Body Diagnostic          25
+14.1    Current Gold Counterpart Boundary                   25
+
+
+15     Energy, Enstrophy, and Source Reserves               27
+15.1    Endpoint Reserve Currency on the Selected Carrier   27
+
+
+16     Scale Barriers and High-Frequency Tails              30
+16.1    Factorial Radius Spend and Same-Carrier Reserve     30
+
+
+17     Compactness and Exact-Object Capture                 35
+
+
+                                               iv
+18     Derivative Recovery on the Same Surface       37
+
+
+19     Lower-Prefix and Upper-Tail Survivors         38
+
+
+20     Kernelized Lifted-Band Branch                 42
+
+
+21     Shell Gain and Half-Derivative Branch         43
+
+
+22     The Class-Membership Exit Method              44
+22.1    The endpoint point and the annular witness   45
+22.2    Periodic and whole-space payments            46
+22.3    The pass-or-exit conclusion                  47
+
+
+23     Which Branches Still Matter                   47
+
+
+24     The Auxiliary Estimate Boundary               48
+
+
+25     Comparison and Transfer Boundary              49
+
+
+26     The Whole-Space R3 Exterior-Source Branch     50
+
+
+27     Branch Coverage in the Main Proof             52
+
+
+28     Closing Hinges                                53
+
+
+29     The Same-Solution CM Proof                    53
+
+
+30     How Auxiliary Estimates Enter                 55
+
+
+A      How to Read the Appendices                    57
+
+
+B      Branch-to-Face Derivation Patterns            57
+
+
+C      Selected-Packet Euler Boundary Theorem        58
+
+
+
+                                               v
+D   Direct Routes That Did Not Close        60
+
+
+E   Source-Field Reader Appendix           112
+
+
+F   Expanded CM Branch Obligations         1656
+
+
+G   Expanded Forward-Support Obligations   1658
+
+
+H   Expanded Branch-Family Obligations     1661
+
+
+
+
+                                   vi
+1     Introduction
+1.1     Classical Navier–Stokes Problem and Continuation Criterion
+The classical Navier–Stokes problem asks whether a smooth divergence-free velocity field can lose
+smoothness in finite time under the three-dimensional incompressible Navier–Stokes evolution. The
+unknowns are the velocity u(x, t) and pressure p(x, t). On the torus T3 , and on the whole space R3
+with smooth rapidly decaying data, they solve
+
+                    ∂t u + (u · ∇)u + ∇p = ν∆u,         ∇ · u = 0,     u(·, 0) = u0 ,
+
+with fixed viscosity ν > 0 and no forcing. The datum u0 is smooth and divergence-free. The pressure
+is tied to u by incompressibility; it is the pressure generated by the same velocity field, not a free
+variable.
+     A finite-time counterexample is a claim about one branch of this equation. It starts from u0 ,
+follows the classical Navier–Stokes solution on a maximal interval [0, T∗ ), and says that the H s ,
+s > 5/2, continuation readout needed for local relaunch across T∗ fails at T∗ < ∞. This manuscript
+keeps that branch fixed. The velocity, pressure, viscosity, pressure law, incompressibility constraint,
+initial data, domain, and preterminal smooth solution all remain attached to the terminal object
+being tested.
+
+1.2     Methods
+1.2.1    Proof program overview summary + explanation
+The paper follows the Silver Standard first. The object is an alleged finite terminal record selected
+from the same original Navier–Stokes branch. Class membership means the same pressure-viscosity-
+incompressibility participation law and one coherent positive-scale field readout. The proof tests
+whether the record remains a member or exits through the first Part/Field failure.
+    The Gold Standard remains as the forward-positive counterpart through the same transported
+material history. It tries to prove the continuation-strength full material clock directly. That clock
+is CM-bearing because it pays the same participation law, but the open Gold estimate is not a
+condition on the Silver exit proof.
+    The reader-facing route is:
+
+            full same-material participation clock −→ terminal anti-atom
+                                                      −→ bounded material record
+                                                      −→ fixed H s , s > 5/2, continuation
+                                                      −→ restart past T∗ .
+
+That displayed route is not a substitute for the proof. It is the map that tells the reader why the
+later branch material is sorted the way it is.
+
+1.2.2    Repository structure and terminology (trunk, branch, leaf )
+The words “trunk”, “branch”, and “leaf” are used as proof-organization words. The trunk is the
+governing proof route. A branch is a major proof family, case family, or route family. A leaf is a
+local obligation where a branch has to prove, reduce, certify, or exit.
+    The manuscript translation is direct. The trunk becomes the section-level proof program.
+Branches become the main theorem subdivisions, principally the T3 and R3 branches and the support
+
+                                                  1
+appendices that feed them. Leaves become theorem, proposition, lemma, definition, calculation, or
+proof blocks only after the paper has translated their repo-native names into reader-facing titles
+and explained their proof role.
+    This distinction matters. Repo-native surface names, route handles, branch labels, and leaf
+abbreviations are authoring coordinates. They do not become formal cross-reference environments
+by themselves. A repo surface enters the paper only when the manuscript says what mathematical
+object it controls, where it belongs in the proof route, and whether it pays a continuation readout,
+selects a same-solution terminal object, proves a Part/Field failure, or remains support.
+
+
+2 Proof program ((demonstrated and explained with example)(full
+top-level reasoning and train-of-thought)(reader facing walkthrough))
+This section walks the reader through the proof program before the full branch inventory begins. It
+begins with the Silver Standard because the proof object is an alleged finite terminal record from
+the same Navier–Stokes solution. Gold remains beside it as the forward-positive counterpart for the
+same participation law.
+
+2.1     Silver Standard (class membership and contrapositive proof )
+The Silver Standard is the class-membership proof. Class membership means the same pressure-
+viscosity-incompressibility participation law together with one coherent positive-scale field readout.
+An alleged finite-time breakdown must select a terminal record Q for the same branch. After that
+admission, a retained Part/Field packet is the member-continuation side, while the first Part or
+Field failure gives
+                               Exit(Q; Owork                     work
+                                         NS ) := ¬Member(Q; ONS ).
+
+This is the fail side of the proof, not a demand for a separate positive no-exit theorem.
+
+2.2     Gold Counterpart (forward-positive proof )
+The Gold Standard is the forward-positive counterpart. Its current open theorem is the signed
+critical-height sign-persistence / peak-height object at the Gold L1 source wall. The original parent
+packet and coupling come first; shell sums, native-reserve displays, and selected-density ledgers are
+only typed readouts of that parent object. This bears on the same participation law, but it is not a
+hidden condition on the Silver class-exit proof.
+
+2.2.1    Public mainstream attempts (common-place revisiting of known routes)
+The public mainstream attempts are the familiar roads: energy, enstrophy, higher Sobolev estimates,
+pressure control, compactness, local regularity, and scale analysis. The paper revisits those roads so
+the reader sees that the classical approach is not skipped. It is followed until the remaining terminal
+obstruction has a clear shape.
+
+2.2.2    Our Original attempt: four body method (trying to handle everything at once)
+The original attempt was the four body method. It tried to handle everything at once: source,
+carrier, pressure, and readout. Its burden is four simultaneous forward-positive inputs on the same
+Navier–Stokes object. The method was useful because it exposed the dependencies. It was not
+
+
+
+                                                  2
+the final shape because trying to pay every dependency at once can hide which object the proof is
+actually testing.
+
+2.2.3 Still Bootstrapping estimates and narrowing the ∗ (by example (aka “the never
+ending chase”))
+The never ending chase begins with a real estimate. The energy identity gives
+                                  1d
+                                       ∥u(t)∥2L2 + ν∥∇u(t)∥2L2 = 0.
+                                  2 dt
+This controls kinetic energy and the time-integrated enstrophy. Smooth continuation in three
+dimensions also needs pointwise high-regularity control.
+   The next rung is the enstrophy calculation. With
+                                               1
+                                        Y (t) = ∥∇u(t)∥2L2 ,
+                                               2
+the nonlinear term produces the source
+                                         Z
+                                             (u · ∇)u · ∆u dx.
+
+For smooth divergence-free u, Hölder, Sobolev, interpolation, and Young’s inequality give
+                        Z
+                                               ν
+                           (u · ∇)u · ∆u dx ≤ ∥∆u∥2L2 + Cν −3 ∥∇u∥6L2 .
+                                               2
+
+Substituting it into the enstrophy identity gives
+
+                                          Y ′ (t) ≤ Cν Y (t)3 .
+
+That inequality gives local control, while the comparison equation can still blow up in finite time.
+Restarting the estimate closer to T∗ narrows the question, but it does not cross the terminal time
+by itself.
+    This is the never ending chase. Each forward estimate narrows the possible failure. The
+remaining failure is then refined into a smaller object, a smaller window, a smaller carrier, or a more
+delicate readout. The Gold Standard keeps pursuing those refinements until the proof can name
+what the preceding estimates require the obstruction to be.
+
+2.2.4   Realizations, Insights, and Final Obstructions to the gold standard route
+The realization is that the forward route can begin to run in the wrong order. It can spend effort on
+imagined failures that might not even be possible before it has proved that those failures are lawful
+same-solution terminal objects. The proof should not keep making up terminal-looking scenarios
+and then trying to estimate them away one by one. It has to ask first whether a nonsmooth scenario
+can even be the terminal object of the same Navier–Stokes solution.
+    The active Gold route tries to fix that order. It does not want to chase a detached terminal
+source pulse. It reads every heat-scale window as a sample of one transported material history and
+tries to charge the whole participation-law–strain transaction.
+    The closing assembly has four parts. First, the moving material Hodge projector removes pressure
+as a top-order dynamic variable. Second, the Schur complement pays only the normal pressure/collar
+
+                                                    3
+defect, while tangent pressure motion is projector and metric motion. Third, coefficient and base-
+collar motion reduce to strain/frame service. Fourth, the primitive low-high driver is read on
+the complete retained frame: velocity polarization, wave covector, and annular/collar normal.
+Since tr S = 0, positive pump in one direction is compression in the transverse frame, and those
+compression records are already part of the same full same-material action.
+    The forward target is signed-height sign persistence or peak-height control before any finite full
+same-material action readout:             Z    T∗
+                                                    dΩfNull < ∞.
+                                           0
+When that coupled theorem is proved noncircularly, the terminal tail of a finite positive measure
+vanishes, the last-time endpoint atom vanishes, the material record remains bounded, and the fixed
+H s , s > 5/2, continuation theorem restarts the same solution past T∗ .
+
+2.3     Silver Witness Details
+The Silver Standard is the class membership and contrapositive proof. It does not start by trying to
+estimate away every imagined failure. It asks what a real finite-time breakdown claim has to supply.
+
+2.3.1    Handling gold standard obstructions
+The Silver Standard handles the terminal-object grammar exposed by the Gold Standard. It keeps
+the same solution fixed and tests any selected terminal record against the requirements already
+present in the classical problem.
+
+Splitting Obstructions: smooth and non-smooth scenarios (example continued). Every
+obstruction splits into smooth and non-smooth scenarios. The smooth scenario belongs to the
+continuation side. The non-smooth scenario has to enter the class-membership test as a same-solution
+terminal object.
+
+Finite-Time Breakdown as a Same-Solution Terminal-Object Claim ((explaining T∗ )).
+A finite-time breakdown claim at T∗ has to identify the terminal object of the same solution
+generated by the same initial data. The terminal time is not enough by itself. The proof needs the
+terminal record Q that is being offered as the reason the same solution cannot continue. This is the
+reader-facing form of the terminal-record bridge: T∗ is not a free floating bad time; it is a claim
+that the same preterminal branch has a terminal object.
+
+Class membership exit (the idea Explained): handling all non-smooth scenarios (“giving
+exhaustive contrapositive”). The non-smooth side is handled by class membership exit. Once Q
+is admitted as the same-solution terminal object under test, the proof asks whether Q can remain a
+member of the working Navier–Stokes class. If the first failed face is Part or Field, then
+                                     Exit(Q) := ¬Member(Q).
+That is the exhaustive contrapositive: every admitted non-smooth terminal scenario must either
+pass as the continuation/member side or exit through the first failed witness.
+
+2.3.2    Class Membership
+Class Membership defines what the alleged terminal object must carry in order to be a terminal
+record of the same Navier–Stokes solution.
+
+                                                       4
+Conceptual Genesis (“If NS fluid is assumed Smooth, then everything in the problem
+statement must guarantee the smoothness”)(re-examining the classic NS problem
+statement). The conceptual genesis is a rereading of the classical problem statement. If the
+Navier–Stokes fluid is assumed smooth, then everything in the problem statement has to support
+that smoothness: the initial conditions, pressure, viscosity, incompressibility, continuation criterion,
+and domain language.
+
+NS one-fluid-object (constraints by problem definition). The one-fluid-object reading says
+that the solution is one fluid object. A terminal scenario cannot detach itself from the same pressure,
+same viscosity, same incompressibility, same initial data, and same domain.
+
+   Participation law (breakdown: viscosity + pressure + incompressibility).
+    Participation means that the terminal object still participates in the same Navier–Stokes law:
+
+                         Dt u + ∇p = ν∆u,         ∇ · u = 0,        Dt = ∂t + u · ∇.
+
+    Viscosity, pressure, and incompressibility are not separate decorations. They are the law of the
+    one fluid object.
+
+   velocity tower representation.
+    The velocity tower representation records the differentiated readings
+
+                                 Uk := ∇k u,      Kk := −∇k+1 p + ν∆Uk ,
+
+    and the differentiated law
+
+                           Dt Uk = Kk + Bk (u, ∇u, . . . , ∇k u),      0 ≤ k ≤ N.
+
+    This tower is the original Navier–Stokes law read at higher derivative depth.
+
+   Failure types (reclassified from 5.1.4): Dead, Jump, Blown, Euler by comparison.
+    The failure types are reclassified only after the Part/Field test is in place. Dead is the Part-side
+    loss of same-object dynamics. Jump is the Field-side loss of one coherent field. Blown is routed
+    by the first Part/Field it destroys: carrier loss is Pack, same-law tower loss is Part, and retained
+    positive-window unbounded field after Pack and Part survive is Field. Euler by comparison is
+    a boundary reading against the fixed-viscosity Navier–Stokes class; it helps only after a fixed-ν
+    transfer or a same-solution Part/Field landing has been written.
+
+   Insights (viscosity reimagined as a tether, think honey pulling itself out of a con-
+    tainer).
+    Viscosity is reimagined as a tether. Think of honey pulling itself out of a container. A local
+    piece cannot become a private terminal event without tugging on the whole connected field.
+    This is why participation and one-field coherence are proof requirements.
+
+   One-field coherence law (by time-dependent consequence of participation).
+    One-field coherence is the time-dependent consequence of participation. The whole field
+    responds. The paper rejects a picture where a terminal fragment breaks off while the rest of
+    the same fluid waits for a delayed transfer.
+
+   instant whole-field fluid reaction (versus delayed energy transfer calculation
+    (SHOWN)).
+
+                                                   5
+    The instant whole-field fluid reaction is the pressure-viscosity-incompressible response of the
+    same field. A delayed energy transfer calculation can show a channel of motion, but it cannot
+    replace the one-field reaction required by the problem statement.
+
+   Viscous whole-field drained by T∗ proof.
+    The T∗ proof has to show that the viscous whole-field response has already acted by the alleged
+    terminal time. A terminal object that still claims to be the same solution has to carry the
+    consequence of that response.
+
+   Initial conditions.
+    The initial conditions anchor the same-solution identity. A terminal record belongs to this
+    proof only while it remains tied to the smooth divergence-free datum u0 .
+
+   Ontology on T3 versus R3 (how that makes the problem language different).
+    The torus and whole-space settings make the language different. On T3 , the fluid has a closed
+    periodic ontology. On R3 , exterior tails, decay, far-field source bookkeeping, and export from
+    compact-core control become part of the object language.
+
+2.3.3   Smoothness Certification Window and Witnesses
+The smoothness certification window is where the alleged terminal object is tested. The witnesses
+are Part and Field.
+
+Pack (explained by smoothness requirements). Pack asks whether the alleged terminal object
+is packaged as something the smoothness requirements can test. A point, trace, source label, or
+diagnostic quantity is not enough by itself. The proof needs a positive same-fluid carrier.
+
+Part Face (explained by participation law). Part Face asks whether that object still participates
+in the same pressure, viscosity, and incompressibility law. A body that no longer carries the same
+Navier–Stokes dynamics exits here.
+
+Field Face (direct consequence of time-dependent participation law, whole field re-
+sponds). Field Face is the one-field coherence test. Once Pack and Part survive, the proof asks
+whether the readings still form one coherent positive-scale velocity field.
+
+Assembly. The assembly step ties the witnesses to class exit. Part/Field Failure Gives
+
+                                     Exit(Q) := ¬Member(Q).
+
+The logic table reductions say that every admitted terminal object is either on the pass side or on
+the first-failed-face side. A retained Part/Field packet belongs to the member continuation side. A
+first failed face belongs to exit.
+
+Closure/completeness arguments. The closure arguments prove that the witness system covers
+the non-smooth side. Part and Field are closed by Class Membership in the “NS one-fluid object”
+definition, because participation and one-field coherence are already part of what it means to remain
+the same Navier–Stokes fluid object.
+    Pack leaves a semantic gap. A zero-radius terminal obstruction or a source/readout object may
+look like a terminal record before it supplies a positive same-fluid carrier. Zero-radius terminal
+
+
+                                                 6
+obstructions have to be handled as object claims; a radius-zero point is not the whole terminal object.
+Source and readout have different jobs. Source describes how activity is produced or transported.
+Readout is the continuation-facing regularity information needed to restart the solution. Handling
+a source/readout candidate through Part and Field can certify Pack only when it ties the candidate
+back to the same fluid. Witness completeness says that every admitted non-smooth terminal object
+is covered by Part or Field.
+
+2.3.4 Silver-standard CM completeness (No Hidden Third Terminal Alternative:
+(proves the classification is exhaustive: after the pass case and the Part/Field failures,
+there is no extra terminal object that escapes the argument.))
+Silver-standard CM completeness proves that the classification is exhaustive. After the pass case
+and the Part/Field failures, there is no extra terminal object that escapes the argument. A claimed
+third alternative has to say what the same-solution terminal object is, which class-membership data
+it keeps, and which class-membership data it loses. Once it answers those questions, it has already
+returned to the pass side or to the first-failed-face side.
+
+
+3 Main Theorem and Proof (“the entire NS repo” / the “show your
+work” portion)
+This is where the repo_app material is placed. The opening sections explain the proof program.
+This section is the show-your-work portion: the claim comes first, then the T3 branch material, then
+the R3 branch material, with support and comparison material kept in the appendices when it is
+not itself a main-branch proof payment.
+
+3.1    Claim (overview and results upfront in main theorem)
+The main theorem-facing claim states the Silver route upfront. A finite-time breakdown claim for
+the same Navier–Stokes solution has to select a terminal record Q for that branch. The proof then
+tests that record against class membership, meaning the same participation law and one coherent
+positive-scale field readout.
+Theorem 1 (Silver CM-exit classification of an admitted terminal witness). Let u0 be smooth and
+divergence-free, and let (u, p) be the classical Navier–Stokes solution generated by u0 on its maximal
+interval [0, T∗ ). Suppose an alleged finite terminal breakdown selects a same-solution terminal record
+Q. At a continuation depth Ns , either carrier-window support admits the record to the same-solution
+test and the record retains the participation-field packet needed for membership, or the admitted
+record loses the first available participation-field face:
+
+                            ¬PartNs ,Q ,   PartNs ,Q ∧ ∀r > 0 ¬FieldNs ,r,Q .
+
+In the failed-face cases,
+                                Exit(Q; Owork                work
+                                         NS ) := ¬Member(Q; ONS ).
+
+One selected record cannot be both a continuation-complete member record and the finite nonsmooth
+obstruction for the same original branch.
+    The Gold forward-positive counterpart is the coupled same-parent active-capacity/full-exchange
+storage theorem at the L1 source wall. It is CM-bearing because it concerns the same participation
+law directly, but it is not the condition that gives Silver proof force.
+
+                                                  7
+3.2   T3
+The torus part of the show-your-work proof carries all branches and leaves for the periodic setting.
+This is where the closed-domain object, whole-field reaction, pressure law, viscosity tether, and
+class-membership witnesses are checked branch by branch.
+    The branch placement rule is:
+
+   All branches and leaves.
+    Every torus branch and leaf from the repo_app belongs here when its object is periodic,
+    same-solution, and proof-bearing for the main T3 argument.
+
+   Forward-positive leaves.
+    Gold-side torus material is placed here when it supplies a continuation readout or exposes the
+    exact obstruction that later enters the Silver test.
+
+   Same-solution terminal-record leaves.
+    Leaves that identify the terminal object of the periodic branch are placed before the witness
+    conclusion they support.
+
+   Witness-face leaves.
+   Part and Field leaves are placed at the point where the first failed face is derived on the selected
+   periodic record.
+
+3.3   R3
+The whole-space part of the show-your-work proof carries the branches and leaves where decay,
+exterior source, far-field behavior, and whole-space ontology change the language of the problem.
+   The branch placement rule is:
+
+   All branches and leaves.
+    Every whole-space branch and leaf from the repo_app belongs here when its object is genuinely
+    R3 , not a periodic result, comparison result, or exported support statement wearing whole-space
+    language.
+
+   Exterior and tail leaves.
+    Decay, tightness, exterior source, and tail-control material is placed here when it acts on the
+    original whole-space branch.
+
+   Same-solution terminal-record leaves.
+    Whole-space survivors enter the main proof only after the paper identifies the same-solution
+    record that carries them.
+
+   Witness-face leaves.
+   The final whole-space placement is the same Part/Field test, with the domain language changed
+   by decay, exterior tails, and far-field bookkeeping.
+
+   The detailed proof machinery begins below with the same-law participation and one-field
+coherence tests that the opening has just set up. Later branch sections and appendices are read as
+downstream proof payments under this map, not as a second competing outline.
+
+
+
+
+                                                  8
+4    Same-Law Participation and One-Field Coherence
+The CM test is read on one witness record:
+
+                                   W = (u0 , ν, u, p, Q, N, r, Φ, T∗ ).
+
+The entries say what the proof is allowed to hold fixed. The datum u0 , viscosity ν, and velocity-
+pressure pair (u, p) identify the original branch. The object Q is the selected terminal record. The
+integer N is the derivative depth used by the test. The scale r > 0 is the positive field scale. The
+carrier Φ is transported by the same velocity field, and T∗ is the alleged finite terminal time. Part
+and Field are all read on this record.
+
+Definition 1 (Witness record). A witness record is one terminal data record
+
+                                   W = (u0 , ν, u, p, Q, N, r, Φ, T∗ ),
+
+where (u, p) is the preterminal solution generated by u0 , ν is the fixed viscosity, Q is the selected
+terminal object, and Φ is the transported carrier attached to the same branch.
+
+Definition 2 (Participation witness law). The statement PartN,Q means that Q carries the same
+pressure-viscosity-incompressibility participation law through tower depth N . On the packet and
+time window under test,
+
+                  Dt Uk = Kk + Bk ,        Kk = −∇k+1 p + ν∆Uk ,          0 ≤ k ≤ N,
+
+and every term is read from the same branch (u, p) and the same transported carrier Φ.
+
+Definition 3 (One-field witness law). The statement FieldN,r,Q means that, after the carrier and
+participation law have been fixed, one positive scale r > 0 carries coherent field data through depth
+N . In this manuscript the concrete predicate is the finite-difference bound
+                        N
+                        X |Uk (x + h, t) − Uk (x, t)| + |Kk (x + h, t) − Kk (x, t)|
+                  sup                                                                 <∞
+               x,x+h∈Qt k=0                             |h|
+                0<|h|≤r
+
+on the time slices being tested.
+    This finite-depth field law is not by itself a terminal SCFbase -good-radius theorem. Any later use
+that turns FieldN,r,Q into a positive same-tail SCFbase cover must either prove, or explicitly assume,
+the corresponding same-tail small-scale modulus for the SCFbase packet.
+
+    The order of the carrier admission and the two CM faces is part of the proof. Pack asks whether
+the same-fluid body is present. Part asks whether the same Navier–Stokes law acts on that body.
+Field asks whether the readings produced by that law fit into one positive-scale field. A terminal
+branch is charged to the first Part/Field it loses after carrier admission or outside-CM field-window
+routing. This keeps the paper from calling a raw endpoint, a diagnostic trace, or a singular-looking
+quantity an exit before it has been tested as a same-solution record.
+
+
+5    The Packet Witness
+Pack is the carrier-admission test before the Part/Field CM test. The proof first asks whether the
+alleged terminal record is carried by the same fluid. A point, number, source label, or diagnostic
+
+                                                    9
+trace may identify where trouble is visible. The participation-field test needs the positive body on
+which the Navier–Stokes law and the field readings can be evaluated.
+    Let Q be the selected terminal record, and let Qt be its time slice. The material carrier is read
+through the Lagrangian map
+                          Φt : AQ (t) → Qt ,          AQ (t) = {a : Φ(a, t) ∈ Qt },
+with deformation tensor
+                                           F (a, t) = ∇a Φ(a, t).
+The Pack gauge on Q is
+                          Γpack,Q (t) :=    sup max{|F (a, t)|, |F (a, t)−1 |}.
+                                           a∈AQ (t)
+
+It measures whether the selected record is still being carried by one finite, positive same-fluid packet.
+Definition 4 (Packet witness law). PackQ means that Q has a positive same-fluid carrier. On
+each time slice being tested, Φt restricts to one transported C 1 carrier on AQ (t), the incompressible
+Jacobian condition det F = 1 holds there, the Pack gauge Γpack,Q (t) is finite, and the terminal region
+has a positive finite-overlap carrier scale.
+    This definition keeps the packet question tied to the original solution. The same u moves Φ.
+The same incompressibility condition supplies the volume law. The same positive carrier scale lets
+the proof pass from a terminal location to a terminal object.
+    The periodic branch pays Pack by selecting the whole transported material atlas Qatlas . The
+atlas fixes the carrier before any local obstruction is read. The whole-space branch pays Pack by
+giving the surviving exterior source a same-solution material address after the initial heat tail and
+the fixed compact-core far-field contribution have been removed.
+    A terminal source, pressure pulse, donor history, or zero-radius residue becomes a Pack landing
+only after it supplies this positive carrier. A record with that carrier moves to Part. A record with
+no such carrier has first failure
+                                carrier-window support outside CM.
+
+
+6    Packet Failure
+Pack is the carrier test. It asks whether the terminal record Q still contains a positive same-fluid
+packet on which the rest of the proof can act. The equation and field-coherence questions come after
+this carrier question. Pack asks only whether there is a positive carrier for the selected terminal
+object.
+    The common Pack failures have the same shape:
+                      no positive terminal carrier scale,
+                      a source atom with no transported body,
+                      a donor history detached from the same flow,
+                      a Zeno ancestry with no positive terminal packet,
+                      or degeneration of the material atlas needed for readout.
+In each case the terminal story points at information without a same-fluid body carrying it. The
+information may be relevant, and it may explain why the branch was considered. It still has not
+become the selected terminal Navier–Stokes object. The argument marks the first lost face as
+                                carrier-window support outside CM.
+
+                                                       10
+After this face fails, the terminal record stops at Pack. The Part and Field questions require a
+carrier on which the law and field can be read.
+     The annular case is where Pack is read by admission status. A radius-zero point is too small
+to carry the Clay breakdown by itself. The surrounding fields on shrinking positive-radius annuli
+are the witness. Before those fields are admitted as the same-solution terminal record, the proof is
+still at the selection boundary. After they are admitted, Pack has survived for that annular test.
+The remaining question is whether the admitted annular record keeps same-law participation and
+positive-scale field coherence.
+
+
+7     Velocity Failure Mechanisms
+The words dead, jump, and blown name mechanisms after the first failed face has been located.
+They are not substitutes for the Part/Field test. The proof first fixes the selected record Q, checks
+carrier admission, then checks Part and Field; Pack-side loss is carrier-window support outside CM.
+The first Part or Field failure determines which mechanism name is lawful as exit.
+
+7.1    Dead
+Dead names the clean Part mechanism. A carrier is still present, and the proof can point to the
+same terminal body. The failure is that the same pressure-viscosity-incompressibility law no longer
+acts on that body through the tower being tested. The word does not mean zero velocity. It means
+loss of same-object dynamics. In symbols, the first Part/Field is
+
+                                             ¬PartN,Q .
+
+Once ¬PartN,Q is proved while PackQ is still the retained carrier face, the ordered certificate has
+already failed:
+                      ¬PartN,Q =⇒ ¬CMN,r,Q               for every r > 0.
+The proof marks Part as the first lost requirement for this exact reason. At that point no separate
+claim about neighboring Field readings is being spent.
+
+7.2    Jump
+Jump names the clean Field mechanism. The carrier survives and the local law remains readable
+on the overlapping neighborhoods required to compare neighboring readings. The readings fail to
+assemble into one velocity field on any positive scale allowed by the record. The first Part/Field is
+
+                                   PartN,Q ∧ ∀r > 0 ¬FieldN,r,Q .
+
+A jump is a coherence failure: finite local readings fail to be the readings of one smooth field.
+
+7.3    Blown
+Blown names the unbounded-tower mechanism. A positive carrier remains visible, and a derivative,
+pressure term, viscous term, or continuation readout becomes unbounded at the finite depth under
+test. The mechanism is routed through the ordered faces. An unbounded reading that destroys the
+carrier is Pack failure. An unbounded reading on a retained carrier whose pressure-viscosity tower
+is no longer the same Navier–Stokes tower is Part failure. An unbounded reading after Pack and
+Part survive is Field failure when no positive-scale coherent field can include it.
+
+                                                 11
+    This is the point of the taxonomy. Large quantities, terminal pulses, weak limits, and endpoint
+traces become exit evidence after the paper identifies the selected same-solution record and derives
+the first Part or Field Part/Field failure on that record.
+
+
+8    The Contrapositive Test
+The contrapositive route begins after the forward analysis has selected a terminal record Q from
+the same Navier–Stokes branch. The paper then asks one class question: does this selected record
+still carry the same-fluid data needed for continuation, or has it lost a required part of that data?
+     The analytic certificate is
+
+                                  CMN,r,Q := PartN,Q ∧ FieldN,r,Q .
+
+The three factors have different jobs. Pack supplies the positive transported carrier. Part supplies
+the same pressure-viscosity-incompressibility law on that carrier through depth N . Field supplies
+one positive scale on which the tower readings form one velocity-pressure field.
+   The membership direction is
+
+                       ∀N ∃rN > 0 : CMN,rN ,Q        =⇒     Member(Q; Owork
+                                                                       NS ),
+
+with the continuation readout for the branch attached at the depth being used. This is the pass
+side. It says that the selected record remains inside the working Navier–Stokes class.
+     The fail side is supplied by finite-witness classification. A finite terminal obstruction F that has
+been admitted as the same selected record cannot keep a continuation-complete Part/Field packet.
+If it kept
+                                  PackQ ,      PartNs ,Q ,     FieldNs ,r,Q
+at a depth Ns chosen so that the tower controls a finite H s , s > 5/2, readout
+
+                                      Ms = sup ∥u(t)∥H s < ∞,
+                                             t<T∗
+
+then the local H s theorem supplies a lifespan τ (ν, s, Ms ) > 0. Launching from any tj < T∗ with
+T∗ − tj < τ /2 gives a classical solution beyond T∗ , and uniqueness on the overlap identifies that
+relaunch with the original branch. A genuine finite terminal obstruction must lose the first available
+face in Pack-out-of-CM audited order:
+
+     carrier-window support outside CM,          ¬PartNs ,Q ,     PartNs ,Q ∧ ∀r > 0 ¬FieldNs ,r,Q .
+
+That first Part/Field failure is the class-exit witness,
+
+                               Exit(Q; Owork                work
+                                        NS ) := ¬Member(Q; ONS ),
+
+for this admitted finite terminal record.
+    The route uses both statements together. The certificate direction proves membership from a
+retained packet. The finite-witness classification proves exit when an admitted finite obstruction
+loses its first required packet face. This separation is what keeps the proof from treating an arbitrary
+bad scale or bad cover as a class exit.
+    The converse used here is typed. A bad-looking packet has no proof role until it has been
+admitted as the selected same-solution terminal record. After admission, the paper must derive the
+first lost face. Carrier point-probe lemmas pay Pack admission. Retained pressure packages pay
+
+                                                    12
+Part placement or Field placement according to whether the same pressure-viscosity tower is lost or
+the one-field readout is lost. Averaged jump notes pay Field admission only after Pack and Part
+have survived. Euler boundary comparisons remain boundary comparisons unless they land one of
+these same faces. The conclusion Exit(Q; Owork
+                                            NS ) belongs to the selected record after that typed
+face loss.
+
+
+9    Reading the Witness Table
+The formal conjunction PartN,Q ∧ FieldN,r,Q has many Boolean rows. The proof reads them through
+the order in which a Navier–Stokes record needs the data. First ask for the carrier, then the same
+law, then the one-field readout.
+                  PartN,Q ∧ FieldN,r,Q                    member-side certificate,
+                  carrier-window support outside CM carrier-admission support,
+                  ¬PartN,Q                                Part-first failure,
+                  PartN,Q ∧ ∀r > 0 ¬FieldN,r,Q            Field-first failure.
+The member row also needs the branch readout. The Pack row says there is no positive same-fluid
+carrier. The Part row says the carrier is present and the same law has been lost. The Field row
+says the carrier and law are present, while every positive one-field scale fails.
+     The other Boolean rows collapse to the first failed face. A field-looking trace without a carrier
+has already failed Pack. A formal participation reading without a same carrier also fails Part/Field
+first. A carrier whose law and field both fail is recorded at Part, because the equation law is lost
+before the field question can do useful work.
+     Field remains a real terminal face. Some terminal pictures first appear as jumps, incompatible
+neighboring traces, or unbounded tower readings. After Pack and Part have survived on the selected
+record, those pictures ask whether one positive scale still carries a coherent field. If every such scale
+fails, the record lands in Field.
+     Two live receiver examples show how the grammar is used. The lower-carrier interval integrability
+route starts after a bounded Pack gauge has left a moving collar to work on. Its job is receiver-side:
+preserve the lower-carrier bounds required for one-field preservation. It is not a fourth witness.
+It either supplies a receiver step for a record that already has carrier and same-law participation,
+or the obstruction must be read back through Part or Field on the selected record. The BASAC
+reverse-Holder production note sits farther downstream in source-control analysis. It asks for a
+stronger source subclass, and the current note records the gm (s) = m1(−1/m,0] terminal-layer witness.
+That obstruction is not a new terminal kind. A zero-radius residue with no positive terminal packet
+stops at Pack, while any later source-control argument must state the selected record and the exact
+Part or Field requirement it supplies.
+
+
+10     From Witness Faces to Class Exit
+The witness grammar becomes a proof when it is tied to the local continuation theorem. The
+paper needs two statements. First, retained Part and Field certify that the selected record is still a
+member of the working Navier–Stokes class. Second, an admitted finite terminal obstruction cannot
+retain the continuation-complete version of that packet.
+Definition 5 (Continuation-complete packet). Fix s > 5/2, and let Ns be a tower depth chosen so
+that the tower controls the classical H s readout. A continuation-complete packet for Q is a packet
+
+                                                   13
+satisfying
+                                        PartNs ,Q ∧ FieldNs ,r,Q
+for some r > 0, together with the branch readout
+
+                                          sup ∥u(t)∥H s < ∞.
+                                          t<T∗
+
+Definition 6 (Terminal Part/Field-failure witness). A terminal Part/Field-failure witness is an
+admitted same-solution terminal record Q whose finite obstruction is charged to the first failed face:
+
+      carrier-window support outside CM,          ¬PartN,Q ,       PartN,Q ∧ ∀r > 0 ¬FieldN,r,Q .
+
+The carrier-window row is support for admission; the Part and Field rows are the fail-side witnesses
+for Exit(Q; Owork
+              NS ).
+
+Proposition 1 (Exact witness certificate). For an admitted same-solution record Q, the all-depth
+analytic witness certifies class membership:
+
+                       ∀N ∃rN > 0 : CMN,rN ,Q         =⇒    Member(Q; Owork
+                                                                       NS ).
+
+Proof. Fix N . Pack gives one transported same-fluid carrier on Q. Part gives the differentiated
+Navier–Stokes participation law
+
+                                  Dt Uk = Kk + Bk ,        0 ≤ k ≤ N,
+
+on that carrier. Field gives a positive scale rN on which the tower readings are readings of one
+field. Since this holds at every finite depth, the local restriction to Q still inherits the data and law
+bundle of Owork
+             NS . That is exactly Member(Q; ONS ).
+                                                   work
+
+
+Theorem 2 (Finite witness classification). Let F be an admitted finite terminal obstruction from
+the same smooth initial datum, and let Q be the selected terminal record. At the continuation depth
+Ns , the obstruction must either stop at carrier-window support outside the CM conclusion or lose a
+Part/Field face after carrier admission:
+                                  
+                                  carrier-window support outside CM,
+                                  
+                          F =⇒ ¬PartNs ,Q ,
+                                  
+                                    PartNs ,Q ∧ ∀r > 0 ¬FieldNs ,r,Q .
+                                  
+
+The carrier-window line is support for admission. The displayed Part and Field losses supply
+Exit(Q; Owork
+         NS ).
+
+Proof. Begin with the selected record Q. The first gate is Pack. Either the positive same-fluid
+carrier exists or it fails. Carrier failure gives carrier-window support outside CM, and the proof
+does not spend that line as class exit.
+    Assume the carrier has been admitted. The second gate is Part. Either the same pressure-
+viscosity-incompressibility tower acts through depth Ns on the carrier, or it fails. Participation
+failure gives
+                                               ¬PartNs ,Q ,
+and the proof stops at Part.
+
+
+                                                   14
+    Assume Pack and Part both survive. The final gate is Field. A positive scale r > 0 with
+FieldNs ,r,Q , together with the attached continuation readout, gives the retained packet
+
+                                           PartNs ,Q ∧ FieldNs ,r,Q
+
+and a finite H s , s > 5/2, readout
+
+                                         Ms = sup ∥u(t)∥H s < ∞.
+                                                t<T∗
+
+The local H s theorem gives a lifespan τ (ν, s, Ms ) > 0. Choosing tj ↑ T∗ with T∗ − tj < τ /2, the
+solution relaunched from u(tj ) exists beyond T∗ , and uniqueness identifies it with the original branch
+on the overlap. That contradicts the assumption that F is the finite terminal obstruction for the
+same branch. Every positive Field scale with that readout fails:
+
+                                      PartNs ,Q ∧ ∀r > 0 ¬FieldNs ,r,Q .
+
+   In the Part and Field cases the selected record loses a required membership face after carrier
+admission. That loss is read as Exit(Q; Owork
+                                         NS ) = ¬Member(Q; ONS ).
+                                                                 work
+
+
+Theorem 3 (No same-record member obstruction). One selected terminal record cannot be both a
+continuation-complete member record and the finite nonsmooth obstruction for the same original
+Navier–Stokes branch.
+
+Proof. A continuation-complete member record supplies Part and Field, and the H s , s > 5/2,
+readout at the required depth. Set
+
+                                        Ms := sup ∥u(t)∥H s < ∞.
+                                                 t<T∗
+
+The classical H s local well-posedness theorem gives a lifespan τ = τ (ν, s, Ms ) > 0 for every datum
+with H s norm at most Ms . Choose tj ↑ T∗ with T∗ − tj < τ /2. The solution launched from u(tj )
+exists beyond T∗ , and uniqueness identifies it with the original solution on the overlap. The same
+record then cannot be the finite terminal obstruction blocking that continuation.
+
+10.1    Annular residual specialization
+The annular endpoint is the place where the paper must keep the gold and silver layers visible at
+the same time. The radius-zero point is only the limiting point. The finite-time singularity claim is
+carried by positive-radius fields on annuli shrinking toward (x∗ , T∗ ).
+    Let
+                                                               2
+        Am = {(x, t) : αrm < |x − x∗ | < βrm ,          tm − θrm < t < tm },        rm ↓ 0,    tm ↑ T∗ .
+
+Choose jm by the exact dyadic rule
+
+                                           2−jm −1 < rm ≤ 2−jm .
+
+At that scale, write
+
+                    uj = ∆j u,        Ej (t) = 22j ∥uj (t)∥22 ,    Dj (t) = 24j ∥uj (t)∥22 .
+
+
+
+                                                        15
+The shell inequality is
+                                   1d
+                                        Ej (t) + c0 νDj (t) ≤ Φ+ j (t),
+                                   2 dt
+where Φ+j is the positive nonlinear source into the shell. The residual refill after entrance time t0 is
+the scale-critical quantity
+                                                 Z t
+                                                            2j
+                               res
+                             Dj (t; t0 ) := 2 2j
+                                                     e−c0 ν2 (t−s) Φ+
+                                                                    j (s) ds.
+                                                     t0
+
+   Gold asks for scale-uniform vanishing of this residual on every same-solution terminal annular
+schedule:
+                                                                   res
+                       ∀ε > 0 ∃rε > 0 such that rm < rε =⇒ Dm          ≤ ε.
+A stronger form is                            X
+                                                   res
+                                  sup             Dm   →0          (M → ∞).
+                                     A    m≥M
+The current referee audit does not treat this scalar residual estimate as the right final supplier. It
+treats it as a readout of the stronger same-parent coupled active-capacity/full-exchange storage
+problem: the positive refill must be admitted into the original parent packet and full pressure–
+viscosity–incompressibility–velocity participation law before child clipping. The coupled storage
+theorem is still open; scalar residual sums are only typed readouts or countertests.
+    The obstruction is concrete. Put λm = 2jm , τm = λ−2 m , and Im = [tm − τm , tm ]. If
+
+                             Φ+
+                              jm (s) = am 1Im (s),             0 < a0 ≤ am ≤ A,
+then the physical source mass can be finite,
+                             XZ                      X
+                                     Φ+jm (s) ds ≤ A   2−2jm < ∞,
+                                 m       Im                    m
+
+while the scale-critical residual stays positive:
+                                        Z 2−2jm
+                                                       2jm        1 − e−c0 ν      1 − e−c0 ν
+           res                   2jm
+         Djm (tm ; tm − τm ) = 2 am             e−c0 ν2 σ dσ = am            ≥ a0            .
+                                         0                           c0 ν            c0 ν
+This is the scalar obstruction that the finite full same-material action route must absorb: finite
+physical source mass and heat-scale localization leave room for a persistent residual refill until the
+refill is shown to be a component of that same action.
+     Silver receives the survivor only after the annular residue has been admitted as the same-
+solution terminal record. That admission pays the carrier side for the annular test. The remaining
+nonsmooth branch then lands in Part or Field. It lands in Part when the same pressure-viscosity-
+incompressibility tower is lost. It lands in Field when Part survives and every positive field scale
+fails.
+     The Field calculation is short. If Part survives and a positive-scale Field readout supplies an
+H s , s > 5/2, bound M , then
+                      ∥∆j P∇ · (u ⊗ u)∥2 ≤ Cs M 2 2−j(s−1) ,           ∥uj ∥2 ≤ M 2−js .
+The dyadic residual bounds are
+                     Φ+           3 (3−2s)j
+                      j (t) ≤ Cs M 2        ,         Djres (t; t0 ) ≤ Cs′ M 3 2(3−2s)j → 0.
+This contradicts an admitted residual pulse with Djres
+                                                    m
+                                                       ≥ η > 0. After annular admission, a nonzero
+nonsmooth residual pulse loses Part or loses Field.
+
+                                                          16
+11      The Clay-Facing Completion Claim
+A finite Clay breakdown claim is a claim about one original Navier–Stokes solution. It starts with
+smooth data, follows the maximal classical branch up to a finite time T∗ , and then claims that
+the branch has no lawful continuation past T∗ . The CM proof handles such a claim by forcing the
+terminal alternative to name the same-solution object it is using. Once that object is named, the
+proof asks three questions in order: is there a same-fluid packet, does the same Navier–Stokes law
+still participate in that packet, and is there a positive-scale field readout satisfying the continuation
+criterion selected for that branch?
+
+Definition 7 (CM-test-admissible Clay terminal record). A Clay terminal record is CM-test-
+admissible when it is extracted from the same original Navier–Stokes branch and carries the same
+datum, equation, pressure law, viscosity, preterminal fluid ancestry, terminal time, and terminal
+role. This admissibility condition puts the alleged terminal object into the CM test. It is the entry
+condition for the witness; membership in Owork
+                                           NS is decided only after the Part and Field requirements
+are read.
+
+     For such a record the proof has the following chain:
+
+                       finite same-branch Clay terminal record
+                       =⇒ CM-test-admissible same-solution terminal object
+                       =⇒ member-side readout or first Part/Field failure
+                       =⇒ Member(Q; Owork             work
+                                     NS ) or Exit(Q; ONS ).
+
+The pass side is the ordinary smooth side of the argument. When the same record keeps Part and
+Field, it supplies the continuation readout selected for that branch. For the Sobolev criterion used
+here, that readout is the H s , s > 5/2, endpoint control that restarts the same classical solution.
+The fail side is the class-exit side of the argument. The record has entered the CM test, and the
+first lost requirement is read as a concrete witness.
+
+Definition 8 (Terminal witness resolution). A finite Clay terminal witness is resolved by the CM
+proof when the witness has entered the same-solution packet test and the ordered test produces one
+of the following outcomes:
+
+1. Member(Q; Owork
+              NS ): all three faces survive and the member-side readout continues the same
+   branch.
+
+2. carrier-window support outside CM: the selected object has no same-fluid packet carrier, so this
+   line remains admission support rather than a CM-exit payment.
+
+3. ¬PartN,Q : a carrier survives without the same pressure-viscosity participation.
+
+4. PartN,Q ∧ ∀r > 0 ¬FieldN,r,Q : carrier and participation survive without positive-scale coherent
+   field readout.
+
+In the Part and Field failed cases the derived Part/Field failure is embedded as
+
+                               Exit(Q; Owork                work
+                                        NS ) := ¬Member(Q; ONS ).
+
+
+
+
+                                                   17
+Theorem 4 (Clay-facing CM classification theorem). Let u be the maximal classical Navier–Stokes
+solution from smooth divergence-free data on the surface under discussion, and let Q be a CM-test-
+admissible finite terminal record extracted from that same solution. Then the CM test has exactly
+two proof outcomes for Q:
+
+                              Member(Q; Owork
+                                         NS )       or   Exit(Q; Owork
+                                                                  NS ).
+
+The member outcome is the same-solution continuation branch. The exit outcome is supported by a
+first failed Part or Field witness after carrier admission:
+
+      carrier-window support outside CM,          ¬PartN,Q ,      PartN,Q ∧ ∀r > 0 ¬FieldN,r,Q .
+
+Proof. CM-test admissibility gives a terminal record from the original solution. A detached profile
+or a diagnostic object with the wrong ancestry fails this entry requirement. The class definition
+reads that record by Pack, then Part, then Field. If the record keeps all three requirements and
+reaches the selected continuation criterion, the selected readout is the member-side readout for
+the same solution, so Q is read as Member(Q; Owork NS ). If one requirement fails first, the ordered
+witness test records the first failed face. The CM embedding reads that Part/Field failure as
+Exit(Q; Owork                      work
+          NS ) := ¬Member(Q; ONS ). The ordered test leaves no third in-class terminal branch:
+a branch that remains in Member(Q; Owork NS ) has retained the witness requirements and supplied
+readout, while a branch carrying a first failed face has already exited the class.
+
+     This is the silver CM result for admitted same-solution terminal records. It proves that an
+admitted finite terminal alternative is resolved as member-side continuation or class exit. The Gold
+route seeks a stronger conclusion: the original smooth-data branch has finite full same-material
+clock, so the member-side continuation readout is available before a terminal obstruction persists.
+The current referee audit requires a signed critical-height sign-persistence / peak-height theorem
+before the manuscript calls that Gold route a finished Clay counterexample exclusion.
+     The lower-carrier and receiver packets have this proof role: they feed the member side when their
+hypotheses are supplied on the same terminal record. Under a bounded Pack gauge, lower-carrier
+interval integrability supplies the moving-collar carrier control required for one-field preservation
+and then the continuation readout. That receiver result does not create a separate terminal outcome.
+When the receiver result is supplied, it helps read the retained record as Member(Q; Owork NS ). When
+it is not supplied on the admitted record, the proof must still locate the first lost Part or Field face.
+     The annular supplier correction has the same shape. The stronger Gold statement is no longer
+a pressure-only, viscosity-only, or scalar-source estimate on Djres . A heat-time pulse with finite
+physical L1t mass can keep the scale-critical residual Djres bounded below on its own heat window.
+The current Gold edge asks for signed-height sign persistence with physical cost, or peak-height
+control when the signed rate changes sign. The referee audit keeps the claim conditional until that
+signed-height object is proved.
+     The public claim is now read through the Silver terminal witness. Face classification records
+how the alleged finite terminal record is read inside the CM proof, and the first Part/Field failure
+gives the class exit Exit(Q; Owork                      work
+                               NS ) := ¬Member(Q; ONS ). The complete-frame route remains the
+Gold counterpart: it tries to prove the same participation law positively, but it is not the condition
+that gives the Silver exit proof its force.
+
+Proposition 2 (Torus-atlas terminal face exhaustion). On the periodic surface, the whole trans-
+ported terminal atlas Qatlas gives the terminal CM test object. Every admitted finite terminal
+
+
+
+                                                   18
+non-continuation on that atlas has one of the following readings:
+
+ scope rejection of the proposed obstruction for the CM test,
+ whole-atlas admission failure: ¬PackQatlas ,
+ admitted annular or same-atlas Part failure: PackQatlas ∧ ¬PartNs ,Qatlas ,
+ admitted annular or same-atlas Field failure: PackQatlas ∧ PartNs ,Qatlas ∧ ∀r > 0 ¬FieldNs ,r,Qatlas .
+
+Proof. The torus material-atlas theorem supplies the terminal object. Qatlas is the whole transported
+finite atlas. A selected diagnostic packet without the atlas ancestry fails the periodic entry
+requirement. The atlas fixes the readout-compatible Pack predicate. Loss of atlas selection is the
+Pack failure ¬PackQatlas . After an annular residual has been admitted through the atlas, carrier and
+selection have already been supplied for that residual. The remaining nonsmooth residual branch is
+then decided by same-equation participation or field readout, hence by Part or Field.
+
+Theorem 5 (Periodic CM classification state). For smooth divergence-free zero-mean data on T3 ,
+the same-solution CM proof classifies any admitted finite terminal witness. Every legitimate finite
+terminal witness is read through the transported atlas Qatlas : whole-atlas admission can fail at Pack,
+while an annular residual already admitted through that atlas is exhausted by Part or Field. The
+failed branch is embedded as
+
+                               Exit(Q; Owork                work
+                                        NS ) := ¬Member(Q; ONS ).
+
+The retained branch gives the H s , s > 5/2, continuation readout through a uniform H s bound and
+the local relaunch theorem, and the failed branch is consumed as class exit for the same working
+object.
+
+Proof. Assume T∗ < ∞. The whole-torus terminal atlas is readout-complete. The finite endpoint
+either retains Part and Field on the same transported atlas, or it has a first Part/Field failure. An
+annular residue surrounding the endpoint is tested through the same atlas. When that residue has
+already been admitted through the atlas, the annular test has retained carrier and selection, so
+the nonsmooth branch must fail Part or Field. The Part/Field-failure branch is consumed by the
+terminal witness theorem and embedded as class exit for the same working Navier–Stokes object.
+The retained branch gives the H s , s > 5/2, continuation norm for the same original solution. The
+failed branch is outside Member(Q; Owork
+                                      NS ), so it cannot serve as an in-class finite Clay continuation
+branch.
+
+
+12     How Forward Branches Enter the Proof
+Once the class test is fixed, each branch family has a concrete reader-facing job. It must tell the
+reader how it touches the same selected terminal record Q:
+
+        it selects the same-solution terminal record,
+        it supplies the member-side continuation readout for that record,
+        it proves the first failed Part or Field face,
+        or it remains comparison or obstruction context until one of those jobs is proved.
+
+This is the organizing rule for the forward material. A branch note may explain a real obstruction,
+a real estimate, or a real route failure. It becomes part of the proof when it names the terminal
+record and proves the face or readout it contributes.
+
+                                                   19
+    The main records are already visible. On the periodic surface, the selected terminal record is
+the transported whole-torus atlas Qatlas . On the whole-space surface, the selected record comes
+from the exterior Duhamel split and the dyadic survivor test. At the annular endpoint, the selected
+record is the limiting same-solution behavior on shrinking positive-radius annuli. Those annuli are
+live terminal witnesses until gold controls the residual load or silver admits the surviving residual
+obstruction and lands it in Part or Field.
+    A forward estimate belongs to the proof when it says something precise about that selected
+record: which carrier survives, which participation law is retained or lost, which positive-scale field
+readout is available, or which continuation readout follows. While the record or face is still unnamed,
+the estimate remains explanatory context.
+
+12.1    Source Reserve And Donor Refill
+Source reserve is the branch where a terminal packet tries to acquire fresh nonlinear source near T∗ .
+The gold question is quantitative: can the same solution keep a positive residual refill on shrinking
+heat-time windows after heat descendants, legal through-flow, finite accounted terms, and accounted
+dissipation have been removed? The silver question is class-theoretic: when that reserve is selected
+as the terminal record, which membership face does it keep or lose first?
+
+Definition 9 (Source-reserve branch). A source-reserve branch is a selected terminal branch for
+which a positive source quantity RN (W ) survives on a terminal heat window W after legal losses
+and inherited parent mass are separated. The branch is retained for the CM test only when the
+reserve is attached to the original solution branch and its terminal carrier has been identified.
+
+Proposition 3 (Source-reserve routing). Every selected source-reserve branch is routed through the
+first Part/Field it can answer:
+
+    carrier-window support outside CM : no same-fluid carrier,
+                             ¬PartN,Q : carrier without same participation,
+                              PartN,Q : remaining Field or continuation-readout question.
+
+Proof. A source reserve with no positive same-fluid carrier fails Pack. A source reserve with a
+carrier and no same pressure-viscosity-incompressibility tower fails Part. A source reserve with
+carrier and participation has reached the retained-packet level; its remaining obstruction is a Field
+or continuation-readout question. The proof force comes from the selected witness record and first
+failed face, not from the source-reserve label.
+
+    Reserve creation, terminal reserve first appearance, positive remainder depletion, source-weighted
+angular depletion, BASAC reverse Holder production, terminal source anti-concentration, and
+uniform temporal source integrability all ask the same question in different coordinates:
+
+           can positive terminal source reserve be born for free on the original branch?
+
+For the manuscript, those notes remain explanatory context until they attach to the selected
+same-solution record. First-appearance wording does not supply proof force by itself: the packet
+must inject into a finite time-priced ledger, satisfy a super-L1s or terminal-modulus estimate, produce
+a rigid no-atom subclass, or enter the CM test with a concrete Part/Field failure. Once the reserve
+is inherited, charged, depleted, or landed in a Part or Field face, it becomes proof material for that
+record.
+
+
+                                                  20
+12.2    BASAC, Pressure, And Rigid Residue
+BASAC and pressure-residue arguments search for a terminal source measure that is too rigid to be
+accounted by the ordinary source balance. The direct route tries to rule that object out directly.
+The class route asks which membership requirement the selected residue can keep.
+
+Definition 10 (Rigid pressure-source residue). A rigid pressure-source residue is a selected terminal
+object whose pressure/source contribution remains after transported boundary losses, parent ancestry,
+and accounted finite terms have been removed. It is terminally relevant only when it is attached to
+the same solution branch.
+
+Lemma 1 (Rigid residue requirement test). A rigid pressure-source residue has no independent
+class face. It is carrier-window support when it lacks a positive carrier, Part-side when it loses
+pressure participation after a carrier survives, and Field-side only after the same carrier and same
+participation tower both survive.
+
+Proof. Rigidity describes how a residue behaves. The class object asks a different question: the
+selected residue must answer Pack, then Part, then Field on the same terminal record. Those
+answers determine its proof role. The residue is spent only after that role is certified.
+
+   Pressure-tail Hardy controls, transported boundary tightness, pure-pressure sustain reductions,
+time-face anti-atom arguments, and production into rigid subclasses all narrow the selected residue.
+The narrowed residue becomes proof material when it declares the first same-record requirement it
+cannot keep.
+
+12.3    Zeno And Terminal Atoms
+Zeno arguments describe terminal objects that appear only through infinite refinement toward T∗ .
+The exact distinction is between the point-object and the shrinking positive-radius fields around it.
+For the point-object alone, zero radius is decisive. For the singularity claim, the proof must test
+those shrinking positive-radius fields.
+
+Proposition 4 (Zeno routing). A Zeno terminal branch with no positive terminal carrier is carrier-
+window support as a point-object or pre-admission case. A retained positive-scale Zeno branch has
+supplied carrier. A Zeno or annular-limit branch witnessed by positive-radius fields remains live
+until those fields are controlled or, after admission, land in Part or Field.
+
+Proof. A zero-radius terminal atom has no positive same-fluid carrier, so it fails Pack as a point-
+object. That statement handles the atom itself. It leaves the surrounding annular witness in play.
+When a Zeno branch retains positive scale, the branch has supplied the carrier requirement and
+must be tested for same-equation participation and coherent field readout. Zeno names a terminal
+mode whose admitted positive-scale branch is decided by Part or Field.
+
+   The temporal non-atomicity, residence lower-bound, time-face capacity, and terminal atom
+exclusion arguments live here. They either prevent the point-object from being a same-solution
+terminal record, show that the point-object has failed Pack, or return the surrounding positive-radius
+annuli to the live annular witness role.
+   In the current proof state this is the terminal Zeno source-refill case named in the Gold discussion.
+The point atom’s Pack failure is only the first reading of the endpoint. The surrounding annular
+witness remains the real positive-radius object. The current Gold candidate says that this witness is
+not governed by a detached scalar source theorem; a retained scale-native zoom birth must be paid
+
+                                                  21
+through the signed critical-height sign-persistence or peak-height theorem inside the same original
+material history.
+   The referee audit now asks whether signed-height sign persistence or peak-height control has
+actually been proved. The motivating scalar model gm (s) = m1(−1/m,0] shows why finite L1t source
+mass is not enough by itself:
+                                           gm (s) ds ⇀ δ0 .
+The signed-height restart makes the question sharper: either the signed rate persists with a physical
+cost, or the relevant object is peak signed height rather than accumulated positive variation. The
+Silver route spends the same object differently: once the annular residue is admitted as the same-
+solution terminal record, retained Part/Field puts it on the member side and first Part/Field failure
+puts it on the exit side.
+
+12.4    Retained Amplitude, Low Strain, And Height Flux
+Retained-amplitude and low-strain routes are hard because a branch can keep the carrier structure
+required to avoid early Pack failure while still accumulating terminal readings that may fail the
+Field test. The direct route tries to prove a gain, bounded variation, or height-flux control whose
+conclusion is the selected readout criterion. The class route preserves the branch split.
+
+Proposition 5 (Retained-amplitude routing). A retained-amplitude branch either creates Pack
+gain, loses Part participation or dwell, reaches a licensed Field diagnostic, or falls into a Zeno
+terminal subcase.
+
+Proof. Retained amplitude must live on a selected terminal record. If it produces a positive same-
+fluid carrier, it pays the Pack requirement. If the carrier survives while the same Navier–Stokes
+law fails to act through the retained branch, it is Part-side. If Pack and Part both survive, the
+remaining retained amplitude is read as a Field readout question. If the retained object has no
+positive terminal scale, it is the Zeno/Pack subcase.
+
+    Height-flux and frame-variation arguments keep a retained-amplitude branch from floating
+between faces. The branch must create carrier gain, pay its dwell, enter a licensed Field readout, or
+collapse to a terminal atom before it can affect the terminal proof.
+
+12.5    Signed Current And No-Free-Sink
+Signed-current arguments try to turn source-current motion into a no-free-sink law. The obstruction
+is that strain production has variable sign, while terminal source charge can move through scale-
+critical channels. The class proof uses signed current as a face-routing tool.
+
+Lemma 2 (Signed current has no independent face). A signed-current branch returns to Pack,
+Part, retained Field, Zeno, or context awaiting a selected record. It returns to the three witness
+requirements.
+
+Proof. Signed current measures how the source economy moves. The class object asks whether the
+selected terminal packet retains the carrier, the participation tower, and coherent field data. Current
+information can prove or strengthen one of those requirement statements. It supplies information
+for one of the requirements in CMN,r,Q .
+
+
+
+
+                                                  22
+    The terminal signed-saturation reduction is valuable because it makes this routing explicit.
+Failed saturation is resolved by retained partners, legal exits, pair-weight charge, finite donor balance,
+or else becomes a terminal zero-radius source residue. Those alternatives are Part and Field, or
+context awaiting one of those terminal outcomes.
+
+12.6    Endpoint, No-Pulse, And Good-Scale Readout
+Endpoint arguments are closest to classical continuation. They ask for a good scale, a read cover,
+pulse exclusion, terminal-tail control, and coherent field output. They are essential on the pass side.
+They become misleading when they are treated as the primitive class test.
+
+Proposition 6 (Readout role). Endpoint readout proves smooth continuation from a member packet.
+It certifies membership only after the Part and Field requirements hold on one witness record.
+
+Proof. The smooth continuation readout reads a packet that already satisfies the coherent-field
+requirement. That packet must be carried by the same fluid, governed by the same Navier–Stokes
+law through the velocity tower, and coherent on a positive scale. Those are the three requirements.
+Readout is the consequence of the requirements, and the requirements remain the class test.
+
+    The silver proof uses endpoint estimates in one precise way. A member branch may use any
+endpoint mechanism whose hypotheses hold on the admitted packet and whose conclusion gives
+continuation. A failed branch gives class exit after the selected terminal record has lost Part or
+Field. The selected record supplies the packet; endpoint estimates then read that packet on the
+pass side and help locate the first failed face on the fail side.
+
+
+13     How Branch Families Pay the CM Proof
+The forward branches are useful because they tell the paper what the terminal object might be.
+They are not independent endings of the proof. After a branch has located a possible terminal object,
+the manuscript asks one common question: can that object still be read as the same Navier–Stokes
+solution record?
+    The answer is recorded through the same five outcomes used in the main proof:
+
+ member readout             PartN,Q ∧ FieldN,r,Q plus the continuation norm,
+ carrier-window support same-solution admission support outside the exit conclusion,
+ Part failure               ¬PartN,Q ,
+ Field failure              PartN,Q ∧ ∀r > 0 ¬FieldN,r,Q ,
+ context                    a real estimate whose selected record or face payment is still unwritten.
+
+This is the proof map the reader needs. A forward argument may pay a source term, rule out a
+donor refill, locate a terminal atom, or sharpen an endpoint readout. It becomes proof text only at
+the line where it names Q, names the class data carried by Q, and supplies either carrier-window
+admission support, a Part/Field face payment, or the member readout.
+
+
+
+
+                                                   23
+   Branch               Positive aim                Survivor or residue        Manuscript role
+   Four-body            Close tail, source,         Circular payment debt      Selects the terminal
+   diagnostic           exact-object capture,       among the four bodies      record and names the
+                        and recovery in one                                    unpaid face; proof force
+                        circuit                                                begins at that face
+   Energy/source        Lift energy and             Vortex-stretching source   Tests whether retained
+                        enstrophy information       reserve                    source reserve has same
+                        into derivative control                                carrier, same
+                                                                               participation, or a Field
+                                                                               readout failure
+   Scale barrier/tail   Make high-frequency         Lower-prefix memory        Decides whether the
+                        transfer summable           and upper-tail leakage     selected terminal witness
+                                                                               supplies carrier-window
+                                                                               support, Part-side,
+                                                                               Field-side, or pass-side
+                                                                               readout
+   Compactness          Extract a terminal          Detached or                Admits a candidate Q
+                        object from the             under-controlled           only when it remains
+                        preterminal branch          terminal limit             attached to the same
+                                                                               solution record
+   Recovery/surface     Convert terminal control    Recovery available on      Supplies member readout
+   fidelity             into continuation           the wrong surface or       on the same object;
+                                                    wrong object               otherwise leaves a
+                                                                               Part/Field failure or
+                                                                               context boundary
+   Lower-               Collapse split survivor     Split terminal family      Tests each surviving
+   prefix/upper-tail    families                                               family as its own
+                                                                               same-solution witness
+   Kernelized lifted    Use scale separation to     Half-derivative            Stays with the selected
+   band                 gain decay                  lower-shell remainder      witness until it becomes a
+                                                                               face payment or readout
+                                                                               payment
+   Shell gain/half      Use active-window           Active-window              Tests Field coherence
+   derivative           smallness to pay lower      coefficient gap            after Pack and Part have
+                        strain                                                 survived on the selected
+                                                                               record
+   Annular-limit        Control the residual        Terminal residual pulse    Gold seeks direct annular
+   witness              scale-critical load on      surrounding a              control; silver classifies
+                        shrinking positive-radius   radius-zero endpoint       the admitted pulse by
+                        annuli                                                 Part or Field
+
+    The annular-limit row is the live boundary for the current forward branch. The radius-zero point
+by itself is a point-object reading. The singularity claim is carried by the surrounding positive-radius
+fields. Gold closes that boundary by proving scale-uniform annular control. Silver closes it only
+after the annular residue has been admitted as the same-solution terminal witness and the page
+shows the resulting Part or Field failure. Until that line is written, the annular material remains an
+open forward obstruction with a precise CM counterpart.
+
+
+
+
+                                                     24
+14     Direct Closure and the Four-Body Diagnostic
+14.1    Current Gold Counterpart Boundary
+The Gold counterpart now sits at the continuation-strength material-clock boundary. The factorial
+tower and Stirling/binomial normalization are retained as accounting support for the differentiated
+tower; they are not the live proof supplier. The active Gold burden is
+
+                          ContinuationStrengthMaterialClockAtDepth.A,
+
+the theorem that the chosen continuation depth has a finite same-material record strong enough to
+feed the fixed H s , s > 5/2, restart.
+    This is CM-bearing because it proves the class participation law directly on the original smooth
+history. It is not CM-exit bearing by itself. It supplies Gold counterpart context unless it identifies
+a same-solution terminal witness and lands that witness in Part or Field.
+    The direct proof target for Navier–Stokes is exact. One wants estimates that start from the
+original smooth divergence-free datum, remain on the same Navier–Stokes solution, and satisfy a
+continuation criterion for the classical solution beyond any proposed finite terminal time. In its
+cleanest form, the program has a simple rhythm: identify the dangerous channel, pay for it with an
+equation-level estimate, recover derivative control, and continue the solution.
+    The four-body circuit was one serious way of organizing that positive-forward program. It is
+used here as a diagnostic exercise. Its purpose is to show what happens when a forward smoothness
+proof is pursued as far as the available structure can push it. The circuit is useful because each of its
+bodies is a real mathematical demand, and each demand exposes the same underlying obstruction
+from a different angle.
+    The four bodies are these.
+
+1. Tail control. High-frequency transfer must become summable, or the positive transfer tail must
+   be dominated by the viscous tail on the same selected frequencies.
+
+2. Energy/enstrophy control. The known energy law must be lifted into derivative-level control
+   satisfying a continuation criterion.
+
+3. Exact-object capture. Controlled approximations have to produce a same-solution terminal
+   object rather than a detached limit object.
+
+4. Derivative recovery. The captured object must return the local or global derivative control
+   required by the continuation criterion.
+
+   In the tail item, domination means a proved inequality for the selected high-frequency tail, not
+an active-scale picture. For spectral balance variables E(k, t) and T+ (k, t) = max(T (k, t), 0), the
+exact object is                      Z   ∞              Z       ∞
+                         DK (t) := 2ν        k 4 E(k, t) dk −       k 2 T+ (k, t) dk,
+                                        K                       K
+and the proof must supply DK (t) ≥ 0, or an integrable bound on its negative part, on the same tail
+used by the later compactness or continuation step.
+   The circuit has four genuine theorem inputs. High-frequency damping is built into viscosity.
+Energy is genuinely controlled. Compactness can extract a terminal object only after the extraction
+topology, low-mode compactness, high-frequency tail smallness, and same-solution attachment have
+
+
+                                                    25
+been supplied. Derivative recovery must be a named continuation readout on that same surface.
+The problem appears when the four payments are placed in a loop.
+   Tail control asks for a transfer estimate whose conclusion dominates nonlinear cascade. The
+energy identity supplies
+                                                   Z T
+                           sup    ∥u(t)∥2L2 + 2ν         ∥∇u(t)∥2L2 dt ≤ ∥u0 ∥2L2 ,
+                          0≤t<T                     0
+
+which is a real payment, yet it pays an integrated first-derivative bill. It does not by itself pay the
+pointwise high-frequency transfer bill needed for a full scale barrier.
+   The enstrophy lift exposes the same issue in a sharper form. Set
+                                                1
+                                         Y (t) = ∥∇u(t)∥2L2 .
+                                                2
+Differentiating the equation, testing the differentiated equation against −∆u, integrating by parts,
+and using ∇ · u = 0 gives
+                                                          Z
+                        1d           2               2
+                             ∥∇u(t)∥L2 + ν∥∆u(t)∥L2 =         (u · ∇)u · ∆u dx.
+                        2 dt                               T3
+
+Hölder, Sobolev, interpolation, and Young give the conditional differential inequality
+
+                                           Y ′ (t) ≤ Cν Y (t)3 .
+
+This inequality gives the local continuation mechanism, and it also shows the unpaid bill: the
+vortex-stretching source can still feed the derivative quantity that viscosity is trying to damp.
+    Compactness then asks for the exact same-solution object produced by this partially controlled
+evolution. The low/high split gives the right idea: low modes become finite-dimensional after time
+compactness, and high modes become small under a spectral tail estimate. The dependency order is
+the obstruction. Compactness consumes the tail and source controls that the earlier bodies were
+trying to prove.
+    Derivative recovery closes the loop. Once an exact object is captured, one wants Sobolev,
+local-critical, endpoint, geometric, or packet-level control to recover classical continuation. Each
+recovery mechanism must stay on the same Navier–Stokes surface. A recovery mechanism that
+changes the surface, imports a geometric drain from a different carrier, or detaches the terminal
+object from the original solution only explains an obstruction until it is reattached to the original
+solution and proves direct continuation.
+    The governing route of this paper is the selected-record class test. The four-body circuit
+contributes the obstruction shape created by positive-forward closure attempts:
+
+         tail/source/exact-object/recovery demand             −→     persistent terminal survivor.
+
+The survivor changes names across branches: high-frequency tail, source reserve, donor residue,
+lower-prefix memory, packet defect, pressure-sustain object, endpoint remnant, or export boundary.
+The pattern is the same. A forward proof tries to delete the survivor. The survivor returns as a
+terminal object whose proof role must be classified.
+    This is the point where the paper changes proof polarity. The next question is no longer only
+how to erase every survivor by a stronger positive estimate. The next question is what the survivor
+is allowed to be as a terminal witness for the same Navier–Stokes solution. That question leads
+
+
+                                                        26
+to the class-membership exit method: a terminal obstruction must be tested as a same-solution
+witness, and its failure must be read through the continuation requirements needed for membership.
+    The four-body diagnostic supplies the first branch in the larger manuscript pattern. Each later
+branch will be treated in the same way: state the positive aim, carry out the calculation, identify
+the terminal survivor, locate the point where positive-forward closure stalls, and then classify the
+survivor inside the CM-exit program.
+
+
+15     Energy, Enstrophy, and Source Reserves
+15.1    Endpoint Reserve Currency on the Selected Carrier
+The active forward-gold reserve question is now the noncircular same-parent coupled active-
+capacity/full-exchange storage theorem at the Gold L1 source wall. The selected endpoint activity
+is denoted by aj (s), but it cannot be spent merely as scalar shell action. A retained high-ratio zoom
+birth must be assigned to the original parent packet and its coupling before child clipping; the H 1/2
+positive-transfer display is only one typed readout of that parent object. In older shell notation the
+desired comparison was
+                                                        Z 0
+                           aj (s) ≤ λBj (s) + ℓj (s),       ℓj (s) ds = oj (1),
+                                                                   −1
+
+with a terminal-family reserve
+                                               X         Z 0
+                                      lim                      Bj (s) ds = 0.
+                                  N →∞                    −1
+                                            j: rj ≤2−N
+
+This is the endpoint Littlewood–Paley reserve form of the same-parent bridge, not the physical
+source object itself.
+    The factorial tower and shifted-gamma calculations identify candidate currencies for Bj . The
+moving-radius identity supplies the nonnegative spend measure DSrad . The shifted saddle supplies a
+balanced high-rung price. The residual refill object Djres supplies the shell-level endpoint load. The
+active gold bridge asks for these currencies to live on one selected carrier rather than on parallel
+bookkeeping surfaces.
+    In this formulation, a successful forward proof gives the member-side continuation readout
+by exhausting the endpoint reserve. A surviving same-solution endpoint object is passed to the
+class-membership test, where the first failed Part or Field face records the exit. Thus the reserve
+calculation and the CM witness calculation are two readings of the same selected carrier, with the
+forward route paying domination and the CM route classifying any admitted survivor.
+    The energy branch is the first place where the equation pays for itself. Take a smooth divergence-
+free solution of
+                            ∂t u + (u · ∇)u + ∇p = ν∆u,        ∇ · u = 0,
+on the periodic surface. Pair the equation with u and integrate in space. The transport term
+vanishes because          Z                         Z
+                                                  1
+                                (u · ∇)u · u dx =       u · ∇|u|2 dx = 0,
+                            T 3                   2  T3
+
+and the pressure term vanishes because u is divergence-free:
+                              Z                 Z
+                                  ∇p · u dx = −     p ∇ · u dx = 0.
+                                 T3                           T3
+
+
+                                                         27
+The viscous term gives the exact energy identity
+                                      1d
+                                           ∥u(t)∥2L2 + ν∥∇u(t)∥2L2 = 0.
+                                      2 dt
+After integration in time,
+                                                     Z T
+                             sup ∥u(t)∥2L2 + 2ν             ∥∇u(t)∥2L2 dt ≤ ∥u0 ∥2L2 .
+                             0≤t<T                     0
+
+This is the baseline control. It is global, exact, and same-solution. It controls total kinetic energy
+and the time-integrated first derivative. A continuation proof needs more: it has to stop the solution
+from feeding that controlled energy into smaller and smaller scales.
+   The next native quantity is enstrophy. Put
+                                                    1
+                                             Y (t) = ∥∇u(t)∥2L2 .
+                                                    2
+Pair the equation with −∆u. The time derivative gives
+                             Z
+                                                    1d
+                                  ∂t u · (−∆u) dx =      ∥∇u∥2L2 ,
+                              T 3                   2 dt
+
+the pressure drops out after integration by parts, and the viscous term gives ν∥∆u∥2L2 . The enstrophy
+balance is                                                Z
+                        1d            2              2
+                             ∥∇u(t)∥L2 + ν∥∆u(t)∥L2 =          (u · ∇)u · ∆u dx.
+                        2 dt                                T3
+The right side is the source term for derivative growth. Denote it by I(t). Let CS be the Sobolev
+constant and CI the interpolation constant on the periodic surface. By Holder, Sobolev, and
+interpolation,
+                          |I(t)| ≤ ∥u∥L6 ∥∇u∥L3 ∥∆u∥L2
+                                                                1/2      1/2
+                                     ≤ CS CI ∥∇u∥L2 ∥∇u∥L2 ∥∆u∥L2 ∥∆u∥L2 .
+Hence
+                                                                3/2      3/2
+                                      |I(t)| ≤ CS CI ∥∇u∥L2 ∥∆u∥L2 .
+Young’s inequality gives
+                                                 ν
+                                      |I(t)| ≤     ∥∆u∥2L2 + Cν ∥∇u∥6L2 ,
+                                                 2
+so
+                                               Y ′ (t) ≤ Cν Y (t)3 .
+    This inequality explains both the strength and the weakness of the branch. It is a local
+continuation estimate: a bounded Y (t) controls the next derivative payment. It is also too weak to
+prove global smoothness by itself, since the comparison equation Z ′ = Cν Z 3 has finite-time growth.
+The branch has reached the precise source channel that the rest of the proof must pay.
+    To see the remaining channel at the scale where the singularity question lives, decompose the
+solution into dyadic shells. Let
+
+                  uj = ∆j u,          Ej (t) = 22j ∥uj (t)∥2L2 ,       Dj (t) = 24j ∥uj (t)∥2L2 .
+
+The projected shell equation is
+
+                                     ∂t uj − ν∆uj = −∆j P∇ · (u ⊗ u).
+
+                                                           28
+Taking the L2 pairing with 22j uj gives the scalar shell inequality
+
+                                            1d
+                                                 Ej (t) + c0 νDj (t) ≤ Φ+
+                                                                        j (t),
+                                            2 dt
+where
+                     Φj (t) = −22j ⟨∆j P∇ · (u ⊗ u), uj ⟩ ,                     Φ+
+                                                                                 j (t) = max{Φj (t), 0}.
+
+The negative part of Φj helps drain the shell. The positive part is the same-fluid nonlinear refill
+that can keep a high shell alive after heat decay has been charged.
+   Solving the scalar inequality from an entrance time t0 gives
+                                                             Z t
+                               −c0 ν22j (t−t0 )                         2j
+                    Ej (t) ≤ e                  Ej (t0 ) + C     e−c0 ν2 (t−s) Φ+
+                                                                                j (s) ds.
+                                                                           t0
+
+Write                                                                                 Z t
+                              −c0 ν22j (t−t0 )                                                    2j
+            Hj (t; t0 ) = e                      Ej (t0 ),       Rjsrc,+ (t; t0 ) =         e−c0 ν2 (t−s) Φ+
+                                                                                                           j (s) ds.
+                                                                                       t0
+
+Then
+                                         Ej (t) ≤ Hj (t; t0 ) + CRjsrc,+ (t; t0 ).
+In Dj -currency this reads
+
+               Dj (t) ≤ 22j Hj (t; t0 ) + CDjres (t; t0 ),                 Djres (t; t0 ) := 22j Rjsrc,+ (t; t0 ).
+
+The object Djres is the residual refill load. It is the source reserve after exact heat decay, legal
+through-flow, inherited parent mass, and already-paid dissipation have been separated away.
+   The residual definition matters because raw high-frequency size can be harmless. The exact
+shear solution                   h                                         i
+                                         2k                  2j
+                        u(x, t) = ae−ν2 t sin(2k x2 ) + be−ν2 t sin(2j x2 ) e1
+
+is a smooth Navier–Stokes solution with
+
+                               (u · ∇)u = 0,                 Φj (t) = 0,        Djres (t; t0 ) = 0.
+
+A proof that tries to control raw Dj2 would spend effort on pure heat decay. The proof-bearing
+target is narrower: positive nonlinear refill by the same fluid.
+    The current gold-side target is the residual lower-prefix active-square estimate. With
+
+                                       Pj↓ (t) =
+                                                   X
+                                                        Ek (t),
+                                                                 k≤j−C1
+
+the desired residual estimate has the form
+                Z T X                                            Z T
+                                                        2
+                        Pj↓ (t) 2−j Djres (t; t0 (j, t)) dt ≤ εν     DN (t) dt + C∗ 2−2δN .
+                 0    j≥N                                                         0
+
+
+This is a forward theorem, and the repo does not record it as proved from the present finite-energy,
+local-energy, pressure, cutoff, transport, and first-moment inputs. The paper keeps it as the honest
+gold obligation: prove residual source depletion, residual CTS/FCTS, or a stronger source-residue
+rigidity theorem.
+
+
+                                                                  29
+

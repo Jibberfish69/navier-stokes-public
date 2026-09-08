@@ -1,0 +1,377 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{The first rectangle and the exact unpaid integral}\label{sub:BodyCompatibleIntersection}
+
+The trace argument has reduced an infinite smoothness question to a finite
+place where the equation can be tested.  At \((N,M)=(0,1)\), the velocity must
+sit one spatial step above \(H^1\), and its first time response must sit one
+step below:
+\begin{equation}\label{eq:BodyFirstWholeTerminalRectangle}
+  u\in L^2(I_*;H^2),
+  \qquad
+  u_t\in L^2(I_*;L^2).
+\end{equation}
+Together these two rows reach \(u(T_*)\) in \(H^1\).  We now ask the original
+equation what quantity has to remain finite for this lowest rectangle to reach
+the terminal face.
+
+Write
+\begin{equation}\label{eq:BodyEnstrophyDissipationQuantities}
+\begin{aligned}
+  Z(t)&:=\norm{\Lambda u(t)}_2^2=\norm{\omega(t)}_2^2,
+  &
+  Y(t)&:=\norm{\Lambda^2u(t)}_2^2=\norm{\nabla\omega(t)}_2^2,
+  \\
+  D(t)&:=\norm{\Lambda^{3/2}u(t)}_2^2.
+\end{aligned}
+\end{equation}
+The enstrophy balance already contains the spatial row \(Y\); the only term
+capable of preventing its integration is vortex stretching.  Since the strain
+is recovered from vorticity by Riesz transforms, H\"older and the Sobolev
+embeddings give
+\begin{align}
+  \left|\int_{\R^3}\omega\cdot S\omega\,dx\right|
+  &\leq
+  \norm{\omega}_2\norm{\omega}_3\norm{S}_6
+  \notag\\
+  &\leq C Z^{1/2}D^{1/2}Y^{1/2}.
+  \label{eq:BodyFirstRectangleStretchingEstimate}
+\end{align}
+Young's inequality returns half of \(Y\) to viscosity and leaves the critical
+coefficient beside \(Z\):
+\begin{equation}\label{eq:BodyEnstrophyFromCriticalDissipation}
+  Z'(t)+\nu Y(t)
+  \leq C\nu^{-1}D(t)Z(t).
+\end{equation}
+The coefficient has isolated the endpoint interface:
+\begin{equation}\label{eq:BodyCriticalDissipationInterface}
+  D_*:=\int_0^{T_*}D(t)\,dt
+  =\int_0^{T_*}\norm{\Lambda^{3/2}u(t)}_2^2\,dt.
+\end{equation}
+
+Suppose first that \(D_*<\infty\).  Gronwall applied to
+\eqref{eq:BodyEnstrophyFromCriticalDissipation} gives
+\begin{equation}\label{eq:BodyEnstrophyAndHtwoFromDissipation}
+  \sup_{0<t<T_*}Z(t)+\int_0^{T_*}Y(t)\,dt<\infty.
+\end{equation}
+Together with the kinetic-energy row, this places
+\(u\in L^2(I_*;H^2)\).  The projected momentum equation reads
+\[
+  u_t=\nu\Delta u-\Leray\bigl((u\cdot\nabla)u\bigr),
+\]
+and its nonlinear part satisfies
+\begin{equation}\label{eq:BodyNonlinearityFromCriticalDissipation}
+  \norm{\Leray((u\cdot\nabla)u)}_2^2
+  \leq C\norm{u}_6^2\norm{\nabla u}_3^2
+  \leq C ZD.
+\end{equation}
+The uniform \(Z\) roof and the integrable \(D\) coefficient place
+\(u_t\in L^2(I_*;L^2)\).  This is exactly
+\eqref{eq:BodyFirstWholeTerminalRectangle}.
+
+Conversely, a cutoff-uniform \((0,1)\) rectangle places \(u\) in
+\(L^2(I_*;H^2)\) by monotone convergence, and the intermediate
+\(H^{3/2}\) row is then integrable.  The lower Sobolev pieces are already paid
+by the kinetic-energy identity in
+\Cref{prop:ClassicalKineticEnergyIdentity}.  We have proved the exact
+equivalence
+\begin{equation}\label{eq:BodyFirstRectangleCriticalDissipationEquivalence}
+  D_*<\infty
+  \quad\Longleftrightarrow\quad
+  \sup_{0<T<T_*}\mathfrak R_{0,1}(u;T)<\infty.
+\end{equation}
+
+The same interface can be read directly in the critical-height balance.
+Because \(D=2E_{3/2}\), its time integral is
+\begin{equation}\label{eq:BodyCriticalPrefixIdentity}
+  H(t)+\nu\int_0^tD(s)\,ds
+  =H(0)+\int_0^t\mathcal P_{1/2}(s)\,ds.
+\end{equation}
+An upper bound on the signed production prefix makes \(D_*\) finite because
+\(H\geq0\).  In the other direction, \(D_*<\infty\) gives the first rectangle,
+the adjacent trace in \Cref{lem:AdjacentHilbertScaleTrace} gives a bounded
+\(H\), and the same equality bounds the prefix.  Thus three descriptions meet
+at one interface:
+\begin{equation}\label{eq:BodyFirstRectangleSignedPrefixEquivalence}
+  \sup_{0<t<T_*}\int_0^t\mathcal P_{1/2}(s)\,ds<\infty
+  \quad\Longleftrightarrow\quad
+  D_*<\infty
+  \quad\Longleftrightarrow\quad
+  \sup_{0<T<T_*}\mathfrak R_{0,1}(u;T)<\infty.
+\end{equation}
+The signed prefix is not a cheaper route around the first rectangle.  It is
+the same missing payment written in the coordinates of the vortex.
+
+There is a regime in which the datum makes that payment.  Set
+\[
+  a(t):=\norm{\Lambda^{1/2}u(t)}_2,
+  \qquad
+  d(t):=\norm{\Lambda^{3/2}u(t)}_2^2.
+\]
+For \(\mathcal B(u,u):=\Leray((u\cdot\nabla)u)\), the dual Sobolev embeddings
+give
+\begin{align}
+  \norm{\mathcal B(u,u)}_{\dot H^{-1/2}}
+  &\leq C\norm{u\cdot\nabla u}_{3/2}
+  \notag\\
+  &\leq C\norm{u}_3\norm{\nabla u}_3
+  \leq C a(t)d(t)^{1/2}.
+  \label{eq:BodyCriticalNonlinearDualEstimate}
+\end{align}
+Pairing this source with the remaining half derivative of the velocity gives
+\begin{equation}\label{eq:BodyCriticalProductionAbsoluteEstimate}
+  |\mathcal P_{1/2}(t)|
+  \leq C a(t)d(t).
+\end{equation}
+The critical-height row becomes
+\begin{equation}\label{eq:BodySmallCriticalDataAbsorption}
+  \frac12\frac d{dt}a(t)^2
+  +\bigl(\nu-Ca(t)\bigr)d(t)
+  \leq0.
+\end{equation}
+If \(a(0)<\nu/C\), continuity prevents a first crossing of the viscous
+threshold.  Before such a crossing, the coefficient is positive and \(a\) is
+nonincreasing, so the crossing cannot occur.  Hence
+\begin{equation}\label{eq:BodySmallCriticalDataDissipation}
+  \frac12a(t)^2
+  +\bigl(\nu-Ca(0)\bigr)\int_0^t d(s)\,ds
+  \leq\frac12a(0)^2.
+\end{equation}
+Small critical data pay \(D_*\) from the beginning.  An arbitrary Schwartz
+datum need not begin below this threshold, and scaling cannot improve the
+coefficient: nonlinear production and critical dissipation change with the
+same weight.
+
+Kinetic energy can still carry a long-lived classical history into the small
+regime.  This produces a horizon beyond which a finite maximal time cannot
+sit.
+\begin{corollary}[Small-data capture horizon]
+\label[corollary]{cor:BodySmallDataCaptureHorizon}
+Let \(C\) be the constant in
+\eqref{eq:BodySmallCriticalDataAbsorption}.  If a nonzero datum
+\(u_0\in\Ssigma\) generates a finite maximal time, then
+\begin{equation}\label{eq:BodySmallDataCaptureHorizon}
+  T_*
+  \leq
+  \frac{C^4\norm{u_0}_2^4}{2\nu^5}.
+\end{equation}
+\end{corollary}
+
+\begin{proof}
+Fix \(0<T<T_*\).  The kinetic-energy identity in
+\Cref{prop:ClassicalKineticEnergyIdentity} gives
+\[
+  \int_0^T Z(t)\,dt
+  \leq\frac{\norm{u_0}_2^2}{2\nu}.
+\]
+At some \(t_0\in(0,T)\),
+\[
+  Z(t_0)\leq\frac{\norm{u_0}_2^2}{2\nu T}.
+\]
+Interpolation between the energy and enstrophy heights gives
+\[
+  a(t_0)^2
+  \leq\norm{u(t_0)}_2\norm{\Lambda u(t_0)}_2,
+  \qquad
+  a(t_0)
+  \leq\frac{\norm{u_0}_2}{(2\nu T)^{1/4}}.
+\]
+If \(T>C^4\norm{u_0}_2^4/(2\nu^5)\), the history at \(t_0\) lies below
+\(\nu/C\).  Restart the preceding first-crossing argument there:
+\[
+  \frac12a(t)^2
+  +\bigl(\nu-Ca(t_0)\bigr)\int_{t_0}^t d(s)\,ds
+  \leq\frac12a(t_0)^2,
+  \qquad t_0\leq t<T_*.
+\]
+The integral before \(t_0\) is finite by classical smoothness, and the display
+pays the rest of \(D_*\).  Equation
+\eqref{eq:BodyEnstrophyAndHtwoFromDissipation} then gives a uniform \(H^1\)
+roof, hence a uniform \(L^3\) roof, through the alleged last time.  This
+contradicts the endpoint escape already used in
+\eqref{eq:BodyFiniteEndpointForcesCriticalEscape}.  Thus no
+\(T<T_*\) can exceed the displayed horizon.
+\end{proof}
+
+For a general datum, the energy balance stops one row below \(D_*\).  It pays
+only
+\[
+  \int_0^{T_*}Z(t)\,dt<\infty.
+\]
+Interpolating \(D\leq Z^{1/2}Y^{1/2}\) inside
+\eqref{eq:BodyFirstRectangleStretchingEstimate} yields
+\begin{equation}\label{eq:BodyCubicEnstrophyObstruction}
+  Z'(t)+\nu Y(t)
+  \leq C\nu^{-3}Z(t)^3.
+\end{equation}
+The time integral of \(Z\) does not control either \(\int Z^3\) or
+\(\sup Z\).  The energy and critical calculations have met at the same
+boundary without crossing it.
+
+They still constrain the shape of any failure.  Interpolation between energy
+and enstrophy gives
+\[
+  H(t)^2
+  =\frac14\norm{\Lambda^{1/2}u(t)}_2^4
+  \leq\frac14\norm{u(t)}_2^2 Z(t),
+\]
+and a second time integration of the energy row gives
+\begin{equation}\label{eq:BodyCriticalHeightTimeOccupancy}
+  \int_0^{T_*}H(t)^2\,dt
+  \leq\frac{\norm{u_0}_2^4}{8\nu}.
+\end{equation}
+Large critical height may occur, but it cannot occupy much time.  At the same
+instant, interpolation between the energy height and the critical dissipation,
+together with the energy ceiling in
+\Cref{prop:ClassicalKineticEnergyIdentity}, gives, for a nonzero datum,
+\begin{equation}\label{eq:BodyCriticalDissipationLowerFromHeight}
+  \norm{\Lambda^{1/2}u(t)}_2
+  \leq
+  \norm{u(t)}_2^{2/3}
+  \norm{\Lambda^{3/2}u(t)}_2^{1/3}
+  \quad\Longrightarrow\quad
+  D(t)\geq\frac{8H(t)^3}{\norm{u_0}_2^4}.
+\end{equation}
+
+Let the actual history climb from a critical height \(M\geq H(0)\) to
+\(2M\).  Let \(t_1\) be its first arrival at \(2M\), and let \(t_0<t_1\) be
+its last visit to \(M\) before that arrival.  On
+\(I_M=(t_0,t_1)\), the height stays between \(M\) and \(2M\).  The occupancy
+bound derived from \Cref{prop:ClassicalKineticEnergyIdentity} gives
+\begin{equation}\label{eq:BodyCriticalDoublingIntervalLength}
+  |I_M|
+  \leq\frac{\norm{u_0}_2^4}{8\nu M^2}.
+\end{equation}
+Meanwhile
+\(|\mathcal P_{1/2}|\leq C\sqrt{2H}\,D\).  Integrating the critical balance
+over this first-passage interval gives
+\begin{equation}\label{eq:BodyCriticalDoublingDissipationCost}
+  M
+  =\int_{I_M}H'(t)\,dt
+  \leq2C\sqrt M\int_{I_M}D(t)\,dt,
+  \qquad
+  \int_{I_M}D(t)\,dt\geq\frac{\sqrt M}{2C}.
+\end{equation}
+This is the rigorous Zeno remnant.  Higher critical records are crossed in
+shorter intervals, while every completed doubling carries a larger lower cost
+in critical dissipation.  That lower cost exposes the pressure on \(D_*\); it
+does not provide the missing upper budget.
+
+Nor can an unpaid budget remain inside a fixed range of frequencies.  For
+\(K\geq1\), set
+\[
+  D_{\leq K}(t)
+  :=\int_{|\xi|\leq K}|\xi|^3|\widehat u(t,\xi)|^2\,d\xi.
+\]
+Since \(|\xi|^3\leq K|\xi|^2\) on this region, the kinetic-energy row pays
+\begin{equation}\label{eq:BodyFixedFrequencyCriticalDissipation}
+  \int_0^{T_*}D_{\leq K}(t)\,dt
+  \leq K\int_0^{T_*}Z(t)\,dt
+  \leq\frac{K\norm{u_0}_2^2}{2\nu}<\infty.
+\end{equation}
+If \(D_*\) diverges, its unpaid part moves beyond every fixed \(K\).  The
+lowest endpoint obstruction is ultraviolet: it belongs to the same narrowing
+history with which the vortex argument began.
+
+The equivalence
+\eqref{eq:BodyFirstRectangleCriticalDissipationEquivalence} concerns only the
+lowest rectangle.  It does not promote that rectangle through every temporal
+and spatial order.  To carry the complete pressure-coupled Tower to one common
+terminal datum, the argument below needs the corresponding cutoff-independent
+control at each finite coordinate.  We state that exact remaining input rather
+than treating algebraic exposure as its proof.
+
+\begin{assumption}[Whole-terminal rectangle condition]\label[assumption]{ass:BodyWholeTerminalRectangleCondition}
+Let \(u_0\in\Ssigma\), let \(\nu>0\), and let \((u,p)\) be the maximal
+classical solution generated by \((u_0,\nu)\) on \([0,T_*)\).  If
+\(T_*<\infty\), then for every finite \(N,M\in\Nzero\),
+\begin{equation}\label{eq:BodyWholeTerminalRectangleEstimate}
+  \sup_{0<T<T_*}\mathfrak R_{N,M}(u;T)<\infty.
+\end{equation}
+The pressure rows are generated by
+\eqref{eq:BodyTemporalPressureRecurrence} with the fixed decaying
+normalization.
+\end{assumption}
+Here \((N,M)\) is fixed before the supremum over \(T<T_*\) is taken.  The bound
+may depend on that finite pair.  Every rectangle still belongs to the same
+history, and a larger rectangle must return the identical derivatives on an
+overlap.
+
+Assume now that the maximal history has a finite endpoint and that
+\Cref{ass:BodyWholeTerminalRectangleCondition} holds on this branch.  Fix one
+finite pair \((N,M)\).  Every term in
+\eqref{eq:BodyRectangleNorm} is the integral of a nonnegative squared norm, and
+the intervals \((0,T)\) exhaust \(I_*\).  Thus, for any one integrand \(f\),
+\[
+  \int_{I_*}f(t)\,dt
+  =
+  \lim_{T\uparrow T_*}\int_0^T f(t)\,dt.
+\]
+The cutoff-independent bound keeps this limit finite for every adjacent row in
+the chosen rectangle:
+\begin{equation}\label{eq:BodyWholeTerminalAdjacentRows}
+  V_n\in L^2(I_*;H^{M+1}),
+  \qquad
+  V_{n+1}=\partial_tV_n\in L^2(I_*;H^{M-1}),
+  \qquad 0\leq n\leq N.
+\end{equation}
+The pressure reconstruction in
+\Cref{thm:WholeTerminalCompatibleRectangleEstimate} uses the Riesz bounds and
+finite-order Sobolev products to recover the matching rows
+\begin{equation}\label{eq:BodyWholeTerminalPressureRows}
+  Q_n\in L^1(I_*;H^M),
+  \qquad 0\leq n\leq N.
+\end{equation}
+The velocity and normalized pressure have now reached the whole interval as
+one finite pressure-complete rectangle \(\cR_{N,M}[u_0]\).
+
+Enlarge the rectangle.  The fluid does not acquire a second velocity, and a
+derivative already reached in the smaller rectangle does not change its value.
+If \(N'\leq N\) and \(M'\leq M\), let
+\(\rho_{N',M'}^{N,M}\) forget the extra rows and read the retained rows at the
+lower Sobolev height.  Every retained entry is still the same derivative of
+the same \(u\), so
+\begin{equation}\label{eq:BodyRectangleRestrictionCompatibility}
+  \rho_{N',M'}^{N,M}\cR_{N,M}[u_0]
+  =\cR_{N',M'}[u_0].
+\end{equation}
+This equality is the compatibility.  It lets every finite view be joined to
+every larger view without gluing different histories:
+\begin{equation}\label{eq:DatumSpecificCompatibleIntersection}
+  \cI[u_0]
+  :=\bigl(\cR_{N,M}[u_0]\bigr)_{N,M\in\Nzero},
+  \qquad
+  \rho_{N',M'}^{N,M}\cR_{N,M}[u_0]
+  =\cR_{N',M'}[u_0].
+\end{equation}
+The notation creates no new field.  Given a finite temporal order and spatial
+height, choose one rectangle large enough to see that derivative.  Every larger
+rectangle returns the same derivative of the same \(u\).
+
+\begin{proposition}[The mixed intersection]\label[proposition]{prop:BodyCompatibleProjectiveAssembly}
+Under \Cref{ass:BodyWholeTerminalRectangleCondition}, the velocity component
+of \(\cI[u_0]\) satisfies
+\begin{equation}\label{eq:BodyProducedMixedIntersection}
+  u\in
+  \bigcap_{r=0}^{\infty}
+  \bigcap_{m=0}^{\infty}
+  H^r(I_*;H^m(\R^3)).
+\end{equation}
+In particular,
+\begin{equation}\label{eq:CompleteSpatialRow}
+  u\in\bigcap_{m=0}^{\infty}L^2(I_*;H^m(\R^3)).
+\end{equation}
+\end{proposition}
+
+\begin{proof}
+Fix finite \(r,m\), and choose \(N\geq r\) and \(M\geq m\).
+The upper edge of this one rectangle gives
+\[
+  \partial_t^nu\in L^2(I_*;H^{M+1})
+  \hookrightarrow L^2(I_*;H^m)
+  \qquad(0\leq n\leq r).
+\]
+These are the distributional time derivatives of the same velocity field, so
+\(u\in H^r(I_*;H^m)\).  Since \(r\) and \(m\) were arbitrary, every finite
+coordinate belongs to the intersection; \(r=0\) gives
+\eqref{eq:CompleteSpatialRow}.
+\end{proof}

@@ -1,0 +1,142 @@
+---
+version: 1
+status: resolved
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  escalation_id: governance-escalation-navier-stokes
+  requested_by_chat_id: chat2
+  emitted_at: '2026-07-22T19:03:45Z'
+classification:
+  kind: shared-system-repair
+  severity: high
+  summary: >-
+    Make proof_program_completion in target-operating-contract.yaml the sole
+    Navier-Stokes global-status source for shared builders. Preserve the
+    established datum-generated whole-terminal rectangle theorem and completed
+    endpoint/restart closure; keep Silver as downstream classification. Paper
+    work is not requested.
+  reason_signature: proof-program-completion-v3
+repair_surface:
+  suspect_paths:
+  - AGENTS.md
+  - system/runner/lib/nightly_ns_completion_engine.rb
+  - system/runner/lib/nightly_ns_completion_executor.rb
+  - system/runner/lib/surface_cleaner_support.rb
+  - system/runner/lib/theorem_packet_builder.rb
+  - system/runner/lib/source_frontier_builder.rb
+  - system/runner/lib/navier_stokes_cm_referee_gate_support.rb
+  - system/runner/workers/theorem_repair_worker.rb
+  - system/runner/lib/dependency_discharge_builder.rb
+  - system/runner/lib/debt_map_builder.rb
+  - system/runner/lib/theorem_invention_support.rb
+  - system/runner/lib/research_os_mcp_server.rb
+  - system/runner/lib/release_surface_reconciler.rb
+  - system/runner/workers/v7_review_worker.rb
+  - system/runner/workers/dependency_discharge_worker.rb
+  - system/runner/lib/theorem_crank_builder.rb
+  - system/runner/lib/codex_conversation_guard.rb
+  - system/runner/lib/nightly_six_mpp_work_loop.rb
+  - system/runner/lib/submission_bundle_exporter.rb
+  - system/runner/lib/theorem_creation_builder.rb
+  - system/runner/lib/ns_cm_contrapositive_behavior_contract.rb
+  - system/runner/lib/prose_draft_builder.rb
+  - system/runner/lib/theorem_authority_gate_support.rb
+  - system/runner/lib/ns_paper_arc_pipeline.rb
+  - system/runner/lib/prose_packet_builder.rb
+  - system/runner/lib/creative_theorem_search_builder.rb
+  - system/runner/lib/auto_auditor_support.rb
+  - system/runner/lib/formalization_ledger_builder.rb
+  - system/runner/lib/nightly_parallel_research_stream.rb
+  - system/runner/lib/ns_source_spine_batch.rb
+  - system/runner/lib/nightly_pdf_crank_loop.rb
+  - system/runner/lib/release_decision_builder.rb
+  - system/runner/lib/submission_verdict_builder.rb
+  code_fingerprint_at_emit: af2a88275bba18eb1c3fb799ab4476c5a1e2e96d
+validation_surface:
+  shared_tests_to_update_or_run:
+  - system/runner/test/nightly_ns_completion_readiness_test.rb
+  - system/runner/test/theorem_packet_builder_test.rb
+  - system/runner/test/surface_cleaner_support_test.rb
+  - system/runner/test/paperization_pipeline_test.rb
+  - system/runner/test/nightly_six_mpp_work_loop_test.rb
+  - system/runner/test/v7_review_worker_cm_contract_test.rb
+  - system/runner/test/dependency_discharge_worker_test.rb
+  - system/runner/test/dependency_discharge_builder_test.rb
+  - system/runner/test/debt_map_builder_test.rb
+  - system/runner/test/theorem_invention_support_test.rb
+  - system/runner/test/release_surface_reconciler_test.rb
+  - system/runner/test/codex_conversation_guard_test.rb
+  - system/runner/test/codex_conversation_guard_check_test.rb
+  - system/runner/test/theorem_creation_builder_test.rb
+  - system/runner/test/research_os_mcp_server_test.rb
+  - system/runner/test/auto_auditor_support_test.rb
+  lane_acceptance_tests:
+  - problems/navier-stokes/tools/check_proof_program_crystallization_test.rb
+  - problems/navier-stokes/tools/check_silver_contrapositive_contract_test.rb
+  - problems/navier-stokes/tools/check_silver_generator_durability_test.rb
+  - problems/navier-stokes/tools/check_pack_before_part_resurfacing_drift.rb
+lane_snapshot:
+  queue_state: done
+  current_stage: proof-program-repair-validated
+  next_cell_type:
+  next_action: >-
+    Repo-wide proof-program finalization is complete. Preserve the established
+    datum-generated compatible-intersection proof and do not respawn historical
+    route labels as prerequisites.
+  blocking_reasons: []
+resume:
+  current_stage: proof-program-repair-validated
+  next_cell_type:
+  reopen_boundary: none
+  next_action: >-
+    No mathematical reopening is scheduled. Later Gold, Silver, VPI, matrix,
+    supplier, manuscript, review, or export work remains downstream or separate.
+resolution:
+  resolved_on: '2026-08-06'
+  status: completed-proof-authority-and-generator-repair-installed-and-validated
+  canonical_owner: system/runner/lib/navier_stokes_proof_program_authority.rb
+  write_boundary: system/runner/lib/paper_factory_workspace.rb
+  repaired_consumers:
+  - system/runner/lib/nightly_ns_completion_engine.rb
+  - system/runner/lib/nightly_ns_completion_executor.rb
+  - system/runner/lib/theorem_packet_builder.rb
+  - system/runner/lib/theorem_crank_builder.rb
+  - system/runner/lib/source_frontier_builder.rb
+  - system/runner/lib/dependency_discharge_builder.rb
+  - system/runner/lib/release_decision_builder.rb
+  - system/runner/lib/surface_cleaner_support.rb
+  - system/runner/lib/navier_stokes_cm_referee_gate_support.rb
+  - system/runner/lib/solver_loop_runner.rb
+  - system/runner/lib/research_os_live_state_support.rb
+  - system/runner/lib/chipmunk_authority_bus_support.rb
+  - system/runner/lib/theorem_authority_gate_support.rb
+  validation:
+    canonical_authority_test: 11-runs-49-assertions-green
+    proof_program_crystallization: 9-runs-304-assertions-green
+    silver_contract: 5-runs-138-assertions-green
+    silver_generator_durability: 5-runs-124-assertions-green
+    dependency_discharge_builder: 13-runs-74-assertions-green
+    source_frontier_builder: 7-runs-42-assertions-green
+    nightly_completion_readiness: 7-runs-68-assertions-green
+    surface_cleaner: 7-runs-55-assertions-green
+    research_os_live_state: 17-runs-158-assertions-green
+    chipmunk_authority_bus: 3-runs-22-assertions-green
+    live_source_frontier: completed-proof-program-no-open-obligations
+    live_dependency_discharge: completed-proof-program-no-mathematical-blocker
+  preserved_completion:
+    mathematical_status: established-complete
+    mpp_status: solved
+    producer_status: proved-datum-generated-whole-terminal-compatible-rectangles
+    closure_status: proved
+    active_direct_boundary: none
+    paper_work: outside-this-repair
+open_paths:
+  pipeline_state: problems/navier-stokes/pipeline-state.yaml
+  supporting_artifacts:
+    debt_map: problems/navier-stokes/debt-map.yaml
+    theorem_packet: problems/navier-stokes/theorem-packet.yaml
+    live_theorem_edge: problems/navier-stokes/live-theorem-edge.yaml
+    source_frontier: problems/navier-stokes/source-frontier.yaml
+    proof_assembly: problems/navier-stokes/proof-assembly.yaml
+    review_verdict: problems/navier-stokes/review-verdict.yaml

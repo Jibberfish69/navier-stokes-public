@@ -1,0 +1,126 @@
+9. Identify the restart with the original history
+
+On the left overlap [t0 , T∗ ), the pairs (u, p) and (wt0 , q t0 ) solve the same pressure-normalized problem with
+the same datum u(t0 ). Uniqueness gives
+                                          (wt0 , q t0 ) = (u, p)       on [t0 , T∗ ).
+Continuity at the terminal face then gives
+                                                         wt0 (T∗ ) = u∗ .
+On the right overlap [T∗ , t0 + δ0 ], the pairs (wt0 , q t0 ) and (w∗ , q ∗ ) solve the same pressure-normalized problem
+with datum u∗ . Uniqueness gives
+                                      (wt0 , q t0 ) = (w∗ , q ∗ )     on [T∗ , t0 + δ0 ].
+The late-slice solution agrees with the original history on the left and the endpoint restart on the right. It is
+one local classical history crossing T∗ .
+The derivative structure also matches across the terminal face. Let
+                                      Wn+ := ∂tn w∗ (T∗ ),          Pn+ := ∂tn q ∗ (T∗ ).
+Differentiating the restarted equations gives the same pressure and velocity recurrences as the left endpoint
+jet. Both recurrences are rooted at
+                                               W0+ = u∗ = V0∗ .
+Induction gives
+                                       Wn+ = Vn∗ ,           Pn+ = Q∗n        (n ≥ 0).
+Every time derivative of velocity and pressure agrees at T∗ . The preterminal solution and the restart join
+smoothly as one pressure-complete Navier–Stokes history.
+
+
+10. Extend past T∗ and contradict maximality
+
+Define                                           {︄
+                                                      (u, p)(t),   0 ≤ t < T∗ ,
+                                  (˜︁
+                                   u, ˜︁
+                                      p)(t) :=           ∗ ∗
+                                                      (w , q )(t), T∗ ≤ t ≤ T∗ + δ0 /2.
+The common endpoint state, the complete matching jet, and the late-slice overlap give
+                                     (˜︁ p) ∈ C ∞ ([0, T∗ + δ0 /2] × R3 ; R3 × R),
+                                      u, ˜︁
+and
+                                                   (˜︁
+                                                    u, ˜︁
+                                                       p)|[0,T∗ ) = (u, p).
+Thus the original u0 -generated pressure-complete classical history has a smooth continuation to a time strictly
+larger than T∗ .
+This extension contradicts the definition of T∗ as the maximal classical lifespan. Hence
+
+                                                            T∗ = ∞.
+
+
+
+
+                                                                8
+11. Conclusion: one estimate read from the intersection
+
+The familiar continuation estimates are read from the intersection afterward; they do not produce it. Once
+                                                     ⋂︂
+                                        I[u0 ] ⊂           H n (0, T∗ ; H m (R3 ))
+                                                   n,m<∞
+
+
+has supplied every finite time–space Sobolev level, a particular classical estimate uses only the finite level it
+needs. For the Lipschitz continuation estimate, choose n = 1 and m = 3. Sobolev embedding in time gives
+
+                              I[u0 ] ⊂ H 1 (0, T∗ ; H 3 (R3 )) ↪→ C([0, T∗ ]; H 3 (R3 )),
+
+and hence
+                                                   sup ∥u(t)∥H 3 < ∞.
+                                              0≤t≤T∗
+
+
+In three spatial dimensions, 3 > 1 + 32 , so Sobolev embedding in space gives
+
+                            H 3 (R3 ) ↪→ W 1,∞ (R3 ),        ∥∇u(t)∥L∞ ≤ C3 ∥u(t)∥H 3 .
+
+Under the standing hypothesis T∗ < ∞, integration over the whole interval now gives
+                              ∫︂ T∗
+                                      ∥∇u(t)∥L∞ dt ≤ C3 T∗ sup ∥u(t)∥H 3 < ∞.
+                                0                               0≤t≤T∗
+
+
+
+So the estimate appears as the finite projection
+
+                                          I[u0 ] −→ Ct Hx3 −→ L1t Wx1,∞ .
+
+Reading the estimate from the intersection means choosing its Ht1 Hx3 coordinate, taking the time trace, and
+applying the spatial Sobolev embedding. The endpoint branch reads S0 from the same intersection to obtain
+H ∞ restart data; this finite branch reads Ht1 Hx3 to obtain the conventional L1t Wx1,∞ estimate.
+
+
+
+
+                                                            9
+Contents
+1 Introduction                                                                                              11
+
+2 Analytic framework                                                                                        13
+
+3 The pressure-complete setting and mixed jet                                                               24
+
+4 Datum-generated compatible rectangles                                                                     28
+
+5 Compatible intersection, endpoint jet, and restart                                                        32
+
+6 Matrix forms of the completed intersection                                                                39
+
+7 Quantitative consequences of the compatible rectangles                                                   42
+  7.1 Completion in the global H1 mild class . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42
+  7.2 Canonical coordinates and finite majorants . . . . . . . . . . . . . . . . . . . . . . . . . . . . 45
+  7.3 Mixed velocity and pressure rows . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52
+  7.4 Frequency and critical-scale consequences . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54
+  7.5 Continuation and quantitative restart . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56
+
+8 Three-dimensional applications                                                                             57
+  8.1 Explicit closure for small critical data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 57
+  8.2 Low-rectangle and scale-local bounds . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 62
+  8.3 Vorticity and material flow . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63
+  8.4 Relative energy and the Leray–Hopf class . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 65
+
+9 Conclusion                                                                                                70
+
+A Canonical coordinate catalogue                                                                            71
+
+References                                                                                                  75
+
+
+
+
+                                                      10
+

@@ -1,0 +1,85 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{The Heat Clock and the Zeno Cascade}\label{sub:BodyHeatClock}
+
+The smaller width comes with a shorter viscous clock.
+This is already visible in the linear heat equation.
+If \(v_t=\nu\Delta v\) and the Fourier mass of \(v\) lies near \(|\xi|\simeq r^{-1}\), then
+\[
+  \widehat v(\xi,t+\delta t)
+  =e^{-\nu|\xi|^2\delta t}\widehat v(\xi,t).
+\]
+An order-one heat damping occurs when \(\nu|\xi|^2\delta t\) is of order one.
+A spatial width \(r\) is accordingly assigned the comparison time
+\begin{equation}\label{eq:BodyHeatComparisonTime}
+  \tau_\nu(r)\asymp\frac{r^2}{\nu}.
+\end{equation}
+Halving the width quarters this clock.
+
+That is a comparison clock.
+The heat calculation does not create a smaller width in the nonlinear solution, and it does not say how long the solution remains at a width it has formed.
+It says that once structure at width \(r\) is present, viscosity responds to that structure on the scale \(r^2/\nu\).
+The same narrowing that can make a spatial gradient larger also makes viscous action faster.
+
+Now place geometric widths beside those clocks:
+\[
+  r_n\asymp2^{-n}r_0,
+  \qquad
+  \tau_{\nu,n}:=\tau_\nu(r_n).
+\]
+Then
+\[
+  \tau_{\nu,n}
+  \asymp\frac{r_0^2}{\nu}4^{-n},
+  \qquad
+  \sum_{n=0}^{\infty}\tau_{\nu,n}<\infty.
+\]
+The clocks attached to successively smaller widths fit inside a finite total time.
+That is the arithmetic behind the Zeno cascade.
+
+\Needspace{15\baselineskip}
+The arithmetic has not yet produced a cascade.
+An actual cascade would require one velocity history to form widths
+\[
+  r_0>r_1>r_2>\cdots\longrightarrow0
+\]
+at times
+\[
+  t_0<t_1<t_2<\cdots\uparrow\tau<\infty,
+\]
+with the transition intervals themselves following a summable schedule.
+Neither the widths nor the relation between \(t_{n+1}-t_n\) and \(\tau_{\nu,n}\) comes from the heat multiplier alone.
+Those are claims about the coupled Navier--Stokes evolution, and every transition would have to occur in the same fluid while viscosity is already acting on the newly formed scale.
+
+The full scaling still shows why this finite-time geometry is dangerous.
+Fix a nonzero divergence-free profile \(\phi\in\Ssigma\) whose Fourier support lies in a fixed annulus, and for \(0<\ell<1\) set
+\[
+  u_\ell(x)
+  :=\ell^{-1}\phi\!\left(\frac{x-x_\ell}{\ell}\right).
+\]
+The annular support keeps each copy on one frequency scale, so \(\ell\) is the width being compared.
+This is the spatial face of one normalized profile under the Navier--Stokes rescaling.
+It is a family of comparison fields, not a sequence already realized by the fixed solution.
+Its scales are exact:
+\[
+\begin{aligned}
+  \norm{u_\ell}_2^2
+  &=\ell\norm{\phi}_2^2,
+  &
+  \norm{u_\ell}_{\dot H^{1/2}}^2
+  &=\norm{\phi}_{\dot H^{1/2}}^2,
+  \\
+  \norm{u_\ell}_{L^\infty}
+  &=\ell^{-1}\norm{\phi}_{L^\infty},
+  &
+  \norm{\nabla u_\ell}_{L^\infty}
+  &=\ell^{-2}\norm{\nabla\phi}_{L^\infty}.
+\end{aligned}
+\]
+The energy of the profile decreases with \(\ell\), its critical height stays fixed, its velocity amplitude grows like \(\ell^{-1}\), and its gradient grows like \(\ell^{-2}\).
+Its viscous comparison time is \(\ell^2/\nu\).
+The same scale change has made the local field larger, its spatial variation sharper, and the available clock shorter, even though the kinetic energy carried by the profile is disappearing.
+
+This normalized family displays the direction of concentration.
+Its kinetic energy tends to zero while its amplitude and gradient diverge.
+It does not say that the fixed Navier--Stokes history realizes this sequence, and its fixed critical height is not the growth of \(H(t)\) along an actual history.
+It says why the energy law cannot rule such concentration out.

@@ -1,0 +1,55 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  falsification_id: lemma-falsification-navier-stokes
+  generated_at: '2026-03-28T01:25:08Z'
+  generator: system/runner/lib/lemma_falsification_builder.rb
+  source_branch_set_id: extension-branches-navier-stokes
+  source_theorem_packet_id: theorem-packet-navier-stokes
+results:
+- branch_id: branch-navier-stokes-1
+  origin_obligation_id: marvin-upstream-8e939525d3f2
+  verdict: survives-first-pass
+  reasons:
+  - The branch stays close to the grounded lexicon and does not overclaim on its face.
+- branch_id: branch-navier-stokes-2
+  origin_obligation_id: marvin-upstream-2adc051dd3a8
+  verdict: survives-first-pass
+  reasons:
+  - The branch stays close to the grounded lexicon and does not overclaim on its face.
+- branch_id: branch-navier-stokes-3
+  origin_obligation_id: marvin-upstream-16fa51055da0
+  verdict: survives-first-pass
+  reasons:
+  - The branch stays close to the grounded lexicon and does not overclaim on its face.
+- branch_id: branch-navier-stokes-4
+  origin_obligation_id: marvin-upstream-269065c546af
+  verdict: reject
+  reasons:
+  - The branch leans into overclaim or unsafe-closure language.
+- branch_id: branch-navier-stokes-5
+  origin_obligation_id: marvin-upstream-558cbb8323fd
+  verdict: reject
+  reasons:
+  - The branch leans into overclaim or unsafe-closure language.
+- branch_id: branch-navier-stokes-6
+  origin_obligation_id: marvin-upstream-5d4a55021542
+  verdict: reject
+  reasons:
+  - The branch leans into overclaim or unsafe-closure language.
+- branch_id: branch-navier-stokes-7
+  origin_obligation_id: marvin-upstream-8880078593dc
+  verdict: reject
+  reasons:
+  - The branch leans into overclaim or unsafe-closure language.
+- branch_id: branch-navier-stokes-8
+  origin_obligation_id: marvin-upstream-0fdc65ea42d5
+  verdict: reject
+  reasons:
+  - The branch leans into overclaim or unsafe-closure language.
+summary:
+  survives_first_pass_count: 3
+  quarantined_count: 0
+  rejected_count: 5

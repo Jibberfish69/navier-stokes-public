@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-31T17:22:14Z",
+  "status": "invalidated_contaminated_reader_audit",
+  "invalidation": {
+    "reason": "The cold reader received the producer recovery packet, including ordered beats and transition rationales, so its verdict was not independent.",
+    "affected_checks": [
+      "cold_reader",
+      "human_prose_structural_detector"
+    ],
+    "proof_source_reverse_check_remains_valid": true
+  },
+  "live_manuscript_modified": false,
+  "producer": "thomas-writing-voice",
+  "source_packet": {
+    "path": "recovery-packet.json",
+    "sha256": "42eaefefe9bba43d01694eab55519195c3c494f6ead3fafb460d06340a81415b"
+  },
+  "candidate": {
+    "path": "candidate-v10.tex",
+    "sha256": "92e4c4d21aeb19c3ca0d0ed923daf0f4310b93233475a1a1c98412f7b1ab3399"
+  },
+  "artifact": {
+    "path": "navier-stokes-how-proof-works-backtest.pdf",
+    "sha256": "1bc4269756f18a5ce8cf3fbe85b9bfa4ff11aefb94f18e96000ec8ee1f33416b",
+    "pages": 3,
+    "page_size": "612 x 792 pt",
+    "encrypted": false
+  },
+  "render_sha256": [
+    "b8d296720684d93695b0d791b757c7ff56a89e2fc8c9089b6ff29f3494eee70e",
+    "1da45da1991394522cdf820b66d822b5219c6224153d24139c14af062e429f2f",
+    "c1dc32b73b3cb9f5384d6eab4997e826200b985ae263d004285b635c7d67697a"
+  ],
+  "independent_checks": {
+    "cold_reader": "pass",
+    "proof_source_reverse_check": "pass",
+    "human_prose_structural_detector": "pass"
+  },
+  "mechanical_checks": {
+    "latex_compile": "pass",
+    "layout_warnings": 0,
+    "visual_pages_inspected": 3,
+    "lexical_release_scan": "pass",
+    "box_scan": "pass",
+    "recovery_packet_validation": "pass",
+    "prose_release_hook_cases": 42,
+    "requested_expanded_reply_case": "pass",
+    "ordinary_long_reply_control": "blocked_as_expected",
+    "authoring_skill_validation": "pass",
+    "pdf_skill_validation": "pass"
+  },
+  "configuration_sha256": {
+    "thomas-writing-voice": "3d437e9975d171d12eeef8ba5bf99aea87bff4be4e83bac032778e4d7ee12ee5",
+    "prose_release_hook": "69ee3b324a98e7f92f8048d19b27b745f56d60bbb70532a6a4f1a2bfe09710c9",
+    "custody_lock_hook": "fbd255884019b249c34916360dfae3733d4cfbc860a76698b85dda6920d920f5",
+    "compose_pdf": "61216976175bdbf7c68a586a3e62db1fe7b504c74402bf299cedb993da0f63a1",
+    "component_register": "62d62aac8d6734c08ed5adca370c1a18aaf36391ed8e4a1c071c94adc9ce758e"
+  }
+}

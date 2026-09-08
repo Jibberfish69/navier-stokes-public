@@ -1,0 +1,226 @@
+Same-fluid labels preserve ancestry and leave the decreasing alphabet absent. Finite donor balance
+telescopes only finite truncations and leaves the terminal leaves.
+    The direct quantization theorem so fails from the installed inputs. The reduced alternatives are:
+
+                ScaleNormalizedBranchEntropy.A,           QuantizedParentCharge.A,
+                        MinimalBadAncestryCompactness.A with rigidity.
+
+The route ends at a terminal Zeno residue unless a genuine rigidity or Liouville class is produced.
+
+D.30     Local Energy And Elliptic Time Smearing
+The local-energy branch tried to use the local energy trace to forbid terminal source atoms. The
+signed local energy inequality gives compactness and admissible terminal defect measures. It leaves
+the selected positive native source component uncontrolled. The positive part can sit in a shrinking
+time slab while the signed balance remains legal.
+    The elliptic time-smearing branch tried to use pressure ellipticity or Calderon–Zygmund spreading.
+The obstruction is simple. Spatial elliptic operators act on each time slice:
+
+                                        ρ(s, y) 7−→ Ty ρ(s, y).
+
+If
+                                   ρm (s, y) = m 1(−1/m,0] (s)ρ(y),
+then the spatial operator changes ρ(y) and preserves the time support (−1/m, 0]. The terminal
+atom in time survives.
+   Thus local energy and elliptic pressure support source-wall analysis. The native terminal atom
+remains unless a separate trace, flux, or anti-concentration theorem is supplied.
+
+D.31     All Reduced Source-Wall Routes
+The all-routes source-wall pass left six forward supplier candidates:
+
+                          UniformTemporalSourceIntegrabilityp,BASAC .A,
+
+                 LocalPositiveSourceCarleson.A / PositiveRemainderDepletion.A,
+         QuantizedParentCharge.A / MinimalBadAncestryCompactness.A with rigidity,
+                     PressureSourceAC.A / LocalizedLeraySourceTetherind .A,
+        PurePressureSustainResidueLiouville.A,          TerminalPressurePureStrainLegal.A.
+No one of these was installed unconditionally from original smooth data.
+    That is the source-wall failure list in its reduced form. It says the forward deletion program
+has stopped at real mathematical doors, with explicit equations and missing theorems. The shared
+residue is the terminal zero-thickness native source concentration, plus pressure-side variants that
+need their own tether or Liouville theorem.
+
+
+
+
+                                                 106
+D.32     Source Reserve Birth
+The May source-reserve burst sharpened the source wall. Choose the first terminal same-fluid
+window W where donor-refill reserve surplus is born, and write
+                                      Z X                       !2
+                                                    X
+                           RN (W ) =           2k        Dℓ (t)    dt.
+                                          W k>N            ℓ>k+4
+
+The desired charge inequality was
+
+          RN (W ) − (1 − δ)RN (Past(W )) − Losslegal (W ) + ≤ Chargenative
+                                                        
+                                                                    N      (W ) + oN (1).
+
+The native charge had to land on the same retained terminal ledger: legal packing payment,
+participation failure, licensed Field source charge, or terminal Zeno residue already sorted in the
+witness tree.
+   The proof chose W minimally and decomposed the reserve into
+
+ inherited past reserve + first-created native reserve + child residual reserve + legal loss reserve.
+
+Minimality contracts the inherited term. Existing residual and legal ledgers route the child and
+legal terms. The survivor is
+                                first-created native reserve ≥ cη.
+   The direct proof stops here. The first-created positive-scale native donor-square reserve remains
+unpaid by the installed ledgers. Zero-radius donor ancestry is already a carrier-window support
+boundary. The retained positive-scale first-created reserve remains supplier-quarantined until a
+same-ledger payment theorem or a CM-test admission plus first Part/Field failure is proved.
+
+D.33     Zero-Moment Signed Pair
+The zero-moment attempt sharpened the source-reserve survivor again. It showed that zero first
+moment can coexist with mass bounded below by a fixed positive constant. On the first terminal
+window,
+                             Rfirst (W ) ≥ η,  Mfirst (W ) = 0.
+Split the source carrier as
+                                   Z            Z                     Z
+                 J = J+ − J− ,           J+ =       J− ,       cJ ≤       (J+ + J− ) ≤ CJ .
+                                     W          W                     W
+                                              R
+The square reserve can see a pair with cJ ≤ W (J+ + J− ) ≤ CJ while the signed first moment
+vanishes.
+   Most cases route cleanly. A partner on the wrong carrier breaks Part or Field. A partner that
+survives only through terminally shrinking windows becomes Zeno. The hard case is
+
+                 J+ and J− survive at positive scale on the same retained ledger,
+
+with square reserve bounded below by η > 0 and zero first moment.
+     The failed implication says that one packet must produce visible active height flux. That
+implication is too fast. The packets can exchange through the same retained ledger while the
+first moment cancels on every heat subwindow. The missing theorem is a same-ledger signed-pair
+no-free-sink theorem, or an equivalent two-tower donor depletion theorem.
+
+                                                    107
+D.34      Public L3 , Duhamel, And Native Source
+The public critical L3 branch has to be read more carefully than the source-wall deletion branches.
+The useful bridge is a local CM-facing translator for terminal L3 Duhamel mass on the same witness
+ledger.
+    Start with terminal critical concentration on a ledger
+
+                                      W = (Owork
+                                            NS , Q, N, r, Φ, T )
+
+and a selected concentration                      Z
+                                            ℓ−2
+                                             m          |um |3 ≥ c0 .
+                                                  Qm
+On the terminal scale, Duhamel gives
+                                                      Z t
+                   um (t) = e(t−t0 )ν∆ um (t0 ) +           e(t−s)ν∆ P ∇ · (um ⊗ um )(s) ds.
+                                                       t0
+
+    The heat side is checked by same-ledger heat ancestry. The nonlinear side is localized by the
+adjoint heat/Leray response and then captured by the paraproduct native-source argument. The
+installed branch-level conclusion is
+
+terminal L3 Duhamel response mass =⇒ carrier-window support outside the exit conclusion∨¬PartN,Q ∨Legal.
+
+With retained carrier support and Part, the local public translator gives the Field-facing critical
+readout.
+   This is a different role from the positive supplier route. It proves the same-ledger terminal
+branch: once terminal L3 Duhamel mass is already present on the same ledger, the local branch is
+routed into the CM witness grammar.
+
+D.35      Terminal Leray Saturation
+The terminal Leray branch sits next to the L3 translator. After legal commutator removal, the
+retained source work has the form
+                                     Z
+                                                       loc
+                                   − (wj ⊗ w  ej ) : ∇S<j  u.
+
+The desired saturated square is
+                              Z                    Z
+                                             loc      loc
+                            − (wj ⊗ wj ) : ∇S<j u = ⟨S<j  wj , wj ⟩.
+
+Writing
+                                                w
+                                                ej = wj + δj
+leaves the signed-partner defect            Z
+                                                               loc
+                                        −       (wj ⊗ δj ) : ∇S<j  u.
+
+    In the local L3 translator, the same-family signed-partner defect is handled by the installed
+signed-partner no-free-defect theorem. That closes the local terminal L3 route.
+    The independent pressure-Leray route remains open. An elliptic pressure lobe still needs a
+transported source/donor edge theorem. The remaining pressure-side residue is
+
+          PressureLobeSourceTether.A or PressureSustainResidueToSourceResidue.A.
+
+                                                       108
+D.36     Critical H 1/2
+The H 1/2 audit is conditional. It remains a candidate translator. The proposed witness is a selected
+critical dyadic signal:                X
+                                              2j ∥Pj u(tm )∥2L2 (Qm )
+                                     |j−Jm |≤C
+
+with a positive terminal lower bound or normalized divergence.
+    The physical split is useful. L3 sees critical size. H 1/2 sees critical size together with frequency
+placement. So an H 1/2 terminal signal has two readings.
+    The amplitude reading routes to the installed local L3 translator. The pure oscillatory reading
+keeps amplitude under control and concentrates the defect in frequency organization. With retained
+carrier support and Part, that pure oscillatory branch should be a Field failure: neighboring towers
+lose coherent agreement at the selected depth.
+    The missing lemmas are exact:
+
+                 SameLedgerHHalfExtraction.A,           HHalfOscillationFieldExit.A,
+                                 HHalfAmplitudeToL3Translator.A.
+
+Until those are proved, H 1/2 remains a conditional translator.
+
+D.37     What The Failed Attempts Have In Common
+Across the positive branches the same pattern recurs:
+
+                     remove local or legal pieces
+                      =⇒ isolate an edge, collar, source, or reserve packet
+                      =⇒ convert the residue to a one-sided or terminal object
+                      =⇒ find a smaller survivor.
+
+The survivors have structure:
+                                  half-derivative lower-shell deficit,
+                                      lower-prefix active square,
+                            weighted quotient mode and affine moments,
+                                   same-ledger signed-pair reserve,
+                             terminal zero-thickness native source atom,
+                                    pure pressure-sustain residue,
+                                conditional critical H 1/2 field defect.
+
+Each survivor is a real mathematical stopping point for the direct positive proof. Each proposed
+payment exposed a sharper unpaid object.
+
+D.38     How The Class-Membership Route Uses The Failure Record
+The class-membership route uses the open positive estimates as the failure record. It changes the
+proof role of the bad terminal object. Given an obstruction O reached by the positive program, the
+split is
+                                       Opass    and     Ofail .
+
+                                                  109
+The pass branch is the continuation branch:
+
+                      Opass =⇒ PartN,Q ∧ FieldN,r,Q =⇒ Member(Q; Owork
+                                                                  NS ).
+
+The fail branch must do real work. Carrier loss remains carrier-window support before admission;
+an admitted obstruction must land in Part or Field:
+
+      Ofail =⇒ CM-test-admissible terminal obstruction =⇒ ¬PartN,Q ∨ ∀r > 0 ¬FieldN,r,Q .
+
+Only after the first Part/Field failure is derived does the class-exit conclusion apply:
+
+                              Exit(Q; Owork                work
+                                       NS ) := ¬Member(Q; ONS ).
+
+   This is why the failed attempts belong in the paper. They identify the actual objects a finite-time
+breakdown claim would have to carry. The CM proof then asks whether that same terminal object
+remains in the Navier–Stokes class or loses Part or Field.
+
+
+
+
+                                                 110
+

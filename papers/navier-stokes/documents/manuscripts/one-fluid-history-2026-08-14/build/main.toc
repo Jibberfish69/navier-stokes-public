@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}The terminal problem belongs to one history}{2}{section.1}%
+\contentsline {section}{\numberline {2}The equation generates its pressure-complete jet}{3}{section.2}%
+\contentsline {section}{\numberline {3}Whole-terminal adjacent rectangles}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Why the basic unit has two adjacent rows}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}The datum-generated terminal estimate}{4}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Overlap creates one all-orders endpoint}{5}{section.4}%
+\contentsline {section}{\numberline {5}The complete spatial row pays for the equation}{6}{section.5}%
+\contentsline {section}{\numberline {6}The endpoint carries the actual pressure-complete jet}{7}{section.6}%
+\contentsline {section}{\numberline {7}Restart of the same history}{8}{section.7}%
+\contentsline {section}{\numberline {8}The critical-height block is a consequence}{8}{section.8}%
+\contentsline {section}{\numberline {A}Analytic facts used by the proof}{9}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Sobolev multiplication}{9}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}The adjacent Hilbert triple}{9}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Spatial smoothness from all finite orders}{10}{subsection.A.3}%
+\contentsline {section}{\numberline {B}Problem fidelity}{10}{appendix.B}%

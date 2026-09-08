@@ -1,0 +1,467 @@
+<section id="ns-source-coherence-map" aria-label="Navier–Stokes source-coherence smoothness reduction">
+  <style>
+    #ns-source-coherence-map {
+      color: var(--foreground);
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+    }
+
+    #ns-source-coherence-map *,
+    #ns-source-coherence-map *::before,
+    #ns-source-coherence-map *::after {
+      box-sizing: border-box;
+    }
+
+    #ns-source-coherence-map .sc-intro {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      align-items: flex-start;
+      margin-bottom: 1rem;
+    }
+
+    #ns-source-coherence-map .sc-intro-copy {
+      min-width: 0;
+      max-width: 52rem;
+    }
+
+    #ns-source-coherence-map .sc-kicker {
+      color: var(--muted-foreground);
+      margin-bottom: 0.3rem;
+    }
+
+    #ns-source-coherence-map .sc-flow {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 2rem minmax(0, 1fr) 2rem minmax(0, 1fr) 2rem minmax(0, 1fr) 2rem minmax(0, 1fr);
+      align-items: stretch;
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+
+    #ns-source-coherence-map .sc-node {
+      min-width: 0;
+      padding: 0.65rem 0.1rem;
+      border-top: 2px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      gap: 0.45rem;
+    }
+
+    #ns-source-coherence-map .sc-node[data-state="proved"] {
+      border-top-color: var(--viz-series-1);
+    }
+
+    #ns-source-coherence-map .sc-node[data-state="open"] {
+      border-top-color: var(--viz-series-2);
+    }
+
+    #ns-source-coherence-map .sc-node[data-state="target"] {
+      border-top-color: var(--primary);
+    }
+
+    #ns-source-coherence-map .sc-node-title,
+    #ns-source-coherence-map .sc-node-body {
+      overflow-wrap: anywhere;
+    }
+
+    #ns-source-coherence-map code {
+      overflow-wrap: anywhere;
+      word-break: break-word;
+      white-space: normal;
+    }
+
+    #ns-source-coherence-map .sc-node-state {
+      color: var(--muted-foreground);
+      margin-top: auto;
+    }
+
+    #ns-source-coherence-map .sc-arrow {
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted-foreground);
+    }
+
+    #ns-source-coherence-map .sc-arrow::before {
+      content: "";
+      height: 1px;
+      flex: 1;
+      background: var(--border);
+    }
+
+    #ns-source-coherence-map .sc-arrow::after {
+      content: "›";
+    }
+
+    #ns-source-coherence-map .sc-arrow[data-state="open"]::before {
+      background: repeating-linear-gradient(
+        to right,
+        var(--viz-series-2) 0,
+        var(--viz-series-2) 0.22rem,
+        transparent 0.22rem,
+        transparent 0.43rem
+      );
+    }
+
+    #ns-source-coherence-map .sc-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+      gap: 1rem;
+      align-items: stretch;
+    }
+
+    #ns-source-coherence-map .sc-section {
+      min-width: 0;
+    }
+
+    #ns-source-coherence-map .sc-section-title {
+      margin-bottom: 0.3rem;
+    }
+
+    #ns-source-coherence-map .sc-section-note {
+      color: var(--muted-foreground);
+      margin-bottom: 0.75rem;
+    }
+
+    #ns-source-coherence-map .sc-equation {
+      overflow-wrap: anywhere;
+      text-align: center;
+      margin-bottom: 0.7rem;
+    }
+
+    #ns-source-coherence-map .sc-payment {
+      display: grid;
+      grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+      gap: 1rem;
+      margin-bottom: 0.75rem;
+    }
+
+    #ns-source-coherence-map .sc-paid,
+    #ns-source-coherence-map .sc-unpaid {
+      min-width: 0;
+      padding-top: 0.5rem;
+    }
+
+    #ns-source-coherence-map .sc-paid {
+      border-top: 2px solid var(--viz-series-1);
+    }
+
+    #ns-source-coherence-map .sc-unpaid {
+      border-top: 2px solid var(--viz-series-2);
+    }
+
+    #ns-source-coherence-map .sc-audit-list {
+      display: grid;
+      gap: 0.45rem;
+    }
+
+    #ns-source-coherence-map .sc-audit-row {
+      display: grid;
+      grid-template-columns: 5.4rem minmax(0, 1fr);
+      gap: 0.55rem;
+      align-items: baseline;
+    }
+
+    #ns-source-coherence-map .sc-audit-label {
+      color: var(--muted-foreground);
+    }
+
+    #ns-source-coherence-map .sc-normal-form {
+      min-width: 0;
+      padding: 0.7rem 0;
+    }
+
+    #ns-source-coherence-map .sc-normal-form-title {
+      margin-bottom: 0.4rem;
+    }
+
+    #ns-source-coherence-map .sc-normal-form-line {
+      overflow-wrap: anywhere;
+      text-align: center;
+    }
+
+    #ns-source-coherence-map .sc-normal-form-line + .sc-normal-form-line {
+      margin-top: 0.25rem;
+    }
+
+    #ns-source-coherence-map .sc-normal-form-note {
+      color: var(--muted-foreground);
+      margin-top: 0.45rem;
+      overflow-wrap: anywhere;
+    }
+
+    #ns-source-coherence-map .sc-plot {
+      width: 100%;
+      min-height: 15rem;
+      display: block;
+      margin-bottom: 0.7rem;
+    }
+
+    #ns-source-coherence-map .sc-foot {
+      margin-top: 1rem;
+      color: var(--muted-foreground);
+    }
+
+    @media (max-width: 820px) {
+      #ns-source-coherence-map .sc-flow {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      #ns-source-coherence-map .sc-arrow {
+        min-height: 1.8rem;
+        flex-direction: column;
+      }
+
+      #ns-source-coherence-map .sc-arrow::before {
+        width: 1px;
+        height: 1.2rem;
+        flex: 0 0 auto;
+      }
+
+      #ns-source-coherence-map .sc-arrow::after {
+        content: "⌄";
+      }
+
+      #ns-source-coherence-map .sc-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    @media (max-width: 560px) {
+      #ns-source-coherence-map .sc-intro {
+        flex-direction: column;
+      }
+
+      #ns-source-coherence-map .sc-payment {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+  </style>
+
+  <div class="sc-intro">
+    <div class="sc-intro-copy">
+      <div class="sc-kicker text-small">July 22 consolidated Gold route</div>
+      <div>The signed q-current is now an exact Dini–Carleson source-coherence tail. Energy pays its mass and every fixed-low interaction. Four canonical one-step normal-form attempts are classified: the bilinear source correction is resonant, response-only storage returns the open action in the unrestricted-port model, the first parent-resolved multiplier retains the coherent-collapse loss, and one auxiliary Stokes value leaves an uncontrolled nonlinear parent insertion.</div>
+    </div>
+    <div class="text-small text-muted">GLOBAL SMOOTHNESS OPEN</div>
+  </div>
+
+  <div class="sc-flow" aria-label="Proof dependency chain">
+    <div class="sc-node" data-state="proved">
+      <span class="sc-node-title">P<sub>H</sub> = 2J<sub>sing</sub></span>
+      <span class="sc-node-body text-small">Homochiral work cancels; the complete heterochiral singleton current remains.</span>
+      <span class="sc-node-state text-small">PROVED IDENTITY</span>
+    </div>
+    <div class="sc-arrow" aria-hidden="true"></div>
+    <div class="sc-node" data-state="proved">
+      <span class="sc-node-title">R<sub>K</sub>(T) = ∫₀ᵀ∫<sub>K</sub><sup>∞</sup> Π</span>
+      <span class="sc-node-body text-small">All q-faces and fixed/coarse exteriors have been cancelled or paid.</span>
+      <span class="sc-node-state text-small">EXACT q RESIDUAL</span>
+    </div>
+    <div class="sc-arrow" aria-hidden="true"></div>
+    <div class="sc-node" data-state="proved">
+      <span class="sc-node-title">R<sub>K</sub> = bounded old data + ∫(k−K)<sub>+</sub>dμ<sub>T</sub></span>
+      <span class="sc-node-body text-small">The remaining signed history becomes a positive parabolic Gram action.</span>
+      <span class="sc-node-state text-small">PROVED REDUCTION</span>
+    </div>
+    <div class="sc-arrow" data-state="open" aria-hidden="true"></div>
+    <div class="sc-node" data-state="open">
+      <span class="sc-node-title">sup<sub>T&lt;T*</sub> Σ λ<sub>j</sub>A<sub>j</sub>(T) &lt; ∞</span>
+      <span class="sc-node-body text-small">The datum bound is not installed. The transverse component is absent; the available positive endpoint/loss estimates are only bounded by, or return to, the open Dini endpoint/interior quantities. Routing is circular, not an equality or payment.</span>
+      <span class="sc-node-state text-small">OPEN DATUM BOUND</span>
+    </div>
+    <div class="sc-arrow" data-state="open" aria-hidden="true"></div>
+    <div class="sc-node" data-state="target">
+      <span class="sc-node-title">Uniform Ḣ<sup>1/2</sup> roof → continuation</span>
+      <span class="sc-node-body text-small">This would exclude every finite first singular time.</span>
+      <span class="sc-node-state text-small">SMOOTHNESS TARGET</span>
+    </div>
+  </div>
+
+  <div class="sc-grid">
+    <div class="sc-section">
+      <div class="sc-section-title">Exact payment split</div>
+      <div class="sc-section-note text-small">For each terminal prefix T, μ<sub>T</sub> is positive but is not monotone as T changes.</div>
+      <div class="sc-equation">dμ<sub>T</sub> = (2π)<sup>−1</sup> · νk<sup>4</sup>/(ν²k<sup>4</sup>+ω²) · |ĝ<sub>T</sub>(ω,k)|² dkdω</div>
+      <div class="sc-payment">
+        <div class="sc-paid">
+          <div>Energy pays</div>
+          <div class="text-small">∫dμ<sub>T</sub> ≲ ‖u₀‖₂²</div>
+          <div class="text-small">and ∫<sub>k≤K</sub> k dμ<sub>T</sub> ≤ K∫dμ<sub>T</sub></div>
+        </div>
+        <div class="sc-unpaid">
+          <div>Still unpriced</div>
+          <div class="text-small">∫(k−K)<sub>+</sub>dμ<sub>T</sub></div>
+          <div class="text-small">equivalently: Σ λ<sub>j</sub>A<sub>j</sub>, or high-pass critical stock + viscous action of the same Duhamel part</div>
+        </div>
+      </div>
+      <div class="sc-audit-list">
+        <div class="sc-audit-row">
+          <span class="sc-audit-label text-small">Dyadic tail</span>
+          <span class="text-small">Exact Abel summation gives Σ λ<sub>j</sub>A<sub>j</sub>. Merely bounding sup λ<sub>j</sub>A<sub>j</sub> still allows one fixed positive amount per scale.</span>
+        </div>
+        <div class="sc-audit-row">
+          <span class="sc-audit-label text-small">All-high</span>
+          <span class="text-small">Low–low, low–high, and high–high-to-fixed-low source terms have finite Gram. Only the complete-Leray all-high relay can diverge.</span>
+        </div>
+        <div class="sc-audit-row">
+          <span class="sc-audit-label text-small">Causal split</span>
+          <span class="text-small">The signed unique-output/reconvergence combination is the full Gram modulo old data—and, by helicity, the common positive output-helicity response—not a smaller action.</span>
+        </div>
+        <div class="sc-audit-row">
+          <span class="sc-audit-label text-small">Receiver defect</span>
+          <span class="text-small">If D<sub>j</sub>=b<sub>j+1</sub>−(1−ε)b<sub>j</sub>, then 2Σ[D<sub>j</sub>]<sub>+</sub>=Σ|D<sub>j</sub>|+εΣb<sub>j</sub> plus boundary terms. The positive defect explicitly contains the open Dini bulk.</span>
+        </div>
+        <div class="sc-audit-row">
+          <span class="sc-audit-label text-small">Donor charge</span>
+          <span class="text-small">Counting each heterochiral triad once with the correct frequency weight returns J<sub>sing</sub> itself. Dropping the weight loses one spatial moment; making the charge nonnegative adds a new positive clipping.</span>
+        </div>
+        <div class="sc-audit-row">
+          <span class="sc-audit-label text-small">Radial q faces</span>
+          <span class="text-small">Every face piece of one parent pair lands at the same output and has rank-one positive cross-Gram. The pieces restore the full radial gap; narrowing q gives no contraction.</span>
+        </div>
+        <div class="sc-audit-row">
+          <span class="sc-audit-label text-small">Parent pairs</span>
+          <span class="text-small">An exact counterpair matches every radial quadratic row, each pair-labelled leading source and its whole Stokes history, and the leading complete Gram, yet its full η<sup>6</sup> Gram feedback has opposite signs. Those observables do not determine the joined signed correction.</span>
+        </div>
+        <div class="sc-audit-row">
+          <span class="sc-audit-label text-small">Next theorem</span>
+          <span class="text-small">Prove <code>CompleteAllHigh<wbr>SignedFeedbackNormalForm.A</code> as a nonperturbative, bounded-below storage for the actual nonlinear same-history parent allocation, refill, collapse, and reconvergence. Separately, datum-dependent cumulative one-history packing would suffice for the stronger source-square criterion; fixed-viscosity no-waste/profile rigidity remains another live route.</span>
+        </div>
+        <div class="sc-normal-form" aria-label="Exact missing global normal form">
+          <div class="sc-normal-form-title text-small">Exact missing global normal form</div>
+          <div class="sc-normal-form-line">A<sub>q,L</sub><sup>hhh</sup>(T) = Σ<sub>j≥J(L)</sub> λ<sub>j</sub> α<sub>j,L</sub><sup>hhh</sup>(T)</div>
+          <div class="sc-normal-form-line">F<sub>q,L</sub><sup>hhh</sup> = ∂<sub>T</sub>A<sub>q,L</sub><sup>hhh</sup>, &nbsp; F<sub>q,L</sub><sup>hhh</sup> = −∂<sub>t</sub>B<sub>q,L</sub> + R<sub>q,L</sub></div>
+          <div class="sc-normal-form-line">B<sub>q,L</sub> = K<sub>q,L</sub> − E<sub>q,L</sub>, &nbsp; R<sub>q,L</sub> = I<sub>q,L</sub> + ∂<sub>t</sub>K<sub>q,L</sub></div>
+          <div class="sc-normal-form-line">|K<sub>q,L</sub>(0)| + sup<sub>T&lt;T*</sub>[E<sub>q,L</sub>(T)−K<sub>q,L</sub>(T)]<sub>+</sub> + ∫₀<sup>T*</sup>[I<sub>q,L</sub>+∂<sub>t</sub>K<sub>q,L</sub>]<sub>+</sub>dt ≤ C(u₀,ν,L)</div>
+          <div class="sc-normal-form-note text-small">K is the missing mixed reservoir: it must dominate terminal response stock E while being depleted at the interior Dini rate I. “Global” means uniform in critical amplitude and parent multiplicity along the one actual history.</div>
+        </div>
+        <div class="sc-audit-row">
+          <span class="sc-audit-label text-small">Source form</span>
+          <span class="text-small">A quadratic correction needs m=(νΦ)<sup>−1</sup>, Φ=|k|²−|p|²−|q|². Lawful nonzero parent pairs have Φ=0, giving the secular daughter t e<sup>−3νt</sup>Q rather than a boundary term.</span>
+        </div>
+        <div class="sc-audit-row">
+          <span class="sc-audit-label text-small">Response form</span>
+          <span class="text-small">For an independent, unrestricted source port, cancellation forces B=−E<sub>z</sub>; then R=I<sub>z</sub>. The negative boundary is the open terminal critical stock and the positive remainder is the open interior Dini bulk. Whether the actual Navier–Stokes source range has the needed richness remains unproved.</span>
+        </div>
+        <div class="sc-audit-row">
+          <span class="sc-audit-label text-small">Parent form</span>
+          <span class="text-small">Resolving p uniquely gives m<sub>*</sub>∝[|k|²+|p|²+|k−p|²]<sup>−1</sup>. It smooths one fiber integration, but its quartic remainder still costs M<sub>N</sub>≍N³ on the lawful coherent family.</span>
+        </div>
+        <div class="sc-audit-row">
+          <span class="sc-audit-label text-small">Stokes value</span>
+          <span class="text-small">The auxiliary heat-future value is present-state computable, but its pure response square cancels. What remains is affine and lacks a universal free-response lower bound: a single active parent supplies examples with nonzero heat-weighted coefficient. The actual nonlinear derivative also leaves an uncontrolled nonlinear parent-insertion term.</span>
+        </div>
+        <div class="sc-audit-row">
+          <span class="sc-audit-label text-small">Source endpoint</span>
+          <span class="text-small">The radial null cancels equal-radius parents, but the sharp global estimate is ‖Λ<sup>−1/2</sup>U‖₂ ≲ ‖Λu‖₂², leaving an unpaid enstrophy square.</span>
+        </div>
+        <div class="sc-audit-row">
+          <span class="sc-audit-label text-small">Overlap</span>
+          <span class="text-small">X² ≤ BC and |G| is finite, but a sharp shell profile keeps ∫X divergent.</span>
+        </div>
+        <div class="sc-audit-row">
+          <span class="sc-audit-label text-small">Time lens</span>
+          <span class="text-small">Maximal regularity subtracts exact heat layers and time increments, but supplies no hidden half derivative; a short intense source can leave terminal stock.</span>
+        </div>
+        <div class="sc-audit-row">
+          <span class="sc-audit-label text-small">Stronger ask</span>
+          <span class="text-small">∫‖Λ<sup>−1/2</sup>Q‖₂²dt &lt; ∞ would suffice, but standard bounds ask for ∫(A<sub>+</sub>+A<sub>−</sub>)²dt.</span>
+        </div>
+        <div class="sc-audit-row">
+          <span class="sc-audit-label text-small">Packing route</span>
+          <span class="text-small">Lawful normalized helical parent fibers realize M<sub>N</sub> ≍ N<sup>3</sup> collapse even across one Stokes lifetime. Only a datum-dependent cumulative packing theorem for the one continuing history could rescue the stronger source-square route.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sc-section">
+      <div class="sc-section-title">Viscous-time coherence lens</div>
+      <div class="sc-section-note text-small">Move the point. For an arbitrary source the lower-right region is high frequency and viscous-time coherent. For the genuine source, the resolvent factor cancels: this diagram locates the action but does not pay a hidden derivative.</div>
+      <div class="viz-controls">
+        <label class="form-label" for="sc-k-ratio">
+          <span>frequency k/K</span><span class="text-muted" id="sc-k-value">3.00</span>
+          <input class="form-range" id="sc-k-ratio" type="range" min="0" max="6" step="0.05" value="3" />
+        </label>
+        <label class="form-label" for="sc-omega-ratio">
+          <span>|ω|/(νk²)</span><span class="text-muted" id="sc-omega-value">0.60</span>
+          <input class="form-range" id="sc-omega-ratio" type="range" min="0" max="6" step="0.05" value="0.6" />
+        </label>
+      </div>
+      <svg class="sc-plot" id="sc-plot" viewBox="0 0 520 290" role="img" aria-label="Frequency versus temporal incoherence multiplier map">
+        <rect x="58" y="24" width="426" height="222" fill="transparent"></rect>
+        <rect x="129" y="209" width="355" height="37" fill="var(--viz-series-1)" opacity="0.09"></rect>
+        <rect x="129" y="24" width="355" height="185" fill="var(--viz-series-2)" opacity="0.08"></rect>
+        <line x1="58" y1="246" x2="484" y2="246" stroke="var(--border)"></line>
+        <line x1="58" y1="246" x2="58" y2="24" stroke="var(--border)"></line>
+        <line x1="129" y1="246" x2="129" y2="24" stroke="var(--border)" stroke-dasharray="5 5"></line>
+        <line x1="58" y1="209" x2="484" y2="209" stroke="var(--border)" stroke-dasharray="5 5"></line>
+        <text class="text-small" x="129" y="267" fill="var(--muted-foreground)" text-anchor="middle">k/K = 1</text>
+        <text class="text-small" x="42" y="213" fill="var(--muted-foreground)" text-anchor="end">1</text>
+        <text class="text-small" x="271" y="284" fill="var(--muted-foreground)" text-anchor="middle">frequency k/K →</text>
+        <text class="text-small" x="15" y="136" fill="var(--muted-foreground)" text-anchor="middle" transform="rotate(-90 15 136)">incoherence →</text>
+        <text class="text-small" x="305" y="232" fill="var(--muted-foreground)" text-anchor="middle">coherent high-k</text>
+        <text class="text-small" x="307" y="45" fill="var(--muted-foreground)" text-anchor="middle">oscillatory high-k</text>
+        <circle id="sc-point-halo" cx="271" cy="224" r="11" fill="var(--primary)" opacity="0.18"></circle>
+        <circle id="sc-point" cx="271" cy="224" r="5" fill="var(--primary)"></circle>
+      </svg>
+      <div class="viz-grid" aria-live="polite">
+        <div class="card viz-stat">
+          <div class="text-small text-muted">ν × coherence multiplier</div>
+          <div class="viz-stat-value" id="sc-coherence">0.735</div>
+        </div>
+        <div class="card viz-stat">
+          <div class="text-small text-muted">high-pass weight (k/K−1)<sub>+</sub></div>
+          <div class="viz-stat-value" id="sc-highpass">2.000</div>
+        </div>
+        <div class="card viz-stat">
+          <div class="text-small text-muted">normalized tail weight</div>
+          <div class="viz-stat-value" id="sc-combined">1.471</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sc-foot text-small">Honest endpoint: the missing global normal form is now sharply typed, not constructed. It must be a nonperturbative bounded-below reservoir for actual nonlinear same-history parent allocation and reconvergence. The bilinear source correction, unrestricted-port response-only storage, first parent-resolved correction, and one auxiliary Stokes value fail for the reasons above; higher parent-coupled iterations remain unclassified. Separately, datum-dependent cumulative one-history packing would suffice for the stronger source-square criterion and is not proved equivalent to the reservoir; fixed-viscosity no-waste/profile rigidity remains another live route. Global smoothness is not proved.</div>
+
+  <script>
+    (() => {
+      const root = document.getElementById("ns-source-coherence-map");
+      const kInput = root.querySelector("#sc-k-ratio");
+      const omegaInput = root.querySelector("#sc-omega-ratio");
+      const kValue = root.querySelector("#sc-k-value");
+      const omegaValue = root.querySelector("#sc-omega-value");
+      const coherenceValue = root.querySelector("#sc-coherence");
+      const highpassValue = root.querySelector("#sc-highpass");
+      const combinedValue = root.querySelector("#sc-combined");
+      const point = root.querySelector("#sc-point");
+      const halo = root.querySelector("#sc-point-halo");
+
+      function update() {
+        const kRatio = Number(kInput.value);
+        const omegaRatio = Number(omegaInput.value);
+        const normalizedCoherence = 1 / (1 + omegaRatio * omegaRatio);
+        const highpass = Math.max(kRatio - 1, 0);
+        const combined = normalizedCoherence * highpass;
+        const x = 58 + (426 * kRatio / 6);
+        const y = 246 - (222 * omegaRatio / 6);
+
+        kValue.textContent = kRatio.toFixed(2);
+        omegaValue.textContent = omegaRatio.toFixed(2);
+        coherenceValue.textContent = normalizedCoherence.toFixed(3);
+        highpassValue.textContent = highpass.toFixed(3);
+        combinedValue.textContent = combined.toFixed(3);
+        point.setAttribute("cx", x.toFixed(2));
+        point.setAttribute("cy", y.toFixed(2));
+        halo.setAttribute("cx", x.toFixed(2));
+        halo.setAttribute("cy", y.toFixed(2));
+      }
+
+      kInput.addEventListener("input", update);
+      omegaInput.addEventListener("input", update);
+      update();
+    })();
+  </script>
+</section>

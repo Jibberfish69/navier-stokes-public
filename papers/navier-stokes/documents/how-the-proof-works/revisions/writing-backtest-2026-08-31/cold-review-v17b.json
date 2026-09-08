@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "review_kind": "cold_reader",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/critic-packet-v17.json",
+    "sha256": "8c794813330fece3b0980387a1c351168739c0b7530eeec4eb394a86853bc2ff"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/candidate-v17.tex",
+    "sha256": "8fa1bd3c0d12eb39572368d4455746730ca4b1f78b024da0e1d2155251e41aec"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-1.png",
+      "sha256": "f926ccff35e20332f1e0abd682b30ac74f96f37f22dd2e3dda3279bc0ef44183"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-2.png",
+      "sha256": "bdffd29142252e6c628d633f42f0106b29955e91b1d8206343fc0af8546cdbd7"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-3.png",
+      "sha256": "530948734a64cf1e90d348282f6359ff41b41d5e7ed5e77e59795bd10c197059"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-4.png",
+      "sha256": "43fb9979abce971934b32ca43b8c44d1f3974d80eed69b18f340732682347e62"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/cold_reader_v17b",
+    "task_name": "cold_reader_v17b",
+    "isolation": "fork_none",
+    "request_nonce": "3a31669a05534a0eb4a8cb9bf8c11c7e"
+  },
+  "decision": {
+    "verdict": "fail",
+    "first_divergence": {
+      "exact_span": "Under this change, \\[ \\partial_tu_\\lambda,\\qquad (u_\\lambda\\cdot\\nabla)u_\\lambda,\\qquad \\nabla p_\\lambda,\\qquad \\nu\\Delta u_\\lambda \\] Each term acquires the factor \\(\\lambda^3\\).",
+      "mechanism": "The introductory clause leaves the displayed list without a predicate, and the following sentence restarts after the reader has already met a syntactic break at the key scale-balance step.",
+      "repair_constraint": "Retain all four pressure-complete terms, their common \\(\\lambda^3\\) factor, and the nonlinear-transport-versus-viscosity point; make the scaling relation one complete grammatical movement before stating its consequence."
+    }
+  }
+}

@@ -1,0 +1,210 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Classical Navier--Stokes Problem and Continuation Criterion}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Methods}{1}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Proof program overview summary + explanation}{1}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Repository structure and terminology (trunk, branch, leaf)}{1}{subsubsection.1.2.2}%
+\contentsline {section}{\numberline {2}Proof program ((demonstrated and explained with example)(full top-level reasoning and train-of-thought)(reader facing walkthrough))}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Silver Standard (class membership and contrapositive proof)}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Gold Counterpart (forward-positive proof)}{2}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Public mainstream attempts (common-place revisiting of known routes)}{3}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Our Original attempt: four body method (trying to handle everything at once)}{3}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Still Bootstrapping estimates and narrowing the \(\ast \) (by example (aka ``the never ending chase''))}{3}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Realizations, Insights, and Final Obstructions to the gold standard route}{4}{subsubsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.3}Silver Witness Details}{4}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Handling gold standard obstructions}{4}{subsubsection.2.3.1}%
+\contentsline {paragraph}{First departure on the same smooth-data history (example continued).}{4}{paragraph*.1}%
+\contentsline {paragraph}{Finite-Time Breakdown as a Same-Solution Terminal-Object Claim ((explaining \(T_*\))).}{4}{paragraph*.2}%
+\contentsline {paragraph}{Class membership exit and the participation complement.}{5}{paragraph*.3}%
+\contentsline {subsubsection}{\numberline {2.3.2}Class Membership}{5}{subsubsection.2.3.2}%
+\contentsline {paragraph}{Conceptual Genesis (``If NS fluid is assumed Smooth, then everything in the problem statement must guarantee the smoothness'')(re-examining the classic NS problem statement).}{5}{paragraph*.4}%
+\contentsline {paragraph}{NS one-fluid-object (constraints by problem definition).}{5}{paragraph*.5}%
+\contentsline {subsubsection}{\numberline {2.3.3}Smoothness Certification Window and Witnesses}{6}{subsubsection.2.3.3}%
+\contentsline {paragraph}{Pack (explained by smoothness requirements).}{6}{paragraph*.6}%
+\contentsline {paragraph}{Part Face (explained by participation law).}{7}{paragraph*.7}%
+\contentsline {paragraph}{Field Face (direct consequence of time-dependent participation law, whole field responds).}{7}{paragraph*.8}%
+\contentsline {paragraph}{Assembly.}{7}{paragraph*.9}%
+\contentsline {paragraph}{Closure/completeness arguments.}{7}{paragraph*.10}%
+\contentsline {subsubsection}{\numberline {2.3.4}Silver-standard CM completeness: exhaustive partition plus participation-complement exclusion}{7}{subsubsection.2.3.4}%
+\contentsline {section}{\numberline {3}Main Theorem and Proof (``the entire NS repo'' / the ``show your work'' portion)}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Claim (overview and results upfront in main theorem)}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}\(\mathbb T^3\)}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}\(\mathbb R^3\)}{9}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Same-Law Participation and One-Field Coherence}{10}{section.4}%
+\contentsline {section}{\numberline {5}The Packet Witness}{10}{section.5}%
+\contentsline {section}{\numberline {6}Packet Admission Test}{11}{section.6}%
+\contentsline {section}{\numberline {7}Velocity Failure Mechanisms}{12}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Dead}{12}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Jump}{12}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Blown}{12}{subsection.7.3}%
+\contentsline {section}{\numberline {8}The Contrapositive Test}{13}{section.8}%
+\contentsline {section}{\numberline {9}Reading the Witness Table}{14}{section.9}%
+\contentsline {section}{\numberline {10}From Witness Faces to Class Exit}{15}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Annular residual specialization}{17}{subsection.10.1}%
+\contentsline {section}{\numberline {11}The Clay-Facing Completion Claim}{18}{section.11}%
+\contentsline {section}{\numberline {12}How Forward Branches Enter the Proof}{21}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Source Reserve And Donor Refill}{22}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}BASAC, Pressure, And Rigid Residue}{22}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}Zeno And Terminal Atoms}{23}{subsection.12.3}%
+\contentsline {subsection}{\numberline {12.4}Retained Amplitude, Low Strain, And Height Flux}{24}{subsection.12.4}%
+\contentsline {subsection}{\numberline {12.5}Signed Current And No-Free-Sink}{24}{subsection.12.5}%
+\contentsline {subsection}{\numberline {12.6}Endpoint, No-Pulse, And Good-Scale Readout}{24}{subsection.12.6}%
+\contentsline {section}{\numberline {13}How Branch Families Pay the CM Proof}{25}{section.13}%
+\contentsline {section}{\numberline {14}Direct Closure and the Four-Body Diagnostic}{27}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Current Gold Counterpart Boundary}{27}{subsection.14.1}%
+\contentsline {section}{\numberline {15}Energy, Enstrophy, and Source Reserves}{29}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Endpoint Reserve Currency on the Selected Carrier}{29}{subsection.15.1}%
+\contentsline {section}{\numberline {16}Scale Barriers and High-Frequency Tails}{32}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Factorial Radius Spend and Same-Carrier Reserve}{32}{subsection.16.1}%
+\contentsline {section}{\numberline {17}Compactness and Exact-Object Capture}{37}{section.17}%
+\contentsline {section}{\numberline {18}Derivative Recovery on the Same Surface}{39}{section.18}%
+\contentsline {section}{\numberline {19}Lower-Prefix and Upper-Tail Survivors}{40}{section.19}%
+\contentsline {section}{\numberline {20}Kernelized Lifted-Band Branch}{44}{section.20}%
+\contentsline {section}{\numberline {21}Shell Gain and Half-Derivative Branch}{45}{section.21}%
+\contentsline {section}{\numberline {22}The Class-Membership Exit Method}{46}{section.22}%
+\contentsline {paragraph}{Pack.}{47}{paragraph*.19}%
+\contentsline {paragraph}{Part.}{47}{paragraph*.20}%
+\contentsline {paragraph}{Field.}{47}{paragraph*.21}%
+\contentsline {subsection}{\numberline {22.1}The endpoint point and the annular witness}{47}{subsection.22.1}%
+\contentsline {subsection}{\numberline {22.2}Periodic and whole-space payments}{49}{subsection.22.2}%
+\contentsline {subsection}{\numberline {22.3}The pass-or-exit conclusion}{49}{subsection.22.3}%
+\contentsline {section}{\numberline {23}Which Branches Still Matter}{49}{section.23}%
+\contentsline {section}{\numberline {24}The Auxiliary Estimate Boundary}{51}{section.24}%
+\contentsline {section}{\numberline {25}Other-PDE Law Destinations}{52}{section.25}%
+\contentsline {section}{\numberline {26}The Whole-Space \(\mathbb R^3\) Exterior-Source Branch}{52}{section.26}%
+\contentsline {section}{\numberline {27}Branch Coverage in the Main Proof}{55}{section.27}%
+\contentsline {section}{\numberline {28}Closing Hinges}{55}{section.28}%
+\contentsline {section}{\numberline {29}The Same-Solution CM Proof}{56}{section.29}%
+\contentsline {section}{\numberline {30}How Auxiliary Estimates Enter}{58}{section.30}%
+\setcounter {tocdepth}{1}
+\contentsline {section}{\numberline {A}How to Read the Appendices}{59}{appendix.A}%
+\contentsline {section}{\numberline {B}Branch-to-Face Derivation Patterns}{59}{appendix.B}%
+\contentsline {section}{\numberline {C}Selected-Packet Law-Destination Test}{60}{appendix.C}%
+\contentsline {subsection}{\numberline {C.1}Euler is one conditional destination}{61}{subsection.C.1}%
+\contentsline {subsection}{\numberline {C.2}Part and Field return to the same root}{61}{subsection.C.2}%
+\contentsline {subsection}{\numberline {C.3}Exact Silver obligation}{61}{subsection.C.3}%
+\contentsline {section}{\numberline {D}Direct Routes That Did Not Close}{62}{appendix.D}%
+\contentsline {subsection}{\numberline {D.1}How to Read the Failure Record}{62}{subsection.D.1}%
+\contentsline {subsection}{\numberline {D.2}How Repo Source Packets Enter This Appendix}{62}{subsection.D.2}%
+\contentsline {subsection}{\numberline {D.3}Expanded Branch Work Packets}{67}{subsection.D.3}%
+\contentsline {subsubsection}{\numberline {D.3.1}Four-body circuit.}{67}{subsubsection.D.3.1}%
+\contentsline {paragraph}{Four-body debt lemma.}{68}{paragraph*.22}%
+\contentsline {paragraph}{Proof.}{69}{paragraph*.23}%
+\contentsline {paragraph}{CM handoff.}{69}{paragraph*.24}%
+\contentsline {paragraph}{Scale barrier.}{69}{paragraph*.25}%
+\contentsline {paragraph}{\(Q(t)\) and enstrophy.}{69}{paragraph*.26}%
+\contentsline {paragraph}{Compactness.}{70}{paragraph*.27}%
+\contentsline {paragraph}{Curvature or gradient recovery.}{70}{paragraph*.28}%
+\contentsline {paragraph}{Modernized four-body packet.}{70}{paragraph*.29}%
+\contentsline {paragraph}{Two survivor families.}{70}{paragraph*.30}%
+\contentsline {paragraph}{Kernelized lifted band.}{71}{paragraph*.31}%
+\contentsline {paragraph}{Shell gain and half-derivative target.}{71}{paragraph*.32}%
+\contentsline {paragraph}{Cumulative tail stress and LPAS.}{71}{paragraph*.33}%
+\contentsline {paragraph}{Volterra and lower-triangular memory.}{71}{paragraph*.34}%
+\contentsline {paragraph}{Signed descent.}{72}{paragraph*.35}%
+\contentsline {paragraph}{Persistent quotient kill attempts.}{72}{paragraph*.36}%
+\contentsline {paragraph}{Projected flow, TPS, and SG.4.}{72}{paragraph*.37}%
+\contentsline {paragraph}{Source-wall deletion cycle.}{72}{paragraph*.38}%
+\contentsline {paragraph}{BASAC and terminal atom.}{72}{paragraph*.39}%
+\contentsline {paragraph}{Pressure sustain and pure pressure residue.}{73}{paragraph*.40}%
+\contentsline {paragraph}{Angular saturation.}{73}{paragraph*.41}%
+\contentsline {paragraph}{Transported boundary and no incoming flux.}{73}{paragraph*.42}%
+\contentsline {paragraph}{Quantized parent and Zeno ancestry.}{73}{paragraph*.43}%
+\contentsline {paragraph}{Local energy and elliptic time smearing.}{74}{paragraph*.44}%
+\contentsline {paragraph}{All reduced source-wall routes.}{74}{paragraph*.45}%
+\contentsline {paragraph}{Source reserve birth.}{74}{paragraph*.46}%
+\contentsline {paragraph}{Zero-moment signed pair.}{74}{paragraph*.47}%
+\contentsline {paragraph}{Public \(L^3\), Duhamel, and native source.}{75}{paragraph*.48}%
+\contentsline {paragraph}{Terminal Leray saturation.}{75}{paragraph*.49}%
+\contentsline {paragraph}{Critical \(H^{1/2}\).}{75}{paragraph*.50}%
+\contentsline {paragraph}{Synthesis.}{75}{paragraph*.51}%
+\contentsline {subsection}{\numberline {D.4}How The Record Enters The Proof}{76}{subsection.D.4}%
+\contentsline {subsection}{\numberline {D.5}Branch-To-Face Conversion Checks}{78}{subsection.D.5}%
+\contentsline {paragraph}{High-frequency transfer.}{78}{paragraph*.52}%
+\contentsline {paragraph}{Lower-shell half-derivative deficit.}{79}{paragraph*.53}%
+\contentsline {paragraph}{Lower-prefix active square.}{79}{paragraph*.54}%
+\contentsline {paragraph}{Affine quotient mode.}{79}{paragraph*.55}%
+\contentsline {paragraph}{Signed-pair reserve.}{79}{paragraph*.56}%
+\contentsline {paragraph}{Native source atom.}{79}{paragraph*.57}%
+\contentsline {paragraph}{Pure pressure residue.}{80}{paragraph*.58}%
+\contentsline {paragraph}{Interior time-face atom.}{80}{paragraph*.59}%
+\contentsline {paragraph}{Zeno ancestry.}{80}{paragraph*.60}%
+\contentsline {paragraph}{First-created source reserve.}{80}{paragraph*.61}%
+\contentsline {paragraph}{Terminal \(L^3\) Duhamel response.}{80}{paragraph*.62}%
+\contentsline {paragraph}{Critical \(H^{1/2}\) oscillation.}{81}{paragraph*.63}%
+\contentsline {paragraph}{No fourth face.}{81}{paragraph*.64}%
+\contentsline {subsection}{\numberline {D.6}Reading Rules For The Failure Record}{81}{subsection.D.6}%
+\contentsline {subsection}{\numberline {D.7}Chronological Reconstruction From Four-Body Support To CM Exit}{82}{subsection.D.7}%
+\contentsline {subsubsection}{\numberline {D.7.1}Source recovery and the four-body ranking}{83}{subsubsection.D.7.1}%
+\contentsline {subsubsection}{\numberline {D.7.2}\(Q(t)\) exposed the source wall}{83}{subsubsection.D.7.2}%
+\contentsline {subsubsection}{\numberline {D.7.3}The modernized packet kept the four jobs}{84}{subsubsection.D.7.3}%
+\contentsline {subsubsection}{\numberline {D.7.4}Defect equations clarified the readout problem}{84}{subsubsection.D.7.4}%
+\contentsline {subsubsection}{\numberline {D.7.5}Source-wall deletion produced sharper survivors}{85}{subsubsection.D.7.5}%
+\contentsline {subsubsection}{\numberline {D.7.6}The bad object changed proof role}{86}{subsubsection.D.7.6}%
+\contentsline {subsubsection}{\numberline {D.7.7}Terminal Clay entry fixed the arrow}{86}{subsubsection.D.7.7}%
+\contentsline {subsubsection}{\numberline {D.7.8}The pass/exit engine}{87}{subsubsection.D.7.8}%
+\contentsline {subsubsection}{\numberline {D.7.9}The source-reserve stress test}{87}{subsubsection.D.7.9}%
+\contentsline {subsubsection}{\numberline {D.7.10}Why one frontier became target topology}{88}{subsubsection.D.7.10}%
+\contentsline {subsubsection}{\numberline {D.7.11}Chronology-to-proof handoff}{88}{subsubsection.D.7.11}%
+\contentsline {subsection}{\numberline {D.8}The Attempt Chain In Reader Order}{89}{subsection.D.8}%
+\contentsline {subsection}{\numberline {D.9}The Four-Body Attempt}{94}{subsection.D.9}%
+\contentsline {subsection}{\numberline {D.10}Body I: Scale Barrier}{95}{subsection.D.10}%
+\contentsline {subsection}{\numberline {D.11}Body II: The \(Q(t)\) Functional}{96}{subsection.D.11}%
+\contentsline {subsection}{\numberline {D.12}Body III: Non-Sobolev Compactness}{97}{subsection.D.12}%
+\contentsline {subsection}{\numberline {D.13}Body IV: Curvature Or Gradient Recovery}{98}{subsection.D.13}%
+\contentsline {subsection}{\numberline {D.14}The First Full Failure Of The Circuit}{98}{subsection.D.14}%
+\contentsline {subsection}{\numberline {D.15}Modernized Four-Body Packet}{99}{subsection.D.15}%
+\contentsline {subsection}{\numberline {D.16}Two Survivor Families}{99}{subsection.D.16}%
+\contentsline {subsection}{\numberline {D.17}Kernelized Lifted Band}{100}{subsection.D.17}%
+\contentsline {subsection}{\numberline {D.18}Shell Gain And The Half-Derivative Target}{101}{subsection.D.18}%
+\contentsline {subsection}{\numberline {D.19}Cumulative Tail Stress And LPAS}{101}{subsection.D.19}%
+\contentsline {subsection}{\numberline {D.20}Volterra And Lower-Triangular Memory}{102}{subsection.D.20}%
+\contentsline {subsection}{\numberline {D.21}Signed Descent And The Limits Of Cancellation}{103}{subsection.D.21}%
+\contentsline {subsection}{\numberline {D.22}Persistent Quotient Kill Attempts}{104}{subsection.D.22}%
+\contentsline {subsection}{\numberline {D.23}Projected Flow, TPS, And SG.4}{105}{subsection.D.23}%
+\contentsline {subsection}{\numberline {D.24}The Source-Wall Deletion Cycle}{106}{subsection.D.24}%
+\contentsline {subsection}{\numberline {D.25}BASAC And The Terminal Atom}{106}{subsection.D.25}%
+\contentsline {subsection}{\numberline {D.26}Pressure Sustain And Pure Pressure Residue}{107}{subsection.D.26}%
+\contentsline {subsection}{\numberline {D.27}Angular Saturation}{107}{subsection.D.27}%
+\contentsline {subsection}{\numberline {D.28}Transported Boundary And No Incoming Flux}{108}{subsection.D.28}%
+\contentsline {subsection}{\numberline {D.29}Quantized Parent And Zeno Ancestry}{108}{subsection.D.29}%
+\contentsline {subsection}{\numberline {D.30}Local Energy And Elliptic Time Smearing}{109}{subsection.D.30}%
+\contentsline {subsection}{\numberline {D.31}All Reduced Source-Wall Routes}{109}{subsection.D.31}%
+\contentsline {subsection}{\numberline {D.32}Source Reserve Birth}{109}{subsection.D.32}%
+\contentsline {subsection}{\numberline {D.33}Zero-Moment Signed Pair}{110}{subsection.D.33}%
+\contentsline {subsection}{\numberline {D.34}Public \(L^3\), Duhamel, And Native Source}{110}{subsection.D.34}%
+\contentsline {subsection}{\numberline {D.35}Terminal Leray Saturation}{111}{subsection.D.35}%
+\contentsline {subsection}{\numberline {D.36}Critical \(H^{1/2}\)}{111}{subsection.D.36}%
+\contentsline {subsection}{\numberline {D.37}What The Failed Attempts Have In Common}{112}{subsection.D.37}%
+\contentsline {subsection}{\numberline {D.38}How The Class-Membership Route Uses The Failure Record}{112}{subsection.D.38}%
+\contentsline {subsection}{\numberline {D.39}Branch Role Table}{114}{subsection.D.39}%
+\contentsline {subsection}{\numberline {D.40}Closure Of The Failure Record}{115}{subsection.D.40}%
+\contentsline {paragraph}{Archived source-reader material.}{115}{paragraph*.65}%
+\contentsline {section}{\numberline {E}Expanded CM Branch Obligations}{116}{appendix.E}%
+\contentsline {subsection}{\numberline {E.1}CM proof role 1: Field-face terminal obligations}{116}{subsection.E.1}%
+\contentsline {paragraph}{Family inventory role.}{116}{paragraph*.66}%
+\contentsline {subsection}{\numberline {E.2}CM proof role 2: finite Part/Field disjunction obligations}{116}{subsection.E.2}%
+\contentsline {paragraph}{Family inventory role.}{116}{paragraph*.67}%
+\contentsline {subsection}{\numberline {E.3}CM proof role 3: inherited-authority obligations}{117}{subsection.E.3}%
+\contentsline {paragraph}{Family inventory role.}{117}{paragraph*.68}%
+\contentsline {subsection}{\numberline {E.4}CM proof role 4: carrier-window support obligations}{117}{subsection.E.4}%
+\contentsline {paragraph}{Family inventory role.}{117}{paragraph*.69}%
+\contentsline {subsection}{\numberline {E.5}CM proof role 5: Part-face terminal obligations}{117}{subsection.E.5}%
+\contentsline {paragraph}{Family inventory role.}{118}{paragraph*.70}%
+\contentsline {subsection}{\numberline {E.6}CM proof role 6: support-boundary obligations}{118}{subsection.E.6}%
+\contentsline {paragraph}{Family inventory role.}{118}{paragraph*.71}%
+\contentsline {section}{\numberline {F}Expanded Forward-Support Obligations}{118}{appendix.F}%
+\contentsline {subsection}{\numberline {F.1}Support proof role 1: classified positive / export/legacy / supplier / readout / positive smoothness / transfer/Euler}{119}{subsection.F.1}%
+\contentsline {paragraph}{Family support role.}{119}{paragraph*.72}%
+\contentsline {subsection}{\numberline {F.2}Support proof role 2: export/legacy}{119}{subsection.F.2}%
+\contentsline {paragraph}{Family support role.}{119}{paragraph*.73}%
+\contentsline {subsection}{\numberline {F.3}Support proof role 3: classified positive / export/legacy / supplier / positive smoothness}{120}{subsection.F.3}%
+\contentsline {paragraph}{Family support role.}{120}{paragraph*.74}%
+\contentsline {subsection}{\numberline {F.4}Support proof role 4: classified positive / export/legacy / supplier / readout / positive smoothness}{120}{subsection.F.4}%
+\contentsline {paragraph}{Family support role.}{121}{paragraph*.75}%
+\contentsline {section}{\numberline {G}Expanded Branch-Family Obligations}{121}{appendix.G}%
+\contentsline {paragraph}{Branch-family obligation 1.}{121}{paragraph*.76}%
+\contentsline {paragraph}{Branch-family obligation 2.}{121}{paragraph*.77}%
+\contentsline {paragraph}{Branch-family obligation 3.}{122}{paragraph*.78}%
+\contentsline {paragraph}{Branch-family obligation 4.}{122}{paragraph*.79}%
+\contentsline {paragraph}{Branch-family obligation 5.}{122}{paragraph*.80}%
+\contentsline {paragraph}{Branch-family obligation 6.}{122}{paragraph*.81}%

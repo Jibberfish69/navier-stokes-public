@@ -11,8 +11,8 @@ authorship: >-
   6-station ontology-led sweep of the live NS surfaces (object/record-work,
   menu-storage, detector-faithfulness, strain-Riccati/half-barrier,
   coherent-elliptic-pincer, silver-CM), each reasoning FROM the fluid-object
-  ontology, strictly NS-repo-internal (no cross-problem/braided/ontic import,
-  no shell-frame reduction). Physical ontology and all machinery: Thomas
+  ontology, strictly NS-repo-internal, with no cross-problem import or shell-
+  frame reduction. Physical ontology and all machinery: Thomas
   Birnie. This note is a consolidation surface, not a proof; it claims no
   closure.
 correction_20260706: >-
@@ -112,7 +112,7 @@ The sweep found, per station:
   `T_e = (selector, chart license, pressure-active/silent split, face address)`
   is one pre-announced edge, not four chores → lands on §1.
 - **detector-faithfulness:** nine files (SelectedSymbolKernelExclusion,
-  PressureHodgeSelectedSourceFaithfulness, NoSilentSelectedPressureHodgeCarrier,
+  PressureHelmholtzSelectedSourceFaithfulness, NoSilentSelectedPressureHelmholtzCarrier,
   PressureActiveSelection, RecordMenuPressureActiveOrSilentService) are one
   faithfulness object at symbol/packet/kernel/class/record altitude; the
   silent-Hessian material equation IS the strain Riccati → lands on §1.
@@ -139,7 +139,7 @@ object's open core:
 3. **The entire W-II CKN route** (`A(r)=r^{-1}∬|∇u|^2` shells, `D_j <= C_pc E_j`, `|u|^3` excess-decay) and its verdict "the Millennium core / equivalent-strength" — `u` sliced into dyadic shells; energy-only budget discards the one-field participation tower (violates P1, P2). This is my own earlier drift; the `ontological-frame-audit` note is authoritative over it. Prune the verdict.
 4. **The Germano/Katz-Pavlovic/Constantin-Fefferman/ESS-Carleman sidecar** (`mpp-consolidated-conditional-proof-spine...`) — standard-literature imports, self-demoted; "exactly two burdens" flattens the real producer. Quarantine.
 5. **Pointwise `P_+ dt` / child-positive positive-part extraction as primitive** — violates pre-readout selection discipline (P4). The record supplies the sign; rewrite as net-sign selection off the pre-announced menu (2026-07-02 restart).
-6. **Naked pressure-Hodge detector faithfulness** (`Pi_PH(mu)=0 => A(mu)=0`) — proven false by the transverse trace-free `Z=diag(0,1,-1)` (violates P4, P5). Keep only as the counterboundary that motivates routing, and read pressure as participation, not as an outside kernel.
+6. **Naked pressure-Helmholtz--Leray detector faithfulness** (`Pi_PH(mu)=0 => A(mu)=0`) — proven false by the transverse trace-free `Z=diag(0,1,-1)` (violates P4, P5). Keep only as the counterboundary that motivates routing, and read pressure as participation, not as an outside kernel.
 7. **Complete-frame six probe directions as physical pressure traces** — adds non-native test info (violates P1). Keep only the material-service orientation role.
 8. **TFE self-financing loop** `FE => finite excess => critical-source => FE` — reserve pays its own event (violates P3, P4). Bookkeeping, not proof; only `rho(K_P)<1` from original data or one independently-proved face is admissible.
 9. **Reverse-Hölder / terminal-thickness as PRODUCER** — a consumer that assumes the reserve it is used to build (violates P4). Demote to after-the-clock consumer.

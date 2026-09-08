@@ -33,7 +33,7 @@ C\mathcal R(P)+CR_{\rm legal}(P),
 ```
 
 for every stopped subpacket \(P\subseteq S\). Here \(T_S\) is the stopped
-same-material pressure-Hodge / Hilbert / martingale lift and \(\nu^S\) is the
+same-material pressure-Helmholtz--Leray / Hilbert / martingale lift and \(\nu^S\) is the
 routed selected source measure on the stopped same-material region \(S\).
 
 The important point is that `(1)` should not be attacked as an arbitrary
@@ -81,7 +81,7 @@ source which is merely \(L_Aw\) at one frozen time is not enough. It must either
 be unselected hidden-potential material or appear in the current \(J^S\) through
 the material commutator / covector exchange channel.
 
-## 3. Hodge projection estimate
+## 3. Helmholtz--Leray projection estimate
 
 Let \(T_S\) be the stopped gradient lift
 
@@ -91,7 +91,7 @@ T_S\nu
 \nabla_A L_A^{-1}\nu
 ```
 
-or the equivalent stopped martingale pressure-Hodge lift. If `(2)` holds, then
+or the equivalent stopped martingale pressure-Helmholtz--Leray lift. If `(2)` holds, then
 
 ```math
 T_S(D_A J^S)
@@ -100,7 +100,7 @@ T_S(D_A J^S)
 \tag{4}
 ```
 
-where \(\Pi_{\nabla,A}\) is the \(A\)-metric gradient/Hodge projection. Hence
+where \(\Pi_{\nabla,A}\) is the \(A\)-metric gradient/Helmholtz--Leray projection. Hence
 
 ```math
 \|T_S(D_A(\chi_PJ^S))\|_{L^2(P,\mathcal R)}^2

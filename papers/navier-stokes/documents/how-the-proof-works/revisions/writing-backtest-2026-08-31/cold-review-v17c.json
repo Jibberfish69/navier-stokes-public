@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "review_kind": "cold_reader",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/critic-packet-v17.json",
+    "sha256": "62bcaf0d6fbb742e948a2cd66c2027af21763e8c62d5fda52f52128a85b2b533"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/candidate-v17.tex",
+    "sha256": "2c34d4859d997ca14b82c8e4ccdb895d8f8dd5032945d315b4327817bb4eac76"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-1.png",
+      "sha256": "e49f766742382aecc710e9d41a33b1184d49958dc16f4407ae8133ac8457e5ea"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-2.png",
+      "sha256": "bdffd29142252e6c628d633f42f0106b29955e91b1d8206343fc0af8546cdbd7"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-3.png",
+      "sha256": "530948734a64cf1e90d348282f6359ff41b41d5e7ed5e77e59795bd10c197059"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-4.png",
+      "sha256": "43fb9979abce971934b32ca43b8c44d1f3974d80eed69b18f340732682347e62"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/cold_reader_v17c",
+    "task_name": "cold_reader_v17c",
+    "isolation": "fork_none",
+    "request_nonce": "fb70d82e59514715894435dcae8cac12"
+  },
+  "decision": {
+    "verdict": "fail",
+    "first_divergence": {
+      "exact_span": "In order for a singularity to happen, velocity has to blow up. In order for that to happen, its acceleration would also have to blow up, which means its jerk has to blow up, and so on and so on. In the proof, the corresponding Eulerian temporal responses are",
+      "mechanism": "The passage jumps from finite-time loss of smoothness to velocity blow-up, then from physical acceleration and jerk to Eulerian time derivatives, without naming the controlling norm or continuation criterion or explaining why those notions correspond. A new reader cannot tell whether this is a theorem, an analogy, or the argument's first deduction.",
+      "repair_constraint": "Keep the blunt velocity--acceleration--jerk beat and its order, but supply the precise continuation and norm bridge before the temporal hierarchy, and distinguish material acceleration from the Eulerian derivative tower."
+    }
+  }
+}

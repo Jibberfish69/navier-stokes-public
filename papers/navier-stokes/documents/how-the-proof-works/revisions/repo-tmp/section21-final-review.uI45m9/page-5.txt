@@ -1,0 +1,48 @@
+Along that aligned trajectory, the full pointwise balance is
+
+                                 1 D|ω|2
+                                         = σ(t)|ω|2 + ν ω · ∆ω.
+                                 2 Dt
+Whenever this right-hand side stays positive, the rotation strengthens while the effective
+radius contracts.
+Vorticity is already part of the velocity gradient. Indeed,
+
+                               1                 |ω|
+                                  ∇u − (∇u)T     = √ ≤ |∇u|F ,
+                               2               F     2
+while the global energy identity in Proposition A.2.1 still gives
+
+                                     ∥u(t)∥2 ≤ ∥u0 ∥2 < ∞.
+
+The energy can remain finite while the rotational gradient rises. The vortex stretches, narrows,
+and spins faster. The gradients rise.
+
+
+Navier–Stokes Scaling
+At a smaller length, viscosity acts more strongly, but nonlinear transport changes with it.
+The exact comparison is obtained by rescaling the whole equation. For λ > 1, set
+
+                     uλ (x, t) := λu(λx, λ2 t),        pλ (x, t) := λ2 p(λx, λ2 t).
+
+This produces another solution with the same viscosity at the finer length λ−1 . It compares
+the equation across scales; it is not a later state of the material element we just followed.
+Every momentum term changes by the same factor:
+
+                                  ∂t uλ (x, t) = λ3 (∂t u)(λx, λ2 t),
+                                                              
+                           (uλ · ∇)uλ (x, t) = λ3 (u · ∇)u (λx, λ2 t),
+                                 ∇pλ (x, t) = λ3 (∇p)(λx, λ2 t),
+                                ν∆uλ (x, t) = λ3 ν(∆u)(λx, λ2 t).
+
+A finer scale strengthens viscous diffusion, nonlinear transport, pressure, and local acceleration
+together. The equation has given viscosity no relative advantage.
+
+
+Critical Height
+The balance of the equation has stayed fixed, but the quantities used to measure the velocity
+do not behave alike under this rescaling. Let Λ := (−∆)1/2 . The Fourier transform of the
+rescaled velocity is
+                                ucλ (ξ, t) = λ−2 ub(λ−1 ξ, λ2 t),
+
+                                                  3
+

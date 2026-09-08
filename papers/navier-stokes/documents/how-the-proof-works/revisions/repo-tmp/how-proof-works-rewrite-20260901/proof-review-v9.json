@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "review_kind": "proof_reverse",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/critic-packet-v9.json",
+    "sha256": "91b593fc6afd4bf8ac6ff27a22b7bf9028d662ff23f5b93d5331e6cd94853ab6"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/draft-v9.tex",
+    "sha256": "262b98f093ea754f6a148d86bbe9bf566d78ee2edaa90bbc86b4bf1d01bf267c"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v9/page-1.png",
+      "sha256": "a6934fe1cd037ba1d85bd1c4acec59ea07e293d92223c7788839d82626cdf55e"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v9/page-2.png",
+      "sha256": "e12263d6b966999985459168cc6ca7efd327f78f7146e29bf3c6f6f93f44f57c"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v9/page-3.png",
+      "sha256": "d0b40f34e1de51119b287082b56fbefedde070b61fc03124d555568161032df7"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v9/page-4.png",
+      "sha256": "33bdefac0479c30b986be33f1868440ea96c9b7d7155f705d8667482a23654f5"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v9/page-5.png",
+      "sha256": "21f1f5112dbaf6e671a78999372461a544565b34b7ac027c4ded2f385b1feb68"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v9/page-6.png",
+      "sha256": "b6978280c845f58995097e47e8cd883ebd9c64b2ecce0684db5194cb30f95f68"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/proof_reverse_v9",
+    "task_name": "proof_reverse_v9",
+    "isolation": "fork_none",
+    "request_nonce": "2223ed0ed3eb2abfc1f3024e817d5828a5648c5ca25f7d1e"
+  },
+  "decision": {
+    "verdict": "pass",
+    "first_divergence": null
+  }
+}

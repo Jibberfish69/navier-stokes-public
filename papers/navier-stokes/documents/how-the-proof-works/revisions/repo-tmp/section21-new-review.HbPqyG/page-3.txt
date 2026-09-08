@@ -1,0 +1,51 @@
+1    The Regularity Problem
+The three-dimensional Navier–Stokes regularity problem asks whether a smooth solution can
+lose its smoothness in finite time. The velocity u and pressure p must satisfy
+
+                ∂t u + (u · ∇)u + ∇p = ν∆u,      ∇ · u = 0 on R3 × (0, ∞),
+                                                                                                        (1.1)
+                                    u(·, 0) = u0 on R3 .
+
+Here u is the R3 -valued velocity, p is the scalar pressure, and ν > 0 is the fixed kinematic
+viscosity.
+Fefferman’s whole-space formulation assumes that the initial velocity u0 in (1.1) is smooth,
+divergence-free, and rapidly decreasing together with all of its spatial derivatives (Fefferman
+2000). In standard notation, this means
+
+                            Sσ := S (R3 ; R3 ) ∩ ker(∇·),                u0 ∈ Sσ ,
+                                                                                                        (1.2)
+         ∀α ∈ N30 ∀K ∈ N0 ∃Cα,K < ∞ ∀x ∈ R3 ,                       |∂xα u0 (x)| ≤ Cα,K (1 + |x|)−K .
+
+Here S (R3 ; R3 ) is the Schwartz space of smooth R3 -valued functions. The symbol α is a
+spatial multi-index, and K is the prescribed algebraic decay order. For the fixed datum u0 ,
+the constant Cα,K may depend on u0 , α, and K, but not on x.
+For finite m ∈ N0 , write
+                                Hσm (R3 ) := H m (R3 ; R3 ) ∩ ker(∇·).
+Fix K > 3/2. For every |α| ≤ m, (1.2) gives
+                                                 Z
+                            ∥∂xα u0 ∥22 ≤ Cα,K
+                                           2
+                                                      (1 + |x|)−2K dx < ∞.
+                                                 R3
+
+There are only finitely many multi-indices with |α| ≤ m, so u0 ∈ Hσm (R3 ) for every finite m.
+Taking m = 0 gives u0 ∈ L2 (R3 ), so the initial kinetic energy is finite.
+Fix this u0 and a viscosity ν > 0. Let (u, p) be the corresponding classical solution on its
+maximal smooth interval [0, T∗ ), where T∗ ∈ (0, ∞].
+The whole-space claim is that this same solution remains smooth for all time and has uniformly
+finite kinetic energy:
+                                                              Z
+                   u, p ∈ C ∞ R3 × [0, ∞) ,               sup         |u(x, t)|2 dx < ∞.                (1.3)
+                                                          t≥0   R3
+
+
+The energy clause is already controlled throughout the maximal lifespan: Proposition A.2.1
+gives ∥u(t)∥2 ≤ ∥u0 ∥2 for every 0 ≤ t < T∗ . The regularity problem is to rule out a finite
+endpoint of the smooth history:
+                                          T∗ = ∞.
+
+
+
+
+                                                      1
+

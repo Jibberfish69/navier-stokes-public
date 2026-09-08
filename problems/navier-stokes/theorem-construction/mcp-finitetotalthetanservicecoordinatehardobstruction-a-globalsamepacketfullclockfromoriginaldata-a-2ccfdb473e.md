@@ -17,7 +17,7 @@ Here \(\Theta_N\) is the full moving same-material service coordinate controllin
 \sim
 \text{strain-metric service}
 +\text{coefficient/frame service}
-+\text{pressure/Hodge service}
++\text{pressure/Helmholtz--Leray service}
 +\text{viscous/collar service}
 +\text{interface/selector service}.
 ```

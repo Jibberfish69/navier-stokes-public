@@ -15,7 +15,7 @@ attacks_hinge:
 
 ## 1. Current reduction
 
-The complete-frame pressure-probe route does not produce six independent parent Schur probes from one scalar retained pressure field. Its correct role is different: pressure-visible components are charged by the actual parent Schur trace, while pressure-Hodge-null trace-free selected components are routed into material service through wave-covector compression or packet-normal collar compression.
+The complete-frame pressure-probe route does not produce six independent parent Schur probes from one scalar retained pressure field. Its correct role is different: pressure-visible components are charged by the actual parent Schur trace, while pressure-Helmholtz--Leray-null trace-free selected components are routed into material service through wave-covector compression or packet-normal collar compression.
 
 Thus the selected first-ratio strict gain is again reduced to the two live branches:
 

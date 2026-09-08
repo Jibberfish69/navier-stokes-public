@@ -1,0 +1,23 @@
+{
+  "schema_version": 2,
+  "review_kind": "proof_reverse",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/vortex-physical-opening/proof-packet.json",
+    "sha256": "488111ded77dbf0789867d3a34acb91bfb037c49c3ed99ee6969392d8625b85e"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/vortex-physical-opening/candidate.tex",
+    "sha256": "084808760e882d146b799f6ea95acf79fadfbef9934e0517c231136292e942a9"
+  },
+  "render": [],
+  "reviewer": {
+    "agent_path": "/root/physical_opening_reverse",
+    "task_name": "physical_opening_reverse",
+    "isolation": "fork_none",
+    "request_nonce": "d8010dd0ef9866eb07ac4f19ddfe8e96006ac3257412e5fc"
+  },
+  "decision": {
+    "verdict": "pass",
+    "first_divergence": null
+  }
+}

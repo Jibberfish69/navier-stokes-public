@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "review_kind": "cold_reader",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/critic-packet-v17.json",
+    "sha256": "d44bd677c63863a7314a5192500ed71e69b21ebb1b9d7769bb9997c0242a7f97"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/candidate-v17.tex",
+    "sha256": "717f325b2cfc65b6072f9a9ac9ace945768f03a26ff9d79f48b00ba16d9292b4"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-1.png",
+      "sha256": "e49f766742382aecc710e9d41a33b1184d49958dc16f4407ae8133ac8457e5ea"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-2.png",
+      "sha256": "1a44304738e2c8c480b3cc5b53f0ed9421afc3061be263516aea5d841f1afd06"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-3.png",
+      "sha256": "1d17d848d9d8948536f09684693304df9910802a61ca3ac85db9a36d383a99c4"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-4.png",
+      "sha256": "4a42ad812ff51810d90bb53fb76cf83ac91aa94008b060fe7391df4230a14aff"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/cold_reader_v17g",
+    "task_name": "cold_reader_v17g",
+    "isolation": "fork_none",
+    "request_nonce": "48d10967b81240b9a05a1f453a92bd74"
+  },
+  "decision": {
+    "verdict": "fail",
+    "first_divergence": {
+      "exact_span": "In order for a singularity to happen, velocity has to blow up.",
+      "mechanism": "This is the first unearned turn. The preceding account allows derivative growth while energy stays finite, but this sentence asserts amplitude blow-up and the next paragraph treats divergence of an H^m continuation norm as its meaning. A new reader cannot tell whether velocity means pointwise amplitude, the field measured in H^m, or loss of regularity, so the causal bridge from concentration to the temporal-derivative sequence breaks here.",
+      "repair_constraint": "Name the precise continuation quantity whose divergence is required, and earn its connection to the preceding gradient-concentration picture before moving into temporal responses. Preserve the distinction between finite energy, velocity amplitude, derivative growth, and H^m continuation failure."
+    }
+  }
+}

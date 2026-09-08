@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "review_kind": "cold_reader",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/critic-packet-v17.json",
+    "sha256": "493abf0ea92a60fb0d20adc5a1de271b08dd1359c56d66f376c7cc4bf21ef787"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/candidate-v17.tex",
+    "sha256": "eaa0113910ab32f650a0ab5926dbe30a06eb4e9f8e37942d55e1e2ad07ba5ac9"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-1.png",
+      "sha256": "00b7628ea01080cef5fee995d51e622df9d461363cfa5a3490fc8c52358af053"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-2.png",
+      "sha256": "bdffd29142252e6c628d633f42f0106b29955e91b1d8206343fc0af8546cdbd7"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-3.png",
+      "sha256": "530948734a64cf1e90d348282f6359ff41b41d5e7ed5e77e59795bd10c197059"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-4.png",
+      "sha256": "43fb9979abce971934b32ca43b8c44d1f3974d80eed69b18f340732682347e62"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/cold_reader_v17",
+    "task_name": "cold_reader_v17",
+    "isolation": "fork_none",
+    "request_nonce": "9d25e7f6c8a0413ebfd44e0a3bc91172"
+  },
+  "decision": {
+    "verdict": "fail",
+    "first_divergence": {
+      "exact_span": "The fluid then packs its turning motion through a smaller inner radius.",
+      "mechanism": "The prose moves from transverse narrowing to increased inner speed without naming a relation that makes the velocity amplitude rise. The displayed scale relations earn larger derivatives when the radius falls, but they do not by themselves earn faster motion. The phrase \"packs its turning motion\" hides that missing causal step and causes the first cold-reader stumble.",
+      "repair_constraint": "Separate velocity amplitude from derivative growth. Either supply the concrete vortex relation that makes inner speed rise as radius falls, with viscosity still present, or limit the claim to the derivative growth already displayed. Preserve the order stretching, transverse narrowing, and small-scale consequence."
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "review_kind": "cold_reader",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/cold-critic-r10.json",
+    "sha256": "eab5ecb045ba85f13ad2be839246f36e3534106bde191f71929fa018f8ce5837"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/pdfs/ns-how-proof-works-candidate-r10/00-how-proof-works.tex",
+    "sha256": "8c82bc44986de5b1e4b7524c26627ee8bad0a8413c45d8d50cd6914cb788fdb8"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/isolated-render-r10/page-1.png",
+      "sha256": "a1e5cade65d30d4c2f41eb1b225ac8e8823a958550e47b0498ea2b053e979fbf"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/isolated-render-r10/page-2.png",
+      "sha256": "272d5a479e19a8978ee402d163470ca11456f1e394c9e18167923ffa4a2efb0e"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/isolated-render-r10/page-3.png",
+      "sha256": "cfaa48fae138d71a8cb0c5fae7f9bd954108a15a6a6194e7f5b89c1569268a23"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/isolated-render-r10/page-4.png",
+      "sha256": "ed38ada196b88c089dee5bc95ae896f356233dcd6e1ea32c1a69ee76ffc77039"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/cold_reader_r10",
+    "task_name": "cold_reader_r10",
+    "isolation": "fork_none",
+    "request_nonce": "b4fa1984733daabf0b4756fcfd06f5f65bb247115141be0c09c716ba3eb9e0ca"
+  },
+  "decision": {
+    "verdict": "pass",
+    "first_divergence": null
+  }
+}

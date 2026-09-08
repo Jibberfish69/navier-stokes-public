@@ -1,0 +1,61 @@
+\documentclass[tikz,border=2pt]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usetikzlibrary{arrows.meta}
+\begin{document}
+\begin{tikzpicture}[x=1pt,y=1pt,font=\fontsize{10}{12}\selectfont,
+ every node/.style={inner sep=0pt},
+ outline/.style={line width=.7pt},
+ motion/.style={-{Stealth[length=5pt,width=3.8pt]},line width=.7pt},
+ diffusion/.style={motion,dash pattern=on 3pt off 2pt},
+ dimension/.style={<->,>=Stealth,line width=.4pt},
+ hidden/.style={dash pattern=on 2.4pt off 1.8pt,line width=.45pt}]
+ \path[use as bounding box] (0,0) rectangle (448,240);
+
+ % The unfilled outline marks the material tube.
+ \draw[outline] (189,185)--(189,45);
+ \draw[outline] (259,185)--(259,45);
+ \draw[outline] (224,185) ellipse[x radius=35,y radius=9];
+ \draw[hidden] (189,45)
+  arc[start angle=180,end angle=0,x radius=35,y radius=9];
+ \draw[outline] (189,45)
+  arc[start angle=180,end angle=360,x radius=35,y radius=9];
+ \draw[densely dotted,line width=.3pt] (224,35)--(224,196);
+
+ % Axial stretching and inward motion surround the tube.
+ \foreach \x in {207,241}{
+  \draw[motion] (\x,196)--(\x,224);
+  \draw[motion] (\x,34)--(\x,6);
+ }
+ \node[anchor=south] at (224,230) {Stretching, \(\sigma>0\)};
+ \foreach \y in {103,129}{
+  \draw[motion] (131,\y)--(183,\y);
+  \draw[motion] (317,\y)--(265,\y);
+ }
+ \node[anchor=east] at (117,116) {Inward motion};
+
+ % Outward diffusion is shown on both sides and named once.
+ \draw[diffusion] (196,161)--(131,161);
+ \draw[diffusion] (252,161)--(317,161);
+ \node[anchor=east] at (117,161) {Viscous diffusion};
+
+ % Axial vorticity and one circulation arrow fix the rotation direction.
+ \draw[motion] (224,144)--(224,172);
+ \node[anchor=east] at (216,167) {\(\omega\)};
+ \draw[hidden] (189,78)
+  arc[start angle=180,end angle=0,x radius=35,y radius=9];
+ \draw[motion,-{Stealth[length=6.6pt,width=5pt]}] (189,78)
+  arc[start angle=180,end angle=295,x radius=35,y radius=9];
+ \draw[outline] ({224+35*cos(295)},{78+9*sin(295)})
+  arc[start angle=295,end angle=360,x radius=35,y radius=9];
+ \node[anchor=north] at (241,65) {\(v\)};
+
+ % Radius and length are measured from the tube geometry.
+ \draw[dimension] (224,118)--(259,118);
+ \node[anchor=south] at (241.5,122) {\(r\)};
+ \draw[line width=.3pt] (265,45)--(355,45);
+ \draw[line width=.3pt] (265,185)--(355,185);
+ \draw[dimension] (347,45)--(347,185);
+ \node[anchor=west] at (354,115) {\(\ell\)};
+\end{tikzpicture}
+\end{document}

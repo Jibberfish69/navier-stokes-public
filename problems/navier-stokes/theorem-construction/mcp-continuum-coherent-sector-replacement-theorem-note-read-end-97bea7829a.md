@@ -31,7 +31,7 @@ Assume the route-local Helmholtz-Leray projection on D, the continuum pressure r
 
 Symbolically,
 
-shared.nc_leray_hodge_projector + NS pressure/flow readout on D + finite same-fluid cover => navier-stokes.continuum_coherent_sector,
+shared.nc_leray_helmholtz_projector + NS pressure/flow readout on D + finite same-fluid cover => navier-stokes.continuum_coherent_sector,
 
 and
 

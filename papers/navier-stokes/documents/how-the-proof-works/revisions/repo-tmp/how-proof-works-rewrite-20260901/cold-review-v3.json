@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "review_kind": "cold_reader",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/critic-packet-v3.json",
+    "sha256": "20cae47960143993fd66c457ccccfa574e0515011988d6387f2eda7057c382c7"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/draft-v3.tex",
+    "sha256": "163c7b3db31d579b69ce8d3dde404446f8430db26c63f05bdfc1295b465db550"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v3/page-1.png",
+      "sha256": "631aea887a57b86ae8d90b768ce867ebd112f5e6ee9e694a2a03e6eacce1d644"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v3/page-2.png",
+      "sha256": "63417c4743ab9ed848b8d7603dbc95286d927b4b116b3751c7b66addd4fe06ab"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v3/page-3.png",
+      "sha256": "6b9dfbe239b28a8d98378f7cf09e8f5d899a28fe2128cd1dd8fa62c2bea94644"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v3/page-4.png",
+      "sha256": "708373daf2d07fb686323c24f3ce25cf7ca606a782ebe812eaa59de40c4b568a"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v3/page-5.png",
+      "sha256": "d4b21ef0d24bc5e0954a510227f034ddd84e23d8286ac39319c8c678c7a996fb"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/cold_reader_v3",
+    "task_name": "cold_reader_v3",
+    "isolation": "fork_none",
+    "request_nonce": "c430affff17ae6bbb8259f7fb5554390fe4582213fc8b05afa2b21c90a6f6105"
+  },
+  "decision": {
+    "verdict": "fail",
+    "first_divergence": {
+      "exact_span": "draft-v3.tex lines 133-137: \"A finite maximal endpoint makes the next step exact. If \\(T_*<\\infty\\), the endpoint continuation criterion requires \\[\\sup_{0<t<T_*}\\|u(t)\\|_{L^3}=\\infty.\\]\"",
+      "mechanism": "The preceding Zeno paragraph establishes that a proposed sequence of shrinking viscous response intervals can fit below a finite terminal time, but it does not establish a maximal-lifespan contradiction or identify \\(L^3\\). The section had just singled out \\(\\dot H^{1/2}\\) as critical. The global \\(L^3\\) continuation criterion then appears as an external theorem with no bridge showing why it is the next necessary object, so the temporal-row argument begins from a fact the reader could not infer from the developed chain.",
+      "repair_constraint": "Keep the finite endpoint assumption live as a contradiction hypothesis and earn the change from the \\(\\dot H^{1/2}\\) scale to \\(L^3\\): introduce \\(L^3\\) as another scale-invariant norm and state the continuation implication that bounded \\(L^3\\) up to \\(T_*\\) permits extension; only then take its contrapositive to force \\(L^3\\) escape and begin temporal integration."
+    }
+  }
+}

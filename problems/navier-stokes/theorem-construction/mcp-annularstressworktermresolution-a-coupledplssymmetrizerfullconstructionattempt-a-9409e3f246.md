@@ -40,7 +40,7 @@ This controls net stress-work, not rectified positive action.  The full PLS cloc
 \int_a^b d\Omega_N^{PLS},
 ```
 
-which contains annular stress-work, strain, pressure/incompressibility service, Hodge/Stokes motion, collar motion, metric/coefficient motion, and viscous/tower loss on the same material packet.
+which contains annular stress-work, strain, pressure/incompressibility service, Helmholtz--Leray/Stokes motion, collar motion, metric/coefficient motion, and viscous/tower loss on the same material packet.
 
 Therefore the annular term is admitted as the native PLS carrier, but it does not by itself construct the bounded-below symmetrizer.  The remaining construction still requires a cross-storage \(X_{PLS,N}\) whose derivative converts signed attachment into coercive rectified full-clock payment:
 

@@ -1,0 +1,250 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.1 Vortex Stretching
+% ============================================================
+
+The momentum equation has four pieces:
+\[
+  \underbrace{\partial_t u}_{\text{local acceleration}}
+  +
+  \underbrace{(u\cdot\nabla)u}_{\text{nonlinear transport}}
+  =
+  \underbrace{-\nabla p}_{\text{pressure}}
+  +
+  \underbrace{\nu\Delta u}_{\text{viscous diffusion}}.
+\]
+The central regularity problem lies in the competition between nonlinear transport and viscosity.
+The hope is simple: viscosity smooths the fluid faster than nonlinear transport can sharpen it.
+If that remains true at every scale, the velocity stays smooth.
+
+\subsection{Vortex Stretching}\label{sub:ThePerfectlyStretchingVortex}
+
+When the axis of a material segment lies in a positive stretching direction of the surrounding strain, the strain pulls the same piece of fluid lengthwise. If \(e\) is that stretching direction and \(L(t)\) is the segment length, the symmetric strain records the extension through
+\[
+  S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr),
+  \qquad
+  Se=\sigma(t)e,
+  \qquad
+  \sigma(t)>0,
+  \qquad
+  \frac{\dot L(t)}{L(t)}
+  =
+  e\cdot Se
+  =
+  \sigma(t).
+\]
+The segment lengthens. Incompressibility keeps its material volume fixed. With material volume \(\mathcal V\), define the effective transverse area by \(A(t):=\mathcal V/L(t)\) and the effective radius by \(r_{\mathrm{eff}}(t):=\sqrt{A(t)/\pi}\). Then
+\[
+  \nabla\cdot u=0,
+  \qquad
+  \frac{d}{dt}(A L)=0,
+  \qquad
+  \frac{\dot A}{A}=-\sigma(t),
+  \qquad
+  \frac{\dot r_{\mathrm{eff}}}{r_{\mathrm{eff}}}
+  =
+  -\frac{\sigma(t)}{2}.
+\]
+With \(\omega:=\nabla\times u\), the vorticity along a material trajectory satisfies
+\[
+  \frac{D\omega}{Dt}
+  =
+  S\omega+\nu\Delta\omega,
+  \qquad
+  \frac{D}{Dt}
+  :=
+  \partial_t+u\cdot\nabla,
+\]
+and at a material point where \(\omega=|\omega|e\),
+\[
+  S\omega
+  =
+  \sigma(t)\omega,
+  \qquad
+  \frac12\frac{D|\omega|^2}{Dt}
+  =
+  \sigma(t)|\omega|^2
+  +
+  \nu\,\omega\cdot\Delta\omega.
+\]
+The segment is lengthening and its effective radius is falling while the vorticity changes under the combined action of stretching and diffusion. Where the full right-hand side remains positive, the aligned vorticity rises. The energy identity proved in \Cref{prop:ClassicalKineticEnergyIdentity} and the antisymmetric part of \(\nabla u\) give
+\[
+  \norm{u(t)}_2
+  \leq
+  \norm{u_0}_2
+  <\infty,
+  \qquad
+  \left|\frac12\bigl(\nabla u-(\nabla u)^{\mathsf T}\bigr)\right|_{\mathrm F}
+  =
+  \frac{|\omega|}{\sqrt2}
+  \leq
+  |\nabla u|_{\mathrm F}.
+\]
+Finite kinetic energy can persist while the rotational part of the gradient grows as the segment narrows. The gradients rise.
+
+\divider{\NavierStokes{} Scaling}
+
+At time \(t_0<T_*\), let \(\ell:=r_{\mathrm{eff}}(t_0)\). The segment has narrowed to that effective width while its rotational gradient has risen. The issue is whether viscosity has gained at this finer scale. Exact \NavierStokes{} homogeneity places beside the original solution the comparison
+\[
+  u_\lambda(x,t)
+  :=
+  \lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)
+  :=
+  \lambda^2p(\lambda x,\lambda^2t).
+\]
+At time \(\lambda^{-2}t_0\), the corresponding segment in \(u_\lambda\) has effective radius \(\lambda^{-1}\ell\). This is another solution at another scale, not a later state of the original segment. Its momentum terms transform by
+\[
+\begin{aligned}
+  \partial_tu_\lambda(x,t)
+  &=
+  \lambda^3(\partial_tu)(\lambda x,\lambda^2t),
+  \\
+  (u_\lambda\cdot\nabla)u_\lambda(x,t)
+  &=
+  \lambda^3\bigl((u\cdot\nabla)u\bigr)(\lambda x,\lambda^2t),
+  \\
+  \nabla p_\lambda(x,t)
+  &=
+  \lambda^3(\nabla p)(\lambda x,\lambda^2t),
+  \\
+  \nu\Delta u_\lambda(x,t)
+  &=
+  \lambda^3\nu(\Delta u)(\lambda x,\lambda^2t).
+\end{aligned}
+\]
+The finer comparison multiplies all four terms by the same \(\lambda^3\). It changes their size together; it does not move viscosity ahead.
+
+\divider{Critical Height}
+
+The equation has not separated the two mechanisms. Its global Sobolev sizes still change with scale. Let \(\Lambda:=(-\Delta)^{1/2}\). Then
+\[
+  \widehat{u_\lambda}(\xi,t)
+  =
+  \lambda^{-2}\widehat u(\lambda^{-1}\xi,\lambda^2t),
+\]
+a change of variables gives
+\[
+  \norm{u_\lambda(t)}_{\dot H^s}^2
+  =
+  \lambda^{2s-1}
+  \norm{u(\lambda^2t)}_{\dot H^s}^2.
+\]
+At \(s=0\), kinetic energy loses one power of \(\lambda\); at \(s=1\), the first-derivative norm gains one; at \(s=\tfrac12\), the exponent vanishes. Set
+\[
+  H(t)
+  :=
+  \frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =
+  \frac12\norm{\Lambda^{1/2}u(t)}_2^2.
+\]
+Writing \(H_\lambda\) for the same quantity evaluated on \(u_\lambda\),
+\[
+  \norm{u_\lambda(t)}_2^2
+  =
+  \lambda^{-1}\norm{u(\lambda^2t)}_2^2,
+  \qquad
+  H_\lambda(t)=H(\lambda^2t),
+  \qquad
+  \norm{\nabla u_\lambda(t)}_2^2
+  =
+  \lambda\norm{\nabla u(\lambda^2t)}_2^2.
+\]
+Across the scaled family, \(H\) stays fixed while kinetic energy falls and the first-derivative norm rises. Rescaling cannot change \(H\); along the original solution, the equation can.
+
+\divider{Nonlinear Production versus Viscous Dissipation}
+
+Along the original solution, nonlinear transport enters the change in \(H\) as the signed production
+\[
+  \mathcal P_{1/2}[u](t)
+  :=
+  -\operatorname{Re}
+  \pair
+    {\Lambda^{1/2}u(t)}
+    {\Lambda^{1/2}\bigl((u(t)\cdot\nabla)u(t)\bigr)}_{L^2}.
+\]
+The pressure pairing vanishes because \(\nabla\cdot u=0\), and the Laplacian contributes \(-\nu\norm{\Lambda^{3/2}u}_2^2\). The critical height obeys
+\[
+  H'(t)
+  +
+  \nu\norm{\Lambda^{3/2}u(t)}_2^2
+  =
+  \mathcal P_{1/2}[u](t).
+\]
+The height rises only when signed nonlinear production exceeds viscous dissipation. Under the same rescaling,
+\[
+  \mathcal P_{1/2}[u_\lambda](t)
+  =
+  \lambda^2\mathcal P_{1/2}[u](\lambda^2t),
+  \qquad
+  \nu\norm{\Lambda^{3/2}u_\lambda(t)}_2^2
+  =
+  \lambda^2\nu\norm{\Lambda^{3/2}u(\lambda^2t)}_2^2.
+\]
+Production and dissipation acquire the same \(\lambda^2\) factor. Their competition remains intact, while the scaling map contracts coordinate time by \(\lambda^{-2}\).
+
+\divider{The Heat Clock}
+
+For the heat equation \(v_t=\nu\Delta v\), each Fourier mode evolves by
+\[
+  \widehat v(\xi,t+\delta t)
+  =
+  e^{-\nu|\xi|^2\delta t}\widehat v(\xi,t).
+\]
+If the relevant Fourier content is concentrated in a band \(|\xi|\simeq r^{-1}\), where \(r\) is a comparison width, viscous damping becomes order one when
+\[
+  \nu|\xi|^2\delta t\simeq1,
+\]
+so the comparison time is
+\[
+  \tau_\nu(r)
+  :=
+  \frac{r^2}{\nu}.
+\]
+Identifying this comparison width with the earlier material effective radius requires an additional localization estimate. Halving the comparison width quarters the clock:
+\[
+  \tau_\nu(\lambda^{-1}r)
+  =
+  \lambda^{-2}\tau_\nu(r).
+\]
+
+\divider{The Zeno Cascade}
+
+For the halving sequence
+\[
+  r_n:=2^{-n}r_0,
+  \qquad
+  \tau_n:=\frac{r_n^2}{\nu},
+\]
+the clocks satisfy
+\[
+  \tau_n
+  =
+  \frac{r_0^2}{\nu}4^{-n},
+  \qquad
+  \sum_{n=0}^{\infty}\tau_n
+  =
+  \frac{4r_0^2}{3\nu}
+  <
+  \infty.
+\]
+The sum is finite, but a candidate singularity requires one \NavierStokes{} solution to pass through widths
+\[
+  r_0>r_1>r_2>\cdots\longrightarrow0
+\]
+at times
+\[
+  t_0<t_1<t_2<\cdots\uparrow T_*<\infty,
+  \qquad
+  t_{n+1}-t_n\asymp\tau_n,
+\]
+with comparison constants independent of \(n\). Under that same-history hypothesis, the remaining time satisfies
+\[
+  T_*-t_n
+  \asymp
+  \sum_{k=n}^{\infty}\tau_k
+  =
+  \frac{4r_n^2}{3\nu}.
+\]
+At width \(r_n\), the next transition and the entire remaining tail are both of order \(r_n^2/\nu\). One velocity field must keep changing spatial scale while the interval for its next change and the total time left for every later change collapse at the same rate.

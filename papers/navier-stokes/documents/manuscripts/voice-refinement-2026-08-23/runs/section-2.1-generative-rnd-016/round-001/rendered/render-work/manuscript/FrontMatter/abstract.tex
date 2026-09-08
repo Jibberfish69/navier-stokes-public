@@ -1,0 +1,33 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+
+We prove global smoothness for the unforced three-dimensional incompressible Navier--Stokes equations on \(\R^3\) for every viscosity \(\nu>0\) and every divergence-free Schwartz initial velocity \(u_0\).
+The corresponding velocity and pressure remain smooth for all \(t\geq 0\).
+
+The proof rules out a finite singular endpoint directly.
+Let \([0,T_*)\) be the maximal classical lifespan and suppose \(T_*<\infty\).
+Repeated time differentiation of the Navier--Stokes equations, with pressure recovered at each order by Riesz transforms, generates one pressure-complete mixed jet of the same solution.
+For each fixed finite temporal depth \(N\) and spatial Sobolev height \(M\), the central estimate controls the corresponding rectangle of that jet uniformly over every cutoff \(T<T_*\).
+The adjacent-row trace estimate then gives, for every finite \(r\) and \(m\),
+\[
+\sup_{0\leq t<T_*}
+\|\partial_t^r u(t)\|_{H^m(\R^3)}
+<\infty.
+\]
+
+These finite rectangles agree under restriction.
+Their compatible intersection preserves the whole-terminal control at every finite order, and the same trace mechanism gives a strong terminal limit in every Sobolev space:
+\[
+u(t)\longrightarrow u_*
+\quad\text{in }H^m(\R^3)
+\quad\text{as }t\uparrow T_*
+\]
+for every finite \(m\), with one terminal velocity
+\[
+u_*\in\bigcap_{m=0}^{\infty}H^m(\R^3).
+\]
+
+The differentiated Navier--Stokes equations and the pressure recovery determine the complete velocity-pressure jet at \(T_*\).
+Thus the alleged singular endpoint is a smooth time slice of the same solution.
+Smooth local existence restarts the system from \(u_*\), and uniqueness identifies that restart with the original solution.
+The same solution then continues beyond \(T_*\), contradicting maximality.
+Hence \(T_*=\infty\).

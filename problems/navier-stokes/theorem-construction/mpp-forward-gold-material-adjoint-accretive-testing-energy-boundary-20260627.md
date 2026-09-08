@@ -56,7 +56,7 @@ where \(g_P\) is a normalized selector-compatible testing source, and then set s
 b_P=1+\mathcal A_P\Phi_P,
 ```
 
-where \(\mathcal A_P\) is the relevant pressure-Hodge / material testing functional.
+where \(\mathcal A_P\) is the relevant pressure-Helmholtz--Leray / material testing functional.
 
 The hope is that elliptic energy gives
 

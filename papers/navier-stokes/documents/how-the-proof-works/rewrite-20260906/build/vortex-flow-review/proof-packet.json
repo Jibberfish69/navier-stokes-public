@@ -1,0 +1,13 @@
+{
+  "raw_task": "ok now read this through, and rewrite it so that it's apart of one single train of thought for the reader.",
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/vortex-flow-review/candidate.tex",
+    "sha256": "0414ec418fe8357505abb740eeb321a620af29266c8c4baf26953652e70458df"
+  },
+  "source": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/vortex-flow-review/supplied-passage.tex",
+    "sha256": "5fb7a67c26d671574db63b4968dca104248a3930f4f027da1bc4a6b8c37e3b09"
+  },
+  "scope": "Only the supplied vortex passage and its existing equations.",
+  "render": []
+}

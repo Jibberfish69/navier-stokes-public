@@ -1,0 +1,87 @@
+{
+  "field_resolutions": [
+    {"field": "writing_form", "status": "accepted_for_run", "value": "mathematical research manuscript", "reason": "The live source and direct instructions fix this form."},
+    {"field": "writing_job", "status": "accepted_for_run", "value": "full Section 1 and Section 2 causal exposition and derivation repair", "reason": "The requested repair covers both named sections."},
+    {"field": "domain", "status": "accepted_for_run", "value": "three-dimensional incompressible Navier--Stokes global regularity", "reason": "The live manuscript fixes the mathematical domain."},
+    {"field": "audience", "status": "accepted_for_run", "value": "mathematicians, physicists, and technically serious readers meeting this proof route for the first time", "reason": "The manuscript must teach the route without assuming its private discovery history."},
+    {"field": "purpose", "status": "accepted_for_run", "value": "make the reader discover the regularity problem, Gold, Silver, class exit, participation, Euler slip, the derivative tower, failure pictures, one-fluid ontology, and the compatible-intersection construction in the supplied causal order", "reason": "This is the direct supplied sequence and message."},
+    {"field": "reader_start", "status": "accepted_for_run", "value": "knows the Navier--Stokes equations exist but has not acquired this manuscript argument", "reason": "The opening must supply the complete reader footing."},
+    {"field": "reader_end", "status": "accepted_for_run", "value": "holds one physical fluid object and can reconstruct why the derivative tower, all-row intersection, finite rectangles, compatibility, and terminal quantifier are required", "reason": "This is the reader state required before the formal closure."},
+    {"field": "live_pressure", "status": "accepted_for_run", "value": "the current draft replaced the supplied nuanced movement with glossaries, surveys, classifications, and formula management", "reason": "This is verified in the live prose and the user's correction."}
+  ],
+  "reader_start": "knows the Navier--Stokes equations exist but has not acquired this manuscript argument",
+  "live_pressure": "the current draft replaced the supplied nuanced movement with glossaries, surveys, classifications, and formula management",
+  "candidate_moves": [
+    {
+      "move_id": "user-fixed-full-causal-sequence",
+      "move": {
+        "selection": "problem -> relevant historical wall -> Gold -> Silver -> class membership -> participation -> Euler comparison -> singularity and derivative tower -> Dead Jump Blown and restart -> one-fluid VPI ontology -> critical height -> finite-time response escalation -> pressure-complete mixed jet -> spatial column -> all-row Sobolev intersection -> finite adjacent rectangles -> compatibility and the terminal quantifier",
+        "connection": "Carry one reader and one fluid forward, so each physical or mathematical consequence creates the need answered by the next fixed subsection.",
+        "development": "Recover every supplied distinction, example, calculation, caveat, and later landing while keeping the existing headings and the settled producer fixed.",
+        "expression": "Begin inside the actual difficulty, use ordinary causal language, let notation answer a felt question, and keep the human thought audible through the equations."
+      },
+      "layer_status": {"selection": "present", "connection": "present", "development": "present", "expression": "present"},
+      "reader_change": "The reader acquires the complete physical and analytic route as a successive discovery rather than as an inventory.",
+      "next_possibility": "The formal closure can use the settled compatible family without teaching or status repair still being owed upstream.",
+      "content_basis": ["live-input"],
+      "sequence": [],
+      "evidence_uses": [],
+      "risks": [
+        "Recovering only the topic order would repeat the flattening.",
+        "Mathematical qualifications could interrupt the physical point instead of sharpening it.",
+        "The later formal objects could arrive before the reader has created a need for them."
+      ],
+      "confidence": "unknown"
+    }
+  ],
+  "chosen_move_id": "user-fixed-full-causal-sequence",
+  "choice_reason": "The movement and its development are fixed by the user's exact instructions; the repair must realize them rather than select a substitute architecture.",
+  "rejected_move_ids": [],
+  "evidence_dispositions": [
+    {"record_id": "decision-live-obstacle-before-label-001", "status": "not_applicable", "reason": "The direct user sequence has higher authority for this whole-work repair."},
+    {"record_id": "decision-carry-established-thought-forward-001", "status": "not_applicable", "reason": "The direct user sequence has higher authority for this whole-work repair."},
+    {"record_id": "decision-unfold-causal-relations-001", "status": "not_applicable", "reason": "The direct user sequence has higher authority for this whole-work repair."},
+    {"record_id": "decision-name-operational-objects-001", "status": "not_applicable", "reason": "The direct user sequence has higher authority for this whole-work repair."},
+    {"record_id": "decision-earn-technical-language-001", "status": "not_applicable", "reason": "The direct user sequence has higher authority for this whole-work repair."},
+    {"record_id": "decision-preserve-discovery-order-001", "status": "not_applicable", "reason": "The direct user sequence has higher authority for this whole-work repair."},
+    {"record_id": "decision-generate-expression-from-thought-001", "status": "not_applicable", "reason": "The direct user sequence has higher authority for this whole-work repair."},
+    {"record_id": "decision-use-reader-shared-language-001", "status": "not_applicable", "reason": "The direct user sequence has higher authority for this whole-work repair."},
+    {"record_id": "decision-develop-to-reader-change-001", "status": "not_applicable", "reason": "The direct user sequence has higher authority for this whole-work repair."},
+    {"record_id": "decision-keep-example-inside-idea-001", "status": "not_applicable", "reason": "The direct user sequence has higher authority for this whole-work repair."},
+    {"record_id": "decision-repair-exact-referent-001", "status": "not_applicable", "reason": "The direct user sequence has higher authority for this whole-work repair."},
+    {"record_id": "decision-generalize-to-writing-faculty-001", "status": "not_applicable", "reason": "The direct user sequence has higher authority for this whole-work repair."},
+    {"record_id": "observation-reader-led-concept-before-formal-name-001", "status": "not_applicable", "reason": "The direct user sequence has higher authority for this whole-work repair."},
+    {"record_id": "decision-preserve-local-movement-role-001", "status": "not_applicable", "reason": "The direct user sequence has higher authority for this whole-work repair."},
+    {"record_id": "decision-separate-internal-inquiry-from-written-interrogative-001", "status": "not_applicable", "reason": "The direct user sequence has higher authority for this whole-work repair."},
+    {"record_id": "decision-sentence-possesses-complete-thought-001", "status": "not_applicable", "reason": "The direct user sequence has higher authority for this whole-work repair."},
+    {"record_id": "decision-hold-object-transfer-only-behaviour-20260814", "status": "not_applicable", "reason": "The direct user sequence has higher authority for this whole-work repair."}
+  ],
+  "uncertainties": [
+    "Voice fidelity remains for Thomas to judge after the full reader-facing artifact exists."
+  ],
+  "authorial_commitment": {
+    "work_target": "Complete rewritten Sections 1 and 2 that develop the user's full supplied sequence inside the approved subsection structure.",
+    "strongest_move_reason": "The supplied sequence preserves the actual causal discovery and prevents formal machinery from replacing the thought.",
+    "intellectual_gain": "Gold, Silver, participation, singular response, the derivative tower, and compatible intersection become parts of one argument rather than adjacent topics.",
+    "reader_gain": "The reader can follow why each idea appears, what it changes, and why the next one is needed.",
+    "delivery": "complete_output",
+    "structural_commitment": {
+      "scope": "whole_work",
+      "decision_origin": "user_supplied",
+      "voice_attribution": "user_owned",
+      "artifact_disposition": "preserve",
+      "inherited_reader_state": "The reader enters with the Navier--Stokes problem but without this paper's conceptual route.",
+      "section_job": "Develop the complete Section 1 physical and logical ontology, then reconstruct the Section 2 analytic discovery that leads to the settled compatible family.",
+      "outgoing_reader_need": "The reader needs the formal closure to use the compatible family already understood and supplied.",
+      "gap_decision": "strengthen_handoff",
+      "gap_payment": "Repair every internal transition and final handoff without changing the approved headings or theorem status.",
+      "new_section_job": "",
+      "enrichment_reason": "The user explicitly required the full nuance, technical depth, examples, distinctions, and human reasoning that the flattened draft removed.",
+      "enrichments": [
+        {"detail": "Physical consequences before their formal names", "reader_value": "The reader discovers each object instead of receiving a definition list.", "placement": "Across Sections 1 and 2", "restraint": "Keep every consequence attached to the fixed argument and do not add a new route."},
+        {"detail": "Enough equations to make each intuitive claim exact", "reader_value": "The reader can verify the comparison, derivative tower, Sobolev rows, and rectangles.", "placement": "At the point each calculation becomes necessary", "restraint": "Do not repeat formulas as inventories or restate Section 3."},
+        {"detail": "Bounded caveats after the intended point lands", "reader_value": "The argument remains honest without losing its physical force.", "placement": "Immediately after the claim each caveat limits", "restraint": "Do not let qualification become the paragraph's purpose."}
+      ]
+    }
+  }
+}

@@ -16,7 +16,7 @@ for one transported material history.  The clock is not the old coordinatewise r
 A_{4B,N}^{tower}
 ```
 
-containing metric, coefficient, commutator, pressure/Hodge, viscous/collar, geometry, and radius-spend channels.
+containing metric, coefficient, commutator, pressure/Helmholtz--Leray, viscous/collar, geometry, and radius-spend channels.
 
 ## 1. Factorial mixed tower removes the Stirling/binomial wall
 

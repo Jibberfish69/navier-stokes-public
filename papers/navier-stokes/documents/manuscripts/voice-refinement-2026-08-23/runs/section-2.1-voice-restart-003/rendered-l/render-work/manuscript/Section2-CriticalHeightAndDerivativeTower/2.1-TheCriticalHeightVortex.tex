@@ -1,0 +1,304 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.1 Vortex Stretching
+% ============================================================
+
+The momentum equation has four pieces:
+\[
+  \underbrace{\partial_t u}_{\text{local acceleration}}
+  +
+  \underbrace{(u\cdot\nabla)u}_{\text{nonlinear transport}}
+  =
+  \underbrace{-\nabla p}_{\text{pressure}}
+  +
+  \underbrace{\nu\Delta u}_{\text{viscous diffusion}}.
+\]
+The central regularity problem lies in the competition between nonlinear transport and viscosity.
+The hope is simple: viscosity smooths the fluid faster than nonlinear transport can sharpen it.
+If that remains true at every scale, the velocity stays smooth.
+
+\subsection{Vortex Stretching}\label{sub:ThePerfectlyStretchingVortex}
+
+Vortex stretching brings that competition inside a single piece of fluid.
+In a narrow material vortex tube, the vorticity runs along the tube's axis.
+When the surrounding strain draws one segment out in that direction, the segment lengthens; because its volume cannot change, it narrows at the same time.
+If \(e\) is the axial direction and \(L(t)\) is the segment's length, the symmetric strain
+\[
+  S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr)
+\]
+records the extension through
+\[
+  Se=\sigma(t)e,
+  \qquad
+  \sigma(t)>0,
+  \qquad
+  \frac{\dot L(t)}{L(t)}
+  =
+  e\cdot Se
+  =
+  \sigma(t).
+\]
+The same extension fixes the transverse contraction.
+Writing the constant material volume as \(\mathcal V=A(t)L(t)\), with effective radius \(r_{\mathrm{eff}}(t):=\sqrt{A(t)/\pi}\), incompressibility gives
+\[
+  \nabla\cdot u=0,
+  \qquad
+  \frac{d}{dt}(A L)=0,
+  \qquad
+  \frac{\dot A}{A}=-\sigma(t),
+  \qquad
+  \frac{\dot r_{\mathrm{eff}}}{r_{\mathrm{eff}}}
+  =
+  -\frac{\sigma(t)}{2}.
+\]
+The tube is being driven toward a smaller spatial scale as it is pulled out along its axis.
+
+Its rotation changes in the same motion.
+For \(\omega:=\nabla\times u\),
+\[
+  \frac{D\omega}{Dt}
+  =
+  S\omega+\nu\Delta\omega,
+  \qquad
+  \frac{D}{Dt}
+  :=
+  \partial_t+u\cdot\nabla.
+\]
+When \(\omega=|\omega|e\), the stretching direction and the vorticity direction coincide, and
+\[
+  S\omega
+  =
+  \sigma(t)\omega,
+  \qquad
+  \frac12\frac{D|\omega|^2}{Dt}
+  =
+  \sigma(t)|\omega|^2
+  +
+  \nu\,\omega\cdot\Delta\omega.
+\]
+Where this complete right-hand side remains positive, the segment's rotation intensifies while its radius falls.
+That growth already sits inside the velocity gradient.
+If \(|u|\leq U_0\) on the material segment \(\Omega_{\mathrm{seg}}(t)\), then
+\[
+  E_{\mathrm{seg}}(t)
+  :=
+  \frac12\int_{\Omega_{\mathrm{seg}}(t)}|u(x,t)|^2\,dx
+  \leq
+  \frac12U_0^2\mathcal V
+  <
+  \infty,
+  \qquad
+  \left|\frac12\bigl(\nabla u-(\nabla u)^{\mathsf T}\bigr)\right|_{\mathrm F}
+  =
+  \frac{|\omega|}{\sqrt2}
+  \leq
+  |\nabla u|_{\mathrm F}.
+\]
+The vortex can therefore remain finite in kinetic energy while becoming longer, thinner, and more sharply rotating.
+The gradients rise.
+
+\divider{\NavierStokes{} Scaling}
+
+The falling radius has made scale part of the problem.
+At a fixed time \(t_0\), let \(\ell:=r_{\mathrm{eff}}(t_0)\), and for \(\lambda>1\) define
+\[
+  u_\lambda(x,t)
+  :=
+  \lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)
+  :=
+  \lambda^2p(\lambda x,\lambda^2t).
+\]
+At time \(\lambda^{-2}t_0\), the corresponding vortex in \(u_\lambda\) has width \(\lambda^{-1}\ell\).
+This compares solutions at different scales; it does not identify \(u_\lambda\) with a later state of the original material tube.
+The four terms transform together:
+\[
+\begin{aligned}
+  \partial_tu_\lambda(x,t)
+  &=
+  \lambda^3(\partial_tu)(\lambda x,\lambda^2t),
+  \\
+  (u_\lambda\cdot\nabla)u_\lambda(x,t)
+  &=
+  \lambda^3\bigl((u\cdot\nabla)u\bigr)(\lambda x,\lambda^2t),
+  \\
+  \nabla p_\lambda(x,t)
+  &=
+  \lambda^3(\nabla p)(\lambda x,\lambda^2t),
+  \\
+  \nu\Delta u_\lambda(x,t)
+  &=
+  \lambda^3\nu(\Delta u)(\lambda x,\lambda^2t).
+\end{aligned}
+\]
+Every term has gained the same \(\lambda^3\).
+At the finer width, viscosity has gained nothing on nonlinear sharpening.
+
+\divider{Critical Height}
+
+The equation has kept its balance, but the size assigned to the velocity depends on where it is measured.
+With \(\Lambda:=(-\Delta)^{1/2}\), a change of variables gives
+\[
+  \norm{u_\lambda(t)}_{\dot H^s}^2
+  =
+  \lambda^{2s-1}
+  \norm{u(\lambda^2t)}_{\dot H^s}^2.
+\]
+Below \(s=\tfrac12\) the norm falls under concentration; above it the norm rises.
+At \(s=\tfrac12\), the change of scale contributes nothing at all.
+Set
+\[
+  H(t)
+  :=
+  \frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =
+  \frac12\norm{\Lambda^{1/2}u(t)}_2^2.
+\]
+The levels on either side move in opposite directions:
+\[
+  \norm{u_\lambda(t)}_2^2
+  =
+  \lambda^{-1}\norm{u(\lambda^2t)}_2^2,
+  \qquad
+  H_\lambda(t)=H(\lambda^2t),
+  \qquad
+  \norm{\nabla u_\lambda(t)}_2^2
+  =
+  \lambda\norm{\nabla u(\lambda^2t)}_2^2.
+\]
+Energy falls and first-derivative energy rises while \(H\) stays fixed.
+Any change in \(H\) along the evolving solution must come from the equation itself, not from the shrinking ruler.
+
+\divider{Nonlinear Production versus Viscous Dissipation}
+
+Applying \(\Lambda^{1/2}\) to the momentum equation and pairing with \(\Lambda^{1/2}u\) isolates that change.
+Write the signed nonlinear contribution as
+\[
+  \mathcal P_{1/2}(t)
+  :=
+  -\operatorname{Re}
+  \pair
+    {\Lambda^{1/2}u(t)}
+    {\Lambda^{1/2}\bigl((u(t)\cdot\nabla)u(t)\bigr)}_{L^2}.
+\]
+Incompressibility removes the pressure pairing, and the Laplacian contributes \(-\nu\norm{\Lambda^{3/2}u}_2^2\), leaving
+\[
+  H'(t)
+  +
+  \nu\norm{\Lambda^{3/2}u(t)}_2^2
+  =
+  \mathcal P_{1/2}(t).
+\]
+Nonlinear production raises the critical height; viscous dissipation lowers it.
+Under the same rescaling,
+\[
+  \mathcal P_{1/2}[u_\lambda](t)
+  =
+  \lambda^2\mathcal P_{1/2}[u](\lambda^2t),
+  \qquad
+  \nu\norm{\Lambda^{3/2}u_\lambda(t)}_2^2
+  =
+  \lambda^2\nu\norm{\Lambda^{3/2}u(\lambda^2t)}_2^2.
+\]
+Production and dissipation still rise together.
+Their common \(\lambda^2\) is the inverse of the contracted time coordinate \(t\mapsto\lambda^{-2}t\): the spatial balance has survived, but its clock has shortened.
+
+\divider{The Heat Clock}
+
+Viscosity carries exactly such a clock.
+For the linear heat equation \(v_t=\nu\Delta v\),
+\[
+  \widehat v(\xi,t+\delta t)
+  =
+  e^{-\nu|\xi|^2\delta t}\widehat v(\xi,t).
+\]
+A structure of width \(r\) is concentrated around frequencies \(|\xi|\simeq r^{-1}\), and the multiplier changes by order one once \(\nu|\xi|^2\delta t\simeq1\).
+Its viscous comparison time is therefore
+\[
+  \tau_\nu(r)
+  :=
+  \frac{r^2}{\nu}.
+\]
+Shrinking the width by \(\lambda^{-1}\) gives
+\[
+  \tau_\nu(\lambda^{-1}r)
+  =
+  \lambda^{-2}\tau_\nu(r),
+\]
+the same contraction already carried by the full \NavierStokes{} scaling.
+This is the time viscosity needs to alter structure at width \(r\); it is not a prescribed lifetime for the original vortex.
+Even so, continued narrowing would place each finer scale beside a quadratically shorter clock.
+
+\divider{The Zeno Cascade}
+
+Repeated halving makes those clocks a geometric sequence.
+For
+\[
+  r_n:=2^{-n}r_0,
+  \qquad
+  \tau_n:=\frac{r_n^2}{\nu},
+\]
+one has
+\[
+  \tau_n
+  =
+  \frac{r_0^2}{\nu}4^{-n},
+  \qquad
+  \sum_{n=0}^{\infty}\tau_n
+  =
+  \frac{4r_0^2}{3\nu}
+  <
+  \infty.
+\]
+Infinitely many comparison clocks fit inside a finite total time.
+The sum does not make them one fluid history.
+A candidate singularity would require the same solution to pass through widths
+\[
+  r_0>r_1>r_2>\cdots\longrightarrow0
+\]
+at times
+\[
+  t_0<t_1<t_2<\cdots\uparrow T_*<\infty,
+  \qquad
+  t_{n+1}-t_n\asymp\tau_n,
+\]
+with comparison constants independent of \(n\).
+Its remaining time would then satisfy
+\[
+  T_*-t_n
+  \asymp
+  \sum_{k=n}^{\infty}\tau_k
+  =
+  \frac{4r_n^2}{3\nu}.
+\]
+The width tends to zero inside intervals of the same order as its viscous clock.
+For one solution to make that passage, its response must keep changing on those collapsing intervals.
+
+Assume that this same solution loses continuation at \(T_*\) through blow-up in one fixed continuation-controlling Banach space \(B\).
+If some finite temporal row \(\partial_t^N u\), \(N\geq1\), remained uniformly bounded in \(B\) after a time \(t_0<T_*\), then
+\[
+  \partial_t^{N-1}u(t)
+  =
+  \partial_t^{N-1}u(t_0)
+  +
+  \int_{t_0}^{t}\partial_t^N u(s)\,ds
+\]
+would remain bounded because the interval is finite.
+The same identity applied successively to the lower rows would bound \(u\), contradicting the assumed blow-up.
+No finite temporal row can therefore retain uniform control in \(B\) along a genuine singular history.
+
+The momentum equation supplies the first row, and each further time differentiation supplies the next.
+The resulting family
+\[
+  u,
+  \qquad
+  \partial_tu,
+  \qquad
+  \partial_t^2u,
+  \qquad
+  \partial_t^3u,
+  \qquad
+  \ldots
+\]
+is the temporal Tower.

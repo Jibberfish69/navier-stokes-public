@@ -1,0 +1,46 @@
+{
+  "schema_version": 3,
+  "review_kind": "whole_editorial",
+  "input_packet": {
+    "path": "/tmp/ns-publication-edits-20260904/critic-packet.json",
+    "sha256": "d35278e0b73070c559c6ee6d476b466f18034b33c0d108081d5a94fb8b1da311"
+  },
+  "candidate": {
+    "path": "/private/tmp/ns-publication-edits-20260904/candidate.txt",
+    "sha256": "b8465b9b6ba7b7463ba22011a647035dcab065b50db8ea3698754003ec585be2"
+  },
+  "render": [
+    {
+      "path": "/tmp/ns-publication-edits-20260904/renders/page-009.png",
+      "sha256": "d75d8ea17df8d07a5f41e760c25510729c5434f3c15b9ebb22b61313f347da6d"
+    },
+    {
+      "path": "/tmp/ns-publication-edits-20260904/renders/page-010.png",
+      "sha256": "c547f5e02ed31dc48afef98d10dc3d77707e599001afc1e70570524cd99927e5"
+    },
+    {
+      "path": "/tmp/ns-publication-edits-20260904/renders/page-026.png",
+      "sha256": "662cf6518cea637fb479f8eab6fbfc9cc508bc5272294ed7af48ee8a51296a78"
+    },
+    {
+      "path": "/tmp/ns-publication-edits-20260904/renders/page-028.png",
+      "sha256": "fd0d13f989c6f8366105cb08a16bffcddfd0b96f600343bd17414a4aeec7fca4"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/publication_reader",
+    "task_name": "publication_reader",
+    "isolation": "fork_none",
+    "request_nonce": "91de4d98bc5dcc39932f7d77b3bda29aa71806f5b9b4e69c2ec4f38037de5d89"
+  },
+  "decision": {
+    "verdict": "pass",
+    "argument_possession": "The introduction connects the compatible all-orders derivative family to the spatial, temporal-height, velocity-time, and pressure-explicit representations before returning to the endpoint argument. The rectangle insertion distinguishes the adjacent-row estimate, its finite norm realization, and the role of restriction compatibility. This is an explanation and clarity review of the selected additions in context, with no theorem-status reassessment.",
+    "paragraph_movement": "The spatial passage starts with a prescribed derivative order and explains the embedding. The height passage starts from the viscous contribution to the first derivative, follows repeated differentiation, and states the subtraction and division that recover the higher spatial energy. The velocity and pressure passage completes the four-representation explanation. On rendered page 9 this sequence remains continuous, and page 10 carries the endpoint and restart to the introduction close. Page 26 places the height introduction directly after the energy identity; page 28 places the rectangle transition between Theorem 4.6 and Proposition 4.7.",
+    "first_stall": null,
+    "explanatory_allocation": "The height connection has an explicit operation and a concrete first-order instance, with the proposition reference supplying the full recurrence. The other representations receive enough explanation for this introductory placement. The rectangle transition assigns a distinct purpose to each referenced result. All four inspected images are legible at the supplied scale, with no visible clipping, text collision, missing prose, or intrusive line break in the selected additions. Page 10 has substantial blank space after the completed introduction; that section-ending space does not disrupt its text movement. No supported HumanWriting defect.",
+    "register": "The additions retain a mathematical research register through specific derivatives, energies, embeddings, intervals, and references. Their explanatory verbs correspond to operations given in the selected source spans, and the prose does not rely on decorative personality or generic promotion.",
+    "ending": "The introduction returns from the four representations to the terminal state and restart, completing its final paragraph on page 10. The height insertion is intact at the foot of page 26. The rectangle transition and following proposition are readable together on page 28. The passing result covers the bounded prose and these four rendered pages; it makes no theorem-status or submission-certification finding.",
+    "required_action": "release"
+  }
+}

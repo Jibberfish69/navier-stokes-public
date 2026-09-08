@@ -1,0 +1,138 @@
+And this holds for every finite m. So the same velocity field has one genuine terminal value
+                                                       u∗ := u(T∗ ),
+with
+                                                        ⋂︂
+                                                u∗ ∈         H m = H ∞.
+                                                       m<∞
+
+This is the smooth endpoint.
+
+7. Recover the complete endpoint response Tower
+Now feed u∗ back into the pressure-complete recurrence.
+   Start with
+                                              V0 (T∗ ) = u∗ .
+Then
+                                   V1 (T∗ ) = ν∆u∗ − (u∗ · ∇)u∗ − ∇Q0 (T∗ ).
+             ∞
+Since u∗ ∈ H ,
+                                                V1 (T∗ ), Q0 (T∗ ) ∈ H ∞ .
+Repeat:
+                                                   n (︃ )︃
+                                                  ∑︂   n
+                     Vn+1 (T∗ ) = ν∆Vn (T∗ ) −            (Va (T∗ ) · ∇)Vn−a (T∗ ) − ∇Qn (T∗ ).
+                                                  a=0
+                                                       a
+Induction gives
+                                      Vn (T∗ ), Qn (T∗ ) ∈ H ∞         ∀n < ∞.
+So the terminal face carries the full pressure-complete jet of the original history.
+
+8. Restart the same history
+The terminal datum
+                                                        u∗ ∈ H ∞
+satisfies the hypotheses for standard smooth local Navier–Stokes existence. It follows that a smooth solution
+begins at T∗ .
+    Uniqueness identifies that solution with the continuation of the original u0 -generated history. Consequently,
+the history extends beyond T∗ .
+    A finite maximal T∗ thus contradicts the endpoint supplied by the proof. Hence
+                                                         T∗ = ∞.
+
+
+The actual idea in one picture
+Set
+                                 Vn := ∂tn u,        L2t Hxm := L2 (0, T∗ ; H m (R3 )).
+Each entry below is one whole-terminal bound on one derivative of the same velocity field:
+
+       n ↓\m→                  0                             1                          2             ···
+          0               V0 ∈ L2t Hx0                  V0 ∈ L2t Hx1               V0 ∈ L2t Hx2       ···
+          1               V1 ∈ L2t Hx0                  V1 ∈ L2t Hx1               V1 ∈ L2t Hx2       ···
+          2               V2 ∈ L2t Hx0                  V2 ∈ L2t Hx1               V2 ∈ L2t Hx2       ···
+           ..                  ..                            ..                         ..            ..
+            .                   .                             .                          .               .
+
+                                                             6
+Moving right raises the spatial Sobolev order m; moving down raises the time-derivative order n. The entries
+are coordinates, so the diagram makes no claim that H 0 embeds into H 1 . The Navier–Stokes recurrence
+joins adjacent temporal rows while retaining the nonlinear and pressure terms.
+    For fixed finite N, M , the upper-left finite block is the view encoded by RN,M [u0 ]. The producer theorem
+carries that block through (0, T∗ ); compatibility identifies shared cells; the projective intersection contains
+every finite cell:                                   ⋂︂
+                                         I[u0 ] ⊂          H n (0, T∗ ; H m ).
+                                                      n,m<∞
+
+
+
+How the intersection produces and uses the estimates
+Choose an integer m ≥ 3, and take a finite rectangle far enough right that both V0 = u and V1 = ut reach
+the H m column. Those two cells give
+                    u, ut ∈ L2 (0, T∗ ; H m )      =⇒    u ∈ H 1 (0, T∗ ; H m ) ↪→ C([0, T∗ ]; H m ).
+Thus the intersection produces the finite estimate
+                                            Bm := sup ∥u(t)∥H m < ∞.
+                                                     0≤t≤T∗
+
+Since m > 5/2, spatial Sobolev embedding gives
+                                                H m (R3 ) ↪→ W 1,∞ (R3 ),
+and hence                                  ∫︂ T∗
+                                    A :=           ∥∇u(t)∥L∞ dt ≤ Cm T∗ Bm < ∞.
+                                            0
+    This is where the estimate is used. For any integer s ≥ 3, the standard Sobolev energy inequality is
+                         1 d
+                              ∥u(t)∥2H s + ν∥∇u(t)∥2H s ≤ Cs ∥∇u(t)∥L∞ ∥u(t)∥2H s .
+                         2 dt
+Dropping the nonnegative viscous term and applying Grönwall gives
+                                             (︃   ∫︂ t              )︃
+                   ∥u(t)∥2H s ≤ ∥u0 ∥2H s exp 2Cs      ∥∇u(τ )∥L∞ dτ ≤ ∥u0 ∥2H s e2Cs A .
+                                                          0
+
+It follows that
+                               ∫︂ T∗
+                   I[u0 ] =⇒           ∥∇u∥L∞ dt < ∞ =⇒ sup ∥u(t)∥H s < ∞                   (s ≥ 3).
+                                0                                 0≤t<T∗
+
+The intersection produces the estimate; Grönwall uses it to prevent nonlinear amplification from sending a
+fixed H s norm to infinity before T∗ . The all-orders intersection also supplies the stronger endpoint already
+used above, so the section closes with
+
+                      I[u0 ] =⇒ u∗ ∈ H ∞ =⇒ (u, p)[0,T∗ ) ↪→ (˜︁ p)[0,T∗ +δ] =⇒ T∗ = ∞.
+                                                              u, ˜︁
+
+
+
+
+                                                              7
+Contents
+1 Introduction                                                                                               9
+
+2 Analytic framework                                                                                        11
+
+3 The pressure-complete setting and mixed jet                                                               22
+
+4 Datum-generated compatible rectangles                                                                     26
+
+5 Compatible intersection, endpoint jet, and restart                                                        30
+
+6 Matrix forms of the completed intersection                                                                37
+
+7 Quantitative consequences of the compatible rectangles                                                   40
+  7.1 Completion in the global H1 mild class . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40
+  7.2 Canonical coordinates and finite majorants . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43
+  7.3 Mixed velocity and pressure rows . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50
+  7.4 Frequency and critical-scale consequences . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 52
+  7.5 Continuation and quantitative restart . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54
+
+8 Three-dimensional applications                                                                             55
+  8.1 Explicit closure for small critical data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 55
+  8.2 Low-rectangle and scale-local bounds . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60
+  8.3 Vorticity and material flow . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 61
+  8.4 Relative energy and the Leray–Hopf class . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63
+
+9 Conclusion                                                                                                68
+
+A Canonical coordinate catalogue                                                                            69
+
+References                                                                                                  73
+
+
+
+
+                                                      8
+

@@ -1,0 +1,85 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 1.6 A Comparison with Euler
+% ============================================================
+\subsection{A Comparison with Euler}\label{sub:AComparisonWithEuler}
+
+The Couette picture shows tangential momentum passing through neighbouring layers even when the net viscous force inside each layer is zero.
+Remove viscosity from the same kind of tangential scene and a sharp slip becomes possible.
+
+Two rigid boards sliding along a common face give the kinematic picture.
+Their normal velocities agree because neither board passes through the other, while their tangential velocities can differ abruptly at the interface.
+The fluid analogue is an idealized vortex sheet.
+
+Let
+\[
+  \Sigma=\{x_3=0\},
+\]
+choose constants \(U_-\neq U_+\), and define
+\[
+  u(x)=
+  \begin{cases}
+    U_-e_1, & x_3<0,\\
+    U_+e_1, & x_3>0,
+  \end{cases}
+  \qquad
+  p(x)=p_0.
+\]
+The jump
+\[
+  [u]=(U_+-U_-)e_1
+\]
+is tangent to \(\Sigma\), whose unit normal is \(e_3\).
+The distributional divergence contains the possible sheet term \([u]\cdot e_3\,\delta_\Sigma\), and that term vanishes because
+\[
+  [u]\cdot e_3=0.
+\]
+
+The stationary Euler momentum equation is just as direct in divergence form:
+\[
+  \nabla\cdot(u\otimes u)+\nabla p=0.
+\]
+On both sides of the sheet,
+\[
+  (u\otimes u)e_3=u(u\cdot e_3)=0.
+\]
+There is no jump in normal momentum flux, and the constant pressure contributes no sheet force.
+The piecewise constant field is a stationary weak solution of the incompressible Euler equations.
+
+Its loss of smoothness is concentrated at the interface.
+Since \(u_1\) jumps in the \(x_3\)-direction,
+\[
+  \nabla\times u
+  =
+  (U_+-U_-)e_2\,\delta_\Sigma.
+\]
+The velocity stays finite on both sides while the shear becomes a surface measure.
+Euler admits this stationary sheet because its momentum law contains no viscous term that differentiates across the jump.
+
+Now apply the fixed-viscosity equation to this exact stationary field.
+Distributionally,
+\[
+  \Delta u
+  =
+  (U_+-U_-)e_1\,\delta'_\Sigma.
+\]
+The stationary time derivative and transport term still vanish.
+The pressure remains constant, so there is nothing on the left side of the momentum equation that can match \(\nu\Delta u\).
+Allowing another pressure cannot quietly repair this particular defect: every pressure gradient has zero curl, whereas the curl of \(\nu\Delta u\) is a nonzero derivative of the sheet distribution.
+The stationary Euler sheet fails the fixed-\(\nu\) Navier--Stokes momentum equation.
+
+This gives a precise conditional class-exit witness.
+If this same stationary sheet, with the same piecewise constant velocity and no compensating time dependence, is proposed as the endpoint continuation \(Q\), then
+\[
+  \neg\operatorname{Member}(Q)
+\]
+follows from the unmatched viscous distribution.
+The calculation belongs to this planar slip model.
+It does not prove that every nonsmooth outcome is an Euler solution, and it does not prove that every tangential discontinuity must have the same distributional structure.
+The infinite planar sheet also has infinite kinetic energy on \(\mathbb R^3\), so it is not a whole-space Millennium counterexample.
+
+What the comparison establishes is local and exact.
+A bounded jump can satisfy the shared inviscid transport, pressure, and incompressibility equations while failing the fixed-viscosity equation at the interface.
+The failure appears in the velocity itself, which makes it easy to see.
+A finite continuous velocity can hide the same loss of smoothness in its gradient, its material acceleration, its jerk, or a still higher derivative.
+Following those possibilities requires us to climb above the base value of the field.

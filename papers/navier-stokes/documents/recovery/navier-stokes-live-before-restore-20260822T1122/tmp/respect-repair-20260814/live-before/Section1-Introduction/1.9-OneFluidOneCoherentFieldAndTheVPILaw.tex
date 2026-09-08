@@ -1,0 +1,193 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 1.9 One Fluid, One Coherent Field, and the VPI Law
+% ============================================================
+\subsection{One Fluid, One Coherent Field, and the VPI Law}\label{sub:OneFluidOneCoherentFieldAndTheVPILaw}
+
+Take a small parcel of fluid at time zero and follow the matter inside it.
+The flow map \(X(a,t)\) sends the initial material label \(a\) to its position at time \(t\):
+\[
+  \partial_tX(a,t)=u(t,X(a,t)),
+  \qquad
+  X(a,0)=a.
+\]
+The parcel changes shape, and the distances and directions within its material neighbourhood change as the velocity field carries it through space.
+It remains part of the same fluid because every parcel is moved by the same velocity field \(u\).
+
+Incompressibility makes this identity geometric.
+If
+\[
+  J(a,t):=\det\nabla_aX(a,t),
+\]
+then the standard determinant identity gives
+\[
+  \frac{d}{dt}J(a,t)
+  =
+  (\nabla\cdot u)(t,X(a,t))J(a,t).
+\]
+Since \(\nabla\cdot u=0\),
+\[
+  J(a,t)=J(a,0)=1.
+\]
+Material volumes are rearranged by the flow without being compressed or expanded.
+
+The parcel velocity is
+\[
+  U(a,t):=u(t,X(a,t)).
+\]
+Its acceleration is determined by the field it occupies:
+\[
+  \frac{d}{dt}U(a,t)
+  =
+  -\nabla p(t,X(a,t))
+  +
+  \nu\Delta u(t,X(a,t)).
+\]
+The pressure and viscous terms act on the same parcel at the same instant.
+Transport has already entered through the moving point \(X(a,t)\).
+
+The viscous term gives a literal relation between the parcel and nearby velocity.
+At an interior point of a smooth three-dimensional field, the mean-value expansion over a ball gives, component by component,
+\[
+  \Delta u(t,x)
+  =
+  \lim_{r\downarrow0}
+  \frac{10}{r^2}
+  \left(
+    \frac{1}{|B_r(x)|}
+    \int_{B_r(x)}u(t,y)\,dy
+    -
+    u(t,x)
+  \right).
+\]
+Viscosity compares the velocity at \(x\) with the average velocity in smaller and smaller neighbourhoods around \(x\).
+When those values curve away from the local average, \(\nu\Delta u\) contributes to the parcel acceleration.
+
+Pressure has a different spatial reach.
+Taking the divergence of the momentum equation gives
+\[
+  -\Delta p
+  =
+  \partial_i\partial_j(u_i u_j).
+\]
+For a sufficiently decaying velocity field on \(\mathbb R^3\),
+\[
+  p
+  =
+  R_iR_j(u_i u_j)
+\]
+up to the usual pressure normalization.
+The pressure gradient at one parcel can change when the velocity changes far from that parcel, because incompressibility is enforced across the whole field.
+
+These simultaneous relations are the meaning of the \emph{VPI law} used here.
+VPI is shorthand for viscosity, pressure, and incompressibility acting through one velocity evolution:
+\[
+  \begin{gathered}
+  \partial_tX=u(t,X),\\
+  \frac{d}{dt}u(t,X)
+  =
+  -\nabla p(t,X)
+  +
+  \nu\Delta u(t,X),\\
+  \nabla\cdot u=0,
+  \qquad
+  -\Delta p=\partial_i\partial_j(u_i u_j).
+  \end{gathered}
+\]
+One parcel responds to its immediate velocity neighbourhood through viscosity, to the configuration of the whole fluid through pressure, and to the volume constraint through the motion of all neighbouring parcels.
+As transport deforms the material neighbourhood, the same three relations determine the next response.
+
+The same relation can be written for a whole material packet without reducing it to a point.
+Write \(X_t(a):=X(a,t)\), and let \(A(t)=X_t(A(0))\) be a smooth material region.
+Incompressibility preserves its volume, and the Reynolds transport theorem gives
+\[
+  \frac{d}{dt}\int_{A(t)}u(t,x)\,dx
+  =
+  \int_{\partial A(t)}
+  \left[
+    -pI
+    +
+    \nu\bigl(\nabla u+\nabla u^{\mathsf T}\bigr)
+  \right]n\,dS.
+\]
+The pressure traction \(-pn\) and the viscous traction act together across the entire packet boundary.
+Every parcel inside the packet contributes to one momentum, and the change of that momentum is fixed by how the rest of the same fluid acts across its moving boundary.
+
+\divider{A Moving Material Graph}
+
+Graph language can make this relation visible if the graph moves with the matter.
+Partition the initial fluid into small material packets \(\{A_a(0)\}_{a\in\mathcal V}\) and carry each packet by the flow:
+\[
+  A_a(t):=X_t(A_a(0)).
+\]
+The vertex \(a\) continues to label the same matter while the packet's position, shape, and spacing from its material neighbours change.
+Let \(X_a(t)\) and \(U_a(t)\) denote the centroid and packet-averaged velocity of \(A_a(t)\), respectively.
+
+Two vertices are adjacent when their initial packets share a face.
+Write \(b\sim a\) for that fixed material adjacency and
+\[
+  \Gamma_{ab}(t)
+  :=
+  X_t\bigl(\partial A_a(0)\cap\partial A_b(0)\bigr)
+\]
+for the shared face carried by the flow.
+A smooth flow map preserves this adjacency even though the face area, the centroid distance, and the packet shape all change.
+
+On an orthogonal finite-volume approximation, put
+\[
+  d_{ab}(t):=|X_b(t)-X_a(t)|,
+  \qquad
+  w_{ab}(t)
+  :=
+  \frac{|\Gamma_{ab}(t)|}{|A_a(t)|d_{ab}(t)}.
+\]
+The corresponding local graph Laplacian is
+\[
+  (L_tU)_a
+  =
+  \sum_{b\sim a}
+  w_{ab}(t)\bigl(U_b(t)-U_a(t)\bigr)
+  \approx
+  \Delta u(t,X_a(t)).
+\]
+The material adjacency graph is inherited from the initial partition, while its weights evolve with the geometry.
+Viscous response is local on that graph: only packets sharing a material face enter \((L_tU)_a\).
+
+The material acceleration at a vertex then has the form
+\[
+  \dot U_a(t)
+  \approx
+  -(\nabla p)_a(t)
+  +
+  \nu(L_tU)_a.
+\]
+This local relation still needs the pressure generated by the whole velocity field.
+Let
+\[
+  p_a(t)
+  :=
+  \frac{1}{|A_a(t)|}
+  \int_{A_a(t)}p(t,x)\,dx,
+  \qquad
+  (S_{ij})_b(t)
+  :=
+  \frac{1}{|A_b(t)|}
+  \int_{A_b(t)}u_i(t,x)u_j(t,x)\,dx.
+\]
+A discretization of \(p=R_iR_j(u_i u_j)\) has the form
+\[
+  p_a(t)
+  \approx
+  \sum_{b\in\mathcal V}
+  K_{ab}^{ij}(t)
+  (S_{ij})_b(t).
+\]
+The matrix \(K^{ij}(t)\) represents the discretized Riesz operators and is generally dense.
+Distant packets can change the pressure acting at vertex \(a\), even when viscosity at \(a\) uses only the current local neighbours.
+The continuum material balance remains the exact law; the moving graph separates its local viscous coupling from its nonlocal pressure coupling without splitting them into different fluids.
+
+At every finite rung of the derivative tower, the viscous, pressure, and divergence relations remain equations of the same velocity field; differentiating one term never gives it an independent evolution.
+
+Any finite-time failure must occur inside this same coupled field.
+Its kinetic energy may stay bounded while smaller structures intensify, so the next question is which measurement remains visible when the scale changes.
+The critical height supplies that measurement, and the finite time remaining ties its growth back to the higher responses in the derivative tower.

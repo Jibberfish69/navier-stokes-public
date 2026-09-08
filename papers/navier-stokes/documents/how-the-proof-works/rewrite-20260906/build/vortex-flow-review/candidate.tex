@@ -1,0 +1,36 @@
+Consider a vortex within the fluid. Its vorticity is carried by the flow
+and changes through stretching and viscous diffusion:
+\[
+ \partial_t\omega+(u\cdot\nabla)\omega
+ =(\omega\cdot\nabla)u+\nu\Delta\omega,
+ \qquad \omega=\nabla\times u.
+\]
+Follow a tube of fluid particles along its core, where rotation is
+concentrated. If strain stretches the tube at an axial rate \(\sigma>0\),
+its length \(\ell\) grows as
+\[
+ \dot\ell=\sigma\ell>0.
+\]
+Because the fluid is incompressible, the tube must narrow as it lengthens.
+For a locally circular tube enclosing circulation \(\Gamma\), its radius
+\(r\) and mean swirl speed \(v\) satisfy
+\[
+ r\propto\ell^{-1/2},
+ \qquad v=\frac{|\Gamma|}{2\pi r}.
+\]
+At fixed circulation, this narrowing makes the fluid circulate faster.
+But viscosity is acting throughout the narrowing. It diffuses momentum
+between neighbouring regions, reducing velocity differences and spreading
+rotation through the surrounding fluid. Its diffusion distance
+\(r_{\mathrm{diff}}\) grows with time, and its contribution to the change
+in total squared vorticity is nonpositive:
+\[
+ r_{\mathrm{diff}}\sim\sqrt{\nu t},
+ \qquad
+ \langle\omega,\nu\Delta\omega\rangle
+ =-\nu\|\nabla\omega\|_2^2\le0.
+\]
+This spreading can carry rotation beyond the tube's boundary even while
+the fluid particles within it move inward. The tube can narrow while
+losing enclosed circulation, so the swirl speeds up only if that circulation
+does not weaken too quickly.

@@ -32,7 +32,7 @@ d\Omega_{\phi}^{active}
 \Big)\,dt
 ```
 
-plus pressure/Hodge, metric/collar, and viscous/tower service at depth \(N\).  Passive shear is charged to the bulk viscous strain channel, not to collar flux.
+plus pressure/Helmholtz--Leray, metric/collar, and viscous/tower service at depth \(N\).  Passive shear is charged to the bulk viscous strain channel, not to collar flux.
 
 ## Null-mode removal
 
@@ -86,7 +86,7 @@ After null projection, the active collar pieces should be read with \(u_\phi^\#\
 
 1. \(u_\phi^\#\cdot T(\nabla u)^T\nabla\phi\) and the cubic strain part are active collar/stress-work service;
 2. passive shear/null modes are charged to \(2\nu\int\phi|S|^2\);
-3. \((u_\phi^\#\cdot\nabla\phi)D_tp\) is pressure/Hodge service;
+3. \((u_\phi^\#\cdot\nabla\phi)D_tp\) is pressure/Helmholtz--Leray service;
 4. \(D_t\nabla\phi\), metric motion, and collar transport are charged to material-coordinate service;
 5. stress-gradient terms are viscous/tower service.
 

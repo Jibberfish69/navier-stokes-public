@@ -1,0 +1,17 @@
+{
+  "asset": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/figures/vortex-stretching-notation.pdf",
+  "placement": "After lengthens. and before For a thin",
+  "notation": [
+    "ell",
+    "r",
+    "v",
+    "omega",
+    "sigma"
+  ],
+  "construction": "typeset vector schematic from the page-one physical description",
+  "prose_unchanged": true,
+  "surrounding_inward_motion": true,
+  "surrounding_outward_diffusion": true,
+  "single_label_per_process": true,
+  "single_internal_swirl_label": true
+}

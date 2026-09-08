@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "review_kind": "proof_reverse",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/prose-refinement/proof-packet.json",
+    "sha256": "e9ab061e6397af58175be759d41d09dac7b1fec2b14a5f97fb4841b59ccfb154"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/prose-refinement/candidate.tex",
+    "sha256": "cf1ec4beb4ebfebcaf467d238231ec671f9436641e0dae13887ede4d88f7bc20"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/prose-refinement/page-1.png",
+      "sha256": "655fcf028fd4731097fd774abbf3392889e4e412313e5add10d6ff4b2b9ff215"
+    },
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/prose-refinement/page-2.png",
+      "sha256": "511f834539581e01b8177670d03ceb4d21cf97d3e8db89666d22464d240cd96f"
+    },
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/prose-refinement/page-3.png",
+      "sha256": "33d26640a23a181ed33e9dbda0b36eb35eb6de4355e0a3cd7e23ebc1b3b8ca95"
+    },
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/prose-refinement/page-4.png",
+      "sha256": "286e2d39f7aeb2d26af6997d3a55e8a5df5eaf2e72b587a74999b6cf0c12402a"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/refinement_source",
+    "task_name": "refinement_source",
+    "isolation": "fork_none",
+    "request_nonce": "52f027eaba863d15f292c687c09f8231f0e73b314f12493b"
+  },
+  "decision": {
+    "verdict": "pass",
+    "first_divergence": null
+  }
+}

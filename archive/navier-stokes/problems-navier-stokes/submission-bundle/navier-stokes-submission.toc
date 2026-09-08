@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {section}{\numberline {2}Main Result}{2}{section.2}%
+\contentsline {section}{\numberline {3}Setup and Notation}{3}{section.3}%
+\contentsline {section}{\numberline {4}Bridge I: Scale Barrier}{3}{section.4}%
+\contentsline {section}{\numberline {5}Bridge II: Nonlinear Compactness}{4}{section.5}%
+\contentsline {section}{\numberline {6}Bridge III: Gradient Control}{4}{section.6}%
+\contentsline {section}{\numberline {7}Proof of the Main Theorem}{5}{section.7}%
+\contentsline {section}{\numberline {8}Relation to Prior Work}{6}{section.8}%
+\contentsline {section}{\numberline {9}Conclusion}{6}{section.9}%
+\contentsline {section}{\numberline {A}Appendix: Theorem Surface Summary}{6}{appendix.A}%

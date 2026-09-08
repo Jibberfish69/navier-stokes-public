@@ -1,0 +1,22 @@
+---
+version: 2
+identity:
+  problem_id: navier-stokes
+  display_name: Navier--Stokes global regularity
+  updated_at: '2026-08-24'
+  source_owner: Thomas Birnie
+lane_boundary:
+  status: isolated
+  audit: problems/navier-stokes/lane-isolation-audit.yaml
+  proof_source_pack: problems/navier-stokes/proof-source-pack.md
+proof_program_completion_projection:
+  status: established-complete
+  mpp_status: solved
+  producer_status: proved-datum-generated-whole-terminal-compatible-rectangles
+  closure_status: proved
+  authority: problems/navier-stokes/live-theorem-edge.yaml
+  external_recognition_status: separate-workflow-not-a-proof-prerequisite
+submission:
+  generated_bundle: withdrawn-after-lane-isolation-audit
+  proof_custody: preserved-in-live-theorem-edge
+  external_review: required-separately

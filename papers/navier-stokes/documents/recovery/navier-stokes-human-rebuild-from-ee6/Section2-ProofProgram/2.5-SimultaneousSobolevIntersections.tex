@@ -1,0 +1,146 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.5 Simultaneous Sobolev Intersections
+% ============================================================
+
+\subsection{Simultaneous Sobolev Intersections}\label{sub:SimultaneousSobolevIntersections}
+
+The ascent has no final spatial height, although each concrete derivative request
+uses only finitely many rungs.  To make all \(\partial_x^\alpha u\) with
+\(\lvert\alpha\rvert\le k\) continuous, use the three-dimensional embedding
+\[
+  H^m(\R^3)
+  \hookrightarrow
+  C^k(\R^3)
+\]
+whenever
+\[
+  m>k+\frac32.
+\]
+Thus each requested order \(k\) chooses one finite height above its threshold.
+There is no largest \(m\) as \(k\) ranges over all finite orders, but no single
+infinite-order norm is needed.  The proper object is the coordinatewise
+intersection
+\[
+  \bigcap_{m=0}^{\infty}H^m(\R^3),
+\]
+whose coordinates are all measured on the same field.  For each fixed \(k\),
+one coordinate supplies \(C^k\), hence
+\[
+  \bigcap_{m=0}^{\infty}H^m(\R^3)
+  \hookrightarrow
+  C^\infty(\R^3).
+\]
+
+Time behaves the same way.  Let \(I=(0,T)\), \(T<T_*\), and let \(X\) be a
+Hilbert space.
+\Needspace{9\baselineskip}
+The vector-valued embedding
+\[
+  H^r(I;X)
+  \hookrightarrow
+  C^q(\overline I;X)
+\]
+holds for
+\[
+  r>q+\frac12.
+\]
+Each requested time derivative \(q\) chooses one finite \(r\), and all finite
+requests give
+\[
+  \bigcap_{r=0}^{\infty}H^r(I;X)
+  \hookrightarrow
+  C^\infty(\overline I;X).
+\]
+No common bound across all \(r\) is asserted.
+
+The mixed jet makes the temporal and spatial choices simultaneously.  For
+example, request
+\[
+  \partial_t^2\partial_x^\alpha u,
+  \qquad
+  \lvert\alpha\rvert\le4.
+\]
+The one membership
+\[
+  u\in H^3\bigl(I;H^6(\R^3)\bigr)
+\]
+places this entire finite request in
+\[
+  C^2\bigl(\overline I;C^4(\R^3)\bigr),
+\]
+since
+\[
+  3>2+\frac12,
+  \qquad
+  6>4+\frac32.
+\]
+The pair \((2,4)\) is only an example.  For arbitrary finite \(q,k\), choose
+finite indices with
+\[
+  r>q+\frac12,
+  \qquad
+  m>k+\frac32.
+\]
+Then
+\[
+  H^r\bigl(I;H^m(\R^3)\bigr)
+  \hookrightarrow
+  C^q\bigl(\overline I;C^k(\R^3)\bigr).
+\]
+
+Collect every finite time--space request on the same velocity by defining
+\[
+  \mathscr V_\infty(I)
+  :=
+  \bigcap_{r=0}^{\infty}
+  \bigcap_{m=0}^{\infty}
+  H^r\bigl(I;H^m(\R^3)\bigr).
+\]
+Explicitly,
+\[
+  u\in\mathscr V_\infty(I)
+  \quad\Longleftrightarrow\quad
+  \norm{u}_{H^r(I;H^m)}
+  <
+  \infty
+  \quad
+  \text{for every finite pair }(r,m).
+\]
+The norms remain separate coordinates; the intersection does not sum them or
+replace \(u\) by a family of fields.  The finite embeddings imply
+\[
+  \mathscr V_\infty(I)
+  \hookrightarrow
+  C^\infty\bigl(\overline I\times\R^3\bigr).
+\]
+
+Choosing one temporal height above the trace threshold and one spatial height
+above \(3/2\) places both critical levels on the closed interval:
+\[
+  u(t)\in H^{1/2}(\R^3)
+  \qquad\text{and}\qquad
+  u(t)\in H^{3/2}(\R^3)
+\]
+Their scalar quantities are consequently defined there by
+\[
+  H(t)=\frac12\norm{\Lambda^{1/2}u(t)}_2^2,
+  \qquad
+  E_{3/2}(t)=\frac12\norm{\Lambda^{3/2}u(t)}_2^2
+\]
+Scaling and the first dissipative ascent selected these two heights; the
+intersection is what carries them to the terminal face.
+
+Pressure is recovered alongside this velocity space, not inserted into it.  At
+finite temporal depth write
+\[
+  Q_n=\partial_t^np,
+\]
+The Poisson equation recovers \(Q_n\) from the velocity rows, while the
+differentiated momentum equation keeps \(\nabla Q_n\) beside response,
+viscosity, and transport.  This produces a pressure-complete jet without
+misidentifying pressure as a velocity coordinate.
+
+An actual estimate will control only a finite block.  The two adjacent Sobolev
+levels required for a common time trace determine that block’s upper and lower
+edges.

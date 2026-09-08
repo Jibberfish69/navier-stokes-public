@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "review_kind": "cold_reader",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/critic-packet-v10.json",
+    "sha256": "45188d8cd1300946862962814017df07d131b9e081bd23459e07d4ec4b93d275"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/draft-v10.tex",
+    "sha256": "163139bb6edbe7c90b86fab427f9145437fe65af7ac274cbb48b2160bcdb5bab"
+  },
+  "render": [
+    {
+      "sha256": "6d761fb99fcbf7e7037ea45d3002218a4913384d6422a45f37d608476c96e85f",
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v10/page-1.png"
+    },
+    {
+      "sha256": "c4ced7629f8bf746d55fe1fd9845365fd1736209d0f54f4deed4eeb2dd7615bd",
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v10/page-2.png"
+    },
+    {
+      "sha256": "c6bf139b832c4d6f7267b2c871d3c491ca141ce6a60d21994feab72b651f5ee2",
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v10/page-3.png"
+    },
+    {
+      "sha256": "193bf19665fc74642a45fea4ae364071dd70104b3b5025f2fd3eef8ac136c22c",
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v10/page-4.png"
+    },
+    {
+      "sha256": "82b0b367272cc723bdd080049687f082b74ebc77a7dbd1a1b4e8eeede45de86a",
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v10/page-5.png"
+    },
+    {
+      "sha256": "f6f9c3d5e183ba4fc1e6703774b178eb2cea9c62a4cded6fc126cec0fd9abccf",
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v10/page-6.png"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/cold_reader_v10",
+    "task_name": "cold_reader_v10",
+    "isolation": "fork_none",
+    "request_nonce": "b8ac44fdd7f6f6a2eb78bbf2dff0cf39f70825f9726d72389e8cfeba9b0748d5"
+  },
+  "decision": {
+    "verdict": "pass",
+    "first_divergence": null
+  }
+}

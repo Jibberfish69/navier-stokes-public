@@ -116,7 +116,7 @@ we have
 ```
 
 The second term in (2) is coefficient/frame motion.  It is controlled by the
-same strain/frame and Hodge/Stokes service already in the material clock:
+same strain/frame and Helmholtz--Leray/Stokes service already in the material clock:
 
 ```math
 \|L_G^{-1}(\dot L_G)q\|_{pc,N}
@@ -185,7 +185,7 @@ D_tS+S^2+\Omega^2+\nabla^2p=\nu\Delta S.
 ```
 
 Thus the pressure-gradient feedback in (5) is either tangent motion of the
-forced graph, paid by strain/frame/Hodge service, or normal mismatch \(W_N\),
+forced graph, paid by strain/frame/Helmholtz--Leray service, or normal mismatch \(W_N\),
 paid by the Schur defect.  There is no third pressure-only account.
 
 Consequently,
@@ -230,7 +230,7 @@ D_A\mathcal C_N\,\dot A
 
 The first two terms are strain/frame service by (3) and (6).  The projector
 motion \(\dot{\mathbb P}_A\) is determined by the same \(A,G\) variation in the
-material Hodge/Stokes constraint, hence it is Hodge/collar/base service plus
+material Helmholtz--Leray/Stokes constraint, hence it is Helmholtz--Leray/collar/base service plus
 legal lower-rank residue:
 
 ```math
@@ -238,7 +238,7 @@ d\Omega_N^{collar,driver}
 \le
 C_N\left(
 d\Omega_N^{strain/frame}
-+d\Omega_N^{Hodge/Stokes}
++d\Omega_N^{Helmholtz--Leray/Stokes}
 +d\Omega_N^{collar/base}
 \right)
 +dR_N^{legal}.
@@ -256,7 +256,7 @@ d\Omega_N^{press/RHS}
 C_N d\Omega_N^{rel.defect}
 +C_N\left(
 d\Omega_N^{strain/frame}
-+d\Omega_N^{Hodge/Stokes}
++d\Omega_N^{Helmholtz--Leray/Stokes}
 +d\Omega_N^{collar/base}
 +dD_N^{vis}
 \right)
@@ -275,7 +275,7 @@ d\Omega_N^{press/RHS}
 \le
 C_N\left(
 d\Omega_N^{strain/frame}
-+d\Omega_N^{Hodge/Stokes}
++d\Omega_N^{Helmholtz--Leray/Stokes}
 +d\Omega_N^{collar/base}
 +dD_N^{vis}
 \right)
@@ -286,7 +286,7 @@ d\Omega_N^{strain/frame}
 This is the correct replacement for the false standalone pressure/collar
 entropy law.  The Schur term pays normal pressure/collar defect.  The tangent
 pressure/collar motion is exactly the movement of the forced elliptic/collar
-graph and is paid by the same material strain, coefficient, Hodge/collar, and
+graph and is paid by the same material strain, coefficient, Helmholtz--Leray/collar, and
 viscous channels.
 
 ## 5. What remains after this sector closes

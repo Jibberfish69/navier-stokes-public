@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "review_kind": "proof_reverse",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/critic-packet-v1.json",
+    "sha256": "3dfa202a244c88dcae3ea43897185a049629985a32fdf5eddc699b7384a19fc9"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/draft-v1.tex",
+    "sha256": "29ec77083128c3524051f4eb1e8263dacb8852342feb5c91a10da3dc98b68d62"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v1/page-1.png",
+      "sha256": "0e26a3434da91f1325f710c0d1344c4dcd2ad48728666b519bf503a541387117"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v1/page-2.png",
+      "sha256": "a49ffc17fc871c761ccb21569f29b9e6a98db55492421064fcddc21aac0b95fb"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v1/page-3.png",
+      "sha256": "deadec861e75eb2216acec9db69b4a6888d7ff3643a2ce33a4508ee1ee70aca9"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v1/page-4.png",
+      "sha256": "a50ea2ffcae1b2867e58d0965a9507d7aadb4e47c7f95eeb6ae2927cdfc219fb"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/proof_reverse_v1",
+    "task_name": "proof_reverse_v1",
+    "isolation": "fork_none",
+    "request_nonce": "8a40e351e5204a7199e3ee6e85542799"
+  },
+  "decision": {
+    "verdict": "fail",
+    "first_divergence": {
+      "exact_span": "draft-v1.tex:256-258 — \\mathcal I[u_0] := \\bigl(\\mathcal R_{N,M}[u_0;T_*]\\bigr)_{N,M\\in\\mathbb N_0}",
+      "mechanism": "This changes \\mathcal I[u_0] from the authority's endpoint-spanning mixed Sobolev intersection into an indexed rectangle family. The next line states membership in the intersection but does not define \\mathcal I[u_0] as that intersection, so later readout arrows act on a different fixed object.",
+      "repair_constraint": "Keep \\{\\mathcal R_{N,M}[u_0]\\}_{N,M<\\infty} as the compatible finite input and define \\mathcal I[u_0]:=\\bigcap_{N,M<\\infty}H_t^N(0,T_*;H_x^M), inhabited by the one u_0-generated velocity history; do not add a common infinite-order constant."
+    }
+  }
+}

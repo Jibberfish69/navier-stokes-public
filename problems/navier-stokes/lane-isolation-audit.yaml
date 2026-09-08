@@ -1,0 +1,22 @@
+---
+version: 1
+problem_id: navier-stokes
+status: enforced
+authority: problems/navier-stokes/proof-source-pack.md
+scope:
+  allowed:
+  - classical three-dimensional incompressible Navier--Stokes equations
+  - Helmholtz--Leray pressure projection and standard fluid analysis
+  - lane-local approximation, compactness, continuation, and regularity work
+  prohibited_imports:
+  - monograph or theory-of-everything mechanisms
+  - Yang--Mills mass-gap mechanisms
+  - Hodge Conjecture proof or realization claims
+  - black-hole, cosmological, or spacetime-holonomy analogies
+  - noncommutative carrier or commutative-shadow routes
+enforcement:
+  foreign_source_authority: none
+  shared_terminal_theorem: none
+  cross_problem_transfer: prohibited
+  regenerated_outputs_must_obey_this_boundary: true
+result: The Navier--Stokes lane is mathematically and operationally independent.

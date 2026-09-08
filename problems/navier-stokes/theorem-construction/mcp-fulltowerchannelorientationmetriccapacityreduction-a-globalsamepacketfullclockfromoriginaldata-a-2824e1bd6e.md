@@ -15,7 +15,7 @@ into four body inequalities whose exchanges cancel and whose total capacity is b
 The channel list includes
 
 ```math
-dA_N^{rad},\quad dA_N^{end,1},\quad dA_N^{press/Hodge},\quad dA_N^{visc/collar},\quad dA_N^{comm},\quad dA_N^{geom},\quad dA_N^{metric/coeff}.
+dA_N^{rad},\quad dA_N^{end,1},\quad dA_N^{press/Helmholtz--Leray},\quad dA_N^{visc/collar},\quad dA_N^{comm},\quad dA_N^{geom},\quad dA_N^{metric/coeff}.
 ```
 
 ## 1. Channels that orient locally
@@ -34,7 +34,7 @@ dA_N^{end,1}:=\sum_m\mathcal T_m^{(1)}(s)ds+dVar_sR_m^{trace/legal}
 
 is Body-II/endpoint eligible because it is the exact time derivative channel for the retained endpoint local-energy trace.
 
-The pressure/Hodge channel is eligible only in projected form: graph-parallel pressure motion is a Hodge/projector driver, and normal pressure/collar defect is Schur-normal.  Thus it must be entered as projected Hodge service plus relative defect, not raw pressure/collar variation.
+The pressure/Helmholtz--Leray channel is eligible only in projected form: graph-parallel pressure motion is a Helmholtz--Leray/projector driver, and normal pressure/collar defect is Schur-normal.  Thus it must be entered as projected Helmholtz--Leray service plus relative defect, not raw pressure/collar variation.
 
 The viscous/collar and legal selector terms are Body-II/Body-III eligible through the endpoint local-energy identity and collar/legal ledgers.
 
@@ -94,11 +94,11 @@ or equivalently
 \boxed{\text{ProjectedStrainMetricCarleson.A}}
 ```
 
-with statement: positive material metric/coefficient tower growth is paid by a same-carrier bounded-below strain/Hodge/geometry capacity, not by the material record itself.
+with statement: positive material metric/coefficient tower growth is paid by a same-carrier bounded-below strain/Helmholtz--Leray/geometry capacity, not by the material record itself.
 
 ## Verdict
 
-`FullTowerChannelOrientation.A` is not discharged.  The endpoint-time channel and projected pressure/Hodge split repair two previous gaps, but the full tower still fails at noncircular orientation of material metric/coefficient growth.
+`FullTowerChannelOrientation.A` is not discharged.  The endpoint-time channel and projected pressure/Helmholtz--Leray split repair two previous gaps, but the full tower still fails at noncircular orientation of material metric/coefficient growth.
 
 The current Gold live edge is therefore:
 

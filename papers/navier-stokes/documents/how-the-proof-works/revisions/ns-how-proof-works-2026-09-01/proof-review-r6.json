@@ -1,0 +1,23 @@
+{
+  "schema_version": 2,
+  "review_kind": "proof_reverse",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/proof-critic-r6.json",
+    "sha256": "5e80497f47085acd344178518e16c8f9f6234bec93f5010ebdd81971c654f0ed"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/pdfs/ns-how-proof-works-candidate-r6/00-how-proof-works.tex",
+    "sha256": "50cc6e5cac852ce5883d13b5b0a151a30315dad2a8c3e7540dac9cfdb2d7f8de"
+  },
+  "render": [],
+  "reviewer": {
+    "agent_path": "/root/proof_reverse_r6",
+    "task_name": "proof_reverse_r6",
+    "isolation": "fork_none",
+    "request_nonce": "da61d2a4560945839951fd369603ca97"
+  },
+  "decision": {
+    "verdict": "pass",
+    "first_divergence": null
+  }
+}

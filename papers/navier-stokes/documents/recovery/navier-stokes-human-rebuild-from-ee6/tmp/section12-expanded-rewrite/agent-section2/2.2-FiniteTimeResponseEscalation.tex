@@ -1,0 +1,99 @@
+% !TeX root = ../../../navier-stokes-manuscript.tex
+% ============================================================
+% 2.2 Finite-Time Response Escalation
+% ============================================================
+
+\subsection{Finite-Time Response Escalation}\label{sub:FiniteTimeResponseEscalation}
+
+Follow a particle path \(X(t)\) inside the classical interval, so that \(\dot X(t)=u(X(t),t)\).
+Along that path, differentiation is the material derivative \(D_t=\partial_t+u\cdot\nabla\).
+For an integer \(r\geq0\), write the \(r\)-th carried response as
+\[
+  A_r(t)
+  :=
+  D_t^r u(X(t),t).
+\]
+Classical smoothness before \(T_*\) gives
+\[
+  \frac{d}{dt}A_r(t)=A_{r+1}(t).
+\]
+The fundamental theorem of calculus gives, for \(t_0<t<T_*\),
+\[
+  A_r(t)
+  =
+  A_r(t_0)
+  +
+  \int_{t_0}^{t}A_{r+1}(\tau)\,d\tau.
+\]
+Taking the Euclidean norm yields
+\[
+  |A_r(t)|
+  \leq
+  |A_r(t_0)|
+  +(T_*-t_0)
+  \sup_{t_0\leq\tau<T_*}|A_{r+1}(\tau)|.
+\]
+If the next response stays uniformly bounded, then the present response stays uniformly bounded across the remaining finite time.
+Its contrapositive is the useful direction:
+\[
+  \sup_{t_0\leq t<T_*}|A_r(t)|=\infty
+  \quad\Longrightarrow\quad
+  \sup_{t_0\leq t<T_*}|A_{r+1}(t)|=\infty.
+\]
+Applying the same implication again shows that an unbounded rung cannot sit beneath a bounded finite ceiling of higher material responses.
+
+This statement concerns a response rung that actually becomes unbounded.
+It says nothing about the sign of a response, and it gives no monotonicity.
+A smooth rung may vanish, reverse direction, or oscillate many times.
+Steady solutions and the zero solution remain fully compatible with the argument because none of their rungs is assumed to blow up.
+The implication becomes active only inside the Blown branch whose finite-time escape we are trying to understand.
+
+The particle calculation supplies the physical meaning, while estimates compare the field at fixed spatial coordinates.
+The same FTOC mechanism works in any Banach space \(X\).
+If \(Z\in C^1([t_0,T_*);X)\), then
+\[
+  \norm{Z(t)}_X
+  \leq
+  \norm{Z(t_0)}_X
+  +
+  \int_{t_0}^{t}\norm{Z'(\tau)}_X\,d\tau.
+\]
+In particular, a uniform bound for \(Z'\) on a finite interval forces a uniform bound for \(Z\).
+We may take
+\[
+  Z(t)
+  =
+  \partial_t^m\partial_x^\alpha u(\,cdot\,,t)
+\]
+in any Sobolev space where the classical solution makes the expression meaningful.
+Then \(Z'(t)=\partial_t^{m+1}\partial_x^\alpha u(\,cdot\,,t)\), so the same temporal escalation is attached to every spatial derivative \(\partial_x^\alpha u\).
+
+This is the point at which one derivative index becomes two.
+The integer \(m\) records temporal response at a fixed spatial coordinate, while the multi-index \(\alpha\) records spatial response inside the field.
+Neither index determines the other.
+A failure could first become visible at one temporal depth and one spatial height, so both have to remain available independently.
+
+The material responses are built from these fixed-coordinate derivatives.
+For example,
+\[
+  D_tu
+  =
+  \partial_tu+(u\cdot\nabla)u,
+\]
+and one more carried derivative gives
+\begin{align*}
+  D_t^2u
+  ={}&
+  \partial_t^2u
+  +2(u\cdot\nabla)\partial_tu
+  +(\partial_tu\cdot\nabla)u
+  \\
+  &+
+  (u\cdot\nabla)\bigl((u\cdot\nabla)u\bigr).
+\end{align*}
+The jerk already contains pure time derivatives, spatial derivatives, and products between lower responses.
+Higher material responses continue this proliferation.
+The fixed-coordinate family \(\{\partial_t^m\partial_x^\alpha u\}\) is the natural set of coordinates from which the physical response tower is assembled.
+
+These coordinates have not been imposed on the fluid from outside.
+They are already nested in the original equation, and direct differentiation reveals exactly how they relate.

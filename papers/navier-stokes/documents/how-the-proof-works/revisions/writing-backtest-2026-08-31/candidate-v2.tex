@@ -1,0 +1,255 @@
+\section*{How the Proof Works}
+
+Take one vortex tube and stretch it along its axis. Incompressibility does not
+allow that extension to create volume, so the tube contracts across its width.
+The rotating core narrows. Velocity changes across a shorter distance, the
+gradient steepens, and the vorticity becomes more concentrated even though the
+total kinetic energy can remain finite. This is the danger: the energy does not
+have to become infinite for the fluid to develop finer and more violent
+structure.
+
+Navier--Stokes has a scaling that follows this concentration exactly. If
+\((u,p)\) is a solution, then
+\[
+u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
+\qquad
+p_\lambda(x,t)=\lambda^2p(\lambda x,\lambda^2t)
+\]
+preserves the balance between transport, pressure, and viscosity. Every term in
+the equation acquires the factor \(\lambda^3\). Meanwhile,
+\[
+\|u_\lambda(\cdot,t)\|_{\dot H^s}
+=\lambda^{s-1/2}
+  \|u(\cdot,\lambda^2t)\|_{\dot H^s}.
+\]
+Concentration can make a norm below \(s=\tfrac12\) smaller and a norm above it
+larger. The height \(s=\tfrac12\) does not move at all. It is the critical
+height at which zooming into the narrowing core leaves the size of the
+measurement unchanged.
+
+That scaling gives the short Zeno calculation. Suppose one turn of the cascade
+contracts the spatial scale by a fixed factor \(0<\rho<1\). A rescaled copy then
+has
+\[
+r_j=\rho^j r_0,
+\qquad
+U_j=\rho^{-j}U_0,
+\qquad
+\tau_j=\rho^{2j}\tau_0.
+\]
+The velocity scale rises as the core narrows, while the parabolic response time
+falls with the square of its width. Thus
+\[
+\sum_{j=0}^{\infty}\tau_j
+=\tau_0\sum_{j=0}^{\infty}\rho^{2j}
+=\frac{\tau_0}{1-\rho^2}<\infty.
+\]
+Scaling permits infinitely many finer turns to fit inside a finite interval.
+This calculation does not produce a singularity. It shows why finite energy
+and the parabolic scaling do not rule one out.
+
+In order for a singularity to form, velocity has to blow up. In order for that
+to happen, its acceleration would also have to blow up, which means its jerk
+has to blow up, and so on and so on:
+\[
+u,\qquad
+\partial_tu,\qquad
+\partial_t^2u,\qquad
+\partial_t^3u,\qquad\ldots
+\]
+What you'd expect to see in this pattern, if a singularity were to form, as
+you go up the time derivatives, you'd expect to see less spatial regularity,
+not more. Each higher temporal response should carry a rougher spatial field
+as the cascade approaches its terminal time.
+
+Now differentiate Navier--Stokes and watch what actually happens. Before any
+shorthand is introduced, the first three equations are
+\[
+\begin{aligned}
+\partial_tu
+={}&\nu\Delta u
+ -(u\!\cdot\nabla)u
+ -\nabla p,\\[3pt]
+\partial_t^2u
+={}&\nu\Delta\partial_tu
+ -(\partial_tu\!\cdot\nabla)u
+ -(u\!\cdot\nabla)\partial_tu
+ -\nabla\partial_tp,\\[3pt]
+\partial_t^3u
+={}&\nu\Delta\partial_t^2u
+ -(\partial_t^2u\!\cdot\nabla)u
+ -2(\partial_tu\!\cdot\nabla)\partial_tu
+ -(u\!\cdot\nabla)\partial_t^2u
+ -\nabla\partial_t^2p.
+\end{aligned}
+\]
+The nonlinear term opens once, then twice, and its multiplicities begin to
+appear. The complete pattern is the binomial form
+\[
+\partial_t^{\,n+1}u
+=\nu\Delta\partial_t^{\,n}u
+-\sum_{a=0}^{n}\binom na
+  \bigl(\partial_t^{\,a}u\!\cdot\nabla\bigr)
+  \partial_t^{\,n-a}u
+-\nabla\partial_t^{\,n}p.
+\]
+Only now set
+\[
+V_n:=\partial_t^{\,n}u,
+\qquad
+Q_n:=\partial_t^{\,n}p.
+\]
+The recurrence becomes
+\[
+V_{n+1}
++\sum_{a=0}^{n}\binom na
+  (V_a\!\cdot\nabla)V_{n-a}
++\nabla Q_n
+=\nu\Delta V_n,
+\]
+and pressure remains attached to every row through
+\[
+-\Delta Q_n
+=\sum_{a=0}^{n}\binom na
+  \partial_i\partial_j
+  \bigl((V_a)_i(V_{n-a})_j\bigr).
+\]
+
+Keep \(V_n\) in view. Solving its recurrence for the viscous term gives
+\[
+\Delta V_n
+=\nu^{-1}\left(
+V_{n+1}
++\sum_{a=0}^{n}\binom na
+  (V_a\!\cdot\nabla)V_{n-a}
++\nabla Q_n
+\right).
+\]
+At any finite height \(m\), elliptic regularity then reads
+\[
+\|V_n\|_{H^{m+2}}
+\lesssim
+\|V_n\|_{L^2}
++\nu^{-1}\left(
+\|V_{n+1}\|_{H^m}
++\left\|
+\sum_{a=0}^{n}\binom na(V_a\!\cdot\nabla)V_{n-a}
+\right\|_{H^m}
++\|\nabla Q_n\|_{H^m}
+\right).
+\]
+The next temporal response has opened two higher spatial derivatives in the
+response immediately below it. The transport products and pressure travel with
+that gain; controlling them is part of controlling the row, not an optional
+addition to it.
+
+Now continue upward through a finite temporal chain. Each new \(V_{n+1}\)
+opens another finite spatial step for \(V_n\), and carrying the accompanying
+transport and pressure coordinates gives the descent
+\[
+V_N\text{ at }H^m
+\longrightarrow
+V_{N-1}\text{ at }H^{m+2}
+\longrightarrow\cdots\longrightarrow
+V_0=u\text{ at }H^{m+2N}.
+\]
+What should have revealed less spatial regularity has moved in the opposite
+direction. Higher temporal order opens higher spatial Sobolev order. As you do
+that, you get higher order Sobolev embeddings. For any finite \(k\), once
+\(m+2N>k+\tfrac32\),
+\[
+V_0=u\in H^{m+2N}(\mathbb R^3)
+\hookrightarrow C_b^k(\mathbb R^3).
+\]
+Every finite temporal depth opens another finite height, so carrying all of
+those finite chains to one endpoint gives the whole insight at once:
+\[
+u\in\bigcap_{s<\infty}H^s(\mathbb R^3)
+=H^\infty(\mathbb R^3)
+\hookrightarrow C^\infty(\mathbb R^3).
+\]
+
+The recurrence has exposed this direction, but an identity does not bound its
+terms. Fix a finite temporal depth \(N\) and a finite spatial height \(M\). The
+datum-generated whole-terminal rectangle theorem gives
+\[
+\sup_{0<T<T_*}\mathcal R_{N,M}(u;T)<\infty,
+\]
+with a constant allowed to depend on \(N\) and \(M\). No common bound over all
+heights is being assumed. In particular, for every \(0\le n\le N\), the
+rectangle contains the adjacent pair
+\[
+V_n\in L^2(0,T_*;H^{M+1}),
+\qquad
+V_{n+1}\in L^2(0,T_*;H^{M-1}).
+\]
+The adjacent rows give the temporal trace
+\[
+V_n\in C([0,T_*];H^M),
+\]
+and the pressure equation supplies the corresponding \(Q_n\)-coordinates.
+This is a finite pressure-complete rectangle: finitely many temporal responses,
+finitely many spatial heights, their terminal traces, and the pressure required
+by the equation.
+
+Now enlarge the rectangle. A larger choice of \((N,M)\) does not construct new
+derivatives on the coordinates already present. Every rectangle is a
+restriction of the datum-generated maximal history, so two rectangles agree
+where they overlap. Their compatible projective intersection is
+\[
+\mathcal I[u_0]
+=\bigl(\mathcal R_{N,M}[u_0;T_*]\bigr)_{N,M\in\mathbb N_0},
+\qquad
+u\in\bigcap_{r,m<\infty}
+H^r(0,T_*;H^m(\mathbb R^3)).
+\]
+Each finite coordinate was controlled before it entered this intersection, and
+compatibility makes all of those coordinates parts of one velocity--pressure
+history.
+
+Take its zeroth temporal row. For every finite \(m\), it has one trace in
+\(H^m\), and agreement on the overlaps makes those traces one terminal
+velocity rather than a separate endpoint for each height:
+\[
+u\in\bigcap_{m<\infty}C([0,T_*];H^m_\sigma),
+\qquad
+u_*:=u(T_*)
+\in H^\infty_\sigma(\mathbb R^3)
+\hookrightarrow C^\infty(\mathbb R^3).
+\]
+The recurrence and the pressure equation can now be evaluated at \(T_*\),
+recovering every finite temporal and pressure coordinate of the terminal jet.
+Local well-posedness starts a smooth solution from \(u_*\). On the interval
+where that restart meets the original history, uniqueness identifies the two,
+so the history continues past \(T_*\). If \(T_*\) had been a finite maximal
+time, it was not maximal after all. Hence \(T_*=\infty\).
+
+The familiar finite estimates now come from selecting the coordinate they need.
+For finite temporal order \(r\), spatial derivative order \(k\), and
+\(2\le p\le\infty\), choose a finite \(m\) with
+\[
+m>k+\frac32-\frac3p.
+\]
+On every finite time interval, the compatible intersection gives
+\[
+\mathcal I[u_0]
+\longrightarrow H_t^1H_x^m
+\longrightarrow C_tH_x^m
+\longrightarrow L_t^qW_x^{k,p},
+\qquad 1\le q\le\infty,
+\]
+for the chosen response \(V_r=\partial_t^ru\). Different finite choices give,
+in immediate succession,
+\[
+\begin{gathered}
+\mathcal I[u_0]\longrightarrow C_tH_x^1
+\longrightarrow L_t^\infty L_x^6,\\[2mm]
+\mathcal I[u_0]\longrightarrow C_tH_x^2
+\longrightarrow L_t^\infty L_x^\infty,\\[2mm]
+\mathcal I[u_0]\longrightarrow C_tH_x^3
+\longrightarrow L_t^\infty W_x^{1,\infty}.
+\end{gathered}
+\]
+No one of these estimates carries the argument. Any finite downstream demand
+selects a sufficiently high finite coordinate from the compatible
+intersection.

@@ -2,7 +2,7 @@
 
 Status: superseded as a live frontier by `mcp-pressurepartner-gate-demoted-by-full-pls-strain-placement-20260625.md`.
 
-This note remains useful as a failed pressure-only projection.  Its conclusion that the full entropy law is conditional on a standalone pressure-partner/collar package is no longer the live route.  The newer full PLS strain-placement note shows that selected positive pressure/Hodge/collar graph-parallel growth is not an external Calderon-Zygmund partner problem.  It is admitted through
+This note remains useful as a failed pressure-only projection.  Its conclusion that the full entropy law is conditional on a standalone pressure-partner/collar package is no longer the live route.  The newer full PLS strain-placement note shows that selected positive pressure/Helmholtz--Leray/collar graph-parallel growth is not an external Calderon-Zygmund partner problem.  It is admitted through
 
 ```math
 D_tS+S^2+\Omega^2+\nabla^2p=\nu\Delta S
@@ -28,7 +28,7 @@ C\,d\Omega_N^{rel.defect}
 \tag{FEL.1}
 ```
 
-The only unresolved component in `(FEL.1)` is one-sided positive pressure/Hodge/collar graph-parallel growth after terminal positive selection.
+The only unresolved component in `(FEL.1)` is one-sided positive pressure/Helmholtz--Leray/collar graph-parallel growth after terminal positive selection.
 
 ## Installed pieces
 
@@ -100,7 +100,7 @@ This pressure-only closure is not closed from current inputs.  The Schur-complem
 The pressure-only theorem named here is
 
 ```math
-\text{one-sided positive pressure/Hodge/collar graph-parallel growth is paid by retained CZ partners, legal collar exits, donor no-free-sink, or Schur relative defect.}
+\text{one-sided positive pressure/Helmholtz--Leray/collar graph-parallel growth is paid by retained CZ partners, legal collar exits, donor no-free-sink, or Schur relative defect.}
 ```
 
-That statement is retained only as a failed projection.  The live full route asks for a bounded-below available-participation entropy paying the primitive moving low-high PLS driver, with pressure/Hodge/collar growth already admitted as one coordinate of that clock.
+That statement is retained only as a failed projection.  The live full route asks for a bounded-below available-participation entropy paying the primitive moving low-high PLS driver, with pressure/Helmholtz--Leray/collar growth already admitted as one coordinate of that clock.

@@ -1,0 +1,112 @@
+\ExplSyntaxOn
+\sys_gset_rand_seed:n { 20260824 }
+\ExplSyntaxOff
+
+\DocumentMetadata{
+  lang=en-US,
+  pdfstandard=UA-2,
+  tagging=on
+}
+
+\documentclass[11pt]{article}
+
+\ifdefined\pdftrailerid
+  \pdftrailerid{<a99534ead6621f28ea8ae4312c7ba441><a99534ead6621f28ea8ae4312c7ba441>}
+\fi
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools,mathrsfs}
+\ifdefined\NSMathMLSidecarBuild
+  \usepackage{unicode-math}
+\fi
+\usepackage{microtype}
+\usepackage{needspace}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{calc,decorations.pathreplacing}
+\graphicspath{{figures/}}
+\usepackage{xr-hyper}
+\usepackage[hidelinks]{hyperref}
+
+\tagpdfsetup{
+  tabsorder=structure,
+  role/new-attribute={enumerate}{/O /List /ListNumbering /Decimal}
+}
+\ifdefined\NSMathMLSidecarBuild
+  \tagpdfsetup{
+    math/mathml/luamml/load=true,
+    math/mathml/luamml/write=true
+  }
+\fi
+
+\setlength{\emergencystretch}{2em}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem*{maintheorem}{Theorem}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\R}{\mathbb R}
+\newcommand{\N}{\mathbb N}
+\newcommand{\Nzero}{\mathbb N_0}
+\newcommand{\Pp}{\mathbb P}
+\newcommand{\HsSigma}{H^\infty_\sigma}
+\newcommand{\SSigma}{\mathcal S_\sigma}
+\newcommand{\cI}{\mathcal I}
+\newcommand{\cR}{\mathcal R}
+\newcommand{\cP}{\mathcal P}
+\newcommand{\norm}[1]{\left\lVert #1\right\rVert}
+\newcommand{\ip}[2]{\left\langle #1,#2\right\rangle}
+\newcommand{\abs}[1]{\left|#1\right|}
+\newcommand{\dd}{\,\mathrm d}
+
+\hypersetup{
+  pdftitle={How the Proof Works},
+  pdfauthor={Thomas Birnie},
+  pdfsubject={Opening section of the Navier--Stokes paper; review copy}
+}
+
+\title{Global Smoothness for the Three-Dimensional\\
+Incompressible Navier--Stokes Equations}
+\author{Thomas Birnie}
+\date{August 2026}
+
+\makeatletter
+\renewcommand\tableofcontents{%
+  \section*{Contents}%
+  \@mkboth{\MakeUppercase{Contents}}{\MakeUppercase{Contents}}%
+  \@starttoc{toc}%
+}
+\renewenvironment{thebibliography}[1]
+  {\section*{References}%
+   \addcontentsline{toc}{section}{References}%
+   \@mkboth{\MakeUppercase{References}}{\MakeUppercase{References}}%
+   \list{\@biblabel{\@arabic\c@enumiv}}%
+        {\settowidth\labelwidth{\@biblabel{#1}}%
+         \leftmargin\labelwidth
+         \advance\leftmargin\labelsep
+         \@openbib@code
+         \usecounter{enumiv}%
+         \let\p@enumiv\@empty
+         \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+   \sloppy
+   \clubpenalty4000
+   \@clubpenalty \clubpenalty
+   \widowpenalty4000%
+   \sfcode`\.\@m}
+  {\def\@noitemerr
+    {\@latex@warning{Empty `thebibliography' environment}}%
+   \endlist}
+\makeatother
+
+\externaldocument{reference-labels}[/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf]
+\begin{document}
+\input{section.tex}
+\end{document}

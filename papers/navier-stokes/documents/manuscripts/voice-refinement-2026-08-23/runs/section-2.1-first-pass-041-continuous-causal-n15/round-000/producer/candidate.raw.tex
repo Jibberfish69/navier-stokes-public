@@ -1,0 +1,269 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.1 Vortex Stretching
+% ============================================================
+
+Axial stretching lengthens one narrow material vortex-tube segment while its material volume stays fixed, so its cross-section contracts, its rotating fluid moves toward the axis, and the interior spins faster.
+The velocity field carrying this segment obeys the momentum balance
+\[
+  \underbrace{\partial_t u}_{\text{local acceleration}}
+  +
+  \underbrace{(u\cdot\nabla)u}_{\text{nonlinear transport}}
+  =
+  \underbrace{-\nabla p}_{\text{pressure}}
+  +
+  \underbrace{\nu\Delta u}_{\text{viscous diffusion}}.
+\]
+Taking its curl removes pressure and turns nonlinear transport into material vorticity advection and stretching, where viscosity acts at the same time as the segment narrows.
+
+\subsection{Vortex Stretching}\label{sub:ThePerfectlyStretchingVortex}
+
+The segment is locally axisymmetric.
+Its strain is locally uniform across the material segment, and that strain is aligned with the segment's axis.
+If \(e\) denotes this axis and \(L(t)\) the segment's length, the aligned extension has the form
+\[
+  S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr),
+  \qquad
+  Se=\sigma(t)e,
+  \qquad
+  \sigma(t)>0,
+  \qquad
+  \frac{\dot L(t)}{L(t)}
+  =
+  e\cdot Se
+  =
+  \sigma(t).
+\]
+As \(L(t)\) grows, incompressibility keeps the material volume \(\mathcal V\) fixed.
+With effective transverse area \(A(t):=\mathcal V/L(t)\) and effective radius \(r_{\mathrm{eff}}(t):=\sqrt{A(t)/\pi}\), the same extension gives
+\[
+  \nabla\cdot u=0,
+  \qquad
+  \frac{d}{dt}(A L)=0,
+  \qquad
+  \frac{\dot A}{A}=-\sigma(t),
+  \qquad
+  \frac{\dot r_{\mathrm{eff}}}{r_{\mathrm{eff}}}
+  =
+  -\frac{\sigma(t)}{2}.
+\]
+The contracting radius carries rotating fluid inward.
+Writing \(\omega:=\nabla\times u\), its vorticity evolves by
+\[
+  \frac{D\omega}{Dt}
+  =
+  S\omega+\nu\Delta\omega,
+  \qquad
+  \frac{D}{Dt}
+  :=
+  \partial_t+u\cdot\nabla,
+\]
+and under the alignment \(\omega=|\omega|e\), the stretching and viscous actions remain together:
+\[
+  S\omega
+  =
+  \sigma(t)\omega,
+  \qquad
+  \frac12\frac{D|\omega|^2}{Dt}
+  =
+  \sigma(t)|\omega|^2
+  +
+  \nu\,\omega\cdot\Delta\omega.
+\]
+The inward-moving fluid spins faster while viscosity acts simultaneously, and squared vorticity grows only on intervals where this complete right-hand side is positive.
+The identity proved in \Cref{prop:ClassicalKineticEnergyIdentity} controls the velocity in \(L^2\), while vorticity lies in the antisymmetric part of its gradient:
+\[
+  \norm{u(t)}_2
+  \leq
+  \norm{u_0}_2
+  <\infty,
+  \qquad
+  \left|\frac12\bigl(\nabla u-(\nabla u)^{\mathsf T}\bigr)\right|_{\mathrm F}
+  =
+  \frac{|\omega|}{\sqrt2}
+  \leq
+  |\nabla u|_{\mathrm F}.
+\]
+Finite kinetic energy does not prevent that rotational gradient from concentrating inside the narrowing segment.
+
+\divider{\NavierStokes{} Scaling}
+
+At finer width, the vorticity remains coupled to velocity, pressure, transport, and viscosity, so the full field changes scale together.
+This unresolved concentration motivates the comparison without making the energy bound a proof of the scaling symmetry.
+At a time \(t_0<T_*\), set \(\ell:=r_{\mathrm{eff}}(t_0)\).
+For \(\lambda>1\), rescale the velocity and pressure together by
+\[
+  u_\lambda(x,t)
+  :=
+  \lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)
+  :=
+  \lambda^2p(\lambda x,\lambda^2t).
+\]
+On the corresponding interval, \(u_\lambda\) is another \NavierStokes{} solution, and at time \(\lambda^{-2}t_0\) its corresponding segment has effective radius \(\lambda^{-1}\ell\); it is not a later material state of the opening segment.
+The transformation of each momentum term is
+\[
+\begin{aligned}
+  \partial_tu_\lambda(x,t)
+  &=
+  \lambda^3(\partial_tu)(\lambda x,\lambda^2t),
+  \\
+  (u_\lambda\cdot\nabla)u_\lambda(x,t)
+  &=
+  \lambda^3\bigl((u\cdot\nabla)u\bigr)(\lambda x,\lambda^2t),
+  \\
+  \nabla p_\lambda(x,t)
+  &=
+  \lambda^3(\nabla p)(\lambda x,\lambda^2t),
+  \\
+  \nu\Delta u_\lambda(x,t)
+  &=
+  \lambda^3\nu(\Delta u)(\lambda x,\lambda^2t).
+\end{aligned}
+\]
+Every term gains the same cubic factor, so the equation stays scale matched even though its Sobolev norms change with order.
+
+\divider{Critical Height}
+
+Let \(\Lambda:=(-\Delta)^{1/2}\).
+The Fourier transform of the rescaled velocity is
+\[
+  \widehat{u_\lambda}(\xi,t)
+  =
+  \lambda^{-2}\widehat u(\lambda^{-1}\xi,\lambda^2t),
+\]
+and a change of variables gives the order-dependent law
+\[
+  \norm{u_\lambda(t)}_{\dot H^s}^2
+  =
+  \lambda^{2s-1}
+  \norm{u(\lambda^2t)}_{\dot H^s}^2.
+\]
+At \(s=0\), kinetic energy loses one power of \(\lambda\); at \(s=1\), the first derivatives gain one.
+At \(s=\tfrac12\), the exponent vanishes, and the corresponding half-derivative quantity
+\[
+  H(t)
+  :=
+  \frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =
+  \frac12\norm{\Lambda^{1/2}u(t)}_2^2.
+\]
+is the critical height.
+Let \(H_\lambda\) denote that same quantity evaluated on \(u_\lambda\); then
+\[
+  \norm{u_\lambda(t)}_2^2
+  =
+  \lambda^{-1}\norm{u(\lambda^2t)}_2^2,
+  \qquad
+  H_\lambda(t)=H(\lambda^2t),
+  \qquad
+  \norm{\nabla u_\lambda(t)}_2^2
+  =
+  \lambda\norm{\nabla u(\lambda^2t)}_2^2.
+\]
+The middle quantity is neutral under scale, but that neutrality leaves the sign of its change in time unresolved.
+
+\divider{Nonlinear Production versus Viscous Dissipation}
+
+Nonlinear transport changes \(H\) through the signed production
+\[
+  \mathcal P_{1/2}[u](t)
+  :=
+  -\operatorname{Re}
+  \pair
+    {\Lambda^{1/2}u(t)}
+    {\Lambda^{1/2}\bigl((u(t)\cdot\nabla)u(t)\bigr)}_{L^2}.
+\]
+Incompressibility removes the pressure pairing, while viscosity subtracts the nonnegative dissipation \(\nu\norm{\Lambda^{3/2}u}_2^2\).
+The exact balance is
+\[
+  H'(t)
+  +
+  \nu\norm{\Lambda^{3/2}u(t)}_2^2
+  =
+  \mathcal P_{1/2}[u](t).
+\]
+Its signed right-hand side decides whether \(H\) rises or falls after dissipation is accounted for.
+Under the same rescaling, production and dissipation satisfy
+\[
+  \mathcal P_{1/2}[u_\lambda](t)
+  =
+  \lambda^2\mathcal P_{1/2}[u](\lambda^2t),
+  \qquad
+  \nu\norm{\Lambda^{3/2}u_\lambda(t)}_2^2
+  =
+  \lambda^2\nu\norm{\Lambda^{3/2}u(\lambda^2t)}_2^2.
+\]
+Their common quadratic scaling preserves the balance but supplies no time in which the nonlinear field forms the next smaller structure.
+
+\divider{The Heat Clock}
+
+Viscosity has a separate linear comparison clock.
+For the heat equation \(v_t=\nu\Delta v\),
+\[
+  \widehat v(\xi,t+\delta t)
+  =
+  e^{-\nu|\xi|^2\delta t}\widehat v(\xi,t).
+\]
+A scale-localized structure of width \(r\) occupies Fourier frequencies \(|\xi|\simeq r^{-1}\), so its linear viscous change becomes order one when
+\[
+  \nu|\xi|^2\delta t\simeq1,
+\]
+and the resulting comparison time is
+\[
+  \tau_\nu(r)
+  :=
+  \frac{r^2}{\nu}.
+\]
+This linear clock does not establish the lifetime of a nonlinear structure.
+Its quadratic contraction is nonetheless exact:
+\[
+  \tau_\nu(\lambda^{-1}r)
+  =
+  \lambda^{-2}\tau_\nu(r).
+\]
+Dyadic widths thus produce geometrically shrinking comparison times.
+
+\Needspace{18\baselineskip}
+\divider{The Zeno Cascade}
+
+For
+\[
+  r_n:=2^{-n}r_0,
+  \qquad
+  \tau_n:=\frac{r_n^2}{\nu},
+\]
+the heat comparison times obey
+\[
+  \tau_n
+  =
+  \frac{r_0^2}{\nu}4^{-n},
+  \qquad
+  \sum_{n=0}^{\infty}\tau_n
+  =
+  \frac{4r_0^2}{3\nu}
+  <
+  \infty.
+\]
+This finite arithmetic permits a schedule, but it does not establish one field realizing it.
+If one \NavierStokes{} field exhibits localized structures at widths
+\[
+  r_0>r_1>r_2>\cdots\longrightarrow0
+\]
+and at sampled times
+\[
+  t_0<t_1<t_2<\cdots\uparrow T_*<\infty,
+  \qquad
+  t_{n+1}-t_n\asymp\tau_n,
+\]
+with comparison constants independent of \(n\), then that possible history has remaining time
+\[
+  T_*-t_n
+  \asymp
+  \sum_{k=n}^{\infty}\tau_k
+  =
+  \frac{4r_n^2}{3\nu}.
+\]
+At the \(n\)-th sampled width, the next gap and the total time left are both of order \(r_n^2/\nu\), and these gaps collapse as \(t\uparrow T_*\).
+Even along this possible history, the first and successive Eulerian time derivatives of the same field at one fixed spatial point remain uncontrolled.

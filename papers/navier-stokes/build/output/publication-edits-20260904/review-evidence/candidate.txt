@@ -1,0 +1,49 @@
+INTRODUCTION ADDITION
+
+For any prescribed spatial derivative order \(k\), a Sobolev order
+\(s>k+3/2\) gives a continuous derivative.  Applying this at every finite
+order gives the spatial column
+\[
+ L^2\cap\bigcap_{j\in\Nzero}\dot H^{j+1/2}
+ =\bigcap_{m\in\Nzero}H^m\hookrightarrow C^\infty.
+\]
+The temporal-height column applies the corresponding one-dimensional
+embedding, \(\bigcap_r H^r(0,T_*)\hookrightarrow C^\infty(0,T_*)\), to
+\(H(t)=\tfrac12\norm{\Lambda^{1/2}u(t)}_2^2\).
+The viscous contribution to \(H'\) is
+\(-\nu\norm{\Lambda^{3/2}u}_2^2\).  Each further time derivative exposes
+the next spatial energy together with differentiated transport and pressure
+terms.  Subtracting those terms from \(H^{(k)}\) and dividing by
+\((-2\nu)^k\) recovers \(\tfrac12\norm{\Lambda^{k+1/2}u}_2^2\), as shown
+in Proposition~\ref{prop:completed-height-recurrence}.
+
+For the velocity-time column, time Sobolev embedding applies to
+\(H^m\)-valued functions: fixing \(m\) in
+\eqref{eq:intro-all-orders-intersection} gives
+\(u\in C^\infty(0,T_*;H^m)\).  Taking every finite \(m\) then gives
+joint smoothness in time and space.  The pressure formula and its
+differentiated recurrences determine the pressure rows from these velocity
+rows.  Applying the temporal and spatial embeddings to that full
+pressure-explicit jet gives joint smoothness of \((u,p)\).
+Each complete representation thus has its own smoothness implication;
+their compatibility identifies the derivatives used throughout the proof.
+
+HEIGHT INTRODUCTION
+
+Pairing a differentiated velocity equation with a spatial derivative of
+that row expresses the change of its Sobolev energy through viscous
+dissipation and the full transport--pressure contribution.  Repeated time
+differentiation then exposes higher spatial energies, with the differentiated
+nonlinear terms retained in each identity.
+
+RECTANGLE TRANSITION
+
+Theorem~\ref{thm:datum-rectangles} supplies the whole-terminal adjacent
+rows in \eqref{eq:datum-adjacent-rows}.  At any fixed temporal and spatial
+depth, their finitely many norms give the rectangle bound
+\eqref{eq:datum-rectangle-bound}.  The next proposition makes this passage
+explicit and identifies the full-interval norms by monotone exhaustion.
+Proposition~\ref{prop:rectangle-compatibility} then identifies overlapping
+derivative coordinates under restriction, giving the compatible family
+assembled in Theorem~\ref{thm:compatible-inverse-intersection}.
+

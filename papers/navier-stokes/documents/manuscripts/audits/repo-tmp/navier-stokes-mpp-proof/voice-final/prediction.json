@@ -1,0 +1,340 @@
+{
+  "field_resolutions": [
+    {
+      "field": "audience",
+      "status": "accepted_for_run",
+      "value": "expert mathematical readers and MPP referees",
+      "reason": "This audience is the bounded reader implied by the requested MPP paper form."
+    }
+  ],
+  "reader_start": "one smooth divergence-free datum and its maximal pressure-complete history",
+  "live_pressure": "the full note must govern the paper; no developed consequence may collapse into a synopsis, and the settled theorem must retain its supplied status",
+  "candidate_moves": [
+    {
+      "move_id": "full-proof-paper",
+      "move": {
+        "selection": "realize the supplied note as a complete standalone proof paper in Thomas voice, preserving its sequence and developed estimate-generator consequences",
+        "connection": "Hold the same history through its jet and complete intersection; only then let each estimate arise as a finite projection before endpoint and restart.",
+        "development": "Give every note section its own derivation, repaired notation, mathematical transitions, stated boundary, and referee-visible dependency.",
+        "expression": "Use direct causal mathematical prose, complete sentences, standard notation, restrained theorem structure, and no repository or process language."
+      },
+      "layer_status": {
+        "selection": "present",
+        "connection": "present",
+        "development": "present",
+        "expression": "present"
+      },
+      "reader_change": "the reader sees the same history restart through any alleged finite terminal time",
+      "next_possibility": "the reader can verify every downstream estimate and the same-history continuation from the complete intersection",
+      "content_basis": [
+        "core-chain",
+        "one-history",
+        "derivative-tower",
+        "rectangles-intersection",
+        "master-estimate",
+        "uniform-sobolev",
+        "serrin",
+        "critical-endpoint",
+        "vorticity-action",
+        "critical-height",
+        "dyadic-shells",
+        "pressure-estimates",
+        "type-one",
+        "ultraviolet-tail",
+        "common-endpoint",
+        "endpoint-jet",
+        "same-history-restart",
+        "closing-chain"
+      ],
+      "sequence": [
+        {
+          "step_id": "history-and-jet",
+          "thought": "Carry the datum into one pressure-complete history, then differentiate that equation to reveal its mixed jet.",
+          "connection": "Each completed object supplies the exact input required by the next step.",
+          "reader_start": "one smooth divergence-free datum and its maximal pressure-complete history",
+          "reader_end": "the reader sees one datum generate one velocity-pressure history and its equation-generated derivative tower",
+          "content_basis": [
+            "core-chain",
+            "one-history",
+            "derivative-tower"
+          ]
+        },
+        {
+          "step_id": "finite-views",
+          "thought": "Define whole-terminal finite rectangles as restrictions of that jet and preserve their same-history compatibility.",
+          "connection": "Each completed object supplies the exact input required by the next step.",
+          "reader_start": "the reader sees one datum generate one velocity-pressure history and its equation-generated derivative tower",
+          "reader_end": "the reader sees each finite rectangle as a finite view of that same mixed jet",
+          "content_basis": [
+            "rectangles-intersection"
+          ]
+        },
+        {
+          "step_id": "complete-intersection",
+          "thought": "Assemble the rectangles projectively before reading off any classical estimate.",
+          "connection": "Each completed object supplies the exact input required by the next step.",
+          "reader_start": "the reader sees each finite rectangle as a finite view of that same mixed jet",
+          "reader_end": "the reader has the complete compatible projective intersection before any critical readout",
+          "content_basis": [
+            "rectangles-intersection"
+          ]
+        },
+        {
+          "step_id": "master-coordinate",
+          "thought": "Derive the Hilbert-valued trace and spatial embedding rule for arbitrary finite indices.",
+          "connection": "Each completed object supplies the exact input required by the next step.",
+          "reader_start": "the reader has the complete compatible projective intersection before any critical readout",
+          "reader_end": "the reader understands the trace and embedding estimate as a coordinate-selection rule",
+          "content_basis": [
+            "master-estimate"
+          ]
+        },
+        {
+          "step_id": "first-readouts",
+          "thought": "Develop the adjacent critical block and the first classical consequences as complete derivations.",
+          "connection": "Each completed object supplies the exact input required by the next step.",
+          "reader_start": "the reader understands the trace and embedding estimate as a coordinate-selection rule",
+          "reader_end": "the reader has seen the adjacent critical block and the first classical consequences derived in full",
+          "content_basis": [
+            "uniform-sobolev",
+            "serrin",
+            "critical-endpoint",
+            "vorticity-action",
+            "critical-height"
+          ]
+        },
+        {
+          "step_id": "remaining-readouts",
+          "thought": "Develop shell, pressure, scaling, and frequency-tail consequences and state their exact scope.",
+          "connection": "Each completed object supplies the exact input required by the next step.",
+          "reader_start": "the reader has seen the adjacent critical block and the first classical consequences derived in full",
+          "reader_end": "the reader has seen the shell, pressure, scaling, and frequency-tail consequences with their exact finite-order scope",
+          "content_basis": [
+            "dyadic-shells",
+            "pressure-estimates",
+            "type-one",
+            "ultraviolet-tail"
+          ]
+        },
+        {
+          "step_id": "common-endpoint",
+          "thought": "Use the zeroth row and the equation to construct one common all-Sobolev endpoint.",
+          "connection": "Each completed object supplies the exact input required by the next step.",
+          "reader_start": "the reader has seen the shell, pressure, scaling, and frequency-tail consequences with their exact finite-order scope",
+          "reader_end": "the reader sees all Sobolev endpoint traces as one common endpoint of the original velocity field",
+          "content_basis": [
+            "common-endpoint"
+          ]
+        },
+        {
+          "step_id": "endpoint-jet",
+          "thought": "Apply the original recurrence at the endpoint to reconstruct every velocity and pressure response.",
+          "connection": "Each completed object supplies the exact input required by the next step.",
+          "reader_start": "the reader sees all Sobolev endpoint traces as one common endpoint of the original velocity field",
+          "reader_end": "the reader sees the equation reconstruct the full pressure-compatible endpoint jet",
+          "content_basis": [
+            "endpoint-jet"
+          ]
+        },
+        {
+          "step_id": "restart",
+          "thought": "Use local existence and overlap uniqueness to continue the same history and close the contradiction.",
+          "connection": "Each completed object supplies the exact input required by the next step.",
+          "reader_start": "the reader sees the equation reconstruct the full pressure-compatible endpoint jet",
+          "reader_end": "the reader sees the same history restart through any alleged finite terminal time",
+          "content_basis": [
+            "same-history-restart",
+            "closing-chain"
+          ]
+        }
+      ],
+      "evidence_uses": [
+        {
+          "record_id": "decision-carry-established-thought-forward-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The supplied note fixes an ordered causal argument that must be developed until each result creates the need for the next."
+        },
+        {
+          "record_id": "decision-unfold-causal-relations-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The supplied note fixes an ordered causal argument that must be developed until each result creates the need for the next."
+        },
+        {
+          "record_id": "decision-name-operational-objects-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The supplied note fixes an ordered causal argument that must be developed until each result creates the need for the next."
+        },
+        {
+          "record_id": "decision-preserve-discovery-order-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The supplied note fixes an ordered causal argument that must be developed until each result creates the need for the next."
+        },
+        {
+          "record_id": "decision-use-reader-shared-language-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The supplied note fixes an ordered causal argument that must be developed until each result creates the need for the next."
+        },
+        {
+          "record_id": "decision-develop-to-reader-change-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The supplied note fixes an ordered causal argument that must be developed until each result creates the need for the next."
+        },
+        {
+          "record_id": "decision-repair-exact-referent-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The supplied note fixes an ordered causal argument that must be developed until each result creates the need for the next."
+        },
+        {
+          "record_id": "decision-sentence-possesses-complete-thought-001",
+          "source_move_id": "make-the-payload-carry-the-thought",
+          "relation": "supports",
+          "applicability_reason": "The supplied note fixes an ordered causal argument that must be developed until each result creates the need for the next."
+        }
+      ],
+      "risks": [
+        "compressing the estimate consequences would recreate a synopsis",
+        "moving endpoint closure before the readouts would break the supplied order",
+        "adding repository labels would displace the paper's mathematical object",
+        "treating derivative rows as separate histories would break the proof's centre"
+      ],
+      "confidence": "unknown"
+    }
+  ],
+  "chosen_move_id": "full-proof-paper",
+  "choice_reason": "Thomas fixed the note-led whole-paper movement directly.",
+  "rejected_move_ids": [],
+  "evidence_dispositions": [
+    {
+      "record_id": "decision-live-obstacle-before-label-001",
+      "status": "not_applicable",
+      "reason": "This bounded record does not govern the selected whole-paper movement."
+    },
+    {
+      "record_id": "decision-carry-established-thought-forward-001",
+      "status": "used",
+      "reason": "The live paper needs this bounded causal and reader-continuity decision."
+    },
+    {
+      "record_id": "decision-unfold-causal-relations-001",
+      "status": "used",
+      "reason": "The live paper needs this bounded causal and reader-continuity decision."
+    },
+    {
+      "record_id": "decision-name-operational-objects-001",
+      "status": "used",
+      "reason": "The live paper needs this bounded causal and reader-continuity decision."
+    },
+    {
+      "record_id": "decision-earn-technical-language-001",
+      "status": "not_applicable",
+      "reason": "This bounded record does not govern the selected whole-paper movement."
+    },
+    {
+      "record_id": "decision-preserve-discovery-order-001",
+      "status": "used",
+      "reason": "The live paper needs this bounded causal and reader-continuity decision."
+    },
+    {
+      "record_id": "decision-generate-expression-from-thought-001",
+      "status": "not_applicable",
+      "reason": "This bounded record does not govern the selected whole-paper movement."
+    },
+    {
+      "record_id": "decision-use-reader-shared-language-001",
+      "status": "used",
+      "reason": "The live paper needs this bounded causal and reader-continuity decision."
+    },
+    {
+      "record_id": "decision-develop-to-reader-change-001",
+      "status": "used",
+      "reason": "The live paper needs this bounded causal and reader-continuity decision."
+    },
+    {
+      "record_id": "decision-keep-example-inside-idea-001",
+      "status": "not_applicable",
+      "reason": "This bounded record does not govern the selected whole-paper movement."
+    },
+    {
+      "record_id": "decision-repair-exact-referent-001",
+      "status": "used",
+      "reason": "The live paper needs this bounded causal and reader-continuity decision."
+    },
+    {
+      "record_id": "decision-generalize-to-writing-faculty-001",
+      "status": "not_applicable",
+      "reason": "This bounded record does not govern the selected whole-paper movement."
+    },
+    {
+      "record_id": "observation-reader-led-concept-before-formal-name-001",
+      "status": "not_applicable",
+      "reason": "This bounded record does not govern the selected whole-paper movement."
+    },
+    {
+      "record_id": "decision-preserve-local-movement-role-001",
+      "status": "not_applicable",
+      "reason": "This bounded record does not govern the selected whole-paper movement."
+    },
+    {
+      "record_id": "decision-separate-internal-inquiry-from-written-interrogative-001",
+      "status": "not_applicable",
+      "reason": "This bounded record does not govern the selected whole-paper movement."
+    },
+    {
+      "record_id": "decision-sentence-possesses-complete-thought-001",
+      "status": "used",
+      "reason": "The live paper needs this bounded causal and reader-continuity decision."
+    },
+    {
+      "record_id": "decision-hold-object-transfer-only-behaviour-20260814",
+      "status": "not_applicable",
+      "reason": "This bounded record does not govern the selected whole-paper movement."
+    },
+    {
+      "record_id": "decision-abstract-learning-is-cross-document-not-local-edit-20260815",
+      "status": "not_applicable",
+      "reason": "This bounded record does not govern the selected whole-paper movement."
+    }
+  ],
+  "uncertainties": [],
+  "authorial_commitment": {
+    "work_target": "finish the complete standalone proof paper and its verified PDF",
+    "strongest_move_reason": "the supplied derivation fixes both the causal sequence and the reader work each consequence must perform",
+    "intellectual_gain": "the compatible intersection is experienced as one estimate generator whose finite coordinates produce every displayed continuation consequence",
+    "reader_gain": "the reader can follow one datum and one history from the equation-generated jet through the endpoint and same-history restart",
+    "delivery": "complete_output",
+    "structural_commitment": {
+      "scope": "whole_work",
+      "decision_origin": "user_supplied",
+      "voice_attribution": "user_owned",
+      "artifact_disposition": "approved_change",
+      "inherited_reader_state": "one smooth divergence-free datum and its maximal pressure-complete history",
+      "section_job": "realize the complete supplied derivation as one continuous standalone proof paper",
+      "outgoing_reader_need": "the reader sees the same history restart through any alleged finite terminal time",
+      "gap_decision": "reorder",
+      "gap_payment": "keep the full estimate-generator development before the endpoint, endpoint jet, and restart",
+      "new_section_job": "",
+      "enrichment_reason": "the paper needs each implication developed far enough for an expert reader to verify it",
+      "enrichments": [
+        {
+          "detail": "repair every corrupted formula while preserving its mathematical role",
+          "reader_value": "the reader can follow and check each implication without decoding pasted-text damage",
+          "placement": "at the exact point each formula is first needed",
+          "restraint": "do not add a second proof route or outside architecture"
+        },
+        {
+          "detail": "develop each classical consequence as prose and equations",
+          "reader_value": "the estimate-generator claim becomes visible through repeated finite-coordinate choices",
+          "placement": "between the master estimate and the common endpoint",
+          "restraint": "retain the note's finite-order and finite-horizon qualifications"
+        }
+      ]
+    }
+  }
+}

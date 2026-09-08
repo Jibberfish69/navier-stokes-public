@@ -1,0 +1,52 @@
+    Interpretation: viscosity should not downgrade smoothness on a scenario where the inviscid
+equation is already smooth.
+    It does not assert global Navier–Stokes smoothness from arbitrary data without an Euler-smooth
+scenario.
+    It does not assert that a fixed-positive-viscosity Navier–Stokes failure must be a nu->0 Euler
+boundary or defect-boundary object.
+    Fix s>5/2. Let u nu be the maximal classical Navier–Stokes solution with datum u 0 and
+viscosity nu>0, on maximal interval [0,T nu).
+
+                                         sup         ∥uν (t)∥H s < ∞,
+                                    0≤t<min(T,Tν )
+
+                                      N SSmoothν (u0 , [0, T ]).
+    The classical local well-posedness and continuation criterion for Navier–Stokes in H s, s>5/2,
+says that a maximal classical solution can fail before T only if its H s norm blows up. The displayed
+bound prevents that blowup. Hence the solution continues smoothly through [0,T].
+    Thus Direct Fixed NuEuler Smooth Bridge.A is equivalent to proving the a priori bound
+
+                                            w := uν − uE .
+
+
+                                         sup         ∥w(t)∥H s < ∞,
+                                    0≤t<min(T,Tν )
+
+                                      N SSmoothν (u0 , [0, T ]).
+    Subtract Euler from Navier–Stokes and apply the Leray projection. Apply s, pair with s w, and
+use standard Kato–Ponce commutator and product bounds with H s W 1, . The viscous term gives
+    The smooth Euler transport and stretching terms are bounded by C E(t) w H s 2. The nonlinear
+difference term is bounded by C s w H s 3. The forcing term satisfies
+    The full conjecture is not proved by Theorem 3 alone. The inequality still contains
+
+D.918     Clay problem Donor Amplitude / Time-Thickness Direct Attempt
+This section attempts the donor pulse theorem requested after the direct Square Reserve Evolution.A
+attempt. The goal is to convert first-moment donor-tail dissipation into the scale-critical reserve by
+proving that terminal donor pulses have enough time thickness, or equivalently limited amplitude.
+                                                      X
+                                        Tk (t) :=            Dℓ (t),
+                                                     ℓ>k+4
+
+   Either formulation would convert the installed first-moment tail record into the reserve.
+                                                Z
+                                     Ak (I) := Tk (t)dt.
+                                                       I
+    The installed first-moment control gives an L 1 t estimate for the donor tail. The reserve asks
+for a weighted L 2 t estimate. Therefore the missing ingredient is exactly a theorem that upgrades
+
+                                               ∥Tk ∥L1t (I)
+
+
+
+                                                     577
+

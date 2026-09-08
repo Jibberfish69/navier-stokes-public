@@ -169,7 +169,7 @@ same top-strain/material exchange service already present in the Gold packet.
 ## 5. First unsupported line
 
 The installed notes do not yet prove that `(13)` is finite from original data
-for the retained selected pressure-Hodge source. Taking `W=L_A^{-1}f_{\rm sel}`
+for the retained selected pressure-Helmholtz--Leray source. Taking `W=L_A^{-1}f_{\rm sel}`
 where `f_{\rm sel}` is the selected source tail defines a potential whose
 energy can be the same size as the desired selected reserve.
 
@@ -193,7 +193,7 @@ SilentSourceBubbleEnergyCarleson.A
 ```
 
 For one retained same-material tree, every boundary-flat selected
-pressure-Hodge source decomposes into Hilbert bubble increments plus
+pressure-Helmholtz--Leray source decomposes into Hilbert bubble increments plus
 pressure-null material service, and the bubble increments satisfy the
 orthogonal Carleson bound
 

@@ -29,7 +29,7 @@ d\mathscr A_N+c_N\,d\Omega_N^{PLS}\le dR_N^{legal},
 \tag{APE.1}
 ```
 
-Here \(d\Omega_N^{PLS}\) is the full participation-law--strain clock: pressure constraint, material Hodge/Stokes projection, coefficient/metric motion, transported collar motion, Cauchy stress/annular stress-work, strain, and viscosity on the same fluid packet.
+Here \(d\Omega_N^{PLS}\) is the full participation-law--strain clock: pressure constraint, material Helmholtz--Leray/Stokes projection, coefficient/metric motion, transported collar motion, Cauchy stress/annular stress-work, strain, and viscosity on the same fluid packet.
 
 The functional \(\mathscr A_N\) must carry scale-normalized critical-action size.  The energy-bounded no-waste obstruction rules out functionals whose available drop is bounded only by ordinary shell energy.
 
@@ -95,7 +95,7 @@ Since the original data are smooth, \(\mathcal P_N^{mat}(0)<\infty\).  Finite po
 
 ## Step 3: material record to fixed \(H^s\) restart
 
-The material package contains the velocity tower, pressure/incompressibility tower, coefficient/metric tower, collar/Hodge/interface tower, and strain participation on the same transported chart.  Thus the finite material record gives the fixed Eulerian restart bound for some \(s>5/2\):
+The material package contains the velocity tower, pressure/incompressibility tower, coefficient/metric tower, collar/Helmholtz--Leray/interface tower, and strain participation on the same transported chart.  Thus the finite material record gives the fixed Eulerian restart bound for some \(s>5/2\):
 
 ```math
 \sup_{t<T^*}\|u(t)\|_{H_x^s}<\infty .

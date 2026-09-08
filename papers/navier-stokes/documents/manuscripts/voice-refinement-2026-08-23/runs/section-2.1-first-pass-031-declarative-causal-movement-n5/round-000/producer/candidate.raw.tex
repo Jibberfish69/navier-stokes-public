@@ -1,0 +1,264 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.1 Vortex Stretching
+% ============================================================
+
+Axial stretching lengthens one narrow material vortex-tube segment along its axis and, in the locally axisymmetric aligned case, contracts its cross-section, draws its rotating fluid inward, and makes the interior spin faster; this spin-up is the positive stretching contribution, while the full signed balance with viscosity decides whether its rotation strengthens overall.
+The velocity field carrying this segment is governed by the momentum equation
+\[
+  \underbrace{\partial_t u}_{\text{local acceleration}}
+  +
+  \underbrace{(u\cdot\nabla)u}_{\text{nonlinear transport}}
+  =
+  \underbrace{-\nabla p}_{\text{pressure}}
+  +
+  \underbrace{\nu\Delta u}_{\text{viscous diffusion}}.
+\]
+Taking its curl exposes vorticity stretching within nonlinear transport, where it can be measured against viscous diffusion for the same moving segment.
+
+\subsection{Vortex Stretching}\label{sub:ThePerfectlyStretchingVortex}
+
+Let $e$ denote the segment's axis and $L(t)$ its length.
+When the strain is locally uniform across the segment and aligned with that axis, its axial extension is
+\[
+  S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr),
+  \qquad
+  Se=\sigma(t)e,
+  \qquad
+  \sigma(t)>0,
+  \qquad
+  \frac{\dot L(t)}{L(t)}
+  =
+  e\cdot Se
+  =
+  \sigma(t).
+\]
+The same extension narrows the segment because incompressibility fixes its material volume $\mathcal V$.
+With $A(t):=\mathcal V/L(t)$ as its effective transverse area and $r_{\mathrm{eff}}(t):=\sqrt{A(t)/\pi}$ as its effective radius, the contraction satisfies
+\[
+  \nabla\cdot u=0,
+  \qquad
+  \frac{d}{dt}(A L)=0,
+  \qquad
+  \frac{\dot A}{A}=-\sigma(t),
+  \qquad
+  \frac{\dot r_{\mathrm{eff}}}{r_{\mathrm{eff}}}
+  =
+  -\frac{\sigma(t)}{2}.
+\]
+Thus its rotating fluid is drawn toward the axis as its length increases.
+For $\omega:=\nabla\times u$, the curl of the momentum equation gives the vorticity balance carried by the segment,
+\[
+  \frac{D\omega}{Dt}
+  =
+  S\omega+\nu\Delta\omega,
+  \qquad
+  \frac{D}{Dt}
+  :=
+  \partial_t+u\cdot\nabla,
+\]
+and the alignment $\omega=|\omega|e$ turns that balance into
+\[
+  S\omega
+  =
+  \sigma(t)\omega,
+  \qquad
+  \frac12\frac{D|\omega|^2}{Dt}
+  =
+  \sigma(t)|\omega|^2
+  +
+  \nu\,\omega\cdot\Delta\omega.
+\]
+The positive term quantifies the spin-up caused by axial stretching, but the signed viscous contribution still decides whether the rotation grows.
+The energy identity proved in \Cref{prop:ClassicalKineticEnergyIdentity}, together with the antisymmetric part of $\nabla u$, gives
+\[
+  \norm{u(t)}_2
+  \leq
+  \norm{u_0}_2
+  <\infty,
+  \qquad
+  \left|\frac12\bigl(\nabla u-(\nabla u)^{\mathsf T}\bigr)\right|_{\mathrm F}
+  =
+  \frac{|\omega|}{\sqrt2}
+  \leq
+  |\nabla u|_{\mathrm F}.
+\]
+Finite kinetic energy is compatible with local concentration of the rotational gradient in the narrowing segment, so it does not settle the competition at finer scale.
+
+\divider{\NavierStokes{} Scaling}
+
+Fix $t_0<T_*$ and write $\ell:=r_{\mathrm{eff}}(t_0)$ for the segment's effective radius at that time.
+The exact full-field comparison at the finer width $\lambda^{-1}\ell$, for $\lambda>1$, is
+\[
+  u_\lambda(x,t)
+  :=
+  \lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)
+  :=
+  \lambda^2p(\lambda x,\lambda^2t).
+\]
+At time $\lambda^{-2}t_0$, the corresponding segment in $u_\lambda$ has effective radius $\lambda^{-1}\ell$.
+This rescaled field is another solution at another scale, not a later material state of the opening segment.
+Rescaling acts directly on every momentum term:
+\[
+\begin{aligned}
+  \partial_tu_\lambda(x,t)
+  &=
+  \lambda^3(\partial_tu)(\lambda x,\lambda^2t),
+  \\
+  (u_\lambda\cdot\nabla)u_\lambda(x,t)
+  &=
+  \lambda^3\bigl((u\cdot\nabla)u\bigr)(\lambda x,\lambda^2t),
+  \\
+  \nabla p_\lambda(x,t)
+  &=
+  \lambda^3(\nabla p)(\lambda x,\lambda^2t),
+  \\
+  \nu\Delta u_\lambda(x,t)
+  &=
+  \lambda^3\nu(\Delta u)(\lambda x,\lambda^2t).
+\end{aligned}
+\]
+Viscosity and nonlinear transport acquire the same cubic factor, as do local acceleration and pressure, so finer scale gives viscosity no relative advantage.
+
+\divider{Critical Height}
+
+The unchanged equation balance leaves the homogeneous Sobolev order to distinguish the sizes of the rescaled fields.
+Let $\Lambda:=(-\Delta)^{1/2}$.
+The Fourier transform obeys
+\[
+  \widehat{u_\lambda}(\xi,t)
+  =
+  \lambda^{-2}\widehat u(\lambda^{-1}\xi,\lambda^2t),
+\]
+and a change of variables then yields
+\[
+  \norm{u_\lambda(t)}_{\dot H^s}^2
+  =
+  \lambda^{2s-1}
+  \norm{u(\lambda^2t)}_{\dot H^s}^2.
+\]
+The exponent $2s-1$ is negative at Sobolev order zero, positive at order one, and vanishes at order $s=\tfrac12$.
+Define the critical height by
+\[
+  H(t)
+  :=
+  \frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =
+  \frac12\norm{\Lambda^{1/2}u(t)}_2^2.
+\]
+For the same quantity $H_\lambda$ evaluated on $u_\lambda$, it and its neighboring norms transform as
+\[
+  \norm{u_\lambda(t)}_2^2
+  =
+  \lambda^{-1}\norm{u(\lambda^2t)}_2^2,
+  \qquad
+  H_\lambda(t)=H(\lambda^2t),
+  \qquad
+  \norm{\nabla u_\lambda(t)}_2^2
+  =
+  \lambda\norm{\nabla u(\lambda^2t)}_2^2.
+\]
+The rescaled solution has less kinetic energy and a larger first-derivative norm, while its half-derivative height is scale neutral.
+Its time sign must still come from the signed balance of nonlinear production and viscous dissipation.
+
+\divider{Nonlinear Production versus Viscous Dissipation}
+
+At critical height, the nonlinear contribution is the signed production
+\[
+  \mathcal P_{1/2}[u](t)
+  :=
+  -\operatorname{Re}
+  \pair
+    {\Lambda^{1/2}u(t)}
+    {\Lambda^{1/2}\bigl((u(t)\cdot\nabla)u(t)\bigr)}_{L^2}.
+\]
+Incompressibility removes the pressure pairing, while the Laplacian supplies the positive dissipation on the left of
+\[
+  H'(t)
+  +
+  \nu\norm{\Lambda^{3/2}u(t)}_2^2
+  =
+  \mathcal P_{1/2}[u](t).
+\]
+The critical height rises exactly when signed nonlinear production exceeds viscous dissipation.
+Rescaling multiplies both quantities according to
+\[
+  \mathcal P_{1/2}[u_\lambda](t)
+  =
+  \lambda^2\mathcal P_{1/2}[u](\lambda^2t),
+  \qquad
+  \nu\norm{\Lambda^{3/2}u_\lambda(t)}_2^2
+  =
+  \lambda^2\nu\norm{\Lambda^{3/2}u(\lambda^2t)}_2^2.
+\]
+Neither gains ground because they share the same quadratic factor, and this scale match alone does not determine the physical duration of a transition between widths.
+
+\divider{The Heat Clock}
+
+The heat equation $v_t=\nu\Delta v$ supplies a linear clock for that duration through its Fourier modes:
+\[
+  \widehat v(\xi,t+\delta t)
+  =
+  e^{-\nu|\xi|^2\delta t}\widehat v(\xi,t).
+\]
+A scale-localized velocity structure of width $r$ has modes concentrated near $|\xi|\simeq r^{-1}$, and those modes undergo an order-one heat change when
+\[
+  \nu|\xi|^2\delta t\simeq1,
+\]
+so its viscous comparison time is
+\[
+  \tau_\nu(r)
+  :=
+  \frac{r^2}{\nu}.
+\]
+Halving the structure's width quarters this clock, and at general scale
+\[
+  \tau_\nu(\lambda^{-1}r)
+  =
+  \lambda^{-2}\tau_\nu(r).
+\]
+The heat clock thus carries the same time contraction as the full \NavierStokes{} rescaling without asserting that one nonlinear field realizes the transition.
+
+\divider{The Zeno Cascade}
+
+Consider the dyadic widths and their heat times
+\[
+  r_n:=2^{-n}r_0,
+  \qquad
+  \tau_n:=\frac{r_n^2}{\nu},
+\]
+which form the finite geometric sum
+\[
+  \tau_n
+  =
+  \frac{r_0^2}{\nu}4^{-n},
+  \qquad
+  \sum_{n=0}^{\infty}\tau_n
+  =
+  \frac{4r_0^2}{3\nu}
+  <
+  \infty.
+\]
+This finite sum provides a possible finite-time cascade schedule only if one \NavierStokes{} velocity field exhibits scale-localized structures at widths
+\[
+  r_0>r_1>r_2>\cdots\longrightarrow0
+\]
+and at sampled times
+\[
+  t_0<t_1<t_2<\cdots\uparrow T_*<\infty,
+  \qquad
+  t_{n+1}-t_n\asymp\tau_n,
+\]
+with comparison constants independent of $n$.
+Under that condition, the remaining time satisfies
+\[
+  T_*-t_n
+  \asymp
+  \sum_{k=n}^{\infty}\tau_k
+  =
+  \frac{4r_n^2}{3\nu}.
+\]
+Both the next sampled gap and the total time left are then of order $r_n^2/\nu$.
+Even as these intervals collapse, the finite schedule does not yet control the first or any successive Eulerian time derivative of that same field at one fixed spatial point.

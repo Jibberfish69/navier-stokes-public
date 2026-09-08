@@ -1,0 +1,22 @@
+\contentsline {section}{\numberline {1}The Regularity Problem}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}The equation and the target}{1}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Critical Height and the Derivative Tower}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}The critical-height problem inside a stretching vortex}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Velocity, acceleration, jerk, and the Tower}{5}{subsection.2.2}%
+\contentsline {section}{\numberline {3}The Intersection Inside the Tower}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}The temporal--spatial table}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}A spatial column inside every temporal response}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}The full grid and its intersection}{9}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}The finite piece that reaches a time slice}{10}{subsection.3.4}%
+\contentsline {section}{\numberline {4}The Missing Estimate and Global Smoothness}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}The estimate that must survive the endpoint}{12}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}The intersection reaches one terminal datum}{15}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}The critical-height roof}{16}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}The two vortex readings}{17}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}The singularity conditions fail at both scales}{19}{subsection.4.5}%
+\contentsline {section}{\numberline {A}Technical Foundations}{20}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}The local construction behind the maximal history}{20}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}The kinetic-energy identity}{25}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}The trace between adjacent rows}{25}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}From terminal rows to one restart datum}{26}{subsection.A.4}%
+\contentsline {section}{Bibliography}{28}{section*.1}%

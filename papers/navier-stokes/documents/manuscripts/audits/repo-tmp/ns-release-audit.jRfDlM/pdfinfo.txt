@@ -1,0 +1,22 @@
+Title:           Global Smoothness for the Three-Dimensional Incompressible Navier–Stokes Equations
+Subject:         An affirmative solution of the whole-space Navier–Stokes existence-and-smoothness problem
+Keywords:        
+Author:          Thomas Birnie
+Creator:         LaTeX with hyperref
+Producer:        pdfTeX-1.40.28
+CreationDate:    Fri Aug 14 16:13:47 2026 MDT
+ModDate:         Fri Aug 14 16:13:47 2026 MDT
+Custom Metadata: yes
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           67
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       737518 bytes
+Optimized:       no
+PDF version:     1.7

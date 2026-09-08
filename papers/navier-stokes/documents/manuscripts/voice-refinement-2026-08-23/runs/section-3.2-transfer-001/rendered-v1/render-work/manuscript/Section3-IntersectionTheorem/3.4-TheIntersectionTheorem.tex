@@ -1,0 +1,121 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\Needspace{12\baselineskip}
+\subsection{What the missing rectangle estimate would give}\label{sub:BodyCompatibleIntersection}
+
+Assume the missing estimate, without claiming its proof.
+\begin{assumption}[Whole-terminal rectangle producer]\label[assumption]{thm:BodyWholeTerminalRectangleTheorem}
+On the finite-lifespan branch, every fixed finite rectangle satisfies
+\begin{equation}\label{eq:BodyWholeTerminalRectangleEstimate}
+  \sup_{0<T<T_*}\mathfrak R_{N,M}(u;T)<\infty,
+  \qquad N,M\in\Nzero.
+\end{equation}
+The bound may depend on \(N\) and \(M\); it is uniform only in the cutoff \(T<T_*\).
+\end{assumption}
+
+Fix \(N\) and \(M\).
+Every term in \eqref{eq:BodyRectangleNorm} is the integral over \((0,T)\) of a nonnegative squared norm.
+As \(T\uparrow T_*\), the intervals \((0,T)\) exhaust \(I_*=(0,T_*)\), and
+\[
+  \int_{I_*}f(t)\,dt
+  =
+  \lim_{T\uparrow T_*}\int_0^T f(t)\,dt
+\]
+for each of those integrands.
+Under \Cref{thm:BodyWholeTerminalRectangleTheorem}, the limit is finite for every row in the fixed rectangle:
+\begin{equation}\label{eq:BodyWholeTerminalAdjacentRows}
+  V_n\in L^2(I_*;H^{M+1}),
+  \qquad
+  V_{n+1}=\partial_tV_n\in L^2(I_*;H^{M-1}),
+  \qquad 0\leq n\leq N.
+\end{equation}
+The adjacent trace identity now gives
+\begin{equation}\label{eq:BodyWholeTerminalMiddleTraces}
+  V_n\in C([0,T_*];H^M),
+  \qquad 0\leq n\leq N.
+\end{equation}
+
+Under the same assumption, \Cref{thm:WholeTerminalCompatibleRectangleEstimate} applies the pressure recurrence, Riesz-transform bounds, and finite-order Sobolev products to give
+\begin{equation}\label{eq:BodyWholeTerminalPressureRows}
+  Q_n\in L^1(I_*;H^M),
+  \qquad 0\leq n\leq N.
+\end{equation}
+The velocity and pressure coordinates in
+\eqref{eq:BodyWholeTerminalAdjacentRows}--\eqref{eq:BodyWholeTerminalPressureRows}
+form the whole-interval rectangle \(\cR_{N,M}[u_0]\).
+
+Place that rectangle in
+\[
+  \mathscr X_{N,M}
+  :=
+  \prod_{n=0}^{N}L^2(I_*;H^{M+1})
+  \times
+  \prod_{n=0}^{N}L^2(I_*;H^{M-1})
+  \times
+  \prod_{n=0}^{N}L^1(I_*;H^M),
+\]
+whose three factors carry \((V_n)_{n=0}^{N}\),
+\((V_{n+1})_{n=0}^{N}\), and \((Q_n)_{n=0}^{N}\).
+
+Now choose \(N'\leq N\) and \(M'\leq M\).
+The restriction
+\[
+  \rho_{N',M'}^{N,M}:\mathscr X_{N,M}\longrightarrow\mathscr X_{N',M'}
+\]
+discards the temporal rows above \(N'\) and uses
+\[
+  H^{M+1}\hookrightarrow H^{M'+1},
+  \qquad
+  H^{M-1}\hookrightarrow H^{M'-1},
+  \qquad
+  H^M\hookrightarrow H^{M'}
+\]
+on the retained coordinates.
+Nothing is reconstructed on the overlap.
+Each retained coordinate is the same distributional derivative of the same velocity or normalized pressure, viewed at the lower Sobolev height.
+Hence
+\begin{equation}\label{eq:BodyRectangleRestrictionCompatibility}
+  \rho_{N',M'}^{N,M}\cR_{N,M}[u_0]
+  =\cR_{N',M'}[u_0].
+\end{equation}
+
+Under the rectangle assumption, the whole-interval family is therefore
+\begin{equation}\label{eq:DatumSpecificCompatibleIntersection}
+  \cI[u_0]
+  :=\bigl(\cR_{N,M}[u_0]\bigr)_{N,M\in\Nzero}
+  \in\varprojlim_{N,M}\mathscr X_{N,M}.
+\end{equation}
+The limit records exact agreement under restriction.
+It is not convergence in one norm over all derivative orders, and it does not create a second velocity field.
+
+\begin{proposition}[Conditional mixed intersection]\label[proposition]{prop:BodyCompatibleProjectiveAssembly}
+Under \Cref{thm:BodyWholeTerminalRectangleTheorem}, the velocity component of
+\(\cI[u_0]\) satisfies
+\begin{equation}\label{eq:BodyProducedMixedIntersection}
+  u\in
+  \bigcap_{r=0}^{\infty}
+  \bigcap_{m=0}^{\infty}
+  H^r(I_*;H^m(\R^3)).
+\end{equation}
+In particular,
+\begin{equation}\label{eq:CompleteSpatialRow}
+  u\in\bigcap_{m=0}^{\infty}L^2(I_*;H^m(\R^3)).
+\end{equation}
+\end{proposition}
+
+\begin{proof}
+Fix finite \(r\) and \(m\), then choose \(N\geq r\) and \(M\geq m\).
+The upper rows of that rectangle give
+\[
+  \partial_t^nu\in L^2(I_*;H^{M+1})
+  \hookrightarrow L^2(I_*;H^m),
+  \qquad 0\leq n\leq r.
+\]
+These are the distributional time derivatives of the same velocity field, so
+\(u\in H^r(I_*;H^m)\).
+Since \(r\) and \(m\) were arbitrary, all finite coordinates belong to the intersection.
+Taking \(r=0\) gives \eqref{eq:CompleteSpatialRow}.
+\end{proof}
+
+The cutoff-uniform rectangle bounds are sufficient for the mixed intersection.
+No argument in this subsection derives those bounds from \((u_0,\nu)\).
+The datum-to-rectangle step remains open, so the intersection and every endpoint or continuation consequence that uses it remain conditional.

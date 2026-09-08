@@ -363,11 +363,10 @@ The already checked true-Leray normal-form calculation gives
 \]
 
 and lawful periodic comparison data for which the quartic remainder has both
-signs while the instantaneous critical current is positive.  Thus the first
+signs while the instantaneous critical current is positive. Thus the first
 phase-retaining endpoint is scale-critical and the full insertion is not a
-datum-paid signed remainder.  This is the exact boundary proved in
-`mpp-vpi-homochiral-envelope-kernel-and-singleton-helicity-current-20260722.md`,
-`(SH.71)`--`(SH.83)`, and checked by
+datum-paid signed remainder. Equations `(SFT.24)`--`(SFT.26)` give the exact
+boundary used here, with its normal-form calculation checked by
 `check_stokes_singleton_normal_form_test.rb`.
 
 This does not rule out the complete binomial/VPI history resummation.  It shows

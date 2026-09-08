@@ -2,14 +2,14 @@
 
 ## Target
 
-- target obligation: GlobalSamePacketFullOriginalHistoryAnnularHodgePacking.A.CoreSubprimitive
-- target label: core annular/Hodge same-history packing estimate excluding uncharged high-ratio upward birth
-- route role: Prove that a high-ratio upward birth on one original transported material history cannot be disjoint from annular Cauchy stress-work, material Hodge/projector coupling, weighted-summable entrance/legal mass, and contracted lower-band carry. Thus every such birth is charged inside the finite full same-material action estimate.
+- target obligation: GlobalSamePacketFullOriginalHistoryAnnularHelmholtzLerayPacking.A.CoreSubprimitive
+- target label: core annular/Helmholtz--Leray same-history packing estimate excluding uncharged high-ratio upward birth
+- route role: Prove that a high-ratio upward birth on one original transported material history cannot be disjoint from annular Cauchy stress-work, material Helmholtz--Leray/projector coupling, weighted-summable entrance/legal mass, and contracted lower-band carry. Thus every such birth is charged inside the finite full same-material action estimate.
 - theorem family: full-same-material-action
 
 ## Created Theorem
 
-GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A. Prove that a high-ratio upward birth on one original transported material history cannot be disjoint from annular Cauchy stress-work, material Hodge/projector coupling, weighted-summable entrance/legal mass, and contracted lower-band carry. Thus every such birth is charged inside the finite full same-material action estimate. This supplies the exact noncircular bridge needed for core annular/Hodge same-history packing estimate excluding uncharged high-ratio upward birth.
+GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A. Prove that a high-ratio upward birth on one original transported material history cannot be disjoint from annular Cauchy stress-work, material Helmholtz--Leray/projector coupling, weighted-summable entrance/legal mass, and contracted lower-band carry. Thus every such birth is charged inside the finite full same-material action estimate. This supplies the exact noncircular bridge needed for core annular/Helmholtz--Leray same-history packing estimate excluding uncharged high-ratio upward birth.
 
 ## Inventive Search
 
@@ -19,7 +19,7 @@ GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A. Prove that a hig
 - selected_mechanism: full_same_material_no_uncharged_high_ratio_birth
 - candidate_count: 1
 - solver_chain_verdict: open
-- selection_reason: This theorem is the right next move because it changes the proof economy: Prove that a high-ratio upward birth on one original transported material history cannot be disjoint from annular Cauchy stress-work, material Hodge/projector coupling, weighted-summable entrance/legal mass, and contracted lower-band carry. Thus every such birth is charged inside the finite full same-material action estimate. It deliberately reduces the remaining work to GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.CoreSubprimitive rather than pretending the frontier is closed.
+- selection_reason: This theorem is the right next move because it changes the proof economy: Prove that a high-ratio upward birth on one original transported material history cannot be disjoint from annular Cauchy stress-work, material Helmholtz--Leray/projector coupling, weighted-summable entrance/legal mass, and contracted lower-band carry. Thus every such birth is charged inside the finite full same-material action estimate. It deliberately reduces the remaining work to GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.CoreSubprimitive rather than pretending the frontier is closed.
 
 ### Candidate Theorems
 
@@ -41,8 +41,8 @@ GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A. Prove that a hig
 ## Forbidden Imports
 
 - GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A
-- core annular/Hodge same-history packing estimate excluding uncharged high-ratio upward birth
-- GlobalSamePacketFullOriginalHistoryAnnularHodgePacking.A.CoreSubprimitive
+- core annular/Helmholtz--Leray same-history packing estimate excluding uncharged high-ratio upward birth
+- GlobalSamePacketFullOriginalHistoryAnnularHelmholtzLerayPacking.A.CoreSubprimitive
 - full-MPP closure
 - submission readiness
 - global smoothness
@@ -50,7 +50,7 @@ GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A. Prove that a hig
 ## Proof Attempt
 
 1. Assume a high-ratio upward birth on one original transported material history.
-2. Trace the event through the annular Cauchy stress-work carrier, the material Hodge/projector carrier, entrance/legal mass, and lower-band carry.
+2. Trace the event through the annular Cauchy stress-work carrier, the material Helmholtz--Leray/projector carrier, entrance/legal mass, and lower-band carry.
 3. Use incompressibility and the material projector to rule out a birth that is invisible to all four carriers.
 4. Conclude that the uncharged upward-birth remainder is empty.
 
@@ -64,7 +64,7 @@ GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A. Prove that a hig
 - verdict: new_subprimitive
 - certification_level: theorem-creation:new-subprimitive
 - rationale: The theorem has been reduced to a smaller noncircular primitive that is not currently installed.
-- next subprimitive: GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.CoreSubprimitive -- core same-history exclusion of a high-ratio upward birth invisible to annular stress, Hodge/projector coupling, entrance mass, and lower-band carry
+- next subprimitive: GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.CoreSubprimitive -- core same-history exclusion of a high-ratio upward birth invisible to annular stress, Helmholtz--Leray/projector coupling, entrance mass, and lower-band carry
 
 ## Promotion Plan
 

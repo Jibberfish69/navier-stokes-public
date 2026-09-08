@@ -52,7 +52,7 @@ GlobalSamePacketFullMinimalBridge.A. Find the strictly weaker same-material brid
 ## Proof Attempt
 
 1. Keep the object as the original smooth solution's transported material history.
-2. Use only full same-material action, material record growth, annular stress, Hodge/projector, collar, strain, and viscosity as coupled coordinates.
+2. Use only full same-material action, material record growth, annular stress, Helmholtz--Leray/projector, collar, strain, and viscosity as coupled coordinates.
 3. Reject source-reserve, terminal-source, pressure-lobe, and viscosity-only proxy clocks as target-setting objects.
 4. State the local bridge whose discharge would give finite full same-material action without importing the target conclusion.
 

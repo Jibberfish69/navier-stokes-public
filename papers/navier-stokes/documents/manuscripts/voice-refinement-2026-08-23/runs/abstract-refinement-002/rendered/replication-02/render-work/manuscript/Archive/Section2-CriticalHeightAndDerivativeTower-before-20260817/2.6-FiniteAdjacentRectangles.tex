@@ -1,0 +1,95 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% Archived before the 2026-08-17 Section 2 rewrite.
+\subsection{The finite adjacent rectangle}\label{sub:BodyFiniteAdjacentRectangles}
+
+A finite list of mixed derivatives does not automatically have a value at the endpoint.
+To trace one temporal row \(V_n\) strongly in \(H^M\), the equation has to control that row on both sides of the desired Sobolev height.
+The reason is visible in one identity.
+
+Let \(A=(1-\Delta)^{1/2}\), let \(s\in\R\), and begin with a smooth Hilbert-valued function \(v\).
+For \(0\leq a<b\leq T\),
+\begin{equation}\label{eq:BodyAdjacentTraceIdentity}
+  \norm{v(b)}_{H^s}^2-
+  \norm{v(a)}_{H^s}^2
+  =2\operatorname{Re}
+  \int_a^b
+  \pair{A^{s-1}v_t(t)}{A^{s+1}v(t)}_{L^2}\,dt.
+\end{equation}
+The product on the right is integrable when
+\begin{equation}\label{eq:BodyAdjacentTracePair}
+  v\in L^2(0,T;H^{s+1}),
+  \qquad
+  v_t\in L^2(0,T;H^{s-1}).
+\end{equation}
+Cauchy--Schwarz gives
+\begin{equation}\label{eq:BodyAdjacentTraceEstimate}
+  \left|
+  \norm{v(b)}_{H^s}^2-
+  \norm{v(a)}_{H^s}^2
+  \right|
+  \leq
+  2\norm{v_t}_{L^2(a,b;H^{s-1})}
+  \norm{v}_{L^2(a,b;H^{s+1})}.
+\end{equation}
+Time mollification and Fourier truncation extend the identity to the pair in \eqref{eq:BodyAdjacentTracePair}.
+Weak \(H^s\) continuity together with continuity of the norm gives a unique representative
+\begin{equation}\label{eq:BodyAdjacentTraceConclusion}
+  v\in C([0,T];H^s).
+\end{equation}
+
+The first continuation-grade example uses \(v=u\) and the middle height \(s=2\):
+\begin{equation}\label{eq:FirstConcreteAdjacentPair}
+  u\in L^2(0,T;H^3),
+  \qquad
+  u_t\in L^2(0,T;H^1)
+  \quad\Longrightarrow\quad
+  u\in C([0,T];H^2).
+\end{equation}
+The two spaces are offset by two spatial derivatives because they meet at the middle space \(H^2\).
+The upper row controls the field one derivative above the trace height.
+The lower row controls its time derivative one derivative below.
+
+Apply the same pair to \(v=V_n\), whose time derivative is \(V_{n+1}\).
+Fix finite temporal depth \(N\) and middle Sobolev order \(M\).
+The velocity size of the corresponding finite block is
+\begin{equation}\label{eq:BodyRectangleNorm}
+\begin{aligned}
+  \mathfrak R_{N,M}(u;T)
+  :={}&
+  \sum_{n=0}^{N}
+  \norm{V_n}_{L^2(0,T;H^{M+1})}^2
+  \\
+  &+
+  \sum_{n=0}^{N}
+  \norm{V_{n+1}}_{L^2(0,T;H^{M-1})}^2.
+\end{aligned}
+\end{equation}
+When \(M=0\), the lower edge is the inhomogeneous space \(H^{-1}\).
+No one constant across all values of \(N\) and \(M\) is part of this definition.
+
+At \((N,M)=(1,2)\), the rectangle retains
+\[
+  u,u_t\in L^2(0,T;H^3),
+  \qquad
+  u_t,u_{tt}\in L^2(0,T;H^1).
+\]
+The repeated \(u_t\) is not duplicated bookkeeping.
+It is the lower member of the pair that traces \(u\) and the upper member of the pair that traces \(u_t\).
+The temporal pairs overlap on one actual derivative of the same solution.
+
+The pressure-complete finite rectangle \(\cR_{N,M}[u_0;T]\) retains these velocity rows, the pressure rows \(Q_0,\ldots,Q_N\), and the recurrences that identify every entry with the mixed jet generated before the cutoffs were chosen.
+For a strict cutoff \(T<T_*\), classicality on the compact interval \([0,T]\) gives
+\begin{equation}\label{eq:StrictSubintervalRectangleBound}
+  \mathfrak R_{N,M}(u;T)<\infty
+  \qquad\text{for every finite }N,M.
+\end{equation}
+That statement does not reach the candidate endpoint.
+
+The distinction is a quantifier, not a technicality.
+The scalar function \(f(t)=(T_*-t)^{-1/2}\) belongs to \(L^2(0,T)\) for every \(T<T_*\), but not to \(L^2(0,T_*)\).
+This is an integrability countertest, not a fluid scenario.
+It shows why finite control after the cutoff has been chosen does not produce one bound that survives every cutoff.
+
+The exact unpaid statement is now visible.
+After \(N\) and \(M\) have been fixed, the datum and viscosity must control the corresponding pressure-complete rectangle with one constant independent of \(T<T_*\).
+That whole-terminal estimate is the central theorem of the next section.

@@ -1,0 +1,79 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.3 The Pressure-Complete Mixed Jet
+% ============================================================
+
+\subsection{The Pressure-Complete Mixed Jet}\label{sub:ThePressureCompleteMixedJet}
+
+At temporal order \(n\), the recurrences \eqref{eq:BodyTemporalVelocityRecurrence} and \eqref{eq:BodyTemporalPressureRecurrence} contain \(V_{n+1}\), \(\nu\Delta V_n\), every binomial split of the transport term, and the normalized pressure row \(Q_n\).
+To see the spatial derivatives already present in that equation, begin with one derivative of a transport factor.
+Differentiate one transport factor in the coordinate direction \(x_\ell\):
+\[
+  \partial_\ell\bigl((V_a\cdot\nabla)V_{n-a}\bigr)
+  =
+  ((\partial_\ell V_a)\cdot\nabla)V_{n-a}
+  +(V_a\cdot\nabla)\partial_\ell V_{n-a}.
+\]
+At higher spatial order, every derivative divides between the two factors.
+For \(\alpha\in\Nzero^3\), write the corresponding velocity and pressure derivatives as
+\[
+  J_{n,\alpha}
+  :=
+  \partial_t^n\partial_x^\alpha u,
+  \qquad
+  \Pi_{n,\alpha}
+  :=
+  \partial_t^n\partial_x^\alpha p,
+\]
+and for \(\beta\le\alpha\), set
+\[
+  \binom{\alpha}{\beta}
+  :=
+  \prod_{k=1}^{3}\binom{\alpha_k}{\beta_k}.
+\]
+The simultaneous temporal and spatial product rules give
+\[
+  \partial_t^n\partial_x^\alpha\bigl((u\cdot\nabla)u\bigr)
+  =
+  \sum_{a=0}^{n}
+  \sum_{\beta\le\alpha}
+  \binom{n}{a}
+  \binom{\alpha}{\beta}
+  (J_{a,\beta}\cdot\nabla)
+  J_{n-a,\alpha-\beta}.
+\]
+Substitution into the equation exposes the full mixed recurrence:
+\begin{align*}
+  J_{n+1,\alpha}
+  &+
+  \sum_{a=0}^{n}
+  \sum_{\beta\le\alpha}
+  \binom{n}{a}
+  \binom{\alpha}{\beta}
+  (J_{a,\beta}\cdot\nabla)
+  J_{n-a,\alpha-\beta}
+  \\
+  &+\nabla\Pi_{n,\alpha}
+  =
+  \nu\Delta J_{n,\alpha},
+  \qquad
+  \nabla\cdot J_{n,\alpha}=0.
+\end{align*}
+Its pressure coordinates satisfy
+\[
+  -\Delta\Pi_{n,\alpha}
+  =
+  \partial_i\partial_j
+  \sum_{a=0}^{n}
+  \sum_{\beta\le\alpha}
+  \binom{n}{a}
+  \binom{\alpha}{\beta}
+  (J_{a,\beta})_i
+  (J_{n-a,\alpha-\beta})_j.
+\]
+
+Every \(J_{n,\alpha}\) and \(\Pi_{n,\alpha}\) above is a derivative of the original pressure-complete solution.
+A finite rectangle selects a finite range of \(n\) and \(\alpha\) from this one derivative family; it does not introduce a second solution.
+
+The viscous term explains why moving upward in \(n\) also reaches farther into the spatial derivatives: \(J_{n+1,\alpha}\) is coupled to \(\Delta J_{n,\alpha}\).
+The critical-height calculation now isolates that spatial gain without discarding the nonlinear and pressure terms beside it.

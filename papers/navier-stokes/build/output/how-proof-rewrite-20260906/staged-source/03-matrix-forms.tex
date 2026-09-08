@@ -1,0 +1,290 @@
+\section{Matrix forms of the completed intersection}
+\label{sec:matrix-forms}
+
+The compatible intersection, its endpoint jet, and the original history's restart
+have now been established.  The matrices in this section reorganize those
+completed rows.  The whole-terminal bounds and their compatibility have
+already been proved before any matrix is introduced.
+
+\begin{proposition}[Mixed-index transport matrix and pressure completion]
+\label{prop:formal-mixed-index-matrix}
+Let
+\[
+ \Gamma:=\Nzero\times\Nzero^3,
+ \qquad
+ \kappa=(n,\alpha),
+ \qquad
+ \lambda=(a,\beta),
+\]
+and write
+\[
+ \lambda\preceq\kappa
+ \quad\Longleftrightarrow\quad
+ a\le n\ \text{ and }\ \beta\le\alpha,
+ \qquad
+ \kappa-\lambda:=(n-a,\alpha-\beta),
+ \qquad
+ \binom\kappa\lambda:=\binom na\binom\alpha\beta.
+\]
+Set
+\[
+ J_\kappa:=J_{n,\alpha},
+ \qquad
+ \Pi_\kappa:=\Pi_{n,\alpha},
+ \qquad
+ \mathbf J:=(J_\lambda)_{\lambda\in\Gamma}.
+\]
+The block operator
+\begin{equation}
+ \mathbb L(J)_{\kappa,\lambda}
+ :=
+ \begin{cases}
+ \displaystyle
+ \binom\kappa\lambda
+ \Pp\bigl[(J_{\kappa-\lambda}\cdot\nabla)\,\mathord\cdot\,\bigr],
+ &\lambda\preceq\kappa,\\[6pt]
+ 0,&\lambda\npreceq\kappa,
+ \end{cases}
+ \label{eq:formal-mixed-transport-matrix}
+\end{equation}
+has the finite block-row action
+\begin{equation}
+ [\mathbb L(J)\mathbf J]_\kappa
+ =\sum_{\lambda\preceq\kappa}\binom\kappa\lambda
+   \Pp\bigl[(J_\lambda\cdot\nabla)J_{\kappa-\lambda}\bigr].
+ \label{eq:formal-mixed-transport-row}
+\end{equation}
+Consequently the complete mixed row is the pair
+\begin{align}
+ J_{n+1,\alpha}+[\mathbb L(J)\mathbf J]_\kappa
+ &=\nu\Delta J_\kappa,
+ \label{eq:formal-mixed-projected-matrix-row}\\
+ \Pi_\kappa
+ &=R_iR_j\sum_{\lambda\preceq\kappa}\binom\kappa\lambda
+   J_{\lambda,i}J_{\kappa-\lambda,j},
+ \label{eq:formal-mixed-matrix-pressure-row}
+\end{align}
+while the unprojected velocity identity retains
+\(\nabla\Pi_\kappa\) exactly as in
+\eqref{eq:formal-mixed-velocity-row}.
+
+Order \(\Gamma\) by increasing \(n+|\alpha|\), with any fixed ordering among
+indices of equal depth.  Then \(\mathbb L(J)\) is block lower triangular.
+\begin{samepage}
+For
+\[
+ \kappa!:=n!\,\alpha!,
+ \qquad
+ \alpha!:=\alpha_1!\alpha_2!\alpha_3!,
+ \qquad
+ \widehat J_\kappa:=\frac{J_\kappa}{\kappa!},
+ \qquad
+ \widehat\Pi_\kappa:=\frac{\Pi_\kappa}{\kappa!},
+\]
+let \(D\) be the diagonal matrix with \(D_{\kappa,\kappa}=\kappa!\).  On
+every finite downward-closed truncation of \(\Gamma\),
+\begin{equation}
+ D^{-1}\mathbb L(D\widehat J)D
+ =\widehat{\mathbb L}(\widehat J),
+ \qquad
+ \widehat{\mathbb L}(\widehat J)_{\kappa,\lambda}
+ :=
+ \begin{cases}
+ \Pp\bigl[(\widehat J_{\kappa-\lambda}\cdot\nabla)
+            \,\mathord\cdot\,\bigr],
+ &\lambda\preceq\kappa,\\
+ 0,&\lambda\npreceq\kappa.
+ \end{cases}
+ \label{eq:formal-factorial-matrix-conjugacy}
+\end{equation}
+\end{samepage}
+Thus the factorial-normalized pressure-complete recurrence is
+\begin{align}
+ (n+1)\widehat J_{n+1,\alpha}
+ +\sum_{\lambda\preceq\kappa}
+   (\widehat J_\lambda\cdot\nabla)
+   \widehat J_{\kappa-\lambda}
+ +\nabla\widehat\Pi_\kappa
+ &=\nu\Delta\widehat J_\kappa,
+ \label{eq:formal-factorial-velocity-convolution}\\
+ \widehat\Pi_\kappa
+ &=R_iR_j\sum_{\lambda\preceq\kappa}
+   \widehat J_{\lambda,i}\widehat J_{\kappa-\lambda,j}.
+ \label{eq:formal-factorial-pressure-convolution}
+\end{align}
+The normalized transport blocks depend on the difference
+\(\kappa-\lambda\); hence \eqref{eq:formal-factorial-matrix-conjugacy} is the
+block lower-triangular convolution form of the mixed transport array.
+\end{proposition}
+
+\begin{proof}
+For \(\lambda\preceq\kappa\), change the summation index from \(\lambda\)
+to \(\kappa-\lambda\) and use
+\(\binom\kappa{\kappa-\lambda}=\binom\kappa\lambda\).  This gives
+\eqref{eq:formal-mixed-transport-row}.  Apply \(\Pp\) to
+\eqref{eq:formal-mixed-velocity-row}.  The identities
+\[
+ \Pp J_{n+1,\alpha}=J_{n+1,\alpha},
+ \qquad
+ \Pp\Delta J_\kappa=\Delta J_\kappa,
+ \qquad
+ \Pp\nabla\Pi_\kappa=0
+\]
+follow from \eqref{eq:formal-mixed-divergence-row} and the Fourier symbols.
+They prove \eqref{eq:formal-mixed-projected-matrix-row}; equation
+\eqref{eq:formal-mixed-matrix-pressure-row} is
+\eqref{eq:formal-mixed-pressure-row} in mixed-index notation.  The pressure
+formula also shows that projection of the velocity row loses no pressure
+coordinate.
+
+If \(\lambda\preceq\kappa\), then
+\(a+|\beta|\le n+|\alpha|\), which proves lower triangularity in the stated
+ordering.  Finally,
+\[
+ \binom\kappa\lambda\,\lambda!\,(\kappa-\lambda)!=\kappa!.
+\]
+Dividing the mixed velocity and pressure rows by \(\kappa!\) proves
+\eqref{eq:formal-factorial-velocity-convolution} and
+\eqref{eq:formal-factorial-pressure-convolution}.  This factorial cancellation in each operator block proves
+\eqref{eq:formal-factorial-matrix-conjugacy}.  Every row has
+\((n+1)\prod_{j=1}^3(\alpha_j+1)\) supported blocks, so all displayed row
+sums are finite.
+\end{proof}
+
+\begin{proposition}[Sobolev rectangle matrix and adjacent stencil]
+\label{prop:sobolev-rectangle-matrix}
+For \(0<T<T_*\), \(N,M\in\Nzero\), \(0\le n\le N\), and
+\(m\in\mathbb Z\), set
+\[
+ G_{n,m}(T):=\norm{V_n}_{L^2(0,T;H^m)},
+\]
+and set
+\[
+ P_{n,M}(T):=\norm{Q_n}_{L^1(0,T;H^M)}
+ +\norm{\nabla Q_n}_{L^1(0,T;H^{M-1})}.
+\]
+The object matrix of the finite pressure-complete rectangle is
+\begin{equation}
+ \mathbf R_{N,M}[u_0;T]
+ :=
+ \begin{pmatrix}
+  V_0|_{(0,T)}&V_1|_{(0,T)}&Q_0|_{(0,T)}\\
+  V_1|_{(0,T)}&V_2|_{(0,T)}&Q_1|_{(0,T)}\\
+  \vdots&\vdots&\vdots\\
+  V_N|_{(0,T)}&V_{N+1}|_{(0,T)}&Q_N|_{(0,T)}
+ \end{pmatrix}.
+ \label{eq:finite-rectangle-object-matrix}
+\end{equation}
+The corresponding matrix of the three column norms is
+\begin{equation}
+ \mathbf C_{N,M}(T)
+ :=
+ \begin{pmatrix}
+  G_{0,M+1}(T)&G_{1,M-1}(T)&P_{0,M}(T)\\
+  G_{1,M+1}(T)&G_{2,M-1}(T)&P_{1,M}(T)\\
+  \vdots&\vdots&\vdots\\
+  G_{N,M+1}(T)&G_{N+1,M-1}(T)&P_{N,M}(T)
+ \end{pmatrix}.
+ \label{eq:sobolev-pressure-complete-rectangle-matrix}
+\end{equation}
+If \(\mathbf G_{N,M}(T)\) denotes its first two columns, then
+\begin{equation}
+ \norm{\mathbf G_{N,M}(T)}_{\mathrm F}^2
+ =\mathfrak R_{N,M}(u;T),
+ \qquad
+ \sum_{n=0}^NP_{n,M}(T)=\mathfrak Q_{N,M}(p;T).
+ \label{eq:rectangle-matrix-norm-identities}
+\end{equation}
+For each \(0\le n\le N\), the first two entries in row \(n\) form the
+adjacent Hilbert-scale stencil
+\begin{equation}
+ \left.
+ \begin{array}{c}
+  (n,M+1):\quad V_n\in L^2(0,T;H^{M+1}),\\
+  (n+1,M-1):\quad V_{n+1}=\partial_tV_n
+                       \in L^2(0,T;H^{M-1})
+ \end{array}
+ \right\}
+ \longrightarrow
+ (n,M):\quad V_n\in C([0,T];H^M).
+ \label{eq:rectangle-adjacent-stencil}
+\end{equation}
+For every \(m\in\Nzero\), the Sobolev matrix measures the mixed-index array
+through the exact identity
+\begin{equation}
+ G_{n,m}(T)^2
+ =\sum_{\substack{\alpha\in\Nzero^3\\|\alpha|\le m}}
+   \frac{m!}{(m-|\alpha|)!\,\alpha!}
+   \norm{J_{n,\alpha}}_{L^2((0,T)\times\R^3)}^2.
+ \label{eq:rectangle-mixed-index-sobolev-identity}
+\end{equation}
+The pressure entry in row \(n\) is \(Q_n=\Pi_{n,0}\), and its spatial rows
+\(\partial_x^\alpha Q_n=\Pi_{n,\alpha}\) are fixed by
+\eqref{eq:formal-mixed-matrix-pressure-row}.
+\end{proposition}
+
+\begin{proof}
+The object matrix is the tuple in Definition~\ref{def:finite-rectangle},
+arranged by temporal row.  The two identities in
+\eqref{eq:rectangle-matrix-norm-identities} are
+\eqref{eq:finite-rectangle-norm} and
+\eqref{eq:finite-pressure-rectangle-norm}.  Lemma~\ref{lem:adjacent-trace}
+gives \eqref{eq:rectangle-adjacent-stencil}.  Finally, Plancherel and
+\[
+ (1+|\xi|^2)^m
+ =\sum_{\substack{\alpha\in\Nzero^3\\|\alpha|\le m}}
+   \frac{m!}{(m-|\alpha|)!\,\alpha!}\,\xi^{2\alpha}
+\]
+give \eqref{eq:rectangle-mixed-index-sobolev-identity}.  The pressure claims
+follow from the definitions of \(Q_n,\Pi_{n,\alpha}\) and
+\eqref{eq:formal-mixed-matrix-pressure-row}.
+\end{proof}
+
+\begin{proposition}[Whole-terminal closed estimate matrix]
+\label{prop:datum-terminal-matrix-consequence}
+Under the hypotheses of Theorem~\ref{thm:datum-rectangles}, fix
+\(N,M\in\Nzero\) and set
+\begin{align}
+ a_{n,M}
+ &:=\norm{V_n}_{L^2(0,T_*;H^{M+1})},\notag\\
+ b_{n,M}
+ &:=\norm{V_{n+1}}_{L^2(0,T_*;H^{M-1})},
+ \qquad 0\le n\le N.
+ \label{eq:datum-terminal-coordinate-norms}
+\end{align}
+Define entrywise order on nonnegative matrices by
+\(A\preceq_{\mathrm{ent}}B\) when \(A_{ij}\le B_{ij}\) for every entry.
+Then, for every \(0<T<T_*\),
+\begin{equation}
+ \mathbf G_{N,M}(T)
+ \preceq_{\mathrm{ent}}
+ \mathbf G_{N,M}^*
+ :=
+ \begin{pmatrix}
+  a_{0,M}&b_{0,M}\\
+  a_{1,M}&b_{1,M}\\
+  \vdots&\vdots\\
+  a_{N,M}&b_{N,M}
+ \end{pmatrix}.
+ \label{eq:datum-terminal-matrix-bound}
+\end{equation}
+Moreover,
+\begin{align}
+ \mathfrak R_{N,M}(u;T)
+ &=\norm{\mathbf G_{N,M}(T)}_{\mathrm F}^2\notag\\
+ &\le\norm{\mathbf G_{N,M}^*}_{\mathrm F}^2
+ =\sum_{n=0}^{N}\left(a_{n,M}^2+b_{n,M}^2\right)
+ =\mathfrak R_{N,M}^*[u_0,\nu,T_*]<\infty.
+ \label{eq:datum-terminal-finite-sum}
+\end{align}
+\end{proposition}
+
+\begin{proof}
+Proposition~\ref{prop:datum-terminal-realization} makes every
+\(a_{n,M}\) and \(b_{n,M}\) finite.  Restriction from \((0,T_*)\) to
+\((0,T)\) decreases each nonnegative coordinate norm and gives
+\eqref{eq:datum-terminal-matrix-bound}.  Taking Frobenius norms and using
+\eqref{eq:rectangle-matrix-norm-identities} together with
+\eqref{eq:datum-terminal-monotone-realization} proves
+\eqref{eq:datum-terminal-finite-sum}.
+\end{proof}

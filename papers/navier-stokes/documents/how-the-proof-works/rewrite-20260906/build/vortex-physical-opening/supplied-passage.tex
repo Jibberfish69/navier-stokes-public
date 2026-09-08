@@ -1,0 +1,39 @@
+Consider the case of a vortex within the fluid. Its vorticity satisfies
+\[
+ \partial_t\omega+(u\cdot\nabla)\omega
+ =(\omega\cdot\nabla)u+\nu\Delta\omega,
+ \qquad \omega=\nabla\times u.
+\]
+
+Strain within the fluid's flow can naturally stretch a vortex. For axial
+strain rate \(\sigma>0\), tube length \(\ell\) grows as
+\[
+ \dot\ell=\sigma\ell>0.
+\]
+When that happens, incompressibility forces a material tube to narrow as it lengthens.
+If circulation persists strongly enough through that narrowing, the fluid
+circulates faster around a smaller core.
+For a locally circular tube of radius \(r\) and circulation \(\Gamma\),
+the radius and mean swirl speed \(v\) satisfy
+\[
+ r\propto\ell^{-1/2},
+ \qquad v=\frac{|\Gamma|}{2\pi r}.
+\]
+
+For a material tube following a chosen group of fluid particles: a vortex
+core is the region where rotation is concentrated. Stretching squeezes
+those particles inward. Viscosity diffuses momentum between neighbouring
+regions of fluid, reducing velocity differences and spreading that rotation
+through the surrounding fluid.
+The diffusion distance \(r_{\mathrm{diff}}\) and viscous contribution are
+\[
+ r_{\mathrm{diff}}\sim\sqrt{\nu t},
+ \qquad
+ \langle\omega,\nu\Delta\omega\rangle
+ =-\nu\|\nabla\omega\|_2^2\le0.
+\]
+The material tube can narrow while some rotation spreads beyond its
+boundary, reducing the circulation enclosed by it. So narrowing the vortex
+core makes the fluid circulate faster only if the enclosed circulation does
+not weaken too quickly.
+

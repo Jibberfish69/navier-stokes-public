@@ -1,0 +1,126 @@
+{
+  "field_resolutions": [],
+  "reader_start": "The reader has the paper's title but has not yet been given the datum, maximal solution, or meaning of a finite smooth endpoint.",
+  "live_pressure": "The early source contains roadmap prose, generic definitions, misplaced finite-energy exposition, theorem-catalogue cadence, and a Gold derivation that obscures the one missing estimate.",
+  "candidate_moves": [
+    {
+      "move_id": "user-fixed-early-flow",
+      "move": {
+        "selection": "Keep only definitions and historical results that make the regularity question, continuation threshold, present frontier, Gold estimate, or Silver reversal intelligible.",
+        "connection": "Let each estimate expose the precise control it leaves missing, so the history generates Gold and Gold's difficulty generates Silver.",
+        "development": "Develop the Sobolev continuation and critical concentration pictures fully, compress Gold to its proof shape, and preserve Silver's handwritten discovery order.",
+        "expression": "Use direct human prose, ordinary causal verbs, equations only after their need is visible, and the approved opening exactly."
+      },
+      "layer_status": {
+        "selection": "present",
+        "connection": "present",
+        "development": "present",
+        "expression": "present"
+      },
+      "reader_change": "The reader can state what is known, what would continue the solution, what Gold still lacks, and what Silver proposes to test.",
+      "next_possibility": "Class membership can be introduced as the shared boundary reached from Gold and Silver.",
+      "content_basis": [
+        "live-input"
+      ],
+      "sequence": [
+        {
+          "step_id": "problem",
+          "thought": "Fix the datum, viscosity, maximal solution, and exact target, then define only smoothness and maximal time.",
+          "connection": "Those definitions make the historical estimates judgeable.",
+          "reader_start": "No formal problem has been fixed.",
+          "reader_end": "A finite endpoint has an exact meaning.",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "history",
+          "thought": "Move from energy through vortex stretching, Sobolev continuation, critical concentration, and the present endpoint picture.",
+          "connection": "The history narrows the unknown to one continuation-grade estimate.",
+          "reader_start": "The reader knows what failure means.",
+          "reader_end": "The reader knows what any finite failure must do and why energy leaves it open.",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "gold",
+          "thought": "State the exact Sobolev bound, explain briefly why it finishes the proof, and isolate the nonlinear estimate gap.",
+          "connection": "The direct route's difficulty makes the reversed implication worth trying.",
+          "reader_start": "The missing estimate has been located historically.",
+          "reader_end": "The completed Gold proof and its missing step are both visible.",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "silver",
+          "thought": "Preserve the handwritten path from difficulty through the Gold assumption to the contrapositive and its many-case difficulty.",
+          "connection": "The many cases create the need for one class-membership principle.",
+          "reader_start": "The reader feels why Gold is difficult.",
+          "reader_end": "The reader has discovered the Silver question before its formal name.",
+          "content_basis": ["live-input"]
+        }
+      ],
+      "evidence_uses": [],
+      "risks": [
+        "Historical prose could flatten into equal theorem capsules.",
+        "One finite Sobolev bound could be described as if it literally contained every derivative.",
+        "Silver could lose its authored movement during cleanup."
+      ],
+      "confidence": "high"
+    }
+  ],
+  "chosen_move_id": "user-fixed-early-flow",
+  "choice_reason": "Thomas fixed the subject order and the distinct depth of each movement; this realization preserves that order while repairing the reader's causal path through it.",
+  "rejected_move_ids": [],
+  "evidence_dispositions": [
+    {"record_id": "decision-live-obstacle-before-label-001", "status": "used", "reason": "Each technical name enters after the reader encounters the problem it answers."},
+    {"record_id": "decision-carry-established-thought-forward-001", "status": "used", "reason": "The early subsections continue one accumulating question rather than restarting."},
+    {"record_id": "decision-unfold-causal-relations-001", "status": "used", "reason": "Historical results are connected by the control each leaves missing."},
+    {"record_id": "decision-name-operational-objects-001", "status": "used", "reason": "The solution, norms, derivatives, and estimates remain the grammatical actors."},
+    {"record_id": "decision-earn-technical-language-001", "status": "used", "reason": "Sobolev, criticality, Gold, and Silver are introduced only when needed."},
+    {"record_id": "decision-preserve-discovery-order-001", "status": "used", "reason": "Silver retains the order in which Thomas makes the reader discover the contrapositive."},
+    {"record_id": "decision-generate-expression-from-thought-001", "status": "used", "reason": "Sentence form follows the causal move instead of polishing the old shell."},
+    {"record_id": "decision-use-reader-shared-language-001", "status": "used", "reason": "Conceptual turns use ordinary words before formal compression."},
+    {"record_id": "decision-develop-to-reader-change-001", "status": "used", "reason": "The Sobolev and frontier discussions continue until the reader can use them."},
+    {"record_id": "decision-keep-example-inside-idea-001", "status": "used", "reason": "The peak and Zeno pictures remain inside the exact estimate limitation they illustrate."},
+    {"record_id": "decision-repair-exact-referent-001", "status": "used", "reason": "The rewrite targets the actual early manuscript shell and Thomas's corrections."},
+    {"record_id": "decision-generalize-to-writing-faculty-001", "status": "not_applicable", "reason": "This run creates manuscript prose rather than changing the reusable skill."},
+    {"record_id": "observation-reader-led-concept-before-formal-name-001", "status": "used", "reason": "The reader performs the Silver reasoning before the formal method is named."},
+    {"record_id": "decision-preserve-local-movement-role-001", "status": "used", "reason": "Silver remains an alternative proof logic rather than the paper's full proof closure."},
+    {"record_id": "decision-separate-internal-inquiry-from-written-interrogative-001", "status": "used", "reason": "Questions guide the movement without turning every hinge into a written question."},
+    {"record_id": "decision-sentence-possesses-complete-thought-001", "status": "used", "reason": "Every prose sentence must carry its own subject, action, and completed point."}
+  ],
+  "uncertainties": [
+    "The whole-space endpoint \\(L^3\\) results require explicit scope and should not be silently transferred to the periodic branch."
+  ],
+  "authorial_commitment": {
+    "work_target": "A finished temporary rewrite of the Section 1 opening through Silver.",
+    "strongest_move_reason": "The user-fixed order becomes a genuine argument only when the historical estimates narrow the problem enough to make Gold exact and Silver necessary.",
+    "intellectual_gain": "The rewrite makes the missing estimate and the critical concentration threat visible as two descriptions of the same unresolved endpoint.",
+    "reader_gain": "The reader can follow from the formal problem to the two proof directions without decoding meta-language or carrying omitted continuation steps.",
+    "delivery": "complete_output",
+    "structural_commitment": {
+      "scope": "section",
+      "decision_origin": "user_supplied",
+      "voice_attribution": "user_owned",
+      "artifact_disposition": "preserve",
+      "inherited_reader_state": "The reader enters Section 1 with only the paper title.",
+      "section_job": "Fix the regularity problem, locate the public frontier, state Gold, and discover Silver.",
+      "outgoing_reader_need": "A precise boundary that can test whether a nonsmooth proposal still belongs to the original fluid.",
+      "gap_decision": "none",
+      "gap_payment": "Rebuild the prose inside the approved subsection order.",
+      "new_section_job": "",
+      "enrichment_reason": "Only details that make continuation, critical concentration, or the Gold and Silver implications usable are admitted.",
+      "enrichments": [
+        {
+          "detail": "The differentiated Sobolev estimate and late-slice restart.",
+          "reader_value": "Explains why one continuation-grade bound reaches \\(C^\\infty\\).",
+          "placement": "Sobolev continuation movement in 1.2.",
+          "restraint": "Show the chain once and keep Gold to a recap."
+        },
+        {
+          "detail": "The \\(L^3\\) and \\(L^2\\) scaling comparison.",
+          "reader_value": "Explains why finite energy leaves critical concentration open.",
+          "placement": "Present-frontier close of 1.2.",
+          "restraint": "Keep the Zeno picture explicitly heuristic."
+        }
+      ]
+    }
+  }
+}

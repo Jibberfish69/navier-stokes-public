@@ -4,12 +4,12 @@
 
 - target obligation: GlobalSamePacketFullCrossBandTransferDecay.A.CoreSubprimitive
 - target label: core original-history cross-band transfer estimate giving the good-lambda contraction
-- route role: The cross-band transfer core is not a generic recursive placeholder. It sharpens to the original-history ratio-band packing theorem: high-ratio same-material transfer must be packed by contracted lower-band carry, weighted-summable entrance/legal mass, or global annular/Hodge same-history coupling.
+- route role: The cross-band transfer core is not a generic recursive placeholder. It sharpens to the original-history ratio-band packing theorem: high-ratio same-material transfer must be packed by contracted lower-band carry, weighted-summable entrance/legal mass, or global annular/Helmholtz--Leray same-history coupling.
 - theorem family: full-same-material-action
 
 ## Created Theorem
 
-GlobalSamePacketFullOriginalHistoryBandFluxPacking.A. The cross-band transfer core is not a generic recursive placeholder. It sharpens to the original-history ratio-band packing theorem: high-ratio same-material transfer must be packed by contracted lower-band carry, weighted-summable entrance/legal mass, or global annular/Hodge same-history coupling. This supplies the exact noncircular bridge needed for core original-history cross-band transfer estimate giving the good-lambda contraction.
+GlobalSamePacketFullOriginalHistoryBandFluxPacking.A. The cross-band transfer core is not a generic recursive placeholder. It sharpens to the original-history ratio-band packing theorem: high-ratio same-material transfer must be packed by contracted lower-band carry, weighted-summable entrance/legal mass, or global annular/Helmholtz--Leray same-history coupling. This supplies the exact noncircular bridge needed for core original-history cross-band transfer estimate giving the good-lambda contraction.
 
 ## Inventive Search
 
@@ -19,7 +19,7 @@ GlobalSamePacketFullOriginalHistoryBandFluxPacking.A. The cross-band transfer co
 - selected_mechanism: full_same_material_core_to_original_history_band_flux_packing
 - candidate_count: 1
 - solver_chain_verdict: open
-- selection_reason: This theorem is the right next move because it changes the proof economy: The cross-band transfer core is not a generic recursive placeholder. It sharpens to the original-history ratio-band packing theorem: high-ratio same-material transfer must be packed by contracted lower-band carry, weighted-summable entrance/legal mass, or global annular/Hodge same-history coupling. It deliberately reduces the remaining work to GlobalSamePacketFullOriginalHistoryBandFluxPacking.A.CoreSubprimitive rather than pretending the frontier is closed.
+- selection_reason: This theorem is the right next move because it changes the proof economy: The cross-band transfer core is not a generic recursive placeholder. It sharpens to the original-history ratio-band packing theorem: high-ratio same-material transfer must be packed by contracted lower-band carry, weighted-summable entrance/legal mass, or global annular/Helmholtz--Leray same-history coupling. It deliberately reduces the remaining work to GlobalSamePacketFullOriginalHistoryBandFluxPacking.A.CoreSubprimitive rather than pretending the frontier is closed.
 
 ### Candidate Theorems
 
@@ -64,7 +64,7 @@ GlobalSamePacketFullOriginalHistoryBandFluxPacking.A. The cross-band transfer co
 - verdict: new_subprimitive
 - certification_level: theorem-creation:new-subprimitive
 - rationale: The theorem has been reduced to a smaller noncircular primitive that is not currently installed.
-- next subprimitive: GlobalSamePacketFullOriginalHistoryBandFluxPacking.A.CoreSubprimitive -- core original-history annular/Hodge packing estimate for high-ratio band flux
+- next subprimitive: GlobalSamePacketFullOriginalHistoryBandFluxPacking.A.CoreSubprimitive -- core original-history annular/Helmholtz--Leray packing estimate for high-ratio band flux
 
 ## Promotion Plan
 

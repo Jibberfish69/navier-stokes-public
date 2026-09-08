@@ -81,7 +81,7 @@ The oriented blocks are assigned to native participation channels:
 
 1. collar-active motion is paid through oriented annular stress-work;
 2. passive/null/tangential shear is paid through viscous strain;
-3. pressure-time service is paid through Hodge/elliptic pressure correction;
+3. pressure-time service is paid through Helmholtz--Leray/elliptic pressure correction;
 4. metric and collar motion are paid through material-coordinate correction;
 5. top-frequency regeneration/backscatter is paid through the recirculation/coherence clock, not through the local paid-orientation storage.
 

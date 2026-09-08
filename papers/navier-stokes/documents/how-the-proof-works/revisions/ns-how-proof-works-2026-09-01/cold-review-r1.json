@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "review_kind": "cold_reader",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/cold-critic-r1.json",
+    "sha256": "574036fd2b51cb06490b2735a64adbcaef0a784647cd3e45e9ba2c1f09c62cfa"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/candidate-fresh.tex",
+    "sha256": "801a5a0a2f072ef7254c33f09de85984b73963a340bea8dd449e35ba53232b52"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/pdfs/ns-how-proof-works-candidate-r1/render/page-03.png",
+      "sha256": "58fa439642110b9941ab00d69d2361a7e270126c927748157527d1268b15f280"
+    },
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/pdfs/ns-how-proof-works-candidate-r1/render/page-04.png",
+      "sha256": "8fca4e5b053c9576691ae56df759f68fcc5b354ac27a99fe428e921dab15f391"
+    },
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/pdfs/ns-how-proof-works-candidate-r1/render/page-05.png",
+      "sha256": "18461bb7fe9d6e54f3ae96158cf68f2edbbdb788203c8d1f88c1c448a67c2725"
+    },
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/pdfs/ns-how-proof-works-candidate-r1/render/page-06.png",
+      "sha256": "b087bb4e5f113a9ed74ce6ad2776795d256ebecaec946477d493cef8d4f6634c"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/cold_reader_r1",
+    "task_name": "cold_reader_r1",
+    "isolation": "fork_none",
+    "request_nonce": "a4c2d97e81b640c59f31ab62e7d8c401"
+  },
+  "decision": {
+    "verdict": "fail",
+    "first_divergence": {
+      "exact_span": "The control comes from the whole-terminal adjacent rows.",
+      "mechanism": "The preceding paragraph has just established that the displayed identities expose high spatial coordinates but do not control them. This sentence then declares control and immediately appeals to a named rectangle theorem for the full-lifespan bounds, without showing what in the fluid or equations supplies those bounds. The reader leaves the narrowing vortex and arrives at the decisive estimate by assertion.",
+      "repair_constraint": "Keep the admission that exposure is not control, but require the next movement to exhibit the concrete equation-level estimate that yields the adjacent full-terminal bounds before any rectangle label or projective notation appears; the bound must be seen acting on one fixed velocity field."
+    }
+  }
+}

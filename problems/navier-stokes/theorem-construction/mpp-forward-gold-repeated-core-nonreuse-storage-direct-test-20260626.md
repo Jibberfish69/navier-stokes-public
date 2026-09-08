@@ -6,7 +6,7 @@ Status: repeated-core branch reduced to root positive-variation bound; unconditi
 
 Assume a terminal high-ratio affine/material-time burst family reuses one material ancestry core. Thus the retained bursts do not escape into disjoint shrinking cores; they repeatedly load the same transported material history.
 
-The target is a same-material storage whose drop pays each retained unit of selected pressure-Hodge / critical-strain action.
+The target is a same-material storage whose drop pays each retained unit of selected pressure-Helmholtz--Leray / critical-strain action.
 
 ## 2. Candidate storage
 
@@ -22,12 +22,12 @@ one has the exact logarithmic identity
 {d\over dt}\log |Fq|=e\cdot S e+\operatorname{Err}_{frame}.
 ```
 
-The complete-frame pressure-Hodge conversion turns a positive affine burst into compression or frame/collar motion in one of the paying directions. Therefore a repeated-core burst can only recur by spending positive variation of one of
+The complete-frame pressure-Helmholtz--Leray conversion turns a positive affine burst into compression or frame/collar motion in one of the paying directions. Therefore a repeated-core burst can only recur by spending positive variation of one of
 
 ```math
 \log \sigma_i(D_aX),
 \qquad
-\text{pressure-Hodge projective frame},
+\text{pressure-Helmholtz--Leray projective frame},
 \qquad
 \text{collar-normal / annular turnstile record}.
 ```
@@ -60,7 +60,7 @@ Thus the repeated-core branch is reduced to a precise missing theorem:
 
 Statement:
 
-For one original smooth Navier-Stokes material history, the total positive Cauchy-Green / pressure-Hodge-frame / collar-turnstile variation on reused high-ratio ancestry cores is bounded by original data and legal ledgers.
+For one original smooth Navier-Stokes material history, the total positive Cauchy-Green / pressure-Helmholtz--Leray-frame / collar-turnstile variation on reused high-ratio ancestry cores is bounded by original data and legal ledgers.
 
 ## 4. Result
 

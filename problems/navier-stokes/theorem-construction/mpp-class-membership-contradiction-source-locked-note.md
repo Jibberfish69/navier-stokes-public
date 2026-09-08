@@ -452,10 +452,6 @@ shared-participation no-drop, and the explicit law / endpoint proof matrix.
 Any later first-exit shell or forward-invariance compression is allowed only as
 downstream packaging of this same semantic contradiction.
 
-In particular, TPS / `SG.4`, exact-potential, Hodge / normal-covector, and
-Euclidean strict-shadow material remain downstream context or export branches;
-they do not replace the `ACT.KX` conditional completion packet above.
-
 This is the exact program statement being formalized here.
 
 ## Quarantine Boundary

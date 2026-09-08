@@ -97,9 +97,9 @@ The top positive strain logarithmic storage pays the selected top-strain superhe
 
 it also pays coefficient-frame and base transported-collar motion. This covers those coordinates of \(\Theta_N\). It leaves the moving participation-law-strain rectified service.
 
-### Hodge/Stokes shell storage
+### Helmholtz--Leray/Stokes shell storage
 
-The material Stokes/Hodge shell correction removes fixed-shell pressure overcount and keeps pressure as the native constraint force. The projector-motion commutator reduces to pressure/RHS and annular stress interface service on the same material history. This identifies the remaining carrier; it gives no finite residual measure for its positive rectified variation.
+The material Stokes/Helmholtz--Leray shell correction removes fixed-shell pressure overcount and keeps pressure as the native constraint force. The projector-motion commutator reduces to pressure/RHS and annular stress interface service on the same material history. This identifies the remaining carrier; it gives no finite residual measure for its positive rectified variation.
 
 ## 3. Exact missing line
 
@@ -139,7 +139,7 @@ net upward record growth into the same PLS cost.
 The requested storage theorem has the exact strength of the finite full moving service clock. Current installed surfaces provide:
 
 ```math
-\text{same-fluid attachment, fixed-annulus L1, fixed-collar L1, top-strain storage, Hodge constraint correction, participation-law interface identification.}
+\text{same-fluid attachment, fixed-annulus L1, fixed-collar L1, top-strain storage, Helmholtz--Leray constraint correction, participation-law interface identification.}
 ```
 
 They leave one live finite-total estimate after the recirculation and one-way

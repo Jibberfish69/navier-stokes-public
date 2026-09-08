@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "review_kind": "cold_reader",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/critic-packet-v17.json",
+    "sha256": "b59addea883e9d7e27a958e7957bc197bfd3577e96fadfb2f2d7cccf88a340d5"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/candidate-v17.tex",
+    "sha256": "9fd74933bed394967393bc52ae43b295af831283e7546ebd6d2fdb910958ac3a"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-1.png",
+      "sha256": "e49f766742382aecc710e9d41a33b1184d49958dc16f4407ae8133ac8457e5ea"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-2.png",
+      "sha256": "0da135b75e43babacdbfa4be6c65ac7be2430c0390a7661c93fd8a394df73003"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-3.png",
+      "sha256": "a47b8b0df5192e4028d4289e6fc6d2465d9358c2ffe92d0193495c409a3817ca"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-4.png",
+      "sha256": "ac6b892c1829326df151b8a831e496b7343fa755b3c72135a64afbcd2e5dbcbf"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/cold_reader_v17d",
+    "task_name": "cold_reader_v17d",
+    "isolation": "fork_none",
+    "request_nonce": "2f440e5212884c48b79cad78ff770c52"
+  },
+  "decision": {
+    "verdict": "fail",
+    "first_divergence": {
+      "exact_span": "The estimate controls it through \\(T_*\\):",
+      "mechanism": "The passage moves from identities that explicitly do not supply bounds to a uniform whole-terminal rectangle bound without naming or explaining the estimate that supplies it. That missing proof payment is the bridge from exposure to control, so a new reader cannot follow the causal step.",
+      "repair_constraint": "Keep the order from exposed identities to a finite rectangle, compatible overlap, and intersection, but identify the finite-rectangle estimate and state what closes it before asserting its uniform whole-terminal bound."
+    }
+  }
+}

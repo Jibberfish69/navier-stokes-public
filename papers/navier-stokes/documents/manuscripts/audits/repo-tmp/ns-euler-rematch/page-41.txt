@@ -1,0 +1,53 @@
+29    The Support Boundary
+Many strong estimates do real support work outside the class faces. A strong estimate enters the
+class proof by naming the requirement it protects. A source-control estimate, no-pulse estimate,
+signed-current estimate, or comparison estimate may be essential to a route. It still has to say which
+class requirement it protects.
+
+Proposition 8 (Support enters through a face). Let S be a source, readout, comparison, or supplier
+statement. The statement becomes a class-proof conclusion by landing a selected same-solution object
+in PackQ , PartN,Q , FieldN,r,Q , membership readout, terminal packet capture, or no genuine finite
+exit. Until that landing is supplied, S serves the class proof as support.
+
+Proof. The class proof has only three witness requirements and three closing hinges. A supplier
+estimate can help prove one of them, and a readout estimate can explain the continuation consequence
+after the requirements survive. A comparison estimate can show why a neighbouring theorem world
+behaves differently. None of those roles is itself membership or exit. The statement enters the proof
+only when its exact target is a class requirement or closing hinge.
+
+Corollary 1 (Forward-positive estimates keep their value). Demoting a forward-positive estimate
+from class authority preserves its value. It assigns the estimate a proof job:
+
+  support Pack,   support Part,    support Field,        support readout,   or support no genuine exit.
+
+Proof. The estimate remains available exactly where it has mathematical force. The class proof
+only prevents the estimate from pretending to be the class law by itself. Once the estimate names a
+requirement or hinge, it can be used in the proof of that requirement or hinge.
+
+
+30    Comparison And Transfer Boundary
+The Navier–Stokes class proof is a same-solution Navier–Stokes proof. Euler comparison can be
+illuminating because it shows what disappears when viscosity and parabolic participation are absent.
+It becomes proof material here by landing an exact Navier–Stokes packet in the same witness tree.
+
+Proposition 9 (Comparison transfer role). Let C be a comparison branch. It enters the present
+Navier–Stokes class proof only through a theorem of the form
+
+           C =⇒ selected Navier–Stokes packet Q has a Pack, Part, or Field decision.
+
+That theorem is the point where comparison pressure becomes Navier–Stokes proof material.
+
+Proof. The working class object OworkNS is built from the original Navier–Stokes datum, pressure,
+viscosity, and same-fluid participation. Comparison branches may share shapes with Navier–Stokes
+branches, but the class proof needs the exact same-solution packet. The transfer theorem supplies
+that exact packet. Without it, the comparison branch has no class face inside Owork
+                                                                                NS .
+
+
+31    Whole-Space R3 CM Exterior-Source Branch
+The periodic proof and the whole-space proof use the same CM discipline, but they do not have
+the same compactness boundary. On T3 , the transported whole-torus material atlas has no spatial
+escape. On R3 , a finite terminal claim can also try to hide mass or derivatives in the far field.
+
+                                                    41
+

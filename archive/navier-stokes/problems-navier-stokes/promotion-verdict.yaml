@@ -1,0 +1,65 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  verdict_id: promotion-verdict-navier-stokes
+  generated_at: '2026-03-28T01:25:08Z'
+  generator: system/runner/lib/promotion_verdict_builder.rb
+  source_branch_set_id: extension-branches-navier-stokes
+  source_falsification_id: lemma-falsification-navier-stokes
+promotion_policy: Promotion only moves a machine branch into tentative proof assembly.
+  It does not merge the branch into the frozen core or discharge the originating obligation.
+branches:
+- branch_id: branch-navier-stokes-1
+  origin_obligation_id: marvin-upstream-8e939525d3f2
+  promotion_status: promoted-to-assembly
+  merge_target: proof-assembly
+  reasons:
+  - The branch stays close to the grounded lexicon and does not overclaim on its face.
+- branch_id: branch-navier-stokes-2
+  origin_obligation_id: marvin-upstream-2adc051dd3a8
+  promotion_status: promoted-to-assembly
+  merge_target: proof-assembly
+  reasons:
+  - The branch stays close to the grounded lexicon and does not overclaim on its face.
+- branch_id: branch-navier-stokes-3
+  origin_obligation_id: marvin-upstream-16fa51055da0
+  promotion_status: promoted-to-assembly
+  merge_target: proof-assembly
+  reasons:
+  - The branch stays close to the grounded lexicon and does not overclaim on its face.
+- branch_id: branch-navier-stokes-4
+  origin_obligation_id: marvin-upstream-269065c546af
+  promotion_status: rejected
+  merge_target: 
+  reasons:
+  - The branch leans into overclaim or unsafe-closure language.
+- branch_id: branch-navier-stokes-5
+  origin_obligation_id: marvin-upstream-558cbb8323fd
+  promotion_status: rejected
+  merge_target: 
+  reasons:
+  - The branch leans into overclaim or unsafe-closure language.
+- branch_id: branch-navier-stokes-6
+  origin_obligation_id: marvin-upstream-5d4a55021542
+  promotion_status: rejected
+  merge_target: 
+  reasons:
+  - The branch leans into overclaim or unsafe-closure language.
+- branch_id: branch-navier-stokes-7
+  origin_obligation_id: marvin-upstream-8880078593dc
+  promotion_status: rejected
+  merge_target: 
+  reasons:
+  - The branch leans into overclaim or unsafe-closure language.
+- branch_id: branch-navier-stokes-8
+  origin_obligation_id: marvin-upstream-0fdc65ea42d5
+  promotion_status: rejected
+  merge_target: 
+  reasons:
+  - The branch leans into overclaim or unsafe-closure language.
+summary:
+  promoted_count: 3
+  quarantined_count: 0
+  rejected_count: 5

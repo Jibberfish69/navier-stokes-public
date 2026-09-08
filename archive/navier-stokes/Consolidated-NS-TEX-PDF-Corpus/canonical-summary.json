@@ -1,0 +1,25 @@
+{
+  "canonical_root": "/Users/thomasbirnie/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/Consolidated-NS-TEX-PDF-Corpus",
+  "source_root": "/Users/thomasbirnie/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/Consolidated-NS-TEX-PDF-Corpus-20260325-103223",
+  "archived_source_root": "/Users/thomasbirnie/Research-Consolidation/Millennium Prize Problems/Navier-Stokes/Recovered-Laptop-Sweep/superseded-layout-Consolidated-NS-TEX-PDF-Corpus-20260325-103223",
+  "total_count": 74,
+  "tex_count": 65,
+  "pdf_count": 9,
+  "excluded_metadata_artifacts": [
+    {
+      "original_name": "._main.tex",
+      "source_path": "/Users/thomasbirnie/Research-Consolidation/problems/navier-stokes/external-paper/dist/navier-stokes-conditional-journal-package.tar.gz",
+      "reason": "appledouble_metadata"
+    }
+  ],
+  "source_family_counts": {
+    "my_project_priority": 19,
+    "desktop_zip_working_directory": 28,
+    "problem_tree_submission_package": 27
+  },
+  "document_role_counts": {
+    "pdf_output": 9,
+    "standalone_tex": 36,
+    "fragment_tex": 29
+  }
+}

@@ -1,0 +1,68 @@
+All rectangles are cut from the derivatives of u(t) and p(t). When a larger rectangle is restricted to lower
+cutoffs, its retained coordinates agree with the smaller rectangle:
+
+                         ρN,M
+                          N ′ ,M ′ RN,M [u0 ] = RN ′ ,M ′ [u0 ],        N ′ ≤ N,         M ′ ≤ M.
+
+Their compatible intersection is
+
+                                  I[u0 ] := RN,M [u0 ] N,M ∈N0 ∈ lim XN,M .
+                                                           
+                                                                 ←−
+                                                                             N,M
+
+Given any finite temporal order r and spatial height m, one rectangle contains that coordinate. It follows
+that
+                                           \
+                                     u∈         H r (0, T∗ ; H m (R3 )).
+                                              r,m<∞
+
+
+The zeroth temporal projection retains the velocity itself at every finite spatial height. Define
+
+                                    S0 (0, T∗ ) :=
+                                                       \
+                                                               L2 (0, T∗ ; H m (R3 )).
+                                                     m<∞
+
+Then
+                                           π0 I[u0 ] = u ∈ S0 (0, T∗ ).
+                                                      
+
+
+The adjacent traces also give
+
+                                u ∈ C([0, T∗ ]; H m (R3 ))           for every finite m.
+
+The terminal values obtained in the different Sobolev spaces all arise as the limit of u(t). They form one
+endpoint
+                                              Hσm (R3 ) = Hσ∞ (R3 ) ,→ C ∞ (R3 ).
+                                          \
+                          u∗ := u(T∗ ) ∈
+                                             m<∞
+
+The pressure recurrence and the velocity recurrence recover every finite terminal pressure and temporal
+response from u∗ . Smooth local existence starts the equation from this terminal datum, and uniqueness
+joins that solution to the history on [0, T∗ ). The history extends beyond a supposedly maximal finite
+time. Hence
+                                                 T∗ = ∞.
+
+
+The familiar finite estimates now come out of the intersection. For a temporal order r, a spatial derivative
+order k, and 2 ≤ p < ∞, choose an integer m satisfying
+
+                                                                   1 1
+                                                                        
+                                               m−k ≥3               −  .
+                                                                   2 p
+
+For p = ∞, choose m > k + 32 . Sobolev embedding gives
+
+                                    ∂tr u ∈ Ct Hxm        =⇒       ∇k ∂tr u ∈ L∞  p
+                                                                               t Lx .
+
+
+
+
+                                                           5
+

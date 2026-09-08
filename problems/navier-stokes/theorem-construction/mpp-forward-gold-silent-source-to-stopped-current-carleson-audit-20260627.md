@@ -32,7 +32,7 @@ effect: >-
 # Silent source to stopped current Carleson audit
 
 The supplied silent-source theorem is the right local replacement for the
-false Schur-only claim.  Boundary-flat pressure-Hodge sources exist:
+false Schur-only claim.  Boundary-flat pressure-Helmholtz--Leray sources exist:
 
 ```math
 f=\mathcal L_Aw,\qquad

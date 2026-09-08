@@ -1,0 +1,47 @@
+Call r := |ξ|−1 the length seen by a Fourier band concentrated near |ξ| ≃ r−1 . The multiplier
+changes by an order-one amount when
+                                              ν|ξ|2 δt ≃ 1,
+which gives the viscous comparison time
+                                                       r2
+                                              τν (r) := .
+                                                       ν
+Viscosity acts throughout the interval; τν (r) is the time required for an order-one viscous
+change at that spectral length. Halving the length quarters the clock:
+                                                   1
+                                       τν (2−1 r) = τν (r),
+                                                   4
+and, more generally,
+                                      τν (λ−1 r) = λ−2 τν (r).
+This is exactly the time contraction in the full Navier–Stokes rescaling. The material radius
+in the vortex picture and the spectral length in this calculation are different measurements;
+an actual concentrating history has to connect them rather than assume that connection.
+
+
+The Zeno Cascade
+Now repeat the scale comparison. For the dyadic lengths
+
+                                          −n                       rn2
+                                    rn := 2     r0 ,          τn := ,
+                                                                   ν
+the heat clocks form the geometric sequence
+                                                       ∞
+                                    r02 −n             X            4r02
+                             τn =      4 ,                   τn =        < ∞.
+                                    ν                  n=0          3ν
+This finite sum is the Zeno image. Each finer length receives less time, yet the complete
+sequence of comparison clocks fits below a finite ceiling.
+The arithmetic does not produce a fluid cascade. For these clocks to describe a candidate
+singularity, one Navier–Stokes solution must actually pass through successively finer lengths
+                                    r0 > r1 > r2 > · · · −→ 0
+at times
+                       t0 < t1 < t2 < · · · ↑ T∗ < ∞,                 tn+1 − tn ≍ τn ,
+with comparison constants that do not deteriorate with n. It must also realize, inside that one
+history, the connection between its material concentration and the spectral lengths measured
+by the heat clock. Under those requirements, the remaining time satisfies
+                                                   ∞
+                                                   X                4rn2
+                                     T∗ − tn ≍             τk =          .
+                                                   k=n              3ν
+
+                                                       5
+

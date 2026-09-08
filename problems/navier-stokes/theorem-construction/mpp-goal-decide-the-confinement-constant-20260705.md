@@ -224,17 +224,17 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \(A(t)\), \(u(t,x)=A(t)(x-x_0)\) is an exact local incompressible
     Navier-Stokes packet after choosing the pressure Hessian
     \(-(\dot A+A^2)\). Thus a local material-jet tracking tax is not available;
-    the dynamic branch means global same-fluid matching, pressure/Hodge/collar
+    the dynamic branch means global same-fluid matching, pressure/Helmholtz--Leray/collar
     coupling, Gate-8 no-recount allocation/compensator, or a
     summability-valid construction.
     Follow-up time-dependent collar scaling obstruction filed: generic
-    cutoff/Hodge retuning also stays cheap. For a localized affine packet at
+    cutoff/Helmholtz--Leray retuning also stays cheap. For a localized affine packet at
     support scale \(D\) and strain size \(G\), energy is \(G^2D^5\), retuning
     power is \(G|\dot A|D^5\), affine quadratic work is \(G^3D^5\), and viscous
     collar work is \(\nu G^2D^3\). With \(G=s\beta^{4/5}\) and producer-clock
     retuning, the per-e-fold collar cost remains \(\beta^{8/5}E_{\rm prod}\).
     The overlap branch now requires exact unforced evolution, nonlocal
-    pressure/Hodge sign structure, Gate-8 no-recount allocation/compensator, or
+    pressure/Helmholtz--Leray sign structure, Gate-8 no-recount allocation/compensator, or
     construction.
     Follow-up pressure-source scaling obstruction filed: the pressure Hessian
     retuning source is more expensive than the collar but still not order one.
@@ -332,7 +332,7 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     only \(\omega/s=O(\beta^{4/5})\), far below the order-one payer threshold
     \(\beta^{-4/5}\). Thus local affine pressure algebra cannot force the
     supercritical branch; at that stage the surviving fast-motion pressure
-    payment was global pressure/Hodge matching, boundary/locality forcing,
+    payment was global pressure/Helmholtz--Leray matching, boundary/locality forcing,
     Reynolds-edge failure, or construction/exclusion.
     Follow-up Schwartz pressure-template locality obstruction filed: the
     divergence-free finite-energy template
@@ -348,7 +348,7 @@ dominated (KH clock). Self-cell reduced to pair (LIA length
     \]
     still reaches every trace-free Hessian, and scaling gives
     \(E_{\rm ph}\lesssim |K|D^5\), hence the q=4/5 row for overlap pressure.
-    Thus static finite-energy pressure/Hodge localization is not the missing
+    Thus static finite-energy pressure/Helmholtz--Leray localization is not the missing
     payer; at that stage the live pressure branch was dynamic same-fluid
     transport/persistence, Reynolds-edge failure, fixed-density compensator/residue, or
     construction/exclusion.
@@ -707,11 +707,11 @@ surface, not F4 clearance.
    now globally dynamic: the local affine equations allow arbitrary symmetric
    trace-free strain histories \(A(t)\), with pressure absorbing
    \(\dot A+A^2\). The time-dependent collar scaling check adds that generic
-   cutoff/Hodge retuning remains at the same cheap \(\beta^{8/5}\) ratio.
+   cutoff/Helmholtz--Leray retuning remains at the same cheap \(\beta^{8/5}\) ratio.
    The pressure-source scaling check adds the sharper pressure row:
    producer-clock retuning of the pressure Hessian costs
    \(\beta^{4/5}E_{\rm prod}\), still vanishing but no longer as cheap as the
-   collar. The exact shear-cell check adds that the zero-mean Hodge constraint
+   collar. The exact shear-cell check adds that the zero-mean Helmholtz--Leray constraint
    is not the missing payer: an exact divergence-free mean-zero shear source
    supplies a nonzero traceless Hessian at the same \(HD^5\) scale.
    The shear-cell time-persistence check adds that constant-direction pressure
@@ -755,7 +755,7 @@ surface, not F4 clearance.
      \beta^{-12/5}\lesssim N\lesssim\beta^{12/5}\theta^{-5},\qquad
      \operatorname{Re}_D\gg\theta^{-2}.
    \]
-   Outside this window, the branch pays through cutoff/Hodge drift or residual
+   Outside this window, the branch pays through cutoff/Helmholtz--Leray drift or residual
    energy.
    The support-density split adds the occupancy law
    \(\phi=N\theta^3\lesssim1\). If the WKB bath must back a fixed retained
@@ -1327,7 +1327,7 @@ surface, not F4 clearance.
    variation/custody payers or certificate branches, not density
    anti-equidistribution by themselves.
    Current overlap-bath closeout at local-mechanism level: the tested local
-   rows do not decide the confinement constant. Mean-zero Hodge algebra,
+   rows do not decide the confinement constant. Mean-zero Helmholtz--Leray algebra,
    affine pressure motion, finite-energy localization, affine same-fluid
    custody, bounded residual Gram positivity, raw pressure/CZ growth, finite
    certificate rows, high-rank linear rows, finite-range local nonlinear

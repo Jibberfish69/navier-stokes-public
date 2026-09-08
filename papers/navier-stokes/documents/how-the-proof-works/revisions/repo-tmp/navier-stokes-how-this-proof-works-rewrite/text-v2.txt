@@ -1,0 +1,373 @@
+                                          How the Proof Works
+                                                           Thomas Birnie
+
+
+
+Fix a smooth divergence-free initial velocity u0 , a viscosity ν > 0, and the classical solution (u, p) on its
+maximal interval [0, T∗ ). The three-dimensional incompressible Navier–Stokes equation is
+
+∂t u + (u · ∇)u = −∇p + ν∆u,                  ∇ · u = 0.
+
+Transport carries velocity through its own gradients, pressure keeps the field incompressible, and viscosity
+diffuses those gradients. Assume for contradiction that T∗ < ∞. The gradients would have to keep
+sharpening until the solution lost smoothness.
+
+That threatened concentration is easiest to see in the vorticity ω := ∇ × u, which satisfies
+
+Dω                          D                                     1
+                                                                    ∇u + (∇u)T .
+                                                                              
+   = Sω + ν∆ω,                 := ∂t + u · ∇,              S :=
+Dt                          Dt                                    2
+Consider a small material fluid element carrying vorticity along one axis, with locally uniform strain
+stretching that axis. Let L(t) be its length and V its fixed volume. Its effective transverse area and radius
+are
+                                 s
+         V                           A(t)
+A(t) :=      ,         r(t) :=            .
+        L(t)                          π
+
+If L̇/L = σ(t) > 0, incompressibility gives
+
+d                      Ȧ                     ṙ    σ(t)
+   (AL) = 0,              = −σ(t),               =−      .
+dt                     A                      r      2
+The tube lengthens and its core narrows. Along an aligned stretching direction,
+
+1 D|ω|2
+        = σ(t)|ω|2 + ν ω · ∆ω.
+2 Dt
+Whenever stretching wins over diffusion on an interval, the vorticity rises as the radius falls. This is a
+statement about the velocity gradient, since
+
+|ω|
+√ ≤ |∇u|F .
+  2
+
+This sharpening need not force the kinetic energy to diverge. The energy identity gives
+                 Z t
+1                                  1
+  ∥u(t)∥22 + ν      ∥∇u(τ )∥22 dτ = ∥u0 ∥22 .
+2                 0                2
+
+The fluid can keep finite kinetic energy while an increasingly narrow region carries increasingly steep
+gradients.
+
+
+
+
+                                                                  1
+To see where the Sobolev scale still detects that concentration, compare the solution with a compressed
+copy of itself. For λ > 1, set
+
+uλ (x, t) := λu(λx, λ2 t),             pλ (x, t) := λ2 p(λx, λ2 t).
+
+With y = λx and τ = λ2 t, the four terms become
+
+       ∂t uλ (x, t) = λ3 (∂t u)(y, τ ),
+
+(uλ · ∇)uλ (x, t) = λ3 (u · ∇)u (y, τ ),
+                                        
+
+
+       ∇pλ (x, t) = λ3 (∇p)(y, τ ),
+
+     ν∆uλ (x, t) = λ3 ν(∆u)(y, τ ).
+
+Compression strengthens transport and diffusion by an equal factor. Scale alone gives neither term an
+advantage.
+
+The Sobolev norm separates the levels. The Fourier transform obeys
+
+ucλ (ξ, t) = λ−2 u
+                 b(ξ/λ, τ ),
+
+and the change of variables η = ξ/λ gives
+                  Z
+∥uλ (t)∥2Ḣ s =        |ξ|2s λ−4 |u
+                                  b(ξ/λ, τ )|2 dξ
+                  R3
+
+            = λ2s−1 ∥u(τ )∥2Ḣ s .
+
+At s = 0, the squared norm shrinks by λ−1 ; at s = 1, it grows by λ. Exactly between them, 2s − 1 = 0, so
+
+  1
+s= ,          ∥uλ (t)∥Ḣ 1/2 = ∥u(τ )∥Ḣ 1/2 .
+  2
+
+The energy level loses size under compression, the first-derivative level gains it, and Ḣ 1/2 stays fixed. That
+unchanged middle level is the critical height.
+
+Compression also shortens time as it narrows the core. Suppose one fluid history reaches the successive
+radii
+
+rn = 2−n r0
+
+Parabolic scaling gives the nth stage a duration proportional to rn2 , so halving the radius quarters the
+duration:
+                         ∞
+                                       4
+δtn = 4−n δt0 ,
+                         X
+                               δtn =     δt0 < ∞.
+                         n=0
+                                       3
+
+The geometric sum permits infinitely many finer stages before a finite time T∗ . Along such a history, the
+kinetic energy may stay finite while each stage carries a narrower core, a steeper gradient, and a shorter
+duration. This is the Zeno cascade.
+
+
+                                                                      2
+In order for a singularity to form, velocity has to blow up. In order for that to happen, its acceleration
+would also have to blow up, which means its jerk has to blow up, and so on, and so on:
+
+u,      ∂t u,         ∂t2 u,        ...
+
+The cascade has supplied the expectation: as temporal order rises, spatial regularity should fall. Acceleration
+should look rougher than velocity, jerk rougher than acceleration. Differentiating the equation reveals the
+opposite.
+
+
+
+∂t u = ν∆u − (u · ∇)u − ∇p,
+
+
+∂t2 u = ν∆∂t u − (∂t u · ∇)u − (u · ∇)∂t u − ∇∂t p,
+
+
+∂t3 u = ν∆∂t2 u − (∂t2 u · ∇)u − 2(∂t u · ∇)∂t u − (u · ∇)∂t2 u − ∇∂t2 p.
+
+
+The branching visible in those three lines continues at every finite order n:
+
+∂tn+1 u = ν∆∂tn u
+                n
+                            !
+                        n
+                                ∂ta u · ∇ ∂tn−a u
+                X                         
+            −
+                a=0
+                        a
+
+            − ∇∂tn p.
+
+Call the nth velocity and pressure responses
+
+Vn := ∂tn u,          Qn := ∂tn p.
+
+
+Let Λ := (−∆)1/2 , so ∥Λs f ∥2 measures spatial Sobolev height s. At temporal order r, the energy at that
+height is
+
+           1
+Er,s (t) := ∥Λs Vr (t)∥22
+           2
+The nonlinear and pressure terms contribute
+                  *                 " r        !                     #+
+                                     X        r
+Pr,s (t) := − Re Λs Vr , Λs                     (Va · ∇)Vr−a + ∇Qr          .
+                                     a=0
+                                              a
+                                                                      L2
+
+Since ∆ = −Λ2 , the viscous pairing is
+
+ν Re⟨Λs Vr , Λs ∆Vr ⟩L2 = −ν∥Λs+1 Vr ∥22
+
+                                = −2νEr,s+1 .
+
+
+
+
+                                                                3
+The Laplacian places one spatial derivative on each factor, tying height s directly to height s + 1:
+
+                                                             Pr,s − ∂t Er,s
+∂t Er,s = Pr,s − 2νEr,s+1 ,                    Er,s+1 =                     .
+                                                                  2ν
+One more derivative gives
+
+∂t2 Er,s = ∂t Pr,s − 2νPr,s+1 + (2ν)2 Er,s+2 ,
+
+Iterating k times gives
+
+                                        k−1
+                                              (−2ν)j ∂tk−1−j Pr,s+j .
+                                        X
+∂tk Er,s = (−2ν)k Er,s+k +
+                                        j=0
+
+
+
+At critical height, set H := E0,1/2 . Each derivative of H is a quadratic contraction of the velocity responses
+already on the page:
+
+                k
+                            !
+             1X    k   D                   E
+H    (k)
+           =         Re Λ1/2 Va , Λ1/2 Vk−a 2 .
+             2 a=0 a                        L
+
+
+The velocity responses build the temporal derivatives of H, and the viscous identity exposes a higher
+spatial energy at each order:
+
+u,         ∂t u,   ∂t2 u,       . . . −→ H,      H ′,     H ′′ ,   ...
+
+                                   −→ E0,1/2 ,          E0,3/2 ,   E0,5/2 ,       ....
+
+Each rise in temporal order exposes a rise in spatial Sobolev order. The transfer terms remain in the
+formula; the top energy is isolated through the nonzero coefficient (−2ν)k . If every finite height reaches
+T∗ , Sobolev embedding gives, for every finite k,
+
+               3
+s>k+                 =⇒          H s (R3 ) ,→ C k (R3 ),
+               2
+and hence
+
+           H m (R3 ) = H ∞ (R3 ) ,→ C ∞ (R3 ).
+ \
+
+m<∞
+
+The temporal sequence that was expected to lose spatial regularity has instead opened every finite Sobolev
+height and, through their intersection, smoothness.
+
+To carry those heights to T∗ , pair each temporal response with the Sobolev space in which it is measured.
+The coordinate (n, m) means
+
+Vn = ∂tn u         measured in           Hxm .
+
+
+
+
+                                                                              4
+Choosing finite cutoffs N, M gathers the needed coordinates into one rectangle. On a strict cutoff T < T∗ ,
+its adjacent pairs are measured by
+
+                    N
+                    X
+RN,M (u; T ) :=           ∥Vn ∥2L2 (0,T ;H M +1 )
+                    n=0
+
+                        N
+                        X
+                    +         ∥Vn+1 ∥2L2 (0,T ;H M −1 ) ,
+                        n=0
+
+and the whole-terminal rectangle theorem gives
+
+  sup RN,M (u; T ) < ∞.
+0<T <T∗
+
+Since the integrands are nonnegative, increasing T to T∗ yields
+
+Vn ∈ L2 (0, T∗ ; H M +1 ),           Vn+1 ∈ L2 (0, T∗ ; H M −1 ),           0 ≤ n ≤ N.
+
+With A := (1 − ∆)1/2 , the two rows meet at height M :
+                                            Z b
+∥Vn (b)∥2H M − ∥Vn (a)∥2H M = 2 Re                  AM −1 Vn+1 (t), AM +1 Vn (t) L2 dt.
+                                              a
+
+Cauchy–Schwarz gives
+
+Vn ∈ C([0, T∗ ]; H M ).
+
+The pressure recurrence supplies
+
+Qn ∈ L1 (0, T∗ ; H M ),           0 ≤ n ≤ N,
+
+which completes the finite velocity–pressure rectangle RN,M [u0 ].
+
+A larger rectangle restricts to a smaller one:
+
+ρN,M
+ N ′ ,M ′ RN,M [u0 ] = RN ′ ,M ′ [u0 ].
+
+
+Taking all finite rectangles together gives
+                                                      \
+                                                            H r (0, T∗ ; H m (R3 )).
+                          
+I[u0 ] := RN,M [u0 ] N,M <∞ ,                u∈
+                                                    r,m<∞
+
+Every finite coordinate appears in some rectangle, and the rectangles agree wherever they overlap. Define
+the zeroth temporal row by
+
+S0 := π0 I[u0 ].
+
+It contains u at every finite spatial height.
+
+
+
+
+                                                                      5
+Taking n = 0 in the trace relation gives, for every finite m,
+
+u ∈ H 1 (0, T∗ ; H m ) ,→ C([0, T∗ ]; H m ).
+
+The traces converge to one endpoint, smooth at every order:
+
+                         H m (R3 ) = H ∞ (R3 ) ,→ C ∞ (R3 ).
+                     \
+u∗ := lim u(t) ∈
+       t↑T∗
+                   m<∞
+
+Local smooth existence from u∗ continues the solution through [T∗ , T∗ + δ], and uniqueness joins it to the
+existing history. A finite T∗ cannot be maximal, so
+
+T∗ = ∞.
+
+
+Every familiar finite estimate can now be taken from one coordinate of the intersection. Given a finite
+temporal order r, spatial derivative order k, and 2 ≤ p ≤ ∞, choose m so that
+
+H m (R3 ) ,→ W k,p (R3 ).
+
+When p = ∞, any m > k + 32 is enough; for finite p, choose m in the standard Sobolev range. That
+coordinate gives
+
+∂tr u ∈ Ct Hxm    =⇒        ∇k ∂tr u ∈ L∞  p
+                                        t Lx .
+
+
+For example,
+
+I[u0 ] −→ Ct Hx1 −→ L∞  6
+                     t Lx ,
+
+I[u0 ] −→ Ct Hx2 −→ L∞  ∞
+                     t Lx ,
+
+I[u0 ] −→ Ct Hx3 −→ L∞  1,∞
+                     t Wx   .
+
+The last line, for instance, gives on every finite interval [0, T ]
+Z T
+      ∥∇u(t)∥∞ dt ≤ T sup ∥∇u(t)∥∞
+ 0                       0≤t≤T
+
+                    ≤ CT sup ∥u(t)∥H 3 < ∞.
+                             0≤t≤T
+
+
+The H 3 line is one instance. Changing r, k, or p only changes which finite height is taken from the
+intersection. The order is intersection first, estimate second.
+
+In shorthand:
+
+u0 −→ {(Vn , Qn )}n≥0 −→ {RN,M [u0 ]}N,M <∞
+
+     −→ I[u0 ] −→ S0 −→ u∗ ∈ H ∞ −→ T∗ = ∞.
+
+
+
+
+                                                         6
+

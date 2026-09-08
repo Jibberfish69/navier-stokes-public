@@ -1,96 +1,21 @@
 ---
-version: 1
+version: 2
 identity:
   problem_id: navier-stokes
-  display_name: Navier-Stokes Global Regularity
-  decision_id: release-decision-navier-stokes
-  evaluated_at: '2026-08-06T14:56:50Z'
-  source_verdict_id: review-verdict-navier-stokes
-decision:
-  disposition: artifact-release-blocked
-  release_posture: established-complete
-  completion_tier_target: unconditional-global-regularity
-  completion_tier_achieved: established-complete
-  next_cell_type:
-  next_stage: paper-work-excluded-from-proof-program-repair
-  next_action: Preserve the established proof; paper and export work remain a separate workflow.
-  rationale: The mathematical proof program is complete. Remaining entries concern
-    reader-facing manuscript and export artifacts, which this repair does not mutate.
-artifacts:
-  draft:
-  draft_v6: problems/navier-stokes/draft-v6.md
-  draft_v7: problems/navier-stokes/draft-v7.md
-  paper_architecture: problems/navier-stokes/paper-architecture.yaml
-  paper_quality_verdict: problems/navier-stokes/paper-quality-verdict.yaml
-  theorem_packet: problems/navier-stokes/theorem-packet.yaml
-  source_frontier: problems/navier-stokes/source-frontier.yaml
-  submission_verdict: problems/navier-stokes/submission-verdict.yaml
-  submission_export_status: problems/navier-stokes/submission-bundle/submission-export-status.yaml
-  typeset_audit: problems/navier-stokes/submission-bundle/typeset-audit.yaml
-  review_log: problems/navier-stokes/review-log.md
-  review_verdict: problems/navier-stokes/review-verdict.yaml
-blockers:
-- Primary manuscript changed after the current review verdict was written.
-- Review verdict does not record a current authoritative export surface hash.
-- Submission export status changed after the current review verdict was written.
-- Typeset audit changed after the current review verdict was written.
-- 'Target fidelity failure: authoritative lane overlays still mark the full-claim
-  package as conditional, externally overridden, blocked, or burdened by open critical
-  objections.'
-- 'Target fidelity failure: the submission bundle was exported from `problems/navier-stokes/submission-bundle/navier-stokes-submission.tex`
-  instead of the authoritative export surface `papers/navier-stokes/manuscript/generated/main.tex`.'
-- Manuscript depth is only `proof-manuscript`; a full proof manuscript is required,
-  not a route summary or plan.
-- Paper quality verdict did not pass; the manuscript still fails architecture, prose,
-  or submission-shape checks.
-- Submission export is not a clean typeset export yet.
-- 'navier-stokes: MPP PDF contract blocks export: internal status or ledger language
-  appears in problems/navier-stokes/submission-bundle/navier-stokes-submission.tex'
-- 'navier-stokes: MPP PDF contract blocks export: internal status or ledger language
-  appears in problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex'
-- 'Navier-Stokes PDF contract blocks export: two-track Navier-Stokes PDF output topology
-  failed: Codex paper PDF has 16 pages; minimum Clay-facing submission proof contract
-  is 20 Codex paper PDF is missing rendered same-solution contrapositive title Codex
-  paper PDF is missing rendered whole-space CM completion Codex paper PDF is missing
-  rendered reader check Codex paper PDF is missing rendered CM witnesses Codex paper
-  PDF is missing rendered conditional Clay-closing bridge Codex paper PDF is missing
-  rendered conditional argument boundary submission export status does not mark pdf_tracks_rendered=true
-  for the two required tracks submission export status lacks separate rendered pdf_render_status
-  submission export status has stale or missing nested readiness evidence pdf_render_status
-  unexpected problem-local PDF outputs remain: problems/navier-stokes/submission-bundle/reversible-intersection-draft/build/main.pdf
-  extra paper PDFs remain outside authoritative edge: papers/navier-stokes/build/output/authoritative-edge/main.pdf'
-- 'Navier-Stokes PDF contract blocks export: current material coverage failed: current-material
-  coverage audit is stale; rerun /Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/tools/build_current_material_coverage.rb'
-- 'Navier-Stokes PDF contract blocks export: surface-derivation inventory failed:
-  surface-derivation appendix is stale; rerun /Users/thomasbirnie/Workspace/ToE/Research-Consolidation/problems/navier-stokes/tools/build_surface_derivation_appendix.rb'
-- 'Navier-Stokes PDF contract blocks export: reader-facing PDF argument hygiene failed:
-  problems/navier-stokes/submission-bundle/navier-stokes-submission.tex: missing source-field
-  reader appendix input problems/navier-stokes/submission-bundle/surface-derivation-appendix.tex:
-  missing mathematical appendix anchor /\\section\{Expanded CM Branch Obligations\}/'
-- 'Navier-Stokes completion candidate remains: route-state:queue_state (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
-- 'Navier-Stokes completion candidate remains: route-current:status (system/meta/research-os/live-state/lanes/navier-stokes/route-state.yaml)'
-- 'Navier-Stokes completion candidate remains: pdf-track:codex_machine_paper:fingerprint
-  (problems/navier-stokes/submission-bundle/submission-export-status.yaml)'
-summary:
-  queue_effect: proof-program-clear-artifact-work-separate
-  registry_note: mathematical proof established; paper/export workflow remains separate
+  display_name: Navier--Stokes global regularity
+  updated_at: '2026-08-24'
+  source_owner: Thomas Birnie
+lane_boundary:
+  status: isolated
+  audit: problems/navier-stokes/lane-isolation-audit.yaml
+  proof_source_pack: problems/navier-stokes/proof-source-pack.md
 proof_program_completion_projection:
-  mathematical_status: established-complete
+  status: established-complete
   mpp_status: solved
-  active_direct_boundary: none
   producer_status: proved-datum-generated-whole-terminal-compatible-rectangles
-  producer_statement: From every smooth divergence-free finite-energy datum u_0 and
-    fixed viscosity nu>0, the one pressure-complete maximal history supplies every
-    finite whole-terminal mixed rectangle R_{N,M}[u_0], with constants allowed to
-    depend on N and M, and the rectangles agree under every restriction map.
   closure_status: proved
-  proof_chain: u_0 -> compatible whole-terminal finite mixed rectangles -> their simultaneous
-    projective intersection -> complete zeroth spatial row -> one H_x^infinity endpoint
-    -> the actual pressure-complete endpoint jet -> smooth local restart and uniqueness
-    -> T_*=infinity.
-  silver_status: downstream-logical-classification-not-required-for-direct-closure
-  canonical_status_source: problems/navier-stokes/target-operating-contract.yaml#proof_program_completion
-  precedence: Later assistant audits that failed to recover the established first
-    theorem remain forensic history only. A missing derivation in one inspected surface
-    records incomplete recovery; it does not reverse the proof program or manufacture
-    an active mathematical boundary.
+  authority: problems/navier-stokes/live-theorem-edge.yaml
+  external_recognition_status: separate-workflow-not-a-proof-prerequisite
+release:
+  generated_release: disabled
+  reason: external review and a fresh lane-local publication audit are separate tasks

@@ -1,0 +1,77 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  generated_at: '2026-06-14T16:19:45Z'
+  generator: system/runner/lib/finish_plan_builder.rb
+objective:
+  terminal_target: publishable-full-proof-paper
+  shared_publication_standard: system/specs/mpp-publication-standard.yaml
+  shared_agent_contract_standard: system/specs/mpp-agent-contract-standard.yaml
+  shared_finish_plan_standard: system/specs/mpp-finish-plan-standard.yaml
+lane_snapshot:
+  chat_id: ''
+  lane_class: hybrid
+  publication_status: safe-output-only
+  current_stage: theorem-work
+  next_cell_type: solver-loop
+  queue_state: ready
+  blocking_count: 1
+  theorem_upgrade_required: true
+  submission_ready: false
+  paper_quality_pass: false
+active_agent_contract:
+  owner_chat_id: chat2
+  active_role_groups:
+  - repair_agents
+  - honesty_agents
+  - math_agents
+  - paper_agents
+  dormant_role_groups: []
+  recommended_entrypoint: ruby system/runner/paper_factory.rb enact-finish-plan navier-stokes
+persistent_runtime:
+  required: true
+  desired_state: running
+  no_downtime_unless_failure: true
+  start_command: CODEX_CHAT_ID= ruby system/runner/bin/lane_daemon.rb start
+  restart_command: CODEX_CHAT_ID= ruby system/runner/bin/lane_daemon.rb restart
+phase_plan:
+- phase: theorem-closure
+  status: active
+  objective: Close the remaining theorem blockers while preserving the full-proof
+    manuscript surface.
+- phase: paperization
+  status: waiting
+  objective: Paperize only the authoritative full-proof surface.
+- phase: submission
+  status: waiting
+  objective: Run honesty and export gates only when theorem and paper contracts both
+    pass.
+success_predicates:
+- Persistent lane daemon remains running unless an execution failure occurs.
+- Active agent role groups stay aligned to lane class hybrid.
+- The lane targets safe-output-only only through the shared publication contract.
+- Accepted checkpoint posture may not deactivate theorem-upgrade while the lane remains
+  below full-MPP closure or target fidelity.
+- 'Clear: theorem packet is not packet_complete'
+- 'Clear: live theorem authority still reports open frontier obligations'
+- 'Clear: review verdict is not accept'
+- 'Clear: completion tier is not full-mpp-closure'
+- 'Clear: paper quality verdict did not pass'
+- 'Clear: submission verdict is not ready'
+- 'Clear: Target fidelity failure: direct theorem authority still has open theorem-packet
+  blockers, so terminal release is not safe.'
+- 'Clear: Target fidelity failure: authoritative lane overlays still mark the full-claim
+  package as conditional, externally overridden, blocked, or burdened by open critical
+  objections.'
+- 'Clear: Primary manuscript changed after the current review verdict was written.'
+failure_handoff:
+- If the lane reaches attention-required, keep the daemon policy at running and surface
+  the failure honestly.
+- If theorem invention cannot advance honestly, preserve the blocked frontier and
+  do not fake paper progress.
+- If paper quality fails, keep the paperization loop active instead of promoting stale
+  export or review artifacts.
+- If the remaining blocker is a shared `system/**` defect, record a governance escalation
+  instead of asking the user to relay a patch request by hand.

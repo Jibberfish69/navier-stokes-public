@@ -1,0 +1,274 @@
+{
+  "field_resolutions": [
+    {
+      "field": "writing_form",
+      "status": "accepted_for_run",
+      "value": "mathematical_exposition",
+      "reason": "The supplied live task and local source fix this field for the current edit."
+    },
+    {
+      "field": "writing_job",
+      "status": "accepted_for_run",
+      "value": "make_generic_definitions_pay_off_in_the_live_clay_problem",
+      "reason": "The supplied live task and local source fix this field for the current edit."
+    },
+    {
+      "field": "domain",
+      "status": "accepted_for_run",
+      "value": "navier_stokes_regularity",
+      "reason": "The supplied live task and local source fix this field for the current edit."
+    },
+    {
+      "field": "audience",
+      "status": "accepted_for_run",
+      "value": "informed_mathematical_reader",
+      "reason": "The supplied live task and local source fix this field for the current edit."
+    },
+    {
+      "field": "purpose",
+      "status": "accepted_for_run",
+      "value": "Define smoothness, continuation, and regularity in usable general form, then make their C-infinity meaning and finite-time obstruction explicit for the Clay problem.",
+      "reason": "The supplied live task and local source fix this field for the current edit."
+    },
+    {
+      "field": "reader_start",
+      "status": "accepted_for_run",
+      "value": "The reader has just seen the Clay global smoothness requirement and now needs the three terms to name exactly what that requirement asks.",
+      "reason": "The supplied live task and local source fix this field for the current edit."
+    },
+    {
+      "field": "reader_end",
+      "status": "accepted_for_run",
+      "value": "The reader can distinguish regularity, smoothness, and continuation and can state exactly what must fail at a finite endpoint to obstruct a C-infinity continuation.",
+      "reason": "The supplied live task and local source fix this field for the current edit."
+    },
+    {
+      "field": "live_pressure",
+      "status": "accepted_for_run",
+      "value": "The current definitions stop at generic X and finite C-k, leaving the Clay C-infinity burden unstated and ending with an awkward subject list.",
+      "reason": "The supplied live task and local source fix this field for the current edit."
+    }
+  ],
+  "reader_start": "The reader has just seen the Clay global smoothness requirement and now needs the three terms to name exactly what that requirement asks.",
+  "live_pressure": "The current definitions stop at generic X and finite C-k, leaving the Clay C-infinity burden unstated and ending with an awkward subject list.",
+  "candidate_moves": [
+    {
+      "move_id": "definitions-land-on-clay",
+      "move": {
+        "selection": "Keep the three formal definitions, make smoothness explicitly C-infinity, connect finite C-k regularity to the all-orders case, and close by applying continuation directly to the Clay endpoint.",
+        "connection": "Each definition answers a term already used in the displayed Clay requirement, and the final application turns the three definitions into one finite-endpoint test.",
+        "development": "Define the terms at usable generality, state their C-infinity specialization where the reader needs it, then express the obstruction with one grammatical subject and a direct consequence.",
+        "expression": "Use plain declarative sentences, retain the established mathematical notation, and let the velocity-pressure pair own the endpoint action."
+      },
+      "layer_status": {
+        "selection": "present",
+        "connection": "present",
+        "development": "present",
+        "expression": "present"
+      },
+      "reader_change": "The reader can distinguish regularity, smoothness, and continuation and can state exactly what must fail at a finite endpoint to obstruct a C-infinity continuation.",
+      "next_possibility": "Section 1.2 can begin from a reader who already understands the exact continuation burden.",
+      "content_basis": [
+        "live-input"
+      ],
+      "sequence": [
+        {
+          "step_id": "smoothness",
+          "thought": "Identify smoothness with C-infinity and immediately gloss it as all finite mixed derivatives existing and remaining continuous.",
+          "connection": "The displayed Clay condition has already made C-infinity the live class.",
+          "reader_start": "The reader has just seen the Clay global smoothness requirement and now needs the three terms to name exactly what that requirement asks.",
+          "reader_end": "The reader can translate the Clay C-infinity display into an all-orders derivative condition.",
+          "content_basis": [
+            "live-input"
+          ]
+        },
+        {
+          "step_id": "continuation",
+          "thought": "Keep the general class X definition, then state that the Clay application takes X to be C-infinity.",
+          "connection": "The reader now knows what property continuation has to preserve.",
+          "reader_start": "The reader can translate the Clay C-infinity display into an all-orders derivative condition.",
+          "reader_end": "The reader understands continuation as extending the same solution past T while retaining the required class.",
+          "content_basis": [
+            "live-input"
+          ]
+        },
+        {
+          "step_id": "regularity",
+          "thought": "Define C-k as finite-order control and identify smoothness as the condition holding for every finite k.",
+          "connection": "The generic C-k scale now has a precise relation to the live all-orders requirement.",
+          "reader_start": "The reader understands continuation as extending the same solution past T while retaining the required class.",
+          "reader_end": "The reader can distinguish finite regularity from the C-infinity requirement.",
+          "content_basis": [
+            "live-input"
+          ]
+        },
+        {
+          "step_id": "endpoint",
+          "thought": "State with one grammatical subject that the pair or a required derivative can become unbounded or fail to extend continuously, and conclude that C-infinity continuation then fails.",
+          "connection": "The three terms now combine into the exact finite-time obstruction relevant to Clay.",
+          "reader_start": "The reader can distinguish finite regularity from the C-infinity requirement.",
+          "reader_end": "The reader can distinguish regularity, smoothness, and continuation and can state exactly what must fail at a finite endpoint to obstruct a C-infinity continuation.",
+          "content_basis": [
+            "live-input"
+          ]
+        }
+      ],
+      "evidence_uses": [
+        {
+          "record_id": "decision-sentence-possesses-complete-thought-001",
+          "source_move_id": "make-the-payload-carry-the-thought",
+          "relation": "supports",
+          "applicability_reason": "The repaired endpoint sentence needs the velocity-pressure pair or a required derivative to own the finite action and complete the consequence."
+        }
+      ],
+      "risks": [
+        "Repeating the opening Clay statement without adding definition-level meaning.",
+        "Leaving X or C-k detached from C-infinity.",
+        "Turning the close into another vague summary."
+      ],
+      "confidence": "medium"
+    },
+    {
+      "move_id": "generic-definitions-then-one-application-note",
+      "move": {
+        "selection": "Leave the formal definitions generic and add one short paragraph afterward that specializes all three terms to the Clay problem.",
+        "connection": "A closing note supplies the application missing from the definition environments.",
+        "development": "Retain the current definition bodies and add the C-infinity relation and endpoint obstruction at the end.",
+        "expression": "Use a compact summary paragraph after the definitions."
+      },
+      "layer_status": {
+        "selection": "present",
+        "connection": "present",
+        "development": "present",
+        "expression": "present"
+      },
+      "reader_change": "The reader eventually receives the C-infinity application, while the individual definitions still read as detached reference entries.",
+      "next_possibility": "The historical background can proceed, though the definition environments remain less useful on first contact.",
+      "content_basis": [
+        "live-input"
+      ],
+      "sequence": [],
+      "evidence_uses": [],
+      "risks": [
+        "The application arrives retrospectively and leaves X and C-k floating during the definitions."
+      ],
+      "confidence": "unknown"
+    }
+  ],
+  "chosen_move_id": "definitions-land-on-clay",
+  "choice_reason": "The selected move answers the user at the point of confusion: each generic definition states its relation to C-infinity as it arrives, and the final sentence can then state the Clay obstruction without grammatical drift.",
+  "rejected_move_ids": [
+    "generic-definitions-then-one-application-note"
+  ],
+  "evidence_dispositions": [
+    {
+      "record_id": "decision-live-obstacle-before-label-001",
+      "status": "not_applicable",
+      "reason": "This bounded record concerns a different writing pressure or form and is not needed for this local definition repair."
+    },
+    {
+      "record_id": "decision-carry-established-thought-forward-001",
+      "status": "not_applicable",
+      "reason": "This bounded record concerns a different writing pressure or form and is not needed for this local definition repair."
+    },
+    {
+      "record_id": "decision-unfold-causal-relations-001",
+      "status": "not_applicable",
+      "reason": "This bounded record concerns a different writing pressure or form and is not needed for this local definition repair."
+    },
+    {
+      "record_id": "decision-name-operational-objects-001",
+      "status": "not_applicable",
+      "reason": "This bounded record concerns a different writing pressure or form and is not needed for this local definition repair."
+    },
+    {
+      "record_id": "decision-earn-technical-language-001",
+      "status": "not_applicable",
+      "reason": "This bounded record concerns a different writing pressure or form and is not needed for this local definition repair."
+    },
+    {
+      "record_id": "decision-preserve-discovery-order-001",
+      "status": "not_applicable",
+      "reason": "This bounded record concerns a different writing pressure or form and is not needed for this local definition repair."
+    },
+    {
+      "record_id": "decision-generate-expression-from-thought-001",
+      "status": "not_applicable",
+      "reason": "This bounded record concerns a different writing pressure or form and is not needed for this local definition repair."
+    },
+    {
+      "record_id": "decision-use-reader-shared-language-001",
+      "status": "not_applicable",
+      "reason": "This bounded record concerns a different writing pressure or form and is not needed for this local definition repair."
+    },
+    {
+      "record_id": "decision-develop-to-reader-change-001",
+      "status": "not_applicable",
+      "reason": "This bounded record concerns a different writing pressure or form and is not needed for this local definition repair."
+    },
+    {
+      "record_id": "decision-keep-example-inside-idea-001",
+      "status": "not_applicable",
+      "reason": "This bounded record concerns a different writing pressure or form and is not needed for this local definition repair."
+    },
+    {
+      "record_id": "decision-repair-exact-referent-001",
+      "status": "not_applicable",
+      "reason": "This bounded record concerns a different writing pressure or form and is not needed for this local definition repair."
+    },
+    {
+      "record_id": "decision-generalize-to-writing-faculty-001",
+      "status": "not_applicable",
+      "reason": "This bounded record concerns a different writing pressure or form and is not needed for this local definition repair."
+    },
+    {
+      "record_id": "observation-reader-led-concept-before-formal-name-001",
+      "status": "not_applicable",
+      "reason": "This bounded record concerns a different writing pressure or form and is not needed for this local definition repair."
+    },
+    {
+      "record_id": "decision-preserve-local-movement-role-001",
+      "status": "not_applicable",
+      "reason": "This bounded record concerns a different writing pressure or form and is not needed for this local definition repair."
+    },
+    {
+      "record_id": "decision-separate-internal-inquiry-from-written-interrogative-001",
+      "status": "not_applicable",
+      "reason": "This bounded record concerns a different writing pressure or form and is not needed for this local definition repair."
+    },
+    {
+      "record_id": "decision-sentence-possesses-complete-thought-001",
+      "status": "used",
+      "reason": "The user identified a grammatical line whose subject list does not carry a complete thought; this approved sentence-level decision applies directly."
+    }
+  ],
+  "uncertainties": [],
+  "authorial_commitment": {
+    "work_target": "A definition block that is formally usable and visibly belongs to the Clay global-smoothness problem.",
+    "strongest_move_reason": "The C-infinity application should travel with the definitions rather than repair their relevance only after they have floated past the reader.",
+    "intellectual_gain": "The reader sees finite C-k regularity, all-orders smoothness, and continuation as different parts of one endpoint question.",
+    "reader_gain": "The reader can say exactly what survives in a smooth continuation and exactly what kind of endpoint failure prevents it.",
+    "delivery": "complete_output",
+    "structural_commitment": {
+      "scope": "local",
+      "decision_origin": "user_supplied",
+      "voice_attribution": "user_owned",
+      "artifact_disposition": "preserve",
+      "inherited_reader_state": "The reader has just seen the Clay global smoothness requirement and now needs the three terms to name exactly what that requirement asks.",
+      "section_job": "Define the three live terms and apply them directly to the displayed C-infinity requirement.",
+      "outgoing_reader_need": "A precise continuation burden that the historical estimates can attempt to control.",
+      "gap_decision": "none",
+      "gap_payment": "The current block needs a local semantic repair rather than a new section or reordered structure.",
+      "new_section_job": "",
+      "enrichment_reason": "Only the C-infinity specialization and endpoint consequence are needed to complete the existing definitions.",
+      "enrichments": [
+        {
+          "detail": "State that smoothness is the all-orders C-k condition and that the Clay continuation class is C-infinity.",
+          "reader_value": "This gives the generic notation an immediate job in the live problem.",
+          "placement": "Inside the relevant definition environments and in the short endpoint application.",
+          "restraint": "Do not add failure taxonomies, continuation criteria, or later proof machinery."
+        }
+      ]
+    }
+  }
+}

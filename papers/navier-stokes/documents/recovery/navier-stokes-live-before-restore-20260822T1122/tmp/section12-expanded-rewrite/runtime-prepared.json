@@ -1,0 +1,114 @@
+{
+  "runtime_version": "4.0",
+  "mode": "edit",
+  "task": {
+    "task_id": "task-f11b19f63ca6f23b",
+    "request": "Restructure and fully develop Sections 1 and 2 without flattening any supplied reasoning.",
+    "writing_form": "reader-facing mathematical manuscript",
+    "writing_job": "whole-work structural rewrite and full exposition",
+    "domain": "three-dimensional Navier--Stokes regularity",
+    "audience": "mathematically literate reader who does not yet know this proof architecture",
+    "purpose": "make the full causal reasoning from the problem through the tower-to-intersection discovery legible and compelling",
+    "reader_start": "reader knows the formal Clay question but not why the proof methods, class boundary, failure pictures, or tower arise",
+    "reader_end": "reader understands the one-fluid VPI ontology and has rediscovered why the pressure-complete mixed tower must be read through compatible finite Sobolev intersections",
+    "live_pressure": "the current manuscript is a poorly shaped shell; every supplied subject, distinction, bridge, and mathematical consequence must be developed without compression",
+    "structure_scope": "whole_work",
+    "field_sources": {
+      "writing_form": "user_supplied",
+      "writing_job": "user_supplied",
+      "domain": "user_supplied",
+      "audience": "assistant_inferred",
+      "purpose": "user_supplied",
+      "reader_start": "source_derived",
+      "reader_end": "user_supplied",
+      "live_pressure": "user_supplied"
+    },
+    "selection_state": "user_fixed",
+    "user_owned_move": "Preserve the supplied Section 1 subject order and make Section 2 follow the historical tower-to-intersection discovery, while freely joining or splitting subsections and fully developing every idea.",
+    "input": {
+      "kind": "file",
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/workspaces/VSC-workspaces/navier-stokes/tmp/section12-expanded-rewrite/authoring-brief.md",
+      "text": "Rewrite and restructure the live human-submission manuscript's Sections 1 and 2.\n\nSection 1 must preserve and fully develop this reasoning order: formal Clay problem and definitions; a curated history that explains the results the paper later needs and ends with a concrete account of the present frontier; the Gold proof as a concise direct-estimate overview with no artificial Y variable and no reader-losing full derivation; Thomas's Silver contrapositive movement; class membership as Gold and Silver defining the boundary from opposite sides; participation as the physical meaning of remaining in that class; the Euler tangential-slip comparison; singularity and the velocity-acceleration-jerk derivative tower; the deliberately nonexclusive Dead, Jump, and Blown failure lenses plus a short restart intuition; and the one-fluid object, coherent field, and VPI law as the complete physical and mathematical synthesis.\n\nThe supplied subjects are reasoning units, not a demand for ten subsections.\nThey may be joined or split wherever the reader's reasoning benefits.\nRestructuring is explicitly approved.\n\nDevelop every distinct idea, bridge, qualification, equation, and example required to make the reasoning legible.\nDo not flatten or compress the supplied thought into a skeletal outline or a string of labels.\nDo not repeat a concept later unless the recurrence performs a new job.\n\nDead does not mean raw zero velocity, because stagnation points, steady flows, and the zero solution can be smooth.\nIt means failure of required participation in the shared local pressure-viscosity response law while a surrounding field remains live.\nJump means incompatible limiting values of velocity or a finite derivative across one point, interface, or time.\nBlown means unbounded velocity, derivative, pressure response, or finite-depth tower readout; the velocity itself need not be infinite.\nThe three labels may overlap and are not claimed to be exhaustive.\n\nThe Euler board example must be the precise weak tangential-slip-sheet comparison: normal flux and pressure are compatible while tangential velocity jumps.\nIt illustrates that weak Euler membership does not imply one-field smooth coherence.\nIt does not show that every nonsmooth state is Euler.\nFor fixed positive viscosity, the same discontinuous sheet is not a smooth unforced Navier--Stokes state.\n\nClass membership uses set and Boolean logic, not category theory unless a category is actually defined.\nUse Member(Q) implies Smooth(Q), equivalently not Smooth(Q) implies Exit(Q), with Exit(Q) defined as not Member(Q).\nDo not use the implication itself as a circular definition of membership.\n\nVPI retains its original discipline: viscosity, pressure, incompressibility, transport, and the differentiated tower remain attached throughout the mathematics.\nA graph picture may represent local rungs and neighbour relations, but nonlocal pressure must remain a whole-field coupling and the graph must not replace the PDE.\n\nSection 2 must follow the actual historical discovery: begin inside the finite-time singularity and critical-scale pressure already created by Section 1; resume, rather than restart, the velocity-acceleration-jerk tower; expose the independent temporal and spatial directions of the original pressure-complete mixed jet; derive how critical height reveals the spatial Sobolev column; discover the compatible all-orders intersection as an intersection rather than a sum; and then make that insight finite and checkable through compatible rectangles and restriction maps.\n\nSection 2 is reader-facing discovery, not a second formal proof section.\nIt may state and derive the exact coordinates and identities required to understand the proof.\nSection 3 alone owns invocation of the settled datum-generated whole-terminal compatible-rectangle theorem, terminal projective assembly, endpoint trace, pressure-complete endpoint jet, restart/uniqueness bookkeeping, and the conclusion T_* equals infinity.\nDo not reopen, demote, audit, replace, or call missing the settled datum-generated compatible-intersection object.\n\nRemove one-history bookkeeping from Sections 1 and 2.\nThe physical one-fluid object remains essential.\nRestart in Section 1 is only the short intuition that a regular time slice can serve as new initial data; identity, compatibility, and uniqueness bookkeeping stay in Section 3.\n\nPreserve Thomas's complete Silver Standard Proof as the primary reasoning and cadence anchor while correcting grammar, typography, and mathematical precision.\nUse plain Canadian English, one sentence per source line, and number a displayed equation only when later reasoning actually cites it.\n\n",
+      "sha256": "5fb969c9fbb1a82f92eb2508f90eb9789a2eaa4f0f503834ea2552b14b970c19"
+    },
+    "content_items": [
+      {
+        "content_id": "live-input",
+        "text": "Rewrite and restructure the live human-submission manuscript's Sections 1 and 2.\n\nSection 1 must preserve and fully develop this reasoning order: formal Clay problem and definitions; a curated history that explains the results the paper later needs and ends with a concrete account of the present frontier; the Gold proof as a concise direct-estimate overview with no artificial Y variable and no reader-losing full derivation; Thomas's Silver contrapositive movement; class membership as Gold and Silver defining the boundary from opposite sides; participation as the physical meaning of remaining in that class; the Euler tangential-slip comparison; singularity and the velocity-acceleration-jerk derivative tower; the deliberately nonexclusive Dead, Jump, and Blown failure lenses plus a short restart intuition; and the one-fluid object, coherent field, and VPI law as the complete physical and mathematical synthesis.\n\nThe supplied subjects are reasoning units, not a demand for ten subsections.\nThey may be joined or split wherever the reader's reasoning benefits.\nRestructuring is explicitly approved.\n\nDevelop every distinct idea, bridge, qualification, equation, and example required to make the reasoning legible.\nDo not flatten or compress the supplied thought into a skeletal outline or a string of labels.\nDo not repeat a concept later unless the recurrence performs a new job.\n\nDead does not mean raw zero velocity, because stagnation points, steady flows, and the zero solution can be smooth.\nIt means failure of required participation in the shared local pressure-viscosity response law while a surrounding field remains live.\nJump means incompatible limiting values of velocity or a finite derivative across one point, interface, or time.\nBlown means unbounded velocity, derivative, pressure response, or finite-depth tower readout; the velocity itself need not be infinite.\nThe three labels may overlap and are not claimed to be exhaustive.\n\nThe Euler board example must be the precise weak tangential-slip-sheet comparison: normal flux and pressure are compatible while tangential velocity jumps.\nIt illustrates that weak Euler membership does not imply one-field smooth coherence.\nIt does not show that every nonsmooth state is Euler.\nFor fixed positive viscosity, the same discontinuous sheet is not a smooth unforced Navier--Stokes state.\n\nClass membership uses set and Boolean logic, not category theory unless a category is actually defined.\nUse Member(Q) implies Smooth(Q), equivalently not Smooth(Q) implies Exit(Q), with Exit(Q) defined as not Member(Q).\nDo not use the implication itself as a circular definition of membership.\n\nVPI retains its original discipline: viscosity, pressure, incompressibility, transport, and the differentiated tower remain attached throughout the mathematics.\nA graph picture may represent local rungs and neighbour relations, but nonlocal pressure must remain a whole-field coupling and the graph must not replace the PDE.\n\nSection 2 must follow the actual historical discovery: begin inside the finite-time singularity and critical-scale pressure already created by Section 1; resume, rather than restart, the velocity-acceleration-jerk tower; expose the independent temporal and spatial directions of the original pressure-complete mixed jet; derive how critical height reveals the spatial Sobolev column; discover the compatible all-orders intersection as an intersection rather than a sum; and then make that insight finite and checkable through compatible rectangles and restriction maps.\n\nSection 2 is reader-facing discovery, not a second formal proof section.\nIt may state and derive the exact coordinates and identities required to understand the proof.\nSection 3 alone owns invocation of the settled datum-generated whole-terminal compatible-rectangle theorem, terminal projective assembly, endpoint trace, pressure-complete endpoint jet, restart/uniqueness bookkeeping, and the conclusion T_* equals infinity.\nDo not reopen, demote, audit, replace, or call missing the settled datum-generated compatible-intersection object.\n\nRemove one-history bookkeeping from Sections 1 and 2.\nThe physical one-fluid object remains essential.\nRestart in Section 1 is only the short intuition that a regular time slice can serve as new initial data; identity, compatibility, and uniqueness bookkeeping stay in Section 3.\n\nPreserve Thomas's complete Silver Standard Proof as the primary reasoning and cadence anchor while correcting grammar, typography, and mathematical precision.\nUse plain Canadian English, one sentence per source line, and number a displayed equation only when later reasoning actually cites it.\n\n",
+        "sha256": "5fb969c9fbb1a82f92eb2508f90eb9789a2eaa4f0f503834ea2552b14b970c19",
+        "start": 0,
+        "end": 4672,
+        "status": "instruction",
+        "source": "live_input"
+      }
+    ],
+    "constraints": {
+      "required": [],
+      "forbidden": [],
+      "protected_order": [],
+      "protected_distinctions": []
+    },
+    "write_authorized": true,
+    "structure_change_approved": true,
+    "authorized_target": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/workspaces/VSC-workspaces/navier-stokes/Section1-Introduction,workspaces/VSC-workspaces/navier-stokes/Section2-ProofProgram",
+    "prior_context": {
+      "kind": "context",
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/workspaces/VSC-workspaces/navier-stokes/Section1-Introduction/index.tex",
+      "text": "% !TeX root = ../navier-stokes-manuscript.tex\n% ===========================\n% Section 1 -- Introduction\n% ===========================\n\n\\section{Introduction}\\label{sec:Introduction}\n\n\\input{Section1-Introduction/1.1-ClayRequirements.tex}\n\\input{Section1-Introduction/1.2-HistoricalEstimates.tex}\n\\input{Section1-Introduction/1.3-GoldStandardProof.tex}\n\\input{Section1-Introduction/1.4-SilverStandardProof.tex}\n\\input{Section1-Introduction/1.5-ClassMembershipParticipationAndAComparisonToEuler.tex}\n\\input{Section1-Introduction/1.6-OneFluidObjectAndCoherentFieldParticipation.tex}\n\\input{Section1-Introduction/1.7-VPILaw.tex}\n",
+      "sha256": "6eebecba85d5743db54b32e508128cd5cf64a4b48df885434651a86c7c5681cf"
+    },
+    "next_context": {
+      "kind": "context",
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/workspaces/VSC-workspaces/navier-stokes/Section3-CompatibleIntersectionClosure/index.tex",
+      "text": "% !TeX root = ../navier-stokes-manuscript.tex\n% ============================================================\n% Section 3 -- The Compatible Intersection at the Terminal Time\n% ============================================================\n\n\\section{The Compatible Intersection at the Terminal Time}\\label{sec:TheCompatibleIntersectionAtTheTerminalTime}\n\nThe tower places every temporal rung beside every spatial row opened by the same pressure-complete history.\nThe datum-generated producer places every finite rectangle across the whole alleged terminal interval.\nCompatibility keeps their shared coordinates identical, so the rectangles form one projective family.\nTheir intersection reaches one smooth endpoint.\nThe pressure-explicit recurrence identifies the terminal jet there, and local uniqueness restarts the original history.\n\n\\input{Section3-CompatibleIntersectionClosure/3.1-WholeTerminalCompatibleRectangles.tex}\n\\input{Section3-CompatibleIntersectionClosure/3.2-ProjectiveIntersectionAndTheCompleteSpatialRow.tex}\n\\input{Section3-CompatibleIntersectionClosure/3.3-TheAdjacentCriticalBlock.tex}\n\\input{Section3-CompatibleIntersectionClosure/3.4-TheCommonEndpointAndThePressureCompleteJet.tex}\n\\input{Section3-CompatibleIntersectionClosure/3.5-SameHistoryRestart.tex}\n",
+      "sha256": "2a8e9ec14a1f1ba333d2e048d42760b70b4ffef08433b4732ee2b093512977f8"
+    }
+  },
+  "task_sha256": "0a31ee7a23955e30dd267d7e8415107ec9542491bbb14a7e080bb8e1807db431",
+  "prediction_sha256": null,
+  "evidence_snapshot": {
+    "registry_path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/workspaces/VSC-workspaces/navier-stokes/tmp/section12-expanded-rewrite/empty-evidence.jsonl",
+    "registry_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "candidate_evidence": [],
+    "selection_status": "no_applicable_evidence",
+    "selected_evidence_ids": []
+  },
+  "prediction": {
+    "field_resolutions": [],
+    "reader_start": "",
+    "live_pressure": "",
+    "candidate_moves": [],
+    "chosen_move_id": null,
+    "choice_reason": "",
+    "rejected_move_ids": [],
+    "evidence_dispositions": [],
+    "uncertainties": [],
+    "authorial_commitment": {
+      "work_target": "",
+      "strongest_move_reason": "",
+      "intellectual_gain": "",
+      "reader_gain": "",
+      "delivery": "unresolved",
+      "structural_commitment": {
+        "scope": "whole_work",
+        "decision_origin": "unresolved",
+        "voice_attribution": "unresolved",
+        "artifact_disposition": "unresolved",
+        "inherited_reader_state": "",
+        "section_job": "",
+        "outgoing_reader_need": "",
+        "gap_decision": "unresolved",
+        "gap_payment": "",
+        "new_section_job": "",
+        "enrichment_reason": "",
+        "enrichments": []
+      }
+    }
+  },
+  "readiness": {
+    "status": "needs_prediction",
+    "blocked_reasons": [
+      "Resolve provisional task interpretations and preserve the user-owned move."
+    ]
+  }
+}

@@ -3,13 +3,13 @@
 ## Target
 
 - target obligation: GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.CoreSubprimitive
-- target label: core same-history exclusion of a high-ratio upward birth invisible to annular stress, Hodge/projector coupling, entrance mass, and lower-band carry
+- target label: core same-history exclusion of a high-ratio upward birth invisible to annular stress, Helmholtz--Leray/projector coupling, entrance mass, and lower-band carry
 - route role: The original-history carrier partition identity is a localized support theorem. It partitions high-band positive birth on the transported material history, but it does not by itself prove the weight-beating contraction, weighted tail summability, or a bounded-below original-history action storage. The full-action route must keep the remaining no-free-upward-transfer estimate open instead of treating carrier partition as terminal closure.
 - theorem family: full-same-material-action
 
 ## Created Theorem
 
-GlobalSamePacketFullHistoryStorageLowerBound.A.SupportOnlyReduction. The original-history carrier partition identity is a localized support theorem. It partitions high-band positive birth on the transported material history, but it does not by itself prove the weight-beating contraction, weighted tail summability, or a bounded-below original-history action storage. The full-action route must keep the remaining no-free-upward-transfer estimate open instead of treating carrier partition as terminal closure. This supplies the exact noncircular bridge needed for core same-history exclusion of a high-ratio upward birth invisible to annular stress, Hodge/projector coupling, entrance mass, and lower-band carry.
+GlobalSamePacketFullHistoryStorageLowerBound.A.SupportOnlyReduction. The original-history carrier partition identity is a localized support theorem. It partitions high-band positive birth on the transported material history, but it does not by itself prove the weight-beating contraction, weighted tail summability, or a bounded-below original-history action storage. The full-action route must keep the remaining no-free-upward-transfer estimate open instead of treating carrier partition as terminal closure. This supplies the exact noncircular bridge needed for core same-history exclusion of a high-ratio upward birth invisible to annular stress, Helmholtz--Leray/projector coupling, entrance mass, and lower-band carry.
 
 ## Inventive Search
 
@@ -38,12 +38,12 @@ GlobalSamePacketFullHistoryStorageLowerBound.A.SupportOnlyReduction. The origina
 ## Allowed Inputs
 
 - transported material history
-- moving material Hodge projector
+- moving material Helmholtz--Leray projector
 
 ## Forbidden Imports
 
 - GlobalSamePacketFullHistoryStorageLowerBound.A.SupportOnlyReduction
-- core same-history exclusion of a high-ratio upward birth invisible to annular stress, Hodge/projector coupling, entrance mass, and lower-band carry
+- core same-history exclusion of a high-ratio upward birth invisible to annular stress, Helmholtz--Leray/projector coupling, entrance mass, and lower-band carry
 - GlobalSamePacketFullOriginalHistoryNoUnchargedHighRatioBirth.A.CoreSubprimitive
 - full-MPP closure
 - submission readiness
@@ -52,8 +52,8 @@ GlobalSamePacketFullHistoryStorageLowerBound.A.SupportOnlyReduction. The origina
 ## Proof Attempt
 
 1. Use the original transported material history as the only carrier.
-2. Differentiate the high-band material energy with transported cutoffs and the moving material Hodge projector.
-3. Partition every positive high-band birth term into lower-band carry, weighted-summable entrance/legal mass, annular stress, Hodge/projector motion, or viscous loss.
+2. Differentiate the high-band material energy with transported cutoffs and the moving material Helmholtz--Leray projector.
+3. Partition every positive high-band birth term into lower-band carry, weighted-summable entrance/legal mass, annular stress, Helmholtz--Leray/projector motion, or viscous loss.
 4. Treat the partition as support for the full-action estimate, not as the estimate itself.
 5. Expose the remaining noncircular no-free-upward-transfer / weight-beating tail theorem as the live gap.
 

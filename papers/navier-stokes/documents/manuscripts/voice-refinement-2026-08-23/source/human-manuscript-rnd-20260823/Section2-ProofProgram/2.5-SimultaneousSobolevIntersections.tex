@@ -1,0 +1,142 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.5 Simultaneous Sobolev Intersections
+% ============================================================
+
+\subsection{Simultaneous Sobolev Intersections}\label{sub:SimultaneousSobolevIntersections}
+
+The critical-height calculation reaches spatial energies of arbitrarily high order, but any one derivative request stops at a finite order.
+Suppose, for example, that one wants \(\partial_x^\alpha u\) to be continuous for every \(\lvert\alpha\rvert\le k\).
+In three dimensions, the Sobolev embedding
+\[
+  H^m(\R^3)
+  \hookrightarrow
+  C^k(\R^3)
+\]
+holds whenever
+\[
+  m>k+\frac32.
+\]
+One requested spatial order \(k\) comes from one finite height \(m\) above its embedding threshold.
+As \(k\) ranges through all finite orders, no last \(m\) can be chosen, but no infinite-order norm is required either.
+The exact spatial object is the coordinatewise intersection
+\[
+  \bigcap_{m=0}^{\infty}H^m(\R^3),
+\]
+whose membership means that every finite Sobolev norm is finite on the same field.
+For each fixed \(k\), one of those finite memberships yields the desired \(C^k\) control, so
+\[
+  \bigcap_{m=0}^{\infty}H^m(\R^3)
+  \hookrightarrow
+  C^\infty(\R^3).
+\]
+
+Finite-time response asks for the same construction in the temporal direction.
+Let \(I=(0,T)\) with \(T<T_*\), and let \(X\) be a Hilbert space.
+The vector-valued embedding
+\[
+  H^r(I;X)
+  \hookrightarrow
+  C^q(\overline I;X)
+\]
+holds whenever
+\[
+  r>q+\frac12.
+\]
+One requested time derivative of order \(q\) comes from one finite temporal height \(r\).
+Allowing every finite request gives
+\[
+  \bigcap_{r=0}^{\infty}H^r(I;X)
+  \hookrightarrow
+  C^\infty(\overline I;X).
+\]
+The time intersection is again coordinatewise: each \(q\) chooses its own finite \(r\).
+
+The mixed jet requires these choices at the same time.
+Ask for one concrete coordinate,
+\[
+  \partial_t^2\partial_x^\alpha u,
+  \qquad
+  \lvert\alpha\rvert\le4.
+\]
+The single finite membership
+\[
+  u\in H^3\bigl(I;H^6(\R^3)\bigr)
+\]
+places that coordinate in
+\[
+  C^2\bigl(\overline I;C^4(\R^3)\bigr),
+\]
+because
+\[
+  3>2+\frac12,
+  \qquad
+  6>4+\frac32.
+\]
+Nothing special happened at the pair \((2,4)\).
+For arbitrary finite temporal and spatial orders \(q\) and \(k\), choose finite indices satisfying
+\[
+  r>q+\frac12,
+  \qquad
+  m>k+\frac32.
+\]
+Then
+\[
+  H^r\bigl(I;H^m(\R^3)\bigr)
+  \hookrightarrow
+  C^q\bigl(\overline I;C^k(\R^3)\bigr).
+\]
+
+To satisfy every finite time--space request on the same velocity, take the intersection of these finite Sobolev memberships:
+\[
+  \mathscr V_\infty(I)
+  :=
+  \bigcap_{r=0}^{\infty}
+  \bigcap_{m=0}^{\infty}
+  H^r\bigl(I;H^m(\R^3)\bigr).
+\]
+Membership means
+\[
+  u\in\mathscr V_\infty(I)
+  \quad\Longleftrightarrow\quad
+  \norm{u}_{H^r(I;H^m)}
+  <
+  \infty
+  \quad
+  \text{for every finite pair }(r,m).
+\]
+Each membership is a coordinate of the same \(u\), and the intersection keeps their norms separate.
+The embeddings above then give
+\[
+  \mathscr V_\infty(I)
+  \hookrightarrow
+  C^\infty\bigl(\overline I\times\R^3\bigr).
+\]
+
+Choose temporal and spatial indices large enough to give a continuous trace above the critical levels.
+That trace contains both
+\[
+  u(t)\in H^{1/2}(\R^3)
+  \qquad\text{and}\qquad
+  u(t)\in H^{3/2}(\R^3)
+\]
+at each time in the closed interval.
+The critical quantities are then defined on the closed interval by
+\[
+  H(t)=\frac12\norm{\Lambda^{1/2}u(t)}_2^2,
+  \qquad
+  E_{3/2}(t)=\frac12\norm{\Lambda^{3/2}u(t)}_2^2
+\]
+The calculation of critical height led to these spatial levels; the intersection is what controls them at the endpoint.
+
+Pressure is not an element of the velocity intersection.
+Write
+\[
+  Q_n=\partial_t^np,
+\]
+at every finite depth.
+The pressure Poisson equation recovers each \(Q_n\) from the velocity rows, while the differentiated momentum equation keeps \(\nabla Q_n\) coupled to \(V_{n+1}\), viscosity, and transport.
+Thus the pressure jet is recovered from \(u\) without treating pressure as an element of the velocity space.
+
+Each estimate controls one finite block of this intersection.
+The two Sobolev levels needed to produce a common time trace determine the upper and lower edges of that block.

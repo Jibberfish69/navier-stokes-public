@@ -1,0 +1,154 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  verdict_id: review-verdict-navier-stokes
+  reviewer: system/runner/workers/v7_review_worker.rb
+review_scope: local-package
+verdict: revise
+release_posture: revise-loop
+completion_tier_target: full-mpp-closure
+completion_tier_achieved: route-complete
+completion_tier_rationale:
+- Architecture reads `coherent` with paper status `real`.
+- Debt map counts are packaging=1, local-derivable=5, branch-choice=0, blocked-frontier=0.
+- Theorem packet readiness is packet_complete=false export_ready=false.
+- The formalization ledger still marks stand-alone status as `revise`.
+- Target fidelity is `conditional-transfer`.
+- 'Target fidelity failure: the main theorem is still conditional rather than deriving
+  the original MPP target from the underlying object.'
+- 'Target fidelity failure: authoritative lane overlays still mark the full-claim
+  package as conditional, externally overridden, blocked, or burdened by open critical
+  objections.'
+- 'Target fidelity failure: the current package reads as a transfer theorem from assumed
+  stronger structure rather than a direct resolution of the original MPP target.'
+- An active post-release track `theorem-upgrade` is overriding the generic release
+  gate for this package.
+- The theorem line is real, but the package still needs paper-form compression or
+  a safer claim boundary before release.
+safe_claim_boundary: 
+standalone_status: revise
+draft_surface_kinds:
+  primary_prose_artifact: draft_v7
+  primary_prose: draft
+  draft_v8: missing
+  draft_v6: draft
+  draft_v7: draft
+  paper_surface: draft
+theorem_packet_status: incomplete
+target_fidelity:
+  class: conditional-transfer
+  terminal_safe: false
+  explicit_nonterminal_overlay: true
+  issues:
+  - 'Target fidelity failure: the main theorem is still conditional rather than deriving
+    the original MPP target from the underlying object.'
+  - 'Target fidelity failure: authoritative lane overlays still mark the full-claim
+    package as conditional, externally overridden, blocked, or burdened by open critical
+    objections.'
+  - 'Target fidelity failure: the current package reads as a transfer theorem from
+    assumed stronger structure rather than a direct resolution of the original MPP
+    target.'
+  required_before_terminal_release:
+  - Replace the conditional theorem posture with a derivation on the original MPP
+    object, or explicitly downgrade the package to a nonterminal conditional output.
+  - Clear the authoritative nonterminal overlays by discharging the blocked theorem
+    bridges or keeping the package explicitly nonterminal.
+  - Discharge the assumed bridge structure directly enough that the paper proves the
+    original MPP target rather than only a consequence of stronger assumed inputs.
+  signals:
+    conditional_main_theorem: true
+    overlay_block_risk: true
+    objective_collapse_risk: false
+    conditional_markers:
+    - "\\A\\s*(if|assuming|assume|suppose|provided|once)\\b"
+    strong_regularization_markers: []
+    regularization_markers:
+    - surrogate
+    transfer_markers:
+    - bridge
+    - comparison
+    authoritative_export_surface: problems/navier-stokes/external-paper/main.tex
+    bundle_manifest_source: problems/navier-stokes/external-paper/main.tex
+    bundle_source_mismatch: false
+    current_theorem_surface_id: theorem-surface-navier-stokes-0568e3971b02
+    bundle_theorem_surface_id: ''
+    current_route_signature: '0568e3971b02aefa47124dbc47b832b9d6fa9c96'
+    bundle_route_signature: ''
+    bundle_surface_mismatch: false
+    open_critical_referee_objections: []
+artifact_observations:
+  primary_manuscript:
+    artifact: 
+    path: problems/navier-stokes/draft-v8.md
+    present: true
+    role: primary-manuscript
+    sha1: 8d3c9970a5d9bab8122eea2900a4a1f6f216fea3
+    bytes: 9083
+    modified_at: '2026-03-24T21:52:19Z'
+  submission_export_status:
+    artifact: submission_export_status
+    path: problems/navier-stokes/submission-bundle/submission-export-status.yaml
+    present: true
+    sha1: 636fa3354b60584c0d031bebd1c8a0575700e716
+    bytes: 476
+    modified_at: '2026-03-24T21:56:45Z'
+  typeset_audit:
+    artifact: typeset_audit
+    path: problems/navier-stokes/submission-bundle/typeset-audit.yaml
+    present: true
+    sha1: 39b5ebf595fd47645500fef6aba19bf7e12fbf87
+    bytes: 256
+    modified_at: '2026-03-24T21:56:45Z'
+findings:
+- A theorem packet exists, but it is still incomplete, so prose alone cannot count
+  as real paper progress.
+- The local package is stable enough to review, and `draft-v7.md` now carries real
+  prose, but it is still a revise-stage draft rather than an export-ready paper.
+- The `draft-v7.md` surface is now a prose artifact, so this pass can review a real
+  package rather than only planning notes.
+- The formalization ledger still marks stand-alone export as `revise`, which blocks
+  full-MPP closure until the remaining scope boundary is rewritten or discharged.
+- 'This matches the previous review posture: the route is viable locally, but stand-alone
+  export is still premature.'
+- The promotion rule in the formalization ledger still keeps this package below stand-alone
+  acceptance.
+- The post-release theorem-upgrade plan is active, so the package should stay on theorem-localization
+  work until full closure is honestly cleared.
+- An active theorem-upgrade track is keeping this package above lowest-safe-claim
+  release until the remaining theorem delta is localized into a full-MPP closure surface.
+- The theorem route is coherent, but the package is not yet compressed into a safe
+  stand-alone paper surface.
+- 'Theorem-packet blocker: closed-loop warrant discharge on the declared theorem surface'
+- 'Target fidelity failure: the main theorem is still conditional rather than deriving
+  the original MPP target from the underlying object.'
+- 'Target fidelity failure: authoritative lane overlays still mark the full-claim
+  package as conditional, externally overridden, blocked, or burdened by open critical
+  objections.'
+- 'Target fidelity failure: the current package reads as a transfer theorem from assumed
+  stronger structure rather than a direct resolution of the original MPP target.'
+required_before_next_review:
+- 'Resolve theorem-packet blocker: closed-loop warrant discharge on the declared theorem
+  surface'
+- Keep the current primary prose surface live and rerun honesty-review against that
+  real draft rather than a planning surface.
+- Localize the proof debt named in `formalization-ledger.md` inside the local package.
+- Keep unresolved or extension-side routes explicitly outside the theorem spine.
+required_before_terminal_release:
+- Replace the conditional theorem posture with a derivation on the original MPP object,
+  or explicitly downgrade the package to a nonterminal conditional output.
+- Clear the authoritative nonterminal overlays by discharging the blocked theorem
+  bridges or keeping the package explicitly nonterminal.
+- Discharge the assumed bridge structure directly enough that the paper proves the
+  original MPP target rather than only a consequence of stronger assumed inputs.
+respawn_target:
+  next_cell_type: debt-extract
+  next_stage: theorem-upgrade-requested
+  next_action: 'Reopen the released package toward `full-mpp-closure` and localize
+    the remaining theorem delta beginning with: A serious classical route exists only
+    when: Start with `debt-extract` so the reopened lane is typed again before the
+    next review cycle.'
+next_step:
+  next_cell_type: release-or-respawn
+  next_action: Run release-or-respawn to convert this honesty verdict into either
+    promotion, upstream respawn, or an explicit blocked verdict.

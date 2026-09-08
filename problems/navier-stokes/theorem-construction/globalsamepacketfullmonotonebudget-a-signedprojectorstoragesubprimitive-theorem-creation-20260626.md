@@ -3,13 +3,13 @@
 ## Target
 
 - target obligation: GlobalSamePacketFullMonotoneBudget.A.SignedProjectorStorageSubprimitive
-- target label: signed Hodge-projector/strain-Schur storage identity with bounded lower edge
-- route role: Differentiate the same transported material packet with the moving Hodge projector, Schur normal pressure-collar defect storage, strain/frame log storage, and transported annular stress storage. This proves the signed attachment algebra for the graph-compatible full same-material action and isolates the only remaining lower-bound/coercivity edge instead of reviving the deprecated clock shorthand.
+- target label: signed Helmholtz--Leray-projector/strain-Schur storage identity with bounded lower edge
+- route role: Differentiate the same transported material packet with the moving Helmholtz--Leray projector, Schur normal pressure-collar defect storage, strain/frame log storage, and transported annular stress storage. This proves the signed attachment algebra for the graph-compatible full same-material action and isolates the only remaining lower-bound/coercivity edge instead of reviving the deprecated clock shorthand.
 - theorem family: full-same-material-action
 
 ## Created Theorem
 
-GlobalSamePacketFullMonotoneBudget.A.SignedProjectorStorageSubprimitive. Differentiate the same transported material packet with the moving Hodge projector, Schur normal pressure-collar defect storage, strain/frame log storage, and transported annular stress storage. This proves the signed attachment algebra for the graph-compatible full same-material action and isolates the only remaining lower-bound/coercivity edge instead of reviving the deprecated clock shorthand. This supplies the exact noncircular bridge needed for signed Hodge-projector/strain-Schur storage identity with bounded lower edge.
+GlobalSamePacketFullMonotoneBudget.A.SignedProjectorStorageSubprimitive. Differentiate the same transported material packet with the moving Helmholtz--Leray projector, Schur normal pressure-collar defect storage, strain/frame log storage, and transported annular stress storage. This proves the signed attachment algebra for the graph-compatible full same-material action and isolates the only remaining lower-bound/coercivity edge instead of reviving the deprecated clock shorthand. This supplies the exact noncircular bridge needed for signed Helmholtz--Leray-projector/strain-Schur storage identity with bounded lower edge.
 
 ## Inventive Search
 
@@ -19,7 +19,7 @@ GlobalSamePacketFullMonotoneBudget.A.SignedProjectorStorageSubprimitive. Differe
 - selected_mechanism: full_same_material_signed_projector_storage
 - candidate_count: 1
 - solver_chain_verdict: open
-- selection_reason: This theorem is the right next move because it changes the proof economy: Differentiate the same transported material packet with the moving Hodge projector, Schur normal pressure-collar defect storage, strain/frame log storage, and transported annular stress storage. This proves the signed attachment algebra for the graph-compatible full same-material action and isolates the only remaining lower-bound/coercivity edge instead of reviving the deprecated clock shorthand. It deliberately reduces the remaining work to GlobalSamePacketFullMonotoneBudget.A.BoundedLowerEdgeSubprimitive rather than pretending the frontier is closed.
+- selection_reason: This theorem is the right next move because it changes the proof economy: Differentiate the same transported material packet with the moving Helmholtz--Leray projector, Schur normal pressure-collar defect storage, strain/frame log storage, and transported annular stress storage. This proves the signed attachment algebra for the graph-compatible full same-material action and isolates the only remaining lower-bound/coercivity edge instead of reviving the deprecated clock shorthand. It deliberately reduces the remaining work to GlobalSamePacketFullMonotoneBudget.A.BoundedLowerEdgeSubprimitive rather than pretending the frontier is closed.
 
 ### Candidate Theorems
 
@@ -41,15 +41,15 @@ GlobalSamePacketFullMonotoneBudget.A.SignedProjectorStorageSubprimitive. Differe
 ## Forbidden Imports
 
 - GlobalSamePacketFullMonotoneBudget.A.SignedProjectorStorageSubprimitive
-- signed Hodge-projector/strain-Schur storage identity with bounded lower edge
+- signed Helmholtz--Leray-projector/strain-Schur storage identity with bounded lower edge
 - full-MPP closure
 - submission readiness
 - global smoothness
 
 ## Proof Attempt
 
-1. Use the material Hodge projection only as tangent/normal attachment; do not turn projector orthogonality into a one-way sign theorem.
-2. Keep pressure/collar motion graph-compatible: Schur storage pays normal defect, while tangent graph motion is strain/frame, Hodge/base-collar, or viscous service.
+1. Use the material Helmholtz--Leray projection only as tangent/normal attachment; do not turn projector orthogonality into a one-way sign theorem.
+2. Keep pressure/collar motion graph-compatible: Schur storage pays normal defect, while tangent graph motion is strain/frame, Helmholtz--Leray/base-collar, or viscous service.
 3. Use complete-frame trace-free payment for retained point-scale orientation admission.
 4. Use transported annular stress storage for center-to-annulus service, with lower bound from physical energy.
 5. Classify the unresolved part as the bounded-lower-edge/no-free-upward-transfer subprimitive for the remaining primitive graph-compatible same-material action.

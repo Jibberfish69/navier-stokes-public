@@ -1,0 +1,207 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  discharge_id: dependency-discharge-navier-stokes
+  generated_at: '2026-03-29T01:05:50Z'
+  generator: system/runner/lib/dependency_discharge_builder.rb
+  source_theorem_packet_id: theorem-packet-navier-stokes
+  source_matrix_id: proof-obligation-matrix-navier-stokes
+  source_assembly_id: proof-assembly-navier-stokes
+target:
+  obligation_id: marvin-upstream-269065c546af
+  kind: lemma
+  label: "+ spectral floor on K_D^\\perp"
+  status: unresolved
+  source_anchor: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
+  blocking: true
+  status_after: unresolved
+  promoted: false
+  promotion_distance: 0
+source_scan:
+  checked_paths:
+  - problems/navier-stokes/obstruction-capture.md
+  - problems/navier-stokes/spine.md
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/four-body-regularity-circuit-and-ontic-extension.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-forensics/master-program-analysis.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-forensics/canonical-equation-ledger.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-grounded-framework-map.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/obstruction-capture.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/monotone-functional-package.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/monotone-functional-insufficiency-lemma.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/monotone-to-cascade-carrier.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/monotone-functional-discharge-source-pack.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/cascade-after-monotone-bridge-source-pack.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/energy-baseline-bridge-lemma.md"
+  - problems/navier-stokes/claim-ladder.md
+  - problems/navier-stokes/formalization-ledger.md
+  - problems/navier-stokes/debt-map.yaml
+  - system/meta/collaboration/marvin-feeds/navier-stokes.yaml
+  - problems/navier-stokes/marvin-ingest-notes.yaml
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/mpp-chat-lane-alignment-state.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ns-ymg-hodge-shared-runner-transfer-note.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ns-ymg-hodge-priority-braids-note.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/route-lock.yaml"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/nc-leray-hodge-projector.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/projected-flow-conceptual-scaffolding.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/persistent-carrier-conceptual-scaffolding.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/persistent-carrier-projector-and-coercivity.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/braided-defect-readout-principle.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/hodge-carrier-inputs-theorem-pack.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ontic-flow-closure-proof-spine.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/clay-shared-core-theorem-library.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/continuum-physical-sector-theorem-packet.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/projected-defect-growth-and-carrier-reduction.md"
+  - problems/navier-stokes/target-fidelity-discharge-source-pack.md
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/target-fidelity-bridge-lemma.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/claim-ladder.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/spine.md"
+  - problems/navier-stokes/curvature-based-regularity-discharge-source-pack.md
+  - problems/navier-stokes/gradient-discharge-source-pack.md
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-transfer-coercivity-object.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-control-bridge-discharge.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-high-side-remainder-packet.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-genuine-high-high-packet.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-paraproduct-reduction-lemma.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-spill-reduction-lemma.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-cubic-tail-absorption-lemma.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-coercivity-lemma.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/classical-low-mode-coefficient-lemma.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-transfer-operator.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-commutator-remainder-lemma.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-package.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/bridge-memos/gradient-control.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/scale-barrier-package.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/compactness-package.md"
+  - problems/navier-stokes/monotone-functional-discharge-source-pack.md
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/bridge-memos/monotone-functional.md"
+  - problems/navier-stokes/scale-high-side-remainder-source-pack.md
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/scale-paraproduct-reduction-lemma.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/scale-spill-reduction-lemma.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/scale-genuine-high-high-packet.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/classical-scale-barrier-functional.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/scale-high-side-remainder-packet.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/scale-high-high-near-diagonal-reduction-lemma.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/scale-barrier-transport-defect-lemma.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/scale-barrier-tail-discharge-source-pack.md"
+  - problems/navier-stokes/gradient-transfer-coercivity-source-pack.md
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/gradient-high-high-near-diagonal-reduction-lemma.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/gradient-discharge-source-pack.md"
+  - problems/navier-stokes/monograph-V6-tandem-crosswalk.yaml
+  - problems/navier-stokes/nonlinear-closure-discharge-source-pack.md
+  - problems/navier-stokes/cascade-after-monotone-bridge-source-pack.md
+  - problems/navier-stokes/proof-source-pack.md
+  - problems/navier-stokes/marvin-v6-tandem-crosswalk.yaml
+  - problems/navier-stokes/energy-insufficiency-source-pack.md
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/energy-insufficiency-lemma.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/scale-barrier-tail-lemma.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/compactness-upgrade-lemma.md"
+  - problems/navier-stokes/closure-audit-source-pack.md
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/closure-package.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/ns-closure-surfaces.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/d6b-prime-global-coercivity.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-frontier.yaml"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
+  - problems/navier-stokes/NS working note - reconstruction method and thinking training.md
+  - problems/navier-stokes/scale-barrier-tail-discharge-source-pack.md
+  - problems/navier-stokes/scale-barrier-source-pack.md
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/bridge-memos/scale-barrier.md"
+  - problems/navier-stokes/compactness-discharge-source-pack.md
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-construction/nonlinear-compactness-upgrade-operator.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/nonlinear-closure-discharge-source-pack.md"
+  - problems/navier-stokes/v6-four-bridge-source-note.md
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/proof-source-pack.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/authoritative-source-discovery.yaml"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/theorem-to-warrant.yaml"
+  matched_paths:
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-frontier.yaml"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/persistent-carrier-projector-and-coercivity.md"
+  - problems/navier-stokes/marvin-ingest-notes.yaml
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/braided-defect-readout-principle.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/clay-shared-core-theorem-library.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ns-ymg-hodge-priority-braids-note.md"
+  - "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ns-ymg-hodge-shared-runner-transfer-note.md"
+  evidence_hits:
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/frozen-core.md"
+    line: 25
+    score: 15
+    label_overlap: 3
+    from_overlap: 3
+    to_overlap: 0
+    excerpt: "- + spectral floor on K_D^\\perp (`lemma`; `marvin-upstream-269065c546af`)"
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/problems/navier-stokes/source-frontier.yaml"
+    line: 79
+    score: 15
+    label_overlap: 3
+    from_overlap: 3
+    to_overlap: 0
+    excerpt: 'label: "+ spectral floor on K_D^\\perp"'
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/persistent-carrier-projector-and-coercivity.md"
+    line: 701
+    score: 15
+    label_overlap: 3
+    from_overlap: 3
+    to_overlap: 0
+    excerpt: "- the spectral floor on `K_D^\\perp \\cap ker(\\delta_D)`,"
+  - path: problems/navier-stokes/marvin-ingest-notes.yaml
+    line: 2703
+    score: 15
+    label_overlap: 3
+    from_overlap: 3
+    to_overlap: 0
+    excerpt: 'label: "+ spectral floor on K_D^\\perp"'
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/braided-defect-readout-principle.md"
+    line: 42
+    score: 10
+    label_overlap: 2
+    from_overlap: 2
+    to_overlap: 0
+    excerpt: "- spectral-floor persistence in `YMG`,"
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/clay-shared-core-theorem-library.md"
+    line: 53
+    score: 10
+    label_overlap: 2
+    from_overlap: 2
+    to_overlap: 0
+    excerpt: "- `YMG`: spectral-floor persistence on the carrier complement"
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ns-ymg-hodge-priority-braids-note.md"
+    line: 81
+    score: 10
+    label_overlap: 2
+    from_overlap: 2
+    to_overlap: 0
+    excerpt: controlled by no-leakage and spectral floor;
+  - path: "/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ns-ymg-hodge-shared-runner-transfer-note.md"
+    line: 119
+    score: 10
+    label_overlap: 2
+    from_overlap: 2
+    to_overlap: 0
+    excerpt: so the spectral floor is visibly realized on the gauge-invariant witness
+  support_score: 100
+  signal_strength: strong
+bridge_packet:
+  bridge_statement: Discharge the local bridge for + spectral floor on K_D^\perp without
+    crossing the current safe-claim boundary.
+  mediating_object: local mediating object still needs to stay explicit on the same
+    theorem surface
+  matched_branch_hypothesis: 
+  matched_object_formalization: false
+  discharge_basis: 'Keep the discharge on the same theorem surface as `+ spectral
+    floor on K_D^\perp`. Current source signal strength: strong.'
+authority_guard: 
+recommendation:
+  outcome: no-promotion
+  rationale: Local source evidence exists, but it is not yet specific enough to promote
+    this obligation beyond `unresolved` safely.
+  next_action: Reopen backbone-build if needed, then rerun solver-loop once a sharper
+    local bridge or source anchor has been added for `+ spectral floor on K_D^\perp`.
+summary:
+  target_obligation_id: marvin-upstream-269065c546af
+  target_kind: lemma
+  status_before: unresolved
+  status_after: unresolved
+  matched_path_count: 8
+mode: discharge

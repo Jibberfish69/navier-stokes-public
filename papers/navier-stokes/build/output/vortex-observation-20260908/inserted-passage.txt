@@ -1,0 +1,16 @@
+Physically, we never witness a singularity in a real fluid. What we actually
+see is a vortex spinning faster and faster, getting thinner and thinner as
+it stretches, until it dissipates into the surrounding fluid and disappears
+altogether.
+
+So the intuition is that, perhaps, as the vortex thins out and speeds up,
+viscosity does something that allows it to overcome the nonlinear transport.
+The behavior we observe gives us a reason to look for that effect as the
+radius gets smaller.
+
+But the equations describe an idealized continuum, with no minimum radius
+built into the model. We have to allow for the possibility that the vortex
+keeps narrowing toward an infinitesimally small radius. To study what happens
+there, we rescale the equations and examine how viscosity and nonlinear
+transport behave as the vortex becomes smaller and faster.
+

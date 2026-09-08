@@ -1,0 +1,50 @@
+---
+version: 1
+status: resolved
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  escalation_id: governance-escalation-navier-stokes
+  requested_by_chat_id: chat2
+  emitted_at: '2026-03-22T00:25:24Z'
+classification:
+  kind: shared-system-repair
+  severity: high
+  summary: 'Lane supervisor hit KeyError: rationale after dependency-discharge replay.
+    Runtime is attention-required and the current code fingerprint is stale relative
+    to the loaded fingerprint; suspect shared runner event/governance handling around
+    dependency-discharge and backbone-gap generation.'
+  reason_signature: f88c71885a9886c439e13bd2a3c75ed0656b90c1
+repair_surface:
+  suspect_paths:
+  - system/runner/workers/dependency_discharge_worker.rb
+  - system/runner/lib/backbone_gap_builder.rb
+  code_fingerprint_at_emit: a1219aec09be40e2167b913d0620ba67f46cea31
+lane_snapshot:
+  queue_state: leased
+  current_stage: dependency-discharge-stalled
+  next_cell_type: dependency-discharge
+  next_action: 'Governor reroute: run dependency-discharge now so open obligations
+    are worked on the exact theorem-crank cell instead of cycling across adjacent
+    stages.'
+  blocking_reasons: []
+resume:
+  current_stage: dependency-discharge-stalled
+  next_cell_type: dependency-discharge
+  next_action: 'Governor reroute: run dependency-discharge now so open obligations
+    are worked on the exact theorem-crank cell instead of cycling across adjacent
+    stages.'
+open_paths:
+  pipeline_state: problems/navier-stokes/pipeline-state.yaml
+  supporting_artifacts:
+    debt_map: problems/navier-stokes/debt-map.yaml
+    theorem_packet: problems/navier-stokes/theorem-packet.yaml
+    proof_obligation_matrix: problems/navier-stokes/proof-obligation-matrix.yaml
+    source_frontier: problems/navier-stokes/source-frontier.yaml
+    proof_assembly: problems/navier-stokes/proof-assembly.yaml
+    review_verdict: problems/navier-stokes/review-verdict.yaml
+resolution:
+  resolved_at: '2026-03-22T22:04:03Z'
+  resolved_by_chat_id: 
+  resolution_kind: shared-code-changed-and-lane-advanced
+  current_code_fingerprint: 39cd2d005cb8f24f407c1fce8485233808f2505d

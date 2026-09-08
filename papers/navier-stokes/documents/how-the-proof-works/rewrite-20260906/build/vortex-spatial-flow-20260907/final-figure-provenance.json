@@ -1,0 +1,6 @@
+{
+  "method": "Built-in image generation removed the rejected internal ribbons; the cleaned geometry was reconstructed with native TeX contours, arcs, arrows and labels. The final PDF contains vector linework only.",
+  "reference_image": "core-without-ribbons.png",
+  "prompt": "Edit the supplied scientific schematic for a mathematical paper. Remove ALL helical ribbons, paired wavy interior lines, and short extraneous marks inside both end ellipses. Retain only the outer material-tube contour (two perspective end ellipses connected by the two straight dotted boundary lines), the single straight axial arrow, and the single curved circumferential arrow outside the right end. Preserve the current positions and perspective geometry so existing separately typeset labels still align. All interior space must be completely empty white except for the straight axial arrow. Use pure black, smooth precise thin linework on pure white. No shading, no pale texture, no gray background, no added text, no additional arrows or marks.",
+  "final_source": "../../figures/vortex-stretching-notation.tex"
+}

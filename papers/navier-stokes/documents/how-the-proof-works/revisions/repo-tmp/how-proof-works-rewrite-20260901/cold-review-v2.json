@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "review_kind": "cold_reader",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/critic-packet-v2.json",
+    "sha256": "029fd283903d080d7c994939a7d7c3a70eb0a6aced603c2d71a1445cc4c8565b"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/draft-v2.tex",
+    "sha256": "9f74ed3df7d6fc181b7a4059d86875296ff3e3acf1436cdb8471f1f3ad397ce7"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v2/page-1.png",
+      "sha256": "0e26a3434da91f1325f710c0d1344c4dcd2ad48728666b519bf503a541387117"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v2/page-2.png",
+      "sha256": "18adb4602bbf4940b6d9eb2994628fa0eb31cfc3f0e10b06e06ade5971950a48"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v2/page-3.png",
+      "sha256": "59b9d483b74fee78f420a17b4dcd7a5de27afacc157950e4fc8b3f2fb4003ee4"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v2/page-4.png",
+      "sha256": "a03b7ef7a005255c69ce433451614ab5aa2e1f8912498f309d3ef3efe1113760"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/cold_reader_v2",
+    "task_name": "cold_reader_v2",
+    "isolation": "fork_none",
+    "request_nonce": "73c29b769fcb4ce2b2234a04df94af86"
+  },
+  "decision": {
+    "verdict": "fail",
+    "first_divergence": {
+      "exact_span": "The derivative tower begins by asking what an unbounded change in velocity would have to do in the time left.",
+      "mechanism": "The geometric-series calculation has shown only that a hypothetical sequence of shrinking viscous intervals can accumulate before a finite time. It has not connected core concentration to unbounded velocity, so this sentence changes objects and introduces the temporal tower by outline order instead of by a consequence available to the reader.",
+      "repair_constraint": "Before beginning the temporal tower, establish the missing implication from the finite-time concentration scenario to the particular velocity quantity whose unboundedness forces successive temporal responses. If the proof concerns a norm or derivative rather than u itself, name that quantity and carry it through the fundamental-theorem-of-calculus step."
+    }
+  }
+}

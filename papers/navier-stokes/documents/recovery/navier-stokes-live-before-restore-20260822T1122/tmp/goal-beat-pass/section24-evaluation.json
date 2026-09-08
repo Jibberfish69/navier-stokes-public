@@ -1,0 +1,92 @@
+{
+  "task_id": "task-f920bf0df32898c5",
+  "task_sha256": "f3a8d70d8ff531065358f5de0fa6f0bcd7ff326d53caa1a4d2638154698839a5",
+  "prediction_sha256": "8c5d926084716a747024ebf19a7ec7b9ed9ae25b5345e106571cd2f76e5186ac",
+  "candidate_sha256": "3047678a3e774ab7bc944291e60266b9bdc10d273f4886f6de8ba9110cf3f2d9",
+  "selected_move_id": "user-fixed-spatial-ascent-to-rectangles",
+  "producer_id": "root-manuscript-author-section2-v3",
+  "evaluator_id": "independent-section2-voice-reader-math-gates-v2",
+  "dimensions": {
+    "task_fidelity": {
+      "status": "pass",
+      "evidence": "The finished passage realizes critical-height derivatives expose higher spatial energies, every temporal row gains a ladder, and the mixed grid becomes finite rectangles; the reader reaches Section 3 with the exact whole-terminal compatible-rectangle burden."
+    },
+    "work_advancement": {
+      "status": "pass",
+      "evidence": "The live manuscript now carries the full movement in finished prose and equations rather than an outline or a promised revision."
+    },
+    "structural_meshing": {
+      "status": "pass",
+      "evidence": "The passage inherits the reader state created immediately before it and leaves the precise need taken up immediately after it."
+    },
+    "bridge_quality": {
+      "status": "pass",
+      "evidence": "Each formal object arrives from the consequence established just before it and changes what the reader needs next."
+    },
+    "enrichment_control": {
+      "status": "pass",
+      "evidence": "Added qualifications protect the one-fluid object, comparison scope, and exact identities without opening unrelated proof administration."
+    },
+    "intellectual_value": {
+      "status": "pass",
+      "evidence": "The passage makes a load-bearing causal relation visible rather than listing familiar Navier--Stokes objects."
+    },
+    "authorial_completion": {
+      "status": "pass",
+      "evidence": "The entrance, internal development, mathematical payment, and exit are all present; no prose-design choice is handed back to Thomas."
+    },
+    "thought_selection": {
+      "status": "pass",
+      "evidence": "The selected thought is the user-owned movement for this subsection, with no substitute mechanism or neighboring route."
+    },
+    "direct_object_fidelity": {
+      "status": "pass",
+      "evidence": "Every statement remains attached to the same fixed-viscosity velocity field or to an explicitly marked comparison family."
+    },
+    "connection": {
+      "status": "pass",
+      "evidence": "The passage preserves the causal order fixed by Thomas and makes the final sentence create the next section-level need."
+    },
+    "development": {
+      "status": "pass",
+      "evidence": "The prose develops the meaning of the displayed mathematics before advancing to the next abstraction."
+    },
+    "development_sufficiency": {
+      "status": "pass",
+      "evidence": "Every selected step has an entrance, mathematical or physical development, and a consequence that earns the next step."
+    },
+    "expression": {
+      "status": "pass",
+      "evidence": "The prose is direct and causal, uses no explicit organizing questions, and contains no material-jerk detour."
+    },
+    "nuance": {
+      "status": "pass",
+      "evidence": "The text distinguishes exact identities from possible dynamics, exposed coordinates from proved bounds, and comparison scaling from actual history."
+    },
+    "understanding": {
+      "status": "pass",
+      "evidence": "The mathematical objects, their roles, and the limits of each implication are stated in the same order in which the reader needs them."
+    },
+    "authorship": {
+      "status": "pass",
+      "evidence": "The passage makes the missing selections and connections inside Thomas's fixed argument instead of imitating isolated surface phrases."
+    },
+    "reader_continuity": {
+      "status": "pass",
+      "evidence": "No topic arrives before its need has been created, and no transition repeats a beat already completed."
+    },
+    "deeper_connections_and_thoughts": {
+      "status": "pass",
+      "evidence": "The local mechanism is carried far enough to alter the next proof object rather than ending as explanatory background."
+    },
+    "sample_content_leakage": {
+      "status": "pass",
+      "evidence": "The candidate is grounded in the live manuscript and user-owned movement; no bounded writing sample has been copied into it."
+    },
+    "confidence_calibration": {
+      "status": "pass",
+      "evidence": "This pass records candidate-level voice and beat fidelity only; it does not record Thomas's acceptance of the prose."
+    }
+  },
+  "verdict": "pass"
+}

@@ -1,0 +1,287 @@
+{
+  "field_resolutions": [],
+  "reader_start": "the reader knows what smoothness and continuation mean but does not yet know why they produce the standard estimate method",
+  "live_pressure": "keep the Sobolev smoothness argument as the section's governing destination, develop the calculation inside that purpose, and land on the exact missing global strong bound",
+  "candidate_moves": [
+    {
+      "move_id": "user-fixed-gold-discovery",
+      "move": {
+        "selection": "Continuation demands a finite strong bound; Sobolev explains what that bound buys; energy gives the first payment; one derivative exposes a larger nonlinear bill; Gold is the unresolved task of paying every bill from the original equations.",
+        "connection": "let continuation create the need for a measurable bound, let Sobolev give that bound a smoothness destination, and let each earned estimate create the need for the next calculation",
+        "development": "seed the full Sobolev destination before the calculation, derive and interpret energy and the first gradient estimate, separate an expired ceiling from fluid blow-up, then complete the high-order, pressure, and time recovery at the landing",
+        "expression": "use candid direct prose, ordinary causal verbs, short turns at genuine pressure points, and exact displays whose purpose is stated in the surrounding sentences"
+      },
+      "layer_status": {
+        "selection": "present",
+        "connection": "present",
+        "development": "present",
+        "expression": "present"
+      },
+      "reader_change": "the reader discovers the Gold method from the continuation requirement and can identify both the Sobolev destination and the exact unpaid estimate",
+      "next_possibility": "the difficulty of finding the missing estimate makes an alternative proof method intelligible without the Gold subsection announcing it",
+      "content_basis": [
+        "live-input"
+      ],
+      "sequence": [
+        {
+          "step_id": "continuation",
+          "thought": "use short-time existence and continuation to generate the need for one global strong bound",
+          "connection": "the preceding definitions become a proof burden only when applied to the same local solution",
+          "reader_start": "the reader knows what smoothness and continuation mean but does not yet know why they produce the standard estimate method",
+          "reader_end": "the reader sees why the all-time requirement creates a direct a priori-control strategy",
+          "content_basis": [
+            "live-input"
+          ]
+        },
+        {
+          "step_id": "sobolev-destination",
+          "thought": "state how a finite Sobolev order buys finitely many continuous derivatives and why all finite orders are the spatial smoothness target",
+          "connection": "the required strong bound needs a precise mathematical payoff before any calculation can be judged",
+          "reader_start": "the reader sees why the all-time requirement creates a direct a priori-control strategy",
+          "reader_end": "the reader knows what one Sobolev bound buys and how the full spatial target reaches smoothness",
+          "content_basis": [
+            "live-input"
+          ]
+        },
+        {
+          "step_id": "energy",
+          "thought": "derive the basic energy identity and interpret the pointwise kinetic-energy control and accumulated gradient payment",
+          "connection": "the Sobolev destination makes the first estimate's exact contribution meaningful",
+          "reader_start": "the reader knows what one Sobolev bound buys and how the full spatial target reaches smoothness",
+          "reader_end": "the reader sees why the energy identity is real progress and why pointwise gradient control is still missing",
+          "content_basis": [
+            "live-input"
+          ]
+        },
+        {
+          "step_id": "first-climb",
+          "thought": "raise the calculation one derivative until nonlinear transport leaves the cubic Y cost after viscous absorption",
+          "connection": "the missing pointwise gradient control creates the need for the differentiated estimate",
+          "reader_start": "the reader sees why the energy identity is real progress and why pointwise gradient control is still missing",
+          "reader_end": "the reader can place the earned integral of Y beside the newly demanded integral of Y cubed",
+          "content_basis": [
+            "live-input"
+          ]
+        },
+        {
+          "step_id": "status",
+          "thought": "use spikes and the scalar ceiling to show what the estimate fails to rule out without claiming actual fluid blow-up",
+          "connection": "the mismatch needs both an ordinary picture and an exact statement of its limited force",
+          "reader_start": "the reader can place the earned integral of Y beside the newly demanded integral of Y cubed",
+          "reader_end": "the reader understands that the bound has expired while the fluid's behavior remains unsettled",
+          "content_basis": [
+            "live-input"
+          ]
+        },
+        {
+          "step_id": "bootstrap",
+          "thought": "show how one secured base bound above the Lipschitz threshold propagates each higher Sobolev order and then recovers pressure and time derivatives",
+          "connection": "the failed example must return to the full smoothness destination and distinguish the one missing base payment from the consequences it would unlock",
+          "reader_start": "the reader understands that the bound has expired while the fluid's behavior remains unsettled",
+          "reader_end": "the reader sees how a first global strong bound would propagate into the full spacetime velocity-pressure smoothness requirement",
+          "content_basis": [
+            "live-input"
+          ]
+        },
+        {
+          "step_id": "gold-burden",
+          "thought": "name the Gold Standard Proof after the reader has performed its reasoning and land on viscosity's unpaid nonlinear bill",
+          "connection": "the method's name and burden are now earned by the complete continuation-to-estimate movement",
+          "reader_start": "the reader sees how a first global strong bound would propagate into the full spacetime velocity-pressure smoothness requirement",
+          "reader_end": "the reader knows what Sobolev control buys, how it reaches spacetime smoothness, what the energy identity controls, why the Y-cubed cost is unpaid, and what a Gold proof still has to establish",
+          "content_basis": [
+            "live-input"
+          ]
+        }
+      ],
+      "evidence_uses": [
+        {
+          "record_id": "decision-live-obstacle-before-label-001",
+          "source_move_id": "move-from-live-obstacle",
+          "relation": "supports",
+          "applicability_reason": "The continuation gap must create the method before the Gold label arrives."
+        },
+        {
+          "record_id": "decision-carry-established-thought-forward-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The subsection must spend the definitions established in Section 1.2 instead of resetting them."
+        },
+        {
+          "record_id": "decision-unfold-causal-relations-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The reader needs to see how continuation creates estimates and how each estimate creates the next need."
+        },
+        {
+          "record_id": "decision-name-operational-objects-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "Sobolev norms, Y, and the comparison ceiling must perform visible jobs before abstraction accumulates."
+        },
+        {
+          "record_id": "decision-earn-technical-language-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "A priori, bootstrap, and Gold terminology must arrive after their ordinary mathematical actions are understood."
+        },
+        {
+          "record_id": "decision-preserve-discovery-order-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The user fixed the order from requirements through Sobolev purpose and calculation to the unpaid burden."
+        },
+        {
+          "record_id": "decision-generate-expression-from-thought-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The prose must transfer the author's causal movement without copying Section 1.4's surface phrases."
+        },
+        {
+          "record_id": "decision-use-reader-shared-language-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "Ordinary ideas of buying control and an estimate running out must carry the formal inequalities."
+        },
+        {
+          "record_id": "decision-develop-to-reader-change-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The subsection cannot stop until the reader can state both the Sobolev payoff and the missing Gold bound."
+        },
+        {
+          "record_id": "decision-keep-example-inside-idea-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The energy-to-gradient calculation must demonstrate the method's difficulty without becoming the section's whole architecture."
+        },
+        {
+          "record_id": "decision-repair-exact-referent-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The repair is specifically to Section 1.3 and to the role of its inserted Sobolev argument."
+        },
+        {
+          "record_id": "observation-reader-led-concept-before-formal-name-001",
+          "source_move_id": "observed-move",
+          "relation": "supports",
+          "applicability_reason": "The reader should perform the Gold reasoning before receiving the formal method name."
+        },
+        {
+          "record_id": "decision-preserve-local-movement-role-001",
+          "source_move_id": "preserve-local-movement-and-role",
+          "relation": "supports",
+          "applicability_reason": "The subsection's local job is to generate Gold from the requirements, not to seize Silver's later discovery."
+        },
+        {
+          "record_id": "decision-separate-internal-inquiry-from-written-interrogative-001",
+          "source_move_id": "hold-inquiry-realize-declaratively",
+          "relation": "supports",
+          "applicability_reason": "The prose can be organized by what each estimate must buy without turning those planning questions into repeated written interrogatives."
+        },
+        {
+          "record_id": "decision-sentence-possesses-complete-thought-001",
+          "source_move_id": "make-the-payload-carry-the-thought",
+          "relation": "supports",
+          "applicability_reason": "Causal connectives must join complete propositions rather than hide unfinished claims."
+        }
+      ],
+      "risks": [
+        "the Sobolev statement could read like a late textbook insertion",
+        "the energy derivation could seize the section",
+        "the scalar comparison could be mistaken for a blow-up result",
+        "the prose could surface-copy the handwritten Silver subsection",
+        "the pressure and time recovery could remain hand-waved"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "chosen_move_id": "user-fixed-gold-discovery",
+  "choice_reason": "The user fixed this exact movement after correcting the previous attempts, and it gives the Sobolev argument the necessary governing role without altering the established mathematical content.",
+  "rejected_move_ids": [],
+  "evidence_dispositions": [
+    {
+      "record_id": "decision-live-obstacle-before-label-001",
+      "status": "used",
+      "reason": "Continuation creates the proof method before its label."
+    },
+    {
+      "record_id": "decision-carry-established-thought-forward-001",
+      "status": "used",
+      "reason": "The subsection inherits smoothness and continuation from Section 1.2."
+    },
+    {
+      "record_id": "decision-unfold-causal-relations-001",
+      "status": "used",
+      "reason": "The section must develop the necessity chain rather than compress it."
+    },
+    {
+      "record_id": "decision-name-operational-objects-001",
+      "status": "used",
+      "reason": "The formal objects need concrete jobs in the argument."
+    },
+    {
+      "record_id": "decision-earn-technical-language-001",
+      "status": "used",
+      "reason": "Method and bootstrap language should confirm understanding after the action is visible."
+    },
+    {
+      "record_id": "decision-preserve-discovery-order-001",
+      "status": "used",
+      "reason": "The user's corrected order is fixed."
+    },
+    {
+      "record_id": "decision-generate-expression-from-thought-001",
+      "status": "used",
+      "reason": "Voice must come from the thought movement rather than phrase imitation."
+    },
+    {
+      "record_id": "decision-use-reader-shared-language-001",
+      "status": "used",
+      "reason": "Plain causal language is required around the technical estimates."
+    },
+    {
+      "record_id": "decision-develop-to-reader-change-001",
+      "status": "used",
+      "reason": "The reader must reach the exact Sobolev and Gold conclusions."
+    },
+    {
+      "record_id": "decision-keep-example-inside-idea-001",
+      "status": "used",
+      "reason": "The calculation serves the larger Gold argument."
+    },
+    {
+      "record_id": "decision-repair-exact-referent-001",
+      "status": "used",
+      "reason": "This rewrite repairs the live Section 1.3 and the exact role of its Sobolev content."
+    },
+    {
+      "record_id": "decision-generalize-to-writing-faculty-001",
+      "status": "not_applicable",
+      "reason": "The live task is manuscript writing rather than evidence-model generalization."
+    },
+    {
+      "record_id": "observation-reader-led-concept-before-formal-name-001",
+      "status": "used",
+      "reason": "The method name should follow the reader's discovery."
+    },
+    {
+      "record_id": "decision-preserve-local-movement-role-001",
+      "status": "used",
+      "reason": "Section 1.3 must perform its own local job without taking over Section 1.4."
+    },
+    {
+      "record_id": "decision-separate-internal-inquiry-from-written-interrogative-001",
+      "status": "used",
+      "reason": "The planning questions should become declarative causal prose."
+    },
+    {
+      "record_id": "decision-sentence-possesses-complete-thought-001",
+      "status": "used",
+      "reason": "Each sentence must close its own mathematical point."
+    }
+  ],
+  "uncertainties": [
+    "The voice evidence supports the movement at hypothesis-level confidence, so Thomas's judgment remains the authority on the realized prose."
+  ]
+}

@@ -1,0 +1,1217 @@
+\section{Three-dimensional applications}
+\label{sec:three-dimensional-applications}
+
+\subsection{Explicit closure for small critical data}
+
+The construction below gives an explicit three-dimensional
+\(\dot H^{1/2}\) realization of the critical-data mechanism introduced by
+Fujita and Kato \cite{FujitaKato1964}; every constant used here is derived
+in the displayed estimates.
+
+Use the explicit homogeneous Sobolev constants
+\[
+ \mathsf S_3:=\mathsf S(3),
+ \qquad
+ C_{\rm src}:=\mathsf S_3^3=\frac1{\sqrt2\,\pi}.
+\]
+These constants hold for vector fields.  Indeed, apply the scalar
+inequality to the Euclidean length \(|F|\): one has
+\(|\nabla|F||\le|\nabla F|\), while the difference-quotient representation of
+\(\dot H^{1/2}\) and
+\(\bigl||F(x)|-|F(y)|\bigr|\le|F(x)-F(y)|\) give
+\(\norm{|F|}_{\dot H^{1/2}}\le\norm F_{\dot H^{1/2}}\).
+
+\begin{lemma}[Critical action identity]
+\label{lem:app-critical-action-identity}
+Let \((u,p)\) be a smooth pressure-normalized solution on a time interval
+\(I\subset[0,T_*)\), and set
+\[
+ \mathcal B(u):=\Pp\nabla\!\cdot(u\otimes u).
+\]
+Then, pointwise on \(I\),
+\begin{equation}
+ \nu\frac{\dd}{\dd t}\norm{u}_{\dot H^{1/2}}^2
+ +\nu^2\norm{u}_{\dot H^{3/2}}^2
+ +\norm{u_t}_{\dot H^{-1/2}}^2
+ =\norm{\mathcal B(u)}_{\dot H^{-1/2}}^2.
+ \label{eq:app-critical-action-identity}
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+The projected equation is
+\[
+ u_t=-\nu\Lambda^2u-\mathcal B(u).
+\]
+Put
+\[
+ g:=\Lambda^{-1/2}\mathcal B(u),
+ \qquad
+ w:=\Lambda^{-1/2}u_t=-\nu\Lambda^{3/2}u-g.
+\]
+Pairing the projected equation with \(\Lambda u\) gives
+\[
+ \frac{\dd}{\dd t}\norm u_{\dot H^{1/2}}^2
+ =-2\nu\norm u_{\dot H^{3/2}}^2
+  -2\operatorname{Re}\ip g{\Lambda^{3/2}u}_2.
+\]
+Multiply this equality by \(\nu\) and expand
+\(\norm w_2^2=\norm{\nu\Lambda^{3/2}u+g}_2^2\).
+The cross terms cancel and give
+\eqref{eq:app-critical-action-identity}.
+\end{proof}
+
+For \(m\in\N\), define the explicit homogeneous commutator constant
+\begin{equation}
+ \mathsf K_m^{\rm hom}:=
+ 3^m\sum_{\ell=1}^m\binom m\ell
+ \mathsf S(\mathfrak p_{m,\ell})\mathsf S(\mathfrak q_{m,\ell}),
+ \label{eq:app-explicit-homogeneous-commutator-constant}
+\end{equation}
+where \((\mathfrak p_{1,1},\mathfrak q_{1,1})=(3,6)\), and, for \(m\ge2\),
+\[
+ \vartheta_{m,\ell}:=\frac{\ell-1}{m-1},
+ \qquad
+ \frac1{\mathfrak p_{m,\ell}}:=\frac13-\frac{\vartheta_{m,\ell}}6,
+ \qquad
+ \frac1{\mathfrak q_{m,\ell}}:=\frac16+\frac{\vartheta_{m,\ell}}6.
+\]
+The corresponding estimate is
+\begin{equation}
+ \abs{\operatorname{Re}
+ \ip{\Lambda^m\Pp\nabla\!\cdot(z\otimes z)}
+     {\Lambda^mz}_{L^2}}
+ \le
+ \mathsf K_m^{\rm hom}
+ \norm{\Lambda^{3/2}z}_2
+ \norm{\Lambda^mz}_2
+ \norm{\Lambda^{m+1}z}_2
+ \label{eq:app-high-order-critical-commutator}
+\end{equation}
+for every \(z\in\SSigma(\R^3)\).
+
+\begin{lemma}[Explicit homogeneous critical commutator]
+\label{lem:app-critical-commutator}
+For every \(m\in\N\), \(\mathsf K_m^{\rm hom}<\infty\), and
+\eqref{eq:app-high-order-critical-commutator} holds with the displayed
+constant.
+Moreover, \eqref{eq:app-high-order-critical-commutator} extends to every
+divergence-free
+\(z\in H^{m+1}(\R^3)\cap\dot H^{3/2}(\R^3)\).
+\end{lemma}
+
+\begin{proof}
+The multinomial identity gives the exact pairing
+\[
+ \ip{\Lambda^mf}{\Lambda^mg}_{L^2}
+ =
+ \sum_{|\alpha|=m}\frac{m!}{\alpha!}
+ \ip{\partial^\alpha f}{\partial^\alpha g}_{L^2}.
+\]
+After differentiating \((z\cdot\nabla)z\), the undifferentiated transport
+term has zero pairing by incompressibility.  A remaining term has the form
+\[
+ \ip{(\partial^\beta z\cdot\nabla)
+          \partial^{\alpha-\beta}z}
+      {\partial^\alpha z}_{L^2},
+ \qquad
+ |\alpha|=m,\quad 0<\beta\le\alpha.
+\]
+Put \(\ell=|\beta|\).  For \(m\ge2\), H\"older's inequality,
+Lemma~\ref{lem:explicit-homogeneous-sobolev}, and Fourier log-convexity give
+\begin{align*}
+ &\norm{\partial^\beta z}_{\mathfrak p_{m,\ell}}
+ \norm{\nabla\partial^{\alpha-\beta}z}_{\mathfrak q_{m,\ell}}\\
+ &\quad\le
+ \mathsf S(\mathfrak p_{m,\ell})
+ \mathsf S(\mathfrak q_{m,\ell})
+ \norm z_{\dot H^{3/2}}\norm z_{\dot H^{m+1}}.
+\end{align*}
+Indeed, the two differentiated Sobolev orders are the complementary
+interpolants
+\begin{align*}
+ \ell+s(\mathfrak p_{m,\ell})
+ &=(1-\vartheta_{m,\ell})\frac32
+   +\vartheta_{m,\ell}(m+1),\\
+ m-\ell+1+s(\mathfrak q_{m,\ell})
+ &=\vartheta_{m,\ell}\frac32
+   +(1-\vartheta_{m,\ell})(m+1).
+\end{align*}
+For \(m=1\), this bound is the direct \(L^3\)-\(L^6\) estimate.
+Finally,
+\[
+ \sum_{|\alpha|=m}\frac{m!}{\alpha!}=3^m,
+ \qquad
+ \sum_{\substack{\beta\le\alpha\\|\beta|=\ell}}
+ \binom\alpha\beta=\binom m\ell.
+\]
+Summation gives exactly
+\eqref{eq:app-explicit-homogeneous-commutator-constant} and proves
+\eqref{eq:app-high-order-critical-commutator}.
+Solenoidal Fourier truncation and convergence in
+\(H^{m+1}\cap\dot H^{3/2}\) give the asserted extension.
+\end{proof}
+
+\begin{theorem}[Explicit small-critical-data global regularity]
+\label{thm:app-small-critical-global}
+Let \(\nu>0\) and \(a\in\SSigma(\R^3)\).
+Set
+\[
+ a_{\rm c}:=\norm{\Lambda^{1/2}a}_2,
+ \qquad
+ \delta_0:=\nu^2-C_{\rm src}^2a_{\rm c}^2.
+\]
+If
+\begin{equation}
+ a_{\rm c}<\frac{\nu}{C_{\rm src}}=\sqrt2\,\pi\nu,
+ \label{eq:app-critical-smallness}
+\end{equation}
+then \(a\) generates a unique global pressure-normalized smooth solution
+\[
+ (u,p)\in C^\infty([0,\infty)\times\R^3;\R^3\times\R).
+\]
+For every finite \(T>0\), the solution is the unique member of
+\(\mathscr M_\nu^3(0,T;a)\).
+For every \(t\ge0\),
+\begin{equation}
+ \nu\norm{\Lambda^{1/2}u(t)}_2^2
+ {}+\delta_0\int_0^t\norm{\Lambda^{3/2}u(s)}_2^2\dd s
++\int_0^t\norm{u_t(s)}_{\dot H^{-1/2}}^2\dd s
+ \le\nu a_{\rm c}^2,
+ \qquad \delta_0>0.
+ \label{eq:app-critical-stock-action}
+\end{equation}
+The critical nonlinear source and the first temporal response satisfy
+\begin{align}
+ \int_0^\infty
+ \norm{\Pp\nabla\!\cdot(u\otimes u)(t)}_{\dot H^{-1/2}}^2\dd t
+ &\le \frac{C_{\rm src}^2\nu a_{\rm c}^4}{\delta_0}
+ =\frac{\nu a_{\rm c}^4}{2\pi^2\nu^2-a_{\rm c}^2},
+ \label{eq:app-small-critical-nonlinear-bound}\\
+ \nu^2\int_0^\infty\norm{\Lambda^{3/2}u(t)}_2^2\dd t
+ +\int_0^\infty\norm{u_t(t)}_{\dot H^{-1/2}}^2\dd t
+ &\le \nu a_{\rm c}^2+\frac{C_{\rm src}^2\nu a_{\rm c}^4}{\delta_0}.
+ \label{eq:app-small-first-temporal-response}
+\end{align}
+For every \(m\in\N\), define
+\[
+ \Gamma_m^{\rm sm}
+ :=\frac{(\mathsf K_m^{\rm hom})^2a_{\rm c}^2}{\delta_0}.
+\]
+Then
+\begin{align}
+ &\norm{\Lambda^mu(t)}_2^2
+ +\nu\int_0^t\norm{\Lambda^{m+1}u(s)}_2^2\dd s
+ \notag\\
+ &\qquad\le
+ \norm{\Lambda^ma}_2^2\exp(\Gamma_m^{\rm sm}).
+ \label{eq:app-small-data-finite-order}
+\end{align}
+In particular,
+\begin{equation}
+ \sup_{t\ge0}\norm{u(t)}_{H^m}^2
+ \le
+ 2^{m-1}\left[
+ \norm a_2^2+
+ \norm{\Lambda^ma}_2^2\exp(\Gamma_m^{\rm sm})
+ \right].
+ \label{eq:app-small-data-Hm}
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+Iterate Theorem~\ref{thm:local-restart} and join overlapping intervals by
+its at-most-one assertion for the shifted mild class.  The union is the
+maximal shifted pressure-normalized \(H^3\) mild history on \([0,T_*)\), and
+persistence retains \(H^\infty\) on
+every compact subinterval.  Put
+\[
+ A(t):=\norm{\Lambda^{1/2}u(t)}_2,
+ \qquad
+ B(t):=\norm{\Lambda^{3/2}u(t)}_2.
+\]
+ Dual Sobolev, H\"older, and the unit Fourier-multiplier norm of \(\Pp\)
+give the complete source-constant chain
+\begin{align}
+ \norm{\Pp\nabla\!\cdot(u\otimes u)}_{\dot H^{-1/2}}
+ &\le \mathsf S_3\norm{(u\cdot\nabla)u}_{L^{3/2}}
+ \notag\\
+ &\le \mathsf S_3\norm u_{L^3}\norm{\nabla u}_{L^3}
+ \notag\\
+ &\le \mathsf S_3^3
+      \norm{\Lambda^{1/2}u}_2
+      \norm{\Lambda^{3/2}u}_2
+ =C_{\rm src}A(t)B(t).
+ \label{eq:app-critical-source-constant-chain}
+\end{align}
+Combining \eqref{eq:app-critical-source-constant-chain} with the exact
+identity \eqref{eq:app-critical-action-identity} gives, on every classical
+subinterval,
+\[
+ \nu\frac{\dd}{\dd t}A(t)^2
+ +\bigl(\nu^2-C_{\rm src}^2A(t)^2\bigr)B(t)^2
+ +\norm{u_t(t)}_{\dot H^{-1/2}}^2\le0.
+\]
+Continuity and a first-exit argument give \(A(t)\le a_{\rm c}\) throughout
+\([0,T_*)\).  Integration and the definition of \(\delta_0\) prove
+\eqref{eq:app-critical-stock-action}.  In particular,
+\[
+ \int_0^tB(s)^2\dd s\le\frac{\nu a_{\rm c}^2}{\delta_0}.
+\]
+For every \(t<T_*\), this source estimate and the integrated identity
+\eqref{eq:app-critical-action-identity} prove
+\eqref{eq:app-small-critical-nonlinear-bound} and
+\eqref{eq:app-small-first-temporal-response} with \(\infty\) replaced by
+\(t\).  After the continuation argument below proves \(T_*=\infty\),
+monotone convergence gives the stated forms.
+
+At order \(m\), Lemma~\ref{lem:app-critical-commutator} and Young's
+inequality yield
+\[
+ \frac{\dd}{\dd t}\norm{\Lambda^mu}_2^2
+ +\nu\norm{\Lambda^{m+1}u}_2^2
+ \le
+ \frac{(\mathsf K_m^{\rm hom})^2}{\nu}
+ B(t)^2\norm{\Lambda^mu}_2^2.
+\]
+Multiplication by the corresponding integrating factor and
+\[
+ \int_0^tB(s)^2\dd s\le\frac{\nu a_{\rm c}^2}{\delta_0}
+\]
+prove \eqref{eq:app-small-data-finite-order}.  The Fourier inequality
+\[
+ (1+\abs\xi^2)^m\le2^{m-1}(1+\abs\xi^{2m})
+\]
+and the kinetic-energy identity prove \eqref{eq:app-small-data-Hm}.
+
+Let \(M_3\) be the square root of the right-hand side of
+\eqref{eq:app-small-data-Hm} with \(m=3\), and set
+\[
+ \delta_{\rm crit}
+ :=\min\{1,c_\nu(1+M_3)^{-2}\}>0.
+\]
+Every datum \(u(t_0)\), \(t_0<T_*\), has \(H^3\)-norm at most \(M_3\).
+Theorem~\ref{thm:local-restart} restarts the solution for at least
+\(\delta_{\rm crit}\) units of time.  If \(T_*<\infty\), choose
+\(t_0<T_*\) with \(T_*-t_0<\delta_{\rm crit}/2\).  Both restrictions belong
+to \(\mathscr M_\nu^3(t_0,b;u(t_0))\) for every \(b<T_*\), so uniqueness on
+each such closed subinterval identifies them throughout \([t_0,T_*)\).
+The restarted member then extends the original history beyond \(T_*\),
+contradicting maximality.  Hence \(T_*=\infty\), and persistence
+ gives the asserted smoothness.  This local uniqueness on each finite
+ interval proves the stated global uniqueness class.
+\end{proof}
+
+For \(m\ge1\), define
+\[
+ U_m^{\rm sm}
+ :=
+ 2^{(m-1)/2}
+ \left[
+ \norm a_2^2+
+ \norm{\Lambda^ma}_2^2\exp(\Gamma_m^{\rm sm})
+ \right]^{1/2},
+ \qquad
+ U_0^{\rm sm}:=\norm a_2,
+ \qquad
+ U_{-1}^{\rm sm}:=U_0^{\rm sm}.
+\]
+For \(n\in\Nzero\) and \(m\ge-1\), define the finite-order recursion
+\begin{align}
+ \mathsf Y_{0,m}^{\rm sm}&:=U_m^{\rm sm},
+ \label{eq:app-small-Y0}\\
+ \mathsf Y_{n+1,m}^{\rm sm}
+ &:=
+ \nu\mathsf Y_{n,m+2}^{\rm sm}
+ +A_{m+1}\sum_{a'=0}^{n}\binom n{a'}
+ \mathsf Y_{a',m+2}^{\rm sm}
+ \mathsf Y_{n-a',m+2}^{\rm sm}.
+ \label{eq:app-small-Yrec}
+\end{align}
+
+\begin{proposition}[Explicit small-data pressure-complete rectangles]
+\label{prop:app-small-data-rectangles}
+Under the hypotheses of Theorem~\ref{thm:app-small-critical-global}, for
+every \(n\in\Nzero\) and \(m\ge-1\),
+\begin{equation}
+ \sup_{t\ge0}\norm{V_n(t)}_{H^m}
+ \le\mathsf Y_{n,m}^{\rm sm}.
+ \label{eq:app-small-time-row}
+\end{equation}
+For every \(T<\infty\) and \(N,M\in\Nzero\),
+\begin{align}
+ \mathfrak R_{N,M}(u;T)
+ &\le
+ T\sum_{n=0}^{N}
+ \left[
+ (\mathsf Y_{n,M+1}^{\rm sm})^2
+ +(\mathsf Y_{n+1,M-1}^{\rm sm})^2
+ \right],
+ \label{eq:app-small-rectangle}\\
+ \mathfrak Q_{N,M}(p;T)
+ &\le
+ TA_M\sum_{n=0}^{N}\sum_{a'=0}^{n}\binom n{a'}
+ \mathsf Y_{a',M+1}^{\rm sm}
+ \mathsf Y_{n-a',M+1}^{\rm sm}.
+ \label{eq:app-small-pressure-rectangle}
+\end{align}
+In the entrywise order from
+Proposition~\ref{prop:qc-closed-rectangle-matrix}, these bounds have the
+matrix form
+\begin{equation}
+ \mathbf C_{N,M}(T)
+ \preceq_{\rm ent}
+ \left(
+ \begin{array}{ccc}
+  T^{1/2}\mathsf Y_{n,M+1}^{\rm sm}
+  &T^{1/2}\mathsf Y_{n+1,M-1}^{\rm sm}
+  &TA_M\displaystyle\sum_{a'=0}^{n}\binom n{a'}
+    \mathsf Y_{a',M+1}^{\rm sm}
+    \mathsf Y_{n-a',M+1}^{\rm sm}
+ \end{array}
+ \right)_{n=0}^{N}.
+ \label{eq:app-small-rectangle-matrix}
+\end{equation}
+Every right-hand side is an explicit finite function of \(\nu,T,N,M\) and
+the datum norms
+\begin{equation}
+ \norm a_2,\qquad
+ \norm{\Lambda^{1/2}a}_2,\qquad
+ \left\{\norm{\Lambda^ra}_2:
+  1\le r\le M+2N+1\right\}.
+ \label{eq:app-small-data-derivative-ceiling}
+\end{equation}
+Indeed, induction in \(n\) shows that
+\(\mathsf Y_{n,m}^{\rm sm}\) uses only the entries
+\(U_j^{\rm sm}\) with \(-1\le j\le m+2n\); both velocity columns of
+\eqref{eq:app-small-rectangle-matrix} consequently stop at
+\(j=M+2N+1\), and its pressure column stops no later.
+\end{proposition}
+
+\begin{proof}
+Equation \eqref{eq:app-small-data-Hm} proves the base
+\eqref{eq:app-small-time-row} for \(m\ge1\); the kinetic-energy identity
+proves it for \(m=0\), and \(H^0\hookrightarrow H^{-1}\) proves it for
+\(m=-1\).  Apply \(\Pp\) to the temporal recurrence.
+This is the \(\alpha=0\) temporal block-row of
+\eqref{eq:formal-mixed-projected-matrix-row}; its factorial conjugate is
+\eqref{eq:formal-factorial-velocity-convolution}.
+Equation~\eqref{eq:qc-product-constant} at order \(m+1\) and induction give
+\eqref{eq:app-small-time-row} through
+\eqref{eq:app-small-Yrec}; for \(m=-1\), use the order-zero product
+estimate and \(H^0\hookrightarrow H^{-1}\).  Integration in time gives
+\eqref{eq:app-small-rectangle}.  The pressure recurrence and
+\eqref{eq:qc-pressure-product-constant} at order \(M\), followed by
+integration and summation in \(n\), give
+\eqref{eq:app-small-pressure-rectangle}.  These rowwise bounds give
+\eqref{eq:app-small-rectangle-matrix}; taking the Frobenius norm of its first
+two columns and summing its pressure column recovers
+\eqref{eq:app-small-rectangle} and
+\eqref{eq:app-small-pressure-rectangle}.
+\end{proof}
+
+\subsection{Low-rectangle and scale-local bounds}
+
+The following results use distinct outputs of the compatible rectangles:
+mixed space--time embeddings, pressure completion, and integrable Lipschitz
+action.
+
+\begin{proposition}[Three low-rectangle regularity classes]
+\label{prop:app-low-rectangle-classes}
+Let \(u\) be the global solution generated by
+Theorem~\ref{thm:ier-global-smoothness}, and let \(0<T<\infty\).  Then
+\begin{align}
+ \norm u_{L^\infty(0,T;L^3)}
+ &\le S_{1,0,3}\mathfrak Z_{0,1}[u_0,\nu;T],
+ \label{eq:app-LinfL3}\\
+ \norm u_{L^2(0,T;L^\infty)}
+ &\le S_{2,0,\infty}\mathfrak X_{0,2}[u_0,\nu;T],
+ \label{eq:app-L2Linfty}\\
+ \norm{\nabla u}_{L^2(0,T;L^3)}
+ &\le S_{2,1,3}\mathfrak X_{0,2}[u_0,\nu;T].
+ \label{eq:app-grad-L2L3}
+\end{align}
+In particular, each of the three norms is finite on every finite horizon,
+with the stated datum, viscosity, and horizon dependence.
+\end{proposition}
+
+\begin{proof}
+Use \eqref{eq:qc-sharp-mixed-Lab} with
+\((n,\alpha,a,b,q,k)=(0,0,\infty,3,1,0)\) to obtain
+\eqref{eq:app-LinfL3}.  Use \eqref{eq:qc-sharp-mixed-L2b} with
+\((n,\alpha,b,q,k)=(0,0,\infty,2,0)\) and
+\((0,0,3,2,1)\) to obtain \eqref{eq:app-L2Linfty} and
+\eqref{eq:app-grad-L2L3}.  The strict embedding conditions are,
+respectively, \(1>1/2\), \(2>3/2\), and \(2>3/2\).
+\end{proof}
+
+\begin{corollary}[Uniform extinction of parabolic scale content]
+\label{thm:app-scale-content-extinction}
+Let \(\nu>0\), let \(u_0\in\HsSigma(\R^3)\), and let \((u,p)\) be
+the pressure-normalized global pair supplied by
+Theorem~\ref{thm:ier-global-smoothness}.  This is a post-regularity
+consequence for the Caffarelli--Kohn--Nirenberg scale-normalized quantity
+\cite{CKN1982}; it is not used as an \(\varepsilon\)-regularity input or
+continuation criterion.
+For \(0<T<\infty\), define
+\begin{align}
+ U_T&:=S_{2,0,\infty}\mathfrak Z_{0,2}[u_0,\nu;T],\notag\\
+ P_T&:=S_{2,0,\infty}
+ \mathfrak Q^{(\infty)}_{0,2}[u_0,\nu;T].
+ \label{eq:app-scale-content-majorants}
+\end{align}
+Let \(z_0=(t_0,x_0)\), \(\rho>0\), and suppose that
+\[
+ Q_\rho(z_0):=(t_0-\rho^2,t_0)\times B_\rho(x_0)
+ \subset(0,T)\times\R^3.
+\]
+Then the scale-normalized velocity--pressure content satisfies
+\begin{equation}
+ \rho^{-2}\iint_{Q_\rho(z_0)}
+ \left(|u|^3+|p|^{3/2}\right)\,\dd x\dd t
+ \le\frac{4\pi}{3}\rho^3
+ \left(U_T^3+P_T^{3/2}\right).
+ \label{eq:app-scale-content-bound}
+\end{equation}
+Consequently,
+\begin{equation}
+ \lim_{\rho\downarrow0}
+ \sup_{\{z_0:\,Q_\rho(z_0)\subset(0,T)\times\R^3\}}
+ \rho^{-2}\iint_{Q_\rho(z_0)}
+ \left(|u|^3+|p|^{3/2}\right)\,\dd x\dd t=0.
+ \label{eq:app-scale-content-uniform-limit}
+\end{equation}
+\end{corollary}
+
+\begin{proof}
+Equation~\eqref{eq:qc-sharp-mixed-sup}, followed by
+\eqref{eq:qc-embedding-constant} with \((s,k,b)=(2,0,\infty)\), gives
+\[
+ \norm u_{L^\infty((0,T)\times\R^3)}\le U_T.
+\]
+Equations~\eqref{eq:qc-sharp-pressure-sup} and
+\eqref{eq:qc-embedding-constant} give
+\[
+ \norm p_{L^\infty((0,T)\times\R^3)}\le P_T.
+\]
+Since \(|B_\rho|=\frac{4\pi}{3}\rho^3\) and the time length of
+\(Q_\rho\) is \(\rho^2\),
+\[
+ \iint_{Q_\rho(z_0)}\left(|u|^3+|p|^{3/2}\right)\,\dd x\dd t
+ \le\frac{4\pi}{3}\rho^5
+ \left(U_T^3+P_T^{3/2}\right).
+\]
+Division by \(\rho^2\) proves \eqref{eq:app-scale-content-bound}; its
+right-hand side is independent of the center and tends to zero with
+\(\rho\), which proves \eqref{eq:app-scale-content-uniform-limit}.
+\end{proof}
+
+\subsection{Vorticity and material flow}
+
+\begin{theorem}[Global vorticity amplification and dissipation]
+\label{thm:app-vorticity-amplification}
+Let \(\nu>0\), let \(u_0\in\HsSigma(\R^3)\), and let \((u,p)\) be the
+pressure-normalized global pair supplied by
+Theorem~\ref{thm:ier-global-smoothness}.  Put
+\[
+ \omega:=\nabla\times u,
+ \qquad
+ \omega_0:=\nabla\times u_0,
+ \qquad
+ L_T^\omega:=S_{3,1,\infty}T^{1/2}
+ \mathfrak X_{0,3}[u_0,\nu;T].
+\]
+For every \(T<\infty\) and \(2\le r\le\infty\),
+\begin{align}
+ \sup_{0\le t\le T}\norm{\omega(t)}_{L^r}
+ &\le e^{L_T^\omega}\norm{\omega_0}_{L^r},
+ \label{eq:app-vorticity-Lr-amplification}\\
+ \int_0^T\norm{(\omega\cdot\nabla)u(t)}_{L^r}\dd t
+ &\le L_T^\omega e^{L_T^\omega}\norm{\omega_0}_{L^r}.
+ \label{eq:app-vortex-stretching-action}
+\end{align}
+If \(2\le r<\infty\), then
+\begin{equation}
+ \int_0^T\norm{\nabla|\omega(t)|^{r/2}}_2^2\dd t
+ \le \frac{r}{4\nu(r-1)}e^{rL_T^\omega}
+       \norm{\omega_0}_{L^r}^r.
+ \label{eq:app-vorticity-dissipation}
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+Taking the curl of the momentum equation gives the three-dimensional
+vorticity equation
+\begin{equation}
+ \partial_t\omega+(u\cdot\nabla)\omega
+ = (\omega\cdot\nabla)u+\nu\Delta\omega.
+ \label{eq:app-vorticity-equation}
+\end{equation}
+Fix \(2\le r<\infty\).  Pair
+\eqref{eq:app-vorticity-equation} with
+\(|\omega|^{r-2}\omega\).  To justify this power test, choose
+\(\chi\in C_c^\infty(\R^3)\), with
+\(0\le\chi\le1\), \(\chi=1\) on \(B_1\), and \(\chi=0\) outside
+\(B_2\), put \(\chi_R(x)=\chi(x/R)\), and first test against
+\[
+ \chi_R\Phi_\varepsilon(\omega),
+ \qquad
+ \Phi_\varepsilon(z):=(|z|^2+\varepsilon)^{(r-2)/2}z.
+\]
+Define the primitive
+\begin{equation}
+ F_\varepsilon(z)
+ :=\frac{(|z|^2+\varepsilon)^{r/2}-\varepsilon^{r/2}}{r}.
+ \label{eq:app-vorticity-regularized-primitive}
+\end{equation}
+Then \(\nabla_zF_\varepsilon=\Phi_\varepsilon\), and incompressibility gives
+\begin{equation}
+ \int_{\R^3}\chi_R(u\cdot\nabla)\omega\cdot
+ \Phi_\varepsilon(\omega)\dd x
+ =-\int_{\R^3}F_\varepsilon(\omega)\,
+ u\cdot\nabla\chi_R\dd x.
+ \label{eq:app-vorticity-transport-cutoff}
+\end{equation}
+With \(A_R:=B_{2R}\setminus B_R\),
+\begin{align}
+ \left|\int F_\varepsilon(\omega)\,
+ u\cdot\nabla\chi_R\dd x\right|
+ &\le\frac{C_r}{R}\norm u_\infty
+ \left(\norm\omega_{L^r(A_R)}^r
+ +\varepsilon^{(r-2)/2}\norm\omega_{L^2(A_R)}^2\right),
+ \label{eq:app-vorticity-transport-cutoff-bound}\\
+ \left|\int \nabla\chi_R\cdot\nabla\omega\,
+ \Phi_\varepsilon(\omega)\dd x\right|
+ &\le\frac{C_r}{R}\norm{\nabla\omega}_{L^2(A_R)}
+ \left(\norm\omega_{L^{2r-2}(A_R)}^{r-1}
+ +\varepsilon^{(r-2)/2}\norm\omega_{L^2(A_R)}\right).
+ \label{eq:app-vorticity-diffusion-cutoff-bound}
+\end{align}
+All norms on the right are finite because \(u,\omega\) belong to every
+spatial Sobolev space.  Their annular tails vanish as \(R\to\infty\), so
+\eqref{eq:app-vorticity-transport-cutoff} converges to the transport
+cancellation and the diffusion cutoff term vanishes.
+
+The remaining diffusion form is nonnegative:
+\begin{align}
+ \nabla\omega:D\Phi_\varepsilon(\omega)\nabla\omega
+ ={}&(|\omega|^2+\varepsilon)^{(r-2)/2}|\nabla\omega|^2
+ \notag\\
+ &+(r-2)(|\omega|^2+\varepsilon)^{(r-4)/2}
+ \sum_{j=1}^3(\omega\cdot\partial_j\omega)^2.
+ \label{eq:app-vorticity-regularized-diffusion}
+\end{align}
+After the limit \(R\to\infty\), dominated convergence applies to
+\(F_\varepsilon(\omega)\) and to the stretching term, while Fatou's lemma
+applies to \eqref{eq:app-vorticity-regularized-diffusion} as
+\(\varepsilon\downarrow0\).  This yields the unregularized chain rule and
+diffusion inequality used below.  The stretching term
+satisfies
+\[
+ \left|\int_{\R^3}(\omega\cdot\nabla)u\cdot
+       |\omega|^{r-2}\omega\,\dd x\right|
+ \le\norm{\nabla u}_\infty\norm\omega_r^r.
+\]
+For the diffusion term, spatial integration by parts gives
+\begin{align*}
+ -\int_{\R^3}\Delta\omega\cdot|\omega|^{r-2}\omega\,\dd x
+ &\ge(r-1)\int_{\R^3}|\omega|^{r-2}|\nabla|\omega||^2\dd x\\
+ &=\frac{4(r-1)}{r^2}
+   \norm{\nabla|\omega|^{r/2}}_2^2.
+\end{align*}
+Hence
+\begin{equation}
+ \frac1r\frac{\dd}{\dd t}\norm\omega_r^r
+ +\frac{4\nu(r-1)}{r^2}
+   \norm{\nabla|\omega|^{r/2}}_2^2
+ \le\norm{\nabla u}_\infty\norm\omega_r^r.
+ \label{eq:app-vorticity-Lr-energy}
+\end{equation}
+Combining \eqref{eq:app-vorticity-Lr-energy} with the quantitative rectangle
+estimate \eqref{eq:qc-sharp-lipschitz-action} gives
+\[
+ \int_0^T\norm{\nabla u(t)}_\infty\dd t\le L_T^\omega.
+\]
+Gronwall's inequality proves
+\eqref{eq:app-vorticity-Lr-amplification} for finite \(r\).  Multiplying
+\eqref{eq:app-vorticity-Lr-energy} by
+\(
+ \exp(-r\int_0^t\norm{\nabla u(s)}_\infty\dd s)
+\)
+and integrating proves \eqref{eq:app-vorticity-dissipation}.  Since
+\(\omega_0,\omega(t)\in L^2\cap L^\infty\),
+\(\norm f_r\to\norm f_\infty\) as \(r\to\infty\) for each such \(f\).
+Consequently,
+\[
+ \sup_{0\le t\le T}\norm{\omega(t)}_\infty
+ \le\liminf_{r\to\infty}
+      \sup_{0\le t\le T}\norm{\omega(t)}_r
+ \le e^{L_T^\omega}\lim_{r\to\infty}\norm{\omega_0}_r
+ =e^{L_T^\omega}\norm{\omega_0}_\infty.
+\]
+This is \eqref{eq:app-vorticity-Lr-amplification} at the endpoint.  Finally,
+\[
+ \norm{(\omega\cdot\nabla)u(t)}_r
+ \le\norm{\nabla u(t)}_\infty\norm{\omega(t)}_r;
+\]
+integration and \eqref{eq:app-vorticity-Lr-amplification} give
+\eqref{eq:app-vortex-stretching-action}.
+\end{proof}
+
+\begin{theorem}[Quantitative volume-preserving material flow]
+\label{thm:app-material-flow}
+Let \(\nu>0\), let \(u_0\in\HsSigma(\R^3)\), and let \((u,p)\) be
+the pressure-normalized global pair supplied by
+Theorem~\ref{thm:ier-global-smoothness}.
+For \(0<T<\infty\), put
+\begin{align}
+ D_T&:=S_{2,0,\infty}T^{1/2}
+ \mathfrak X_{0,2}[u_0,\nu;T],\notag\\
+ L_T&:=S_{3,1,\infty}T^{1/2}
+ \mathfrak X_{0,3}[u_0,\nu;T].
+ \label{eq:app-flow-actions}
+\end{align}
+For every \(a\in\R^3\), the problem
+\begin{equation}
+ \partial_tX(t,a)=u(t,X(t,a)),
+ \qquad X(0,a)=a,
+ \label{eq:app-flow-ode}
+\end{equation}
+has a unique solution on \([0,T]\).  For every \(t\in[0,T]\), the map
+\(X(t,\cdot):\R^3\to\R^3\) is a smooth volume-preserving diffeomorphism
+and
+\begin{align}
+ |X(t,a)-a|&\le D_T,
+ \label{eq:app-flow-displacement}\\
+ e^{-L_T}|a-b|
+ &\le|X(t,a)-X(t,b)|
+ \le e^{L_T}|a-b|,
+ \label{eq:app-flow-bilipschitz}\\
+ \det D_aX(t,a)&=1.
+ \label{eq:app-flow-jacobian}
+\end{align}
+\end{theorem}
+
+\begin{proof}
+Equations~\eqref{eq:qc-sharp-L2Linfty} and
+\eqref{eq:qc-sharp-lipschitz-action} give
+\begin{align*}
+ \int_0^T\norm{u(t)}_\infty\,\dd t&\le D_T,\\
+ \int_0^T\norm{\nabla u(t)}_\infty\,\dd t&\le L_T.
+\end{align*}
+Picard iteration on successive compact time intervals gives local
+existence and uniqueness for \eqref{eq:app-flow-ode}.  The first integral
+bound prevents escape to spatial infinity and extends every trajectory to
+\([0,T]\); it also proves \eqref{eq:app-flow-displacement}.  For two
+trajectories, the second integral bound and Gronwall's inequality give the
+upper bound in \eqref{eq:app-flow-bilipschitz}.  Solving this equation
+backward from time \(t\) produces the inverse map and gives the lower
+bound.  Spatial differentiation of \eqref{eq:app-flow-ode} and induction
+give smoothness of the map and its inverse.  Finally, Jacobi's formula and
+\(\nabla\cdot u=0\) give
+\[
+ \partial_t\det D_aX
+ =(\nabla\cdot u)(t,X)\det D_aX=0,
+ \qquad \det D_aX(0,a)=1,
+\]
+which proves \eqref{eq:app-flow-jacobian}.
+\end{proof}
+
+\subsection{Relative energy and the Leray–Hopf class}
+
+The weak class is stated in the whole-space form originating with Leray and
+Hopf \cite{Leray1934,Hopf1951}.  The argument is the classical weak--strong
+uniqueness mechanism associated with Serrin~\cite{Serrin1962}, written here
+against the pressure-complete smooth history and derived directly from the
+weak formulation and the energy inequality.
+
+\begin{definition}[Three-dimensional Leray--Hopf solution]
+\label{def:app-leray-hopf}
+Let \(\nu>0\), \(T>0\), and \(v_0\in H^0_\sigma(\R^3)\).  A Leray--Hopf solution on
+\([0,T]\) is a pair \((v,q)\) such that
+\[
+ v\in C_w([0,T];H^0_\sigma)
+ \cap L^\infty(0,T;L^2_\sigma)
+ \cap L^2(0,T;\dot H^1_\sigma),
+ \qquad
+ q\in\mathcal D'((0,T)\times\R^3),
+\]
+the equations
+\[
+ \partial_tv+(v\cdot\nabla)v+\nabla q=\nu\Delta v,
+ \qquad
+ \nabla\cdot v=0
+\]
+hold in distributions, \(v(t)\to v_0\) strongly in \(L^2\) as
+\(t\downarrow0\), and
+\begin{equation}
+ \frac12\norm{v(t)}_2^2
+ +\nu\int_0^t\norm{\nabla v(s)}_2^2\dd s
+ \le\frac12\norm{v_0}_2^2
+ \label{eq:app-leray-energy}
+\end{equation}
+for every \(t\in[0,T]\).  Every divergence-free test field
+\(\phi\in C_c^\infty([0,T)\times\R^3;\R^3)\) satisfies
+\begin{equation}
+ \int_0^T\left[
+ -\ip v{\partial_t\phi}
+ -\int_{\R^3}(v\otimes v):\nabla\phi\dd x
+ +\nu\ip{\nabla v}{\nabla\phi}
+ \right]\dd t
+ =\ip{v_0}{\phi(0)}.
+ \label{eq:app-leray-weak-form}
+\end{equation}
+\end{definition}
+
+A global Leray--Hopf solution at viscosity \(\nu\) is a pair on
+\([0,\infty)\) whose restriction to every finite \([0,T]\) is a
+Leray--Hopf solution in Definition~\ref{def:app-leray-hopf}, with identical initial data and viscosity.
+
+\begin{lemma}[Solenoidal cutoff density and time commutation]
+\label{lem:app-solenoidal-density}
+Let \(\mathscr A\) be a finite subset of
+\(\{(r,p):r\in\Nzero,\ 2\le p<\infty\}\).  There are linear operators
+\(\mathcal T_k\), independent of time, such that, for every
+\(f\in H^\infty_\sigma(\R^3)\),
+\[
+ \mathcal T_kf\in C_{c,\sigma}^\infty(\R^3)
+\]
+and, for every \((r,p)\in\mathscr A\),
+\begin{align}
+ \sup_k\norm{\mathcal T_kf}_{W^{r,p}}
+ &\le C_{\mathscr A}\norm f_{W^{r,p}},
+ \label{eq:app-solenoidal-density-uniform}\\
+ \norm{\mathcal T_kf-f}_{W^{r,p}}&\longrightarrow0.
+ \label{eq:app-solenoidal-density-strong}
+\end{align}
+The convergence is uniform for \(f\) in a compact subset of the retained
+intersection of \(W^{r,p}\) spaces.  If
+\(F\in C^\infty([0,T];H^\infty_\sigma)\), then
+\begin{equation}
+ \partial_t^a(\mathcal T_kF)=\mathcal T_k(\partial_t^aF)
+ \qquad(a\in\Nzero),
+ \label{eq:app-solenoidal-density-time}
+\end{equation}
+and the convergence in
+\eqref{eq:app-solenoidal-density-strong} is uniform in \(t\) for every
+fixed temporal derivative.
+\end{lemma}
+
+\begin{proof}
+Choose \(\chi\in C_c^\infty(B_2)\) with
+\(\chi=1\) on \(B_1\), and put
+\(\chi_R(x)=\chi(x/R)\) and
+\(A_R=B_{2R}\setminus\overline{B_R}\).  For a smooth solenoidal \(f\), set
+\[
+ g_R:=\nabla\chi_R\cdot f.
+\]
+It is supported in \(A_R\), and
+\[
+ \int_{A_R}g_R\,\dd x
+ =\int_{\R^3}\nabla\cdot(\chi_Rf)\,\dd x=0.
+\]
+\begin{samepage}
+We now construct the required compact anti-divergence explicitly.  Fix
+\(\rho\in C_c^\infty((-3,3))\) with \(\int_{\R}\rho=1\).  If
+\(h\in C_c^\infty(B_2)\) and \(\int h=0\), set
+\[
+ m_1(y_2,y_3):=\int_{\R} h(s,y_2,y_3)\,\dd s,
+ \qquad
+ m_2(y_3):=\int_{\R} m_1(s,y_3)\,\dd s
+\]
+and define \(\mathcal Gh=(G_1,G_2,G_3)\) by
+\begin{align*}
+ G_1(y)
+ &:=\int_{-\infty}^{y_1}
+ \bigl(h(s,y_2,y_3)-\rho(s)m_1(y_2,y_3)\bigr)\,\dd s,\\
+ G_2(y)
+ &:=\rho(y_1)\int_{-\infty}^{y_2}
+ \bigl(m_1(s,y_3)-\rho(s)m_2(y_3)\bigr)\,\dd s,\\
+ G_3(y)
+ &:=\rho(y_1)\rho(y_2)
+ \int_{-\infty}^{y_3}m_2(s)\,\dd s.
+\end{align*}
+\par
+\end{samepage}
+The three integrands have zero total integral in their integration
+variables; for the last one this is \(\int h=0\).  Thus
+\(\mathcal Gh\in C_c^\infty((-3,3)^3;\R^3)\), and direct differentiation
+gives
+\[
+ \nabla\cdot\mathcal Gh
+ =h-\rho(y_1)m_1
+  +\rho(y_1)m_1-\rho(y_1)\rho(y_2)m_2
+  +\rho(y_1)\rho(y_2)m_2
+ =h.
+\]
+Integration over intervals of length at most six, H\"older's inequality,
+Fubini's theorem, and differentiation under the integral give, for
+\(a\in\Nzero\) and \(1<p<\infty\),
+\begin{equation}
+ \norm{\mathcal Gh}_{W^{a,p}((-3,3)^3)}
+ \le C_{a,p,\rho}\norm h_{W^{a,p}(B_2)}.
+ \label{eq:app-fixed-compact-antidivergence}
+\end{equation}
+For \(g\in C_c^\infty(B_{2R})\) of mean zero, put
+\[
+ (\mathcal G_Rg)(x)
+ :=R\bigl[\mathcal G(g(R\,\cdot))\bigr](x/R).
+\]
+Then \(\nabla\cdot\mathcal G_Rg=g\), its support lies in
+\((-3R,3R)^3\), and scaling \eqref{eq:app-fixed-compact-antidivergence}
+gives
+\begin{align}
+ \norm{\mathcal G_Rg}_{L^p}
+ &\le C_pR\norm g_{L^p},\notag\\
+ \norm{\nabla^j\mathcal G_Rg}_{L^p}
+ &\le C_{j,p}\sum_{b=0}^{j}
+ R^{1-j+b}\norm{\nabla^bg}_{L^p},
+ \qquad j\ge1.
+ \label{eq:app-scaled-compact-antidivergence}
+\end{align}
+\begin{samepage}
+Define
+\[
+ \mathcal S_Rf:=\chi_Rf-\mathcal G_Rg_R.
+\]
+Then \(\mathcal S_Rf\in C_{c,\sigma}^\infty(\R^3)\), with support in
+\((-3R,3R)^3\).
+\end{samepage}
+Leibniz' rule gives, for \(0\le a\le r\),
+\[
+ \norm{\nabla^ag_R}_{L^p(A_R)}
+ \le C_a\sum_{b=0}^{a}
+ R^{-1-a+b}\norm{\nabla^bf}_{L^p(A_R)}.
+\]
+Combining this estimate with
+\eqref{eq:app-scaled-compact-antidivergence} and the analogous cutoff
+estimate yields
+\begin{equation}
+ \norm{\mathcal S_Rf-f}_{W^{r,p}}
+ \le C_{r,p}\sum_{b=0}^{r}
+ (1+R^{b-r})\norm{\nabla^bf}_{L^p(\R^3\setminus B_R)}.
+ \label{eq:app-solenoidal-cutoff-tail}
+\end{equation}
+For \(r=0\), this conclusion follows from
+\eqref{eq:app-scaled-compact-antidivergence} and
+\(\norm{g_R}_p\le C R^{-1}\norm f_{L^p(A_R)}\).
+The right side tends to zero as \(R\to\infty\), and these calculations
+give operator norms bounded independently of \(R\).
+
+Choose \(R_k\uparrow\infty\) and set
+\(\mathcal T_k:=\mathcal S_{R_k}\).  Estimate
+\eqref{eq:app-solenoidal-cutoff-tail} holds simultaneously for the finite
+family \(\mathscr A\), while the preceding operator estimates give
+\eqref{eq:app-solenoidal-density-uniform} simultaneously for that family.
+Strong convergence plus the uniform operator bound makes convergence
+uniform on compact subsets: cover a compact set by finitely many norm balls
+and use the bound on each remainder.  Each \(\mathcal T_k\) is independent
+of time, so differentiation commutes with it.  The ranges of
+\(\partial_t^aF\) on \([0,T]\) are compact in every retained space, which
+proves the final assertion.
+\end{proof}
+
+\begin{lemma}[Admissible strong-history test]
+\label{lem:app-cross-energy}
+Let \(u\) be the global solution from
+Theorem~\ref{thm:ier-global-smoothness}, and let \(v\) be a Leray--Hopf
+solution on \([0,T]\) at this viscosity.  Put \(w:=v-u\).  Then, for every
+\(t\in[0,T]\),
+\begin{align}
+ \ip{v(t)}{u(t)}
+ &=
+ \ip{v_0}{u_0}
+ +\int_0^t\int_{\R^3}
+       (w\cdot\nabla u)\cdot w\dd x\dd s
+ \notag\\
+ &\quad
+ -2\nu\int_0^t\ip{\nabla v}{\nabla u}\dd s.
+ \label{eq:app-cross-energy}
+\end{align}
+\end{lemma}
+
+\begin{proof}
+The energy class and spatial interpolation give
+\[
+ v\in L^4(0,T;L^3),
+ \qquad
+ \norm v_{L^4L^3}^4
+ \le C\norm v_{L^\infty L^2}^2
+       \norm{\nabla v}_{L^2L^2}^2,
+\]
+so \(v\otimes v\in L^2(0,T;L^{3/2})\).
+
+Fix \(0<t<T\).  Solenoidal density on \(\R^3\), applied uniformly to the
+compact sets \(u([0,T])\) and \(u_t([0,T])\) in their finite Sobolev spaces,
+gives
+\[
+ u^{(k)}\in C^\infty([0,T];C_{c,\sigma}^\infty(\R^3))
+\]
+such that
+\begin{equation}
+ u^{(k)}\longrightarrow u
+ \quad\text{in}\quad
+ W^{1,1}(0,T;L^2)
+ \cap L^2(0,T;H^1)
+ \cap L^2(0,T;W^{1,3})
+ \cap C([0,T];L^2).
+ \label{eq:app-strong-test-density}
+\end{equation}
+Apply Lemma~\ref{lem:app-solenoidal-density} with
+\[
+ \mathscr A=\{(0,2),(1,2),(1,3)\}
+\]
+and set \(u^{(k)}=\mathcal T_ku\).  Its uniform compact-range conclusion
+for \(u\) and \(u_t\), together with time commutation
+\eqref{eq:app-solenoidal-density-time}, gives
+\eqref{eq:app-strong-test-density}.
+
+\begin{samepage}
+For \(0<h<T-t\), choose \(\eta_h\in C_c^\infty([0,T))\) with
+\(0\le\eta_h\le1\), \(\eta_h=1\) on \([0,t]\),
+\(\eta_h=0\) on \([t+h,T]\), and \(\eta_h'\le0\).  The field
+\(\eta_hu^{(k)}\) is an admissible test in
+\eqref{eq:app-leray-weak-form}.  First let \(k\to\infty\).
+The convergence in \eqref{eq:app-strong-test-density}, together with
+\(v\otimes v\in L^2L^{3/2}\), permits passage in every term.
+\par
+\end{samepage}
+\begin{samepage}
+Choose the time cutoffs so that \(-\eta_h'\) is an approximate identity from the right
+at \(t\), and let \(h\downarrow0\).  Weak continuity of \(v\), strong
+continuity of \(u\), and the Lebesgue differentiation theorem give
+\begin{align*}
+ \ip{v(t)}{u(t)}
+ &=
+ \ip{v_0}{u_0}
+ +\int_0^t\ip v{u_t}\dd s
+ +\int_0^t\int_{\R^3}(v\otimes v):\nabla u\dd x\dd s\\
+ &\quad-\nu\int_0^t\ip{\nabla v}{\nabla u}\dd s.
+\end{align*}
+\par
+\end{samepage}
+This identity first holds for almost every \(t\).  Its right-hand side is
+continuous in \(t\), while \(t\mapsto\ip{v(t)}{u(t)}\) is continuous by
+weak continuity of \(v\) and norm continuity of \(u\).  Hence it holds for
+every \(0\le t\le T\), including \(t=T\) by passage from below.
+\begin{samepage}
+Using
+\[
+ u_t=-(u\cdot\nabla)u-\nabla p+\nu\Delta u
+\]
+is admissible because \(v\) is divergence free.  It gives
+\[
+ \int_0^t\ip v{u_t}\dd s
+ =
+ -\int_0^t\int_{\R^3}v\cdot(u\cdot\nabla)u\dd x\dd s
+ -\nu\int_0^t\ip{\nabla v}{\nabla u}\dd s.
+\]
+Finally,
+\[
+ \int_{\R^3}
+ \left[(v\otimes v):\nabla u-v\cdot(u\cdot\nabla)u\right]\dd x
+ =
+ \int_{\R^3}(w\cdot\nabla u)\cdot w\dd x,
+\]
+because
+\[
+ \int_{\R^3}(w\cdot\nabla u)\cdot u\dd x
+ =\frac12\int_{\R^3}w\cdot\nabla|u|^2\dd x=0.
+\]
+This proves \eqref{eq:app-cross-energy}.
+\end{samepage}
+\end{proof}
+
+\begin{theorem}[Quantitative Leray--Hopf stability]
+\label{thm:app-relative-energy}
+Let \(\nu>0\) and \(u_0\in\HsSigma(\R^3)\), and let \(u\) be the global strong history
+from Theorem~\ref{thm:ier-global-smoothness}.  Fix \(T>0\), and let \(v\) be
+any Leray--Hopf solution on \([0,T]\) at this viscosity \(\nu\), with
+datum \(v_0\in H^0_\sigma(\R^3)\).  Then, for \(0\le t\le T\),
+\begin{align}
+ &\frac12\norm{v(t)-u(t)}_2^2
+ +\nu\int_0^t\norm{\nabla(v-u)(s)}_2^2\dd s
+ \notag\\
+ &\quad\le
+ \frac12\norm{v_0-u_0}_2^2
+ \exp\!\left(
+ 2\int_0^t\norm{\nabla u(s)}_\infty\dd s
+ \right)
+ \label{eq:app-relative-energy-action}\\
+ &\quad\le
+ \frac12\norm{v_0-u_0}_2^2
+ \exp\!\left(
+ 2S_{3,1,\infty}T^{1/2}
+ \mathfrak P_{0,2}[u_0,\nu;T]^{1/2}
+ \right).
+ \label{eq:app-relative-energy-producer}
+\end{align}
+The lower spatial rectangle also gives the viscosity-weighted estimate
+\begin{align}
+ &\frac12\norm{v(t)-u(t)}_2^2
+ +\frac\nu2\int_0^t\norm{\nabla(v-u)(s)}_2^2\dd s
+ \notag\\
+ &\quad\le
+ \frac12\norm{v_0-u_0}_2^2
+ \exp\!\left(
+ \frac{S_{2,0,\infty}^2}{\nu}
+ \mathfrak X_{0,2}[u_0,\nu;T]^2
+ \right).
+ \label{eq:app-relative-energy-low-rectangle}
+\end{align}
+\end{theorem}
+
+\begin{proof}
+Combine \eqref{eq:app-leray-energy}, the strong energy equality
+\eqref{eq:ier-global-energy}, and \eqref{eq:app-cross-energy}.  With
+\(w=v-u\), this gives
+\begin{equation}
+ \frac12\norm{w(t)}_2^2
+ +\nu\int_0^t\norm{\nabla w(s)}_2^2\dd s
+ \le
+ \frac12\norm{w(0)}_2^2
+ -\int_0^t\int_{\R^3}(w\cdot\nabla u)\cdot w\dd x\dd s.
+ \label{eq:app-relative-energy-raw}
+\end{equation}
+The integral term in \eqref{eq:app-relative-energy-raw} has absolute value at
+most
+\[
+ \norm{\nabla u(s)}_\infty\norm{w(s)}_2^2.
+\]
+Gronwall's inequality bounds \(\norm{w(t)}_2^2\).  Substitution of that
+bound back into \eqref{eq:app-relative-energy-raw} proves
+\eqref{eq:app-relative-energy-action}.
+\begin{samepage}
+Proposition
+\ref{prop:qc-continuation-norms} gives
+\[
+ \int_0^T\norm{\nabla u(t)}_\infty\dd t
+ \le
+ S_{3,1,\infty}T^{1/2}
+ \mathfrak P_{0,2}[u_0,\nu;T]^{1/2},
+\]
+which proves \eqref{eq:app-relative-energy-producer}.
+\end{samepage}
+
+For the lower-rectangle estimate, integration by parts and
+\(\nabla\cdot w=0\) give
+\[
+ \left|\int_{\R^3}(w\cdot\nabla u)\cdot w\,\dd x\right|
+ =\left|\int_{\R^3}(w\cdot\nabla w)\cdot u\,\dd x\right|
+ \le\norm u_\infty\norm w_2\norm{\nabla w}_2.
+\]
+Young's inequality in \eqref{eq:app-relative-energy-raw} gives
+\begin{align*}
+ \frac12\norm{w(t)}_2^2
+ +\frac\nu2\int_0^t\norm{\nabla w(s)}_2^2\,\dd s
+ \le\frac12\norm{w(0)}_2^2
+ +\frac1{2\nu}\int_0^t\norm{u(s)}_\infty^2
+ \norm{w(s)}_2^2\,\dd s.
+\end{align*}
+Set
+\[
+ A(t):=\frac1\nu\int_0^t\norm{u(s)}_\infty^2\,\dd s.
+\]
+Gronwall's inequality gives
+\(\norm{w(t)}_2^2\le\norm{w(0)}_2^2e^{A(t)}\).  Substitution in the
+preceding inequality gives
+\[
+ \frac12\norm{w(t)}_2^2
+ +\frac\nu2\int_0^t\norm{\nabla w(s)}_2^2\,\dd s
+ \le\frac12\norm{w(0)}_2^2e^{A(t)}.
+\]
+Finally, \eqref{eq:qc-sharp-L2Linfty} yields
+\[
+ A(t)\le\frac{S_{2,0,\infty}^2}{\nu}
+ \mathfrak X_{0,2}[u_0,\nu;T]^2,
+\]
+which proves \eqref{eq:app-relative-energy-low-rectangle}.
+\end{proof}
+
+\begin{corollary}[Explicit weak-class stability for small critical data]
+\label{cor:app-small-weak-stability}
+Under the hypotheses of Theorem~\ref{thm:app-small-critical-global}, let
+\(v\) be a global Leray--Hopf solution at this viscosity \(\nu\), with
+datum \(v_0\in H^0_\sigma(\R^3)\).
+Then
+\begin{align}
+ &\frac12\norm{v(t)-u(t)}_2^2
+ +\nu\int_0^t\norm{\nabla(v-u)(s)}_2^2\dd s
+ \notag\\
+ &\qquad\le
+ \frac12\norm{v_0-a}_2^2
+ \exp\!\left(2S_{3,1,\infty}tU_3^{\rm sm}\right)
+ \qquad(t\ge0).
+ \label{eq:app-small-weak-stability}
+\end{align}
+\end{corollary}
+
+\begin{proof}
+Equation~\eqref{eq:app-small-data-Hm} gives
+\(\sup_{s\ge0}\norm{u(s)}_{H^3}\le U_3^{\rm sm}\).  Hence
+\[
+ \int_0^t\norm{\nabla u(s)}_\infty\dd s
+ \le S_{3,1,\infty}tU_3^{\rm sm}.
+\]
+The solution constructed in Theorem~\ref{thm:app-small-critical-global} and
+the global history from Theorem~\ref{thm:ier-global-smoothness}, with datum
+\(a\), both restrict to members of
+\(\mathscr M_\nu^3(0,T;a)\) on every finite interval.  The at-most-one
+assertion in Theorem~\ref{thm:local-restart} identifies the two
+pressure-normalized histories.
+Apply \eqref{eq:app-relative-energy-action}.
+\end{proof}
+
+\begin{corollary}[Uniqueness and energy equality in the Leray--Hopf class]
+\label{cor:app-leray-uniqueness}
+Let \(\nu>0\) and \(u_0\in\HsSigma(\R^3)\).  If \((v,q)\) is any global
+three-dimensional Leray--Hopf solution at viscosity \(\nu\), with datum
+\(u_0\), then \(v\) agrees on every finite interval with the velocity of the
+global solution from Theorem~\ref{thm:ier-global-smoothness}.  Thus \(v\) has
+the smooth
+representative
+\[
+ u\in C^\infty([0,\infty)\times\R^3;\R^3),
+\]
+and it satisfies
+\[
+ \frac12\norm{u(t)}_2^2
+ +\nu\int_0^t\norm{\nabla u(s)}_2^2\dd s
+ =\frac12\norm{u_0}_2^2
+ \qquad(t\ge0).
+\]
+Its distributional pressure has the form
+\begin{equation}
+ q=p+c(t)
+ \quad\text{in }\mathcal D'((0,\infty)\times\R^3),
+ \label{eq:app-weak-pressure-gauge}
+\end{equation}
+where \(p\) is the pressure in \eqref{eq:ier-global-pressure} and \(c\) is a
+scalar distribution in time.  The canonical Riesz representative
+\(R_iR_j(u_i u_j)\) equals \(p\).  If \(q\) is represented by a locally
+integrable function with \(q(t,\cdot)\in C_0(\R^3)\) for almost every \(t\),
+then \(q=p\) almost everywhere.
+\end{corollary}
+
+\begin{proof}
+Set \(v_0=u_0\) in Theorem~\ref{thm:app-relative-energy}.  The right-hand
+side of \eqref{eq:app-relative-energy-producer} is zero, so
+\(v=u\) in \(C_w([0,T];L^2)\cap L^2(0,T;\dot H^1)\).  Since \(T\) is
+ arbitrary, the identity holds globally.  Smoothness and energy equality
+ follow from \eqref{eq:ier-global-class} and
+ \eqref{eq:ier-global-energy}.  If \(q\) is a distributional pressure paired
+ with this velocity and \(p\) is the pressure in
+ \eqref{eq:ier-global-pressure}, subtraction of the two momentum equations
+ gives
+ \[
+  \nabla(q-p)=0
+  \quad\text{in }\mathcal D'((0,\infty)\times\R^3).
+ \]
+ A distribution on a product domain whose spatial gradient vanishes is the
+ pullback of a scalar distribution in time: testing first against spatial test
+ functions of integral zero and then against one fixed test function of
+ integral one gives \eqref{eq:app-weak-pressure-gauge}.  The Riesz formula for
+ \(p\) proves the canonical-representative assertion.  In the function-valued
+ case, \(q(t,x)-p(t,x)=c(t)\) for almost every \((t,x)\); both spatial slices
+ tend to zero as \(\abs x\to\infty\), so \(c(t)=0\) for almost every \(t\).
+\end{proof}

@@ -24,7 +24,7 @@ d\Omega_N^{PLS,primitive}
 Here \(H_{j,N}\) is the active high shell of the same material packet, while
 \(\mathcal M_{<j-C,N}\) is the lower-band material deformation coefficient
 made from strain, pressure Hessian through the strain equation, material
-coefficient motion, Hodge/Stokes projection motion, and transported collar
+coefficient motion, Helmholtz--Leray/Stokes projection motion, and transported collar
 motion.  This is not a pressure-only, viscosity-only, or free scalar source.
 
 The nonconditional closure would require either a bounded-below entropy

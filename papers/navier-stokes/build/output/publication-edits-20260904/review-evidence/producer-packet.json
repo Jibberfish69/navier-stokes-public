@@ -1,0 +1,20 @@
+{
+  "task": {
+    "path": "/tmp/ns-publication-edits-20260904/request.txt",
+    "sha256": "b8d2beb4c84db000e327dfb6add3bca73c00d462de8578e2c566abed3d8897cb"
+  },
+  "candidate": {
+    "path": "/private/tmp/ns-publication-edits-20260904/candidate.txt",
+    "sha256": "b8465b9b6ba7b7463ba22011a647035dcab065b50db8ea3698754003ec585be2"
+  },
+  "source_files": [
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/manuscript/generated/00-introduction.tex",
+      "sha256": "6db9f3788d0da560e05d8aa691949d2c93cc649716beeccb03e1d9d2c7e0c75d"
+    },
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/manuscript/generated/02-compatible-rectangles.tex",
+      "sha256": "671e28b48fdc0c8be419a5f2796bc6018df336537cabb20657f5ca09efa4beb1"
+    }
+  ]
+}

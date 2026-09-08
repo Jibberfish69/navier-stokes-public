@@ -1,190 +1,25 @@
 ---
-version: 3
-artifact_id: navier-stokes-current-route-reproducibility-bundle-20260505
-generated_at: '2026-05-05T19:25:00Z'
-generated_by: codex-chat26
-status: historical-reproducibility-overlay
-scope: problems/navier-stokes
-purpose: >-
-  Historical index of theorem-facing Navier-Stokes route artifacts and the May 5
-  source-wall/governance blocker state. It is retained as evidence, not as current
-  release authority.
-current_authority_status:
-  status: superseded-by-current-gold-l1-open-authority
-  checked_at: '2026-07-01T00:00:00Z'
-  controlling_surfaces:
-    - problems/navier-stokes/live-theorem-edge.yaml
-    - problems/navier-stokes/source-frontier.yaml
-    - problems/navier-stokes/theorem-repair.yaml
-  current_release_status: blocked
-  current_blocker_count: 1
-  current_blocker: TFE2748B / OriginalCriticalCapacityVariation.A
-  current_blocker_reason: >-
-    Current direct-live authority keeps Gold L1 open until the original-ledger
-    active feedback tightness/storage theorem is proved from original data.
-theorem_posture:
-  cm_bridge:
-    status: installed
-    theorem_ids:
-      - MemberSmooth.A
-      - WitnessFace.A
-  source_wall:
-    status: live-root-open
-    resolved_gate: SourceWall.Reconcile.A
-    resolution: normalized-adjoint-source-drain-demoted-to-conditional-support
-    exact_choice:
-      - ScaleCriticalTreeCarleson.A
-      - ZenoBoundedClass_B.A+ZenoResidueLiouville_B.A
-    direct_branch: >-
-      ParentSquareEmbed.A is installed; ScaleCriticalTreeCarleson.A remains the
-      scalar active-square reserve needed for LocalPositiveSourceCarleson.A.
-      Scalar dynamic, temporal, native trilinear, and signed-current attempts
-      all remain conditional and return to the same source-control wall.
-    zeno_branch: >-
-      Produce a rigid ancient class B and prove residue Liouville in that class;
-      the temporal-support candidate reduces production to
-      UniformTemporalSourceIntegrability_p.A / TemporalNonAtomicSource.A, which
-      is not installed and returns to heat-scale square source control.
-  conditional_support:
-    normalized_adjoint_source_drain: >-
-      CoeffStop.A=>WeightedAdjBessel.A=>WeightedAdjRes.A=>GainStop.A=>ParentKernel.A=>FirstPulseKill.A=>LemmaB.SourceDrain
-      remains conditional on a root source-wall theorem.
-    readout_interfaces: >-
-      GoodScaleNonCollapse.A is the replacement interface for READ.COVER, and
-      CM.CrossFaceSynthesis.A only synchronizes already-certified Part/Field
-      faces into CM_{N,r,Q}.
-    signed_current_route: >-
-      BareDyadicSkewCurrent.0 is installed only at the unweighted algebraic
-      level. LocalizedSkewCurrent.A, CycleHeatAction.A, strong
-      FirstCurrentPruning.A, ParabolicCycleCoercivity.A, ParabolicNoFreeSink.A,
-      TerminalSignedSaturation.A, OffFamilyCounteredgeCharge.A, and
-      WeightedLiftedDefectCarleson.A were audited as conditional route pieces;
-      they do not lower the source wall below ScaleCriticalTreeCarleson.A or
-      the Zeno rigid-class pair.
-  release:
-    status: superseded-by-current-gold-l1-open-authority
-    historical_blocker: governance-escalation.yaml
-    current_governance_issue: >-
-      Historical May 5 routing issue. Current direct-live authority reports one
-      Gold L1 blocker, TFE2748B / OriginalCriticalCapacityVariation.A, so this
-      historical bundle is not release authority.
-hashes:
-  - path: live-theorem-edge.yaml
-    sha256: b03dd32ec58a041174a683f0dbba287e4abc2b2df30ca28d3fd001ab855447ca
-  - path: source-frontier.yaml
-    sha256: 1b7e36b52075426a98f17bbb47197af22a309c58287f5c9c8e11e17f42318ec2
-  - path: theorem-packet.yaml
-    sha256: 193d76b5492f4346d13a5f9f6a67c599202d4b36b4b29f89d95d839da5eb2a5c
-  - path: submission-verdict.yaml
-    sha256: 0f097137141c5055ecd4b2d1896af73ac1e51df4ffbec701d9cd4300e5aee1b8
-  - path: promotion-blocker-ledger.yaml
-    sha256: 5ffd9fcf0fc8b28f7506b3e1cfbf314aec50c6abd40caeac08c3752a9666d040
-  - path: current-route-dependency-graph.yaml
-    sha256: b973dc32f6fc9c5362e5e2698ed348fc4e17419397e73cce4143bdc41e8542e9
-  - path: theorem-construction/mpp-sourcewall-reconcile-a-resolution-and-root-reopen-20260505.md
-    sha256: cb2a8a067ec007a87fef1050ba0cb2307dbe6fb2696d1c9bdec7a2c1455d46c6
-  - path: theorem-construction/mpp-sourcewall-root-postreconcile-direct-attempt-20260505.md
-    sha256: 8682f5ec08754eebc133893d69581bd937423e93a79585000a30afdf62f25eee
-  - path: theorem-construction/mpp-parent-square-embed-and-scalecritical-reserve-reduction-20260505.md
-    sha256: 2de2b74c910b6e4e3a7ee4a8c6b647922f949c9e68f06ce438de3d09fc25d9ee
-  - path: theorem-construction/mpp-scalecritical-tree-carleson-bellman-reserve-attempt-20260505.md
-    sha256: 7a4b678943db974c402516edf85298bdf9702213700ca61d2fc720d4d7a413fe
-  - path: theorem-construction/mpp-scalecritical-tree-carleson-direct-irreducibility-note-20260505.md
-    sha256: 3fa1fac4ed821503feeb1d654c18876b9ceddedd444a0b491f847d250e5279fd
-  - path: theorem-construction/mpp-scalecritical-tree-carleson-next-attempt-20260505.md
-    sha256: 7753b7565685adb94d58e4c1840a63141c15ac4472c488cf628177103a52c2fa
-  - path: theorem-construction/mpp-square-reserve-evolution-next-attempt-20260505.md
-    sha256: f6097847fad7ec376910072facd7e6f7ee30a9da7e36191b61783ac46fbcca8b
-  - path: theorem-construction/mpp-zeno-rigid-class-next-attempt-20260505.md
-    sha256: 27745ae1400406f317e741f94086e42130b21aeaa6bae38fa2da61f657633da7
-  - path: theorem-construction/mpp-uniform-temporal-integrability-next-attempt-20260505.md
-    sha256: 0763cacaf3a4c3aad797f901e25e3105728004950cfb36632d0839a4872c5d12
-  - path: theorem-construction/mpp-native-trilinear-defect-domination-next-attempt-20260505.md
-    sha256: 2d7384aca587fd7cbf88647e342ebeb475d6da6c9909849b5a27fe6ef9f9d6a3
-  - path: theorem-construction/mpp-good-scale-noncollapse-replacement-target-audit-20260505.md
-    sha256: fad2af7512d39d47f9cef7830dca2fa4e88c14664785b7179e1f34d97f760915
-  - path: theorem-construction/mpp-cm-cross-face-synthesis-bridge-license-audit-20260505.md
-    sha256: 623414a6edecbb3337c637ab450ffebb64f77aa0b38e95db9cc66a2253626acd
-  - path: theorem-construction/mpp-current-route-linear-proof-order-note-20260505.md
-    sha256: ae0f457c014941437ea3201498d3ffd00a12ac564afb5dd37ad4ecef6633aee3
-  - path: theorem-construction/mpp-conditional-branch-supersession-ledger-20260504.md
-    sha256: f81d44ef2117855941290d10eb386b43d793e0e93d14a80c910508a31057674f
-  - path: theorem-construction/mpp-leading-edge-math-targets-audit-note.md
-    sha256: 1c1dd508f7ea89824327f149c8df9fd5464fca5ace84f9faaed03e2463ebeecb
-  - path: theorem-construction/mpp-localized-skew-current-theorem-grade-audit-20260505.md
-    sha256: 8899f6c4b9cff11abc59f58539b9262b053f6a176ea75c47eb8798e6a630a599
-  - path: theorem-construction/mpp-cycle-heat-action-direct-attempt-20260505.md
-    sha256: a084697d4e6561bac963256ce6c260eff3e5e63cd7a6735ffa806a844d7010b7
-  - path: theorem-construction/mpp-terminal-skew-localization-ledger-direct-attempt-20260505.md
-    sha256: 0e1c288848a6bdf6bf32fadaed92f68d8ef684e5ccb068185f1af36df65d0b83
-  - path: theorem-construction/mpp-first-current-pruning-audit-20260505.md
-    sha256: c0713eea008fe78a2664400ba4549ec7c7ad7599030ca8386cca8f9a1b9c2dea
-  - path: theorem-construction/mpp-parabolic-cycle-coercivity-direct-attempt-20260505.md
-    sha256: c95e26a5a491f3dceb0a30ce62a7af129647220c83fa9d3b32951251dfd0338c
-  - path: theorem-construction/mpp-terminal-signed-saturation-direct-attempt-20260505.md
-    sha256: 02885d0d3a83ea19227f2eca4309d39fa906ce601faabce7bedda2d3109192cd
-  - path: theorem-construction/mpp-parabolic-no-free-sink-direct-attempt-20260505.md
-    sha256: fb8a655245b32174f09ed035c2f0b38c7190e7841107a3828e795341a9373939
-  - path: theorem-construction/mpp-off-family-counteredge-charge-direct-attempt-20260505.md
-    sha256: a91922e5301e252ab1cc5ed91c9880e92134bcf9b8f3702bfa52cf3202561fa3
-  - path: theorem-construction/mpp-weighted-lifted-defect-carleson-direct-attempt-20260505.md
-    sha256: a397a7e9b031854015c28dd284dc71094ca7a18636e35a006cb13e43eed7bd6c
-  - path: theorem-construction/mpp-parabolic-edge-resistance-direct-attempt-20260505.md
-    sha256: dec43b2430d8dcb3d751437f7b0a5b36711854e48cb974a7e955262bc25a1777
-  - path: theorem-construction/mpp-sourcewall-signed-current-collapse-ledger-20260505.md
-    sha256: 56905a0459eb4a4297942a7dc7aaaaf8f62b29ff3f91a1e317aca6d84392f99d
-  - path: theorem-construction/mpp-member-smooth-contrapositive-witness-bridge-20260504.md
-    sha256: 45ee65ecdfd4a7fc46530334429b2af42b993c6c5024dcf28d276f5653bfdb1a
-  - path: theorem-construction/mpp-source-drain-definition-alignment-and-discharge-20260504.md
-    sha256: c97b82f9330842833b962714335d4976d16d786b0da41313f74cb749147133e2
-  - path: theorem-construction/mpp-normalized-adjoint-amplitude-four-certificate-discharge-20260504.md
-    sha256: ee77d92ff70f21ade172f25d249f2be0000bdfeb648048b26efb416144d8b73d
-included_artifacts:
-  dependency_graph: current-route-dependency-graph.yaml
-  supersession_ledger: theorem-construction/mpp-conditional-branch-supersession-ledger-20260504.md
-  proof_order: theorem-construction/mpp-current-route-linear-proof-order-note-20260505.md
-  gap_ledger: theorem-construction/mpp-sourcewall-reconcile-a-resolution-and-root-reopen-20260505.md
-  direct_attempt: theorem-construction/mpp-sourcewall-root-postreconcile-direct-attempt-20260505.md
-  bellman_attempt: theorem-construction/mpp-scalecritical-tree-carleson-bellman-reserve-attempt-20260505.md
-  direct_irreducibility: theorem-construction/mpp-scalecritical-tree-carleson-direct-irreducibility-note-20260505.md
-  direct_next_attempt: theorem-construction/mpp-scalecritical-tree-carleson-next-attempt-20260505.md
-  zeno_next_attempt: theorem-construction/mpp-zeno-rigid-class-next-attempt-20260505.md
-  temporal_next_attempt: theorem-construction/mpp-uniform-temporal-integrability-next-attempt-20260505.md
-  native_trilinear_attempt: theorem-construction/mpp-native-trilinear-defect-domination-next-attempt-20260505.md
-  signed_current_collapse: theorem-construction/mpp-sourcewall-signed-current-collapse-ledger-20260505.md
-  localized_skew_current_audit: theorem-construction/mpp-localized-skew-current-theorem-grade-audit-20260505.md
-  cycle_heat_action_attempt: theorem-construction/mpp-cycle-heat-action-direct-attempt-20260505.md
-  terminal_skew_localization_attempt: theorem-construction/mpp-terminal-skew-localization-ledger-direct-attempt-20260505.md
-  first_current_pruning_audit: theorem-construction/mpp-first-current-pruning-audit-20260505.md
-  parabolic_cycle_coercivity_attempt: theorem-construction/mpp-parabolic-cycle-coercivity-direct-attempt-20260505.md
-  terminal_signed_saturation_attempt: theorem-construction/mpp-terminal-signed-saturation-direct-attempt-20260505.md
-  parabolic_no_free_sink_attempt: theorem-construction/mpp-parabolic-no-free-sink-direct-attempt-20260505.md
-  off_family_counteredge_attempt: theorem-construction/mpp-off-family-counteredge-charge-direct-attempt-20260505.md
-  weighted_lifted_defect_attempt: theorem-construction/mpp-weighted-lifted-defect-carleson-direct-attempt-20260505.md
-  parabolic_edge_resistance_attempt: theorem-construction/mpp-parabolic-edge-resistance-direct-attempt-20260505.md
-  readout_interface: theorem-construction/mpp-good-scale-noncollapse-replacement-target-audit-20260505.md
-  cm_cross_face: theorem-construction/mpp-cm-cross-face-synthesis-bridge-license-audit-20260505.md
-  audit_note: theorem-construction/mpp-leading-edge-math-targets-audit-note.md
-  promotion_blocker_ledger: promotion-blocker-ledger.yaml
-  governance_blocker: governance-escalation.yaml
-volatile_artifacts:
-  - path: governance-escalation.yaml
-    reason: >-
-      Shared governance rewrites this live escalation as runner evidence
-      sharpens; it is intentionally referenced but not fixed-hashed in this
-      lane-local reproducibility bundle.
-validation:
-  yaml_checked:
-    - current-route-dependency-graph.yaml
-    - current-route-reproducibility-bundle.yaml
-    - promotion-blocker-ledger.yaml
-    - governance-escalation.yaml
-  hash_check: bundle entries verified against live files after final write
-boundary:
-  - >-
-    This bundle is lane-local and theorem-facing. It does not claim that
-    generated theorem-packet/review/submission/release surfaces are governed by
-    this May 5 snapshot.
-  - >-
-    Current readiness is governed by the direct-live Gold L1 authority stack,
-    where TFE2748B / OriginalCriticalCapacityVariation.A remains open.
+version: 2
+identity:
+  problem_id: navier-stokes
+  display_name: Navier--Stokes global regularity
+  updated_at: '2026-08-24'
+  source_owner: Thomas Birnie
+lane_boundary:
+  status: isolated
+  audit: problems/navier-stokes/lane-isolation-audit.yaml
+  proof_source_pack: problems/navier-stokes/proof-source-pack.md
+proof_program_completion_projection:
+  status: established-complete
+  mpp_status: solved
+  producer_status: proved-datum-generated-whole-terminal-compatible-rectangles
+  closure_status: proved
+  authority: problems/navier-stokes/live-theorem-edge.yaml
+  external_recognition_status: separate-workflow-not-a-proof-prerequisite
+bundle:
+  sources:
+  - problems/navier-stokes/theorem-construction/thomas-one-fluid-reversible-intersection-proof-spine-20260803.md
+  - problems/navier-stokes/theorem-construction/complete-mixed-intersection-global-closure-and-upstream-boundary-20260801.md
+  status_surface: problems/navier-stokes/live-theorem-edge.yaml
+  isolation_surface: problems/navier-stokes/lane-isolation-audit.yaml
+  generated_submission_bundle: withdrawn

@@ -1,0 +1,253 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.1 Vortex Stretching
+% ============================================================
+
+Inside a locally axisymmetric aligned stretch, one narrow material vortex tube lengthens along its axis, incompressibility squeezes its cross-section, and the rotating fluid moves inward, making faster interior spin the positive stretching contribution. Whether the rotation strengthens overall is decided by the complete signed balance between that contribution and viscosity.
+
+This tube moves inside one velocity field whose local acceleration, transport, pressure, and viscous diffusion obey
+\[
+  \underbrace{\partial_t u}_{\text{local acceleration}}
+  +
+  \underbrace{(u\cdot\nabla)u}_{\text{nonlinear transport}}
+  =
+  \underbrace{-\nabla p}_{\text{pressure}}
+  +
+  \underbrace{\nu\Delta u}_{\text{viscous diffusion}}.
+\]
+Transport carries the tube through the field, pressure remains coupled to that field, and the unresolved viscous balance stays with the tube as it narrows.
+
+\subsection{Vortex Stretching}\label{sub:ThePerfectlyStretchingVortex}
+
+Let \(e\) be the tube axis and \(L(t)\) its length. If the strain is locally uniform across the tube, its aligned extension is
+\[
+  S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr),
+  \qquad
+  Se=\sigma(t)e,
+  \qquad
+  \sigma(t)>0,
+  \qquad
+  \frac{\dot L(t)}{L(t)}
+  =
+  e\cdot Se
+  =
+  \sigma(t).
+\]
+The extension must reduce the cross-section. Incompressibility fixes the material volume \(\mathcal V\), so define the effective transverse area by \(A(t):=\mathcal V/L(t)\) and the effective radius by \(r_{\mathrm{eff}}(t):=\sqrt{A(t)/\pi}\). Then
+\[
+  \nabla\cdot u=0,
+  \qquad
+  \frac{d}{dt}(A L)=0,
+  \qquad
+  \frac{\dot A}{A}=-\sigma(t),
+  \qquad
+  \frac{\dot r_{\mathrm{eff}}}{r_{\mathrm{eff}}}
+  =
+  -\frac{\sigma(t)}{2}.
+\]
+The shrinking radius records the inward motion already produced by the extension. With \(\omega:=\nabla\times u\), vorticity carried along the same axis satisfies
+\[
+  \frac{D\omega}{Dt}
+  =
+  S\omega+\nu\Delta\omega,
+  \qquad
+  \frac{D}{Dt}
+  :=
+  \partial_t+u\cdot\nabla,
+\]
+and under the alignment \(\omega=|\omega|e\),
+\[
+  S\omega
+  =
+  \sigma(t)\omega,
+  \qquad
+  \frac12\frac{D|\omega|^2}{Dt}
+  =
+  \sigma(t)|\omega|^2
+  +
+  \nu\,\omega\cdot\Delta\omega.
+\]
+The first term is the positive stretching contribution. The full right-hand side can still have either sign; on any interval where it stays positive, the tube's rotation strengthens as its radius contracts.
+
+The energy identity proved in \Cref{prop:ClassicalKineticEnergyIdentity}, together with the antisymmetric part of \(\nabla u\), gives
+\[
+  \norm{u(t)}_2
+  \leq
+  \norm{u_0}_2
+  <\infty,
+  \qquad
+  \left|\frac12\bigl(\nabla u-(\nabla u)^{\mathsf T}\bigr)\right|_{\mathrm F}
+  =
+  \frac{|\omega|}{\sqrt2}
+  \leq
+  |\nabla u|_{\mathrm F}.
+\]
+Finite kinetic energy controls the global size of the velocity, but it does not rule out local concentration in the rotational part of its gradient.
+
+\divider{\NavierStokes{} Scaling}
+
+To see whether a finer scale gives viscosity a relative advantage, fix a time \(t_0<T_*\) and write \(\ell:=r_{\mathrm{eff}}(t_0)\). For \(\lambda>1\), the exact \NavierStokes{} rescaling is
+\[
+  u_\lambda(x,t)
+  :=
+  \lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)
+  :=
+  \lambda^2p(\lambda x,\lambda^2t).
+\]
+At time \(\lambda^{-2}t_0\), the corresponding segment in \(u_\lambda\) has effective radius \(\lambda^{-1}\ell\). This is another complete solution at another scale, not a later state of the original material tube. Its momentum terms transform together:
+\[
+\begin{aligned}
+  \partial_tu_\lambda(x,t)
+  &=
+  \lambda^3(\partial_tu)(\lambda x,\lambda^2t),
+  \\
+  (u_\lambda\cdot\nabla)u_\lambda(x,t)
+  &=
+  \lambda^3\bigl((u\cdot\nabla)u\bigr)(\lambda x,\lambda^2t),
+  \\
+  \nabla p_\lambda(x,t)
+  &=
+  \lambda^3(\nabla p)(\lambda x,\lambda^2t),
+  \\
+  \nu\Delta u_\lambda(x,t)
+  &=
+  \lambda^3\nu(\Delta u)(\lambda x,\lambda^2t).
+\end{aligned}
+\]
+Local acceleration, transport, pressure, and viscosity all gain the same cubic factor. Finer scale gives viscosity no automatic advantage.
+
+\divider{Critical Height}
+
+The equation keeps that balance while the homogeneous Sobolev norms change at different rates. Let \(\Lambda:=(-\Delta)^{1/2}\). Since
+\[
+  \widehat{u_\lambda}(\xi,t)
+  =
+  \lambda^{-2}\widehat u(\lambda^{-1}\xi,\lambda^2t),
+\]
+a change of variables gives
+\[
+  \norm{u_\lambda(t)}_{\dot H^s}^2
+  =
+  \lambda^{2s-1}
+  \norm{u(\lambda^2t)}_{\dot H^s}^2.
+\]
+Within this displayed homogeneous Sobolev family, kinetic energy at \(s=0\) loses one power of \(\lambda\), while the first-derivative level at \(s=1\) gains one. The exponent vanishes at \(s=\tfrac12\). Set
+\[
+  H(t)
+  :=
+  \frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =
+  \frac12\norm{\Lambda^{1/2}u(t)}_2^2.
+\]
+Writing \(H_\lambda\) for the same quantity evaluated on \(u_\lambda\),
+\[
+  \norm{u_\lambda(t)}_2^2
+  =
+  \lambda^{-1}\norm{u(\lambda^2t)}_2^2,
+  \qquad
+  H_\lambda(t)=H(\lambda^2t),
+  \qquad
+  \norm{\nabla u_\lambda(t)}_2^2
+  =
+  \lambda\norm{\nabla u(\lambda^2t)}_2^2.
+\]
+The rescaled solution has less kinetic energy and a larger first-derivative norm, while its half-derivative height is scale neutral. Scaling fixes the level, but it does not fix the sign of its time derivative.
+
+\divider{Nonlinear Production versus Viscous Dissipation}
+
+At critical height, the nonlinear contribution is the signed production
+\[
+  \mathcal P_{1/2}[u](t)
+  :=
+  -\operatorname{Re}
+  \pair
+    {\Lambda^{1/2}u(t)}
+    {\Lambda^{1/2}\bigl((u(t)\cdot\nabla)u(t)\bigr)}_{L^2}.
+\]
+Because \(\nabla\cdot u=0\), the pressure pairing vanishes. The Laplacian contributes \(-\nu\norm{\Lambda^{3/2}u}_2^2\), and the height obeys
+\[
+  H'(t)
+  +
+  \nu\norm{\Lambda^{3/2}u(t)}_2^2
+  =
+  \mathcal P_{1/2}[u](t).
+\]
+The height rises exactly when signed nonlinear production exceeds positive viscous dissipation. Under the same rescaling,
+\[
+  \mathcal P_{1/2}[u_\lambda](t)
+  =
+  \lambda^2\mathcal P_{1/2}[u](\lambda^2t),
+  \qquad
+  \nu\norm{\Lambda^{3/2}u_\lambda(t)}_2^2
+  =
+  \lambda^2\nu\norm{\Lambda^{3/2}u(\lambda^2t)}_2^2.
+\]
+Production and dissipation remain scale matched. Their common quadratic factor agrees with the time contraction \(t\mapsto\lambda^{-2}t\), but this scaling identity supplies no transition interval realized by the original tube or by any one material history.
+
+\divider{The Heat Clock}
+
+Now take a scale-localized velocity structure of width \(r\), separate from the opening tube's material radius. For the linear heat equation \(v_t=\nu\Delta v\),
+\[
+  \widehat v(\xi,t+\delta t)
+  =
+  e^{-\nu|\xi|^2\delta t}\widehat v(\xi,t).
+\]
+The structure lies near frequencies \(|\xi|\simeq r^{-1}\). Its viscous change becomes order one when
+\[
+  \nu|\xi|^2\delta t\simeq1,
+\]
+which gives the linear comparison time
+\[
+  \tau_\nu(r)
+  :=
+  \frac{r^2}{\nu}.
+\]
+This is not a parcel lifetime and does not assert that the nonlinear flow completes a transition in that time. If the width is reduced by \(\lambda\), then
+\[
+  \tau_\nu(\lambda^{-1}r)
+  =
+  \lambda^{-2}\tau_\nu(r).
+\]
+The heat comparison contracts by the same factor as the full-field scaling.
+
+\divider{The Zeno Cascade}
+
+At the dyadic widths
+\[
+  r_n:=2^{-n}r_0,
+  \qquad
+  \tau_n:=\frac{r_n^2}{\nu},
+\]
+the corresponding heat times satisfy
+\[
+  \tau_n
+  =
+  \frac{r_0^2}{\nu}4^{-n},
+  \qquad
+  \sum_{n=0}^{\infty}\tau_n
+  =
+  \frac{4r_0^2}{3\nu}
+  <
+  \infty.
+\]
+This finite sum is exact arithmetic, not yet a history of one fluid. Such a history would require one \NavierStokes{} velocity field to exhibit scale-localized structures at widths
+\[
+  r_0>r_1>r_2>\cdots\longrightarrow0
+\]
+and at sampled times
+\[
+  t_0<t_1<t_2<\cdots\uparrow T_*<\infty,
+  \qquad
+  t_{n+1}-t_n\asymp\tau_n,
+\]
+with comparison constants independent of \(n\). This condition does not claim that the opening material tube persists through those widths. If one velocity field has this scale-localized history, its remaining time satisfies
+\[
+  T_*-t_n
+  \asymp
+  \sum_{k=n}^{\infty}\tau_k
+  =
+  \frac{4r_n^2}{3\nu}.
+\]
+At the \(n\)-th sampled width, both the next gap and the total time left are comparable to \(r_n^2/\nu\). The gaps collapse as \(t\uparrow T_*\), but they prove no growth law for Eulerian time derivatives. They leave the next question: at a fixed spatial point, how does this same velocity field respond first through its time rate and then through each later time response?

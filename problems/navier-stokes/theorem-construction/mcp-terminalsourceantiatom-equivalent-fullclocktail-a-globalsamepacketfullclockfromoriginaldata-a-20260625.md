@@ -75,7 +75,7 @@ This is the pay-it-back-later attachment in exact form.
 Let \(d\Omega_N^{PLS,full}\) be the full same-material participation-law-strain
 clock on the transported annulus.  It contains the annular stress work,
 pressure-time service, cubic collar service, transported collar motion,
-material coefficient motion, Hodge/Stokes projection motion, and viscous/tower
+material coefficient motion, Helmholtz--Leray/Stokes projection motion, and viscous/tower
 loss as one coupled packet.
 
 The exact consumer hypothesis needed for the terminal source anti-atom is:

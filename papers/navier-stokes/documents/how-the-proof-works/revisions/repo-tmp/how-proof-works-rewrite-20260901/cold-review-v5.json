@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "review_kind": "cold_reader",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/critic-packet-v5.json",
+    "sha256": "82b33833f83b6efdad3f904c8b6432752950ff344cc785551308056d61ca2302"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/draft-v5.tex",
+    "sha256": "8300fb75c33c2fcee0bf4e8359785073797c4d8d821cfda4318675f9aba8156e"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v5/page-1.png",
+      "sha256": "631aea887a57b86ae8d90b768ce867ebd112f5e6ee9e694a2a03e6eacce1d644"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v5/page-2.png",
+      "sha256": "6915af3cd3d30d1580fd9abc275503ecd6fae4362a25e83e7a81ed234f6ebee5"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v5/page-3.png",
+      "sha256": "d008fd5f7b86d2a0b421301e392ab2e26b1887f5ccb04b6330e965bb71172ce5"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v5/page-4.png",
+      "sha256": "83f280d8141627f025e2dc3ccbc756b65780db79d60d739374bfe84437211b92"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v5/page-5.png",
+      "sha256": "8d13e9aec9949cf1bfbccc9337eccec0ba476909dbe95d4d54ba530b3b8c4dff"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/cold_reader_v5",
+    "task_name": "cold_reader_v5",
+    "isolation": "fork_none",
+    "request_nonce": "87e9a4fdc1c0dc7399824eea6a99b313d003fabe91d2749b"
+  },
+  "decision": {
+    "verdict": "fail",
+    "first_divergence": {
+      "exact_span": "The fluid turns more sharply across\nless distance: rotation strengthens and the core steepens.",
+      "mechanism": "At draft lines 34-35, on rendered page 1, the quotient estimate is used to infer stronger rotation even though it measures the full velocity gradient, which contains both strain and rotation. The reader has established narrowing and conditional gradient growth, but not which part of that gradient grows. Incompressibility supplies the contraction geometry; the stretching-to-vorticity link needed for the rotational conclusion has not yet been developed.",
+      "repair_constraint": "Preserve Thomas's narrowing-to-faster-spin movement and its claim force, but establish the stretching-to-vorticity link before making this inference. Use the total-gradient quotient to explain steepening, not as sufficient evidence of stronger rotation."
+    }
+  }
+}

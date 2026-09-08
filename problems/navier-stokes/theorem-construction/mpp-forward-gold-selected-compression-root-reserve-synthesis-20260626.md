@@ -33,7 +33,7 @@ C\left(
 
 Here:
 
-- `\langle U_Q,\mathsf S_Q U_Q\rangle` is the parent-child pressure-Hodge
+- `\langle U_Q,\mathsf S_Q U_Q\rangle` is the parent-child pressure-Helmholtz--Leray
   Schur visible part.
 - `\mathcal S_{\rm normal}` is packet-normal collar compression service.
 - `\mathcal S_{\rm covector}` is wave-covector compression service.
@@ -89,7 +89,7 @@ C_N(u_0)+R_{\rm legal}.
 \tag{4}
 ```
 
-Incompressibility, complete-frame payment, Hodge attachment, compactness, and
+Incompressibility, complete-frame payment, Helmholtz--Leray attachment, compactness, and
 support-tree counting attach or orient the variation. They do not prove (4).
 
 ## 4. Shrinking-core branch

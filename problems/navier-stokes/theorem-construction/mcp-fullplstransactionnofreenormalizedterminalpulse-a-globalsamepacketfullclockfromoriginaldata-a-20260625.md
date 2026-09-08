@@ -54,7 +54,7 @@ viscosity-only reasoning.  A local incompressible affine strain can have
 while still carrying nonzero strain and material metric growth.  Interior
 viscosity alone can miss that clock.  The participating carrier is the full
 same-material packet: interior strain, pressure constraint, annular Cauchy
-stress work, material coefficient motion, Hodge/Stokes projection motion,
+stress work, material coefficient motion, Helmholtz--Leray/Stokes projection motion,
 collar motion, and viscous loss.
 
 ## Correct differential carrier
@@ -80,7 +80,7 @@ C\,dA_N^{ann}
 
 Here \(dA_N^{ann}\) is annular Cauchy stress-work,
 \(d\mathcal G_N^{mat}\) is material geometry/coefficient participation,
-\(d\mathcal H_N^{proj/collar}\) is Hodge/collar participation, and \(dX_N\)
+\(d\mathcal H_N^{proj/collar}\) is Helmholtz--Leray/collar participation, and \(dX_N\)
 is the signed same-packet storage.  These are not separate suppliers.  They are
 coordinates of one same-material participation-law--strain transaction.
 

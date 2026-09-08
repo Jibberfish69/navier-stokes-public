@@ -30,12 +30,9 @@ VPI/binomial theory.  The physical order is fixed:
 No regional positive pressure part, fixed cohort, frozen enstrophy cutoff, or
 pairwise assignment of a Fourier triad is introduced.
 
-The restored historical sources are
-`mpp-forward-gold-critical-height-native-increment-current-fixed-face-certificate-20260709.md`
-and
-`mpp-forward-gold-material-pair-causal-system-and-incidence-law-20260711.md`.
-The new work here is their exact join to `(JPC.20)`, `(MSF.16)`, and the
-reduced Fourier support `(FIM.49)`.
+The derivation below is self-contained inside the one-fluid material-pair
+system. It joins the exact finite-chord law to `(JPC.20)`, `(MSF.16)`, and the
+reduced Fourier support `(FIM.49)` without importing a separate branch.
 
 ## 1. The exact finite-chord VPI law
 

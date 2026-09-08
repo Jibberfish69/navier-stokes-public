@@ -106,7 +106,7 @@ This proves the single-line multiplicity tax in the only form that can beat the 
 \text{retained high-ratio multiplicity on one ancestry line}
 \le
 \text{Cauchy-Green log variation}
-+\text{Hodge-frame rotation}
++\text{Helmholtz--Leray-frame rotation}
 +\text{legal collar/interface error}.
 ```
 

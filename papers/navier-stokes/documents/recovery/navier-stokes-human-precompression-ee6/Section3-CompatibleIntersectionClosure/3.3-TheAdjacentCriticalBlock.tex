@@ -1,0 +1,118 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 3.3 The Critical Height at the Terminal Face
+% ============================================================
+\subsection{The Critical Height at the Terminal Face}\label{sub:TheCriticalHeightAtTheTerminalFace}
+
+The terminal rectangles provide adjacent spatial rows.  Their first task is to
+turn two time-integrated norms into one strong value at the terminal face.
+
+\begin{lemma}[Adjacent Hilbert-scale trace]\label{lem:AdjacentHilbertScaleTrace}
+Let \(s\in\R\) and suppose
+\[
+  v\in L^2(I_*;H^{s+1}),
+  \qquad
+  v_t\in L^2(I_*;H^{s-1}).
+\]
+Then \(v\) has one representative in \(C([0,T_*];H^s)\), and for
+\(0\leq a\leq b\leq T_*\),
+\begin{equation}\label{eq:AdjacentHilbertScaleEstimate}
+  \left|
+  \norm{v(b)}_{H^s}^{2}
+  -\norm{v(a)}_{H^s}^{2}
+  \right|
+  \leq
+  2\norm{v_t}_{L^2(a,b;H^{s-1})}
+  \norm{v}_{L^2(a,b;H^{s+1})}.
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+Let \(A=(1-\Delta)^{1/2}\).  Time mollification and frequency truncation make
+the following identity legitimate for smooth approximants:
+\begin{equation}\label{eq:AdjacentHilbertScaleIdentity}
+  \norm{v(b)}_{H^s}^{2}
+  -\norm{v(a)}_{H^s}^{2}
+  =
+  2\operatorname{Re}\int_a^b
+  \pair{A^{s-1}v_t(t)}{A^{s+1}v(t)}_{L^2}
+  \,dt.
+\end{equation}
+Cauchy--Schwarz gives \eqref{eq:AdjacentHilbertScaleEstimate}.  The two assumed
+\(L^2\) rows pass the right-hand side to the limit.  The limit identity makes
+the \(H^s\) norm continuous, while the approximation also gives weak
+\(H^s\) continuity; together they imply strong continuity.  Any two continuous
+representatives agree everywhere because they agree almost everywhere.
+\end{proof}
+
+The critical readout needs only \(\cR_{0,2}[u_0]\).  Its integer rows embed into
+the fractional adjacent pair
+\begin{equation}\label{eq:SectionThreeCriticalAdjacentPair}
+  u\in L^2(I_*;H^{5/2}),
+  \qquad
+  u_t\in L^2(I_*;H^{1/2}).
+\end{equation}
+No fractional rectangle has been assumed; these are continuous embeddings of
+the integer record.  The trace lemma at \(s=3/2\) now gives
+\begin{equation}\label{eq:SectionThreeCriticalVelocityTrace}
+  u\in C([0,T_*];H^{3/2}).
+\end{equation}
+
+Let \(H=E_{1/2}\).  To read the homogeneous critical energies from the
+inhomogeneous trace, mollify in time and truncate frequencies to
+\(\varepsilon\leq|\xi|\leq R\).  Differentiation and Plancherel then give
+\[
+  \frac{1}{2}\norm{\Lambda^{3/2}u(b)}_{L^2}^{2}
+  -\frac{1}{2}\norm{\Lambda^{3/2}u(a)}_{L^2}^{2}
+  =
+  \operatorname{Re}\int_a^b
+  \pair{\Lambda^{1/2}u_t(t)}{\Lambda^{5/2}u(t)}_{L^2}
+  \,dt.
+\]
+Cauchy--Schwarz passes the integral to the limit through the two critical rows;
+the continuous \(H^{3/2}\) trace passes the endpoint terms.  Removing all
+cutoffs yields, for \(0\leq a\leq b\leq T_*\),
+\[
+  E_{3/2}(b)-E_{3/2}(a)
+  =
+  \operatorname{Re}\int_a^b
+  \pair{\Lambda^{1/2}u_t(t)}{\Lambda^{5/2}u(t)}_{L^2}
+  \,dt.
+\]
+The adjacent pair makes the derivative integrable, and the complete spatial row
+makes \(E_{3/2}\) itself integrable.  Hence
+\begin{equation}\label{eq:SectionThreeCriticalEnergyRegularity}
+  E_{3/2}\in W^{1,1}(I_*)\cap L^1(I_*)
+  \subset L^\infty(I_*).
+\end{equation}
+
+The integer rows also put the derivative of the critical height in \(L^1\):
+\begin{equation}\label{eq:SectionThreeCriticalHeightDerivative}
+  H'(t)
+  =\pair{\Lambda^{1/2}u(t)}{\Lambda^{1/2}u_t(t)}_{L^2}
+  \in L^1(I_*).
+\end{equation}
+Keep the pressure-explicit production current as
+\[
+  \mathcal P_{1/2}
+  :=
+  -\operatorname{Re}
+  \pair{\Lambda^{1/2}u}
+  {\Lambda^{1/2}\bigl((u\cdot\nabla)u+\nabla p\bigr)}_{L^2}.
+\]
+Pairing the full equation with \(\Lambda u\) gives
+\[
+  H'=-2\nu E_{3/2}+\mathcal P_{1/2}.
+\]
+The two integrable rows consequently imply
+\[
+  H\in W^{1,1}(I_*),
+  \qquad
+  E_{3/2}\in L^\infty(I_*)\cap L^1(I_*),
+  \qquad
+  \mathcal P_{1/2}\in L^1(I_*).
+\]
+The height and \(E_{3/2}\) therefore reach the terminal face continuously; the
+production current is only integrable, and no endpoint value is claimed for it.
+This entire critical trace comes from \(\cR_{0,2}[u_0]\).  Higher rectangles
+will repeat the endpoint argument at every finite Sobolev height.

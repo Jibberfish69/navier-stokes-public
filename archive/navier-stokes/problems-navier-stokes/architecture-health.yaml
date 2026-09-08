@@ -1,0 +1,15 @@
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  assessed_at: 2026-03-24T21:49:39Z
+structural_verdict: coherent
+paper_architecture_status: real
+supports_release_loop: true
+convergence_signal: positive
+strongest_line:
+  - energy or enstrophy control is necessary but not sufficient
+  - a classical scale barrier is the first bridge beyond bare control
+  - compactness plus gradient control close the singularity route
+blocking_mismatches: []
+next_structural_test: Preserve synchronization between theorem notes, control surfaces, and the external paper under later referee-facing revisions.

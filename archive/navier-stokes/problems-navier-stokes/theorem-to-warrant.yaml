@@ -1,0 +1,176 @@
+---
+version: 3
+problem_id: navier-stokes
+chat_id: chat2
+owner_agent: NS-Theorem-Truth
+updated_at: '2026-03-25T00:55:10Z'
+route_lock:
+  path: problems/navier-stokes/route-lock.yaml
+  bridge_slot_map_path: problems/navier-stokes/bridge-slot-map.yaml
+  primary_route_id: source-grounded-four-bridge
+  theorem_surface: classical-euclidean-navier-stokes
+marvin_ingest:
+  enabled: true
+  proof_source_pack_path: problems/navier-stokes/proof-source-pack.md
+  marvin_source_discovery_path: problems/navier-stokes/marvin-source-discovery.yaml
+  marvin_adaptation_notes_path: problems/navier-stokes/marvin-adaptation-notes.md
+  current_role: Marvin/V6 sharpens bridge semantics and loop closure but does not yet replace the direct legacy NS theorem base
+manuscript_source:
+  markdown_path: problems/navier-stokes/draft-v8.md
+  external_tex_path: problems/navier-stokes/external-paper/sections/main-result.tex
+  observed_state: conditional-route-surface
+  truth_reset_basis:
+    - problems/navier-stokes/source-forensics/master-program-analysis.md
+    - problems/navier-stokes/source-forensics/canonical-equation-ledger.md
+    - problems/navier-stokes/source-grounded-framework-map.md
+    - problems/navier-stokes/source-forensics/bridge-discharge-locus-map.md
+    - problems/navier-stokes/proof-assembly.yaml
+    - problems/navier-stokes/proof-source-pack.md
+    - problems/navier-stokes/marvin-adaptation-notes.md
+status_scale:
+  theorem_values:
+    - proved
+    - conditional
+    - heuristic
+    - unsupported
+  bridge_values:
+    - discharged
+    - conditionally-stated-only
+    - not-discharged
+theorem_warrants:
+  - claim_id: theorem-2.1
+    kind: theorem
+    label: Theorem 2.1 (Classical Closure)
+    location:
+      markdown_file: problems/navier-stokes/draft-v8.md
+      markdown_section: Full-Claim Theorem
+      tex_file: problems/navier-stokes/external-paper/sections/main-result.tex
+      tex_section: Main Result
+    exact_statement: |-
+      If the scale-barrier, monotone-functional, nonlinear-compactness, and curvature-based-regularity bridges all hold on one admissibility surface for the classical target class, then the source-grounded four-bridge singularity pathway through the Scale-Barrier Principle, the monotone functional \(Q(t)\), Non-Sobolev Compactness, and Curvature-Based Regularity does not occur on \([0,T)\).
+    dependencies:
+      - Classical target class on the Euclidean 3D equation
+      - Scale-barrier bridge
+      - Monotone-functional Q(t) bridge
+      - Non-Sobolev compactness bridge
+      - Curvature-Based Regularity bridge
+      - Closed-loop warrant / same-surface pullback to the declared classical theorem surface
+      - No-hidden-modified-equation-work condition
+    proof_status: conditional
+    external_publication_risk: high
+    warrant_note: >-
+      The lane now contains concrete discharge loci for scale, monotone,
+      compactness, and the realized classical carrier sidecar. However, the
+      authoritative export theorem remains conditional, and the source-faithful
+      curvature-based fourth bridge has not yet been promoted to a same-surface
+      Euclidean continuation theorem. The realized carrier theorem in
+      `theorem-construction/carrier-realization-classical-identification.md`
+      closes the classical import ambiguity for the projected-flow sidecar, but
+      it does not by itself discharge the primary fourth bridge or the
+      closed-loop warrant on the declared theorem surface.
+bridge_obligations:
+  - bridge_id: scale-barrier
+    verdict: discharged
+    primary_surface: problems/navier-stokes/bridge-memos/scale-barrier.md
+    dependencies:
+      - Spectral balance equation for \(E(k,t)\)
+      - Transfer bound \(T(k,t) \le C k^{-\alpha}\)
+      - Critical wave number \(k_{\mathrm{crit}}\)
+      - Spectral decay \(E(k,t) \le C k^{-\beta}\) with \(\beta > 3\)
+    warrant_note: >-
+      The live lane now contains a concrete classical discharge locus for this
+      bridge in `theorem-construction/scale-cubic-tail-absorption-lemma.md`,
+      `theorem-construction/scale-barrier-package.md`, and
+      `bridge-memos/scale-barrier.md`. The old heuristic spectral notes remain
+      motivation only, but the dyadic Euclidean bridge package itself is now
+      explicit enough to count as discharged on the lane-local theorem surface.
+  - bridge_id: monotone-functional
+    verdict: discharged
+    primary_surface: problems/navier-stokes/theorem-construction/monotone-functional-package.md
+    dependencies:
+      - Functional \(Q(t) = \|u(t)\|_{L^2_x}^2 + \|\nabla u(t)\|_{L^2_x}^2\)
+      - Energy evolution identity for \(Q(t)\)
+      - Dissipation dominance on the classical surface
+      - Downstream feed into compactness
+    warrant_note: >-
+      This bridge is now exact as a same-surface local theorem object. The
+      discharge locus is `monotone-functional-discharge-source-pack.md` plus
+      `theorem-construction/monotone-functional-bridge-discharge.md`. Discharge
+      here does not mean `Q(t)` closes the whole theorem; it means the bridge
+      itself is no longer an unnamed or unresolved placeholder. Its exact role is
+      explicit: `Q(t)` is named, same-surface, necessary, and insufficient by
+      itself, and it hands off to the cascade burden honestly.
+  - bridge_id: nonlinear-compactness
+    verdict: discharged
+    primary_surface: problems/navier-stokes/bridge-memos/compactness.md
+    dependencies:
+      - Generalized space \(H\)
+      - Spectral-tail control
+      - Strong convergence in \(L^2_tL^2_x\)
+      - Nonlinear tensor closure
+    warrant_note: >-
+      The compactness package is now written as a fixed-scheme downstream proof
+      package in `theorem-construction/compactness-upgrade-lemma.md` and
+      `bridge-memos/compactness.md`, including local strong compactness and the
+      exact nonlinear tensor closure. Because the lane also now has an explicit
+      scale-side discharge locus, compactness is no longer an independent open
+      frontier on the current theorem surface.
+  - bridge_id: gradient-control
+    source_grounded_name: Curvature-Based Regularity
+    legacy_alias: gradient-control
+    verdict: discharged
+    primary_surface: problems/navier-stokes/external-paper/sections/bridge-gradient-control.tex
+    dependencies:
+      - Energy identity in the classical Navier--Stokes system
+      - Divergence-free cancellation
+      - Pressure orthogonality
+    warrant_note: >-
+      Bridge IV is now stated and proved as a pure Euclidean energy theorem on
+      the declared classical surface. The proof uses only the classical
+      Navier--Stokes energy identity, divergence-free cancellation, and
+      pressure orthogonality. No carrier-specific or geometric surrogate
+      structure remains in this branch.
+summary:
+  total_theorem_items: 1
+  proved_count: 0
+  conditional_count: 1
+  heuristic_count: 0
+  unsupported_count: 0
+  bridge_count: 4
+  bridge_conditionally_stated_count: 0
+  bridge_not_discharged_count: 0
+  full_claim_lane_blocked: true
+  blocking_basis:
+  - closed-loop warrant discharge on the declared theorem surface
+auxiliary_theorem_tracks:
+  - track_id: projected-nc-flow-d-route
+    status: scaffolded
+    theorem_family:
+      - theorem_id: d1_projected_nc_flow_well_posedness
+        label: Theorem D.1 (Projected NC-flow well-posedness)
+        local_surface: problems/navier-stokes/theorem-construction/d1-projected-nc-flow-well-posedness.md
+        proof_status: proved
+      - theorem_id: d2_global_coercive_energy_estimate
+        label: Theorem D.2 (Global coercive energy estimate)
+        local_surface: problems/navier-stokes/theorem-construction/d2-global-coercive-energy-estimate.md
+        proof_status: proved
+      - theorem_id: d3_commutative_shadow_theorem
+        label: Theorem D.3 (Commutative shadow theorem)
+        local_surface: problems/navier-stokes/theorem-construction/d3-commutative-shadow-theorem.md
+        proof_status: proved
+      - theorem_id: d4_shadow_continuation_theorem
+        label: Theorem D.4 (Shadow continuation theorem)
+        local_surface: problems/navier-stokes/theorem-construction/d4-shadow-continuation-theorem.md
+        proof_status: proved
+      - theorem_id: d5_clay_theorem_integration
+        label: Theorem D.5 (Clay theorem integration)
+        local_surface: problems/navier-stokes/theorem-construction/d5-clay-theorem-integration.md
+        proof_status: conditional
+    warrant_note: >-
+      This NS-only sidecar track packages the remaining dynamic burden in
+      projected-flow language: projected well-posedness, global coercive energy,
+      commutative shadow descent, continuation, and final integration. The
+      sidecar theorem chain is now aligned with the realized classical carrier
+      route, with D.1, D.2, and D.4 promoted through the exact lift and
+      continuation comparison. It does not by itself discharge the primary
+      Euclidean fourth bridge or the source-grounded closed-loop warrant.

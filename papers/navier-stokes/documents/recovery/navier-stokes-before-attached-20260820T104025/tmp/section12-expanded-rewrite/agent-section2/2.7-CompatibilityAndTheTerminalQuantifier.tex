@@ -1,0 +1,148 @@
+% !TeX root = ../../../navier-stokes-manuscript.tex
+% ============================================================
+% 2.7 Compatibility and the Terminal Quantifier
+% ============================================================
+
+\subsection{Compatibility and the Terminal Quantifier}\label{sub:CompatibilityAndTheTerminalQuantifier}
+
+Begin with two concrete finite views on the same strict interval \((0,T)\).
+The larger record \(\cR_{2,3}(u,p;T)\) contains
+\[
+  u,
+  \ \partial_tu,
+  \ \partial_t^2u
+  \in
+  L^2(0,T;H^4)
+\]
+and
+\[
+  \partial_tu,
+  \ \partial_t^2u,
+  \ \partial_t^3u
+  \in
+  L^2(0,T;H^2).
+\]
+To recover the smaller record \(\cR_{1,2}(u,p;T)\), discard the highest temporal entries, use \(H^4\hookrightarrow H^3\) on the upper row, and use \(H^2\hookrightarrow H^1\) on the lower row.
+The surviving coordinates are exactly
+\[
+  u,
+  \ \partial_tu
+  \in
+  L^2(0,T;H^3)
+\]
+and
+\[
+  \partial_tu,
+  \ \partial_t^2u
+  \in
+  L^2(0,T;H^1).
+\]
+The operation changes the resolution of the view while leaving every surviving derivative unchanged.
+The pressure coordinates restrict through the same differentiated Poisson equations, so pressure remains attached to the smaller record.
+
+The general restriction has three independent parts.
+Let
+\[
+  N'\leq N,
+  \qquad
+  M'\leq M,
+  \qquad
+  0<T'\leq T<T_*.
+\]
+Define
+\[
+  \rho_{N',M';T'}^{N,M;T}:
+  \cR_{N,M}(u,p;T)
+  \longrightarrow
+  \cR_{N',M'}(u,p;T')
+\]
+by forgetting temporal rows above \(N'\), applying the continuous Sobolev embeddings down to the spatial heights determined by \(M'\), and restricting time from \((0,T)\) to \((0,T')\).
+Every shared velocity coordinate remains the same distributional derivative \(\partial_t^m\partial_x^\alpha u\).
+Every shared pressure coordinate remains the same derivative \(\partial_t^m\partial_x^\alpha p\).
+Every retained coordinate continues to satisfy the corresponding row of the pressure-complete mixed recurrence.
+
+Restriction in stages agrees with restriction in one step.
+If
+\[
+  N''\leq N'\leq N,
+  \qquad
+  M''\leq M'\leq M,
+  \qquad
+  T''\leq T'\leq T,
+\]
+then
+\[
+  \rho_{N'',M'';T''}^{N',M';T'}
+  \circ
+  \rho_{N',M';T'}^{N,M;T}
+  =
+  \rho_{N'',M'';T''}^{N,M;T}.
+\]
+This composition law is compatibility.
+A higher-resolution finite view always returns the same lower-resolution view, independent of how many intermediate cutoffs are used.
+The compatible family can support the coordinatewise all-orders intersection discovered above.
+
+Compatibility settles agreement among the coordinates.
+An alleged finite maximal time introduces a separate question about how far their bounds extend.
+Fix a strict \(T<T_*\).
+Classical smoothness on the compact interval \([0,T]\) gives, for every finite \(n\) and \(q\),
+\[
+  \sup_{0\leq t\leq T}
+  \norm{\partial_t^n u(t)}_{H^q}
+  <\infty.
+\]
+Integrating this fixed-cutoff bound gives
+\[
+  \norm{\partial_t^n u}_{L^2(0,T;H^q)}^2
+  \leq
+  T
+  \sup_{0\leq t\leq T}
+  \norm{\partial_t^n u(t)}_{H^q}^2
+  <\infty.
+\]
+Hence every finite rectangle is finite after a strict cutoff has been fixed.
+
+It is useful to write the dependence of the bound explicitly.
+Interior classicality gives
+\[
+  \forall\,T<T_*
+  \ \forall\,N,M\in\Nzero
+  \ \exists\,C_{T,N,M}<\infty:
+  \qquad
+  \mathfrak R_{N,M}(u;T)
+  \leq
+  C_{T,N,M}.
+\]
+The constant is allowed to depend on the right endpoint \(T\).
+This statement permits one fixed rectangle to grow without bound along a sequence \(T_j\uparrow T_*\), even though its value is finite at every earlier cutoff.
+
+The whole-terminal statement moves the existential constant outside the time cutoff:
+\[
+  \forall\,N,M\in\Nzero
+  \ \exists\,C_{N,M}(u_0,\nu,T_*)<\infty
+  \ \forall\,T<T_*:
+  \qquad
+  \mathfrak R_{N,M}(u;T)
+  \leq
+  C_{N,M}(u_0,\nu,T_*).
+\]
+Equivalently, for every fixed finite pair \((N,M)\),
+\[
+  \sup_{0<T<T_*}
+  \mathfrak R_{N,M}(u;T)
+  \leq
+  C_{N,M}(u_0,\nu,T_*)
+  <\infty.
+\]
+The constant may change when \(N\) or \(M\) changes.
+Its essential uniformity is across every strict time cutoff for the selected rectangle.
+
+The distinction lies in the placement of the bound, not in the order of two universal quantifiers.
+The strict-subinterval statement allows \(C_{T,N,M}\) to deteriorate as \(T\) approaches \(T_*\).
+The whole-terminal statement fixes \((N,M)\), supplies one datum- and viscosity-dependent constant, and carries that coordinate all the way to the terminal face.
+
+The datum-generated whole-terminal family received by the formal closure has precisely this bound at every finite rectangle.
+Its production and the terminal assembly it licenses are part of that formal closure and are not repeated here.
+The discovery made in this section identifies exactly what that producer acts on: the pressure-complete mixed jet, read through every finite adjacent Sobolev rectangle, with all overlapping coordinates compatible.
+Once each fixed rectangle has its cutoff-independent bound, moving the right endpoint of integration toward \(T_*\) cannot make a mixed coordinate escape.
+At the terminal face, every fixed finite pressure-complete mixed rectangle carries its own datum-dependent bound and agrees with every overlapping view.

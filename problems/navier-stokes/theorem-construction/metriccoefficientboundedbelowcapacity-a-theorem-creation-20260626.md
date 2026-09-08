@@ -4,12 +4,12 @@
 
 - target obligation: MetricCoefficientBoundedBelowCapacity.A
 - target label: construct the bounded-below same-carrier metric capacity Phi_metric
-- route role: A bounded-below Phi_metric can pay positive metric/coefficient growth only if one-way projected material stretch cannot accumulate without already-paid same-carrier strain, annular stress, Hodge/projector, viscous/radius, or legal service. The candidate -log material-record storage is circular; saturated bounded storage loses full payment. The needed theorem is no-free monotone projected metric stretch on the same transported packet.
+- route role: A bounded-below Phi_metric can pay positive metric/coefficient growth only if one-way projected material stretch cannot accumulate without already-paid same-carrier strain, annular stress, Helmholtz--Leray/projector, viscous/radius, or legal service. The candidate -log material-record storage is circular; saturated bounded storage loses full payment. The needed theorem is no-free monotone projected metric stretch on the same transported packet.
 - theorem family: full-same-material-action
 
 ## Created Theorem
 
-MetricCoefficientBoundedBelowCapacity.A. A bounded-below Phi_metric can pay positive metric/coefficient growth only if one-way projected material stretch cannot accumulate without already-paid same-carrier strain, annular stress, Hodge/projector, viscous/radius, or legal service. The candidate -log material-record storage is circular; saturated bounded storage loses full payment. The needed theorem is no-free monotone projected metric stretch on the same transported packet. This supplies the exact noncircular bridge needed for construct the bounded-below same-carrier metric capacity Phi_metric.
+MetricCoefficientBoundedBelowCapacity.A. A bounded-below Phi_metric can pay positive metric/coefficient growth only if one-way projected material stretch cannot accumulate without already-paid same-carrier strain, annular stress, Helmholtz--Leray/projector, viscous/radius, or legal service. The candidate -log material-record storage is circular; saturated bounded storage loses full payment. The needed theorem is no-free monotone projected metric stretch on the same transported packet. This supplies the exact noncircular bridge needed for construct the bounded-below same-carrier metric capacity Phi_metric.
 
 ## Inventive Search
 
@@ -19,7 +19,7 @@ MetricCoefficientBoundedBelowCapacity.A. A bounded-below Phi_metric can pay posi
 - selected_mechanism: bounded_metric_capacity_to_no_free_monotone_stretch
 - candidate_count: 1
 - solver_chain_verdict: open
-- selection_reason: This theorem is the right next move because it changes the proof economy: A bounded-below Phi_metric can pay positive metric/coefficient growth only if one-way projected material stretch cannot accumulate without already-paid same-carrier strain, annular stress, Hodge/projector, viscous/radius, or legal service. The candidate -log material-record storage is circular; saturated bounded storage loses full payment. The needed theorem is no-free monotone projected metric stretch on the same transported packet. It deliberately reduces the remaining work to MetricStretchNoFreeMonotoneGrowth.A rather than pretending the frontier is closed.
+- selection_reason: This theorem is the right next move because it changes the proof economy: A bounded-below Phi_metric can pay positive metric/coefficient growth only if one-way projected material stretch cannot accumulate without already-paid same-carrier strain, annular stress, Helmholtz--Leray/projector, viscous/radius, or legal service. The candidate -log material-record storage is circular; saturated bounded storage loses full payment. The needed theorem is no-free monotone projected metric stretch on the same transported packet. It deliberately reduces the remaining work to MetricStretchNoFreeMonotoneGrowth.A rather than pretending the frontier is closed.
 
 ### Candidate Theorems
 
@@ -50,7 +50,7 @@ MetricCoefficientBoundedBelowCapacity.A. A bounded-below Phi_metric can pay posi
 
 1. Start from the metric identities dot G=-2ASA^T and dot A=-A(grad u)A.
 2. Separate pure rotation gauge from projected strain modes that change the material metric.
-3. Show a positive projected metric/coefficient upcrossing either spends already-oriented G-to-S exchange capacity or creates an admissible annular/Hodge/viscous/legal charge.
+3. Show a positive projected metric/coefficient upcrossing either spends already-oriented G-to-S exchange capacity or creates an admissible annular/Helmholtz--Leray/viscous/legal charge.
 4. Reject any storage whose lower bound is equivalent to bounded P_N^mat.
 5. Construct Phi_metric only after the no-free monotone stretch estimate supplies a bounded-below primitive.
 

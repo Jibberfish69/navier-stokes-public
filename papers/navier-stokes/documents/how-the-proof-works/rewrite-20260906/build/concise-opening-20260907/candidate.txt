@@ -1,0 +1,153 @@
+How the Proof Works
+
+We start with a smooth, incompressible flow of finite energy and keep its viscosity fixed and positive.
+The problem is to prove that the flow remains smooth for all time. Its velocity u and pressure p
+satisfy the three-dimensional Navier–Stokes equation:
+                ∂t u       +        (u· ∇)u          =           −∇p         +        ν∆u ,          ∇· u = 0.
+            acceleration       nonlinear transport              pressure         viscous diffusion
+When strain stretches a vortex, incompressibility makes the material tube narrow as it lengthens.
+If circulation is retained, the narrowing makes it spin faster. Viscosity spreads rotation into the
+surrounding fluid, so the tube can narrow while losing circulation. Its vorticity ω = ∇ × u satisfies
+                                       ∂t ω + (u · ∇)ω = (ω · ∇)u + ν∆ω.
+The hope is simple: viscosity smooths the fluid faster than nonlinear transport can sharpen it.
+A smaller core gives viscosity less distance to act across, but the faster flow can also sharpen it more
+quickly. Under the Navier–Stokes rescaling with λ > 1,
+                                              uλ (x, t) = λu(λx, λ2 t),
+                                              pλ (x, t) = λ2 p(λx, λ2 t),
+transport and diffusion scale together at fixed ν. Smaller scales give viscosity no automatic advantage.
+The critical Sobolev order is s = 21 :
+                                      ∥uλ (·, t)∥Ḣ s = λs−1/2 ∥u(·, λ2 t)∥Ḣ s .
+Concentration makes the norm grow above that order and shrink below it; at the critical order it
+stays invariant. Energy lies below this threshold. The flow can become faster and more concentrated
+while its total energy falls:
+                                  E[uλ ](t) = λ−1 E[u](λ2 t),                E = 12 ∥u∥22 .
+An energy bound can survive the concentration we need to exclude.
+Both transport and diffusion act over successively shorter times. If the flow could keep repeating
+this concentration, those times would permit a Zeno cascade at a finite T∗ :
+                                                                     ∞
+                                                                     ∑︂
+                                                 −2j
+                                          τj = λ         τ0 ,              τj < ∞.
+                                                                     j=0
+
+Scaling allows that possibility; the regularity problem is whether the fluid can actually carry it out.
+For a finite-time singularity, velocity would have to blow up. That requires acceleration to blow
+up, then jerk, and so on, and so on. These changes in velocity are governed by the Navier–Stokes
+equation. Differentiating it shows what each further temporal order involves:
+                                 ∂t u = ν∆u − (u · ∇)u − ∇p,
+                                ∂t2 u = ν∆∂t u − (∂t u · ∇)u
+                                         − (u · ∇)∂t u − ∇∂t p,
+                                ∂t3 u = ν∆∂t2 u − (∂t2 u · ∇)u
+                                         − 2(∂t u · ∇)∂t u − (u · ∇)∂t2 u − ∇∂t2 p.
+
+
+                                                                 1
+Each time derivative splits the transport product and applies a Laplacian to the preceding response.
+Substituting the first equation into the second exposes ∆2 u; the next substitution exposes ∆3 u.
+Higher temporal orders reach further into the spatial derivatives, with the nonlinear terms carried
+along:
+                            ∂tn+1 u = ν∆∂tn u
+                                         n (︃ )︃
+                                        ∑︂    n
+                                      −         (∂ta u · ∇)∂tn−a u − ∇∂tn p.
+                                              a
+                                            a=0
+
+At the critical height, this relation exposes the spatial regularity behind those temporal demands.
+Write Es = 12 ∥Λs u∥22 , where Λ = (−∆)1/2 , and let H = E1/2 . Differentiating Es and integrating the
+viscous term by parts moves one spatial derivative onto each factor:
+                                            Es′ = −2νEs+1 + Ps ,
+with the transport and pressure contribution
+                                  Ps = − Re⟨Λs u, Λs ((u · ∇)u + ∇p)⟩L2 .
+Starting at s = 12 , each further time derivative exposes the next spatial energy:
+                                     H ′ = −2νE3/2 + P1/2 ,
+                                    H ′′ = 4ν 2 E5/2 − 2νP3/2 + ∂t P1/2 .
+Continuing through H ′′′ , H (4) , . . . reaches E7/2 , E9/2 , . . ., together with the differentiated nonlinear
+contributions.
+Those spatial orders are enough for smoothness. Any chosen number k of continuous spatial
+derivatives needs only a finite Sobolev height:
+                                 m > k + 32       =⇒    H m (R3 ) ↪→ C k (R3 ).
+Every choice of k is covered by a sufficiently high half-integer order. With finite energy, their
+intersection is                 ⋂︂             ⋂︂
+                           L2 ∩    Ḣ n+1/2 =      H m = H ∞ ↪→ C ∞ .
+                                     n≥0               m≥0
+The temporal requirements of a singularity have led us into the spatial requirements of smoothness.
+If these orders remain controlled together through T∗ , their limiting velocity is smooth enough to
+start the flow again.
+If a singularity were to form, we would expect the opposite: smoothness at every earlier instant,
+but an unbounded fixed Sobolev norm as t approaches T∗ . The temporal responses would become
+unbounded too, even while total energy remained finite. Having all finite derivatives before T∗ would
+not give us the control needed to carry them through it.
+That control must come from the initial velocity u0 ∈ Hσ∞ (R3 ) under the equation. Incompressibility
+fixes pressure through −∆p = ∂i ∂j (ui uj ), with its decay normalization. Writing Vn = ∂tn u and
+Qn = ∂tn p, the velocity and pressure responses obey
+                                             n
+                                            ∑︂ (︃n)︃
+                           Vn+1 = ν∆Vn −             (Va · ∇)Vn−a − ∇Qn ,
+                                                  a
+                                            a=0
+                                          n (︃ )︃
+                                         ∑︂    n
+                             Qn = Ri Rj          Va,i Vn−a,j .
+                                               a
+                                              a=0
+
+
+
+                                                        2
+Here Ri are the Riesz transforms and repeated spatial indices are summed. Starting with V0 = u0
+at t = 0, these relations determine each subsequent response. Spatial differentiation fills out each
+temporal row. The resulting collection of velocity and pressure derivatives is the mixed jet generated
+by the datum.
+We can retain any finite number of temporal rows and spatial orders. Choosing a temporal depth
+N and spatial height M gives a rectangle RN,M [u0 ; T∗ ]. The datum-generated rectangle theorem,
+Theorem 4.6, controls its adjacent temporal rows throughout the approach to T∗ :
+                             N (︂
+                            ∑︂                                                         )︂
+                      sup           ∥Vn ∥2L2 (0,T ;H M +1 ) + ∥Vn+1 ∥2L2 (0,T ;H M −1 ) < ∞.
+                     0<T <T∗ n=0
+
+The bound can depend on the orders N, M , but remains finite as T approaches T∗ . Since Vn+1 = ∂t Vn ,
+the adjacent rows control both a response and its change in time. The spaces H M +1 and H M −1 pair
+across H M ; their time-integrable product gives a continuous endpoint trace by the Hilbert-triple
+theorem:
+                                       Vn ∈ C([0, T∗ ]; H M ).
+
+A larger rectangle retains the derivatives already present. On each overlap, both rectangles contain
+derivatives of the original velocity and pressure, so their entries and endpoint traces agree. We can
+increase temporal depth and spatial height independently without losing that agreement. Their
+compatible intersection gives
+                                            (︁               )︁
+                                   I[u0 ] := RN,M [u0 ; T∗ ] N,M ≥0 ,
+                                             ⋂︂
+                                       u∈       H r (0, T∗ ; H m (R3 )).
+                                              r,m≥0
+
+Every finite request for derivatives fits inside one of these rectangles. In particular, the velocity
+reaches T∗ in every spatial Sobolev space, and its traces agree as one limiting velocity:
+                                       u∗ = lim u(t) in every H m ,
+                                             t↑T∗
+
+                                       u∗ ∈ Hσ∞ ↪→ C ∞ .
+Smooth local existence starts the flow again from u∗ , and uniqueness joins it to the original solution.
+It continues beyond its supposed maximal time. A finite T∗ is impossible, so T∗ = ∞.
+The constructed intersection now supplies finite estimates at any chosen orders. For any finite time
+T , temporal order r, spatial order k, and 2 ≤ p ≤ ∞, choose m > k + 32 − p3 . Sobolev embedding
+gives
+                              ∂tr u ∈ C([0, T ]; H m ) ↪→ L∞ (0, T ; W k,p ).
+In particular, taking r = 0, k = 1, p = ∞, and m = 3 controls the total strain over any finite time:
+                             ∫︂ T
+                                  ∥∇u(t)∥∞ dt ≤ T sup ∥∇u(t)∥∞ < ∞.
+                              0                         0≤t≤T
+
+For a locally circular material tube with axial strain σ, ṙ/r = −σ/2 and σ ≤ ∥∇u∥∞ . Hence
+                                                1 t
+                                            (︃    ∫︂              )︃
+                             r(t) ≥ r(0) exp −       ∥∇u(s)∥∞ ds > 0.
+                                                2 0
+Only a finite amount of stretching can accumulate in a finite time. The tube cannot be squeezed to
+zero radius there.
+
+
+                                                       3
+

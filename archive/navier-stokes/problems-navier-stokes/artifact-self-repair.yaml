@@ -1,0 +1,13 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  generated_at: '2026-03-16T20:12:49Z'
+  generator: system/runner/lib/artifact_invariant_builder.rb
+status: ok
+violations: []
+summary:
+  violation_count: 0
+  repairable_count: 0
+repair_actions: []

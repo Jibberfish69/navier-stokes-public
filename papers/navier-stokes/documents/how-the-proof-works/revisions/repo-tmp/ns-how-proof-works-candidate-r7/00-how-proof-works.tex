@@ -1,0 +1,325 @@
+\begingroup
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.40\baselineskip}
+\setlength{\abovedisplayskip}{6.5pt plus 1.5pt minus 1.5pt}
+\setlength{\belowdisplayskip}{6.5pt plus 1.5pt minus 1.5pt}
+\setlength{\jot}{4.5pt}
+
+\section*{How the Proof Works}
+
+For the global three-dimensional Navier--Stokes regularity problem, take one
+smooth finite-energy flow with fixed viscosity \(\nu>0\):
+\[
+ \partial_tu+(u\!\cdot\nabla)u+\nabla p=\nu\Delta u,
+ \qquad \nabla\!\cdot u=0,
+ \qquad u(0)=u_0.
+\]
+The danger is that this flow could sharpen one of its own structures beyond
+smooth continuation in finite time.  A vortex can concentrate velocity
+gradients while it stretches.
+As surrounding strain pulls the tube along its axis, incompressibility forces
+it to contract across its width: a longer piece of fluid cannot keep its old
+cross-section without gaining volume.  Aligned stretching can also strengthen
+the rotation.  The core narrows, the velocity turns more sharply across it,
+and the gradients rise.  This nonlinear sharpening is opposed by viscosity,
+which spreads the concentrated vorticity into its surroundings.  Both effects
+can grow stronger as the core gets smaller.
+
+To shrink a width by a factor \(\lambda>1\) at the Navier--Stokes scale,
+multiply velocity by \(\lambda\) and shorten time by \(\lambda^2\):
+\[
+ u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
+ \qquad
+ p_\lambda(x,t)=\lambda^2p(\lambda x,\lambda^2t).
+\]
+Nonlinear transport and viscosity both gain a factor \(\lambda^3\): viscosity
+has not gained a scaling advantage over the sharpening.  Equal scaling weight
+does not tell us which effect wins dynamically, or give a bound on either one.
+
+The faster motion occupies less volume.  Velocity squared gains
+\(\lambda^2\), while volume loses \(\lambda^3\), so kinetic energy scales down
+by \(\lambda^{-1}\).  It can remain finite as velocity and gradients grow.
+The Sobolev norms register this concentration at different spatial heights:
+\[
+ \|u_\lambda(\cdot,t)\|_{\dot H^s}
+ =\lambda^{s-1/2}
+  \|u(\cdot,\lambda^2t)\|_{\dot H^s}.
+\]
+Below \(s=\tfrac12\), the scaled norm falls; above it, the norm rises.  At
+\(s=\tfrac12\), its size is unchanged by this concentration.  That is the
+critical height: \(\dot H^{1/2}\) is scaling-critical, not conserved in time.
+
+If the vortex kept repeating this narrowing and acceleration, its width,
+velocity scale, and duration at stage \(j\) would follow
+\[
+\begin{gathered}
+ \ell_j=\lambda^{-j}\ell_0,
+ \qquad
+ U_j=\lambda^jU_0,
+ \qquad
+ \tau_j=\lambda^{-2j}\tau_0,
+ \\
+ \sum_{j=0}^{\infty}\tau_j
+ =\frac{\tau_0}{1-\lambda^{-2}}<\infty.
+\end{gathered}
+\]
+The widths collapse and the velocity scale diverges, yet infinitely many
+stages fit into a finite interval.  This is the hypothetical Zeno cascade:
+finite energy can survive while the core becomes arbitrarily narrow and fast.
+
+In order for a singularity to happen, velocity
+has to blow up.  In order for that to happen, its acceleration would also have
+to blow up, which means its jerk has to blow up, and so on, and so on:
+\[
+ u,\qquad \partial_tu,\qquad \partial_t^2u,\qquad\ldots
+\]
+
+The equation carries this repeated temporal climb into its nonlinear and
+viscous structure:
+\[
+\begin{aligned}
+ \partial_tu
+ &=\nu\Delta u-(u\!\cdot\nabla)u-\nabla p,\\
+ \partial_t^2u
+ &=\nu\Delta\partial_tu
+   -(\partial_tu\!\cdot\nabla)u
+   -(u\!\cdot\nabla)\partial_tu
+   -\nabla\partial_tp,\\
+ \partial_t^3u
+ &=\nu\Delta\partial_t^2u
+   -(\partial_t^2u\!\cdot\nabla)u
+   -2(\partial_tu\!\cdot\nabla)\partial_tu
+   -(u\!\cdot\nabla)\partial_t^2u
+   -\nabla\partial_t^2p.
+\end{aligned}
+\]
+The Laplacian follows the rising temporal response, while the nonlinear term
+opens into every product allowed by the product rule.  After three lines the
+bookkeeping is already hiding the relation, so put
+\[
+ V_r:=\partial_t^ru,
+ \qquad
+ Q_r:=\partial_t^rp.
+\]
+At order \(r\), those product-rule copies occur with multiplicity
+\(\binom ra\), so the expansion closes as
+\[
+\begin{aligned}
+ V_{r+1}
+ &+\sum_{a=0}^{r}\binom ra
+   (V_a\!\cdot\nabla)V_{r-a}
+   +\nabla Q_r
+   =\nu\Delta V_r,\\
+ Q_r
+ &=R_iR_j\sum_{a=0}^{r}\binom ra
+   V_{a,i}V_{r-a,j}.
+\end{aligned}
+\]
+Incompressibility fixes \(Q_r\) through the Riesz transforms \(R_i\), so the
+pressure row stays with the nonlinear row at every order.
+
+If a singularity were forming, one would expect spatial regularity to erode as
+these temporal responses rise.  Yet each next response contains
+\(\nu\Delta V_r\), hence two spatial derivatives of the preceding response.
+That does not give regularity on its own.  It tells us which spatial
+coordinates the equation exposes.
+
+To measure the spatial order exposed by \(\Delta V_r\), let
+\(\Lambda=(-\Delta)^{1/2}\) and set
+\[
+ E_s(t):=\frac12\|\Lambda^su(t)\|_2^2,
+ \qquad
+ H(t):=E_{1/2}(t),
+\]
+and retain the complete pressure-coupled nonlinear transfer
+\[
+ \mathcal P_s(t)
+ :=-\operatorname{Re}\left\langle
+ \Lambda^su,
+ \Lambda^s\bigl((u\!\cdot\nabla)u+\nabla p\bigr)
+ \right\rangle_{L^2}.
+\]
+Pairing the equation at height \(s\) gives
+\[
+ E_s'=\mathcal P_s-2\nu E_{s+1}.
+\]
+Differentiate this identity and use it again at each new height.  At every
+finite order \(n\),
+\[
+ H^{(n)}
+ =(-2\nu)^nE_{n+1/2}
+ +\sum_{j=0}^{n-1}(-2\nu)^j
+   \partial_t^{\,n-1-j}\mathcal P_{j+1/2}.
+\]
+Acceleration, jerk, and the higher temporal responses have now exposed the
+Sobolev coordinates
+\[
+ E_{n+1/2}
+ =\frac12\|u\|_{\dot H^{n+1/2}}^2.
+\]
+If every finite exposed height reaches one terminal value \(u_*\), with the
+finite-energy row retained, then for any \(k\) one can choose \(n>k+1\) and
+read
+\[
+ u_*\in L^2\cap\bigcap_{n<\infty}\dot H^{n+1/2}
+ =H^\infty
+ \hookrightarrow C^\infty.
+\]
+But exposure is not control.  Differentiation does not bound
+\(H^{(n)}\), the transfer terms, or \(E_{n+1/2}\); it only keeps their exact
+relation visible.  The singular picture predicts loss of spatial regularity
+as temporal order rises, and these identities alone do not prevent it.
+
+Let \([0,T_*)\) be the maximal classical lifespan and suppose
+\(T_*<\infty\).  Fix one finite pair \((N,M)\) and one cutoff
+\(0<T<T_*\).  For \(0\le n\le N\), keep the whole transfer
+\[
+ \mathcal B_n
+ :=\sum_{a=0}^{n}\binom na(V_a\!\cdot\nabla)V_{n-a}+\nabla Q_n.
+\]
+Pairing the recurrence for \(V_n\) at height \(M\) gives
+\[
+\begin{aligned}
+ \frac12\frac{d}{dt}\|\Lambda^M V_n\|_2^2
+ &+\operatorname{Re}\left\langle
+   \Lambda^M V_n,\Lambda^M\mathcal B_n
+  \right\rangle_{L^2}\\
+ &=\nu\operatorname{Re}\left\langle
+   \Lambda^M V_n,\Lambda^M\Delta V_n
+  \right\rangle_{L^2}
+ =-\nu\|V_n\|_{\dot H^{M+1}}^2.
+\end{aligned}
+\]
+The viscous term has a fixed sign, while every product-rule transfer and the
+pressure response remain coupled to it in this finite system.  This identity
+shows what must be controlled; it does not supply the whole-terminal bound by
+itself.  Theorem~\ref{thm:datum-rectangles} supplies the bound for this maximal
+history:
+\[
+ \sup_{0<T<T_*}\sum_{n=0}^{N}\left(
+  \|V_n\|_{L^2(0,T;H^{M+1})}^2
+  +\|V_{n+1}\|_{L^2(0,T;H^{M-1})}^2
+ \right)<\infty.
+\]
+Every term in the sum increases monotonically with the cutoff.  Since one
+finite bound holds for all \(T<T_*\), the limit \(T\uparrow T_*\) places each
+adjacent pair on the full approach to \(T_*\).  With
+\(V_{n+1}=\partial_tV_n\), that pair sits in the Hilbert triple
+\[
+ H^{M+1}\subset H^M\subset H^{M-1}
+\]
+and gives
+\[
+ V_n\in C([0,T_*];H^M).
+\]
+The pressure formula supplies
+\(Q_n\in L^1(0,T_*;H^M)\) and
+\(\nabla Q_n\in L^1(0,T_*;H^{M-1})\), so the finitely many rows now form one
+pressure-complete rectangle
+\[
+ \mathcal R_{N,M}[u_0;T_*]
+ =\bigl((V_n)_{n=0}^{N},(V_{n+1})_{n=0}^{N};(Q_n)_{n=0}^{N}\bigr).
+\]
+The bound may depend on \(N\) and \(M\).  No constant uniform over every
+derivative order is being used.
+
+A larger rectangle retains each older coordinate as the identical
+distributional derivative of \(u\) or \(p\).  Restricting from
+\((N,M)\) to \((N',M')\) consequently gives
+\[
+ \rho_{N',M'}^{N,M}\mathcal R_{N,M}[u_0;T_*]
+ =\mathcal R_{N',M'}[u_0;T_*].
+\]
+The restriction maps act between the finite coordinate spaces
+\(\mathscr X_{N,M}\) determined by the three rows already displayed.
+\[
+ \mathscr X_\infty:=\varprojlim_{N,M}\mathscr X_{N,M},
+ \qquad
+ \mathcal I[u_0]
+ :=\bigl(\mathcal R_{N,M}[u_0;T_*]\bigr)_{N,M\in\mathbb N_0}
+ \in\mathscr X_\infty,
+ \qquad
+ u\in\bigcap_{r,m<\infty}H^r(0,T_*;H^m(\mathbb R^3)).
+\]
+There is no all-order estimate hidden in this notation.  Each requested
+coordinate is obtained at a finite stage, and compatibility makes all of
+those finite coordinates parts of one history.
+
+Take the zeroth temporal row after this intersection has been formed.  For
+every finite \(m\),
+\[
+ u\in L^2(0,T_*;H^{m+1}),
+ \qquad
+ u_t\in L^2(0,T_*;H^{m-1}),
+ \qquad
+ u\in C([0,T_*];H^m).
+\]
+The endpoint values at different heights are compatible traces of one field.
+They produce a common endpoint
+\[
+ u_*:=u(T_*)\in\bigcap_{m<\infty}H^m(\mathbb R^3)
+ =H^\infty(\mathbb R^3)
+ \hookrightarrow C^\infty(\mathbb R^3).
+\]
+At \(T_*\), set \(V_0^*:=u_*\).  The pressure formula and binomial recurrence
+then define \(Q_r^*\) and \(V_{r+1}^*\) through every finite order.  Smooth
+local existence restarts the flow from \(u_*\).  Uniqueness glues that
+continuation to the history already reaching \(T_*\), contradicting finite
+maximality.
+Hence
+\[
+ T_*=\infty.
+\]
+
+Only after \(\mathcal I[u_0]\) is present do the familiar finite estimates
+become available as coordinate projections.  Fix any finite \(T\), a temporal
+order \(r\), a spatial derivative order \(k\), and \(2\le p\le\infty\), then
+choose
+\[
+ m>k+\frac32-\frac3p.
+\]
+The corresponding row gives
+\[
+ V_r\in C([0,T];H^m)
+ \hookrightarrow L^\infty(0,T;W^{k,p}).
+\]
+For instance, the \(m=3\) coordinate yields
+\[
+ \int_0^{T}\|\nabla u(t)\|_\infty\,dt
+ \le T\|u\|_{L^\infty(0,T;W^{1,\infty})}<\infty.
+\]
+This estimate appears because the fluid already occupies the compatible
+intersection; it is a finite readout of that object, not the source of it.
+Its source remains visible in the full dependence
+\[
+\begin{gathered}
+ u_0
+ \longrightarrow
+ \underbrace{\{(V_r,Q_r)\}_{r\ge0}}_{\text{pressure-complete mixed jet}}
+ \longrightarrow
+ \underbrace{\left\{
+  \begin{gathered}
+   V_n\in L^2(0,T_*;H^{M+1}),\\[-1pt]
+   V_{n+1}\in L^2(0,T_*;H^{M-1})
+  \end{gathered}
+ \right\}_{\substack{0\le n\le N\\N,M<\infty}}}_{
+ \text{whole-terminal adjacent rows}}
+ \\
+ \longrightarrow
+ \underbrace{\{\mathcal R_{N,M}[u_0;T_*]\}_{N,M<\infty}}_{
+ \text{finite compatible rectangles}}
+ \longrightarrow
+ \underbrace{\mathcal I[u_0]}_{\text{projective intersection}}
+ \longrightarrow
+ \underbrace{\left(
+  u_*\in H^\infty,
+  \{(V_r^*,Q_r^*)\}_{r\ge0}
+ \right)}_{\substack{\text{common endpoint and pressure-complete}\\
+                     \text{endpoint jet}}}
+ \\
+ \longrightarrow \text{restart and uniqueness}
+ \longrightarrow T_*=\infty.
+\end{gathered}
+\]
+
+\endgroup

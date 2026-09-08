@@ -1,0 +1,53 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 1.3 Gold Standard Proof
+% ============================================================
+\subsection{Gold Standard Proof}\label{sub:GoldStandardProof}
+
+The direct proof is short once one estimate is available.
+For some fixed \(s>5/2\), derive from \(u_0\), \(\nu\), and the Navier--Stokes equations that, for every finite \(T>0\),
+\[
+  \sup_{0\leq t<\min\{T,T_*\}}
+  \lVert u(t)\rVert_{H^s(\mathbb R^3)}
+  \leq
+  C_s(u_0,\nu,T)
+  <
+  \infty.
+\]
+This is the missing Gold-standard estimate.
+
+Its consequence follows from the continuation argument above.
+Sobolev embedding controls \(\nabla u\) in \(L^\infty\).
+The differentiated equations then propagate every fixed higher \(H^m\) norm from the smooth datum, the pressure equation recovers the spatial derivatives of \(p\), and the momentum equation recovers the time derivatives.
+If \(T_*<\infty\), take \(T=T_*\) in the estimate and restart local theory from a sufficiently late time slice.
+The uniform \(H^s\) bound gives enough lifespan to cross \(T_*\), contradicting the definition of maximal time.
+This bound forces
+\[
+  T_*=\infty.
+\]
+
+The difficulty lies entirely in deriving that bound from the controls already supplied by the equations.
+Energy gives
+\[
+  \int_0^T
+  \lVert\nabla u(t)\rVert_{L^2}^{2}\,dt
+  <
+  \infty.
+\]
+At the first differentiated level, the nonlinear term leads after interpolation and viscous absorption to
+\[
+  \frac{d}{dt}
+  \lVert\nabla u\rVert_{L^2}^{2}
+  +
+  \nu\lVert\Delta u\rVert_{L^2}^{2}
+  \leq
+  C\nu^{-3}
+  \lVert\nabla u\rVert_{L^2}^{6}.
+\]
+The available time integral controls the second power of the gradient.
+The differentiated inequality asks for control strong enough to handle its sixth power.
+Short high peaks can satisfy the first statement and defeat the second, so this estimate stops before the first derivative level closes.
+That observation tests the strength of the estimate; it does not claim that the fluid produces such peaks.
+
+A Gold-standard proof has to obtain the continuation-grade bound from transport, pressure, incompressibility, and viscosity acting in the original equations.
+Once that estimate is proved, the rest of the argument is already in place.

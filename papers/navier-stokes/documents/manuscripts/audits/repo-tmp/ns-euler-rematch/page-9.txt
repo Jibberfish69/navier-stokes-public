@@ -1,0 +1,53 @@
+estimates, examples, and failed positive-forward attempts become silver material only when they
+attach to a selected terminal record for the original solution.
+    The split is
+                    pass: the object remains the same Navier–Stokes member,
+                            fail: the object exits the Navier–Stokes class.
+    On the pass side, the record keeps a positive material carrier, the same pressure-viscosity-
+incompressibility participation law, and one coherent positive-scale velocity field. That record
+belongs to the continuation/readout side and has to be paired with the relevant positive supplier.
+On the fail side, the record loses a requirement that belongs to the problem definition. That loss is
+the class-exit witness for the alleged breakdown branch.
+    The reduced burden has three parts. First, the failure list has to cover the possible nonsmooth
+terminal pictures supplied by the forward-support field. Second, the paper has to select the same-
+solution object being tested. Third, each selected object has to land at a first face. Lost carrier
+lands at Pack. Lost same-law participation lands at Part. Lost positive-scale coherent field readout
+lands at Field.
+    This is the present certification boundary. The periodic branch now has a selected whole-torus
+material atlas, and the whole-space branch now has an exterior-source CM dichotomy. The annular
+endpoint branch remains explicitly open in the manuscript: the radius-zero point is insufficient by
+itself, and the surrounding positive-radius fields still need gold control or a silver first-face landing.
+The paper can claim only the payments written on the page. Full CMI finality requires every live
+terminal record to pass this gold-or-silver accounting with rendered evidence.
+
+
+8     Defining Class Membership
+The paper now gets organized around one question. When a terminal picture is placed in front of
+us, is it still the Navier–Stokes object named by the problem, or has it become some other imagined
+object? That is the class-membership question.
+    Call the working Navier–Stokes class object Owork
+                                                   NS . It is the original smooth-data incompressible
+Navier–Stokes evolution, with the same datum, the same equation, the same pressure, the same
+viscosity, the same incompressible transported material family, and the same terminal role. For a
+terminal packet Q,
+                                           Member(Q; Owork
+                                                        NS )
+
+means that Q is still part of that object. Class exit means:
+
+                               Exit(Q; Owork                work
+                                        NS ) := ¬Member(Q; ONS ).
+
+     This definition is deliberately plain. A blowup story, a residue story, a slip story, or a source
+story can sound like a Navier–Stokes story. The paper asks the simpler question: does the object
+still belong to the class named by the Clay problem? The rest of the witness test exists to answer
+that question without guessing.
+
+8.1    Properties of NS Fluid
+The Navier–Stokes fluid here is an ideal mathematical fluid. Water, honey, and oil can help the
+imagination, yet the object is fixed by the equation. It has a velocity field u, a pressure p, fixed
+positive viscosity ν > 0, normalized density through incompressibility, and smooth divergence-free
+
+
+                                                    9
+

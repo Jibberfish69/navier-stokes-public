@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "review_kind": "cold_reader",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/critic-packet-v1.json",
+    "sha256": "3dfa202a244c88dcae3ea43897185a049629985a32fdf5eddc699b7384a19fc9"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/draft-v1.tex",
+    "sha256": "29ec77083128c3524051f4eb1e8263dacb8852342feb5c91a10da3dc98b68d62"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v1/page-1.png",
+      "sha256": "0e26a3434da91f1325f710c0d1344c4dcd2ad48728666b519bf503a541387117"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v1/page-2.png",
+      "sha256": "a49ffc17fc871c761ccb21569f29b9e6a98db55492421064fcddc21aac0b95fb"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v1/page-3.png",
+      "sha256": "deadec861e75eb2216acec9db69b4a6888d7ff3643a2ce33a4508ee1ee70aca9"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v1/page-4.png",
+      "sha256": "a50ea2ffcae1b2867e58d0965a9507d7aadb4e47c7f95eeb6ae2927cdfc219fb"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/cold_reader_v1",
+    "task_name": "cold_reader_v1",
+    "isolation": "fork_none",
+    "request_nonce": "6f5c470f055f4d5f8f643712e428f352"
+  },
+  "decision": {
+    "verdict": "fail",
+    "first_divergence": {
+      "exact_span": "In order for a singularity to form, velocity has to blow up. In order for that to happen, its acceleration would also have to blow up, which means its jerk has to blow up, and so on, and so on:",
+      "mechanism": "Before this point, the section has shown finite energy with growing spatial gradients and a shortening scale clock. It has not shown why that scenario forces blow-up of velocity amplitude, then of acceleration, then of every higher temporal response, so the derivative tower enters as an asserted sequence rather than a consequence available to the reader.",
+      "repair_constraint": "Preserve the protected velocity--acceleration--jerk sequence, but supply the missing bridge from the finite-time singularity condition to each necessity before differentiating Navier--Stokes."
+    }
+  }
+}

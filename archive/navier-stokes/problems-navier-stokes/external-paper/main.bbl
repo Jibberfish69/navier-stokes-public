@@ -1,0 +1,75 @@
+\begin{thebibliography}{BKM84}
+
+\bibitem[BF13]{BoyerFabrie2013}
+Franck Boyer and Pierre Fabrie.
+\newblock {\em Mathematical Tools for the Study of the Incompressible
+  Navier--Stokes Equations and Related Models}, volume 183 of {\em Applied
+  Mathematical Sciences}.
+\newblock Springer, New York, 2013.
+
+\bibitem[BKM84]{BealeKatoMajda1984}
+J.~T. Beale, T.~Kato, and A.~Majda.
+\newblock Remarks on the breakdown of smooth solutions for the 3-{D} euler
+  equations.
+\newblock {\em Communications in Mathematical Physics}, 94(1):61--66, 1984.
+
+\bibitem[CKN82]{CaffarelliKohnNirenberg1982}
+Luis Caffarelli, Robert Kohn, and Louis Nirenberg.
+\newblock Partial regularity of suitable weak solutions of the navier--stokes
+  equations.
+\newblock {\em Communications on Pure and Applied Mathematics}, 35(6):771--831,
+  1982.
+
+\bibitem[ES{\v S}03]{EscauriazaSereginSverak2003}
+Luis Escauriaza, Gregory~A. Seregin, and Vladim{\'\i}r {\v S}ver{\'a}k.
+\newblock {$L_{3,\infty}$}-solutions of navier--stokes equations and backward
+  uniqueness.
+\newblock {\em Uspekhi Matematicheskikh Nauk}, 58(2):3--44, 2003.
+\newblock English translation in Russian Mathematical Surveys 58 (2003),
+  211--250.
+
+\bibitem[Hop51]{Hopf1951}
+Eberhard Hopf.
+\newblock {\"U}ber die anfangswertaufgabe f{\"u}r die hydrodynamischen
+  grundgleichungen.
+\newblock {\em Mathematische Nachrichten}, 4(1--6):213--231, 1951.
+
+\bibitem[KT01]{KochTataru2001}
+Herbert Koch and Daniel Tataru.
+\newblock Well-posedness for the navier--stokes equations.
+\newblock {\em Advances in Mathematics}, 157(1):22--35, 2001.
+
+\bibitem[Lad69]{Ladyzhenskaya1969}
+O.~A. Ladyzhenskaya.
+\newblock {\em The Mathematical Theory of Viscous Incompressible Flow}.
+\newblock Gordon and Breach, New York, 1969.
+
+\bibitem[Ler34]{Leray1934}
+Jean Leray.
+\newblock Sur le mouvement d'un liquide visqueux emplissant l'espace.
+\newblock {\em Acta Mathematica}, 63:193--248, 1934.
+
+\bibitem[Pro59]{Prodi1959}
+Giovanni Prodi.
+\newblock Un teorema di unicit\`a per le equazioni di navier--stokes.
+\newblock {\em Annali di Matematica Pura ed Applicata}, 48(1):173--182, 1959.
+
+\bibitem[Ser62]{Serrin1962}
+James Serrin.
+\newblock On the interior regularity of weak solutions of the navier--stokes
+  equations.
+\newblock {\em Archive for Rational Mechanics and Analysis}, 9(1):187--195,
+  1962.
+
+\bibitem[Sim87]{Simon1987}
+Jacques Simon.
+\newblock Compact sets in the space {$L^p(0,T;B)$}.
+\newblock {\em Annali di Matematica Pura ed Applicata}, 146(1):65--96, 1987.
+
+\bibitem[Tem01]{Temam2001}
+Roger Temam.
+\newblock {\em Navier--Stokes Equations: Theory and Numerical Analysis}.
+\newblock AMS Chelsea Publishing, Providence, RI, reprint of the 1984 edition
+  edition, 2001.
+
+\end{thebibliography}

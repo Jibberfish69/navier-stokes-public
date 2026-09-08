@@ -30,7 +30,7 @@ Construct
 \tag{RSC.1}
 ```
 
-where \(\mathcal G_N^{ell/collar}\) is the elliptic/collar graph correction: the pressure and collar variables are subtracted relative to the graph forced by the velocity, material metric, Hodge/Stokes projection, transported collar, and stress packet.
+where \(\mathcal G_N^{ell/collar}\) is the elliptic/collar graph correction: the pressure and collar variables are subtracted relative to the graph forced by the velocity, material metric, Helmholtz--Leray/Stokes projection, transported collar, and stress packet.
 
 The target estimates are
 
@@ -53,7 +53,7 @@ d\widetilde{\mathscr A}_N^{press/op+collar}
 
 The proof strategy is top-rank triangular/no-self-birth.
 
-Pressure and collar are not independent free energies.  They are slaved variables of the full participation law through the material elliptic pressure equation, Hodge/Stokes projection, transported collar equations, material metric, and Cauchy stress.  The Schur-complement correction must remove the elliptically forced graph so that the apparent top-rank pressure/collar self-birth cancels by incompressibility and elliptic constraint.
+Pressure and collar are not independent free energies.  They are slaved variables of the full participation law through the material elliptic pressure equation, Helmholtz--Leray/Stokes projection, transported collar equations, material metric, and Cauchy stress.  The Schur-complement correction must remove the elliptically forced graph so that the apparent top-rank pressure/collar self-birth cancels by incompressibility and elliptic constraint.
 
 After this graph subtraction, the remaining terms must descend to one of:
 

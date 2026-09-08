@@ -22,9 +22,9 @@ Here `d\Omega_N^{full}` is the rectified positive service of the full transporte
 
 ## 2. Abstract first-order test
 
-Let `Z` denote the same-time material-Hodge packet: material metric, pulled-back velocity, pressure/Hodge constraint data, transported collar, and coefficient frame.
+Let `Z` denote the same-time material-Helmholtz--Leray packet: material metric, pulled-back velocity, pressure/Helmholtz--Leray constraint data, transported collar, and coefficient frame.
 
-Let `v` be an admissible same-time participant-tangent direction for the pressure-strain / Hodge-interface motion at `Z`. Let the rectified service density be `q_Z(v)`, with
+Let `v` be an admissible same-time participant-tangent direction for the pressure-strain / Helmholtz--Leray-interface motion at `Z`. Let the rectified service density be `q_Z(v)`, with
 
 ```math
 q_Z(v)\ge0,
@@ -84,11 +84,11 @@ The sign-symmetry calculation rules out the ordinary candidate class:
 \mathfrak L_N=F_N(Z(t))
 ```
 
-with `F_N` a local instantaneous material-Hodge state functional and `dR_N` restricted to the already-installed energy/fixed-collar/fixed-annulus ledgers.
+with `F_N` a local instantaneous material-Helmholtz--Leray state functional and `dR_N` restricted to the already-installed energy/fixed-collar/fixed-annulus ledgers.
 
 ## 4. Meaning of the failure
 
-The full service estimate needs a storage carrying path-dependent reserve information. The reserve must remember that a positive pressure-strain / Hodge-interface service event has consumed native material capacity, so a later sign-reversed motion cannot spend the same reserve again at the same continuation depth.
+The full service estimate needs a storage carrying path-dependent reserve information. The reserve must remember that a positive pressure-strain / Helmholtz--Leray-interface service event has consumed native material capacity, so a later sign-reversed motion cannot spend the same reserve again at the same continuation depth.
 
 That is exactly the terminal no-recirculation / no-refund theorem:
 

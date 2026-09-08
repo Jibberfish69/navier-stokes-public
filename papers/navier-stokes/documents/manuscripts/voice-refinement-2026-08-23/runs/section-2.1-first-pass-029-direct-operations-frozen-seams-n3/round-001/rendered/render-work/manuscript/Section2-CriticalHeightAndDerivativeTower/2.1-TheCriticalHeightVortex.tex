@@ -1,0 +1,251 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.1 Vortex Stretching
+% ============================================================
+
+Axial stretching lengthens one narrow material vortex tube along its axis, contracts its cross-section, draws the rotating fluid inward, and makes the interior spin faster. This spin-up is the positive stretching contribution; the full signed balance with viscosity decides whether the rotation strengthens overall. Both act within the velocity evolution governed by the momentum equation:
+\[
+  \underbrace{\partial_t u}_{\text{local acceleration}}
+  +
+  \underbrace{(u\cdot\nabla)u}_{\text{nonlinear transport}}
+  =
+  \underbrace{-\nabla p}_{\text{pressure}}
+  +
+  \underbrace{\nu\Delta u}_{\text{viscous diffusion}}.
+\]
+The tube's net rotation remains undecided, so its geometry and aligned vorticity must be followed together.
+
+\subsection{Vortex Stretching}\label{sub:ThePerfectlyStretchingVortex}
+
+Let \(e\) be the tube axis and \(L(t)\) the length of a small material element within it. Suppose the strain is locally uniform across this element and aligned with \(e\). Writing
+\[
+  S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr),
+  \qquad
+  Se=\sigma(t)e,
+  \qquad
+  \sigma(t)>0,
+  \qquad
+  \frac{\dot L(t)}{L(t)}
+  =
+  e\cdot Se
+  =
+  \sigma(t).
+\]
+The positive strain increases the tube's length at the fractional rate \(\sigma(t)\). Incompressibility forces the same material volume \(\mathcal V\) into a smaller cross-section. Define its effective transverse area by \(A(t):=\mathcal V/L(t)\) and its effective radius by \(r_{\mathrm{eff}}(t):=\sqrt{A(t)/\pi}\). Then
+\[
+  \nabla\cdot u=0,
+  \qquad
+  \frac{d}{dt}(A L)=0,
+  \qquad
+  \frac{\dot A}{A}=-\sigma(t),
+  \qquad
+  \frac{\dot r_{\mathrm{eff}}}{r_{\mathrm{eff}}}
+  =
+  -\frac{\sigma(t)}{2}.
+\]
+The effective radius contracts at half the fractional rate at which the tube lengthens. With \(\omega:=\nabla\times u\), the vorticity carried along the same axis satisfies
+\[
+  \frac{D\omega}{Dt}
+  =
+  S\omega+\nu\Delta\omega,
+  \qquad
+  \frac{D}{Dt}
+  :=
+  \partial_t+u\cdot\nabla,
+\]
+and under the alignment \(\omega=|\omega|e\),
+\[
+  S\omega
+  =
+  \sigma(t)\omega,
+  \qquad
+  \frac12\frac{D|\omega|^2}{Dt}
+  =
+  \sigma(t)|\omega|^2
+  +
+  \nu\,\omega\cdot\Delta\omega.
+\]
+The aligned strain supplies positive production, while the viscous term completes the signed decision. On any interval where their sum stays positive, the rotation strengthens as the radius contracts.
+
+The energy identity proved in \Cref{prop:ClassicalKineticEnergyIdentity} and the antisymmetric part of \(\nabla u\) give
+\[
+  \norm{u(t)}_2
+  \leq
+  \norm{u_0}_2
+  <\infty,
+  \qquad
+  \left|\frac12\bigl(\nabla u-(\nabla u)^{\mathsf T}\bigr)\right|_{\mathrm F}
+  =
+  \frac{|\omega|}{\sqrt2}
+  \leq
+  |\nabla u|_{\mathrm F}.
+\]
+Finite kinetic energy still permits the rotational part of the gradient to concentrate inside a narrowing region.
+
+\divider{\NavierStokes{} Scaling}
+
+Fix a time \(t_0<T_*\) and call the tube's effective radius then \(\ell:=r_{\mathrm{eff}}(t_0)\). A separate full-field comparison at the finer width \(\lambda^{-1}\ell\), for \(\lambda>1\), uses
+\[
+  u_\lambda(x,t)
+  :=
+  \lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)
+  :=
+  \lambda^2p(\lambda x,\lambda^2t).
+\]
+At time \(\lambda^{-2}t_0\), the corresponding segment in \(u_\lambda\) has effective radius \(\lambda^{-1}\ell\). This is another complete solution at another scale, not a later material state of the opening tube. Rescaling acts on every momentum term:
+\[
+\begin{aligned}
+  \partial_tu_\lambda(x,t)
+  &=
+  \lambda^3(\partial_tu)(\lambda x,\lambda^2t),
+  \\
+  (u_\lambda\cdot\nabla)u_\lambda(x,t)
+  &=
+  \lambda^3\bigl((u\cdot\nabla)u\bigr)(\lambda x,\lambda^2t),
+  \\
+  \nabla p_\lambda(x,t)
+  &=
+  \lambda^3(\nabla p)(\lambda x,\lambda^2t),
+  \\
+  \nu\Delta u_\lambda(x,t)
+  &=
+  \lambda^3\nu(\Delta u)(\lambda x,\lambda^2t).
+\end{aligned}
+\]
+Rescaling multiplies transport and viscosity by the same cubic factor, so viscosity gains no ground at the finer scale; local acceleration and pressure acquire that factor as well.
+
+\divider{Critical Height}
+
+The momentum balance survives the comparison, while homogeneous Sobolev norms acquire powers that depend on their derivative height. Let \(\Lambda:=(-\Delta)^{1/2}\). Since
+\[
+  \widehat{u_\lambda}(\xi,t)
+  =
+  \lambda^{-2}\widehat u(\lambda^{-1}\xi,\lambda^2t),
+\]
+a change of variables gives
+\[
+  \norm{u_\lambda(t)}_{\dot H^s}^2
+  =
+  \lambda^{2s-1}
+  \norm{u(\lambda^2t)}_{\dot H^s}^2.
+\]
+The exponent \(2s-1\) makes kinetic energy lose one power at \(s=0\), makes the first-derivative level gain one at \(s=1\), and vanishes at \(s=\tfrac12\). Set
+\[
+  H(t)
+  :=
+  \frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =
+  \frac12\norm{\Lambda^{1/2}u(t)}_2^2.
+\]
+The half-derivative quantity is the critical height for this rescaled family. Writing \(H_\lambda\) for the same quantity evaluated on \(u_\lambda\),
+\[
+  \norm{u_\lambda(t)}_2^2
+  =
+  \lambda^{-1}\norm{u(\lambda^2t)}_2^2,
+  \qquad
+  H_\lambda(t)=H(\lambda^2t),
+  \qquad
+  \norm{\nabla u_\lambda(t)}_2^2
+  =
+  \lambda\norm{\nabla u(\lambda^2t)}_2^2.
+\]
+Rescaling lowers the kinetic energy, raises the first-derivative norm, and leaves the critical height unchanged at corresponding times. Its scale behavior does not decide whether it rises or falls in time.
+
+\divider{Nonlinear Production versus Viscous Dissipation}
+
+At critical height, define the signed nonlinear production by
+\[
+  \mathcal P_{1/2}[u](t)
+  :=
+  -\operatorname{Re}
+  \pair
+    {\Lambda^{1/2}u(t)}
+    {\Lambda^{1/2}\bigl((u(t)\cdot\nabla)u(t)\bigr)}_{L^2}.
+\]
+This production can raise the height. The pressure pairing vanishes because \(\nabla\cdot u=0\), while the Laplacian contributes \(-\nu\norm{\Lambda^{3/2}u}_2^2\). Hence
+\[
+  H'(t)
+  +
+  \nu\norm{\Lambda^{3/2}u(t)}_2^2
+  =
+  \mathcal P_{1/2}[u](t).
+\]
+Production and positive viscous dissipation decide the sign: \(H'(t)>0\) exactly when production exceeds dissipation. Under the same rescaling,
+\[
+  \mathcal P_{1/2}[u_\lambda](t)
+  =
+  \lambda^2\mathcal P_{1/2}[u](\lambda^2t),
+  \qquad
+  \nu\norm{\Lambda^{3/2}u_\lambda(t)}_2^2
+  =
+  \lambda^2\nu\norm{\Lambda^{3/2}u(\lambda^2t)}_2^2.
+\]
+Rescaling multiplies production and dissipation by the same quadratic factor, so neither gains ground. It contracts comparison time by \(t\mapsto\lambda^{-2}t\), but it does not supply the physical interval through which one solution passes from one scale to the next.
+
+\divider{The Heat Clock}
+
+For a linear measure of viscous timing, the heat equation \(v_t=\nu\Delta v\) evolves each Fourier mode by
+\[
+  \widehat v(\xi,t+\delta t)
+  =
+  e^{-\nu|\xi|^2\delta t}\widehat v(\xi,t).
+\]
+The multiplier changes a scale-localized velocity structure of width \(r\), concentrated near \(|\xi|\simeq r^{-1}\), by order one when
+\[
+  \nu|\xi|^2\delta t\simeq1,
+\]
+so its linear viscous comparison time is
+\[
+  \tau_\nu(r)
+  :=
+  \frac{r^2}{\nu}.
+\]
+Halving the width quarters the heat clock. More generally,
+\[
+  \tau_\nu(\lambda^{-1}r)
+  =
+  \lambda^{-2}\tau_\nu(r).
+\]
+The linear comparison time contracts by the same factor as time under the full \NavierStokes{} rescaling.
+
+\divider{The Zeno Cascade}
+
+Now sample dyadic widths and their heat times. For
+\[
+  r_n:=2^{-n}r_0,
+  \qquad
+  \tau_n:=\frac{r_n^2}{\nu},
+\]
+the clocks form the finite geometric sum
+\[
+  \tau_n
+  =
+  \frac{r_0^2}{\nu}4^{-n},
+  \qquad
+  \sum_{n=0}^{\infty}\tau_n
+  =
+  \frac{4r_0^2}{3\nu}
+  <
+  \infty.
+\]
+A finite total heat time becomes a possible singular history only if one \NavierStokes{} velocity field exhibits scale-localized structures at widths
+\[
+  r_0>r_1>r_2>\cdots\longrightarrow0
+\]
+and at sampled times
+\[
+  t_0<t_1<t_2<\cdots\uparrow T_*<\infty,
+  \qquad
+  t_{n+1}-t_n\asymp\tau_n,
+\]
+with comparison constants independent of \(n\). Under that one-field condition, its remaining time satisfies
+\[
+  T_*-t_n
+  \asymp
+  \sum_{k=n}^{\infty}\tau_k
+  =
+  \frac{4r_n^2}{3\nu}.
+\]
+The next sampled gap and the total time left then collapse together at order \(r_n^2/\nu\). As those intervals shrink to zero, the unresolved demand falls on that same field: how do its first and successive Eulerian time derivatives behave at one fixed spatial point?

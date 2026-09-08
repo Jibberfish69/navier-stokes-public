@@ -1,0 +1,316 @@
+{
+  "field_resolutions": [
+    {
+      "field": "writing_form",
+      "status": "accepted_for_run",
+      "value": "mathematics research paper",
+      "reason": "The live artifact is the automated proof paper."
+    },
+    {
+      "field": "writing_job",
+      "status": "revised",
+      "value": "whole-paper substantive prose and dependency-graph revision",
+      "reason": "Thomas requires a genuinely well-written paper organized by prerequisites and reader understanding."
+    },
+    {
+      "field": "domain",
+      "status": "accepted_for_run",
+      "value": "three-dimensional incompressible Navier-Stokes regularity",
+      "reason": "This is the mathematical subject of the supplied manuscript."
+    },
+    {
+      "field": "audience",
+      "status": "accepted_for_run",
+      "value": "expert PDE referees and mathematically mature readers",
+      "reason": "The paper must satisfy a qualifying-journal reader without assuming familiarity with this construction."
+    },
+    {
+      "field": "purpose",
+      "status": "accepted_for_run",
+      "value": "present the settled proof as a complete, lucid, compelling, qualifying-journal manuscript",
+      "reason": "The requested outcome is the finished paper, not an editorial report."
+    },
+    {
+      "field": "reader_start",
+      "status": "accepted_for_run",
+      "value": "knows classical Navier-Stokes local theory and Sobolev analysis but not this mixed-jet construction",
+      "reason": "This calibrates which standard facts can remain compact and which new connections need development."
+    },
+    {
+      "field": "reader_end",
+      "status": "revised",
+      "value": "can reconstruct the mathematical dependency spine and the explanatory reason each object appears, culminating in the same-history restart",
+      "reason": "Thomas's dependency-graph correction makes both logical and explanatory reconstruction part of the target."
+    },
+    {
+      "field": "live_pressure",
+      "status": "accepted_for_run",
+      "value": "the draft repeatedly compresses a newly derived idea into administrative notation before the reader understands why the notation is needed",
+      "reason": "This is the first whole-paper writing defect found in the continuous read."
+    }
+  ],
+  "reader_start": "The reader knows the classical equation, energy law, local theory, and Sobolev tools, but has not seen why a critical-height escalation should generate a two-index jet or why finite rectangles are the right terminal objects.",
+  "live_pressure": "Each new formal object must arrive after its mathematical need has become visible, while every later use must remain downstream of its actual prerequisites.",
+  "candidate_moves": [
+    {
+      "move_id": "dependency-graph-rebuild",
+      "move": {
+        "selection": "Retain every load-bearing equation and theorem while rebuilding the surrounding exposition around the proof spine and its explanatory branch.",
+        "connection": "Let energy and VPI create the critical-height problem, let temporal escalation create the mixed jet, let height-spatial nesting create the need for compatible finite cuts, and let the rectangle theorem create the endpoint problem.",
+        "development": "Give each difficult connection enough prose and local calculation for the reader to understand why the next object is necessary; compress standard background and repeated formal packaging.",
+        "expression": "Use direct mathematical subjects and actions, varied sentence lengths, complete thoughts, stable vocabulary, and declarative prose without managerial signposting."
+      },
+      "layer_status": {
+        "selection": "present",
+        "connection": "present",
+        "development": "present",
+        "expression": "present"
+      },
+      "reader_change": "The reader experiences one argument whose concepts and formal machinery arrive in dependency order.",
+      "next_possibility": "The endpoint and restart can then land as the inevitable final consequence of the same-history construction.",
+      "content_basis": [
+        "current automated manuscript",
+        "Thomas's explicit dependency-graph correction",
+        "settled compatible-intersection proof object",
+        "paper-author reader-journey guidance"
+      ],
+      "sequence": [
+        {
+          "step_id": "problem",
+          "thought": "Fix the one maximal pressure-complete history and state the finite-maximality target.",
+          "connection": "The proof needs quantities that can detect how this one history approaches a finite terminal time.",
+          "reader_start": "The reader knows Statement (A).",
+          "reader_end": "The reader knows the one history and the exact contradiction target.",
+          "content_basis": ["equation (1)", "Theorem 1.1"]
+        },
+        {
+          "step_id": "vpi",
+          "thought": "Derive energy and the VPI law from the original equation.",
+          "connection": "Energy bounds total size but still permits transfer toward high frequency, so the scale-invariant height becomes necessary.",
+          "reader_start": "The reader has the one history.",
+          "reader_end": "The reader has the spatial balance that distinguishes viscous loss from signed response.",
+          "content_basis": ["energy identity", "VPI balance"]
+        },
+        {
+          "step_id": "height",
+          "thought": "Use scaling and dyadic weighting to derive critical height and the finite-time escalation pressure.",
+          "connection": "Unbounded motion in the critical space requires accumulated motion in the next temporal row.",
+          "reader_start": "The reader sees possible high-frequency redistribution.",
+          "reader_end": "The reader understands why time derivatives must enter.",
+          "content_basis": ["critical scaling", "Zeno first-passage picture"]
+        },
+        {
+          "step_id": "jet",
+          "thought": "Derive the Eulerian temporal rows, pressure recurrence, and independent spatial derivatives from the original equation.",
+          "connection": "The temporal and spatial indices now coexist on one pressure-complete history and can be compared through differentiated height.",
+          "reader_start": "The reader needs temporal activity.",
+          "reader_end": "The reader possesses the full finite mixed jet and its one-datum origin.",
+          "content_basis": ["binomial recurrence", "mixed recurrence", "initial jet"]
+        },
+        {
+          "step_id": "nesting",
+          "thought": "Differentiate critical height and retain the complete response until each temporal row exposes a spatial energy.",
+          "connection": "No finite row carries all orders, so smoothness must be sought in compatibility across finite cuts.",
+          "reader_start": "The reader has the mixed jet.",
+          "reader_end": "The reader understands the reversible height-spatial relation and the need for an intersection.",
+          "content_basis": ["critical-height tower", "completed rows", "nesting table"]
+        },
+        {
+          "step_id": "rectangles",
+          "thought": "Introduce a finite rectangle as the smallest object that keeps adjacent time rows, spatial depth, pressure, and overlap identity together.",
+          "connection": "The datum-generated whole-terminal theorem controls each such finite object on the complete terminal interval.",
+          "reader_start": "The reader needs compatible finite cuts.",
+          "reader_end": "The reader understands the rectangle's type, norm, and same-history bonding maps.",
+          "content_basis": ["finite graph sets", "restriction maps", "whole-terminal theorem"]
+        },
+        {
+          "step_id": "intersection",
+          "thought": "Assemble the controlled rectangles through their literal overlap identities.",
+          "connection": "The inverse limit returns the original velocity with every finite time and space order available.",
+          "reader_start": "The reader has controlled compatible cuts.",
+          "reader_end": "The reader has one all-orders mixed object, not a collection of unrelated solutions.",
+          "content_basis": ["inverse limit", "zeroth projection"]
+        },
+        {
+          "step_id": "readouts",
+          "thought": "Read height, spatial, and temporal regularity from that same object.",
+          "connection": "Adjacent rows now satisfy the exact Hilbert-scale hypotheses needed for a common terminal trace.",
+          "reader_start": "The reader has the projective object.",
+          "reader_end": "The reader sees how the formal intersection becomes boundary regularity.",
+          "content_basis": ["height readout", "spatial readout", "temporal recurrence"]
+        },
+        {
+          "step_id": "endpoint",
+          "thought": "Use adjacent traces to identify one common smooth endpoint for every finite rectangle.",
+          "connection": "A velocity value alone restarts locally, but smooth gluing requires the actual pressure-complete endpoint jet.",
+          "reader_start": "The reader has adjacent-row control.",
+          "reader_end": "The reader has one common H-infinity endpoint and all left traces.",
+          "content_basis": ["Lions-Magenes trace", "common endpoint"]
+        },
+        {
+          "step_id": "endpoint-jet",
+          "thought": "Pass the original pressure and velocity recurrences to the endpoint.",
+          "connection": "The restarted solution begins from the same value and the same complete jet.",
+          "reader_start": "The reader has the endpoint traces.",
+          "reader_end": "The reader has a uniquely determined pressure-complete endpoint jet.",
+          "content_basis": ["endpoint recurrence", "product limit"]
+        },
+        {
+          "step_id": "restart",
+          "thought": "Apply the standard local theory once, glue the two histories, and contradict finite maximality.",
+          "connection": "The proof ends at the concrete continuation that the maximal interval forbids.",
+          "reader_start": "The reader has matching left and right jets.",
+          "reader_end": "The reader sees why the same history continues and why the maximal time is infinite.",
+          "content_basis": ["local theory", "gluing", "main theorem"]
+        }
+      ],
+      "evidence_uses": [
+        {
+          "record_id": "decision-live-obstacle-before-label-001",
+          "source_move_id": "move-from-live-obstacle",
+          "relation": "supports",
+          "applicability_reason": "Each formal object should answer a difficulty the reader already sees."
+        },
+        {
+          "record_id": "decision-unfold-causal-relations-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The paper's central contribution lies in the relation among time rows, spatial rows, and compatibility, which must be developed rather than named."
+        },
+        {
+          "record_id": "decision-earn-technical-language-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "Projective and rectangle language should follow the finite-cut need."
+        },
+        {
+          "record_id": "decision-preserve-discovery-order-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The explanatory branch should preserve how critical height creates the temporal and spatial questions."
+        },
+        {
+          "record_id": "decision-develop-to-reader-change-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "Each section must leave the reader with a new usable fact that the next section receives."
+        },
+        {
+          "record_id": "decision-sentence-possesses-complete-thought-001",
+          "source_move_id": "make-the-payload-carry-the-thought",
+          "relation": "expression",
+          "applicability_reason": "The current draft contains connective-led sentences whose mathematical owner and action should be stated directly."
+        }
+      ],
+      "risks": [
+        "Overexplaining standard functional analysis could bury the novel movement.",
+        "Treating the explanatory branch as a proof prerequisite could distort the logical spine.",
+        "Uniformly polishing every paragraph could erase Thomas's asymmetry and emphasis."
+      ],
+      "confidence": "high"
+    },
+    {
+      "move_id": "surface-polish-current-order",
+      "move": {
+        "selection": "Keep every section and paragraph in place and improve local syntax.",
+        "connection": "Add transitions between existing blocks without changing how concepts are introduced.",
+        "development": "Shorten dense sentences and remove repeated formal summaries.",
+        "expression": "Replace mechanical phrasing with smoother technical prose."
+      },
+      "layer_status": {
+        "selection": "present",
+        "connection": "present",
+        "development": "present",
+        "expression": "present"
+      },
+      "reader_change": "The paper becomes easier sentence by sentence but retains the current conceptual compression.",
+      "next_possibility": "A later structural revision would still be needed.",
+      "content_basis": [
+        "current section order",
+        "line-level prose defects"
+      ],
+      "sequence": [],
+      "evidence_uses": [],
+      "risks": [
+        "The clean prose could disguise the same missing reader movement.",
+        "The reader would still meet formal objects before their full necessity is visible."
+      ],
+      "confidence": "high"
+    }
+  ],
+  "chosen_move_id": "dependency-graph-rebuild",
+  "choice_reason": "Thomas explicitly requires a dependency graph, and the continuous read shows that local polish cannot repair the repeated jump from a new idea to administrative notation.",
+  "rejected_move_ids": [
+    "surface-polish-current-order"
+  ],
+  "evidence_dispositions": [
+    {"record_id": "decision-live-obstacle-before-label-001", "status": "used", "reason": "The paper must make the live mathematical need visible before naming its formal answer."},
+    {"record_id": "decision-carry-established-thought-forward-001", "status": "used", "reason": "The rewrite must continue Thomas's supplied proof movement rather than restate it."},
+    {"record_id": "decision-unfold-causal-relations-001", "status": "used", "reason": "The central relations require full development."},
+    {"record_id": "decision-name-operational-objects-001", "status": "used", "reason": "Concrete solution, derivative, norm, and pressure actions replace abstract machinery voice."},
+    {"record_id": "decision-earn-technical-language-001", "status": "used", "reason": "Formal labels arrive after the reader understands their job."},
+    {"record_id": "decision-preserve-discovery-order-001", "status": "used", "reason": "The explanatory branch retains the generating sequence of ideas."},
+    {"record_id": "decision-generate-expression-from-thought-001", "status": "used", "reason": "Prose is generated from each mathematical movement rather than repaired after abstraction."},
+    {"record_id": "decision-use-reader-shared-language-001", "status": "used", "reason": "Plain mathematical language carries the conceptual footholds."},
+    {"record_id": "decision-develop-to-reader-change-001", "status": "used", "reason": "Every section must alter what the reader can now infer."},
+    {"record_id": "decision-keep-example-inside-idea-001", "status": "used", "reason": "The critical trace example remains attached to the adjacent-row mechanism it clarifies."},
+    {"record_id": "decision-repair-exact-referent-001", "status": "used", "reason": "Every occurrence of history, row, and rectangle must keep its exact owner."},
+    {"record_id": "decision-generalize-to-writing-faculty-001", "status": "not_applicable", "reason": "This run authors the paper rather than changing the writing skill."},
+    {"record_id": "observation-reader-led-concept-before-formal-name-001", "status": "used", "reason": "The reader meets the mathematical need before the projective name."},
+    {"record_id": "decision-preserve-local-movement-role-001", "status": "used", "reason": "Local explanatory movements keep their bounded role inside the larger dependency graph."},
+    {"record_id": "decision-separate-internal-inquiry-from-written-interrogative-001", "status": "used", "reason": "Questions organize the rewrite internally; the paper states the answers declaratively."},
+    {"record_id": "decision-sentence-possesses-complete-thought-001", "status": "used", "reason": "Each sentence must name the owner of its mathematical action and close the thought."}
+  ],
+  "uncertainties": [
+    "Section boundaries may shift during typesetting, but the dependency relations and movement jobs are fixed for this run."
+  ],
+  "authorial_commitment": {
+    "work_target": "A complete automated manuscript whose prose, equations, and section architecture let an expert reader reconstruct the supplied proof without decoding internal machinery.",
+    "strongest_move_reason": "The dependency-graph rebuild repairs both the whole-paper conceptual compression and the recurring sentence-level mechanical voice.",
+    "intellectual_gain": "The paper will show that the mixed jet, finite rectangles, intersection, and endpoint are successive answers to one developing regularity problem.",
+    "reader_gain": "The reader will know why each object exists before using it and will see each later theorem consume an earlier result.",
+    "delivery": "complete_output",
+    "structural_commitment": {
+      "scope": "whole_work",
+      "inherited_reader_state": "The reader knows standard Navier-Stokes analysis but not the mixed-jet compatible-intersection construction.",
+      "section_job": "Carry the reader from the finite-time regularity problem through the two converging branches of the argument to the same-history restart.",
+      "outgoing_reader_need": "No outgoing need remains after the finite-maximality contradiction and the exact return to Statement (A).",
+      "gap_decision": "reorder",
+      "gap_payment": "Rebuild local section order and handoffs according to the dependency graph; retain equations and theorem custody while moving conceptual explanations ahead of formal packaging.",
+      "new_section_job": "No new standalone theorem section is required; existing movements will be resized and retitled around their mathematical jobs.",
+      "enrichment_reason": "Added prose is admitted only when it explains a novel connection, preserves one-history identity, or earns a later formal object.",
+      "enrichments": [
+        {
+          "detail": "Separate the proof spine from the explanatory branch in the opening orientation without turning the abstract into an outline.",
+          "reader_value": "The reader can distinguish what proves continuation from what explains why the finite objects are natural.",
+          "placement": "Abstract and end of Section 1.",
+          "restraint": "Use one compact movement and avoid naming every later section."
+        },
+        {
+          "detail": "Develop the meeting point between height-spatial nesting and compatible finite cuts.",
+          "reader_value": "The rectangle definition arrives as the answer to a visible finite-coordinate problem.",
+          "placement": "End of the critical-height tower and opening of the rectangle section.",
+          "restraint": "Do not treat height identities as the theorem that supplies whole-terminal control."
+        },
+        {
+          "detail": "Explain the inverse limit as literal agreement of overlapping records before displaying its set notation.",
+          "reader_value": "Projective language compresses an understood compatibility rather than introducing an alien object.",
+          "placement": "Immediately before the inverse-limit proposition.",
+          "restraint": "Keep the categorical vocabulary minimal."
+        },
+        {
+          "detail": "Let the trace, endpoint jet, and restart form one escalating terminal movement.",
+          "reader_value": "The reader sees why endpoint value, endpoint derivatives, and local continuation are three distinct payments.",
+          "placement": "Sections 7 through 9.",
+          "restraint": "Keep standard local theory compact and spend prose on the gluing identity."
+        },
+        {
+          "detail": "Replace the summary conclusion with the concrete contradiction and its return to Statement (A).",
+          "reader_value": "The paper ends on what has been proved and why finite maximality has failed.",
+          "placement": "Conclusion.",
+          "restraint": "Do not repeat the section sequence."
+        }
+      ]
+    }
+  }
+}

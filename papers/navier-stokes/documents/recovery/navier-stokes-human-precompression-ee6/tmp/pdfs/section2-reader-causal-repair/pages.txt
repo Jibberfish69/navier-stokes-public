@@ -1,0 +1,150 @@
+2     Critical Height and the Derivative Tower
+2.1    Vortex Stretching
+The momentum equation has four pieces:
+
+                          ∂ut            +       (u · ∇)u          = −∇p +           ν∆u
+                                                                                     | {z }         .
+                          |{z}                   |   {z   }          | {z }
+                    local acceleration       nonlinear transport     pressure   viscous diffusion
+
+
+The central regularity question is whether three-dimensional nonlinear transport—through
+vortex stretching and the transfer of activity toward smaller scales—can generate gradients
+faster than viscosity dissipates them.
+The hope is simple. Viscosity smooths the fluid faster than nonlinear transport can sharpen
+it. If that remains true at every scale, the velocity stays smooth.
+
+
+Vortex Stretching
+Vortex stretching is the three-dimensional motion that can keep this sharpening alive. Vorticity
+and the symmetric strain are
+                                                                   1           
+                              ω := ∇ × u,                 S :=        ∇u + (∇u)T .
+                                                                   2
+The vector ω measures local rotation, while S measures extension and contraction in the
+surrounding velocity field. In three dimensions, the surrounding velocity can extend a rotating
+structure along its axis. If ω aligns with a positive extensional direction of S, then
+
+                                                     ω · Sω > 0,
+
+so the strain amplifies the vorticity.
+Incompressibility ties that extension to a contraction:
+
+                                                 tr S = ∇ · u = 0.
+
+Extension in one direction must be accompanied by a net contraction across the transverse
+cross-section. Suppose the rotating structure has transverse width ℓ and the velocity changes
+by ∆U across that width. The corresponding gradient is roughly
+                                                                  ∆U
+                                                     |∇u| ∼          .
+                                                                   ℓ
+If ℓ shrinks while ∆U does not shrink equally fast, the gradient grows. Thinning by itself
+guarantees nothing; the velocity change across the shrinking width has to persist.
+
+
+
+
+                                                              2
+Finite energy and concentration
+Finite kinetic energy still allows this concentration. At time t, the kinetic energy is measured
+by                                        Z
+                                             |u(x, t)|2 dx,
+                                          R3
+which controls the size of u, not how quickly u changes across a distance. A sharp structure
+can occupy such a small volume that its energy remains finite, or even tends to zero, while
+its gradients diverge.
+
+The vorticity equation
+Taking the curl removes pressure and makes the competition exact:
+
+                              ∇ × ∇p = 0,
+                       ∂t ω + (u · ∇)ω = (ω · ∇)u + ν∆ω = Sω + ν∆ω.
+
+Here Sω is vortex stretching and ν∆ω is viscous diffusion.
+
+The pointwise balance
+Pairing the vorticity equation with ω gives the pointwise balance
+                            1
+                              (∂t + u · ∇)|ω|2 = ω · Sω + ν ω · ∆ω.
+                            2
+The stretching term records amplification by aligned extension. The viscous term has no
+fixed sign at an individual point because
+                                               ν
+                                 ν ω · ∆ω =      ∆|ω|2 − ν|∇ω|2 .
+                                               2
+
+The integrated balance
+After integration over R3 , incompressibility removes the transport integral and decay removes
+the Laplacian flux:
+                           1d         2             2
+                                                        Z
+                                ∥ω(t)∥2 + ν ∥∇ω(t)∥2 =      ω · Sω dx.
+                           2 dt                          R3
+This identity does not decide which effect wins. It identifies what still has to be compared.
+If aligned extension carries the concentration into a smaller width, vortex stretching and
+viscous diffusion both act on that same smaller structure. The unresolved issue is whether
+the move to smaller scale gives viscosity an advantage over stretching.
+
+
+Navier–Stokes Scaling
+That comparison cannot be made by shrinking the width while holding the rest of the flow
+fixed. The Navier–Stokes equations tie spatial width to velocity amplitude, pressure, and
+time, so all four quantities have to be rescaled together. For λ > 0, define
+
+                     uλ (x, t) := λu(λx, λ2 t),       pλ (x, t) := λ2 p(λx, λ2 t).
+
+                                                  3
+Each of the four momentum terms receives the same factor:
+                                                                                      
+           ∂t uλ (x, t) = λ3 (∂t u)(λx, λ2 t), (uλ · ∇)uλ (x, t) = λ3 (u · ∇)u (λx, λ2 t),
+           ∇pλ (x, t) = λ3 (∇p)(λx, λ2 t),                ∆uλ (x, t) = λ3 (∆u)(λx, λ2 t).
+Local acceleration, nonlinear transport, pressure, and viscosity all scale together. The
+corresponding scales are
+                     x 7→ λ−1 x,          u 7→ λu,         p 7→ λ2 p,         t 7→ λ−2 t.
+Smaller scale gives viscosity no automatic advantage over nonlinear transport: under the full
+rescaling, the two terms retain the same relative strength. This scaling compares solutions at
+different scales. A cascade inside one fixed solution is an additional dynamical claim.
+
+
+Critical Height
+The scale comparison leaves one level unchanged, and that is the level at which the competition
+must be followed. The homogeneous Sobolev scale identifies it. Let Λ := (−∆)1/2 . For every
+s ∈ R for which the homogeneous norm is finite,
+                                  Λs uλ (x, t) = λ1+s (Λs u)(λx, λ2 t).
+Squaring the L2 norm and changing variables from x to y = λx gives
+                                              Z
+                                                                              2
+                            ∥uλ (t)∥2Ḣ s =        λ2+2s (Λs u)(λx, λ2 t) dx
+                                              R3
+                                                               2
+                                           = λ2s−1 u(λ2 t)            .
+                                                               Ḣ s
+
+The exponent vanishes exactly when
+                                                               1
+                                          2s − 1 = 0,        s= .
+                                                               2
+This gives the critical height
+                                          1                 1 1/2   2
+                             H(t) :=        ∥u(t)∥2Ḣ 1/2 =   Λ u(t) .
+                                          2                 2       2
+
+
+The kinetic-energy identity proved in Proposition A.2.1 supplies the level below the critical
+height:
+                           1              Z t
+                                                               1
+                                   2
+                             ∥u(t)∥2 + ν      ∥∇u(s)∥22 ds = ∥u0 ∥22 .                        (2.1.1)
+                           2                0                  2
+Writing Hλ for the critical height of uλ , the energy, critical, and first-derivative levels scale as
+                                  2                                                                  2
+       ∥uλ (t)∥22 = λ−1 u(λ2 t)       ,     Hλ (t) = H(λ2 t),             ∥∇uλ (t)∥22 = λ ∇u(λ2 t)       .
+                                  2                                                                  2
+
+Under this scaling, the energy level falls, critical height is unchanged, and first-derivative
+size rises. The critical height sits between the finite energy and the derivative growth that a
+concentration scenario would require.
+
+                                                      4
+

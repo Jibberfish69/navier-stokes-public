@@ -1,0 +1,436 @@
+\section{Datum-generated compatible rectangles}
+
+\begin{proposition}[Kinetic-energy identity]
+\label{prop:kinetic-energy}
+For every \(0\le t<T_*\),
+\begin{equation}
+ \frac12\norm{u(t)}_2^2
+ +\nu\int_0^t\norm{\nabla u(s)}_2^2\dd s
+ =\frac12\norm{u_0}_2^2.
+ \label{eq:kinetic-energy}
+\end{equation}
+Consequently, for \(0<T<T_*\),
+\begin{align}
+ \norm u_{L^\infty(0,T;L^2)}&\le\norm{u_0}_2,
+ \label{eq:energy-Linf}\\
+ \norm u_{L^2(0,T;H^1)}^2
+ &\le\left(T+\frac1{2\nu}\right)\norm{u_0}_2^2.
+ \label{eq:energy-L2H1}
+\end{align}
+\end{proposition}
+
+\begin{proof}
+Take the \(L^2\) pairing of the momentum equation with \(u\).  Integration
+by parts and \(\nabla\cdot u=0\) give
+\[
+ \ip{(u\cdot\nabla)u}{u}_{L^2}=0,
+ \qquad
+ \ip{\nabla p}{u}_{L^2}=0,
+ \qquad
+ \ip{\Delta u}{u}_{L^2}=-\norm{\nabla u}_2^2.
+\]
+Integration in time proves \eqref{eq:kinetic-energy}.  The two estimates
+follow by discarding the nonnegative dissipation and adding
+\(\int_0^T\norm{u(s)}_2^2\dd s\).
+\end{proof}
+
+\begin{definition}[Completed height rows]
+\label{def:critical-height-rows}
+For \(r\in\Nzero\) and \(s\ge0\), set
+\begin{align}
+ E_{r,s}(t)&:=\frac12\norm{\Lambda^sV_r(t)}_2^2,
+ \label{eq:temporal-row-spatial-energy}\\
+ \cP_{r,s}(t)&:=-\operatorname{Re}
+ \ip{\Lambda^sV_r(t)}
+ {\Lambda^s\!\left(
+   \sum_{a=0}^{r}\binom ra(V_a\cdot\nabla)V_{r-a}+\nabla Q_r
+ \right)(t)}_{L^2}.
+ \label{eq:temporal-row-pressure-complete-transfer}
+\end{align}
+For the base row write \(E_s:=E_{0,s}\), \(\cP_s:=\cP_{0,s}\), and
+\(H:=E_{1/2}\).
+\end{definition}
+
+\begin{proposition}[Completed height recurrence in every temporal row]
+\label{prop:completed-height-recurrence}
+For every strict classical interval \((0,T)\), every \(r\in\Nzero\), and
+every \(s\ge0\),
+\begin{equation}
+ \partial_tE_{r,s}=\cP_{r,s}-2\nu E_{r,s+1}.
+ \label{eq:sobolev-height-balance}
+\end{equation}
+For every \(k\in\N\),
+\begin{equation}
+ \partial_t^kE_{r,1/2}
+ =(-2\nu)^kE_{r,k+1/2}
+ +\sum_{j=0}^{k-1}(-2\nu)^j
+   \partial_t^{k-1-j}\cP_{r,j+1/2}.
+ \label{eq:completed-height-every-temporal-row}
+\end{equation}
+In the base row \(r=0\),
+\begin{equation}
+ H^{(k)}
+ =(-2\nu)^kE_{k+1/2}
+ +\sum_{j=0}^{k-1}(-2\nu)^j
+   \partial_t^{k-1-j}\cP_{j+1/2},
+ \label{eq:completed-height-recurrence}
+\end{equation}
+and the highest spatial energy is the exact coordinate
+\begin{equation}
+ E_{k+1/2}
+ =\frac{H^{(k)}-
+   \displaystyle\sum_{j=0}^{k-1}(-2\nu)^j
+   \partial_t^{k-1-j}\cP_{j+1/2}}
+ {(-2\nu)^k}.
+ \label{eq:completed-height-row}
+\end{equation}
+\end{proposition}
+
+\begin{proof}
+Pair the temporal recurrence for \(V_r\) with \(\Lambda^{2s}V_r\).
+The pressure-complete nonlinear sum is exactly \(\cP_{r,s}\), while
+\[
+ \nu\operatorname{Re}\ip{\Lambda^sV_r}{\Lambda^s\Delta V_r}_{L^2}
+ =-\nu\norm{\Lambda^{s+1}V_r}_2^2=-2\nu E_{r,s+1}.
+\]
+This proves \eqref{eq:sobolev-height-balance}.  Induction on \(k\) gives
+the stronger identity
+\begin{equation}
+ \partial_t^kE_{r,s}
+ =(-2\nu)^kE_{r,s+k}
+ +\sum_{j=0}^{k-1}(-2\nu)^j
+   \partial_t^{k-1-j}\cP_{r,s+j}.
+ \label{eq:all-height-recurrence}
+\end{equation}
+Indeed, differentiation of the order-\(k\) identity followed by
+\(\partial_tE_{r,s+k}=\cP_{r,s+k}-2\nu E_{r,s+k+1}\) produces the
+order-\(k+1\) identity.  Taking \(s=1/2\) proves
+\eqref{eq:completed-height-every-temporal-row}.  Taking \(r=0\) gives
+\eqref{eq:completed-height-recurrence}; since \(\nu>0\), division by
+\((-2\nu)^k\) gives \eqref{eq:completed-height-row}.
+\end{proof}
+
+\begin{definition}[Completed critical-height coordinates]
+\label{def:completed-critical-height-coordinates}
+Set
+\begin{equation}
+ R_0:=H=E_{1/2},
+ \qquad
+ R_k
+ :=\frac{H^{(k)}-
+   \displaystyle\sum_{j=0}^{k-1}(-2\nu)^j
+   \partial_t^{k-1-j}\cP_{j+1/2}}
+ {(-2\nu)^k}
+ \quad(k\in\N).
+ \label{eq:completed-critical-coordinate}
+\end{equation}
+Proposition~\ref{prop:completed-height-recurrence} gives the exact identity
+\begin{equation}
+ R_k=E_{k+1/2}
+ =\frac12\norm{\Lambda^{k+1/2}u}_2^2
+ \qquad(k\in\Nzero).
+ \label{eq:completed-critical-coordinate-identity}
+\end{equation}
+\end{definition}
+
+\begin{definition}[Finite mixed rectangle]
+\label{def:finite-rectangle}
+Let \(0<T<T_*\) and \(N,M\in\Nzero\).  Define
+\begin{align}
+ \mathfrak R_{N,M}(u;T)
+ :={}&\sum_{n=0}^{N}
+ \norm{V_n}_{L^2(0,T;H^{M+1})}^2
+ +\sum_{n=0}^{N}
+ \norm{V_{n+1}}_{L^2(0,T;H^{M-1})}^2,
+ \label{eq:finite-rectangle-norm}\\
+ \mathfrak Q_{N,M}(p;T)
+ :={}&\sum_{n=0}^{N}
+ \left(
+ \norm{Q_n}_{L^1(0,T;H^M)}
+ +\norm{\nabla Q_n}_{L^1(0,T;H^{M-1})}
+ \right).
+ \label{eq:finite-pressure-rectangle-norm}
+\end{align}
+The pressure-complete record is
+\[
+ \cR_{N,M}[u_0;T]
+ :=\left(
+ (V_n|_{(0,T)})_{n=0}^{N},
+ (V_{n+1}|_{(0,T)})_{n=0}^{N};
+ (Q_n|_{(0,T)})_{n=0}^{N}
+ \right),
+\]
+with the pressure-gradient coordinate retained through
+\eqref{eq:finite-pressure-rectangle-norm} and with every row constrained by
+Proposition~\ref{prop:formal-mixed-recurrences}.
+\end{definition}
+
+\begin{theorem}[Datum-generated whole-terminal rectangles]
+\label{thm:datum-rectangles}
+Let \(\nu>0\), \(u_0\in\HsSigma(\R^3)\), and let
+\((T_*,u,p)\) be the maximal pressure-complete classical history generated
+by \((u_0,\nu)\).  If \(T_*<\infty\), then, for every
+\(N,M\in\Nzero\),
+\begin{equation}
+ \mathfrak R_{N,M}^*[u_0,\nu,T_*]
+ :=\sup_{0<T<T_*}\mathfrak R_{N,M}(u;T)
+ <\infty.
+ \label{eq:datum-rectangle-bound}
+\end{equation}
+This assertion is coordinatewise in \((N,M)\); no bound uniform in all
+derivative orders is asserted.  The quantity \(\mathfrak R_{N,M}^*\) is the
+exact supremum for this history; for general data the theorem does not replace
+it by a formula involving only finitely many norms of \(u_0\).
+Equivalently, for every \(n,m\in\Nzero\),
+\begin{equation}
+ V_n\in L^2(0,T_*;H^{m+1}),
+ \qquad
+ V_{n+1}\in L^2(0,T_*;H^{m-1}).
+ \label{eq:datum-adjacent-rows}
+\end{equation}
+Every coordinate in \eqref{eq:datum-adjacent-rows} is the corresponding
+distributional derivative of the single maximal history.
+\end{theorem}
+
+The theorem is displayed in rectangle form, but its proof order is
+\[
+ u_0
+ \longrightarrow \text{pressure-complete mixed jet}
+ \longrightarrow \text{whole-terminal adjacent rows}
+ \longrightarrow \text{finite rectangles}.
+\]
+The middle arrow is the fixed datum-side payment: the rows in
+\eqref{eq:datum-adjacent-rows} are the actual derivatives of the one maximal
+history and have the stated whole-terminal integrability.  The last arrow is
+finite summation.  The next proposition writes out that final step, proves the
+converse by monotone exhaustion, and realizes the cutoff norms on \((0,T_*)\).
+
+\begin{proposition}[Equivalence and whole-terminal realization]
+\label{prop:datum-terminal-realization}
+For the fixed maximal history, the family of bounds
+\eqref{eq:datum-rectangle-bound} is equivalent to the adjacent-row statement
+\eqref{eq:datum-adjacent-rows}.  Whenever either formulation holds, for every
+\(N,M\in\Nzero\),
+\begin{equation}
+ \sum_{n=0}^{N}\left(
+ \norm{V_n}_{L^2(0,T_*;H^{M+1})}^2
+ +\norm{V_{n+1}}_{L^2(0,T_*;H^{M-1})}^2
+ \right)
+ =\lim_{T\uparrow T_*}\mathfrak R_{N,M}(u;T)
+ =\mathfrak R_{N,M}^*[u_0,\nu,T_*].
+ \label{eq:datum-terminal-monotone-realization}
+\end{equation}
+Every row is the corresponding distributional derivative of the single
+pressure-normalized maximal history.
+\end{proposition}
+
+\begin{proof}
+Assume first \eqref{eq:datum-adjacent-rows}.  For fixed \(N,M\), set
+\[
+ C_{N,M}:=
+ \sum_{n=0}^{N}\left(
+  \norm{V_n}_{L^2(0,T_*;H^{M+1})}^2
+  +\norm{V_{n+1}}_{L^2(0,T_*;H^{M-1})}^2
+ \right).
+\]
+The sum is finite because it contains finitely many instances of
+\eqref{eq:datum-adjacent-rows}.  Restriction from \((0,T_*)\) to \((0,T)\)
+gives
+\[
+ \mathfrak R_{N,M}(u;T)\le C_{N,M}
+ \qquad(0<T<T_*),
+\]
+and hence \eqref{eq:datum-rectangle-bound}.
+
+Conversely, assume \eqref{eq:datum-rectangle-bound}.  Every term in
+\(\mathfrak R_{N,M}(u;T)\) is the integral of a nonnegative function.
+Monotone exhaustion of \((0,T_*)\) gives
+\eqref{eq:datum-terminal-monotone-realization}.  Taking \(N=n\) and \(M=m\)
+yields \eqref{eq:datum-adjacent-rows} for each finite \((n,m)\).
+Proposition~\ref{prop:formal-mixed-recurrences} identifies every entry with
+the corresponding distributional derivative of the fixed pressure-normalized
+history.
+\end{proof}
+
+\begin{corollary}[Whole-terminal completion of every critical height]
+\label{cor:datum-critical-height-completion}
+Under the hypotheses of Theorem~\ref{thm:datum-rectangles}, every completed
+critical coordinate belongs to \(L^1(0,T_*)\), and
+\begin{equation}
+ \mathscr H_k[u_0,\nu,T_*]
+ :=\norm{R_k}_{L^1(0,T_*)}
+ =\frac12\norm{\Lambda^{k+1/2}u}_{L^2(0,T_*;L^2)}^2
+ \le\frac12\mathfrak R_{0,k}^*[u_0,\nu,T_*]
+ \qquad(k\in\Nzero).
+ \label{eq:datum-completed-height-bound}
+\end{equation}
+For every \(m\in\Nzero\), the same row yields the spatial-column projection
+\begin{equation}
+ \norm u_{L^2(0,T_*;H^m)}^2
+ \le
+ 2^m\left(
+  T_*\norm{u_0}_2^2+\mathfrak R_{0,m}^*[u_0,\nu,T_*]
+ \right).
+ \label{eq:datum-height-to-spatial-column}
+\end{equation}
+Thus
+\begin{equation}
+ (R_k)_{k\in\Nzero}\in\prod_{k\in\Nzero}L^1(0,T_*),
+ \qquad
+ u\in\bigcap_{m\in\Nzero}L^2(0,T_*;H^m(\R^3)).
+ \label{eq:datum-complete-height-and-spatial-columns}
+\end{equation}
+\end{corollary}
+
+\begin{samepage}
+\begin{proof}
+Take \(N=0\) and \(M=k\) in
+\eqref{eq:datum-terminal-monotone-realization}.  Since
+\(\abs\xi^{2k+1}\le\langle\xi\rangle^{2k+2}\),
+\begin{align*}
+ 2\norm{R_k}_{L^1(0,T_*)}
+ &=\norm{\Lambda^{k+1/2}u}_{L^2(0,T_*;L^2)}^2\\
+ &\le\norm u_{L^2(0,T_*;H^{k+1})}^2
+ \le\mathfrak R_{0,k}^*[u_0,\nu,T_*],
+\end{align*}
+which proves \eqref{eq:datum-completed-height-bound}.  For
+\(\abs\xi\le1\),
+\(\langle\xi\rangle^{2m}\le2^m\); for \(\abs\xi>1\),
+\(\langle\xi\rangle^{2m}\le2^m\abs\xi^{2m+1}\).  Hence
+\[
+ \norm f_{H^m}^2
+ \le2^m\left(\norm f_2^2+
+ \norm{\Lambda^{m+1/2}f}_2^2\right).
+\]
+Integrating this inequality, using
+\eqref{eq:energy-Linf} and
+\eqref{eq:datum-completed-height-bound}, proves
+\eqref{eq:datum-height-to-spatial-column}.  Since \(k\) and \(m\) are
+arbitrary finite indices, \eqref{eq:datum-complete-height-and-spatial-columns}
+follows.
+\end{proof}
+\end{samepage}
+
+\begin{proposition}[Pressure completion]
+\label{prop:rectangle-pressure-completion}
+Under the hypotheses of Theorem~\ref{thm:datum-rectangles}, for every
+\(N,M\in\Nzero\),
+\begin{equation}
+ \mathfrak Q_{N,M}^*[u_0,\nu,T_*]
+ :=\sup_{0<T<T_*}\mathfrak Q_{N,M}(p;T)
+ \le
+ C_M^{\rm p}(2^{N+1}-1)\mathfrak R_{N,M}^*[u_0,\nu,T_*].
+ \label{eq:whole-terminal-pressure-bound}
+\end{equation}
+\begin{samepage}
+For every \(0\le n\le N\), the identities
+\begin{align}
+ Q_n
+ &=R_iR_j\sum_{a=0}^n\binom naV_{a,i}V_{n-a,j},
+ \label{eq:rectangle-pressure-identity}\\
+ V_{n+1}
+ &=\nu\Delta V_n
+ -\sum_{a=0}^n\binom na(V_a\cdot\nabla)V_{n-a}-\nabla Q_n
+ \label{eq:rectangle-velocity-identity}
+\end{align}
+hold respectively in
+\(L^1(0,T_*;H^M)\) and \(L^1(0,T_*;H^{M-1})\), including when
+\(M=0\).
+\end{samepage}
+\end{proposition}
+
+\begin{proof}
+For every \(0<T<T_*\),
+Theorem~\ref{thm:formal-finite-row-pressure} gives
+\[
+ \norm{Q_n}_{L^1(0,T;H^M)}
+ +\norm{\nabla Q_n}_{L^1(0,T;H^{M-1})}
+ \le C_M^{\rm p}2^n\mathfrak R_{N,M}^*[u_0,\nu,T_*].
+\]
+Sum over \(0\le n\le N\), then let \(T\uparrow T_*\).  Monotone
+convergence in the nonnegative norm integrals proves
+\eqref{eq:whole-terminal-pressure-bound}.  Since
+\(\nabla\cdot V_a=0\),
+\[
+ (V_a\cdot\nabla)V_{n-a}
+ =\nabla\cdot(V_a\otimes V_{n-a}).
+\]
+Lemma~\ref{lem:sobolev-product} and Cauchy--Schwarz in time give
+\[
+ \norm{V_a\otimes V_{n-a}}_{L^1(0,T_*;H^M)}
+ \le C_M^{\rm alg}
+ \norm{V_a}_{L^2(0,T_*;H^{M+1})}
+ \norm{V_{n-a}}_{L^2(0,T_*;H^{M+1})}.
+\]
+Thus every transport term belongs to
+\(L^1(0,T_*;H^{M-1})\), also for \(M=0\).  Moreover,
+\[
+ \norm{\Delta V_n}_{L^1H^{M-1}}
+ \le T_*^{1/2}\norm{V_n}_{L^2H^{M+1}}.
+\]
+Theorem~\ref{thm:datum-rectangles} places \(V_{n+1}\) in
+\(L^2(0,T_*;H^{M-1})\), hence in \(L^1(0,T_*;H^{M-1})\).
+The strict-interval identities are identities of distributions; their
+whole-terminal representatives belong to the stated spaces.  This proves the
+two identities on \((0,T_*)\).
+\end{proof}
+
+\begin{definition}[Finite-window spaces]
+\label{def:finite-window-space}
+For \(N,M\in\Nzero\), set
+\[
+ \mathscr X_{N,M}:=
+ \prod_{n=0}^{N}L^2(0,T_*;H^{M+1})
+ \times
+ \prod_{n=0}^{N}L^2(0,T_*;H^{M-1})
+ \times
+ \prod_{n=0}^{N}L^1(0,T_*;H^M).
+\]
+The whole-terminal rectangle is the element
+\begin{equation}
+ \cR_{N,M}[u_0;T_*]
+ :=\left(
+ (V_n)_{n=0}^{N},
+ (V_{n+1})_{n=0}^{N};
+ (Q_n)_{n=0}^{N}
+ \right)\in\mathscr X_{N,M}.
+ \label{eq:whole-terminal-rectangle-element}
+\end{equation}
+If \(N'\le N\) and \(M'\le M\), let
+\[
+ \rho_{N',M'}^{N,M}:\mathscr X_{N,M}\longrightarrow\mathscr X_{N',M'}
+\]
+discard the temporal coordinates with index larger than \(N'\) and apply
+\[
+ H^{M+1}\hookrightarrow H^{M'+1},
+ \qquad H^{M-1}\hookrightarrow H^{M'-1},
+ \qquad H^M\hookrightarrow H^{M'}
+\]
+to the retained coordinates.
+\end{definition}
+
+\begin{proposition}[Restriction compatibility]
+\label{prop:rectangle-compatibility}
+For \(N'\le N\) and \(M'\le M\),
+\begin{equation}
+ \rho_{N',M'}^{N,M}\cR_{N,M}[u_0;T_*]
+ =\cR_{N',M'}[u_0;T_*].
+ \label{eq:rectangle-compatibility}
+\end{equation}
+If
+\((N'',M'')\le(N',M')\le(N,M)\), then
+\[
+ \rho_{N'',M''}^{N',M'}\rho_{N',M'}^{N,M}
+ =\rho_{N'',M''}^{N,M}.
+\]
+Thus the spaces \(\mathscr X_{N,M}\) and the maps
+\(\rho_{N',M'}^{N,M}\) form an inverse system, and the datum-generated
+rectangles form a compatible family in it.
+\end{proposition}
+
+\begin{proof}
+All retained entries are the same distributions
+\(\partial_t^nu\), \(\partial_t^{n+1}u\), and \(\partial_t^np\).
+The Sobolev embeddings preserve those distributions.  Deletion of rows and
+composition of canonical embeddings are associative.
+\end{proof}

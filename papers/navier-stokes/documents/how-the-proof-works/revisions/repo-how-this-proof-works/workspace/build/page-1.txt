@@ -1,0 +1,60 @@
+                                  How the Proof Works
+                                                   Thomas Birnie
+
+
+
+Finite kinetic energy leaves room for a very specific danger. A vortex that stretches along its axis has to
+narrow across it because the fluid is incompressible. If the velocity changes by an amount U across a
+region of width r, then the gradient and the kinetic energy carried by that region scale differently:
+
+                                              U
+                                                          Z
+                                    |∇u| ∼      ,                |u|2 dx ∼ U 2 r3 .
+                                              r             Br
+
+As r falls, the gradient can rise while the energy remains finite. The fluid can concentrate its motion into
+smaller regions without spending an infinite amount of kinetic energy.
+
+Fix a smooth divergence-free datum u0 , a viscosity ν > 0, and the maximal classical solution (u, p) it
+generates on [0, T∗ ):
+                             ∂t u + (u · ∇)u + ∇p = ν∆u,      ∇ · u = 0.
+
+The transport term sharpens velocity through its gradients. Viscosity diffuses those gradients, while
+pressure maintains incompressibility. Their balance at a narrowing spatial scale is fixed by the scaling of
+the equation.
+
+For λ > 1, set
+                           uλ (x, t) := λu(λx, λ2 t),            pλ (x, t) := λ2 p(λx, λ2 t).
+
+A width r becomes r/λ, and a duration δt becomes δt/λ2 . With y = λx and τ = λ2 t, the chain rule gives
+
+                                          ∂t uλ (x, t) = λ3 (∂t u)(y, τ ),
+
+                                   (uλ · ∇)uλ (x, t) = λ3 (u · ∇)u (y, τ ),
+                                                                           
+
+
+                                          ∇pλ (x, t) = λ3 (∇p)(y, τ ),
+
+                                         ν∆uλ (x, t) = λ3 ν(∆u)(y, τ ).
+
+Every term acquires λ3 . At a finer width, transport and viscosity both become stronger; scaling alone
+gives neither one an advantage.
+
+The homogeneous Sobolev norms show where this concentration sits. Since
+
+                                          ucλ (ξ, t) = λ−2 u
+                                                           b(ξ/λ, λ2 t),
+
+a change of variables gives                        Z
+                                                                                  2
+                                 ∥uλ (t)∥2Ḣ s =         |ξ|2s λ−4 u
+                                                                   b(ξ/λ, λ2 t) dξ
+                                                    R3
+
+                                             = λ2s−1 ∥u(λ2 t)∥2Ḣ s .
+
+
+
+                                                            1
+

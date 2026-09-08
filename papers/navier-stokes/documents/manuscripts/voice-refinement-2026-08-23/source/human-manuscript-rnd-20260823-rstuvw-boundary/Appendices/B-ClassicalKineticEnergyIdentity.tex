@@ -1,0 +1,36 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{The kinetic-energy identity}
+
+\begin{proposition}[Classical kinetic-energy identity]\label[proposition]{prop:ClassicalKineticEnergyIdentity}
+Let \((u,p)\) be a sufficiently decaying smooth solution of
+\eqref{eq:NavierStokesSystem}.  At every time in its interval of existence,
+\begin{equation}\label{eq:AppendixKineticEnergyIdentity}
+  \lVert u(t)\rVert_{L^2}^2
+  +
+  2\nu\int_0^t\lVert\nabla u(s)\rVert_{L^2}^2\,ds
+  =
+  \lVert u_0\rVert_{L^2}^2.
+\end{equation}
+\end{proposition}
+\begin{proof}
+Pair the momentum equation with \(u\) in space.  Incompressibility removes
+the net transport and pressure contributions:
+\[
+  \int_{\mathbb R^3}(u\cdot\nabla)u\cdot u\,dx
+  =
+  \frac12\int_{\mathbb R^3}u\cdot\nabla|u|^2\,dx
+  =0,
+  \qquad
+  \int_{\mathbb R^3}\nabla p\cdot u\,dx
+  =-
+  \int_{\mathbb R^3}p\,\nabla\cdot u\,dx
+  =0.
+\]
+Integration by parts leaves viscosity with the sign
+\[
+  \nu\int_{\mathbb R^3}\Delta u\cdot u\,dx
+  =-\nu\lVert\nabla u\rVert_{L^2}^2.
+\]
+Integrating the resulting identity in time gives
+\eqref{eq:AppendixKineticEnergyIdentity}.
+\end{proof}

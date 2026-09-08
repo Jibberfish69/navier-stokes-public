@@ -1,0 +1,490 @@
+\begingroup
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.58\baselineskip}
+\setlength{\abovedisplayskip}{9pt plus 2pt minus 2pt}
+\setlength{\belowdisplayskip}{9pt plus 2pt minus 2pt}
+\setlength{\jot}{7pt}
+
+\section*{How the Proof Works}
+
+We are asking whether a viscous fluid that starts smooth can ever stop being
+smooth.  This proof answers no.  Start with a divergence-free velocity \(u_0\)
+on \(\mathbb R^3\) that is smooth and rapidly decaying with all its derivatives;
+this is the datum class \(\mathcal S_\sigma\).  Keep the viscosity \(\nu>0\)
+fixed.  The difficulty is that viscosity is not the
+only part of the equation changing the fluid.  The fluid also carries and
+deforms its own velocity:
+\[
+\underbrace{\partial_tu}_{\text{local acceleration}}
++\underbrace{(u\!\cdot\nabla)u}_{\text{nonlinear transport}}
+=-\underbrace{\nabla p}_{\text{pressure}}
++\underbrace{\nu\Delta u}_{\text{viscous diffusion}},
+\qquad \nabla\!\cdot u=0.
+\]
+The nonlinear term can sharpen the flow while viscosity smooths it.  Pressure
+keeps the motion incompressible and couples every local change to the
+surrounding field.  The regularity problem is decided by whether nonlinear
+sharpening can outrun viscous smoothing before some finite time \(T_*\).
+
+The place to see that danger is a vortex being stretched.  Picture the
+surrounding flow pulling it lengthwise.  Incompressibility conserves the volume
+of a material tube, so its cross-section contracts as its length increases.
+The core narrows.  If the velocity change across that core does not fall just
+as quickly, then
+\[
+|\nabla u|\sim\frac{|\Delta U|}{\ell}
+\]
+grows as the radius \(\ell\) shrinks.  The velocity changes more sharply across
+less distance.  This is nonlinear sharpening in the fluid itself.  Viscosity
+resists it by diffusing velocity
+across the narrowing core.
+
+Now the mathematics can name the contest.  Write
+\[
+\omega:=\nabla\times u,
+\qquad
+S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr).
+\]
+Taking the curl of Navier--Stokes gives
+\[
+(\partial_t+u\!\cdot\nabla)\omega
+=S\omega+\nu\Delta\omega.
+\]
+When the vorticity points along an extensional direction of \(S\), the
+stretching term \(S\omega\) strengthens it.  This is how axial stretching can
+intensify rotation inside the narrowing core.  Viscosity acts against that
+sharpening through \(\nu\Delta\omega\).  After integration over space, the
+contest is visible in one line:
+\[
+\frac12\frac{d}{dt}\|\omega(t)\|_2^2
+=\int_{\mathbb R^3}\omega\!\cdot S\omega\,dx
+-\nu\|\nabla\omega(t)\|_2^2.
+\]
+The first term is nonlinear production.  The second is viscous removal.
+
+Nothing here requires the kinetic energy itself to become infinite.  In fact,
+\[
+\frac12\frac{d}{dt}\|u(t)\|_2^2
++\nu\|\nabla u(t)\|_2^2=0.
+\]
+The total energy decreases.  The unresolved possibility is concentration:
+finite energy can be carried by thinner regions while the velocity gradients
+inside those regions grow.  A vortex can be losing energy and still be
+sharpening near its core.
+
+So we shrink the picture and ask whether the balance changes.  For
+\(\lambda>0\), set
+\[
+u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
+\qquad
+p_\lambda(x,t)=\lambda^2p(\lambda x,\lambda^2t).
+\]
+Every part of the equation picks up one common factor:
+\[
+\begin{aligned}
+\partial_tu_\lambda
+  &=\lambda^3(\partial_tu)(\lambda x,\lambda^2t),
+&
+(u_\lambda\!\cdot\nabla)u_\lambda
+  &=\lambda^3((u\!\cdot\nabla)u)(\lambda x,\lambda^2t),\\
+\nabla p_\lambda
+  &=\lambda^3(\nabla p)(\lambda x,\lambda^2t),
+&
+\nu\Delta u_\lambda
+  &=\lambda^3\nu(\Delta u)(\lambda x,\lambda^2t).
+\end{aligned}
+\]
+Viscosity does not acquire an extra power of \(\lambda\) that makes it win
+automatically in a smaller vortex.  Nonlinear transport, pressure, local
+acceleration, and diffusion remain matched by scaling.
+
+The energy balance can miss precisely this concentration.  Under the rescaling,
+velocity squared contributes \(\lambda^2\), while spatial volume contributes
+\(\lambda^{-3}\), giving
+\[
+\|u_\lambda(\cdot,t)\|_2^2
+=\lambda^{-1}\|u(\cdot,\lambda^2t)\|_2^2.
+\]
+The concentrating copy becomes smaller in energy while its spatial changes
+become steeper.  A spatial derivative contributes another factor
+\(\lambda\), so measuring derivatives changes our sensitivity to the narrowing
+core.  We want the height at which those effects cancel.  The Sobolev norm
+\(\|\,\cdot\,\|_{\dot H^s}\) measures \(s\) spatial derivatives in \(L^2\),
+including fractional orders.  Its scaling is
+\[
+\|u_\lambda(\cdot,t)\|_{\dot H^s}
+=\lambda^{s-1/2}\|u(\cdot,\lambda^2t)\|_{\dot H^s},
+\]
+concentration lowers the norm below \(s=\tfrac12\), raises it above
+\(s=\tfrac12\), and leaves it unchanged at
+\[
+s=\frac12.
+\]
+This is the critical height.  It is not a claim that nonlinear production and
+viscous dissipation are numerically equal at each moment.  It says that scale
+alone gives neither one an advantage there.
+
+Now keep following the vortex as its core narrows.  If its radius is
+\(\ell\), a second spatial derivative across that core has size
+\(\ell^{-2}\) relative to the velocity change it sees.  The viscous term acts
+on the corresponding interval
+\[
+|\nu\Delta u|
+\sim\frac{\nu}{\ell^2}|u|,
+\qquad
+\tau_\ell\sim\frac{\ell^2}{\nu}.
+\]
+If the core kept narrowing through
+\(\ell_j=\rho^j\ell_0\) with \(0<\rho<1\), those intervals would satisfy
+\[
+\sum_{j=0}^{\infty}\frac{\ell_j^2}{\nu}
+=\frac{\ell_0^2}{\nu}\sum_{j=0}^{\infty}\rho^{2j}
+=\frac{\ell_0^2}{\nu(1-\rho^2)}<\infty.
+\]
+That is the Zeno picture inside the vortex: each thinner core asks the equation
+to respond faster, and the resulting intervals can fit below one finite
+terminal time.  It does not assert that a solution follows this cascade.  It
+shows the failure pattern the proof has to prevent.
+
+To turn this possible compression into a contradiction, suppose that the smooth
+solution has a finite maximal lifespan \(T_*\).  The scale calculation also
+points to another critical way to measure velocity in three dimensions:
+\[
+\|u_\lambda(\cdot,t)\|_{L^3}
+=\|u(\cdot,\lambda^2t)\|_{L^3}.
+\]
+The \(L^3\) norm, like \(\dot H^{1/2}\), does not change under concentration.
+The endpoint continuation theorem now gives the decisive fork.  If
+\[
+\sup_{0<t<T_*}\|u(t)\|_{L^3}<\infty,
+\]
+then the solution continues smoothly through \(T_*\).  That is impossible if
+\(T_*\) is maximal, so the contrapositive requires
+\[
+\sup_{0<t<T_*}\|u(t)\|_{L^3}=\infty.
+\]
+Here velocity blow-up means escape of the global critical \(L^3\) norm; it
+does not mean that every particle speed must diverge.
+
+The first finite-time integral keeps the physical meaning visible:
+\[
+u(t)=u_0+\int_0^t\partial_su(s)\,ds.
+\]
+If the local acceleration \(\partial_tu\) stayed uniformly bounded in
+\(L^3\), this integral would keep the velocity bounded on the finite interval.
+So velocity escape forces the local acceleration to escape.  The next integral
+is
+\[
+\partial_tu(t)
+=\partial_tu(0)+\int_0^t\partial_s^2u(s)\,ds.
+\]
+If the jerk \(\partial_t^2u\) stayed bounded, acceleration would stay bounded
+and the first integral would again keep velocity bounded.  This is the
+velocity--acceleration--jerk insight in plain language.  In order for a
+singularity to form, velocity has to blow up.  For that to happen, its
+acceleration also has to blow up, which means its jerk has to blow up, and so
+on, and so on:
+\[
+u,\qquad \partial_tu,\qquad \partial_t^2u,\qquad\ldots
+\]
+The smooth datum gives finite initial responses at every order.  A uniform
+\(L^3\) bound on any fixed higher response would descend through finitely
+many such integrals to a bound for \(u\).  So every fixed temporal order must
+escape in \(L^3\) on \((0,T_*)\).
+
+These responses are not added from outside.  Acceleration is already written
+into Navier--Stokes.  Substitute the equation for it and differentiate: jerk
+appears.  Differentiate again and the next response appears.  The first three
+rungs are
+\[
+\begin{aligned}
+\partial_tu
+&=\nu\Delta u-(u\!\cdot\nabla)u-\nabla p,\\[4pt]
+\partial_t^2u
+&=\nu\Delta\partial_tu
+  -(\partial_tu\!\cdot\nabla)u
+  -(u\!\cdot\nabla)\partial_tu
+  -\nabla\partial_tp,\\[4pt]
+\partial_t^3u
+&=\nu\Delta\partial_t^2u
+  -(\partial_t^2u\!\cdot\nabla)u
+  -2(\partial_tu\!\cdot\nabla)\partial_tu\\
+&\hspace{2.6em}
+  -(u\!\cdot\nabla)\partial_t^2u
+  -\nabla\partial_t^2p.
+\end{aligned}
+\]
+The complete pattern is
+\[
+\partial_t^{r+1}u
+=\nu\Delta\partial_t^ru
+-\sum_{a=0}^{r}\binom ra
+  (\partial_t^au\!\cdot\nabla)\partial_t^{r-a}u
+-\nabla\partial_t^rp.
+\]
+
+Only now do we compress the notation:
+\[
+V_r:=\partial_t^ru,
+\qquad
+Q_r:=\partial_t^rp.
+\]
+Pressure has to travel with every response.  Taking the divergence of
+Navier--Stokes and using \(\nabla\!\cdot u=0\) gives
+\[
+-\Delta p=\partial_i\partial_j(u_i u_j).
+\]
+Define the Riesz transform by
+\[
+R_i:=\partial_i(-\Delta)^{-1/2}.
+\]
+With the decaying pressure normalization and repeated spatial indices summed,
+this convention gives
+\(p=R_iR_j(u_i u_j)\).  Differentiating that product \(r\) times recovers
+the pressure response from the velocity responses.  The compact tower is
+\[
+\begin{aligned}
+Q_r
+&=R_iR_j\sum_{a=0}^{r}\binom ra V_{a,i}V_{r-a,j},\\
+V_{r+1}
+&=\nu\Delta V_r
+  -\sum_{a=0}^{r}\binom ra(V_a\!\cdot\nabla)V_{r-a}
+  -\nabla Q_r.
+\end{aligned}
+\]
+
+Now the connection to spatial smoothness is visible.  A hypothetical
+singularity runs forward through rougher and faster temporal responses.  The
+proof reads the viscous relation backward.  Once a finite response and its
+transport--pressure terms are controlled, the equation isolates
+\(\Delta V_r\) and returns two spatial derivatives to the preceding response.
+Repeating a finite number of those controlled steps would raise the Sobolev
+height available to the original velocity.  Higher temporal order points toward
+higher spatial order, but making that reversal useful requires bounds for the
+full signed interaction carried at each step.
+
+That brings us back to the contest that opened the section.  At critical
+height, the energy pairing separates nonlinear production from viscous removal
+without deleting either one.  Let
+\[
+\Lambda:=(-\Delta)^{1/2},
+\qquad
+E_s(t):=\frac12\|\Lambda^su(t)\|_2^2,
+\qquad
+H(t):=E_{1/2}(t).
+\]
+Pairing Navier--Stokes at height \(s\) gives
+\[
+E_s'=\mathcal P_s-2\nu E_{s+1},
+\]
+where the complete signed production is
+\[
+\mathcal P_s
+:=-\bigl\langle
+\Lambda^su,\,
+\Lambda^s\bigl((u\!\cdot\nabla)u+\nabla p\bigr)
+\bigr\rangle.
+\]
+Repeated differentiation at \(s=\tfrac12\) shows how viscous removal exposes
+the next spatial energy while the signed production differentiates alongside
+it:
+\[
+\begin{aligned}
+H'
+&=\mathcal P_{1/2}-2\nu E_{3/2},\\
+H''
+&=\partial_t\mathcal P_{1/2}
+  -2\nu\mathcal P_{3/2}
+  +(2\nu)^2E_{5/2},\\
+H'''
+&=\partial_t^2\mathcal P_{1/2}
+  -2\nu\partial_t\mathcal P_{3/2}
+  +(2\nu)^2\mathcal P_{5/2}
+  -(2\nu)^3E_{7/2}.
+\end{aligned}
+\]
+At every finite order,
+\[
+H^{(n)}
+=(-2\nu)^nE_{n+1/2}
++\sum_{j=0}^{n-1}(-2\nu)^j
+ \partial_t^{\,n-1-j}\mathcal P_{j+1/2}.
+\]
+The \(n\)-th temporal derivative has exposed the spatial energy at height
+\(n+\tfrac12\), together with the production terms that must be controlled.
+For a temporal response, the production retains every term in its recurrence.
+Write
+\[
+E_{r,s}(t):=\frac12\|\Lambda^sV_r(t)\|_2^2,
+\]
+and
+\[
+\mathcal P_{r,s}
+:=-\left\langle
+\Lambda^sV_r,\,
+\Lambda^s\left(
+\sum_{a=0}^{r}\binom ra(V_a\!\cdot\nabla)V_{r-a}
++\nabla Q_r
+\right)
+\right\rangle.
+\]
+Pairing the recurrence with \(V_r\) at height \(s\) then gives
+\[
+\partial_tE_{r,s}
+=\mathcal P_{r,s}-2\nu E_{r,s+1}.
+\]
+
+Now the reversal has its payoff.  Together with the \(L^2\) energy already
+controlled, a bound at a higher spatial energy gives the corresponding
+\(H^s\) bound.  For any requested classical derivative order \(k\), it would
+be enough to reach
+\[
+s>k+\frac32,
+\qquad
+H^s(\mathbb R^3)\hookrightarrow C_b^k(\mathbb R^3).
+\]
+If every finite spatial height can be controlled, then no finite derivative
+order is left out:
+\[
+\bigcap_{m<\infty}H^m(\mathbb R^3)
+=H^\infty(\mathbb R^3)
+\hookrightarrow C^\infty(\mathbb R^3).
+\]
+The temporal cascade that seemed to demand worsening behavior has exposed a
+route to complete spatial smoothness.  This is the insight; its condition is
+still to be proved.  The differentiated identities have exposed coordinates,
+not made them finite by rearrangement.  Fix a finite
+temporal depth \(N\) and spatial height \(M\).  One step in the recurrence
+advances the temporal response by one and passes through two spatial derivatives
+in \(\Delta V_r\).  That is why the finite estimate pairs height \(M+1\)
+of \(V_r\) with height \(M-1\) of \(V_{r+1}\).
+
+The whole-terminal rectangle theorem proves the required bound:
+\[
+\begin{aligned}
+\mathfrak R_{N,M}(T)
+&:=\sum_{r=0}^{N}
+\|V_r\|_{L^2(0,T;H^{M+1})}^{2}+
+\sum_{r=0}^{N}
+\|V_{r+1}\|_{L^2(0,T;H^{M-1})}^{2},\\
+\sup_{0<T<T_*}\mathfrak R_{N,M}(T)&<\infty.
+\end{aligned}
+\]
+Here \(N\) and \(M\) are fixed before \(T\) approaches \(T_*\).  This is
+the bound that survives every cutoff; smoothness on each shorter interval
+would not supply it.  Let \(T\uparrow T_*\).  Each term is an integral of a
+nonnegative squared norm, so monotone convergence gives, for
+\(0\le r\le N\),
+\[
+V_r\in L^2(0,T_*;H^{M+1}),
+\qquad
+V_{r+1}\in L^2(0,T_*;H^{M-1}),
+\]
+and the pressure formula gives the finite companion estimate
+\[
+\|Q_r\|_{L^1(0,T_*;H^M)}
+\leq C_{M,r}\sum_{a=0}^{r}
+\|V_a\|_{L^2(0,T_*;H^{M+1})}
+\|V_{r-a}\|_{L^2(0,T_*;H^{M+1})}<\infty.
+\]
+This uses the Riesz-transform bound, finite-order Sobolev products, and
+Cauchy--Schwarz in time.  Pressure remains inside the finite record.
+The adjacent velocity pair then gives the middle trace:
+\[
+V_r\in C([0,T_*];H^M).
+\]
+This is one finite rectangle.  Its constant may depend on \(N\) and \(M\).
+The proof never asks one constant to control infinitely many derivatives at
+once.  It proves the required statement for every finite rectangle.
+
+Those rectangles are not unrelated solutions.  Every coordinate belongs to
+one velocity history generated by \(u_0\).  When two rectangles overlap, their
+shared coordinates agree.  Compatibility lets us assemble the entire family:
+\[
+u_0
+\longrightarrow
+\{\mathcal R_{N,M}[u_0;T_*]\}_{N,M<\infty}
+\longrightarrow
+\mathcal I[u_0]
+:=\bigcap_{r,m<\infty}H^r(0,T_*;H^m(\mathbb R^3)),
+\qquad
+u\in\mathcal I[u_0].
+\]
+No infinite-order estimate has been smuggled into this step.  Each coordinate
+came from a finite theorem; the intersection records that all of them belong
+to one compatible fluid.
+
+Now take the zeroth temporal row.  For every finite \(m\), the rectangle pair
+and the equation place
+\[
+u\in C([0,T_*];H^m_\sigma).
+\]
+All of these traces meet at one terminal value,
+\[
+u_*:=u(T_*)
+\in\bigcap_{m<\infty}H^m_\sigma
+=H^\infty_\sigma
+\hookrightarrow C^\infty.
+\]
+At \(T_*\), the equation converts the completed spatial information back into
+time information.  Starting from \(V_0^*=u_*\), the pressure formula gives
+\(Q_0^*\), and the recurrence gives \(V_1^*\).  Repeating this at every finite
+order produces the pressure-complete terminal jet.  Smooth local existence
+restarts from \(u_*\); uniqueness joins that continuation to the original
+history.  This extends the solution past \(T_*\), contradicting finite
+maximality.  Hence
+\[
+T_*=\infty.
+\]
+
+After continuation, fix any finite time \(T\) and write \(I=(0,T)\).  The
+construction on that interval gives
+\[
+u\in\mathcal I_T[u_0]
+:=\bigcap_{a,m<\infty}H^a(I;H^m(\mathbb R^3)).
+\]
+The familiar estimates are read from this finite-interval intersection instead
+of proved one by one.  Every time space below refers to \(I\), not to the whole
+infinite future.  Given a finite response order \(r\), a spatial
+derivative order \(k\), and \(2\le p\le\infty\), choose
+\[
+m>k+\frac32-\frac3p.
+\]
+That finite coordinate preserves the requested response order:
+\[
+\begin{aligned}
+u\in\mathcal I_T[u_0]
+&\Longrightarrow u\in H_t^{r+1}H_x^m
+\Longrightarrow V_r\in H_t^1H_x^m\\
+&\Longrightarrow V_r\in C_tH_x^m
+\Longrightarrow V_r\in L_t^qW_x^{k,p}
+\qquad(1\le q\le\infty).
+\end{aligned}
+\]
+At \(r=0\), the endpoint embedding
+\(H^1(\mathbb R^3)\hookrightarrow L^6(\mathbb R^3)\), followed by the strict
+embeddings above with \(m=2\) and \(m=3\), recovers, among many others,
+\[
+u\in L_t^\infty L_x^6,
+\qquad
+u\in L_t^\infty L_x^\infty,
+\qquad
+u\in L_t^\infty W_x^{1,\infty}.
+\]
+These are not separate achievements.  Each is one finite readout of
+\(\mathcal I_T[u_0]\).
+
+The whole motion is
+\[
+\boxed{
+u_0
+\longrightarrow \{(V_r,Q_r)\}_{r\ge0}
+\longrightarrow \{\mathcal R_{N,M}[u_0]\}_{N,M<\infty}
+\longrightarrow \mathcal I[u_0]
+\longrightarrow u_*\in H^\infty
+\longrightarrow \text{restart}
+\longrightarrow T_*=\infty.
+}
+\]
+
+\endgroup

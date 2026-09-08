@@ -19,7 +19,7 @@ A(Q)=\text{full positive PLS action carried inside }Q,
 and define a nonnegative same-packet boundary reserve
 
 ```math
-B(Q)=\text{gauge-reduced annular pressure-Hodge-stress flux available across the material boundary of }Q.
+B(Q)=\text{gauge-reduced annular pressure-Helmholtz--Leray-stress flux available across the material boundary of }Q.
 ```
 
 The reserve must be defined on the original transported material history, not on detached packets.
@@ -68,6 +68,6 @@ For unrelated packets, positive boundary flux can be counted repeatedly. For a l
 
 Statement:
 
-For the original smooth Navier-Stokes material history, after paid nonlaminar exits, construct a nonnegative gauge-reduced annular pressure-Hodge-stress boundary reserve `B(Q)` on each laminar ancestry node such that `(LFB.1)` holds with summable legal error and finite root reserve.
+For the original smooth Navier-Stokes material history, after paid nonlaminar exits, construct a nonnegative gauge-reduced annular pressure-Helmholtz--Leray-stress boundary reserve `B(Q)` on each laminar ancestry node such that `(LFB.1)` holds with summable legal error and finite root reserve.
 
 This would imply the first high-ratio moment and discharge the full-action edge.

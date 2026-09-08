@@ -1,0 +1,684 @@
+\section{Compatible intersection, endpoint jet, and restart}
+
+\begin{definition}[Compatible intersection]
+\label{def:compatible-intersection}
+Let
+\begin{equation}
+ \mathscr X_\infty
+ :=\varprojlim_{N,M}\mathscr X_{N,M}
+ =\left\{(X_{N,M})_{N,M}:
+ \begin{aligned}
+ &X_{N,M}\in\mathscr X_{N,M},\\
+ &\rho_{N',M'}^{N,M}X_{N,M}=X_{N',M'}
+ \quad\text{whenever }N'\le N,\ M'\le M
+ \end{aligned}
+ \right\}.
+ \label{eq:compatible-intersection-space}
+\end{equation}
+The datum-specific family is
+\begin{equation}
+ \cI[u_0]
+ :=\bigl(\cR_{N,M}[u_0;T_*]\bigr)_{N,M\in\Nzero}.
+ \label{eq:compatible-intersection}
+\end{equation}
+\end{definition}
+
+\begin{theorem}[Compatible assembly and whole-terminal mixed regularity]
+\label{thm:compatible-inverse-intersection}
+Let \(\nu>0\), \(u_0\in\HsSigma(\R^3)\), and let
+\((T_*,u,p)\) be the maximal pressure-complete classical history generated
+by \((u_0,\nu)\).  If \(T_*<\infty\), then
+\begin{equation}
+ \cI[u_0]
+ =\bigl(\cR_{N,M}[u_0;T_*]\bigr)_{N,M\in\Nzero}
+ \in\mathscr X_\infty
+ \label{eq:ier-compatible-family}
+\end{equation}
+and all of its finite coordinates are the restrictions of the same
+pressure-complete history.  Its coordinates \((V_n,Q_n)_{n\in\Nzero}\)
+satisfy
+\begin{align}
+ V_n&\in\bigcap_{m\in\Nzero}L^2(0,T_*;H^m_\sigma(\R^3)),
+ \label{eq:ier-inverse-velocity-coordinate}\\
+ Q_n&\in\bigcap_{m\in\Nzero}L^1(0,T_*;H^m(\R^3)),
+ \label{eq:ier-inverse-pressure-coordinate}
+\end{align}
+and every finite restriction is the corresponding rectangle
+\(\cR_{N,M}[u_0;T_*]\).  Its velocity realization satisfies
+\begin{equation}
+ u\in\bigcap_{r,m\in\Nzero}H^r(0,T_*;H^m(\R^3)),
+ \label{eq:mixed-sobolev-intersection}
+\end{equation}
+and, for every \(r,m\in\Nzero\),
+\begin{equation}
+ \sum_{n=0}^{r}\norm{\partial_t^nu}_{L^2(0,T_*;H^m)}^2
+ \le\mathfrak R_{r,m}^*[u_0,\nu,T_*].
+ \label{eq:mixed-sobolev-finite-bound}
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+Theorem~\ref{thm:datum-rectangles} places every velocity coordinate of
+\(\cR_{N,M}[u_0;T_*]\) in its whole-terminal adjacent spaces.
+Proposition~\ref{prop:rectangle-pressure-completion} places every retained
+pressure coordinate in its whole-terminal pressure space.
+Proposition~\ref{prop:rectangle-compatibility} gives
+\[
+ \rho_{N',M'}^{N,M}\cR_{N,M}[u_0;T_*]
+ =\cR_{N',M'}[u_0;T_*]
+ \qquad(N'\le N,\ M'\le M),
+\]
+so \eqref{eq:ier-compatible-family} belongs to \(\mathscr X_\infty\).
+
+Fix \(n\).  Every rectangle with \(N\ge n\) contains the same distributions
+\(\partial_t^nu\) and \(\partial_t^np\).  Increasing \(M\), using the
+canonical Sobolev embeddings, gives
+\eqref{eq:ier-inverse-velocity-coordinate} and
+\eqref{eq:ier-inverse-pressure-coordinate}.  Thus each finite rectangle reads
+the same distributional coordinate in its own Sobolev topology.
+
+Fix finite \(r,m\) and choose \(N\ge r\), \(M\ge m\).  The upper rectangle
+edges give
+\[
+ \partial_t^nu\in L^2(0,T_*;H^{M+1})
+ \hookrightarrow L^2(0,T_*;H^m)
+ \qquad(0\le n\le r).
+\]
+They are the distributional time derivatives of the same \(u\), so
+\(u\in H^r(0,T_*;H^m)\).  Since \((r,m)\) was arbitrary,
+\eqref{eq:mixed-sobolev-intersection} follows.  Summing the retained
+coordinates and using Sobolev nesting gives
+\eqref{eq:mixed-sobolev-finite-bound}.
+\end{proof}
+
+\begin{proposition}[Complete spatial row and common endpoint]
+\label{prop:ier-complete-spatial-endpoint}
+Under the hypotheses of
+Theorem~\ref{thm:compatible-inverse-intersection}, for every
+\(m\in\Nzero\),
+\begin{equation}
+ u\in W^{1,1}(0,T_*;H^m_\sigma(\R^3))
+ \hookrightarrow C([0,T_*];H^m_\sigma(\R^3)).
+ \label{eq:ier-spatial-row-W11}
+\end{equation}
+The endpoint values supplied at the different Sobolev orders are the images
+of one common state
+\begin{equation}
+ u_*:=u(T_*)\in\bigcap_{m\in\Nzero}H^m_\sigma(\R^3)
+ =H^\infty_\sigma(\R^3).
+ \label{eq:ier-common-spatial-endpoint}
+\end{equation}
+\end{proposition}
+
+\begin{proof}
+Fix \(m\).  The zeroth temporal coordinate of
+\eqref{eq:mixed-sobolev-intersection} gives
+\[
+ u\in L^2(0,T_*;H^{m+2}).
+\]
+The pressure-completed nonlinearity satisfies
+\[
+ \norm{\Pp\nabla\!\cdot(u\otimes u)}_{H^m}
+ \le C_m\norm u_{H^{m+2}}^2
+\]
+by Lemmas~\ref{lem:sobolev-product} and \ref{lem:riesz-leray}.  It belongs
+to \(L^1(0,T_*;H^m)\).  The same spatial row and \(T_*<\infty\) give
+\(\Delta u\in L^1(0,T_*;H^m)\), and the projected equation
+\[
+ u_t=\nu\Delta u-\Pp\nabla\!\cdot(u\otimes u)
+\]
+places \(u_t\) in \(L^1(0,T_*;H^m)\).  Also
+\(u\in L^1(0,T_*;H^m)\), so the Banach-valued fundamental theorem gives
+\eqref{eq:ier-spatial-row-W11}.
+
+If \(k\ge m\), the \(H^k\)- and \(H^m\)-continuous representatives are
+the same preterminal function after the embedding \(H^k\hookrightarrow
+H^m\).  Uniqueness of continuous representatives makes their endpoint
+values agree under that embedding.  These compatible values define the
+single state in \eqref{eq:ier-common-spatial-endpoint}.  Continuity of
+divergence from \(H^{m+1}\) to \(H^m\) gives \(\nabla\cdot u_*=0\).
+\end{proof}
+
+\begin{corollary}[Whole-terminal pressure-complete mixed jet]
+\label{cor:ier-whole-terminal-mixed-jet}
+Under the hypotheses of Theorem~\ref{thm:compatible-inverse-intersection},
+for every \(r,m,n\in\Nzero\) and \(\alpha\in\Nzero^3\),
+\begin{align}
+ u&\in H^r(0,T_*;H^m_\sigma(\R^3)),
+ \label{eq:ier-whole-terminal-bochner}\\
+ J_{n,\alpha}:=\partial_x^\alpha V_n
+ &\in L^2(0,T_*;H^{m+1}(\R^3)),
+ \label{eq:ier-whole-terminal-mixed-upper}\\
+ J_{n+1,\alpha}
+ &\in L^2(0,T_*;H^{m-1}(\R^3)),
+ \label{eq:ier-whole-terminal-mixed-lower}\\
+ \Pi_{n,\alpha}:=\partial_x^\alpha Q_n
+ &\in L^1(0,T_*;H^m(\R^3)).
+ \label{eq:ier-whole-terminal-mixed-pressure}
+\end{align}
+The following finite bounds hold:
+\begin{align}
+ \sum_{j=0}^{r}\norm{V_j}_{L^2(0,T_*;H^m)}^2
+ &\le\mathfrak R_{r,m}^*[u_0,\nu,T_*],
+ \label{eq:ier-finite-bochner-bound}\\
+ \norm{J_{n,\alpha}}_{L^2(0,T_*;H^{m+1})}^2
+ +\norm{J_{n+1,\alpha}}_{L^2(0,T_*;H^{m-1})}^2
+ &\le\mathfrak R_{n,m+|\alpha|}^*[u_0,\nu,T_*],
+ \label{eq:ier-finite-mixed-bound}\\
+ \norm{\Pi_{n,\alpha}}_{L^1(0,T_*;H^m)}
+ &\le C_{m+|\alpha|}^{\rm p}(2^{n+1}-1)
+ \mathfrak R_{n,m+|\alpha|}^*[u_0,\nu,T_*].
+ \label{eq:ier-finite-mixed-pressure-bound}
+\end{align}
+Every mixed row satisfies the recurrences in
+Proposition~\ref{prop:formal-mixed-recurrences} on \((0,T_*)\).
+\end{corollary}
+
+\begin{proof}
+Equation \eqref{eq:ier-whole-terminal-bochner} and
+\eqref{eq:ier-finite-bochner-bound} follow from
+Theorem~\ref{thm:compatible-inverse-intersection}.  The Fourier multiplier
+bound
+\[
+ \norm{\partial_x^\alpha f}_{H^s}
+ \le\norm f_{H^{s+|\alpha|}}
+\]
+and the rectangle \((n,m+|\alpha|)\) give
+\eqref{eq:ier-whole-terminal-mixed-upper}--
+\eqref{eq:ier-finite-mixed-bound}.  Apply the same multiplier bound to the
+pressure completion in Proposition~\ref{prop:rectangle-pressure-completion}
+to obtain \eqref{eq:ier-whole-terminal-mixed-pressure} and
+\eqref{eq:ier-finite-mixed-pressure-bound}.  Proposition
+\ref{prop:formal-mixed-recurrences} supplies the stated identities.
+\end{proof}
+
+\Needspace{24\baselineskip}
+\begin{theorem}[Compatible whole-terminal Sobolev traces]
+\label{thm:ier-compatible-endpoint-traces}
+Assume the hypotheses of
+Theorem~\ref{thm:compatible-inverse-intersection}.
+For \(N,m\in\Nzero\), define
+\begin{equation}
+ \mathfrak E_{N,m}
+ :=(1+T_*^{-1})^{1/2}
+ \bigl(\mathfrak R_{N,m}^*[u_0,\nu,T_*]\bigr)^{1/2}.
+ \label{eq:ier-endpoint-majorant}
+\end{equation}
+\begin{samepage}
+If \(0\le n\le N\) and \(\alpha\in\Nzero^3\), then
+\begin{align}
+ V_n&\in C([0,T_*];H^m_\sigma(\R^3)),
+ &\sup_{0\le t\le T_*}\norm{V_n(t)}_{H^m}
+ &\le\mathfrak E_{N,m},
+ \label{eq:ier-row-trace}\\
+ J_{n,\alpha}&\in C([0,T_*];H^m(\R^3)),
+ &\sup_{0\le t\le T_*}\norm{J_{n,\alpha}(t)}_{H^m}
+ &\le\mathfrak E_{N,m+|\alpha|}.
+ \label{eq:ier-mixed-row-trace}
+\end{align}
+There are unique values
+\begin{align}
+ V_n^*&:=\lim_{t\uparrow T_*}V_n(t)
+ \in H^\infty(\R^3),
+ \label{eq:ier-velocity-endpoint}\\
+ J_{n,\alpha}^*&:=\lim_{t\uparrow T_*}J_{n,\alpha}(t)
+ =\partial_x^\alpha V_n^*
+ \in H^\infty(\R^3),
+ \label{eq:ier-mixed-velocity-endpoint}
+\end{align}
+\par
+\end{samepage}
+such that, for \(k\ge m\), the image of the \(H^k\) trace under
+\(H^k\hookrightarrow H^m\) is the \(H^m\) trace.  Quantitatively,
+\begin{align}
+ \norm{V_n^*}_{H^m}
+ &\le\mathfrak E_{n,m},
+ \label{eq:ier-endpoint-velocity-size}\\
+ \norm{V_n(t)-V_n^*}_{H^m}
+ &\le(T_*-t)\mathfrak E_{n+1,m},
+ \qquad0\le t\le T_*,
+ \label{eq:ier-endpoint-velocity-modulus}\\
+ \norm{J_{n,\alpha}^*}_{H^m}
+ &\le\mathfrak E_{n,m+|\alpha|},
+ \label{eq:ier-endpoint-mixed-size}\\
+ \norm{J_{n,\alpha}(t)-J_{n,\alpha}^*}_{H^m}
+ &\le(T_*-t)\mathfrak E_{n+1,m+|\alpha|}.
+ \label{eq:ier-endpoint-mixed-modulus}
+\end{align}
+ In particular, the zeroth trace agrees with the common endpoint in
+ Proposition~\ref{prop:ier-complete-spatial-endpoint}, and
+\begin{equation}
+ u_*=V_0^*\in H^\infty_\sigma(\R^3),
+ \qquad
+ u\in\bigcap_{a,m\in\Nzero}C^a([0,T_*];H^m_\sigma(\R^3)),
+ \qquad
+ \partial_t^au(T_*)=V_a^*.
+ \label{eq:ier-complete-left-velocity-jet}
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+For \(0\le n\le N\), Theorem~\ref{thm:datum-rectangles} gives
+\[
+ V_n\in L^2(0,T_*;H^{m+1}),
+ \qquad
+ \partial_tV_n=V_{n+1}\in L^2(0,T_*;H^{m-1}).
+\]
+Lemma~\ref{lem:adjacent-trace} gives the first membership in
+\eqref{eq:ier-row-trace} and
+\begin{align*}
+ \sup_{0\le t\le T_*}\norm{V_n(t)}_{H^m}^2
+ &\le T_*^{-1}\norm{V_n}_{L^2H^m}^2
+ +2\norm{V_n}_{L^2H^{m+1}}\norm{V_{n+1}}_{L^2H^{m-1}}\\
+ &\le(1+T_*^{-1})\mathfrak R_{N,m}^*[u_0,\nu,T_*].
+\end{align*}
+This proves the bound in \eqref{eq:ier-row-trace}.  Apply the same lemma to
+\(J_{n,\alpha}\), using \eqref{eq:ier-finite-mixed-bound}, to prove
+\eqref{eq:ier-mixed-row-trace}.
+
+For \(k\ge m\), the \(H^k\)-continuous and \(H^m\)-continuous
+representatives equal the same preterminal distribution.  After applying
+\(H^k\hookrightarrow H^m\), uniqueness of continuous representatives makes
+them equal on \([0,T_*]\).  Their endpoint values are compatible and define
+\eqref{eq:ier-velocity-endpoint}--
+\eqref{eq:ier-mixed-velocity-endpoint}.  Spatial differentiation is
+continuous between the corresponding finite Sobolev spaces, so
+\(J_{n,\alpha}^*=\partial_x^\alpha V_n^*\).
+
+Corollary~\ref{cor:ier-whole-terminal-mixed-jet} gives
+\(V_n,V_{n+1}\in L^1(0,T_*;H^m)\) and
+\(\partial_tV_n=V_{n+1}\) in distributions.  The Banach-valued fundamental
+identity gives
+\begin{equation}
+ V_n(t)-V_n(s)=\int_s^tV_{n+1}(\tau)\dd\tau
+ \quad\text{in }H^m,
+ \qquad0\le s\le t\le T_*.
+ \label{eq:ier-banach-fundamental-identity}
+\end{equation}
+The continuous representative of \(V_{n+1}\) is bounded by
+\(\mathfrak E_{n+1,m}\).  Set \(t=T_*\) in
+\eqref{eq:ier-banach-fundamental-identity} to prove
+\eqref{eq:ier-endpoint-velocity-modulus}; spatial differentiation gives
+\eqref{eq:ier-endpoint-mixed-modulus}.  The remaining size estimates follow
+from \eqref{eq:ier-row-trace}--\eqref{eq:ier-mixed-row-trace}.
+
+The divergence map \(H^{m+1}\to H^m\) is continuous, so
+\(\nabla\cdot u_*=0\).  For each \(a,m\), the curves
+\(V_0,\ldots,V_{a+1}\) are continuous in \(H^m\), and
+\eqref{eq:ier-banach-fundamental-identity} identifies the derivative of
+\(V_j\) with \(V_{j+1}\).  Induction in \(j\) proves
+\eqref{eq:ier-complete-left-velocity-jet}.
+\end{proof}
+
+\begin{theorem}[Pressure-complete endpoint jet]
+\label{thm:ier-pressure-complete-endpoint}
+\begin{samepage}
+Assume the hypotheses of
+Theorem~\ref{thm:compatible-inverse-intersection}.
+For \(n\in\Nzero\), define
+\begin{equation}
+ Q_n^*:=R_iR_j\sum_{a=0}^{n}\binom na
+ V_{a,i}^*V_{n-a,j}^*.
+ \label{eq:ier-terminal-pressure-row}
+\end{equation}
+Then \(Q_n^*\in H^\infty(\R^3)\), and, for every \(s\in\Nzero\),
+\begin{align}
+ \norm{Q_n^*}_{H^s}
+ &\le9C_s^{\rm alg}2^n\mathfrak E_{n,s+1}^2,
+ \label{eq:ier-terminal-pressure-size}\\
+ \norm{Q_n(t)-Q_n^*}_{H^s}
+ &\le9C_s^{\rm alg}2^{n+1}(T_*-t)\mathfrak E_{n+1,s+1}^2.
+ \label{eq:ier-terminal-pressure-modulus}
+\end{align}
+\end{samepage}
+For \(\alpha\in\Nzero^3\),
+\begin{equation}
+ \Pi_{n,\alpha}^*:=\partial_x^\alpha Q_n^*
+ =\lim_{t\uparrow T_*}\Pi_{n,\alpha}(t)
+ \quad\text{in }H^m(\R^3)\text{ for every }m\in\Nzero.
+ \label{eq:ier-terminal-mixed-pressure-row}
+\end{equation}
+More precisely, for every \(m\in\Nzero\),
+\begin{align}
+ \norm{\Pi_{n,\alpha}^*}_{H^m}
+ &\le9C_{m+|\alpha|}^{\rm alg}2^n
+ \mathfrak E_{n,m+|\alpha|+1}^2,
+ \label{eq:ier-terminal-mixed-pressure-size}\\
+ \norm{\Pi_{n,\alpha}(t)-\Pi_{n,\alpha}^*}_{H^m}
+ &\le9C_{m+|\alpha|}^{\rm alg}2^{n+1}(T_*-t)
+ \mathfrak E_{n+1,m+|\alpha|+1}^2.
+ \label{eq:ier-terminal-mixed-pressure-modulus}
+\end{align}
+The endpoint rows satisfy, for every \(n,q\in\Nzero\),
+\begin{equation}
+ V_{n+1}^*
+ =\nu\Delta V_n^*
+ -\sum_{a=0}^{n}\binom na(V_a^*\cdot\nabla)V_{n-a}^*
+ -\nabla Q_n^*
+ \quad\text{in }H^q(\R^3).
+ \label{eq:ier-terminal-velocity-row}
+\end{equation}
+Among families rooted at \(u_*\) that satisfy
+\eqref{eq:ier-terminal-pressure-row} and
+\eqref{eq:ier-terminal-velocity-row} in every finite Sobolev space,
+\((V_n^*,Q_n^*)_{n\in\Nzero}\) is the unique pressure-normalized endpoint
+jet.  Moreover,
+\begin{equation}
+ p\in\bigcap_{a,m\in\Nzero}C^a([0,T_*];H^m(\R^3)),
+ \qquad
+ \partial_t^ap(T_*)=Q_a^*.
+ \label{eq:ier-complete-left-pressure-jet}
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+Lemmas~\ref{lem:sobolev-product} and \ref{lem:riesz-leray}, followed by
+\eqref{eq:ier-row-trace}, give
+\begin{align*}
+ \norm{Q_n^*}_{H^s}
+ &\le9C_s^{\rm alg}\sum_{a=0}^{n}\binom na
+ \norm{V_a^*}_{H^{s+1}}\norm{V_{n-a}^*}_{H^{s+1}}\\
+ &\le9C_s^{\rm alg}2^n\mathfrak E_{n,s+1}^2.
+\end{align*}
+For each product in \(Q_n(t)-Q_n^*\), insert
+\(V_a^*V_{n-a}(t)\), use
+\eqref{eq:ier-endpoint-velocity-modulus}, and bound every retained factor by
+\(\mathfrak E_{n+1,s+1}\).  The two product differences and
+\(\sum_{a=0}^{n}\binom na=2^n\) prove
+\eqref{eq:ier-terminal-pressure-modulus}.  The Fourier multiplier inequality
+\[
+ \norm{\partial_x^\alpha f}_{H^m}
+ \le\norm f_{H^{m+|\alpha|}}
+\]
+applied to \eqref{eq:ier-terminal-pressure-size} and
+\eqref{eq:ier-terminal-pressure-modulus} proves
+\eqref{eq:ier-terminal-mixed-pressure-size} and
+\eqref{eq:ier-terminal-mixed-pressure-modulus}.  The latter tends to zero
+as \(t\uparrow T_*\), which proves
+\eqref{eq:ier-terminal-mixed-pressure-row} in every \(H^m\).
+
+Fix \(n,q\).  The trace of \(V_n\) in \(H^{q+2}\) carries the diffusion
+term in Proposition~\ref{prop:formal-mixed-recurrences} to \(H^q\) at
+\(T_*\).  The product estimate at order \(q+1\), using velocity convergence
+in \(H^{q+2}\), carries every transport term to \(H^q\).  Equation
+\eqref{eq:ier-terminal-pressure-modulus} at order \(q+1\) carries the pressure
+gradient to \(H^q\).  The left side converges to \(V_{n+1}^*\) in \(H^q\),
+which proves \eqref{eq:ier-terminal-velocity-row}.
+
+The value \(V_0^*=u_*\) fixes \(Q_0^*\), and the velocity recurrence fixes
+\(V_1^*\).  Inductively, \(V_0^*,\ldots,V_n^*\) fix \(Q_n^*\), which fixes
+\(V_{n+1}^*\).  This proves uniqueness within the displayed recurrence
+class.  Extend each \(Q_n\) to \(T_*\) by
+\(Q_n(T_*):=Q_n^*\).  On \((0,T_*)\),
+\(Q_n=\partial_t^np\), so \(\partial_tQ_n=Q_{n+1}\) in distributions.
+Both rows are continuous in every \(H^m\) by
+\eqref{eq:ier-terminal-pressure-modulus}.  Hence, for
+\(0\le s\le t\le T_*\),
+\begin{equation}
+ Q_n(t)-Q_n(s)=\int_s^tQ_{n+1}(\tau)\dd\tau
+ \quad\text{in }H^m(\R^3).
+ \label{eq:ier-pressure-banach-identity}
+\end{equation}
+Indeed, the identity holds for \(t<T_*\), and the endpoint bounds permit
+passage to \(t=T_*\).  Thus
+\(Q_n\in C^1([0,T_*];H^m)\) with derivative \(Q_{n+1}\).  Induction gives
+\eqref{eq:ier-complete-left-pressure-jet}.
+\end{proof}
+
+\begin{lemma}[Late-slice overlap uniqueness]
+\label{lem:ier-late-slice-overlap}
+Assume the hypotheses of
+Theorem~\ref{thm:compatible-inverse-intersection}.
+Define
+\begin{equation}
+ \delta_0
+ :=\min\{1,c_\nu(1+\mathfrak E_{0,3})^{-2}\}>0,
+ \label{eq:ier-uniform-restart-time}
+\end{equation}
+where \(c_\nu\) is the constant in Theorem~\ref{thm:local-restart}.
+For every
+\(t_0\in(\max\{0,T_*-\delta_0/2\},T_*)\), let
+\[
+ (w^{t_0},q^{t_0})
+ \in\mathscr M_\nu^3(t_0,t_0+\delta_0;u(t_0)),
+ \qquad
+ (w^*,q^*)
+ \in\mathscr M_\nu^3(T_*,T_*+\delta_0;u_*)
+\]
+be the unique pairs supplied by Theorem~\ref{thm:local-restart}.  Then
+\begin{align}
+ (w^{t_0},q^{t_0})&=(u,p)
+ &&\text{on }[t_0,T_*),
+ \label{eq:ier-left-overlap}\\
+ (w^{t_0},q^{t_0})&=(w^*,q^*)
+ &&\text{on }[T_*,t_0+\delta_0].
+ \label{eq:ier-right-overlap}
+\end{align}
+\end{lemma}
+
+\begin{proof}
+Equation \eqref{eq:ier-row-trace} gives
+\[
+ \norm{u(t_0)}_{H^3}\le\mathfrak E_{0,3},
+ \qquad
+ \norm{u_*}_{H^3}\le\mathfrak E_{0,3}.
+\]
+Hence
+\[
+ \delta_0\le\delta_\nu(u(t_0)),
+ \qquad
+ \delta_0\le\delta_\nu(u_*),
+\]
+with \(\delta_\nu\) as in Theorem~\ref{thm:local-restart}.
+Theorem~\ref{thm:local-restart} gives both pairs on the stated intervals.
+For each \(b<T_*\), Lemma~\ref{lem:shifted-mild-restriction} places
+\((u,p)|_{[t_0,b]}\) and
+\((w^{t_0},q^{t_0})|_{[t_0,b]}\) in
+\(\mathscr M_\nu^3(t_0,b;u(t_0))\).  Uniqueness in that class gives
+\eqref{eq:ier-left-overlap}.  Continuity in \(H^3\) gives
+\[
+ w^{t_0}(T_*)=\lim_{t\uparrow T_*}u(t)=u_*.
+\]
+Lemma~\ref{lem:shifted-mild-restriction} places the restrictions of
+\((w^{t_0},q^{t_0})\) and \((w^*,q^*)\) to
+\([T_*,t_0+\delta_0]\) in
+\(\mathscr M_\nu^3(T_*,t_0+\delta_0;u_*)\).  Uniqueness in that class gives
+\eqref{eq:ier-right-overlap}.  The right overlap has positive length because
+\(t_0+\delta_0>T_*+\delta_0/2\).
+\end{proof}
+
+\begin{theorem}[Same-history endpoint restart]
+\label{thm:ier-same-history-restart}
+Assume the hypotheses of
+Theorem~\ref{thm:compatible-inverse-intersection}.
+There is a pressure-normalized classical solution
+\((\widetilde u,\widetilde p)\) on
+\([0,T_*+\delta_0/2]\times\R^3\) such that
+\begin{align}
+ (\widetilde u,\widetilde p)|_{[0,T_*)\times\R^3}
+ &=(u,p),
+ \label{eq:ier-extension-identity}\\
+ \widetilde u,\widetilde p
+ &\in C^\infty([0,T_*+\delta_0/2]\times\R^3),
+ \label{eq:ier-extension-smoothness}\\
+ \partial_t^n\widetilde u(T_*)&=V_n^*,
+ \qquad
+ \partial_t^n\widetilde p(T_*)=Q_n^*
+ \quad(n\in\Nzero).
+ \label{eq:ier-extension-jet}
+\end{align}
+If \(0<\eta\le\delta_0/2\) and
+\((\widehat u,\widehat p)\) is another pressure-normalized classical
+extension satisfying
+\begin{equation}
+ (\widehat u,\widehat p)|_{[0,T_*)}=(u,p),
+ \qquad
+ (\widehat u,\widehat p)|_{[T_*,T_*+\eta]}
+ \in\mathscr M_\nu^3(T_*,T_*+\eta;u_*),
+ \label{eq:ier-same-history-uniqueness-class}
+\end{equation}
+then
+\begin{equation}
+ (\widehat u,\widehat p)=(\widetilde u,\widetilde p)
+ \quad\text{on }[0,T_*+\eta].
+ \label{eq:ier-same-history-uniqueness}
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+Let \((w^*,q^*)\) be the endpoint solution from
+Lemma~\ref{lem:ier-late-slice-overlap}, and set
+\[
+ W_n^+:=\partial_t^nw^*(T_*),
+ \qquad
+ P_n^+:=\partial_t^nq^*(T_*).
+\]
+\begin{samepage}
+Theorem~\ref{thm:local-restart} makes \((w^*,q^*)\) smooth and
+pressure-normalized.  Differentiating its equations exactly as in the proof of
+Proposition~\ref{prop:formal-mixed-recurrences} gives
+\begin{align*}
+ P_n^+&=R_iR_j\sum_{a=0}^{n}\binom naW_{a,i}^+W_{n-a,j}^+,\\
+ W_{n+1}^+&=\nu\Delta W_n^+
+ -\sum_{a=0}^{n}\binom na(W_a^+\cdot\nabla)W_{n-a}^+
+ -\nabla P_n^+.
+\end{align*}
+Since \(W_0^+=u_*=V_0^*\), induction with
+\eqref{eq:ier-terminal-pressure-row} and
+\eqref{eq:ier-terminal-velocity-row} gives
+\begin{equation}
+ W_n^+=V_n^*,
+ \qquad P_n^+=Q_n^*,
+ \qquad n\in\Nzero.
+ \label{eq:ier-left-right-jet-match}
+\end{equation}
+\par
+\end{samepage}
+
+Define
+\[
+ (\widetilde u,\widetilde p)(t)
+ :=\begin{cases}
+ (u,p)(t),&0\le t<T_*,\\
+ (w^*,q^*)(t),&T_*\le t\le T_*+\delta_0/2.
+ \end{cases}
+\]
+Equations \eqref{eq:ier-complete-left-velocity-jet},
+\eqref{eq:ier-complete-left-pressure-jet}, and
+\eqref{eq:ier-left-right-jet-match} match every one-sided time derivative in
+every finite Sobolev space.  Sobolev embedding gives
+\eqref{eq:ier-extension-smoothness}, and the pressure-complete equation holds
+at \(T_*\) by \eqref{eq:ier-terminal-velocity-row}.  Lemma
+\ref{lem:ier-late-slice-overlap} identifies the joined pair near \(T_*\) with
+the single local history \((w^{t_0},q^{t_0})\), so the gluing is one local
+classical history across the endpoint; the piecewise definition gives
+\eqref{eq:ier-extension-identity}.  Any pair in
+\eqref{eq:ier-same-history-uniqueness-class} has the same datum \(u_*\) on
+the right of \(T_*\) and belongs to the same shifted mild class as
+\((w^*,q^*)\).  The at-most-one assertion in
+Theorem~\ref{thm:local-restart} proves
+\eqref{eq:ier-same-history-uniqueness}.
+\end{proof}
+
+\begin{corollary}[Maximal-time contradiction]
+\label{cor:ier-maximal-time-contradiction}
+The maximal pressure-complete classical history generated by
+\((u_0,\nu)\) cannot have \(T_*<\infty\).
+\end{corollary}
+
+\begin{proof}
+If \(T_*<\infty\), Theorem~\ref{thm:datum-rectangles} supplies the
+whole-terminal rectangles.  The chain from
+Theorem~\ref{thm:compatible-inverse-intersection} through
+Theorem~\ref{thm:ier-same-history-restart} produces a pressure-normalized classical
+extension to \([0,T_*+\delta_0/2]\), where \(\delta_0>0\).  This contradicts
+maximality in Definition~\ref{def:formal-maximal-history}.
+\end{proof}
+
+\begin{samepage}
+\begin{theorem}[Global smoothness on \(\R^3\)]
+\label{thm:ier-global-smoothness}
+For every \(\nu>0\) and every \(u_0\in\HsSigma(\R^3)\), there exists a
+pressure-normalized pair
+\begin{equation}
+ (u,p)\in C^\infty([0,\infty)\times\R^3;\R^3\times\R)
+ \label{eq:ier-global-class}
+\end{equation}
+satisfying
+\begin{align}
+ \partial_tu+(u\cdot\nabla)u+\nabla p&=\nu\Delta u,
+ \label{eq:ier-global-momentum}\\
+ \nabla\cdot u&=0,
+ \qquad u(0)=u_0,
+ \label{eq:ier-global-divergence-datum}\\
+ p(t)&=R_iR_j(u_i(t)u_j(t)),
+ \qquad \lim_{|x|\to\infty}p(t,x)=0,
+ \label{eq:ier-global-pressure}\\
+ \frac12\norm{u(t)}_{L^2}^2
+ +\nu\int_0^t\norm{\nabla u(s)}_{L^2}^2\dd s
+ &=\frac12\norm{u_0}_{L^2}^2,
+ \qquad t\ge0.
+ \label{eq:ier-global-energy}
+\end{align}
+In particular,
+\begin{equation}
+ \sup_{t\ge0}\norm{u(t)}_{L^2(\R^3)}^2
+ \le\norm{u_0}_{L^2(\R^3)}^2<\infty.
+ \label{eq:ier-global-energy-bound}
+\end{equation}
+For every finite \(T>0\), its restriction is the unique member of
+\(\mathscr M_\nu^3(0,T;u_0)\).
+\end{theorem}
+\end{samepage}
+
+\begin{proof}
+ Let
+ \[
+  \mathscr T:=\left\{\tau>0:
+  \begin{array}{c}
+  \text{there exists a pressure-complete classical history}\\
+  (\tau,u^\tau,p^\tau)\text{ generated by }(u_0,\nu)
+  \end{array}
+  \right\},
+ \]
+ and put
+\[
+ T_*:=\sup\mathscr T.
+\]
+ Theorem~\ref{thm:local-restart}, applied to \(u_0\in\HsSigma\), supplies a
+ shifted mild solution whose persistence statement gives every finite
+ velocity and pressure row.  Sobolev embedding and the displayed recurrences
+ make this pair a pressure-complete classical history, so \(\mathscr T\) is
+ nonempty.
+ Lemma~\ref{lem:shifted-mild-restriction} admits each strict classical
+restriction to the shifted mild class, whose at-most-one property identifies
+any two such solutions on their common interval; their union defines a unique
+ solution on \([0,T_*)\).  Since \(u_0\in\HsSigma\), the persistence conclusion
+of Theorem~\ref{thm:local-restart}, applied on overlapping local intervals,
+places every strict restriction in the class of
+Definition~\ref{def:formal-maximal-history}.  An extension beyond \(T_*\)
+would restrict to an interval \([0,\tau]\) with \(\tau>T_*\), contrary to
+the definition of the supremum.  Thus \((T_*,u,p)\) is maximal.  Corollary
+\ref{cor:ier-maximal-time-contradiction} gives \(T_*=\infty\).
+
+Fix \(T<\infty\).  Persistence in Theorem~\ref{thm:local-restart}, iterated
+along the unique history, retains every finite spatial Sobolev order on
+\([0,T]\).  Proposition~\ref{prop:formal-mixed-recurrences} retains every
+finite temporal row.  Lemma~\ref{lem:sobolev-embedding} gives
+\eqref{eq:ier-global-class}; arbitrariness of \(T\) gives the global class.
+The pressure belongs to \(H^s(\R^3)\) for every \(s\), and the Fourier
+inversion proof of Lemma~\ref{lem:sobolev-embedding} places its continuous
+representative in \(C_0(\R^3)\), which proves the limit in
+\eqref{eq:ier-global-pressure}.  Lemma
+\ref{lem:shifted-mild-restriction} places \((u,p)|_{[0,T]}\) in
+\(\mathscr M_\nu^3(0,T;u_0)\).  If
+\((\widetilde u,\widetilde p)\in\mathscr M_\nu^3(0,T;u_0)\), the at-most-one
+assertion in Theorem~\ref{thm:local-restart} gives
+\((\widetilde u,\widetilde p)=(u,p)\) on \([0,T]\).  This proves the stated
+uniqueness.
+
+Proposition~\ref{prop:kinetic-energy} holds on every finite interval.  Since
+\(T\) was arbitrary, it gives \eqref{eq:ier-global-energy} for every
+\(t\ge0\); \eqref{eq:ier-global-energy-bound} follows by discarding the
+nonnegative dissipation term.
+\end{proof}

@@ -1,0 +1,218 @@
+with enough decay on late slabs to feed the usual local regularity readout. In shell language, the
+same question becomes control of the residual nonlinear source left after heat descendants, controlled
+losses, and absorbed terms have been removed:
+                                               Z t
+                                                          2j
+                              res
+                            Dj (t; t0 ) := 22j
+                                                   e−c0 ν2 (t−s) Φ+
+                                                                  j (s) ds,
+                                                      t0
+
+read on the dyadic shells and time windows meeting a shrinking annulus. The desired statement is
+scale-uniform smallness of this residual on every same-solution terminal annular schedule.
+    The obstruction is terminal concentration of source inside thinner and thinner
+                                                                            P 2heat-time windows.
+Positive same-solution source mass may live on windows with rm ↓ 0 and m rm        < ∞. The model
+
+                                           gm (s) = m 1(−1/m,0] (s)
+
+has bounded L1s mass and converges weakly to a terminal atom. It has no fixed preterminal residence,
+yet it keeps terminal source mass. A finite L1s source bound alone does not make the terminal layer
+spread out in time.
+    The same obstruction appears in the residual heat-scale quantity. Let
+
+                  λm = 2jm ,         τm = λ−2
+                                           m ,             Im = [tm − τm , tm ],         tm ↑ T∗ ,
+
+with the windows disjoint and jm → ∞. On the selected shell set
+
+                             Φ+
+                              jm (s) = am 1Im (s),               0 < a0 ≤ am ≤ A.
+
+The physical source mass carried by these heat windows is summable:
+                             XZ                      X
+                                     Φ+jm (s) ds ≤ A   2−2jm < ∞.
+                                 m    Im                          m
+
+At the end of each heat window, the scale-critical residual refill remains bounded below:
+                                          Z 2−2jm
+                                                               2jm σ             1 − e−c0 ν      1 − e−c0 ν
+        Djres
+           m
+              (tm ; tm − τm ) = 22jm am             e−c0 ν2            dσ = am              ≥ a0            .
+                                           0                                        c0 ν            c0 ν
+This computation is the obstruction. A finite amount of physical source can be placed into
+thinner terminal windows while each selected heat-scale window still carries a fixed scale-critical
+residue. The direct theorem still missing is TerminalTimeFaceAntiAtom.A, or the equivalent new-
+production theorem TerminalNewProductionTheoremBASAC .A. The presently known ways to prove
+that theorem all have the same mathematical job: prove temporal thickness or super-L1s integrability;
+dominate the selected source by a finite same-window reserve with a terminal strip modulus; prove
+transported no-incoming flux together with exclusion of terminal-face source production; show that
+first appearance contributes to a finite time-weighted source quantity, source integrability, or a rigid
+no-atom subclass; or produce BASAC inside BASAC T A . Without one of those inputs, the terminal layer
+
+gm (s) = (a/τm )1(−τm ,0] (s) remains compatible with the estimates on this page.
+     The nearby mechanisms do not remove this pulse by themselves. A source-reserve argument
+helps after the first-created positive reserve is controlled by a finite same-window source quantity,
+or after the admitted reserve enters the CM test with a concrete first face failure. The lower-carrier
+receiver package, the participation-debt mechanism, and the pressure-Hessian normal form answer a
+later question: how an admitted terminal record keeps or loses the same pressure law, viscosity,
+incompressibility, differentiated tower, and field readout. They are not anti-atom estimates. The
+
+                                                           9
+BASAC local exhaustion has the same shape. It reduces the current local alternatives to a zero-
+thickness terminal source atom and gives evidence toward Pack failure before admission unless a
+separate positive-scale carrier is produced.
+    The direct side now leaves a precise open theorem, not a vague annular gap. The CM side begins
+only after a surviving residual annular witness is admitted as the same-solution terminal object
+with the continuation-readout bridge paid. For that readout-complete admitted annular witness,
+Pack has already been answered by admission. A smooth readout-complete branch is M ember(Q);
+a finite nonsmooth readout-complete branch must leave the class through Part or Field. A weaker
+local annular reading remains local context until it supplies the continuation-readout bridge.
+
+
+5    The Same Terminal Record
+The direct route and the CM route ask different questions about the same branch. The direct route
+asks whether the equation supplies estimates strong enough to continue the original solution. The
+CM route begins with the exact obstruction left after that accounting and asks whether the selected
+terminal record is still a same-solution Navier–Stokes object.
+    The reframing keeps the original datum, velocity-pressure branch, viscosity, pressure law,
+incompressibility constraint, and terminal role fixed. A failed estimate becomes useful only after
+it produces a record Q that can be tested as the alleged terminal record of that same branch.
+The CM test then asks three concrete questions. Does Q still have a positive same-fluid carrier
+or packet? That is Pack. Does the same pressure-viscosity-incompressibility law still participate
+on the derivative tower being used? That is Part. Does the retained data still form a coherent
+positive-scale velocity field? That is Field.
+    The pass side is conservative. If Pack, Part, and Field survive on one selected record, that record
+remains on the member-continuation side and must be paired with the continuation readout named
+by the proof. The fail side is equally concrete. The argument marks the first failed face:
+
+            ¬PackQ ,      PackQ ∧ ¬PartN,Q ,       PackQ ∧ PartN,Q ∧ ∀r > 0 ¬FieldN,r,Q .
+
+That first face failure yields
+
+                                 Exit(Q; Owork                work
+                                          NS ) := ¬Member(Q; ONS ).
+
+    The annular endpoint is the example that keeps the distinction honest. The singularity claim is
+carried by positive-radius annular fields shrinking toward the endpoint. The proof follows those fields.
+Gold tries to control the residual annular refill directly. Silver receives a surviving annular residue
+only after it has been selected as the same-solution terminal record with the continuation-readout
+bridge paid. At that moment carrier is already part of admission. The readout-complete admitted
+nonsmooth annular branch must fail through Part or Field, while a branch retaining Part and
+continuation-readout Field belongs to the member-continuation side.
+
+
+6    What a Terminal Failure Can Be
+The forward work produces many named surfaces. The terminal proof uses them only after they
+have been reduced to one object: a same-solution record offered as the terminal record of the original
+Navier–Stokes branch. That record is the object under examination. It carries the initial datum,
+viscosity, velocity-pressure law, pressure response, incompressibility condition, material carrier, and
+terminal role inherited from the branch whose breakdown is being alleged.
+
+                                                  10
+    The reduction has a fixed order. A forward branch either supplies a continuation readout, leaves
+a selected terminal record for the CM test, or remains explanatory context. Once a record Q has
+been selected, the proof asks three questions in the order in which a Navier–Stokes record needs
+them. Does Q have a positive same-fluid carrier? Does the same pressure-viscosity-incompressibility
+law still participate on that carrier? Do the retained readings form one positive-scale velocity field?
+The answers are read as Pack, Part, and Field.
+    The proof test is the ordered Pack/Part/Field mechanism. The older endpoint words are
+secondary glosses. A Pack failure means no positive same-fluid body survives for the selected record.
+A Part failure means a body remains, but it no longer carries the same Navier–Stokes pressure,
+viscosity, incompressibility, and differentiated tower. A Field failure means carrier and participation
+remain, but no positive scale contains one coherent velocity readout. The words dead, blown, and
+jump may describe a mechanism only after this first lost face has been derived. An unbounded
+terminal reading, for example, is routed by what it destroys: carrier loss is Pack, same-law tower
+loss is Part, and loss of one coherent positive-scale field after Pack and Part survive is Field.
+    The following map tells the reader what each forward family contributes to that ordered
+test. Each entry names the direct estimate, the survivor left when that estimate stops short of a
+continuation theorem, and the face through which the survivor can become a CM witness. A branch
+with no selected same-solution terminal record remains outside the CM proof.
+
+ 1. Energy and enstrophy. The energy identity controls ∥u(t)∥L2 and the time integral of
+    ∥∇u(t)∥2L2 . The enstrophy identity exposes the source
+                                          Z
+                                            (u · ∇)u · ∆u dx.
+
+    The survivor is derivative growth left open by the energy identity. If that derivative tower is
+    still carried by the same positive terminal body, the carrier face has survived and the remaining
+    question moves to Part or Field. If the tower is only a number, trace, or readout with no
+    same-fluid body under it, the first lost face is Pack.
+
+ 2. Global energy–enstrophy budget. The quantity
+
+                                      Q(t) = ∥u(t)∥2L2 + ∥∇u(t)∥2L2
+
+    is a visible global budget. It can miss a concentration, source reserve, or small-scale transfer
+    that remains below the scale read by the global quantity. That survivor becomes CM material
+    only after the manuscript names the same-solution terminal record carrying it and says which
+    class datum that record loses.
+
+ 3. Scale barrier and dyadic tail. The direct route tries to make high-frequency transfer
+    summable. The survivor is a lower-prefix memory, high-high packet, or upper-tail leakage
+    that keeps moving activity into dangerous shells. A selected tail with a carrier and same-law
+    participation reaches the Field test. It fails there when every positive scale loses one coherent
+    velocity field carrying the neighboring readings.
+
+ 4. Cascade ancestry. Some branches identify the parent of a dangerous packet: donor window,
+    previous shell, pressure channel, or source history. The survivor is an ancestry claim. A missing
+    donor body is a Pack issue. A retained donor whose ancestry is no longer governed by the same
+    pressure-viscosity-incompressibility law is a Part issue.
+
+
+                                                  11
+ 5. Pressure-source and Zeno residue. The longest positive branch follows pressure sustain,
+    source residue, no-incoming-source drain, time-face anti-atom, angular saturation, and Zeno
+    ancestry. The survivor is a terminal reserve whose obligation is pushed to a smaller time face or
+    a previous source parent. Before the annular witness is admitted, the proof is still selecting the
+    record. After admission, the surrounding positive-radius fields supply the carrier requirement
+    for that annular test. The remaining nonsmooth branch then exits through Part or Field.
+
+ 6. Compactness and tensor closure. The direct route needs a classical approximation family
+    whose nonlinear tensors converge strongly enough that u(n) ⊗ u(n) becomes u ⊗ u. The survivor
+    is a weak limit or terminal trace that keeps information without giving one classical field. If
+    the carrier and participation law have survived, this becomes a Field issue: the pieces cannot
+    assemble into one positive-scale velocity field.
+
+ 7. Gradient transfer and coercivity. The route tries to absorb high-frequency production
+    into viscosity plus a summable tail. The survivor is a spill collar, lifted high-side remainder,
+    or high-high gradient packet. The first face is determined by the surviving object: no carrier
+    gives Pack, broken pressure-viscosity action gives Part, and retained non-coherent readings give
+    Field.
+
+ 8. Comparison, export, and wrong-object context. A nearby equation, filtered model,
+    geometric estimate, or comparison branch can explain a mechanism without proving the Clay
+    claim. The survivor is a useful object that may have moved away from the fixed-viscosity
+    Navier–Stokes branch. It enters the paper after it is reattached to the original solution. Until
+    that reattachment is written, it is a scope boundary.
+
+Lemma 1 (Endpoint role map). Every forward branch used later in the manuscript must enter the
+proof through one of the following roles: it supplies a continuation readout, selects a same-solution
+terminal record, proves a Pack failure, proves a Part failure, proves a Field failure, or remains
+context awaiting a selected record.
+
+Proof. A branch that supplies the continuation readout closes on the direct side. A branch that
+stops short leaves only the material it has actually produced: a carrier, tower, trace, source reserve,
+weak limit, comparison object, or terminal readout. Such material can affect the CM argument
+only after it is attached to the original branch as the selected record Q. Once Q is fixed, the class
+test has exactly three data it must inspect: same-fluid carrier, same-law participation, and one-field
+coherence. Loss of the first data is Pack failure. Loss of the second data after carrier survives is
+Part failure. Loss of every positive coherence scale after carrier and participation survive is Field
+failure. A branch with none of these contributions remains context for a later branch.
+
+
+7    Sorting Failures by the First Lost Face
+The branch map now compresses to the three faces of the selected terminal record. The record is Q.
+The class object being tested is Owork
+                                   NS , the working Navier–Stokes object determined by u0 , ν, u,
+and p. The test keeps the original datum u0 , fixed viscosity ν, velocity-pressure pair (u, p), pressure
+law, incompressibility constraint, and transported carrier fixed while it asks what survives at the
+terminal end.
+   These tests are written as
+
+                                PackQ ,      PartN,Q ,     FieldN,r,Q .
+
+                                                  12
+

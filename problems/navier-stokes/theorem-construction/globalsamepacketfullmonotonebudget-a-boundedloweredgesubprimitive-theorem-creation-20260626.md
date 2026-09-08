@@ -51,7 +51,7 @@ GlobalSamePacketFullMonotoneBudget.A.BoundedLowerEdgeSubprimitive. The signed pr
 1. Use the original transported smooth history, not a local affine-state storage.
 2. Write the lower-bound edge as the first-ratio-moment tail sum for the same material-rate/heat-rate ratio.
 3. Accept only a good-lambda recurrence with contraction 2theta<1, or an equivalent global original-history storage whose lower bound encodes that tail.
-4. Keep Hodge/projector, Schur, complete-frame, annular stress, recirculation, and finite-depth readouts as already-admitted sectors, not as the remaining producer.
+4. Keep Helmholtz--Leray/projector, Schur, complete-frame, annular stress, recirculation, and finite-depth readouts as already-admitted sectors, not as the remaining producer.
 5. Reject any proof that pays the lower edge by assuming bounded continuation-depth material record.
 
 ## Circularity Audit

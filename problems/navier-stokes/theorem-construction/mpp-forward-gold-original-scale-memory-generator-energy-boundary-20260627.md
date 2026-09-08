@@ -72,7 +72,7 @@ Then integration of `(2)` would give `(1)`.
 
 ## 4. Dynamic silent/exchange form
 
-For pressure-Hodge silent material, the desired storage must include the dynamic commutator identity
+For pressure-Helmholtz--Leray silent material, the desired storage must include the dynamic commutator identity
 
 ```math
 D_tf=\mathcal L_A(D_tw)+[D_t,\mathcal L_A]w.

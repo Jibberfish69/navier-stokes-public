@@ -1,0 +1,23 @@
+{
+  "schema_version": 2,
+  "review_kind": "proof_reverse",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/vortex-flow-review/proof-packet.json",
+    "sha256": "189fae7888b28dc9469f783310074b3ce0aacbae1bdbb0cfe420e32786e1ea4b"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/vortex-flow-review/candidate.tex",
+    "sha256": "0414ec418fe8357505abb740eeb321a620af29266c8c4baf26953652e70458df"
+  },
+  "render": [],
+  "reviewer": {
+    "agent_path": "/root/vortex_flow_reverse",
+    "task_name": "vortex_flow_reverse",
+    "isolation": "fork_none",
+    "request_nonce": "5fa0ba3514a56a22b8eb9060461849378feae5e304466f46e598ca388282a993"
+  },
+  "decision": {
+    "verdict": "pass",
+    "first_divergence": null
+  }
+}

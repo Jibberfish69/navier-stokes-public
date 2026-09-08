@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "review_kind": "cold_reader",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/cold-critic-r6.json",
+    "sha256": "c7376daed637659ce3ca2deae05e8d04b5b63058115f1c386fa4da52f2329487"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/pdfs/ns-how-proof-works-candidate-r6/00-how-proof-works.tex",
+    "sha256": "50cc6e5cac852ce5883d13b5b0a151a30315dad2a8c3e7540dac9cfdb2d7f8de"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/isolated-render-r6/page-1.png",
+      "sha256": "aee3a23b7ad87661ebdad901ae2a5a9c8b5f1f357a4d3f1d0c265e35eba0f82d"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/isolated-render-r6/page-2.png",
+      "sha256": "04b884da7fcb390dac0e5c5aa19cebe3b99903ec495fa6cf427f4ded7373cb57"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/isolated-render-r6/page-3.png",
+      "sha256": "8fc440d5b08794086cc8efe116e30c0a50ad4fc8a886a922fe5c004d4528327e"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5e-0b04-7963-86fa-b69c865889d9/ns-how-proof-works/isolated-render-r6/page-4.png",
+      "sha256": "6ddd5020500b4a13c188ddc84addca1720797d594220c7d6eef2288087e22b3b"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/cold_reader_r6",
+    "task_name": "cold_reader_r6",
+    "isolation": "fork_none",
+    "request_nonce": "b148ccf686ad4274a9db3d26f30d1f8a"
+  },
+  "decision": {
+    "verdict": "fail",
+    "first_divergence": {
+      "exact_span": "In this picture, in order for a singularity to happen, velocity\nhas to blow up.",
+      "mechanism": "The opening qualification confines the velocity-to-acceleration-to-jerk necessity to the hypothetical cascade. The reader has just been asked to regard that cascade as one possible concentration pattern, so a requirement of that picture cannot yet carry the next move about singularity formation in general. Thomas's direct instructions on 2026-08-28, especially the locator at line 570, state this chain as a general necessity. His later requests to explain and shorten the vortex example do not authorize narrowing its force. This is an apparent source conflict at the transition from example to proof, not an objection to keeping the cascade conditional.",
+      "repair_constraint": "Preserve the direct-origin claim and its causal order and rhythm: singularity requires velocity blow-up, which requires acceleration, jerk, and every later temporal response. Keep the cascade hypothetical without limiting this chain to that example. If a mathematical constraint prevents retaining that general force, record that conflict explicitly; do not settle it by changing the claim's scope."
+    }
+  }
+}

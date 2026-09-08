@@ -32,8 +32,7 @@ theorem direction, but not as a fully discharged theorem package.
    strict-low/spill support lemmas.
 2. The paper surface must no longer overstate the theorem beyond the current
    packet-discharge boundary.
-3. Curvature, ontic, Marvin, Hodge, and projected-flow material remain archived
-   provenance only.
+3. Non-NS sidecar material is excluded from theorem authority.
 4. The theorem statement must remain the official Clay statement rather than a
    weaker lane-local reformulation.
 5. Compressed named packet reductions do not count as discharged under the
@@ -58,8 +57,8 @@ The theorem-primary route is fixed:
 4. the Euclidean gradient-transfer bridge together with the same-surface
    `4 -> 1` tail-energy recertification.
 
-No projected-flow, curvature-pullback, or ontic sidecar is allowed to outrank
-that chain on the main theorem surface.
+No sidecar construction is allowed to outrank that chain on the main theorem
+surface.
 
 ## Working Full-Claim Theorem
 
@@ -140,7 +139,7 @@ remains only as deprecated provenance and is not the authoritative fourth slot.
 
 ## Promotion Rule
 
-Do not collapse this surface back into stale curvature-first or ontic-sidecar
-debt. Preserve the direct Euclidean four-bridge theorem, preserve the completed
+Do not collapse this surface back into stale sidecar debt. Preserve the direct
+Euclidean four-bridge theorem, preserve the completed
 same-surface Route B packet, and treat sidecars as provenance rather than as
 active theorem debt.

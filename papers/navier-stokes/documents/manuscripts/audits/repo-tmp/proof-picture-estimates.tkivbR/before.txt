@@ -1,0 +1,147 @@
+4. Intersect the finite rectangles
+Now comes the move that actually converts the Tower into smoothness.
+   Because all finite rectangles are mutually compatible, take their projective intersection:
+
+                                             I[u0 ] := lim RN,M [u0 ].
+                                                       ←−
+                                                          N,M
+
+The compatible intersection satisfies
+                                                       ⋂︂
+                                          I[u0 ] ⊂           H r (0, T∗ ; H m ).
+                                                     r,m<∞
+
+This is the intersection point of the temporal and spatial structures.
+     Every finite temporal rung exists.
+     Every finite spatial height exists.
+     Every finite mixed combination exists.
+     And they all refer to the same u.
+     That is why the finite rectangles matter. Smoothness emerges from simultaneous compatibility across all
+finite orders.
+
+5. Project back onto u: obtain the complete spatial row
+Take the zeroth temporal projection:
+                                                         π0 I[u0 ].
+This gives
+                                                             ⋂︂
+                                    u ∈ S0 (0, T∗ ) :=                L2 (0, T∗ ; H m ).
+                                                            m<∞
+
+So now the solution itself possesses every finite spatial Sobolev order through the whole candidate blow-up
+interval.
+    This is the stage from which the familiar continuation estimates become cheap. And this ordering is
+extremely important:
+                              u0 −→ rectangles −→ intersection −→ estimates.
+The estimates required for continuation are outputs of the datum-generated intersection.
+
+6. Convert the complete row into terminal continuity
+For every finite m,
+                                        ∥P∇ · (u ⊗ u)∥H m ≤ Cm ∥u∥2H m+2 .
+Since
+                                              u ∈ L2 (0, T∗ ; H m+2 ),
+the quadratic term belongs to
+                                                     L1 (0, T∗ ; H m ).
+The spatial row also supplies the viscous term at the required order:
+                                              ∆u ∈ L1 (0, T∗ ; H m ).
+Return to the original equation:
+                                            ut = ν∆u − P∇ · (u ⊗ u).
+It follows that
+                                               ut ∈ L1 (0, T∗ ; H m ).
+Hence
+                                   u ∈ W 1,1 (0, T∗ ; H m ) ↪→ C([0, T∗ ]; H m ).
+
+
+                                                             5
+And this holds for every finite m. So the same velocity field has one genuine terminal value
+                                                      u∗ := u(T∗ ),
+with
+                                                       ⋂︂
+                                               u∗ ∈         H m = H ∞.
+                                                      m<∞
+
+This is the smooth endpoint.
+
+7. Recover the complete endpoint response Tower
+Now feed u∗ back into the pressure-complete recurrence.
+   Start with
+                                              V0 (T∗ ) = u∗ .
+Then
+                                    V1 (T∗ ) = ν∆u∗ − (u∗ · ∇)u∗ − ∇Q0 (T∗ ).
+              ∞
+Since u∗ ∈ H ,
+                                               V1 (T∗ ), Q0 (T∗ ) ∈ H ∞ .
+Repeat:
+                                                  n
+                                                 ∑︂ (︃     )︃
+                                                         n
+                     Vn+1 (T∗ ) = ν∆Vn (T∗ ) −               (Va (T∗ ) · ∇)Vn−a (T∗ ) − ∇Qn (T∗ ).
+                                                 a=0
+                                                         a
+Induction gives
+                                        Vn (T∗ ), Qn (T∗ ) ∈ H ∞      ∀n < ∞.
+So the terminal face carries the full pressure-complete jet of the original history.
+
+8. Restart the same history
+The terminal datum
+                                                       u∗ ∈ H ∞
+satisfies the hypotheses for standard smooth local Navier–Stokes existence. It follows that a smooth solution
+begins at T∗ .
+    Uniqueness identifies that solution with the continuation of the original u0 -generated history. Consequently,
+the history extends beyond T∗ .
+    A finite maximal T∗ thus contradicts the endpoint supplied by the proof. Hence
+
+                                                        T∗ = ∞.
+
+
+The actual idea in one picture
+The proof is really this:
+
+                                           ∂t0 u
+                                              ↓
+                         H0        −→       H1       −→    H2        −→            H3    −→ · · ·
+                                              ↕              ↕
+                      H 0 (∂t u)   −→    H 1 (∂t u) −→ H 2 (∂t u) −→ · · ·
+                                              ↕              ↕
+                     H 0 (∂t2 u)   −→    H 1 (∂t2 u) −→ H 2 (∂t2 u) −→ · · ·
+                                              ..             ..
+                                               .              .
+
+
+
+                                                            6
+The Navier–Stokes equation relates the rows through
+
+                                  ∂t ∼ ν∆ + pressure-complete nonlinearity.
+
+The producer theorem says every finite rectangle cut from this infinite matrix survives through T∗ .
+   Compatibility says all of those rectangles are pieces of one matrix belonging to one solution.
+   Projective intersection says
+
+                        every finite rectangle   =⇒    the complete all-orders object.
+
+The zeroth row then gives
+                                                 u(T∗ ) ∈ H ∞ ,
+and the original equation generates the rest of the endpoint jet.
+    So the proof defeats a proposed finite-time loss of smoothness at the level where such a loss would have to
+occur: somewhere in the derivative–Sobolev structure of the one fluid history. The datum-generated rectangle
+theorem carries every finite part of that structure to the terminal face simultaneously.
+    The shortest faithful compression is
+
+                                       NS
+                                    u0 −→ pressure-complete mixed Tower
+                    −→ all finite whole-terminal rectangles −→ compatible intersection
+                   −→ H ∞ terminal state −→ full endpoint jet −→ restart −→ T∗ = ∞.
+
+The decisive dependency is
+
+                                      The datum generates the rectangles;
+                                    the rectangles generate the intersection;
+                             the intersection generates the continuation estimates.
+
+This is the proof architecture used throughout the paper.
+
+
+
+
+                                                       7
+

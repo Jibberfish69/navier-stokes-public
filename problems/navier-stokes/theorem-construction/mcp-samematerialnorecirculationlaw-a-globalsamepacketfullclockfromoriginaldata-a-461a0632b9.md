@@ -12,7 +12,7 @@ Prove the same-material no-recirculation estimate
 C(u_0)+\text{already finite viscous/top-strain/legal terms}.
 ```
 
-Here \(m_j(t)\) is the signed moving same-shell material pressure-strain / Hodge-interface pump from the weighted material shell reservoir identity.
+Here \(m_j(t)\) is the signed moving same-shell material pressure-strain / Helmholtz--Leray-interface pump from the weighted material shell reservoir identity.
 
 ## 1. Corrected primitive identity
 

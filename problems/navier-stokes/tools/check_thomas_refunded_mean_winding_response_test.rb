@@ -98,12 +98,12 @@ class ThomasRefundedMeanWindingResponseTest < Minitest::Test
     assert_includes text, "\\le \\mathcal K_{\\rm ch}^{1/2}\\mathcal R_A^{1/2}"
   end
 
-  def test_material_acceleration_hodge_square_is_pressure_explicit
+  def test_material_acceleration_helmholtz_square_is_pressure_explicit
     assert_includes text, "\\mathscr A:=D_tu=-\\nabla p+\\nu\\Delta u"
     assert_includes text, "\\mathcal R_A={1\\over2}\\|\\Lambda^{1/2}\\mathscr A\\|_2^2"
     assert_includes text, "\\|\\Lambda^{3/2}p\\|_2^2"
     assert_includes text, "+\\nu^2\\|\\Lambda^{5/2}u\\|_2^2"
-    assert_includes text, "pressure-explicit Hodge identity"
+    assert_includes text, "pressure-explicit Helmholtz--Leray identity"
   end
 
   def test_clean_upper_bound_constants_are_exact

@@ -4,10 +4,11 @@ Status: **established complete.** The governing proof is the one-history
 datum-generated compatible-intersection proof. This file is the repository
 authority map for that proof, not a paper or PDF.
 
-The machine-readable authority is proof_program_completion in
-[target-operating-contract.yaml](target-operating-contract.yaml). The source
-and task custody record is
-[proof-program-surface-registry.yaml](proof-program-surface-registry.yaml).
+The machine-readable proof and custody authority is proof_program_completion in
+[target-operating-contract.yaml](target-operating-contract.yaml). The current
+theorem edge and dependency custody are recorded in
+[live-theorem-edge.yaml](live-theorem-edge.yaml) and
+[dependency-discharge.yaml](dependency-discharge.yaml).
 
 ## 1. One datum, one viscosity, one history
 

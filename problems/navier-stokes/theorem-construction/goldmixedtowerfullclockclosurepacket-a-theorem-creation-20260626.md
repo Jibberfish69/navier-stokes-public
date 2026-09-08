@@ -52,7 +52,7 @@ GoldMixedTowerFullClockClosurePacket.A. Use the rehydrated Gold packet: factoria
 1. Keep the object as one transported pressure-viscosity-incompressibility-strain material history.
 2. Treat FullPacketDensityEndpointTraceIdentification.A as exact only on the endpoint base selector, with selector mismatch charged legally.
 3. Keep EndpointTraceTemporalTowerRegularity.A as a required theorem-grade endpoint-thickness gate.
-4. Prove FullTowerFourBodyCancellation.A for the enlarged tower channel list: metric, coefficient, commutator, pressure/Hodge, viscous/collar, geometry, and radius-spend channels.
+4. Prove FullTowerFourBodyCancellation.A for the enlarged tower channel list: metric, coefficient, commutator, pressure/Helmholtz--Leray, viscous/collar, geometry, and radius-spend channels.
 5. Use the material-record log-growth channel only after finite A_{4B,N}^{tower} is obtained.
 
 ## Circularity Audit

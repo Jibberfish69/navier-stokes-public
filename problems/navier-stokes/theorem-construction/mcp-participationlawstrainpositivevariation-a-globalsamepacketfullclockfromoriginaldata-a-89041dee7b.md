@@ -18,7 +18,7 @@ The carrier is the full participation law coupled to strain:
 (v,q,A,G),\quad L_G=-\operatorname{div}_a(G\nabla_a),\quad \mathbb P_A,\quad T=-pI+2\nu S,\quad S,\quad \phi,\quad m_j^{PLS}.
 ```
 
-Pressure/RHS, Hodge/Stokes projection, coefficient motion, collar motion, Cauchy stress, viscosity, incompressibility, and strain are coordinates of the same participation-law carrier.
+Pressure/RHS, Helmholtz--Leray/Stokes projection, coefficient motion, collar motion, Cauchy stress, viscosity, incompressibility, and strain are coordinates of the same participation-law carrier.
 
 ## 1. Correct primitive identity
 
@@ -124,7 +124,7 @@ this would give the desired positive-variation estimate.
 
 ## 5. Verdict
 
-The installed material identities establish the correct carrier, exact signed primitive, same-fluid donor law, pressure/RHS-Hodge participation coupling, fixed-annulus tails, fixed-collar service, and top-strain/frame/collar payments.
+The installed material identities establish the correct carrier, exact signed primitive, same-fluid donor law, pressure/RHS-Helmholtz--Leray participation coupling, fixed-annulus tails, fixed-collar service, and top-strain/frame/collar payments.
 
 They leave the BV/no-recirculation law for the full participation-law--strain interface as the live producer.  The statement
 

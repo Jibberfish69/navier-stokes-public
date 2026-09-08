@@ -1,0 +1,99 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+\title{Compactness Proof for Discrete Navier--Stokes Solutions}
+\author{Thomas Birnie + ChatGPT}
+\date{\today}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+
+\begin{document}
+
+\maketitle
+
+\section{Compactness of Discrete Solutions}
+
+This section rigorously proves the compactness of discrete solutions $T_h \mathbf{u}_h$ in the transition from discrete to continuous frameworks of the Navier--Stokes equations.
+
+\subsection{Theorem Statement}
+
+\begin{theorem}[Compactness]
+Let $\mathbf{u}_h$ be uniformly bounded in $L^2(0,T; H^1(\Omega))$ and assume that the time discretization ensures boundedness of $(\mathbf{u}_h^{n+1} - \mathbf{u}_h^n)/\Delta t$ in $L^2(0,T; H^{-1}(\Omega))$. Then the interpolated solutions $T_h \mathbf{u}_h$ form a compact subset of $L^2(0,T; L^2(\Omega))$.
+\end{theorem}
+
+\subsection{Preliminaries}
+
+\subsubsection{Sobolev Embedding and Compactness}
+The Sobolev embedding theorem ensures that for a bounded domain $\Omega \subset \mathbb{R}^3$:
+\begin{equation}
+H^1(\Omega) \hookrightarrow\hookrightarrow L^2(\Omega),
+\end{equation}
+where $\hookrightarrow\hookrightarrow$ denotes a compact embedding. This implies that any bounded sequence in $H^1(\Omega)$ has a subsequence that converges strongly in $L^2(\Omega)$.
+
+\subsubsection{Aubin--Lions Lemma}
+The Aubin--Lions lemma provides a framework for compactness in time-dependent function spaces:
+\begin{quote}
+Let $X, B, Y$ be Banach spaces such that $X \hookrightarrow\hookrightarrow B \hookrightarrow Y$. For any sequence $\{v_k\} \subseteq L^2(0,T; X)$ with $\partial_t v_k$ bounded in $L^2(0,T; Y)$, there exists a subsequence that converges strongly in $L^2(0,T; B)$.
+\end{quote}
+In our case:
+\begin{itemize}
+    \item $X = H^1(\Omega)$,
+    \item $B = L^2(\Omega)$,
+    \item $Y = H^{-1}(\Omega)$.
+\end{itemize}
+
+\subsection{Proof of Compactness}
+
+We proceed in four steps, explicitly verifying the conditions of the Aubin--Lions lemma.
+
+\subsubsection{Step 1: Boundedness in $L^2(0,T; H^1(\Omega))$}
+
+The discrete velocity field $\mathbf{u}_h$ satisfies:
+\begin{equation}
+\|\mathbf{u}_h\|_{L^2(0,T; H^1(\Omega))} \leq C,
+\end{equation}
+where $C$ depends on the initial data and the forcing term $\mathbf{f}$. The interpolation operator $T_h$ preserves these bounds up to discretization error:
+\begin{equation}
+\|T_h \mathbf{u}_h\|_{L^2(0,T; H^1(\Omega))} \leq C.
+\end{equation}
+
+\subsubsection{Step 2: Control of Time Derivatives}
+
+The discrete time derivative \((\mathbf{u}_h^{n+1} - \mathbf{u}_h^n)/\Delta t\) is assumed to be bounded in $L^2(0,T; H^{-1}(\Omega))$:
+\begin{equation}
+\left\|\frac{T_h \mathbf{u}_h(t+\Delta t) - T_h \mathbf{u}_h(t)}{\Delta t}\right\|_{H^{-1}(\Omega)} \leq C.
+\end{equation}
+This ensures weak compactness of the temporal changes of $T_h \mathbf{u}_h$.
+
+\subsubsection{Step 3: Compact Embedding $H^1(\Omega) \hookrightarrow\hookrightarrow L^2(\Omega)$}
+
+By the Sobolev embedding theorem, $H^1(\Omega)$ is compactly embedded in $L^2(\Omega)$. Therefore, any bounded sequence in $H^1(\Omega)$ has a subsequence that converges strongly in $L^2(\Omega)$. This property guarantees that the spatial components of $T_h \mathbf{u}_h$ satisfy the compactness condition required by the Aubin--Lions lemma.
+
+\subsubsection{Step 4: Applying the Aubin--Lions Lemma}
+
+Since $T_h \mathbf{u}_h$ is bounded in $L^2(0,T; H^1(\Omega))$ and its discrete time derivative is bounded in $L^2(0,T; H^{-1}(\Omega))$, the Aubin--Lions lemma implies that $T_h \mathbf{u}_h$ has a subsequence that converges strongly in $L^2(0,T; L^2(\Omega))$.
+
+\subsection{Remarks and Error Bounds}
+
+\begin{remark}[Interpolation Errors]
+The interpolation operator $T_h$ introduces an error proportional to the grid size $h$. Formally, for a smooth function $\mathbf{u}$:
+\begin{equation}
+\|T_h \mathbf{u}_h - \mathbf{u}\|_{H^1(\Omega)} \leq Ch,
+\end{equation}
+where $C$ depends on the smoothness of $\mathbf{u}$. These errors vanish as $h \to 0$.
+\end{remark}
+
+\begin{remark}[Role of Compactness]
+Compactness ensures that the discrete solutions $T_h \mathbf{u}_h$ converge strongly in $L^2$, which is essential for handling nonlinear terms like $(\mathbf{u} \cdot \nabla) \mathbf{u}$ in the Navier--Stokes equations.
+\end{remark}
+
+\subsection{Conclusion}
+
+The compactness of $T_h \mathbf{u}_h$ in $L^2(0,T; L^2(\Omega))$ is established. This property plays a crucial role in proving the convergence of discrete solutions to continuous ones and is foundational for establishing global smoothness of the Navier--Stokes equations.
+
+\end{document}

@@ -1,0 +1,46 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  escalation_id: inbox-escalation-navier-stokes
+  halt_id: halt-navier-stokes-20260318T001036Z
+  emitted_at: '2026-03-18T00:10:36Z'
+delivery:
+  channel: codex-inbox
+  severity: math-idea-request
+  notify_if_enabled: true
+  dedupe_key:
+    problem_id: navier-stokes
+    current_stage: debt-map-built
+    blocking_issue_signature: curvature-first-fourth-bridge-and-final-warrant-open
+presentation:
+  title: Navier-Stokes Global Regularity precise math idea request
+  summary: Internal repair is concentrated on the curvature-first fourth bridge and
+    the final theorem warrant.
+  open_paths:
+    halt_request: problems/navier-stokes/halt-request.yaml
+    halt_gist: problems/navier-stokes/halt-gist.md
+    pipeline_state: problems/navier-stokes/pipeline-state.yaml
+body:
+  gist_markdown: problems/navier-stokes/halt-gist.md
+  questions:
+  - What exact already-existing local source or explicit bridge lemma closes the
+    curvature-first fourth bridge strongly enough to promote the final theorem warrant
+    without silently switching to the Euclidean fallback?
+  unresolved_issue: curvature-first fourth bridge and final theorem warrant remain open
+  what_was_tried:
+  - backbone-build emitted a typed gap ticket
+  - extraction-backfill searched the ranked local source pool
+  - provenance-check and merge-judge failed to recover grounded support strong enough
+    for autonomous continuation
+  source_evidence:
+    imported_extract_paths_checked: []
+    imported_extract_paths_with_hits: []
+    imported_extract_count_checked: 0
+    imported_extract_count_with_hits: 0
+action:
+  requested_response: Reply with one concise math idea or exact target decision that
+    resolves the listed question.
+  unblock_condition: The response materially changes the mathematical blocker named
+    in halt-request.yaml.

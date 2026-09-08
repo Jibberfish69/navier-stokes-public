@@ -1,0 +1,263 @@
+   Start with the momentum equation and the incompressibility condition. Taking the
+divergence of the momentum equation, and using ∇ · u = 0, gives the pressure equation.
+Written together, the three relations are
+
+             ∂t u + (u · ∇)u + ∇p = ν∆u,        ∇ · u = 0,      −∆p = ∂i ∂j (ui uj ).
+
+The first relation evolves the velocity. The second preserves incompressibility. The third
+determines the pressure response from the whole velocity field. The transport term moves
+and deforms that field, and the viscous term acts on its spatial curvature. All of these terms
+describe one motion at the same time.
+   The same coupling remains when the equation is differentiated. Let Vn = ∂tn u and
+Pn = ∂tn p. Differentiating the momentum equation n times and applying the product rule to
+the transport term gives
+                         n
+                                !
+                         X     n
+                Vn+1 +           (Vk · ∇)Vn−k + ∇Pn = ν∆Vn ,         ∇ · Vn = 0.
+                         k=0   k
+
+The binomial sum contains every way the n time derivatives can split across the two velocity
+factors in the transport term. The remaining terms are the pressure derivative, viscous
+response, and incompressibility condition at the same level. No derivative level evolves on its
+own.
+    This is why one property cannot be asked to carry the whole smoothness proof. The
+energy identity from Section 1.2 controls the L2 size of the velocity and the time-integrated
+L2 size of its first derivatives. It leaves the pointwise growth of higher derivatives unresolved.
+Energy control is real, but it reaches only part of the structure required for continuation.
+    Viscosity gives the second example. The term ν∆Vn damps spatial variation at the n-th
+time level. The same equation also contains the full transport sum and the pressure response.
+An estimate that keeps only the viscous term has dropped other terms acting on the same
+derivative. It cannot describe the evolution of that derivative by itself.
+    The full VPI law keeps these parts attached to one fluid and one history. A Dead, Jump,
+or Blown endpoint would have to break that joined evolution somewhere in its derivative
+structure before it could count as a class exit. A failure in one selected quantity is only
+partial evidence. The Silver route needs the point where the proposed nonsmooth state can
+no longer satisfy the whole law as the same coherent field.
+
+
+2     Proof program ((demonstrated and explained with
+      example)(full top-level reasoning and
+      train-of-thought)(reader facing walkthrough))
+Suppose you are given the velocity of the fluid at one point and one instant. You know how
+fast it is moving and in which direction. You still do not know how that motion is changing.
+A finite velocity can be followed by a failed response, so the velocity value alone cannot tell
+us whether the same history remains smooth.
+
+
+                                                7
+   To see the next piece of information, follow one particle of the fluid. Let X(t) be its path.
+The particle moves with the velocity field:
+                                                         
+                                      Ẋ(t) = u X(t), t .                                 (2.0.1)
+
+Its carried velocity is u(X(t), t), and the chain rule gives
+
+                            d                          
+                               u X(t), t = ∂t u + Ẋ · ∇ u
+                            dt
+                                          = ∂t u + (u · ∇)u =: Dt u.                      (2.0.2)
+
+Every field on the right-hand side is evaluated at (X(t), t). The operator Dt = ∂t + u · ∇
+follows the particle and is called the material derivative. The momentum equation now says
+
+                                      Dt u = −∇p + ν∆u.                                   (2.0.3)
+
+This is the particle’s acceleration. Pressure carries the response of the surrounding incom-
+pressible field, viscosity acts on the spatial curvature of the velocity, and transport is already
+present because the particle is moving through that field. All three terms describe the
+response of the same fluid at the same time.
+   Now suppose the velocity stays finite as an alleged endpoint is approached while Dt u
+becomes unbounded. The velocity reading would still look harmless even though the fluid’s
+acceleration had failed. So acceleration has to travel with velocity in any account of smooth-
+ness.
+   The same problem appears one level higher. An acceleration can be finite at one instant
+while its own rate of change fails. Following the same particle gives that next response:
+
+                                        Dt (Dt u) = Dt2 u.                                (2.0.4)
+
+This is the material jerk. If the jerk stays finite, we can ask the same question about the
+change in the jerk. Each finite level can be the last finite reading before the next response
+fails. That means one smooth history has to carry every finite response produced by the
+same motion. The full tower now has a concrete job: it records every level at which that
+response could stop belonging to the fluid.
+    A particle path gives the physical meaning of the response. An estimate has to compare
+the whole field at common spatial points, so the proof returns to the fixed-point rows already
+introduced in the VPI law. Write
+
+                                  Vn := ∂tn u,       Pn := ∂tn p.                         (2.0.5)
+
+These are Eulerian rows because the spatial point is held fixed. The first row V1 = ∂t u is one
+coordinate of the material acceleration:
+
+                                    Dt u = V1 + (V0 · ∇)V0 .                              (2.0.6)
+
+The transport term supplies the part seen only when the motion is followed.
+
+
+                                                 8
+   Differentiating the same pressure-complete equation keeps that transport inside every
+higher row:
+                         n
+                                !
+                         X     n
+                Vn+1 +           (Vk · ∇)Vn−k + ∇Pn = ν∆Vn ,                        ∇ · Vn = 0.    (2.0.7)
+                         k=0   k
+
+At n = 0, this is the original acceleration law written in fixed-point coordinates. At n = 1, it
+becomes
+                         V2 + (V1 · ∇)V0 + (V0 · ∇)V1 + ∇P1 = ν∆V1 .                     (2.0.8)
+The term (V1 · ∇)V0 changes the velocity doing the carrying. The term (V0 · ∇)V1 changes the
+velocity response being carried through the existing flow. The pressure derivative still comes
+from the surrounding field, and viscosity now acts on the spatial curvature of V1 . The next
+temporal response has pulled spatial derivatives, pressure, and transport into the same row.
+    This creates two separate directions in the tower. The index n tells us how many times
+the field has been differentiated in time. The gradients and Laplacian tell us how deeply the
+same row must be read in space. One temporal depth does not determine the other spatial
+depth. We have to be able to choose both depths independently and still know that their
+shared entries come from the same fluid.
+
+
+Building one finite record
+   Start with the spatial direction. For an integer m ≥ 0, the Sobolev norm
+
+                                    ∥v∥2H m (R3 ) =           ∥∂xα v∥2L2 (R3 )
+                                                       X
+                                                                                                   (2.0.9)
+                                                      |α|≤m
+
+
+measures every spatial derivative through order m. It turns one finite part of the pointwise
+tower into one finite spatial reading. The space L2 (0, T ; H m ) accumulates that reading over
+the time interval (0, T ).
+    Now take enough of the tower to watch the velocity, its first Eulerian time response, and
+the change in that response. Read u and ∂t u through three spatial derivatives. Then read
+∂t u and ∂t2 u through one spatial derivative. The accumulated size of those four entries is
+
+                      R1,2 (u; T ) = ∥u∥2L2 (0,T ;H 3 ) + ∥∂t u∥2L2 (0,T ;H 3 )
+                                                                             2                    (2.0.10)
+                                         + ∥∂t u∥2L2 (0,T ;H 1 ) + ∂t2 u                      .
+                                                                             L2 (0,T ;H 1 )
+
+The first line gives the higher spatial reading of the first two temporal rows. The second
+line gives the lower spatial reading of their time derivatives. The same ∂t u appears in both
+lines because it joins the two adjacent temporal blocks. Its H 3 membership supplies its H 1
+membership, so the two blocks overlap on the same derivative. The material acceleration in
+this example remains ∂t u + (u · ∇)u.
+    Nothing in that construction depends on stopping at temporal depth 1 or spatial parameter
+2. Choose any finite N, M ∈ N0 . Reading the first N + 1 temporal rows in H M +1 , and their
+
+
+
+                                                       9
+time derivatives in H M −1 , gives
+                                                  N
+                                                        ∥∂tn u∥2L2 (0,T ;H M +1 )
+                                                  X
+                             RN,M (u; T ) :=
+                                                  n=0
+                                                      N
+                                                                                                   (2.0.11)
+                                                                       2
+                                                             ∂tn+1 u
+                                                      X
+                                                  +                                        .
+                                                                       L2 (0,T ;H M −1 )
+                                                      n=0
+
+For M = 0, the lower row is H −1 in the standard inhomogeneous Bessel-potential scale.
+This is the adjacent-row rectangle norm. The one-time-derivative and two-spatial-derivative
+separation matches the parabolic shape of the VPI recurrence.
+   The norm measures the velocity rows. To make those rows one record, we also keep the
+pressure rows and the differentiated equations that connect them. For the rapidly decaying
+whole-space history, pressure is fixed from the same velocity by
+
+                                               p = Ri Rj (ui uj ),                                 (2.0.12)
+
+where Rj = ∂j (−∆)−1/2 is the j-th Riesz transform. Call the resulting datum-specific record
+RN,M [u0 ; T ]. Every entry in it is a distributional derivative of the history generated by u0 ,
+and every pressure entry uses this same normalization.
+    Let [0, T∗ ) be the maximal classical lifespan of that history and suppose the alleged
+endpoint is finite. Fix any T < T∗ . The interval [0, T ] lies strictly inside the classical lifespan,
+so for every finite n, q,
+                                       sup ∥∂tn u(t)∥H q < ∞.                                 (2.0.13)
+                                          0≤t≤T
+
+Integrating that fixed bound gives
+
+                             ∥∂tn u∥2L2 (0,T ;H q ) ≤ T sup ∥∂tn u(t)∥2H q < ∞.                    (2.0.14)
+                                                        0≤t≤T
+
+So every finite rectangle exists on every strict subinterval:
+
+           RN,M (u; T ) < ∞          for every finite N, M and every 0 < T < T∗ .                  (2.0.15)
+
+The order of that sentence matters. We choose T first and then obtain the bound. As T
+moves toward T∗ , the bound for one fixed rectangle may still grow without limit.
+    Before moving the interval, compare two rectangles on the same strict time. The record
+R2,3 [u0 ; T ] contains u, ∂t u, ∂t2 u in H 4 , together with ∂t u, ∂t2 u, ∂t3 u in H 2 . Forget the highest
+temporal entries and use the embeddings H 4 ,→ H 3 and H 2 ,→ H 1 . The four entries left
+are exactly the entries of R1,2 [u0 ; T ]. The surviving u and ∂t u are the same derivatives that
+appeared in the larger record.
+    The same operation works at every finite depth. If N ′ ≤ N , M ′ ≤ M , and T ′ ≤ T , the
+restriction map
+                               ρN,M   ;T                                           ′
+                                N ′ ,M ′ ;T ′ : RN,M [u0 ; T ] −→ RN ′ ,M ′ [u0 ; T ]                (2.0.16)
+forgets the higher temporal rows, lowers the spatial order, and shortens the time interval.
+The shared velocity and pressure coordinates stay unchanged. Thus
+
+                                ρN,M   ;T                                        ′
+                                 N ′ ,M ′ ;T ′ RN,M [u0 ; T ] = RN ′ ,M ′ [u0 ; T ].               (2.0.17)
+
+                                                        10
+This is compatibility. Every larger view returns the same smaller view because both came
+from the same history.
+   For a fixed strict time T < T∗ , all of these compatible rectangles form the inverse-limit
+object
+                                I[u0 ; T ] := lim RN,M [u0 ; T ].                    (2.0.18)
+                                              ←−
+                                             N,M
+
+The projective intersection keeps one value for every finite temporal and spatial coordinate.
+Every lower view is recovered from every higher view by restriction, and the same u realizes
+every projection.
+                                                                               P
+    This intersection is coordinatewise. It does not require the infinite sum N,M RN,M (u; T )
+to be finite. It also allows one finite pair (N, M ) to have a different bound from another pair.
+We select a finite coordinate, keep its own finite bound, and require that coordinate to agree
+everywhere else it appears.
+
+
+Moving the record to the terminal time
+   For every strict T < T∗ , classicality has now supplied the full compatible family. The
+possible failure is hiding in what happens while T approaches the alleged endpoint. What we
+know so far is
+                      ∀ 0 < T < T∗ , ∀ N, M ∈ N0 ,     RN,M (u; T ) < ∞.             (2.0.19)
+Each interval has every finite rectangle. The statement still permits one fixed rectangle to
+grow along a sequence Tj ↑ T∗ .
+   To remove that escape, choose the finite depths first. The datum and viscosity must then
+supply one bound that works for every T < T∗ . The exact requirement is
+
+          sup RN,M (u; T ) ≤ CN,M (u0 , ν, T∗ ) < ∞      for every finite N, M.         (2.0.20)
+         0<T <T∗
+
+The constant may depend on the selected temporal and spatial depths. Its uniformity is only
+across the expanding time interval.
+    If this bound fails, some fixed finite rectangle escapes as the endpoint is approached even
+though every earlier truncation is smooth. If it holds for every finite pair, every coordinate
+reaches the whole interval and compatibility keeps the complete family inside one pressure-
+complete history. The possible singularity has been forced into one exact place: the loss of a
+fixed finite rectangle at the terminal face. The proof burden is now equally exact: after any
+finite rectangle is chosen, the datum and viscosity must keep that same rectangle bounded
+all the way to the alleged endpoint.
+
+
+3     The Compatible Intersection at the Terminal Time
+The tower places every temporal rung beside every spatial row opened by the same pressure-
+complete history. The datum-generated producer places every finite rectangle across the
+whole alleged terminal interval. Compatibility keeps their shared coordinates identical, so the
+rectangles form one projective family. Their intersection reaches one smooth endpoint. The
+
+
+                                               11
+

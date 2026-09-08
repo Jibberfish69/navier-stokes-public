@@ -1,0 +1,12 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Clay Requirements}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Gold Standard Proof}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Silver Standard Proof}{2}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Class Membership and Exiting the Class}{3}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Velocity Failures}{3}{subsection.1.5}%
+\contentsline {paragraph}{Dead.}{4}{paragraph*.1}%
+\contentsline {paragraph}{Jump.}{4}{paragraph*.2}%
+\contentsline {paragraph}{Blown.}{4}{paragraph*.3}%
+\contentsline {subsection}{\numberline {1.6}Coherent Field Participation}{4}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}VPI-Law}{5}{subsection.1.7}%
+\contentsline {section}{\numberline {2}Proof program ((demonstrated and explained with example)(full top-level reasoning and train-of-thought)(reader facing walkthrough))}{5}{section.2}%

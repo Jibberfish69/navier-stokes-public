@@ -1,0 +1,120 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.3 The Pressure-Complete Mixed Jet
+% ============================================================
+
+\subsection{The Pressure-Complete Mixed Jet}\label{sub:ThePressureCompleteMixedJet}
+
+Keep the temporal notation from \cref{sub:SingularityAndTheDerivativeTower}:
+\[
+  V_n
+  :=
+  \partial_t^nu,
+  \qquad
+  Q_n
+  :=
+  \partial_t^np.
+\]
+The temporal recurrence already derived there is
+\[
+  V_{n+1}
+  +
+  \sum_{a=0}^{n}
+  \binom{n}{a}
+  (V_a\cdot\nabla)V_{n-a}
+  +\nabla Q_n
+  =
+  \nu\Delta V_n,
+  \qquad
+  \nabla\cdot V_n=0.
+\]
+At the same temporal depth, incompressibility fixes the pressure row by
+\[
+  -\Delta Q_n
+  =
+  \partial_i\partial_j
+  \sum_{a=0}^{n}
+  \binom{n}{a}
+  (V_a)_i(V_{n-a})_j.
+\]
+Rapid decay fixes its normalization:
+\[
+  Q_n
+  =
+  R_iR_j
+  \sum_{a=0}^{n}
+  \binom{n}{a}
+  (V_a)_i(V_{n-a})_j.
+\]
+Each temporal row still mixes time with spatial differentiation through transport, viscosity, and pressure.
+To expose those derivatives as coordinates of their own, first differentiate one transport factor in a coordinate direction \(x_\ell\):
+\[
+  \partial_\ell\bigl((V_a\cdot\nabla)V_{n-a}\bigr)
+  =
+  ((\partial_\ell V_a)\cdot\nabla)V_{n-a}
+  +
+  (V_a\cdot\nabla)\partial_\ell V_{n-a}.
+\]
+At every further spatial order, the product rule divides the derivatives between the same two factors.
+For a multi-index \(\alpha\in\Nzero^3\), define
+\[
+  J_{n,\alpha}
+  :=
+  \partial_t^n\partial_x^\alpha u,
+  \qquad
+  \Pi_{n,\alpha}
+  :=
+  \partial_t^n\partial_x^\alpha p.
+\]
+For \(\beta\leq\alpha\), write
+\[
+  \binom{\alpha}{\beta}
+  :=
+  \prod_{k=1}^{3}
+  \binom{\alpha_k}{\beta_k}.
+\]
+The spatial product rule applied to each temporal split gives
+\[
+  \partial_t^n\partial_x^\alpha
+  \bigl((u\cdot\nabla)u\bigr)
+  =
+  \sum_{a=0}^{n}
+  \sum_{\beta\leq\alpha}
+  \binom{n}{a}
+  \binom{\alpha}{\beta}
+  (J_{a,\beta}\cdot\nabla)
+  J_{n-a,\alpha-\beta}.
+\]
+Substitution gives the pressure-complete mixed recurrence
+\begin{align*}
+  J_{n+1,\alpha}
+  &+
+  \sum_{a=0}^{n}
+  \sum_{\beta\leq\alpha}
+  \binom{n}{a}
+  \binom{\alpha}{\beta}
+  (J_{a,\beta}\cdot\nabla)
+  J_{n-a,\alpha-\beta}
+  \\
+  &+
+  \nabla\Pi_{n,\alpha}
+  =
+  \nu\Delta J_{n,\alpha},
+  \qquad
+  \nabla\cdot J_{n,\alpha}=0,
+\end{align*}
+with
+\[
+  -\Delta\Pi_{n,\alpha}
+  =
+  \partial_i\partial_j
+  \sum_{a=0}^{n}
+  \sum_{\beta\leq\alpha}
+  \binom{n}{a}
+  \binom{\alpha}{\beta}
+  (J_{a,\beta})_i
+  (J_{n-a,\alpha-\beta})_j.
+\]
+Every coordinate in this family is a derivative of the same \((u,p)\), and every row retains the transport, viscous, divergence, and pressure relations that produced it.
+The recurrence shows how repeated time differentiation keeps opening higher spatial derivatives through the same equation.
+The critical height gives a scalar calculation in which that climb can be followed one row at a time.

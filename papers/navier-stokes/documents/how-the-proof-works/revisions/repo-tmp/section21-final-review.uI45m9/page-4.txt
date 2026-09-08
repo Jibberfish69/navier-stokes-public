@@ -1,0 +1,53 @@
+2      Critical Height and the Derivative Tower
+The energy estimate leaves one fact settled: the kinetic energy stays finite throughout the
+maximal smooth interval. That control does not stop the velocity from changing more
+sharply across shorter distances. Viscosity is the part of the equation we expect to stop that
+sharpening. It acts alongside the three other pieces of the same motion:
+
+                         ∂ut            +       (u · ∇)u           = −∇p +                  ν∆u
+                                                                                            | {z }      .
+                         |{z}                   |   {z   }             | {z }
+                   local acceleration       nonlinear transport       pressure      viscous diffusion
+
+
+The regularity hope is that viscous smoothing always keeps pace with the sharpening produced
+by nonlinear transport. In three dimensions, vortex stretching gives the nonlinear motion a
+route to sharpen the flow.
+
+2.1    Vortex Stretching
+Follow a small material element whose vorticity points along one axis. Write e for that
+direction and L(t) for the element’s length. If the strain is locally uniform across the element
+and keeps e as an extensional direction, then
+                           1          
+                    S :=     ∇u + (∇u)T ,                        Se = σ(t)e,            σ(t) > 0,
+                           2
+and the length grows at the fractional rate
+
+                                              L̇(t)
+                                                    = e · Se = σ(t).
+                                              L(t)
+
+The element cannot lengthen without becoming narrower. Incompressibility preserves its
+material volume V, so if
+                                                                               s
+                                         V                                         A(t)
+                                A(t) :=      ,                   reff (t) :=            ,
+                                        L(t)                                        π
+
+then
+                       d                Ȧ               ṙeff    σ(t)
+                         (AL) = 0,         = −σ(t),            =−      .
+                      dt                A                reff      2
+Axial extension has forced transverse contraction in the same material element.
+The curl of the momentum equation tells us what happens to the rotation along that trajectory.
+With ω := ∇ × u,
+                            Dω                      D
+                                = Sω + ν∆ω,            := ∂t + u · ∇.
+                            Dt                     Dt
+If the vorticity is aligned with the extensional direction, ω = |ω|e, then
+
+                                                    Sω = σ(t)ω,
+
+
+                                                             2
+

@@ -19,8 +19,6 @@ The surface `square-source-shell-flux-estimate-result.md` shows the square-sourc
 
 The surface `monotone-flux-law-active-shell-pulse-attempt.md` shows monotone/no-pulse control requires a new nonlinear source-control theorem; shell energy plus raw dissipation permits scalar active-shell pulses when the flux term supplies the pulse.
 
-The surface `final-amplitude-speed-gate-theorem.md` gives a usable amplitude-speed gate only after one of its supplier branches is installed. It does not derive the terminal active-shell amplitude gain directly from `OriginalSmoothData`.
-
 ## Closed conditional bridge
 
 The theorem note `mcp-active-shell-amplitude-gain-implies-nu_scf-carleson-active-shell-amplitude-gain-scale-normalized-nu_scf-carleson-estimate-b42419075e.md` proves:

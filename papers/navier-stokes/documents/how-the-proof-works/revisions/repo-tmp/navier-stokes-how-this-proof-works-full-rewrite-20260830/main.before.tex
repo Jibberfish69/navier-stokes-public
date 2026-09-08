@@ -1,0 +1,454 @@
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[left=0.78in,right=0.78in,top=0.76in,bottom=0.72in]{geometry}
+\usepackage{setspace}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{mathrsfs}
+\usepackage{fancyhdr}
+\usepackage{needspace}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+  pdftitle={How the Proof Works},
+  pdfauthor={Thomas Birnie}
+}
+
+\setstretch{1.13}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.72\baselineskip}
+\setlength{\abovedisplayskip}{15pt plus 3pt minus 2pt}
+\setlength{\belowdisplayskip}{15pt plus 3pt minus 2pt}
+\setlength{\abovedisplayshortskip}{14pt plus 2pt minus 2pt}
+\setlength{\belowdisplayshortskip}{14pt plus 2pt minus 2pt}
+\setlength{\jot}{9pt}
+\setlength{\emergencystretch}{2em}
+\allowdisplaybreaks[2]
+\raggedbottom
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\small\thepage}
+
+\newcommand{\R}{\mathbb R}
+\newcommand{\I}{\mathcal I}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries How the Proof Works}\par
+  \vspace{0.35\baselineskip}
+  {\normalsize Thomas Birnie}\par
+\end{center}
+
+\vspace{0.55\baselineskip}
+
+Fix a smooth divergence-free initial velocity \(u_0\), a viscosity \(\nu>0\),
+and the classical solution \((u,p)\) on its maximal interval \([0,T_*)\).
+The three-dimensional incompressible Navier--Stokes equation is
+\[
+  \partial_tu+(u\cdot\nabla)u
+  =-\nabla p+\nu\Delta u,
+  \qquad
+  \nabla\cdot u=0.
+\]
+Transport carries velocity through its own gradients, pressure keeps the field
+incompressible, and viscosity diffuses those gradients. Assume for contradiction
+that \(T_*<\infty\). The gradients would have to keep sharpening until the
+solution lost smoothness.
+
+That sharpening does not require infinite kinetic energy. As a vortex stretches,
+incompressibility makes its core thinner. If the velocity changes by an amount
+of size \(|u|\) across a core of radius \(r\), then its gradient has the scale
+\[
+  |\nabla u|\sim\frac{|u|}{r}.
+\]
+Shrinking the core raises the gradient. Yet the energy identity still gives
+\[
+  \frac12\|u(t)\|_2^2
+  +\nu\int_0^t\|\nabla u(\tau)\|_2^2\,d\tau
+  =\frac12\|u_0\|_2^2.
+\]
+The fluid can keep finite total energy while its motion concentrates into a
+smaller region and its gradients become steeper.
+
+To see where the Sobolev scale still detects that concentration, compare the
+solution with a compressed copy of itself. For \(\lambda>1\), set
+\[
+  u_\lambda(x,t):=\lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t):=\lambda^2p(\lambda x,\lambda^2t).
+\]
+With \(y=\lambda x\) and \(\tau=\lambda^2t\), the four terms become
+\[
+\begin{aligned}
+  \partial_tu_\lambda(x,t)
+  &=\lambda^3(\partial_tu)(y,\tau),
+  \\
+  (u_\lambda\cdot\nabla)u_\lambda(x,t)
+  &=\lambda^3\bigl((u\cdot\nabla)u\bigr)(y,\tau),
+  \\
+  \nabla p_\lambda(x,t)
+  &=\lambda^3(\nabla p)(y,\tau),
+  \\
+  \nu\Delta u_\lambda(x,t)
+  &=\lambda^3\nu(\Delta u)(y,\tau).
+\end{aligned}
+\]
+Compression strengthens transport and diffusion by an equal factor. Scale
+alone gives neither term an advantage.
+
+The Sobolev norm separates the levels. The Fourier transform obeys
+\[
+  \widehat{u_\lambda}(\xi,t)
+  =\lambda^{-2}\widehat u(\xi/\lambda,\tau),
+\]
+and the change of variables \(\eta=\xi/\lambda\) gives
+\[
+\begin{aligned}
+  \|u_\lambda(t)\|_{\dot H^s}^2
+  &=\int_{\R^3}|\xi|^{2s}\lambda^{-4}
+    |\widehat u(\xi/\lambda,\tau)|^2\,d\xi
+  \\
+  &=\lambda^{2s-1}
+    \|u(\tau)\|_{\dot H^s}^2.
+\end{aligned}
+\]
+At \(s=0\), the squared norm shrinks by \(\lambda^{-1}\); at \(s=1\), it
+grows by \(\lambda\). Exactly between them, \(2s-1=0\), so
+\[
+  s=\frac12,
+  \qquad
+  \|u_\lambda(t)\|_{\dot H^{1/2}}
+  =\|u(\tau)\|_{\dot H^{1/2}}.
+\]
+The energy level loses size under compression, the first-derivative level gains
+it, and \(\dot H^{1/2}\) stays fixed. That unchanged middle level is the critical
+height.
+
+The rescaling assigns a shorter time window to each narrower copy. Suppose one
+fluid history follows that parabolic pattern and reaches a geometric sequence of
+core radii:
+\[
+  r_n=2^{-n}r_0
+\]
+Parabolic scaling gives the \(n\)th stage a duration proportional to \(r_n^2\),
+so halving the radius quarters the duration:
+\[
+  \delta t_n=4^{-n}\delta t_0,
+  \qquad
+  \sum_{n=0}^{\infty}\delta t_n
+  =\frac43\,\delta t_0<\infty.
+\]
+The geometric sum permits infinitely many finer stages before a finite time
+\(T_*\). Along such a history, the kinetic energy may stay finite while each
+stage carries a narrower core, a steeper gradient, and a shorter duration. This
+is the Zeno cascade.
+
+\Needspace{9\baselineskip}
+In order for a singularity to form, velocity has to blow up. In order for that
+to happen, its acceleration would also have to blow up, which means its jerk has
+to blow up, and so on, and so on:
+\[
+  u,
+  \qquad
+  \partial_tu,
+  \qquad
+  \partial_t^2u,
+  \qquad
+  \ldots
+\]
+A cascade of narrower cores and steeper gradients suggests less spatial
+regularity as temporal order rises. Acceleration should look rougher than
+velocity, jerk rougher than acceleration. Differentiating the equation reveals
+the opposite.
+
+\begingroup
+\small
+\begin{flalign*}
+  &\partial_tu
+  =\nu\Delta u-(u\cdot\nabla)u-\nabla p,&&
+  \\[0.6\baselineskip]
+  &\partial_t^2u
+  =\nu\Delta\partial_tu-(\partial_tu\cdot\nabla)u
+    -(u\cdot\nabla)\partial_tu-\nabla\partial_tp,&&
+  \\[0.6\baselineskip]
+  &\partial_t^3u
+  =\nu\Delta\partial_t^2u-(\partial_t^2u\cdot\nabla)u
+    -2(\partial_tu\cdot\nabla)\partial_tu
+    -(u\cdot\nabla)\partial_t^2u-\nabla\partial_t^2p.&&
+\end{flalign*}
+\endgroup
+
+The branching visible in those three lines continues at every finite order
+\(n\):
+\[
+\begin{aligned}
+  \partial_t^{\,n+1}u
+  ={}&\nu\Delta\partial_t^nu
+  \\
+  &-\sum_{a=0}^{n}\binom{n}{a}
+    \bigl(\partial_t^au\cdot\nabla\bigr)
+    \partial_t^{\,n-a}u
+  \\
+  &-\nabla\partial_t^np.
+\end{aligned}
+\]
+Call the \(n\)th velocity and pressure responses
+\[
+  V_n:=\partial_t^nu,
+  \qquad
+  Q_n:=\partial_t^np.
+\]
+
+Let \(\Lambda:=(-\Delta)^{1/2}\), so \(\|\Lambda^sf\|_2\) measures spatial
+Sobolev height \(s\). At temporal order \(r\), the energy at that height is
+\[
+  E_{r,s}(t):=\frac12\|\Lambda^sV_r(t)\|_2^2
+\]
+The nonlinear and pressure terms contribute
+\[
+\begin{aligned}
+  \mathcal P_{r,s}(t)
+  &:=-\operatorname{Re}
+  \Biggl\langle
+    \Lambda^sV_r,
+    \Lambda^s\!\left[
+      \sum_{a=0}^{r}\binom{r}{a}
+      (V_a\cdot\nabla)V_{r-a}
+      +\nabla Q_r
+    \right]
+  \Biggr\rangle_{L^2}.
+\end{aligned}
+\]
+Since \(\Delta=-\Lambda^2\), the viscous pairing is
+\[
+\begin{aligned}
+  \nu\operatorname{Re}
+  \langle\Lambda^sV_r,\Lambda^s\Delta V_r\rangle_{L^2}
+  &=-\nu\|\Lambda^{s+1}V_r\|_2^2
+  \\
+  &=-2\nu E_{r,s+1}.
+\end{aligned}
+\]
+The Laplacian places one spatial derivative on each factor, tying height \(s\)
+directly to height \(s+1\):
+\[
+  \partial_tE_{r,s}
+  =\mathcal P_{r,s}-2\nu E_{r,s+1},
+  \qquad
+  E_{r,s+1}
+  =\frac{\mathcal P_{r,s}-\partial_tE_{r,s}}{2\nu}.
+\]
+One more derivative gives
+\[
+  \partial_t^2E_{r,s}
+  =\partial_t\mathcal P_{r,s}
+  -2\nu\mathcal P_{r,s+1}
+  +(2\nu)^2E_{r,s+2},
+\]
+Iterating \(k\) times gives
+\[
+  \partial_t^kE_{r,s}
+  =(-2\nu)^kE_{r,s+k}
+  +\sum_{j=0}^{k-1}
+    (-2\nu)^j
+    \partial_t^{\,k-1-j}\mathcal P_{r,s+j}.
+\]
+
+\Needspace{22\baselineskip}
+At critical height, set \(H:=E_{0,1/2}\). Each derivative of \(H\) is a
+quadratic contraction of the velocity responses:
+\[
+  H^{(k)}
+  =\frac12\sum_{a=0}^{k}\binom{k}{a}
+  \operatorname{Re}
+  \left\langle
+    \Lambda^{1/2}V_a,
+    \Lambda^{1/2}V_{k-a}
+  \right\rangle_{L^2}.
+\]
+The velocity responses build the temporal derivatives of \(H\), and the viscous
+identity exposes a higher spatial energy at each order:
+\[
+\begin{aligned}
+  u,\quad \partial_tu,\quad \partial_t^2u,\quad\ldots
+  &\longrightarrow
+  H,\quad H',\quad H'',\quad\ldots
+  \\
+  &\longrightarrow
+  E_{0,1/2},\quad E_{0,3/2},\quad E_{0,5/2},\quad\ldots .
+\end{aligned}
+\]
+Each rise in temporal order exposes a rise in spatial Sobolev order. The
+transfer terms remain in the formula; the top energy is isolated through the
+nonzero coefficient \((-2\nu)^k\). If every finite height reaches \(T_*\),
+Sobolev embedding gives, for every finite \(k\),
+\[
+  s>k+\frac32
+  \quad\Longrightarrow\quad
+  H^s(\R^3)\hookrightarrow C^k(\R^3),
+\]
+and hence
+\[
+  \bigcap_{m<\infty}H^m(\R^3)
+  =H^\infty(\R^3)
+  \hookrightarrow C^\infty(\R^3).
+\]
+The temporal sequence that was expected to lose spatial regularity has instead
+opened every finite Sobolev height and, through their intersection, smoothness.
+
+\Needspace{12\baselineskip}
+To carry those heights to \(T_*\), pair each temporal response with the Sobolev
+space in which it is measured. The coordinate \((n,m)\) means
+\[
+  V_n=\partial_t^nu
+  \quad\text{measured in}\quad
+  H_x^m.
+\]
+Choosing finite cutoffs \(N,M\) gathers the needed coordinates into one
+rectangle. On a strict cutoff \(T<T_*\), its adjacent pairs are measured by
+\[
+\begin{aligned}
+  \mathfrak R_{N,M}(u;T)
+  :={}&
+  \sum_{n=0}^{N}
+  \|V_n\|_{L^2(0,T;H^{M+1})}^2
+  \\
+  &+
+  \sum_{n=0}^{N}
+  \|V_{n+1}\|_{L^2(0,T;H^{M-1})}^2,
+\end{aligned}
+\]
+and the whole-terminal rectangle theorem gives
+\[
+  \sup_{0<T<T_*}\mathfrak R_{N,M}(u;T)<\infty.
+\]
+Since the integrands are nonnegative, increasing \(T\) to \(T_*\) yields
+\[
+  V_n\in L^2(0,T_*;H^{M+1}),
+  \qquad
+  V_{n+1}\in L^2(0,T_*;H^{M-1}),
+  \qquad 0\leq n\leq N.
+\]
+With \(A:=(1-\Delta)^{1/2}\), the two rows meet at height \(M\):
+\[
+\begin{aligned}
+  \|V_n(b)\|_{H^M}^2-\|V_n(a)\|_{H^M}^2
+  =2\operatorname{Re}\int_a^b
+  \bigl\langle
+    A^{M-1}V_{n+1}(t),
+    A^{M+1}V_n(t)
+  \bigr\rangle_{L^2}\,dt.
+\end{aligned}
+\]
+Cauchy--Schwarz gives
+\[
+  V_n\in C([0,T_*];H^M).
+\]
+The pressure recurrence supplies
+\[
+  Q_n\in L^1(0,T_*;H^M),
+  \qquad
+  0\leq n\leq N,
+\]
+which completes the finite velocity--pressure rectangle
+\(\mathcal R_{N,M}[u_0]\).
+
+A larger rectangle restricts to a smaller one:
+\[
+  \rho_{N',M'}^{N,M}\mathcal R_{N,M}[u_0]
+  =\mathcal R_{N',M'}[u_0].
+\]
+Taking all finite rectangles together gives
+\[
+  \I[u_0]
+  :=\bigl(\mathcal R_{N,M}[u_0]\bigr)_{N,M<\infty},
+  \qquad
+  u\in
+  \bigcap_{r,m<\infty}
+  H^r(0,T_*;H^m(\R^3)).
+\]
+Every finite coordinate appears in some rectangle, and the rectangles agree
+wherever they overlap. The zeroth temporal row
+\(\mathscr S_0:=\pi_0\I[u_0]\) contains \(u\) at every finite spatial height.
+
+Taking \(n=0\) in the trace relation gives, for every finite \(m\),
+\[
+  u\in H^1(0,T_*;H^m)
+  \hookrightarrow C([0,T_*];H^m).
+\]
+The traces converge to one endpoint, smooth at every order:
+\[
+  u_*:=\lim_{t\uparrow T_*}u(t)
+  \in\bigcap_{m<\infty}H^m(\R^3)
+  =H^\infty(\R^3)
+  \hookrightarrow C^\infty(\R^3).
+\]
+Local smooth existence from \(u_*\) continues the solution through
+\([T_*,T_*+\delta]\), and uniqueness joins it to the existing history. A finite
+\(T_*\) cannot be maximal, so
+\[
+  T_*=\infty.
+\]
+
+Each familiar finite estimate comes from one coordinate of the intersection.
+Given a finite temporal order \(r\), spatial derivative order
+\(k\), and \(2\leq p\leq\infty\), choose \(m\) so that
+\[
+  H^m(\R^3)\hookrightarrow W^{k,p}(\R^3).
+\]
+When \(p=\infty\), any \(m>k+\tfrac32\) is enough; for finite \(p\), choose
+\(m\) in the standard Sobolev range. That coordinate gives
+\[
+  \partial_t^ru\in C_tH_x^m
+  \quad\Longrightarrow\quad
+  \nabla^k\partial_t^ru\in L_t^\infty L_x^p.
+\]
+For example,
+\[
+\begin{aligned}
+  \I[u_0]&\longrightarrow C_tH_x^1
+    \longrightarrow L_t^\infty L_x^6,
+  \\
+  \I[u_0]&\longrightarrow C_tH_x^2
+    \longrightarrow L_t^\infty L_x^\infty,
+  \\
+  \I[u_0]&\longrightarrow C_tH_x^3
+    \longrightarrow L_t^\infty W_x^{1,\infty}.
+\end{aligned}
+\]
+The last line, for instance, gives on every finite interval \([0,T]\)
+\[
+\begin{aligned}
+  \int_0^T\|\nabla u(t)\|_\infty\,dt
+  &\leq T\sup_{0\leq t\leq T}\|\nabla u(t)\|_\infty
+  \\
+  &\leq C T\sup_{0\leq t\leq T}\|u(t)\|_{H^3}
+  <\infty.
+\end{aligned}
+\]
+The \(H^3\) line is one instance. Changing \(r\), \(k\), or \(p\) only changes
+which finite height is taken from the intersection. The order is intersection
+first, estimate second.
+
+In shorthand:
+\[
+\begin{aligned}
+  u_0
+  &\longrightarrow \{(V_n,Q_n)\}_{n\geq0}
+  \longrightarrow \{\mathcal R_{N,M}[u_0]\}_{N,M<\infty}
+  \\
+  &\longrightarrow \I[u_0]
+  \longrightarrow \mathscr S_0
+  \longrightarrow u_*\in H^\infty
+  \longrightarrow T_*=\infty.
+\end{aligned}
+\]
+
+\end{document}

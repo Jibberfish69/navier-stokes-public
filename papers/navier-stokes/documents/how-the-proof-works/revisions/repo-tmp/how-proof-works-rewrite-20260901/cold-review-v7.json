@@ -1,0 +1,52 @@
+{
+  "schema_version": 2,
+  "review_kind": "cold_reader",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/critic-packet-v7.json",
+    "sha256": "96b5ca0d07814655011638d71c1686c762a8df9f327a782d0894e04da9608c30"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/draft-v7.tex",
+    "sha256": "e91ce5dd5b7ec4be97ee1fa5d91244b0b95c0a1e08ee4314e8757ad6798a9d33"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v7/page-1.png",
+      "sha256": "a6934fe1cd037ba1d85bd1c4acec59ea07e293d92223c7788839d82626cdf55e"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v7/page-2.png",
+      "sha256": "e12263d6b966999985459168cc6ca7efd327f78f7146e29bf3c6f6f93f44f57c"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v7/page-3.png",
+      "sha256": "391700c0c01ed0669807d5b2576f338537adedf4a2f235af6d737a1fed4006ba"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v7/page-4.png",
+      "sha256": "0aed0eb895af060d6d2b57fd72095c3fcefffbd2e8b8a5a66e12ed004395ef34"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v7/page-5.png",
+      "sha256": "7f7471bbb75037eb89376bbb88389904b06556f879f42857c8a4bf6fce809081"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v7/page-6.png",
+      "sha256": "1268505d9176e23b16317ec0e0b9fdfff4ee8790be56fc35a5089c88c6fff8a7"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/cold_reader_v7",
+    "task_name": "cold_reader_v7",
+    "isolation": "fork_none",
+    "request_nonce": "683f273ebd6309af639ff2d84d7863ab38b907d60453da1a"
+  },
+  "decision": {
+    "verdict": "fail",
+    "first_divergence": {
+      "exact_span": "draft-v7.tex:329-335, rendered page 4: The calculation lifts directly to every temporal response:\n\\[\nE_{r,s}(t):=\\frac12\\|\\Lambda^sV_r(t)\\|_2^2,\n\\qquad\n\\partial_tE_{r,s}\n=\\mathcal P_{r,s}-2\\nu E_{r,s+1}.\n\\]",
+      "mechanism": "The only signed production defined so far is P_s for the base velocity. Here P_{r,s} appears without a definition. For r>0, the response equation contains the full binomial sum coupling V_0 through V_r; substituting V_r for u in the earlier P_s definition would give a different interaction. The reader must supply which production this new symbol means before accepting the advertised extension.",
+      "repair_constraint": "Introduce the higher-response production from the displayed response recurrence before using this energy identity, preserving the immediate Sobolev-smoothness payoff ahead of the finite rectangles."
+    }
+  }
+}

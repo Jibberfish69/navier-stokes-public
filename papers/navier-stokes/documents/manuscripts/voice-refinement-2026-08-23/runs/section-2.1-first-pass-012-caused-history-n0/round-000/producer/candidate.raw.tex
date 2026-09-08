@@ -1,0 +1,257 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.1 Vortex Stretching
+% ============================================================
+
+The momentum equation has four pieces:
+\[
+  \underbrace{\partial_t u}_{\text{local acceleration}}
+  +
+  \underbrace{(u\cdot\nabla)u}_{\text{nonlinear transport}}
+  =
+  \underbrace{-\nabla p}_{\text{pressure}}
+  +
+  \underbrace{\nu\Delta u}_{\text{viscous diffusion}}.
+\]
+The central regularity problem lies in the competition between nonlinear transport and viscosity.
+The hope is simple: viscosity smooths the fluid faster than nonlinear transport can sharpen it.
+If that remains true at every scale, the velocity stays smooth.
+
+\subsection{Vortex Stretching}\label{sub:ThePerfectlyStretchingVortex}
+
+Take a small material fluid parcel rotating around an axis. In the local axisymmetric aligned-strain picture, positive axial strain lengthens the parcel and incompressibility contracts it in both transverse directions. That contraction draws the rotating fluid inward toward the axis, which speeds up its interior rotation. This is the physical sharpening mechanism. If \(e\) is the unit axis direction and \(L(t)\) is the parcel length, the axial rate is
+\[
+  S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr),
+  \qquad
+  Se=\sigma(t)e,
+  \qquad
+  \sigma(t)>0,
+  \qquad
+  \frac{\dot L(t)}{L(t)}
+  =
+  e\cdot Se
+  =
+  \sigma(t).
+\]
+
+The symmetry supplies the inward motion in each transverse direction; the identities themselves give the corresponding contraction of transverse area. Incompressibility keeps the material volume \(\mathcal V\) fixed. With \(A(t):=\mathcal V/L(t)\) and the area-equivalent radius \(r_{\mathrm{eff}}(t):=\sqrt{A(t)/\pi}\),
+\[
+  \nabla\cdot u=0,
+  \qquad
+  \frac{d}{dt}(A L)=0,
+  \qquad
+  \frac{\dot A}{A}=-\sigma(t),
+  \qquad
+  \frac{\dot r_{\mathrm{eff}}}{r_{\mathrm{eff}}}
+  =
+  -\frac{\sigma(t)}{2}.
+\]
+The transverse length scale closes at half the axial logarithmic rate. That settles the parcel geometry, but not the fate of its rotation: viscosity can move vorticity across the parcel boundary. Evaluating \(\omega:=\nabla\times u\) on a tracked material trajectory gives
+\[
+  \frac{D\omega}{Dt}
+  =
+  S\omega+\nu\Delta\omega,
+  \qquad
+  \frac{D}{Dt}
+  :=
+  \partial_t+u\cdot\nabla,
+\]
+and under the alignment \(\omega=|\omega|e\),
+\[
+  S\omega
+  =
+  \sigma(t)\omega,
+  \qquad
+  \frac12\frac{D|\omega|^2}{Dt}
+  =
+  \sigma(t)|\omega|^2
+  +
+  \nu\,\omega\cdot\Delta\omega.
+\]
+The stretching contribution expresses the local spin-up, but the viscous contribution has no fixed pointwise sign. The vorticity magnitude on the tracked trajectory strengthens only where this complete right-hand side is positive.
+
+Finite kinetic energy does not close that pointwise question. The energy identity proved in \Cref{prop:ClassicalKineticEnergyIdentity}, together with the antisymmetric part of \(\nabla u\), gives
+\[
+  \norm{u(t)}_2
+  \leq
+  \norm{u_0}_2
+  <\infty,
+  \qquad
+  \left|\frac12\bigl(\nabla u-(\nabla u)^{\mathsf T}\bigr)\right|_{\mathrm F}
+  =
+  \frac{|\omega|}{\sqrt2}
+  \leq
+  |\nabla u|_{\mathrm F}.
+\]
+A bounded global velocity norm can coexist with a growing rotational part of the local gradient. Since energy leaves that gradient uncontrolled, the original hope needs an independent test across exact Navier--Stokes scales.
+
+\divider{\NavierStokes{} Scaling}
+
+For \(\lambda>1\), define another solution at another scale by
+\[
+  u_\lambda(x,t)
+  :=
+  \lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)
+  :=
+  \lambda^2p(\lambda x,\lambda^2t).
+\]
+This comparison is not a later state of the tracked parcel. Applied to each part of the momentum equation, it gives
+\[
+\begin{aligned}
+  \partial_tu_\lambda(x,t)
+  &=
+  \lambda^3(\partial_tu)(\lambda x,\lambda^2t),
+  \\
+  (u_\lambda\cdot\nabla)u_\lambda(x,t)
+  &=
+  \lambda^3\bigl((u\cdot\nabla)u\bigr)(\lambda x,\lambda^2t),
+  \\
+  \nabla p_\lambda(x,t)
+  &=
+  \lambda^3(\nabla p)(\lambda x,\lambda^2t),
+  \\
+  \nu\Delta u_\lambda(x,t)
+  &=
+  \lambda^3\nu(\Delta u)(\lambda x,\lambda^2t).
+\end{aligned}
+\]
+Local acceleration, nonlinear transport, pressure, and viscosity all acquire the same cubic factor. Finer scale gives viscosity no automatic advantage, so any measurement of the unresolved contest must respect this matched scaling.
+
+\divider{Critical Height}
+
+The Sobolev norms do not move together. Let \(\Lambda:=(-\Delta)^{1/2}\). Since
+\[
+  \widehat{u_\lambda}(\xi,t)
+  =
+  \lambda^{-2}\widehat u(\lambda^{-1}\xi,\lambda^2t),
+\]
+a change of variables gives
+\[
+  \norm{u_\lambda(t)}_{\dot H^s}^2
+  =
+  \lambda^{2s-1}
+  \norm{u(\lambda^2t)}_{\dot H^s}^2.
+\]
+Kinetic energy loses one power of \(\lambda\), whereas the first-derivative norm gains one. Between them the exponent vanishes at \(s=\tfrac12\), which selects the global quantity
+\[
+  H(t)
+  :=
+  \frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =
+  \frac12\norm{\Lambda^{1/2}u(t)}_2^2.
+\]
+Writing \(H_\lambda\) for this functional evaluated on \(u_\lambda\),
+\[
+  \norm{u_\lambda(t)}_2^2
+  =
+  \lambda^{-1}\norm{u(\lambda^2t)}_2^2,
+  \qquad
+  H_\lambda(t)=H(\lambda^2t),
+  \qquad
+  \norm{\nabla u_\lambda(t)}_2^2
+  =
+  \lambda\norm{\nabla u(\lambda^2t)}_2^2.
+\]
+Thus \(H\) is scale-neutral while energy falls and the first-derivative norm rises. It is a global functional of the velocity field, not a height attached to the parcel or its rotation. Its neutrality says nothing about whether it rises along the original solution; that direction comes from its signed evolution.
+
+\divider{Nonlinear Production versus Viscous Dissipation}
+
+At this half-derivative level, the nonlinear term contributes
+\[
+  \mathcal P_{1/2}[u](t)
+  :=
+  -\operatorname{Re}
+  \pair
+    {\Lambda^{1/2}u(t)}
+    {\Lambda^{1/2}\bigl((u(t)\cdot\nabla)u(t)\bigr)}_{L^2}.
+\]
+The pressure pairing vanishes because \(\nabla\cdot u=0\), and the Laplacian contributes \(-\nu\norm{\Lambda^{3/2}u}_2^2\), leaving
+\[
+  H'(t)
+  +
+  \nu\norm{\Lambda^{3/2}u(t)}_2^2
+  =
+  \mathcal P_{1/2}[u](t).
+\]
+The height rises only when the signed nonlinear production exceeds the simultaneous positive viscous dissipation. Under the same rescaling,
+\[
+  \mathcal P_{1/2}[u_\lambda](t)
+  =
+  \lambda^2\mathcal P_{1/2}[u](\lambda^2t),
+  \qquad
+  \nu\norm{\Lambda^{3/2}u_\lambda(t)}_2^2
+  =
+  \lambda^2\nu\norm{\Lambda^{3/2}u(\lambda^2t)}_2^2.
+\]
+Both signed production and viscous dissipation acquire the same square factor. The exact balance still grants neither side a finer-scale advantage, and comparison across solutions still does not supply an evolution interval inside the original one.
+
+\divider{The Heat Clock}
+
+A conditional viscous time appears only after a localized object is specified. For a localized rotation or vorticity distribution across a transverse width \(r\), with active frequencies comparable to \(r^{-1}\), the separate heat equation \(v_t=\nu\Delta v\) gives
+\[
+  \widehat v(\xi,t+\delta t)
+  =
+  e^{-\nu|\xi|^2\delta t}\widehat v(\xi,t).
+\]
+An order-one viscous change at those frequencies occurs when
+\[
+  \nu|\xi|^2\delta t\simeq1,
+\]
+which gives the linear comparison time
+\[
+  \tau_\nu(r)
+  :=
+  \frac{r^2}{\nu}.
+\]
+This clock establishes no parcel lifetime, no localization by itself, and no nonlinear transition interval. It says that once transverse localization at width \(r\) and frequencies comparable to \(r^{-1}\) are present, halving that width quarters the viscous comparison time. More generally,
+\[
+  \tau_\nu(\lambda^{-1}r)
+  =
+  \lambda^{-2}\tau_\nu(r).
+\]
+Successively finer localized widths now bring successively shorter linear clocks, making their total duration an arithmetic question.
+
+\divider{The Zeno Cascade}
+
+For the dyadic widths and their heat times
+\[
+  r_n:=2^{-n}r_0,
+  \qquad
+  \tau_n:=\frac{r_n^2}{\nu},
+\]
+the clocks satisfy
+\[
+  \tau_n
+  =
+  \frac{r_0^2}{\nu}4^{-n},
+  \qquad
+  \sum_{n=0}^{\infty}\tau_n
+  =
+  \frac{4r_0^2}{3\nu}
+  <
+  \infty.
+\]
+The finite sum has no identity through time. To turn it into a candidate Navier--Stokes history, begin with the material parcel already being followed: positive axial strain narrows that parcel through widths comparable to
+\[
+  r_0>r_1>r_2>\cdots\longrightarrow0.
+\]
+
+Viscosity can exchange vorticity across its boundary, so snapshots around the parcel do not by themselves identify one continuing localized rotation. Coherent spacetime ancestry through every interval and uniform control of that diffusive exchange keep the rotation identifiable. Under the full signed production--diffusion balance, a quantitatively nontrivial localized vorticity amplitude or norm also persists; parcel narrowing alone cannot produce that amplitude.
+
+Once this coherent rotation is followed, its decreasing transverse localization width calls for a distinct localization or scale-transfer mechanism. That mechanism moves the rotation through widths comparable to \(r_n\), and those widths place its active frequencies at sizes comparable to \(r_n^{-1}\). The heat calculation then supplies a comparison clock, but the nonlinear history uses it only after imposing times
+\[
+  t_0<t_1<t_2<\cdots\uparrow T_*<\infty,
+  \qquad
+  t_{n+1}-t_n\asymp\tau_n,
+\]
+with constants independent of \(n\). Under that uniform hypothesis, the remaining time satisfies
+\[
+  T_*-t_n
+  \asymp
+  \sum_{k=n}^{\infty}\tau_k
+  =
+  \frac{4r_n^2}{3\nu}.
+\]
+At width \(r_n\), the imposed next interval and the total remaining time are both comparable to \(r_n^2/\nu\). One velocity field has now been charged with the whole causal history: positive strain narrows the same parcel, scale transfer keeps one localized rotation around it while diffusion crosses its boundary, the signed balance sustains a nontrivial amplitude, and the uniformly controlled intervals collapse with the transverse width. Whether a Navier--Stokes solution can realize that history remains open.

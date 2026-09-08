@@ -1,0 +1,118 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{Velocity, acceleration, jerk, and the Tower}\label{sub:BodyFiniteTimeResponseEscalation}
+
+The finite endpoint has already forced the same velocity history through
+unbounded critical levels.  Naming those levels does not move the fluid
+between them.  On every strict subinterval that movement is carried by the
+fundamental theorem of calculus.  Let \(X\) be one fixed spatial Banach space
+in which the classical responses below are defined.  For every \(n\geq0\),
+\begin{equation}\label{eq:BodyResponseIncrement}
+  \norm{\partial_t^nu(t_1)-\partial_t^nu(t_0)}_X
+  \leq
+  \int_{t_0}^{t_1}\norm{\partial_t^{n+1}u(s)}_X\,ds.
+\end{equation}
+If \(\partial_t^{n+1}u\) had a uniform roof before a finite \(T_*\), its
+integral would give \(\partial_t^nu\) a uniform roof as well.  Reading the
+contrapositive upward, under the fixed-space and absolute-continuity hypotheses
+spelled out in \cref{sub:FiniteTimeResponseEscalation},
+\begin{equation}\label{eq:BodyConditionalTemporalEscape}
+  \sup_{0<t<T_*}\norm{u(t)}_X=\infty
+  \quad\Longrightarrow\quad
+  \sup_{0<t<T_*}\norm{\partial_t^nu(t)}_X=\infty
+  \quad\text{for every finite }n.
+\end{equation}
+The critical escape in \eqref{eq:BodyFiniteEndpointForcesCriticalEscape}
+supplies the premise with \(X=\dot H^{1/2}(\R^3)\).  It does not prove that a
+finite endpoint exists.  It says that if the history ends there, no finite
+Eulerian time row may remain uniformly calm while the lower row escapes:
+\[
+  u,
+  \qquad
+  \partial_tu,
+  \qquad
+  \partial_t^2u,
+  \qquad
+  \partial_t^3u,
+  \qquad
+  \ldots
+\]
+Write
+\begin{equation}\label{eq:TemporalTowerDefinitionBody}
+  V_n:=\partial_t^nu,
+  \qquad
+  Q_n:=\partial_t^np,
+  \qquad n\in\Nzero.
+\end{equation}
+These are the velocity, temporal acceleration, temporal jerk, and higher
+Eulerian responses of the fluid.  They are read at a fixed spatial position.
+The acceleration of a particle moving with the fluid is instead
+\[
+  D_tu=\partial_tu+(u\cdot\nabla)u.
+\]
+The transport term has not been discarded; the Eulerian Tower keeps it inside
+the recurrence.  The Tower is not an extra model placed beside Navier--Stokes.
+The original equation generates every rung.
+
+The first row is simply the original equation solved for its time response:
+\[
+  V_1
+  =\nu\Delta V_0-(V_0\cdot\nabla)V_0-\nabla Q_0.
+\]
+When time is differentiated once, the derivative may land on either factor in
+the transport term:
+\[
+  V_2
+  =\nu\Delta V_1
+  -(V_1\cdot\nabla)V_0
+  -(V_0\cdot\nabla)V_1
+  -\nabla Q_1.
+\]
+At the next step, there are two ways to place one derivative on each transport
+factor, and the middle term records both:
+\[
+  V_3
+  =\nu\Delta V_2
+  -(V_2\cdot\nabla)V_0
+  -2(V_1\cdot\nabla)V_1
+  -(V_0\cdot\nabla)V_2
+  -\nabla Q_2.
+\]
+The coefficients are not decoration.  They count every way the \(n\) time
+derivatives can be distributed across the velocity doing the transporting and
+the velocity being transported.  The complete row is
+\begin{equation}\label{eq:BodyTemporalVelocityRecurrence}
+  V_{n+1}
+  +\sum_{a=0}^{n}\binom{n}{a}(V_a\cdot\nabla)V_{n-a}
+  +\nabla Q_n
+  =\nu\Delta V_n,
+  \qquad
+  \nabla\cdot V_n=0.
+\end{equation}
+
+Pressure does not get to evolve independently beside these rows.
+Incompressibility determines it from the velocity at the same time.  Taking
+the divergence of the base equation and choosing the decaying whole-space
+normalization gives
+\begin{equation}\label{eq:PressureNormalization}
+  -\Delta p=\partial_i\partial_j(u_i u_j),
+  \qquad
+  p=R_iR_j(u_i u_j),
+\end{equation}
+where \(R_j=\partial_j(-\Delta)^{-1/2}\).  After \(n\) time derivatives,
+\begin{equation}\label{eq:BodyTemporalPressureRecurrence}
+  Q_n
+  =R_iR_j
+  \sum_{a=0}^{n}\binom{n}{a}(V_a)_i(V_{n-a})_j.
+\end{equation}
+Thus the velocity rows determine \(Q_n\), and \(\nabla Q_n\) returns to
+\eqref{eq:BodyTemporalVelocityRecurrence} as part of the very response those
+rows generate.  Transport, pressure, incompressibility, and viscosity remain
+one coupled event at every height of the Tower.
+
+The temporal climb has now exposed a spatial pressure.  Every new response
+contains \(\Delta V_n\); transport differentiates products of the earlier
+responses; pressure is recovered from spatial derivatives of those products.
+We entered the Tower because the hypothetical endpoint made the fluid respond
+faster and faster.  The equation has answered by placing higher spatial order
+inside every new response.  We return to the critical height to see exactly
+what that spatial direction contains before naming the full two-index object.

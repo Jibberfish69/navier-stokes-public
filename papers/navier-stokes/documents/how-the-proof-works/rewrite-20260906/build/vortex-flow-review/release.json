@@ -1,0 +1,38 @@
+{
+  "schema_version": 3,
+  "producer": {
+    "agent_path": "/root",
+    "input_packet": {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/vortex-flow-review/producer.json",
+      "sha256": "de1a639e90650bb3c0fc1742e5615e47a041ef46d345f6db3b3c11c8e6b28673"
+    }
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/vortex-flow-review/candidate.tex",
+    "sha256": "0414ec418fe8357505abb740eeb321a620af29266c8c4baf26953652e70458df"
+  },
+  "pdf": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/how-the-proof-works.pdf",
+    "sha256": "d977abf593e5055747fd09b4d42a43267735defc58213170d7f76e8cb5d09356"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/vortex-flow-review/page-1.png",
+      "sha256": "2315d73bcbc112d587785b411065b9d13823772b2b716715606f74bc8a7096e7"
+    }
+  ],
+  "critic_packet": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/vortex-flow-review/critic-packet.json",
+    "sha256": "dec48e0285c25ca455d6635a6f81f9e51a5ef41c8c5710d9c35c1f20cfc1772f"
+  },
+  "reviews": [
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/vortex-flow-review/reader-review.json",
+      "sha256": "56ed61d2937b49d2bc44bcdbcb71358f8210448edd85f4d96ca55b260470d963"
+    },
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/vortex-flow-review/proof-review.json",
+      "sha256": "a1d3df4e6d6dc222cc9ab66aef03420081c293e5acad8b8d4f23cea5d21f15b2"
+    }
+  ]
+}

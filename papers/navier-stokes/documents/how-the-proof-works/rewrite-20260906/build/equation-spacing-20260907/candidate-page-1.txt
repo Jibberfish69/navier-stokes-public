@@ -1,0 +1,48 @@
+How the Proof Works
+
+We start with a smooth, incompressible flow of finite energy and keep its viscosity fixed and positive.
+The problem is to prove that the flow remains smooth for all time. Its velocity u and pressure p
+satisfy the three-dimensional Navier–Stokes equation:
+                 ∂t u      +      (u· ∇)u           =           −∇p        +        ν∆u ,          ∇· u = 0.
+           local acceleration nonlinear transport           pressure           viscous diffusion
+The hope is simple: viscosity smooths the fluid faster than nonlinear transport can sharpen it.
+Consider the case of a vortex within the fluid. Its vorticity ω = ∇ × u satisfies
+                                    ∂t ω + (u · ∇)ω = (ω · ∇)u + ν∆ω.
+Strain within the fluid’s flow can naturally stretch a vortex. Incompressibility forces a tube of fluid
+particles along its core to narrow as it lengthens.
+                                                    Stretching, σ > 0
+
+
+
+
+                                                                                            Viscous diffusion
+                                                            ω
+                                                                       r
+                                                                                                                ℓ
+                 Inward motion                          v
+
+
+
+
+                                                                                       Material tube
+
+
+
+For a thin, locally circular tube with length ℓ, radius r, and positive axial strain σ,
+                                         ℓ̇ = σℓ > 0,            r ∝ ℓ−1/2 .
+If circulation Γ is retained through that narrowing, the mean swirl speed v increases:
+                                                |Γ|
+                                                    .v=
+                                                2πr
+Viscosity diffuses momentum between neighbouring regions of fluid, reducing velocity differences
+and spreading rotation through the surrounding fluid. Over an elapsed time τ , diffusion reaches a
+distance of order                                √
+                                         rdiff ∼ ντ .
+The vortex core can spread beyond the narrowing material tube, weakening the circulation enclosed
+by it. Faster swirl depends on that circulation remaining strong enough as the radius shrinks.
+
+
+
+
+                                                            1
+

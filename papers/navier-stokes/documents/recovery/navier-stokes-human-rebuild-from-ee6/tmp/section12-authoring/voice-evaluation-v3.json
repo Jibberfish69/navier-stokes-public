@@ -1,0 +1,84 @@
+{
+  "task_id": "task-623f28237dcb6754",
+  "task_sha256": "2a50e990f2076c3711bb0e25d8ad786109671995bd7f1e36c6521bad9f938df9",
+  "prediction_sha256": "964ed4e2500958a1759d4c0877fa2cdcfcea0d8ea0e5231be3bb137d8e41bd2e",
+  "candidate_sha256": "9ef21d9486559a8eb79ce67c93b061c1d6e336b80f6fb7705ea726dc606dc0c7",
+  "selected_move_id": "user-fixed-frame-and-accumulation",
+  "producer_id": "section12-v3-author",
+  "evaluator_id": "section12-v3-reader-auditor",
+  "dimensions": {
+    "task_fidelity": {
+      "status": "pass",
+      "evidence": "The complete Section 1.2 is rewritten, all seven dividers remain in order, the opening serves as orientation, and Section 1.3 is untouched."
+    },
+    "work_advancement": {
+      "status": "pass",
+      "evidence": "The result capsules have become a continuous historical tightening in which every block changes the problem inherited by the next."
+    },
+    "structural_meshing": {
+      "status": "pass",
+      "evidence": "The opening inherits Section 1.1's definitions and the ending hands a direct estimate problem to Section 1.3 without performing its detailed calculation."
+    },
+    "bridge_quality": {
+      "status": "pass",
+      "evidence": "The existing subsection supplies the needed bridge; no new section, reordered divider, or adjacent edit was introduced."
+    },
+    "enrichment_control": {
+      "status": "pass",
+      "evidence": "Mechanism details are limited to the energy distinction, vortex stretching, continuation threshold, local concentration, LPS balance, ESS architecture, and scaling pressure."
+    },
+    "intellectual_value": {
+      "status": "pass",
+      "evidence": "The rewrite makes the historical sequence intelligible as a progressive restriction on the form of finite-time failure."
+    },
+    "authorial_completion": {
+      "status": "pass",
+      "evidence": "The full subsection is finished in source and carried through compilation and rendered-page inspection."
+    },
+    "thought_selection": {
+      "status": "pass",
+      "evidence": "The selected material follows the user-fixed frame-and-accumulation movement and excludes the later manuscript synthesis."
+    },
+    "connection": {
+      "status": "pass",
+      "evidence": "Energy leaves derivative height, enstrophy leaves restart control, continuation leaves local failure, CKN leaves joint concentration, LPS leaves q=3, and ESS leaves the data-derived upper bound."
+    },
+    "development": {
+      "status": "pass",
+      "evidence": "Each result receives enough mechanism and consequence to move the reader, while the higher Sobolev block no longer repeats Gold's full estimate ladder."
+    },
+    "expression": {
+      "status": "pass",
+      "evidence": "The prose uses direct causal sentences, Canadian spelling, one sentence per source line, and complete explanations around every display."
+    },
+    "nuance": {
+      "status": "pass",
+      "evidence": "The candidate preserves weak existence versus smooth uniqueness, integrated versus pointwise control, conditional criteria versus data-derived bounds, and heuristic versus established results."
+    },
+    "understanding": {
+      "status": "pass",
+      "evidence": "The section demonstrates why each theorem matters by deriving its conceptual job from the mathematical limit that precedes it."
+    },
+    "authorship": {
+      "status": "pass",
+      "evidence": "The movement follows Thomas's explicit correction and applicable decision evidence; no claim of validated voice imitation is made."
+    },
+    "reader_continuity": {
+      "status": "pass",
+      "evidence": "A reader can carry one question about escaping control from the opening through every divider to the final direct estimate burden."
+    },
+    "deeper_connections_and_thoughts": {
+      "status": "pass",
+      "evidence": "The L2-L3 scaling comparison and parabolic timing deepen the inherited endpoint discussion without manufacturing the later proof machinery."
+    },
+    "sample_content_leakage": {
+      "status": "pass",
+      "evidence": "The candidate uses the live mathematical source and task constraints without importing quarantined sample subject matter or phrasing."
+    },
+    "confidence_calibration": {
+      "status": "pass",
+      "evidence": "The prediction keeps voice confidence unknown and treats the output as source-grounded authorship pending Thomas's judgment."
+    }
+  },
+  "verdict": "pass"
+}

@@ -1,0 +1,293 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.1 Vortex Stretching
+% ============================================================
+
+The momentum equation has four pieces:
+\[
+  \underbrace{\partial_t u}_{\text{local acceleration}}
+  +
+  \underbrace{(u\cdot\nabla)u}_{\text{nonlinear transport}}
+  =
+  \underbrace{-\nabla p}_{\text{pressure}}
+  +
+  \underbrace{\nu\Delta u}_{\text{viscous diffusion}}.
+\]
+The central regularity problem lies in the competition between nonlinear transport and viscosity.
+The hope is simple: viscosity smooths the fluid faster than nonlinear transport can sharpen it.
+If that remains true at every scale, the velocity stays smooth.
+
+\subsection{Vortex Stretching}\label{sub:ThePerfectlyStretchingVortex}
+
+The surrounding flow pulls a narrow vortex outward along its axis.
+On a short material segment where the strain is spatially uniform, let \(e(t)\) be its instantaneous unit tangent, aligned with a positive strain direction:
+\[
+  S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr),
+  \qquad
+  Se(t)=\sigma(t)e(t),
+  \qquad
+  \sigma(t)>0.
+\]
+The material-line law gives its length \(L(t)\) by
+\[
+  \frac{\dot L(t)}{L(t)}
+  =
+  e(t)\cdot Se(t)
+  =
+  \sigma(t).
+\]
+The vortex lengthens.
+But it is the same incompressible fluid.
+Its material volume \(\mathcal V\) cannot change.
+The effective cross-sectional area \(A(t):=\mathcal V/L(t)\) and effective radius \(r_{\mathrm{eff}}(t):=\sqrt{A(t)/\pi}\) then satisfy
+\[
+  \nabla\cdot u=0,
+  \qquad
+  \frac{d}{dt}(A L)=0,
+  \qquad
+  \frac{\dot A}{A}=-\sigma(t),
+  \qquad
+  \frac{\dot r_{\mathrm{eff}}}{r_{\mathrm{eff}}}
+  =
+  -\frac{\sigma(t)}{2}.
+\]
+As the length grows, the effective cross-section falls.
+The vortex becomes narrower.
+
+The same axial strain acts on the rotation carried by the vortex.
+With \(\omega:=\nabla\times u\),
+\[
+  \frac{D\omega}{Dt}
+  =
+  S\omega+\nu\Delta\omega,
+  \qquad
+  \frac{D}{Dt}
+  :=
+  \partial_t+u\cdot\nabla.
+\]
+When the vorticity along the tracked trajectory remains aligned with the tangent, \(\omega=|\omega|e(t)\),
+\[
+  S\omega
+  =
+  \sigma(t)\omega,
+  \qquad
+  \frac12\frac{D|\omega|^2}{Dt}
+  =
+  \sigma(t)|\omega|^2
+  +
+  \nu\,\omega\cdot\Delta\omega.
+\]
+Stretching contributes the positive term \(\sigma(t)|\omega|^2\).
+The viscous term has no fixed sign at an individual point; if viscosity is to stop the amplification there, it must offset that positive term.
+When their sum remains positive along the material trajectory, \(|\omega|\) grows while \(r_{\mathrm{eff}}\) falls.
+The kinetic-energy identity from \Cref{prop:ClassicalKineticEnergyIdentity} can keep the global energy finite at the same time:
+\[
+\begin{aligned}
+  \norm{u(t)}_2
+  &\leq
+  \norm{u_0}_2
+  <
+  \infty,
+  \\
+  \frac{|\omega|}{\sqrt2}
+  &=
+  \left|\frac12\bigl(\nabla u-(\nabla u)^{\mathsf T}\bigr)\right|_{\mathrm F}
+  \leq
+  |\nabla u|_{\mathrm F},
+  \\
+  \frac{D}{Dt}
+  \left|\frac12\bigl(\nabla u-(\nabla u)^{\mathsf T}\bigr)\right|_{\mathrm F}
+  &>
+  0.
+\end{aligned}
+\]
+The gradients carrying the rotation rise.
+
+\divider{\NavierStokes{} Scaling}
+
+The radius is falling while stretching and viscosity are still competing over the same rotation.
+At a time \(t_0<T_*\), write \(\ell:=r_{\mathrm{eff}}(t_0)\).
+For \(\lambda>1\), the exact \NavierStokes{} comparison at width \(\lambda^{-1}\ell\) is
+\[
+  u_\lambda(x,t)
+  :=
+  \lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)
+  :=
+  \lambda^2p(\lambda x,\lambda^2t).
+\]
+At time \(\lambda^{-2}t_0\), the corresponding element in \(u_\lambda\) has effective radius \(\lambda^{-1}\ell\).
+This is another solution at another scale, not a later state of the original vortex.
+Each momentum term transforms with it:
+\[
+\begin{aligned}
+  \partial_tu_\lambda(x,t)
+  &=
+  \lambda^3(\partial_tu)(\lambda x,\lambda^2t),
+  \\
+  (u_\lambda\cdot\nabla)u_\lambda(x,t)
+  &=
+  \lambda^3\bigl((u\cdot\nabla)u\bigr)(\lambda x,\lambda^2t),
+  \\
+  \nabla p_\lambda(x,t)
+  &=
+  \lambda^3(\nabla p)(\lambda x,\lambda^2t),
+  \\
+  \nu\Delta u_\lambda(x,t)
+  &=
+  \lambda^3\nu(\Delta u)(\lambda x,\lambda^2t).
+\end{aligned}
+\]
+Every term gains the same \(\lambda^3\).
+At the finer width viscosity is stronger, but nonlinear sharpening is stronger by exactly the same factor.
+The comparison has given viscosity no relative advantage.
+
+\divider{Critical Height}
+
+That tie leaves one Sobolev height untouched.
+With \(\Lambda:=(-\Delta)^{1/2}\),
+\[
+  \widehat{u_\lambda}(\xi,t)
+  =
+  \lambda^{-2}\widehat u(\lambda^{-1}\xi,\lambda^2t),
+\]
+and a change of variables gives
+\[
+  \norm{u_\lambda(t)}_{\dot H^s}^2
+  =
+  \lambda^{2s-1}
+  \norm{u(\lambda^2t)}_{\dot H^s}^2.
+\]
+At \(s=0\), concentration lowers kinetic energy.
+At \(s=1\), it raises the first-derivative norm.
+Between them, the exponent vanishes at \(s=\tfrac12\).
+Set
+\[
+  H(t)
+  :=
+  \frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =
+  \frac12\norm{\Lambda^{1/2}u(t)}_2^2.
+\]
+Writing \(H_\lambda\) for the same quantity evaluated on \(u_\lambda\),
+\[
+  \norm{u_\lambda(t)}_2^2
+  =
+  \lambda^{-1}\norm{u(\lambda^2t)}_2^2,
+  \qquad
+  H_\lambda(t)=H(\lambda^2t),
+  \qquad
+  \norm{\nabla u_\lambda(t)}_2^2
+  =
+  \lambda\norm{\nabla u(\lambda^2t)}_2^2.
+\]
+The comparison can move the structure to a finer width, but it cannot move \(H\).
+
+\divider{Nonlinear Production versus Viscous Dissipation}
+
+If \(H\) rises, the original equation has done it.
+Its signed nonlinear contribution is
+\[
+  \mathcal P_{1/2}[u](t)
+  :=
+  -\operatorname{Re}
+  \pair
+    {\Lambda^{1/2}u(t)}
+    {\Lambda^{1/2}\bigl((u(t)\cdot\nabla)u(t)\bigr)}_{L^2}.
+\]
+The pressure pairing vanishes because \(\nabla\cdot u=0\), and the Laplacian contributes \(-\nu\norm{\Lambda^{3/2}u}_2^2\), leaving
+\[
+  H'(t)
+  +
+  \nu\norm{\Lambda^{3/2}u(t)}_2^2
+  =
+  \mathcal P_{1/2}[u](t).
+\]
+The vortex problem now has an exact form: the height rises only when nonlinear production exceeds viscous dissipation.
+Under the same rescaling,
+\[
+  \mathcal P_{1/2}[u_\lambda](t)
+  =
+  \lambda^2\mathcal P_{1/2}[u](\lambda^2t),
+  \qquad
+  \nu\norm{\Lambda^{3/2}u_\lambda(t)}_2^2
+  =
+  \lambda^2\nu\norm{\Lambda^{3/2}u(\lambda^2t)}_2^2.
+\]
+Production and dissipation again gain the same power.
+Their common \(\lambda^2\) has moved the unresolved contest onto the shortened time coordinate \(t\mapsto\lambda^{-2}t\).
+
+\divider{The Heat Clock}
+
+Viscosity carries its own version of that contracted clock.
+For the linear heat equation \(v_t=\nu\Delta v\),
+\[
+  \widehat v(\xi,t+\delta t)
+  =
+  e^{-\nu|\xi|^2\delta t}\widehat v(\xi,t).
+\]
+A scale-localized structure of width \(r\) occupies frequencies \(|\xi|\simeq r^{-1}\).
+Its viscous change becomes order one when
+\[
+  \nu|\xi|^2\delta t\simeq1,
+\]
+so the linear comparison time is
+\[
+  \tau_\nu(r)
+  :=
+  \frac{r^2}{\nu}.
+\]
+At width \(\lambda^{-1}r\),
+\[
+  \tau_\nu(\lambda^{-1}r)
+  =
+  \lambda^{-2}\tau_\nu(r).
+\]
+The finer comparison has not strengthened viscosity relative to sharpening.
+It has shortened the clock for both by the same square.
+
+\divider{The Zeno Cascade}
+
+Repeated halving makes those clocks a geometric sequence.
+For
+\[
+  r_n:=2^{-n}r_0,
+  \qquad
+  \tau_n:=\frac{r_n^2}{\nu},
+\]
+the comparison clocks satisfy
+\[
+  \tau_n
+  =
+  \frac{r_0^2}{\nu}4^{-n},
+  \qquad
+  \sum_{n=0}^{\infty}\tau_n
+  =
+  \frac{4r_0^2}{3\nu}
+  <
+  \infty.
+\]
+The clocks are summable.
+That arithmetic leaves room for infinitely many finer comparisons before a finite time, but it does not turn them into one fluid history.
+For these clocks to describe a candidate singularity, one \NavierStokes{} solution would have to pass through widths
+\[
+  r_0>r_1>r_2>\cdots\longrightarrow0
+\]
+at times satisfying the additional schedule
+\[
+  t_0<t_1<t_2<\cdots\uparrow T_*<\infty,
+  \qquad
+  t_{n+1}-t_n\asymp\tau_n,
+\]
+with comparison constants independent of \(n\).
+Under that hypothesis, the remaining time is
+\[
+  T_*-t_n
+  \asymp
+  \sum_{k=n}^{\infty}\tau_k
+  =
+  \frac{4r_n^2}{3\nu}.
+\]
+At the \(n\)-th width, both the next transition and the total time left are of order \(r_n^2/\nu\).
+The same velocity field would have to change across intervals that collapse to zero with its spatial scale.

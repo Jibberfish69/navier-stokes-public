@@ -1,0 +1,52 @@
+{
+  "schema_version": 2,
+  "review_kind": "cold_reader",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/critic-packet-v9.json",
+    "sha256": "91b593fc6afd4bf8ac6ff27a22b7bf9028d662ff23f5b93d5331e6cd94853ab6"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/draft-v9.tex",
+    "sha256": "262b98f093ea754f6a148d86bbe9bf566d78ee2edaa90bbc86b4bf1d01bf267c"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v9/page-1.png",
+      "sha256": "a6934fe1cd037ba1d85bd1c4acec59ea07e293d92223c7788839d82626cdf55e"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v9/page-2.png",
+      "sha256": "e12263d6b966999985459168cc6ca7efd327f78f7146e29bf3c6f6f93f44f57c"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v9/page-3.png",
+      "sha256": "d0b40f34e1de51119b287082b56fbefedde070b61fc03124d555568161032df7"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v9/page-4.png",
+      "sha256": "33bdefac0479c30b986be33f1868440ea96c9b7d7155f705d8667482a23654f5"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v9/page-5.png",
+      "sha256": "21f1f5112dbaf6e671a78999372461a544565b34b7ac027c4ded2f385b1feb68"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f5d-e8a2-74b3-8370-5319200aae91/how-proof-works-rewrite/render-v9/page-6.png",
+      "sha256": "b6978280c845f58995097e47e8cd883ebd9c64b2ecce0684db5194cb30f95f68"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/cold_reader_v9",
+    "task_name": "cold_reader_v9",
+    "isolation": "fork_none",
+    "request_nonce": "85ee112381fec1b41f03d3438e97512f3b714ff6912a7dba"
+  },
+  "decision": {
+    "verdict": "fail",
+    "first_divergence": {
+      "exact_span": "If the velocity change across that core does not fall just\nas quickly, then\n\\[\n|\\nabla u|\\sim\\frac{|\\Delta U|}{\\ell}\n\\]\ngrows as the radius \\(\\ell\\) shrinks.",
+      "mechanism": "At draft-v9.tex lines 32-37, the reader has axial stretching and transverse contraction but has not yet seen the faster rotation produced inside the narrowing core. The conditional supplies an unexplained assumption on the velocity contrast, so the gradient display enters before its physical cause has been developed. Faster rotation arrives later at lines 53-55, after sharpening has already been declared. This reverses the thinning, faster-spin, sharper-gradient movement carried by the direct-origin pasted-text.txt locator and the accepted passage at session line 2030.",
+      "repair_constraint": "Rebuild the assistant-written vortex movement from contraction through the supplied faster-spin step to the gradient consequence. Preserve Thomas's physical idea, order, emphasis, and claim force; do not remove faster spin or replace it with an unexplained conditional. Keep viscous diffusion active. Any conflict between that supplied idea and proof authority belongs to the separate proof check, not to a critic-authored weakening."
+    }
+  }
+}

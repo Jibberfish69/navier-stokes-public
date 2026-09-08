@@ -14,7 +14,7 @@ Here \(d\Omega_N^{PLS}\) is the full participation-law--strain service clock on 
 
 ## Installed pieces used
 
-1. The live carrier is the participation-law--strain interface. Pressure/RHS, Hodge/Stokes projection, coefficient motion, transported collar motion, Cauchy stress, viscosity, incompressibility, velocity, and strain are coordinates of one material participation law.
+1. The live carrier is the participation-law--strain interface. Pressure/RHS, Helmholtz--Leray/Stokes projection, coefficient motion, transported collar motion, Cauchy stress, viscosity, incompressibility, velocity, and strain are coordinates of one material participation law.
 
 2. PLS recirculation is closed: oscillatory back-and-forth service is bounded by bounded-record packing, high-shell viscosity, top-strain/superheat cost, legal residual, or top-frequency no-free-regeneration payment.
 

@@ -1,0 +1,23 @@
+\divider{Definitions}
+
+\begin{definition}[Smoothness]\label{def:Smoothness}
+A velocity\textendash pressure pair \((u,p)\) is smooth through a finite time \(T>0\) when \(u\) and \(p\) belong to \(C^\infty\) on the chosen spatial domain for \(0\leq t\leq T\).
+This means that every mixed spatial and temporal derivative of finite order exists and is continuous through \(T\).
+It is smooth for all time if this holds for every finite \(T>0\).
+\end{definition}
+
+\begin{definition}[Continuation]\label{def:Continuation}
+Suppose \((u,p)\) is a solution through time \(T\) in a regularity class \(X\).
+A continuation of \((u,p)\) past \(T\) in \(X\) is a solution \((\widetilde u,\widetilde p)\) on the same spatial domain for \(0\leq t\leq T+\varepsilon\), for some \(\varepsilon>0\), that belongs to \(X\) and agrees with \((u,p)\) for \(0\leq t\leq T\).
+For the Clay problem, \(X=C^\infty\), so continuation carries the same smooth solution past \(T\) while keeping every finite mixed derivative continuous.
+\end{definition}
+
+\begin{definition}[Regularity]\label{def:Regularity}
+For \(k\in\mathbb N_0\), a velocity\textendash pressure pair \((u,p)\) has regularity \(C^k\) through time \(T\) if every mixed spatial and temporal derivative of \(u\) and \(p\) of total order at most \(k\) exists and is continuous on the chosen spatial domain for \(0\leq t\leq T\).
+Smoothness is the all-orders case: \((u,p)\) has \(C^\infty\) regularity through \(T\) exactly when it has \(C^k\) regularity through \(T\) for every finite \(k\).
+\end{definition}
+
+In short, regularity is what the solution has, smoothness is the all-orders regularity required here, and continuation is carrying that solution forward in time.
+
+The required regularity is lost at a finite time \(T\) if any component of the velocity\textendash pressure pair or any one of its mixed derivatives becomes unbounded as \(t\uparrow T\) or fails to extend continuously to \(T\).
+For the Clay problem, that loss rules out continuation past \(T\) in \(C^\infty\).

@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "review_kind": "proof_reverse",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/critic-packet-v3.json",
+    "sha256": "20cae47960143993fd66c457ccccfa574e0515011988d6387f2eda7057c382c7"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/draft-v3.tex",
+    "sha256": "163c7b3db31d579b69ce8d3dde404446f8430db26c63f05bdfc1295b465db550"
+  },
+  "render": [],
+  "reviewer": {
+    "agent_path": "/root/proof_reverse_v3",
+    "task_name": "Reverse proof audit of draft-v3.tex",
+    "isolation": "fork_none",
+    "request_nonce": "6feb489a6a659cacbdfb7a8713f5d485e1efa61890b54775"
+  },
+  "decision": {
+    "verdict": "fail",
+    "first_divergence": {
+      "exact_span": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/draft-v3.tex:341-355, specifically the strict condition at line 343 and the m=1 to L_t^infinity L_x^6 claim at lines 353-355.",
+      "mechanism": "The displayed readout requires m > k + 3/2 - 3/p. For k=0 and p=6 this becomes m>1, so m=1 cannot yield the listed L_t^infinity L_x^6 bound through that condition. The endpoint embedding H^1(R^3) into L^6(R^3) is valid, but the candidate does not state that endpoint exception or give a condition that includes it. The first listed post-intersection example is unsupported by its displayed predicate.",
+      "repair_constraint": "Keep the mixed intersection upstream. Either state H^1(R^3) into L^6(R^3) as a separate endpoint readout before the strict condition, or use m=2 for the L^6 readout under the displayed strict condition. Do not change the rectangle, compatibility, endpoint-trace, terminal-jet, restart, or continuation order."
+    }
+  }
+}

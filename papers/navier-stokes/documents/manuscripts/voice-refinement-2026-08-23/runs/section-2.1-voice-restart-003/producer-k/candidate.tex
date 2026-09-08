@@ -1,0 +1,271 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.1 Vortex Stretching
+% ============================================================
+
+The momentum equation has four pieces:
+\[
+  \underbrace{\partial_t u}_{\text{local acceleration}}
+  +
+  \underbrace{(u\cdot\nabla)u}_{\text{nonlinear transport}}
+  =
+  \underbrace{-\nabla p}_{\text{pressure}}
+  +
+  \underbrace{\nu\Delta u}_{\text{viscous diffusion}}.
+\]
+The central regularity problem lies in the competition between nonlinear transport and viscosity.
+The hope is simple: viscosity smooths the fluid faster than nonlinear transport can sharpen it.
+If that remains true at every scale, the velocity stays smooth.
+
+\subsection{Vortex Stretching}\label{sub:ThePerfectlyStretchingVortex}
+
+A material vortex segment moves with the velocity field that deforms it.
+The symmetric part of the velocity gradient,
+\[
+  S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr),
+\]
+acts on the segment's axial direction \(e\).
+If \(L(t)\) is its length and the axial strain has positive rate \(\sigma(t)\), then
+\[
+  Se=\sigma(t)e,
+  \qquad
+  \sigma(t)>0,
+  \qquad
+  \frac{\dot L(t)}{L(t)}
+  =
+  e\cdot Se
+  =
+  \sigma(t).
+\]
+The segment lengthens without acquiring new material.
+Its material volume \(\mathcal V\) stays fixed, so with \(A(t):=\mathcal V/L(t)\) and \(r_{\mathrm{eff}}(t):=\sqrt{A(t)/\pi}\), incompressibility gives
+\[
+  \nabla\cdot u=0,
+  \qquad
+  \frac{d}{dt}(A L)=0,
+  \qquad
+  \frac{\dot A}{A}=-\sigma(t),
+  \qquad
+  \frac{\dot r_{\mathrm{eff}}}{r_{\mathrm{eff}}}
+  =
+  -\frac{\sigma(t)}{2}.
+\]
+The axial extension closes the cross-section around the same rotating fluid.
+Its rotation is \(\omega:=\nabla\times u\), and along that moving segment it obeys
+\[
+  \frac{D\omega}{Dt}
+  =
+  S\omega+\nu\Delta\omega,
+  \qquad
+  \frac{D}{Dt}
+  :=
+  \partial_t+u\cdot\nabla,
+\]
+while alignment with the stretching direction, \(\omega=|\omega|e\), brings the axial strain into its magnitude with the same positive rate:
+\[
+  S\omega
+  =
+  \sigma(t)\omega,
+  \qquad
+  \frac12\frac{D|\omega|^2}{Dt}
+  =
+  \sigma(t)|\omega|^2
+  +
+  \nu\,\omega\cdot\Delta\omega.
+\]
+Diffusion shares this balance, so the rotation strengthens only where the complete right-hand side remains positive.
+On such an interval, bounded speed on the fixed-volume segment can leave its kinetic energy finite while vorticity enters the velocity gradient:
+\[
+  E_{\mathrm{seg}}(t)
+  :=
+  \frac12\int_{\Omega_{\mathrm{seg}}(t)}|u(x,t)|^2\,dx
+  \leq
+  \frac12U_0^2\mathcal V
+  <
+  \infty,
+  \qquad
+  \left|\frac12\bigl(\nabla u-(\nabla u)^{\mathsf T}\bigr)\right|_{\mathrm F}
+  =
+  \frac{|\omega|}{\sqrt2}
+  \leq
+  |\nabla u|_{\mathrm F}.
+\]
+The gradients rise.
+
+\divider{\NavierStokes{} Scaling}
+
+The narrowing has made width an active variable.
+At a fixed time \(t_0\), set \(\ell:=r_{\mathrm{eff}}(t_0)\).
+For \(\lambda>1\), the equation's exact finer-scale comparison is
+\[
+  u_\lambda(x,t)
+  :=
+  \lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)
+  :=
+  \lambda^2p(\lambda x,\lambda^2t).
+\]
+At time \(\lambda^{-2}t_0\), its width is \(\lambda^{-1}\ell\), while differentiation gives
+\[
+\begin{aligned}
+  \partial_tu_\lambda(x,t)
+  &=
+  \lambda^3(\partial_tu)(\lambda x,\lambda^2t),
+  \\
+  (u_\lambda\cdot\nabla)u_\lambda(x,t)
+  &=
+  \lambda^3\bigl((u\cdot\nabla)u\bigr)(\lambda x,\lambda^2t),
+  \\
+  \nabla p_\lambda(x,t)
+  &=
+  \lambda^3(\nabla p)(\lambda x,\lambda^2t),
+  \\
+  \nu\Delta u_\lambda(x,t)
+  &=
+  \lambda^3\nu(\Delta u)(\lambda x,\lambda^2t).
+\end{aligned}
+\]
+The common \(\lambda^3\) leaves viscosity no advantage over nonlinear sharpening at the narrower scale.
+
+\divider{Critical Height}
+
+Severity therefore needs a measure that does not grow merely because the width has changed.
+With \(\Lambda:=(-\Delta)^{1/2}\), the homogeneous Sobolev height transforms by
+\[
+  \norm{u_\lambda(t)}_{\dot H^s}^2
+  =
+  \lambda^{2s-1}
+  \norm{u(\lambda^2t)}_{\dot H^s}^2.
+\]
+Scale leaves the measurement unchanged only at \(s=\tfrac12\).
+At that height set
+\[
+  H(t)
+  :=
+  \frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =
+  \frac12\norm{\Lambda^{1/2}u(t)}_2^2.
+\]
+The energy below and the first-derivative energy above move in opposite directions under the same refinement:
+\[
+  \norm{u_\lambda(t)}_2^2
+  =
+  \lambda^{-1}\norm{u(\lambda^2t)}_2^2,
+  \qquad
+  H_\lambda(t)=H(\lambda^2t),
+  \qquad
+  \norm{\nabla u_\lambda(t)}_2^2
+  =
+  \lambda\norm{\nabla u(\lambda^2t)}_2^2.
+\]
+Because the critical height is stationary while its neighboring levels separate, its motion along the original solution must come from the equation.
+
+\divider{Nonlinear Production versus Viscous Dissipation}
+
+Differentiate \(H\) along that solution by applying \(\Lambda^{1/2}\) to the momentum equation and pairing with \(\Lambda^{1/2}u\).
+The signed nonlinear contribution is
+\[
+  \mathcal P_{1/2}(t)
+  :=
+  -\operatorname{Re}
+  \pair
+    {\Lambda^{1/2}u(t)}
+    {\Lambda^{1/2}\bigl((u(t)\cdot\nabla)u(t)\bigr)}_{L^2}.
+\]
+Incompressibility removes the pressure pairing, and the Laplacian contributes \(-\nu\norm{\Lambda^{3/2}u}_2^2\), leaving
+\[
+  H'(t)
+  +
+  \nu\norm{\Lambda^{3/2}u(t)}_2^2
+  =
+  \mathcal P_{1/2}(t).
+\]
+The opening competition is now exact: the height rises precisely when nonlinear production exceeds viscous dissipation.
+Refinement acts on both sides of that contest by
+\[
+  \mathcal P_{1/2}[u_\lambda](t)
+  =
+  \lambda^2\mathcal P_{1/2}[u](\lambda^2t),
+  \qquad
+  \nu\norm{\Lambda^{3/2}u_\lambda(t)}_2^2
+  =
+  \lambda^2\nu\norm{\Lambda^{3/2}u(\lambda^2t)}_2^2.
+\]
+Their equality of scale persists, but the argument \(\lambda^2t\) places the finer comparison on a time interval shorter by \(\lambda^{-2}\).
+
+\divider{The Heat Clock}
+
+Viscosity already carries this shorter clock.
+For the heat equation \(v_t=\nu\Delta v\),
+\[
+  \widehat v(\xi,t+\delta t)
+  =
+  e^{-\nu|\xi|^2\delta t}\widehat v(\xi,t).
+\]
+At width \(r\), the active frequencies have \(|\xi|\simeq r^{-1}\), so order-one diffusion occurs on the time
+\[
+  \tau_\nu(r)
+  :=
+  \frac{r^2}{\nu}.
+\]
+Narrowing the width by \(\lambda^{-1}\) gives
+\[
+  \tau_\nu(\lambda^{-1}r)
+  =
+  \lambda^{-2}\tau_\nu(r),
+\]
+which is the same contraction carried by the time coordinate of the full equation.
+The clock belongs to viscosity's response at a given width; the material history must still reach that width.
+If its narrowing continues, each new spatial scale arrives with a quadratically shorter duration.
+
+\divider{The Zeno Cascade}
+
+Let the same material segment continue through the geometric widths and their viscous clocks,
+\[
+  r_n:=2^{-n}r_0,
+  \qquad
+  \tau_n:=\frac{r_n^2}{\nu},
+\]
+so these clock lengths contract geometrically and have finite total length:
+\[
+  \tau_n
+  =
+  \frac{r_0^2}{\nu}4^{-n},
+  \qquad
+  \sum_{n=0}^{\infty}\tau_n
+  =
+  \frac{4r_0^2}{3\nu}
+  <
+  \infty.
+\]
+If the segment realizes those widths along its one history, they satisfy
+\[
+  r_0>r_1>r_2>\cdots\longrightarrow0
+\]
+at successive passage times
+\[
+  t_0<t_1<t_2<\cdots\uparrow T_*<\infty,
+  \qquad
+  t_{n+1}-t_n\asymp\tau_n,
+\]
+with constants that do not change with \(n\).
+The time left after the \(n\)-th passage is then
+\[
+  T_*-t_n
+  \asymp
+  \sum_{k=n}^{\infty}\tau_k
+  =
+  \frac{4r_n^2}{3\nu}.
+\]
+One material history has crossed infinitely many scales before \(T_*\).
+The finite clock does not itself force a loss of regularity; it removes infinite time as the obstruction.
+
+If that same solution loses continuation at \(T_*\) through blow-up in one fixed continuation-controlling Banach space \(B\), none of its finite temporal responses can remain uniformly bounded in \(B\).
+Indeed, a bound for any \(\partial_t^N u\) on \([t_0,T_*)\), with \(N\geq1\), integrates over the finite interval to a bound for \(\partial_t^{N-1}u\).
+Repeating the integration reaches \(u\) itself and contradicts the assumed blow-up.
+Thus blow-up of \(u\) forces loss of uniform \(B\)-control at every finite temporal order.
+
+The \NavierStokes{} equation generates those rows from that same velocity.
+Its momentum balance determines \(\partial_tu\); each further time derivative distributes across the nonlinear factors by Leibniz's rule and produces the higher response.
+The family \(u,\partial_tu,\partial_t^2u,\ldots\) is the temporal Tower.

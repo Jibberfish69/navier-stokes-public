@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "review_kind": "proof_reverse",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/critic-packet-v5.json",
+    "sha256": "82b33833f83b6efdad3f904c8b6432752950ff344cc785551308056d61ca2302"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/draft-v5.tex",
+    "sha256": "8300fb75c33c2fcee0bf4e8359785073797c4d8d821cfda4318675f9aba8156e"
+  },
+  "render": [],
+  "reviewer": {
+    "agent_path": "/root/proof_reverse_v5",
+    "task_name": "proof_reverse_v5",
+    "isolation": "fork_none",
+    "request_nonce": "ef280875f0e6912414e462072f60d39959cc8a0f"
+  },
+  "decision": {
+    "verdict": "fail",
+    "first_divergence": {
+      "exact_span": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/tmp/how-proof-works-rewrite-20260901/draft-v5.tex:313: The whole-terminal rectangle theorem proves the required bound:",
+      "mechanism": "Tracing backward from continuation, restart from the common H-infinity terminal trace, the Hilbert-pair trace, and the compatible mixed intersection are supported. The first unpaid premise is applicability of the cutoff-uniform rectangle theorem. The listed authority workspaces/VSC-workspaces/navier-stokes/Section3-IntersectionTheorem/3.4-TheIntersectionTheorem.tex:5-13 assumes u_0 in \\Ssigma and nu > 0. This standalone candidate introduces a fluid that starts smooth and later a smooth datum, but never imposes the theorem's datum class. Smoothness, even with finite kinetic energy, does not imply all global Sobolev norms or all initial temporal-response L3 norms are finite. The source theorem cannot be invoked for that broader description. This is an omitted-hypothesis gap in the draft, not a challenge to the cited datum theorem.",
+      "repair_constraint": "State the source theorem's initial-data class and fixed positive viscosity before using its consequences, and make the prose claim cover exactly that class. Retain the finite N,M-before-cutoff quantifier, pressure-complete recurrence, compatible history, common terminal trace, and restart order. Do not add a new proof prerequisite or replace the established rectangle theorem. The corrected datum statement must also license the initial-response finiteness asserted at lines 216-221."
+    }
+  }
+}

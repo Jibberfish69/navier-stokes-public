@@ -1,0 +1,20 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% Section 3 -- The Compatible Intersection at the Terminal Time
+% ============================================================
+
+\section{The Compatible Intersection at the Terminal Time}\label{sec:TheCompatibleIntersectionAtTheTerminalTime}
+
+The starting input is the whole-terminal rectangle estimate proved in Section~\ref{sec:TheMissingEstimateAndGlobalSmoothness}.
+The first subsection translates that theorem into the finite coordinates developed above; the remaining subsections prove the compatible assembly, common endpoint, normalized jet, and same-history restart from it.
+The tower places every temporal rung beside every spatial row opened by the same pressure-complete history.
+The whole-terminal estimate places every finite rectangle across the alleged terminal interval.
+Compatibility keeps their shared coordinates identical, so the rectangles form one projective family.
+Their intersection reaches one smooth endpoint.
+The pressure-explicit recurrence identifies the terminal jet there, and local uniqueness restarts the original history.
+
+\input{Section3-CompatibleIntersectionClosure/3.1-WholeTerminalCompatibleRectangles.tex}
+\input{Section3-CompatibleIntersectionClosure/3.2-ProjectiveIntersectionAndTheCompleteSpatialRow.tex}
+\input{Section3-CompatibleIntersectionClosure/3.3-TheAdjacentCriticalBlock.tex}
+\input{Section3-CompatibleIntersectionClosure/3.4-TheCommonEndpointAndThePressureCompleteJet.tex}
+\input{Section3-CompatibleIntersectionClosure/3.5-SameHistoryRestart.tex}

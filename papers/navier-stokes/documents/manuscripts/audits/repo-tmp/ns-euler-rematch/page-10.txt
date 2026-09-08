@@ -1,0 +1,50 @@
+initial data. The force term is absent. This paper works on the periodic three-torus T3 , so the fluid
+lives in a periodic box and the whole transported material atlas can be read on a compact domain.
+    The defining properties do not change after t = 0. The viscosity does not become another
+viscosity. The pressure does not become an optional correction. The incompressibility law does not
+acquire a pressure-responsive density variable. The velocity field moves under the same equation:
+
+                             ∂t u + (u · ∇)u + ∇p = ν∆u,         ∇ · u = 0.
+
+Viscosity dissipates velocity differences over time, and pressure keeps the field inside the divergence-
+free constraint. A terminal object that changes these properties has left the problem object.
+
+8.2   Properties of Euler Fluid
+Euler is the useful comparison because it removes the viscous term. It keeps transport and pressure
+and sets the viscosity to zero. That makes slip easier to picture.
+    Imagine one plank sliding over another plank that stays still. As a fluid picture, this is two finite
+incompressible flows with a tangential break between them. Each side has a velocity. The normal
+volume relation can still make sense. The two sides do not form one smooth velocity field across the
+interface. This is the simple slip-sheet picture.
+    In inviscid thinking, that picture is natural. The equation has no viscous tether forcing
+neighboring velocities into one continuous profile. For fixed-viscosity Navier–Stokes, the same picture
+points at the class-membership test. It may look like a velocity field, and the class-membership test
+sees the missing viscous same-field law.
+
+8.3   Viscosity
+Viscosity is often described as damping. That is true. The proof also needs the tethering role of
+viscosity. Viscosity transmits motion between nearby parts of the fluid. It acts like a tether between
+neighboring velocity values. A fast piece pulls on a slow piece, and a slow piece pulls back on a fast
+piece.
+    The Couette-flow picture is the clean version. Two boundary plates move at different speeds.
+The viscous fluid between them forms a smooth velocity gradient. Viscosity turns the plank-slip
+picture into one continuous velocity field.
+    A honey pour gives the same intuition in ordinary life. The honey slows as it folds and piles up,
+yet the falling stream also pulls nearby honey along with it. The stream carries mass and momentum
+through a viscous body. The point for Navier–Stokes is that viscosity damps motion and shares
+motion. It gives neighboring packets a common law of response. A siphon gives the same kind of
+picture: once the moving column is coupled, one part of the motion pulls the next part along.
+
+8.4   Pressure, Viscosity, Incompressibility
+Pressure, viscosity, and incompressibility form one law in the Navier–Stokes class. Incompressibility
+says that a transported material volume keeps its volume. Pressure is the global response that keeps
+the velocity field divergence-free. Viscosity diffuses velocity through ν∆u and couples neighboring
+velocity readings.
+    These three features leave very little freedom for a terminal packet. A packet may be visible
+as a region of space. It may even carry finite velocity values. It still has to take part in the same
+pressure-viscosity law on the same incompressible carrier. This is the participation requirement.
+
+
+
+                                                   10
+

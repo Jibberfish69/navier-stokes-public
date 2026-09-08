@@ -1,0 +1,2206 @@
+                                                                                          κ            κ
+                                                                                                       
+Proof. For λ ⪯ κ, change the summation index from λ to κ − λ and use                     κ−λ       =   λ . This gives
+(136). Apply P to (41). The identities
+                         PJn+1,α = Jn+1,α ,         P∆Jκ = ∆Jκ ,          P∇Πκ = 0
+follow from (42) and the Fourier symbols. They prove (137); equation (138) is (40) in mixed-index
+notation. The pressure formula also shows that projection of the velocity row loses no pressure
+coordinate.
+    If λ ⪯ κ, then a + |β| ≤ n + |α|, which proves lower triangularity in the stated ordering. Finally,
+                                         
+                                          κ
+                                             λ! (κ − λ)! = κ!.
+                                          λ
+Dividing the mixed velocity and pressure rows by κ! proves (140) and (141).
+                                                                       Q The same factorial
+cancellation in each operator block proves (139). Every row has (n + 1) 3j=1 (αj + 1) supported
+blocks, so all displayed row sums are finite.
+
+Proposition 6.2 (Sobolev rectangle matrix and adjacent stencil). For 0 < T < T∗ , N, M ∈ N0 ,
+and m ∈ Z, set
+                               Gn,m (T ) := ∥Vn ∥L2 (0,T ;H m ) ,
+and set
+                          Pn,M (T ) := ∥Qn ∥L1 (0,T ;H M ) + ∥∇Qn ∥L1 (0,T ;H M −1 ) .
+The object matrix of the finite pressure-complete rectangle is
+                                                                                   
+                                            V0 |(0,T ) V1 |(0,T )        Q0 |(0,T )
+                                           V1 |(0,T ) V2 |(0,T )        Q1 |(0,T ) 
+                        RN,M [u0 ; T ] :=                                          .                          (142)
+                                                                                   
+                                                ..         ..                ..
+                                                .          .                 .     
+                                              VN |(0,T ) VN +1 |(0,T ) QN |(0,T )
+The corresponding matrix of the three column norms is
+                                                                                    
+                                    G0,M +1 (T ) G1,M −1 (T )              P0,M (T )
+                                   G1,M +1 (T ) G2,M −1 (T )              P1,M (T ) 
+                   CN,M (T ) :=                                                     .                         (143)
+                                                                                    
+                                          ..          ..                       ..
+                                          .           .                        .    
+                                        GN,M +1 (T ) GN +1,M −1 (T ) PN,M (T )
+If GN,M (T ) denotes its first two columns, then
+                                                           N
+                                                           X
+                    ∥GN,M (T )∥2F = RN,M (u; T ),                Pn,M (T ) = QN,M (p; T ).                      (144)
+                                                           n=0
+
+For each 0 ≤ n ≤ N , the first two entries in row n form the adjacent Hilbert-scale stencil
+          (n, M + 1) : Vn ∈ L2 (0, T ; H M +1 ),
+                                                       
+                                                         −→ (n, M ) : Vn ∈ C([0, T ]; H M ). (145)
+   (n + 1, M − 1) : Vn+1 = ∂t Vn ∈ L2 (0, T ; H M −1 )
+For every m ∈ N0 , the Sobolev matrix measures the mixed-index array through the exact identity
+                                     X        m!
+                        Gn,m (T )2 =                    ∥Jn,α ∥2L2 ((0,T )×R3 ) .           (146)
+                                        3
+                                          (m − |α|)! α!
+                                          α∈N0
+                                         |α|≤m
+
+The pressure entry in row n is Qn = Πn,0 , and its spatial rows ∂xα Qn = Πn,α are fixed by (138).
+
+                                                      35
+Proof. The object matrix is the tuple in Definition 4.5, arranged by temporal row. The two identities
+in (144) are (71) and (72). Lemma 2.7 gives (145). Finally, Plancherel and
+                                                     X       m!
+                                  (1 + |ξ|2 )m =                       ξ 2α
+                                                       3
+                                                         (m − |α|)! α!
+                                                    α∈N0
+                                                   |α|≤m
+
+give (146). The pressure claims follow from the definitions of Qn , Πn,α and (138).
+
+Proposition 6.3 (Whole-terminal closed estimate matrix). Under the hypotheses of Theorem 4.6,
+fix N, M ∈ N0 and set
+
+                            an,M := ∥Vn ∥L2 (0,T∗ ;H M +1 ) ,
+                             bn,M := ∥Vn+1 ∥L2 (0,T∗ ;H M −1 ) ,       0 ≤ n ≤ N.                (147)
+
+Define entrywise order on nonnegative matrices by A ⪯ent B when Aij ≤ Bij for every entry. Then,
+for every 0 < T < T∗ ,                                          
+                                                      a0,M b0,M
+                                                     a1,M b1,M 
+                            GN,M (T ) ⪯ent G∗N,M :=  .       ..  .                       (148)
+                                                                
+                                                     ..       . 
+                                                                aN,M    bN,M
+Moreover,
+
+               RN,M (u; T ) = ∥GN,M (T )∥2F
+                                               N
+                                       2
+                                               X
+                                 G∗N,M F =           a2n,M + b2n,M = R∗N,M [u0 , ν, T∗ ] < ∞.
+                                                                  
+                             ≤                                                                   (149)
+                                               n=0
+
+Proof. Proposition 4.7 makes every an,M and bn,M finite. Restriction from (0, T∗ ) to (0, T ) decreases
+each nonnegative coordinate norm and gives (148). Taking Frobenius norms and using (144) together
+with (75) proves (149).
+
+
+7     Quantitative consequences of the compatible rectangles
+7.1   Completion in the global H 1 mild class
+The construction begins with every datum in Hσ∞ (R3 ), not only with Schwartz data. Parabolic
+smoothing now transfers that result to the full strong H 1 class.
+
+Theorem 7.1 (Global H 1 completion). Let ν > 0 and a ∈ Hσ1 (R3 ). There is a unique pressure-
+normalized mild solution
+
+                 ua ∈ C([0, ∞); Hσ1 ) ∩ L2loc ([0, ∞); Hσ2 ),        ua ∈ C ∞ ((0, ∞) × R3 ),    (150)
+
+of the three-dimensional Navier–Stokes equations with datum a and viscosity ν. Its pressure is
+
+                                             pa = Ri Rj (uai uaj )
+
+in distributions. The solution obeys the kinetic-energy identity on every finite interval.
+
+
+                                                      36
+Proof. Write
+                                                                      27
+                   Y (t) := ∥∇u(t)∥22 ,         Z(t) := ∥∆u(t)∥22 ,      S(6)6 .   c1 :=
+                                                                      16
+For a smooth solenoidal approximation, the L2 pairing of the projected equation with −∆u gives
+                                 1 ′
+                                   Y (t) + νZ(t) = Re ⟨(u · ∇)u, ∆u⟩L2 .                             (151)
+                                 2
+The explicit three-dimensional Sobolev inequality and interpolation give
+
+                            ∥u∥6 ≤ S(6)Y 1/2 ,          ∥∇u∥3 ≤ S(6)1/2 Y 1/4 Z 1/4 .
+
+Consequently,
+                                                                             ν    27S(6)6 3
+                     |⟨(u · ∇)u, ∆u⟩L2 | ≤ S(6)3/2 Y 3/4 Z 3/4 ≤               Z+        Y ,
+                                                                             2     32ν 3
+and hence
+                                       Y ′ (t) + νZ(t) ≤ c1 ν −3 Y (t)3 .                            (152)
+   Comparison with y ′ = c1 ν −3 y 3 shows that
+                                                              Y (0)
+                                      Y (t) ≤                               1/2                     (153)
+                                                 1 − 2c1 ν −3 Y (0)2 t
+
+while the denominator is positive.
+   The estimate holds on the explicit lifespan
+                                            (                        )
+                                                          ν3
+                                 τν (a) := min 1,                       ,
+                                                  4c1 (1 + ∥∇a∥22 )2
+                                                                                                     (154)
+                                            √            Z τν (a)
+                              sup Y (t) ≤ 2Y (0),                 Z(t) dt < ∞.
+                         0≤t≤τν (a)                                   0
+
+   Let Jk be the orthogonal Fourier projection to {|ξ| ≤ k}. On the range of Jk , the regularized
+problem
+                  ∂t u(k) − ν∆u(k) = −Jk P∇· (u(k) ⊗ u(k) ),  u(k) (0) = Jk a,              (155)
+is a Banach-space ordinary differential equation in Hσ1 .                 Indeed, if
+
+                                         Nk (z) := Jk P∇· (z ⊗ z),
+
+then the Bernstein inequalities on the range of Jk give
+                                                         
+                ∥Nk (z) − Nk (y)∥H 1 ≤ Ck ∥z∥H 1 + ∥y∥H 1 ∥z − y∥H 1 ,                     Ck < ∞.   (156)
+
+ Picard’s theorem supplies a maximal trajectory. The projection is self-adjoint and commutes with
+P, ∇, and ∆, so the kinetic identity holds along that trajectory. Since
+
+                                 ∥z∥2H 1 ≤ (1 + k 2 ) ∥z∥22               (z = Jk z),                (157)
+
+the kinetic identity and the Banach-space continuation criterion extend the trajectory for all positive
+times. Estimate (152) holds for u(k) , with constants independent of k. Equations (153)– (154) give
+                                                                      
+                               (k)                    (k)
+                        sup u       ∞          1
+                                                 + u       2         2
+                                                                         < ∞.                    (158)
+                        k             L (0,τν (a);H )                 L (0,τν (a);H )
+
+
+                                                         37
+ The nonlinear estimate
+
+                                ∥P∇· (u ⊗ u)∥2 ≤ ∥u∥6 ∥∇u∥3 ≤ S(6)3/2 Y 3/4 Z 1/4 ,
+
+shows that the regularized nonlinear terms are bounded in L2 (0, τν (a); L2 ), uniformly in k.
+    The equations bound ∂t u(k) in the same space. Weak compactness and the Aubin–Lions lemma
+[1] on every ball give, after diagonal extraction,
+                            ∗
+                    u(k) ⇀ u                              in L∞ (0, τν (a); H 1 ),
+                    u(k) ⇀ u                              in L2 (0, τν (a); H 2 ),
+                    u(k) −→ u                             in L2 (0, τν (a); H 1 (BR )) (R < ∞).
+
+    The last convergence passes the quadratic term in distributions; lower semicontinuity preserves
+(158). The displayed nonlinear estimate now gives P∇· (u ⊗ u) ∈ L2 L2 , and the equation gives
+ut ∈ L2 (0, τν (a); L2 ). For every ϕ ∈ Cc∞ (R3 ; R3 ) with ∇ · ϕ = 0 and every η ∈ Cc∞ ([0, τν (a))),
+passage to the limit in the time-integrated regularized equation gives
+               Z τν (a)                       Z τν (a)                           Z τν (a)
+                                     ′
+           −              ⟨u, ϕ⟩L2 η dt + ν              ⟨∇u, ∇ϕ⟩L2 η dt −                  ⟨u ⊗ u, ∇ϕ⟩L2 η dt
+                0                              0                                  0
+                                         = ⟨a, ϕ⟩L2 η(0).                                                         (159)
+
+The right-hand side fixes the weak initial trace as a.
+    The Lions–Magenes theorem [9] for Hσ2 ,→ Hσ1 ,→ L2σ gives u ∈ C([0, τν (a)]; Hσ1 ); its continuous
+trace at zero is the trace in (159), hence u(0) = a. Variation of constants gives the mild equation,
+and p = Ri Rj (ui uj ) supplies its normalized pressure. Since ut ∈ L2 L2 and u ∈ L2 H 2 , pairing the
+limiting equation with u is legitimate; incompressibility cancels the transport term and proves the
+kinetic-energy identity.
+    If u, v are two such solutions and w = u − v, incompressibility cancels the (u · ∇)w pairing and
+gives
+                             1 d
+                                  ∥w∥22 + ν ∥∇w∥22 = − Re ⟨(w · ∇)v, w⟩L2 .
+                             2 dt
+The same Sobolev constant yields
+
+                                                         1/2        3/2       ν          27S(6)6
+      |⟨(w · ∇)v, w⟩L2 | ≤ S(6)3/2 ∥∇v∥2 ∥w∥2 ∥∇w∥2                       ≤     ∥∇w∥22 +         ∥∇v∥42 ∥w∥22 .
+                                                                              2           32ν 3
+Gronwall’s inequality proves uniqueness. The same calculation one derivative higher also gives the
+finite-interval stability needed below. Indeed, pairing the difference equation with −∆w, integrating
+the (v · ∇)w term once in space, and applying Young’s inequality gives
+
+                           d                      Cst                 
+                              ∥∇w∥22 + ν ∥∆w∥22 ≤       ∥∇u∥23 + ∥∇v∥23 ∥∇w∥22 .                                  (160)
+                           dt                      ν
+The coefficient is integrable because
+
+                                          ∥∇u∥23 ≤ S(6) ∥∇u∥2 ∥∆u∥2 ,
+
+and likewise for v. The L2 difference estimate and (160) show continuous dependence in C([0, S]; H 1 )
+on every finite interval [0, S].
+
+
+
+                                                               38
+   Let c0 > 0 be the absolute smallness constant in the full-space H 1 local existence theorem,
+Theorem 5.4(ii) of [10], written at viscosity one as ∥b∥4H 1 h ≤ c0 . After viscosity rescaling, its
+condition is
+                                         h ∥b∥4H 1 ≤ c0 ν 3 .                                 (161)
+Fix 0 < ε < S ≤ τν (a), and put KS := 1 + sup0≤t≤S ∥u(t)∥H 1 . Choose
+                                  0 < h ≤ min ε, c0 ν 3 KS−4 .
+                                               
+
+The intervals [0, h] and [t − h, t], h ≤ t ≤ S, obey (161). The quantitative positive-time regularity
+estimate in Lemma 5.5 of [10], after viscosity rescaling with interior time h/2, and the heat-
+semigroup/product iteration in its proof give, for every m ∈ N,
+                                 sup ∥u(t)∥H m ≤ Cm,ε,S (ν, KS ) < ∞.                            (162)
+                                ε≤t≤S
+
+Apply the mild formula from time ε/2. The bounds (162), the heat multiplier, and Lemma 2.4 show
+that u ∈ C([ε, S]; H m ) for every m. The identities
+                           p = Ri Rj (ui uj ),       ut = ν∆u − P∇· (u ⊗ u)                      (163)
+then give p ∈ C([ε, S]; H m ) and ut ∈ C([ε, S]; H m ) for every m. Differentiating (163) and the
+pressure identity, and applying the same product estimate, proves inductively that all temporal
+derivatives of u and p belong to every spatial Sobolev space continuously on [ε, S]. Sobolev embedding
+proves (u, p) ∈ C ∞ ((0, τν (a)] × R3 ).
+     Choose 0 < t0 < τν (a). Equation (162) places u(t0 ) in Hσ∞ . Theorem 5.10, with time origin
+t0 , supplies a global smooth history from that datum. The uniqueness estimate above identifies it
+with the local history on their overlap, so the two histories glue to (150). The same estimate proves
+uniqueness in the full displayed class. The kinetic identity on the first interval and the classical
+identity after t0 agree at the common trace and prove the final assertion.
+Definition 7.2 (Rectangle and trace coordinates). Let u0 ∈ Hσ∞ (R3 ), ν > 0, and let (u, p) be the
+datum-generated pressure-normalized solution. Let 0 < T < ∞ satisfy either T < T∗ or T = T∗ < ∞,
+and set IT = (0, T ),
+                            Vn := ∂tn u,     Qn := ∂tn p,  n ∈ N0 .
+Define the monotone rectangle coordinate
+                         PN,M [u0 , ν; T ] := 1 +    max         sup RN ′ ,M ′ (u; S),           (164)
+                                                    0≤N ′ ≤N 0<S<T
+                                                    0≤M ′ ≤M
+
+and the trace constant
+                                                          1/2
+                         TN,M [u0 , ν; T ] := 1 + T −1           PN,M [u0 , ν; T ]1/2 .          (165)
+All occurrences of PN,M and TN,M below carry the arguments [u0 , ν; T ]. The datum u0 , viscosity
+ν, pressure-normalized solution (u, p), horizon T , interval IT , and row notation Vn , Qn fixed here
+remain in force throughout the rest of this section.
+Lemma 7.3 (Rectangle-coordinate finiteness). For every N, M ∈ N0 ,
+                                        1 ≤ PN,M [u0 , ν; T ] < ∞.                               (166)
+Proof. If T = T∗ < ∞, equation (73) proves (166). If T < T∗ , classical persistence on [0, T ] gives
+                                sup ∥Vn (t)∥H m < ∞              (n, m ∈ N0 ),
+                               0≤t≤T
+
+and (71) proves (166).
+
+                                                     39
+Lemma 7.4 (Fixed analytic constants). For r ∈ N0 , set
+
+                                                      Ar := 2Cralg .
+
+Then
+                    ∥Ri Rj (fi gj )∥H r + ∥P∇· (f ⊗ g)∥H r−1 ≤ Ar ∥f ∥H r+1 ∥g∥H r+1 .                        (167)
+The same constant satisfies
+
+                   ∥Ri Rj (fi gj )∥H r + ∥∇Ri Rj (fi gj )∥H r−1 ≤ Ar ∥f ∥H r+1 ∥g∥H r+1 .                     (168)
+
+ For s, k ∈ N0 , 2 ≤ b ≤ ∞, and s > k + 23 − 3b , define
+                                                                                             1/2
+                                                                             X
+                    ∇k f := (∂ α f )|α|=k ,            ∇k f         :=             |∂ α f |2            ,
+                                                               Lb
+                                                                            |α|=k
+                                                                                                     Lb
+
+and set
+                                                                           1    1 1
+                               dk := #{α ∈ N30 : |α| = k},                    := − ,
+                                                                           qb   2 b
+with q2 = ∞, and
+                                            1/2
+                               Ss,k,b := dk (2π)−3(1/2−1/b) |ξ|k ⟨ξ⟩−s                    q   .               (169)
+                                                                                        Lξb
+
+Then Ss,k,b < ∞ and
+                                              ∇k f         ≤ Ss,k,b ∥f ∥H s .                                 (170)
+                                                      Lb
+                                alg
+   For m ≥ 2, set Lm := max{1, Cm   }. Then
+
+                                      ∥f g∥H m ≤ Lm ∥f ∥H m ∥g∥H m ,                                          (171)
+                             νt∆                                 −1/2
+                           e       P∇· F H m ≤ Lm (νt)                  ∥F ∥H m ,         t > 0.              (172)
+
+Proof. Lemmas 2.4 and 2.5, applied componentwise before summing squares, give
+
+                         ∥Ri Rj (fi gj )∥H r ≤ ∥f ⊗ g∥H r ≤ Cralg ∥f ∥H r+1 ∥g∥H r+1 ,
+                      ∥P∇· (f ⊗ g)∥H r−1 ≤ ∥f ⊗ g∥H r ≤ Cralg ∥f ∥H r+1 ∥g∥H r+1 .
+
+Moreover,
+                                   ∥∇Ri Rj (fi gj )∥H r−1 ≤ ∥Ri Rj (fi gj )∥H r .
+This proves (167) and (168).
+   Let b′ = b/(b − 1). Interpolation between Fourier inversion L1ξ → L∞
+                                                                      x , with norm (2π)
+                                                                                        −3/2 , and
+
+Plancherel gives
+                                 F −1 h Lb ≤ (2π)−3(1/2−1/b) ∥h∥Lb′ .
+                                                  x                                 ξ
+
+For |α| = k, Hölder’s inequality with 1/b′ = 1/2 + 1/qb gives
+
+                           ∥∂ α f ∥Lb ≤ (2π)−3(1/2−1/b) |ξ|k ⟨ξ⟩−s                      ∥f ∥H s .
+                                                                                Lqb
+
+The weight belongs to Lqb under the displayed strict inequality for s; for b = 2, its L∞ -norm is finite
+because s > k. Summation over |α| = k proves (170).
+
+                                                            40
+   The first estimate in (171) is Lemma 2.4. For the heat estimate, the symbol of P∇·, acting from
+tensors to vectors, has norm at most |ξ|, while
+                                                    2
+                                       sup ρe−νtρ = (2eνt)−1/2 .
+                                       ρ≥0
+
+Plancherel gives
+
+                      eνt∆ P∇· F H m ≤ (2eνt)−1/2 ∥F ∥H m ≤ Lm (νt)−1/2 ∥F ∥H m .
+
+
+
+Definition 7.5 (Canonical rectangle majorants). For N, M ∈ N0 , define
+
+                BN,M [u0 , ν; T ] := inf {B ≥ 0 : RN,M (u; S) ≤ B for every 0 < S < T } .         (173)
+
+Monotone convergence gives
+                                              (
+                                               RN,M (u; T ),        T < T∗ ,
+                          BN,M [u0 , ν; T ] =                                                     (174)
+                                               R∗N,M [u0 , ν, T∗ ], T = T∗ < ∞.
+
+The global theorem fixes one history for (u0 , ν). Thus BN,M [u0 , ν; T ] is the exact minimal rectangle
+bound of that datum-generated history, not a supremum over a family of solutions and not an
+independently chosen constant. Equations (144) and (173) give the exact matrix identities
+
+                         BN,M [u0 , ν; T ] = sup ∥GN,M (S)∥2F ,                                   (175)
+                                             0<S<T
+                                                                                       2
+                         PN,M [u0 , ν; T ] = 1 +    max            sup   GN ′ ,M ′ (S) F .        (176)
+                                                   0≤N ′ ≤N 0<S<T
+                                                   0≤M ′ ≤M
+
+Consequently,
+                            PN,M [u0 , ν; T ] = 1 +      max BN ′ ,M ′ [u0 , ν; T ].              (177)
+                                                        0≤N ′ ≤N
+                                                        0≤M ′ ≤M
+
+   For n, m ∈ N0 , define the initial-jet majorants Dn,m = Dn,m [u0 , ν] by
+
+                          D0,m := ∥u0 ∥H m ,                                                      (178)
+                                                             n      
+                                                             X      n
+                       Dn+1,m := νDn,m+2 + Am+1                       Da,m+2 Dn−a,m+2 .           (179)
+                                                                    a
+                                                             a=0
+
+
+
+
+                                                        41
+ Define the pointwise recursion Yn,m = Yn,m [u0 , ν; T ] by
+
+                Y0,0 := ∥u0 ∥2 ,                                                                               (180)
+                             n                                           o
+                                            1/2                     1/2
+                Y0,m := min (1 + T −1 )1/2 B0,m , ∥u0 ∥H m + T 1/2 B0,m+1 ,                           m ≥ 1,   (181)
+                                           n  
+                                         X     n
+              Yn+1,m := νYn,m+2 + Am+1             Ya,m+2 Yn−a,m+2 .                                           (182)
+                                                a
+                                                 a=0
+
+ For m ∈ {−1} ∪ N0 , put
+
+                            m+ := max{m, 0},             µ(m) := max{m − 1, 0},
+
+and define                                     n                    o
+                                   e n,m := min T 1/2 Yn,m , B1/2
+                                   X                      +   n,µ(m) .                                         (183)
+ Set
+                                            n                      o
+                                 X0,0 := min Xe 0,0 , T 1/2 ∥u0 ∥ ,                                            (184)
+                                                                 2
+                                            (                   1/2       )
+                                                               1
+                                 X0,1 := min Xe 0,1 , T +             ∥u0 ∥2 ,                                 (185)
+                                                              2ν
+                                 Xn,m := X
+                                         e n,m    for all other (n, m).                                        (186)
+
+For n, m ∈ N0 , define
+                                       n                                                  o
+               Zn,m [u0 , ν; T ] := min Yn,m , (1 + T −1 )1/2 B1/2
+                                                               n,m , Dn,m + T 1/2
+                                                                                  X n+1,m   .                  (187)
+
+All B, D, X, Y, Z in this section carry the arguments [u0 , ν; T ], except that D is independent of T .
+Proposition 7.6 (Exact viscosity and horizon scaling). Let
+
+                a := ν −1 u0 ,      v(s, x) := ν −1 u(s/ν, x),          q(s, x) := ν −2 p(s/ν, x).
+
+Then (v, q) is the unit-viscosity solution generated by a. If
+
+                                         Ven := ∂sn v,        e n := ∂sn q,
+                                                              Q
+
+then
+                             Vn (t) = ν n+1 Ven (νt),         Qn (t) = ν n+2 Q
+                                                                             e n (νt).                         (188)
+Substitution of (188) into the defining norms gives
+                                                       N h
+                                                       X             2
+                                   BN,M [u0 , ν; T ] =    ν 2n+1 Ven 2
+                                                                              L (0,νT ;H M +1 )
+                                                         n=0
+                                                                              2                 i
+                                                             + ν 2n+3 Ven+1 2                    ,             (189)
+                                                                              L (0,νT ;H M −1 )
+                                                                  
+              ∥Qn ∥L1 (0,T ;H m ) + ∥∇Qn ∥L1 (0,T ;H m−1 ) = ν n+1 Qen
+                                                                        L1 (0,νT ;H m )
+                                                                                                 
+                                                                    + ∇Q en
+                                                                                 1        m−1
+                                                                                                   ,           (190)
+                                                                                     L (0,νT ;H          )
+
+                                       sup ∥Qn (t)∥H m = ν n+2 sup               Q
+                                                                                 e n (s)          .            (191)
+                                     0≤t≤T                            0≤s≤νT               Hm
+
+
+
+                                                         42
+The initial-jet recursion obeys
+
+                                       Dn,m [u0 , ν] = ν n+1 Dn,m [u0 /ν, 1].                         (192)
+
+Write
+                                    1 σ                                     1 σ
+                          Eσu (t) :=  ∥Λ u(t)∥22 ,             Eσv (s) :=     ∥Λ v(s)∥22 .
+                                    2                                       2
+For every j ∈ N0 , the critical-height rows obey
+                                         u
+                                        Ej+1/2  (t) = ν 2 Ej+1/2
+                                                           v
+                                                                 (νt),                                (193)
+                                  Z T                   Z νT
+                                       u                        v
+                                      Ej+1/2 (t) dt = ν       Ej+1/2  (s) ds.                         (194)
+                                   0                            0
+
+For every b ∈ Hσ3 (R3 ), the maximal elapsed lifespan in the shifted mild class has the exact covariance
+                                          max
+                                         τν,3 (s, b) = ν −1 τ1,3
+                                                             max
+                                                                 (0, b/ν).                            (195)
+
+Proof. The change of variables gives u(t) = νv(νt) and p(t) = ν 2 q(νt). Differentiation proves (188);
+the substitution s = νt proves (189)–(191). Equation (192) follows by induction in (178)–(179).
+The amplitude relation u(t) = νv(νt) proves (193), and the substitution s = νt proves (194). For
+(w, π) ∈ Mν3 (s, s + δ; b), set
+
+                  Sν (w, π)(σ) := ν −1 w(s + σ/ν), ν −2 π(s + σ/ν) ,
+                                                                  
+                                                                        0 ≤ σ ≤ νδ.
+
+Time translation and the same change of variables show that Sν is a bijection from Mν3 (s, s + δ; b)
+onto M13 (0, νδ; b/ν). Its inverse is the corresponding amplitude and time rescaling, which proves
+(195).
+
+Proposition 7.7 (Height-coordinate re-expression of the finite rows). For m ∈ N0 , define
+                                                1            2
+                             Hm [u0 , ν; T ] :=   Λm+1/2 u 2             ,                            (196)
+                                                2            L (IT ;L2 )
+                                                                              
+                            Sm [u0 , ν; T ]2 := 2m T ∥u0 ∥22 + 2Hm [u0 , ν; T ] .                     (197)
+
+Then
+                  2Hm [u0 , ν; T ] ≤ B0,m [u0 , ν; T ],         ∥u∥L2 (IT ;H m ) ≤ Sm [u0 , ν; T ].   (198)
+Define recursively, for n, m ∈ N0 ,
+
+                          Av0,m := T −1/2 Sm + νT 1/2 Sm+2 + Am+1 S2m+2 ,                             (199)
+                                        n  
+                           p
+                                       X    n v
+                          An,m := Am           A       Av     ,                                       (200)
+                                            a a,m+1 n−a,m+1
+                                       a=0
+                                                      n  
+                         v            v
+                                                    X     n v
+                        An+1,m := νAn,m+2 + Am+1            A     Av      .                           (201)
+                                                          a a,m+2 n−a,m+2
+                                                               a=0
+
+Every finite quantity in this recursion is finite, and
+
+                                                          sup ∥Vn (t)∥H m ≤ Avn,m ,                   (202)
+                                                       0≤t≤T
+                              sup (∥Qn (t)∥H m + ∥∇Qn (t)∥H m−1 ) ≤ Apn,m .                           (203)
+                             0≤t≤T
+
+
+
+                                                          43
+Let M− := max{M − 1, 0} and set
+                                                      N 
+                                                      X                                 
+                            b h [u0 , ν; T ] := T
+                            B                                (Avn,M +1 )2 + (Avn+1,M− )2 ,      (204)
+                              N,M
+                                                      n=0
+                                                       N
+                                                            Apn,M .
+                                                      X
+                            QhN,M [u0 , ν; T ] := T
+                            b                                                                   (205)
+                                                      n=0
+
+Then
+                                                           b h [u0 , ν; T ],
+                                       BN,M [u0 , ν; T ] ≤ B                                    (206)
+                                                             N,M
+                                                             h
+                                         QN,M (p; T ) ≤ Q  b     [u0 , ν; T ].
+                                                                  N,M                           (207)
+
+For fixed N, M , the right-hand sides use only
+
+ν,     T,   ∥u0 ∥2 ,   N,    M,     {Hq [u0 , ν; T ] : 0 ≤ q ≤ M + 2N + 4},
+                                                                       {Aq : 0 ≤ q ≤ M + 2N + 4}.
+                                                                                                (208)
+The quantities Hq are the exact completed-height coordinates of the fixed datum-generated history.
+Equations (198) and (206) express the same finite rows in the rectangle and height coordinates,
+respectively. This is a change of coordinates, not an independent estimate of either family, and it is
+not used to prove the whole-terminal rectangle theorem.
+
+Proof. The first estimate in (198) follows from the upper row of B0,m . The Fourier inequality
+
+                                         (1 + |ξ|2 )m ≤ 2m (1 + |ξ|2m+1 )
+
+and (60) give the second estimate.
+   The projected equation and (167) give
+
+                                  ∥ut ∥L1 (IT ;H m ) ≤ νT 1/2 Sm+2 + Am+1 S2m+2 .
+
+Choose a Lebesgue time tm ∈ IT satisfying
+
+                                      ∥u(tm )∥H m ≤ T −1/2 ∥u∥L2 (IT ;H m ) .
+
+The Banach-valued fundamental identity gives (202) at n = 0. Assume that bound through row n.
+The pressure recurrence and (168) give (203). The projected temporal recurrence and (167) give the
+next velocity row through (201). Induction proves (202)–(203).
+    Integrating the pointwise bounds over IT gives (206); when M = 0, use H 0 ,→ H −1 on the lower
+row. The same integration in (203) gives (207). Induction in (201) gives the finite dependency range
+in (208).
+
+Lemma 7.8 (Closed velocity majorants). For every n, m ∈ N0 ,
+
+                                                   ∥Vn (0)∥H m ≤ Dn,m ,                         (209)
+                                              ∥Vn ∥L2 (IT ;H m ) ≤ Xn,m ,                       (210)
+                                            sup ∥Vn (t)∥H m ≤ Zn,m .                            (211)
+                                           0≤t≤T
+
+For m = −1, equation (210) remains valid. Every right-hand side is finite and depends on
+(u0 , ν, n, m, T ) through the finite rectangle-matrix suprema in (175).
+
+                                                             44
+Proof. Applying P to the temporal recurrence gives
+                                                          n  
+                                                          X  n
+                              Vn+1 = ν∆Vn − P∇·                     (Va ⊗ Vn−a ).               (212)
+                                                                a
+                                                          a=0
+
+Equation (167) at order m + 1, evaluated at t = 0, proves (209) by induction through (179). The
+same estimate, taken pointwise on [0, T ], proves by induction that
+
+                                         sup ∥Vn (t)∥H m ≤ Yn,m .                               (213)
+                                        0≤t≤T
+
+The base case m = 0 is (60). For m ≥ 1, both terms in (181) are valid: the first is the adjacent trace
+bound, and the second follows from
+                                             Z t
+                                 u(t) = u0 +     V1 (s) ds in H m .
+                                                     0
+
+   The rectangle with middle order µ(m), Sobolev nesting, and (213) give respectively
+                                          1/2
+                    ∥Vn ∥L2 (IT ;H m ) ≤ Bn,µ(m) ,        ∥Vn ∥L2 (IT ;H m ) ≤ T 1/2 Yn,m+ .
+
+This proves (210) through (183); the two exceptional improvements are (60) and (61). The adjacent
+trace lemma gives
+                               sup ∥Vn (t)∥H m ≤ (1 + T −1 )1/2 B1/2
+                                                                 n,m ,
+                                0≤t≤T
+
+while the Banach-valued fundamental identity and (209) give
+
+                                sup ∥Vn (t)∥H m ≤ Dn,m + T 1/2 Xn+1,m .
+                               0≤t≤T
+
+Taking the minimum of these bounds and (213) proves (211).
+
+Definition 7.9 (Closed pressure majorants). For n, m ∈ N0 , define
+                             n  
+                            X   n
+                  Q(1)
+                   n,m := Am      Xa,m+1 Xn−a,m+1 ,                                             (214)
+                                a
+                            a=0
+                             n  
+                   (2)
+                            X   n
+                 Qn,m := Am        min {Za,m+1 Xn−a,m+1 , Xa,m+1 Zn−a,m+1 } ,                   (215)
+                                a
+                            a=0
+                             n  
+                   (∞)
+                            X   n
+                 Qn,m := Am       Za,m+1 Zn−a,m+1 ,                                             (216)
+                                a
+                            a=0
+                             n  
+                 (mod)
+                            X   n
+                Qn,m := Am         (Xa+1,m+1 Zn−a,m+1 + Za,m+1 Xn−a+1,m+1 ) .                   (217)
+                                a
+                                a=0
+
+These quantities carry the arguments [u0 , ν; T ] through X and Z.
+
+
+
+
+                                                         45
+Theorem 7.10 (Quantitative mixed-jet rows and traces). Let N, s ∈ N0 , let 0 ≤ n ≤ N , and let
+α ∈ N30 . Put
+                                      Jn,α := ∂xα Vn .
+Then
+
+                         ∥Jn,α ∥2L2 (IT ;H s+1 ) + ∥Jn+1,α ∥2L2 (IT ;H s−1 ) ≤ PN,s+|α| ,         (218)
+                                                      sup ∥Jn,α (t)∥H s ≤ TN,s+|α| .              (219)
+                                                    0≤t≤T
+
+                         T ∈ H s at t = T , and for 0 ≤ r ≤ t ≤ T ,
+There is a unique trace Jn,α
+
+                                                                                 1/2
+                             ∥Jn,α (t) − Jn,α (r)∥H s−1 ≤ (t − r)1/2 PN,s+|α| ,                   (220)
+                                                                                 1/2
+                               ∥Jn,α (t) − Jn,α (r)∥H s ≤ (t − r)1/2 PN,s+|α|+1 ,                 (221)
+                                                T
+                                               Jn,α Hs
+                                                       ≤ TN,s+|α| .                               (222)
+
+If 0 ≤ θ ≤ 1, then
+                                                                               θ/2
+                      ∥Jn,α (t) − Jn,α (r)∥H s−θ ≤ 21−θ T1−θ
+                                                         N,s+|α| PN,s+|α| (t − r)
+                                                                                  θ/2
+                                                                                      .           (223)
+
+For 1 ≤ a ≤ ∞, 2 ≤ b ≤ ∞, k, q ∈ N0 , and q > k + 23 − 3b ,
+
+                                  ∇k Jn,α                  ≤ Sq,k,b T 1/a TN,q+|α| ,              (224)
+                                            La (IT ;Lb )
+                                                                         1/2
+                                  ∇k Jn,α                  ≤ Sq,k,b PN,q+|α| ,                    (225)
+                                            L2 (IT ;Lb )
+
+where T 1/∞ = 1.
+
+Proof. Take the rectangle with middle order M = s + |α|. The Fourier multiplier inequality
+
+                                            ∥∂xα f ∥H r ≤ ∥f ∥H r+|α|
+
+and (164) give (218). The adjacent-row trace estimate gives
+
+                     sup ∥Jn,α (t)∥2H s ≤ T −1 ∥Jn,α ∥2L2 (IT ;H s )
+                     0≤t≤T
+                                            + 2 ∥Jn,α ∥L2 (IT ;H s+1 ) ∥Jn+1,α ∥L2 (IT ;H s−1 )
+                                         ≤ (T −1 + 1)PN,s+|α| ,
+
+which proves (219) and (222).
+   The Bochner identity                                         Z t
+                                   Jn,α (t) − Jn,α (r) =              Jn+1,α (τ ) dτ
+                                                                 r
+
+in H s−1 , followed by Cauchy–Schwarz, proves (220). Applying the same argument to the rectangle
+with middle order s + |α| + 1 proves (221). Interpolation between H s−1 and H s , together with
+∥J(t) − J(r)∥H s ≤ 2TN,s+|α| , proves (223). Sobolev embedding and (219) prove (224); Sobolev
+embedding and (218) prove (225).
+
+
+
+                                                           46
+Theorem 7.11 (Quantitative pressure rows). Let N, s ∈ N0 , 0 ≤ n ≤ N , and α ∈ N30 . Set
+                                    Πn,α := ∂xα Qn ,               r := s + |α|.
+Then
+                     ∥Πn,α ∥L1 (IT ;H s ) + ∥∇Πn,α ∥L1 (IT ;H s−1 ) ≤ 2Ar 2n PN,r ,          (226)
+                                                                                     1/2
+                                                ∥Πn,α ∥L2 (IT ;H s ) ≤ Ar 2n TN,r+1 PN,r ,   (227)
+                                              sup ∥Πn,α (t)∥H s ≤ Ar 2n T2N,r+1 .            (228)
+                                             0≤t≤T
+
+ There is a unique endpoint pressure row ΠTn,α ∈ H s , and
+
+                                      ΠTn,α H s ≤ Ar 2n T2N,r+1 ,                            (229)
+                                                                  1/2
+                     ∥Πn,α (t) − Πn,α (r0 )∥H s ≤ 2n+1 Ar TN,r+1 PN,r+2 |t − r0 |1/2         (230)
+
+for 0 ≤ r0 ≤ t ≤ T . If 1 ≤ a ≤ ∞, 2 ≤ b ≤ ∞, k, q ∈ N0 , and q > k + 23 − 3b , then
+
+                          ∇k Πn,α                   ≤ Sq,k,b T 1/a Aq+|α| 2n T2N,q+|α|+1 .   (231)
+                                     La (IT ;Lb )
+
+Proof. The normalized pressure recurrence is
+                                            n  
+                                           X   n
+                               Qn = Ri Rj         Va,i Vn−a,j .                              (232)
+                                               a
+                                           a=0
+
+Equation (167), Cauchy–Schwarz in time, and na=0 na = 2n give
+                                            P      
+
+                                       ∥Qn ∥L1 (IT ;H r ) ≤ Ar 2n PN,r .                     (233)
+
+The gradient estimate in (226) follows from ∥∇f ∥H r−1 ≤ ∥f ∥H r . Using one factor in L∞  r+1 and
+                                                                                        t Hx
+               2  r+1                                      ∞    r+1
+the other in Lt Hx proves (227). Using both factors in Lt Hx proves (228) and (229).
+    Subtract (232) at times t and r0 , split each product difference into two terms, apply (221) in
+H r+1 , and use (219). The two product differences and the binomial sum give (230). Equation (231)
+follows from (228) and Sobolev embedding.
+
+Proposition 7.12 (Matrix form of the closed rectangle estimates). For nonnegative matrices of the
+same size, write A ⪯ent B when every entry of A is at most the corresponding entry of B. When
+T = T∗ < ∞, interpret the closed rectangle matrix entrywise by
+                                      CN,M (T∗ ) := lim CN,M (S).
+                                                            S↑T∗
+
+The limit exists in [0, ∞](N +1)×3 by monotonicity of every column norm, and the estimates below
+show that all of its entries are finite. Then
+                                                                   N
+                                                                (1)
+                         CN,M (T ) ⪯ent Xn,M +1 Xn+1,M −1 Qn,M           .                 (234)
+                                                                                     n=0
+Consequently,
+                                                    N
+                                                    X
+                                                           X2n,M +1 + X2n+1,M −1 ,
+                                                                                
+                              RN,M (u; T ) ≤                                                 (235)
+                                                    n=0
+                                                     N
+                                                           (1)
+                                                    X
+                              QN,M (p; T ) ≤              Qn,M .                             (236)
+                                                    n=0
+
+
+                                                           47
+Proof. The first two columns of (234) are (210). The pressure recurrence (232), the product estimate
+(168), and Cauchy–Schwarz in time give the third column through (214). Take the Frobenius norm
+of the first two columns and sum the third column, using (144).
+
+Proposition 7.13 (Velocity and pressure frequency tails). Let P≥K be the Fourier multiplier of
+1{|ξ|≥K} , where K ≥ 1. Let r1 ∈ N, s ∈ N0 , 0 ≤ n ≤ N , and α ∈ N30 . Then
+                                                               1/2
+                         ∥P≥K Jn,α ∥L2 (IT ;H s ) ≤ K −r1 PN,s+r1 +|α| ,                       (237)
+                        sup ∥P≥K Jn,α (t)∥H s ≤ K −r1 TN,s+r1 +|α| ,                           (238)
+                       0≤t≤T
+                         ∥P≥K Πn,α ∥L1 (IT ;H s ) ≤ K −r1 As+r1 +|α| 2n PN,s+r1 +|α| ,         (239)
+                       sup ∥P≥K Πn,α (t)∥H s ≤ K −r1 As+r1 +|α| 2n T2N,s+r1 +|α|+1 .           (240)
+                       0≤t≤T
+
+The pointwise estimates (238) and (240) hold at t = T .
+Proof. For every f ∈ H s+r1 ,
+                                        ∥P≥K f ∥H s ≤ K −r1 ∥f ∥H s+r1 .
+Apply this inequality to (218) and (219) at spatial order s + r1 to obtain the two velocity bounds.
+Since Fourier multipliers commute,
+                                  ∥P≥K Πn,α ∥H s ≤ K −r1 ∥Qn ∥H s+r1 +|α| .
+Integration in time followed by (233) at order s + r1 + |α| gives (239). Applying the tail inequality
+directly to Πn,α , followed by (228) with s replaced by s + r1 , gives (240).
+
+Proposition 7.14 (Fixed weighted dyadic shell sums). Let (∆j )j≥−1 be a fixed inhomogeneous
+Littlewood–Paley decomposition on R3 . Let σ ∈ R, k ∈ N0 , and choose M ∈ N0 such that
+                                                       3
+                                                M >σ+k+ .                                      (241)
+                                                       2
+Then                    Z T X
+                                      2σj ∆j ∇k u(t)         dt ≤ C∆,σ,k,M T 1/2 X0,M .        (242)
+                          0                             L∞
+                               j≥−1
+
+In particular, with ω = ∇ × u,
+                               X Z T
+                                           ∥∆j ω(t)∥L∞ dt ≤ C∆ T 1/2 X0,3 < ∞.                 (243)
+                               j≥−1 0
+
+Each estimate uses one fixed finite Sobolev coordinate; no summation over Sobolev orders is asserted.
+Proof. Bernstein’s inequality on a shell gives, for j ≥ 0,
+
+                                2σj ∆j ∇k f          ≤ C∆ 2(σ+k+3/2)j ∥∆j f ∥2 .
+                                                L∞
+
+Put d := M − σ − k − 3/2 > 0. Cauchy–Schwarz in j yields
+                                                 1/2                    1/2
+               X                        X                X
+                  2σj ∆j ∇k f ∞ ≤ C∆       2−2dj        22M j ∥∆j f ∥22 
+                                       L
+                 j≥0                                 j≥0               j≥0
+
+                                            ≤ C∆,σ,k,M ∥f ∥H M .
+
+
+                                                        48
+The single low block j = −1 obeys the same final bound. The last inequality follows from
+Plancherel’s theorem and the finite overlap of the dyadic multipliers. Integrating in time, applying
+Cauchy–Schwarz, and using (210) prove (242). Since curl commutes with every ∆j , the choice
+(σ, k, M ) = (0, 1, 3) gives (243).
+
+Proposition 7.15 (Critical-height bounds). Define
+                                           1 σ
+                               Eσ (t) :=     ∥Λ u(t)∥22 ,           H(t) := E1/2 (t),
+                                           2
+and                                                     Z
+                                                1
+                               Ej+1/2,≥K (t) :=                   |ξ|2j+1 |b
+                                                                           u(t, ξ)|2 dξ.
+                                                2        |ξ|≥K
+
+ For j ∈ N0 ,
+                                                             1
+                                           sup Ej+1/2 (t) ≤ T20,j+1 ,                          (244)
+                                          0≤t≤T              2
+                                          Z T
+                                                             1
+                                              Ej+1/2 (t) dt ≤ P0,j .                           (245)
+                                           0                 2
+
+ If m > j + 21 is an integer and K ≥ 1, then
+
+                                                      1
+                                 sup Ej+1/2,≥K (t) ≤ K 2j+1−2m T20,m ,                         (246)
+                                0≤t≤T                 2
+                                Z T
+                                                      1
+                                    Ej+1/2,≥K (t) dt ≤ K 2j+1−2m P0,m−1 .                      (247)
+                                 0                    2
+ For k ∈ N,
+                                            H (k)               ≤ 2k−1 Pk,0 .                  (248)
+                                                    L1 (0,T )
+
+In particular,
+                                                    1
+                                     H ′ L1 (0,T ) ≤ P0,2 ,                                    (249)
+                                                    2
+                      Z T
+                                            2
+                               Λ3/2 u(t)        dt ≤ P0,1 ,                                    (250)
+                        0                   2
+                                                1
+                                P1/2 L1 (0,T ) ≤ P0,2 + νP0,1 ,                                (251)
+                                                2
+                                                     1/2
+                              |H(T ) − H(t)| ≤ T0,1 P0,2 (T − t)1/2 ,            0 ≤ t ≤ T,    (252)
+                                 2
+where P1/2 = H ′ + ν Λ3/2 u 2 .
+
+Proof. Equations (244) and (245) follow from Ḣ j+1/2 ←- H j+1 , (219), and (218). On |ξ| ≥ K,
+
+                                           |ξ|2j+1 ≤ K 2j+1−2m |ξ|2m ,
+
+which proves (246) and (247).
+   The identity
+                                            k  
+                                          1X k      D                          E
+                            H (k) (t) =           Re Λ1/2 Va (t), Λ1/2 Vk−a (t)
+                                          2    a
+                                           a=0
+
+
+                                                            49
+and Cauchy–Schwarz in time give (248). At k = 1, the two equal terms give
+                                                                                     1
+                          H ′ L1 (0,T ) ≤ ∥ut ∥L2 (IT ;Ḣ 1/2 ) ∥u∥L2 (IT ;Ḣ 1/2 ) ≤ P0,2 .
+                                                                                     2
+Equation (250) follows from the upper velocity row of the (0, 1) rectangle. The identity defining
+P1/2 gives (251). Finally,
+
+                                                                                                 1/2
+        ∥u(T ) − u(t)∥Ḣ 1/2 ≤ ∥u(T ) − u(t)∥H 1 ≤ (T − t)1/2 ∥ut ∥L2 (t,T ;H 1 ) ≤ (T − t)1/2 P0,2 ,
+
+and
+                                 1                             
+                 |H(T ) − H(t)| ≤  ∥u(T )∥Ḣ 1/2 + ∥u(t)∥Ḣ 1/2 ∥u(T ) − u(t)∥Ḣ 1/2 .
+                                 2
+Equation (219) bounds each retained velocity factor, so these two estimates prove (252).
+
+Corollary 7.16 (Uniform critical-tail extinction and finite octave count). The critical Fourier tail
+satisfies
+                                   lim sup E1/2,≥K (t) = 0.                                   (253)
+                                           K→∞ 0≤t≤T
+
+Set Hmax (T ) := sup0≤t≤T H(t). If H(0) > 0, then
+          n                                                o           
+                                                                              Hmax (T )
+                                                                                        
+                                                      k
+           k ∈ N0 : there is t ∈ [0, T ] with H(t) ≥ 2 H(0) ⊆ 0, . . . , log2              .            (254)
+                                                                               H(0)
+
+Thus only finitely many distinct dyadic height levels can be reached on the fixed horizon. If H(0) = 0,
+then u0 = 0 in L2 and the unique history is identically zero.
+
+Proof. Take j = 0 and any integer m ≥ 1 in (246). Its right-hand side is 12 K 1−2m T20,m , which tends
+to zero and proves (253). If a level indexed by k is reached, then 2k H(0) ≤ Hmax (T ); taking base-two
+                                                         2
+logarithms gives (254). Finally, H(0) = 12 Λ1/2 u0 2 = 0 forces the Fourier transform of the L2
+datum to vanish almost everywhere away from the origin, hence u0 = 0. Uniqueness gives the zero
+history.
+
+Proposition 7.17 (Continuation norms). The finite-horizon solution satisfies
+                                                                        1/2
+                                            ∥u∥L2 (IT ;L∞ ) ≤ S2,0,∞ P0,1 ,                             (255)
+                                     Z T
+                                                                              1/2
+                                           ∥∇u(t)∥L∞ dt ≤ S3,1,∞ T 1/2 P0,2 ,                           (256)
+                                      0
+                                Z T
+                                                                               1/2
+                                      ∥∇ × u(t)∥L∞ dt ≤ 2S3,1,∞ T 1/2 P0,2 .                            (257)
+                                 0
+
+For every integer m ≥ 3, let Km be the explicit constant in (8). Then
+
+                        |Re ⟨Am P∇· (u ⊗ u), Am u⟩L2 | ≤ Km ∥∇u∥L∞ ∥u∥2H m .                            (258)
+                                                                             
+                                                                          1/2
+                         sup ∥u(t)∥2H m ≤ ∥u0 ∥2H m exp 2Km S3,1,∞ T 1/2 P0,2 .                         (259)
+                        0≤t≤T
+
+
+
+
+                                                        50
+Proof. Sobolev embedding and the upper rows of the (0, 1) and (0, 2) rectangles give (255) and (256);
+the pointwise bound ∥∇ × u∥∞ ≤ 2 ∥∇u∥∞ gives (257). The H m energy identity and (258) give
+
+                              1d
+                                   ∥u∥2H m + ν ∥∇u∥2H m ≤ Km ∥∇u∥L∞ ∥u∥2H m ,
+                              2 dt
+and hence
+                                d
+                                   ∥u∥2H m ≤ 2Km ∥∇u∥L∞ ∥u∥2H m .
+                                dt
+Gronwall’s inequality and (256) prove (259).
+
+Corollary 7.18 (Vanishing terminal scale products). If T = T∗ < ∞, then
+
+                                           lim (T∗ − t)1/2 ∥u(t)∥L∞ = 0,                                   (260)
+                                           t↑T∗
+
+                                            lim (T∗ − t) ∥∇u(t)∥L∞ = 0.                                    (261)
+                                            t↑T∗
+
+Proof. Equation (219), followed by Sobolev embedding, gives
+
+                     sup ∥u(t)∥L∞ ≤ S2,0,∞ T0,2 ,                sup ∥∇u(t)∥L∞ ≤ S3,1,∞ T0,3 .
+                   0≤t≤T∗                                       0≤t≤T∗
+
+Both right-hand sides are finite. Multiplication by the displayed powers of T∗ − t proves the two
+limits.
+
+Theorem 7.19 (Quantitative endpoint restart). Assume T = T∗ < ∞, and set
+
+                               uT := u∗ := V0∗ ,         VnT := Vn∗ ,        QTn := Q∗n .
+
+Define the maximal restart lifespan inside the shifted pressure-normalized H 3 mild class by
+
+                            δTmax := τν,3
+                                      max
+                                           (T, uT )
+                                                                                                           (262)
+                                  = sup δ > 0 : Mν3 (T, T + δ; uT ) ̸= ∅ ∈ (0, ∞].
+                                         
+
+Define                                               n                           −2 o
+                              δqc [u0 , ν; T ] := min 1, cν 1 + Z0,3 [u0 , ν; T ]      .                   (263)
+
+The class Mν3 (T, T + δqc ; uT ) contains exactly one pair (w, q), and, for every integer m ≥ 3,
+
+         w ∈ C([T, T + δqc ]; Hσm ) ∩ L2 (T, T + δqc ; H m+1 ),           wt ∈ L2 (T, T + δqc ; H m−1 ).   (264)
+
+At the base restart order,
+
+                        ∥w∥C([T,T +δqc ];H 3 ) + ∥w∥L2 (T,T +δqc ;H 4 ) + ∥wt ∥L2 (T,T +δqc ;H 2 )
+                              ≤ 2Lν Z0,3 [u0 , ν; T ].                                                     (265)
+
+Set
+                                        AT := 2S3,1,∞ Lν δqc Z0,3 [u0 , ν; T ].                            (266)
+For every integer m ≥ 3,
+
+                                sup       ∥w(t)∥2H m ≤ Z0,m [u0 , ν; T ]2 exp(2Km AT ) .                   (267)
+                            T ≤t≤T +δqc
+
+
+                                                           51
+The restart pair satisfies w, q ∈ C ∞ ([T, T + δqc ] × R3 ). Define
+
+                                  WnT := ∂tn w(T ),            PnT := ∂tn q(T ).
+
+Then
+                                WnT = VnT ,            PnT = QTn ,      n ∈ N0 .                 (268)
+The maximal lifespan within this class obeys
+
+                                         δTmax ≥ δqc [u0 , ν; T ] > 0.                           (269)
+
+Proof. Equations (105) and (211) give
+
+                                              ∥uT ∥H 3 ≤ Z0,3 .
+
+Consequently,
+                               δqc [u0 , ν; T ] ≤ min{1, cν (1 + ∥uT ∥H 3 )−2 }.
+Theorem 2.12 gives the unique member of Mν3 (T, T + δqc ; uT ). The fixed-point ball in its proof gives
+(265). Hence
+                    Z T +δqc
+                             ∥∇w(t)∥∞ dt ≤ S3,1,∞ δqc ∥w∥C([T,T +δqc ];H 3 ) ≤ AT .
+                     T
+       m
+The H energy estimate in Proposition 7.17, now on the restart interval, and ∥uT ∥H m ≤ Z0,m prove
+(267). Equation (109) gives uT ∈ Hσ∞ . The persistence assertion in Theorem 2.12 proves (264) for
+every m ≥ 3 and gives the stated smoothness before the endpoint rows are defined. The at-most-one
+assertion for the shifted mild class in Theorem 2.12 gives the uniqueness asserted here.
+    The endpoint jet from Theorem 5.6 satisfies
+                                           n  
+                                           X  n
+                             QTn = Ri Rj                  T T
+                                                        Va,i Vn−a,j ,
+                                                  a
+                                           a=0
+                                                 n  
+                            T
+                                                 X  n
+                           Vn+1 = ν∆VnT −                     (VaT · ∇)Vn−a
+                                                                        T
+                                                                            − ∇QTn .
+                                                         a
+                                                 a=0
+
+The smooth right-hand solution satisfies the same two recurrences with (WnT , PnT ). Since W0T =
+uT = V0T , induction in n proves (268). Theorem 5.8 and uniqueness in Mν3 (T, T + δqc ; uT ) identify
+this solution with the continuation of the same preterminal history. Its membership on the displayed
+interval proves (269).
+
+Theorem 7.20 (Canonical datum-coordinate finite-horizon estimates). Let n, s, k, q ∈ N0 , α ∈ N30 ,
+and set r := s + |α|. Then
+
+                                       ∥Jn,α ∥L2 (IT ;H s+1 ) ≤ Xn,r+1 ,                         (270)
+                                    ∥Jn+1,α ∥L2 (IT ;H s−1 ) ≤ Xn+1,r−1 ,                        (271)
+                                       sup ∥Jn,α (t)∥H s ≤ Zn,r ,                                (272)
+                                      0≤t≤T
+                                                   T
+                                                  Jn,α Hs
+                                                          ≤ Zn,r ,                               (273)
+
+
+
+
+                                                         52
+                                                     n                                       o
+                   ∥Jn,α (t) − Jn,α (r0 )∥H s−1 ≤ min |t − r0 |1/2 Xn+1,r−1 , |t − r0 |Zn+1,r ,     (274)
+                                                     n                                     o
+                     ∥Jn,α (t) − Jn,α (r0 )∥H s ≤ min |t − r0 |1/2 Xn+1,r , |t − r0 |Zn+1,r ,       (275)
+
+for 0 ≤ r0 ≤ t ≤ T .
+    For 0 ≤ θ ≤ 1,
+
+                          ∥Jn,α (t) − Jn,α (r0 )∥H s−θ ≤ 21−θ Z1−θ  θ
+                                                               n,r Xn+1,r−1 |t − r0 |
+                                                                                     θ/2
+                                                                                         .          (276)
+
+ If 1 ≤ a ≤ ∞, 2 ≤ b ≤ ∞, and q > k + 23 − 3b , then
+
+                                     ∇k Jn,α                  ≤ Sq,k,b T 1/a Zn,q+|α| ,             (277)
+                                               La (IT ;Lb )
+
+                                     ∇k Jn,α                  ≤ Sq,k,b Xn,q+|α| ,                   (278)
+                                               L2 (IT ;Lb )
+
+where T 1/∞ = 1.
+   The pressure rows obey
+
+       ∥Πn,α ∥L1 (IT ;H s ) + ∥∇Πn,α ∥L1 (IT ;H s−1 ) ≤ Q(1)
+                                                         n,r ,                                      (279)
+                                  ∥Πn,α ∥L2 (IT ;H s ) ≤ Q(2)
+                                                          n,r ,                                     (280)
+                                sup ∥Πn,α (t)∥H s ≤ Q(∞)
+                                                     n,r ,                                          (281)
+                               0≤t≤T
+
+                                        ΠTn,α H s ≤ Q(∞)
+                                                       n,r ,                                        (282)
+                                                          n                                    o
+                                                                                          (∞)
+                         ∥Πn,α (t) − Πn,α (r0 )∥H s ≤ min |t − r0 |1/2 Q(mod)
+                                                                        n,r   , |t − r0 |Qn+1,r .   (283)
+
+Under the preceding restrictions on a, b, k, q,
+                                                                               (∞)
+                                    ∇k Πn,α                   ≤ Sq,k,b T 1/a Qn,q+|α| .             (284)
+                                               La (IT ;Lb )
+
+    Let r1 ∈ N and K ≥ 1. Then
+
+                                     ∥P≥K Jn,α ∥L2 (IT ;H s ) ≤ K −r1 Xn,s+r1 +|α| ,                (285)
+                                   sup ∥P≥K Jn,α (t)∥H s ≤ K −r1 Zn,s+r1 +|α| ,                     (286)
+                                 0≤t≤T
+                                                                             (1)
+                                    ∥P≥K Πn,α ∥L1 (IT ;H s ) ≤ K −r1 Qn,s+r1 +|α| ,                 (287)
+                                                                             (∞)
+                                  sup ∥P≥K Πn,α (t)∥H s ≤ K −r1 Qn,s+r1 +|α| .                      (288)
+                                 0≤t≤T
+
+    For j ∈ N0 ,
+                                                             1
+                                           sup Ej+1/2 (t) ≤ Z20,j+1 ,                               (289)
+                                          0≤t≤T              2
+                                          Z T
+                                                             1
+                                              Ej+1/2 (t) dt ≤ X20,j+1 .                             (290)
+                                           0                 2
+
+
+                                                              53
+If m > j + 21 is an integer, then
+
+                                                             1
+                                        sup Ej+1/2,≥K (t) ≤ K 2j+1−2m Z20,m ,                                (291)
+                                       0≤t≤T                 2
+                                       Z T
+                                                             1
+                                           Ej+1/2,≥K (t) dt ≤ K 2j+1−2m X20,m .                              (292)
+                                        0                    2
+For k ∈ N,
+                                                                    k  
+                                                (k)               1X k
+                                          H                     ≤        Xa,1 Xk−a,1 .                       (293)
+                                                      L1 (0,T )   2    a
+                                                                 a=0
+
+ For j, ℓ ∈ N0 , define
+                                                           ℓ
+                                                            X
+                                                 [1]    1ℓ
+                                                Ej,ℓ :=      Xa,j+1 Xℓ−a,j+1 ,
+                                                        2a
+                                                     a=0
+                                                      ℓ  
+                                            [∞]    1X ℓ
+                                           Ej,ℓ :=           Za,j+1 Zℓ−a,j+1 ,                               (294)
+                                                   2     a
+                                                       a=0
+                                              [1]     [1]        [1]
+                                             Cj,ℓ := Ej,ℓ+1 + 2νEj+1,ℓ ,
+                                             [∞]      [∞]        [∞]
+                                            Cj,ℓ := Ej,ℓ+1 + 2νEj+1,ℓ .                                      (295)
+
+Then the complete differentiated energy and production rows obey
+                                                      [1]                                        [∞]
+                      ∂tℓ Ej+1/2                ≤ Ej,ℓ ,                  sup ∂tℓ Ej+1/2 (t) ≤ Ej,ℓ ,        (296)
+                                    L1 (0,T )                            0≤t≤T
+                                                      [1]                                        [∞]
+                      ∂tℓ Pj+1/2                ≤ Cj,ℓ ,                  sup ∂tℓ Pj+1/2 (t) ≤ Cj,ℓ .        (297)
+                                    L1 (0,T )                            0≤t≤T
+
+ Every current in (66) now has a finite-order majorant retaining temporal depth, spatial height,
+viscosity, and horizon. In particular,
+
+                       H ′ L1 (0,T ) ≤ X1,1 X0,1 ,                                                           (298)
+          Z T
+                                2
+                 Λ3/2 u(t)          dt ≤ X20,2 ,                                                             (299)
+             0                  2
+                   P1/2 L1 (0,T ) ≤ X1,1 X0,1 + νX20,2 ,                                                     (300)
+                                         n                                    o
+                 |H(T ) − H(t)| ≤ min Z0,1 X1,1 (T − t)1/2 , Z0,1 Z1,1 (T − t) ,                0 ≤ t ≤ T.   (301)
+
+    Finally,
+
+                            ∥u∥L2 (IT ;L∞ ) ≤ S2,0,∞ X0,2 ,                                                  (302)
+                      Z T
+                            ∥∇u(t)∥∞ dt ≤ S3,1,∞ T 1/2 X0,3 ,                                                (303)
+                        0
+                 Z T
+                        ∥∇ × u(t)∥∞ dt ≤ 2S3,1,∞ T 1/2 X0,3 ,                                                (304)
+                  0
+                                                                            
+                         sup ∥u(t)∥2H m ≤ ∥u0 ∥2H m exp 2Km S3,1,∞ T 1/2 X0,3 ,               m ≥ 3.         (305)
+                        0≤t≤T
+
+
+
+                                                                 54
+Every right-hand side is an explicit algebraic expression in the displayed analytic constants, the initial-
+jet recursion (178)–(179), and the finite collection of canonical rectangle coordinates Ba,b [u0 , ν; T ]
+selected by the stated indices. Equations (177) and (180)–(217) specify every intermediate operation.
+Equation (206) rewrites each such rectangle coordinate through the finite height-coordinate recursion
+(196)–(204). Since (198) first bounds those height coordinates by the rectangle coordinates, this is
+a re-expression of the same finite same-history information rather than a new estimate from the
+critical-height rows. This is an exact coordinate-level catalogue for general data; it does not claim a
+second, independent bound of those rectangle coordinates by a finite list of datum norms.
+    Proposition 7.6 displays the exact powers of ν and the rescaled horizon νT . For every fixed choice
+of the displayed indices, the definitions select only finitely many rectangle coordinates. Under the
+explicit critical smallness condition (309), Proposition 8.4 eliminates the rectangle coordinates and
+gives finite formulas solely in the displayed datum norms, ν, T , N , and M .
+
+Proof. The Fourier multiplier inequality
+
+                                            ∥∂xα f ∥H ℓ ≤ ∥f ∥H ℓ+|α| ,
+
+followed by Lemma 7.8, proves (270)–(273). The Banach identity
+                                                     Z t
+                             Jn,α (t) − Jn,α (r0 ) =     Jn+1,α (τ ) dτ
+                                                             r0
+
+in the two indicated Sobolev spaces and Cauchy–Schwarz prove the square-root branches of (274)
+and (275). The same identity, followed by the pointwise bound (211) for Vn+1 , proves their linear
+branches. Interpolation between the low modulus and
+
+                                        ∥Jn,α (t) − Jn,α (r0 )∥H s ≤ 2Zn,r
+
+proves (276). The fixed Sobolev embedding constant in (170) proves (277) and (278).
+   Apply the recurrence
+                                            n  
+                                            X   n
+                                 Qn = Ri Rj        Va,i Vn−a,j
+                                                a
+                                                     a=0
+
+term by term at order r, using (168). Cauchy–Schwarz in time gives (279); placing either factor
+in L∞t Hx
+          r+1 gives (280); placing both factors there gives (281) and (282). After subtracting the
+
+recurrence at times t and r0 , split each product difference into two terms and apply (275); this gives
+the square-root branch of (283). Since ∂t Πn,α = Πn+1,α , the Banach identity and (281) at row n + 1
+give its linear branch. Sobolev embedding proves (284).
+    For every f ∈ H ℓ+r1 ,
+                                      ∥P≥K f ∥H ℓ ≤ K −r1 ∥f ∥H ℓ+r1 .
+Apply this inequality at spatial order s + r1 to (210), (211), (279), and (281). The four resulting
+estimates are (285)– (288).
+    The inequalities
+
+                   ∥f ∥Ḣ j+1/2 ≤ ∥f ∥H j+1 ,      |ξ|2j+1 ≤ K 2j+1−2m |ξ|2m   (|ξ| ≥ K),
+
+give (289)– (292). The exact identity
+                                          k  
+                                        1X k      D                          E
+                          H (k) (t) =           Re Λ1/2 Va (t), Λ1/2 Vk−a (t) 2
+                                        2    a                                 L
+                                          a=0
+
+
+                                                        55
+and Cauchy–Schwarz in time give (293) and (298). More generally,
+                                             ℓ  
+                                     1       X  ℓ        D                       E
+                        ∂tℓ Ej+1/2 =                   Re Λj+1/2 Va , Λj+1/2 Vℓ−a 2 .
+                                         2         a                                   L
+                                             a=0
+
+Cauchy–Schwarz in time and the pointwise estimates (210)–(211) prove (296). Differentiating
+Pj+1/2 = ∂t Ej+1/2 + 2νEj+3/2 then proves (297). The next two estimates follow from
+                                                                        2
+                                             P1/2 = H ′ + ν Λ3/2 u          .
+                                                                        2
+
+ For the terminal critical-height modulus,
+                                         1                             
+                 |H(T ) − H(t)| ≤          ∥u(T )∥Ḣ 1/2 + ∥u(t)∥Ḣ 1/2 ∥u(T ) − u(t)∥Ḣ 1/2 ,
+                                         2
+and the Banach identity in H 1 prove the square-root branch of (301).
+   The identity                            D                E
+                                  H ′ = Re Λ1/2 V1 , Λ1/2 V0 2 ,
+                                                                            L
+together with (211), proves its linear branch.
+   Sobolev embedding and (210) prove (302)–(304). Lemma 2.9 gives
+
+                                      d
+                                         ∥u∥2H m ≤ 2Km ∥∇u∥∞ ∥u∥2H m .
+                                      dt
+Gronwall’s inequality and (303) prove (305).
+
+
+8     Three-dimensional applications
+8.1   Explicit closure for small critical data
+The construction below gives an explicit three-dimensional Ḣ 1/2 realization of the critical-data
+mechanism introduced by Fujita and Kato [5]; every constant used here is derived in the displayed
+estimates.
+    Use the explicit homogeneous Sobolev constants
+                                                                        1
+                                     S3 := S(3),         Csrc := S33 = √ .
+                                                                        2π
+The same constants hold for vector fields. Indeed, apply the scalar inequality to the Euclidean
+length |F |: one has |∇|F || ≤ |∇F |, while the difference-quotient representation of Ḣ 1/2 and
+ |F (x)| − |F (y)| ≤ |F (x) − F (y)| give ∥|F |∥Ḣ 1/2 ≤ ∥F ∥Ḣ 1/2 .
+
+Lemma 8.1 (Critical action identity). Let (u, p) be a smooth pressure-normalized solution on a time
+interval I ⊂ [0, T∗ ), and set
+                                      B(u) := P∇· (u ⊗ u).
+Then, pointwise on I,
+                            d
+                        ν      ∥u∥2Ḣ 1/2 + ν 2 ∥u∥2Ḣ 3/2 + ∥ut ∥2Ḣ −1/2 = ∥B(u)∥2Ḣ −1/2 .    (306)
+                            dt
+
+
+                                                         56
+Proof. The projected equation is
+                                            ut = −νΛ2 u − B(u).
+Put
+                          g := Λ−1/2 B(u),         w := Λ−1/2 ut = −νΛ3/2 u − g.
+Pairing the projected equation with Λu gives
+                              d                                    D         E
+                                 ∥u∥2Ḣ 1/2 = −2ν ∥u∥2Ḣ 3/2 − 2 Re g, Λ3/2 u .
+                              dt                                              2
+
+                                                                                   2
+Multiply this equality by ν and expand ∥w∥22 = νΛ3/2 u + g 2 . The cross terms cancel and give
+(306).
+
+    For m ∈ N, define the explicit homogeneous commutator constant
+                                                 m  
+                                                 X  m
+                                   Khom
+                                    m   := 3m         S(pm,ℓ )S(qm,ℓ ),                               (307)
+                                                    ℓ
+                                                  ℓ=1
+
+where (p1,1 , q1,1 ) = (3, 6), and, for m ≥ 2,
+
+                              ℓ−1            1     1 ϑm,ℓ                       1     1 ϑm,ℓ
+                    ϑm,ℓ :=       ,              := −     ,                         := +     .
+                              m−1           pm,ℓ   3  6                        qm,ℓ   6  6
+
+The corresponding estimate is
+
+                  |Re ⟨Λm P∇· (z ⊗ z), Λm z⟩L2 | ≤ Khom
+                                                    m   Λ3/2 z                     ∥Λm z∥2 Λm+1 z 2   (308)
+                                                                               2
+
+for every z ∈ Sσ (R3 ).
+
+Lemma 8.2 (Explicit homogeneous critical commutator). For every m ∈ N, Khom    m   < ∞, and
+(308) holds with the displayed constant. Moreover, (308) extends to every divergence-free z ∈
+H m+1 (R3 ) ∩ Ḣ 3/2 (R3 ).
+
+Proof. The multinomial identity gives the exact pairing
+                                                        X m!
+                                 ⟨Λm f, Λm g⟩L2 =                      ⟨∂ α f, ∂ α g⟩L2 .
+                                                                α!
+                                                        |α|=m
+
+After differentiating (z · ∇)z, the undifferentiated transport term has zero pairing by incompressibility.
+A remaining term has the form
+                          D                          E
+                            (∂ β z · ∇)∂ α−β z, ∂ α z 2 ,  |α| = m, 0 < β ≤ α.
+                                                    L
+
+Put ℓ = |β|. For m ≥ 2, Hölder’s inequality, Lemma 2.3, and Fourier log-convexity give
+
+                                   ∂β z          ∇∂ α−β z
+                                          pm,ℓ                  qm,ℓ
+
+                                     ≤ S(pm,ℓ )S(qm,ℓ ) ∥z∥Ḣ 3/2 ∥z∥Ḣ m+1 .
+
+
+
+
+                                                         57
+Indeed, the two differentiated Sobolev orders are the complementary interpolants
+                                                              3
+                                    ℓ + s(pm,ℓ ) = (1 − ϑm,ℓ ) + ϑm,ℓ (m + 1),
+                                                              2
+                                                       3
+                            m − ℓ + 1 + s(qm,ℓ ) = ϑm,ℓ + (1 − ϑm,ℓ )(m + 1).
+                                                       2
+For m = 1, the same bound is the direct L3 -L6 estimate. Finally,
+                             X m!                 X α m
+                                      = 3m ,               =      .
+                                  α!                   β        ℓ
+                                    |α|=m                                  β≤α
+                                                                          |β|=ℓ
+
+Summation gives exactly (307) and proves (308). Solenoidal Fourier truncation and convergence in
+H m+1 ∩ Ḣ 3/2 give the asserted extension.
+
+Theorem 8.3 (Explicit small-critical-data global regularity). Let ν > 0 and a ∈ Sσ (R3 ). Set
+
+                                   A0 := Λ1/2 a                 ,          δ0 := ν 2 − Csrc
+                                                                                        2
+                                                                                            A20 .
+                                                            2
+
+If
+                                                                 ν    √
+                                                     A0 <            = 2 πν,                                             (309)
+                                                                Csrc
+then a generates a unique global pressure-normalized smooth solution
+
+                                         (u, p) ∈ C ∞ ([0, ∞) × R3 ; R3 × R).
+
+For every finite T > 0, the solution is the unique member of Mν3 (0, T ; a). For every t ≥ 0,
+                                   Z t                                    Z t
+                        2                                2
+          ν Λ1/2 u(t)       + δ0          Λ3/2 u(s)             ds +            ∥ut (s)∥2Ḣ −1/2 ds ≤ νA20 ,   δ0 > 0.   (310)
+                        2           0                    2                 0
+
+The critical nonlinear source and the first temporal response satisfy
+                              Z ∞
+                                                                   C 2 νA4        νA4
+                                   ∥P∇· (u ⊗ u)(t)∥2Ḣ −1/2 dt ≤ src 0 = 2 2 0 2 ,                                       (311)
+                               0                                      δ0       2π ν − A0
+                 Z ∞                   Z ∞
+                                 2                                       C νA4
+                                                                           2
+              ν2       Λ3/2 u(t) dt +        ∥ut (t)∥2Ḣ −1/2 dt ≤ νA20 + src 0 .                                        (312)
+                  0              2       0                                   δ0
+
+For every m ∈ N, define
+                                                                    (Khom  2 2
+                                                                      m ) A0
+                                                     Γsm
+                                                      m :=                     .
+                                                                        δ0
+Then
+                                                                    Z t
+                                                                                          2
+                                         ∥Λ   m
+                                                  u(t)∥22 + ν              Λm+1 u(s) 2 ds
+                                                                 0
+                                                        m     2
+                                                  ≤ ∥Λ      a∥2 exp(Γsm
+                                                                     m ).                                                (313)
+
+In particular,                                   h                         i
+                            sup ∥u(t)∥2H m ≤ 2m−1 ∥a∥22 + ∥Λm a∥22 exp(Γsm
+                                                                        m ) .                                            (314)
+                            t≥0
+
+
+
+                                                                     58
+Proof. Iterate Theorem 2.12 and join overlapping intervals by its at-most-one assertion for the shifted
+mild class. The union is the maximal shifted pressure-normalized H 3 mild history on [0, T∗ ), and
+persistence retains H ∞ on every compact subinterval. Put
+
+                             A(t) := Λ1/2 u(t)       ,        B(t) := Λ3/2 u(t)           .
+                                                 2                                    2
+
+Dual Sobolev, Hölder, and the unit Fourier-multiplier norm of P give the complete source-constant
+chain
+
+                    ∥P∇· (u ⊗ u)∥Ḣ −1/2 ≤ S3 ∥(u · ∇)u∥L3/2
+                                           ≤ S3 ∥u∥L3 ∥∇u∥L3
+                                           ≤ S33 Λ1/2 u           Λ3/2 u       = Csrc A(t)B(t).     (315)
+                                                              2            2
+
+Combining (315) with the exact identity (306) gives, on every classical subinterval,
+
+                           d
+                              A(t)2 + ν 2 − Csrc
+                                             2
+                                                 A(t)2 B(t)2 + ∥ut (t)∥2Ḣ −1/2 ≤ 0.
+                                                      
+                       ν
+                           dt
+Continuity and a first-exit argument give A(t) ≤ A0 throughout [0, T∗ ). Integration and the definition
+of δ0 prove (310). In particular,
+                                         Z t
+                                                        νA20
+                                             B(s)2 ds ≤      .
+                                          0              δ0
+For every t < T∗ , the same source estimate and the integrated identity (306) prove (311) and (312)
+with ∞ replaced by t. After the continuation argument below proves T∗ = ∞, monotone convergence
+gives the stated forms.
+    At order m, Lemma 8.2 and Young’s inequality yield
+
+                           d                      2  (Khom )2
+                              ∥Λm u∥22 + ν Λm+1 u 2 ≤ m       B(t)2 ∥Λm u∥22 .
+                           dt                           ν
+Multiplication by the corresponding integrating factor and
+                                       Z t
+                                                       νA20
+                                           B(s)2 ds ≤
+                                        0               δ0
+
+prove (313). The Fourier inequality
+
+                                      (1 + |ξ|2 )m ≤ 2m−1 (1 + |ξ|2m )
+
+and the kinetic-energy identity prove (314).
+   Let M3 be the square root of the right-hand side of (314) with m = 3, and set
+
+                                   δcrit := min{1, cν (1 + M3 )−2 } > 0.
+
+Every datum u(t0 ), t0 < T∗ , has H 3 -norm at most M3 . Theorem 2.12 restarts the solution for
+at least δcrit units of time. If T∗ < ∞, choose t0 < T∗ with T∗ − t0 < δcrit /2. Both restrictions
+belong to Mν3 (t0 , b; u(t0 )) for every b < T∗ , so uniqueness on each such closed subinterval identifies
+them throughout [t0 , T∗ ). The restarted member then extends the original history beyond T∗ ,
+contradicting maximality. Hence T∗ = ∞, and persistence gives the asserted smoothness. The same
+local uniqueness on each finite interval proves the stated global uniqueness class.
+
+                                                         59
+   For m ≥ 1, define
+                       h                         i1/2
+         sm
+        Um  := 2(m−1)/2 ∥a∥22 + ∥Λm a∥22 exp(Γsm
+                                              m )     ,                U0sm := ∥a∥2 ,      sm
+                                                                                          U−1 := U0sm .
+
+For n ∈ N0 and m ≥ −1, define the finite-order recursion
+                          sm      sm
+                         Y0,m := Um  ,                                                                        (316)
+                                                 n  
+                        sm         sm
+                                                X   n
+                       Yn+1,m := νYn,m+2 + Am+1      ′
+                                                       Yasm       sm
+                                                          ′ ,m+2 Yn−a′ ,m+2 .                                 (317)
+                                                ′
+                                                    a
+                                                           a =0
+
+Proposition 8.4 (Explicit small-data pressure-complete rectangles). Under the hypotheses of
+Theorem 8.3, for every n ∈ N0 and m ≥ −1,
+                                                             sm
+                                          sup ∥Vn (t)∥H m ≤ Yn,m .                                            (318)
+                                          t≥0
+
+For every T < ∞ and N, M ∈ N0 ,
+                                              N
+                                              X
+                                                       sm      2    sm        2
+                                                                               
+                        RN,M (u; T ) ≤ T             (Yn,M +1 ) + (Yn+1,M −1 ) ,                              (319)
+                                              n=0
+                                                    X n
+                                                    N X        n
+                                                                  
+                        QN,M (p; T ) ≤ T AM                        Ysm
+                                                                     ′    Ysm ′      .                        (320)
+                                                                a′ a ,M +1 n−a ,M +1
+                                                    n=0 a′ =0
+
+In the entrywise order from Proposition 7.12, these bounds have the matrix form
+                                                                    n  
+                                                                                                   !N
+                                                                   X   n
+  CN,M (T ) ⪯ent     T 1/2 Yn,M
+                            sm
+                                +1   T 1/2 Yn+1,M
+                                            sm
+                                                  −1          T AM      ′
+                                                                          Yasm        sm
+                                                                             ′ ,M +1 Yn−a′ ,M +1          .   (321)
+                                                                   ′
+                                                                       a
+                                                                   a =0                             n=0
+
+Every right-hand side is an explicit finite function of ν, T, N, M and the datum norms
+
+                    ∥a∥2 ,       Λ1/2 a       ,       {∥Λr a∥2 : 1 ≤ r ≤ M + 2N + 1} .                        (322)
+                                          2
+                                   sm uses only the entries U sm with −1 ≤ j ≤ m + 2n; both velocity
+Indeed, induction in n shows that Yn,m                       j
+columns of (321) consequently stop at j = M + 2N + 1, and its pressure column stops no later.
+
+Proof. Equation (314) proves the base (318) for m ≥ 1; the kinetic-energy identity proves it for
+m = 0, and H 0 ,→ H −1 proves it for m = −1. Apply P to the temporal recurrence. This is
+the α = 0 temporal block-row of (137); its factorial conjugate is (140). Equation (167) at order
+m + 1 and induction give (318) through (317); for m = −1, use the order-zero product estimate
+and H 0 ,→ H −1 . Integration in time gives (319). The pressure recurrence and (168) at order M ,
+followed by integration and summation in n, give (320). The same rowwise bounds give (321); taking
+the Frobenius norm of its first two columns and summing its pressure column recovers (319) and
+(320).
+
+8.2   Low-rectangle classes, local scale content, and material flow
+The following results use distinct outputs of the compatible rectangles: mixed space–time embeddings,
+pressure completion, and integrable Lipschitz action.
+
+                                                         60
+Proposition 8.5 (Three low-rectangle regularity classes). Let u be the global solution generated by
+Theorem 5.10, and let 0 < T < ∞. Then
+
+                                     ∥u∥L∞ (0,T ;L3 ) ≤ S1,0,3 Z0,1 [u0 , ν; T ],                              (323)
+                                     ∥u∥L2 (0,T ;L∞ ) ≤ S2,0,∞ X0,2 [u0 , ν; T ],                              (324)
+                                    ∥∇u∥L2 (0,T ;L3 ) ≤ S2,1,3 X0,2 [u0 , ν; T ].                              (325)
+
+In particular, each of the three norms is finite on every finite horizon, with the stated datum, viscosity,
+and horizon dependence.
+
+Proof. Use (277) with (n, α, a, b, q, k) = (0, 0, ∞, 3, 1, 0) to obtain (323). Use (278) with
+(n, α, b, q, k) = (0, 0, ∞, 2, 0) and (0, 0, 3, 2, 1) to obtain (324) and (325). The strict embed-
+ding conditions are, respectively, 1 > 1/2, 2 > 3/2, and 2 > 3/2.
+
+Theorem 8.6 (Uniform extinction of parabolic scale content). Let ν > 0, let u0 ∈ Hσ∞ (R3 ), and let
+(u, p) be the pressure-normalized global pair supplied by Theorem 5.10. For 0 < T < ∞, define
+
+                                          UT := S2,0,∞ Z0,2 [u0 , ν; T ],
+                                                                   (∞)
+                                          PT := S2,0,∞ Q0,2 [u0 , ν; T ].                                      (326)
+
+Let z0 = (t0 , x0 ), ρ > 0, and suppose that
+
+                             Qρ (z0 ) := (t0 − ρ2 , t0 ) × Bρ (x0 ) ⊂ (0, T ) × R3 .
+
+Then the scale-normalized velocity–pressure content satisfies
+                         ZZ
+                      −2
+                                                           4π 3  3    3/2
+                                                                             
+                    ρ                  |u|3 + |p|3/2 dx dt ≤    ρ UT + P T     .                               (327)
+                            Qρ (z0 )                          3
+
+Consequently,                                                 ZZ                             
+                                                         −2
+                    lim           sup                ρ                        |u|3 + |p|3/2       dx dt = 0.   (328)
+                    ρ↓0 {z0 : Qρ (z0 )⊂(0,T )×R3 }             Qρ (z0 )
+
+Proof. Equation (272), followed by (170) with (s, k, b) = (2, 0, ∞), gives
+
+                                             ∥u∥L∞ ((0,T )×R3 ) ≤ UT .
+
+Equations (281) and (170) give
+                                              ∥p∥L∞ ((0,T )×R3 ) ≤ PT .
+
+Since |Bρ | = 4π  3
+               3 ρ and the time length of Qρ is ρ ,
+                                                    2
+
+                       ZZ                                4π 5  3   3/2
+                                                                          
+                                     |u|3 + |p|3/2 dx dt ≤    ρ UT + PT     .
+                          Qρ (z0 )                          3
+
+Division by ρ2 proves (327); its right-hand side is independent of the center and tends to zero with
+ρ, which proves (328).
+
+
+
+
+                                                               61
+Theorem 8.7 (Global vorticity amplification and dissipation). Let ν > 0, let u0 ∈ Hσ∞ (R3 ), and let
+(u, p) be the pressure-normalized global pair supplied by Theorem 5.10. Put
+
+                ω := ∇ × u,             ω0 := ∇ × u0 ,           LωT := S3,1,∞ T 1/2 X0,3 [u0 , ν; T ].
+
+For every T < ∞ and 2 ≤ r ≤ ∞,
+                                                                       ω
+                                             sup ∥ω(t)∥Lr ≤ eLT ∥ω0 ∥Lr ,                                 (329)
+                                            0≤t≤T
+                                  Z T
+                                                                            ω
+                                        ∥(ω · ∇)u(t)∥Lr dt ≤ LωT eLT ∥ω0 ∥Lr .                            (330)
+                                   0
+
+If 2 ≤ r < ∞, then         Z T
+                                                    2              r        ω
+                                       ∇|ω(t)|r/2       dt ≤             erLT ∥ω0 ∥rLr .                  (331)
+                              0                     2          4ν(r − 1)
+Proof. Taking the curl of the momentum equation gives the three-dimensional vorticity equation
+
+                                       ∂t ω + (u · ∇)ω = (ω · ∇)u + ν∆ω.                                  (332)
+
+Fix 2 ≤ r < ∞. Pair (332) with |ω|r−2 ω. To justify this power test, choose χ ∈ Cc∞ (R3 ), with
+0 ≤ χ ≤ 1, χ = 1 on B1 , and χ = 0 outside B2 , put χR (x) = χ(x/R), and first test against
+
+                                  χR Φε (ω),        Φε (z) := (|z|2 + ε)(r−2)/2 z.
+
+Define the primitive
+                                             (|z|2 + ε)r/2 − εr/2
+                                          Fε (z) :=               .                                       (333)
+                                                       r
+Then ∇z Fε = Φε , and incompressibility gives
+                       Z                                Z
+                          χR (u · ∇)ω · Φε (ω) dx = −       Fε (ω) u · ∇χR dx.                            (334)
+                         R3                                          R3
+
+With AR := B2R \ BR ,
+           Z
+                                 Cr                                           
+             Fε (ω) u · ∇χR dx ≤    ∥u∥∞ ∥ω∥rLr (AR ) + ε(r−2)/2 ∥ω∥2L2 (AR ) ,                           (335)
+                                 R
+         Z
+                                 Cr                                                    
+           ∇χR · ∇ω Φε (ω) dx ≤     ∥∇ω∥L2 (AR ) ∥ω∥r−1
+                                                      L2r−2 (AR ) + ε (r−2)/2
+                                                                              ∥ω∥L (AR ) .
+                                                                                  2                       (336)
+                                 R
+
+All norms on the right are finite because u, ω belong to every spatial Sobolev space. Their annular
+tails vanish as R → ∞, so (334) converges to the transport cancellation and the diffusion cutoff term
+vanishes.
+    The remaining diffusion form is nonnegative:
+
+                     ∇ω : DΦε (ω)∇ω = (|ω|2 + ε)(r−2)/2 |∇ω|2
+                                                                                     3
+                                                                                     X
+                                                                 2         (r−4)/2
+                                               + (r − 2)(|ω| + ε)                      (ω · ∂j ω)2 .      (337)
+                                                                                     j=1
+
+
+
+
+                                                           62
+After the limit R → ∞, dominated convergence applies to Fε (ω) and to the stretching term, while
+Fatou’s lemma applies to (337) as ε ↓ 0. This yields the unregularized chain rule and diffusion
+inequality used below. The stretching term satisfies
+                            Z
+                                (ω · ∇)u · |ω|r−2 ω dx ≤ ∥∇u∥∞ ∥ω∥rr .
+                                 R3
+
+For the diffusion term, spatial integration by parts gives
+                          Z                              Z
+                                       r−2
+                        −     ∆ω · |ω| ω dx ≥ (r − 1)                  |ω|r−2 |∇|ω||2 dx
+                           R3                                     R3
+                                                         4(r − 1)     r/2
+                                                                          2
+                                                     =            ∇|ω|      .
+                                                            r2            2
+
+Hence
+                      1 d           4ν(r − 1)           2
+                            ∥ω∥rr +            ∇|ω| r/2
+                                                          ≤ ∥∇u∥∞ ∥ω∥rr .                        (338)
+                       r dt            r2               2
+Combining (338) with the quantitative rectangle estimate (303) gives
+                                           Z T
+                                                 ∥∇u(t)∥∞ dt ≤ LωT .
+                                            0
+                                                                            Rt
+Gronwall’s inequality proves (329) for finite r. Multiplying (338) by exp(−r 0 ∥∇u(s)∥∞ ds) and
+integrating proves (331). Since ω0 , ω(t) ∈ L2 ∩ L∞ , ∥f ∥r → ∥f ∥∞ as r → ∞ for each such f .
+Consequently,
+                                                                   ω                         ω
+               sup ∥ω(t)∥∞ ≤ lim inf sup ∥ω(t)∥r ≤ eLT lim ∥ω0 ∥r = eLT ∥ω0 ∥∞ .
+              0≤t≤T                   r→∞ 0≤t≤T                        r→∞
+
+
+This is (329) at the endpoint. Finally,
+
+                                  ∥(ω · ∇)u(t)∥r ≤ ∥∇u(t)∥∞ ∥ω(t)∥r ;
+
+integration and (329) give (330).
+
+Theorem 8.8 (Quantitative volume-preserving material flow). Let ν > 0, let u0 ∈ Hσ∞ (R3 ), and let
+(u, p) be the pressure-normalized global pair supplied by Theorem 5.10. For 0 < T < ∞, put
+
+                                       DT := S2,0,∞ T 1/2 X0,2 [u0 , ν; T ],
+                                       LT := S3,1,∞ T 1/2 X0,3 [u0 , ν; T ].                     (339)
+
+For every a ∈ R3 , the problem
+
+                             ∂t X(t, a) = u(t, X(t, a)),           X(0, a) = a,                  (340)
+
+has a unique solution on [0, T ]. For every t ∈ [0, T ], the map X(t, ·) : R3 → R3 is a smooth
+volume-preserving diffeomorphism and
+
+                           |X(t, a) − a| ≤ DT ,                                                  (341)
+                             −LT                                             LT
+                            e         |a − b| ≤ |X(t, a) − X(t, b)| ≤ e           |a − b|,       (342)
+                          det Da X(t, a) = 1.                                                    (343)
+
+
+                                                         63
+Proof. Equations (302) and (303) give
+                                               Z T
+                                                     ∥u(t)∥∞ dt ≤ DT ,
+                                                 0
+                                              Z T
+                                                   ∥∇u(t)∥∞ dt ≤ LT .
+                                               0
+
+Picard iteration on successive compact time intervals gives local existence and uniqueness for (340).
+The first integral bound prevents escape to spatial infinity and extends every trajectory to [0, T ]; it
+also proves (341). For two trajectories, the second integral bound and Gronwall’s inequality give the
+upper bound in (342). Solving the same equation backward from time t produces the inverse map
+and gives the lower bound. Spatial differentiation of (340) and induction give smoothness of the
+map and its inverse. Finally, Jacobi’s formula and ∇ · u = 0 give
+                   ∂t det Da X = (∇ · u)(t, X) det Da X = 0,                  det Da X(0, a) = 1,
+which proves (343).
+
+8.3    Relative energy and the Leray–Hopf class
+The weak class is stated in the whole-space form originating with Leray and Hopf [7, 6]. The
+argument below derives its stability against the pressure-complete smooth history directly from the
+weak formulation and the energy inequality.
+Definition 8.9 (Three-dimensional Leray–Hopf solution). Let ν > 0, T > 0, and v0 ∈ Hσ0 (R3 ). A
+Leray–Hopf solution on [0, T ] is a pair (v, q) such that
+             v ∈ Cw ([0, T ]; Hσ0 ) ∩ L∞ (0, T ; L2σ ) ∩ L2 (0, T ; Ḣσ1 ),      q ∈ D′ ((0, T ) × R3 ),
+the equations
+                                 ∂t v + (v · ∇)v + ∇q = ν∆v,              ∇·v =0
+hold in distributions, v(t) → v0 strongly in L2 as t ↓ 0, and
+                                            Z t
+                              1       2                       1
+                                ∥v(t)∥2 + ν     ∥∇v(s)∥22 ds ≤ ∥v0 ∥22                                     (344)
+                              2              0                2
+for every t ∈ [0, T ]. Every divergence-free test field ϕ ∈ Cc∞ ([0, T ) × R3 ; R3 ) satisfies
+                 Z T                 Z                                 
+                        − ⟨v, ∂t ϕ⟩ −   (v ⊗ v) : ∇ϕ dx + ν ⟨∇v, ∇ϕ⟩ dt = ⟨v0 , ϕ(0)⟩ .                    (345)
+                  0                      R3
+
+     A global Leray–Hopf solution at viscosity ν is a pair on [0, ∞) whose restriction to every finite
+[0, T ] is a Leray–Hopf solution in Definition 8.9, with the same datum and viscosity.
+Lemma 8.10 (Solenoidal cutoff density and time commutation). Let A be a finite subset of
+{(r, p) : r ∈ N0 , 2 ≤ p < ∞}. There are linear operators Tk , independent of time, such that, for
+every f ∈ Hσ∞ (R3 ),
+                                                 ∞
+                                        Tk f ∈ Cc,σ (R3 )
+and, for every (r, p) ∈ A ,
+                                         sup ∥Tk f ∥W r,p ≤ CA ∥f ∥W r,p ,                                 (346)
+                                          k
+                                        ∥Tk f − f ∥W r,p −→ 0.                                             (347)
+
+
+                                                          64
+The convergence is uniform for f in a compact subset of the retained intersection of W r,p spaces. If
+F ∈ C ∞ ([0, T ]; Hσ∞ ), then
+                                ∂ta (Tk F ) = Tk (∂ta F ) (a ∈ N0 ),                           (348)
+and the convergence in (347) is uniform in t for every fixed temporal derivative.
+Proof. Choose χ ∈ Cc∞ (B2 ) with χ = 1 on B1 , and put χR (x) = χ(x/R) and AR = B2R \ BR . For
+a smooth solenoidal f , set
+                                         gR := ∇χR · f.
+It is supported in AR , and        Z                 Z
+                                           gR dx =            ∇ · (χR f ) dx = 0.
+                                     AR                  R3
+
+RWe now construct    the required     compact anti-divergence explicitly. Fix ρ ∈ Cc∞ ((−3, 3)) with
+                  ∞
+                                  R
+ R ρ = 1. If h ∈ Cc (B2 ) and       h = 0, set
+                                    Z                                 Z
+                   m1 (y2 , y3 ) :=    h(s, y2 , y3 ) ds, m2 (y3 ) :=   m1 (s, y3 ) ds
+                                       R                                            R
+
+and define Gh = (G1 , G2 , G3 ) by
+                                        Z y1
+                                                                               
+                            G1 (y) :=        h(s, y2 , y3 ) − ρ(s)m1 (y2 , y3 ) ds,
+                                       −∞
+                                             Z y2
+                                                                                
+                            G2 (y) := ρ(y1 )       m1 (s, y3 ) − ρ(s)m2 (y3 ) ds,
+                                              −∞
+                                                   Z y3
+                            G3 (y) := ρ(y1 )ρ(y2 )        m2 (s) ds.
+                                                         −∞
+
+     The three integrands have zero total integral in their integration variables; for the last one this is
+    h = 0. Thus Gh ∈ Cc∞ ((−3, 3)3 ; R3 ), and direct differentiation gives
+R
+
+                 ∇ · Gh = h − ρ(y1 )m1 + ρ(y1 )m1 − ρ(y1 )ρ(y2 )m2 + ρ(y1 )ρ(y2 )m2 = h.
+Integration over intervals of length at most six, Hölder’s inequality, Fubini’s theorem, and differenti-
+ation under the integral give, for a ∈ N0 and 1 < p < ∞,
+                                  ∥Gh∥W a,p ((−3,3)3 ) ≤ Ca,p,ρ ∥h∥W a,p (B2 ) .                     (349)
+For g ∈ Cc∞ (B2R ) of mean zero, put
+                                                              
+                                       (GR g)(x) := R G(g(R ·)) (x/R).
+Then ∇ · GR g = g, its support lies in (−3R, 3R)3 , and scaling (349) gives
+                              ∥GR g∥Lp ≤ Cp R ∥g∥Lp ,
+                                                   j
+                                                   X
+                              j
+                            ∇ GR g Lp ≤ Cj,p             R1−j+b ∇b g           ,        j ≥ 1.       (350)
+                                                                          Lp
+                                                   b=0
+
+ Define
+                                               SR f := χR f − GR gR .
+             ∞ (R3 ), with support in (−3R, 3R)3 . Leibniz’ rule gives, for 0 ≤ a ≤ r − 1,
+Then SR f ∈ Cc,σ
+                                                         a
+                                                         X
+                             ∥∇a gR ∥Lp (AR ) ≤ Ca             R−1−a+b ∇b f                   .
+                                                                                   Lp (AR )
+                                                         b=0
+
+
+                                                          65
+Combining this estimate with (350) and the analogous cutoff estimate yields
+                                                    r
+                                                    X
+                          ∥SR f − f ∥W r,p ≤ Cr,p     (1 + Rb−r ) ∇b f                     .             (351)
+                                                                            Lp (R3 \BR )
+                                                    b=0
+
+For r = 0, the same conclusion follows from (350) and ∥gR ∥p ≤ CR−1 ∥f ∥Lp (AR ) . The right side
+tends to zero as R → ∞, and the same calculations give operator norms bounded independently of
+R.
+    Choose Rk ↑ ∞ and set Tk := SRk . Estimate (351) holds simultaneously for the finite family A ,
+while the preceding operator estimates give (346) simultaneously for that family. Strong convergence
+plus the uniform operator bound makes convergence uniform on compact subsets: cover a compact
+set by finitely many norm balls and use the bound on each remainder. Each Tk is independent of
+time, so differentiation commutes with it. The ranges of ∂ta F on [0, T ] are compact in every retained
+space, which proves the final assertion.
+
+Lemma 8.11 (Admissible strong-history test). Let u be the global solution from Theorem 5.10, and
+let v be a Leray–Hopf solution on [0, T ] at the same viscosity. Put w := v − u. Then, for every
+t ∈ [0, T ],
+                                                          Z tZ
+                             ⟨v(t), u(t)⟩ = ⟨v0 , u0 ⟩ +        (w · ∇u) · w dx ds
+                                                         0   R3
+                                                   Z t
+                                            − 2ν       ⟨∇v, ∇u⟩ ds.                                      (352)
+                                                    0
+
+Proof. The energy class and spatial interpolation give
+
+                         v ∈ L4 (0, T ; L3 ),     ∥v∥4L4 L3 ≤ C ∥v∥2L∞ L2 ∥∇v∥2L2 L2 ,
+
+so v ⊗ v ∈ L2 (0, T ; L3/2 ).
+     Fix 0 < t < T . Solenoidal density on R3 , applied uniformly to the compact sets u([0, T ]) and
+ut ([0, T ]) in their finite Sobolev spaces, gives
+
+                                         u(k) ∈ C ∞ ([0, T ]; Cc,σ
+                                                               ∞
+                                                                   (R3 ))
+
+such that
+
+            u(k) −→ u in W 1,1 (0, T ; L2 ) ∩ L2 (0, T ; H 1 ) ∩ L2 (0, T ; W 1,3 ) ∩ C([0, T ]; L2 ).   (353)
+
+Apply Lemma 8.10 with
+                                          A = {(0, 2), (1, 2), (1, 3)}
+and set u(k) = Tk u. Its uniform compact-range conclusion for u and ut , together with time
+commutation (348), gives (353).
+    For 0 < h < T − t, choose ηh ∈ Cc∞ ([0, T )) with 0 ≤ ηh ≤ 1, ηh = 1 on [0, t], ηh = 0 on [t + h, T ],
+and ηh′ ≤ 0. The field ηh u(k) is an admissible test in (345). First let k → ∞. The convergence in
+(353), together with v ⊗ v ∈ L2 L3/2 , permits passage in every term.
+
+
+
+
+                                                          66
+  Choose the time cutoffs so that −ηh′ is an approximate identity from the right at t, and let h ↓ 0.
+Weak continuity of v, strong continuity of u, and the Lebesgue differentiation theorem give
+                                            Z t               Z tZ
+                ⟨v(t), u(t)⟩ = ⟨v0 , u0 ⟩ +     ⟨v, ut ⟩ ds +        (v ⊗ v) : ∇u dx ds
+                                             0                 0  R3
+                                    Z t
+                               −ν        ⟨∇v, ∇u⟩ ds.
+                                             0
+
+    This identity first holds for almost every t. Its right-hand side is continuous in t, while t 7→
+⟨v(t), u(t)⟩ is continuous by weak continuity of v and norm continuity of u. Hence it holds for every
+0 ≤ t ≤ T , including t = T by passage from below. Using
+
+                                            ut = −(u · ∇)u − ∇p + ν∆u
+
+is admissible because v is divergence free. It gives
+                  Z t                 Z tZ                          Z t
+                      ⟨v, ut ⟩ ds = −        v · (u · ∇)u dx ds − ν     ⟨∇v, ∇u⟩ ds.
+                     0                           0   R3                            0
+
+Finally,                 Z                                              Z
+                               [(v ⊗ v) : ∇u − v · (u · ∇)u] dx =             (w · ∇u) · w dx,
+                         R3                                              R3
+because                          Z                             Z
+                                                        1
+                                      (w · ∇u) · u dx =             w · ∇|u|2 dx = 0.
+                                   R3                   2      R3
+This proves (352).
+
+Theorem 8.12 (Quantitative Leray–Hopf stability). Let ν > 0 and u0 ∈ Hσ∞ (R3 ), and let u be the
+global strong history from Theorem 5.10. Fix T > 0, and let v be any Leray–Hopf solution on [0, T ]
+at the same viscosity ν, with datum v0 ∈ Hσ0 (R3 ). Then, for 0 ≤ t ≤ T ,
+                                                  Z t
+                             1              2
+                               ∥v(t) − u(t)∥2 + ν     ∥∇(v − u)(s)∥22 ds
+                             2                     0
+                                                    Z t                 
+                                  1           2
+                                ≤ ∥v0 − u0 ∥2 exp 2       ∥∇u(s)∥∞ ds                                        (354)
+                                  2                     0
+                                  1                                                 
+                                ≤ ∥v0 − u0 ∥22 exp 2S3,1,∞ T 1/2 P0,2 [u0 , ν; T ]1/2 .                      (355)
+                                  2
+The lower spatial rectangle also gives the viscosity-weighted estimate
+
+                                               ν t
+                                                 Z
+                           1               2
+                             ∥v(t) − u(t)∥2 +        ∥∇(v − u)(s)∥22 ds
+                           2                   2 0
+                                                                                          !
+                                                         2
+                                                        S2,0,∞
+                                      1
+                                     ≤ ∥v0 − u0 ∥22 exp        X0,2 [u0 , ν; T ]2             .              (356)
+                                      2                   ν
+
+Proof. Combine (344), the strong energy equality (133), and (352). With w = v − u, this gives
+                                  Z t                                       Z tZ
+              1                                           1
+                ∥w(t)∥22 + ν             ∥∇w(s)∥22 ds ≤     ∥w(0)∥22 −                 (w · ∇u) · w dx ds.   (357)
+              2                      0                    2                  0   R3
+
+
+
+                                                          67
+The integral term in (357) has absolute value at most
+
+                                               ∥∇u(s)∥∞ ∥w(s)∥22 .
+
+Gronwall’s inequality bounds ∥w(t)∥22 . Substitution of that bound back into (357) proves (354).
+Proposition 7.17 gives
+                          Z T
+                                   ∥∇u(t)∥∞ dt ≤ S3,1,∞ T 1/2 P0,2 [u0 , ν; T ]1/2 ,
+                             0
+
+which proves (355).
+   For the lower-rectangle estimate, integration by parts and ∇ · w = 0 give
+                 Z                       Z
+                    (w · ∇u) · w dx =       (w · ∇w) · u dx ≤ ∥u∥∞ ∥w∥2 ∥∇w∥2 .
+                   R3                               R3
+
+Young’s inequality in (357) gives
+                             Z t                                                  Z t
+            1            ν                                   1             1
+              ∥w(t)∥22 +           ∥∇w(s)∥22 ds ≤              ∥w(0)∥22 +               ∥u(s)∥2∞ ∥w(s)∥22 ds.
+            2            2    0                              2            2ν       0
+
+Set                                                          Z t
+                                                         1
+                                            A(t) :=                ∥u(s)∥2∞ ds.
+                                                         ν    0
+
+Gronwall’s inequality gives ∥w(t)∥22 ≤ ∥w(0)∥22 eA(t) . Substitution in the preceding inequality gives
+                                              Z t
+                         1            ν                                    1
+                           ∥w(t)∥22 +               ∥∇w(s)∥22 ds ≤           ∥w(0)∥22 eA(t) .
+                         2            2         0                          2
+
+Finally, (302) yields
+                                                      2
+                                                     S2,0,∞
+                                        A(t) ≤              X0,2 [u0 , ν; T ]2 ,
+                                                       ν
+which proves (356).
+
+Corollary 8.13 (Explicit weak-class stability for small critical data). Under the hypotheses of
+Theorem 8.3, let v be a global Leray–Hopf solution at the same viscosity ν, with datum v0 ∈ Hσ0 (R3 ).
+Then
+                                                Z t
+                          1
+                            ∥v(t) − u(t)∥22 + ν     ∥∇(v − u)(s)∥22 ds
+                          2                      0
+                                  1          2
+                               ≤ ∥v0 − a∥2 exp(2S3,1,∞ tU3sm )        (t ≥ 0).                 (358)
+                                  2
+Proof. Equation (314) gives sups≥0 ∥u(s)∥H 3 ≤ U3sm . Hence
+                                       Z t
+                                             ∥∇u(s)∥∞ ds ≤ S3,1,∞ tU3sm .
+                                        0
+
+The solution constructed in Theorem 8.3 and the global history from Theorem 5.10, with datum
+a, both restrict to members of Mν3 (0, T ; a) on every finite interval. The at-most-one assertion in
+Theorem 2.12 identifies the two pressure-normalized histories. Apply (354).
+
+
+                                                              68
+Corollary 8.14 (Uniqueness and energy equality in the Leray–Hopf class). Let ν > 0 and u0 ∈
+Hσ∞ (R3 ). If (v, q) is any global three-dimensional Leray–Hopf solution at viscosity ν, with datum
+u0 , then v agrees on every finite interval with the velocity of the global solution from Theorem 5.10.
+Thus v has the smooth representative
+                                       u ∈ C ∞ ([0, ∞) × R3 ; R3 ),
+and it satisfies                       Z t
+                         1                               1
+                                 2
+                           ∥u(t)∥2 + ν     ∥∇u(s)∥22 ds = ∥u0 ∥22         (t ≥ 0).
+                         2              0                2
+Its distributional pressure has the form
+                                   q = p + c(t)   in D′ ((0, ∞) × R3 ),                              (359)
+where p is the pressure in (132) and c is a scalar distribution in time. The canonical Riesz
+representative Ri Rj (ui uj ) equals p. If q is represented by a locally integrable function with q(t, ·) ∈
+C0 (R3 ) for almost every t, then q = p almost everywhere.
+Proof. Set v0 = u0 in Theorem 8.12. The right-hand side of (355) is zero, so v = u in Cw ([0, T ]; L2 ) ∩
+L2 (0, T ; Ḣ 1 ). Since T is arbitrary, the identity holds globally. Smoothness and energy equality follow
+from (129) and (133). If q is a distributional pressure paired with this velocity and p is the pressure
+in (132), subtraction of the two momentum equations gives
+                                  ∇(q − p) = 0 in D′ ((0, ∞) × R3 ).
+A distribution on a product domain whose spatial gradient vanishes is the pullback of a scalar
+distribution in time: testing first against spatial test functions of integral zero and then against
+one fixed test function of integral one gives (359). The Riesz formula for p proves the canonical-
+representative assertion. In the function-valued case, q(t, x) − p(t, x) = c(t) for almost every (t, x);
+both spatial slices tend to zero as |x| → ∞, so c(t) = 0 for almost every t.
+
+
+9    Conclusion
+The proof follows one pressure-normalized velocity history from its initial datum to the endpoint of
+its maximal smooth interval. Every finite temporal depth and every finite Sobolev depth determine
+a whole-terminal rectangle, and the restriction identities make those rectangles compatible. Their
+intersection places the velocity in L2 (0, T∗ ; H m ) for every finite m. The equation upgrades the zeroth
+row to an H m -valued endpoint, while the pressure recurrence determines the complete endpoint jet.
+Local well-posedness restarts from that state, and uniqueness on the overlap keeps the restarted
+solution on the history already generated by the datum. A finite T∗ would no longer be maximal.
+Thus the maximal interval is [0, ∞).
+    The same rectangles retain more information than the continuation argument alone needs. Their
+finite coordinates control the critical-height rows, continuation norms, dyadic tails, fixed weighted
+dyadic shell sums, local scale content, and the relative-energy action. These consequences keep the
+exact rectangle constants attached to the datum and viscosity; the small critical-data regime is the
+separate case in which those constants close explicitly in the familiar scale-invariant norm.
+    The resulting global solution is smooth, satisfies the exact energy identity, and carries the decay-
+normalized pressure. Relative energy then identifies every Leray–Hopf solution with the same datum
+with this smooth velocity, and the pressure is unique up to the unavoidable time-dependent gauge
+unless the same decay normalization is imposed. The endpoint contradiction and these consequences
+all belong to the one fixed-viscosity evolution constructed from u0 .
+
+                                                    69
+References
+ [1] J.-P. Aubin, Un théorème de compacité, C. R. Acad. Sci. Paris 256 (1963), 5042–5044.
+
+ [2] L. Caffarelli, R. Kohn, and L. Nirenberg, Partial regularity of suitable weak solutions of the Navier–
+     Stokes equations, Communications on Pure and Applied Mathematics 35 (1982), 771–831, https:
+     //doi.org/10.1002/cpa.3160350604.
+
+ [3] L. Escauriaza, G. A. Seregin, and V. Šverák, L3,∞ -solutions of Navier–Stokes equations and backward
+     uniqueness, Russian Mathematical Surveys 58 (2003), no. 2, 211–250, https://doi.org/10.1070/
+     RM2003v058n02ABEH000609.
+
+ [4] C. Fefferman, Existence and smoothness of the Navier–Stokes equation, in The Millennium Prize
+     Problems, Clay Mathematics Institute, American Mathematical Society, 2006, pp. 57–67, https://www.
+     claymath.org/wp-content/uploads/2022/06/navierstokes.pdf.
+
+ [5] H. Fujita and T. Kato, On the Navier–Stokes initial value problem. I, Archive for Rational Mechanics
+     and Analysis 16 (1964), 269–315, https://doi.org/10.1007/BF00276188.
+
+ [6] E. Hopf, Über die Anfangswertaufgabe für die hydrodynamischen Grundgleichungen, Mathematische
+     Nachrichten 4 (1950/51), 213–231, https://doi.org/10.1002/mana.3210040121.
+
+ [7] J. Leray, Sur le mouvement d’un liquide visqueux emplissant l’espace, Acta Mathematica 63 (1934),
+     193–248, https://doi.org/10.1007/BF02547354.
+
+ [8] E. H. Lieb, Sharp constants in the Hardy–Littlewood–Sobolev and related inequalities, Annals of Mathe-
+     matics 118 (1983), 349–374, https://doi.org/10.2307/2007032.
+
+ [9] J.-L. Lions and E. Magenes, Non-Homogeneous Boundary Value Problems and Applications, vol. I,
+     Springer, 1972, https://doi.org/10.1007/978-3-642-65161-8.
+
+[10] T. Tao, Localisation and compactness properties of the Navier–Stokes global regularity problem, Analysis
+     & PDE 6 (2013), 25–107, https://doi.org/10.2140/apde.2013.6.25.
+
+
+
+
+                                                     70
+

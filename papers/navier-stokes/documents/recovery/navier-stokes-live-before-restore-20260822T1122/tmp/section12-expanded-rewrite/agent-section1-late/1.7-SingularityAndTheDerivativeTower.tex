@@ -1,0 +1,191 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 1.7 Singularity and the Derivative Tower
+% ============================================================
+\subsection{Singularity and the Derivative Tower}\label{sub:SingularityAndTheDerivativeTower}
+
+A singularity does not need to announce itself by sending the velocity to infinity.
+The velocity may remain finite while its gradient becomes unbounded, while two approaches produce different gradients, or while a higher derivative stops existing.
+Smoothness asks for every finite derivative order, so the relevant object is the entire response stacked above \(u\).
+
+\divider{From Velocity to Acceleration and Jerk}
+
+The first response is already present in the equation.
+For the material derivative
+\[
+  D_t:=\partial_t+u\cdot\nabla,
+\]
+the acceleration of a moving fluid particle is
+\[
+  a:=D_tu=-\nabla p+\nu\Delta u.
+\]
+The left side says how the particle velocity changes.
+The right side says that the change is determined by the pressure and viscous response of the field containing that particle.
+
+Following the same particle once more gives the material jerk
+\[
+  j:=D_ta=D_t^2u.
+\]
+This derivative is different from the Eulerian second time derivative \(\partial_t^2u\), because the particle changes position as time passes.
+If
+\[
+  V_n:=\partial_t^n u,
+\]
+then direct expansion gives
+\[
+  D_t^2u
+  =
+  V_2
+  +
+  2(V_0\cdot\nabla)V_1
+  +
+  (V_1\cdot\nabla)V_0
+  +
+  (V_0\cdot\nabla)\bigl((V_0\cdot\nabla)V_0\bigr).
+\]
+Acceleration and jerk bring spatial derivatives into the temporal response before any separate hierarchy has been invented.
+
+The Eulerian hierarchy makes that nesting easier to see.
+Set
+\[
+  P_n:=\partial_t^n p.
+\]
+The original equation gives the first temporal rung
+\[
+  V_1
+  =
+  \nu\Delta V_0
+  -(V_0\cdot\nabla)V_0
+  -\nabla P_0.
+\]
+Differentiating once gives
+\[
+  V_2
+  =
+  \nu\Delta V_1
+  -(V_1\cdot\nabla)V_0
+  -(V_0\cdot\nabla)V_1
+  -\nabla P_1.
+\]
+Differentiating again gives
+\[
+  V_3
+  =
+  \nu\Delta V_2
+  -(V_2\cdot\nabla)V_0
+  -2(V_1\cdot\nabla)V_1
+  -(V_0\cdot\nabla)V_2
+  -\nabla P_2.
+\]
+The next rung is
+\[
+  \begin{aligned}
+  V_4
+  ={}&
+  \nu\Delta V_3
+  -(V_3\cdot\nabla)V_0
+  -3(V_2\cdot\nabla)V_1\\
+  &-3(V_1\cdot\nabla)V_2
+  -(V_0\cdot\nabla)V_3
+  -\nabla P_3.
+  \end{aligned}
+\]
+The coefficients \(1,1\), then \(1,2,1\), then \(1,3,3,1\), are the rows of Pascal's triangle.
+They record every way the time derivatives can split across the two velocity factors in the transport term.
+
+At arbitrary order, the same calculation becomes
+\[
+  V_{n+1}
+  +
+  \sum_{k=0}^{n}
+  \binom{n}{k}
+  (V_k\cdot\nabla)V_{n-k}
+  +
+  \nabla P_n
+  =
+  \nu\Delta V_n,
+  \qquad
+  \nabla\cdot V_n=0.
+\]
+This recurrence is the temporal spine of the tower.
+Every new rung is tied to the lower rungs through transport, to two additional spatial derivatives through viscosity, and to the pressure response at the same order.
+
+\divider{Pressure and the Spatial Rungs}
+
+Pressure is nested into the hierarchy as well.
+Taking the divergence of the original momentum equation and using \(\nabla\cdot u=0\) gives
+\[
+  -\Delta p
+  =
+  \partial_i\partial_j(u_i u_j).
+\]
+Here and below, repeated spatial indices are summed.
+After \(n\) time derivatives, the pressure at the \(n\)-th rung satisfies
+\[
+  -\Delta P_n
+  =
+  \partial_i\partial_j
+  \sum_{k=0}^{n}
+  \binom{n}{k}
+  V_{k,i}V_{n-k,j}.
+\]
+Thus \(P_n\) is determined by the velocity rungs through an elliptic problem over the domain.
+The pressure at one location generally depends on the configuration of the velocity field far beyond an arbitrarily small neighbourhood of that location.
+
+Spatial differentiation opens the other direction of the tower.
+For one coordinate direction \(x_\ell\), differentiating the momentum equation gives
+\[
+  \begin{aligned}
+  \partial_t(\partial_\ell u)
+  &+
+  (u\cdot\nabla)(\partial_\ell u)
+  +
+  ((\partial_\ell u)\cdot\nabla)u
+  +
+  \nabla(\partial_\ell p)\\
+  &=
+  \nu\Delta(\partial_\ell u).
+  \end{aligned}
+\]
+At the next spatial rung, two differentiated velocity factors appear:
+\[
+  \begin{aligned}
+  \partial_t(\partial_{\ell m}u)
+  &+
+  (u\cdot\nabla)(\partial_{\ell m}u)
+  +
+  ((\partial_\ell u)\cdot\nabla)(\partial_m u)\\
+  &+
+  ((\partial_m u)\cdot\nabla)(\partial_\ell u)
+  +
+  ((\partial_{\ell m}u)\cdot\nabla)u
+  +
+  \nabla(\partial_{\ell m}p)\\
+  &=
+  \nu\Delta(\partial_{\ell m}u).
+  \end{aligned}
+\]
+Repeated time and spatial differentiation continues the same product-rule pattern.
+Using a multi-index \(\alpha=(\alpha_1,\alpha_2,\alpha_3)\) for spatial derivatives, collect the resulting velocity values in
+\[
+  \mathcal J^\infty u(t,x)
+  :=
+  \left\{
+    \partial_t^n\partial_x^\alpha u(t,x):
+    n\geq 0,\ 
+    \alpha\in\mathbb N_0^3
+  \right\}.
+\]
+This set is the full derivative tower at \((t,x)\).
+Its base is the velocity, its temporal rungs contain the Eulerian responses \(V_n\), and its spatial directions contain the gradients and curvatures on which transport and viscosity act.
+The pressure tower is coupled to it through the differentiated Poisson equations.
+
+No rule requires every rung to be nonzero.
+The zero solution has a completely vanishing tower, and a steady solution has \(V_n=0\) for every \(n\geq1\), while both remain perfectly smooth.
+The word \emph{live} describes lawful participation.
+A live rung has no required positive size.
+A live tower has finite, compatible values that remain derivatives of one field and satisfy the differentiated equations wherever those equations are claimed.
+
+This is the useful singularity picture.
+A proposed endpoint can fail first at velocity, acceleration, jerk, a spatial derivative, or any mixed rung above them.
+Whatever the first visible rung may be, the failure belongs to one tower whose levels are already nested into the Navier--Stokes law.

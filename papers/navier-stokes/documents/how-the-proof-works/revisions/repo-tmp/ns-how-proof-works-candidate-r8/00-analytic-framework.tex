@@ -1,0 +1,1018 @@
+\section{Analytic framework}
+
+The argument has two analytic joints.  Products and Fourier multipliers must
+keep every differentiated velocity--pressure row in a common Sobolev scale;
+at the terminal time, an \(H^3\) local theory must restart that same
+pressure-normalized history.  We record the estimates needed at those two
+joints, with the constants later used in the quantitative bounds.
+
+\begin{definition}
+For \(f\in\mathcal S(\R^3)\), set
+\[
+ \widehat f(\xi):=(2\pi)^{-3/2}\int_{\R^3}e^{-ix\cdot\xi}f(x)\dd x,
+ \qquad
+ \langle\xi\rangle:=(1+\abs{\xi}^2)^{1/2}.
+\]
+The same integral defines \(\widehat f\) for \(f\in L^1(\R^3)\).  The
+Fourier transform on \(\mathcal S'(\R^3)\) is its extension by duality.
+For \(s\in\R\), define
+\[
+ H^s(\R^3):=
+ \left\{f\in\mathcal S'(\R^3):
+       \langle\xi\rangle^s\widehat f\in L^2(\R^3)\right\},
+\]
+and define the finite homogeneous-norm domain by
+\[
+ \dot H^s(\R^3):=
+ \left\{f\in\mathcal S'(\R^3):
+ \begin{array}{l}
+ \widehat f\text{ is represented by a measurable function on }\R^3,\\[-2pt]
+ \abs\xi^s\widehat f\in L^2(\R^3)
+ \end{array}
+ \right\}.
+\]
+On these domains set
+\[
+ \norm f_{H^s}^2:=\int_{\R^3}\langle\xi\rangle^{2s}
+ \abs{\widehat f(\xi)}^2\dd\xi,
+ \qquad
+ \norm f_{\dot H^s}^2:=\int_{\R^3}\abs{\xi}^{2s}
+ \abs{\widehat f(\xi)}^2\dd\xi.
+\]
+Set \(A:=(1-\Delta)^{1/2}\), \(\Lambda:=(-\Delta)^{1/2}\),
+\[
+ H^s_\sigma:=\{v\in H^s(\R^3;\R^3):\nabla\cdot v=0\},
+ \qquad
+ H^\infty:=\bigcap_{m\in\Nzero}H^m,
+ \qquad
+ H^\infty_\sigma:=\bigcap_{m\in\Nzero}H^m_\sigma.
+\]
+\[
+ \mathcal S_\sigma(\R^3):=
+ \{v\in\mathcal S(\R^3;\R^3):\nabla\cdot v=0\}.
+\]
+For a vector or tensor \(F=(F_I)_I\), all Sobolev norms are componentwise:
+\[
+ \norm F_{H^s}^2:=\sum_I\norm{F_I}_{H^s}^2,
+ \qquad
+ \norm F_{\dot H^s}^2:=\sum_I\norm{F_I}_{\dot H^s}^2.
+\]
+Repeated Latin indices are summed from \(1\) to \(3\).
+\end{definition}
+
+\begin{lemma}[Sobolev nesting and embedding]
+\label{lem:sobolev-embedding}
+If \(s_2\ge s_1\), then
+\[
+ \norm f_{H^{s_1}}\le\norm f_{H^{s_2}}.
+\]
+If \(k\in\Nzero\) and \(s>k+3/2\), then
+\[
+ \max_{\abs\alpha\le k}\norm{\partial^\alpha f}_{L^\infty}
+ \le C_{s,k}^{\rm emb}\norm f_{H^s},
+\]
+where
+\[
+ C_{s,k}^{\rm emb}:=(2\pi)^{-3/2}
+ \max_{0\le j\le k}
+ \left(\int_{\R^3}\abs\xi^{2j}\langle\xi\rangle^{-2s}\dd\xi\right)^{1/2}<\infty.
+\]
+In particular,
+\[
+ H^\infty(\R^3)\hookrightarrow C_b^\infty(\R^3).
+\]
+\end{lemma}
+
+\begin{proof}
+The first assertion follows from
+\(\langle\xi\rangle^{2s_1}\le\langle\xi\rangle^{2s_2}\).
+For \(\abs\alpha\le k\), Fourier inversion and Cauchy--Schwarz give
+\[
+ \abs{\partial^\alpha f(x)}
+ \le(2\pi)^{-3/2}
+ \left(\int_{\R^3}\abs\xi^{2\abs\alpha}
+ \langle\xi\rangle^{-2s}\dd\xi\right)^{1/2}
+ \norm f_{H^s}.
+\]
+The integral is finite exactly when \(s>\abs\alpha+3/2\).
+Approximation by Schwartz functions and dominated convergence give continuous
+representatives.  For each \(k\), choose \(s=k+2\).
+\end{proof}
+
+\begin{lemma}[Explicit three-dimensional homogeneous Sobolev constants]
+\label{lem:explicit-homogeneous-sobolev}
+For \(3\le p\le6\), set
+\[
+ s(p):=3\left(\frac12-\frac1p\right)
+\]
+and
+\begin{equation}
+ \mathsf S(p):=
+ 2^{-s(p)}\pi^{-s(p)/2}
+ \left(
+  \frac{\Gamma((3-2s(p))/2)}
+       {\Gamma((3+2s(p))/2)}
+ \right)^{1/2}
+ \left(\frac{\Gamma(3)}{\Gamma(3/2)}\right)^{s(p)/3}.
+ \label{eq:explicit-homogeneous-sobolev-constant}
+\end{equation}
+Then every scalar, vector, or finite tensor field \(F\) in
+\(\dot H^{s(p)}(\R^3)\) satisfies
+\begin{equation}
+ \norm F_{L^p(\R^3)}
+ \le \mathsf S(p)\norm F_{\dot H^{s(p)}(\R^3)}.
+ \label{eq:explicit-homogeneous-sobolev}
+\end{equation}
+In particular,
+\[
+ \mathsf S(3)=2^{-1/6}\pi^{-1/3},
+ \qquad
+ \mathsf S(6)=\frac{2^{2/3}}{\sqrt3\,\pi^{2/3}},
+ \qquad
+ \mathsf S(6)\mathsf S(3)=\frac1\pi\sqrt{\frac23}.
+\]
+\end{lemma}
+
+\begin{proof}
+For scalar fields, \eqref{eq:explicit-homogeneous-sobolev} is the sharp
+three-dimensional homogeneous Sobolev inequality obtained from the sharp
+Hardy--Littlewood--Sobolev inequality \cite{Lieb1983}.  After duality,
+insertion of the Riesz-potential kernel constant, and conversion to the
+unitary Fourier transform fixed above, the squared sharp Sobolev constant for
+the multiplier
+\(\widehat{\Lambda^sf}(\xi)=|\xi|^s\widehat f(\xi)\) is
+\begin{equation}
+ 2^{-2s}\pi^{-s}
+ \frac{\Gamma((3-2s)/2)}{\Gamma((3+2s)/2)}
+ \left(\frac{\Gamma(3)}{\Gamma(3/2)}\right)^{2s/3}.
+ \label{eq:explicit-homogeneous-sobolev-squared-constant}
+\end{equation}
+Taking the square root in
+\eqref{eq:explicit-homogeneous-sobolev-squared-constant} and putting
+\(p=6/(3-2s)\) gives
+\eqref{eq:explicit-homogeneous-sobolev-constant}--
+\eqref{eq:explicit-homogeneous-sobolev}.  For a finite component array
+\(F=(F_I)_I\), Minkowski's inequality in \(L^{p/2}\) gives
+\[
+ \norm F_p^2
+ =\left\|\sum_I|F_I|^2\right\|_{p/2}
+ \le\sum_I\norm{F_I}_p^2
+ \le\mathsf S(p)^2\sum_I\norm{F_I}_{\dot H^{s(p)}}^2.
+\]
+The two endpoint formulas follow by evaluating the gamma factors at
+\(s=1/2\) and \(s=1\).
+\end{proof}
+
+\Needspace{34\baselineskip}
+\begin{lemma}[Sobolev multiplication]
+\label{lem:sobolev-product}
+Set
+\[
+ \mathsf H_4:=(2\pi)^{-3/4}
+ \left(\int_{\R^3}\langle\xi\rangle^{-4}\dd\xi\right)^{1/4},
+ \qquad C_0^{\rm alg}:=\mathsf H_4^2.
+\]
+For \(m\ge1\), define
+\begin{align*}
+ \mathsf E_m
+ &:=\max_{0\le j\le\lfloor m/2\rfloor}C_{j+2,j}^{\rm emb},
+ &\mathsf C_m^{\rm mix}&:=13^{m/2}\mathsf E_m,\\
+ \mathsf C_m^{\rm F}
+ &:=2^m(2\pi)^{-3/2}
+ \left(\int_{\R^3}\langle\xi\rangle^{-2m}\dd\xi\right)^{1/2}
+ &&(m\ge2),
+\end{align*}
+and set
+\[
+ C_1^{\rm alg}:=\mathsf C_1^{\rm mix},
+ \qquad
+ C_m^{\rm alg}:=\max\{\mathsf C_m^{\rm mix},\mathsf C_m^{\rm F}\}
+ \quad(m\ge2).
+\]
+All these constants are finite and explicit.  For every \(m\in\Nzero\),
+\[
+ \norm{fg}_{H^m}
+ \le C_m^{\rm alg}\norm f_{H^{m+1}}\norm g_{H^{m+1}}.
+\]
+For \(m\ge2\),
+\[
+ \norm{fg}_{H^m}
+ \le C_m^{\rm alg}\norm f_{H^m}\norm g_{H^m}.
+\]
+\end{lemma}
+
+\begin{proof}
+Hausdorff--Young and H\"older give
+\[
+ \norm f_4
+ \le(2\pi)^{-3/4}\norm{\widehat f}_{4/3}
+ \le\mathsf H_4\norm f_{H^1}.
+\]
+Thus \(\norm{fg}_2\le C_0^{\rm alg}\norm f_{H^1}\norm g_{H^1}\).
+
+Let \(m\ge1\).  The exact integer-order identity
+\[
+ \norm h_{H^m}^2
+ =\sum_{\abs\alpha\le m}
+ \frac{m!}{(m-\abs\alpha)!\,\alpha!}
+ \norm{\partial^\alpha h}_2^2
+\]
+follows by expanding \((1+\abs\xi^2)^m\).  In each Leibniz term for
+\(\partial^\alpha(fg)\), place the factor carrying at most
+\(\lfloor\abs\alpha/2\rfloor\) derivatives in \(L^\infty\).  The definition
+of \(\mathsf E_m\), Sobolev nesting, and
+\(\sum_{\beta\le\alpha}\binom\alpha\beta=2^{\abs\alpha}\) give
+\[
+ \norm{\partial^\alpha(fg)}_2
+ \le \mathsf E_m2^{\abs\alpha}
+ \norm f_{H^{m+1}}\norm g_{H^{m+1}}.
+\]
+The multinomial identity
+\[
+ \sum_{\abs\alpha\le m}
+ \frac{m!}{(m-\abs\alpha)!\,\alpha!}4^{\abs\alpha}=13^m
+\]
+proves the first estimate with \(\mathsf C_m^{\rm mix}\).
+
+For \(m\ge2\), the inequalities
+\[
+ \langle\eta+\zeta\rangle^m
+ \le2^{m-1}\bigl(\langle\eta\rangle^m+
+                         \langle\zeta\rangle^m\bigr),
+ \qquad
+ \norm{\widehat f}_1
+ \le\left(\int_{\R^3}\langle\xi\rangle^{-2m}\dd\xi\right)^{1/2}
+       \norm f_{H^m},
+\]
+combined with \(\widehat{fg}=(2\pi)^{-3/2}\widehat f*\widehat g\)
+and Young's convolution inequality give
+\[
+ \norm{fg}_{H^m}
+ \le\mathsf C_m^{\rm F}\norm f_{H^m}\norm g_{H^m}.
+\]
+The chosen maximum proves both asserted estimates with the same constant.
+\end{proof}
+
+\begin{lemma}[Riesz and Leray multipliers]
+\label{lem:riesz-leray}
+Let
+\[
+ r_j(\xi):=
+ \begin{cases}
+ i\xi_j/\abs\xi,&\xi\ne0,\\
+ 0,&\xi=0,
+ \end{cases}
+ \qquad
+ P(\xi):=
+ \begin{cases}
+ I-\dfrac{\xi\otimes\xi}{\abs\xi^2},&\xi\ne0,\\
+ I,&\xi=0,
+ \end{cases}
+\]
+and
+\[
+ \widehat{R_jf}(\xi)=r_j(\xi)\widehat f(\xi),
+ \qquad
+ \widehat{\Pp f}(\xi)=P(\xi)\widehat f(\xi).
+\]
+For all \(s\in\R\),
+\[
+ \norm{R_jf}_{H^s}\le\norm f_{H^s},
+ \qquad
+ \norm{\Pp f}_{H^s}\le\norm f_{H^s}.
+\]
+If \(m\in\Nzero\) and \(v\in H^{m+1}_\sigma\), then
+\[
+ q:=\sum_{i,j=1}^3R_iR_j(v_iv_j)\in H^m,
+ \qquad
+ -\Delta q=\sum_{i,j=1}^3\partial_i\partial_j(v_iv_j),
+\]
+and
+\[
+ \Pp\nabla\cdot(v\otimes v)
+ =(v\cdot\nabla)v+\nabla q.
+\]
+Here
+\[
+ (v\otimes v)_{ij}:=v_iv_j,
+ \qquad
+ (\nabla\cdot(v\otimes v))_i
+ :=\sum_{j=1}^3\partial_j(v_iv_j),
+ \qquad
+ ((v\cdot\nabla)v)_i:=\sum_{j=1}^3v_j\partial_jv_i.
+\]
+\end{lemma}
+
+\begin{proof}
+The multiplier symbols have operator norm at most one.  Plancherel proves the
+first two estimates.  Lemma~\ref{lem:sobolev-product} gives
+\(v_iv_j\in H^m\).  The remaining identities follow after multiplication by
+\(\abs\xi^2\) and by the symbol of \(\Pp\).
+\end{proof}
+
+\begin{lemma}[Mixed Leibniz identities]
+\label{lem:mixed-leibniz}
+For \(N\in\Nzero\) and \(\alpha\in\Nzero^3\),
+\[
+ \partial_t^N\partial_x^\alpha(fg)
+ =\sum_{a=0}^N\sum_{\beta\le\alpha}
+ \binom Na\binom\alpha\beta
+ (\partial_t^a\partial_x^\beta f)
+ (\partial_t^{N-a}\partial_x^{\alpha-\beta}g).
+\]
+\end{lemma}
+
+\begin{proof}
+Apply the one-variable Leibniz identity successively in \(t,x_1,x_2,x_3\).
+\end{proof}
+
+\Needspace{14\baselineskip}
+\begin{lemma}[Adjacent Hilbert-scale trace]
+\label{lem:adjacent-trace}
+Let \(0<T<\infty\), \(m\in\R\), and
+\[
+ v\in L^2(0,T;H^{m+1}),
+ \qquad
+ \partial_tv\in L^2(0,T;H^{m-1}).
+\]
+Then \(v\) has a unique representative in \(C([0,T];H^m)\), and, for
+\(0\le r\le t\le T\),
+\begin{align}
+ \norm{v(t)}_{H^m}^2-\norm{v(r)}_{H^m}^2
+ &=2\operatorname{Re}\int_r^t
+ \ip{A^{m-1}\partial_tv(s)}{A^{m+1}v(s)}_{L^2}\dd s,
+ \label{eq:adjacent-trace-identity}\\
+ \abs{\norm{v(t)}_{H^m}^2-\norm{v(r)}_{H^m}^2}
+ &\le2\norm{\partial_tv}_{L^2(r,t;H^{m-1})}
+ \norm v_{L^2(r,t;H^{m+1})},
+ \label{eq:adjacent-trace-modulus}\\
+ \sup_{0\le t\le T}\norm{v(t)}_{H^m}^2
+ &\le T^{-1}\norm v_{L^2(0,T;H^m)}^2
+ +2\norm{\partial_tv}_{L^2(0,T;H^{m-1})}
+ \norm v_{L^2(0,T;H^{m+1})}.
+ \label{eq:adjacent-trace-sup}
+\end{align}
+\end{lemma}
+
+\begin{proof}
+Let \(S_R\) denote Fourier restriction to \(\{\abs\xi\le R\}\).  For
+\(v_R=S_Rv\),
+\[
+ \frac{\dd}{\dd t}\norm{v_R(t)}_{H^m}^2
+ =2\operatorname{Re}\ip{A^{m-1}\partial_tv_R(t)}
+ {A^{m+1}v_R(t)}_{L^2}.
+\]
+Integration and Cauchy--Schwarz prove
+\eqref{eq:adjacent-trace-identity}--\eqref{eq:adjacent-trace-modulus} for
+\(v_R\).  Applied to \(S_Rv-S_Sv\), the same estimate shows that
+\((v_R)_R\) is Cauchy in \(C([0,T];H^m)\); choose one Lebesgue time for the
+initial Cauchy term.  Its limit equals \(v\) in
+\(L^2(0,T;H^m)\).  Passage to the limit proves the first two formulas.
+Choose \(r\in(0,T)\) with
+\(\norm{v(r)}_{H^m}^2\le T^{-1}\norm v_{L^2H^m}^2\) and apply
+\eqref{eq:adjacent-trace-modulus}.
+\end{proof}
+
+\begin{lemma}[Explicit integer transport commutator]
+\label{lem:transport-commutator}
+Set
+\begin{align}
+ \Gamma_{1,1}&:=1,\notag\\
+ \Gamma_{\ell,k}
+ &:=(2\ell-4+\sqrt3)^{(k-1)(\ell-k)}
+ \qquad(\ell\ge2,\ 1\le k\le\ell),
+ \label{eq:explicit-Gamma-lk}\\
+ K_m&:=
+ \sum_{\ell=1}^{m}3^\ell\binom m\ell
+ \sum_{k=1}^{\ell}\binom\ell k\,\Gamma_{\ell,k}
+ \qquad(m\ge3).
+ \label{eq:explicit-commutator-constant}
+\end{align}
+Every \(v\in H^{m+1}_\sigma(\R^3)\) satisfies
+\begin{equation}
+ \abs{\operatorname{Re}
+ \ip{A^m\Pp\nabla\cdot(v\otimes v)}{A^mv}_{L^2}}
+ \le K_m\norm{\nabla v}_{L^\infty}\norm v_{H^m}^2.
+ \label{eq:transport-commutator}
+\end{equation}
+In particular,
+\begin{equation}
+ K_m\le(7^m-1)(2m-4+\sqrt3)^{(m-1)^2/4}.
+ \label{eq:explicit-commutator-upper-bound}
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+We first prove the interpolation inequality used in the commutator.  For the
+full ordered derivative tensor \(\nabla^jF\), fix \(M\ge1\) and set
+\[
+ p_{M,0}:=\infty,
+ \qquad
+ p_{M,j}:=\frac{2M}{j}\quad(1\le j\le M),
+ \qquad
+ A_M:=2M-2+\sqrt3.
+\]
+Then
+\begin{equation}
+ \norm{\nabla^jF}_{L^{p_{M,j}}}
+ \le A_M^{j(M-j)/2}
+ \norm F_\infty^{\,1-j/M}
+ \norm{\nabla^MF}_2^{\,j/M}
+ \qquad(0\le j\le M).
+ \label{eq:explicit-derivative-interpolation}
+\end{equation}
+The endpoint cases are identities.  For \(1\le j\le M-1\), put
+\[
+ G:=\nabla^{j-1}F,
+ \qquad W:=\nabla G,
+ \qquad p:=p_{M,j}.
+\]
+All contractions below are the Euclidean contractions of the corresponding
+ordered tensors.  Integration by parts gives
+\begin{align*}
+ \int_{\R^3}|W|^p
+ ={}&-\int_{\R^3}|W|^{p-2}G:\Delta G\\
+ &-(p-2)\int_{\R^3}|W|^{p-4}
+   \sum_{q=1}^3(G:W_{\cdot q})(W:\partial_qW).
+\end{align*}
+The pointwise bounds
+\[
+ |\Delta G|\le\sqrt3\,|\nabla^2G|,
+ \qquad
+ \left|\sum_{q=1}^3(G:W_{\cdot q})(W:\partial_qW)\right|
+ \le |G|\,|W|^2|\nabla^2G|
+\]
+give
+\[
+ \int_{\R^3}|W|^p
+ \le(p-2+\sqrt3)
+ \int_{\R^3}|G|\,|W|^{p-2}|\nabla^2G|.
+\]
+Since
+\[
+ \frac1{p_{M,j-1}}+\frac{p-2}{p}
+ +\frac1{p_{M,j+1}}=1,
+\]
+H\"older's inequality, with
+\(
+ X_j:=\norm{\nabla^jF}_{L^{p_{M,j}}}
+\), gives
+\begin{equation}
+ X_j^2
+ \le\left(\frac{2M}{j}-2+\sqrt3\right)X_{j-1}X_{j+1}
+ \le A_MX_{j-1}X_{j+1}.
+ \label{eq:explicit-interpolation-three-point}
+\end{equation}
+The numbers \(d_j:=j(M-j)/2\) obey
+\[
+ 2d_j-d_{j-1}-d_{j+1}=1,
+ \qquad d_0=d_M=0.
+\]
+The discrete maximum principle applied to
+\eqref{eq:explicit-interpolation-three-point} gives
+\[
+ X_j\le A_M^{d_j}X_0^{1-j/M}X_M^{j/M},
+\]
+which is \eqref{eq:explicit-derivative-interpolation}.  The integration by
+parts is justified first with
+\((|W|^2+\varepsilon)^{(p-2)/2}\), followed by
+\(\varepsilon\downarrow0\); smooth approximation handles zero tensor norms.
+
+For \(\abs\alpha\le m\), set
+\[
+ \alpha!:=\alpha_1!\alpha_2!\alpha_3!,
+ \qquad
+ c_{m,\alpha}:=\frac{m!}{(m-\abs\alpha)!\,\alpha!}.
+\]
+The multiplier \(A^{2m}=(1-\Delta)^m\) and the multinomial identity give the
+exact pairing formula
+\begin{equation}
+ \ip{A^mf}{A^mg}_{L^2}
+ =\sum_{\abs\alpha\le m}c_{m,\alpha}
+   \ip{\partial^\alpha f}{\partial^\alpha g}_{L^2}.
+ \label{eq:integer-Am-pairing}
+\end{equation}
+The Leray projection is self-adjoint, commutes with \(A^m\), and fixes
+\(A^mv\).  Since
+\(\nabla\cdot(v\otimes v)=(v\cdot\nabla)v\), it follows that
+\begin{equation}
+ \ip{A^m\Pp\nabla\cdot(v\otimes v)}{A^mv}_{L^2}
+ =\sum_{\abs\alpha\le m}c_{m,\alpha}
+   \ip{\partial^\alpha((v\cdot\nabla)v)}
+      {\partial^\alpha v}_{L^2}.
+ \label{eq:integer-projected-pairing}
+\end{equation}
+For each \(\alpha\),
+\[
+ \partial^\alpha((v\cdot\nabla)v)
+ =(v\cdot\nabla)\partial^\alpha v
+ +\sum_{0<\beta\le\alpha}\binom\alpha\beta
+ (\partial^\beta v\cdot\nabla)
+ \partial^{\alpha-\beta}v.
+\]
+The divergence-free transport term has zero real pairing with
+\(\partial^\alpha v\), because
+\[
+ \operatorname{Re}\ip{(v\cdot\nabla)\partial^\alpha v}
+ {\partial^\alpha v}_{L^2}
+ =\frac12\int_{\R^3}v\cdot\nabla
+   \abs{\partial^\alpha v}^2\dd x=0.
+\]
+\begin{samepage}
+For a remaining term, put
+\[
+ \ell:=\abs\alpha,
+ \qquad k:=\abs\beta.
+\]
+\par
+\end{samepage}
+\begin{samepage}
+If \(\ell\ge2\), apply
+\eqref{eq:explicit-derivative-interpolation} to \(F=\nabla v\), with
+\[
+ M=\ell-1,
+ \qquad j=k-1.
+\]
+The two H\"older exponents are \(p_{M,j}\) and \(p_{M,M-j}\), whose
+reciprocal sum is \(1/2\).  The two factors are subarrays of the corresponding
+ordered derivative tensors, so
+\begin{align}
+ \norm{(\partial^\beta v\cdot\nabla)
+          \partial^{\alpha-\beta}v}_2
+ &\le
+ \norm{\partial^\beta v}_{L^{p_{M,j}}}
+ \norm{\nabla\partial^{\alpha-\beta}v}_{L^{p_{M,M-j}}}\notag\\
+ &\le\Gamma_{\ell,k}\norm{\nabla v}_\infty
+       \norm{\nabla^\ell v}_2.
+ \label{eq:explicit-commutator-product}
+\end{align}
+\par
+\end{samepage}
+\begin{samepage}
+For \(\ell=1\), the same formula follows from the direct
+\(L^\infty\)-\(L^2\) estimate and \(\Gamma_{1,1}=1\).  Since
+\[
+ \norm{\nabla^\ell v}_2=\norm v_{\dot H^\ell}\le\norm v_{H^m},
+ \qquad
+ \norm{\partial^\alpha v}_2\le\norm v_{H^m},
+\]
+each remaining pairing is bounded by
+\[
+ \Gamma_{\ell,k}\norm{\nabla v}_\infty\norm v_{H^m}^2.
+\]
+\par
+\end{samepage}
+The multinomial identities
+\[
+ \sum_{\abs\alpha=\ell}c_{m,\alpha}
+ =3^\ell\binom m\ell,
+ \qquad
+ \sum_{\substack{\beta\le\alpha\\\abs\beta=k}}
+ \binom\alpha\beta=\binom\ell k
+\]
+now give \eqref{eq:transport-commutator} with the constant
+\eqref{eq:explicit-commutator-constant}.  Finally,
+\[
+ \sum_{k=1}^{\ell}\binom\ell k\le2^\ell,
+ \qquad
+ (k-1)(\ell-k)\le\frac{(\ell-1)^2}{4},
+\]
+and summation of
+\(
+ \binom m\ell3^\ell2^\ell
+\)
+over \(1\le\ell\le m\) proves
+\eqref{eq:explicit-commutator-upper-bound}.  Approximation by divergence-free
+Schwartz fields justifies all integrations by parts for
+\(v\in H^{m+1}_\sigma\).
+\end{proof}
+
+The preceding estimates control the differentiated rows as they approach an
+endpoint.  To continue their common limit as the same solution, we now fix a
+time-translation-invariant local class that admits both late preterminal
+slices and the endpoint restart, and in which uniqueness holds on every
+overlap.
+
+\begin{definition}[Shifted pressure-normalized \(H^3\) mild class]
+\label{def:shifted-normalized-H3-mild-class}
+Let \(0\le s<b<\infty\) and \(a\in H^3_\sigma(\R^3)\).  Define
+\(\mathscr M_\nu^3(s,b;a)\) to be the set of pairs \((w,q)\) such that
+\begin{align}
+ w&\in C([s,b];H^3_\sigma(\R^3)),
+ &q&\in C([s,b];H^3(\R^3)),
+ \label{eq:shifted-mild-class-spaces}\\
+ w(s)&=a,
+ &q(t)&=R_iR_j\bigl(w_i(t)w_j(t)\bigr),
+ \label{eq:shifted-mild-class-datum-pressure}
+\end{align}
+The remaining defining condition is the Duhamel identity: for every
+\(t\in[s,b]\),
+\begin{equation}
+ w(t)=e^{\nu(t-s)\Delta}a
+ -\int_s^t e^{\nu(t-r)\Delta}
+ \Pp\nabla\!\cdot(w\otimes w)(r)\dd r
+ \quad\text{in }H^3_\sigma(\R^3).
+ \label{eq:shifted-mild-class-duhamel}
+\end{equation}
+The integral is an \(H^3_\sigma\)-valued Bochner integral: multiplication in
+\(H^3(\R^3)\) places
+\(\Pp\nabla\!\cdot(w\otimes w)\) in \(C([s,b];H^2_\sigma)\), and the heat
+multiplier from \(H^2\) to \(H^3\) has an integrable
+\((t-r)^{-1/2}\) singularity.
+The maximal lifespan in this class is
+\begin{equation}
+ \tau_{\nu,3}^{\max}(s,a)
+ :=\sup\left\{b-s:\ b>s,\
+ \mathscr M_\nu^3(s,b;a)\ne\varnothing\right\}\in[0,\infty].
+ \label{eq:shifted-mild-maximal-lifespan}
+\end{equation}
+\end{definition}
+
+\begin{lemma}[Restriction and classical admission]
+\label{lem:shifted-mild-restriction}
+If \((w,q)\in\mathscr M_\nu^3(s,b;a)\) and
+\(s\le r<c\le b\), then
+\begin{equation}
+ (w,q)|_{[r,c]}\in\mathscr M_\nu^3(r,c;w(r)).
+ \label{eq:shifted-mild-restriction}
+\end{equation}
+If \((u,p)\) is a pressure-complete classical history and
+\([s,b]\) is contained in its interval of existence, then
+\begin{equation}
+ (u,p)|_{[s,b]}\in\mathscr M_\nu^3(s,b;u(s)).
+ \label{eq:classical-mild-admission}
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+Split \eqref{eq:shifted-mild-class-duhamel} at \(r\) and use the heat
+semigroup identity.  This gives, for \(r\le t\le c\),
+\[
+ w(t)=e^{\nu(t-r)\Delta}w(r)
+ -\int_r^t e^{\nu(t-\rho)\Delta}
+ \Pp\nabla\!\cdot(w\otimes w)(\rho)\dd\rho.
+\]
+The pressure formula is unchanged under restriction.  For a classical
+history, apply \(\Pp\) to the momentum equation and use variation of
+constants; the decaying pressure formula gives
+\eqref{eq:shifted-mild-class-datum-pressure}.
+\end{proof}
+
+\begin{theorem}[Quantitative local restart]
+\label{thm:local-restart}
+Set \(C_{\rm q}:=\sqrt3\,C_3^{\rm alg}\).  For \(\nu>0\), set
+\[
+ L_\nu:=4(1+\nu+\nu^{-1})
+ \exp\!\left(\frac{\nu+\nu^{-1}}2\right),
+ \qquad
+ c_\nu:=(8C_{\rm q}L_\nu^2)^{-2}.
+\]
+For every \(s\ge0\), every \(a\in H^3_\sigma(\R^3)\), and every
+\[
+ 0<\delta\le\delta_\nu(a)
+ :=\min\{1,c_\nu(1+\norm a_{H^3})^{-2}\},
+\]
+the class \(\mathscr M_\nu^3(s,s+\delta;a)\) contains exactly one pair
+\((w,q)\).  Its velocity satisfies
+\[
+ w\in C([s,s+\delta];H^3_\sigma)
+ \cap L^2(s,s+\delta;H^4),
+ \qquad
+ w_t\in L^2(s,s+\delta;H^2).
+\]
+If \(a\in H^\infty_\sigma\), then
+\[
+ \partial_t^nw,\ \partial_t^nq
+ \in C([s,s+\delta];H^m)
+ \qquad(n,m\in\Nzero).
+\]
+For every finite \(b>s\), the class
+\(\mathscr M_\nu^3(s,b;a)\) contains at most one pair.  Its compatible members
+on strict subintervals of
+\([s,s+\tau_{\nu,3}^{\max}(s,a))\) define the maximal shifted
+pressure-normalized \(H^3\) mild history from \(a\).
+\end{theorem}
+
+\begin{proof}
+By time translation it is enough to prove the assertions with \(s=0\).
+Let \(0<\delta\le1\), let
+\[
+ z_t-\nu\Delta z=F,
+ \qquad z(0)=a,
+ \qquad
+ a\in H^3_\sigma,\quad
+ F\in L^2(0,\delta;H^2_\sigma),
+\]
+and set
+\[
+ A_0:=\norm a_{H^3},
+ \qquad
+ G:=\norm F_{L^2(0,\delta;H^2)}.
+\]
+The \(H^3\) energy identity is
+\[
+ \frac12\frac{\dd}{\dd t}\norm z_{H^3}^2
+ +\nu\norm{\nabla z}_{H^3}^2
+ =\operatorname{Re}\ip{A^2F}{A^4z}_{L^2}.
+\]
+Since
+\(\norm z_{H^4}^2=\norm z_{H^3}^2+\norm{\nabla z}_{H^3}^2\),
+Young's inequality gives
+\[
+ \frac{\dd}{\dd t}\norm z_{H^3}^2
+ +\nu\norm{\nabla z}_{H^3}^2
+ \le \nu\norm z_{H^3}^2+\nu^{-1}\norm F_{H^2}^2.
+\]
+Consequently,
+\begin{equation}
+ \norm z_{C([0,\delta];H^3)}
+ \le e^{\nu/2}\bigl(A_0+\nu^{-1/2}G\bigr).
+ \label{eq:restart-linear-CH3}
+\end{equation}
+Pairing \(A^2z_t-\nu\Delta A^2z=A^2F\) with
+\(-\Delta A^2z\) gives
+\[
+ \frac12\frac{\dd}{\dd t}\norm{\nabla A^2z}_2^2
+ +\nu\norm{\Delta A^2z}_2^2
+ =\operatorname{Re}\ip{A^2F}{-\Delta A^2z}_{L^2}.
+\]
+Integration and Young's inequality yield
+\begin{equation}
+ \norm{\Delta z}_{L^2(0,\delta;H^2)}
+ \le \nu^{-1/2}A_0+\nu^{-1}G.
+ \label{eq:restart-linear-Laplacian}
+\end{equation}
+The pointwise multiplier inequality
+\[
+ \langle\xi\rangle^8
+ \le2\bigl(\langle\xi\rangle^6
+       +\abs\xi^4\langle\xi\rangle^4\bigr)
+\]
+and \(\delta\le1\) imply
+\begin{equation}
+ \norm z_{L^2(0,\delta;H^4)}
+ \le\sqrt2\left(
+ \norm z_{C([0,\delta];H^3)}
+ +\norm{\Delta z}_{L^2(0,\delta;H^2)}
+ \right).
+ \label{eq:restart-linear-H4}
+\end{equation}
+The equation and \eqref{eq:restart-linear-Laplacian} give
+\begin{equation}
+ \norm{z_t}_{L^2(0,\delta;H^2)}
+ \le\nu^{1/2}A_0+2G.
+ \label{eq:restart-linear-time}
+\end{equation}
+Equations \eqref{eq:restart-linear-CH3}--\eqref{eq:restart-linear-time}
+give
+\begin{align*}
+ &\norm z_{C H^3}+\norm z_{L^2H^4}+\norm{z_t}_{L^2H^2}\\
+ &\quad\le
+ e^{\nu/2}(A_0+\nu^{-1/2}G)
+ +\sqrt2\left(
+ e^{\nu/2}(A_0+\nu^{-1/2}G)
+ +\nu^{-1/2}A_0+\nu^{-1}G\right)
+ +\nu^{1/2}A_0+2G\\
+ &\quad\le L_\nu(A_0+G).
+\end{align*}
+The last inequality follows from
+\[
+ \nu^{1/2}\le\frac{1+\nu}{2},
+ \qquad
+ \nu^{-1/2}\le\frac{1+\nu^{-1}}2,
+ \qquad
+ e^{\nu/2}\le e^{(\nu+\nu^{-1})/2}.
+\]
+Fourier truncation and passage to the limit justify the preceding linear
+estimates for the stated data class.
+
+For \(v,z\in H^3_\sigma\), Lemmas~\ref{lem:sobolev-product} and
+\ref{lem:riesz-leray} give
+\begin{align}
+ \norm{\Pp\nabla\cdot(v\otimes z)}_{H^2}
+ &\le C_{\rm q}\norm v_{H^3}\norm z_{H^3},
+ \label{eq:restart-quadratic-bilinear}\\
+ \norm{\Pp\nabla\cdot(v\otimes v-z\otimes z)}_{H^2}
+ &\le C_{\rm q}(\norm v_{H^3}+\norm z_{H^3})
+ \norm{v-z}_{H^3}.
+ \label{eq:restart-quadratic-difference}
+\end{align}
+Indeed,
+\[
+ \norm{\nabla\cdot(v\otimes z)}_{H^2}^2
+ \le3\sum_{i,j=1}^3\norm{v_i z_j}_{H^3}^2
+ \le3(C_3^{\rm alg})^2\norm v_{H^3}^2\norm z_{H^3}^2.
+\]
+
+Define
+\[
+ X_\delta:=
+ \left\{v\in C([0,\delta];H^3_\sigma)\cap L^2(0,\delta;H^4_\sigma):
+ v_t\in L^2(0,\delta;H^2_\sigma)\right\},
+\]
+\[
+ \norm v_{X_\delta}:=\norm v_{C H^3}
+ +\norm v_{L^2H^4}+\norm{v_t}_{L^2H^2},
+ \qquad
+ X_\delta(a):=\{v\in X_\delta:v(0)=a\}.
+\]
+\(X_\delta\) is a Banach space with this norm, and \(X_\delta(a)\) is closed.
+For \(A_0>0\), set \(R:=2L_\nu A_0\) and
+\[
+ \mathbb B_R:=\{v\in X_\delta(a):\norm v_{X_\delta}\le R\}.
+\]
+The set \(\mathbb B_R\) is nonempty: the zero-forcing heat trajectory
+\(v^{\rm lin}(t)=e^{\nu t\Delta}a\) belongs to \(X_\delta(a)\), and the
+linear estimate with \(F=0\) gives
+\(\norm{v^{\rm lin}}_{X_\delta}\le L_\nu A_0<R\).
+For \(v\in\mathbb B_R\), define
+\[
+ \Phi(v)(t):=e^{\nu t\Delta}a
+ -\int_0^te^{\nu(t-s)\Delta}
+ \Pp\nabla\cdot(v\otimes v)(s)\dd s.
+\]
+If \(\delta\le\delta_\nu(a)\), then
+\[
+ \delta^{1/2}\le
+ \frac{1}{8C_{\rm q}L_\nu^2(1+A_0)}.
+\]
+\begin{samepage}
+The linear estimate and \eqref{eq:restart-quadratic-bilinear} imply
+\begin{align*}
+ \norm{\Phi(v)}_{X_\delta}
+ &\le L_\nu\bigl(A_0+C_{\rm q}\delta^{1/2}R^2\bigr)\\
+ &\le L_\nu A_0+\frac{L_\nu A_0^2}{2(1+A_0)}
+ <R.
+\end{align*}
+\end{samepage}
+\begin{samepage}
+For \(v,z\in\mathbb B_R\),
+\begin{align*}
+ \norm{\Phi(v)-\Phi(z)}_{X_\delta}
+ &\le L_\nu C_{\rm q}\delta^{1/2}
+ (\norm v_{C H^3}+\norm z_{C H^3})
+ \norm{v-z}_{C H^3}\\
+ &\le\frac{A_0}{2(1+A_0)}\norm{v-z}_{X_\delta}
+ \le\frac12\norm{v-z}_{X_\delta}.
+\end{align*}
+\end{samepage}
+Thus \(\Phi\) has a unique fixed point in \(\mathbb B_R\).  If \(A_0=0\),
+the zero function is the fixed point.  Let \(b>0\) and let
+\[
+ (v,q_v),(z,q_z)\in\mathscr M_\nu^3(0,b;a).
+\]
+Set
+\[
+ M_b:=\norm v_{C([0,b];H^3)}+\norm z_{C([0,b];H^3)}.
+\]
+On every subinterval \(I\subset[0,b]\) of length \(h\le1\) on which the two
+velocities have the same left trace, their shifted Duhamel identities and the
+zero-data linear estimate give
+\[
+ \norm{v-z}_{C(I;H^3)}
+ \le L_\nu C_{\rm q}h^{1/2}M_b
+ \norm{v-z}_{C(I;H^3)}.
+\]
+A finite partition with
+\(L_\nu C_{\rm q}h^{1/2}M_b<1\) proves \(v=z\) on \([0,b]\).
+The pressure formula gives \(q_v=q_z\).  This proves the at-most-one
+assertion for the full shifted mild class.  For the fixed point,
+\eqref{eq:restart-quadratic-bilinear} places the forcing in
+\(L^2(0,\delta;H^2)\); the linear estimates give
+\[
+ w\in L^2(0,\delta;H^4),
+ \qquad
+ w_t\in L^2(0,\delta;H^2).
+\]
+Lemma~\ref{lem:riesz-leray} gives the normalized pressure
+\(q=R_iR_j(w_iw_j)\).
+
+Fix \(m\ge3\) and assume \(a\in H^m_\sigma\).  Let \(S_k\) be Fourier
+restriction to \(\{\abs\xi\le k\}\), set \(a_k=S_ka\), and replace the
+fixed-point map above by
+\[
+ \Phi_k(v)(t):=e^{\nu t\Delta}a_k
+ -\int_0^te^{\nu(t-s)\Delta}S_k\Pp\nabla\!\cdot
+   (v\otimes v)(s)\dd s.
+\]
+The projection \(S_k\) is self-adjoint, contractive on every Sobolev space,
+and commutes with the heat flow, \(\Pp\), and spatial derivatives.  The same
+estimates that gave \(\Phi\) its contraction factor at most \(1/2\) apply to
+\(\Phi_k\) on the closed radius-\(R\) ball in \(X_\delta(a_k)\).  Its fixed point
+\(w^{(k)}=S_kw^{(k)}\) consequently exists on \([0,\delta]\) and satisfies
+\begin{equation}
+ \sup_k\norm{w^{(k)}}_{X_\delta}\le R.
+ \label{eq:restart-cutoff-uniform-H3}
+\end{equation}
+Because its Fourier support is bounded, \(w^{(k)}\) belongs to every spatial
+Sobolev space.  Self-adjointness of \(S_k\) removes the cutoff from the energy
+pairing, so Lemma~\ref{lem:transport-commutator} gives
+\[
+ \frac12\frac{\dd}{\dd t}\norm{w^{(k)}}_{H^m}^2
+ +\nu\norm{\nabla w^{(k)}}_{H^m}^2
+ \le K_m\norm{\nabla w^{(k)}}_{L^\infty}
+       \norm{w^{(k)}}_{H^m}^2.
+\]
+Set
+\[
+ C_{\nabla,3}:=(2\pi)^{-3/2}
+ \left(\int_{\R^3}\abs\xi^2\langle\xi\rangle^{-6}\dd\xi\right)^{1/2}.
+\]
+Fourier inversion and Cauchy--Schwarz give
+\(\norm{\nabla v}_\infty\le C_{\nabla,3}\norm v_{H^3}\).  From
+\eqref{eq:restart-cutoff-uniform-H3},
+\[
+ \int_0^\delta\norm{\nabla w^{(k)}(s)}_\infty\dd s
+ \le C_{\nabla,3}\delta R.
+\]
+Put
+\[
+ F_k(t):=\norm{w^{(k)}(t)}_{H^m}^2
+ {}+2\nu\int_0^t\norm{\nabla w^{(k)}(s)}_{H^m}^2\dd s.
+\]
+The differential inequality above gives
+\[
+ F_k(t)\le\norm a_{H^m}^2
+ {}+2K_m\int_0^t\norm{\nabla w^{(k)}(s)}_\infty F_k(s)\dd s.
+\]
+Gronwall's inequality now gives the uniform bound
+\begin{equation}
+ \sup_{0\le t\le\delta}\left(
+ \norm{w^{(k)}(t)}_{H^m}^2
+{}+2\nu\int_0^t\norm{\nabla w^{(k)}(s)}_{H^m}^2\dd s
+ \right)
+ \le e^{2K_mC_{\nabla,3}\delta R}\norm a_{H^m}^2.
+ \label{eq:restart-cutoff-uniform-Hm}
+\end{equation}
+Since
+\(
+ \norm f_{H^{m+1}}^2=\norm f_{H^m}^2+\norm{\nabla f}_{H^m}^2
+\), this also bounds \(w^{(k)}\) in \(L^2H^{m+1}\).  The cutoff equations
+and Lemma~\ref{lem:sobolev-product} give, with a constant depending only on
+\(m\),
+\[
+ \norm{\partial_tw^{(k)}}_{L^2H^{m-1}}
+ \le \nu\norm{w^{(k)}}_{L^2H^{m+1}}
+ +\sqrt3\,C_m^{\rm alg}\delta^{1/2}
+   \norm{w^{(k)}}_{L^\infty H^m}^2,
+\]
+so the time derivatives are uniformly bounded in \(L^2H^{m-1}\).
+
+It remains to identify the higher-order weak limit with the fixed point already
+constructed in \(X_\delta(a)\).  The contraction estimate gives
+\[
+ \norm{w^{(k)}-w}_{X_\delta}
+ \le2\norm{\Phi_k(w)-\Phi(w)}_{X_\delta}.
+\]
+The linear bound proved above controls the right-hand side by a constant times
+\[
+ \norm{(S_k-I)a}_{H^3}
+ +\norm{(S_k-I)\Pp\nabla\!\cdot(w\otimes w)}_{L^2H^2},
+\]
+which tends to zero.  Hence \(w^{(k)}\to w\) in \(X_\delta\).  Weak
+compactness in the three uniformly bounded higher-order spaces and uniqueness
+of the distributional limit place
+\[
+ w\in L^\infty(0,\delta;H^m_\sigma)\cap L^2(0,\delta;H^{m+1}_\sigma),
+ \qquad w_t\in L^2(0,\delta;H^{m-1}_\sigma).
+\]
+Lemma~\ref{lem:adjacent-trace} supplies the representative
+\(w\in C([0,\delta];H^m_\sigma)\); its trace at zero is \(a\), since it is
+the same distributional trace as the already constructed \(C H^3\) solution.
+Assume now that \(a\in H^\infty_\sigma\).  Set \(W_0=w\) and define
+recursively
+\[
+ Q_n=R_iR_j\sum_{a=0}^n\binom naW_{a,i}W_{n-a,j},
+\]
+\[
+ W_{n+1}=\nu\Delta W_n
+ -\sum_{a=0}^n\binom na(W_a\cdot\nabla)W_{n-a}-\nabla Q_n.
+\]
+If \(W_0,\ldots,W_n\in C H^{m+2}\), then
+Lemmas~\ref{lem:sobolev-product} and \ref{lem:riesz-leray} give
+\[
+ Q_n\in C H^{m+1},
+ \qquad
+ W_{n+1}\in C H^m.
+\]
+Since \(m\) is arbitrary, induction gives \(W_n,Q_n\in C H^m\) for every
+\(n,m\in\Nzero\).  The equation first gives
+\(W_0\in C^1H^m\) and \(\partial_tW_0=W_1\).  If
+\(W_a=\partial_t^aw\) for \(0\le a\le n\), distributional differentiation
+of \(q=R_iR_j(w_iw_j)\) and Lemma~\ref{lem:mixed-leibniz} give
+\(\partial_t^nq=Q_n\).  Differentiation of the momentum equation then gives
+\(\partial_tW_n=W_{n+1}\).  Induction gives
+\[
+ W_n\in C^1H^m,
+ \qquad
+ \partial_tW_n=W_{n+1},
+ \qquad
+ W_n=\partial_t^nw,
+ \qquad
+ Q_n=\partial_t^nq.
+\]
+Time translation proves the result for every \(s\ge0\).  Lemma
+\ref{lem:shifted-mild-restriction} and the at-most-one assertion make all
+nonempty classes below \(\tau_{\nu,3}^{\max}(s,a)\) compatible; their union
+is the maximal shifted pressure-normalized \(H^3\) mild history.
+\end{proof}

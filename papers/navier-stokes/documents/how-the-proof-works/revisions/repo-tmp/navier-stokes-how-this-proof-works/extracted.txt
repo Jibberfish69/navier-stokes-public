@@ -1,0 +1,238 @@
+                                How the Proof Works
+                                               Thomas Birnie
+
+
+The quickest route into the proof begins with the scale at which concentration becomes dangerous.
+Under the Navier–Stokes scaling
+                                      uλ (x, t) = λu(λx, λ2 t),
+the homogeneous Sobolev norm changes by
+                                                               1
+                                    uλ (·, t) Ḣ s = λ,s− 2 u(·, λ2 t) Ḣ s .
+
+Below s = 12 , concentration at smaller scales makes this norm smaller. Above s = 12 , it makes the
+norm larger. At s = 12 , the scaling factor disappears. That is the critical height: it sees concentration
+without weakening or amplifying it by a power of scale.
+
+Picture a vortex tube stretching and thinning. Fluid around the narrowing core turns across a
+smaller distance, so its gradients sharpen. Repeated at finer scales, this becomes a Zeno cascade:
+energy can remain finite while smaller regions carry steeper gradients over shorter intervals. That
+picture poses the question the proof actually answers.
+
+In order for a singularity to form, velocity has to blow up. In order for that to happen, its acceleration
+would also have to blow up, which means its jerk has to blow up, and so on, and so on:
+
+                                      u,       ∂t u,           ∂t2 u,       ...
+
+If a singularity were forming, then as we moved upward through these time derivatives, we would
+expect to find less spatial regularity, not more.
+
+
+
+What the time derivatives contain
+
+Navier–Stokes tells us what climbing that sequence does. The first three temporal responses are
+
+                                      ∂t u = ν∆u − (u·∇)u − ∇p,
+
+                            ∂t2 u = ν∆∂t u − (∂t u·∇)u − (u·∇)∂t u − ∇∂t p,
+and
+                             ∂t3 u = ν∆∂t2 u − (∂t2 u·∇)u
+                                     − 2(∂t u·∇)∂t u − (u·∇)∂t2 u − ∇∂t2 p.
+These three equations reveal the complete product-rule pattern:
+                                               r
+                                                           !
+                                                       r
+                                   ∂tr+1 u +                   ∂ta u·∇ ∂t,r−a u
+                                               X                        
+
+                                               a=0
+                                                       a
+
+                                           + ∇∂tr p = ν∆∂tr u.
+
+                                                           1
+Write
+                                       Vr := ∂tr u,       Qr := ∂tr p.
+The recurrence becomes
+                                     r
+                                             !
+                                     X     r
+                            Vr+1 +           (Va ·∇)Vr−a + ∇Qr = ν∆Vr .
+                                     a=0
+                                           a
+
+Each row is the pair (Vr , Qr ), with pressure carried at matching temporal order.
+
+
+
+More spatial regularity, not less
+
+The viscous term gives the link between temporal order and spatial height. In three dimensions,
+
+                                     ∆Vr = ∂x21 Vr + ∂x22 Vr + ∂x23 Vr .
+
+Those are second spatial derivatives. Solving the recurrence for this term gives
+                                                                  r
+                                                                           !
+                                                                  X      r
+                    ν∆Vr = Vr+1 + Nr + ∇Qr ,              Nr :=            (Va ·∇)Vr−a .
+                                                                  a=0
+                                                                         a
+
+At spatial height m − 1, elliptic regularity reads this relation as
+
+                             ∥Vr ∥H m+1 ≲ν ∥Vr+1 ∥H m−1 + ∥Nr ∥H m−1
+                                              + ∥∇Qr ∥H m−1 + ∥Vr ∥H m−1 .
+
+Read from right to left, the relation takes the next temporal response, transport, and pressure at
+height m − 1, and reaches the preceding response at height m + 1. Each temporal step reaches two
+spatial derivatives higher through ν∆.
+
+That is the reversal. A forming singularity led us to expect spatial regularity to deteriorate as
+temporal order rose. The equations point upward through the Sobolev scale instead. They identify
+higher spatial coordinates at every finite temporal order. The remaining job is to carry those
+coordinates through the proposed terminal time.
+
+
+
+Finite rectangles
+
+A single coordinate in the pattern says
+                                                 Vr ∈ Hxm .
+The temporal order is r; the spatial Sobolev height is m. Choose finite cutoffs N and M . The
+rectangle RN,M [u0 ] is the finite block obtained by stopping at those two cutoffs.
+
+
+
+
+                                                      2
+                              0                  m               M
+                                                                              spatial height m
+
+
+                          r                          Vr ∈ Hxm
+                                                    RN,M [u0 ]
+                         N
+
+
+                   temporal order r
+
+
+The recurrence exposes these coordinates. The rectangle estimate bounds them through T∗ . Fix
+finite N and M . For 0 ≤ n ≤ N , the adjacent rows satisfy
+
+                        Vn ∈ L2 (0, T∗ ; H M +1 ),            Vn+1 ∈ L2 (0, T∗ ; H M −1 ).
+
+Since Vn+1 = ∂t Vn , the adjacent pair gives
+
+                    Vn ∈ L2 (0, T∗ ; H M +1 ) ∩ H 1 (0, T∗ ; H M −1 ) ,→ C([0, T∗ ]; H M ).
+
+Because N and M can be chosen at any finite values, the rectangles cover every finite coordinate.
+Every block reaches T∗ , and overlapping blocks agree because both restrict the solution generated
+by u0 .
+
+Taking all compatible finite blocks together gives
+                                                     \
+                                         I[u0 ] ⊂           H r (0, T∗ ; H m ).
+                                                    r,m<∞
+
+More concretely, the continuity obtained from every adjacent pair gives
+
+                                  u ∈ C([0, T∗ ]; H m )        for every finite m.
+
+
+
+The smooth endpoint
+
+Now the standard Sobolev embedding theorem supplies the payoff. In three dimensions,
+
+                                             3
+                                   s>k+             =⇒      H s (R3 ) ,→ C k (R3 ).
+                                             2
+Because the intersection contains every finite spatial height,
+
+                                          H m (R3 ) = H ∞ (R3 ) ,→ C ∞ (R3 ).
+                                     \
+
+                                    m<∞
+
+
+The zeroth temporal row of the intersection is
+
+                                                 S0 := π0 I[u0 ].
+
+                                                          3
+Its endpoint is
+                                               H m (R3 ) = H ∞ (R3 ) ,→ C ∞ (R3 ).
+                                         \
+                        u∗ := u(T∗ ) ∈
+                                         m<∞
+
+This is where the opening expectation is overturned. Moving upward through velocity, acceleration,
+jerk, and every finite temporal response was expected to reveal a loss of spatial regularity. The
+construction reaches every finite spatial height and arrives at T∗ with smooth data.
+
+The local smooth theory now starts from u∗ on an interval [T∗ , T∗ + δ]. Overlap uniqueness makes
+that local solution an extension of the solution on [0, T∗ ]. It crosses the proposed terminal time, so
+T∗ < ∞ cannot be maximal:
+                                               T∗ = ∞.
+
+
+
+The estimates come afterward
+
+Once the intersection is in hand, choose the quantity required by the problem. For 2 ≤ p < ∞, the
+spatial embedding into Wxk,p holds when
+
+                                                1 1
+                                                                 
+                                         m−k ≥3  −  .
+                                                2 p
+
+For p = ∞, choose
+                                                    3
+                                            m>k+ .
+                                                    2
+Then the required estimate is a projection from that height:
+
+                                     I[u0 ] −→ Ct Hxm −→ L∞  k,p
+                                                          t Wx .
+
+Different downstream questions select different finite heights. Three familiar choices are
+
+                                     I[u0 ] −→ Ct Hx1 −→ L∞  6
+                                                          t Lx ,
+
+                                     I[u0 ] −→ Ct Hx2 −→ L∞  ∞
+                                                          t Lx ,
+
+                                     I[u0 ] −→ Ct Hx3 −→ L∞  1,∞
+                                                          t Wx   .
+
+For the gradient continuation quantity, the final line gives
+
+                                sup ∥∇u(t)∥L∞ ≤ C sup ∥u(t)∥H 3 < ∞,
+                            0≤t≤T∗                       0≤t≤T∗
+
+and hence                 Z T∗
+                                 ∥∇u(t)∥L∞ dt ≤ CT∗ sup ∥u(t)∥H 3 < ∞.
+                            0                             0≤t≤T∗
+
+The familiar continuation estimates are read from the intersection afterward; they do not produce it.
+
+
+
+
+                                                     4
+The whole movement
+
+At this point the proof can be compressed without hiding its logic:
+
+                         u0 −→ {(Vn , Qn )}n≥0 −→ {RN,M [u0 ]}N,M <∞
+                            −→ I[u0 ] −→ S0 −→ u∗ ∈ H ∞ −→ T∗ = ∞.
+
+
+
+
+                                                5
+

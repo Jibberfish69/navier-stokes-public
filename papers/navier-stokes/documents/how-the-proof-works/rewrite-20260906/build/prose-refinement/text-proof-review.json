@@ -1,0 +1,23 @@
+{
+  "schema_version": 2,
+  "review_kind": "proof_reverse",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/prose-refinement/proof-packet.json",
+    "sha256": "f91ff410592d9a044aecbc40253c3b95aa23570cb578bb247e8a7b2a01c941e8"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/prose-refinement/candidate.tex",
+    "sha256": "97b4d656d8ff7fe9ec30a821403d830b86eb11714761cbb41ad564c7a640348f"
+  },
+  "render": [],
+  "reviewer": {
+    "agent_path": "/root/refinement_source",
+    "task_name": "refinement_source",
+    "isolation": "fork_none",
+    "request_nonce": "de4588ef248afbd5f33969af7ac3b40e15f6a6fcfdb14503"
+  },
+  "decision": {
+    "verdict": "pass",
+    "first_divergence": null
+  }
+}

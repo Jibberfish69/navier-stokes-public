@@ -1,0 +1,372 @@
+<section id="ns-smoothness-proof-map" aria-label="Navier–Stokes signed-prefix smoothness proof-route map">
+  <style>
+    #ns-smoothness-proof-map {
+      color: var(--foreground);
+      width: 100%;
+      max-width: 100%;
+      min-width: 0;
+    }
+
+    #ns-smoothness-proof-map *,
+    #ns-smoothness-proof-map *::before,
+    #ns-smoothness-proof-map *::after {
+      box-sizing: border-box;
+    }
+
+    #ns-smoothness-proof-map .route-controls {
+      margin-bottom: 1rem;
+      max-width: 100%;
+    }
+
+    #ns-smoothness-proof-map .proof-flow {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 3.75rem minmax(0, 1fr) 3.75rem minmax(0, 1fr) 3.75rem minmax(0, 1fr);
+      align-items: stretch;
+      width: 100%;
+    }
+
+    #ns-smoothness-proof-map .proof-node {
+      min-width: 0;
+      max-width: 100%;
+      padding: 0.8rem 0.65rem;
+      border: 1px solid var(--border);
+      border-radius: 0.65rem;
+      background: color-mix(in srgb, var(--secondary) 55%, transparent);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 0.7rem;
+    }
+
+    #ns-smoothness-proof-map .proof-node[data-state="open"] {
+      background: color-mix(in srgb, var(--viz-series-2) 13%, transparent);
+      border-color: color-mix(in srgb, var(--viz-series-2) 42%, var(--border));
+    }
+
+    #ns-smoothness-proof-map .proof-node[data-state="proved"] {
+      background: color-mix(in srgb, var(--viz-series-1) 12%, transparent);
+      border-color: color-mix(in srgb, var(--viz-series-1) 40%, var(--border));
+    }
+
+    #ns-smoothness-proof-map .proof-node[data-state="target"] {
+      background: color-mix(in srgb, var(--primary) 12%, transparent);
+      border-color: color-mix(in srgb, var(--primary) 42%, var(--border));
+    }
+
+    #ns-smoothness-proof-map .proof-node[data-state="blocked"] {
+      background: color-mix(in srgb, var(--destructive) 11%, transparent);
+      border-color: color-mix(in srgb, var(--destructive) 42%, var(--border));
+    }
+
+    #ns-smoothness-proof-map .node-label {
+      overflow-wrap: anywhere;
+    }
+
+    #ns-smoothness-proof-map .node-status {
+      color: var(--muted-foreground);
+      font-weight: 500;
+      letter-spacing: 0.01em;
+    }
+
+    #ns-smoothness-proof-map .proof-edge {
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.2rem;
+      color: var(--muted-foreground);
+      text-align: center;
+    }
+
+    #ns-smoothness-proof-map .edge-mark {
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    #ns-smoothness-proof-map .edge-mark::before {
+      content: "";
+      height: 1px;
+      flex: 1;
+      background: var(--border);
+    }
+
+    #ns-smoothness-proof-map .edge-mark::after {
+      content: "›";
+      color: var(--muted-foreground);
+    }
+
+    #ns-smoothness-proof-map .proof-edge[data-state="blocked"] .edge-mark::before {
+      background: repeating-linear-gradient(
+        to right,
+        var(--destructive) 0,
+        var(--destructive) 0.25rem,
+        transparent 0.25rem,
+        transparent 0.48rem
+      );
+    }
+
+    #ns-smoothness-proof-map .proof-edge[data-state="blocked"] .edge-mark::after {
+      content: "×";
+      color: var(--destructive);
+    }
+
+    #ns-smoothness-proof-map .proof-edge[data-state="open"] .edge-mark::before {
+      background: repeating-linear-gradient(
+        to right,
+        var(--viz-series-2) 0,
+        var(--viz-series-2) 0.25rem,
+        transparent 0.25rem,
+        transparent 0.48rem
+      );
+    }
+
+    #ns-smoothness-proof-map .route-detail {
+      margin-top: 1rem;
+      display: flex;
+      gap: 0.55rem;
+      align-items: baseline;
+    }
+
+    #ns-smoothness-proof-map .route-detail-label {
+      flex: 0 0 auto;
+      color: var(--muted-foreground);
+    }
+
+    #ns-smoothness-proof-map .route-detail-value {
+      min-width: 0;
+      overflow-wrap: anywhere;
+    }
+
+    @media (max-width: 560px) {
+      #ns-smoothness-proof-map .proof-flow {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      #ns-smoothness-proof-map .proof-edge {
+        min-height: 2.7rem;
+      }
+
+      #ns-smoothness-proof-map .edge-mark {
+        width: auto;
+        height: 1.05rem;
+        flex-direction: column;
+      }
+
+      #ns-smoothness-proof-map .edge-mark::before {
+        width: 1px;
+        height: 100%;
+        flex: 1;
+      }
+
+      #ns-smoothness-proof-map .edge-mark::after {
+        content: "⌄";
+      }
+
+      #ns-smoothness-proof-map .proof-edge[data-state="blocked"] .edge-mark::before {
+        background: repeating-linear-gradient(
+          to bottom,
+          var(--destructive) 0,
+          var(--destructive) 0.25rem,
+          transparent 0.25rem,
+          transparent 0.48rem
+        );
+      }
+
+      #ns-smoothness-proof-map .proof-edge[data-state="blocked"] .edge-mark::after {
+        content: "×";
+      }
+
+      #ns-smoothness-proof-map .proof-edge[data-state="open"] .edge-mark::before {
+        background: repeating-linear-gradient(
+          to bottom,
+          var(--viz-series-2) 0,
+          var(--viz-series-2) 0.25rem,
+          transparent 0.25rem,
+          transparent 0.48rem
+        );
+      }
+
+      #ns-smoothness-proof-map .route-detail {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+  </style>
+
+  <div class="viz-controls route-controls">
+    <label class="form-label" for="ns-route-select">
+      <span>Proof route</span>
+      <select class="form-select" id="ns-route-select">
+        <option value="critical">Critical roof</option>
+        <option value="workrate" selected>Work-rate I²</option>
+        <option value="workvolume">Work volume</option>
+        <option value="qcurrent">q / singleton current</option>
+        <option value="vorticity">BKM</option>
+        <option value="silver">Silver CM</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="proof-flow" id="ns-proof-flow" aria-live="polite">
+    <div class="proof-node" id="ns-node-1" data-state="known">
+      <span class="node-label" id="ns-node-label-1"></span>
+      <span class="node-status text-small" id="ns-node-status-1"></span>
+    </div>
+    <div class="proof-edge" id="ns-edge-1" data-state="open">
+      <span class="edge-label text-small" id="ns-edge-label-1"></span>
+      <span class="edge-mark" aria-hidden="true"></span>
+    </div>
+    <div class="proof-node" id="ns-node-2" data-state="open">
+      <span class="node-label" id="ns-node-label-2"></span>
+      <span class="node-status text-small" id="ns-node-status-2"></span>
+    </div>
+    <div class="proof-edge" id="ns-edge-2" data-state="open">
+      <span class="edge-label text-small" id="ns-edge-label-2"></span>
+      <span class="edge-mark" aria-hidden="true"></span>
+    </div>
+    <div class="proof-node" id="ns-node-3" data-state="proved">
+      <span class="node-label" id="ns-node-label-3"></span>
+      <span class="node-status text-small" id="ns-node-status-3"></span>
+    </div>
+    <div class="proof-edge" id="ns-edge-3" data-state="proved">
+      <span class="edge-label text-small" id="ns-edge-label-3"></span>
+      <span class="edge-mark" aria-hidden="true"></span>
+    </div>
+    <div class="proof-node" id="ns-node-4" data-state="target">
+      <span class="node-label" id="ns-node-label-4"></span>
+      <span class="node-status text-small" id="ns-node-status-4"></span>
+    </div>
+  </div>
+
+  <div class="card route-detail">
+    <span class="route-detail-label text-small">Exact status</span>
+    <span class="route-detail-value" id="ns-route-detail"></span>
+  </div>
+
+  <script>
+    (() => {
+      const root = document.getElementById("ns-smoothness-proof-map");
+      const routeData = {
+        critical: {
+          nodes: [
+            ["One fixed-ν maximal NS history", "ESTABLISHED OBJECT", "known"],
+            ["Original-data bound on supₜ<T* ‖u(t)‖Ḣ¹ᐟ²", "OPEN ESTIMATE", "open"],
+            ["Endpoint continuation criterion", "PROVED IF BOUND", "proved"],
+            ["Classical smoothness for all finite time", "TARGET", "target"]
+          ],
+          edges: [
+            ["must prove", "open"],
+            ["would discharge", "open"],
+            ["implies", "proved"]
+          ],
+          detail: "Ḣ¹ᐟ² is one bridge to smoothness, not the target. The original-data roof itself remains open."
+        },
+        workrate: {
+          nodes: [
+            ["½I′ + νX = N and I ∈ L¹ on one fixed-ν history", "PROVED BASE", "proved"],
+            ["Scalar tail, record weight, and installed compactness inputs", "CHECKED NON-CLOSING", "blocked"],
+            ["∫G I(t)² dt < ∞ or a new same-field supplier", "OPEN STRICT TARGET", "open"],
+            ["Classical smoothness for all finite time", "TARGET", "target"]
+          ],
+          edges: [
+            ["audited", "blocked"],
+            ["needs new PDE input", "open"],
+            ["implies", "proved"]
+          ],
+          detail: "The tail lift cancels; the record charge can diverge even when I² is finite; and intrinsic normalization makes the paid projective actions scale-degenerate. The surviving conditional route needs a datum-scale net-source bound, or a new active-coverage and full-incidence compactness theorem."
+        },
+        workvolume: {
+          nodes: [
+            ["One fixed-ν maximal NS history", "ESTABLISHED OBJECT", "known"],
+            ["∫G Vwork(t)⁻¹ dt < ∞", "OPEN STRICT TARGET", "open"],
+            ["Uniform Ḣ¹ᐟ² plus endpoint criterion", "PROVED CONSUMER", "proved"],
+            ["Classical smoothness for all finite time", "TARGET", "target"]
+          ],
+          edges: [
+            ["must prove", "open"],
+            ["implies", "proved"],
+            ["implies", "proved"]
+          ],
+          detail: "The separate L² rate and L³ᐟ² density budgets do not control their active concentration on the same material labels."
+        },
+        qcurrent: {
+          nodes: [
+            ["q-window ⇔ chord envelope locates concentration", "PROVED READOUT", "proved"],
+            ["Jsing = PH / 2; N±′ = PH and weighted actions are finite", "PROVED BOUNDARY", "proved"],
+            ["Bound supₜ<T* ∫₀ᵗ PH; stronger: ∫G A+A− or ∫G D hA", "OPEN SIGNED SUPPLIER", "open"],
+            ["Classical smoothness for all finite time", "TARGET", "target"]
+          ],
+          edges: [
+            ["separate locator from work", "proved"],
+            ["must contract signed history", "open"],
+            ["implies", "proved"]
+          ],
+          detail: "A first singularity forces the upper prefix primitive of PH to diverge, so bounding that signed primitive is the weakest installed target. Energy proves ∫|PH|²/(D hA), ∫G D/hA, ∫(H′)+/hA, and square-root actions, but not the opposite-weight dual. The harmonic kernel pays exact overlap yet restores homochiral radial current; kernels or moving centers that kill it return the same PH primitive. F7.124 rejects isolated return and F7.125 reconverges with only an O(t⁶) tax against O(t²) height gain. The missing theorem is nonlocal-in-time shared-q-face cancellation."
+        },
+        vorticity: {
+          nodes: [
+            ["One fixed-ν maximal NS history", "ESTABLISHED OBJECT", "known"],
+            ["Datum-finite ∫₀ᵀ* ‖ω(t)‖∞ dt", "OPEN ESTIMATE", "open"],
+            ["BKM continuation criterion", "PROVED IF FINITE", "proved"],
+            ["Classical smoothness for all finite time", "TARGET", "target"]
+          ],
+          edges: [
+            ["must prove", "open"],
+            ["would discharge", "open"],
+            ["implies", "proved"]
+          ],
+          detail: "The continuation implication is installed; the same-history original-data vorticity-action bound is not."
+        },
+        silver: {
+          nodes: [
+            ["Assume finite non-continuation", "CONTRAPOSITIVE START", "known"],
+            ["Admitted Part or Field failure", "CONDITIONAL CLASSIFIER", "open"],
+            ["Exit(Q) = ¬Member(Q)", "FAILURE CLASSIFIED", "proved"],
+            ["Classical smoothness", "NOT REACHED", "blocked"]
+          ],
+          edges: [
+            ["type the failure", "open"],
+            ["definition", "proved"],
+            ["no implication", "blocked"]
+          ],
+          detail: "Exit(Q) is compatible with the assumed breakdown. The missing theorem is smooth original data ⇒ no genuine terminal exit."
+        }
+      };
+
+      const routeSelect = document.getElementById("ns-route-select");
+      const nodeElements = [1, 2, 3, 4].map((index) => ({
+        box: document.getElementById(`ns-node-${index}`),
+        label: document.getElementById(`ns-node-label-${index}`),
+        status: document.getElementById(`ns-node-status-${index}`)
+      }));
+      const edgeElements = [1, 2, 3].map((index) => ({
+        box: document.getElementById(`ns-edge-${index}`),
+        label: document.getElementById(`ns-edge-label-${index}`)
+      }));
+      const detail = document.getElementById("ns-route-detail");
+
+      function renderRoute(routeName) {
+        const route = routeData[routeName];
+        nodeElements.forEach((element, index) => {
+          const [label, status, state] = route.nodes[index];
+          element.label.textContent = label;
+          element.status.textContent = status;
+          element.box.dataset.state = state;
+        });
+        edgeElements.forEach((element, index) => {
+          const [label, state] = route.edges[index];
+          element.label.textContent = label;
+          element.box.dataset.state = state;
+        });
+        detail.textContent = route.detail;
+        routeSelect.value = routeName;
+      }
+
+      routeSelect.addEventListener("change", () => renderRoute(routeSelect.value));
+
+      renderRoute("workrate");
+    })();
+  </script>
+</section>

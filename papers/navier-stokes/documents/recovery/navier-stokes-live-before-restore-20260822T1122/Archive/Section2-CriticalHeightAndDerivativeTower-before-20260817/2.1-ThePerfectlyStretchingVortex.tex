@@ -1,0 +1,84 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% Archived before the 2026-08-17 Section 2 rewrite.
+\subsection{The perfectly stretching vortex}\label{sub:ThePerfectlyStretchingVortex}
+
+Take one smooth vortex and stretch it along its axis.
+The fluid is incompressible, so the lengthening contracts the cross-section at the same time.
+The rotation is packed into a smaller radius, the winding tightens, and the velocity changes more sharply across the core.
+The next stretch begins from that thinner vortex, with the steeper variation already in place.
+
+Now assume that its axis stays aligned with the expanding strain direction and that the core remains centred and coherent from one stretch to the next.
+This is the perfectly stretching vortex.
+It is a thought experiment that isolates the geometry most favourable to repeated concentration; the equations below carry every exact implication.
+
+Before going any further, we have to decide what the word \emph{core} is following.
+It may contain the same material particles throughout the narrowing, or it may be a visible region that recruits new particles while earlier ones leave.
+The first reading concerns the separation of fixed fluid labels.
+The second concerns concentration in the complete velocity field.
+The drawing is identical in both readings, but the mathematical claims differ.
+
+\begin{center}
+\captionsetup{hypcap=false}
+\begin{tikzpicture}[
+  >=stealth,
+  logic/.style={draw=black!55,rounded corners=2pt,fill=black!3,
+    align=center,text width=3.05cm,minimum height=1.25cm,font=\small},
+  note/.style={align=center,font=\small}
+]
+  \draw[blue!70!black,thick,domain=-1.1:1.1,samples=90]
+    plot ({-3.7+0.78*cos(560*\x)},{1.05*\x+2.4});
+  \draw[blue!35!black,thick] (-4.48,2.4) arc[start angle=180,end angle=540,x radius=.78,y radius=.24];
+  \draw[->,very thick,black!65] (-3.7,3.6)--(-3.7,4.45);
+  \draw[->,very thick,black!65] (-3.7,1.2)--(-3.7,.35);
+  \node[note] at (-3.7,-.05) {one smooth core\\radius \(r_0\)};
+
+  \draw[->,very thick,black!65] (-1.7,2.4)--(1.15,2.4)
+    node[midway,above,note] {stretch and narrow};
+
+  \draw[blue!70!black,thick,domain=-1.35:1.35,samples=120]
+    plot ({3.2+0.40*cos(820*\x)},{1.28*\x+2.4});
+  \draw[blue!35!black,thick] (2.80,2.4) arc[start angle=180,end angle=540,x radius=.40,y radius=.13];
+  \draw[->,very thick,black!65] (3.2,4.15)--(3.2,4.85);
+  \draw[->,very thick,black!65] (3.2,.65)--(3.2,-.05);
+  \node[note] at (3.2,-.45) {same history, tighter winding\\radius \(r_1<r_0\)};
+
+  \node[logic] (a) at (-5.25,-2.1) {finite last time\\\(T_*<\infty\)};
+  \node[logic] (b) at (-1.75,-2.1) {global critical-norm\\escape};
+  \node[logic] (c) at (1.75,-2.1) {critical height\\\(H(t)\) unbounded};
+  \node[logic] (d) at (5.25,-2.1) {infinitely many first passages\\\(t_k\uparrow T_*\)};
+  \draw[->,thick] (a)--(b);
+  \draw[->,thick] (b)--(c);
+  \draw[->,thick] (c)--(d);
+\end{tikzpicture}
+\captionof{figure}{One vortex stretching and narrowing inside the same fluid history. The implication chain beneath the drawing is global and leaves the location of any singular escape unspecified.}
+\label{fig:BalancedVortexCriticalRoute}
+\end{center}
+
+\Needspace{7\baselineskip}
+Write \(\omega:=\nabla\times u\) and
+\(S:=\tfrac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr)\).
+Taking the curl of \eqref{eq:NavierStokesSystem} and using incompressibility gives
+\begin{equation}\label{eq:VorticityEquation}
+  D_t\omega
+  :=\partial_t\omega+(u\cdot\nabla)\omega
+  =S\omega+\nu\Delta\omega.
+\end{equation}
+The strain term \(S\omega\) amplifies vorticity when the vortex aligns with an expanding strain direction.
+Incompressibility supplies the transverse contraction.
+The Laplacian acts on the curvature created as the core narrows.
+Curl removes pressure from this equation, while pressure continues to determine the velocity and strain needed to keep the motion divergence free.
+Stretching, narrowing, pressure response, and diffusion all happen together in this one vortex.
+
+The drawing makes concentration visible, but a finite \(T_*\) is a statement about the whole solution.
+Escauriaza, Seregin, and \v{S}ver\'ak proved that a bounded \(L^\infty_tL^3_x\) norm carries the solution regularly through the endpoint \parencite{EscauriazaSereginSverak2003}.
+Since \(T_*\) is assumed finite and maximal,
+\begin{equation}\label{eq:FiniteTimeLThreeEscape}
+  T_*<\infty
+  \quad\Longrightarrow\quad
+  \sup_{0<t<T_*}\norm{u(t)}_3=\infty.
+\end{equation}
+Here velocity blow-up means that the global \(L^3\) norm escapes every finite bound.
+The criterion is global and leaves the pointwise amplitude at the centre drawn in \cref{fig:BalancedVortexCriticalRoute} open.
+
+The radius in the drawing can shrink even when we have only rescaled the same profile.
+To separate a change of scale from genuine growth, we need a scale-invariant quantity whose divergence follows from \eqref{eq:FiniteTimeLThreeEscape}.

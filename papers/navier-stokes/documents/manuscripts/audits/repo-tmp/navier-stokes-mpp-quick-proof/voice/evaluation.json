@@ -1,0 +1,88 @@
+{
+  "task_id": "task-a8cdc63a65d2ccaf",
+  "task_sha256": "a39ca079655307a73c863af7f6edf59fcebb1de86e7d84a73e18071285df8043",
+  "prediction_sha256": "1b03f4afc6cd01aed3fabd1edb6c792840cbc830aeb313aed637c2ff213759a5",
+  "candidate_sha256": "62e73f2db51c16c20046d024e99259fa2e4ff7ab5a15717e346b07a0bf741bfe",
+  "selected_move_id": "user-fixed-one-history-quick-proof",
+  "producer_id": "codex-root-pdf-author",
+  "evaluator_id": "codex-root-reader-check",
+  "dimensions": {
+    "task_fidelity": {
+      "status": "pass",
+      "evidence": "The candidate is the requested new standalone quick-proof source."
+    },
+    "work_advancement": {
+      "status": "pass",
+      "evidence": "The candidate completes the document rather than describing a future draft."
+    },
+    "structural_meshing": {
+      "status": "pass",
+      "evidence": "The sections preserve the single-history dependency chain from datum through restart."
+    },
+    "bridge_quality": {
+      "status": "pass",
+      "evidence": "Each transition is paid by an explicit recurrence, estimate, trace, or uniqueness step."
+    },
+    "enrichment_control": {
+      "status": "pass",
+      "evidence": "Classical criteria appear only after the closure proof as coordinate readouts."
+    },
+    "intellectual_value": {
+      "status": "pass",
+      "evidence": "The intersection is developed as the common generator of finite-order estimates."
+    },
+    "authorial_completion": {
+      "status": "pass",
+      "evidence": "The candidate includes theorem, proof, readouts, boundaries, and references."
+    },
+    "thought_selection": {
+      "status": "pass",
+      "evidence": "The selected one-history movement organizes the complete candidate."
+    },
+    "direct_object_fidelity": {
+      "status": "pass",
+      "evidence": "One datum, viscosity, velocity-pressure history, endpoint, and restart remain fixed."
+    },
+    "connection": {
+      "status": "pass",
+      "evidence": "Mixed jets, rectangles, inverse limit, endpoint traces, and restart are causally connected."
+    },
+    "development": {
+      "status": "pass",
+      "evidence": "The whole-terminal estimate and endpoint argument are stated at proof-bearing resolution."
+    },
+    "expression": {
+      "status": "pass",
+      "evidence": "The prose is direct, mathematical, and reader-facing without repository process language."
+    },
+    "nuance": {
+      "status": "pass",
+      "evidence": "Finite-order and finite-horizon boundaries are stated explicitly."
+    },
+    "understanding": {
+      "status": "pass",
+      "evidence": "The candidate distinguishes the foundational rectangle theorem from its downstream projections."
+    },
+    "authorship": {
+      "status": "pass",
+      "evidence": "The candidate follows the selected Thomas voice evidence while preserving supplied notation."
+    },
+    "reader_continuity": {
+      "status": "pass",
+      "evidence": "The opening map and closing chain keep the reader on the same mathematical object."
+    },
+    "deeper_connections_and_thoughts": {
+      "status": "pass",
+      "evidence": "The final catalogue shows how classical criteria arise from one stronger object."
+    },
+    "sample_content_leakage": {
+      "status": "pass",
+      "evidence": "No unrelated writing sample content appears in the candidate."
+    },
+    "confidence_calibration": {
+      "status": "pass",
+      "evidence": "The settled rectangle theorem is presented directly and its consequences are separated cleanly."
+    }
+  },
+  "verdict": "pass"
+}

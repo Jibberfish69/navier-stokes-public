@@ -1,0 +1,225 @@
+{
+  "field_resolutions": [
+    {
+      "field": "audience",
+      "status": "accepted_for_run",
+      "value": "expert mathematical readers evaluating a Millennium Prize Problem proof",
+      "reason": "A public MPP quick-proof requires expert mathematical readers as its governing audience."
+    },
+    {
+      "field": "reader_start",
+      "status": "accepted_for_run",
+      "value": "the reader knows classical Navier-Stokes theory but has not seen the compatible-intersection construction",
+      "reason": "The note supplies a new proof mechanism and assumes standard PDE background."
+    },
+    {
+      "field": "reader_end",
+      "status": "accepted_for_run",
+      "value": "the reader can follow one datum through compatible rectangles, projective intersection, endpoint jet, restart, and global continuation",
+      "reason": "This is the exact endpoint of the user-fixed proof movement."
+    },
+    {
+      "field": "live_pressure",
+      "status": "accepted_for_run",
+      "value": "keep the established rectangle theorem first, retain one pressure-complete history, and compress the classical criteria without hiding the closure",
+      "reason": "The new document must stay short while preserving every load-bearing implication."
+    }
+  ],
+  "reader_start": "the reader knows classical Navier-Stokes theory but has not seen the compatible-intersection construction",
+  "live_pressure": "keep the established rectangle theorem first, retain one pressure-complete history, and compress the classical criteria without hiding the closure",
+  "candidate_moves": [
+    {
+      "move_id": "user-fixed-one-history-quick-proof",
+      "move": {
+        "selection": "one datum and viscosity to one pressure-complete history to mixed jet to datum-generated whole-terminal compatible rectangles to projective intersection to finite-order readouts to one smooth endpoint and complete endpoint jet to same-history restart to T_*=infinity",
+        "connection": "Let each object create the next need: the equation creates the mixed jet, finite rectangles assemble into the intersection, and the intersection supplies endpoint control and restart.",
+        "development": "Develop every load-bearing implication on the page, while compressing the larger continuation catalogue into one subordinate corollary section.",
+        "expression": "Use direct mathematical subjects, ordinary causal prose, inherited notation, and displayed equations only where they carry proof weight."
+      },
+      "layer_status": {
+        "selection": "present",
+        "connection": "present",
+        "development": "present",
+        "expression": "present"
+      },
+      "reader_change": "The reader moves from one maximal fluid history to a visible finite-coordinate theorem, then sees why its projective intersection closes the endpoint and every fixed classical criterion.",
+      "next_possibility": "A compact proof can close at restart while the classical catalogue remains an explanatory consequence rather than a competing spine.",
+      "content_basis": ["live-input"],
+      "sequence": [
+        {
+          "step_id": "one-history",
+          "thought": "Fix one datum, viscosity, and maximal pressure-complete solution, then keep that identity through every coordinate.",
+          "connection": "Pressure and the differentiated equations belong to the same velocity history.",
+          "reader_start": "the reader knows classical Navier-Stokes theory but has not seen the compatible-intersection construction",
+          "reader_end": "the reader holds one continuing pressure-complete history rather than a collection of estimates",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "mixed-jet",
+          "thought": "Differentiate the original equation with pressure retained and expose independent temporal and spatial coordinates.",
+          "connection": "Finite rectangles are finite views of this same mixed jet.",
+          "reader_start": "the reader holds one continuing pressure-complete history rather than a collection of estimates",
+          "reader_end": "the reader can identify every rectangle coordinate as a derivative of that history",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "rectangles-intersection",
+          "thought": "State the datum-generated whole-terminal compatible-rectangle theorem and assemble its finite views projectively.",
+          "connection": "Compatibility turns separate finite readouts into one datum-specific intersection.",
+          "reader_start": "the reader can identify every rectangle coordinate as a derivative of that history",
+          "reader_end": "the reader possesses the all-orders compatible intersection as one object",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "estimate-generator",
+          "thought": "Project the intersection onto a high enough finite coordinate to obtain each requested classical estimate.",
+          "connection": "The same projection mechanism also supplies strong endpoint traces in every Sobolev order.",
+          "reader_start": "the reader possesses the all-orders compatible intersection as one object",
+          "reader_end": "the reader sees why individual continuation criteria become finite-coordinate corollaries",
+          "content_basis": ["live-input"]
+        },
+        {
+          "step_id": "endpoint-restart",
+          "thought": "Use the complete spatial row to obtain one common smooth endpoint, reconstruct its pressure-complete jet, and restart the same history.",
+          "connection": "Uniqueness turns the local restart into a contradiction of finite maximality.",
+          "reader_start": "the reader sees why individual continuation criteria become finite-coordinate corollaries",
+          "reader_end": "the reader can follow one datum through compatible rectangles, projective intersection, endpoint jet, restart, and global continuation",
+          "content_basis": ["live-input"]
+        }
+      ],
+      "evidence_uses": [
+        {
+          "record_id": "decision-carry-established-thought-forward-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "Each section spends the mathematical fact earned by the preceding section."
+        },
+        {
+          "record_id": "decision-unfold-causal-relations-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The proof is clearest when each equation creates the next exact need."
+        },
+        {
+          "record_id": "decision-name-operational-objects-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The velocity history, rectangles, intersection, endpoint, and restart must remain explicit subjects."
+        },
+        {
+          "record_id": "decision-earn-technical-language-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "Projective language follows the finite-coordinate compatibility that makes it necessary."
+        },
+        {
+          "record_id": "decision-preserve-discovery-order-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The supplied order from history to jet to rectangles to intersection is fixed."
+        },
+        {
+          "record_id": "decision-use-reader-shared-language-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The paper should use standard PDE language before any specialized internal label."
+        },
+        {
+          "record_id": "decision-develop-to-reader-change-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "Quick length cannot remove the proof-bearing development required for understanding."
+        },
+        {
+          "record_id": "observation-reader-led-concept-before-formal-name-001",
+          "source_move_id": "observed-move",
+          "relation": "supports",
+          "applicability_reason": "The reader should encounter finite views of one jet before the inverse-limit name."
+        },
+        {
+          "record_id": "decision-sentence-possesses-complete-thought-001",
+          "source_move_id": "make-the-payload-carry-the-thought",
+          "relation": "supports",
+          "applicability_reason": "Every sentence should state the acting mathematical object and its consequence."
+        },
+        {
+          "record_id": "decision-hold-object-transfer-only-behaviour-20260814",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "Every coordinate remains a reading of one fixed solution history."
+        }
+      ],
+      "risks": [
+        "Turning the classical catalogue into a second proof spine.",
+        "Letting compactness replace a displayed load-bearing implication.",
+        "Using repository labels or status prose in place of mathematics."
+      ],
+      "confidence": "low"
+    }
+  ],
+  "chosen_move_id": "user-fixed-one-history-quick-proof",
+  "choice_reason": "Thomas fixed the proof movement in the supplied note, so authorship consists in realizing that movement completely and compactly rather than choosing another route.",
+  "rejected_move_ids": [],
+  "evidence_dispositions": [
+    {"record_id": "decision-live-obstacle-before-label-001", "status": "not_applicable", "reason": "The proof route is settled and no alternative route is being introduced."},
+    {"record_id": "decision-carry-established-thought-forward-001", "status": "used", "reason": "The paper must spend each established fact on the next implication."},
+    {"record_id": "decision-unfold-causal-relations-001", "status": "used", "reason": "The proof requires visible causal movement between equations."},
+    {"record_id": "decision-name-operational-objects-001", "status": "used", "reason": "The fixed history and its coordinates must remain explicit."},
+    {"record_id": "decision-earn-technical-language-001", "status": "used", "reason": "Formal projective language follows the compatible finite rectangles."},
+    {"record_id": "decision-preserve-discovery-order-001", "status": "used", "reason": "The user supplied the order of the proof."},
+    {"record_id": "decision-generate-expression-from-thought-001", "status": "not_applicable", "reason": "No separate sentence template is being imported."},
+    {"record_id": "decision-use-reader-shared-language-001", "status": "used", "reason": "Standard PDE language keeps the quick proof readable."},
+    {"record_id": "decision-develop-to-reader-change-001", "status": "used", "reason": "The short artifact still needs full proof-bearing transitions."},
+    {"record_id": "decision-keep-example-inside-idea-001", "status": "not_applicable", "reason": "The quick proof does not rely on an extended example."},
+    {"record_id": "decision-repair-exact-referent-001", "status": "not_applicable", "reason": "This run creates a new artifact rather than repairing a local referent."},
+    {"record_id": "decision-generalize-to-writing-faculty-001", "status": "not_applicable", "reason": "The task is artifact production rather than behavior learning."},
+    {"record_id": "observation-reader-led-concept-before-formal-name-001", "status": "used", "reason": "The finite views should be graspable before inverse-limit notation."},
+    {"record_id": "decision-preserve-local-movement-role-001", "status": "not_applicable", "reason": "The supplied move governs the whole new document, not one local opening."},
+    {"record_id": "decision-separate-internal-inquiry-from-written-interrogative-001", "status": "not_applicable", "reason": "The planned paper uses declarative exposition and no marked question."},
+    {"record_id": "decision-sentence-possesses-complete-thought-001", "status": "used", "reason": "Complete mathematical propositions are required throughout."},
+    {"record_id": "decision-hold-object-transfer-only-behaviour-20260814", "status": "used", "reason": "Every representation must preserve the identity of one fluid history."}
+  ],
+  "uncertainties": [
+    "Voice fidelity remains to be tested in the realized paper, while the proof order and artifact target are fixed."
+  ],
+  "authorial_commitment": {
+    "work_target": "A polished standalone MPP quick-proof PDF whose full proof chain is visible without the bulk of the longer manuscript.",
+    "strongest_move_reason": "The supplied intersection is strongest when it is shown first as one compatible object and then spent on endpoint closure and classical projections.",
+    "intellectual_gain": "The paper makes explicit that many continuation estimates are finite-coordinate projections of one stronger datum-specific intersection.",
+    "reader_gain": "The reader can recover the proof from the original equation through restart without decoding repository machinery.",
+    "delivery": "complete_output",
+    "structural_commitment": {
+      "scope": "whole_work",
+      "decision_origin": "user_supplied",
+      "voice_attribution": "unvalidated",
+      "artifact_disposition": "preserve",
+      "inherited_reader_state": "The reader knows the regularity problem and standard Sobolev continuation tools.",
+      "section_job": "Present the supplied one-history compatible-intersection proof as one compact mathematical argument.",
+      "outgoing_reader_need": "No further section is needed after the same-history restart closes finite maximality.",
+      "gap_decision": "none",
+      "gap_payment": "Every transition is paid inside the new document, with the classical catalogue compressed after the master projection lemma.",
+      "new_section_job": "",
+      "enrichment_reason": "A few carefully chosen consequences reveal why the intersection changes the continuation problem without enlarging the proof spine.",
+      "enrichments": [
+        {
+          "detail": "State the full pressure-explicit mixed recurrence before defining rectangles.",
+          "reader_value": "The reader sees that every coordinate belongs to the same Navier-Stokes history.",
+          "placement": "After the problem setup and before the rectangle theorem.",
+          "restraint": "Do not add matrix, generating-function, or route-search machinery."
+        },
+        {
+          "detail": "Prove one master finite-order projection lemma from the projective intersection.",
+          "reader_value": "The classical criteria become instances of one operation.",
+          "placement": "Immediately after projective assembly.",
+          "restraint": "Keep only representative criteria in the main text."
+        },
+        {
+          "detail": "Display the common endpoint, pressure-complete jet, and uniqueness restart as one continuous closure movement.",
+          "reader_value": "The final contradiction remains visible and belongs to the same history.",
+          "placement": "Final proof section.",
+          "restraint": "Do not reopen the established producer or introduce an alternate closure route."
+        }
+      ]
+    }
+  }
+}

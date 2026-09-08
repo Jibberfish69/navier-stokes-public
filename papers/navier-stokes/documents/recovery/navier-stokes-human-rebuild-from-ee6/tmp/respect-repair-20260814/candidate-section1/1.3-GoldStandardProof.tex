@@ -1,0 +1,72 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 1.3 Gold Standard Proof
+% ============================================================
+\subsection{Gold Standard Proof}\label{sub:GoldStandardProof}
+
+At this point the most direct way to solve the problem is visible.
+Find one estimate produced by the initial datum, the fixed viscosity, and the Navier--Stokes equations that prevents the restart-grade Sobolev norm from escaping at a finite time.
+For some fixed \(s>5/2\), the desired estimate has the form
+\[
+  \sup_{0\leq t<\min\{T,T_*\}}
+  \lVert u(t)\rVert_{H^s(\mathbb R^3)}
+  \leq
+  C_s(u_0,\nu,T)
+  <\infty
+\]
+for every finite \(T>0\).
+This is the Gold Standard proof in one line.
+
+The rest is already forced by what the bound controls.
+Sobolev embedding keeps \(\nabla u\) bounded, the differentiated equations propagate each fixed higher \(H^m\) norm from the smooth datum, the pressure equation recovers the pressure rows, and the momentum equation recovers the time rows.
+If \(T_*<\infty\), choose \(T=T_*\) and restart local theory from a time slice close enough to \(T_*\).
+The same constant keeps the local lifespan from collapsing, so the restarted solution crosses the alleged last time and contradicts maximality.
+Once the displayed estimate exists,
+\[
+  T_*=\infty.
+\]
+
+This route is so natural that the first attempt is almost unavoidable: differentiate the energy once and try to repeat the original argument at the gradient level.
+Pair the momentum equation with \(-\Delta u\).
+One integration by parts, together with incompressibility, turns the nonlinear transport into the cubic derivative integral
+\[
+  \frac12\frac{d}{dt}\lVert\nabla u\rVert_{L^2}^2
+  +
+  \nu\lVert\Delta u\rVert_{L^2}^2
+  =
+  -\int_{\mathbb R^3}
+  \partial_k u_i\,\partial_i u_j\,\partial_k u_j\,dx.
+\]
+The cubic term is bounded by
+\[
+  \left|
+  \int_{\mathbb R^3}
+  \partial_k u_i\,\partial_i u_j\,\partial_k u_j\,dx
+  \right|
+  \leq
+  C\lVert\nabla u\rVert_{L^3}^3
+  \leq
+  C\lVert\nabla u\rVert_{L^2}^{3/2}
+  \lVert\Delta u\rVert_{L^2}^{3/2}.
+\]
+Young's inequality lets viscosity absorb the \(\Delta u\) factor and produces
+\[
+  \frac{d}{dt}\lVert\nabla u\rVert_{L^2}^2
+  +
+  \nu\lVert\Delta u\rVert_{L^2}^2
+  \leq
+  C\nu^{-3}\lVert\nabla u\rVert_{L^2}^6.
+\]
+
+The energy identity controls
+\[
+  \int_0^T\lVert\nabla u(t)\rVert_{L^2}^2\,dt,
+\]
+while the new row amplifies the same gradient through its sixth power.
+A short high peak can have finite quadratic time area and still make the cubic derivative energy run away.
+The inequality has exposed that analytic possibility without constructing such a fluid peak.
+Its conclusion is the exact place where the first direct estimate loses control.
+
+Every successful Gold Standard argument must reach into the same coupled equation and prevent that amplification at some continuation-grade level.
+It has to use transport, pressure, incompressibility, and viscosity as they act on the original fluid, because those are the only mechanisms available to turn the local solution into an all-time one.
+That missing estimate has resisted every direct attempt for almost a century.

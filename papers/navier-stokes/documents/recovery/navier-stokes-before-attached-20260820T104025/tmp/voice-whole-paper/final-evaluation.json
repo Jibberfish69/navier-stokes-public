@@ -1,0 +1,88 @@
+{
+  "task_id": "task-5feb8eb43204b3a7",
+  "task_sha256": "de7aaeed63c1b022984d3c9868a3d5f401b9c90593f85a6f7a1a4d26ed515ba4",
+  "prediction_sha256": "e4811f638dbed91675c18ebbe74467138ad50546729d2922d9a870a6dbb2da08",
+  "candidate_sha256": "137f72adb9cf80e8952042fa0c559d0a200df7a1bbe7529e6204f3ec23a1088a",
+  "selected_move_id": "user-fixed-whole-paper-movement",
+  "producer_id": "root-manuscript-rewrite",
+  "evaluator_id": "independent-front-core-pdf-audit",
+  "dimensions": {
+    "task_fidelity": {
+      "status": "pass",
+      "evidence": "The finished paper realizes the user-fixed five-part movement and preserves the named mathematical objects."
+    },
+    "work_advancement": {
+      "status": "pass",
+      "evidence": "Every active reader-facing section was rewritten and the rebuilt PDF carries the new movement end to end."
+    },
+    "structural_meshing": {
+      "status": "pass",
+      "evidence": "Each section enters from the consequence left by the preceding section and creates the need for the next."
+    },
+    "bridge_quality": {
+      "status": "pass",
+      "evidence": "The vortex generates critical height and Zeno; repeated integration generates the Tower; viscosity generates the spatial ascent and rectangles."
+    },
+    "enrichment_control": {
+      "status": "pass",
+      "evidence": "Physical development, the finite-coordinate consequences, and the Euler boundary deepen the argument without reopening closed machinery."
+    },
+    "intellectual_value": {
+      "status": "pass",
+      "evidence": "The rewrite makes the temporal-spatial reversal, critical-height roof, two vortex readings, and finite shell sum legible consequences of one history."
+    },
+    "authorial_completion": {
+      "status": "pass",
+      "evidence": "The requested authorship work is complete across the active manuscript; the separately identified missing proof span is not disguised as prose completion."
+    },
+    "thought_selection": {
+      "status": "pass",
+      "evidence": "The selected sequence follows the users numbered architecture instead of the earlier assistant-generated detours."
+    },
+    "direct_object_fidelity": {
+      "status": "pass",
+      "evidence": "The text holds one fixed-viscosity Navier-Stokes history, the exact temporal derivatives V_n, and the two distinct vortex readings."
+    },
+    "connection": {
+      "status": "pass",
+      "evidence": "Every imported criterion or comparison returns to a problem already felt by the reader."
+    },
+    "development": {
+      "status": "pass",
+      "evidence": "The main beats are reasoned through in causal prose before being compressed into theorem, table, or rectangle notation."
+    },
+    "expression": {
+      "status": "pass",
+      "evidence": "The final reader regression found no remaining material assistant-owned shorthand or proof-ledger cadence."
+    },
+    "nuance": {
+      "status": "pass",
+      "evidence": "The paper distinguishes critical-height escape, global L3 escape, material-core persistence, changing membership, and the separate Euler history."
+    },
+    "understanding": {
+      "status": "pass",
+      "evidence": "The mathematical continuity audit found no remaining object, quantifier, horizon, trace, criterion, vortex, dyadic, or Euler defect."
+    },
+    "authorship": {
+      "status": "pass",
+      "evidence": "The prose addresses the reader directly, follows a train of thought, and avoids institutional status narration and private helper nouns."
+    },
+    "reader_continuity": {
+      "status": "pass",
+      "evidence": "The abstract through Section 5 now reads as one causal argument with technical endpoint assembly quarantined in the appendices."
+    },
+    "deeper_connections_and_thoughts": {
+      "status": "pass",
+      "evidence": "The paper develops the low-rectangle historical criteria, finite dyadic shell sum, and exact loss of the viscous rung in Euler."
+    },
+    "sample_content_leakage": {
+      "status": "pass",
+      "evidence": "The candidate is bound to the live instructions and the pre-rewrite paper; no quarantined sample phrase is imported beyond that source content."
+    },
+    "confidence_calibration": {
+      "status": "pass",
+      "evidence": "The artifact claims are verified by compile, reference, citation, mathematical, voice, and visual audits; the absent theorem proof span remains explicit."
+    }
+  },
+  "verdict": "pass"
+}

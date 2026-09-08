@@ -1,0 +1,28 @@
+{
+  "schema_version": 2,
+  "review_kind": "proof_reverse",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f58-d1f7-7cf1-8daa-871a8c146917/how-proof-works/critic-packet.json",
+    "sha256": "7dfb8c63de42d366459478e570761906f64bdda334d20473d320aa8841997bf6"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f58-d1f7-7cf1-8daa-871a8c146917/how-proof-works/main.tex",
+    "sha256": "e9de8d63e92ed979d8e15fea7675057d0285e5eb7a04c7fee81f4f09b853099f"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/09/01/01a05f58-d1f7-7cf1-8daa-871a8c146917/how-proof-works/build/main.pdf",
+      "sha256": "649c3475cef831475bc51cfa63e9d560ebe0d2db7218537b344cf78f9e870dfb"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/proof_reverse_v2",
+    "task_name": "final proof reverse check",
+    "isolation": "fork_none",
+    "request_nonce": "c4254a8af0609a05dfb905841f4e744eb62d0ac33e50cc0a"
+  },
+  "decision": {
+    "verdict": "pass",
+    "first_divergence": null
+  }
+}

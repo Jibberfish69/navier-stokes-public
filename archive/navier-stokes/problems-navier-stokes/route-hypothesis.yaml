@@ -1,0 +1,624 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+source:
+  synthesized_at: '2026-03-27T23:08:27Z'
+  synthesizer: system/runner/workers/route_synthesis_worker.rb
+  source_ledger: problems/navier-stokes/source-ledger.yaml
+  workboard_surfaces:
+  - problems/navier-stokes/obstruction-capture.md
+  - problems/navier-stokes/spine.md
+  - problems/navier-stokes/claim-ladder.md
+target:
+  theorem_target: the classical 3D Navier-Stokes equations on arbitrary or minimally
+    admissible initial data.
+  honest_current_status: the original four-part framework is explicit again on the
+    theorem surface, the scale/monotone/compactness/cascade loci are reconciled, and
+    the lane is now carrying the source-faithful curvature route as the primary fourth-bridge
+    branch.
+  decisive_frontier: 'Persistent alignment priority:'
+route:
+  live_route_summary: NS Clay Frontier Proof Pack
+  branch_choice:
+    selected_branch_id: marvin-route-authority-4
+    selected_branch_label: NS Clay Frontier Proof Pack
+    rationale: 'Marvin theorem-direction authority note requests a live route pivot:
+      Persistent alignment priority:.'
+  parked_branches:
+  - branch_id: branch-a-archived-branch
+    label: 'Branch A: Archived Branch'
+    reason_parked: Marvin theorem-direction authority is currently live, so this prior
+      branch stays parked until the route pivot is tested.
+  - branch_id: branch-b-source-grounded-theorem-branch
+    label: 'Branch B: Source-Grounded Theorem Branch'
+    reason_parked: Marvin theorem-direction authority is currently live, so this prior
+      branch stays parked until the route pivot is tested.
+  - branch_id: branch-c-live-upgrade-question
+    label: 'Branch C: Live Upgrade Question'
+    reason_parked: Marvin theorem-direction authority is currently live, so this prior
+      branch stays parked until the route pivot is tested.
+  blocked_frontiers:
+  - 'Persistent alignment priority:'
+  - They do not replace the direct legacy `NS` theorem-bearing corpus unless a direct
+    `NS` theorem file appears.
+  - "[ns-carrier-commutator-coercive-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/Research-Consolidation/working-notes/ns-carrier-commutator-coercive-lemma.md)."
+  - with next local target still centered on the continuum Euclidean Yang--Mills
+  - Its job is to define the non-commutative Leray / Hodge projector rigorously enough
+    that the ontic flow, `YMG` carrier closure, and `Hodge` obstruction split can
+    all use the same physical-sector selector.
+  - The persistent-carrier prose companion is [`working-notes/persistent-carrier-conceptual-scaffolding.md`](/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/persistent-carrier-conceptual-scaffolding.md).
+  - Its job is to state the physical reading of the ontic `NC-NS` lift so `YMG` and
+    `Chat Y` can treat the flow picture consistently before theorem closure.
+  - spacetime evolution does not leak out of the admissible carrier
+  - Its job is to explain the carrier-level reading of the refinement defect split
+    so `YMG` and `Chat Y` can treat the persistent part, the residual part, and the
+    support extraction layer as one physical story before theorem closure.
+  - the `\Delta_{D,\omega}^{1/2}` norm is the closed Hilbert/coercive realization
+    used in the proofs
+  - It does not replace the `V6` budget identity, and it does not replace the theorem-facing
+    exact/persistent/tail split.
+  - Take a local defect packet that has stabilized into a matter-like carrier.
+  - It formalizes the persistent-carrier projector, the coercive residual estimate,
+    and the H2/H3 carrier form for the ontic `NC-NS` braid.
+  - It extends the projected-generator and persistent-carrier notes with the quantitative
+    defect-growth estimate, the residual absorption theorem, and the first clean H2/H3
+    carrier reductions.
+  - It explains the physical meaning of the quantitative defect-growth block so `YMG`
+    and `Chat Y` can treat it as carrier-language rather than raw operator bookkeeping.
+  - persistent carrier isolation
+  - The gradient mismatch says the flow is not yet perfectly aligned with the refined
+    carrier.
+  - The globalization step is structurally reduced to sheafification, and the terminal
+    realization step is now stated as the terminal primitive realisation theorem below.
+  - It explains why the persistent carrier still needs a global Hodge completion step
+    after the refinement, defect, and direct-limit work are in place.
+  - It hardens the persistent carrier layer so the global coverage class stops being
+    only a scaffold and becomes a sheaf-level theorem package.
+  - It explains why the persistent carrier needs a sheaf layer, not just a direct-limit
+    carrier, before the global Hodge completion can close.
+  - be the presheaf of persistent carrier sections, and define
+  - the Appendix A invariant `\mathcal I(X)`, the Appendix B carrier realization,
+    the Appendix C interface theorems, the Appendix D NS Clay frontier, and the Appendix
+    E continuum physical-sector packet determine a unique closed evolution on the
+  - 'It points to Appendix B in [`working-notes/ontic-flow-closure-proof-spine.md`](/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ontic-flow-closure-proof-spine.md),
+    where the Appendix A invariant is read as the YMG carrier '
+  - It was unpacked into the operator, carrier, and continuum packets so the braid
+    could be built cleanly.
+  - It is the transport-law realization itself.
+  - defect decomposition into exact, carrier, and residual parts
+  - This note packages the continuum physical-sector packet in proof-facing form.
+  - overlap/globalization selection in `Hodge`.
+  - "[`working-notes/continuum-physical-sector-theorem-packet.md`](/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/continuum-physical-sector-theorem-packet.md)"
+  route_authority_candidates:
+  - directive_id: marvin-route-authority-4
+    path: working-notes/ns-clay-frontier-proof-pack.md
+    role: NS Clay frontier proof packet and route lock status | Marvin tandem active
+      source note
+    authority_mode: marvin-upstream-synthesis
+    headline: NS Clay Frontier Proof Pack
+    requested_frontier: 'Persistent alignment priority:'
+    theorem_direction_signals:
+    - 'Persistent alignment priority:'
+    - "[ns-ymg-hodge-priority-braids-note.md](/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ns-ymg-hodge-priority-braids-note.md)"
+    - For cross-lane use, the `NS` packet should now be read through three priority
+    - the carrier-commutator bilinear hinge recorded in
+    - "[ns-carrier-commutator-coercive-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/Research-Consolidation/working-notes/ns-carrier-commutator-coercive-lemma.md)."
+    - the part that still has to be lifted back to the continuum-facing theorem
+    priority_signal: 'Persistent alignment priority:'
+  - directive_id: marvin-route-authority-5
+    path: working-notes/ns-lane-sterilization-discovery-note.md
+    role: NS lane sterilization and theorem-source governance note
+    authority_mode: marvin-upstream-synthesis
+    headline: NS Lane Sterilization Discovery Note
+    requested_frontier: They do not replace the direct legacy `NS` theorem-bearing
+      corpus unless a direct `NS` theorem file appears.
+    theorem_direction_signals:
+    - They do not replace the direct legacy `NS` theorem-bearing corpus unless a direct
+      `NS` theorem file appears.
+    - persistent carrier block `K_D`
+    - carrier Laplacian `\mathcal L_{\mathrm{coh}}`
+    - tail -> nonpersistent co-closed / carrier-complement sector
+    - middle -> persistent carrier / coherent class sector
+    - which coherent carrier modes remain accessible under the current transport split.
+    priority_signal: shared working-note semantic changes should be treated as first-discovery
+      intake,
+  - directive_id: marvin-route-authority-6
+    path: working-notes/ns-d2-coherent-split-and-exact-shadow-discharge.md
+    role: NS D.2 coherent/remainder split with exact shadow discharge
+    authority_mode: marvin-upstream-synthesis
+    headline: NS D.2 Coherent Split and Exact Shadow Discharge
+    requested_frontier: "[ns-carrier-commutator-coercive-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/Research-Consolidation/working-notes/ns-carrier-commutator-coercive-lemma.md)."
+    theorem_direction_signals:
+    - "[ns-carrier-commutator-coercive-lemma.md](/Users/thomasbirnie/Documents/Research-Consolidation/Research-Consolidation/working-notes/ns-carrier-commutator-coercive-lemma.md)."
+    - "`\\Delta_D` preserves the carrier decomposition,"
+    - The coherent part is again harmless because it stays inside the carrier block.
+    - the remaining same-surface obstruction is the carrier-commutator coercive
+    - and its off-carrier leakage is lower-order.
+    priority_signal: So the first nonlinear contribution closes after the coherent/remainder
+      split.
+  - directive_id: marvin-route-authority-7
+    path: working-notes/theorem-crank-four-lane-governance-update.md
+    role: NS theorem crank governance update
+    authority_mode: marvin-upstream-synthesis
+    headline: Theorem Crank Four-Lane Governance Update
+    requested_frontier: with next local target still centered on the continuum Euclidean
+      Yang--Mills
+    theorem_direction_signals:
+    - with next local target still centered on the continuum Euclidean Yang--Mills
+    - "`Chat Y` = doctrine realization of what the theorem lanes have made real."
+    - That means the continuum measure / dynamics packet should be treated as active
+    - The shared `NS` continuum/coherent-sector material does not replace the
+    priority_signal: align first,
+  - directive_id: marvin-route-authority-8
+    path: working-notes/nc-leray-hodge-projection.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: NC Leray / Hodge Projection Note
+    requested_frontier: Its job is to define the non-commutative Leray / Hodge projector
+      rigorously enough that the ontic flow, `YMG` carrier closure, and `Hodge` obstruction
+      split can all use the same physical-sector selector.
+    theorem_direction_signals:
+    - Its job is to define the non-commutative Leray / Hodge projector rigorously
+      enough that the ontic flow, `YMG` carrier closure, and `Hodge` obstruction split
+      can all use the same physical-sector selector.
+    - descends closably on the continuum carrier
+    - For the ontic flow program, the real carrier is the closure of the admissible
+      transport sector generated by `\mathcal D`, rather than the raw algebra viewed
+      only as scalars.
+    - In this form, the projection itself can descend to the continuum carrier rather
+      than remaining a fixed-scale formal operator only.
+    - harmonic content preserved by `\mathbb P_D` is what can survive as genuine obstruction/support/carrier
+      data
+    - "`Hodge`: obstruction is the non-exact persistent sector after projection, with
+      harmonic data available for support/carrier extraction"
+  - directive_id: marvin-route-authority-9
+    path: working-notes/projected-generator-sector-invariance.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: Projected Generator And Sector Invariance Note
+    requested_frontier: The persistent-carrier prose companion is [`working-notes/persistent-carrier-conceptual-scaffolding.md`](/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/persistent-carrier-conceptual-scaffolding.md).
+    theorem_direction_signals:
+    - The persistent-carrier prose companion is [`working-notes/persistent-carrier-conceptual-scaffolding.md`](/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/persistent-carrier-conceptual-scaffolding.md).
+    - The persistent-carrier theorem companion is [`working-notes/persistent-carrier-projector-and-coercivity.md`](/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/persistent-carrier-projector-and-coercivity.md).
+    priority_signal: sector invariance is the first theorem to prove
+  - directive_id: marvin-route-authority-10
+    path: working-notes/constrained-flow-physical-scaffolding.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: Constrained Flow Physical Scaffolding
+    requested_frontier: Its job is to state the physical reading of the ontic `NC-NS`
+      lift so `YMG` and `Chat Y` can treat the flow picture consistently before theorem
+      closure.
+    theorem_direction_signals:
+    - Its job is to state the physical reading of the ontic `NC-NS` lift so `YMG`
+      and `Chat Y` can treat the flow picture consistently before theorem closure.
+    - because the carrier must remain transport-stable
+    - stability of the carrier under descent
+    - "`YMG` should read this as the physical motivation for why the projected carrier,
+      direct-limit transport, and persistent defect language are natural."
+    - The persistent-carrier prose layer is recorded in [`working-notes/persistent-carrier-conceptual-scaffolding.md`](/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/persistent-carrier-conceptual-scaffolding.md).
+  - directive_id: marvin-route-authority-11
+    path: working-notes/projected-flow-conceptual-scaffolding.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: Projected Flow Conceptual Scaffolding
+    requested_frontier: spacetime evolution does not leak out of the admissible carrier
+    theorem_direction_signals:
+    - spacetime evolution does not leak out of the admissible carrier
+    - the same admissible carrier survives across refinement levels
+    - persistent holonomy / carrier content
+    - 'This is the bridge point where the three lanes start fitting together cleanly:'
+    - "`YMG` gets a refinement-stable carrier that can support direct-limit transport
+      and closable descent"
+    - "`YMG` should read this as the physical explanation for why carrier stability,
+      direct-limit transport, and descent closure are the correct theorem burdens."
+  - directive_id: marvin-route-authority-12
+    path: working-notes/persistent-carrier-conceptual-scaffolding.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: Persistent Carrier Conceptual Scaffolding
+    requested_frontier: Its job is to explain the carrier-level reading of the refinement
+      defect split so `YMG` and `Chat Y` can treat the persistent part, the residual
+      part, and the support extraction layer as one physical story before theorem
+      closure.
+    theorem_direction_signals:
+    - Its job is to explain the carrier-level reading of the refinement defect split
+      so `YMG` and `Chat Y` can treat the persistent part, the residual part, and
+      the support extraction layer as one physical story before theorem closure.
+    - persistent holonomy carrier
+    - The important point is that only one part of the mismatch is expected to survive
+      as a carrier.
+    - This is what is left after exact tilt and persistent carrier are removed.
+    - 'The program needs a persistent carrier because:'
+    - YMG needs something stable enough to transport through refinement and into a
+      continuum carrier
+  - directive_id: marvin-route-authority-13
+    path: working-notes/energy-and-coercivity-physical-scaffolding.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: Energy And Coercivity Physical Scaffolding
+    requested_frontier: the `\Delta_{D,\omega}^{1/2}` norm is the closed Hilbert/coercive
+      realization used in the proofs
+    theorem_direction_signals:
+    - the `\Delta_{D,\omega}^{1/2}` norm is the closed Hilbert/coercive realization
+      used in the proofs
+    - If nonlinear pumping into the non-carrier sector outruns dissipation, the exact
+      correction has to grow in order to keep the flow admissible.
+    - positive cost of leaving the persistent carrier
+    - "`YMG` says non-carrier modes cannot exist cheaply"
+    - "`NS` reduces the dangerous nonlinear source to the persistent carrier sector"
+    - it says every mode outside that carrier pays a coercive price and is crushed
+      by dissipation.
+  - directive_id: marvin-route-authority-14
+    path: working-notes/arrangement-budget-exchange-physical-scaffolding.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: Arrangement Budget Exchange Physical Scaffolding
+    requested_frontier: It does not replace the `V6` budget identity, and it does
+      not replace the theorem-facing exact/persistent/tail split.
+    theorem_direction_signals:
+    - It does not replace the `V6` budget identity, and it does not replace the theorem-facing
+      exact/persistent/tail split.
+    - This is where persistent holonomy, carrier structure, gauge memory, stabilized
+      matter-like structure, and the theorem-bearing `YMG/Hodge` sector live.
+    - it vanishes as a coherent transport object in the continuum limit.
+    - Physically it is still there as failed stabilization, even when it does not
+      survive as persistent carrier or holonomy class.
+    - exact response is projected away from the physical carrier,
+    - "`YMG` studies the stabilized twist sector and its carrier/gap structure,"
+    priority_signal: That simultaneity matters because it means the local observer
+      is not first heated and only later globally recontextualized.
+  - directive_id: marvin-route-authority-15
+    path: working-notes/stabilized-defect-transport-and-long-range-curvature.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: Stabilized Defect Transport And Long-Range Curvature
+    requested_frontier: Take a local defect packet that has stabilized into a matter-like
+      carrier.
+    theorem_direction_signals:
+    - Take a local defect packet that has stabilized into a matter-like carrier.
+    - the persistent twist memory of the carrier,
+    - "-> if it closes, a persistent holonomy-bearing carrier forms."
+    - So a local carrier affects the nonlocal medium because stabilization changes
+      the transport equation that neighbouring regions must satisfy.
+    - That means the criterion for what counts as stable reservoir, stable carrier,
+      and stable strain shifts all at once.
+    - given a stabilized local carrier,
+    priority_signal: First, the `YMG` ordering-stiffness story says that inside a
+      stabilized ordering regime there is a coercive floor.
+  - directive_id: marvin-route-authority-16
+    path: working-notes/persistent-carrier-projector-and-coercivity.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: Persistent Carrier Projector And Coercivity Note
+    requested_frontier: It formalizes the persistent-carrier projector, the coercive
+      residual estimate, and the H2/H3 carrier form for the ontic `NC-NS` braid.
+    theorem_direction_signals:
+    - It formalizes the persistent-carrier projector, the coercive residual estimate,
+      and the H2/H3 carrier form for the ontic `NC-NS` braid.
+    - 'There is only one ontic carrier:'
+    - This note does not introduce a second carrier.
+    - 'regime inside the projected physical realization of that one carrier:'
+    - Define `K_D` as the NC-coherent regime inside the projected physical realization
+    - of the one ontic carrier, namely the closed span of projected defect modes that
+    priority_signal: The first inclusion is immediate from the definition once `\Delta_D^{-1}\delta_D
+      X` lies in the domain of `\nabla_D`.
+  - directive_id: marvin-route-authority-17
+    path: working-notes/projected-defect-growth-and-carrier-reduction.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: Projected Defect Growth And Carrier Reduction Note
+    requested_frontier: It extends the projected-generator and persistent-carrier
+      notes with the quantitative defect-growth estimate, the residual absorption
+      theorem, and the first clean H2/H3 carrier reductions.
+    theorem_direction_signals:
+    - It extends the projected-generator and persistent-carrier notes with the quantitative
+      defect-growth estimate, the residual absorption theorem, and the first clean
+      H2/H3 carrier reductions.
+    - the persistent carrier can be isolated as a closed direct-limit object,
+    - the descended carrier generator is closable on that limit carrier.
+    - and the persistent carrier projector package
+    - lies in the orthogonal complement of the persistent carrier, the coercive floor
+      off that carrier gives
+    - 'the persistent carrier component must be nonzero:'
+    priority_signal: It extends the projected-generator and persistent-carrier notes
+      with the quantitative defect-growth estimate, the residual absorption theorem,
+      and the first clean H2/H3 carrier reductions.
+  - directive_id: marvin-route-authority-18
+    path: working-notes/projected-defect-growth-prose-scaffolding.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: Projected Defect Growth Prose Scaffolding
+    requested_frontier: It explains the physical meaning of the quantitative defect-growth
+      block so `YMG` and `Chat Y` can treat it as carrier-language rather than raw
+      operator bookkeeping.
+    theorem_direction_signals:
+    - It explains the physical meaning of the quantitative defect-growth block so
+      `YMG` and `Chat Y` can treat it as carrier-language rather than raw operator
+      bookkeeping.
+    - persistent carrier
+    - The residual is the part outside the persistent carrier.
+    - If loop readout survives after exact terms and residuals are removed, then the
+      persistent carrier is nontrivial.
+    - it is the part that must survive into the carrier
+    - The persistent carriers across scales form one continuum carrier.
+  - directive_id: marvin-route-authority-19
+    path: working-notes/refinement-commutator-estimate-and-scale-gap.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: Refinement Commutator Estimate And Scale Gap Note
+    requested_frontier: persistent carrier isolation
+    theorem_direction_signals:
+    - persistent carrier isolation
+    - direct-limit carrier transport
+    priority_signal: It isolates the first quantitative bridge that turns refinement
+      into a controlled commutator error rather than a black box.
+  - directive_id: marvin-route-authority-20
+    path: working-notes/refinement-commutator-physical-scaffolding.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: Refinement Commutator Physical Scaffolding
+    requested_frontier: The gradient mismatch says the flow is not yet perfectly aligned
+      with the refined carrier.
+    theorem_direction_signals:
+    - The gradient mismatch says the flow is not yet perfectly aligned with the refined
+      carrier.
+    - the carrier is almost stable under refinement
+    - the remaining error is not a new carrier
+    - it explains why the persistent carrier survives while everything else shrinks
+    priority_signal: This note is the physical companion to the first quantitative
+      commutator bridge.
+  - directive_id: marvin-route-authority-21
+    path: working-notes/global-carrier-coverage-and-hodge-completion.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: Global Carrier Coverage And Hodge Completion Note
+    requested_frontier: The globalization step is structurally reduced to sheafification,
+      and the terminal realization step is now stated as the terminal primitive realisation
+      theorem below.
+    theorem_direction_signals:
+    - The globalization step is structurally reduced to sheafification, and the terminal
+      realization step is now stated as the terminal primitive realisation theorem
+      below.
+    - 'It carries Theorem D / Theorem 5 of the closure chain: terminal primitive realization.'
+    - "[hodge-carrier-inputs-theorem-pack.md](/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/hodge-carrier-inputs-theorem-pack.md)"
+    - "[ns-ymg-hodge-priority-braids-note.md](/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ns-ymg-hodge-priority-braids-note.md)"
+    - the carrier-side realization image agrees with the primitive target image;
+    - the terminal realization map `\Xi` lands surjectively on that sector.
+    priority_signal: "[ns-ymg-hodge-priority-braids-note.md](/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ns-ymg-hodge-priority-braids-note.md)"
+  - directive_id: marvin-route-authority-22
+    path: working-notes/global-carrier-coverage-prose-scaffolding.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: Global Carrier Coverage Prose Scaffolding
+    requested_frontier: It explains why the persistent carrier still needs a global
+      Hodge completion step after the refinement, defect, and direct-limit work are
+      in place.
+    theorem_direction_signals:
+    - It explains why the persistent carrier still needs a global Hodge completion
+      step after the refinement, defect, and direct-limit work are in place.
+    - At finite scale, the carrier story is local.
+    - direct-limit carrier transport established
+    - But local carrier data can still fail to glue.
+    - If two local persistent carrier sections disagree on an overlap, that disagreement
+      is not the exact tilt sector anymore.
+    - That part vanishes in the continuum limit.
+  - directive_id: marvin-route-authority-23
+    path: working-notes/persistent-carrier-sheafification-and-globalization.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: Persistent Carrier Sheafification And Globalization Note
+    requested_frontier: It hardens the persistent carrier layer so the global coverage
+      class stops being only a scaffold and becomes a sheaf-level theorem package.
+    theorem_direction_signals:
+    - It hardens the persistent carrier layer so the global coverage class stops being
+      only a scaffold and becomes a sheaf-level theorem package.
+    - We now take the presheaf of persistent carrier sections
+    - spectral-connectivity globalization
+    - essential self-adjointness on the carrier
+    - be the local persistent carrier over an admissible region `U`.
+    - The persistent support functor is
+    priority_signal: This is the first usable Hodge completion criterion.
+  - directive_id: marvin-route-authority-24
+    path: working-notes/persistent-carrier-sheafification-prose-scaffolding.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: Persistent Carrier Sheafification Prose Scaffolding
+    requested_frontier: It explains why the persistent carrier needs a sheaf layer,
+      not just a direct-limit carrier, before the global Hodge completion can close.
+    theorem_direction_signals:
+    - It explains why the persistent carrier needs a sheaf layer, not just a direct-limit
+      carrier, before the global Hodge completion can close.
+    - 'The carrier story has already done the local work:'
+    - local carrier pieces transport through the continuum limit
+    - if a carrier mode looks zero on every patch of a cover, then it is zero
+    - Ontically, that means the carrier support really lives on the spacetime flow
+      and is not a bookkeeping artifact.
+    - That is the point where local carrier memory becomes global carrier memory.
+  - directive_id: marvin-route-authority-25
+    path: working-notes/spectral-closure-and-unified-invariant.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: 'Appendix A: Spectral Closure and Invariant Structure'
+    requested_frontier: be the presheaf of persistent carrier sections, and define
+    theorem_direction_signals:
+    - be the presheaf of persistent carrier sections, and define
+    - Under Lemmas A.1--A.4 and Proposition A.5, the invariant `\mathcal I(X)` is
+      well-defined and the projected generator induces a closed evolution on the persistent
+      carrier. The commutative readout yields global regularity, a positive spectral
+    - 'The YMG carrier realization note reads `\mathcal I(X)` as the carrier element
+      of the physical continuum space and uses this same invariant to package H2,
+      H3, observability, the spectral gap, carrier characterization, and gap persistence
+      as '
+  - directive_id: marvin-route-authority-26
+    path: working-notes/ontic-flow-closure-proof-spine.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: Ontic Flow Closure Proof Spine
+    requested_frontier: the Appendix A invariant `\mathcal I(X)`, the Appendix B carrier
+      realization, the Appendix C interface theorems, the Appendix D NS Clay frontier,
+      and the Appendix E continuum physical-sector packet determine a unique closed
+      evolution on the
+    theorem_direction_signals:
+    - the Appendix A invariant `\mathcal I(X)`, the Appendix B carrier realization,
+      the Appendix C interface theorems, the Appendix D NS Clay frontier, and the
+      Appendix E continuum physical-sector packet determine a unique closed evolution
+      on the
+    - the descended generator on the persistent carrier is densely defined and closed,
+    - the closed evolution is still an evolution on the one ontic carrier
+    - "“on the persistent carrier” here means “restricted to the persistent sector"
+    - "`K_D` singled out inside the projected physical realization of `\\mathfrak
+      R`”."
+    - Appendix B below packages the YMG carrier realization, the H2/H3 direct-limit
+      and closability statements, the observability collapse, and the curvature-to-gap
+      refinement persistence onto the same invariant.
+  - directive_id: marvin-route-authority-27
+    path: working-notes/ymg-h2-h3-translation.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: YMG H2/H3 Theorem Index
+    requested_frontier: 'It points to Appendix B in [`working-notes/ontic-flow-closure-proof-spine.md`](/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ontic-flow-closure-proof-spine.md),
+      where the Appendix A invariant is read as the YMG carrier '
+    theorem_direction_signals:
+    - 'It points to Appendix B in [`working-notes/ontic-flow-closure-proof-spine.md`](/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/ontic-flow-closure-proof-spine.md),
+      where the Appendix A invariant is read as the YMG carrier '
+    - "`\\mathcal H_{\\mathrm{YM}}` -> YMG physical carrier"
+    - "`Carrier characterization` -> Lemma B.9.3"
+    - "`Invariant -> carrier` -> Theorem C.1"
+  - directive_id: marvin-route-authority-28
+    path: working-notes/braided-ns-four-principle-closure-loop.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: Braided NS Four-Principle Closure Loop
+    requested_frontier: It was unpacked into the operator, carrier, and continuum
+      packets so the braid could be built cleanly.
+    theorem_direction_signals:
+    - It was unpacked into the operator, carrier, and continuum packets so the braid
+      could be built cleanly.
+    - carrier dominance in the continuum limit
+    - continuum carrier
+    - So the original compactness principle is now the `H2/H3` continuum packet.
+    - small off-carrier tail.
+    - reduced carrier/tail system
+  - directive_id: marvin-route-authority-29
+    path: working-notes/projected-nonlinearity-diagnostic.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: Projected Nonlinearity Diagnostic
+    requested_frontier: It is the transport-law realization itself.
+    theorem_direction_signals:
+    - It is the transport-law realization itself.
+    - Replace the naive derivation reading by a genuine covariant derivative on the
+      one-form or derivation sector.
+    - Replace the current symmetrized transport term by a convective law that is curvature-bearing
+      by construction, for example a term built from `\Omega_D(X)`, a covariant bracket,
+      or an `\operatorname{ad}^*_X X`-type expression.
+    - If this law is made into an actual local natural operator on the transport sheaf,
+      and if both `\mathbb P_D` and `\mathbb H_D` commute with restriction on the
+      common evolution domain, then the carrier-projected nonlinear term
+    - defines a local carrier-valued `0`-cochain, so its overlap variation is automatically
+      a Cech coboundary.
+    - "`D.2` is therefore blocked not only on nonlinear estimates, but also on a precise
+      nontrivial realization of the projected transport law."
+  - directive_id: marvin-route-authority-30
+    path: working-notes/clay-shared-core-theorem-library.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: Clay Shared Core Theorem Library
+    requested_frontier: defect decomposition into exact, carrier, and residual parts
+    theorem_direction_signals:
+    - defect decomposition into exact, carrier, and residual parts
+    - persistent carrier construction
+    - spectral gap off the carrier complement
+    - support sheaf and globalization machinery
+    - physical Hilbert sheaf / Hilbert colimit / graph-closing packet on the continuum
+      physical sector
+    - 'The shared engine should also be read through one common continuum selection
+      rule:'
+  - directive_id: marvin-route-authority-31
+    path: working-notes/continuum-physical-sector-theorem-packet.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: Continuum Physical-Sector Theorem Packet
+    requested_frontier: This note packages the continuum physical-sector packet in
+      proof-facing form.
+    theorem_direction_signals:
+    - This note packages the continuum physical-sector packet in proof-facing form.
+    - It records the exact Hilbert-sheaf, Hilbert-colimit, descended-generator, and
+      observability statements still needed by the monograph-side continuum program.
+    - be continuous on the continuum graph domain, vanish on exact sectors, and vanish
+      on residual sectors in the refinement limit.
+    - Decompose finite-scale defects into exact, carrier, and residual sectors.
+    - The carrier characterization lemma says vanishing of all holonomy readouts forces
+      triviality of the carrier component.
+    - This packet is the proof-level bridge from the shared operator engine to the
+      continuum physical-sector object.
+  - directive_id: marvin-route-authority-32
+    path: working-notes/braided-defect-readout-principle.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: Braided Defect Readout Principle
+    requested_frontier: overlap/globalization selection in `Hodge`.
+    theorem_direction_signals:
+    - overlap/globalization selection in `Hodge`.
+    - "`Hodge`: global obstruction reduces to the persistent support readout of the
+      persistent invariant"
+    - "`M`: ambient spacetime or certified geometric carrier"
+    - "`\\mathcal K`: defect-bearing internal carrier datum"
+    - are support-compatible carrier maps preserving persistence, overlap class, and
+      admissibility.
+    - "`\\mathcal G` is the gauge carrier"
+    priority_signal: 'The cleanest first guess for the common abelian target is:'
+  - directive_id: marvin-route-authority-33
+    path: working-notes/clay-three-endpoint-tracks.md
+    role: Marvin tandem active source note
+    authority_mode: marvin-upstream-synthesis
+    headline: Clay Three-Endpoint Tracks
+    requested_frontier: "[`working-notes/continuum-physical-sector-theorem-packet.md`](/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/continuum-physical-sector-theorem-packet.md)"
+    theorem_direction_signals:
+    - "[`working-notes/continuum-physical-sector-theorem-packet.md`](/Users/thomasbirnie/Documents/Research-Consolidation/working-notes/continuum-physical-sector-theorem-packet.md)"
+    - 'Common continuum selection rule:'
+    - carrier spectral gap
+    - or, on the sharper structural route, prove the carrier-local no-new-holonomy-class
+      theorem for projected `NC` flow
+    - carrier identification
+    - Yang-Mills mass gap and continuum closure
+  lowest_safe_claim: 'A serious source-grounded four-principle route exists in the
+    handed Navier-Stokes corpus: scale barrier, monotone functional `Q(t)`, non-Sobolev
+    compactness, and curvature-based regularity.'
+  first_unsafe_overclaim: Claiming that the live lane has already discharged the final
+    Clay-level theorem while the final theorem warrant and generated proof-dependency
+    surfaces still lag the stronger bridge-discharge record.
+scope:
+  canonical_source_ids:
+  - source-section-5-curvature-based-regularity-tex
+  - source-section-6-interdependencies-among-principles-tex
+  - source-gradient-control-through-geometric-arguments-tex
+  - source-section-3-monotone-functional-tex
+  - source-energy-boundedness-via-q-t-for-global-regularity-tex
+  - source-section-2-scale-barrier-principle-tex
+  - source-section-4-non-sobolev-compactness-tex
+  - source-compactness-proof-for-discrete-navier-stokes-solutions-tex
+  - source-global-regularity-framework-for-arbitrary-initial-data-in-l2-tex
+  - source-main-tex
+  - source-a-rigorous-theoretical-framework-for-global-regularity-of-the-navier-stokes-equations-tex
+  - source-a-rigorous-theoretical-framework-for-global-regularity-of-the-navier-stokes-equations-tex
+  deferred_source_ids:
+  - source-001-docker-build-troubleshooting-guide-67b8c1a7-44d-md
+  - source-002-ethical-dilemma-in-proofs-66f87594-8c9-md
+  - source-003-yangmills-66e9b32c-879-md
+  - source-004-blowup-contradiction-and-dissipation-677ea5ee-9ef-md
+  - source-005-navier-stokes-convergence-proof-6771a8b6-c25-md
+  - source-006-navier-stokes-proof-framework-67840e84-a0b-md
+  - source-007-autogpt-latex-integration-67c87050-ae4-md
+  - source-008-p-vs-np-conjecture-improvement-67020d2f-386-md
+  - source-009-outline-discussion-summary-670054dd-8dd-md
+  - source-010-ns-framework-cmi-expansion-67853a28-9fa-md
+  - source-011-handling-elliptic-curves-66fc71a5-389-md
+  - source-012-navier-stokes-solution-dispute-6776db09-513-md
+summary:
+  recommended_next_cell_type: backbone-build
+  recommended_next_action: Run backbone-build against the Marvin route-authority candidate
+    and rebuild the theorem spine around Persistent alignment priority:.

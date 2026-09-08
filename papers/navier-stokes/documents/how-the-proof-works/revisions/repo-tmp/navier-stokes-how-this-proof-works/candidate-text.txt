@@ -1,0 +1,237 @@
+                                How the Proof Works
+                                              Thomas Birnie
+
+
+
+
+The dangerous case
+
+Take a small tube of rotating fluid and pull it along its axis. If its length is L(t), its effective radius
+is r(t), and the axial strain rate is σ(t) > 0, incompressibility gives
+
+                                    L̇(t)                  ṙ(t)    σ(t)
+                                          = σ(t),                =−      .
+                                    L(t)                   r(t)      2
+
+The tube gets longer and narrower. Rotation strengthens around a shrinking core, and the velocity
+changes across a smaller distance. The kinetic energy can stay finite while the gradients rise. This
+is the regularity contest in physical form: nonlinear transport can keep sharpening the fluid, while
+viscosity has to smooth that concentration quickly enough to stop it.
+
+That shrinking core is what makes scale relevant. If its width changes from ℓ to λ−1 ℓ, the Navier-
+Stokes comparison is
+
+                          uλ (x, t) = λu(λx, λ2 t),        pλ (x, t) = λ2 p(λx, λ2 t).
+
+Local acceleration, nonlinear transport, pressure, and viscosity all gain a factor of λ3 . Going to a
+finer scale strengthens nonlinear sharpening and viscous smoothing together. Scale alone does not
+decide which one wins.
+
+The Sobolev norms separate the scales more clearly:
+                                                           1
+                                    uλ (·, t) Ḣ s = λ,s− 2 u(·, λ2 t) Ḣ s .
+
+Below s = 12 , concentration makes the norm shrink. Above s = 12 , it makes the norm grow. At
+s = 21 , it stays level. Energy can remain finite below that height while derivatives grow above it.
+
+A cascade through smaller cores can now sharpen the fluid without spending infinite kinetic energy.
+But in order for a singularity to form, velocity has to blow up. In order for that to happen, its
+acceleration would also have to blow up, which means its jerk has to blow up, and so on, and so on:
+
+                                      u,      ∂t u,        ∂t2 u,    ...
+
+As we climb those time derivatives toward a singularity, we should expect to see less spatial regularity,
+not more.
+
+
+
+
+                                                       1
+Velocity, acceleration, jerk
+
+The equation makes that sequence literal. The first three time derivatives are
+
+                                       ∂t u = ν∆u − (u·∇)u − ∇p,
+
+                            ∂t2 u = ν∆∂t u − (∂t u·∇)u − (u·∇)∂t u − ∇∂t p,
+and
+                             ∂t3 u = ν∆∂t2 u − (∂t2 u·∇)u
+
+                                      − 2(∂t u·∇)∂t u − (u·∇)∂t2 u − ∇∂t2 p.
+By the third line, the pattern is visible. The complete form is
+                                               r
+                                                            !
+                                                        r
+                                   ∂tr+1 u +                    ∂ta u·∇ ∂t,r−a u
+                                               X                          
+
+                                               a=0
+                                                        a
+
+                                            + ∇∂tr p = ν∆∂tr u.
+
+For the rest of the argument, write
+
+                                        Vr := ∂tr u,                Qr := ∂tr p.
+
+Then
+                                      r
+                                              !
+                                      X     r
+                             Vr+1 +           (Va ·∇)Vr−a + ∇Qr = ν∆Vr .
+                                      a=0
+                                            a
+These are successive responses of one fluid, and pressure stays with them at every order.
+
+
+
+More spatial regularity, not less
+
+The surprise appears when we ask what each time derivative contains spatially. Every row still
+carries the viscous term ν∆Vr , and
+
+                                      ∆Vr = ∂x21 Vr + ∂x22 Vr + ∂x23 Vr .
+
+Solving the row for its Laplacian makes the connection explicit:
+                                                  r
+                                                                !
+                                                  X     r
+                             ν∆Vr = Vr+1 +                (Va ·∇)Vr−a + ∇Qr .
+                                                  a=0
+                                                        a
+
+One step upward in time is tied to two spatial derivatives of the response beneath it. Nonlinear
+transport and pressure remain part of the row; viscosity is the term that links the temporal climb
+to the spatial Sobolev scale.
+
+This is the central reversal. A forming singularity should reveal less spatial regularity as its velocity,
+acceleration, jerk, and later responses grow. The equation points toward higher Sobolev heights
+instead.
+
+
+
+                                                            2
+The reason that matters is standard. In three dimensions,
+
+                                               3
+                                     s>k+             =⇒      H s (R3 ) ,→ C k (R3 ).
+                                               2
+If every finite Sobolev height is reached, then every finite number of classical derivatives follows:
+
+                                            H s (R3 ) = H ∞ (R3 ) ,→ C ∞ (R3 ).
+                                       \
+
+                                      s<∞
+
+The equation has shown which higher spatial levels appear. The proof still has to keep each finite
+collection of those levels controlled through T∗ .
+
+
+
+The intersection
+
+There are now two counts: temporal order r, and spatial height m. One entry in the resulting grid
+means
+                                           Vr ∈ Hxm .
+Choose finite limits N and M . The block up to those limits is the rectangle RN,M [u0 ].
+
+
+                                0                  m               M
+                                                                                spatial height m
+
+
+                            r                          Vr ∈ Hxm
+                                                      RN,M [u0 ]
+                           N
+
+
+                    temporal order r
+
+
+For each finite (N, M ), the rectangle estimate gives the adjacent rows through the full interval:
+
+                 Vn ∈ L2 (0, T∗ ; H M +1 ),           Vn+1 ∈ L2 (0, T∗ ; H M −1 ),      0 ≤ n ≤ N.
+
+Since Vn+1 = ∂t Vn , those rows meet at the missing middle height:
+
+                     Vn ∈ L2 (0, T∗ ; H M +1 ) ∩ H 1 (0, T∗ ; H M −1 ) ,→ C([0, T∗ ]; H M ).
+
+Choose N and M as high as needed, one finite pair at a time. Each rectangle reaches T∗ . If two
+rectangles overlap, their entries agree because both were cut from the solution generated by u0 .
+Taken together, they give the compatible intersection
+                                                        \
+                                           I[u0 ] ⊂           H r (0, T∗ ; H m ).
+                                                      r,m<∞
+
+In particular,
+                                    u ∈ C([0, T∗ ]; H m )        for every finite m.
+
+
+                                                             3
+The zeroth temporal row is
+                                               S0 := π0 I[u0 ],
+and its endpoint satisfies
+
+                                                H m (R3 ) = H ∞ (R3 ) ,→ C ∞ (R3 ).
+                                           \
+                        u∗ := u(T∗ ) ∈
+                                          m<∞
+
+We began by expecting a singularity to strip away spatial regularity as the temporal responses rose.
+The construction reaches every finite spatial height and arrives at T∗ with smooth data.
+
+The local smooth theory starts from u∗ on [T∗ , T∗ + δ]. Uniqueness joins that local solution to the
+solution on [0, T∗ ], producing an extension beyond the proposed terminal time. A finite T∗ cannot
+be maximal:
+                                              T∗ = ∞.
+
+
+
+The estimates come afterward
+
+Only after the intersection exists do the familiar finite estimates appear. Pick the norm required by a
+downstream argument. Sobolev embedding tells us which finite height it needs, and the intersection
+already contains that height.
+
+The spatial embedding rule and its time-space consequence are
+
+                                                            1 1
+                                                              
+                                               m − k ≥ 3
+                                                            −    ,       2 ≤ p < ∞,
+                    Hxm ,→ Wxk,p       when                       2   p
+                                               m > k + 3 ,
+                                               
+                                                                          p = ∞.
+                                                            2
+
+                                       I[u0 ] −→ Ct Hxm −→ L∞  k,p
+                                                            t Wx .
+
+For example:
+                                       I[u0 ] −→ Ct Hx1 −→ L∞  6
+                                                            t Lx ,
+
+                                       I[u0 ] −→ Ct Hx2 −→ L∞  ∞
+                                                            t Lx ,
+
+                                       I[u0 ] −→ Ct Hx3 −→ L∞  1,∞
+                                                            t Wx   .
+The H 3 choice gives the usual gradient continuation quantity:
+
+                              sup ∥∇u(t)∥L∞ ≤ C sup ∥u(t)∥H 3 < ∞,
+                             0≤t≤T∗                   0≤t≤T∗
+                             Z T∗
+                                    ∥∇u(t)∥L∞ dt ≤ CT∗ sup ∥u(t)∥H 3 < ∞.
+                              0                           0≤t≤T∗
+
+The familiar continuation estimates are read from the intersection afterward; they do not produce
+it. The proof can now be compressed without hiding its direction:
+
+                             u0 −→ {(Vn , Qn )}n≥0 −→ {RN,M [u0 ]}N,M <∞
+
+                                  −→ I[u0 ] −→ S0 −→ u∗ ∈ H ∞ −→ T∗ = ∞.
+
+
+                                                      4
+

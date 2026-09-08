@@ -1,0 +1,193 @@
+{
+  "field_resolutions": [],
+  "reader_start": "knows the classical Navier-Stokes problem but has not yet acquired this paper's Gold, Silver, participation, tower, or intersection account",
+  "live_pressure": "the live draft is mathematically dense but repeatedly replaces development with meta-summary, generic glossary prose, invented helper terms, and abstract machinery announcements",
+  "candidate_moves": [
+    {
+      "move_id": "rewrite-user-fixed-sequence",
+      "move": {
+        "selection": "formal problem and only needed definitions; relevant historical approaches and present frontier; Gold proof shape and missing estimate; Silver contrapositive; class membership; participation; Euler slip; singularity and derivative tower; Dead Jump Blown and short restart; one-fluid VPI law; then critical height, finite-time response escalation, pressure-complete mixed jet, critical-height Sobolev rows, coordinatewise intersections, concrete and general finite rectangles, compatibility, and the exact whole-terminal quantifier",
+        "connection": "carry each established fact into the exact question or calculation it creates, so every subsection begins from reader pressure already earned by the previous movement",
+        "development": "develop each physical and mathematical connection until a reader can reconstruct its cause, derivation, limitation, and consequence, while reserving Section 3's closure steps",
+        "expression": "write in plain adult mathematical prose with direct subjects and actions, using Thomas's Silver subsection only as bounded voice evidence and removing meta-summary, NBB escalation, and invented helper diction"
+      },
+      "layer_status": {
+        "selection": "present",
+        "connection": "present",
+        "development": "present",
+        "expression": "present"
+      },
+      "reader_change": "the reader can recreate the paper's conceptual and analytic route rather than receiving a list of completed apparatus",
+      "next_possibility": "Section 3 can begin from one compatible family of cutoff-uniform finite rectangles and perform the terminal closure in full",
+      "content_basis": ["live-input"],
+      "evidence_uses": [
+        {
+          "record_id": "decision-live-obstacle-before-label-001",
+          "source_move_id": "move-from-live-obstacle",
+          "relation": "supports",
+          "applicability_reason": "Gold must produce Silver from the obstruction the reader already feels, and later formal objects must arise from live problems rather than labels."
+        },
+        {
+          "record_id": "decision-carry-established-thought-forward-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "Every transition in both sections must spend what the previous calculation established instead of repeating it."
+        },
+        {
+          "record_id": "decision-unfold-causal-relations-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The current draft compresses several supplied beats into polished summaries and requires full causal development."
+        },
+        {
+          "record_id": "decision-name-operational-objects-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "Physical and analytic passages need the actual fluid, derivative, norm, and operation rather than private abstractions."
+        },
+        {
+          "record_id": "decision-earn-technical-language-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "Class membership, the tower, intersections, and rectangles must arrive after the reader has encountered their concrete need."
+        },
+        {
+          "record_id": "decision-preserve-discovery-order-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "Thomas explicitly fixed the historical order for Section 2 and the reveal boundary between Sections 1, 2, and 3."
+        },
+        {
+          "record_id": "decision-generate-expression-from-thought-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The rewrite must derive sentence shape from the live reasoning rather than copy verbal tics from the Silver sample."
+        },
+        {
+          "record_id": "decision-use-reader-shared-language-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The user rejected made-up terms and requires ordinary mathematical language before specialized labels."
+        },
+        {
+          "record_id": "decision-develop-to-reader-change-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The user explicitly requires development without flattening or compression."
+        },
+        {
+          "record_id": "decision-keep-example-inside-idea-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "Couette, Euler slip, Zeno timing, and the concrete rectangle each have one bounded role inside a larger movement."
+        },
+        {
+          "record_id": "decision-repair-exact-referent-001",
+          "source_move_id": "chosen-move",
+          "relation": "supports",
+          "applicability_reason": "The current repair must address every subsection and its actual placement, rather than polish the quoted sentences alone."
+        },
+        {
+          "record_id": "observation-reader-led-concept-before-formal-name-001",
+          "source_move_id": "observed-move",
+          "relation": "supports",
+          "applicability_reason": "The paper repeatedly needs conceptual reasoning before a formal compression or new name."
+        },
+        {
+          "record_id": "decision-preserve-local-movement-role-001",
+          "source_move_id": "preserve-local-movement-and-role",
+          "relation": "supports",
+          "applicability_reason": "Section 1.4 and each supplied beat must retain its assigned role rather than become a generic thesis summary."
+        },
+        {
+          "record_id": "decision-separate-internal-inquiry-from-written-interrogative-001",
+          "source_move_id": "hold-inquiry-realize-declaratively",
+          "relation": "supports",
+          "applicability_reason": "The writer's hinge questions should guide the movement without filling the page with synthetic questions."
+        },
+        {
+          "record_id": "decision-sentence-possesses-complete-thought-001",
+          "source_move_id": "make-the-payload-carry-the-thought",
+          "relation": "supports",
+          "applicability_reason": "Every rewritten sentence must carry a complete local proposition after removable connective framing is stripped away."
+        }
+      ],
+      "risks": [
+        "A broad rewrite can preserve topics while reproducing the same assistant movement in cleaner language.",
+        "Physical prose can overclaim local neighbour communication or treat a kinematic scenario as a Navier-Stokes evolution.",
+        "Section 2 can leak the settled endpoint construction from Section 3."
+      ],
+      "confidence": "low"
+    }
+  ],
+  "chosen_move_id": "rewrite-user-fixed-sequence",
+  "choice_reason": "Thomas fixed the subject and discovery sequence and authorized the rewrite; the live authorial choice is to realize that sequence fully while removing the assistant prose habits he identified.",
+  "rejected_move_ids": [],
+  "evidence_dispositions": [
+    {"record_id": "decision-live-obstacle-before-label-001", "status": "used", "reason": "Directly applies to Gold-to-Silver and every earned concept introduction."},
+    {"record_id": "decision-carry-established-thought-forward-001", "status": "used", "reason": "Directly applies to subsection handoffs."},
+    {"record_id": "decision-unfold-causal-relations-001", "status": "used", "reason": "Directly answers the user's demand for development."},
+    {"record_id": "decision-name-operational-objects-001", "status": "used", "reason": "Directly answers the rejection of made-up terms."},
+    {"record_id": "decision-earn-technical-language-001", "status": "used", "reason": "Directly applies to the formal objects introduced throughout the manuscript."},
+    {"record_id": "decision-preserve-discovery-order-001", "status": "used", "reason": "Directly applies to the supplied Section 2 history."},
+    {"record_id": "decision-generate-expression-from-thought-001", "status": "used", "reason": "Directly governs use of the Silver voice anchor."},
+    {"record_id": "decision-use-reader-shared-language-001", "status": "used", "reason": "Directly answers the rejection of invented proof diction."},
+    {"record_id": "decision-develop-to-reader-change-001", "status": "used", "reason": "Directly governs the requested depth."},
+    {"record_id": "decision-keep-example-inside-idea-001", "status": "used", "reason": "Directly governs the physical and concrete examples."},
+    {"record_id": "decision-repair-exact-referent-001", "status": "used", "reason": "Directly governs the whole-scope repair after the failed audit."},
+    {"record_id": "decision-generalize-to-writing-faculty-001", "status": "not_applicable", "reason": "This turn writes the manuscript rather than updating the reusable voice faculty."},
+    {"record_id": "observation-reader-led-concept-before-formal-name-001", "status": "used", "reason": "Directly applies to the paper's explanatory form."},
+    {"record_id": "decision-preserve-local-movement-role-001", "status": "used", "reason": "Directly protects the supplied role of each beat."},
+    {"record_id": "decision-separate-internal-inquiry-from-written-interrogative-001", "status": "used", "reason": "Directly prevents synthetic question cadence during discovery exposition."},
+    {"record_id": "decision-sentence-possesses-complete-thought-001", "status": "used", "reason": "Approved sentence-level evidence applies across all prose."}
+  ],
+  "uncertainties": [
+    "Voice fidelity remains subject to Thomas's judgment even after the candidate passes the bounded evidence checks."
+  ],
+  "authorial_commitment": {
+    "work_target": "A complete reader-facing rewrite of Sections 1 and 2 in the live manuscript workspace.",
+    "strongest_move_reason": "The supplied sequence already contains the intended paper; the strongest repair is to make every transition and derivation arise naturally inside that sequence.",
+    "intellectual_gain": "The rewrite connects the public regularity frontier, the Gold and Silver proof directions, the one-fluid physical account, and the finite compatible analytic object as one continuous argument.",
+    "reader_gain": "The reader can understand why each object appears, reproduce the calculations that create it, and know exactly what Section 3 receives.",
+    "delivery": "complete_output",
+    "structural_commitment": {
+      "scope": "whole_work",
+      "decision_origin": "user_supplied",
+      "voice_attribution": "user_owned",
+      "artifact_disposition": "preserve",
+      "inherited_reader_state": "The reader enters with the classical regularity question and no knowledge of this paper's proof language or construction.",
+      "section_job": "Section 1 builds the problem, proof directions, failure pictures, and one-fluid ontology; Section 2 derives the mixed Sobolev and finite-rectangle object in historical discovery order.",
+      "outgoing_reader_need": "The reader reaches Section 3 ready to see the cutoff-uniform compatible rectangles assembled into the endpoint and same-history restart.",
+      "gap_decision": "strengthen_handoff",
+      "gap_payment": "Rewrite the existing units and their transitions so each movement creates the next need without adding a new section.",
+      "new_section_job": "",
+      "enrichment_reason": "The supplied beats need enough physical scenes, exact calculations, and scoped examples for the reader to reproduce the argument rather than recognize its labels.",
+      "enrichments": [
+        {
+          "detail": "A material packet momentum balance for participation.",
+          "reader_value": "Makes neighbour and whole-field response physically literal.",
+          "placement": "Section 1.5 before Couette and Euler comparison.",
+          "restraint": "Use it only to explain participation and avoid importing endpoint closure."
+        },
+        {
+          "detail": "Scoped distributional and Cauchy formulations for Dead and Jump plus local and global Blown norms.",
+          "reader_value": "Keeps the failure pictures mathematically honest and visibly distinct.",
+          "placement": "Section 1.8 inside each case.",
+          "restraint": "Keep the taxonomy nonexclusive and nonexhaustive."
+        },
+        {
+          "detail": "Concrete first finite rectangle before arbitrary cutoffs.",
+          "reader_value": "Lets the trace need generate the rectangle rather than presenting finished machinery.",
+          "placement": "Section 2.6 opening.",
+          "restraint": "Generalize only after the repeated derivative and middle trace are clear."
+        },
+        {
+          "detail": "Exact terminal quantifier contrast.",
+          "reader_value": "Shows the precise fact supplied to Section 3 without claiming the endpoint in advance.",
+          "placement": "Section 2.7 close.",
+          "restraint": "Stop before projective intersection, endpoint jet, restart, uniqueness, or global contradiction."
+        }
+      ]
+    }
+  }
+}

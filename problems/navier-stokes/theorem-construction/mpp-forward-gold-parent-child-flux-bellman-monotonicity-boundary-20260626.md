@@ -12,7 +12,7 @@ For a laminar material node `Q` with children `Q'`, the desired Bellman form is
 C\left(B(Q)-\sum_{Q'\in ch(Q)}B(Q')\right)+R_{legal}(Q).
 ```
 
-Here `A(Q')` is full positive high-ratio PLS action inside a child and `B(Q)` is a nonnegative gauge-reduced annular pressure-Hodge-stress boundary reserve on the parent.
+Here `A(Q')` is full positive high-ratio PLS action inside a child and `B(Q)` is a nonnegative gauge-reduced annular pressure-Helmholtz--Leray-stress boundary reserve on the parent.
 
 ## 2. Direct test
 
@@ -44,7 +44,7 @@ rather than
 A(Q')\le B(Q)-B(Q')+R_{legal}.
 ```
 
-Positive flux can change sign or be regenerated inside the child by the same pressure-Hodge interface. Thus a naive choice `B(Q)=[F_Q]_+` lacks monotonicity under passage to children.
+Positive flux can change sign or be regenerated inside the child by the same pressure-Helmholtz--Leray interface. Thus a naive choice `B(Q)=[F_Q]_+` lacks monotonicity under passage to children.
 
 ## 3. Exact obstruction
 

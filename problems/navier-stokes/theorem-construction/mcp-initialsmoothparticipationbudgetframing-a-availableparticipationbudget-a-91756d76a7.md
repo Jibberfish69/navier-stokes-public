@@ -60,7 +60,7 @@ d\mathcal B_N+c_N\,d\Omega_N^{PLS}\le dR_N^{legal}.
 
 ## Meaning
 
-The budget is not merely viscous energy.  Viscosity is one visible tax channel.  The full tax includes pressure constraint, material metric motion, Hodge/Stokes motion, transported collar motion, annular Cauchy stress-work, strain, and viscous/tower loss on the same material packet.
+The budget is not merely viscous energy.  Viscosity is one visible tax channel.  The full tax includes pressure constraint, material metric motion, Helmholtz--Leray/Stokes motion, transported collar motion, annular Cauchy stress-work, strain, and viscous/tower loss on the same material packet.
 
 Terminal normalized PLS action is not an unlimited future entropy source.  Every unit of terminal PLS action must be generated from the initially smooth finite field and charged through the same-fluid participation law while usable motion is being drained.
 

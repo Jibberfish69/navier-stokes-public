@@ -13,7 +13,7 @@ The Codex goal-loop oracle asks for
 \tag{1}
 ```
 
-where `B_cap(Q)` is the parent-collar pressure-Hodge Dirichlet capacity reserve.
+where `B_cap(Q)` is the parent-collar pressure-Helmholtz--Leray Dirichlet capacity reserve.
 
 The existing direct attack shows that capacity monotonicity gives only
 
@@ -35,7 +35,7 @@ Let `Lambda_Q` be the Dirichlet-to-Neumann form for the transported parent colla
 \Lambda_Q-igoplus_{Q'\in ch(Q)}\Lambda_{Q'}
 ```
 
-on the compatible parent-child pressure-Hodge trace data.
+on the compatible parent-child pressure-Helmholtz--Leray trace data.
 
 Thus the desired Bellman inequality is equivalent to the coercivity estimate
 
@@ -75,7 +75,7 @@ The next exact hinge is
 
 Statement:
 
-For each retained laminar material parent `Q`, the pressure-Hodge trace on the transported parent collar carries enough nondegenerate boundary data that the parent-child DtN Schur complement controls the selected child action:
+For each retained laminar material parent `Q`, the pressure-Helmholtz--Leray trace on the transported parent collar carries enough nondegenerate boundary data that the parent-child DtN Schur complement controls the selected child action:
 
 ```math
 \sum_{Q'\in ch(Q)}A(Q')
@@ -84,10 +84,10 @@ For each retained laminar material parent `Q`, the pressure-Hodge trace on the t
 +R_{\rm legal}(Q).
 ```
 
-Equivalently, no retained child can carry unit selected critical-strain action while remaining invisible to the parent-child pressure-Hodge Schur complement at summable raw cost.
+Equivalently, no retained child can carry unit selected critical-strain action while remaining invisible to the parent-child pressure-Helmholtz--Leray Schur complement at summable raw cost.
 
 ## 5. Result
 
 `SelectedCriticalStrainCapacityParentDrop.A` is not discharged. It is now reduced to the operator-level theorem `SelectedActionTraceCoercivity.A` / `CapacitySchurComplementSelectedAction.A`.
 
-This is the right next target because it names the precise missing lower bound inside the best concrete reserve currently available: the parent-collar pressure-Hodge capacity reserve.
+This is the right next target because it names the precise missing lower bound inside the best concrete reserve currently available: the parent-collar pressure-Helmholtz--Leray capacity reserve.

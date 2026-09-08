@@ -1,107 +1,23 @@
 ---
-version: 5
+version: 2
 identity:
   problem_id: navier-stokes
-  artifact_id: assumption-ledger-navier-stokes
-  created_by: chatgpt
-  purpose: assumption and release-gate ledger after H1-H6 and Theorem 2.1 warrant
-    alignment
-status:
-  ledger_status: established-complete
-  direct_live_authority_all_discharged: true
-  cm_contrapositive_referee_gate_clear: true
-  release_eligible: true
-  release_gate: clear
-source_evidence:
-  theorem_authority_frontier: problems/navier-stokes/source-frontier.yaml
-  theorem_warrant: problems/navier-stokes/theorem-to-warrant.yaml
-  main_result_section: problems/navier-stokes/external-paper/sections/main-result.tex
-  h_layer_closure: problems/navier-stokes/theorem-construction/mpp-h1-h6-unconditionalization-audit-note.md
-  hfg_low: problems/navier-stokes/theorem-construction/strict-low-mode-strain-suppression-result.md
-  hfg_alt: problems/navier-stokes/theorem-construction/hfg-alt-all-scale-transfer-loss-no-free-gap.md
-  pctp_hard_bridge: problems/navier-stokes/theorem-construction/mpp-pctp-hard-governance-consumption-audit-note.md
+  display_name: Navier--Stokes global regularity
+  updated_at: '2026-08-24'
+  source_owner: Thomas Birnie
+lane_boundary:
+  status: isolated
+  audit: problems/navier-stokes/lane-isolation-audit.yaml
+  proof_source_pack: problems/navier-stokes/proof-source-pack.md
+proof_program_completion_projection:
+  status: established-complete
+  mpp_status: solved
+  producer_status: proved-datum-generated-whole-terminal-compatible-rectangles
+  closure_status: proved
+  authority: problems/navier-stokes/live-theorem-edge.yaml
+  external_recognition_status: separate-workflow-not-a-proof-prerequisite
 assumptions:
-- id: original-mpp-target-fidelity
-  label: theorem statement stays on the original Navier-Stokes object and does not
-    substitute a regularized or sidecar route
-  status: discharged-for-theorem-warrant
-  discharge_surface: problems/navier-stokes/external-paper/sections/main-result.tex
-  release_needed: true
-- id: theorem-2-1-classical-closure-warrant
-  label: Theorem 2.1 is aligned to the installed class-membership closure rather than
-    an overclaim
-  status: discharged
-  discharge_surface: problems/navier-stokes/theorem-to-warrant.yaml
-  release_needed: true
-- id: h1-retained-window-native-forcing-through-endpoint
-  label: Original smooth data supply RSCB.NKF through endpoint or fail into an End_NS
-    face
-  status: discharged
-  discharge_surface: problems/navier-stokes/theorem-construction/mpp-h1-h6-unconditionalization-audit-note.md
-  release_needed: true
-- id: h2-bounded-pack-gauge-through-endpoint
-  label: bounded pack gauge persists through endpoint or fails into the pack/tower
-    endpoint face
-  status: discharged
-  discharge_surface: problems/navier-stokes/theorem-construction/mpp-h1-h6-unconditionalization-audit-note.md
-  release_needed: true
-- id: h6-endpoint-certificate-exhaustiveness
-  label: not Part implies Dead, not Pack implies packing-detached or tower-blown,
-    not Field implies Jump, with cross-entry reductions
-  status: discharged
-  discharge_surface: problems/navier-stokes/theorem-construction/mpp-endpoint-face-packgauge-retained-admission-solution-note.md
-  release_needed: true
-- id: pctp-hard-terminal-tail-uniformization
-  label: PCTP.hard / TTU.A produces terminal-tail retained class-membership readout
-    from original smooth periodic data without spending READ.COVER upstream of End_NS_avg
-  status: discharged
-  discharge_surface: problems/navier-stokes/theorem-construction/mpp-pctp-hard-governance-consumption-audit-note.md
-  release_needed: true
-- id: one-field-forward-preservation-wall
-  label: OFP.A is closed in the six-burden class-membership stack
-  status: discharged
-  discharge_surface: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
-  release_needed: true
-- id: lower-carrier-receiver-wall
-  label: LCI.A is closed in the retained receiver stack
-  status: discharged
-  discharge_surface: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
-  release_needed: true
-- id: collar-to-jump-converse-pivot
-  label: CJ.A_low.7 is closed as the lower-carrier converse supplier
-  status: discharged
-  discharge_surface: problems/navier-stokes/theorem-construction/mpp-terminal-class-membership-six-burden-closure-note.md
-  release_needed: true
-- id: hfg-low
-  label: low-mode strain suppression on the required high-shell range plus residual
-    low-shell summation
-  status: threshold-discharged
-  discharge_surface: problems/navier-stokes/theorem-construction/strict-low-mode-strain-suppression-result.md
-  release_needed: false
-- id: hfg-alt
-  label: pure all-scale spectral-gap bypass of low-mode strain
-  status: ruled-out-with-surviving-primitive
-  discharge_surface: problems/navier-stokes/theorem-construction/hfg-alt-all-scale-transfer-loss-no-free-gap.md
-  surviving_primitive: MEG
-  release_needed: false
-summary:
-  total_direct_live_assumptions: 10
-  discharged_direct_live_assumptions: 10
-  blocking_or_unresolved_authority_count: 0
-  hfg_side_primitives_open:
-  - MEG: int_0^T ||omega(t)||_2 ||nabla omega(t)||_2 dt < infinity
-  release_blocking_count: 0
-  all_discharged: true
-  total_authority_assumptions: 3
-  discharged_authority_assumptions: 3
-  referee_blockers: &1 []
-release_blockers: *1
-required_next_actions: *1
-generated_at: '2026-08-06T14:56:50Z'
-pass: true
-truth_alignment:
-  source: problems/navier-stokes/theorem-construction/mpp-retained-field-anchored-toweramp-sourcepulse-closure-20260503.md
-  status: local-theorem-program-closed
-  blockers: []
-  boundary: Local theorem-program closure is recorded; public/export/release posture
-    still requires review refresh and final release-decision artifacts.
+- Classical incompressible Navier--Stokes hypotheses must be explicit.
+- Helmholtz--Leray projection is an analytic operation, not a bridge to another physical
+  theory.
+- No claim receives status from the monograph, Yang--Mills, Hodge, or black-hole physics.

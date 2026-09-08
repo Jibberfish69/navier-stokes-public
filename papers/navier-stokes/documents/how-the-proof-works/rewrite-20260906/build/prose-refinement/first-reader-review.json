@@ -1,0 +1,31 @@
+{
+  "schema_version": 3,
+  "review_kind": "whole_editorial",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/prose-refinement/critic-packet.json",
+    "sha256": "aeb66d4fc1134fe7f05bec37d415021353c92ed45f721cfb59f05725f8a41589"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/prose-refinement/candidate.tex",
+    "sha256": "97b4d656d8ff7fe9ec30a821403d830b86eb11714761cbb41ad564c7a640348f"
+  },
+  "render": [
+
+  ],
+  "reviewer": {
+    "agent_path": "/root/refinement_reader",
+    "task_name": "refinement_reader",
+    "isolation": "fork_none",
+    "request_nonce": "a7435e3be663774c1d83f016d08aa72e"
+  },
+  "decision": {
+    "verdict": "fail",
+    "argument_possession": "The complete candidate possesses a connected argument. Vortex narrowing makes the competition between concentration and viscous diffusion concrete. Fixed-viscosity scaling shows why reduced width does not settle that competition, why increasing velocity can coexist with falling energy, and why infinitely many hypothetical stages can fit into finite time. The velocity, acceleration, jerk chain then directs attention to temporal differentiation. The displayed differentiated equations and critical-energy identities expose progressively higher spatial orders; Sobolev embedding makes their connection to smoothness explicit. The candidate distinguishes this insight from the control required at a possible singular endpoint. It then invokes the finite-rectangle theorem, explains adjacent-row traces and compatibility, obtains one smooth endpoint, restarts the original solution, and extracts finite estimates that rule out complete tube collapse in finite time. This is a reader judgment of the exposition, not a certification of the invoked theorem.",
+    "paragraph_movement": "The opening fixes the fluid problem and the hope assigned to viscosity promptly. The vortex movement supplies narrowing, faster swirl under retained circulation, and diffusion across the shrinking region, but starts with an unused vorticity display. The rescaling paragraph establishes the comparison at fixed viscosity. The Sobolev paragraph explains what spatial height measures and locates the invariant height. The energy paragraph supplies a distinct consequence: concentration can hide from the energy bound. The time paragraph gives a further consequence through a convergent duration sum and keeps the cascade hypothetical. The temporal-chain paragraph moves directly into the raw differentiated equations, without restoring the rejected integral justification. The next movement develops the Laplacian and spatial-energy ladder and carries it immediately into embedding and the intersection insight. The opposed singular behavior follows in its requested position and distinguishes preterminal smoothness from control through the endpoint. The datum and pressure paragraph explains the derivative collection before naming its finite rectangles. The rectangle paragraph identifies the actual bound and the adjacent-row mechanism for endpoint traces. The compatibility paragraph develops agreement through increasing orders, the smooth limit, and restart. The final paragraph extracts arbitrary finite estimates and uses the strain estimate on the opening physical picture. These later movements remain coherent when read continuously.",
+    "first_stall": "The first inert movement begins at: \"Consider the case of a vortex within the fluid. Its vorticity \\(\\omega=\\nabla\\times u\\) satisfies\" and the following vorticity equation. The argument has already created a need to understand stretching versus smoothing, but this entry pauses to introduce a new field and a complete governing equation before the physical action begins. Neither omega nor an operation on that equation is used in the subsequent tube, circulation, diffusion, or scaling reasoning. It adds a separate explanatory object that the reader must hold and then abandon. The full subsequent movement works, so this is a local allocation defect rather than a reason to replace its topology. Remove the unused setup or make its mathematical consequence do indispensable work within the existing physical explanation; preserve stretching, narrowing, faster spin, viscous competition, and their order. Do not add a vorticity lesson to justify retaining the display.",
+    "explanatory_allocation": "Most explanation earns its space: the scaling weights, energy loss under concentration, convergent time sum, temporal-to-spatial identities, embedding, and adjacent-row traces each produce a distinct reader change. The central realization receives actual mathematical development and remains separate from the finite-bound theorem that establishes control. The unused vorticity display is the earliest excess. Its repair should reduce this detour while retaining the physical mechanism. The removed temporal-derivative inequality and its explanatory tail remain absent, as the latest instruction requires.",
+    "register": "The candidate is predominantly direct, adult, and mathematically serious. Its stronger passages develop a consequence instead of announcing a topic, especially the energy-to-time continuation and the final return to accumulated strain. The vortex entry briefly adopts a textbook presentation: a generic introduction followed by a governing equation whose symbols do not participate in the later reasoning. That local detour weakens the requested candid conversational movement. The remainder does not reproduce the flat rejected vortex summary or borrow the monograph examples and architecture.",
+    "ending": "The ending is earned. It first obtains finite estimates from the completed intersection, then selects the velocity-gradient bound and integrates it along the locally circular tube picture. The positive lower radius is presented after continuation and estimate extraction, so the closing physical consequence does not replace the proof construction. No render is supplied in the validated packet; this record judges the complete prose and its mathematical movement, without a layout judgment.",
+    "required_action": "local_edit"
+  }
+}

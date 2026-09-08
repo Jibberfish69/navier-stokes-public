@@ -1,0 +1,175 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 1.8 Dead, Jump, Blown, and Restart
+% ============================================================
+\subsection{Dead, Jump, Blown, and Restart}\label{sub:DeadJumpBlownAndRestart}
+
+The derivative tower makes three elementary failure questions available.
+Does each rung still respond through the governing law?
+Does every approach to the same endpoint produce the same value?
+Do the required pointwise values and packet norms remain finite?
+The names \emph{Dead}, \emph{Jump}, and \emph{Blown} attach to failures of those three demands.
+They are overlapping ways of reading a proposed endpoint, and no exhaustiveness claim is needed for the work they do here.
+
+\divider{Dead}
+
+A Dead failure is a loss of lawful response.
+The intended picture is a point or region that has stopped participating while the surrounding field still calls for a change there.
+Small velocity does not establish this failure, and zero velocity does not establish it either.
+A stagnation point can be carried perfectly smoothly by a live flow.
+
+The differentiated equation gives a direct test.
+For the \(n\)-th temporal row, define its momentum residual by
+\[
+  \mathfrak D_n[u,p]
+  :=
+  V_{n+1}
+  +
+  \sum_{k=0}^{n}
+  \binom{n}{k}
+  (V_k\cdot\nabla)V_{n-k}
+  +
+  \nabla P_n
+  -
+  \nu\Delta V_n.
+\]
+Every smooth Navier--Stokes region satisfies
+\[
+  \mathfrak D_n[u,p]=0
+  \qquad
+  \text{for every }n\geq0.
+\]
+At the base rung, material acceleration answers the pressure and viscous field:
+\[
+  D_tu=-\nabla p+\nu\Delta u.
+\]
+
+Now consider a proposed endpoint \(z_*=(T,x_*)\) at which the candidate declares that the local material acceleration has stopped,
+\[
+  D_tu(z_*)=0,
+\]
+while the limiting surrounding field requires
+\[
+  -\nabla p(z_*)+\nu\Delta u(z_*)\neq0.
+\]
+The two statements give \(\mathfrak D_0[u,p](z_*)\neq0\).
+That finite mismatch is a Dead witness: the assigned endpoint value is no longer participating in the equation obeyed by the field around it.
+The same test can occur higher in the tower when \(V_{n+1}\) fails to answer the transport, pressure, and viscous terms that determine its row.
+
+This definition preserves the physical idea behind a point stopping dead without confusing deadness with the number zero.
+The zero solution has every derivative equal to zero and every residual equal to zero.
+A steady shear has all positive Eulerian time rungs equal to zero while its spatial structure remains fully lawful.
+What must remain live is the response relation \(\mathfrak D_n=0\), not a chosen derivative magnitude.
+
+The same witness can be read over a packet.
+If \(B\) is a small region and a candidate endpoint has
+\[
+  \|\mathfrak D_n[u,p]\|_{L^2(B)}>0,
+\]
+then the packet fails the same row even when no single point has been selected.
+A pointwise Dead assignment can also create a Jump at the instant it is attached to the earlier evolution, so the names need not be disjoint.
+
+\divider{Jump}
+
+A Jump failure is a loss of compatible approach.
+Let \(z_m^+\) and \(z_m^-\) be two sequences of regular spacetime points approaching the same candidate endpoint \(z_*\).
+If, for some temporal order \(n\) and spatial multi-index \(\alpha\),
+\[
+  \lim_{m\to\infty}
+  \partial_t^n\partial_x^\alpha u(z_m^+)
+  \neq
+  \lim_{m\to\infty}
+  \partial_t^n\partial_x^\alpha u(z_m^-),
+\]
+then that rung has no single continuous value at \(z_*\).
+The two approaches can no longer be read as derivatives of one smooth field there.
+
+The wooden-board vortex sheet is the base-rung example \(n=0\) and \(\alpha=0\).
+The velocity itself has two tangential traces at the interface.
+A higher Jump may leave the velocity continuous and separate only its gradients, acceleration, jerk, or another mixed derivative.
+In that case the visible failure is postponed up the tower, while the conclusion about smoothness is unchanged.
+
+Across a spatial interface \(\Sigma\), the same condition can be written with traces as
+\[
+  \bigl[
+    \partial_t^n\partial_x^\alpha u
+  \bigr]_\Sigma
+  \neq0.
+\]
+Further differentiation converts such jumps into surface distributions.
+The differentiated momentum and pressure equations then demand matching singular terms throughout the coupled law.
+The Euler sheet showed one setting in which the inviscid equation admits the resulting surface measure and fixed positive viscosity rejects it.
+Other Jump geometries must be tested through their own complete equations.
+
+\divider{Blown}
+
+A Blown failure is a loss of finite control.
+At a point \(z_*\), one such witness is
+\[
+  \limsup_{z\to z_*}
+  \left|
+    \partial_t^n\partial_x^\alpha u(z)
+  \right|
+  =
+  \infty
+\]
+for some \(n\) and \(\alpha\).
+At packet scale, the corresponding witness may appear as
+\[
+  \limsup_{t\uparrow T}
+  \|\partial_t^n u(t)\|_{H^m}
+  =
+  \infty
+\]
+for a derivative level and Sobolev index required by the continuation argument.
+The first display sees local growth, while the second records growth distributed across a region.
+
+Infinite velocity is only the lowest and most dramatic Blown example.
+A Zeno-type cascade can keep the velocity finite while driving a derivative to infinity through changes on successively smaller scales.
+For a schematic sequence, take velocity increments \(a_k=2^{-k}\) occurring across lengths \(\ell_k=4^{-k}\).
+Then
+\[
+  \sum_{k=1}^{\infty}a_k<\infty,
+  \qquad
+  \frac{a_k}{\ell_k}=2^k\longrightarrow\infty.
+\]
+The cumulative velocity increment is finite, while the associated gradient scale diverges.
+This sequence is a kinematic picture rather than a constructed Navier--Stokes solution.
+It shows why a finite velocity cannot rule out a Blown tower.
+
+Blown behaviour can also destroy unique approach and thereby produce a Jump readout.
+Rapid oscillation can prevent a limit without forcing a single signed divergence.
+Concentration can make a packet norm diverge while pointwise values away from the concentration remain mild.
+The three names organize visible failures of lawful response, compatible limiting value, and finite size without forcing every singular geometry into one exclusive box.
+
+Their shared physical meaning is simpler than their separate formulas.
+In each case, some portion of the proposed endpoint no longer responds coherently to the field that is supposed to contain it.
+Transport and viscosity express this relation through local differential structure, while pressure expresses the simultaneous incompressibility constraint through a global elliptic response.
+The surrounding information is both local and whole-field; it is never only a message passed between nearest neighbours.
+
+\divider{Restart}
+
+Restart expresses the same idea from an ordinary regular time.
+Choose \(t_0<T\) while the solution is smooth and define
+\[
+  v(s,x):=u(t_0+s,x),
+  \qquad
+  q(s,x):=p(t_0+s,x).
+\]
+A direct substitution gives
+\[
+  \partial_sv+(v\cdot\nabla)v+\nabla q
+  =
+  \nu\Delta v,
+  \qquad
+  \nabla\cdot v=0,
+  \qquad
+  v(0)=u(t_0).
+\]
+The entire time slice \(u(t_0,\cdot)\), rather than one spatial point, has become the new initial datum.
+Local uniqueness in the regular solution class makes the restarted evolution the same forward continuation viewed from \(t_0\).
+Nothing has been reset, and no fluid property has been replaced.
+
+At a suspected terminal time, this simple observation becomes a real burden.
+Restart is available only if the limiting slice retains enough regularity and compatibility to serve as admissible data for the same fixed-viscosity problem.
+Dead, Jump, and Blown are three ways that admissibility can visibly fail.

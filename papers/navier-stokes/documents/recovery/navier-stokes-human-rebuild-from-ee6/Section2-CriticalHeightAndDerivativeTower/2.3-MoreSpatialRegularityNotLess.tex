@@ -1,0 +1,196 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{The Tower opens toward more spatial regularity}\label{sub:ThePressureCompleteMixedDerivativeTower}
+
+The proposed failure drove the vortex toward smaller scales because spatial
+control was supposed to disappear there.  Finite time then drove the same
+history upward through its temporal responses.  But the equation that
+generates each response contains \(\nu\Delta\) of the response below it.  The
+attempt to lose spatial regularity has opened an algebraic direction toward
+more of it.  We now have to find out what that direction actually pays for.
+
+The critical height puts the temporal and spatial movements on the same scale.
+Under
+\eqref{eq:BodyNavierStokesScaling},
+\[
+  H_\lambda(t)=H(\lambda^2t),
+  \qquad
+  H_\lambda^{(n)}(t)
+  =\lambda^{2n}H^{(n)}(\lambda^2t).
+\]
+The spatial energy at height \(n+\tfrac12\) carries exactly that weight:
+\[
+  E_{n+1/2,\lambda}(t)
+  =\lambda^{2n}E_{n+1/2}(\lambda^2t).
+\]
+The \(n\)-th time response of \(H\) and the spatial energy at height
+\(n+\tfrac12\) carry the same scale weight.  This coincidence does not yet
+relate their values.  The critical balance does.
+
+Return to the exact balance already found in
+\eqref{eq:BodySpatialEnergyBalanceIntro}:
+\[
+  E_s'=\mathcal P_s-2\nu E_{s+1}.
+\]
+At critical height,
+\[
+  H'=\mathcal P_{1/2}-2\nu E_{3/2}.
+\]
+Differentiate once and use the same balance at the next spatial height:
+\[
+\begin{aligned}
+  H''
+  &=\partial_t\mathcal P_{1/2}-2\nu E_{3/2}'
+  \\
+  &=\partial_t\mathcal P_{1/2}
+  -2\nu\mathcal P_{3/2}
+  +(2\nu)^2E_{5/2}.
+\end{aligned}
+\]
+One more derivative gives
+\[
+  H'''
+  =\partial_t^2\mathcal P_{1/2}
+  -2\nu\partial_t\mathcal P_{3/2}
+  +(2\nu)^2\mathcal P_{5/2}
+  -(2\nu)^3E_{7/2}.
+\]
+The new top spatial energy has appeared, but nothing below it has disappeared.
+Every differentiated transport--pressure response remains in the row.  The
+pattern continues, and for \(n\geq1\), induction gives
+\begin{equation}\label{eq:BodyCriticalHeightDiscovery}
+  H^{(n)}
+  =(-2\nu)^nE_{n+1/2}
+  +\sum_{j=0}^{n-1}
+  (-2\nu)^j
+  \partial_t^{\,n-1-j}\mathcal P_{j+1/2}.
+\end{equation}
+Because \(\nu>0\), the completed row can be solved for its top spatial energy:
+\begin{equation}\label{eq:BodyCompletedCriticalDiscovery}
+  E_{n+1/2}
+  =\frac{
+    H^{(n)}-
+    \displaystyle\sum_{j=0}^{n-1}
+    (-2\nu)^j\partial_t^{\,n-1-j}\mathcal P_{j+1/2}
+  }{(-2\nu)^n}.
+\end{equation}
+This algebra exposes the higher energy; it does not bound it.  Every transfer
+term on the right remains, and controlling the new energy requires controlling
+that entire lower triangular chain.  What has changed is the direction of the
+problem.  Higher temporal response places
+\[
+  E_{1/2},
+  \quad E_{3/2},
+  \quad E_{5/2},
+  \quad E_{7/2},
+  \quad\ldots
+\]
+inside the completed critical-height Tower rather than carrying the argument
+downward toward weaker spatial information.
+
+The scalar rows still have to be tied back to the velocity that produced them.
+Because
+\[
+  H(t)=\frac12
+  \pair{\Lambda^{1/2}V_0(t)}
+       {\Lambda^{1/2}V_0(t)}_{L^2},
+\]
+Leibniz's rule gives
+\begin{equation}\label{eq:BodyHeightDerivativeTemporalContraction}
+  H^{(n)}(t)
+  =\frac12\sum_{a=0}^{n}\binom{n}{a}
+  \operatorname{Re}
+  \pair{\Lambda^{1/2}V_a(t)}
+       {\Lambda^{1/2}V_{n-a}(t)}_{L^2}.
+\end{equation}
+Thus \(H^{(n)}\) is neither the response \(V_n\) nor the spatial energy
+\(E_{n+1/2}\).  It is a quadratic contraction of the temporal responses, and
+\eqref{eq:BodyCompletedCriticalDiscovery} can expose the top spatial energy
+only after the complete transport--pressure row has been carried with it.
+
+Only now do we have two independent directions that need one notation.  For a
+temporal height \(n\) and a spatial multi-index \(\alpha\), set
+\begin{equation}\label{eq:BodyMixedJetDefinition}
+  J_{n,\alpha}:=\partial_t^n\partial_x^\alpha u,
+  \qquad
+  \Pi_{n,\alpha}:=\partial_t^n\partial_x^\alpha p,
+  \qquad
+  \alpha\in\Nzero^3.
+\end{equation}
+Differentiating the same momentum equation in both directions gives
+\begin{align}
+  J_{n+1,\alpha}
+  &+
+  \sum_{a=0}^{n}
+  \sum_{\beta\leq\alpha}
+  \binom{n}{a}\binom{\alpha}{\beta}
+  (J_{a,\beta}\cdot\nabla)J_{n-a,\alpha-\beta}
+  +\nabla\Pi_{n,\alpha}
+  \notag\\
+  &=\nu\Delta J_{n,\alpha},
+  \qquad
+  \nabla\cdot J_{n,\alpha}=0.
+  \label{eq:BodyMixedJetRecurrence}
+\end{align}
+The pressure coordinate is still slaved to those velocity coordinates:
+\begin{equation}\label{eq:BodyMixedPressureRecurrence}
+  -\Delta\Pi_{n,\alpha}
+  =\partial_x^\alpha\partial_i\partial_j
+  \sum_{a=0}^{n}\binom{n}{a}(V_a)_i(V_{n-a})_j.
+\end{equation}
+The indices have not split the fluid into separate models.  They tell us which
+time response of the same velocity is being read, and how finely that response
+is being resolved in space.
+
+Fix one temporal response \(V_r\).  Pairing its differentiated equation at a
+spatial height \(s\) repeats the same adjacent movement.  Set
+\[
+  E_{r,s}:=\frac12\norm{\Lambda^sV_r}_2^2
+\]
+and let \(\mathcal P_{r,s}\) be the complete pairing of \(V_r\) with the
+transport and pressure terms in its differentiated equation.  Then
+\begin{equation}\label{eq:BodyEveryResponseDiscovery}
+  E_{r,s}'=\mathcal P_{r,s}-2\nu E_{r,s+1}.
+\end{equation}
+The equation now names the spatial column that belongs to this response:
+\[
+  V_r\in H_x^0,
+  \quad V_r\in H_x^1,
+  \quad V_r\in H_x^2,
+  \quad V_r\in H_x^3,
+  \quad\ldots
+\]
+Temporal order chooses which response of the fluid is being read; spatial
+order chooses how finely that response is resolved.  These membership
+statements are the coordinates the proof has to establish, not consequences
+of \eqref{eq:BodyEveryResponseDiscovery} by itself.  The nonlinear pairings in
+\(\mathcal P_{r,s}\) still have to be bounded, first at a finite collection of
+adjacent heights and eventually uniformly as the terminal time is approached.
+
+This tells us why an intersection will eventually enter, but the order matters.
+For a fixed finite \(r\) and \(m\), one must first prove that the corresponding
+coordinate remains finite on the interval under consideration.  If that can be
+done for every finite spatial height of one response, then
+\[
+  \bigcap_{m=0}^{\infty}H^m(\R^3)
+  =H^\infty(\R^3)
+  \hookrightarrow C^\infty(\R^3).
+\]
+If the same payment can then be made for every finite temporal response, the
+common object is
+\begin{equation}\label{eq:BodyDesiredMixedIntersection}
+  \bigcap_{r=0}^{\infty}
+  \bigcap_{m=0}^{\infty}
+  H^r(I;H^m(\R^3)).
+\end{equation}
+Every prescribed temporal derivative and spatial derivative uses only a finite
+coordinate, followed by the corresponding Sobolev embedding.  The infinite
+intersection says that all of those finite payments belong to one compatible
+history.  It cannot be inferred from the diagram alone.
+
+We have reached the reversal without pretending to have completed it.  A
+finite singular history must ascend through faster temporal responses while
+losing spatial control.  Viscosity places an adjacent higher spatial energy in
+every one of those response rows.  The remaining problem is to turn that
+algebraic adjacency into estimates on finite pieces of the actual history and
+then ask whether those estimates survive the terminal limit.  That finite
+payment is what the two-dimensional rectangles are built to measure.

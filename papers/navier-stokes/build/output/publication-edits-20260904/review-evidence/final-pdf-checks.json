@@ -1,0 +1,118 @@
+{
+  "pdf": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/build/output/publication-edits-20260904/main.pdf",
+  "sha256": "8697aa85e35f915017d551609a53f53c67d8f45a8ab3579663344441d21f6cf6",
+  "pages": 73,
+  "outline": [
+    [
+      1,
+      "Introduction",
+      8
+    ],
+    [
+      1,
+      "Analytic framework",
+      11
+    ],
+    [
+      1,
+      "The pressure-complete setting and mixed jet",
+      22
+    ],
+    [
+      1,
+      "Datum-generated compatible rectangles",
+      26
+    ],
+    [
+      1,
+      "Compatible intersection, endpoint jet, and restart",
+      31
+    ],
+    [
+      1,
+      "Matrix forms of the completed intersection",
+      37
+    ],
+    [
+      1,
+      "Quantitative consequences of the compatible rectangles",
+      40
+    ],
+    [
+      2,
+      "Completion in the global H1 mild class",
+      40
+    ],
+    [
+      2,
+      "Canonical coordinates and finite majorants",
+      43
+    ],
+    [
+      2,
+      "Mixed velocity and pressure rows",
+      50
+    ],
+    [
+      2,
+      "Frequency and critical-scale consequences",
+      52
+    ],
+    [
+      2,
+      "Continuation and quantitative restart",
+      54
+    ],
+    [
+      1,
+      "Three-dimensional applications",
+      55
+    ],
+    [
+      2,
+      "Explicit closure for small critical data",
+      55
+    ],
+    [
+      2,
+      "Low-rectangle and scale-local bounds",
+      60
+    ],
+    [
+      2,
+      "Vorticity and material flow",
+      61
+    ],
+    [
+      2,
+      "Relative energy and the Leray\u2013Hopf class",
+      63
+    ],
+    [
+      1,
+      "Conclusion",
+      68
+    ],
+    [
+      1,
+      "Canonical coordinate catalogue",
+      69
+    ],
+    [
+      1,
+      "References",
+      73
+    ]
+  ],
+  "issues": [],
+  "overfull_boxes": 0,
+  "undefined_references": 0,
+  "missing_mathml_warnings": 0,
+  "font_entries": 34,
+  "links": 606,
+  "pages_changed_from_visual_baseline": [
+    33,
+    72
+  ],
+  "render_dpi": 108
+}

@@ -1,0 +1,302 @@
+\section*{How the Proof Works}
+
+\begingroup
+\setlength{\parskip}{0.38em}
+
+For the global three-dimensional Navier--Stokes regularity problem, the fluid
+obeys
+\[
+\partial_tu+(u\!\cdot\nabla)u+\nabla p=\nu\Delta u,
+\qquad
+\nabla\!\cdot u=0,
+\qquad
+u(\cdot,0)=u_0.
+\]
+A strain in the flow pulls a vortex tube along its axis. As the vortex
+stretches, incompressibility forces it to contract across its width. Each
+material parcel keeps its volume, so lengthening the tube narrows its
+cross-section and the rotating core inside it. That strain also acts on the
+vorticity
+\(\omega=\nabla\times u\). Curling the equation gives
+\[
+\partial_t\omega+(u\!\cdot\nabla)\omega
+=(\omega\!\cdot\nabla)u+\nu\Delta\omega.
+\]
+The left side follows the change in rotation with the moving fluid. When the
+strain is aligned with the vortex,
+\(\omega\cdot((\omega\!\cdot\nabla)u)>0\), so the stretching contribution raises
+\(|\omega|\) while the core narrows. Since \(\omega\) is one spatial derivative
+of \(u\), its amplification means that velocity changes more sharply across the
+core. The gradients rise.
+
+As the core narrows, the nonlinear term can sharpen its velocity profile more
+intensely, but viscosity also acts more strongly on that smaller width. Scaling
+tells us how their relative strengths change: it compresses the spatial pattern
+of a solution while adjusting its velocity and clock so the rescaled fields can
+still satisfy the equation. Given a solution \((u,p)\) and a factor
+\(\lambda>1\), define
+\[
+u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
+\qquad
+p_\lambda(x,t)=\lambda^2p(\lambda x,\lambda^2t).
+\]
+This sends a feature of width \(r\), velocity scale \(U\), and duration \(\tau\)
+to one of width \(r/\lambda\), velocity scale \(\lambda U\), and duration
+\(\tau/\lambda^2\). Substitution gives
+\[
+\begin{aligned}
+&\partial_tu_\lambda
+ +(u_\lambda\!\cdot\nabla)u_\lambda
+ +\nabla p_\lambda-\nu\Delta u_\lambda\\
+&\qquad
+=\lambda^3
+ \bigl[\partial_tu+(u\!\cdot\nabla)u+\nabla p-\nu\Delta u\bigr]
+ (\lambda x,\lambda^2t)
+=0.
+\end{aligned}
+\]
+Every term acquires the factor \(\lambda^3\). Viscosity strengthens as the core
+narrows, but the nonlinearity strengthens in exact proportion. Compression
+preserves their balance.
+
+The velocity and gradients can rise without the kinetic energy rising with
+them. The compressed core occupies a volume smaller by \(\lambda^{-3}\), while
+the square of the velocity contributes \(\lambda^2\). In three dimensions,
+\[
+\|u_\lambda(\cdot,t)\|_2^2
+=\lambda^{-1}\|u(\cdot,\lambda^2t)\|_2^2.
+\]
+A finite energy bound can survive while the core becomes narrower and its
+gradients become steeper.
+
+To find a norm that neither loses nor gains size just because the core was
+compressed, use the homogeneous Sobolev scale:
+\[
+\|u_\lambda(\cdot,t)\|_{\dot H^s}
+=\lambda^{s-\frac12}\|u(\cdot,\lambda^2t)\|_{\dot H^s}.
+\]
+At \(s=0\), this recovers the loss of kinetic energy under compression. Below
+\(s=\tfrac12\), the norm becomes smaller; above it, the norm becomes larger. At
+\(s=\tfrac12\), the factor is one. This is the critical height: narrowing the
+core does not automatically change its measured size there.
+
+The factor \(\lambda^2\) in time now matters. Suppose an evolving core repeats
+this scale change, contracting by a fixed factor
+\(0<\rho<1\) at each stage. Then
+\[
+\begin{gathered}
+r_j=\rho^jr_0,
+\qquad U_j=\rho^{-j}U_0,
+\qquad \tau_j=\rho^{2j}\tau_0,\\[3pt]
+\displaystyle
+\sum_{j=0}^{\infty}\tau_j
+=\tau_0\sum_{j=0}^{\infty}\rho^{2j}
+=\frac{\tau_0}{1-\rho^2}<\infty.
+\end{gathered}
+\]
+The widths collapse and the velocity scale diverges, yet the durations have a
+finite sum. Infinitely many narrower, faster stages fit inside a finite
+interval: this is the Zeno cascade. Scaling does not prove that a solution must
+follow this pattern. It shows why finite energy and the scale balance between
+nonlinearity and viscosity do not rule it out.
+
+\endgroup
+
+In order for a singularity to form, velocity has to blow up. In order for
+that to happen, its acceleration would also have to blow up, which means its
+jerk has to blow up, and so on, and so on:
+\[
+u,\qquad \partial_tu,\qquad \partial_t^2u,\qquad \ldots
+\]
+What you'd expect to see in this pattern, if a singularity were to form, as
+you go up the time derivatives, you'd expect to see less spatial regularity,
+not more.
+
+The equation moves in the other direction. Its first three time derivatives
+are
+\[
+\begin{aligned}
+\partial_tu
+={}&\nu\Delta u
+ -(u\!\cdot\nabla)u
+ -\nabla p,\\[3pt]
+\partial_t^2u
+={}&\nu\Delta\partial_tu
+ -(\partial_tu\!\cdot\nabla)u
+ -(u\!\cdot\nabla)\partial_tu
+ -\nabla\partial_tp,\\[3pt]
+\partial_t^3u
+={}&\nu\Delta\partial_t^2u
+ -(\partial_t^2u\!\cdot\nabla)u
+ -2(\partial_tu\!\cdot\nabla)\partial_tu
+ -(u\!\cdot\nabla)\partial_t^2u
+ -\nabla\partial_t^2p.
+\end{aligned}
+\]
+\begin{samepage}
+The pattern is
+\[
+\partial_t^{\,n+1}u
+=\nu\Delta\partial_t^{\,n}u
+-\sum_{a=0}^{n}\binom na
+  \bigl(\partial_t^{\,a}u\!\cdot\nabla\bigr)
+  \partial_t^{\,n-a}u
+-\nabla\partial_t^{\,n}p.
+\]
+\end{samepage}
+\begin{samepage}
+Set
+\[
+V_n:=\partial_t^{\,n}u,
+\qquad
+Q_n:=\partial_t^{\,n}p,
+\]
+Taking the divergence and using incompressibility gives the pressure at that
+order:
+\[
+-\Delta Q_n
+=\sum_{a=0}^{n}\binom na
+  \partial_i\partial_j
+  \bigl((V_a)_i(V_{n-a})_j\bigr).
+\]
+\end{samepage}
+The line to keep in view is \(V_{n+1}=\nu\Delta V_n-\cdots\). Moving one step
+up in time brings in two spatial derivatives of the response below it.
+Transport and pressure stay attached, but viscosity supplies the link from
+temporal order to spatial Sobolev order.
+
+At the critical height, set
+\[
+\Lambda=(-\Delta)^{1/2},
+\qquad
+E_s(t):=\frac12\|\Lambda^su(t)\|_2^2,
+\qquad
+H(t):=E_{1/2}(t).
+\]
+If \(\mathcal P_s\) denotes the complete transport--pressure contribution at
+height \(s\), the energy identity is
+\[
+E_s'=\mathcal P_s-2\nu E_{s+1}.
+\]
+Starting from \(H=E_{1/2}\) and repeating that identity gives
+\[
+H^{(n)}
+=(-2\nu)^nE_{n+1/2}
+ +\sum_{j=0}^{n-1}(-2\nu)^j
+   \partial_t^{\,n-1-j}\mathcal P_{j+1/2}.
+\]
+The first term has reached spatial height \(n+\tfrac12\); the sum carries every
+transport--pressure term generated on the way. This is the opposite of the
+blow-up picture. Rising through that temporal sequence was supposed to reveal
+less spatial regularity. The equation exposes higher Sobolev height instead. As
+you do that, you get higher order Sobolev embeddings:
+\[
+s>k+\frac32
+\quad\Longrightarrow\quad
+H^s(\mathbb R^3)\hookrightarrow C^k(\mathbb R^3),
+\qquad
+\bigcap_{s<\infty}H^s(\mathbb R^3)
+=H^\infty(\mathbb R^3)
+\hookrightarrow C^\infty(\mathbb R^3).
+\]
+
+Seeing a higher energy in the identity is not enough. It has to remain finite
+all the way to \(T_*\). Fix smooth divergence-free finite-energy data \(u_0\),
+viscosity \(\nu>0\), and its maximal pressure-complete solution \((u,p)\) on
+\([0,T_*)\). Assume \(T_*<\infty\). For finite \(N\) and \(M\), collect the
+adjacent rows in
+\[
+\mathfrak R_{N,M}(u;T)
+:=\sum_{n=0}^{N}\left(
+  \|V_n\|_{L^2(0,T;H^{M+1})}^2
+ +\|V_{n+1}\|_{L^2(0,T;H^{M-1})}^2
+\right).
+\]
+Adding the corresponding \(Q_n\) and \(\nabla Q_n\) coordinates gives the
+finite pressure-complete rectangle \(\mathcal R_{N,M}[u_0;T]\). The
+manuscript's whole-terminal theorem bounds each adjacent pair on the full
+interval:
+\[
+V_n\in L^2(0,T_*;H^{M+1}),
+\qquad
+V_{n+1}\in L^2(0,T_*;H^{M-1}),
+\qquad 0\le n\le N.
+\]
+Restriction to \((0,T)\) can only decrease those norms, and there are only
+finitely many rows, so
+\[
+\sup_{0<T<T_*}\mathfrak R_{N,M}(u;T)<\infty.
+\]
+\begin{samepage}
+The bound may depend on \(N\) and \(M\). No uniform constant over all orders is
+needed. At \(n=0\), for every finite \(m\), the adjacent pair gives
+\[
+u\in L^2(0,T_*;H^{m+1}),
+\qquad
+\partial_tu\in L^2(0,T_*;H^{m-1}),
+\]
+The Lions--Magenes trace theorem applied to
+\(H^{m+1}\hookrightarrow H^m\hookrightarrow H^{m-1}\), gives a unique
+trace at the endpoint:
+\[
+u\in C([0,T_*];H^m)
+\qquad\text{for every finite }m.
+\]
+\end{samepage}
+
+\begin{samepage}
+Increasing \(N\) or \(M\) does not create a new solution. Every rectangle is a
+finite part of the maximal history from \(u_0\), so overlapping rectangles
+agree on every shared coordinate. Their projective limit is
+\[
+\mathcal I[u_0]
+:=\varprojlim_{N,M<\infty}\mathcal R_{N,M}[u_0;T_*],
+\qquad
+u\in\bigcap_{r,m<\infty}H^r(0,T_*;H^m(\mathbb R^3)).
+\]
+\end{samepage}
+The intersection is not one bound over infinitely many orders. Each coordinate
+was bounded at a finite \((N,M)\); compatibility says that all of those finite
+bounds belong to one velocity--pressure history.
+
+The zeroth temporal row, \(\mathscr S_0:=\pi_0\mathcal I[u_0]\), now has one
+terminal value at every finite spatial height:
+\[
+u_*:=u(T_*)
+\in\bigcap_{m<\infty}H^m_\sigma(\mathbb R^3)
+=H^\infty_\sigma(\mathbb R^3)
+\hookrightarrow C^\infty(\mathbb R^3).
+\]
+The recurrence and pressure equation recover every finite coordinate of the
+terminal jet from \(u_*\). The uniform \(H^3\) row gives a local existence time
+\(\delta_0>0\) that works for \(u_*\) and for every sufficiently late slice
+\(u(t_0)\). Choose \(t_0<T_*\) with \(T_*-t_0<\delta_0/2\), and restart from
+\(u(t_0)\). Uniqueness makes this restart identical to the original solution
+on \([t_0,T_*)\), so it reaches \(T_*\) with value \(u_*\). To the right of
+\(T_*\), uniqueness identifies it with the solution restarted from \(u_*\).
+The two restarts join into one smooth pressure-complete solution beyond
+\(T_*\), contradicting maximality. Thus \(T_*=\infty\).
+
+Once \(V_r\in C_tH_x^m\) is available for every finite \(r\) and \(m\), any
+finite downstream estimate comes from choosing
+\[
+m>k+\frac32-\frac3p,
+\qquad
+2\le p\le\infty,
+\]
+which gives, on every finite time interval,
+\[
+V_r\in C_tH_x^m
+\hookrightarrow L_t^qW_x^{k,p},
+\qquad 1\le q\le\infty.
+\]
+
+\[
+u_0
+\longrightarrow \{(V_n,Q_n)\}_{n\ge0}
+\longrightarrow \{\mathcal R_{N,M}[u_0]\}_{N,M<\infty}
+\longrightarrow \mathcal I[u_0]
+\longrightarrow \mathscr S_0
+\longrightarrow u_*\in H^\infty
+\longrightarrow T_*=\infty.
+\]

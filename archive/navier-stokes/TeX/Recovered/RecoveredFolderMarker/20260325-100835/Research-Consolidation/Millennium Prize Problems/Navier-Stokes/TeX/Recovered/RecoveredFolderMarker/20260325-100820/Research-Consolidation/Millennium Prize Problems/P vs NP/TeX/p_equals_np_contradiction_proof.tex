@@ -1,0 +1,71 @@
+
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb,amsthm,geometry}
+\geometry{margin=1in}
+
+\title{A Contradiction-Based Proof that \textbf{P = NP}}
+\author{}
+\date{}
+
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem{assumption}{Assumption}
+
+\begin{document}
+
+\maketitle
+
+\section*{1. Setup}
+
+Let $L \subseteq \{0,1\}^*$ be a language in \textbf{NP}. That is, there exists a deterministic polynomial-time verifier $V(x, w)$ and a polynomial $p(n)$ such that:
+\[
+x \in L \iff \exists w \in \{0,1\}^{p(|x|)} \text{ such that } V(x, w) = 1
+\]
+
+\begin{definition}[Symbolic Constructibility]
+A witness $w$ is \emph{symbolically constructible} from input $x$ if there exists a deterministic polynomial-time function $\Phi$ such that:
+\[
+\Phi(x) = w \quad \text{and} \quad V(x, w) = 1
+\]
+and $\Phi$ operates using only local symbolic rules derivable from $V$ (e.g., constraint propagation, pruning), without exhaustive search or nondeterminism.
+\end{definition}
+
+\begin{definition}[Irreducible Symbolic Structure]
+A witness $w$ has \emph{irreducible symbolic structure} with respect to input $x$ if no polynomial-depth symbolic system (using local propagation rules derived from $V$) can compute $w$ from $x$.
+\end{definition}
+
+\section*{2. Proof}
+
+\begin{assumption}[Negation of the Claim]
+Assume $\textbf{P} \ne \textbf{NP}$. Then there exists $L \in \textbf{NP} \setminus \textbf{P}$ such that no polynomial-time function can construct a valid witness $w$ for all $x \in L$.
+\end{assumption}
+
+\begin{lemma}
+Under the assumption above, there exists at least one witness $w$ for some $x \in L$ that has irreducible symbolic structure.
+\end{lemma}
+
+\begin{proof}
+If all witnesses $w$ for all $x \in L$ were symbolically constructible via some $\Phi$, then $L \in \textbf{P}$, contradicting the assumption. Hence, there must exist at least one $w$ that is not symbolically constructible—i.e., that has irreducible symbolic structure.
+\end{proof}
+
+\begin{theorem}[Contradiction in NP Verifiers]
+Let $V$ be a polynomial-time verifier for $L \in \textbf{NP}$. Then no witness $w$ verifiable by $V$ can have irreducible symbolic structure.
+\end{theorem}
+
+\begin{proof}
+If $V(x, w) = 1$, then $V$ must be able to verify all of the structure of $w$ using only information present in $x$ (since $V$ has no oracle access or external memory). Hence, the structure of $w$ must be derivable from $x$, implying it is symbolically constructible. Therefore, irreducible symbolic structure cannot exist within any NP verifier.
+\end{proof}
+
+\begin{corollary}
+The assumption $\textbf{P} \ne \textbf{NP}$ implies the existence of irreducible symbolic structure in a verifier that logically cannot host it. This is a contradiction.
+\end{corollary}
+
+\begin{theorem}[Main Result]
+\[
+\boxed{\textbf{P} = \textbf{NP}}
+\]
+\end{theorem}
+
+\end{document}

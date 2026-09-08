@@ -6,7 +6,7 @@ problem: navier-stokes
 route: forward-gold same-material full-clock / annular service trajectory
 attacks_hinge:
   - SelectedDensityMartingaleSquareFunctionCarleson.A
-  - NoSilentSelectedPressureHodgeCarrier.A
+  - NoSilentSelectedPressureHelmholtzCarrier.A
   - SelectedActionTraceCoercivity.A
   - ParentDrop.A
 ---
@@ -30,7 +30,7 @@ Such a source can be invisible to the parent Schur trace. Therefore the right qu
 The sharper question is:
 
 ```math
-\text{Can a boundary-flat pressure-Hodge source also be a retained selected critical-strain carrier?}
+\text{Can a boundary-flat pressure-Helmholtz--Leray source also be a retained selected critical-strain carrier?}
 ```
 
 ## 2. Proposed normal form
@@ -58,7 +58,7 @@ Equivalently,
 ```math
 \ker(\text{parent Schur trace})
 \cap
-\{\text{retained selected pressure-Hodge carriers}\}
+\{\text{retained selected pressure-Helmholtz--Leray carriers}\}
 \subseteq
 \{\text{exchange-charged selected carriers}\}.
 \tag{SO.2}
@@ -69,7 +69,7 @@ The ideal hard form is
 ```math
 \ker(\text{parent Schur trace})
 \cap
-\{\text{retained selected pressure-Hodge carriers with zero exchange charge}\}
+\{\text{retained selected pressure-Helmholtz--Leray carriers with zero exchange charge}\}
 =
 \{0\}.
 \tag{SO.3}
@@ -79,7 +79,7 @@ The ideal hard form is
 
 ### Branch A: gauge / hidden-potential material
 
-If the boundary-flat source is only a hidden pressure-Hodge potential, then it is not selected critical-strain production. In that case the selected action vanishes:
+If the boundary-flat source is only a hidden pressure-Helmholtz--Leray potential, then it is not selected critical-strain production. In that case the selected action vanishes:
 
 ```math
 f\in\mathcal K_{sil},\quad f\in\mathcal G_{hidden}
@@ -149,7 +149,7 @@ The route now needs two theorems.
 SilentKernelSourceOriginNormalForm.A
 ```
 
-Statement: every boundary-flat pressure-Hodge source in the retained same-material packet is either gauge/hidden-potential and unselected, or has retained selected origin.
+Statement: every boundary-flat pressure-Helmholtz--Leray source in the retained same-material packet is either gauge/hidden-potential and unselected, or has retained selected origin.
 
 ```text
 BoundaryFlatSelectedCarrierExchangeCharge.A

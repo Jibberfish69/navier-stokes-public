@@ -1,0 +1,53 @@
+---
+version: 1
+proof_program_completion_projection:
+  canonical_source: problems/navier-stokes/target-operating-contract.yaml#proof_program_completion
+  mathematical_status: established-complete
+  mpp_status: solved
+  active_direct_program: thomas-one-fluid-reversible-intersection
+  active_direct_boundary: none
+  proof_chain: datum-generated-whole-terminal-rectangles-to-intersection-to-H_x-infinity-endpoint-to-restart
+  paper_boundary: Paper quality is outside this repair and does not alter the completed mathematical proof.
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  generated_at: '2026-06-08T07:17:52Z'
+  generator: system/runner/lib/paper_quality_verdict_builder.rb
+manuscript_kind: proof-manuscript
+mainline_anchor_count: 0
+duplicate_heading_count: 0
+forward_reference_count: 0
+non_core_before_core_count: 0
+proof_explanation_score: 10
+typeset_status: typeset
+overfull_box_count_gt_20pt: 0
+max_overfull_box_pt: 0.0
+author_present: true
+proof_submission_alignment:
+  status: blocked-public-clay-finality-open
+  allows_paper_quality_pass: false
+  submission_ready: false
+  downstream_submission_ready: false
+  manuscript_declares_bridge_open: true
+  source_frontier_open: true
+  open_blockers:
+  - first-exit-pack-survival-mechanism-search
+  completion_candidate_count: 5
+  completion_candidates:
+  - FiniteTerminalObstructionInventoryFinality.A / ClayCounterexampleExclusionBridge.A
+  - OriginalSmoothDataPackSurvival.A / ScaleCriticalTreeCarleson.A as a child no-genuine-exit route only after the finality bridge requires a positive first-exit theorem
+  - ExternalTerminalTimeThicknessMechanism.A for the produced B_ASAC closed-min native positive source atom
+  - SourceTimeConcentrationCost.A as the concrete same-ledger cost production needed for terminal time-thickness
+  - FirstExitPackSurvivalMechanismSearch.A / OriginalSmoothDataPackSurvival.A after source-time production routes cycled around the all-doors-closed B_ASAC terminal native positive source atom
+paper_architecture_present: true
+pass: false
+required_fixes:
+- >-
+  Prove OriginalSmoothDataPackSurvival.A by a non-alias first-exit Pack
+  survival mechanism. The next proof unit must pay the retained positive-scale
+  reserve birth, prove terminal Pack survival by a non-continuation
+  material-collar/readout theorem, prove the produced B_ASAC source atom cannot
+  be the first Pack exit from original smooth data, or install a genuinely new
+  Part/Field witness theorem strong enough to feed
+  NoGenuineExitFromSmoothData.A and both manuscript tracks.
+recommended_next_cell_type: honesty-review

@@ -1,0 +1,73 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+The three-dimensional \NavierStokes{} regularity problem asks whether a smooth solution can lose its smoothness in finite time.
+The velocity \(u\) and pressure \(p\) must satisfy
+\begin{equation}\label{eq:NavierStokesSystem}
+  \begin{gathered}
+    \partial_tu+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
+    \qquad
+    \nabla\cdot u=0
+    \quad\text{on }\R^3\times(0,\infty),
+    \\
+    u(\cdot,0)=u_0
+    \quad\text{on }\R^3.
+  \end{gathered}
+\end{equation}
+Here \(u\) is the \(\R^3\)-valued velocity, \(p\) is the scalar pressure, and \(\nu>0\) is the fixed kinematic viscosity.
+
+Fefferman's whole-space formulation assumes that the initial velocity \(u_0\) in \eqref{eq:NavierStokesSystem} is smooth, divergence-free, and rapidly decreasing together with all of its spatial derivatives \parencite{Fefferman2000}.
+In standard notation, this means
+\begin{equation}\label{eq:FeffermanDatumClass}
+  \begin{gathered}
+    \Ssigma
+    :=
+    \mathscr S(\R^3;\R^3)\cap\ker(\nabla\cdot),
+    \qquad
+    u_0\in\Ssigma,
+    \\
+    \forall\alpha\in\Nzero^3\;
+    \forall K\in\Nzero\;
+    \exists C_{\alpha,K}<\infty\;
+    \forall x\in\R^3,
+    \qquad
+    |\partial_x^\alpha u_0(x)|
+    \leq
+    C_{\alpha,K}(1+|x|)^{-K}.
+  \end{gathered}
+\end{equation}
+Here \(\mathscr S(\R^3;\R^3)\) is the Schwartz space of smooth \(\R^3\)-valued functions.
+The symbol \(\alpha\) is a spatial multi-index, and \(K\) is the prescribed algebraic decay order.
+For the fixed datum \(u_0\), the constant \(C_{\alpha,K}\) may depend on \(u_0\), \(\alpha\), and \(K\), but not on \(x\).
+
+For finite \(m\in\Nzero\), write
+\[
+  H^m_\sigma(\R^3)
+  :=
+  H^m(\R^3;\R^3)\cap\ker(\nabla\cdot).
+\]
+Fix \(K>3/2\).
+For every \(|\alpha|\leq m\), \eqref{eq:FeffermanDatumClass} gives
+\[
+  \norm{\partial_x^\alpha u_0}_2^2
+  \leq
+  C_{\alpha,K}^2
+  \int_{\R^3}(1+|x|)^{-2K}\,dx
+  <
+  \infty.
+\]
+There are only finitely many multi-indices with \(|\alpha|\leq m\), so \(u_0\in H^m_\sigma(\R^3)\) for every finite \(m\).
+Taking \(m=0\) gives \(u_0\in L^2(\R^3)\), so the initial kinetic energy is finite.
+
+Fix this \(u_0\) and a viscosity \(\nu>0\).
+Let \((u,p)\) be the corresponding classical solution on its maximal smooth interval \([0,T_*)\), where \(T_*\in(0,\infty]\).
+
+The whole-space claim is that this same solution remains smooth for all time and has uniformly finite kinetic energy:
+\begin{equation}\label{eq:WholeSpaceRegularityTarget}
+  u,p\in C^\infty\!\bigl(\R^3\times[0,\infty)\bigr),
+  \qquad
+  \sup_{t\geq0}\int_{\R^3}|u(x,t)|^2\,dx<\infty.
+\end{equation}
+The energy clause is already controlled throughout the maximal lifespan: \Cref{prop:ClassicalKineticEnergyIdentity} gives \(\norm{u(t)}_2\leq\norm{u_0}_2\) for every \(0\leq t<T_*\).
+The regularity problem is to rule out a finite endpoint of the smooth history:
+\[
+  T_*=\infty.
+\]

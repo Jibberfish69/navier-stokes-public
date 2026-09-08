@@ -1,0 +1,34 @@
+\divider{Definitions}
+
+Let \(\Omega\) denote either of the spatial domains introduced above.
+
+\begin{definition}[Smoothness]\label{def:Smoothness}
+A velocity\textendash pressure pair \((u,p)\) is smooth through a finite time \(T>0\) when
+\[
+  u\in C^\infty\!\left(\Omega\times[0,T];\mathbb R^3\right),
+  \qquad
+  p\in C^\infty\!\left(\Omega\times[0,T]\right).
+\]
+Equivalently, every mixed spatial and temporal derivative of finite order exists on \(\Omega\times(0,T)\) and extends continuously to \(\Omega\times[0,T]\).
+The pair is smooth for all time when it is smooth through every finite \(T>0\).
+\end{definition}
+
+\begin{definition}[Continuation]\label{def:Continuation}
+Suppose \((u,p)\) solves the Navier--Stokes equations on \(\Omega\times[0,T)\).
+A continuation past \(T\) in a regularity class \(X\) is a pair \((\widetilde u,\widetilde p)\) that solves the same equations with the same viscosity on \(\Omega\times[0,T+\varepsilon)\) for some \(\varepsilon>0\), belongs to \(X\) there, and, under the same pressure normalization, agrees with \((u,p)\) on \(\Omega\times[0,T)\).
+For the Clay problem, \(X=C^\infty\), so the continuation must remain smooth on the larger interval.
+\end{definition}
+
+\begin{definition}[Regularity]\label{def:Regularity}
+Regularity describes the kind and degree of control we have over a solution.
+In the classical \(C^k\) scale, \(C^0\) means continuity of \(u\) and \(p\), while \(C^k\) requires every mixed spatial and temporal derivative through total order \(k\) to exist on \(\Omega\times(0,T)\) and extend continuously to \(\Omega\times[0,T]\).
+Smoothness is the all-orders case, \(C^\infty\).
+Sobolev and mixed space\textendash time bounds are other forms of regularity, expressed through norms.
+\end{definition}
+
+Smoothness is the \(C^\infty\) level of regularity, and continuation asks whether the same Navier--Stokes solution can cross \(T\) without leaving that class.
+The Clay problem requires smooth continuation past every finite \(T\).
+
+At a finite endpoint \(T\), \(C^k\) regularity is lost when at least one required mixed derivative does not extend continuously to \(\Omega\times\{T\}\).
+Near a finite spatial point, a required derivative may grow without bound or remain bounded without approaching a continuous limit.
+A failure at any finite order prevents continuation in \(C^\infty\).

@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "review_kind": "cold_reader",
+  "input_packet": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/critic-packet-v17.json",
+    "sha256": "e52d69986257904d28327d9e65230a6d9fef41d3e5159e75bec97f2e351753a5"
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/candidate-v17.tex",
+    "sha256": "e79ae20d0d628b0104e410590fa916807ceb6edf5ab3554261582ab676f3ed33"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-1.png",
+      "sha256": "e49f766742382aecc710e9d41a33b1184d49958dc16f4407ae8133ac8457e5ea"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-2.png",
+      "sha256": "0da135b75e43babacdbfa4be6c65ac7be2430c0390a7661c93fd8a394df73003"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-3.png",
+      "sha256": "ad408f5618fe6168c6e462337dcef282275eed4433523d5ef41542ebbebb5684"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v17/page-4.png",
+      "sha256": "ac6b892c1829326df151b8a831e496b7343fa755b3c72135a64afbcd2e5dbcbf"
+    }
+  ],
+  "reviewer": {
+    "agent_path": "/root/cold_reader_v17e",
+    "task_name": "cold_reader_v17e",
+    "isolation": "fork_none",
+    "request_nonce": "3c16515736e64000814eab3dd1a67f9f"
+  },
+  "decision": {
+    "verdict": "fail",
+    "first_divergence": {
+      "exact_span": "In order for that to happen, its acceleration would also have to blow up, which means its jerk has to blow up, and so on and so on.",
+      "mechanism": "The continuation criterion establishes failure of an H^m bound; it does not force material acceleration, then jerk, then every higher response to diverge. The prose next switches from particle-path quantities to fixed-point Eulerian time derivatives, but no argument licenses either implication, so the temporal tower begins with an asserted necessity.",
+      "repair_constraint": "Preserve the physical acceleration/jerk intuition and the material-versus-Eulerian distinction, but present this ladder only as the singular-cascade expectation unless a precise implication is proved; let the pressure-complete differentiated equation supply the reason to study every Eulerian temporal row."
+    }
+  }
+}

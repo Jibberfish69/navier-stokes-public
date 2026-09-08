@@ -1,0 +1,84 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{The equation and the target}\label{sub:TheEquationAndTheTarget}
+
+Fefferman's formulation of the whole-space problem begins with an initial
+velocity that leaves no roughness to blame later \parencite{Fefferman2000}.
+It is smooth, divergence-free, and every one of its spatial derivatives dies
+faster than any polynomial as \(|x|\) moves out through the fluid.  Write this
+class as
+\begin{equation}\label{eq:FeffermanDatumClass}
+  \Ssigma
+  :=
+  \left\{
+  a\in C^\infty(\R^3;\R^3):
+  \begin{array}{l}
+    \nabla\cdot a=0,\\
+    \forall\alpha\in\Nzero^3\;
+    \forall K\in\Nzero\;
+    \exists C_{\alpha,K}<\infty\;
+    \forall x\in\R^3,\\
+    |\partial_x^\alpha a(x)|
+    \leq C_{\alpha,K}(1+|x|)^{-K}
+  \end{array}
+  \right\}.
+\end{equation}
+Read the condition in the order it is written.  Choose any spatial derivative
+\(\alpha\).  Choose any algebraic decay rate \(K\), however large.  The datum
+still has a finite constant \(C_{\alpha,K}\) that controls that derivative
+everywhere in space.  The constant changes when either choice changes; it does
+not change with \(x\).  This is the divergence-free Schwartz class.
+
+For a finite spatial height \(m\), let
+\[
+  H^m_\sigma(\R^3)
+  :=
+  \{v\in H^m(\R^3;\R^3):\nabla\cdot v=0\}.
+\]
+The decay in \eqref{eq:FeffermanDatumClass} places the same datum in every one
+of these spaces.  To see it, fix \(K>3/2\).  For \(|\alpha|\leq m\),
+\[
+  \norm{\partial_x^\alpha a}_2^2
+  \leq
+  C_{\alpha,K}^2
+  \int_{\R^3}(1+|x|)^{-2K}\,dx
+  <\infty.
+\]
+Only finitely many derivatives occur below a chosen finite \(m\), and hence
+\begin{equation}\label{eq:SchwartzToEveryFiniteSobolevHeight}
+  \Ssigma\subset H^m_\sigma(\R^3)
+  \qquad\text{for every finite }m.
+\end{equation}
+At time zero, then, every finite Sobolev height is already present.  The
+regularity problem asks whether the evolution can destroy that complete
+smooth structure in finite time.
+
+Fix one \(u_0\in\Ssigma\) and one viscosity \(\nu>0\).  The velocity \(u\) and
+the pressure \(p\) obey one coupled law:
+\begin{equation}\label{eq:NavierStokesSystem}
+  \partial_tu+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
+  \qquad \nabla\cdot u=0,
+  \qquad u(\cdot,0)=u_0.
+\end{equation}
+The four parts should be kept together.  The time derivative records the
+response of the field.  Transport lets the velocity carry itself through the
+velocity it has already created.  Incompressibility forces pressure to answer
+for that motion across the surrounding field.  Viscosity acts on the spatial
+curvature of the same velocity.  There is one fluid here, and every later
+derivative row is another reading of this law.
+
+Local theory starts that fluid smoothly.  Uniqueness then joins the local
+pieces into one maximal classical history on an interval \([0,T_*)\), where
+\(T_*\in(0,\infty]\).  The Millennium Prize problem is the claim that this
+interval never has a finite right edge.  In the notation above, its target is
+\begin{equation}\label{eq:WholeSpaceRegularityTarget}
+  T_*=\infty,
+  \qquad
+  u,p\in C^\infty\!\bigl(\R^3\times[0,\infty)\bigr),
+  \qquad
+  \sup_{t\geq0}\int_{\R^3}|u(x,t)|^2\,dx<\infty.
+\end{equation}
+Smoothness includes the last slice of every finite interval.  A field can be
+smooth on every shorter interval \([0,T]\), \(T<T_*\), while one of its
+derivatives grows without a finite trace as \(t\uparrow T_*\).  Interior
+smoothness and arrival at the endpoint are different statements.  The proof
+has to carry the derivatives to that face or show that the face cannot exist.

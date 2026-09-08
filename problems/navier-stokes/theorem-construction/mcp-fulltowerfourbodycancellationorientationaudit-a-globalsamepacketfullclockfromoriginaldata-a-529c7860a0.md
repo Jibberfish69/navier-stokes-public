@@ -10,7 +10,7 @@ Prove
 \int A_{4B,N}^{tower}<\infty
 ```
 
-for the enlarged same-carrier tower action containing metric, coefficient, commutator, pressure/Hodge, viscous/collar, geometry, and radius-spend channels.
+for the enlarged same-carrier tower action containing metric, coefficient, commutator, pressure/Helmholtz--Leray, viscous/collar, geometry, and radius-spend channels.
 
 ## 1. Cancellation algebra
 
@@ -66,7 +66,7 @@ The desired \(A_{4B,N}^{tower}\) includes
 d\mathcal A_N^{metric},\quad
 d\mathcal A_N^{coeff},\quad
 d\mathcal A_N^{comm},\quad
-d\mathcal A_N^{press/Hodge},\quad
+d\mathcal A_N^{press/Helmholtz--Leray},\quad
 d\mathcal A_N^{visc/collar},\quad
 d\mathcal A_N^{geom},\quad
 d\mathcal A_N^{rad}.

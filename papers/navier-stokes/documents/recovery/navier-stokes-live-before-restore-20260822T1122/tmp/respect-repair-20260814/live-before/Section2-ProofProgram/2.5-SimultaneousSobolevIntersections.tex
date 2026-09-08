@@ -1,0 +1,111 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.5 Simultaneous Sobolev Intersections
+% ============================================================
+
+\subsection{Simultaneous Sobolev Intersections}\label{sub:SimultaneousSobolevIntersections}
+
+The spatial column becomes smooth one requested derivative at a time.
+In three dimensions,
+\[
+  H^m(\R^3)
+  \hookrightarrow
+  C^k(\R^3)
+  \qquad
+  \text{whenever }
+  m>k+\frac32.
+\]
+Fix one derivative order \(k\).
+One finite Sobolev height \(m>k+3/2\) controls every spatial derivative through order \(k\).
+Since the choice can be made for every finite \(k\),
+\[
+  \bigcap_{m=0}^{\infty}H^m(\R^3)
+  \hookrightarrow
+  C^\infty(\R^3).
+\]
+Each requested derivative uses one finite row high enough for that request.
+
+The temporal column works in the same coordinatewise way on a strict finite interval \(I=(0,T)\), \(T<T_*\).
+For a Hilbert space \(X\),
+\[
+  H^r(I;X)
+  \hookrightarrow
+  C^q(\overline I;X)
+  \qquad
+  \text{whenever }
+  r>q+\frac12.
+\]
+Fixing \(q\) and choosing one finite \(r>q+1/2\) gives the desired temporal derivative.
+Thus
+\[
+  \bigcap_{r=0}^{\infty}H^r(I;X)
+  \hookrightarrow
+  C^\infty(\overline I;X).
+\]
+Applied to the scalar critical height, this says
+\[
+  H\in
+  \bigcap_{r=0}^{\infty}H^r(I)
+  \quad\Longrightarrow\quad
+  H\in C^\infty(\overline I).
+\]
+This scalar intersection describes the complete time regularity of \(H\).
+The velocity field also carries spatial direction, phase, and geometry, all of which lie outside the scalar value \(H(t)\).
+
+The velocity needs both indices.
+Define its coordinatewise mixed intersection by
+\[
+  \mathscr V_\infty(I)
+  :=
+  \bigcap_{r=0}^{\infty}
+  \bigcap_{m=0}^{\infty}
+  H^r\bigl(I;H^m(\R^3)\bigr).
+\]
+The meaning of the intersection becomes concrete when one mixed derivative is requested.
+For example, continuity of
+\[
+  \partial_t^2\partial_x^\alpha u,
+  \qquad
+  |\alpha|\leq4,
+\]
+follows from the single finite membership
+\[
+  u\in H^3\bigl(I;H^6(\R^3)\bigr),
+\]
+because \(3>2+1/2\) and \(6>4+3/2\).
+In general, for any finite temporal order \(q\) and spatial order \(k\), choose finite indices
+\[
+  r>q+\frac12,
+  \qquad
+  m>k+\frac32.
+\]
+Then
+\[
+  H^r\bigl(I;H^m(\R^3)\bigr)
+  \hookrightarrow
+  C^q\bigl(\overline I;C^k(\R^3)\bigr).
+\]
+Arbitrary finite \(q\) and \(k\) give
+\[
+  \mathscr V_\infty(I)
+  \hookrightarrow
+  C^\infty\bigl(\overline I\times\R^3\bigr).
+\]
+
+Membership is asserted one finite coordinate at a time:
+\[
+  u\in\mathscr V_\infty(I)
+  \quad\Longleftrightarrow\quad
+  \norm{u}_{H^r(I;H^m)}
+  <
+  \infty
+  \quad
+  \text{for every finite }(r,m).
+\]
+The bound may change with \(r\) and \(m\).
+The intersection places all of those finite statements on the same function \(u\).
+
+The intersection \(\mathscr V_\infty(I)\) controls the velocity, but the Navier--Stokes history must also retain \(Q_n=\partial_t^np\), the differentiated momentum equation, the divergence constraint, and the pressure Poisson equation at every finite depth.
+Even with those relations attached, a list of Sobolev memberships does not yet give a common time trace.
+For a finite group of coordinates to reach the same time slice, adjacent spatial levels must meet around one middle space.
+That finite group is the first rectangle.

@@ -1,0 +1,2522 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./papers/navier-stokes/manuscript/generated/main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-10-24>
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/documentmetadata-suppor
+t.ltx
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pdfmanagement-testphase/pdfmanage
+ment-testphase.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tagpdf/tagpdf-base.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pdfmanagement-testphase/pdfmanage
+ment.ltx)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pdfmanagement-testphase/l3backend
+-testphase-pdftex.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-lat
+est.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/tagpdf/tagpdf.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tagpdf/tagpdf-mc-code-generic.sty
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-nam
+es.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-new
+-or-2.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-footnotes.ltx
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-blo
+ck.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-kernel-change
+s.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/glyphtounicode-cmex.tex
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-con
+text.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-sec
+.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-toc
+.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-min
+ipage.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-new
+-or-1.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-gra
+phic.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-flo
+at.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-bib
+.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-tex
+t.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-mar
+ginpar.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-tit
+le.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-tab
+le.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-mat
+h.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-math.ltx)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-mathpkg.ltx)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-mathintent.lt
+x))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-fir
+staid.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-tik
+z.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pdfmanagement-testphase/pdfmanage
+ment-firstaid.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size11.clo))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-amsmath.ltx)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mathtools/mathtools.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/mathtools/mhsetup.sty))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex-lab/latex-lab-mathtools.ltx
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/jknapltx/mathrsfs.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/needspace/needspace.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pdfmanagement-testphase/hgeneric-
+testphase.def
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pdfmanagement-testphase/hyperref-
+colorschemes.def))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def))
+No file main.aux.
+Info: mathml file main-mathml does not exist
+Info: reading mathml file main-luamml-mathml
+(papers/navier-stokes/manuscript/generated/main-luamml-mathml.html)
+Info: Activating mathml support
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
+(/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/jknapltx/ursfs.fd) [1{/usr/local/
+texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2
+025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+
+LaTeX Warning: Reference `thm:datum-rectangles' on page 2 undefined on input li
+ne 161.
+
+
+LaTeX Warning: Reference `prop:datum-terminal-realization' on page 2 undefined 
+on input line 162.
+
+
+LaTeX Warning: Reference `thm:datum-rectangles' on page 2 undefined on input li
+ne 217.
+
+
+LaTeX Warning: Reference `prop:datum-terminal-realization' on page 2 undefined 
+on input line 218.
+
+[2] (papers/navier-stokes/manuscript/generated/00-how-proof-works.tex
+
+LaTeX Warning: Reference `thm:datum-rectangles' on page 3 undefined on input li
+ne 90.
+
+
+LaTeX Warning: Reference `prop:datum-terminal-realization' on page 3 undefined 
+on input line 98.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/ueuf.fd)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-euf.cfg) [3])
+[4]
+No file main.toc.
+[5]
+
+LaTeX Warning: Reference `def:app-leray-hopf' on page 6 undefined on input line
+ 255.
+
+
+LaTeX Warning: Citation `Fefferman2006' on page 6 undefined on input line 265.
+
+(papers/navier-stokes/manuscript/generated/00-introduction.tex
+
+LaTeX Warning: Citation `FujitaKato1964' on page 6 undefined on input line 7.
+
+
+LaTeX Warning: Citation `Kato1984' on page 6 undefined on input line 7.
+
+
+LaTeX Warning: Citation `Leray1934' on page 6 undefined on input line 15.
+
+
+LaTeX Warning: Citation `CKN1982' on page 6 undefined on input line 17.
+
+
+LaTeX Warning: Citation `Serrin1962' on page 6 undefined on input line 18.
+
+
+LaTeX Warning: Citation `ESS2003' on page 6 undefined on input line 20.
+
+
+LaTeX Warning: Citation `FujitaKato1964' on page 6 undefined on input line 22.
+
+
+LaTeX Warning: Citation `Kato1984' on page 6 undefined on input line 22.
+
+
+LaTeX Warning: Citation `KochTataru2001' on page 6 undefined on input line 24.
+
+
+LaTeX Warning: Citation `Tao2013' on page 6 undefined on input line 26.
+
+[6]
+
+LaTeX Warning: Reference `thm:datum-rectangles' on page 7 undefined on input li
+ne 75.
+
+
+LaTeX Warning: Reference `eq:intro-all-orders-intersection' on page 7 undefined
+ on input line 98.
+
+
+LaTeX Warning: Reference `eq:intro-pressure-recurrence' on page 7 undefined on 
+input line 126.
+
+
+LaTeX Warning: Reference `eq:intro-velocity-recurrence' on page 7 undefined on 
+input line 127.
+
+[7]) (papers/navier-stokes/manuscript/generated/00-analytic-framework.tex
+[8]
+
+LaTeX Warning: Reference `eq:explicit-homogeneous-sobolev' on page 9 undefined 
+on input line 137.
+
+
+LaTeX Warning: Citation `Lieb1983' on page 9 undefined on input line 139.
+
+
+LaTeX Warning: Reference `eq:explicit-homogeneous-sobolev-squared-constant' on 
+page 9 undefined on input line 151.
+
+
+LaTeX Warning: Reference `eq:explicit-homogeneous-sobolev-constant' on page 9 u
+ndefined on input line 153.
+
+
+LaTeX Warning: Reference `eq:explicit-homogeneous-sobolev' on page 9 undefined 
+on input line 154.
+
+[9] [10]
+
+LaTeX Warning: Reference `lem:sobolev-product' on page 11 undefined on input li
+ne 308.
+
+[11]
+
+LaTeX Warning: Reference `eq:adjacent-trace-identity' on page 12 undefined on i
+nput line 366.
+
+
+LaTeX Warning: Reference `eq:adjacent-trace-modulus' on page 12 undefined on in
+put line 366.
+
+
+LaTeX Warning: Reference `eq:adjacent-trace-modulus' on page 12 undefined on in
+put line 373.
+
+[12]
+
+LaTeX Warning: Reference `eq:explicit-interpolation-three-point' on page 13 und
+efined on input line 472.
+
+
+LaTeX Warning: Reference `eq:explicit-derivative-interpolation' on page 13 unde
+fined on input line 476.
+
+
+LaTeX Warning: Reference `eq:explicit-derivative-interpolation' on page 13 unde
+fined on input line 531.
+
+[13]
+
+LaTeX Warning: Reference `eq:transport-commutator' on page 14 undefined on inpu
+t line 573.
+
+
+LaTeX Warning: Reference `eq:explicit-commutator-constant' on page 14 undefined
+ on input line 574.
+
+
+LaTeX Warning: Reference `eq:explicit-commutator-upper-bound' on page 14 undefi
+ned on input line 585.
+
+[14]
+
+LaTeX Warning: Reference `eq:shifted-mild-class-duhamel' on page 15 undefined o
+n input line 648.
+
+
+LaTeX Warning: Reference `eq:shifted-mild-class-datum-pressure' on page 15 unde
+fined on input line 658.
+
+[15]
+
+LaTeX Warning: Reference `eq:restart-linear-Laplacian' on page 16 undefined on 
+input line 760.
+
+
+LaTeX Warning: Reference `eq:restart-linear-CH3' on page 16 undefined on input 
+line 766.
+
+
+LaTeX Warning: Reference `eq:restart-linear-time' on page 16 undefined on input
+ line 766.
+
+
+LaTeX Warning: Reference `lem:sobolev-product' on page 16 undefined on input li
+ne 789.
+
+
+LaTeX Warning: Reference `lem:riesz-leray' on page 16 undefined on input line 7
+90.
+
+[16]
+
+LaTeX Warning: Reference `eq:restart-quadratic-bilinear' on page 17 undefined o
+n input line 840.
+
+
+LaTeX Warning: Reference `eq:restart-quadratic-bilinear' on page 17 undefined o
+n input line 880.
+
+
+LaTeX Warning: Reference `lem:riesz-leray' on page 17 undefined on input line 8
+87.
+
+[17]
+
+LaTeX Warning: Reference `lem:transport-commutator' on page 18 undefined on inp
+ut line 909.
+
+
+LaTeX Warning: Reference `eq:restart-cutoff-uniform-H3' on page 18 undefined on
+ input line 923.
+
+
+LaTeX Warning: Reference `lem:sobolev-product' on page 18 undefined on input li
+ne 951.
+
+[18]
+
+LaTeX Warning: Reference `lem:adjacent-trace' on page 19 undefined on input lin
+e 979.
+
+
+LaTeX Warning: Reference `lem:sobolev-product' on page 19 undefined on input li
+ne 992.
+
+
+LaTeX Warning: Reference `lem:riesz-leray' on page 19 undefined on input line 9
+92.
+
+
+LaTeX Warning: Reference `lem:mixed-leibniz' on page 19 undefined on input line
+ 1002.
+
+
+LaTeX Warning: Reference `lem:shifted-mild-restriction' on page 19 undefined on
+ input line 1015.
+
+) (papers/navier-stokes/manuscript/generated/01-setting-mixed-jet.tex
+
+LaTeX Warning: Reference `eq:formal-ns-system' on page 19 undefined on input li
+ne 38.
+
+
+LaTeX Warning: Reference `eq:formal-pressure-poisson' on page 19 undefined on i
+nput line 40.
+
+
+LaTeX Warning: Reference `lem:riesz-leray' on page 19 undefined on input line 4
+0.
+
+
+LaTeX Warning: Reference `eq:formal-pressure-poisson' on page 19 undefined on i
+nput line 46.
+
+
+LaTeX Warning: Reference `eq:formal-pressure-riesz' on page 19 undefined on inp
+ut line 50.
+
+
+LaTeX Warning: Reference `eq:formal-pressure-projected' on page 19 undefined on
+ input line 50.
+
+[19] [20]
+
+LaTeX Warning: Reference `eq:formal-history-pressure' on page 21 undefined on i
+nput line 147.
+
+
+LaTeX Warning: Reference `lem:mixed-leibniz' on page 21 undefined on input line
+ 148.
+
+
+LaTeX Warning: Reference `eq:formal-temporal-pressure-row' on page 21 undefined
+ on input line 149.
+
+
+LaTeX Warning: Reference `eq:formal-history-momentum' on page 21 undefined on i
+nput line 150.
+
+
+LaTeX Warning: Reference `eq:formal-temporal-velocity-row' on page 21 undefined
+ on input line 151.
+
+
+LaTeX Warning: Reference `lem:mixed-leibniz' on page 21 undefined on input line
+ 153.
+
+
+LaTeX Warning: Reference `eq:formal-mixed-pressure-row' on page 21 undefined on
+ input line 154.
+
+
+LaTeX Warning: Reference `eq:formal-mixed-velocity-row' on page 21 undefined on
+ input line 155.
+
+
+LaTeX Warning: Reference `eq:formal-history-divergence' on page 21 undefined on
+ input line 156.
+
+
+LaTeX Warning: Reference `eq:formal-mixed-divergence-row' on page 21 undefined 
+on input line 157.
+
+[21]
+
+LaTeX Warning: Reference `eq:formal-initial-base' on page 22 undefined on input
+ line 233.
+
+
+LaTeX Warning: Reference `eq:formal-initial-velocity' on page 22 undefined on i
+nput line 233.
+
+
+LaTeX Warning: Reference `eq:formal-temporal-pressure-row' on page 22 undefined
+ on input line 234.
+
+
+LaTeX Warning: Reference `eq:formal-temporal-velocity-row' on page 22 undefined
+ on input line 235.
+
+
+LaTeX Warning: Reference `lem:sobolev-product' on page 22 undefined on input li
+ne 237.
+
+
+LaTeX Warning: Reference `lem:riesz-leray' on page 22 undefined on input line 2
+37.
+
+
+LaTeX Warning: Reference `eq:formal-mixed-pressure-row' on page 22 undefined on
+ input line 244.
+
+
+LaTeX Warning: Reference `lem:sobolev-product' on page 22 undefined on input li
+ne 319.
+
+
+LaTeX Warning: Reference `lem:riesz-leray' on page 22 undefined on input line 3
+19.
+
+
+LaTeX Warning: Reference `eq:formal-temporal-pressure-row' on page 22 undefined
+ on input line 326.
+
+
+LaTeX Warning: Reference `eq:formal-pressure-bilinear' on page 22 undefined on 
+input line 327.
+
+
+LaTeX Warning: Reference `eq:formal-finite-pressure-L1' on page 22 undefined on
+ input line 337.
+
+[22]
+
+LaTeX Warning: Reference `eq:formal-finite-pressure-compressed' on page 23 unde
+fined on input line 345.
+
+
+LaTeX Warning: Reference `eq:formal-pressure-bilinear' on page 23 undefined on 
+input line 347.
+
+
+LaTeX Warning: Reference `eq:formal-mixed-pressure-row' on page 23 undefined on
+ input line 348.
+
+
+LaTeX Warning: Reference `eq:formal-finite-mixed-pressure-L1' on page 23 undefi
+ned on input line 349.
+
+
+LaTeX Warning: Reference `eq:formal-finite-mixed-pressure-compressed' on page 2
+3 undefined on input line 362.
+
+) (papers/navier-stokes/manuscript/generated/02-compatible-rectangles.tex
+
+LaTeX Warning: Reference `eq:kinetic-energy' on page 23 undefined on input line
+ 32.
+
+[23]
+
+LaTeX Warning: Reference `eq:sobolev-height-balance' on page 24 undefined on in
+put line 96.
+
+
+LaTeX Warning: Reference `eq:completed-height-every-temporal-row' on page 24 un
+defined on input line 108.
+
+
+LaTeX Warning: Reference `eq:completed-height-recurrence' on page 24 undefined 
+on input line 109.
+
+
+LaTeX Warning: Reference `eq:completed-height-row' on page 24 undefined on inpu
+t line 110.
+
+
+LaTeX Warning: Reference `prop:completed-height-recurrence' on page 24 undefine
+d on input line 127.
+
+
+LaTeX Warning: Reference `eq:finite-pressure-rectangle-norm' on page 24 undefin
+ed on input line 164.
+
+
+LaTeX Warning: Reference `prop:formal-mixed-recurrences' on page 24 undefined o
+n input line 165.
+
+[24]
+
+LaTeX Warning: Reference `eq:datum-adjacent-rows' on page 25 undefined on input
+ line 191.
+
+
+LaTeX Warning: Reference `eq:datum-adjacent-rows' on page 25 undefined on input
+ line 203.
+
+
+LaTeX Warning: Reference `eq:datum-rectangle-bound' on page 25 undefined on inp
+ut line 211.
+
+
+LaTeX Warning: Reference `eq:datum-adjacent-rows' on page 25 undefined on input
+ line 212.
+
+
+LaTeX Warning: Reference `eq:datum-adjacent-rows' on page 25 undefined on input
+ line 228.
+
+
+LaTeX Warning: Reference `eq:datum-adjacent-rows' on page 25 undefined on input
+ line 237.
+
+
+LaTeX Warning: Reference `eq:datum-rectangle-bound' on page 25 undefined on inp
+ut line 243.
+
+
+LaTeX Warning: Reference `eq:datum-rectangle-bound' on page 25 undefined on inp
+ut line 245.
+
+
+LaTeX Warning: Reference `eq:datum-terminal-monotone-realization' on page 25 un
+defined on input line 248.
+
+
+LaTeX Warning: Reference `eq:datum-adjacent-rows' on page 25 undefined on input
+ line 249.
+
+
+LaTeX Warning: Reference `prop:formal-mixed-recurrences' on page 25 undefined o
+n input line 250.
+
+
+LaTeX Warning: Reference `thm:datum-rectangles' on page 25 undefined on input l
+ine 257.
+
+[25]
+
+LaTeX Warning: Reference `eq:datum-terminal-monotone-realization' on page 26 un
+defined on input line 288.
+
+
+LaTeX Warning: Reference `eq:datum-completed-height-bound' on page 26 undefined
+ on input line 296.
+
+
+LaTeX Warning: Reference `eq:energy-Linf' on page 26 undefined on input line 30
+6.
+
+
+LaTeX Warning: Reference `eq:datum-completed-height-bound' on page 26 undefined
+ on input line 307.
+
+
+LaTeX Warning: Reference `eq:datum-height-to-spatial-column' on page 26 undefin
+ed on input line 308.
+
+
+LaTeX Warning: Reference `eq:datum-complete-height-and-spatial-columns' on page
+ 26 undefined on input line 309.
+
+
+LaTeX Warning: Reference `thm:datum-rectangles' on page 26 undefined on input l
+ine 316.
+
+
+LaTeX Warning: Reference `thm:formal-finite-row-pressure' on page 26 undefined 
+on input line 344.
+
+
+LaTeX Warning: Reference `eq:whole-terminal-pressure-bound' on page 26 undefine
+d on input line 352.
+
+
+LaTeX Warning: Reference `lem:sobolev-product' on page 26 undefined on input li
+ne 358.
+
+
+LaTeX Warning: Reference `thm:datum-rectangles' on page 26 undefined on input l
+ine 371.
+
+[26])
+(papers/navier-stokes/manuscript/generated/04-intersection-endpoint-restart.tex
+[27]
+
+LaTeX Warning: Reference `thm:datum-rectangles' on page 28 undefined on input l
+ine 61.
+
+
+LaTeX Warning: Reference `prop:rectangle-pressure-completion' on page 28 undefi
+ned on input line 63.
+
+
+LaTeX Warning: Reference `prop:rectangle-compatibility' on page 28 undefined on
+ input line 65.
+
+
+LaTeX Warning: Reference `eq:ier-compatible-family' on page 28 undefined on inp
+ut line 71.
+
+
+LaTeX Warning: Reference `eq:ier-inverse-velocity-coordinate' on page 28 undefi
+ned on input line 76.
+
+
+LaTeX Warning: Reference `eq:ier-inverse-pressure-coordinate' on page 28 undefi
+ned on input line 77.
+
+
+LaTeX Warning: Reference `eq:mixed-sobolev-intersection' on page 28 undefined o
+n input line 89.
+
+
+LaTeX Warning: Reference `eq:mixed-sobolev-finite-bound' on page 28 undefined o
+n input line 91.
+
+
+LaTeX Warning: Reference `thm:compatible-inverse-intersection' on page 28 undef
+ined on input line 97.
+
+
+LaTeX Warning: Reference `eq:mixed-sobolev-intersection' on page 28 undefined o
+n input line 115.
+
+
+LaTeX Warning: Reference `lem:sobolev-product' on page 28 undefined on input li
+ne 124.
+
+
+LaTeX Warning: Reference `lem:riesz-leray' on page 28 undefined on input line 1
+24.
+
+[28]
+
+LaTeX Warning: Reference `eq:ier-spatial-row-W11' on page 29 undefined on input
+ line 132.
+
+
+LaTeX Warning: Reference `eq:ier-common-spatial-endpoint' on page 29 undefined 
+on input line 138.
+
+
+LaTeX Warning: Reference `thm:compatible-inverse-intersection' on page 29 undef
+ined on input line 144.
+
+
+LaTeX Warning: Reference `prop:formal-mixed-recurrences' on page 29 undefined o
+n input line 174.
+
+
+LaTeX Warning: Reference `eq:ier-whole-terminal-bochner' on page 29 undefined o
+n input line 178.
+
+
+LaTeX Warning: Reference `eq:ier-finite-bochner-bound' on page 29 undefined on 
+input line 179.
+
+
+LaTeX Warning: Reference `thm:compatible-inverse-intersection' on page 29 undef
+ined on input line 180.
+
+
+LaTeX Warning: Reference `eq:ier-whole-terminal-mixed-upper' on page 29 undefin
+ed on input line 187.
+
+
+LaTeX Warning: Reference `eq:ier-finite-mixed-bound' on page 29 undefined on in
+put line 188.
+
+
+LaTeX Warning: Reference `prop:rectangle-pressure-completion' on page 29 undefi
+ned on input line 189.
+
+
+LaTeX Warning: Reference `eq:ier-whole-terminal-mixed-pressure' on page 29 unde
+fined on input line 190.
+
+
+LaTeX Warning: Reference `eq:ier-finite-mixed-pressure-bound' on page 29 undefi
+ned on input line 191.
+
+
+LaTeX Warning: Reference `prop:formal-mixed-recurrences' on page 29 undefined o
+n input line 192.
+
+[29]
+
+LaTeX Warning: Reference `thm:compatible-inverse-intersection' on page 30 undef
+ined on input line 199.
+
+
+LaTeX Warning: Reference `prop:ier-complete-spatial-endpoint' on page 30 undefi
+ned on input line 249.
+
+
+LaTeX Warning: Reference `thm:datum-rectangles' on page 30 undefined on input l
+ine 261.
+
+
+LaTeX Warning: Reference `lem:adjacent-trace' on page 30 undefined on input lin
+e 267.
+
+
+LaTeX Warning: Reference `eq:ier-row-trace' on page 30 undefined on input line 
+268.
+
+
+LaTeX Warning: Reference `eq:ier-row-trace' on page 30 undefined on input line 
+275.
+
+
+LaTeX Warning: Reference `eq:ier-finite-mixed-bound' on page 30 undefined on in
+put line 276.
+
+
+LaTeX Warning: Reference `eq:ier-mixed-row-trace' on page 30 undefined on input
+ line 277.
+
+
+LaTeX Warning: Reference `eq:ier-velocity-endpoint' on page 30 undefined on inp
+ut line 283.
+
+
+LaTeX Warning: Reference `eq:ier-mixed-velocity-endpoint' on page 30 undefined 
+on input line 284.
+
+
+LaTeX Warning: Reference `cor:ier-whole-terminal-mixed-jet' on page 30 undefine
+d on input line 288.
+
+
+LaTeX Warning: Reference `eq:ier-banach-fundamental-identity' on page 30 undefi
+ned on input line 300.
+
+
+LaTeX Warning: Reference `eq:ier-endpoint-velocity-modulus' on page 30 undefine
+d on input line 301.
+
+
+LaTeX Warning: Reference `eq:ier-endpoint-mixed-modulus' on page 30 undefined o
+n input line 302.
+
+
+LaTeX Warning: Reference `eq:ier-row-trace' on page 30 undefined on input line 
+303.
+
+
+LaTeX Warning: Reference `eq:ier-mixed-row-trace' on page 30 undefined on input
+ line 303.
+
+
+LaTeX Warning: Reference `eq:ier-banach-fundamental-identity' on page 30 undefi
+ned on input line 308.
+
+
+LaTeX Warning: Reference `eq:ier-complete-left-velocity-jet' on page 30 undefin
+ed on input line 310.
+
+
+LaTeX Warning: Reference `thm:compatible-inverse-intersection' on page 30 undef
+ined on input line 317.
+
+[30]
+
+LaTeX Warning: Reference `eq:ier-terminal-pressure-row' on page 31 undefined on
+ input line 362.
+
+
+LaTeX Warning: Reference `eq:ier-terminal-velocity-row' on page 31 undefined on
+ input line 363.
+
+
+LaTeX Warning: Reference `lem:sobolev-product' on page 31 undefined on input li
+ne 375.
+
+
+LaTeX Warning: Reference `lem:riesz-leray' on page 31 undefined on input line 3
+75.
+
+
+LaTeX Warning: Reference `eq:ier-row-trace' on page 31 undefined on input line 
+376.
+
+
+LaTeX Warning: Reference `eq:ier-endpoint-velocity-modulus' on page 31 undefine
+d on input line 385.
+
+
+LaTeX Warning: Reference `eq:ier-terminal-pressure-modulus' on page 31 undefine
+d on input line 388.
+
+
+LaTeX Warning: Reference `eq:ier-terminal-pressure-size' on page 31 undefined o
+n input line 393.
+
+
+LaTeX Warning: Reference `eq:ier-terminal-pressure-modulus' on page 31 undefine
+d on input line 394.
+
+
+LaTeX Warning: Reference `eq:ier-terminal-mixed-pressure-size' on page 31 undef
+ined on input line 395.
+
+
+LaTeX Warning: Reference `eq:ier-terminal-mixed-pressure-modulus' on page 31 un
+defined on input line 396.
+
+
+LaTeX Warning: Reference `eq:ier-terminal-mixed-pressure-row' on page 31 undefi
+ned on input line 398.
+
+
+LaTeX Warning: Reference `prop:formal-mixed-recurrences' on page 31 undefined o
+n input line 401.
+
+
+LaTeX Warning: Reference `eq:ier-terminal-pressure-modulus' on page 31 undefine
+d on input line 404.
+
+
+LaTeX Warning: Reference `eq:ier-terminal-velocity-row' on page 31 undefined on
+ input line 406.
+
+
+LaTeX Warning: Reference `eq:ier-terminal-pressure-modulus' on page 31 undefine
+d on input line 415.
+
+
+LaTeX Warning: Reference `eq:ier-complete-left-pressure-jet' on page 31 undefin
+ed on input line 425.
+
+[31]
+
+LaTeX Warning: Reference `thm:compatible-inverse-intersection' on page 32 undef
+ined on input line 431.
+
+
+LaTeX Warning: Reference `thm:local-restart' on page 32 undefined on input line
+ 438.
+
+
+LaTeX Warning: Reference `thm:local-restart' on page 32 undefined on input line
+ 448.
+
+
+LaTeX Warning: Reference `eq:ier-row-trace' on page 32 undefined on input line 
+460.
+
+
+LaTeX Warning: Reference `thm:local-restart' on page 32 undefined on input line
+ 472.
+
+
+LaTeX Warning: Reference `thm:local-restart' on page 32 undefined on input line
+ 473.
+
+
+LaTeX Warning: Reference `lem:shifted-mild-restriction' on page 32 undefined on
+ input line 474.
+
+
+LaTeX Warning: Reference `eq:ier-left-overlap' on page 32 undefined on input li
+ne 478.
+
+
+LaTeX Warning: Reference `lem:shifted-mild-restriction' on page 32 undefined on
+ input line 482.
+
+
+LaTeX Warning: Reference `eq:ier-right-overlap' on page 32 undefined on input l
+ine 486.
+
+
+LaTeX Warning: Reference `thm:compatible-inverse-intersection' on page 32 undef
+ined on input line 493.
+
+
+LaTeX Warning: Reference `lem:ier-late-slice-overlap' on page 32 undefined on i
+nput line 530.
+
+
+LaTeX Warning: Reference `thm:local-restart' on page 32 undefined on input line
+ 537.
+
+
+LaTeX Warning: Reference `prop:formal-mixed-recurrences' on page 32 undefined o
+n input line 539.
+
+
+LaTeX Warning: Reference `eq:ier-terminal-pressure-row' on page 32 undefined on
+ input line 547.
+
+
+LaTeX Warning: Reference `eq:ier-terminal-velocity-row' on page 32 undefined on
+ input line 548.
+
+[32]
+
+LaTeX Warning: Reference `eq:ier-complete-left-velocity-jet' on page 33 undefin
+ed on input line 566.
+
+
+LaTeX Warning: Reference `eq:ier-complete-left-pressure-jet' on page 33 undefin
+ed on input line 567.
+
+
+LaTeX Warning: Reference `eq:ier-left-right-jet-match' on page 33 undefined on 
+input line 568.
+
+
+LaTeX Warning: Reference `eq:ier-extension-smoothness' on page 33 undefined on 
+input line 570.
+
+
+LaTeX Warning: Reference `eq:ier-terminal-velocity-row' on page 33 undefined on
+ input line 571.
+
+
+LaTeX Warning: Reference `lem:ier-late-slice-overlap' on page 33 undefined on i
+nput line 572.
+
+
+LaTeX Warning: Reference `eq:ier-extension-identity' on page 33 undefined on in
+put line 575.
+
+
+LaTeX Warning: Reference `eq:ier-same-history-uniqueness-class' on page 33 unde
+fined on input line 576.
+
+
+LaTeX Warning: Reference `thm:local-restart' on page 33 undefined on input line
+ 579.
+
+
+LaTeX Warning: Reference `eq:ier-same-history-uniqueness' on page 33 undefined 
+on input line 580.
+
+
+LaTeX Warning: Reference `thm:datum-rectangles' on page 33 undefined on input l
+ine 590.
+
+
+LaTeX Warning: Reference `thm:compatible-inverse-intersection' on page 33 undef
+ined on input line 592.
+
+
+LaTeX Warning: Reference `thm:ier-same-history-restart' on page 33 undefined on
+ input line 593.
+
+
+LaTeX Warning: Reference `def:formal-maximal-history' on page 33 undefined on i
+nput line 595.
+
+[33]
+
+LaTeX Warning: Reference `thm:local-restart' on page 34 undefined on input line
+ 648.
+
+
+LaTeX Warning: Reference `lem:shifted-mild-restriction' on page 34 undefined on
+ input line 653.
+
+
+LaTeX Warning: Reference `thm:local-restart' on page 34 undefined on input line
+ 657.
+
+
+LaTeX Warning: Reference `def:formal-maximal-history' on page 34 undefined on i
+nput line 659.
+
+
+LaTeX Warning: Reference `cor:ier-maximal-time-contradiction' on page 34 undefi
+ned on input line 662.
+
+
+LaTeX Warning: Reference `thm:local-restart' on page 34 undefined on input line
+ 664.
+
+
+LaTeX Warning: Reference `prop:formal-mixed-recurrences' on page 34 undefined o
+n input line 666.
+
+
+LaTeX Warning: Reference `lem:sobolev-embedding' on page 34 undefined on input 
+line 667.
+
+
+LaTeX Warning: Reference `eq:ier-global-class' on page 34 undefined on input li
+ne 668.
+
+
+LaTeX Warning: Reference `lem:sobolev-embedding' on page 34 undefined on input 
+line 670.
+
+
+LaTeX Warning: Reference `eq:ier-global-pressure' on page 34 undefined on input
+ line 672.
+
+
+LaTeX Warning: Reference `lem:shifted-mild-restriction' on page 34 undefined on
+ input line 673.
+
+
+LaTeX Warning: Reference `thm:local-restart' on page 34 undefined on input line
+ 676.
+
+
+LaTeX Warning: Reference `prop:kinetic-energy' on page 34 undefined on input li
+ne 680.
+
+
+LaTeX Warning: Reference `eq:ier-global-energy' on page 34 undefined on input l
+ine 681.
+
+
+LaTeX Warning: Reference `eq:ier-global-energy-bound' on page 34 undefined on i
+nput line 682.
+
+) (papers/navier-stokes/manuscript/generated/03-matrix-forms.tex [34]
+
+LaTeX Warning: Reference `eq:formal-mixed-velocity-row' on page 35 undefined on
+ input line 69.
+
+
+LaTeX Warning: Reference `eq:formal-factorial-matrix-conjugacy' on page 35 unde
+fined on input line 116.
+
+
+LaTeX Warning: Reference `eq:formal-mixed-transport-row' on page 35 undefined o
+n input line 124.
+
+
+LaTeX Warning: Reference `eq:formal-mixed-velocity-row' on page 35 undefined on
+ input line 125.
+
+
+LaTeX Warning: Reference `eq:formal-mixed-divergence-row' on page 35 undefined 
+on input line 133.
+
+
+LaTeX Warning: Reference `eq:formal-mixed-projected-matrix-row' on page 35 unde
+fined on input line 134.
+
+
+LaTeX Warning: Reference `eq:formal-mixed-matrix-pressure-row' on page 35 undef
+ined on input line 135.
+
+
+LaTeX Warning: Reference `eq:formal-mixed-pressure-row' on page 35 undefined on
+ input line 136.
+
+
+LaTeX Warning: Reference `eq:formal-factorial-velocity-convolution' on page 35 
+undefined on input line 147.
+
+
+LaTeX Warning: Reference `eq:formal-factorial-pressure-convolution' on page 35 
+undefined on input line 148.
+
+
+LaTeX Warning: Reference `eq:formal-factorial-matrix-conjugacy' on page 35 unde
+fined on input line 150.
+
+[35]
+
+LaTeX Warning: Reference `eq:formal-mixed-matrix-pressure-row' on page 36 undef
+ined on input line 224.
+
+
+LaTeX Warning: Reference `def:finite-rectangle' on page 36 undefined on input l
+ine 228.
+
+
+LaTeX Warning: Reference `eq:rectangle-matrix-norm-identities' on page 36 undef
+ined on input line 230.
+
+
+LaTeX Warning: Reference `eq:finite-rectangle-norm' on page 36 undefined on inp
+ut line 231.
+
+
+LaTeX Warning: Reference `eq:finite-pressure-rectangle-norm' on page 36 undefin
+ed on input line 232.
+
+
+LaTeX Warning: Reference `lem:adjacent-trace' on page 36 undefined on input lin
+e 232.
+
+
+LaTeX Warning: Reference `eq:rectangle-adjacent-stencil' on page 36 undefined o
+n input line 233.
+
+
+LaTeX Warning: Reference `eq:rectangle-mixed-index-sobolev-identity' on page 36
+ undefined on input line 239.
+
+
+LaTeX Warning: Reference `eq:formal-mixed-matrix-pressure-row' on page 36 undef
+ined on input line 241.
+
+
+LaTeX Warning: Reference `thm:datum-rectangles' on page 36 undefined on input l
+ine 246.
+
+[36]
+
+LaTeX Warning: Reference `prop:datum-terminal-realization' on page 37 undefined
+ on input line 284.
+
+
+LaTeX Warning: Reference `eq:datum-terminal-matrix-bound' on page 37 undefined 
+on input line 287.
+
+
+LaTeX Warning: Reference `eq:rectangle-matrix-norm-identities' on page 37 undef
+ined on input line 288.
+
+
+LaTeX Warning: Reference `eq:datum-terminal-monotone-realization' on page 37 un
+defined on input line 289.
+
+
+LaTeX Warning: Reference `eq:datum-terminal-finite-sum' on page 37 undefined on
+ input line 290.
+
+) (papers/navier-stokes/manuscript/generated/03-quantitative-consequences.tex
+[37]
+
+LaTeX Warning: Reference `eq:qc-H1-ode' on page 38 undefined on input line 131.
+
+
+
+LaTeX Warning: Reference `eq:qc-H1-local-explicit' on page 38 undefined on inpu
+t line 132.
+
+
+LaTeX Warning: Reference `eq:qc-H1-local-lifespan' on page 38 undefined on inpu
+t line 133.
+
+
+LaTeX Warning: Citation `Aubin1963' on page 38 undefined on input line 156.
+
+
+LaTeX Warning: Citation `Simon1987' on page 38 undefined on input line 156.
+
+
+LaTeX Warning: Reference `eq:qc-H1-Friedrichs-uniform' on page 38 undefined on 
+input line 170.
+
+
+LaTeX Warning: Citation `LionsMagenes1972' on page 38 undefined on input line 1
+90.
+
+
+LaTeX Warning: Reference `eq:qc-H1-Friedrichs-initial-trace' on page 38 undefin
+ed on input line 193.
+
+[38]
+
+LaTeX Warning: Reference `eq:qc-H1-stability' on page 39 undefined on input lin
+e 234.
+
+
+LaTeX Warning: Citation `Tao2013' on page 39 undefined on input line 238.
+
+
+LaTeX Warning: Reference `eq:qc-H1-smoothing-smallness' on page 39 undefined on
+ input line 252.
+
+
+LaTeX Warning: Citation `Tao2013' on page 39 undefined on input line 253.
+
+
+LaTeX Warning: Reference `eq:qc-H1-positive-time-smoothing' on page 39 undefine
+d on input line 262.
+
+
+LaTeX Warning: Reference `lem:sobolev-product' on page 39 undefined on input li
+ne 263.
+
+
+LaTeX Warning: Reference `eq:qc-H1-spacetime-bootstrap' on page 39 undefined on
+ input line 274.
+
+
+LaTeX Warning: Reference `eq:qc-H1-positive-time-smoothing' on page 39 undefine
+d on input line 281.
+
+
+LaTeX Warning: Reference `thm:ier-global-smoothness' on page 39 undefined on in
+put line 282.
+
+
+LaTeX Warning: Reference `eq:qc-global-H1-class' on page 39 undefined on input 
+line 285.
+
+[39]
+
+LaTeX Warning: Reference `prop:datum-terminal-realization' on page 40 undefined
+ on input line 328.
+
+
+LaTeX Warning: Reference `thm:ier-compatible-endpoint-traces' on page 40 undefi
+ned on input line 330.
+
+
+LaTeX Warning: Reference `eq:datum-rectangle-bound' on page 40 undefined on inp
+ut line 343.
+
+
+LaTeX Warning: Reference `eq:qc-producer-finiteness' on page 40 undefined on in
+put line 344.
+
+
+LaTeX Warning: Reference `eq:finite-rectangle-norm' on page 40 undefined on inp
+ut line 350.
+
+
+LaTeX Warning: Reference `eq:qc-producer-finiteness' on page 40 undefined on in
+put line 351.
+
+[40]
+
+LaTeX Warning: Reference `lem:sobolev-product' on page 41 undefined on input li
+ne 419.
+
+
+LaTeX Warning: Reference `lem:riesz-leray' on page 41 undefined on input line 4
+19.
+
+
+LaTeX Warning: Reference `eq:qc-product-constant' on page 41 undefined on input
+ line 434.
+
+
+LaTeX Warning: Reference `eq:qc-pressure-product-constant' on page 41 undefined
+ on input line 435.
+
+
+LaTeX Warning: Reference `eq:qc-embedding-constant' on page 41 undefined on inp
+ut line 455.
+
+
+LaTeX Warning: Reference `eq:qc-algebra-constant' on page 41 undefined on input
+ line 457.
+
+
+LaTeX Warning: Reference `lem:sobolev-product' on page 41 undefined on input li
+ne 458.
+
+[41]
+
+LaTeX Warning: Reference `eq:rectangle-matrix-norm-identities' on page 42 undef
+ined on input line 495.
+
+
+LaTeX Warning: Reference `eq:qc-canonical-rectangle-majorant' on page 42 undefi
+ned on input line 496.
+
+[42]
+
+LaTeX Warning: Reference `eq:qc-row-viscosity-scaling' on page 43 undefined on 
+input line 612.
+
+
+LaTeX Warning: Reference `eq:qc-row-viscosity-scaling' on page 43 undefined on 
+input line 670.
+
+
+LaTeX Warning: Reference `eq:qc-rectangle-viscosity-scaling' on page 43 undefin
+ed on input line 672.
+
+
+LaTeX Warning: Reference `eq:qc-pressure-sup-viscosity-scaling' on page 43 unde
+fined on input line 673.
+
+
+LaTeX Warning: Reference `eq:qc-initial-jet-viscosity-scaling' on page 43 undef
+ined on input line 674.
+
+
+LaTeX Warning: Reference `eq:qc-D0' on page 43 undefined on input line 675.
+
+
+LaTeX Warning: Reference `eq:qc-Drec' on page 43 undefined on input line 675.
+
+
+LaTeX Warning: Reference `eq:qc-critical-height-viscosity-scaling' on page 43 u
+ndefined on input line 677.
+
+
+LaTeX Warning: Reference `eq:qc-critical-height-mass-viscosity-scaling' on page
+ 43 undefined on input line 679.
+
+
+LaTeX Warning: Reference `eq:qc-maximal-lifespan-viscosity-scaling' on page 43 
+undefined on input line 695.
+
+[43]
+
+LaTeX Warning: Reference `eq:qc-height-spatial-bounds' on page 44 undefined on 
+input line 784.
+
+
+LaTeX Warning: Reference `eq:qc-B-by-height-reconstruction' on page 44 undefine
+d on input line 785.
+
+
+LaTeX Warning: Reference `eq:qc-height-spatial-bounds' on page 44 undefined on 
+input line 792.
+
+
+LaTeX Warning: Reference `eq:energy-Linf' on page 44 undefined on input line 79
+7.
+
+
+LaTeX Warning: Reference `eq:qc-product-constant' on page 44 undefined on input
+ line 799.
+
+[44]
+
+LaTeX Warning: Reference `eq:qc-height-temporal-row-bound' on page 45 undefined
+ on input line 811.
+
+
+LaTeX Warning: Reference `eq:qc-pressure-product-constant' on page 45 undefined
+ on input line 813.
+
+
+LaTeX Warning: Reference `eq:qc-height-pressure-row-bound' on page 45 undefined
+ on input line 814.
+
+
+LaTeX Warning: Reference `eq:qc-product-constant' on page 45 undefined on input
+ line 815.
+
+
+LaTeX Warning: Reference `eq:qc-height-temporal-majorant' on page 45 undefined 
+on input line 816.
+
+
+LaTeX Warning: Reference `eq:qc-height-temporal-row-bound' on page 45 undefined
+ on input line 817.
+
+
+LaTeX Warning: Reference `eq:qc-height-pressure-row-bound' on page 45 undefined
+ on input line 818.
+
+
+LaTeX Warning: Reference `eq:qc-B-by-height-reconstruction' on page 45 undefine
+d on input line 821.
+
+
+LaTeX Warning: Reference `eq:qc-height-pressure-row-bound' on page 45 undefined
+ on input line 823.
+
+
+LaTeX Warning: Reference `eq:qc-pressure-by-height-reconstruction' on page 45 u
+ndefined on input line 824.
+
+
+LaTeX Warning: Reference `eq:qc-height-temporal-majorant' on page 45 undefined 
+on input line 825.
+
+
+LaTeX Warning: Reference `eq:qc-height-reconstruction-dependence' on page 45 un
+defined on input line 826.
+
+
+LaTeX Warning: Reference `eq:qc-X-bound' on page 45 undefined on input line 841
+.
+
+
+LaTeX Warning: Reference `eq:qc-B-matrix-identity' on page 45 undefined on inpu
+t line 843.
+
+
+LaTeX Warning: Reference `eq:qc-product-constant' on page 45 undefined on input
+ line 854.
+
+
+LaTeX Warning: Reference `eq:qc-D-bound' on page 45 undefined on input line 855
+.
+
+
+LaTeX Warning: Reference `eq:qc-Drec' on page 45 undefined on input line 856.
+
+
+LaTeX Warning: Reference `eq:energy-Linf' on page 45 undefined on input line 86
+3.
+
+
+LaTeX Warning: Reference `eq:qc-Y0' on page 45 undefined on input line 864.
+
+
+LaTeX Warning: Reference `eq:qc-Y-bound' on page 45 undefined on input line 872
+.
+
+
+LaTeX Warning: Reference `eq:qc-X-bound' on page 45 undefined on input line 880
+.
+
+
+LaTeX Warning: Reference `eq:qc-Xraw' on page 45 undefined on input line 880.
+
+
+LaTeX Warning: Reference `eq:energy-Linf' on page 45 undefined on input line 88
+1.
+
+
+LaTeX Warning: Reference `eq:energy-L2H1' on page 45 undefined on input line 88
+2.
+
+
+LaTeX Warning: Reference `eq:qc-D-bound' on page 45 undefined on input line 888
+.
+
+
+LaTeX Warning: Reference `eq:qc-Y-bound' on page 45 undefined on input line 893
+.
+
+
+LaTeX Warning: Reference `eq:qc-Z-bound' on page 45 undefined on input line 894
+.
+
+[45]
+
+LaTeX Warning: Reference `eq:qc-producer-constant' on page 46 undefined on inpu
+t line 1004.
+
+
+LaTeX Warning: Reference `eq:qc-mixed-adjacent' on page 46 undefined on input l
+ine 1005.
+
+
+LaTeX Warning: Reference `eq:qc-mixed-trace' on page 46 undefined on input line
+ 1014.
+
+
+LaTeX Warning: Reference `eq:qc-mixed-endpoint-size' on page 46 undefined on in
+put line 1015.
+
+[46]
+
+LaTeX Warning: Reference `eq:qc-mixed-low-modulus' on page 47 undefined on inpu
+t line 1024.
+
+
+LaTeX Warning: Reference `eq:qc-mixed-strong-modulus' on page 47 undefined on i
+nput line 1026.
+
+
+LaTeX Warning: Reference `eq:qc-mixed-interpolated-modulus' on page 47 undefine
+d on input line 1029.
+
+
+LaTeX Warning: Reference `eq:qc-mixed-trace' on page 47 undefined on input line
+ 1030.
+
+
+LaTeX Warning: Reference `eq:qc-mixed-la-lb' on page 47 undefined on input line
+ 1030.
+
+
+LaTeX Warning: Reference `eq:qc-mixed-adjacent' on page 47 undefined on input l
+ine 1031.
+
+
+LaTeX Warning: Reference `eq:qc-mixed-l2-lb' on page 47 undefined on input line
+ 1031.
+
+
+LaTeX Warning: Reference `eq:qc-product-constant' on page 47 undefined on input
+ line 1087.
+
+
+LaTeX Warning: Reference `eq:qc-pressure-l1' on page 47 undefined on input line
+ 1094.
+
+
+LaTeX Warning: Reference `eq:qc-pressure-l2' on page 47 undefined on input line
+ 1097.
+
+
+LaTeX Warning: Reference `eq:qc-pressure-sup' on page 47 undefined on input lin
+e 1098.
+
+
+LaTeX Warning: Reference `eq:qc-pressure-endpoint' on page 47 undefined on inpu
+t line 1099.
+
+
+LaTeX Warning: Reference `eq:qc-pressure-recurrence' on page 47 undefined on in
+put line 1101.
+
+
+LaTeX Warning: Reference `eq:qc-mixed-strong-modulus' on page 47 undefined on i
+nput line 1103.
+
+
+LaTeX Warning: Reference `eq:qc-mixed-trace' on page 47 undefined on input line
+ 1104.
+
+
+LaTeX Warning: Reference `eq:qc-pressure-modulus' on page 47 undefined on input
+ line 1105.
+
+
+LaTeX Warning: Reference `eq:qc-pressure-la-lb' on page 47 undefined on input l
+ine 1105.
+
+
+LaTeX Warning: Reference `eq:qc-pressure-sup' on page 47 undefined on input lin
+e 1106.
+
+[47]
+
+LaTeX Warning: Reference `thm:datum-rectangles' on page 48 undefined on input l
+ine 1124.
+
+
+LaTeX Warning: Reference `prop:rectangle-pressure-completion' on page 48 undefi
+ned on input line 1125.
+
+
+LaTeX Warning: Reference `eq:qc-closed-rectangle-matrix' on page 48 undefined o
+n input line 1154.
+
+
+LaTeX Warning: Reference `eq:qc-X-bound' on page 48 undefined on input line 115
+5.
+
+
+LaTeX Warning: Reference `eq:qc-pressure-recurrence' on page 48 undefined on in
+put line 1156.
+
+
+LaTeX Warning: Reference `eq:qc-pressure-product-constant' on page 48 undefined
+ on input line 1157.
+
+
+LaTeX Warning: Reference `eq:qc-Q1' on page 48 undefined on input line 1158.
+
+
+LaTeX Warning: Reference `eq:rectangle-matrix-norm-identities' on page 48 undef
+ined on input line 1160.
+
+
+LaTeX Warning: Reference `eq:qc-velocity-tail-sup' on page 48 undefined on inpu
+t line 1189.
+
+
+LaTeX Warning: Reference `eq:qc-pressure-tail-sup' on page 48 undefined on inpu
+t line 1190.
+
+
+LaTeX Warning: Reference `eq:qc-mixed-adjacent' on page 48 undefined on input l
+ine 1200.
+
+
+LaTeX Warning: Reference `eq:qc-mixed-trace' on page 48 undefined on input line
+ 1200.
+
+[48]
+
+LaTeX Warning: Reference `eq:qc-pressure-L1-sharp' on page 49 undefined on inpu
+t line 1208.
+
+
+LaTeX Warning: Reference `eq:qc-pressure-tail-l1' on page 49 undefined on input
+ line 1209.
+
+
+LaTeX Warning: Reference `eq:qc-pressure-sup' on page 49 undefined on input lin
+e 1210.
+
+
+LaTeX Warning: Reference `eq:qc-pressure-tail-sup' on page 49 undefined on inpu
+t line 1211.
+
+
+LaTeX Warning: Reference `eq:qc-X-bound' on page 49 undefined on input line 125
+9.
+
+
+LaTeX Warning: Reference `eq:qc-dyadic-shell-sum' on page 49 undefined on input
+ line 1259.
+
+
+LaTeX Warning: Reference `eq:qc-dyadic-vorticity-sum' on page 49 undefined on i
+nput line 1262.
+
+[49]
+
+LaTeX Warning: Reference `eq:qc-critical-sup' on page 50 undefined on input lin
+e 1329.
+
+
+LaTeX Warning: Reference `eq:qc-critical-mass' on page 50 undefined on input li
+ne 1330.
+
+
+LaTeX Warning: Reference `eq:qc-mixed-trace' on page 50 undefined on input line
+ 1332.
+
+
+LaTeX Warning: Reference `eq:qc-mixed-adjacent' on page 50 undefined on input l
+ine 1332.
+
+
+LaTeX Warning: Reference `eq:qc-critical-tail-sup' on page 50 undefined on inpu
+t line 1337.
+
+
+LaTeX Warning: Reference `eq:qc-critical-tail-mass' on page 50 undefined on inp
+ut line 1338.
+
+
+LaTeX Warning: Reference `eq:qc-height-derivatives' on page 50 undefined on inp
+ut line 1348.
+
+
+LaTeX Warning: Reference `eq:qc-critical-dissipation' on page 50 undefined on i
+nput line 1355.
+
+
+LaTeX Warning: Reference `eq:qc-critical-current' on page 50 undefined on input
+ line 1357.
+
+
+LaTeX Warning: Reference `eq:qc-mixed-trace' on page 50 undefined on input line
+ 1371.
+
+
+LaTeX Warning: Reference `eq:qc-critical-endpoint-modulus' on page 50 undefined
+ on input line 1372.
+
+
+LaTeX Warning: Reference `eq:qc-critical-tail-sup' on page 50 undefined on inpu
+t line 1376.
+
+[50]
+
+LaTeX Warning: Reference `eq:explicit-commutator-constant' on page 51 undefined
+ on input line 1400.
+
+
+LaTeX Warning: Reference `eq:qc-l2-linfty' on page 51 undefined on input line 1
+420.
+
+
+LaTeX Warning: Reference `eq:qc-lipschitz-action' on page 51 undefined on input
+ line 1421.
+
+
+LaTeX Warning: Reference `eq:qc-vorticity-action' on page 51 undefined on input
+ line 1423.
+
+
+LaTeX Warning: Reference `eq:qc-commutator-constant' on page 51 undefined on in
+put line 1424.
+
+
+LaTeX Warning: Reference `eq:qc-lipschitz-action' on page 51 undefined on input
+ line 1435.
+
+
+LaTeX Warning: Reference `eq:qc-continuation-growth' on page 51 undefined on in
+put line 1436.
+
+
+LaTeX Warning: Reference `thm:ier-same-history-restart' on page 51 undefined on
+ input line 1465.
+
+
+LaTeX Warning: Reference `eq:ier-endpoint-velocity-size' on page 51 undefined o
+n input line 1496.
+
+
+LaTeX Warning: Reference `eq:qc-Z-bound' on page 51 undefined on input line 149
+7.
+
+[51]
+
+LaTeX Warning: Reference `thm:local-restart' on page 52 undefined on input line
+ 1506.
+
+
+LaTeX Warning: Reference `eq:qc-restart-base-size' on page 52 undefined on inpu
+t line 1509.
+
+
+LaTeX Warning: Reference `prop:qc-continuation-norms' on page 52 undefined on i
+nput line 1517.
+
+
+LaTeX Warning: Reference `eq:qc-restart-persistence-size' on page 52 undefined 
+on input line 1519.
+
+
+LaTeX Warning: Reference `thm:ier-same-history-restart' on page 52 undefined on
+ input line 1520.
+
+
+LaTeX Warning: Reference `eq:qc-restart-lower-bound' on page 52 undefined on in
+put line 1522.
+
+)
+(papers/navier-stokes/manuscript/generated/05-three-dimensional-applications.te
+x
+
+LaTeX Warning: Citation `FujitaKato1964' on page 52 undefined on input line 8.
+
+
+LaTeX Warning: Reference `eq:app-critical-action-identity' on page 52 undefined
+ on input line 61.
+
+[52]
+
+LaTeX Warning: Reference `eq:app-high-order-critical-commutator' on page 53 und
+efined on input line 96.
+
+
+LaTeX Warning: Reference `eq:app-high-order-critical-commutator' on page 53 und
+efined on input line 98.
+
+
+LaTeX Warning: Reference `lem:explicit-homogeneous-sobolev' on page 53 undefine
+d on input line 121.
+
+
+LaTeX Warning: Reference `eq:app-explicit-homogeneous-commutator-constant' on p
+age 53 undefined on input line 149.
+
+
+LaTeX Warning: Reference `eq:app-high-order-critical-commutator' on page 53 und
+efined on input line 150.
+
+[53]
+
+LaTeX Warning: Reference `thm:local-restart' on page 54 undefined on input line
+ 223.
+
+
+LaTeX Warning: Reference `eq:app-critical-source-constant-chain' on page 54 und
+efined on input line 247.
+
+
+LaTeX Warning: Reference `eq:app-critical-action-identity' on page 54 undefined
+ on input line 248.
+
+
+LaTeX Warning: Reference `eq:app-critical-stock-action' on page 54 undefined on
+ input line 257.
+
+[54]
+
+LaTeX Warning: Reference `eq:app-critical-action-identity' on page 55 undefined
+ on input line 262.
+
+
+LaTeX Warning: Reference `eq:app-small-critical-nonlinear-bound' on page 55 und
+efined on input line 263.
+
+
+LaTeX Warning: Reference `eq:app-small-first-temporal-response' on page 55 unde
+fined on input line 264.
+
+
+LaTeX Warning: Reference `lem:app-critical-commutator' on page 55 undefined on 
+input line 268.
+
+
+LaTeX Warning: Reference `eq:app-small-data-finite-order' on page 55 undefined 
+on input line 281.
+
+
+LaTeX Warning: Reference `eq:app-small-data-Hm' on page 55 undefined on input l
+ine 285.
+
+
+LaTeX Warning: Reference `eq:app-small-data-Hm' on page 55 undefined on input l
+ine 288.
+
+
+LaTeX Warning: Reference `thm:local-restart' on page 55 undefined on input line
+ 294.
+
+
+LaTeX Warning: Reference `thm:app-small-critical-global' on page 55 undefined o
+n input line 334.
+
+[55]
+
+LaTeX Warning: Reference `prop:qc-closed-rectangle-matrix' on page 56 undefined
+ on input line 359.
+
+
+LaTeX Warning: Reference `eq:app-small-rectangle-matrix' on page 56 undefined o
+n input line 387.
+
+
+LaTeX Warning: Reference `eq:app-small-data-Hm' on page 56 undefined on input l
+ine 392.
+
+
+LaTeX Warning: Reference `eq:app-small-time-row' on page 56 undefined on input 
+line 393.
+
+
+LaTeX Warning: Reference `eq:formal-mixed-projected-matrix-row' on page 56 unde
+fined on input line 397.
+
+
+LaTeX Warning: Reference `eq:formal-factorial-velocity-convolution' on page 56 
+undefined on input line 398.
+
+
+LaTeX Warning: Reference `eq:qc-product-constant' on page 56 undefined on input
+ line 399.
+
+
+LaTeX Warning: Reference `eq:app-small-time-row' on page 56 undefined on input 
+line 400.
+
+
+LaTeX Warning: Reference `eq:app-small-Yrec' on page 56 undefined on input line
+ 401.
+
+
+LaTeX Warning: Reference `eq:app-small-rectangle' on page 56 undefined on input
+ line 403.
+
+
+LaTeX Warning: Reference `eq:qc-pressure-product-constant' on page 56 undefined
+ on input line 404.
+
+
+LaTeX Warning: Reference `eq:app-small-pressure-rectangle' on page 56 undefined
+ on input line 406.
+
+
+LaTeX Warning: Reference `eq:app-small-rectangle-matrix' on page 56 undefined o
+n input line 407.
+
+
+LaTeX Warning: Reference `eq:app-small-rectangle' on page 56 undefined on input
+ line 409.
+
+
+LaTeX Warning: Reference `eq:app-small-pressure-rectangle' on page 56 undefined
+ on input line 410.
+
+
+LaTeX Warning: Reference `thm:ier-global-smoothness' on page 56 undefined on in
+put line 422.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-mixed-Lab' on page 56 undefined on input 
+line 439.
+
+
+LaTeX Warning: Reference `eq:app-LinfL3' on page 56 undefined on input line 441
+.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-mixed-L2b' on page 56 undefined on input 
+line 441.
+
+
+LaTeX Warning: Reference `eq:app-L2Linfty' on page 56 undefined on input line 4
+43.
+
+
+LaTeX Warning: Reference `eq:app-grad-L2L3' on page 56 undefined on input line 
+444.
+
+
+LaTeX Warning: Reference `thm:ier-global-smoothness' on page 56 undefined on in
+put line 452.
+
+
+LaTeX Warning: Citation `CKN1982' on page 56 undefined on input line 454.
+
+[56]
+
+LaTeX Warning: Reference `eq:qc-sharp-mixed-sup' on page 57 undefined on input 
+line 487.
+
+
+LaTeX Warning: Reference `eq:qc-embedding-constant' on page 57 undefined on inp
+ut line 488.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-pressure-sup' on page 57 undefined on inp
+ut line 492.
+
+
+LaTeX Warning: Reference `eq:qc-embedding-constant' on page 57 undefined on inp
+ut line 493.
+
+
+LaTeX Warning: Reference `eq:app-scale-content-bound' on page 57 undefined on i
+nput line 504.
+
+
+LaTeX Warning: Reference `eq:app-scale-content-uniform-limit' on page 57 undefi
+ned on input line 506.
+
+
+LaTeX Warning: Reference `thm:ier-global-smoothness' on page 57 undefined on in
+put line 515.
+
+
+LaTeX Warning: Reference `eq:app-vorticity-equation' on page 57 undefined on in
+put line 551.
+
+[57]
+
+LaTeX Warning: Reference `eq:app-vorticity-transport-cutoff' on page 58 undefin
+ed on input line 592.
+
+
+LaTeX Warning: Reference `eq:app-vorticity-regularized-diffusion' on page 58 un
+defined on input line 606.
+
+
+LaTeX Warning: Reference `eq:app-vorticity-Lr-energy' on page 58 undefined on i
+nput line 630.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-lipschitz-action' on page 58 undefined on
+ input line 631.
+
+
+LaTeX Warning: Reference `eq:app-vorticity-Lr-amplification' on page 58 undefin
+ed on input line 636.
+
+
+LaTeX Warning: Reference `eq:app-vorticity-Lr-energy' on page 58 undefined on i
+nput line 637.
+
+
+LaTeX Warning: Reference `eq:app-vorticity-dissipation' on page 58 undefined on
+ input line 641.
+
+[58]
+
+LaTeX Warning: Reference `eq:app-vorticity-Lr-amplification' on page 59 undefin
+ed on input line 652.
+
+
+LaTeX Warning: Reference `eq:app-vorticity-Lr-amplification' on page 59 undefin
+ed on input line 657.
+
+
+LaTeX Warning: Reference `eq:app-vortex-stretching-action' on page 59 undefined
+ on input line 658.
+
+
+LaTeX Warning: Reference `thm:ier-global-smoothness' on page 59 undefined on in
+put line 665.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-L2Linfty' on page 59 undefined on input l
+ine 696.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-lipschitz-action' on page 59 undefined on
+ input line 697.
+
+
+LaTeX Warning: Reference `eq:app-flow-ode' on page 59 undefined on input line 7
+03.
+
+
+LaTeX Warning: Reference `eq:app-flow-displacement' on page 59 undefined on inp
+ut line 705.
+
+
+LaTeX Warning: Reference `eq:app-flow-bilipschitz' on page 59 undefined on inpu
+t line 707.
+
+
+LaTeX Warning: Reference `eq:app-flow-ode' on page 59 undefined on input line 7
+09.
+
+
+LaTeX Warning: Reference `eq:app-flow-jacobian' on page 59 undefined on input l
+ine 717.
+
+
+LaTeX Warning: Citation `Leray1934' on page 59 undefined on input line 723.
+
+
+LaTeX Warning: Citation `Hopf1951' on page 59 undefined on input line 723.
+
+
+LaTeX Warning: Citation `Serrin1962' on page 59 undefined on input line 724.
+
+[59]
+
+LaTeX Warning: Reference `def:app-leray-hopf' on page 60 undefined on input lin
+e 768.
+
+
+LaTeX Warning: Reference `eq:app-solenoidal-density-strong' on page 60 undefine
+d on input line 797.
+
+[60]
+
+LaTeX Warning: Reference `eq:app-fixed-compact-antidivergence' on page 61 undef
+ined on input line 862.
+
+
+LaTeX Warning: Reference `eq:app-scaled-compact-antidivergence' on page 61 unde
+fined on input line 888.
+
+
+LaTeX Warning: Reference `eq:app-scaled-compact-antidivergence' on page 61 unde
+fined on input line 897.
+
+
+LaTeX Warning: Reference `eq:app-solenoidal-cutoff-tail' on page 61 undefined o
+n input line 904.
+
+
+LaTeX Warning: Reference `eq:app-solenoidal-density-uniform' on page 61 undefin
+ed on input line 906.
+
+
+LaTeX Warning: Reference `thm:ier-global-smoothness' on page 61 undefined on in
+put line 918.
+
+[61]
+
+LaTeX Warning: Reference `lem:app-solenoidal-density' on page 62 undefined on i
+nput line 961.
+
+
+LaTeX Warning: Reference `eq:app-solenoidal-density-time' on page 62 undefined 
+on input line 967.
+
+
+LaTeX Warning: Reference `eq:app-strong-test-density' on page 62 undefined on i
+nput line 968.
+
+
+LaTeX Warning: Reference `eq:app-leray-weak-form' on page 62 undefined on input
+ line 975.
+
+
+LaTeX Warning: Reference `eq:app-strong-test-density' on page 62 undefined on i
+nput line 976.
+
+
+LaTeX Warning: Reference `eq:app-cross-energy' on page 62 undefined on input li
+ne 1022.
+
+[62]
+
+LaTeX Warning: Reference `thm:ier-global-smoothness' on page 63 undefined on in
+put line 1029.
+
+
+LaTeX Warning: Reference `eq:app-leray-energy' on page 63 undefined on input li
+ne 1066.
+
+
+LaTeX Warning: Reference `eq:ier-global-energy' on page 63 undefined on input l
+ine 1067.
+
+
+LaTeX Warning: Reference `eq:app-cross-energy' on page 63 undefined on input li
+ne 1067.
+
+
+LaTeX Warning: Reference `eq:app-relative-energy-raw' on page 63 undefined on i
+nput line 1077.
+
+
+LaTeX Warning: Reference `eq:app-relative-energy-raw' on page 63 undefined on i
+nput line 1083.
+
+
+LaTeX Warning: Reference `eq:app-relative-energy-action' on page 63 undefined o
+n input line 1084.
+
+
+LaTeX Warning: Reference `prop:qc-continuation-norms' on page 63 undefined on i
+nput line 1087.
+
+
+LaTeX Warning: Reference `eq:app-relative-energy-producer' on page 63 undefined
+ on input line 1094.
+
+[63]
+
+LaTeX Warning: Reference `eq:app-relative-energy-raw' on page 64 undefined on i
+nput line 1104.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-L2Linfty' on page 64 undefined on input l
+ine 1124.
+
+
+LaTeX Warning: Reference `eq:app-relative-energy-low-rectangle' on page 64 unde
+fined on input line 1129.
+
+
+LaTeX Warning: Reference `thm:app-small-critical-global' on page 64 undefined o
+n input line 1134.
+
+
+LaTeX Warning: Reference `eq:app-small-data-Hm' on page 64 undefined on input l
+ine 1151.
+
+
+LaTeX Warning: Reference `thm:app-small-critical-global' on page 64 undefined o
+n input line 1157.
+
+
+LaTeX Warning: Reference `thm:ier-global-smoothness' on page 64 undefined on in
+put line 1158.
+
+
+LaTeX Warning: Reference `thm:local-restart' on page 64 undefined on input line
+ 1161.
+
+
+LaTeX Warning: Reference `eq:app-relative-energy-action' on page 64 undefined o
+n input line 1163.
+
+
+LaTeX Warning: Reference `thm:ier-global-smoothness' on page 64 undefined on in
+put line 1171.
+
+[64]
+
+LaTeX Warning: Reference `eq:ier-global-pressure' on page 65 undefined on input
+ line 1190.
+
+
+LaTeX Warning: Reference `thm:app-relative-energy' on page 65 undefined on inpu
+t line 1198.
+
+
+LaTeX Warning: Reference `eq:app-relative-energy-producer' on page 65 undefined
+ on input line 1199.
+
+
+LaTeX Warning: Reference `eq:ier-global-class' on page 65 undefined on input li
+ne 1202.
+
+
+LaTeX Warning: Reference `eq:ier-global-energy' on page 65 undefined on input l
+ine 1203.
+
+
+LaTeX Warning: Reference `eq:ier-global-pressure' on page 65 undefined on input
+ line 1205.
+
+
+LaTeX Warning: Reference `eq:app-weak-pressure-gauge' on page 65 undefined on i
+nput line 1214.
+
+) (papers/navier-stokes/manuscript/generated/06-conclusion.tex)
+
+LaTeX Warning: Reference `sec:quantitative-consequences' on page 65 undefined o
+n input line 278.
+
+[65]
+
+LaTeX Warning: Reference `def:qc-producer-constants' on page 66 undefined on in
+put line 278.
+
+
+LaTeX Warning: Reference `thm:qc-mixed-jet' on page 66 undefined on input line 
+278.
+
+
+LaTeX Warning: Reference `thm:qc-pressure-rows' on page 66 undefined on input l
+ine 278.
+
+[66]
+
+LaTeX Warning: Reference `eq:completed-height-recurrence' on page 67 undefined 
+on input line 278.
+
+[67]
+
+LaTeX Warning: Reference `eq:qc-D0' on page 68 undefined on input line 278.
+
+
+LaTeX Warning: Reference `eq:qc-Drec' on page 68 undefined on input line 278.
+
+
+LaTeX Warning: Reference `eq:qc-producer-through-B' on page 68 undefined on inp
+ut line 278.
+
+
+LaTeX Warning: Reference `eq:qc-Y00' on page 68 undefined on input line 278.
+
+
+LaTeX Warning: Reference `eq:qc-Qmod' on page 68 undefined on input line 278.
+
+
+LaTeX Warning: Reference `eq:qc-B-by-height-reconstruction' on page 68 undefine
+d on input line 278.
+
+
+LaTeX Warning: Reference `eq:qc-height-producer-coordinate' on page 68 undefine
+d on input line 278.
+
+
+LaTeX Warning: Reference `eq:qc-height-reconstructed-rectangle' on page 68 unde
+fined on input line 278.
+
+
+LaTeX Warning: Reference `eq:qc-height-spatial-bounds' on page 68 undefined on 
+input line 278.
+
+
+LaTeX Warning: Reference `prop:qc-exact-viscosity-scaling' on page 68 undefined
+ on input line 278.
+
+
+LaTeX Warning: Reference `eq:app-critical-smallness' on page 68 undefined on in
+put line 278.
+
+
+LaTeX Warning: Reference `prop:app-small-data-rectangles' on page 68 undefined 
+on input line 278.
+
+
+LaTeX Warning: Reference `lem:qc-closed-velocity-majorants' on page 68 undefine
+d on input line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-mixed-upper' on page 68 undefined on inpu
+t line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-mixed-endpoint' on page 68 undefined on i
+nput line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-mixed-low-modulus' on page 68 undefined o
+n input line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-mixed-modulus' on page 68 undefined on in
+put line 278.
+
+
+LaTeX Warning: Reference `eq:qc-Z-bound' on page 68 undefined on input line 278
+.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-mixed-interpolation' on page 68 undefined
+ on input line 278.
+
+
+LaTeX Warning: Reference `eq:qc-embedding-constant' on page 68 undefined on inp
+ut line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-mixed-Lab' on page 68 undefined on input 
+line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-mixed-L2b' on page 68 undefined on input 
+line 278.
+
+
+LaTeX Warning: Reference `eq:qc-pressure-product-constant' on page 68 undefined
+ on input line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-pressure-L1' on page 68 undefined on inpu
+t line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-pressure-L2' on page 68 undefined on inpu
+t line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-pressure-sup' on page 68 undefined on inp
+ut line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-pressure-endpoint' on page 68 undefined o
+n input line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-mixed-modulus' on page 68 undefined on in
+put line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-pressure-modulus' on page 68 undefined on
+ input line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-pressure-sup' on page 68 undefined on inp
+ut line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-pressure-Lab' on page 68 undefined on inp
+ut line 278.
+
+[68]
+
+LaTeX Warning: Reference `eq:qc-X-bound' on page 69 undefined on input line 278
+.
+
+
+LaTeX Warning: Reference `eq:qc-Z-bound' on page 69 undefined on input line 278
+.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-pressure-L1' on page 69 undefined on inpu
+t line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-pressure-sup' on page 69 undefined on inp
+ut line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-velocity-tail-L2' on page 69 undefined on
+ input line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-pressure-tail-sup' on page 69 undefined o
+n input line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-critical-sup' on page 69 undefined on inp
+ut line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-critical-tail-mass' on page 69 undefined 
+on input line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-height-derivatives' on page 69 undefined 
+on input line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-height-variation' on page 69 undefined on
+ input line 278.
+
+
+LaTeX Warning: Reference `eq:qc-X-bound' on page 69 undefined on input line 278
+.
+
+
+LaTeX Warning: Reference `eq:qc-Z-bound' on page 69 undefined on input line 278
+.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-energy-row-family' on page 69 undefined o
+n input line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-production-row-family' on page 69 undefin
+ed on input line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-critical-modulus' on page 69 undefined on
+ input line 278.
+
+
+LaTeX Warning: Reference `eq:qc-Z-bound' on page 69 undefined on input line 278
+.
+
+
+LaTeX Warning: Reference `eq:qc-X-bound' on page 69 undefined on input line 278
+.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-L2Linfty' on page 69 undefined on input l
+ine 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-vorticity-action' on page 69 undefined on
+ input line 278.
+
+
+LaTeX Warning: Reference `lem:transport-commutator' on page 69 undefined on inp
+ut line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-lipschitz-action' on page 69 undefined on
+ input line 278.
+
+
+LaTeX Warning: Reference `eq:qc-sharp-continuation-growth' on page 69 undefined
+ on input line 278.
+
+[69] [70]<<latex-list-css.html>><<latex-align-css.html>>
+(tmp/pdfs/how-proof-final.H4hfCL/main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+MathML statistic
+================
+==> 1807 MathML fragments read
+==> 1299 different MathML fragments
+==> 1807 math fragments found
+==> 1807 fitting MathML AF found
+==> 1807 MathML AF attached
+
+Package tagpdf Info: Finalizing the tagging structure:
+(tagpdf)             Writing out ~3689 structure objects
+(tagpdf)             with ~5124 'MC' leaf nodes.
+(tagpdf)             Be patient if there are lots of objects!
+
+Package tagpdf Info: writing ParentTree
+Package tagpdf Info: writing IDTree
+Package tagpdf Info: writing RoleMap
+Package tagpdf Info: writing ClassMap
+Package tagpdf Info: writing NameSpaces
+Package tagpdf Info: writing StructElems
+Package tagpdf Info: writing Root
+ )</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></us
+r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/lo
+cal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
+l/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
+texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/tex
+live/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
+e/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
+025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2025/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2025/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dis
+t/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texlive/2025/texmf-d
+ist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2025/tex
+mf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2025
+/texmf-dist/fonts/type1/public/pdftex/pdftexspace.pfb></usr/local/texlive/2025/
+texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2025/texmf-di
+st/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/texmf-dist
+/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2025/texmf-dist/f
+onts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fon
+ts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts
+/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/t
+ype1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/typ
+e1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1
+/public/cm-super/sfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/p
+ublic/cm-super/sfti1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pub
+lic/cm-super/sfti1095.pfb>
+Output written on tmp/pdfs/how-proof-final.H4hfCL/main.pdf (70 pages, 2067928 b
+ytes).
+Transcript written on tmp/pdfs/how-proof-final.H4hfCL/main.log.

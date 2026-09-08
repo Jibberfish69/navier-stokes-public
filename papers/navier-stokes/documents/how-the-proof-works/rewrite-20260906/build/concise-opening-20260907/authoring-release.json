@@ -1,0 +1,46 @@
+{
+  "schema_version": 3,
+  "producer": {
+    "agent_path": "/root",
+    "input_packet": {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/concise-opening-20260907/producer-packet.json",
+      "sha256": "3eb065db15912b51bfa76c221fcffbb06dae1e519770083fcbb43472e1259619"
+    }
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/concise-opening-20260907/candidate-section.tex",
+    "sha256": "3278d9a218ccf8e435d42e340e79bb424c12a7fe64b5851132a545dc036d1553"
+  },
+  "pdf": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/how-the-proof-works.pdf",
+    "sha256": "9cf1fe9dca230a0cc6cbdf1d19918b9682fdc9ca2c066762582557352b3c13af"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/concise-opening-20260907/page-1.png",
+      "sha256": "86bf690bb3cb158428470170137173ec367e07e1e753316d2184f0f401ae742b"
+    },
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/concise-opening-20260907/page-2.png",
+      "sha256": "a1e06e69a1b4074f521000b427a18305f9898e2cdf0b2ad6f83645c9650953b7"
+    },
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/concise-opening-20260907/page-3.png",
+      "sha256": "2e8899c50a6f4c45959c30f830129e9a802daabeccbf72389ad9f1ba1935802a"
+    }
+  ],
+  "critic_packet": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/concise-opening-20260907/critic-packet.json",
+    "sha256": "b7b26266b98057c61d23208204c2841dd12231caa45a197f9b6dd346916cf648"
+  },
+  "reviews": [
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/concise-opening-20260907/opening-editorial.json",
+      "sha256": "754afadd622ffb729aee537d7e56311c44cd537ab3f1676c6de8eea2866c8c06"
+    },
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/concise-opening-20260907/opening-math-reverse.json",
+      "sha256": "700d0dceb561dfa3f2682d0b693b538b41834041fa83105ce8113144834bb9bd"
+    }
+  ]
+}

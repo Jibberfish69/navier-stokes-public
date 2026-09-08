@@ -1,0 +1,110 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{Why the finite pieces are rectangles}\label{sub:BodyFiniteAdjacentRectangles}
+
+The missing reach is a trace problem.
+Fix one response \(V_n\) and one spatial height \(M\).
+To carry \(V_n\) through the terminal interval in \(H^M\), its middle norm must be controlled by two neighboring coordinates of the grid: \(V_n\) one spatial step above it and \(V_{n+1}=\partial_tV_n\) one spatial step below it.
+
+Let \(A=(1-\Delta)^{1/2}\).
+For a strict cutoff \(T<T_*\), a smooth Hilbert-valued function \(v\), and \(0\leq a<b\leq T\),
+\begin{equation}\label{eq:BodyAdjacentTraceIdentity}
+  \norm{v(b)}_{H^M}^2-
+  \norm{v(a)}_{H^M}^2
+  =2\operatorname{Re}
+  \int_a^b
+  \pair{A^{M-1}v_t(t)}{A^{M+1}v(t)}_{L^2}\,dt.
+\end{equation}
+Cauchy--Schwarz places the change of the middle norm between those two coordinates:
+\[
+  \left|
+  \norm{v(b)}_{H^M}^2-
+  \norm{v(a)}_{H^M}^2
+  \right|
+  \leq
+  2\norm{v_t}_{L^2(a,b;H^{M-1})}
+   \norm{v}_{L^2(a,b;H^{M+1})}.
+\]
+Thus
+\begin{equation}\label{eq:BodyAdjacentTracePair}
+  v\in L^2(0,T;H^{M+1}),
+  \qquad
+  v_t\in L^2(0,T;H^{M-1})
+\end{equation}
+gives
+\begin{equation}\label{eq:BodyAdjacentTraceConclusion}
+  v\in C([0,T];H^M).
+\end{equation}
+Time mollification and Fourier truncation justify
+\eqref{eq:BodyAdjacentTraceIdentity} for the pair in
+\eqref{eq:BodyAdjacentTracePair}; weak \(H^M\) continuity together with continuity
+of the norm gives the strong representative.
+
+At \(M=2\), begin with \(V_0=u\):
+\begin{equation}\label{eq:FirstConcreteAdjacentPair}
+  u\in L^2(0,T;H^3),
+  \qquad
+  u_t\in L^2(0,T;H^1)
+  \quad\Longrightarrow\quad
+  u\in C([0,T];H^2).
+\end{equation}
+Move down to \(V_1=u_t\).
+The same rule pairs \(V_1\in L^2H^3\) with \(V_2\in L^2H^1\) and carries \(V_1\) through \(H^2\).
+The row \(V_1\) is shared: it is the lower input for the trace of \(V_0\), then the upper input for its own trace.
+
+\Needspace{12\baselineskip}
+\begin{center}
+\captionsetup{hypcap=false}
+\captionof{table}{The first two adjacent trace pairs at spatial height \(M=2\).}
+\label{tab:FirstAdjacentRectangle}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabular}{@{}c c c c@{}}
+\toprule
+response traced & one step above & next response below & middle trace \\
+\midrule
+\(V_0=u\) & \(V_0\in L^2H^3\) & \(V_1\in L^2H^1\) & \(V_0\in CH^2\) \\
+\(V_1=u_t\) & \(V_1\in L^2H^3\) & \(V_2\in L^2H^1\) & \(V_1\in CH^2\) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Every new temporal response repeats this overlap.
+Stack the pairs for \(0\leq n\leq N\).
+The squared velocity norm of the resulting finite rectangle is
+\begin{equation}\label{eq:BodyRectangleNorm}
+\begin{aligned}
+  \mathfrak R_{N,M}(u;T)
+  :={}&
+  \sum_{n=0}^{N}
+  \norm{V_n}_{L^2(0,T;H^{M+1})}^2
+  \\
+  &+
+  \sum_{n=0}^{N}
+  \norm{V_{n+1}}_{L^2(0,T;H^{M-1})}^2.
+\end{aligned}
+\end{equation}
+Temporal depth \(N\) tells how many middle traces are selected.
+Spatial height \(M\) tells where the same trace stencil sits in every selected row.
+The two choices remain independent; when \(M=0\), the lower edge is read in \(H^{-1}\).
+
+The pressure rows belong to the same finite history.
+Write \(\cR_{N,M}[u_0;T]\) for the velocity coordinates measured by
+\eqref{eq:BodyRectangleNorm}, together with the corresponding \(Q_n\)-coordinates reconstructed by
+\eqref{eq:BodyMixedPressureRecurrence}.
+
+For every strict cutoff, classical smoothness makes each fixed rectangle finite:
+\begin{equation}\label{eq:StrictSubintervalRectangleBound}
+  \mathfrak R_{N,M}(u;T)<\infty
+  \qquad\text{for finite }N,M\text{ and }T<T_*.
+\end{equation}
+This still allows the rectangle to grow without bound as \(T\uparrow T_*\):
+\[
+  \forall\,T<T_*:\quad \mathfrak R_{N,M}(u;T)<\infty
+  \quad\not\Longrightarrow\quad
+  \sup_{0<T<T_*}\mathfrak R_{N,M}(u;T)<\infty.
+\]
+The trace calculation tells us what the second statement would buy.
+For each fixed \(N\) and \(M\), it would carry every selected \(V_n\) through \(H^M\) on the whole terminal interval.
+It does not produce that bound.
+Neither the pressure recurrence nor overlap compatibility produces it.
+The remaining step is to derive the cutoff-uniform estimate from the fixed datum \((u_0,\nu)\).
+Everything that follows from that estimate remains conditional until this derivation is supplied.

@@ -98,7 +98,7 @@ The exact operator inequality required is
 \tag{NFU.5}
 ```
 
-Installed same-material identities show that pressure, Hodge/Stokes projection, coefficient/frame, transported collar, annular stress-work, viscosity, and strain are one transaction.  They do not produce `(NFU.5)` with \(H_N\) bounded below/noncircular.
+Installed same-material identities show that pressure, Helmholtz--Leray/Stokes projection, coefficient/frame, transported collar, annular stress-work, viscosity, and strain are one transaction.  They do not produce `(NFU.5)` with \(H_N\) bounded below/noncircular.
 
 The formal Riccati/Gramian solution of `(NFU.5)` exists only as a future observability object:
 

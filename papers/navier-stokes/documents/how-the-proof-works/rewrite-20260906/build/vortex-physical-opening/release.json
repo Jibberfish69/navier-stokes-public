@@ -1,0 +1,38 @@
+{
+  "schema_version": 3,
+  "producer": {
+    "agent_path": "/root",
+    "input_packet": {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/vortex-physical-opening/producer.json",
+      "sha256": "cd561b57f8f2ffe68f2ed91da4758e6cd506ab7cf29843ad528264d0a0ebc37c"
+    }
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/vortex-physical-opening/candidate.tex",
+    "sha256": "084808760e882d146b799f6ea95acf79fadfbef9934e0517c231136292e942a9"
+  },
+  "pdf": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/how-the-proof-works.pdf",
+    "sha256": "26778c2eb2300fedd139413fbe27318a979bb37d00859889f9706012d6f45565"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/vortex-physical-opening/page-1.png",
+      "sha256": "fb63578ffcd1f4000440daa752c7f7d86e697c2b2d28ba99273059c47207014e"
+    }
+  ],
+  "critic_packet": {
+    "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/vortex-physical-opening/critic-packet.json",
+    "sha256": "301d06c9032d82eabc4c6d10b24ac0823d525e71b34cacc837c2ab07de4e3e7f"
+  },
+  "reviews": [
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/vortex-physical-opening/reader-review.json",
+      "sha256": "cde7c47a8d9208b51b0958aabe04c1a8b611bde1092a2eb19454caea262319d3"
+    },
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/vortex-physical-opening/proof-review.json",
+      "sha256": "bc383db0e06004f463651f463c04317036040c870ebdb830ac5a655a58f0fcae"
+    }
+  ]
+}

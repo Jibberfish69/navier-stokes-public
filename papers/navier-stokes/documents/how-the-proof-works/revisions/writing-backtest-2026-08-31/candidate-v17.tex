@@ -1,0 +1,239 @@
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage[margin=1in]{geometry}
+\usepackage{microtype}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.75em}
+
+\begin{document}
+
+\section*{How the Proof Works}
+
+For the global three-dimensional Navier--Stokes regularity problem, the fluid obeys
+\[
+\partial_tu+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
+\qquad \nabla\cdot u=0,
+\qquad u(0)=u_0,
+\]
+with fixed viscosity \(\nu>0\).  The question is whether this one fluid can drive its motion into smaller and smaller scales quickly enough to lose smoothness in finite time, even while its total kinetic energy stays finite.
+
+That concentration question becomes concrete in a stretching vortex, because the flow itself can drive the vortex toward a smaller scale.  Its vorticity obeys
+\[
+\partial_t\omega+(u\cdot\nabla)\omega
+=(\omega\cdot\nabla)u+\nu\Delta\omega.
+\]
+When the vorticity aligns with an extensional direction of the strain, \((\omega\cdot\nabla)u\) amplifies it and lengthens the vortex along that axis.  Incompressibility narrows the cross-section as the vortex lengthens.  The narrowing places the vortex's transverse velocity variation across a smaller inner radius.  A velocity change that once took place across \(r_0\) now takes place across \(r\), so
+\[
+|\nabla u|\sim \frac{|u|}{r},
+\qquad
+|\nabla^2u|\sim \frac{|u|}{r^2},
+\qquad \ldots
+\]
+As a vortex stretches and thins, its spatial derivatives can grow much faster than the energy itself.
+
+Scaling is the exact way of asking what Navier--Stokes sees when that smaller core is magnified.  For \(\lambda>1\), define
+\[
+u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
+\qquad
+p_\lambda(x,t)=\lambda^2p(\lambda x,\lambda^2t).
+\]
+This shrinks the spatial scale by \(\lambda^{-1}\), speeds up the corresponding time scale by \(\lambda^2\), and increases the velocity amplitude by \(\lambda\).  Under this change, each of the four terms
+\[
+\partial_tu_\lambda,\qquad
+(u_\lambda\cdot\nabla)u_\lambda,\qquad
+\nabla p_\lambda,\qquad
+\nu\Delta u_\lambda
+\]
+acquires the factor \(\lambda^3\).  Nonlinear transport and viscosity remain evenly matched under this scaling: concentration leaves both in the equation.
+
+The Sobolev scale shows what the magnification does to regularity:
+\[
+\|u_\lambda(\cdot,t)\|_{\dot H^s}
+=\lambda^{s-1/2}
+\|u(\cdot,\lambda^2t)\|_{\dot H^s}.
+\]
+Below \(s=\tfrac12\), this measurement gets smaller as the core concentrates.  Above \(s=\tfrac12\), it gets larger.  At the critical height \(s=\tfrac12\), it does not change at all.  In particular,
+\[
+\|u_\lambda\|_2^2=\lambda^{-1}\|u\|_2^2,
+\]
+so finite energy can coexist with increasingly large gradients.  The zoom makes the \(L^2\) energy smaller, so it can miss a concentrating structure.  The invariant \(\dot H^{1/2}\) measurement stays fixed and follows that structure from scale to scale.
+
+The possible finite-time cascade can now be seen quickly.  Suppose its active radii fall geometrically,
+\[
+r_n=r_0q^n,
+\qquad 0<q<1.
+\]
+Navier--Stokes scaling assigns a time increment of order \(r_n^2\) to the \(n\)-th scale, so
+\[
+\sum_{n=0}^{\infty}\Delta t_n
+\sim
+\sum_{n=0}^{\infty}r_n^2
+=r_0^2\sum_{n=0}^{\infty}q^{2n}
+<\infty,
+\]
+while quantities such as \(|\nabla u|\sim |u|/r_n\) can diverge as \(n\to\infty\).  That is the Zeno cascade: smaller and smaller structures, faster and faster responses, and a potentially infinite climb through derivative size inside a finite amount of time, without any need for the kinetic energy to become infinite.  The scaling calculation identifies the danger; it does not assume that the fluid can actually complete the cascade.
+
+In order for a singularity to happen, velocity has to blow up.
+
+Here ``velocity has to blow up'' means that a continuation norm must fail; it does not require the pointwise amplitude \(|u(x,t)|\) to diverge.  The \(L^2\) energy can remain finite while concentration drives spatial derivatives upward, and the \(H^m\) norm collects those derivatives into the quantity used for continuation.  For any fixed \(m>\tfrac52\), a bound
+\[
+\sup_{t<T_*}\|u(t)\|_{H^m}<\infty
+\]
+lets local \(H^m\) existence continue the solution beyond \(T_*\).  A finite maximal time forces this supremum to be infinite.
+
+The expected singular-cascade pattern is that velocity blows up, then its acceleration, then its jerk, and so on and so on.
+Acceleration and jerk here describe responses along fluid-particle paths.  The transport term connects the first of them to differentiation at a fixed spatial point,
+\[
+D_tu:=\partial_tu+(u\cdot\nabla)u,
+\]
+without identifying the two.  The proof holds \(x\) fixed and differentiates the pressure-complete equation because each differentiation produces the next Eulerian response together with its transport, pressure, and viscous terms:
+\[
+u,\qquad \partial_tu,\qquad \partial_t^2u,\qquad \ldots
+\]
+What you would expect to see in this pattern, if a singularity were to form, is less spatial regularity as you go up the time derivatives, not more.  Navier--Stokes tells us to look at the sequence directly.  The first three lines are
+\[
+\begin{aligned}
+\partial_tu={}&\nu\Delta u-(u\cdot\nabla)u-\nabla p,\\
+\partial_t^2u={}&\nu\Delta\partial_tu
+-(\partial_tu\cdot\nabla)u
+-(u\cdot\nabla)\partial_tu
+-\nabla\partial_tp,\\
+\partial_t^3u={}&\nu\Delta\partial_t^2u
+-(\partial_t^2u\cdot\nabla)u
+-2(\partial_tu\cdot\nabla)\partial_tu
+-(u\cdot\nabla)\partial_t^2u
+-\nabla\partial_t^2p.
+\end{aligned}
+\]
+The nonlinear terms expand, the pressure differentiates with them, and the Laplacian moves one line higher each time.  The complete pattern is the binomial form
+\[
+\begin{aligned}
+\partial_t^{\,n+1}u={}&\nu\Delta\partial_t^{\,n}u
+-\sum_{a=0}^{n}\binom{n}{a}
+\bigl(\partial_t^{\,a}u\cdot\nabla\bigr)
+\partial_t^{\,n-a}u
+-\nabla\partial_t^{\,n}p.
+\end{aligned}
+\]
+Only now compress the notation:
+\[
+V_n:=\partial_t^{\,n}u,
+\qquad
+Q_n:=\partial_t^{\,n}p.
+\]
+Then every temporal row is still the original pressure-complete equation,
+\[
+V_{n+1}
+=\nu\Delta V_n
+-\sum_{a=0}^{n}\binom{n}{a}(V_a\cdot\nabla)V_{n-a}
+-\nabla Q_n.
+\]
+
+The recurrence keeps nonlinear transport and pressure in the row that links \(V_{n+1}\) to two spatial derivatives of \(V_n\).  The critical-height identity expresses this link in Sobolev order.  Put
+\[
+E_s(t):=\frac12\|\Lambda^su(t)\|_2^2,
+\qquad H:=E_{1/2}.
+\]
+The original equation gives the pressure-complete height identity
+\[
+E_s'=-2\nu E_{s+1}+\mathcal P_s,
+\qquad
+\mathcal P_s
+:=-\Bigl\langle \Lambda^su,
+\Lambda^s\bigl((u\cdot\nabla)u+\nabla p\bigr)\Bigr\rangle.
+\]
+Differentiating that identity repeatedly gives
+\[
+H^{(n)}
+=(-2\nu)^nE_{n+1/2}
++\sum_{j=0}^{n-1}(-2\nu)^j
+\partial_t^{\,n-1-j}\mathcal P_{j+1/2}.
+\]
+After the complete transfer terms have been kept, the sequence
+\[
+H,\qquad H',\qquad H'',\qquad H''',\qquad\ldots
+\]
+exposes
+\[
+E_{1/2},\qquad E_{3/2},\qquad E_{5/2},\qquad E_{7/2},\qquad\ldots
+\]
+The temporal climb that was supposed to reveal worsening spatial roughness instead reaches higher and higher spatial Sobolev order.
+
+Follow that reversal all the way to its payoff.  Sobolev embedding says
+\[
+s>k+\frac32
+\quad\Longrightarrow\quad
+H^s(\mathbb R^3)\hookrightarrow C^k(\mathbb R^3).
+\]
+So if this velocity belongs to every finite Sobolev space, it has every finite spatial derivative:
+\[
+\bigcap_{m<\infty}H^m(\mathbb R^3)
+=H^\infty(\mathbb R^3)
+\hookrightarrow C^\infty(\mathbb R^3).
+\]
+That is the whole insight in one movement:
+\[
+\text{higher temporal order}
+\longrightarrow
+\text{higher spatial Sobolev order}
+\longrightarrow
+\text{smoothness}.
+\]
+
+The height identities expose arbitrarily high Sobolev orders, but they do not yet bound them.  Fix finite cutoffs \(N,M\) and take all rows \(0\leq n\leq N\) and all heights \(0\leq m\leq M\), with
+\[
+V_n\in L^2(0,T_*;H^{m+1}),
+\qquad
+V_{n+1}\in L^2(0,T_*;H^{m-1})
+\qquad
+(0\leq n\leq N,\ 0\leq m\leq M).
+\]
+This finite collection is one rectangle of the time--space grid.  The finite-coordinate mixed-row theorem starts from a smooth divergence-free finite-energy datum \(u_0\), a fixed viscosity \(\nu>0\), and its one maximal pressure-complete history \((u,p)\).  Once \(N\) and \(M\) are fixed, every binomial product in row \(n\) uses temporal indices no larger than \(n\leq N\), incompressibility fixes \(Q_n\) through its pressure equation, and \(\nu\Delta V_n\) stays coupled to \(V_{n+1}\) in the mixed row.  The theorem closes these finitely many pressure-complete rows together from the datum.  Write \(\mathcal R_{N,M}(u;T)\) for their whole-terminal norm over \((0,T)\).  Its estimate is
+\[
+\sup_{0<T<T_*}\mathcal R_{N,M}(u;T)<\infty,
+\]
+The constant may depend on \(N\) and \(M\); the theorem requires no common radius for the infinite tower.
+
+The rectangles overlap.  Their common coordinates agree because they all come from the datum-generated solution \(u\).  Intersecting them gives
+\[
+\mathcal I[u_0]
+:=
+\bigcap_{n,m<\infty}H_t^n(0,T_*;H_x^m).
+\]
+The raw differentiated equations expose the higher heights; the finite rectangles control them; compatibility assembles those finite controls into the intersection.  Only then does the embedding above turn that intersection into smoothness.
+
+Assume the solution stops at a finite maximal time \(T_*<\infty\).  For every finite \(m\), these mixed rows give
+\[
+u\in L^2(0,T_*;H^{m+1}),
+\qquad
+u_t\in L^2(0,T_*;H^{m-1}).
+\]
+The Hilbert-triple trace theorem then gives
+\[
+u\in C([0,T_*];H^m)
+\qquad\text{for every }m.
+\]
+Every trace comes from \(u\), so they define one endpoint
+\[
+u_*:=u(T_*)\in\bigcap_{m<\infty}H^m=H^\infty.
+\]
+Smooth local existence restarts Navier--Stokes from \(u_*\), and uniqueness glues that restarted solution to the original history.  This extends the solution past \(T_*\), contradicting its maximality.
+
+This is not an a priori estimate proof.  It is an intersection-to-estimate proof.  Viscosity relates the velocity's time derivatives to its spatial Sobolev derivatives.  Taken through every finite order, those two directions meet in a common intersection.  At that intersection, \(H^\infty(\mathbb R^3)\hookrightarrow C^\infty(\mathbb R^3)\) gives smoothness, and any familiar finite estimate can be taken from whichever Sobolev height it requires.  The estimates come from the intersection, not the other way around.
+
+The entire route is
+\[
+\begin{aligned}
+u_0
+&\longrightarrow \{(V_n,Q_n)\}_{n\geq0}
+\longrightarrow \{\mathcal R_{N,M}[u_0]\}_{N,M<\infty}
+\longrightarrow \mathcal I[u_0]\\
+&\longrightarrow u_*\in H^\infty
+\longrightarrow T_*=\infty.
+\end{aligned}
+\]
+
+\end{document}

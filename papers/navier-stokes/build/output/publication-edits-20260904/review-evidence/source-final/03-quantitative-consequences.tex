@@ -1,0 +1,1899 @@
+\section{Quantitative consequences of the compatible rectangles}
+\label{sec:quantitative-consequences}
+
+\subsection[Completion in the global H1 mild class]
+{Completion in the global \(H^1\) mild class}
+
+The construction begins with every datum in
+\(H^\infty_\sigma(\R^3)\), not only with Schwartz data.  Parabolic smoothing
+now transfers that result to the full strong \(H^1\) class.
+
+\begin{theorem}[Global \(H^1\) completion]
+\label{thm:qc-global-H1-completion}
+Let \(\nu>0\) and \(a\in H^1_\sigma(\R^3)\).  There is a unique
+pressure-normalized mild solution
+\begin{equation}
+ u^a\in C([0,\infty);H^1_\sigma)
+ \cap L^2_{\rm loc}([0,\infty);H^2_\sigma),
+ \qquad
+ u^a\in C^\infty((0,\infty)\times\R^3),
+ \label{eq:qc-global-H1-class}
+\end{equation}
+of the three-dimensional Navier--Stokes equations with datum \(a\) and
+viscosity \(\nu\).  Its pressure is
+\[
+ p^a=R_iR_j(u_i^a u_j^a)
+\]
+in distributions.  The solution obeys the kinetic-energy identity on every
+finite interval.
+\end{theorem}
+
+\begin{proof}
+Write
+\[
+ Y(t):=\norm{\nabla u(t)}_2^2,
+ \qquad
+ Z(t):=\norm{\Delta u(t)}_2^2,
+ \qquad
+ c_1:=\frac{27}{16}\mathsf S(6)^6.
+\]
+For a smooth solenoidal approximation, the \(L^2\) pairing of the projected
+equation with \(-\Delta u\) gives
+\begin{equation}
+ \frac12Y'(t)+\nu Z(t)
+ =\operatorname{Re}\ip{(u\cdot\nabla)u}{\Delta u}_{L^2}.
+ \label{eq:qc-H1-energy-pairing}
+\end{equation}
+\begin{samepage}
+The explicit three-dimensional Sobolev inequality and interpolation give
+\[
+ \norm u_6\le\mathsf S(6)Y^{1/2},
+ \qquad
+ \norm{\nabla u}_3
+ \le\mathsf S(6)^{1/2}Y^{1/4}Z^{1/4}.
+\]
+Consequently,
+\[
+ \abs{\ip{(u\cdot\nabla)u}{\Delta u}_{L^2}}
+ \le \mathsf S(6)^{3/2}Y^{3/4}Z^{3/4}
+ \le\frac\nu2Z+\frac{27\mathsf S(6)^6}{32\nu^3}Y^3,
+\]
+and hence
+\begin{equation}
+ Y'(t)+\nu Z(t)\le c_1\nu^{-3}Y(t)^3.
+ \label{eq:qc-H1-ode}
+\end{equation}
+\par
+\end{samepage}
+\begin{samepage}
+Comparison with \(y'=c_1\nu^{-3}y^3\) shows that
+\begin{equation}
+ Y(t)\le
+ \frac{Y(0)}{\bigl(1-2c_1\nu^{-3}Y(0)^2t\bigr)^{1/2}}
+ \label{eq:qc-H1-local-explicit}
+\end{equation}
+while the denominator is positive.
+\par
+\end{samepage}
+\begin{samepage}
+The estimate holds on the explicit lifespan
+\begin{equation}
+ \begin{aligned}
+ \tau_\nu(a):=
+ \min\left\{1,
+ \frac{\nu^3}{4c_1(1+\norm{\nabla a}_2^2)^2}
+ \right\},\\
+ \sup_{0\le t\le\tau_\nu(a)}Y(t)\le\sqrt2Y(0),
+ \qquad
+ \int_0^{\tau_\nu(a)}Z(t)\dd t<\infty.
+ \end{aligned}
+ \label{eq:qc-H1-local-lifespan}
+\end{equation}
+\par
+\end{samepage}
+\begin{samepage}
+Let \(\mathcal J_k\) be the orthogonal Fourier projection to
+\(\{\abs\xi\le k\}\).  On the range of \(\mathcal J_k\), the regularized
+problem
+\begin{equation}
+ \partial_tu^{(k)}-\nu\Delta u^{(k)}
+ =-\mathcal J_k\Pp\nabla\!\cdot
+   (u^{(k)}\otimes u^{(k)}),
+ \qquad u^{(k)}(0)=\mathcal J_ka,
+ \label{eq:qc-H1-Friedrichs-system}
+\end{equation}
+is a Banach-space ordinary differential equation in \(H^1_\sigma\).
+\end{samepage}
+\begin{samepage}
+Indeed, if
+\[
+ \mathcal N_k(z):=\mathcal J_k\Pp\nabla\!\cdot(z\otimes z),
+\]
+then the Bernstein inequalities on the range of \(\mathcal J_k\) give
+\begin{equation}
+ \norm{\mathcal N_k(z)-\mathcal N_k(y)}_{H^1}
+ \le C_k\bigl(\norm z_{H^1}+\norm y_{H^1}\bigr)
+       \norm{z-y}_{H^1},
+ \qquad C_k<\infty.
+ \label{eq:qc-H1-Friedrichs-Lipschitz}
+\end{equation}
+\end{samepage}
+Picard's theorem supplies a maximal trajectory.  The projection is
+self-adjoint and commutes with \(\Pp\), \(\nabla\), and \(\Delta\), so the
+kinetic identity holds along that trajectory.  Since
+\begin{equation}
+ \norm z_{H^1}^2\le(1+k^2)\norm z_2^2
+ \qquad(z=\mathcal J_kz),
+ \label{eq:qc-H1-Friedrichs-band-control}
+\end{equation}
+the kinetic identity and the Banach-space continuation criterion extend the
+trajectory for all positive times.  Estimate
+\eqref{eq:qc-H1-ode} holds for \(u^{(k)}\), with constants independent of
+\(k\).  Equations \eqref{eq:qc-H1-local-explicit}--%
+\eqref{eq:qc-H1-local-lifespan} give
+\begin{equation}
+ \sup_k\left(
+ \norm{u^{(k)}}_{L^\infty(0,\tau_\nu(a);H^1)}
+ +\norm{u^{(k)}}_{L^2(0,\tau_\nu(a);H^2)}
+ \right)<\infty.
+ \label{eq:qc-H1-Friedrichs-uniform}
+\end{equation}
+\begin{samepage}
+The nonlinear estimate
+\[
+ \norm{\Pp\nabla\!\cdot(u\otimes u)}_2
+ \le \norm u_6\norm{\nabla u}_3
+ \le \mathsf S(6)^{3/2}Y^{3/4}Z^{1/4},
+\]
+shows that the regularized nonlinear terms are bounded in
+\(L^2(0,\tau_\nu(a);L^2)\), uniformly in \(k\).
+\par
+\end{samepage}
+The equations bound
+\(\partial_tu^{(k)}\) in this space.
+\begin{samepage}
+Weak compactness and the
+Aubin--Lions--Simon lemma \cite{Aubin1963,Simon1987} on every ball give, after diagonal
+extraction,
+\begin{align*}
+ u^{(k)}&\stackrel{*}{\rightharpoonup} u
+ &&\text{in }L^\infty(0,\tau_\nu(a);H^1),\\
+ u^{(k)}&\rightharpoonup u
+ &&\text{in }L^2(0,\tau_\nu(a);H^2),\\
+ u^{(k)}&\longrightarrow u
+ &&\text{in }L^2(0,\tau_\nu(a);H^1(B_R))
+ \quad(R<\infty).
+\end{align*}
+\par
+\end{samepage}
+The last convergence passes the quadratic term in distributions; lower
+semicontinuity preserves \eqref{eq:qc-H1-Friedrichs-uniform}.  The displayed
+nonlinear estimate now gives
+\(\Pp\nabla\!\cdot(u\otimes u)\in L^2L^2\), and the equation gives
+\(u_t\in L^2(0,\tau_\nu(a);L^2)\).
+\begin{samepage}
+For every
+\(\phi\in C_c^\infty(\R^3;\R^3)\) with \(\nabla\cdot\phi=0\) and every
+\(\eta\in C_c^\infty([0,\tau_\nu(a)))\), passage to the limit in the
+time-integrated regularized equation gives
+\begin{align}
+ -\int_0^{\tau_\nu(a)}\ip{u}{\phi}_{L^2}\eta'\dd t
+ &+\nu\int_0^{\tau_\nu(a)}\ip{\nabla u}{\nabla\phi}_{L^2}\eta\dd t
+ -\int_0^{\tau_\nu(a)}\ip{u\otimes u}{\nabla\phi}_{L^2}\eta\dd t
+ \notag\\
+ &=\ip{a}{\phi}_{L^2}\eta(0).
+ \label{eq:qc-H1-Friedrichs-initial-trace}
+\end{align}
+The right-hand side fixes the weak initial trace as \(a\).
+\par
+\end{samepage}
+The Lions--Magenes theorem \cite{LionsMagenes1972} for
+\(H^2_\sigma\hookrightarrow H^1_\sigma\hookrightarrow L^2_\sigma\)
+gives \(u\in C([0,\tau_\nu(a)];H^1_\sigma)\); its continuous trace at zero is
+the trace in \eqref{eq:qc-H1-Friedrichs-initial-trace}, hence \(u(0)=a\).
+Variation of constants gives the mild equation, and
+\(p=R_iR_j(u_i u_j)\) supplies its normalized pressure.  Since
+\(u_t\in L^2L^2\) and \(u\in L^2H^2\), pairing the limiting equation with
+\(u\) is legitimate; incompressibility cancels the transport term and proves
+the kinetic-energy identity.
+
+If \(u,v\) are two such solutions and \(w=u-v\), incompressibility cancels
+the \((u\cdot\nabla)w\) pairing and gives
+\[
+ \frac12\frac{\dd}{\dd t}\norm w_2^2
+ +\nu\norm{\nabla w}_2^2
+ =-\operatorname{Re}\ip{(w\cdot\nabla)v}{w}_{L^2}.
+\]
+This Sobolev constant yields
+\[
+ \abs{\ip{(w\cdot\nabla)v}{w}_{L^2}}
+ \le \mathsf S(6)^{3/2}\norm{\nabla v}_2
+       \norm w_2^{1/2}\norm{\nabla w}_2^{3/2}
+ \le\frac\nu2\norm{\nabla w}_2^2
+ +\frac{27\mathsf S(6)^6}{32\nu^3}
+  \norm{\nabla v}_2^4\norm w_2^2.
+\]
+Gronwall's inequality proves uniqueness.  This calculation one derivative
+higher also gives the finite-interval stability needed below.  Indeed, pairing
+the difference equation with \(-\Delta w\), integrating the
+\((v\cdot\nabla)w\) term once in space, and applying Young's inequality gives
+\begin{equation}
+ \frac{\dd}{\dd t}\norm{\nabla w}_2^2
+ +\nu\norm{\Delta w}_2^2
+ \le \frac{C_{\rm st}}\nu
+ \left(\norm{\nabla u}_3^2+\norm{\nabla v}_3^2\right)
+ \norm{\nabla w}_2^2.
+ \label{eq:qc-H1-stability}
+\end{equation}
+The coefficient is integrable because
+\[
+ \norm{\nabla u}_3^2
+ \le \mathsf S(6)\norm{\nabla u}_2\norm{\Delta u}_2,
+\]
+and likewise for \(v\).  The \(L^2\) difference estimate and
+\eqref{eq:qc-H1-stability} show continuous dependence in
+\(C([0,S];H^1)\) on every finite interval \([0,S]\).
+
+Let \(c_0>0\) be the absolute smallness constant in the full-space
+\(H^1\) local existence theorem, Theorem~5.4(ii) of \cite{Tao2013},
+written at viscosity one as
+\(\norm b_{H^1}^4h\le c_0\).  After viscosity rescaling, its condition is
+\begin{equation}
+ h\norm b_{H^1}^4\le c_0\nu^3.
+ \label{eq:qc-H1-smoothing-smallness}
+\end{equation}
+Fix \(0<\varepsilon<S\le\tau_\nu(a)\), and put
+\(K_S:=1+\sup_{0\le t\le S}\norm{u(t)}_{H^1}\).  Choose
+\[
+ 0<h\le\min\left\{\varepsilon,
+ c_0\nu^3K_S^{-4}\right\}.
+\]
+The intervals \([0,h]\) and \([t-h,t]\), \(h\le t\le S\), obey
+\eqref{eq:qc-H1-smoothing-smallness}.  The quantitative positive-time
+regularity estimate in Lemma~5.5 of \cite{Tao2013}, after viscosity
+rescaling with interior time \(h/2\), and the
+heat-semigroup/product iteration in its proof give, for every \(m\in\N\),
+\begin{equation}
+ \sup_{\varepsilon\le t\le S}\norm{u(t)}_{H^m}
+ \le C_{m,\varepsilon,S}(\nu,K_S)<\infty.
+ \label{eq:qc-H1-positive-time-smoothing}
+\end{equation}
+Apply the mild formula from time \(\varepsilon/2\).  The bounds
+\eqref{eq:qc-H1-positive-time-smoothing}, the heat multiplier, and
+Lemma~\ref{lem:sobolev-product} show that
+\(u\in C([\varepsilon,S];H^m)\) for every \(m\).  The identities
+\begin{equation}
+ p=R_iR_j(u_i u_j),
+ \qquad
+ u_t=\nu\Delta u-\Pp\nabla\!\cdot(u\otimes u)
+ \label{eq:qc-H1-spacetime-bootstrap}
+\end{equation}
+then give
+\(p\in C([\varepsilon,S];H^m)\) and
+\(u_t\in C([\varepsilon,S];H^m)\) for every \(m\).  Differentiating
+\eqref{eq:qc-H1-spacetime-bootstrap} and the pressure identity, and applying
+this product estimate, proves inductively that all temporal derivatives
+of \(u\) and \(p\) belong to every spatial Sobolev space continuously on
+\([\varepsilon,S]\).  Sobolev embedding proves
+\((u,p)\in C^\infty((0,\tau_\nu(a)]\times\R^3)\).
+
+Choose \(0<t_0<\tau_\nu(a)\).  Equation
+\eqref{eq:qc-H1-positive-time-smoothing} places \(u(t_0)\) in
+\(H^\infty_\sigma\).  Theorem~\ref{thm:ier-global-smoothness}, with time
+origin \(t_0\), supplies a global smooth history from that datum.  The
+uniqueness estimate above identifies it with the local history on their
+overlap, so the two histories glue to \eqref{eq:qc-global-H1-class}.
+This estimate proves uniqueness in the full displayed class.  The kinetic
+identity on the first interval and the classical identity after \(t_0\) agree
+at the common trace and prove the final assertion.
+\end{proof}
+
+\subsection{Canonical coordinates and finite majorants}
+
+The compatible rectangles carry more information than the endpoint argument
+uses.  We first name their finite coordinates and close the estimates that will
+feed the mixed rows, frequency tails, and continuation bounds below.
+
+\begin{definition}[Rectangle and trace coordinates]
+\label{def:qc-producer-constants}
+Let \(u_0\in\HsSigma(\R^3)\), \(\nu>0\), and let \((u,p)\) be the
+datum-generated pressure-normalized solution.  Let \(0<T<\infty\) satisfy
+either \(T<T_*\) or \(T=T_*<\infty\), and set
+\(I_T=(0,T)\),
+\[
+ V_n:=\partial_t^n u,
+ \qquad
+ Q_n:=\partial_t^n p,
+ \qquad n\in\Nzero.
+\]
+Define the monotone rectangle coordinate
+\begin{equation}
+ \mathfrak P_{N,M}[u_0,\nu;T]
+ :=1+\sup_{0<S<T}\mathfrak R_{N,M}(u;S),
+ \label{eq:qc-producer-constant}
+\end{equation}
+and the trace constant
+\begin{equation}
+ \mathfrak T_{N,M}[u_0,\nu;T]
+ :=\left(1+T^{-1}\right)^{1/2}
+   \mathfrak P_{N,M}[u_0,\nu;T]^{1/2}.
+ \label{eq:qc-trace-constant}
+\end{equation}
+All occurrences of \(\mathfrak P_{N,M}\) and \(\mathfrak T_{N,M}\) below
+carry the arguments \([u_0,\nu;T]\).
+The datum \(u_0\), viscosity \(\nu\), pressure-normalized solution
+\((u,p)\), horizon \(T\), interval \(I_T\), and row notation \(V_n,Q_n\)
+fixed here remain in force throughout the rest of this section.
+When \(T=T_*<\infty\), the whole-terminal representatives are those of
+Proposition~\ref{prop:datum-terminal-realization}, and every endpoint value
+used below is the compatible trace supplied by
+Theorem~\ref{thm:ier-compatible-endpoint-traces}.
+\end{definition}
+
+\begin{lemma}[Rectangle-coordinate finiteness]
+\label{lem:qc-producer-finiteness}
+For every \(N,M\in\Nzero\),
+\begin{equation}
+ 1\le \mathfrak P_{N,M}[u_0,\nu;T]<\infty.
+ \label{eq:qc-producer-finiteness}
+\end{equation}
+\end{lemma}
+
+\begin{proof}
+If \(T=T_*<\infty\), equation~\eqref{eq:datum-rectangle-bound} proves
+\eqref{eq:qc-producer-finiteness}.  If \(T<T_*\), classical persistence on
+\([0,T]\) gives
+\[
+ \sup_{0\le t\le T}\norm{V_n(t)}_{H^m}<\infty
+ \qquad(n,m\in\Nzero),
+\]
+and \eqref{eq:finite-rectangle-norm} proves
+\eqref{eq:qc-producer-finiteness}.
+\end{proof}
+
+\Needspace{12\baselineskip}
+\begin{lemma}[Fixed analytic constants]
+\label{lem:qc-analytic-constants}
+For \(r\in\Nzero\), set
+\[
+ A_r:=2C_r^{\rm alg}.
+\]
+Then
+\begin{equation}
+ \norm{R_iR_j(f_i g_j)}_{H^r}
+ +\norm{\Pp\nabla\!\cdot(f\otimes g)}_{H^{r-1}}
+ \le A_r\norm f_{H^{r+1}}\norm g_{H^{r+1}}.
+ \label{eq:qc-product-constant}
+\end{equation}
+This constant satisfies
+\begin{equation}
+ \norm{R_iR_j(f_i g_j)}_{H^r}
+ +\norm{\nabla R_iR_j(f_i g_j)}_{H^{r-1}}
+ \le A_r\norm f_{H^{r+1}}\norm g_{H^{r+1}}.
+ \label{eq:qc-pressure-product-constant}
+\end{equation}
+\begin{samepage}
+For \(s,k\in\Nzero\), \(2\le b\le\infty\), and
+\(s>k+\frac32-\frac3b\), define
+\[
+ \nabla^k f:=(\partial^\alpha f)_{|\alpha|=k},
+ \qquad
+ \norm{\nabla^k f}_{L^b}
+ :=\left\|\left(
+   \sum_{|\alpha|=k}|\partial^\alpha f|^2
+ \right)^{1/2}\right\|_{L^b},
+\]
+and set
+\[
+ d_k:=\#\{\alpha\in\Nzero^3:\abs\alpha=k\},
+ \qquad
+ \frac1{q_b}:=\frac12-\frac1b,
+\]
+with \(q_2=\infty\), and
+\begin{equation}
+ S_{s,k,b}:=
+ d_k^{1/2}(2\pi)^{-3(1/2-1/b)}
+ \norm{\abs\xi^k\langle\xi\rangle^{-s}}_{L^{q_b}_\xi}.
+ \label{eq:qc-embedding-constant-definition}
+\end{equation}
+Then \(S_{s,k,b}<\infty\) and
+\begin{equation}
+ \norm{\nabla^k f}_{L^b}\le S_{s,k,b}\norm f_{H^s}.
+ \label{eq:qc-embedding-constant}
+\end{equation}
+\par
+\end{samepage}
+For \(m\ge2\), set \(L_m:=\max\{1,C_m^{\rm alg}\}\).  Then
+\begin{align}
+ \norm{fg}_{H^m}
+ &\le L_m\norm f_{H^m}\norm g_{H^m},
+ \label{eq:qc-algebra-constant}\\
+ \norm{e^{\nu t\Delta}\Pp\nabla\!\cdot F}_{H^m}
+ &\le L_m(\nu t)^{-1/2}\norm F_{H^m},
+ \qquad t>0.
+ \label{eq:qc-heat-constant}
+\end{align}
+\end{lemma}
+
+\begin{proof}
+Lemmas~\ref{lem:sobolev-product} and \ref{lem:riesz-leray}, applied
+componentwise before summing squares, give
+\begin{align*}
+ \norm{R_iR_j(f_i g_j)}_{H^r}
+ &\le\norm{f\otimes g}_{H^r}
+ \le C_r^{\rm alg}\norm f_{H^{r+1}}\norm g_{H^{r+1}},\\
+ \norm{\Pp\nabla\!\cdot(f\otimes g)}_{H^{r-1}}
+ &\le\norm{f\otimes g}_{H^r}
+ \le C_r^{\rm alg}\norm f_{H^{r+1}}\norm g_{H^{r+1}}.
+\end{align*}
+Moreover,
+\[
+ \norm{\nabla R_iR_j(f_i g_j)}_{H^{r-1}}
+ \le\norm{R_iR_j(f_i g_j)}_{H^r}.
+\]
+This proves \eqref{eq:qc-product-constant} and
+\eqref{eq:qc-pressure-product-constant}.
+
+Let \(b'=b/(b-1)\).  Interpolation between Fourier inversion
+\(L^1_\xi\to L^\infty_x\), with norm \((2\pi)^{-3/2}\), and Plancherel
+gives
+\[
+ \norm{\mathcal F^{-1}h}_{L^b_x}
+ \le(2\pi)^{-3(1/2-1/b)}\norm h_{L^{b'}_\xi}.
+\]
+For \(\abs\alpha=k\), H\"older's inequality with
+\(1/b'=1/2+1/q_b\) gives
+\[
+ \norm{\partial^\alpha f}_{L^b}
+ \le(2\pi)^{-3(1/2-1/b)}
+ \norm{\abs\xi^k\langle\xi\rangle^{-s}}_{L^{q_b}}
+ \norm f_{H^s}.
+\]
+The weight belongs to \(L^{q_b}\) under the displayed strict inequality
+for \(s\); for \(b=2\), its \(L^\infty\)-norm is finite because \(s>k\).
+Summation over \(\abs\alpha=k\) proves
+\eqref{eq:qc-embedding-constant}.
+
+The first estimate in \eqref{eq:qc-algebra-constant} is
+Lemma~\ref{lem:sobolev-product}.  For the heat estimate, the symbol of
+\(\Pp\nabla\!\cdot\), acting from tensors to vectors, has norm at most
+\(\abs\xi\), while
+\[
+ \sup_{\rho\ge0}\rho e^{-\nu t\rho^2}=(2e\nu t)^{-1/2}.
+\]
+Plancherel gives
+\[
+ \norm{e^{\nu t\Delta}\Pp\nabla\!\cdot F}_{H^m}
+ \le(2e\nu t)^{-1/2}\norm F_{H^m}
+ \le L_m(\nu t)^{-1/2}\norm F_{H^m}.
+\]
+\end{proof}
+
+\begin{definition}[Canonical rectangle majorants]
+\label{def:qc-canonical-majorants}
+For \(N,M\in\Nzero\), define
+\begin{equation}
+ \mathfrak B_{N,M}[u_0,\nu;T]
+ :=\inf\left\{B\ge0:
+ \mathfrak R_{N,M}(u;S)\le B
+ \text{ for every }0<S<T\right\}.
+ \label{eq:qc-canonical-rectangle-majorant}
+\end{equation}
+Monotone convergence gives
+\begin{equation}
+ \mathfrak B_{N,M}[u_0,\nu;T]
+ =\begin{cases}
+   \mathfrak R_{N,M}(u;T),&T<T_*,\\
+   \mathfrak R_{N,M}^*[u_0,\nu,T_*],&T=T_*<\infty.
+  \end{cases}
+ \label{eq:qc-canonical-rectangle-identification}
+\end{equation}
+The global theorem fixes one history for \((u_0,\nu)\).  Thus
+\(\mathfrak B_{N,M}[u_0,\nu;T]\) is the exact minimal rectangle bound of
+that datum-generated history, not a supremum over a family of solutions and
+not an independently chosen constant.
+Equations~\eqref{eq:rectangle-matrix-norm-identities} and
+\eqref{eq:qc-canonical-rectangle-majorant} give the exact matrix identities
+\begin{align}
+ \mathfrak B_{N,M}[u_0,\nu;T]
+ &=\sup_{0<S<T}\norm{\mathbf G_{N,M}(S)}_{\mathrm F}^2,
+ \label{eq:qc-B-matrix-identity}\\
+ \mathfrak P_{N,M}[u_0,\nu;T]
+ &=1+\sup_{0<S<T}\norm{\mathbf G_{N,M}(S)}_{\mathrm F}^2.
+ \label{eq:qc-P-matrix-identity}
+\end{align}
+Consequently,
+\begin{equation}
+ \mathfrak P_{N,M}[u_0,\nu;T]
+ =1+\mathfrak B_{N,M}[u_0,\nu;T].
+ \label{eq:qc-producer-through-B}
+\end{equation}
+
+For \(n,m\in\Nzero\), define the initial-jet majorants
+\(\mathfrak D_{n,m}=\mathfrak D_{n,m}[u_0,\nu]\) by
+\begin{align}
+ \mathfrak D_{0,m}&:=\norm{u_0}_{H^m},
+ \label{eq:qc-D0}\\
+ \mathfrak D_{n+1,m}
+ &:=\nu\mathfrak D_{n,m+2}
+ +A_{m+1}\sum_{a=0}^{n}\binom na
+   \mathfrak D_{a,m+2}\mathfrak D_{n-a,m+2}.
+ \label{eq:qc-Drec}
+\end{align}
+\begin{samepage}
+Define the pointwise recursion
+\(\mathfrak Y_{n,m}=\mathfrak Y_{n,m}[u_0,\nu;T]\) by
+\begin{align}
+ \mathfrak Y_{0,0}&:=\norm{u_0}_2,
+ \label{eq:qc-Y00}\\
+ \mathfrak Y_{0,m}
+ &:=\min\left\{
+ (1+T^{-1})^{1/2}\mathfrak B_{0,m}^{1/2},
+ \norm{u_0}_{H^m}+T^{1/2}\mathfrak B_{0,m+1}^{1/2}
+ \right\},
+ \qquad m\ge1,
+ \label{eq:qc-Y0}\\
+ \mathfrak Y_{n+1,m}
+ &:=\nu\mathfrak Y_{n,m+2}
+ +A_{m+1}\sum_{a=0}^{n}\binom na
+ \mathfrak Y_{a,m+2}\mathfrak Y_{n-a,m+2}.
+ \label{eq:qc-Yrec}
+\end{align}
+\end{samepage}
+\begin{samepage}
+For \(m\in\{-1\}\cup\Nzero\), put
+\[
+ m_+:=\max\{m,0\},
+ \qquad
+ \mu(m):=\max\{m-1,0\},
+\]
+and define
+\begin{equation}
+ \widetilde{\mathfrak X}_{n,m}
+ :=\min\left\{
+ T^{1/2}\mathfrak Y_{n,m_+},
+ \mathfrak B_{n,\mu(m)}^{1/2}
+ \right\}.
+ \label{eq:qc-Xraw}
+\end{equation}
+\end{samepage}
+Set
+\begin{align}
+ \mathfrak X_{0,0}
+ &:=\min\left\{\widetilde{\mathfrak X}_{0,0},
+ T^{1/2}\norm{u_0}_2\right\},
+ \label{eq:qc-X00}\\
+ \mathfrak X_{0,1}
+ &:=\min\left\{\widetilde{\mathfrak X}_{0,1},
+ \left(T+\frac1{2\nu}\right)^{1/2}\norm{u_0}_2\right\},
+ \label{eq:qc-X01}\\
+ \mathfrak X_{n,m}&:=\widetilde{\mathfrak X}_{n,m}
+ \quad\text{for all other }(n,m).
+ \label{eq:qc-Xotherwise}
+\end{align}
+For \(n,m\in\Nzero\), define
+\begin{equation}
+ \mathfrak Z_{n,m}[u_0,\nu;T]
+ :=\min\left\{
+ \mathfrak Y_{n,m},
+ (1+T^{-1})^{1/2}\mathfrak B_{n,m}^{1/2},
+ \mathfrak D_{n,m}+T^{1/2}\mathfrak X_{n+1,m}
+ \right\}.
+ \label{eq:qc-Z}
+\end{equation}
+All \(\mathfrak B,\mathfrak D,\mathfrak X,\mathfrak Y,\mathfrak Z\) in
+this section carry the arguments \([u_0,\nu;T]\), except that
+\(\mathfrak D\) is independent of \(T\).
+\end{definition}
+
+\begin{proposition}[Exact viscosity and horizon scaling]
+\label{prop:qc-exact-viscosity-scaling}
+Let
+\[
+ a:=\nu^{-1}u_0,
+ \qquad
+ v(s,x):=\nu^{-1}u(s/\nu,x),
+ \qquad
+ q(s,x):=\nu^{-2}p(s/\nu,x).
+\]
+Then \((v,q)\) is the unit-viscosity solution generated by \(a\).  If
+\[
+ \widetilde V_n:=\partial_s^nv,
+ \qquad
+ \widetilde Q_n:=\partial_s^nq,
+\]
+then
+\begin{equation}
+ V_n(t)=\nu^{n+1}\widetilde V_n(\nu t),
+ \qquad
+ Q_n(t)=\nu^{n+2}\widetilde Q_n(\nu t).
+ \label{eq:qc-row-viscosity-scaling}
+\end{equation}
+Substitution of \eqref{eq:qc-row-viscosity-scaling} into the defining norms gives
+\begin{align}
+ \mathfrak B_{N,M}[u_0,\nu;T]
+ =\sum_{n=0}^{N}\Bigl[{}
+ &\nu^{2n+1}
+ \norm{\widetilde V_n}_{L^2(0,\nu T;H^{M+1})}^2
+ \notag\\[-2pt]
+ &+\nu^{2n+3}
+ \norm{\widetilde V_{n+1}}_{L^2(0,\nu T;H^{M-1})}^2
+ \Bigr],
+ \label{eq:qc-rectangle-viscosity-scaling}\\
+ \norm{Q_n}_{L^1(0,T;H^m)}
+ +\norm{\nabla Q_n}_{L^1(0,T;H^{m-1})}
+ ={}&\nu^{n+1}\Bigl(
+ \norm{\widetilde Q_n}_{L^1(0,\nu T;H^m)}
+ \notag\\[-2pt]
+ &\hspace{32pt}+
+ \norm{\nabla\widetilde Q_n}_{L^1(0,\nu T;H^{m-1})}
+ \Bigr),
+ \label{eq:qc-pressure-viscosity-scaling}\\
+ \sup_{0\le t\le T}\norm{Q_n(t)}_{H^m}
+ ={}&\nu^{n+2}
+ \sup_{0\le s\le\nu T}\norm{\widetilde Q_n(s)}_{H^m}.
+ \label{eq:qc-pressure-sup-viscosity-scaling}
+\end{align}
+The initial-jet recursion obeys
+\begin{equation}
+ \mathfrak D_{n,m}[u_0,\nu]
+ =\nu^{n+1}\mathfrak D_{n,m}[u_0/\nu,1].
+ \label{eq:qc-initial-jet-viscosity-scaling}
+\end{equation}
+Write
+\[
+ E_\sigma^u(t):=\frac12\norm{\Lambda^\sigma u(t)}_2^2,
+ \qquad
+ E_\sigma^v(s):=\frac12\norm{\Lambda^\sigma v(s)}_2^2.
+\]
+For every \(j\in\Nzero\), the critical-height rows obey
+\begin{align}
+ E_{j+1/2}^u(t)
+ &=\nu^2E_{j+1/2}^v(\nu t),
+ \label{eq:qc-critical-height-viscosity-scaling}\\
+ \int_0^T E_{j+1/2}^u(t)\dd t
+ &=\nu\int_0^{\nu T}E_{j+1/2}^v(s)\dd s.
+ \label{eq:qc-critical-height-mass-viscosity-scaling}
+\end{align}
+For every \(b\in H^3_\sigma(\R^3)\), the maximal elapsed lifespan in the
+shifted mild class has the exact covariance
+\begin{equation}
+ \tau_{\nu,3}^{\max}(s,b)
+ =\nu^{-1}\tau_{1,3}^{\max}(0,b/\nu).
+ \label{eq:qc-maximal-lifespan-viscosity-scaling}
+\end{equation}
+\end{proposition}
+
+\begin{proof}
+The change of variables gives
+\(u(t)=\nu v(\nu t)\) and \(p(t)=\nu^2q(\nu t)\).
+Differentiation proves \eqref{eq:qc-row-viscosity-scaling}; the substitution
+\(s=\nu t\) proves
+\eqref{eq:qc-rectangle-viscosity-scaling}--%
+\eqref{eq:qc-pressure-sup-viscosity-scaling}.
+Equation \eqref{eq:qc-initial-jet-viscosity-scaling} follows by induction in
+\eqref{eq:qc-D0}--\eqref{eq:qc-Drec}.  The amplitude relation
+\(u(t)=\nu v(\nu t)\) proves
+\eqref{eq:qc-critical-height-viscosity-scaling}, and the substitution
+\(s=\nu t\) proves
+\eqref{eq:qc-critical-height-mass-viscosity-scaling}.  For
+\((w,\pi)\in\mathscr M_\nu^3(s,s+\delta;b)\), set
+\[
+ \mathcal S_\nu(w,\pi)(\sigma)
+ :=
+ \left(
+  \nu^{-1}w(s+\sigma/\nu),
+  \nu^{-2}\pi(s+\sigma/\nu)
+ \right),
+ \qquad 0\le\sigma\le\nu\delta.
+\]
+Time translation and this change of variables show that
+\(\mathcal S_\nu\) is a bijection from
+\(\mathscr M_\nu^3(s,s+\delta;b)\) onto
+\(\mathscr M_1^3(0,\nu\delta;b/\nu)\).
+Its inverse is the corresponding amplitude and time rescaling,
+which proves \eqref{eq:qc-maximal-lifespan-viscosity-scaling}.
+\end{proof}
+
+\begin{proposition}[Height-coordinate re-expression of the finite rows]
+\label{prop:qc-critical-height-row-propagation}
+For \(m\in\Nzero\), define
+\begin{align}
+ \mathfrak H_m[u_0,\nu;T]
+ &:={}
+ \frac12\norm{\Lambda^{m+1/2}u}_{L^2(I_T;L^2)}^2,
+ \label{eq:qc-height-producer-coordinate}\\
+ \mathfrak S_m[u_0,\nu;T]^2
+ &:={}
+ 2^m\left(T\norm{u_0}_2^2+2\mathfrak H_m[u_0,\nu;T]\right).
+ \label{eq:qc-spatial-row-from-height}
+\end{align}
+Then
+\begin{equation}
+ 2\mathfrak H_m[u_0,\nu;T]
+ \le\mathfrak B_{0,m}[u_0,\nu;T],
+ \qquad
+ \norm u_{L^2(I_T;H^m)}\le\mathfrak S_m[u_0,\nu;T].
+ \label{eq:qc-height-spatial-bounds}
+\end{equation}
+Define recursively, for \(n,m\in\Nzero\),
+\begin{align}
+ \mathfrak A^{\rm v}_{0,m}
+ &:={}
+ T^{-1/2}\mathfrak S_m
+ +\nu T^{1/2}\mathfrak S_{m+2}
+ +A_{m+1}\mathfrak S_{m+2}^2,
+ \label{eq:qc-height-base-pointwise-majorant}\\
+ \mathfrak A^{\rm p}_{n,m}
+ &:={}
+ A_m\sum_{a=0}^{n}\binom na
+ \mathfrak A^{\rm v}_{a,m+1}
+ \mathfrak A^{\rm v}_{n-a,m+1},
+ \label{eq:qc-height-pressure-majorant}\\
+ \mathfrak A^{\rm v}_{n+1,m}
+ &:={}
+ \nu\mathfrak A^{\rm v}_{n,m+2}
+ +A_{m+1}\sum_{a=0}^{n}\binom na
+ \mathfrak A^{\rm v}_{a,m+2}
+ \mathfrak A^{\rm v}_{n-a,m+2}.
+ \label{eq:qc-height-temporal-majorant}
+\end{align}
+Every finite quantity in this recursion is finite, and
+\begin{align}
+ \sup_{0\le t\le T}\norm{V_n(t)}_{H^m}
+ &\le\mathfrak A^{\rm v}_{n,m},
+ \label{eq:qc-height-temporal-row-bound}\\
+ \sup_{0\le t\le T}
+ \left(\norm{Q_n(t)}_{H^m}
+ +\norm{\nabla Q_n(t)}_{H^{m-1}}\right)
+ &\le\mathfrak A^{\rm p}_{n,m}.
+ \label{eq:qc-height-pressure-row-bound}
+\end{align}
+Let \(M_-:=\max\{M-1,0\}\) and set
+\begin{align}
+ \widehat{\mathfrak B}_{N,M}^{\rm h}[u_0,\nu;T]
+ &:={}
+ T\sum_{n=0}^{N}\left(
+ (\mathfrak A^{\rm v}_{n,M+1})^2
+ +(\mathfrak A^{\rm v}_{n+1,M_-})^2
+ \right),
+ \label{eq:qc-height-reconstructed-rectangle}\\
+ \widehat{\mathfrak Q}_{N,M}^{\rm h}[u_0,\nu;T]
+ &:={}
+ T\sum_{n=0}^{N}\mathfrak A^{\rm p}_{n,M}.
+ \label{eq:qc-height-reconstructed-pressure}
+\end{align}
+Then
+\begin{align}
+ \mathfrak B_{N,M}[u_0,\nu;T]
+ &\le\widehat{\mathfrak B}_{N,M}^{\rm h}[u_0,\nu;T],
+ \label{eq:qc-B-by-height-reconstruction}\\
+ \mathfrak Q_{N,M}(p;T)
+ &\le\widehat{\mathfrak Q}_{N,M}^{\rm h}[u_0,\nu;T].
+ \label{eq:qc-pressure-by-height-reconstruction}
+\end{align}
+For fixed \(N,M\), the right-hand sides use only
+\begin{equation}
+ \nu,\quad T,\quad\norm{u_0}_2,\quad N,\quad M,\quad
+ \{\mathfrak H_q[u_0,\nu;T]:0\le q\le M+2N+4\},
+ \quad\{A_q:0\le q\le M+2N+4\}.
+ \label{eq:qc-height-reconstruction-dependence}
+\end{equation}
+The quantities \(\mathfrak H_q\) are the exact completed-height coordinates
+of the fixed datum-generated history.  Equations
+\eqref{eq:qc-height-spatial-bounds} and
+\eqref{eq:qc-B-by-height-reconstruction} express those finite rows in the
+rectangle and height coordinates, respectively.  This is a change of
+coordinates, not an independent estimate of either family, and it is not used
+to prove the whole-terminal rectangle theorem.
+\end{proposition}
+
+\begin{proof}
+The first estimate in \eqref{eq:qc-height-spatial-bounds} follows from the
+upper row of \(\mathfrak B_{0,m}\).  The Fourier inequality
+\[
+ (1+\abs\xi^2)^m\le2^m(1+\abs\xi^{2m+1})
+\]
+and \eqref{eq:energy-Linf} give the second estimate.
+
+The projected equation and \eqref{eq:qc-product-constant} give
+\[
+ \norm{u_t}_{L^1(I_T;H^m)}
+ \le\nu T^{1/2}\mathfrak S_{m+2}
+ +A_{m+1}\mathfrak S_{m+2}^2.
+\]
+Choose a Lebesgue time \(t_m\in I_T\) satisfying
+\[
+ \norm{u(t_m)}_{H^m}
+ \le T^{-1/2}\norm u_{L^2(I_T;H^m)}.
+\]
+The Banach-valued fundamental identity gives
+\eqref{eq:qc-height-temporal-row-bound} at \(n=0\).
+Assume that bound through row \(n\).  The pressure recurrence and
+\eqref{eq:qc-pressure-product-constant} give
+\eqref{eq:qc-height-pressure-row-bound}.  The projected temporal recurrence
+and \eqref{eq:qc-product-constant} give the next velocity row through
+\eqref{eq:qc-height-temporal-majorant}.  Induction proves
+\eqref{eq:qc-height-temporal-row-bound}--%
+\eqref{eq:qc-height-pressure-row-bound}.
+
+Integrating the pointwise bounds over \(I_T\) gives
+\eqref{eq:qc-B-by-height-reconstruction}; when \(M=0\), use
+\(H^0\hookrightarrow H^{-1}\) on the lower row.  This integration in
+\eqref{eq:qc-height-pressure-row-bound} gives
+\eqref{eq:qc-pressure-by-height-reconstruction}.  Induction in
+\eqref{eq:qc-height-temporal-majorant} gives the finite dependency range in
+\eqref{eq:qc-height-reconstruction-dependence}.
+\end{proof}
+
+\begin{lemma}[Closed velocity majorants]
+\label{lem:qc-closed-velocity-majorants}
+For every \(n,m\in\Nzero\),
+\begin{align}
+ \norm{V_n(0)}_{H^m}&\le\mathfrak D_{n,m},
+ \label{eq:qc-D-bound}\\
+ \norm{V_n}_{L^2(I_T;H^m)}&\le\mathfrak X_{n,m},
+ \label{eq:qc-X-bound}\\
+ \sup_{0\le t\le T}\norm{V_n(t)}_{H^m}
+ &\le\mathfrak Z_{n,m}.
+ \label{eq:qc-Z-bound}
+\end{align}
+For \(m=-1\), equation~\eqref{eq:qc-X-bound} remains valid.  Every
+right-hand side is finite and depends on \((u_0,\nu,n,m,T)\) through the
+finite rectangle-matrix suprema in \eqref{eq:qc-B-matrix-identity}.
+\end{lemma}
+
+\begin{proof}
+Applying \(\Pp\) to the temporal recurrence gives
+\begin{equation}
+ V_{n+1}=\nu\Delta V_n
+ -\Pp\nabla\!\cdot\sum_{a=0}^{n}\binom na
+ (V_a\otimes V_{n-a}).
+ \label{eq:qc-projected-temporal-recurrence}
+\end{equation}
+Equation~\eqref{eq:qc-product-constant} at order \(m+1\), evaluated at
+\(t=0\), proves \eqref{eq:qc-D-bound} by induction through
+\eqref{eq:qc-Drec}.  This estimate, taken pointwise on \([0,T]\),
+proves by induction that
+\begin{equation}
+ \sup_{0\le t\le T}\norm{V_n(t)}_{H^m}
+ \le\mathfrak Y_{n,m}.
+ \label{eq:qc-Y-bound}
+\end{equation}
+The base case \(m=0\) is \eqref{eq:energy-Linf}.  For \(m\ge1\), both
+terms in \eqref{eq:qc-Y0} are valid: the first is the adjacent trace bound,
+and the second follows from
+\[
+ u(t)=u_0+\int_0^tV_1(s)\dd s
+ \quad\text{in }H^m.
+\]
+
+The rectangle with middle order \(\mu(m)\), Sobolev nesting, and
+\eqref{eq:qc-Y-bound} give respectively
+\[
+ \norm{V_n}_{L^2(I_T;H^m)}
+ \le\mathfrak B_{n,\mu(m)}^{1/2},
+ \qquad
+ \norm{V_n}_{L^2(I_T;H^m)}
+ \le T^{1/2}\mathfrak Y_{n,m_+}.
+\]
+This proves \eqref{eq:qc-X-bound} through \eqref{eq:qc-Xraw}; the two
+special energy cases follow from \eqref{eq:energy-Linf} and
+\eqref{eq:energy-L2H1}.  The adjacent trace lemma gives
+\[
+ \sup_{0\le t\le T}\norm{V_n(t)}_{H^m}
+ \le(1+T^{-1})^{1/2}\mathfrak B_{n,m}^{1/2},
+\]
+while the Banach-valued fundamental identity and
+\eqref{eq:qc-D-bound} give
+\[
+ \sup_{0\le t\le T}\norm{V_n(t)}_{H^m}
+ \le\mathfrak D_{n,m}+T^{1/2}\mathfrak X_{n+1,m}.
+\]
+Taking the minimum of these bounds and \eqref{eq:qc-Y-bound} proves
+\eqref{eq:qc-Z-bound}.
+\end{proof}
+
+\begin{definition}[Closed pressure majorants]
+\label{def:qc-closed-pressure-majorants}
+For \(n,m\in\Nzero\), define
+\begin{align}
+ \mathfrak Q^{(1)}_{n,m}
+ &:={}
+ A_m\sum_{a=0}^{n}\binom na
+ \mathfrak X_{a,m+1}\mathfrak X_{n-a,m+1},
+ \label{eq:qc-Q1}\\
+ \mathfrak Q^{(2)}_{n,m}
+ &:={}
+ A_m\sum_{a=0}^{n}\binom na
+ \min\left\{
+ \mathfrak Z_{a,m+1}\mathfrak X_{n-a,m+1},
+ \mathfrak X_{a,m+1}\mathfrak Z_{n-a,m+1}
+ \right\},
+ \label{eq:qc-Q2}\\
+ \mathfrak Q^{(\infty)}_{n,m}
+ &:={}
+ A_m\sum_{a=0}^{n}\binom na
+ \mathfrak Z_{a,m+1}\mathfrak Z_{n-a,m+1},
+ \label{eq:qc-Qinfty}\\
+ \mathfrak Q^{(\mathrm{mod})}_{n,m}
+ &:={}
+ A_m\sum_{a=0}^{n}\binom na
+ \left(
+ \mathfrak X_{a+1,m+1}\mathfrak Z_{n-a,m+1}
+ +\mathfrak Z_{a,m+1}\mathfrak X_{n-a+1,m+1}
+ \right).
+ \label{eq:qc-Qmod}
+\end{align}
+These quantities carry the arguments \([u_0,\nu;T]\) through
+\(\mathfrak X\) and \(\mathfrak Z\).
+\end{definition}
+
+\subsection{Mixed velocity and pressure rows}
+
+The canonical majorants now turn each finite rectangle into bounds for the
+actual differentiated velocity and pressure rows, including their traces and
+time moduli.
+
+\begin{theorem}[Quantitative mixed-jet rows and traces]
+\label{thm:qc-mixed-jet}
+\begin{samepage}
+Let \(N,s\in\Nzero\), let \(0\le n\le N\), and let
+\(\alpha\in\Nzero^3\).  Put
+\[
+ J_{n,\alpha}:=\partial_x^\alpha V_n.
+\]
+Then
+\begin{align}
+ \norm{J_{n,\alpha}}_{L^2(I_T;H^{s+1})}^2
+ +\norm{J_{n+1,\alpha}}_{L^2(I_T;H^{s-1})}^2
+ &\le \mathfrak P_{N,s+|\alpha|},
+ \label{eq:qc-mixed-adjacent}\\
+ \sup_{0\le t\le T}\norm{J_{n,\alpha}(t)}_{H^s}
+ &\le \mathfrak T_{N,s+|\alpha|}.
+ \label{eq:qc-mixed-trace}
+\end{align}
+\end{samepage}
+There is a unique trace \(J_{n,\alpha}^T\in H^s\) at \(t=T\), and
+for \(0\le r\le t\le T\),
+\begin{align}
+ \norm{J_{n,\alpha}(t)-J_{n,\alpha}(r)}_{H^{s-1}}
+ &\le (t-r)^{1/2}\mathfrak P_{N,s+|\alpha|}^{1/2},
+ \label{eq:qc-mixed-low-modulus}\\
+ \norm{J_{n,\alpha}(t)-J_{n,\alpha}(r)}_{H^s}
+ &\le (t-r)^{1/2}
+        \mathfrak P_{N,s+|\alpha|+1}^{1/2},
+ \label{eq:qc-mixed-strong-modulus}\\
+ \norm{J_{n,\alpha}^T}_{H^s}
+ &\le \mathfrak T_{N,s+|\alpha|}.
+ \label{eq:qc-mixed-endpoint-size}
+\end{align}
+If \(0\le\theta\le1\), then
+\begin{equation}
+ \norm{J_{n,\alpha}(t)-J_{n,\alpha}(r)}_{H^{s-\theta}}
+ \le
+ 2^{1-\theta}
+ \mathfrak T_{N,s+|\alpha|}^{1-\theta}
+ \mathfrak P_{N,s+|\alpha|}^{\theta/2}
+ (t-r)^{\theta/2}.
+ \label{eq:qc-mixed-interpolated-modulus}
+\end{equation}
+For \(1\le a\le\infty\), \(2\le b\le\infty\),
+\(k,q\in\Nzero\), and
+\(q>k+\frac32-\frac3b\),
+\begin{align}
+ \norm{\nabla^kJ_{n,\alpha}}_{L^a(I_T;L^b)}
+ &\le S_{q,k,b}T^{1/a}\mathfrak T_{N,q+|\alpha|},
+ \label{eq:qc-mixed-la-lb}\\
+ \norm{\nabla^kJ_{n,\alpha}}_{L^2(I_T;L^b)}
+ &\le S_{q,k,b}\mathfrak P_{N,q+|\alpha|}^{1/2},
+ \label{eq:qc-mixed-l2-lb}
+\end{align}
+where \(T^{1/\infty}=1\).
+\end{theorem}
+
+\begin{proof}
+Take the rectangle with middle order \(M=s+|\alpha|\).
+\begin{samepage}
+The Fourier
+multiplier inequality
+\[
+ \norm{\partial_x^\alpha f}_{H^r}
+ \le \norm f_{H^{r+|\alpha|}}
+\]
+and \eqref{eq:qc-producer-constant} give
+\eqref{eq:qc-mixed-adjacent}.
+The adjacent-row trace estimate gives
+\begin{align*}
+ \sup_{0\le t\le T}\norm{J_{n,\alpha}(t)}_{H^s}^2
+ &\le T^{-1}\norm{J_{n,\alpha}}_{L^2(I_T;H^s)}^2\\
+ &\quad+2\norm{J_{n,\alpha}}_{L^2(I_T;H^{s+1})}
+          \norm{J_{n+1,\alpha}}_{L^2(I_T;H^{s-1})}\\
+ &\le (T^{-1}+1)\mathfrak P_{N,s+|\alpha|},
+\end{align*}
+which proves \eqref{eq:qc-mixed-trace} and
+\eqref{eq:qc-mixed-endpoint-size}.
+\par
+\end{samepage}
+The Bochner identity
+\[
+ J_{n,\alpha}(t)-J_{n,\alpha}(r)
+ =\int_r^tJ_{n+1,\alpha}(\tau)\,d\tau
+\]
+in \(H^{s-1}\), followed by Cauchy--Schwarz, proves
+\eqref{eq:qc-mixed-low-modulus}.  Applying this argument to the rectangle
+with middle order \(s+|\alpha|+1\) proves
+\eqref{eq:qc-mixed-strong-modulus}.  Interpolation between
+\(H^{s-1}\) and \(H^s\), together with
+\(\norm{J(t)-J(r)}_{H^s}\le2\mathfrak T_{N,s+|\alpha|}\), proves
+\eqref{eq:qc-mixed-interpolated-modulus}.  Sobolev embedding and
+\eqref{eq:qc-mixed-trace} prove \eqref{eq:qc-mixed-la-lb}; Sobolev embedding
+and \eqref{eq:qc-mixed-adjacent} prove \eqref{eq:qc-mixed-l2-lb}.
+\end{proof}
+
+\begin{theorem}[Quantitative pressure rows]
+\label{thm:qc-pressure-rows}
+\begin{samepage}
+Let \(N,s\in\Nzero\), \(0\le n\le N\), and
+\(\alpha\in\Nzero^3\).  Set
+\[
+ \Pi_{n,\alpha}:=\partial_x^\alpha Q_n,
+ \qquad r:=s+|\alpha|.
+\]
+Then
+\begin{align}
+ \norm{\Pi_{n,\alpha}}_{L^1(I_T;H^s)}
+ +\norm{\nabla\Pi_{n,\alpha}}_{L^1(I_T;H^{s-1})}
+ &\le 2A_r2^n\mathfrak P_{N,r},
+ \label{eq:qc-pressure-l1}\\
+ \norm{\Pi_{n,\alpha}}_{L^2(I_T;H^s)}
+ &\le A_r2^n
+ \mathfrak T_{N,r+1}\mathfrak P_{N,r}^{1/2},
+ \label{eq:qc-pressure-l2}\\
+ \sup_{0\le t\le T}\norm{\Pi_{n,\alpha}(t)}_{H^s}
+ &\le A_r2^n\mathfrak T_{N,r+1}^2.
+ \label{eq:qc-pressure-sup}
+\end{align}
+\end{samepage}
+There is a unique endpoint pressure row \(\Pi_{n,\alpha}^T\in H^s\), and
+\begin{align}
+ \norm{\Pi_{n,\alpha}^T}_{H^s}
+ &\le A_r2^n\mathfrak T_{N,r+1}^2,
+ \label{eq:qc-pressure-endpoint}\\
+ \norm{\Pi_{n,\alpha}(t)-\Pi_{n,\alpha}(r_0)}_{H^s}
+ &\le 2^{n+1}A_r\mathfrak T_{N,r+1}
+ \mathfrak P_{N,r+2}^{1/2}|t-r_0|^{1/2}
+ \label{eq:qc-pressure-modulus}
+\end{align}
+for \(0\le r_0\le t\le T\).  If
+\(1\le a\le\infty\), \(2\le b\le\infty\),
+\(k,q\in\Nzero\), and
+\(q>k+\frac32-\frac3b\), then
+\begin{equation}
+ \norm{\nabla^k\Pi_{n,\alpha}}_{L^a(I_T;L^b)}
+ \le
+ S_{q,k,b}T^{1/a}A_{q+|\alpha|}2^n
+ \mathfrak T_{N,q+|\alpha|+1}^2.
+ \label{eq:qc-pressure-la-lb}
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+The normalized pressure recurrence is
+\begin{equation}
+ Q_n=R_iR_j\sum_{a=0}^{n}\binom na V_{a,i}V_{n-a,j}.
+ \label{eq:qc-pressure-recurrence}
+\end{equation}
+Equation~\eqref{eq:qc-product-constant}, Cauchy--Schwarz in time, and
+\(\sum_{a=0}^n\binom na=2^n\) give
+\begin{equation}
+ \norm{Q_n}_{L^1(I_T;H^r)}
+ \le A_r2^n\mathfrak P_{N,r}.
+ \label{eq:qc-pressure-L1-sharp}
+\end{equation}
+The gradient estimate in \eqref{eq:qc-pressure-l1} follows from
+\(\norm{\nabla f}_{H^{r-1}}\le\norm f_{H^r}\).
+Using one factor in \(L_t^\infty H_x^{r+1}\) and the other in
+\(L_t^2H_x^{r+1}\) proves \eqref{eq:qc-pressure-l2}.  Using both factors in
+\(L_t^\infty H_x^{r+1}\) proves \eqref{eq:qc-pressure-sup} and
+\eqref{eq:qc-pressure-endpoint}.
+
+Subtract \eqref{eq:qc-pressure-recurrence} at times \(t\) and \(r_0\), split
+each product difference into two terms, apply
+\eqref{eq:qc-mixed-strong-modulus} in \(H^{r+1}\), and use
+\eqref{eq:qc-mixed-trace}.  The two product differences and the binomial sum
+give \eqref{eq:qc-pressure-modulus}.  Equation~\eqref{eq:qc-pressure-la-lb}
+follows from \eqref{eq:qc-pressure-sup} and Sobolev embedding.
+\end{proof}
+
+\begin{proposition}[Matrix form of the closed rectangle estimates]
+\label{prop:qc-closed-rectangle-matrix}
+For nonnegative matrices of identical dimensions, write
+\(A\preceq_{\rm ent}B\) when every entry of \(A\) is at most the
+corresponding entry of \(B\).  When \(T=T_*<\infty\), interpret the closed
+rectangle matrix and the two scalar rectangle coordinates by
+\begin{align*}
+ \mathbf C_{N,M}(T_*)&:=
+ \lim_{S\uparrow T_*}\mathbf C_{N,M}(S),\\
+ \mathfrak R_{N,M}(u;T_*)&:=
+ \lim_{S\uparrow T_*}\mathfrak R_{N,M}(u;S),\\
+ \mathfrak Q_{N,M}(p;T_*)&:=
+ \lim_{S\uparrow T_*}\mathfrak Q_{N,M}(p;S).
+\end{align*}
+All three limits exist in the extended nonnegative reals by monotonicity.
+Theorem~\ref{thm:datum-rectangles} and
+Proposition~\ref{prop:rectangle-pressure-completion} make the scalar limits
+finite, and the estimates below make every matrix entry finite.
+Then
+\begin{equation}
+ \mathbf C_{N,M}(T)
+ \preceq_{\rm ent}
+ \left(
+ \begin{array}{ccc}
+  \mathfrak X_{n,M+1}
+  &\mathfrak X_{n+1,M-1}
+  &\mathfrak Q^{(1)}_{n,M}
+ \end{array}
+ \right)_{n=0}^{N}.
+ \label{eq:qc-closed-rectangle-matrix}
+\end{equation}
+Consequently,
+\begin{align}
+ \mathfrak R_{N,M}(u;T)
+ &\le\sum_{n=0}^{N}
+ \left(\mathfrak X_{n,M+1}^2
+       +\mathfrak X_{n+1,M-1}^2\right),
+ \label{eq:qc-closed-rectangle-frobenius}\\
+ \mathfrak Q_{N,M}(p;T)
+ &\le\sum_{n=0}^{N}\mathfrak Q^{(1)}_{n,M}.
+ \label{eq:qc-closed-pressure-column}
+\end{align}
+\end{proposition}
+
+\begin{proof}
+The first two columns of \eqref{eq:qc-closed-rectangle-matrix} are
+\eqref{eq:qc-X-bound}.  The pressure recurrence
+\eqref{eq:qc-pressure-recurrence}, the product estimate
+\eqref{eq:qc-pressure-product-constant}, and Cauchy--Schwarz in time give
+the third column through \eqref{eq:qc-Q1}.  Take the Frobenius norm of the
+first two columns and sum the third column, using
+\eqref{eq:rectangle-matrix-norm-identities}.
+\end{proof}
+
+\subsection{Frequency and critical-scale consequences}
+
+\begin{proposition}[Velocity and pressure frequency tails]
+\label{prop:qc-frequency-tails}
+Let \(\mathsf P_{\ge K}\) be the Fourier multiplier of
+\(\mathbf 1_{\{|\xi|\ge K\}}\), where \(K\ge1\).  Let
+\(r_1\in\N\), \(s\in\Nzero\), \(0\le n\le N\), and
+\(\alpha\in\Nzero^3\).  Then
+\begin{align}
+ \norm{\mathsf P_{\ge K}J_{n,\alpha}}_{L^2(I_T;H^s)}
+ &\le K^{-r_1}\mathfrak P_{N,s+r_1+|\alpha|}^{1/2},
+ \label{eq:qc-velocity-tail-l2}\\
+ \sup_{0\le t\le T}
+ \norm{\mathsf P_{\ge K}J_{n,\alpha}(t)}_{H^s}
+ &\le K^{-r_1}\mathfrak T_{N,s+r_1+|\alpha|},
+ \label{eq:qc-velocity-tail-sup}\\
+ \norm{\mathsf P_{\ge K}\Pi_{n,\alpha}}_{L^1(I_T;H^s)}
+ &\le K^{-r_1}A_{s+r_1+|\alpha|}2^n
+ \mathfrak P_{N,s+r_1+|\alpha|},
+ \label{eq:qc-pressure-tail-l1}\\
+ \sup_{0\le t\le T}
+ \norm{\mathsf P_{\ge K}\Pi_{n,\alpha}(t)}_{H^s}
+ &\le K^{-r_1}A_{s+r_1+|\alpha|}2^n
+ \mathfrak T_{N,s+r_1+|\alpha|+1}^2.
+ \label{eq:qc-pressure-tail-sup}
+\end{align}
+The pointwise estimates \eqref{eq:qc-velocity-tail-sup} and
+\eqref{eq:qc-pressure-tail-sup} hold at \(t=T\).
+\end{proposition}
+
+\begin{proof}
+For every \(f\in H^{s+r_1}\),
+\[
+ \norm{\mathsf P_{\ge K}f}_{H^s}
+ \le K^{-r_1}\norm f_{H^{s+r_1}}.
+\]
+Apply this inequality to
+\eqref{eq:qc-mixed-adjacent} and \eqref{eq:qc-mixed-trace} at spatial order
+\(s+r_1\) to obtain the two velocity bounds.  Since Fourier multipliers
+commute,
+\[
+ \norm{\mathsf P_{\ge K}\Pi_{n,\alpha}}_{H^s}
+ \le K^{-r_1}\norm{Q_n}_{H^{s+r_1+|\alpha|}}.
+\]
+Integration in time followed by
+\eqref{eq:qc-pressure-L1-sharp} at order \(s+r_1+|\alpha|\) gives
+\eqref{eq:qc-pressure-tail-l1}.  Applying the tail inequality directly to
+\(\Pi_{n,\alpha}\), followed by \eqref{eq:qc-pressure-sup} with \(s\) replaced
+by \(s+r_1\), gives \eqref{eq:qc-pressure-tail-sup}.
+\end{proof}
+
+\begin{proposition}[Fixed weighted dyadic shell sums]
+\label{prop:qc-dyadic-shell-sums}
+Let \((\Delta_j)_{j\ge-1}\) be a fixed inhomogeneous
+Littlewood--Paley decomposition on \(\R^3\).  Let
+\(\sigma\in\R\), \(k\in\Nzero\), and choose \(M\in\Nzero\) such that
+\begin{equation}
+ M>\sigma+k+\frac32.
+ \label{eq:qc-dyadic-order-condition}
+\end{equation}
+Then
+\begin{equation}
+ \int_0^T\sum_{j\ge-1}2^{\sigma j}
+ \norm{\Delta_j\nabla^ku(t)}_{L^\infty}\dd t
+ \le C_{\Delta,\sigma,k,M}T^{1/2}\mathfrak X_{0,M}.
+ \label{eq:qc-dyadic-shell-sum}
+\end{equation}
+In particular, with \(\omega=\nabla\times u\),
+\begin{equation}
+ \sum_{j\ge-1}\int_0^T
+ \norm{\Delta_j\omega(t)}_{L^\infty}\dd t
+ \le C_\Delta T^{1/2}\mathfrak X_{0,3}<\infty.
+ \label{eq:qc-dyadic-vorticity-sum}
+\end{equation}
+Each estimate uses one fixed finite Sobolev coordinate; no summation over
+Sobolev orders is asserted.
+\end{proposition}
+
+\begin{proof}
+Bernstein's inequality on a shell gives, for \(j\ge0\),
+\[
+ 2^{\sigma j}\norm{\Delta_j\nabla^kf}_{L^\infty}
+ \le C_\Delta 2^{(\sigma+k+3/2)j}\norm{\Delta_jf}_2.
+\]
+Put \(d:=M-\sigma-k-3/2>0\).  Cauchy--Schwarz in \(j\) yields
+\begin{align*}
+ \sum_{j\ge0}2^{\sigma j}
+ \norm{\Delta_j\nabla^kf}_{L^\infty}
+ &\le C_\Delta
+ \left(\sum_{j\ge0}2^{-2dj}\right)^{1/2}
+ \left(\sum_{j\ge0}2^{2Mj}\norm{\Delta_jf}_2^2\right)^{1/2}\\
+ &\le C_{\Delta,\sigma,k,M}\norm f_{H^M}.
+\end{align*}
+The single low block \(j=-1\) obeys this final bound.  The last
+inequality follows from Plancherel's theorem and the finite overlap of the
+dyadic multipliers.  Integrating in time, applying Cauchy--Schwarz, and using
+\eqref{eq:qc-X-bound} prove \eqref{eq:qc-dyadic-shell-sum}.  Since curl
+commutes with every \(\Delta_j\), the choice
+\((\sigma,k,M)=(0,1,3)\) gives
+\eqref{eq:qc-dyadic-vorticity-sum}.
+\end{proof}
+
+\begin{proposition}[Critical-height bounds]
+\label{prop:qc-critical-height}
+Define
+\[
+ E_\sigma(t):=\frac12\norm{\Lambda^\sigma u(t)}_2^2,
+ \qquad
+ H(t):=E_{1/2}(t),
+\]
+and
+\[
+ E_{j+1/2,\ge K}(t)
+ :=\frac12\int_{|\xi|\ge K}|\xi|^{2j+1}
+ |\widehat u(t,\xi)|^2\,d\xi.
+\]
+\begin{samepage}
+For \(j\in\Nzero\),
+\begin{align}
+ \sup_{0\le t\le T}E_{j+1/2}(t)
+ &\le\frac12\mathfrak T_{0,j+1}^2,
+ \label{eq:qc-critical-sup}\\
+ \int_0^T E_{j+1/2}(t)\,dt
+ &\le\frac12\mathfrak P_{0,j}.
+ \label{eq:qc-critical-mass}
+\end{align}
+\end{samepage}
+If \(m>j+\frac12\) is an integer and \(K\ge1\), then
+\begin{align}
+ \sup_{0\le t\le T}E_{j+1/2,\ge K}(t)
+ &\le\frac12K^{2j+1-2m}\mathfrak T_{0,m}^2,
+ \label{eq:qc-critical-tail-sup}\\
+ \int_0^T E_{j+1/2,\ge K}(t)\,dt
+ &\le\frac12K^{2j+1-2m}\mathfrak P_{0,m-1}.
+ \label{eq:qc-critical-tail-mass}
+\end{align}
+\begin{samepage}
+For \(k\in\N\),
+\begin{equation}
+ \norm{H^{(k)}}_{L^1(0,T)}
+ \le2^{k-1}\mathfrak P_{k,0}.
+ \label{eq:qc-height-derivatives}
+\end{equation}
+In particular,
+\begin{align}
+ \norm{H'}_{L^1(0,T)}
+ &\le\frac12\mathfrak P_{0,2},
+ \label{eq:qc-critical-variation}\\
+ \int_0^T\norm{\Lambda^{3/2}u(t)}_2^2\,dt
+ &\le\mathfrak P_{0,1},
+ \label{eq:qc-critical-dissipation}\\
+ \norm{\mathcal P_{1/2}}_{L^1(0,T)}
+ &\le\frac12\mathfrak P_{0,2}+\nu\mathfrak P_{0,1},
+ \label{eq:qc-critical-current}\\
+ |H(T)-H(t)|
+ &\le
+ \mathfrak T_{0,1}\mathfrak P_{0,2}^{1/2}(T-t)^{1/2},
+ \quad0\le t\le T,
+ \label{eq:qc-critical-endpoint-modulus}
+\end{align}
+where
+\(\mathcal P_{1/2}=H'+\nu\norm{\Lambda^{3/2}u}_2^2\).
+\end{samepage}
+\end{proposition}
+
+\begin{proof}
+Equations~\eqref{eq:qc-critical-sup} and
+\eqref{eq:qc-critical-mass} follow from
+\(\dot H^{j+1/2}\hookleftarrow H^{j+1}\),
+\eqref{eq:qc-mixed-trace}, and \eqref{eq:qc-mixed-adjacent}.
+On \(|\xi|\ge K\),
+\[
+ |\xi|^{2j+1}\le K^{2j+1-2m}|\xi|^{2m},
+\]
+which proves \eqref{eq:qc-critical-tail-sup} and
+\eqref{eq:qc-critical-tail-mass}.
+
+The identity
+\[
+ H^{(k)}(t)
+ =\frac12\sum_{a=0}^{k}\binom ka
+ \operatorname{Re}\ip{\Lambda^{1/2}V_a(t)}
+ {\Lambda^{1/2}V_{k-a}(t)}
+\]
+and Cauchy--Schwarz in time give
+\eqref{eq:qc-height-derivatives}.  At \(k=1\), the two equal terms give
+\[
+ \norm{H'}_{L^1(0,T)}
+ \le\norm{u_t}_{L^2(I_T;\dot H^{1/2})}
+     \norm u_{L^2(I_T;\dot H^{1/2})}
+ \le\frac12\mathfrak P_{0,2}.
+\]
+Equation~\eqref{eq:qc-critical-dissipation} follows from the upper velocity
+row of the \((0,1)\) rectangle.  The identity defining
+\(\mathcal P_{1/2}\) gives \eqref{eq:qc-critical-current}.  Finally,
+\[
+ \norm{u(T)-u(t)}_{\dot H^{1/2}}
+ \le\norm{u(T)-u(t)}_{H^1}
+ \le(T-t)^{1/2}\norm{u_t}_{L^2(t,T;H^1)}
+ \le(T-t)^{1/2}\mathfrak P_{0,2}^{1/2},
+\]
+and
+\[
+ |H(T)-H(t)|
+ \le\frac12\bigl(
+ \norm{u(T)}_{\dot H^{1/2}}+\norm{u(t)}_{\dot H^{1/2}}
+ \bigr)\norm{u(T)-u(t)}_{\dot H^{1/2}}.
+\]
+Equation~\eqref{eq:qc-mixed-trace} bounds each retained velocity factor, so
+these two estimates prove \eqref{eq:qc-critical-endpoint-modulus}.
+\end{proof}
+
+Taking \(j=0\) and any integer \(m\ge1\) in
+\eqref{eq:qc-critical-tail-sup} gives the uniform tail limit
+\begin{equation}
+ \lim_{K\to\infty}\sup_{0\le t\le T}
+ E_{1/2,\ge K}(t)=0.
+ \label{eq:qc-critical-tail-extinction}
+\end{equation}
+
+\subsection{Continuation and quantitative restart}
+
+\begin{proposition}[Continuation norms]
+\label{prop:qc-continuation-norms}
+The finite-horizon solution satisfies
+\begin{align}
+ \norm u_{L^2(I_T;L^\infty)}
+ &\le S_{2,0,\infty}\mathfrak P_{0,1}^{1/2},
+ \label{eq:qc-l2-linfty}\\
+ \int_0^T\norm{\nabla u(t)}_{L^\infty}\,dt
+ &\le S_{3,1,\infty}T^{1/2}\mathfrak P_{0,2}^{1/2},
+ \label{eq:qc-lipschitz-action}\\
+ \int_0^T\norm{\nabla\times u(t)}_{L^\infty}\,dt
+ &\le 2S_{3,1,\infty}T^{1/2}\mathfrak P_{0,2}^{1/2}.
+ \label{eq:qc-vorticity-action}
+\end{align}
+For every integer \(m\ge3\), let \(K_m\) be the explicit constant in
+\eqref{eq:explicit-commutator-constant}.  Then
+\begin{equation}
+ \left|\operatorname{Re}
+ \ip{A^m\Pp\nabla\!\cdot(u\otimes u)}{A^m u}_{L^2}\right|
+ \le K_m\norm{\nabla u}_{L^\infty}\norm u_{H^m}^2.
+ \label{eq:qc-commutator-constant}
+\end{equation}
+\begin{equation}
+ \sup_{0\le t\le T}\norm{u(t)}_{H^m}^2
+ \le
+ \norm{u_0}_{H^m}^2
+ \exp\!\left(
+ 2K_mS_{3,1,\infty}T^{1/2}\mathfrak P_{0,2}^{1/2}
+ \right).
+ \label{eq:qc-continuation-growth}
+\end{equation}
+\end{proposition}
+
+\begin{proof}
+Sobolev embedding and the upper rows of the \((0,1)\) and \((0,2)\)
+rectangles give \eqref{eq:qc-l2-linfty} and
+\eqref{eq:qc-lipschitz-action}; the pointwise bound
+\(\norm{\nabla\times u}_\infty\le2\norm{\nabla u}_\infty\) gives
+\eqref{eq:qc-vorticity-action}.  The \(H^m\) energy identity and
+\eqref{eq:qc-commutator-constant} give
+\[
+ \frac12\frac d{dt}\norm u_{H^m}^2
+ +\nu\norm{\nabla u}_{H^m}^2
+ \le K_m\norm{\nabla u}_{L^\infty}\norm u_{H^m}^2,
+\]
+and hence
+\[
+ \frac d{dt}\norm u_{H^m}^2
+ \le2K_m\norm{\nabla u}_{L^\infty}\norm u_{H^m}^2.
+\]
+Gronwall's inequality and \eqref{eq:qc-lipschitz-action} prove
+\eqref{eq:qc-continuation-growth}.
+\end{proof}
+
+\begin{theorem}[Explicit endpoint-restart bound]
+\label{thm:qc-restart}
+Assume \(T=T_*<\infty\), and set \(u_T:=u_*\).
+Define the maximal restart lifespan inside the shifted pressure-normalized
+\(H^3\) mild class by
+\begin{equation}
+ \begin{aligned}
+ \delta_T^{\max}
+ &:=\tau_{\nu,3}^{\max}(T,u_T)\\
+ &=\sup\left\{\delta>0:
+ \mathscr M_\nu^3(T,T+\delta;u_T)\ne\varnothing\right\}
+ \in(0,\infty].
+ \end{aligned}
+ \label{eq:qc-maximal-restart-lifespan-definition}
+\end{equation}
+Define
+\begin{equation}
+ \delta_{\rm qc}[u_0,\nu;T]
+ :=\min\left\{
+ 1,
+ c_\nu\bigl(1+\mathfrak Z_{0,3}[u_0,\nu;T]\bigr)^{-2}
+ \right\}.
+ \label{eq:qc-restart-lifespan}
+\end{equation}
+The class \(\mathscr M_\nu^3(T,T+\delta_{\rm qc};u_T)\) contains exactly one
+pair \((w,q)\).  It is the original history's continuation constructed in
+Theorem~\ref{thm:ier-same-history-restart}, and
+\begin{equation}
+ \delta_T^{\max}\ge\delta_{\rm qc}[u_0,\nu;T]>0.
+ \label{eq:qc-restart-lower-bound}
+\end{equation}
+At the base restart order,
+\begin{align}
+ &\norm w_{C([T,T+\delta_{\rm qc}];H^3)}
+ +\norm w_{L^2(T,T+\delta_{\rm qc};H^4)}
+ +\norm{w_t}_{L^2(T,T+\delta_{\rm qc};H^2)}
+ \notag\\
+ &\qquad\le2L_\nu\mathfrak Z_{0,3}[u_0,\nu;T].
+ \label{eq:qc-restart-base-size}
+\end{align}
+Set
+\begin{equation}
+ \mathfrak A_T
+ :=2S_{3,1,\infty}L_\nu\delta_{\rm qc}
+ \mathfrak Z_{0,3}[u_0,\nu;T].
+ \label{eq:qc-restart-action}
+\end{equation}
+For every integer \(m\ge3\),
+\begin{equation}
+ \sup_{T\le t\le T+\delta_{\rm qc}}\norm{w(t)}_{H^m}^2
+ \le\mathfrak Z_{0,m}[u_0,\nu;T]^2
+ \exp\!\left(2K_m\mathfrak A_T\right).
+ \label{eq:qc-restart-persistence-size}
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+Equations~\eqref{eq:ier-endpoint-velocity-size} and
+\eqref{eq:qc-Z-bound} give
+\[
+ \norm{u_T}_{H^3}\le\mathfrak Z_{0,3}.
+\]
+Consequently,
+\[
+ \delta_{\rm qc}[u_0,\nu;T]
+ \le\min\{1,c_\nu(1+\norm{u_T}_{H^3})^{-2}\}.
+\]
+Theorem~\ref{thm:local-restart} gives the unique member of
+\(\mathscr M_\nu^3(T,T+\delta_{\rm qc};u_T)\).  The fixed-point ball in its
+proof gives
+\eqref{eq:qc-restart-base-size}.  Hence
+\[
+ \int_T^{T+\delta_{\rm qc}}\norm{\nabla w(t)}_\infty\dd t
+ \le S_{3,1,\infty}\delta_{\rm qc}
+ \norm w_{C([T,T+\delta_{\rm qc}];H^3)}
+ \le\mathfrak A_T.
+\]
+The \(H^m\) energy estimate in
+Proposition~\ref{prop:qc-continuation-norms}, now on the restart interval,
+and \(\norm{u_T}_{H^m}\le\mathfrak Z_{0,m}\) prove
+\eqref{eq:qc-restart-persistence-size}.  Theorem
+\ref{thm:ier-same-history-restart} identifies this unique local pair with the
+continuation of the preterminal history, and its membership on the displayed
+interval proves \eqref{eq:qc-restart-lower-bound}.
+\end{proof}
+
+\newcommand{\QuantitativeCatalogue}{%
+\section{Canonical coordinate catalogue}
+\label{sec:quantitative-catalogue}
+
+The estimates in Section~\ref{sec:quantitative-consequences} are organized by
+their role in the argument.  For reference, the following theorem collects
+their canonical-coordinate forms in one place.
+
+\begin{theorem}[Canonical finite-horizon coordinate estimates]
+\label{thm:qc-sharp-datum-estimates}
+Under the hypotheses and notation of
+Definition~\ref{def:qc-producer-constants}, let
+\(J_{n,\alpha}:=\partial_x^\alpha V_n\) and
+\(\Pi_{n,\alpha}:=\partial_x^\alpha Q_n\), as in
+Theorems~\ref{thm:qc-mixed-jet} and \ref{thm:qc-pressure-rows}.
+Let \(n,s,k,q\in\Nzero\), \(\alpha\in\Nzero^3\), and set
+\(r:=s+|\alpha|\).  Then
+\begin{align}
+ \norm{J_{n,\alpha}}_{L^2(I_T;H^{s+1})}
+ &\le\mathfrak X_{n,r+1},
+ \label{eq:qc-sharp-mixed-upper}\\
+ \norm{J_{n+1,\alpha}}_{L^2(I_T;H^{s-1})}
+ &\le\mathfrak X_{n+1,r-1},
+ \label{eq:qc-sharp-mixed-lower}\\
+ \sup_{0\le t\le T}\norm{J_{n,\alpha}(t)}_{H^s}
+ &\le\mathfrak Z_{n,r},
+ \label{eq:qc-sharp-mixed-sup}\\
+ \norm{J_{n,\alpha}^T}_{H^s}
+ &\le\mathfrak Z_{n,r},
+ \label{eq:qc-sharp-mixed-endpoint}
+\end{align}
+\begin{samepage}
+\begin{align}
+ \norm{J_{n,\alpha}(t)-J_{n,\alpha}(r_0)}_{H^{s-1}}
+ &\le\min\left\{
+ |t-r_0|^{1/2}\mathfrak X_{n+1,r-1},
+ |t-r_0|\mathfrak Z_{n+1,r}
+ \right\},
+ \label{eq:qc-sharp-mixed-low-modulus}\\
+ \norm{J_{n,\alpha}(t)-J_{n,\alpha}(r_0)}_{H^s}
+ &\le\min\left\{
+ |t-r_0|^{1/2}\mathfrak X_{n+1,r},
+ |t-r_0|\mathfrak Z_{n+1,r}
+ \right\},
+ \label{eq:qc-sharp-mixed-modulus}
+\end{align}
+for \(0\le r_0\le t\le T\).
+\par
+\end{samepage}
+For \(0\le\theta\le1\),
+\begin{equation}
+ \norm{J_{n,\alpha}(t)-J_{n,\alpha}(r_0)}_{H^{s-\theta}}
+ \le2^{1-\theta}\mathfrak Z_{n,r}^{1-\theta}
+ \mathfrak X_{n+1,r-1}^{\theta}|t-r_0|^{\theta/2}.
+ \label{eq:qc-sharp-mixed-interpolation}
+\end{equation}
+\begin{samepage}
+If \(1\le a\le\infty\), \(2\le b\le\infty\), and
+\(q>k+\frac32-\frac3b\), then
+\begin{align}
+ \norm{\nabla^kJ_{n,\alpha}}_{L^a(I_T;L^b)}
+ &\le S_{q,k,b}T^{1/a}\mathfrak Z_{n,q+|\alpha|},
+ \label{eq:qc-sharp-mixed-Lab}\\
+ \norm{\nabla^kJ_{n,\alpha}}_{L^2(I_T;L^b)}
+ &\le S_{q,k,b}\mathfrak X_{n,q+|\alpha|},
+ \label{eq:qc-sharp-mixed-L2b}
+\end{align}
+where \(T^{1/\infty}=1\).
+\end{samepage}
+
+The pressure rows obey
+\begin{align}
+ \norm{\Pi_{n,\alpha}}_{L^1(I_T;H^s)}
+ +\norm{\nabla\Pi_{n,\alpha}}_{L^1(I_T;H^{s-1})}
+ &\le\mathfrak Q^{(1)}_{n,r},
+ \label{eq:qc-sharp-pressure-L1}\\
+ \norm{\Pi_{n,\alpha}}_{L^2(I_T;H^s)}
+ &\le\mathfrak Q^{(2)}_{n,r},
+ \label{eq:qc-sharp-pressure-L2}\\
+ \sup_{0\le t\le T}\norm{\Pi_{n,\alpha}(t)}_{H^s}
+ &\le\mathfrak Q^{(\infty)}_{n,r},
+ \label{eq:qc-sharp-pressure-sup}\\
+ \norm{\Pi_{n,\alpha}^T}_{H^s}
+ &\le\mathfrak Q^{(\infty)}_{n,r},
+ \label{eq:qc-sharp-pressure-endpoint}\\
+ \norm{\Pi_{n,\alpha}(t)-\Pi_{n,\alpha}(r_0)}_{H^s}
+ &\le\min\left\{
+ |t-r_0|^{1/2}\mathfrak Q^{(\mathrm{mod})}_{n,r},
+ |t-r_0|\mathfrak Q^{(\infty)}_{n+1,r}
+ \right\}.
+ \label{eq:qc-sharp-pressure-modulus}
+\end{align}
+Under the preceding restrictions on \(a,b,k,q\),
+\begin{equation}
+ \norm{\nabla^k\Pi_{n,\alpha}}_{L^a(I_T;L^b)}
+ \le S_{q,k,b}T^{1/a}
+ \mathfrak Q^{(\infty)}_{n,q+|\alpha|}.
+ \label{eq:qc-sharp-pressure-Lab}
+\end{equation}
+
+Let \(r_1\in\N\) and \(K\ge1\).  Then
+\begin{align}
+ \norm{\mathsf P_{\ge K}J_{n,\alpha}}_{L^2(I_T;H^s)}
+ &\le K^{-r_1}\mathfrak X_{n,s+r_1+|\alpha|},
+ \label{eq:qc-sharp-velocity-tail-L2}\\
+ \sup_{0\le t\le T}
+ \norm{\mathsf P_{\ge K}J_{n,\alpha}(t)}_{H^s}
+ &\le K^{-r_1}\mathfrak Z_{n,s+r_1+|\alpha|},
+ \label{eq:qc-sharp-velocity-tail-sup}\\
+ \norm{\mathsf P_{\ge K}\Pi_{n,\alpha}}_{L^1(I_T;H^s)}
+ &\le K^{-r_1}\mathfrak Q^{(1)}_{n,s+r_1+|\alpha|},
+ \label{eq:qc-sharp-pressure-tail-L1}\\
+ \sup_{0\le t\le T}
+ \norm{\mathsf P_{\ge K}\Pi_{n,\alpha}(t)}_{H^s}
+ &\le K^{-r_1}\mathfrak Q^{(\infty)}_{n,s+r_1+|\alpha|}.
+ \label{eq:qc-sharp-pressure-tail-sup}
+\end{align}
+
+For \(j\in\Nzero\),
+\begin{align}
+ \sup_{0\le t\le T}E_{j+1/2}(t)
+ &\le\frac12\mathfrak Z_{0,j+1}^2,
+ \label{eq:qc-sharp-critical-sup}\\
+ \int_0^TE_{j+1/2}(t)\dd t
+ &\le\frac12\mathfrak X_{0,j+1}^2.
+ \label{eq:qc-sharp-critical-mass}
+\end{align}
+If \(m>j+\frac12\) is an integer, then
+\begin{align}
+ \sup_{0\le t\le T}E_{j+1/2,\ge K}(t)
+ &\le\frac12K^{2j+1-2m}\mathfrak Z_{0,m}^2,
+ \label{eq:qc-sharp-critical-tail-sup}\\
+ \int_0^TE_{j+1/2,\ge K}(t)\dd t
+ &\le\frac12K^{2j+1-2m}\mathfrak X_{0,m}^2.
+ \label{eq:qc-sharp-critical-tail-mass}
+\end{align}
+For \(k\in\N\),
+\begin{equation}
+ \norm{H^{(k)}}_{L^1(0,T)}
+ \le\frac12\sum_{a=0}^{k}\binom ka
+ \mathfrak X_{a,1}\mathfrak X_{k-a,1}.
+ \label{eq:qc-sharp-height-derivatives}
+\end{equation}
+\begin{samepage}
+For \(j,\ell\in\Nzero\), define
+\begin{align}
+ \mathfrak E_{j,\ell}^{[1]}
+ &:=\frac12\sum_{a=0}^{\ell}\binom\ell a
+ \mathfrak X_{a,j+1}\mathfrak X_{\ell-a,j+1},
+ \notag\\
+ \mathfrak E_{j,\ell}^{[\infty]}
+ &:=\frac12\sum_{a=0}^{\ell}\binom\ell a
+ \mathfrak Z_{a,j+1}\mathfrak Z_{\ell-a,j+1},
+ \label{eq:qc-height-row-majorants}\\
+ \mathfrak C_{j,\ell}^{[1]}
+ &:=\mathfrak E_{j,\ell+1}^{[1]}
+    +2\nu\mathfrak E_{j+1,\ell}^{[1]},
+ \notag\\
+ \mathfrak C_{j,\ell}^{[\infty]}
+ &:=\mathfrak E_{j,\ell+1}^{[\infty]}
+    +2\nu\mathfrak E_{j+1,\ell}^{[\infty]}.
+ \label{eq:qc-production-row-majorants}
+\end{align}
+Then the complete differentiated energy and production rows obey
+\begin{align}
+ \norm{\partial_t^\ell E_{j+1/2}}_{L^1(0,T)}
+ &\le\mathfrak E_{j,\ell}^{[1]},
+ &
+ \sup_{0\le t\le T}
+ \abs{\partial_t^\ell E_{j+1/2}(t)}
+ &\le\mathfrak E_{j,\ell}^{[\infty]},
+ \label{eq:qc-sharp-energy-row-family}\\
+ \norm{\partial_t^\ell\cP_{j+1/2}}_{L^1(0,T)}
+ &\le\mathfrak C_{j,\ell}^{[1]},
+ &
+ \sup_{0\le t\le T}
+ \abs{\partial_t^\ell\cP_{j+1/2}(t)}
+ &\le\mathfrak C_{j,\ell}^{[\infty]}.
+ \label{eq:qc-sharp-production-row-family}
+\end{align}
+\end{samepage}
+Every current in \eqref{eq:completed-height-recurrence} now has a
+finite-order majorant retaining temporal depth, spatial height, viscosity,
+and horizon.
+In particular,
+\begin{align}
+ \norm{H'}_{L^1(0,T)}
+ &\le\mathfrak X_{1,1}\mathfrak X_{0,1},
+ \label{eq:qc-sharp-height-variation}\\
+ \int_0^T\norm{\Lambda^{3/2}u(t)}_2^2\dd t
+ &\le\mathfrak X_{0,2}^2,
+ \label{eq:qc-sharp-critical-dissipation}\\
+ \norm{\mathcal P_{1/2}}_{L^1(0,T)}
+ &\le\mathfrak X_{1,1}\mathfrak X_{0,1}
+ +\nu\mathfrak X_{0,2}^2,
+ \label{eq:qc-sharp-critical-current}\\
+ |H(T)-H(t)|
+ &\le\min\left\{
+ \mathfrak Z_{0,1}\mathfrak X_{1,1}(T-t)^{1/2},
+ \mathfrak Z_{0,1}\mathfrak Z_{1,1}(T-t)
+ \right\},
+ \qquad 0\le t\le T.
+ \label{eq:qc-sharp-critical-modulus}
+\end{align}
+
+Finally,
+\begin{align}
+ \norm u_{L^2(I_T;L^\infty)}
+ &\le S_{2,0,\infty}\mathfrak X_{0,2},
+ \label{eq:qc-sharp-L2Linfty}\\
+ \int_0^T\norm{\nabla u(t)}_\infty\dd t
+ &\le S_{3,1,\infty}T^{1/2}\mathfrak X_{0,3},
+ \label{eq:qc-sharp-lipschitz-action}\\
+ \int_0^T\norm{\nabla\times u(t)}_\infty\dd t
+ &\le2S_{3,1,\infty}T^{1/2}\mathfrak X_{0,3},
+ \label{eq:qc-sharp-vorticity-action}\\
+ \sup_{0\le t\le T}\norm{u(t)}_{H^m}^2
+ &\le\norm{u_0}_{H^m}^2
+ \exp\!\left(
+ 2K_mS_{3,1,\infty}T^{1/2}\mathfrak X_{0,3}
+ \right),
+ \qquad m\ge3.
+ \label{eq:qc-sharp-continuation-growth}
+\end{align}
+Every right-hand side is an explicit finite expression in the displayed
+analytic constants, the initial-jet recursion
+\eqref{eq:qc-D0}--\eqref{eq:qc-Drec}, and the finite collection of canonical
+rectangle coordinates \(\mathfrak B_{a,b}[u_0,\nu;T]\) selected by the stated
+indices.  Equations \eqref{eq:qc-producer-through-B} and
+\eqref{eq:qc-Y00}--\eqref{eq:qc-Qmod} specify every intermediate operation.
+Equation \eqref{eq:qc-B-by-height-reconstruction} rewrites each such rectangle
+coordinate through the finite height-coordinate recursion
+\eqref{eq:qc-height-producer-coordinate}--%
+\eqref{eq:qc-height-reconstructed-rectangle}.  Since
+\eqref{eq:qc-height-spatial-bounds} first bounds those height coordinates by
+the rectangle coordinates, this is a re-expression of that finite information about the original history rather than a new estimate from the critical-height
+rows.
+\begin{samepage}
+This is an exact coordinate-level
+catalogue for general data; it does not claim a second, independent bound of
+those rectangle coordinates by a finite list of datum norms.\par
+\end{samepage}
+Proposition~\ref{prop:qc-exact-viscosity-scaling} displays the exact powers of
+\(\nu\) and the rescaled horizon \(\nu T\).  For every fixed choice of the
+displayed indices, the definitions select only finitely many rectangle
+coordinates.
+Under the explicit critical smallness condition
+\eqref{eq:app-critical-smallness}, Proposition~\ref{prop:app-small-data-rectangles}
+eliminates the rectangle coordinates and gives finite formulas solely in the
+displayed datum norms, \(\nu\), \(T\), \(N\), and \(M\).
+\end{theorem}
+
+\begin{proof}
+The Fourier multiplier inequality
+\[
+ \norm{\partial_x^\alpha f}_{H^\ell}
+ \le\norm f_{H^{\ell+|\alpha|}},
+\]
+followed by Lemma~\ref{lem:qc-closed-velocity-majorants}, proves
+\eqref{eq:qc-sharp-mixed-upper}--\eqref{eq:qc-sharp-mixed-endpoint}.
+The Banach identity
+\[
+ J_{n,\alpha}(t)-J_{n,\alpha}(r_0)
+ =\int_{r_0}^tJ_{n+1,\alpha}(\tau)\dd\tau
+\]
+in the two indicated Sobolev spaces and Cauchy--Schwarz prove the
+square-root branches of \eqref{eq:qc-sharp-mixed-low-modulus} and
+\eqref{eq:qc-sharp-mixed-modulus}.
+\begin{samepage}
+This identity, followed by the
+pointwise bound \eqref{eq:qc-Z-bound} for \(V_{n+1}\), proves their linear
+branches.  Interpolation between the low modulus
+and
+\[
+ \norm{J_{n,\alpha}(t)-J_{n,\alpha}(r_0)}_{H^s}
+ \le2\mathfrak Z_{n,r}
+\]
+proves \eqref{eq:qc-sharp-mixed-interpolation}.
+\end{samepage}
+The fixed Sobolev embedding constant in \eqref{eq:qc-embedding-constant} proves
+\eqref{eq:qc-sharp-mixed-Lab} and \eqref{eq:qc-sharp-mixed-L2b}.
+
+Apply the recurrence
+\[
+ Q_n=R_iR_j\sum_{a=0}^{n}\binom naV_{a,i}V_{n-a,j}
+\]
+term by term at order \(r\), using
+\eqref{eq:qc-pressure-product-constant}.  Cauchy--Schwarz in time gives
+\eqref{eq:qc-sharp-pressure-L1}; placing either factor in
+\(L_t^\infty H_x^{r+1}\) gives
+\eqref{eq:qc-sharp-pressure-L2}; placing both factors there gives
+\eqref{eq:qc-sharp-pressure-sup} and
+\eqref{eq:qc-sharp-pressure-endpoint}.  After subtracting the recurrence at
+times \(t\) and \(r_0\), split each product difference into two terms and
+apply \eqref{eq:qc-sharp-mixed-modulus}; this gives the square-root branch
+of \eqref{eq:qc-sharp-pressure-modulus}.  Since
+\(\partial_t\Pi_{n,\alpha}=\Pi_{n+1,\alpha}\), the Banach identity and
+\eqref{eq:qc-sharp-pressure-sup} at row \(n+1\) give its linear branch.
+Sobolev embedding proves
+\eqref{eq:qc-sharp-pressure-Lab}.
+
+For every \(f\in H^{\ell+r_1}\),
+\[
+ \norm{\mathsf P_{\ge K}f}_{H^\ell}
+ \le K^{-r_1}\norm f_{H^{\ell+r_1}}.
+\]
+Apply this inequality at spatial order \(s+r_1\) to
+\eqref{eq:qc-X-bound}, \eqref{eq:qc-Z-bound},
+\eqref{eq:qc-sharp-pressure-L1}, and
+\eqref{eq:qc-sharp-pressure-sup}.  The four resulting estimates are
+\eqref{eq:qc-sharp-velocity-tail-L2}--%
+\eqref{eq:qc-sharp-pressure-tail-sup}.
+
+The inequalities
+\[
+ \norm f_{\dot H^{j+1/2}}\le\norm f_{H^{j+1}},
+ \qquad
+ |\xi|^{2j+1}\le K^{2j+1-2m}|\xi|^{2m}
+ \quad(|\xi|\ge K),
+\]
+give \eqref{eq:qc-sharp-critical-sup}--%
+\eqref{eq:qc-sharp-critical-tail-mass}.  The exact identity
+\[
+ H^{(k)}(t)=\frac12\sum_{a=0}^{k}\binom ka
+ \operatorname{Re}\ip{\Lambda^{1/2}V_a(t)}
+ {\Lambda^{1/2}V_{k-a}(t)}_{L^2}
+\]
+and Cauchy--Schwarz in time give
+\eqref{eq:qc-sharp-height-derivatives} and
+\eqref{eq:qc-sharp-height-variation}.  More generally,
+\[
+ \partial_t^\ell E_{j+1/2}
+ =\frac12\sum_{a=0}^{\ell}\binom\ell a
+ \operatorname{Re}\ip{\Lambda^{j+1/2}V_a}
+ {\Lambda^{j+1/2}V_{\ell-a}}_{L^2}.
+\]
+Cauchy--Schwarz in time and the pointwise estimates
+\eqref{eq:qc-X-bound}--\eqref{eq:qc-Z-bound} prove
+\eqref{eq:qc-sharp-energy-row-family}.  Differentiating
+\(\cP_{j+1/2}=\partial_tE_{j+1/2}+2\nu E_{j+3/2}\)
+then proves \eqref{eq:qc-sharp-production-row-family}.  The next two
+estimates follow from
+\[
+ \mathcal P_{1/2}=H'+\nu\norm{\Lambda^{3/2}u}_2^2.
+\]
+\begin{samepage}
+For the terminal critical-height modulus,
+\[
+ |H(T)-H(t)|
+ \le\frac12\bigl(
+ \norm{u(T)}_{\dot H^{1/2}}+\norm{u(t)}_{\dot H^{1/2}}
+ \bigr)\norm{u(T)-u(t)}_{\dot H^{1/2}},
+\]
+and the Banach identity in \(H^1\) prove the square-root branch of
+\eqref{eq:qc-sharp-critical-modulus}.
+\par
+\end{samepage}
+The identity
+\[
+ H'=\operatorname{Re}
+ \ip{\Lambda^{1/2}V_1}{\Lambda^{1/2}V_0}_{L^2},
+\]
+together with \eqref{eq:qc-Z-bound}, proves its linear branch.
+
+Sobolev embedding and \eqref{eq:qc-X-bound} prove
+\eqref{eq:qc-sharp-L2Linfty}--\eqref{eq:qc-sharp-vorticity-action}.
+Lemma~\ref{lem:transport-commutator} gives
+\[
+ \frac d{dt}\norm u_{H^m}^2
+ \le2K_m\norm{\nabla u}_\infty\norm u_{H^m}^2.
+\]
+Gronwall's inequality and \eqref{eq:qc-sharp-lipschitz-action} prove
+\eqref{eq:qc-sharp-continuation-growth}.
+\end{proof}
+}

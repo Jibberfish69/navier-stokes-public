@@ -1,0 +1,215 @@
+\begingroup
+\small
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55\baselineskip}
+\setlength{\abovedisplayskip}{8pt plus 2pt minus 2pt}
+\setlength{\belowdisplayskip}{8pt plus 2pt minus 2pt}
+\setlength{\jot}{4pt}
+
+\section*{How the Proof Works}
+
+The mechanism driving the proof is visible in one calculation.  Set
+\[
+V_r:=\partial_t^r u,
+\qquad
+Q_r:=\partial_t^r p,
+\qquad
+\Lambda:=(-\Delta)^{1/2}.
+\]
+Differentiating Navier--Stokes \(r\) times gives
+\[
+\partial_tV_r
++\sum_{a=0}^{r}\binom ra(V_a\!\cdot\nabla)V_{r-a}
++\nabla Q_r
+=\nu\Delta V_r.
+\]
+At spatial Sobolev height \(s\), define
+\[
+E_{r,s}(t):=\frac12\|\Lambda^sV_r(t)\|_2^2.
+\]
+Apply \(\Lambda^s\) to the differentiated equation and pair it with
+\(\Lambda^sV_r\).  The time term and the viscous term are
+\[
+\left\langle\Lambda^s\partial_tV_r,\Lambda^sV_r\right\rangle
+=\partial_tE_{r,s},
+\qquad
+\nu\left\langle\Lambda^s\Delta V_r,\Lambda^sV_r\right\rangle
+=-2\nu E_{r,s+1}.
+\]
+Keep the nonlinear and pressure terms together as
+\[
+\mathcal P_{r,s}
+:=-\operatorname{Re}
+\left\langle
+\Lambda^sV_r,
+\Lambda^s\!\left[
+\sum_{a=0}^{r}\binom ra(V_a\!\cdot\nabla)V_{r-a}
++\nabla Q_r
+\right]
+\right\rangle.
+\]
+The pairing gives the exact identity
+\[
+\boxed{
+\partial_tE_{r,s}=\mathcal P_{r,s}-2\nu E_{r,s+1},
+\qquad
+E_{r,s+1}
+=\frac{\mathcal P_{r,s}-\partial_tE_{r,s}}{2\nu}.
+}
+\]
+This is the central move.  The time variation of the energy at height \(s\)
+contains the energy at height \(s+1\), and viscosity supplies the coefficient
+that connects them.  Differentiating again repeats the same move; after \(k\)
+steps,
+\[
+\boxed{
+\partial_t^kE_{r,s}
+=(-2\nu)^kE_{r,s+k}
++\sum_{j=0}^{k-1}(-2\nu)^j
+\partial_t^{\,k-1-j}\mathcal P_{r,s+j}.
+}
+\]
+At the velocity level the same coupling is visible directly:
+\[
+V_{r+1}
+=\nu\Delta V_r
+-\sum_{a=0}^{r}\binom ra(V_a\!\cdot\nabla)V_{r-a}
+-\nabla Q_r,
+\qquad
+\nu\Delta:H^{m+1}\longrightarrow H^{m-1}.
+\]
+The Laplacian is where the temporal and spatial counts meet.  In the velocity
+equation, the viscous part of \(V_{r+1}\) contains two spatial derivatives of
+\(V_r\).  In the energy identity, integration by parts splits those
+derivatives across the two factors and produces \(E_{r,s+1}\).  Repeating the
+time differentiation repeats this spatial ascent, while \(\mathcal P_{r,s}\)
+carries the complete nonlinear and pressure transfer.
+
+Fix \(N\) and \(M\).  Iterating the displayed recurrence only to those orders
+involves finitely many velocity rows, pressure rows, energies, and transfer
+terms.  Theorem~\ref{thm:datum-rectangles} carries exactly that finite coupled
+system across \((0,T_*)\):
+\[
+V_n\in L^2(0,T_*;H^{M+1}),
+\qquad
+V_{n+1}\in L^2(0,T_*;H^{M-1})
+\qquad(0\le n\le N).
+\]
+Finite summation and Proposition~\ref{prop:datum-terminal-realization} give
+\[
+\mathfrak R^*_{N,M}[u_0,\nu,T_*]
+=\sum_{n=0}^{N}
+\left(
+\|V_n\|_{L^2_tH^{M+1}_x}^2
++\|V_{n+1}\|_{L^2_tH^{M-1}_x}^2
+\right)<\infty.
+\]
+The pressure recurrence supplies the matching \(Q_n\)-coordinates, so this
+finite calculation is the rectangle \(\mathcal R_{N,M}[u_0;T_*]\).  Enlarging
+\((N,M)\) leaves every shared coordinate unchanged.  The rectangles can thus
+be taken together, and for every finite \(r,m\),
+\[
+\mathcal I[u_0]
+\in\varprojlim_{N,M}\mathscr X_{N,M}
+\quad\Longrightarrow\quad
+u\in H^r(0,T_*;H^m(\mathbb R^3)).
+\]
+
+\clearpage
+
+Now name the estimate you want.  A finite-order Sobolev-controlled estimate
+specifies finitely many derivatives and target norms.  Write the derivatives as
+\[
+D_j u:=\partial_t^{a_j}\nabla^{b_j}u,
+\qquad 1\le j\le J,
+\]
+where \(J\), every \(a_j\), and every \(b_j\) are finite.  For a requested norm
+\(L_t^{p_j}L_x^{q_j}\), with \(1\le p_j\le\infty\) and
+\(2\le q_j\le\infty\), choose finite Sobolev indices \(n_j,m_j\) so that
+\[
+n_j-a_j>\frac12-\frac1{p_j},
+\qquad
+m_j-b_j>3\!\left(\frac12-\frac1{q_j}\right).
+\]
+The time and space Sobolev embeddings then give
+\[
+H^{n_j}(0,T_*;H^{m_j}(\mathbb R^3))
+\hookrightarrow
+W^{a_j,p_j}(0,T_*;W^{b_j,q_j}(\mathbb R^3)),
+\]
+and hence
+\[
+\|D_j u\|_{L_t^{p_j}L_x^{q_j}}
+\le
+C_j\|u\|_{H_t^{n_j}H_x^{m_j}}<\infty.
+\]
+Because the requested list is finite, one can choose
+\[
+N\ge\max_{1\le j\le J}n_j,
+\qquad
+M\ge\max_{1\le j\le J}m_j,
+\]
+and a single rectangle \(\mathcal R_{N,M}[u_0;T_*]\) contains every coordinate
+used by the estimate.  Nothing is assembled from unrelated bounds: the
+coordinates already agree inside the compatible family.
+
+If the requested expression contains products, choose \(M\) above the
+Sobolev algebra threshold and apply the standard product or Moser estimate.
+If it contains pressure, use
+\[
+\begin{aligned}
+Q_r
+&=R_iR_j\sum_{a=0}^{r}\binom ra V_{a,i}V_{r-a,j},\\
+\|Q_r\|_{H^m}
+&\lesssim_{r,m}
+\sum_{a=0}^{r}\|V_aV_{r-a}\|_{H^m}
+\lesssim_{r,m}
+\sum_{a=0}^{r}\|V_a\|_{H^m}\|V_{r-a}\|_{H^m},
+\qquad m>\frac32.
+\end{aligned}
+\]
+Here the second line uses the Sobolev boundedness of the Riesz transforms.
+Spatial Sobolev embedding can then be applied if the requested pressure norm
+is \(L^\infty\).  If the estimate asks for an intermediate exponent,
+interpolate between two coordinates already present in the rectangle.  If it
+asks for time integrability on \((0,T_*)\), use the time Sobolev embedding or
+finite-interval H\"older after selecting the required temporal order.
+
+Thus every finite-order Sobolev-controlled request has the same form:
+\[
+\boxed{
+\begin{gathered}
+\text{finite derivative and norm requirements}
+\longrightarrow
+\text{one sufficiently large }(N,M)\\
+\longrightarrow
+\mathcal R_{N,M}[u_0;T_*]
+\longrightarrow
+\text{the requested estimate}.
+\end{gathered}
+}
+\]
+The requested quantity may be a pointwise derivative bound, a spacetime norm,
+a nonlinear product bound, a pressure bound, or a finite collection of them.
+The chosen \((N,M)\) and its constant may change with the question.  No
+estimate uniform over all derivative orders is being claimed or needed.
+
+For the terminal \(H^m\) trace, select temporal order one and that fixed
+spatial height:
+\[
+u\in H^1(0,T_*;H^m)
+\hookrightarrow C([0,T_*];H^m).
+\]
+Thus \(u(T_*)\in H^m\) for every finite \(m\).  Compatibility identifies
+these traces as one endpoint
+\[
+u_*:=u(T_*)\in\bigcap_{m<\infty}H^m=H^\infty.
+\]
+Local well-posedness continues the solution from \(u_*\) past \(T_*\), which
+contradicts finite maximality and gives \(T_*=\infty\).
+
+The intersection supplies every finite Sobolev window; the estimate being
+requested determines which window is read from it.  Its constants may change
+with the question, but the solution and the direction of the proof do not.
+
+\endgroup

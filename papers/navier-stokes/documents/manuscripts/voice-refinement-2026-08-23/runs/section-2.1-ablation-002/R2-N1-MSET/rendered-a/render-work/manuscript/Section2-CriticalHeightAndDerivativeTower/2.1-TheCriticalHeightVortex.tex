@@ -1,0 +1,298 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.1 Vortex Stretching
+% ============================================================
+
+The momentum equation has four pieces:
+\[
+  \underbrace{\partial_t u}_{\text{local acceleration}}
+  +
+  \underbrace{(u\cdot\nabla)u}_{\text{nonlinear transport}}
+  =
+  \underbrace{-\nabla p}_{\text{pressure}}
+  +
+  \underbrace{\nu\Delta u}_{\text{viscous diffusion}}.
+\]
+Nonlinear transport carries the velocity through its own spatial variation, while viscosity diffuses that variation through the surrounding fluid.
+The regularity problem turns on whether the smoothing keeps pace wherever the transport sharpens the flow.
+The hope is simple: viscosity smooths the fluid faster than nonlinear transport can sharpen it.
+If that remains true at every scale, the velocity stays smooth.
+
+\subsection{Vortex Stretching}\label{sub:ThePerfectlyStretchingVortex}
+
+Picture one narrow tube of rotating fluid inside the flow.
+Mark off a short piece of that vortex tube and let the same fluid particles form it as time passes.
+This is the material segment we will follow: it has an axial length and a cross-section, and both deform as the surrounding velocity field pulls its ends apart.
+
+Write the symmetric part of the velocity gradient, which measures this local deformation, as
+\[
+  S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr),
+\]
+and let \(e\) be the axial direction and \(L(t)\) the material length.
+When the strain has a positive direction aligned with the segment,
+\[
+  Se=\sigma(t)e,
+  \qquad
+  \sigma(t)>0,
+  \qquad
+  \frac{\dot L(t)}{L(t)}
+  =
+  e\cdot Se
+  =
+  \sigma(t).
+\]
+The segment lengthens at the instantaneous logarithmic rate \(\sigma(t)\).
+
+It cannot lengthen while keeping the same cross-section.
+Incompressibility preserves the volume of a material region, so the extension along the axis is accompanied by contraction across it.
+Let \(\mathcal V\) be the fixed material volume, set \(A(t):=\mathcal V/L(t)\), and write \(r_{\mathrm{eff}}(t):=\sqrt{A(t)/\pi}\).
+Then
+\[
+  \nabla\cdot u=0,
+  \qquad
+  \frac{d}{dt}(A L)=0,
+  \qquad
+  \frac{\dot A}{A}=-\sigma(t),
+  \qquad
+  \frac{\dot r_{\mathrm{eff}}}{r_{\mathrm{eff}}}
+  =
+  -\frac{\sigma(t)}{2}.
+\]
+The same positive strain that increases the length decreases the area, and the effective radius falls at half the logarithmic rate.
+One motion has made the segment longer and thinner.
+
+The turning carried by the fluid is recorded by the vorticity \(\omega:=\nabla\times u\).
+Taking the curl of the momentum equation follows that rotation along the material motion and gives
+\[
+  \frac{D\omega}{Dt}
+  =
+  S\omega+\nu\Delta\omega,
+  \qquad
+  \frac{D}{Dt}
+  :=
+  \partial_t+u\cdot\nabla,
+\]
+with the strain term changing the rotation as the segment deforms and the Laplacian recording viscous diffusion of that rotation.
+When the vorticity is aligned with the same axial direction, \(\omega=|\omega|e\), the stretching contribution has a definite sign:
+\[
+  S\omega
+  =
+  \sigma(t)\omega,
+  \qquad
+  \frac12\frac{D|\omega|^2}{Dt}
+  =
+  \sigma(t)|\omega|^2
+  +
+  \nu\,\omega\cdot\Delta\omega.
+\]
+On any interval where the right-hand side is positive, the rotation strengthens.
+The segment is now lengthening, narrowing, and increasing the rotational part of its velocity gradient at the same time.
+
+The energy carried by the segment depends on its speed and its material volume.
+Its volume is already fixed by incompressibility.
+If its speed remains bounded, \(|u|\leq U_0\) on \(\Omega_{\mathrm{seg}}(t)\), then
+\[
+  E_{\mathrm{seg}}(t)
+  :=
+  \frac12\int_{\Omega_{\mathrm{seg}}(t)}|u(x,t)|^2\,dx
+  \leq
+  \frac12U_0^2\mathcal V
+  <
+  \infty,
+  \qquad
+  \left|\frac12\bigl(\nabla u-(\nabla u)^{\mathsf T}\bigr)\right|_{\mathrm F}
+  =
+  \frac{|\omega|}{\sqrt2}
+  \leq
+  |\nabla u|_{\mathrm F}.
+\]
+Bounded speed and fixed material volume keep the segment energy finite, while \(|\nabla u|_{\mathrm F}\) grows wherever \(|\omega|\) grows.
+On such an interval, the cross-section is shrinking while the rotating velocity gradient concentrates inside the same material tube.
+To follow that narrowing into the equation, we compare the original field with a rescaled solution at a finer width.
+The rescaled field is not a later state of this material tube.
+
+\divider{\NavierStokes{} Scaling}
+
+Fix a time \(t_0\) at which the original segment has effective width \(\ell:=r_{\mathrm{eff}}(t_0)\).
+For \(\lambda>1\), compare it at the same fixed viscosity with the rescaled fields
+\[
+  u_\lambda(x,t)
+  :=
+  \lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)
+  :=
+  \lambda^2p(\lambda x,\lambda^2t).
+\]
+At time \(\lambda^{-2}t_0\), the corresponding vortex in \(u_\lambda\) has width \(\lambda^{-1}\ell\).
+The comparison lets the equation reveal what changes when the width is reduced.
+Differentiating the rescaled fields gives
+\[
+\begin{aligned}
+  \partial_tu_\lambda(x,t)
+  &=
+  \lambda^3(\partial_tu)(\lambda x,\lambda^2t),
+  \\
+  (u_\lambda\cdot\nabla)u_\lambda(x,t)
+  &=
+  \lambda^3\bigl((u\cdot\nabla)u\bigr)(\lambda x,\lambda^2t),
+  \\
+  \nabla p_\lambda(x,t)
+  &=
+  \lambda^3(\nabla p)(\lambda x,\lambda^2t),
+  \\
+  \nu\Delta u_\lambda(x,t)
+  &=
+  \lambda^3\nu(\Delta u)(\lambda x,\lambda^2t).
+\end{aligned}
+\]
+Every term acquires the same factor \(\lambda^3\).
+Viscous diffusion is stronger in the finer comparison, but nonlinear transport is stronger by the same amount, with pressure and local acceleration retaining their place in the equation.
+Reducing the width does not tilt the balance toward viscosity.
+
+\divider{Critical Height}
+
+The four terms keep their relative strength under this concentration, but the familiar sizes of the velocity do not.
+Let \(\Lambda:=(-\Delta)^{1/2}\).
+A change of variables gives
+\[
+  \norm{u_\lambda(t)}_{\dot H^s}^2
+  =
+  \lambda^{2s-1}
+  \norm{u(\lambda^2t)}_{\dot H^s}^2.
+\]
+There is one height at which the power of \(\lambda\) vanishes.
+At \(s=\tfrac12\), set
+\[
+  H(t)
+  :=
+  \frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =
+  \frac12\norm{\Lambda^{1/2}u(t)}_2^2.
+\]
+Writing \(H_\lambda\) for the same quantity evaluated on \(u_\lambda\), the energy, critical height, and first-derivative energy scale side by side:
+\[
+  \norm{u_\lambda(t)}_2^2
+  =
+  \lambda^{-1}\norm{u(\lambda^2t)}_2^2,
+  \qquad
+  H_\lambda(t)=H(\lambda^2t),
+  \qquad
+  \norm{\nabla u_\lambda(t)}_2^2
+  =
+  \lambda\norm{\nabla u(\lambda^2t)}_2^2.
+\]
+Kinetic energy falls as the first-derivative energy rises, while the critical height does not move.
+It is the scale at which the concentration remains fully visible without the norm itself being enlarged or diminished by rescaling.
+
+\divider{Nonlinear Production versus Viscous Dissipation}
+
+The invariant height locates the balance, and its evolution along the original solution shows which side is increasing it.
+Apply \(\Lambda^{1/2}\) to the momentum equation and pair with \(\Lambda^{1/2}u\).
+Write the signed nonlinear production as
+\[
+  \mathcal P_{1/2}(t)
+  :=
+  -\operatorname{Re}
+  \pair
+    {\Lambda^{1/2}u(t)}
+    {\Lambda^{1/2}\bigl((u(t)\cdot\nabla)u(t)\bigr)}_{L^2}.
+\]
+Incompressibility makes the pressure pairing vanish, and the Laplacian contributes \(-\nu\norm{\Lambda^{3/2}u}_2^2\).
+The critical height evolves by
+\[
+  H'(t)
+  +
+  \nu\norm{\Lambda^{3/2}u(t)}_2^2
+  =
+  \mathcal P_{1/2}(t).
+\]
+The height rises when nonlinear production exceeds viscous dissipation.
+Under the finer-scale comparison, these two contributions become
+\[
+  \mathcal P_{1/2}[u_\lambda](t)
+  =
+  \lambda^2\mathcal P_{1/2}[u](\lambda^2t),
+  \qquad
+  \nu\norm{\Lambda^{3/2}u_\lambda(t)}_2^2
+  =
+  \lambda^2\nu\norm{\Lambda^{3/2}u(\lambda^2t)}_2^2.
+\]
+They remain matched by the common factor \(\lambda^2\).
+That is also the inverse of the time contraction \(t\mapsto\lambda^{-2}t\): a finer spatial scale comes with a faster response scale.
+
+\divider{The Heat Clock}
+
+The square relation between width and response time can be read directly from viscosity.
+Set the other terms aside for this comparison and follow the linear heat equation \(v_t=\nu\Delta v\).
+A Fourier mode evolves according to
+\[
+  \widehat v(\xi,t+\delta t)
+  =
+  e^{-\nu|\xi|^2\delta t}\widehat v(\xi,t).
+\]
+A structure of width \(r\) is concentrated near frequencies \(|\xi|\simeq r^{-1}\).
+Viscosity changes it by order one when the exponent \(\nu|\xi|^2\delta t\) is of order one, which gives the comparison time
+\[
+  \tau_\nu(r)
+  :=
+  \frac{r^2}{\nu}.
+\]
+This is the heat clock attached to width \(r\).
+At the finer comparison width,
+\[
+  \tau_\nu(\lambda^{-1}r)
+  =
+  \lambda^{-2}\tau_\nu(r),
+\]
+so each spatial contraction shortens the viscous comparison time by the same square factor carried by the full \NavierStokes{} scaling.
+Repeated concentration now shortens the associated comparison time at every step.
+
+\divider{The Zeno Cascade}
+
+Repeat the contraction geometrically.
+For the widths and their heat clocks, set
+\[
+  r_n:=2^{-n}r_0,
+  \qquad
+  \tau_n:=\frac{r_n^2}{\nu},
+\]
+so each width is half the one before it, while each clock is one quarter as long.
+The complete sequence of comparison times is summable:
+\[
+  \tau_n
+  =
+  \frac{r_0^2}{\nu}4^{-n},
+  \qquad
+  \sum_{n=0}^{\infty}\tau_n
+  =
+  \frac{4r_0^2}{3\nu}
+  <
+  \infty.
+\]
+This does not construct a cascade or establish a singularity.
+It shows that the heat clocks alone cannot rule out infinitely many scale transitions before a finite time.
+
+The rescaled fields were comparisons.
+For those clocks to describe an actual candidate singularity, one continuing \NavierStokes{} solution would have to pass through the widths
+\[
+  r_0>r_1>r_2>\cdots\longrightarrow0
+\]
+at times
+\[
+  t_0<t_1<t_2<\cdots\uparrow T_*<\infty,
+  \qquad
+  t_{n+1}-t_n\asymp\tau_n,
+\]
+with comparison constants independent of \(n\).
+Its remaining time at the \(n\)-th width would then satisfy
+\[
+  T_*-t_n
+  \asymp
+  \sum_{k=n}^{\infty}\tau_k
+  =
+  \frac{4r_n^2}{3\nu}.
+\]
+Each finer structure would have to form inside an interval shrinking at the same rate as its heat clock.
+The spatial sequence has become a demand on how rapidly the same velocity field can change.
+Following that demand requires its velocity, acceleration, jerk, and every later temporal response.

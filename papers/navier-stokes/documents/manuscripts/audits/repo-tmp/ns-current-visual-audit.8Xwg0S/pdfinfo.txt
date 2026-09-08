@@ -1,0 +1,22 @@
+Title:           The Three-Dimensional Navier–Stokes Regularity Problem
+Subject:         
+Keywords:        
+Author:          Thomas Birnie
+Creator:         LaTeX with hyperref
+Producer:        pdfTeX-1.40.28
+CreationDate:    Mon Aug 17 10:27:00 2026 MDT
+ModDate:         Mon Aug 17 10:27:00 2026 MDT
+Custom Metadata: yes
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           54
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       629712 bytes
+Optimized:       no
+PDF version:     1.7

@@ -1,0 +1,49 @@
+\section{Bridge III: Gradient Control}
+
+The third bridge prevents derivative-scale re-entry of singular behavior. Even after the cascade channel is controlled and the nonlinear term is stable under approximation, the route can still fail if \(\|\nabla u(t)\|_{L^2}\) becomes unbounded. The final bridge closes this route by proving a same-surface Euclidean continuation inequality for the high-frequency enstrophy tail.
+
+\begin{proposition}[Euclidean gradient-transfer coercivity]
+\label{prop:gradient-control}
+For all sufficiently large dyadic thresholds \(N\),
+\[
+\frac{d}{dt}E_N(t) + (1-\eta)\nu D_N(t)
+\le
+C\,\mathcal{L}_N(t)\,E_N(t) + C_\ast 2^{-2\delta N},
+\]
+where
+\[
+E_N(t)=\sum_{j\ge N}2^{2j}\|P_j u(t)\|_{L^2_x}^2,
+\qquad
+D_N(t)=\sum_{j\ge N}2^{4j}\|P_j u(t)\|_{L^2_x}^2,
+\]
+and \(\mathcal{L}_N\in L^\infty_t\cap L^1_t\) is the low-mode coefficient. Consequently \(\|\nabla u(t)\|_{L^2_x}\) remains bounded on \([0,T)\).
+\end{proposition}
+
+\begin{proof}
+The strict low-mode paraproduct reduction gives
+\[
+\sum_{j\ge N}\bigl(|LH_j^{\mathrm{strict}}|+|HL_j^{\mathrm{strict}}|\bigr)
+\le
+C\,\mathcal{L}_N(t)E_N(t)+\frac{\eta\nu}{2}D_N(t).
+\]
+The finite-band spill is reduced to the same admissible coefficient surface. The remaining genuine high-high packet satisfies
+\[
+\mathfrak{H}^{\mathrm{grad},HH}_{N}[u](t)
+\le
+C\sum_{j\ge N-M}2^{3j}\|\Delta_j u(t)\|_{L^2_x}^3.
+\]
+For each \(j\ge N-M\),
+\[
+2^{3j}\|\Delta_j u(t)\|_{L^2_x}^3
+=
+\bigl(2^{4j}\|\Delta_j u(t)\|_{L^2_x}^2\bigr)
+\bigl(2^{-j}\|\Delta_j u(t)\|_{L^2_x}\bigr),
+\]
+and the classical energy bound yields
+\[
+2^{-j}\|\Delta_j u(t)\|_{L^2_x}\le 2^{-(N-M)}C_E^{1/2}.
+\]
+Hence the packet is bounded by \(C'2^{-N}C_E^{1/2}D_N(t)\), which is absorbed into \((\eta\nu/2)D_N(t)\) for all large \(N\). Combining the strict low-mode, spill, and genuine high-high bounds yields the displayed differential inequality. Since \(\mathcal{L}_N\in L^1(0,T)\), Gronwall gives bounded high-frequency enstrophy and therefore bounded \(\|\nabla u(t)\|_{L^2_x}\) on \([0,T)\).
+\end{proof}
+
+This is the exact Euclidean continuation mechanism used by the theorem. No curvature-based or modified-equation surrogate is required.

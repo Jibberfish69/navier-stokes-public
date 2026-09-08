@@ -1,0 +1,246 @@
+[
+  {
+    "file": "02-compatible-rectangles.tex",
+    "replacement": "the fixed distributions"
+  },
+  {
+    "file": "02-compatible-rectangles.tex",
+    "replacement": "this row"
+  },
+  {
+    "file": "03-matrix-forms.tex",
+    "replacement": "This factorial cancellation"
+  },
+  {
+    "file": "03-matrix-forms.tex",
+    "replacement": "the original history's"
+  },
+  {
+    "file": "00-analytic-framework.tex",
+    "replacement": "the distributional trace of"
+  },
+  {
+    "file": "00-analytic-framework.tex",
+    "replacement": "a common left trace"
+  },
+  {
+    "file": "00-analytic-framework.tex",
+    "replacement": "These estimates"
+  },
+  {
+    "file": "00-analytic-framework.tex",
+    "replacement": "the original solution"
+  },
+  {
+    "file": "00-analytic-framework.tex",
+    "replacement": "This integral"
+  },
+  {
+    "file": "00-analytic-framework.tex",
+    "replacement": "this constant"
+  },
+  {
+    "file": "00-analytic-framework.tex",
+    "replacement": "this estimate"
+  },
+  {
+    "file": "00-analytic-framework.tex",
+    "replacement": "this formula"
+  },
+  {
+    "file": "00-introduction.tex",
+    "replacement": "the original solution"
+  },
+  {
+    "file": "00-introduction.tex",
+    "replacement": "one function"
+  },
+  {
+    "file": "00-introduction.tex",
+    "replacement": "unchanged"
+  },
+  {
+    "file": "main.tex",
+    "replacement": "identical initial data and viscosity"
+  },
+  {
+    "file": "main.tex",
+    "replacement": "the original solution"
+  },
+  {
+    "file": "03-quantitative-consequences.tex",
+    "replacement": "that finite information about the original history"
+  },
+  {
+    "file": "03-quantitative-consequences.tex",
+    "replacement": "this change of variables"
+  },
+  {
+    "file": "03-quantitative-consequences.tex",
+    "replacement": "This Sobolev constant"
+  },
+  {
+    "file": "03-quantitative-consequences.tex",
+    "replacement": "this product estimate"
+  },
+  {
+    "file": "03-quantitative-consequences.tex",
+    "replacement": "those finite rows"
+  },
+  {
+    "file": "03-quantitative-consequences.tex",
+    "replacement": "This calculation"
+  },
+  {
+    "file": "03-quantitative-consequences.tex",
+    "replacement": "This integration"
+  },
+  {
+    "file": "03-quantitative-consequences.tex",
+    "replacement": "this final bound"
+  },
+  {
+    "file": "03-quantitative-consequences.tex",
+    "replacement": "This constant"
+  },
+  {
+    "file": "03-quantitative-consequences.tex",
+    "replacement": "This estimate"
+  },
+  {
+    "file": "03-quantitative-consequences.tex",
+    "replacement": "This estimate"
+  },
+  {
+    "file": "03-quantitative-consequences.tex",
+    "replacement": "this argument"
+  },
+  {
+    "file": "03-quantitative-consequences.tex",
+    "replacement": "This identity"
+  },
+  {
+    "file": "03-quantitative-consequences.tex",
+    "replacement": "the original history's"
+  },
+  {
+    "file": "03-quantitative-consequences.tex",
+    "replacement": "this space"
+  },
+  {
+    "file": "03-quantitative-consequences.tex",
+    "replacement": "identical dimensions"
+  },
+  {
+    "file": "06-conclusion.tex",
+    "replacement": "this decay normalization"
+  },
+  {
+    "file": "06-conclusion.tex",
+    "replacement": "These rectangles"
+  },
+  {
+    "file": "06-conclusion.tex",
+    "replacement": "that datum"
+  },
+  {
+    "file": "05-three-dimensional-applications.tex",
+    "replacement": "identical initial data and viscosity"
+  },
+  {
+    "file": "05-three-dimensional-applications.tex",
+    "replacement": "This local uniqueness"
+  },
+  {
+    "file": "05-three-dimensional-applications.tex",
+    "replacement": "this source estimate"
+  },
+  {
+    "file": "05-three-dimensional-applications.tex",
+    "replacement": "These rowwise bounds"
+  },
+  {
+    "file": "05-three-dimensional-applications.tex",
+    "replacement": "these calculations"
+  },
+  {
+    "file": "05-three-dimensional-applications.tex",
+    "replacement": "this conclusion"
+  },
+  {
+    "file": "05-three-dimensional-applications.tex",
+    "replacement": "this viscosity"
+  },
+  {
+    "file": "05-three-dimensional-applications.tex",
+    "replacement": "this viscosity"
+  },
+  {
+    "file": "05-three-dimensional-applications.tex",
+    "replacement": "this viscosity"
+  },
+  {
+    "file": "05-three-dimensional-applications.tex",
+    "replacement": "These constants"
+  },
+  {
+    "file": "05-three-dimensional-applications.tex",
+    "replacement": "this equation"
+  },
+  {
+    "file": "05-three-dimensional-applications.tex",
+    "replacement": "this bound"
+  },
+  {
+    "file": "01-setting-mixed-jet.tex",
+    "replacement": "this Poisson identity"
+  },
+  {
+    "file": "01-setting-mixed-jet.tex",
+    "replacement": "This product lemma"
+  },
+  {
+    "file": "04-intersection-endpoint-restart.tex",
+    "replacement": "the original pressure-complete history"
+  },
+  {
+    "file": "04-intersection-endpoint-restart.tex",
+    "replacement": "one distributional coordinate"
+  },
+  {
+    "file": "04-intersection-endpoint-restart.tex",
+    "replacement": "the original preterminal distribution"
+  },
+  {
+    "file": "04-intersection-endpoint-restart.tex",
+    "replacement": "the shifted mild class containing"
+  },
+  {
+    "file": "04-intersection-endpoint-restart.tex",
+    "replacement": "the original preterminal function"
+  },
+  {
+    "file": "04-intersection-endpoint-restart.tex",
+    "replacement": "this multiplier bound"
+  },
+  {
+    "file": "04-intersection-endpoint-restart.tex",
+    "replacement": "the fixed distributions"
+  },
+  {
+    "file": "04-intersection-endpoint-restart.tex",
+    "replacement": "This spatial row"
+  },
+  {
+    "file": "04-intersection-endpoint-restart.tex",
+    "replacement": "that datum"
+  },
+  {
+    "file": "04-intersection-endpoint-restart.tex",
+    "replacement": "the fixed \\(u\\)"
+  },
+  {
+    "file": "04-intersection-endpoint-restart.tex",
+    "replacement": "this lemma"
+  }
+]

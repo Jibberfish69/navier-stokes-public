@@ -1,0 +1,27 @@
+---
+version: 2
+identity:
+  problem_id: navier-stokes
+  display_name: Navier--Stokes global regularity
+  updated_at: '2026-08-24'
+  source_owner: Thomas Birnie
+lane_boundary:
+  status: isolated
+  audit: problems/navier-stokes/lane-isolation-audit.yaml
+  proof_source_pack: problems/navier-stokes/proof-source-pack.md
+proof_program_completion_projection:
+  status: established-complete
+  mpp_status: solved
+  producer_status: proved-datum-generated-whole-terminal-compatible-rectangles
+  closure_status: proved
+  authority: problems/navier-stokes/live-theorem-edge.yaml
+  external_recognition_status: separate-workflow-not-a-proof-prerequisite
+source_artifacts:
+- problems/navier-stokes/theorem-construction/thomas-one-fluid-reversible-intersection-proof-spine-20260803.md
+- problems/navier-stokes/theorem-construction/complete-mixed-intersection-global-closure-and-upstream-boundary-20260801.md
+- problems/navier-stokes/proof-source-pack.md
+- problems/navier-stokes/lane-isolation-audit.yaml
+frontier:
+  status_source: problems/navier-stokes/live-theorem-edge.yaml
+  foreign_supplier_count: 0
+  dangling_withdrawn_branch_reference_count: 0

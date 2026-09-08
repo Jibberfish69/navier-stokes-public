@@ -1,0 +1,50 @@
+{
+  "schema_version": 2,
+  "producer": {
+    "agent_path": "/root/producer_v18",
+    "input_packet": {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/producer-input-v18.json",
+      "sha256": "cdacae51db17fe64c5a8a0f74ae02f1da5bc10b1bbba0dc3044d021fbaa7ec30"
+    }
+  },
+  "candidate": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/candidate-v18.tex",
+    "sha256": "eb5ef56549996bddfb221131632a778045550896796bff66b31b88b1376236c2"
+  },
+  "pdf": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/navier-stokes-how-proof-works-backtest-v18.pdf",
+    "sha256": "c71415ea26eb490eacf93e60b89f0e1207d12d643c5cb7a33ccbc7b9b6bbbed6"
+  },
+  "render": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v18/page-1.png",
+      "sha256": "11cc0ad19be26bb0eaa564c4678769b0240e91e705e8c6e3fb4ebb790a8ab3e5"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v18/page-2.png",
+      "sha256": "c6fe812648b1b45ac3471ca12d449c27e05de7f8c2710b4ec9dfcb12141ee931"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v18/page-3.png",
+      "sha256": "a0814bd4ed6e61a74d97f22b421687ebbb0d61fda7f300b8497c280f162edd72"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/render-v18/page-4.png",
+      "sha256": "58910c1770fbca8c8c97a8523d5fb4b26a718cebc92f70b17946d7cfc01b4057"
+    }
+  ],
+  "critic_packet": {
+    "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/critic-packet-v18.json",
+    "sha256": "9c469c565df8989e54e81712cc250cb286393c6b0e96f28b2a9bdad92954029b"
+  },
+  "reviews": [
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/cold-review-v18.json",
+      "sha256": "dfb5b2151f6d599d1fa0594cb1bdc8ccfff72676fb5660ec631627a3609e0863"
+    },
+    {
+      "path": "/Users/thomasbirnie/.codex/visualizations/2026/08/31/01a05811-35e0-7632-84cd-235b94f08dc5/ns-writing-backtest/proof-review-v18.json",
+      "sha256": "04c4c8799a0c365a19e76f252e3506d6a8dd61a1a7581d957b699b3a7f22a35c"
+    }
+  ]
+}

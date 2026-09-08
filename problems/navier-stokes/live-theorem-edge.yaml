@@ -1,0 +1,174 @@
+---
+version: 2
+identity:
+  problem_id: navier-stokes
+  display_name: Navier--Stokes global regularity
+  updated_at: '2026-08-24'
+  source_owner: Thomas Birnie
+lane_boundary:
+  status: isolated
+  audit: problems/navier-stokes/lane-isolation-audit.yaml
+  proof_source_pack: problems/navier-stokes/proof-source-pack.md
+proof_program_completion_projection:
+  status: established-complete
+  mpp_status: solved
+  producer_status: proved-datum-generated-whole-terminal-compatible-rectangles
+  closure_status: proved
+  authority: problems/navier-stokes/live-theorem-edge.yaml
+  external_recognition_status: separate-workflow-not-a-proof-prerequisite
+route_label: thomas-one-fluid-pressure-explicit-reversible-intersection
+manual_thomas_reversible_intersection_authority_20260803:
+  status: established-complete
+  mpp_status: solved
+  authority_scope: active-exact-navier-stokes-proof-topology
+  supersedes_lower_route_closure_labels: true
+  lower_route_status: preserved-as-downstream-support
+  completed_task: repo-and-thread-proof-program-finalized
+  producer_status: proved-datum-generated-whole-terminal-compatible-rectangles
+  global_closure_status: proved
+  task_provenance: thomas-original-one-fluid-pressure-explicit-reversible-nesting-and-columnwise-intersection-method
+  note_finite_coordinate_interface: "(MR)_{N,m}"
+  note_interface_status: curated-mathematical-formalization-not-original-name-not-independent-gate
+  producer_statement: For every finite N,M, the one u_0-generated history supplies
+    the whole-terminal rectangle R_{N,M}[u_0], and all finite rectangles agree under
+    their restriction maps.
+  producer_result: u_0 -> compatible whole-terminal rectangles -> I[u_0].
+  producer_source: problems/navier-stokes/theorem-construction/thomas-one-fluid-reversible-intersection-proof-spine-20260803.md#5-datum-generated-columnwise-intersection-theorem
+  proved_downstream_closure_source: problems/navier-stokes/theorem-construction/complete-mixed-intersection-global-closure-and-upstream-boundary-20260801.md
+  closure_chain: u_0 -> compatible whole-terminal rectangles -> all-orders intersection
+    in every column and backward level -> every E_{n+1/2} in L_t^1 -> common H_x^infinity
+    endpoint -> actual pressure-explicit endpoint jet -> restart and uniqueness ->
+    T_*=infinity.
+  source_owner: Thomas Birnie
+  authority: problems/navier-stokes/theorem-construction/thomas-one-fluid-reversible-intersection-proof-spine-20260803.md
+  later_support_first_prefix_bootstrap: problems/navier-stokes/theorem-construction/thomas-first-signed-prefix-generates-complete-intersection-20260803.md
+  proved_invariant_transverse_reduction: problems/navier-stokes/theorem-construction/thomas-pressure-complete-invariant-transverse-recruitment-reduction-20260803.md
+  proved_invariant_transverse_commutator_boundary: problems/navier-stokes/theorem-construction/thomas-invariant-transverse-first-binomial-commutator-boundary-20260803.md
+  proved_reciprocal_parent_reduction: problems/navier-stokes/theorem-construction/thomas-parent-age-reciprocal-moment-telescope-positivity-boundary-20260803.md
+  proved_helical_common_mode_obstruction: problems/navier-stokes/theorem-construction/thomas-helical-common-mode-completed-action-storage-obstruction-20260803.md
+  proved_weighted_insertion_no_recount_boundary: problems/navier-stokes/theorem-construction/thomas-full-field-insertion-heat-defect-no-recount-boundary-20260803.md
+  proved_reciprocal_tail_suppression: problems/navier-stokes/theorem-construction/thomas-incompressible-reciprocal-tail-suppression-and-time-square-boundary-20260803.md
+  proved_signed_first_cutoff_triad_boundary: problems/navier-stokes/theorem-construction/thomas-signed-first-cutoff-moment-three-leg-triad-boundary-20260803.md
+  proved_heterochiral_child_fraction_boundary: problems/navier-stokes/theorem-construction/thomas-heterochiral-child-fraction-local-nonlocal-boundary-20260803.md
+  proved_balanced_rip_cord_coasting_boundary: problems/navier-stokes/theorem-construction/thomas-balanced-rip-cord-coasting-pressure-trace-and-shrinking-label-boundary-20260803.md
+  proved_uncollapsed_parent_gramian_boundary: problems/navier-stokes/theorem-construction/thomas-uncollapsed-parent-causal-gramian-observability-boundary-20260803.md
+  proved_joined_pressure_viscous_scale_jump_boundary: problems/navier-stokes/theorem-construction/thomas-joined-pressure-viscous-material-coarea-and-critical-scale-jump-boundary-20260803.md
+  proved_full_incidence_ultra_nonlocal_wedge: problems/navier-stokes/theorem-construction/thomas-full-incidence-majority-spine-and-ultra-nonlocal-wedge-20260803.md
+  proved_monotone_material_scale_flux_boundary: problems/navier-stokes/theorem-construction/thomas-monotone-material-scale-flux-endpoint-and-wobble-boundary-20260804.md
+  proved_dynamic_core_time_orientation_boundary: problems/navier-stokes/theorem-construction/thomas-dynamic-core-time-oriented-three-leg-current-boundary-20260804.md
+  proved_joined_exterior_material_fourier_boundary: problems/navier-stokes/theorem-construction/thomas-joined-exterior-material-pair-dynamic-fourier-core-boundary-20260804.md
+  proved_dynamic_core_l8_duality_boundary: problems/navier-stokes/theorem-construction/thomas-dynamic-core-l8-duality-and-recombined-throughput-boundary-20260804.md
+  proved_dct47_one_form_phase_boundary: problems/navier-stokes/theorem-construction/thomas-dct47-exact-one-form-and-enstrophy-sphere-phase-boundary-20260804.md
+  proved_complete_binomial_core_resummation_boundary: problems/navier-stokes/theorem-construction/thomas-complete-binomial-core-response-resummation-and-uniform-radius-boundary-20260804.md
+  proved_energy_class_reciprocal_negative_space_tower_boundary: problems/navier-stokes/theorem-construction/thomas-energy-class-reciprocal-negative-space-binomial-tower-and-first-parent-boundary-20260804.md
+  proved_balanced_pair_turn_down_boundary: problems/navier-stokes/theorem-construction/thomas-balanced-pair-radial-covariance-and-turn-down-boundary-20260804.md
+  proved_primitive_positive_radial_current_causal_turn_down_boundary: problems/navier-stokes/theorem-construction/thomas-primitive-positive-radial-current-causal-turn-down-boundary-20260804.md
+  proved_canonical_positive_radial_pulse_completion_boundary: problems/navier-stokes/theorem-construction/thomas-canonical-record-positive-radial-pulse-completion-and-turn-down-action-boundary-20260804.md
+  proved_full_signed_current_positive_pulse_variance_refund_boundary: problems/navier-stokes/theorem-construction/thomas-full-signed-current-positive-pulse-recombination-and-turn-down-action-boundary-20260804.md
+  proved_full_signed_current_adjacent_endpoint_propagation_boundary: problems/navier-stokes/theorem-construction/thomas-full-signed-current-adjacent-record-endpoint-propagation-and-zero-response-countercalibration-20260804.md
+  proved_balanced_axial_wobble_recombination_boundary: problems/navier-stokes/theorem-construction/thomas-balanced-axial-wobble-supplier-and-weighted-betchov-boundary-20260804.md
+  proved_bpt_dct47_heat_age_tangent_bridge: problems/navier-stokes/theorem-construction/thomas-bpt-dct47-heat-age-covariance-tangent-bridge-20260804.md
+  proved_minimal_signed_prefix_record_reduction: problems/navier-stokes/theorem-construction/thomas-minimal-signed-prefix-record-normalization-compactness-rigidity-boundary-20260804.md
+  proved_first_contact_signed_prefix_negative_dome_boundary: problems/navier-stokes/theorem-construction/thomas-first-contact-signed-prefix-negative-dome-turn-down-boundary-20260804.md
+  proved_fixed_selector_strain_shape_finite_chord_normal_form: problems/navier-stokes/theorem-construction/thomas-fixed-radial-selector-full-field-strain-shape-finite-chord-normal-form-20260804.md
+  proved_strain_shape_higher_response_boundary: problems/navier-stokes/theorem-construction/thomas-strain-shape-pressure-explicit-higher-response-and-finite-chord-obstruction-20260804.md
+  proved_last_record_source_square_supplier_localization: problems/navier-stokes/theorem-construction/thomas-last-record-source-square-and-first-binomial-supplier-descent-20260804.md
+  proved_inherited_source_storage_all_row_boundary: problems/navier-stokes/theorem-construction/thomas-inherited-source-storage-all-row-binomial-record-boundary-20260804.md
+  proved_first_binomial_fixed_selector_join: problems/navier-stokes/theorem-construction/thomas-first-binomial-supplier-fixed-selector-strain-finite-chord-join-20260804.md
+  proved_record_pulse_parent_tail_evacuation: problems/navier-stokes/theorem-construction/thomas-record-pulse-reciprocal-parent-tail-evacuation-and-diagonal-depth-boundary-20260804.md
+  proved_double_recruited_parent_synchronization_boundary: problems/navier-stokes/theorem-construction/thomas-canonical-pulse-double-recruited-parent-synchronization-boundary-20260804.md
+  proved_double_duhamel_finite_parent_ratio_overlap: problems/navier-stokes/theorem-construction/thomas-double-duhamel-finite-parent-ratio-high-output-overlap-boundary-20260804.md
+  proved_recent_source_heat_lag_boundary: problems/navier-stokes/theorem-construction/thomas-finite-ratio-double-duhamel-recent-source-heat-lag-boundary-20260804.md
+  proved_dynamic_core_double_recent_parent_ancestry_boundary: problems/navier-stokes/theorem-construction/thomas-dynamic-core-canonical-record-double-recent-parent-ancestry-boundary-20260804.md
+  proved_signed_double_recent_fixed_selector_join: problems/navier-stokes/theorem-construction/thomas-double-recent-core-fixed-selector-imbalance-collar-finite-chord-join-20260804.md
+  proved_imbalance_interface_selector_refund_boundary: problems/navier-stokes/theorem-construction/thomas-imbalance-interface-material-coarea-selector-refund-boundary-20260804.md
+  proved_selector_radius_finite_chord_flux_boundary: problems/navier-stokes/theorem-construction/thomas-selector-radius-finite-chord-flux-and-endpoint-boundary-20260804.md
+  proved_episodewise_conormal_label_incidence_trichotomy_boundary: problems/navier-stokes/theorem-construction/thomas-conormal-deformation-gradient-high-rate-label-incidence-trichotomy-boundary-20260804.md
+  proved_conormal_objective_incidence_moving_weight_refund_boundary: problems/navier-stokes/theorem-construction/thomas-conormal-objective-incidence-moving-weight-finite-chord-refund-boundary-20260804.md
+  proved_signed_sharp_membership_layer_cake_refund_boundary: problems/navier-stokes/theorem-construction/thomas-signed-sharp-membership-layer-cake-finite-chord-refund-boundary-20260804.md
+  proved_six_assignment_scalar_pair_operator_three_label_kernel_boundary: problems/navier-stokes/theorem-construction/thomas-six-assignment-scalar-pair-image-and-material-three-label-kernel-boundary-20260804.md
+  proved_adaptive_material_pair_selector_range_receiver_provenance_boundary: problems/navier-stokes/theorem-construction/thomas-adaptive-material-pair-selector-range-and-receiver-provenance-boundary-20260804.md
+  proved_expanding_plane_cofactor_response_block_separation_boundary: problems/navier-stokes/theorem-construction/thomas-expanding-plane-cofactor-response-and-relative-frame-block-separation-boundary-20260804.md
+  proved_preterminal_sharp_three_label_block_limit: problems/navier-stokes/theorem-construction/thomas-preterminal-compact-roof-sharp-three-label-block-limit-and-diagonal-selection-20260804.md
+  proved_conormal_first_hit_relative_frame_critical_square_boundary: problems/navier-stokes/theorem-construction/thomas-conormal-first-hit-relative-frame-critical-square-boundary-20260804.md
+  proved_dynamic_core_lorentz_source_pulse_boundary: problems/navier-stokes/theorem-construction/thomas-dynamic-core-double-recent-lorentz-source-pulse-boundary-20260804.md
+  proved_signed_double_recent_adjoint_source_time_pullback_boundary: problems/navier-stokes/theorem-construction/thomas-signed-double-recent-adjoint-source-time-pullback-boundary-20260804.md
+  proved_future_incidence_invariant_transverse_projection_boundary: problems/navier-stokes/theorem-construction/thomas-future-incidence-invariant-transverse-projection-gramian-boundary-20260804.md
+  proved_invariant_transverse_forward_backward_gramian_join_boundary: problems/navier-stokes/theorem-construction/thomas-invariant-transverse-future-incidence-forward-backward-gramian-join-boundary-20260804.md
+  proved_low_flow_high_band_propagator_reconvergence_boundary: problems/navier-stokes/theorem-construction/thomas-paradifferential-low-flow-high-band-propagator-and-ancestry-reconvergence-boundary-20260804.md
+  proved_band_edge_fim_six_assignment_recombination_boundary: problems/navier-stokes/theorem-construction/thomas-band-edge-fim-six-assignment-recombination-and-propagated-ancestry-boundary-20260804.md
+  proved_recent_source_first_binomial_characteristic_boundary: problems/navier-stokes/theorem-construction/thomas-recent-source-first-binomial-characteristic-all-row-synchronization-boundary-20260804.md
+  proved_adjoint_future_incidence_first_binomial_boundary: problems/navier-stokes/theorem-construction/thomas-adjoint-future-incidence-backward-heat-first-binomial-boundary-20260804.md
+  proved_rhl_binomial_generating_radius_no_gain_boundary: problems/navier-stokes/theorem-construction/thomas-rhl-binomial-generating-radius-and-resummed-characteristic-no-gain-boundary-20260804.md
+  proved_heat_age_endpoint_integrability_spike_dichotomy: problems/navier-stokes/theorem-construction/thomas-datum-paid-heat-age-endpoint-integrability-and-last-record-spike-dichotomy-20260804.md
+  proved_recent_high_source_six_branch_synchronization_boundary: problems/navier-stokes/theorem-construction/thomas-recent-high-source-fixed-selector-six-branch-synchronization-boundary-20260804.md
+  governing_contract: problems/navier-stokes/target-operating-contract.yaml#mixed_sobolev_tower_object_boundary_20260801
+  new_boundary_effect: The heterochiral unique leg receives less than one half of
+    one donor's kinetic-energy loss, but the critically valued ratio is below one
+    half only for eta>1/2 and diverges in the high-high-low limit. Full signed incompressible
+    recombination gives C eta^2 sqrt(R) D, whose adaptive absorption destroys that
+    local critical barrier. The perfectly balanced rip-cord can also coast with zero
+    transverse VPI curvature through the same field's trace-free pressure quadrupole.
+    Finite energy pays unweighted pressure mass but not the extra inverse-scale recruited-label
+    moment. The complete non-scalar parent Gramian either stores the future critical
+    action anti-causally or requires a causal endpoint coercivity condition equivalent
+    to that same action bound; coherent incidence prevents an ambient product-tensor
+    comparison by an N^3 collapse loss. Rejoined pressure and viscosity cancel at
+    equal core-complement weight, but inverse-scale valuation leaves the signed adjacent-scale
+    endpoint, membership, and strain-square combination; exact coasting refunds its
+    positive occupation and Hardy control retains the critical scale jump. Full modal
+    incidence gives X_(n+1)=X_n+Y_n, so the sub-half kinetic child share is not a
+    critical contraction. Energy and viscosity do absorb all interactions below the
+    parabolic cutoff a <= c_0 (nu/||u_0||_2)^(2/5) h^(4/5). Enstrophy narrows the
+    remainder to h <= C Z/nu^2 and a dynamic lower cutoff, with datum-integrable geometric
+    ratio Xi in L_t^8; the joined donor throughput remains unpaid. Actual same-label
+    nesting gives a positive scale-crossing term, but exact coasting stores it with
+    contraction in the negative scale-weighted endpoint, while one smooth finite-energy
+    periodic NS history realizes both signs of the VPI projection during simultaneous
+    contraction. On the dynamic core the original first binomial row gives the exact
+    three-leg law c_tau' + nu S_tau c_tau = a_tau. Heat normalization retains the
+    critical 1/(nu K) complete quartic source port, and the moving enstrophy selector
+    contributes signed Z-threshold entry/exit endpoints; both source and full quartic
+    ports retain both signs in true-Leray tests. The restored all-material-pair law
+    gives j_ab = 4(e_ab/K_ab) D_t K_ab and integral j_ab = P_(1/2), so the dynamic
+    Fourier core is this exact inverse-length flux minus the proved exterior. Its
+    record weight makes the scale endpoint equal to critical height, adds the principal
+    pair-selection response, and the moving FIM gate adds the signed alpha Z'/Z collar
+    flux; the joined history remains closure-equivalent. The geometric factor obeys
+    Xi^8 = ||u_0||_2^2 Z/nu^4. Its direct time dual requires [P_core/Xi]_+ in L_t^(8/7);
+    paid estimates leave Z D^(4/7), scale-local packets force Z^(13/7), and recombined
+    donor variation forces the closure-equivalent Z^2 time-square. Modal enstrophy
+    cancellation does not sign-control the critical current, and differentiating Xi
+    restores Z'. The joined first-row identity is R+X=B'+C. Any coefficientwise local
+    correction in (b_tau,Z) cancelling every refill and Z' coefficient is uniquely
+    B plus a constant, with the signed core current forced as the remainder. Dividing
+    b_tau by Z^(3/2) removes only scalar radius motion; true-Leray data with Z'=0
+    retain both signs of the remaining tangent phase. The complete binomial/Carleman
+    resummation preserves every parent heat rate and selector derivative. Its reciprocal
+    tail is nonuniform when parent rates exceed depth times output rate; if controlled,
+    it sums exactly to 1/(nu |k|) and reconstructs the same critical DCT.47 action.
+    Full pair-orientation recombination first proves the favorable balanced turn-down
+    sign. Weighted Betchov recombination then pays axial wobble exactly and leaves
+    the signed strain-shape term a(d^2-a^2) joined to the selector collar, finite
+    chords, complement, and exterior. The BPT-DCT tangent telescope is only a storage-endpoint
+    alias, while canonical last-record failure forces signed high-receiver coincidence.
+    The fixed- selector full-field form removes bookkeeping collars but leaves the
+    signed strain shape joined to the complete finite chords; its higher response
+    has both signs. Every failed record further forces critical source-square concentration
+    and a signed supplier prefix at every reciprocal binomial depth. Those prefixes
+    are endpoint aliases of the same open action. These are exact in-method boundaries,
+    not a datum-prefix proof.
+  authority_effect: The strict-subinterval mixed coordinates and the conditional intersection-to-endpoint
+    theorem isolate the exact direct boundary. The datum-generated whole-terminal
+    compatible rectangles are established. If supplied, the common H_x^infinity endpoint,
+    pressure-explicit endpoint jet, and same-history restart give T_*=infinity. Scalar-prefix,
+    dome, residual, shell, Gold, and Silver surfaces advance this chain only by discharging
+    that producer or an equivalent noncircular terminal exclusion.
+core_sources:
+- problems/navier-stokes/theorem-construction/thomas-one-fluid-reversible-intersection-proof-spine-20260803.md
+- problems/navier-stokes/theorem-construction/complete-mixed-intersection-global-closure-and-upstream-boundary-20260801.md
+status_custody:
+  internal: The proof status is the repository's Thomas-authorized Navier--Stokes
+    status.
+  external: No peer-review, journal, Clay, or prize recognition is inferred from repository
+    status.

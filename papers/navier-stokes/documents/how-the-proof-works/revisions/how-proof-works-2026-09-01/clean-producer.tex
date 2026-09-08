@@ -1,0 +1,273 @@
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage[margin=0.85in]{geometry}
+\usepackage{microtype}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.48\baselineskip}
+\setlength{\abovedisplayskip}{8pt plus 2pt minus 2pt}
+\setlength{\belowdisplayskip}{8pt plus 2pt minus 2pt}
+\setlength{\jot}{5pt}
+\allowdisplaybreaks[2]
+
+\begin{document}
+
+\section*{How the Proof Works}
+
+For the global three-dimensional Navier--Stokes regularity problem, the fluid obeys
+\[
+\partial_t u+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
+\qquad
+\nabla\cdot u=0,
+\qquad
+u(\cdot,0)=u_0.
+\]
+A strain in the flow pulls a vortex tube along its axis. As the vortex stretches, incompressibility forces it to contract across its width. Each material parcel keeps its volume, so lengthening the tube narrows its cross-section and the rotating core inside it. That strain also acts on the vorticity \(\omega=\nabla\times u\). Curling the equation gives
+\[
+\partial_t\omega+(u\cdot\nabla)\omega
+=(\omega\cdot\nabla)u+\nu\Delta\omega.
+\]
+The left side follows the change in rotation with the moving fluid. When the strain is aligned with the vortex,
+\[
+\omega\cdot\bigl((\omega\cdot\nabla)u\bigr)>0,
+\]
+so the stretching contribution raises \(|\omega|\) while the core narrows. Since \(\omega\) is one spatial derivative of \(u\), its amplification means that velocity changes more sharply across the core. The gradients rise.
+
+Those rising gradients place nonlinear transport and viscosity in direct opposition. At a length scale \(\ell\), with velocity size \(U\), transport has size \(U^2/\ell\), while viscosity has size \(\nu U/\ell^2\). If \(U\) were fixed, shrinking \(\ell\) would strengthen viscosity faster. A concentrating Navier--Stokes scaling also raises \(U\):
+\[
+u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
+\qquad
+\|u_\lambda(\cdot,t)\|_{\dot H^s}
+=\lambda^{s-1/2}\|u(\cdot,\lambda^2t)\|_{\dot H^s}.
+\]
+At \(s=\tfrac12\), the norm is unchanged, and nonlinear transport and viscosity carry equal scaling weight. The nonlinear term can transfer motion into finer structure; viscosity diffuses that structure, with greater force as its scale contracts. A singular cascade would have to keep feeding the contraction while viscosity acts through every smaller length and every shorter interval.
+
+In order for a singularity to form, velocity has to blow up. In order for that to happen, its acceleration would also have to blow up, which means its jerk has to blow up, and so on and so on:
+\[
+u,\qquad \partial_tu,\qquad \partial_t^2u,\qquad \partial_t^3u,\qquad\ldots
+\]
+What one would expect to see in this pattern, if a singularity were to form, is less spatial regularity as the time derivatives rise, not more. Navier--Stokes turns that expectation around. The first three differentiated equations show the turn before any shorthand hides it:
+\[
+\partial_tu
+=\nu\Delta u-(u\cdot\nabla)u-\nabla p,
+\]
+\[
+\partial_t^2u
+=\nu\Delta\partial_tu
+-(\partial_tu\cdot\nabla)u
+-(u\cdot\nabla)\partial_tu
+-\nabla\partial_tp,
+\]
+and
+\[
+\begin{aligned}
+\partial_t^3u={}&\nu\Delta\partial_t^2u
+-(\partial_t^2u\cdot\nabla)u
+-2(\partial_tu\cdot\nabla)\partial_tu \\
+&-(u\cdot\nabla)\partial_t^2u
+-\nabla\partial_t^2p.
+\end{aligned}
+\]
+Each new derivative splits the nonlinear term in every possible way, while the Laplacian moves directly onto the preceding temporal response. The complete pattern is
+\[
+\begin{aligned}
+\partial_t^{\,n+1}u={}&\nu\Delta\partial_t^n u \\
+&-\sum_{a=0}^{n}\binom{n}{a}
+\bigl(\partial_t^a u\cdot\nabla\bigr)
+\partial_t^{\,n-a}u
+-\nabla\partial_t^n p.
+\end{aligned}
+\]
+Only now do we compress the notation:
+\[
+V_n:=\partial_t^n u,
+\qquad
+Q_n:=\partial_t^n p.
+\]
+The pressure is still attached to the velocity through incompressibility,
+\[
+Q_n
+=R_iR_j\sum_{a=0}^{n}\binom{n}{a}
+V_{a,i}V_{n-a,j},
+\]
+and the velocity recurrence becomes
+\[
+V_{n+1}
+=\nu\Delta V_n
+-\sum_{a=0}^{n}\binom{n}{a}(V_a\cdot\nabla)V_{n-a}
+-\nabla Q_n.
+\]
+The nonlinear response branches across all lower temporal orders. Viscosity has one exact role: \(\nu\Delta V_n\) connects the next temporal response to two spatial derivatives inside the preceding response. Pressure travels with the nonlinear interaction and completes the row. These identities expose the relation; they do not yet bound any coordinate.
+
+The critical energy makes the spatial direction visible. Let
+\[
+\Lambda=(-\Delta)^{1/2},
+\qquad
+E_s(t):=\frac12\|\Lambda^su(t)\|_2^2,
+\qquad
+H(t):=E_{1/2}(t),
+\]
+and retain the full nonlinear--pressure transfer
+\[
+\mathcal P_s
+:=-\left\langle
+\Lambda^su,
+\Lambda^s\bigl((u\cdot\nabla)u+\nabla p\bigr)
+\right\rangle.
+\]
+Pairing Navier--Stokes with \(\Lambda^{2s}u\) gives
+\[
+E_s'=\mathcal P_s-2\nu E_{s+1}.
+\]
+At the critical height, the first few derivatives reveal the ascent:
+\[
+\begin{aligned}
+H'&=\mathcal P_{1/2}-2\nu E_{3/2},\\
+H''&=\partial_t\mathcal P_{1/2}
+-2\nu\mathcal P_{3/2}
++(2\nu)^2E_{5/2},\\
+H'''&=\partial_t^2\mathcal P_{1/2}
+-2\nu\partial_t\mathcal P_{3/2}
++(2\nu)^2\mathcal P_{5/2}
+-(2\nu)^3E_{7/2}.
+\end{aligned}
+\]
+At every finite order,
+\[
+H^{(n)}
+=(-2\nu)^nE_{n+1/2}
++\sum_{j=0}^{n-1}(-2\nu)^j
+\partial_t^{\,n-1-j}\mathcal P_{j+1/2}.
+\]
+Here \(V_n\) is a field response, while \(H^{(n)}\) is a scalar readout of the critical energy. The field recurrence retains the complete transport and pressure structure. The energy identity identifies the spatial height exposed at its leading viscous order:
+\[
+E_{n+1/2}
+=(-2\nu)^{-n}
+\left(
+H^{(n)}
+-\sum_{j=0}^{n-1}(-2\nu)^j
+\partial_t^{\,n-1-j}\mathcal P_{j+1/2}
+\right).
+\]
+This is the reversal at the center of the argument:
+\[
+\text{higher temporal order}
+\quad\longrightarrow\quad
+\text{higher exposed spatial Sobolev order}.
+\]
+If every finite exposed height is controlled through the terminal interval and the coordinates agree on overlap, then each finite smoothness demand is reached by choosing a high enough height:
+\[
+s>k+\frac32
+\quad\Longrightarrow\quad
+H^s(\mathbb R^3)\hookrightarrow C^k(\mathbb R^3),
+\]
+and
+\[
+\bigcap_{m<\infty}H^m(\mathbb R^3)
+=H^\infty(\mathbb R^3)
+\hookrightarrow C^\infty(\mathbb R^3).
+\]
+Nothing in these identities yet bounds the exposed heights. Their finite estimates come from the datum-generated whole-terminal rectangle theorem.
+
+Suppose, toward a contradiction, that the maximal smooth time \(T_*\) is finite. A mixed coordinate means one concrete statement:
+\[
+(r,m)
+\quad\longleftrightarrow\quad
+V_r=\partial_t^r u
+\ \text{measured in}\ H_x^m.
+\]
+Writing a coordinate down does not prove its bound. Any fixed analytical demand uses finitely many temporal orders and finitely many spatial heights, so fix cutoffs \(N\) and \(M\). For every \(0\le r\le N\), the whole-terminal theorem supplies the adjacent pair
+\[
+V_r\in L^2(0,T_*;H^{M+1}),
+\qquad
+V_{r+1}\in L^2(0,T_*;H^{M-1}).
+\]
+The Hilbert triple
+\[
+H^{M+1}\subset H^M\subset H^{M-1}
+\]
+then gives the temporal trace
+\[
+V_r\in C([0,T_*];H^M).
+\]
+The pressure formula fills the corresponding \(Q_r\)-coordinates. Finitely many adjacent pairs, their traces, and their attached pressures form one pressure-complete rectangle \(\mathcal R_{N,M}[u_0;T_*]\), with the actual whole-terminal estimate
+\[
+\sup_{0<T<T_*}\mathcal R_{N,M}(u;T)<\infty
+\qquad
+\text{for every finite }N,M.
+\]
+The constant may depend on \(N\) and \(M\); no all-orders constant is asserted.
+
+Larger rectangles contain the derivatives already present in smaller rectangles. Every shared coordinate is a derivative of the one \(u_0\)-generated solution, so the overlap values agree. Compatibility assembles the finite blocks into the projective intersection
+\[
+\mathcal I[u_0]
+\subset
+\bigcap_{r,m<\infty}
+H_t^r(0,T_*;H_x^m(\mathbb R^3)).
+\]
+This is where exposed height becomes controlled height: the recurrence identifies the coordinates, the rectangle theorem bounds every finite block, and compatibility permits all finite blocks to coexist without asking for a uniform tower constant.
+
+Now take the zeroth temporal row. For every finite \(m\), the intersection contains
+\[
+u\in L^2(0,T_*;H^{m+1}),
+\qquad
+u_t\in L^2(0,T_*;H^{m-1}).
+\]
+The trace is continuous at height \(m\), and the endpoint values agree across heights. Hence
+\[
+u\in\bigcap_{m<\infty}C([0,T_*];H^m),
+\qquad
+u_*:=u(T_*)\in H^\infty(\mathbb R^3)
+\hookrightarrow C^\infty(\mathbb R^3).
+\]
+At \(T_*\), the pressure formula and velocity recurrence turn the completed spatial information into the full temporal jet. Differentiation and multiplication preserve \(H^\infty\), and the Riesz transforms preserve it as well, so induction gives
+\[
+(V_r^*,Q_r^*)\in H^\infty\times H^\infty
+\qquad
+\text{for every finite }r.
+\]
+Smooth local existence restarts the solution from \(u_*\). Uniqueness joins that restarted solution to the original history on their overlap. The assumed finite maximal time cannot remain, and
+\[
+T_*=\infty.
+\]
+
+The intersection also supplies any familiar finite estimate without changing the argument. For a finite temporal order \(r\), spatial derivative order \(k\), and \(2\le p\le\infty\), choose
+\[
+m>k+\frac32-\frac3p.
+\]
+The coordinate at height \(m\), followed by temporal and spatial Sobolev embedding, gives every \(1\le q\le\infty\):
+\[
+V_r\in H_t^1H_x^m
+\hookrightarrow C_tH_x^m
+\hookrightarrow L_t^qW_x^{k,p}.
+\]
+Different finite choices recover, in immediate succession,
+\[
+\begin{aligned}
+\mathcal I[u_0]&\longrightarrow C_tH_x^1
+\longrightarrow L_t^\infty L_x^6,\\
+\mathcal I[u_0]&\longrightarrow C_tH_x^2
+\longrightarrow L_t^\infty L_x^\infty,\\
+\mathcal I[u_0]&\longrightarrow C_tH_x^3
+\longrightarrow L_t^\infty W_x^{1,\infty}.
+\end{aligned}
+\]
+No favoured downstream norm carries the proof. Each finite demand selects the height it needs from the intersection.
+
+In compact form, the complete route is
+\[
+\begin{aligned}
+u_0
+&\longrightarrow \{(V_n,Q_n)\}_{n\ge0}
+\longrightarrow \{\mathcal R_{N,M}[u_0]\}_{N,M<\infty}\\
+&\longrightarrow \mathcal I[u_0]
+\longrightarrow u_*\in H^\infty
+\longrightarrow \text{smooth restart}
+\longrightarrow T_*=\infty.
+\end{aligned}
+\]
+The temporal sequence that a singularity would drive toward increasing roughness instead exposes every finite spatial height, and the rectangle theorem carries those heights through the endpoint to global continuation.
+
+\end{document}

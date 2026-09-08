@@ -1,0 +1,99 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+\subsection{The Heat Clock and the Zeno Cascade}\label{sub:BodyHeatClock}
+
+Under the Navier--Stokes scaling, a spatial length divided by \(\lambda\) comes with a time divided by \(\lambda^2\).
+Viscosity carries this quadratic clock at every active scale.
+To see it directly, let \(v_t=\nu\Delta v\) and suppose the Fourier mass of \(v\) lies near frequencies \(|\xi|\simeq r^{-1}\).
+The heat flow gives
+\[
+  \widehat v(\xi,t+\delta t)
+  =e^{-\nu|\xi|^2\delta t}\widehat v(\xi,t).
+\]
+An order-one viscous response occurs when \(\nu|\xi|^2\delta t\) is of order one.
+At spatial scale \(r\), the corresponding heat time is
+\begin{equation}\label{eq:BodyHeatComparisonTime}
+  \tau_\nu(r)
+  \asymp\frac{r^2}{\nu}.
+\end{equation}
+Halving the spatial scale quarters the heat time.
+
+If \(T_*\) is a proposed terminal time, the spatial scale whose heat clock matches the remaining time satisfies
+\[
+  r_\nu(t)
+  \asymp\sqrt{\nu(T_*-t)}.
+\]
+This is a comparison scale supplied by viscosity, not a claim that the solution has formed a vortex of that radius.
+
+Now take a geometric sequence of shrinking scales,
+\[
+  r_k=2^{-k}r_0.
+\]
+Their heat clocks satisfy
+\[
+  \tau_k
+  \asymp\frac{r_k^2}{\nu}
+  =\frac{r_0^2}{\nu}4^{-k},
+\]
+and hence
+\[
+  \sum_{k=0}^{\infty}\tau_k
+  \asymp
+  \frac{r_0^2}{\nu}
+  \sum_{k=0}^{\infty}4^{-k}
+  <\infty.
+\]
+The heat-clock calculation permits successively smaller comparison scales to have a finite total time.
+It does not show that one Navier--Stokes solution realizes those contractions.
+The nonlinear evolution would still have to create each next scale from the same velocity field while diffusion is already acting on it.
+
+The heat clock alone does not decide which quantity grows.
+In the general critical-height route, the dangerous conditional is that the active scale falls while \(H(t)\) becomes unbounded.
+Suppose \(H\) is unbounded along a finite maximal interval \([0,T_*)\).
+The unbounded rise can be recorded by first passages.
+Choose \(H_0>H(0)\), set
+\[
+  L_k:=2^kH_0,
+  \qquad
+  t_k:=\inf\{t>0:H(t)=L_k\}.
+\]
+Suppose the \(k\)-th first passage occurs while the relevant active scale is \(r_k\).
+If the next crossing occurs within one fixed multiple of the heat time at that scale,
+\[
+  0<t_{k+1}-t_k
+  \leq C\frac{r_k^2}{\nu},
+\]
+then the crossing times have a finite total:
+\[
+  \sum_{k=0}^{\infty}(t_{k+1}-t_k)<\infty,
+  \qquad
+  t_k\uparrow T_*<\infty.
+\]
+Under that hypothesis,
+\[
+  r_k\downarrow0,
+  \qquad
+  t_k\uparrow T_*<\infty,
+  \qquad
+  H(t_k)=L_k\uparrow\infty.
+\]
+The same velocity history passes through unbounded critical heights on shorter and shorter clocks.
+This is the finite-time Zeno cascade.
+These conclusions concern the critical height; they do not by themselves imply velocity-amplitude blow-up.
+Spatial gradient growth likewise requires the velocity difference across the active width to decay more slowly than the width itself.
+
+The height crossings do force a change in the \(\dot H^{1/2}\) velocity:
+\[
+  \norm{u(t_{k+1})-u(t_k)}_{\dot H^{1/2}}
+  \geq
+  \left|\sqrt{2L_{k+1}}-\sqrt{2L_k}\right|
+  =(\sqrt2-1)\sqrt{2L_k}.
+\]
+Consequently,
+\[
+  \operatorname*{ess\,sup}_{t_k<t<t_{k+1}}
+  \norm{\partial_tu(t)}_{\dot H^{1/2}}
+  \geq
+  \frac{(\sqrt2-1)\sqrt{2L_k}}{t_{k+1}-t_k}.
+\]
+Thus the Zeno crossings supply both shrinking intervals and growing Eulerian velocity responses.
+The next question is whether later responses are activated in turn.

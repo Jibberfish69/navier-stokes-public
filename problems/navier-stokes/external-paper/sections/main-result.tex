@@ -1,0 +1,69 @@
+\section{Main Result}
+
+\subsection{Periodic target and current status}
+
+This draft does not currently prove the periodic theorem.  The checked open
+ingredient is the signed critical-height sign-persistence / peak-height theorem behind the Gold \(L^1\) source wall.  The statement below is
+the continuation consequence that would follow once that coupled storage object
+is proved from the original parent packet before child clipping.
+
+\begin{proposition}[Conditional periodic continuation consequence]
+Let \(\nu>0\). Let
+\[
+u_0\in C^\infty(\mathbb T^3;\mathbb R^3),\qquad
+\nabla\cdot u_0=0,\qquad \int_{\mathbb T^3}u_0(x)\,dx=0.
+\]
+Then the continuation criterion for the incompressible Navier--Stokes system
+\[
+\partial_tu+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
+\qquad \nabla\cdot u=0,
+\qquad u(0)=u_0,
+\]
+would force the local periodic solution to extend smoothly through every finite
+time interval:
+\[u\in C^\infty_{\mathrm{loc}}([0,\infty)\times\mathbb T^3),
+\qquad p\in C^\infty_{\mathrm{loc}}([0,\infty)\times\mathbb T^3),
+\]
+with the usual periodic pressure normalization.
+\end{proposition}
+
+\subsection{Four standard lemmas}
+
+\begin{lemma}[Moving-cylinder regularity and affine excess]
+Let \(Q_r^\Phi\) be a same-fluid moving parabolic cylinder with bounded distortion. If its normalized scale-critical CKN packet is below a fixed threshold \(\varepsilon_m\), then a smaller cylinder carries finite-depth derivative and pressure bounds. On that smaller cylinder the affine-subtracted velocity residual satisfies
+\[
+D^+X_R+cN_R\le B_RX_R+C X_R^{1/2}N_R+F_R.
+\]
+On scheduler intervals the nonlinear term is absorbed, and
+\[
+X_R\in L^\infty,\qquad N_R\in L^1,
+\qquad \mathcal K_{\le m}^{avg,R}\in L^1.
+\]
+\end{lemma}
+
+\begin{lemma}[Terminal good-cover dichotomy and globalization]
+For a bounded-distortion same-fluid terminal tail, exactly one of the following alternatives holds. Either the tail has a terminal positive-scale family of scale-critical good cylinders, or every terminal subtail loses all uniform positive good scale. In the first case, a finite cover with bounded overlap and a common scheduler globalizes the preceding local estimates into a terminal averaged transported-tower bound.
+\end{lemma}
+
+\begin{lemma}[Conditional endpoint contradiction]
+A first finite terminal endpoint must enter one of four primitive faces: participation failure, packing failure, averaged tower-amplitude escape, or terminal good-scale loss. The terminal package eliminates these four faces respectively by participation, packing, averaged tower control, and terminal field-scale persistence. Therefore no first finite endpoint occurs.
+\end{lemma}
+
+\begin{lemma}[Terminal readout and continuation]
+The averaged endpoint package gives a finite positive-scale readout cover. On that cover, the averaged field and tower bounds recover the pointwise endpoint package. The pointwise package gives
+\[
+\sup_{t<T_*}\|u(t)\|_{H^s(\mathbb T^3)}<\infty
+\]
+for some \(s>5/2\). The standard periodic \(H^s\) local theory then extends the solution past any alleged finite endpoint.
+\end{lemma}
+
+\subsection{Conditional proof of the continuation consequence}
+
+Let \((u,p)\) be the maximal classical solution on \([0,T_*)\). Suppose \(T_*<\infty\). By the terminal good-cover dichotomy, the terminal same-fluid tail either admits a positive-scale good-cylinder cover or loses all uniform positive good scale. On the positive-scale branch, the moving-cylinder regularity and affine-excess lemma globalizes to the terminal transported-tower bound. On the scale-loss branch, the loss is one of the endpoint faces.
+
+The endpoint contradiction lemma excludes every possible first finite endpoint face. Hence the terminal endpoint package holds. The terminal readout and continuation lemma then gives a uniform \(H^s(\mathbb T^3)\) bound, with \(s>5/2\), and the periodic local theory extends the solution beyond \(T_*\). This contradicts maximality. Therefore \(T_*=\infty\).
+
+Smoothness on every finite time interval follows from the standard smooth-data periodic theory. The solution is global and smooth.
+
+\paragraph{Scope.}
+The theorem is periodic on \(\mathbb T^3\). A whole-space theorem on \(\mathbb R^3\) is a separate export problem.

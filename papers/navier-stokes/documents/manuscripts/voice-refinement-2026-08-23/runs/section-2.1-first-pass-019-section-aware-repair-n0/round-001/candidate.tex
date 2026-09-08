@@ -1,0 +1,258 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.1 Vortex Stretching
+% ============================================================
+
+Nonlinear transport can sharpen a velocity field at the same time that viscosity smooths it.
+\[
+  \underbrace{\partial_t u}_{\text{local acceleration}}
+  +
+  \underbrace{(u\cdot\nabla)u}_{\text{nonlinear transport}}
+  =
+  \underbrace{-\nabla p}_{\text{pressure}}
+  +
+  \underbrace{\nu\Delta u}_{\text{viscous diffusion}}.
+\]
+
+\subsection{Vortex Stretching}\label{sub:ThePerfectlyStretchingVortex}
+
+A small material fluid parcel rotating around an axis gives the three-dimensional conflict its physical shape. In a local axisymmetric picture, strain aligned with that axis lengthens the parcel. Incompressibility simultaneously contracts both transverse directions, drawing the rotating fluid inward toward the axis and speeding up the interior rotation. If the strain is locally uniform across the parcel, with unit axis direction \(e\) and parcel length \(L(t)\), the axial motion is
+\[
+  S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr),
+  \qquad
+  Se=\sigma(t)e,
+  \qquad
+  \sigma(t)>0,
+  \qquad
+  \frac{\dot L(t)}{L(t)}
+  =
+  e\cdot Se
+  =
+  \sigma(t).
+\]
+
+The parcel keeps its material volume \(\mathcal V\), so the growing length forces its transverse area to fall. With \(A(t):=\mathcal V/L(t)\) and the area-equivalent material radius \(r_{\mathrm{eff}}(t):=\sqrt{A(t)/\pi}\), incompressibility gives
+\[
+  \nabla\cdot u=0,
+  \qquad
+  \frac{d}{dt}(A L)=0,
+  \qquad
+  \frac{\dot A}{A}=-\sigma(t),
+  \qquad
+  \frac{\dot r_{\mathrm{eff}}}{r_{\mathrm{eff}}}
+  =
+  -\frac{\sigma(t)}{2}.
+\]
+The material radius contracts at half the axial logarithmic rate. This geometry produces the inward motion, but viscosity acts on velocity and vorticity relative to the advected parcel, so geometry alone cannot decide whether the rotation grows. For \(\omega:=\nabla\times u\), the tracked material trajectory obeys
+\[
+  \frac{D\omega}{Dt}
+  =
+  S\omega+\nu\Delta\omega,
+  \qquad
+  \frac{D}{Dt}
+  :=
+  \partial_t+u\cdot\nabla,
+\]
+and under the alignment \(\omega=|\omega|e\),
+\[
+  S\omega
+  =
+  \sigma(t)\omega,
+  \qquad
+  \frac12\frac{D|\omega|^2}{Dt}
+  =
+  \sigma(t)|\omega|^2
+  +
+  \nu\,\omega\cdot\Delta\omega.
+\]
+Stretching drives the spin-up, while the signed contribution from viscosity leaves net vorticity growth to the complete balance.
+
+Finite kinetic energy cannot close this local question. The energy identity proved in \Cref{prop:ClassicalKineticEnergyIdentity}, together with the antisymmetric part of \(\nabla u\), gives
+\[
+  \norm{u(t)}_2
+  \leq
+  \norm{u_0}_2
+  <\infty,
+  \qquad
+  \left|\frac12\bigl(\nabla u-(\nabla u)^{\mathsf T}\bigr)\right|_{\mathrm F}
+  =
+  \frac{|\omega|}{\sqrt2}
+  \leq
+  |\nabla u|_{\mathrm F}.
+\]
+The global velocity norm stays finite while the rotational part of the local gradient remains free to concentrate. Exact full-field scaling tests independently whether viscosity gains any relative strength under a change of scale.
+
+\divider{\NavierStokes{} Scaling}
+
+For \(\lambda>1\), another solution at another scale is defined by
+\[
+  u_\lambda(x,t)
+  :=
+  \lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)
+  :=
+  \lambda^2p(\lambda x,\lambda^2t).
+\]
+This rescaled field is not a later state of the tracked parcel. Its local acceleration, transport, pressure, and viscosity transform together:
+\[
+\begin{aligned}
+  \partial_tu_\lambda(x,t)
+  &=
+  \lambda^3(\partial_tu)(\lambda x,\lambda^2t),
+  \\
+  (u_\lambda\cdot\nabla)u_\lambda(x,t)
+  &=
+  \lambda^3\bigl((u\cdot\nabla)u\bigr)(\lambda x,\lambda^2t),
+  \\
+  \nabla p_\lambda(x,t)
+  &=
+  \lambda^3(\nabla p)(\lambda x,\lambda^2t),
+  \\
+  \nu\Delta u_\lambda(x,t)
+  &=
+  \lambda^3\nu(\Delta u)(\lambda x,\lambda^2t).
+\end{aligned}
+\]
+Every term acquires the same cubic factor. Viscosity does not pull ahead. A comparison that introduces no scaling bias now calls for the Sobolev exponent whose own power vanishes.
+
+\divider{Critical Height}
+
+With \(\Lambda:=(-\Delta)^{1/2}\), the Fourier transform of the rescaled velocity is
+\[
+  \widehat{u_\lambda}(\xi,t)
+  =
+  \lambda^{-2}\widehat u(\lambda^{-1}\xi,\lambda^2t),
+\]
+and changing variables yields
+\[
+  \norm{u_\lambda(t)}_{\dot H^s}^2
+  =
+  \lambda^{2s-1}
+  \norm{u(\lambda^2t)}_{\dot H^s}^2.
+\]
+Energy loses one power of \(\lambda\), while the first-derivative norm gains one. Half a derivative lies between them at the vanishing exponent, giving the global functional
+\[
+  H(t)
+  :=
+  \frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =
+  \frac12\norm{\Lambda^{1/2}u(t)}_2^2.
+\]
+For this functional evaluated on \(u_\lambda\),
+\[
+  \norm{u_\lambda(t)}_2^2
+  =
+  \lambda^{-1}\norm{u(\lambda^2t)}_2^2,
+  \qquad
+  H_\lambda(t)=H(\lambda^2t),
+  \qquad
+  \norm{\nabla u_\lambda(t)}_2^2
+  =
+  \lambda\norm{\nabla u(\lambda^2t)}_2^2.
+\]
+Thus \(H\) remains fixed between a falling energy norm and a rising first-derivative norm. It is a scale-neutral height of the full velocity field, not a height of the parcel, and scale neutrality gives it no direction in time. Its signed evolution must supply that direction.
+
+\divider{Nonlinear Production versus Viscous Dissipation}
+
+The nonlinear motion contributes the signed half-derivative production
+\[
+  \mathcal P_{1/2}[u](t)
+  :=
+  -\operatorname{Re}
+  \pair
+    {\Lambda^{1/2}u(t)}
+    {\Lambda^{1/2}\bigl((u(t)\cdot\nabla)u(t)\bigr)}_{L^2}.
+\]
+Because \(\nabla\cdot u=0\), pressure vanishes from the pairing, while the Laplacian supplies positive dissipation on the left:
+\[
+  H'(t)
+  +
+  \nu\norm{\Lambda^{3/2}u(t)}_2^2
+  =
+  \mathcal P_{1/2}[u](t).
+\]
+The height rises only when signed nonlinear production exceeds the positive viscous dissipation acting at the same time. Under the full-field rescaling, both contributions change by the same amount:
+\[
+  \mathcal P_{1/2}[u_\lambda](t)
+  =
+  \lambda^2\mathcal P_{1/2}[u](\lambda^2t),
+  \qquad
+  \nu\norm{\Lambda^{3/2}u_\lambda(t)}_2^2
+  =
+  \lambda^2\nu\norm{\Lambda^{3/2}u(\lambda^2t)}_2^2.
+\]
+Their common square factor decides neither the sign of \(H'\) nor the duration of any transition in the original flow. The actual elapsed gap remains unresolved; diffusion can supply a conditional linear comparison clock once rotation remains active near an inverse width.
+
+\divider{The Heat Clock}
+
+Diffusion damps each Fourier mode according to the heat evolution \(v_t=\nu\Delta v\):
+\[
+  \widehat v(\xi,t+\delta t)
+  =
+  e^{-\nu|\xi|^2\delta t}\widehat v(\xi,t).
+\]
+If a quantitatively nontrivial part of a localized rotation remains active near \(|\xi|\simeq r^{-1}\), viscosity produces an order-one change when
+\[
+  \nu|\xi|^2\delta t\simeq1,
+\]
+which gives the linear comparison time
+\[
+  \tau_\nu(r)
+  :=
+  \frac{r^2}{\nu}.
+\]
+This time belongs to diffusion acting at the stated active frequency. It does not prescribe the parcel's lifetime or the nonlinear flow's next transition. Even so, its response to a shrinking width is exact:
+\[
+  \tau_\nu(\lambda^{-1}r)
+  =
+  \lambda^{-2}\tau_\nu(r).
+\]
+A halved width gives diffusion one quarter of the former comparison time. Repeating that arithmetic raises the harder question of whether one continuing rotation in one flow can actually pass through those widths.
+
+\divider{The Zeno Cascade}
+
+The dyadic reference widths carry their own heat times,
+\[
+  r_n:=2^{-n}r_0,
+  \qquad
+  \tau_n:=\frac{r_n^2}{\nu},
+\]
+so that
+\[
+  \tau_n
+  =
+  \frac{r_0^2}{\nu}4^{-n},
+  \qquad
+  \sum_{n=0}^{\infty}\tau_n
+  =
+  \frac{4r_0^2}{3\nu}
+  <
+  \infty.
+\]
+Arithmetic fits all these linear comparison times before a finite endpoint. It has not produced a Navier--Stokes history. One continuing localized rotation would have to pass through the reference widths
+\[
+  r_0>r_1>r_2>\cdots\longrightarrow0
+\]
+without being replaced along the way.
+
+The material parcel supplies a carrier, but vorticity can cross its narrowing boundary. That exchange can break the identity of the localized rotation even while the parcel itself remains material. Coherent spacetime ancestry through the exchange keeps the rotation identifiable. Identity alone still allows it to fade, so its amplitude must also remain quantitatively nontrivial.
+
+At a sampled time \(t_n\), the stage indexed by \(r_n\) is reached only while two distinct widths continue to track it: the parcel's area-equivalent radius and the transverse localization width of the rotation each remain between uniform positive lower and finite upper multiples of \(r_n\). Once the material radius has this two-sided comparison, its contraction law accumulates axial strain \(2n\log 2\) from \(t_0\) to \(t_n\), up to an additive error bounded independently of \(n\). Nothing in that cumulative statement makes the parcel halve exactly on every intervening interval.
+
+The localization width still does not locate the active vorticity in frequency. A nontrivial part of the continuing rotation must remain active near frequencies comparable to \(r_n^{-1}\). That activity determines how diffusion acts at the sampled scale, but it does not determine when the nonlinear flow reaches the next sample. If the same flow reaches those states at times
+\[
+  t_0<t_1<t_2<\cdots\uparrow T_*<\infty,
+  \qquad
+  t_{n+1}-t_n\asymp\tau_n,
+\]
+with uniform comparison bounds, the active frequency and the independently realized gap meet on the heat scale. Diffusion then acts near \(r_n^{-1}\) across a gap comparable to \(r_n^2/\nu\), and the time still available satisfies
+\[
+  T_*-t_n
+  \asymp
+  \sum_{k=n}^{\infty}\tau_k
+  =
+  \frac{4r_n^2}{3\nu}.
+\]
+
+One obstruction remains inside each gap. If the accumulated axial strain on every interval \([t_n,t_{n+1}]\) stays between fixed positive lower and upper bounds independent of \(n\), division by the interval length makes the interval-average strain comparable to \(\nu/r_n^2\), and hence to \((T_*-t_n)^{-1}\). This is an interval-average comparison, not a pointwise strain bound. The material parcel must contract within the same flow on a time scale shrinking like \(r_n^2/\nu\) while diffusion continues.

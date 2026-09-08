@@ -28,15 +28,15 @@ To close the invisible-child route, prove:
 }
 ```
 
-for the retained same-material Navier-Stokes pressure-Hodge packet.
+for the retained same-material Navier-Stokes pressure-Helmholtz--Leray packet.
 
 Here:
 
-- `S_infty` is the limiting parent-child pressure-Hodge Dirichlet-to-Neumann Schur complement;
-- `U_infty` is the limiting parent pressure-Hodge trace;
+- `S_infty` is the limiting parent-child pressure-Helmholtz--Leray Dirichlet-to-Neumann Schur complement;
+- `U_infty` is the limiting parent pressure-Helmholtz--Leray trace;
 - `mu^{sel}_{Sigma,infty}` is the limiting selected critical-strain carrier.
 
-Plainly: a child packet with real selected critical-strain action cannot be completely invisible to the parent pressure-Hodge Schur defect.
+Plainly: a child packet with real selected critical-strain action cannot be completely invisible to the parent pressure-Helmholtz--Leray Schur defect.
 
 ## 2. Required proof content
 
@@ -44,7 +44,7 @@ The proof must show three things.
 
 ### 2.1 Zero Schur defect gives true gluing
 
-Zero Schur defect must imply that the parent and child pressure-Hodge fields glue with no hidden flux or jump:
+Zero Schur defect must imply that the parent and child pressure-Helmholtz--Leray fields glue with no hidden flux or jump:
 
 ```math
 \mathsf S_\infty U_\infty=0
@@ -58,7 +58,7 @@ across the retained parent-child collar interface, modulo legal errors that vani
 
 ### 2.2 The selected carrier is the same packet source
 
-The selected critical-strain carrier must be exactly the source seen by the same pressure-Hodge/material packet, not an arbitrary silent elliptic source:
+The selected critical-strain carrier must be exactly the source seen by the same pressure-Helmholtz--Leray/material packet, not an arbitrary silent elliptic source:
 
 ```math
 \mathcal L_{A_\infty}W_\infty
@@ -84,7 +84,7 @@ a legal/nonlaminar exit, or a retained material-service signal. Equivalently:
 \mathsf S_\infty U_\infty\ne 0
 ```
 
-inside the retained same-material pressure-Hodge packet.
+inside the retained same-material pressure-Helmholtz--Leray packet.
 
 ## 3. Contradiction structure
 

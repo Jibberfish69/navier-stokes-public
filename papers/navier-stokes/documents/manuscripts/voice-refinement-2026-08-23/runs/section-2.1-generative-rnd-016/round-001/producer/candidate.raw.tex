@@ -1,0 +1,254 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.1 Vortex Stretching
+% ============================================================
+
+The momentum equation has four pieces:
+\[
+  \underbrace{\partial_t u}_{\text{local acceleration}}
+  +
+  \underbrace{(u\cdot\nabla)u}_{\text{nonlinear transport}}
+  =
+  \underbrace{-\nabla p}_{\text{pressure}}
+  +
+  \underbrace{\nu\Delta u}_{\text{viscous diffusion}}.
+\]
+The central regularity problem lies in the competition between nonlinear transport and viscosity.
+The hope is simple: viscosity smooths the fluid faster than nonlinear transport can sharpen it.
+If that remains true at every scale, the velocity stays smooth.
+
+\subsection{Vortex Stretching}\label{sub:ThePerfectlyStretchingVortex}
+
+That hope first comes under pressure inside a narrow material vortex tube. The same rotating fluid is pulled apart along the tube axis and squeezed across it. The symmetric strain
+\[
+  S:=\frac12\bigl(\nabla u+(\nabla u)^{\mathsf T}\bigr)
+\]
+is the part of the velocity gradient that records this deformation. Let \(e\) point along a material segment of the tube and let \(L(t)\) be its length. When the strain extends the fluid along \(e\) at rate \(\sigma(t)>0\),
+\[
+  Se=\sigma(t)e,
+  \qquad
+  \sigma(t)>0,
+  \qquad
+  \frac{\dot L(t)}{L(t)}
+  =
+  e\cdot Se
+  =
+  \sigma(t).
+\]
+The segment lengthens at the fractional rate \(\sigma(t)\).
+
+Because the fluid is incompressible, that gain in length is paid for across the same segment. Let \(\mathcal V\) be its fixed material volume, set \(A(t):=\mathcal V/L(t)\), and write \(r_{\mathrm{eff}}(t):=\sqrt{A(t)/\pi}\). Then
+\[
+  \nabla\cdot u=0,
+  \qquad
+  \frac{d}{dt}(A L)=0,
+  \qquad
+  \frac{\dot A}{A}=-\sigma(t),
+  \qquad
+  \frac{\dot r_{\mathrm{eff}}}{r_{\mathrm{eff}}}
+  =
+  -\frac{\sigma(t)}{2}.
+\]
+Axial stretching and radial narrowing are one motion.
+
+The rotation carried by that same fluid is the vorticity \(\omega:=\nabla\times u\). Along the moving segment it satisfies
+\[
+  \frac{D\omega}{Dt}
+  =
+  S\omega+\nu\Delta\omega,
+  \qquad
+  \frac{D}{Dt}
+  :=
+  \partial_t+u\cdot\nabla,
+\]
+and when the vorticity is aligned with the stretching direction, \(\omega=|\omega|e\),
+\[
+  S\omega
+  =
+  \sigma(t)\omega,
+  \qquad
+  \frac12\frac{D|\omega|^2}{Dt}
+  =
+  \sigma(t)|\omega|^2
+  +
+  \nu\,\omega\cdot\Delta\omega.
+\]
+On any interval where the full right-hand side stays positive, the same strain that lengthens the segment and thins its core also amplifies its aligned vorticity.
+
+If the speed stays bounded by \(U_0\) on the fixed-volume material segment \(\Omega_{\mathrm{seg}}(t)\), then
+\[
+  E_{\mathrm{seg}}(t)
+  :=
+  \frac12\int_{\Omega_{\mathrm{seg}}(t)}|u(x,t)|^2\,dx
+  \leq
+  \frac12U_0^2\mathcal V
+  <
+  \infty,
+  \qquad
+  \left|\frac12\bigl(\nabla u-(\nabla u)^{\mathsf T}\bigr)\right|_{\mathrm F}
+  =
+  \frac{|\omega|}{\sqrt2}
+  \leq
+  |\nabla u|_{\mathrm F}.
+\]
+So a bounded-speed segment can keep finite kinetic energy while the rotating part of the velocity gradient grows inside a narrowing core. The gradients rise.
+
+\divider{\NavierStokes{} Scaling}
+
+Once the core has narrowed, scale is already part of the problem. Fix \(t_0\) and set \(\ell:=r_{\mathrm{eff}}(t_0)\). The Navier--Stokes rescaling at that width is
+\[
+  u_\lambda(x,t)
+  :=
+  \lambda u(\lambda x,\lambda^2t),
+  \qquad
+  p_\lambda(x,t)
+  :=
+  \lambda^2p(\lambda x,\lambda^2t).
+\]
+For \(\lambda>1\), the corresponding vortex in \(u_\lambda\) at time \(\lambda^{-2}t_0\) has width \(\lambda^{-1}\ell\). This is a comparison solution at a finer width, not a later state of the original material tube. Differentiating gives
+\[
+\begin{aligned}
+  \partial_tu_\lambda(x,t)
+  &=
+  \lambda^3(\partial_tu)(\lambda x,\lambda^2t),
+  \\
+  (u_\lambda\cdot\nabla)u_\lambda(x,t)
+  &=
+  \lambda^3\bigl((u\cdot\nabla)u\bigr)(\lambda x,\lambda^2t),
+  \\
+  \nabla p_\lambda(x,t)
+  &=
+  \lambda^3(\nabla p)(\lambda x,\lambda^2t),
+  \\
+  \nu\Delta u_\lambda(x,t)
+  &=
+  \lambda^3\nu(\Delta u)(\lambda x,\lambda^2t).
+\end{aligned}
+\]
+All four terms acquire the same \(\lambda^3\) factor. Finer width has changed the scale of the comparison without giving viscosity any relative gain over nonlinear sharpening.
+
+\divider{Critical Height}
+
+Now the difficulty is no longer the equation alone. A measuring norm can grow or shrink simply because the ruler changed with scale. Let \(\Lambda:=(-\Delta)^{1/2}\). At Sobolev height \(s\), a change of variables gives
+\[
+  \norm{u_\lambda(t)}_{\dot H^s}^2
+  =
+  \lambda^{2s-1}
+  \norm{u(\lambda^2t)}_{\dot H^s}^2.
+\]
+The factor \(\lambda^{2s-1}\) is contributed by the rescaling itself, and it disappears only at \(s=\tfrac12\). Set
+\[
+  H(t)
+  :=
+  \frac12\norm{u(t)}_{\dot H^{1/2}}^2
+  =
+  \frac12\norm{\Lambda^{1/2}u(t)}_2^2.
+\]
+At that height the ruler is silent: moving to a finer comparison neither enlarges nor diminishes the measured velocity. The levels on either side move in opposite directions,
+\[
+  \norm{u_\lambda(t)}_2^2
+  =
+  \lambda^{-1}\norm{u(\lambda^2t)}_2^2,
+  \qquad
+  H_\lambda(t)=H(\lambda^2t),
+  \qquad
+  \norm{\nabla u_\lambda(t)}_2^2
+  =
+  \lambda\norm{\nabla u(\lambda^2t)}_2^2.
+\]
+Kinetic energy falls under concentration and first-derivative energy rises, while the critical height stays fixed. Finite energy still leaves the concentration problem open, and any motion of \(H\) must come from the equation itself.
+
+\divider{Nonlinear Production versus Viscous Dissipation}
+
+At that fixed height the opening competition can be read without any help from the change of scale. Apply \(\Lambda^{1/2}\) to the momentum equation and pair with \(\Lambda^{1/2}u\). Write the signed nonlinear contribution as
+\[
+  \mathcal P_{1/2}(t)
+  :=
+  -\operatorname{Re}
+  \pair
+    {\Lambda^{1/2}u(t)}
+    {\Lambda^{1/2}\bigl((u(t)\cdot\nabla)u(t)\bigr)}_{L^2}.
+\]
+The pressure pairing vanishes because \(\nabla\cdot u=0\), while the Laplacian contributes \(-\nu\norm{\Lambda^{3/2}u}_2^2\). What remains is the exact law
+\[
+  H'(t)
+  +
+  \nu\norm{\Lambda^{3/2}u(t)}_2^2
+  =
+  \mathcal P_{1/2}(t).
+\]
+The critical height rises only when nonlinear production exceeds viscous dissipation. Under the same rescaling,
+\[
+  \mathcal P_{1/2}[u_\lambda](t)
+  =
+  \lambda^2\mathcal P_{1/2}[u](\lambda^2t),
+  \qquad
+  \nu\norm{\Lambda^{3/2}u_\lambda(t)}_2^2
+  =
+  \lambda^2\nu\norm{\Lambda^{3/2}u(\lambda^2t)}_2^2.
+\]
+They still scale in exactly the same way. The competition remains level, but the common \(\lambda^2\) factor is now tied to the contracted time coordinate \(t\mapsto\lambda^{-2}t\).
+
+\divider{The Heat Clock}
+
+That quadratic shortening is already built into the viscous part itself. For the linear heat equation \(v_t=\nu\Delta v\),
+\[
+  \widehat v(\xi,t+\delta t)
+  =
+  e^{-\nu|\xi|^2\delta t}\widehat v(\xi,t).
+\]
+A structure localized to width \(r\) lives at frequencies \(|\xi|\simeq r^{-1}\), so the multiplier changes by order one when \(\nu|\xi|^2\delta t\simeq1\). The corresponding viscous comparison time is
+\[
+  \tau_\nu(r)
+  :=
+  \frac{r^2}{\nu}.
+\]
+This is not the lifetime of the material vortex. It is the time viscosity alone needs to change a width-\(r\) structure by order one. At the finer comparison width,
+\[
+  \tau_\nu(\lambda^{-1}r)
+  =
+  \lambda^{-2}\tau_\nu(r),
+\]
+so the viscous clock shortens by the same factor as the time coordinate in the full \NavierStokes{} scaling. The balance has not tilted, but every narrower test comes with less time.
+
+\divider{The Zeno Cascade}
+
+Repeat the narrowing through the geometric sequence
+\[
+  r_n:=2^{-n}r_0,
+  \qquad
+  \tau_n:=\frac{r_n^2}{\nu},
+\]
+and the associated clocks satisfy
+\[
+  \tau_n
+  =
+  \frac{r_0^2}{\nu}4^{-n},
+  \qquad
+  \sum_{n=0}^{\infty}\tau_n
+  =
+  \frac{4r_0^2}{3\nu}
+  <
+  \infty.
+\]
+So the scale--clock relation by itself does not prevent infinitely many finer comparisons from fitting inside finite time.
+
+But that is still only a schedule of widths and clocks. To describe a candidate singularity, one actual solution would have to pass through widths
+\[
+  r_0>r_1>r_2>\cdots\longrightarrow0
+\]
+at times
+\[
+  t_0<t_1<t_2<\cdots\uparrow T_*<\infty,
+  \qquad
+  t_{n+1}-t_n\asymp\tau_n,
+\]
+with comparison constants independent of \(n\). The remaining time would then satisfy
+\[
+  T_*-t_n
+  \asymp
+  \sum_{k=n}^{\infty}\tau_k
+  =
+  \frac{4r_n^2}{3\nu}.
+\]
+By stage \(n\), the same velocity history would have only order \(r_n^2/\nu\) of time left before \(T_*\). Spatial concentration can fit into finite time only if that one history keeps producing its next temporal response on clocks collapsing at the same quadratic rate.

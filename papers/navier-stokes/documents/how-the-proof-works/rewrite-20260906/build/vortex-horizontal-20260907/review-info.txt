@@ -1,0 +1,21 @@
+Title:           How the Proof Works
+Subject:         Opening section of the Navier--Stokes paper; review copy
+Author:          Thomas Birnie
+Creator:         LaTeX with hyperref
+Producer:        pdftex-1.40.28
+CreationDate:    Mon Sep  7 12:26:10 2026 MDT
+ModDate:         Mon Sep  7 12:26:10 2026 MDT
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           4
+Encrypted:       no
+Page size:       612 x 792 pts (letter)
+Page rot:        0
+File size:       263910 bytes
+Optimized:       no
+PDF version:     2.0

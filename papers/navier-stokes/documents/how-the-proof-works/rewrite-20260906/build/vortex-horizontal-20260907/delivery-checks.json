@@ -1,0 +1,18 @@
+{
+  "change": "Horizontal 3D unshaded vortex diagram",
+  "review_pages": 4,
+  "full_pages": 73,
+  "other_full_pages_text_unchanged": true,
+  "all_section_renders_match_review": true,
+  "manuscript_sources_unchanged": true,
+  "figure_hashes": {
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/figures/vortex-stretching-notation.tex": "5d2f2b5b788f04ca7229aa3f17a0d6bdea654c4444fa71d95249e5961b4dd0a4",
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/figures/vortex-stretching-notation.pdf": "61eec5166563d01db49abe6f25177d948ddb506561c2cdaa56bc15b9dd914679",
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/figures/vortex-stretching-notation.png": "4532b1b595917430328d84861c13154de374a1e73ddeb176fe27496884bf78bb"
+  },
+  "published": {
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/how-the-proof-works.pdf": "0bf8f1b65e3077feccc57f533aa8e35208ae6d676f427905d89b0ca86d2564ac",
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf": "f57915b521dbf2904d3fb233e7a875430ed92963f0613a974f58e9a5217c30dc",
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/navier-stokes-with-rewrite.pdf": "f57915b521dbf2904d3fb233e7a875430ed92963f0613a974f58e9a5217c30dc"
+  }
+}

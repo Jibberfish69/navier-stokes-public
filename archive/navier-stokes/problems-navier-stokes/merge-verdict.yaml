@@ -1,0 +1,23 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  gap_id: gap-navier-stokes-20260312T214323Z
+  verdict_id: merge-navier-stokes-20260312T214331Z
+provenance:
+  generated_matches_existing_source: unknown
+  recovered_support_strength: strong
+  convergence_status: none
+decision:
+  disposition: promote-recovered
+  promoted_target: backbone-build
+  rationale: Recovered workboard-local support exists, so the backbone can be rebuilt
+    on grounded local material.
+outputs:
+  kept_candidate_ids:
+  - candidate-gap-ticket-yaml
+  - candidate-obstruction-capture-md
+  - candidate-spine-md
+  - candidate-pipeline-state-yaml
+  - candidate-problem-intake-md
+  rejected_candidate_ids: []

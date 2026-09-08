@@ -1,0 +1,46 @@
+{
+  "full_pages": 73,
+  "review_pages": 4,
+  "section_pages": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "contents_page": 7,
+  "front_pages_unchanged": true,
+  "later_body_pages_unchanged": 66,
+  "other_canonical_sources_unchanged": 10,
+  "source_copies_identical": true,
+  "rendered_section_text_identical": true,
+  "build_diagnostics": {
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/prose-refinement/full-paper/navier-stokes.log": [],
+    "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/build/how-the-proof-works.log": []
+  },
+  "full_section_pixels_match_inspected_review_above_footer": true,
+  "inspection_render_scale_pixels": 1400,
+  "published_artifacts": [
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/build/output/authoritative-edge/navier-stokes.pdf",
+      "sha256": "4d94e22a790684ba83939d5e70bebb820f5972135b38ce600819f6546e4eacbb"
+    },
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/how-the-proof-works.pdf",
+      "sha256": "0ad9cfdf96b602efde82dd3b348318457f6647db6e76b655b17ef8064d9493c6"
+    },
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/navier-stokes-with-rewrite.pdf",
+      "sha256": "4d94e22a790684ba83939d5e70bebb820f5972135b38ce600819f6546e4eacbb"
+    }
+  ],
+  "final_sources": [
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/manuscript/generated/00-how-proof-works.tex",
+      "sha256": "cf1ec4beb4ebfebcaf467d238231ec671f9436641e0dae13887ede4d88f7bc20"
+    },
+    {
+      "path": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/documents/how-the-proof-works/rewrite-20260906/section.tex",
+      "sha256": "cf1ec4beb4ebfebcaf467d238231ec671f9436641e0dae13887ede4d88f7bc20"
+    }
+  ]
+}

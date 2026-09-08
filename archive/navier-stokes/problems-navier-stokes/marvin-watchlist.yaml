@@ -1,0 +1,65 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  generated_at: '2026-03-18T22:47:32Z'
+  generator: manual-chat2-marvin-intake
+watch_roots:
+- "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine"
+- "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Audit/scale-resolution"
+- "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/main.txt"
+watch_terms:
+- Navier
+- Stokes
+- Scale-Barrier Principle
+- Monotone Functional
+- Q(t)
+- Non-Sobolev Compactness
+- Curvature-Based Regularity
+- gradient control
+- interdependencies among principles
+- four-principle cycle
+intake_targets:
+- problems/navier-stokes/route-lock.yaml
+- problems/navier-stokes/bridge-slot-map.yaml
+- problems/navier-stokes/authoritative-source-discovery.yaml
+- problems/navier-stokes/proof-source-pack.md
+- problems/navier-stokes/marvin-source-discovery.yaml
+- problems/navier-stokes/marvin-adaptation-notes.md
+- problems/navier-stokes/source-forensics/bridge-discharge-locus-map.md
+- problems/navier-stokes/campaign-status.yaml
+- problems/navier-stokes/theorem-to-warrant.yaml
+role_policy:
+- Legacy Navier-Stokes TeX/PDF files remain the direct proof-bearing base unless a
+  direct NS V6 theorem file appears.
+- Marvin/V6 notes should be imported immediately as synthesis, bridge scaffolding,
+  or terminology guidance.
+- A Marvin query queue may remain open, but it must never block local theorem writing
+  or note consolidation.
+automatic_next_moves:
+- If a watched file only contributes ontology or cross-problem scaffolding, sterilize
+  it into slot-tagged synthesis support rather than theorem authority.
+- If a new direct NS-bearing V6 file appears, add it to authoritative-source-discovery
+  selected_sources and to proof-source-pack.md.
+- If a new V6 synthesis note sharpens a named bridge, copy that material into the
+  corresponding bridge/source-pack file immediately.
+- If a V6 note clarifies loop closure, propagate it to source-grounded-framework-map.md
+  and theorem-to-warrant.yaml.
+- If no new V6 note appears, continue theorem work from the current lane-local frontier
+  without waiting.
+status:
+  mode: active-watch
+  current_frontier: curvature-first fourth bridge and final warrant promotion
+  last_scan_basis:
+  - problems/navier-stokes/marvin-source-discovery.yaml
+  - problems/navier-stokes/proof-source-pack.md
+  last_scan_at: '2026-03-25T16:40:45Z'
+  last_scan_result: updated
+  recent_observed_paths:
+  - "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.11-ObstructionAlgebraizationBridge.tex"
+  - "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.20-SupportExtractionDescent.tex"
+  - "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/main.txt"
+  - "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Audit/scale-resolution/ScaleResolution_Extracts.md"
+  - "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.10-MassStabilizationForceUnification.tex"
+  - "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.9-TheEntirePictureWorkingSpine.tex"
+  - "/Users/thomasbirnie/Desktop/ToE/ToE/monograph-V6/Volume11-Appendices/11.7-WorkingNote-Spine/11.7.6-IntrinsicHolonomyTwist.tex"

@@ -1,0 +1,250 @@
+\begingroup
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.45\baselineskip}
+\setlength{\abovedisplayskip}{7pt plus 1pt minus 1pt}
+\setlength{\belowdisplayskip}{7pt plus 1pt minus 1pt}
+\setlength{\jot}{5pt}
+\clubpenalty=10000
+\widowpenalty=10000
+\section*{How the Proof Works}
+\[
+ \partial_tu+(u\cdot\nabla)u=-\nabla p+\nu\Delta u.
+\]
+
+The problem is to show that a smooth, incompressible three-dimensional flow
+of finite energy stays smooth for all time when its viscosity is positive.
+The difficulty comes from the fluid's ability to concentrate its motion.
+
+When strain in the surrounding flow stretches a vortex, its material tube
+lengthens and narrows. With circulation retained, that narrowing makes the
+fluid spin faster. Viscosity spreads the rotation into the surrounding fluid,
+but the surrounding strain can keep pulling the tube thinner. The tube can
+even lose circulation while its rotation intensifies, if its cross-section
+shrinks fast enough. Stretching and viscous spreading act together throughout
+this process, and their relative rates decide whether the velocity differences
+become sharper.
+
+Continued concentration takes this competition into smaller and smaller
+regions. Viscosity then has a shorter distance over which to smooth the flow,
+but the faster motion can also leave it less time to do so. We need to know
+whether viscosity gains enough ground as the tube narrows to prevent the
+concentration from continuing all the way to a singularity.
+The hope is simple: viscosity smooths the fluid faster than nonlinear
+transport can sharpen it.
+
+Rescaling lets us examine that hope while keeping viscosity fixed. For
+\(\lambda>1\), the Navier--Stokes scaling is
+\[
+ u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
+ \qquad p_\lambda(x,t)=\lambda^2p(\lambda x,\lambda^2t).
+\]
+Lengths contract, speeds increase, and the motion runs on a shorter clock.
+Transport and diffusion preserve their relative strength. A smaller, faster
+flow can still satisfy the equation with the original viscosity, so moving
+to a finer scale gives diffusion no automatic advantage. At corresponding
+times its total energy is smaller, too:
+\(E[u_\lambda]=\lambda^{-1}E[u]\). Faster motion concentrated into less
+space can cost less energy. A bound on total energy leaves that possibility
+open.
+
+Spatial Sobolev order tells us where a measurement begins to detect this
+concentration. Increasing the order \(s\) gives more weight to finer spatial
+variation, and under rescaling
+\[
+ \|u_\lambda(\cdot,t)\|_{\dot H^s}
+ =\lambda^{s-1/2}\|u(\cdot,\lambda^2t)\|_{\dot H^s}.
+\]
+Below \(s=\tfrac12\), the norm decreases as the flow contracts. Above it,
+the norm increases. At \(s=\tfrac12\), the measurement is unchanged.
+This is the critical height: the flow can become arbitrarily small and fast
+without changing its critical norm. Energy, at height zero, becomes smaller
+throughout that comparison. Neither measurement by itself tells us how the
+fluid will behave through a succession of such contractions.
+
+The shorter clock is what makes a succession dangerous. If one contraction
+could generate another, and each occurred \(\lambda^2\) times as quickly
+as its predecessor, infinitely many stages would fit into a finite time:
+\[
+ \tau_j=\lambda^{-2j}\tau_0,
+ \qquad \sum_{j=0}^{\infty}\tau_j
+ =\frac{\tau_0}{1-\lambda^{-2}}<\infty.
+\]
+That is the hypothetical Zeno cascade. Rescaling describes flows with the
+right spatial and temporal proportions for it. Sustaining the cascade would
+require the evolving fluid to produce those stages, with each stage's
+velocity, pressure and spatial structure generating what happens next.
+
+For a singularity to form in finite time, velocity would have to blow up.
+That requires acceleration to blow up, then jerk, and so on, and so on.
+Here the temporal sequence is \(u,\partial_tu,\partial_t^2u,\ldots\),
+evaluated at fixed spatial coordinates. A bounded next derivative keeps its
+predecessor bounded on a finite interval. If the velocity becomes unbounded
+in the spatial supremum norm as \(t\) approaches a finite \(T_*\), every
+finite temporal order must participate in the escalation. 
+
+But the equation makes each of these temporal responses depend on spatial
+variation. The first response contains \(\nu\Delta u\); the next contains
+\(\nu\Delta\partial_tu\), which reaches \(\nu^2\Delta^2u\) when the
+equation is substituted. Continued differentiation keeps reaching further
+into the spatial derivatives. Transport and pressure are differentiated
+along with viscosity, so the connection includes how the whole velocity
+field changes. The temporal escalation leads us into an increasingly
+demanding spatial description of the fluid that would have to sustain it.
+
+At the critical height, we can see this connection particularly clearly.
+Write \(E_s=\tfrac12\|\Lambda^su\|_2^2\), with
+\(\Lambda=(-\Delta)^{1/2}\), and set \(H=E_{1/2}\). The energy identity
+at order \(s\) is
+\[
+ E_s'=-2\nu E_{s+1}+\mathcal P_s,
+ \qquad
+ \mathcal P_s=-\operatorname{Re}\langle\Lambda^su,
+ \Lambda^s((u\cdot\nabla)u+\nabla p)\rangle.
+\]
+Viscosity relates change in time to energy one spatial height above. At the
+critical height and the next temporal order, this gives
+\[
+ \begin{aligned}
+ H'&=-2\nu E_{3/2}+\mathcal P_{1/2},\\
+ H''&=4\nu^2E_{5/2}-2\nu\mathcal P_{3/2}
+       +\partial_t\mathcal P_{1/2}.
+ \end{aligned}
+\]
+A small \(H'\) can conceal a large viscous loss balanced by a large
+nonlinear contribution. Once both terms are retained, their relation gives
+\(E_{3/2}\) exactly. At the next order, the changing nonlinear contribution
+must be retained as well; together the terms give \(E_{5/2}\). Every further
+temporal order exposes another spatial height in this way. Positive viscosity
+lets us recover each height because its coefficient \((-2\nu)^n\) is
+nonzero.
+
+The scale-invariant quantity has now led us to spatial measurements that
+become progressively more sensitive to concentration. We reached them by
+following its evolution, including the nonlinear changes that evolution
+requires. Meanwhile, each temporal derivative of the velocity is itself a
+spatial field: acceleration varies across the fluid, jerk varies across the
+fluid, and their spatial derivatives remain related by the differentiated
+equation. Temporal depth and spatial order belong together in a mixed
+hierarchy.
+
+This is where smoothness comes into view. Any finite Sobolev height gives
+only a finite amount of spatial regularity. Yet for every finite derivative
+order we want to control, a sufficiently high spatial Sobolev order supplies
+it. Keeping all those orders together gives
+\[
+ L^2\cap\bigcap_{n\ge0}\dot H^{n+1/2}(\mathbb R^3)
+ =\bigcap_{m\ge0}H^m(\mathbb R^3)
+ =H^\infty(\mathbb R^3)\hookrightarrow C^\infty(\mathbb R^3).
+\]
+There is no final finite row at which all derivatives become controlled.
+Smoothness belongs to the intersection. Each finite order has its own
+requirement, and the velocity has to satisfy them together. The temporal
+hierarchy is significant because the equation couples those spatial
+requirements to the continuing evolution. If that coupled intersection
+persists through the approach to \(T_*\), it gives both a smooth spatial
+endpoint and the time continuity needed to reach it. The proposed singular
+time becomes a time at which the fluid can continue.
+
+If a singularity were to form, we would expect the opposite behavior.
+The fluid would remain smooth before \(T_*\), while some fixed spatial
+order lost control as \(T_*\) approached. Every earlier time could have
+all its derivatives, yet the incoming evolution could fail to reach an
+endpoint in the space those derivatives require. This is the distinction
+that matters for the intersection: all orders must be retained through the
+full approach to the proposed singular time. Differentiating a smooth
+preterminal flow to arbitrary order establishes the structure; the proof
+must establish its whole-interval realization.
+
+We construct that realization from an initial velocity
+\(u_0\in H^\infty_\sigma(\mathbb R^3)\). Its spatial derivatives are
+available, and the equation fixes the first temporal response. Successive differentiation splits time derivatives across both
+velocity factors in transport, with pressure changing alongside them:
+\begin{flalign*}
+ &\partial_tu=\nu\Delta u-(u\cdot\nabla)u-\nabla p,&&\\
+ &\partial_t^2u=\nu\Delta\partial_tu-(\partial_tu\cdot\nabla)u
+ -(u\cdot\nabla)\partial_tu-\nabla\partial_tp,&&\\
+ &\partial_t^3u=\nu\Delta\partial_t^2u-(\partial_t^2u\cdot\nabla)u
+ -2(\partial_tu\cdot\nabla)\partial_tu
+ -(u\cdot\nabla)\partial_t^2u-\nabla\partial_t^2p.&&
+\end{flalign*}
+With \(V_n=\partial_t^nu\) and \(Q_n=\partial_t^np\), the pattern is
+\[
+ \begin{aligned}
+ V_{n+1}&=\nu\Delta V_n
+ -\sum_{a=0}^{n}\binom na(V_a\cdot\nabla)V_{n-a}-\nabla Q_n,\\
+ -\Delta Q_n&=\partial_i\partial_j
+ \sum_{a=0}^{n}\binom na V_{a,i}V_{n-a,j}.
+ \end{aligned}
+\]
+The pressure row is determined by the velocity products, with pressure
+normalized at spatial infinity. Evaluated at the initial datum, these
+relations fix the temporal jet. Spatial differentiation fills out its rows.
+As the fluid evolves, each row must continue satisfying these relations;
+increasing the number of rows or their spatial order cannot change a
+derivative already present.
+
+The proof keeps finite pieces of this mixed structure. Choose temporal
+depth \(N\) and spatial height \(M\). The corresponding rectangle contains
+\(V_0,\ldots,V_N\), their adjacent temporal derivatives and their pressure
+rows. The datum-generated rectangle theorem establishes, for every such
+finite choice, the full-interval memberships
+\[
+ V_n\in L^2(0,T_*;H^{M+1}),\qquad
+ V_{n+1}\in L^2(0,T_*;H^{M-1}),\qquad 0\le n\le N,
+\]
+with the pressure rows retained in \(L^1(0,T_*;H^M)\). The interval reaches
+all the way to \(T_*\). Each rectangle contains derivatives of the original
+datum-generated flow, and a larger rectangle restricts to the smaller one
+where their coordinates overlap. This agreement lets the finite pieces
+form one compatible intersection, \(\mathcal I[u_0]\). Every chosen
+temporal and spatial order belongs to it, with no requirement for a common
+bound across all orders.
+
+We can now follow a temporal row to the endpoint with any chosen spatial
+accuracy. To obtain an \(H^m\) limit for \(V_n\), take a rectangle high
+enough that \(V_{n+1}\in L^2(0,T_*;H^m)\). The remaining change between
+two late times satisfies
+\[
+ \|V_n(t)-V_n(s)\|_{H^m}
+ \le (t-s)^{1/2}\|V_{n+1}\|_{L^2(s,t;H^m)},
+ \qquad s<t<T_*.
+\]
+It tends to zero as both times approach \(T_*\). The row reaches an actual
+limit in \(H^m\). A higher spatial choice gives a more regular limit whose
+restriction agrees with the first. For the zeroth temporal row, these
+compatible limits identify one velocity endpoint:
+\[
+ u(t)\longrightarrow u_*\ \text{in every }H^m\quad(t\uparrow T_*),
+ \qquad u_*\in H^\infty_\sigma(\mathbb R^3)\hookrightarrow C^\infty.
+\]
+\needspace{7\baselineskip}
+The higher temporal rows arrive with it. At whatever finite Sobolev height
+a product or derivative needs, the recurrence and normalized pressure pass
+to the limit and recover the endpoint jet from \(u_*\). Local existence
+starts the fluid moving from this smooth datum; uniqueness joins that flow
+to the incoming solution. The evolution continues beyond \(T_*\), so a
+finite \(T_*\) cannot be maximal.
+
+From the completed intersection, we derive the finite estimates and use
+them. For any finite temporal order \(r\), spatial derivative order \(k\)
+and time \(T\), choose \(m>k+\tfrac32\). Continuity in \(H^m\) and
+Sobolev embedding give
+\[
+ \sup_{0\le t\le T}\|\partial_t^ru(t)\|_{W^{k,\infty}}
+ \le C_{m,k}\sup_{0\le t\le T}\|\partial_t^ru(t)\|_{H^m}<\infty.
+\]
+In particular, the accumulated velocity gradient is finite. Return to the
+stretching vortex: two distinct material points carried by the flow can
+approach one another only as fast as that gradient allows. Their separation
+obeys
+\[
+ |X(a,t)-X(b,t)|\ge |a-b|
+ \exp\!\left(-\int_0^t\|\nabla u(s)\|_\infty\,ds\right)>0.
+\]
+On every finite interval, a positive material separation retains a positive
+lower bound. The shrinking clocks in the scaling comparison allowed
+infinitely many contractions to fit before a finite time. The actual flow's
+accumulated strain is finite, so it cannot complete that collapse. The
+estimates express, at each finite order where we need them, the regularity
+already obtained from the intersection.
+\endgroup

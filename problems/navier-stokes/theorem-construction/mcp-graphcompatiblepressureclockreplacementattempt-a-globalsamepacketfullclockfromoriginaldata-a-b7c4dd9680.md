@@ -4,7 +4,7 @@ Status: graph-compatible pressure/collar entropy closes conditionally; equivalen
 
 ## 0. Problem
 
-The previous full-entropy attempt failed at one-sided positive pressure/Hodge/collar graph-parallel growth after terminal selection.  The obstruction belongs to a pointwise pressure-lobe clock: after Calderon-Zygmund pressure cancellation, terminal positive-part extraction can discard the negative pressure partners.
+The previous full-entropy attempt failed at one-sided positive pressure/Helmholtz--Leray/collar graph-parallel growth after terminal selection.  The obstruction belongs to a pointwise pressure-lobe clock: after Calderon-Zygmund pressure cancellation, terminal positive-part extraction can discard the negative pressure partners.
 
 The Schur-complement entropy is not naturally paired to that lobe clock.  It is naturally paired to a graph-compatible pressure/collar clock.
 
@@ -51,7 +51,7 @@ is the same-material service required to move the forcing graph
 \Gamma_N(Y_N)=\left(L_G^{-1}R(Y_N),\mathcal C_N(A,G,\phi)\right).
 ```
 
-The graph-driver clock is not a new pressure account.  It is composed of velocity tower, coefficient/frame, material Hodge/Stokes projection, transported-collar, strain, viscosity/tower, and annular stress-work service already present in the free material PLS clock.
+The graph-driver clock is not a new pressure account.  It is composed of velocity tower, coefficient/frame, material Helmholtz--Leray/Stokes projection, transported-collar, strain, viscosity/tower, and annular stress-work service already present in the free material PLS clock.
 
 ## 2. Entropy line for graph-compatible clock
 

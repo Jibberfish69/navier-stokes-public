@@ -1,46 +1,25 @@
 ---
-version: 1
+version: 2
 identity:
   problem_id: navier-stokes
-  display_name: Navier-Stokes Global Regularity
-  generated_at: '2026-04-29T21:48:56Z'
-  generator: system/runner/lib/paper_architecture_builder.rb
-surface_path: problems/navier-stokes/draft-v7.md
-core_theorem_spine:
-- 'If the installed original-data class-membership packet holds on the active same-fluid
-  Navier-Stokes route, then no finite first class-membership endpoint occurs: RawData.Production
-  + EndpointFace.Type + PackGauge.Dichotomy + RetainedAdmission.Persistence gives
-  H1+H2+H6+ORIGIN.Retain, the retained receiver/source spine gives LCI.A + CJ.A_low.7
-  + FCI.5f + OFP.A + CFI.A, and End_NS removes every typed endpoint face. This is
-  the Theorem 2.1 classical-closure warrant; paper export and Clay-level release remain
-  governed by review and release ledgers.'
-mainline_section_order:
-- Abstract
-- Introduction
-- 'Definition: Classical Target Class'
-- 'Proposition: Target Fidelity'
-- 'Proposition: Coarse Control Is Necessary But Not Sufficient'
-- 'Proposition: Scale-Barrier Interface'
-- 'Proposition: Compactness And Nonlinear Closure Interface'
-- 'Proposition: Euclidean Gradient Interface'
-- 'Proposition: Provenance And Scope Audit'
-- 'Proposition: Integrated Conditional Closure'
-- 'Archived Checkpoint: Earlier Conditional Closure'
-- Conclusion
-appendix_section_order: []
-non_core_sections: []
-duplicate_sections: []
-forward_references: []
-mainline_scope_boundary:
-  lowest_safe_claim: 'If the installed original-data class-membership packet holds
-    on the active same-fluid Navier-Stokes route, then no finite first class-membership
-    endpoint occurs: RawData.Production + EndpointFace.Type + PackGauge.Dichotomy
-    + RetainedAdmission.Persistence gives H1+H2+H6+ORIGIN.Retain, the retained receiver/source
-    spine gives LCI.A + CJ.A_low.7 + FCI.5f + OFP.A + CFI.A, and End_NS removes every
-    typed endpoint face. This is the Theorem 2.1 classical-closure warrant; paper
-    export and Clay-level release remain governed by review and release ledgers.'
-  first_unsafe_overclaim: Promoting the TPS / `SG.4` selector wall back to lane-wide
-    leading-edge status, treating `SG.4` as a prerequisite to `CFI.A` / `OFP.A` /
-    `LCI.A`, or inferring from the installed `(Part, Dead)` entry that the whole frontier
-    has collapsed to a surviving pair; treating the `CJ.A_low` contrapositive boundary
-    as installed jump manifestation.
+  display_name: Navier--Stokes global regularity
+  updated_at: '2026-08-24'
+  source_owner: Thomas Birnie
+lane_boundary:
+  status: isolated
+  audit: problems/navier-stokes/lane-isolation-audit.yaml
+  proof_source_pack: problems/navier-stokes/proof-source-pack.md
+proof_program_completion_projection:
+  status: established-complete
+  mpp_status: solved
+  producer_status: proved-datum-generated-whole-terminal-compatible-rectangles
+  closure_status: proved
+  authority: problems/navier-stokes/live-theorem-edge.yaml
+  external_recognition_status: separate-workflow-not-a-proof-prerequisite
+paper:
+  authority: problems/navier-stokes/live-theorem-edge.yaml
+  proof_spine:
+  - problems/navier-stokes/theorem-construction/thomas-one-fluid-reversible-intersection-proof-spine-20260803.md
+  - problems/navier-stokes/theorem-construction/complete-mixed-intersection-global-closure-and-upstream-boundary-20260801.md
+  generated_export: withdrawn-pending-fresh-lane-local-audit
+  foreign_sections: []

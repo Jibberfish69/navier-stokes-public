@@ -1,0 +1,72 @@
+---
+version: 1
+identity:
+  problem_id: navier-stokes
+  display_name: Navier-Stokes Global Regularity
+  formalization_id: object-formalization-navier-stokes
+  generated_at: '2026-03-28T01:25:08Z'
+  generator: system/runner/lib/object_formalization_builder.rb
+  source_theorem_packet_id: theorem-packet-navier-stokes
+  source_frontier_id: source-frontier-navier-stokes
+  source_assembly_id: proof-assembly-navier-stokes
+target:
+  obligation_id: marvin-upstream-16fa51055da0
+  label: The exact sector does not define the physical carrier.
+  kind: definition
+formalization_packet:
+  object_id: formal-object-the_exact_sector_does_not_define_the_physical_carrier
+  object_name: the_exact_sector_does_not_define_the_physical_carrier
+  object_role: explicit theorem object
+  theorem_role: Make `The exact sector does not define the physical carrier.` exact
+    enough that later discharge can test it locally.
+  machine_boundary: This packet is machine-derived beyond the frozen core and must
+    stay quarantined until later discharge promotes it.
+  slots:
+  - slot: domain
+    status: machine-proposed
+    description: State the exact domain on which the object exists.
+  - slot: codomain
+    status: machine-proposed
+    description: State the exact codomain or output surface.
+  - slot: admissibility
+    status: machine-proposed
+    description: List the admissibility or window constraints under which the object
+      is valid.
+  - slot: invariance
+    status: machine-proposed
+    description: State what the object is invariant under and what data it forgets.
+  - slot: theorem_interface
+    status: machine-proposed
+    description: Explain exactly how this object enters the current theorem target
+      without expanding scope.
+  - slot: critical_scale_measure
+    status: machine-proposed
+    description: Specify the critical-scale quantity this object controls.
+  - slot: closure_mechanism
+    status: machine-proposed
+    description: State how this object interacts with the nonlinear term on the classical
+      equation.
+  - slot: gradient_transfer
+    status: machine-proposed
+    description: State how gradient control is supposed to follow from this object.
+  problem_hint: Keep the object classical. Do not smuggle in modified-equation structure.
+grounded_basis:
+  labels:
+  - 'A serious source-grounded four-principle route exists in the handed Navier-Stokes
+    corpus: scale barrier, monotone functional Q(t), non-Sobolev compactness, and
+    curvature-based regularity.'
+  - Theorem 2.1 (Classical Closure)
+  - Prove D.1 projected NC-flow well-posedness
+  - Prove D.2 global coercive energy estimate
+  obligation_ids:
+  - theorem-statement
+  - warrant-theorem-2.1
+  - debt-d1-projected-nc-flow-well-posedness
+  - debt-d2-global-coercive-energy-estimate
+summary:
+  formalization_ready: true
+  recommended_next_cell_type: dependency-discharge
+  recommended_next_action: Use the object-formalization packet for `The exact sector
+    does not define the physical carrier.` as the bounded tactic switch, then rerun
+    dependency-discharge on the same obligation instead of reopening another generic
+    backbone loop.

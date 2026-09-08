@@ -53,7 +53,7 @@ Therefore the entropy must not be energy-bounded in the sense \(|L_j|\le C E_j+L
 `Complexity gets eaten by participation` means:
 
 1. nonlinear sharpening is not an external source;
-2. source/refill, pressure constraint, material coefficient motion, collar/Hodge motion, annular Cauchy stress-work, strain, and viscosity are one same-material PLS transaction;
+2. source/refill, pressure constraint, material coefficient motion, collar/Helmholtz--Leray motion, annular Cauchy stress-work, strain, and viscosity are one same-material PLS transaction;
 3. every normalized increase of continuation-depth complexity consumes a finite available PLS entropy budget;
 4. a terminal Zeno stack would require infinite entropy consumption, contradicting finite initial available participation.
 

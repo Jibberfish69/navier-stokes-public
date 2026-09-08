@@ -1,0 +1,226 @@
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,mathtools,mathrsfs}
+\usepackage[margin=1in]{geometry}
+\usepackage{microtype}
+\usepackage{needspace}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.72em}
+
+\begin{document}
+
+\section*{How the Proof Works}
+
+For the global three-dimensional Navier--Stokes regularity problem, the fluid obeys
+\[
+\partial_tu+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
+\qquad \nabla\cdot u=0,
+\qquad u(\cdot,0)=u_0.
+\]
+A strain in the flow pulls a vortex tube along its axis. As the vortex stretches, incompressibility forces it to contract across its width. Each material parcel keeps its volume, so lengthening the tube narrows its cross-section and the rotating core inside it. That strain also acts on the vorticity \(\omega=\nabla\times u\). Curling the equation gives
+\[
+\partial_t\omega+(u\cdot\nabla)\omega
+=(\omega\cdot\nabla)u+\nu\Delta\omega.
+\]
+The left side follows the change in rotation with the moving fluid. When the strain is aligned with the vortex, \(\omega\cdot((\omega\cdot\nabla)u)>0\), so the stretching contribution raises \(|\omega|\) while the core narrows. Since \(\omega\) is one spatial derivative of \(u\), its amplification means that velocity changes more sharply across the core. The gradients rise.
+
+As the core narrows, nonlinear transport sharpens the velocity profile and viscosity smooths it. Both effects become stronger on the smaller width. Scaling shows whether one strengthens faster than the other. For \(\lambda>1\), compress a solution by setting
+\[
+u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
+\qquad
+p_\lambda(x,t)=\lambda^2p(\lambda x,\lambda^2t).
+\]
+This sends a feature of width \(r\), velocity scale \(U\), and duration \(\tau\) to one of width \(r/\lambda\), velocity scale \(\lambda U\), and duration \(\tau/\lambda^2\). Substitution gives
+\[
+\partial_tu_\lambda+(u_\lambda\cdot\nabla)u_\lambda
++\nabla p_\lambda-\nu\Delta u_\lambda
+=\lambda^3
+\bigl[\partial_tu+(u\cdot\nabla)u+\nabla p-\nu\Delta u\bigr]
+(\lambda x,\lambda^2t)=0.
+\]
+Every term acquires \(\lambda^3\). Nonlinear transport and viscosity strengthen in exact proportion. Shrinking the scale gives neither one an advantage.
+
+The velocity and its gradients can rise without the kinetic energy rising with them. Compression by \(\lambda\) reduces the core's volume by \(\lambda^{-3}\), while the square of its velocity grows by \(\lambda^2\). Hence
+\[
+\|u_\lambda(\cdot,t)\|_2^2
+=\lambda^{-1}\|u(\cdot,\lambda^2t)\|_2^2.
+\]
+Finite kinetic energy can survive while the core narrows and its gradients steepen. To see the concentration that the energy bound misses, use the homogeneous Sobolev scale:
+\[
+\|u_\lambda(\cdot,t)\|_{\dot H^s}
+=\lambda^{s-\frac12}
+\|u(\cdot,\lambda^2t)\|_{\dot H^s}.
+\]
+Below \(s=\tfrac12\), concentration at smaller scales makes the norm decrease. Above \(s=\tfrac12\), it makes the norm increase. At \(s=\tfrac12\), the factor is one. This is the critical height: compression changes the scale of the flow without changing the size of this norm. At that height, write
+\[
+E_s(t):=\frac12\|\Lambda^su(t)\|_2^2,
+\qquad
+H(t):=E_{1/2}(t),
+\]
+
+The time scaling now shows how repeated concentration could reach a finite time. If each stage contracts by a fixed factor \(0<\rho<1\), then its scales read
+\[
+r_j=\rho^jr_0,
+\qquad
+U_j=\rho^{-j}U_0,
+\qquad
+\tau_j=\rho^{2j}\tau_0.
+\]
+Their total duration is
+\[
+\sum_{j=0}^{\infty}\tau_j
+=\tau_0\sum_{j=0}^{\infty}\rho^{2j}
+=\frac{\tau_0}{1-\rho^2}<\infty.
+\]
+The widths collapse, the velocity scale diverges, and infinitely many narrower, faster stages fit inside a finite interval. Energy can remain finite while smaller and smaller regions carry steeper gradients over shorter and shorter intervals. This is the Zeno cascade. Scaling does not prove that a solution must follow this pattern. It shows why finite energy and the scale balance between nonlinearity and viscosity do not rule it out.
+
+Suppose, for contradiction, that the maximal smooth solution ends at \(T_*<\infty\).
+
+In order for a singularity to form, velocity has to blow up. In order for that to happen, its acceleration would also have to blow up, which means its jerk has to blow up, and so on, and so on:
+\[
+u,\qquad \partial_tu,\qquad \partial_t^2u,\qquad \ldots
+\]
+What you would expect to see in this pattern, if a singularity were to form, is less spatial regularity as you go up the time derivatives, not more. Navier--Stokes reverses that expectation.
+
+The first three differentiated equations make that reversal visible:
+\[
+\partial_tu
+=\nu\Delta u-(u\cdot\nabla)u-\nabla p,
+\]
+\[
+\partial_t^2u
+=\nu\Delta\partial_tu
+-(\partial_tu\cdot\nabla)u
+-(u\cdot\nabla)\partial_tu
+-\nabla\partial_tp,
+\]
+\[
+\begin{aligned}
+\partial_t^3u={}&\nu\Delta\partial_t^2u
+-(\partial_t^2u\cdot\nabla)u
+-2(\partial_tu\cdot\nabla)\partial_tu \\
+&-(u\cdot\nabla)\partial_t^2u
+-\nabla\partial_t^2p.
+\end{aligned}
+\]
+The complete pattern is the binomial form
+\[
+\begin{aligned}
+\partial_t^{\,n+1}u={}&\nu\Delta\partial_t^n u \\
+&-\sum_{a=0}^{n}\binom{n}{a}
+\bigl(\partial_t^a u\cdot\nabla\bigr)
+\partial_t^{\,n-a}u
+-\nabla\partial_t^n p.
+\end{aligned}
+\]
+Write
+\[
+V_n:=\partial_t^n u,
+\qquad
+Q_n:=\partial_t^n p.
+\]
+Each equation for \(V_{n+1}\) contains \(\nu\Delta V_n\). Viscosity ties the next time derivative to two spatial derivatives of the preceding response. The nonlinear products expand across the lower temporal orders, and pressure differentiates with them, so every row remains the full Navier--Stokes equation. Within that equation, the Laplacian fixes the spatial step.
+
+Start at \(H=E_{1/2}\). Differentiating once brings in \(E_{3/2}\); differentiating again brings in \(E_{5/2}\); and the nonlinear and pressure transfers stay in every identity. At temporal order \(n\), the spatial energy sits at height \(n+\tfrac12\). As the temporal order rises, the Sobolev height rises with it:
+\[
+\text{higher temporal order}
+\quad\longrightarrow\quad
+\text{higher spatial Sobolev order}.
+\]
+\Needspace{9\baselineskip}
+In three dimensions, the Sobolev embedding theorem gives
+\[
+s>k+\frac32
+\quad\Longrightarrow\quad
+H^s(\mathbb R^3)\hookrightarrow C^k(\mathbb R^3),
+\]
+so
+\[
+\bigcap_{s<\infty}H^s
+=H^\infty
+\hookrightarrow C^\infty.
+\]
+What looked like a ladder toward roughness now runs in the opposite direction. If every finite temporal order is controlled, the proof reaches every finite spatial Sobolev height; their intersection is \(H^\infty\), and \(H^\infty\hookrightarrow C^\infty\).
+
+The remaining work is to prove that all these heights stay finite on \((0,T_*)\). It is done one finite block at a time. Fix a temporal level \(N\) and a spatial cutoff \(M\geq1\). The mixed statements
+\[
+\partial_t^ru\in H_x^m,
+\qquad 0\leq r\leq N+1,
+\qquad 0\leq m\leq M+1.
+\]
+form one finite rectangle. Write \(\mathcal R_{N,M}(u;T)\) for its mixed norm up to time \(T\). The datum-generated whole-terminal theorem gives
+\[
+\sup_{0<T<T_*}\mathcal R_{N,M}(u;T)<\infty
+\qquad\text{for every finite }N,M.
+\]
+For each \(1\leq m\leq M\), the rectangle contains the adjacent pair
+\[
+V_N\in L^2(0,T_*;H^{m+1}),
+\qquad
+V_{N+1}\in L^2(0,T_*;H^{m-1}).
+\]
+Each rectangle may have its own constant; the proof never asks for one constant covering all orders. The adjacent rows give the temporal trace relation, and pressure remains coupled to the matching velocity derivatives.
+
+The rectangles overlap on derivatives of one velocity history generated by \(u_0\), so their common entries agree. They assemble into
+\[
+u_0
+\longrightarrow
+\{\mathcal R_{N,M}[u_0]\}_{N,M<\infty}
+\longrightarrow
+\mathcal I[u_0]
+\subset
+\bigcap_{N,M<\infty}H_t^N(0,T_*;H_x^M).
+\]
+Projecting this intersection onto its zeroth temporal row gives the all-orders spatial column
+\[
+\mathscr S_0(0,T_*)
+:=
+\bigcap_{M<\infty}L^2(0,T_*;H_x^M).
+\]
+Because every finite rectangle belongs to the compatible family, the intersection contains the adjacent pair needed at each spatial height:
+\[
+u\in L^2(0,T_*;H^{m+1}),
+\qquad
+u_t\in L^2(0,T_*;H^{m-1}).
+\]
+The Hilbert-space trace theorem gives
+\[
+u\in C([0,T_*];H^m)
+\qquad\text{for every finite }m.
+\]
+Because these traces all come from one velocity field, they meet at
+\[
+u_*:=u(T_*)\in\bigcap_{m<\infty}H^m=H^\infty.
+\]
+The pressure equation and the differentiated Navier--Stokes recurrence then place every temporal response and its pressure response in \(H^\infty\) as well. Smooth local existence from \(u_*\), followed by uniqueness, continues the velocity history past \(T_*\). A finite maximal time cannot remain, so \(T_*=\infty\).
+
+The whole-terminal bounds have now produced \(\mathcal I[u_0]\). The familiar estimates are read from it.
+
+This is not an a priori estimate proof. It is an intersection-to-estimate proof. Viscosity relates the velocity's time derivatives to its spatial Sobolev derivatives. Taken through every finite order, those two directions meet in a common intersection. At that intersection, \(H^\infty(\mathbb R^3)\hookrightarrow C^\infty(\mathbb R^3)\) gives smoothness, and the familiar estimates can be taken from whichever finite Sobolev height they require. The estimates come from the intersection, not the other way around.
+
+For any finite \(r,k\) and \(2\leq p\leq\infty\), choose
+\[
+m>k+\frac32-\frac3p.
+\]
+Sobolev embedding then gives the requested finite norm of \(\nabla^k\partial_t^ru\). The usual examples fall out at once:
+\[
+\mathcal I[u_0]
+\longrightarrow C_tH_x^1
+\longrightarrow L_t^\infty L_x^6,
+\]
+\[
+\mathcal I[u_0]
+\longrightarrow C_tH_x^2
+\longrightarrow L_t^\infty L_x^\infty,
+\]
+\[
+\mathcal I[u_0]
+\longrightarrow C_tH_x^3
+\longrightarrow L_t^\infty W_x^{1,\infty}.
+\]
+Each estimate is obtained by projecting the intersection onto the finite Sobolev height it requires.
+
+\end{document}

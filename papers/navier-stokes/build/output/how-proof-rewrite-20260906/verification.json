@@ -1,0 +1,34 @@
+{
+  "source_sha256": "177b5affd5ca6f236ffae9fbfb760ecdbec66271710d47d367c3690479d1529f",
+  "full_paper_sha256": "d5faafa4403ee1db4ee807f5a762334529b53f06b5c550b3e9003513796b6fcd",
+  "standalone_sha256": "668696becfed71d464cde07d8f526ad9df8f737e79f5b7a0f8959901750fd7cc",
+  "full_paper_pages": 74,
+  "section_pages": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "standalone_pages": 5,
+  "build_warnings": [],
+  "standalone_section_text_matches": true,
+  "unrelated_post_contents_pages_unchanged": 66,
+  "final_section_pages_visually_inspected": true,
+  "standalone_pages_visually_inspected": true,
+  "canonical_changed_by_this_task": false,
+  "canonical_integration_blocker": "A concurrent task replaced the target section after the baseline was captured. The competing section is preserved; this candidate awaits the user choice.",
+  "concurrent_source_snapshot_sha256": "7c4e9c08f66a1677e9f2125687da4de09efd943b06f4759edd44a5411904c911",
+  "independent_reader": {
+    "agent": "/root/independent_reader",
+    "final_source_sha256": "177b5affd5ca6f236ffae9fbfb760ecdbec66271710d47d367c3690479d1529f",
+    "finding": "The central temporal and spatial connection is explained; production of the full-interval bound remains delegated to the supplied theorem reference."
+  },
+  "proof_reverse": {
+    "agent": "/root/proof_reverse",
+    "final_source_sha256": "177b5affd5ca6f236ffae9fbfb760ecdbec66271710d47d367c3690479d1529f",
+    "finding": "No remaining material source-fidelity defect found."
+  },
+  "source_limit": "The bounded governing source family states the datum-generated bound as an established supplied theorem; its derivation from the datum was not found in that family.",
+  "user_acceptance": "not asserted"
+}

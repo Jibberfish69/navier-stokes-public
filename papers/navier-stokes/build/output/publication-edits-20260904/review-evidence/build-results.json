@@ -1,0 +1,34 @@
+[
+  {
+    "kind": "mathml",
+    "command": [
+      "ruby",
+      "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/review/generate_mathml_sidecar.rb"
+    ],
+    "cwd": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation",
+    "exit_code": 0,
+    "log": "/tmp/ns-publication-edits-20260904/mathml-build.log",
+    "log_sha256": "b4e7af70bb9a5d180b6eb2af1222f2c0ca00e58ae133e86c9d36819244eb78e6"
+  },
+  {
+    "kind": "visual",
+    "command": [
+      "/Library/TeX/texbin/latexmk",
+      "-pdf",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-file-line-error",
+      "-recorder",
+      "-outdir=/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/build/output/publication-edits-20260904",
+      "main.tex"
+    ],
+    "cwd": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/manuscript/generated",
+    "exit_code": 0,
+    "log": "/tmp/ns-publication-edits-20260904/visual-build.log",
+    "log_sha256": "6264bef5aa4a19e03f90891fb06dcdad8bcd4bd41012c4433a16f80f4be02c11"
+  },
+  {
+    "source_stayed_fixed": true,
+    "pdf": "/Users/thomasbirnie/Workspace/ToE/Research-Consolidation/papers/navier-stokes/build/output/publication-edits-20260904/main.pdf"
+  }
+]

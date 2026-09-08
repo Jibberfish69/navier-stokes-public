@@ -5,7 +5,7 @@ created: 2026-06-26
 problem: navier-stokes
 route: forward-gold same-material full-clock / annular service trajectory
 attacks_hinge:
-  - NoSilentSelectedPressureHodgeCarrier.A
+  - NoSilentSelectedPressureHelmholtzCarrier.A
   - PressureActiveSelection.A
   - SelectedSymbolKernelExclusion.A
   - ParentDrop.A
@@ -13,11 +13,11 @@ attacks_hinge:
 
 # Complete-frame pressure-probe spanning route
 
-This note improves the previous pressure-Hodge symbol route.
+This note improves the previous pressure-Helmholtz--Leray symbol route.
 
 ## 1. Problem with the one-probe route
 
-For one pressure-Hodge probe at frozen frequency direction `xi`, the symbol sees only
+For one pressure-Helmholtz--Leray probe at frozen frequency direction `xi`, the symbol sees only
 
 ```math
 m_{PH}(\xi)Z \simeq {\xi_i\xi_j Z_{ij}\over |\xi|^2}.
@@ -29,7 +29,7 @@ With `xi=e_1`, a transverse trace-free tensor
 Z=\begin{pmatrix}0&0&0\\0&1&0\\0&0&-1\end{pmatrix}
 ```
 
-has `m_PH(e_1)Z=0` but `Z ne 0`. Thus a single pressure-Hodge probe cannot control arbitrary selected critical-strain tensor action.
+has `m_PH(e_1)Z=0` but `Z ne 0`. Thus a single pressure-Helmholtz--Leray probe cannot control arbitrary selected critical-strain tensor action.
 
 ## 2. Algebraic repair: finite complete-frame probes
 
@@ -74,11 +74,11 @@ C_N\sum_{n\in\mathcal N}|n^T Z n|^2.
 \tag{CFP.1}
 ```
 
-So the transverse-kernel counterexample is not fatal if the retained same-material packet supplies enough independent pressure-Hodge probes.
+So the transverse-kernel counterexample is not fatal if the retained same-material packet supplies enough independent pressure-Helmholtz--Leray probes.
 
 ## 3. PDE interpretation
 
-Each scalar `n^T Z n` is exactly the kind of longitudinal contraction seen by a pressure-Hodge Schur defect in direction `n`. Thus a complete-frame family of parent-collar probes would yield
+Each scalar `n^T Z n` is exactly the kind of longitudinal contraction seen by a pressure-Helmholtz--Leray Schur defect in direction `n`. Thus a complete-frame family of parent-collar probes would yield
 
 ```math
 A_{sel}(Q')
@@ -93,7 +93,7 @@ provided the actual retained packet contains a probe family `N_Q` comparable to 
 
 ## 4. Exact remaining theorem
 
-The new necessary theorem is not raw pressure-Hodge faithfulness. It is
+The new necessary theorem is not raw pressure-Helmholtz--Leray faithfulness. It is
 
 ```text
 RetainedCompleteFramePressureProbeAvailability.A
@@ -103,7 +103,7 @@ Statement:
 
 For every retained high-ratio same-material selected packet, either:
 
-1. the parent-collar pressure-Hodge Schur probes contain a uniformly nondegenerate complete-frame family on the selected critical-strain tensor bundle, so `(CFP.2)` holds; or
+1. the parent-collar pressure-Helmholtz--Leray Schur probes contain a uniformly nondegenerate complete-frame family on the selected critical-strain tensor bundle, so `(CFP.2)` holds; or
 2. failure of such probe availability is itself paid by complete-frame variation, material-service action, legal/nonlaminar exit, or another finite original-data ledger.
 
 Equivalently:
@@ -121,7 +121,7 @@ C\sum_{n\in\mathcal N_Q}
 
 This is better than `PressureActiveSelection.A` as previously stated.
 
-The raw kernel problem is real, but it is a one-probe problem. A finite complete-frame family of pressure-Hodge probes controls every trace-free selected strain mode algebraically. The remaining burden is geometric/dynamical: prove retained packets supply those probes, or prove probe-rank failure is paid by an installed service/frame/legal ledger.
+The raw kernel problem is real, but it is a one-probe problem. A finite complete-frame family of pressure-Helmholtz--Leray probes controls every trace-free selected strain mode algebraically. The remaining burden is geometric/dynamical: prove retained packets supply those probes, or prove probe-rank failure is paid by an installed service/frame/legal ledger.
 
 Updated closure chain:
 
@@ -130,7 +130,7 @@ Updated closure chain:
 \Longrightarrow
 \text{PressureActiveSelection.A}
 \Longrightarrow
-\text{NoSilentSelectedPressureHodgeCarrier.A}
+\text{NoSilentSelectedPressureHelmholtzCarrier.A}
 \Longrightarrow
 \text{SelectedActionTraceCoercivity.A}
 \Longrightarrow

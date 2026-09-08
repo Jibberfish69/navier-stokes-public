@@ -1,0 +1,48 @@
+% !TeX root = ../navier-stokes-manuscript.tex
+% ============================================================
+% 2.2 Finite-Time Response Escalation
+% ============================================================
+
+\subsection{What finite time implies after one response escapes}\label{sub:FiniteTimeResponseEscalation}
+
+The temporal Tower is already present once the same velocity field is differentiated in time.
+Finite time adds a separate implication after one of those responses is known to escape: an integrable next response would give the escaping row a finite terminal value.
+The argument below propagates an escape through existing rows under its stated hypotheses; it does not produce those rows.
+
+Fix one Banach space \(B\), retain the Eulerian rows
+\[
+  V_n(t):=\partial_t^n u(\cdot,t),
+\]
+and suppose that \(V_n:[0,T_*)\to B\) is locally absolutely continuous, with Bochner derivative \(V_{n+1}\).
+For \(0\le s<t<T<T_*\), the Banach-valued fundamental theorem of calculus gives
+\[
+  V_n(t)-V_n(s)
+  =
+  \int_s^t V_{n+1}(\tau)\,d\tau
+\]
+and
+\[
+  \lVert V_n(t)-V_n(s)\rVert_B
+  \le
+  \int_s^t \lVert V_{n+1}(\tau)\rVert_B\,d\tau.
+\]
+If
+\[
+  \sup_{0<t<T_*}\lVert V_n(t)\rVert_B
+  =
+  \infty,
+\]
+then the finiteness of \(\lVert V_n(0)\rVert_B\) forces
+\[
+  \int_0^{T_*}\lVert V_{n+1}(\tau)\rVert_B\,d\tau
+  =
+  \infty.
+\]
+Because \(T_*<\infty\), this in turn forces
+\[
+  \sup_{0<t<T_*}\lVert V_{n+1}(t)\rVert_B
+  =
+  \infty.
+\]
+This iteration is valid only while the same fixed space \(B\), absolute continuity, and the Bochner-derivative identity hold at every successive row.
+That is the precise statement of finite-time response escalation for the temporal rows used in the paper.

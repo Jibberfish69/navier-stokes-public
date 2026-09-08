@@ -1,0 +1,296 @@
+2     Critical Height and the Derivative Tower
+Finite energy and the classical critical estimates still allow the velocity to concentrate on
+smaller scales before a finite endpoint. Any such concentration has to be produced inside the
+same Navier–Stokes evolution fixed in Section 1.
+
+2.1    Vortex Stretching
+The momentum equation puts the whole regularity problem into one balance:
+                          ∂ut            +       (u · ∇)u          = −∇p +          ν∆u
+                                                                                    | {z }         .
+                          |{z}                   |   {z   }         | {z }
+                    local acceleration       nonlinear transport    pressure   viscous diffusion
+
+For regularity, the central competition is between nonlinear transport and viscosity. The
+nonlinear term can sharpen the velocity field by carrying its existing variation into smaller
+distances. Viscosity acts on that variation in the opposite direction and diffuses the resulting
+gradients.
+    The hope is simple. Viscosity smooths the flow faster than the nonlinear term can sharpen
+it. If viscosity always wins this competition, the velocity remains smooth. A finite-time
+singularity would require nonlinear sharpening to keep producing finer structure and larger
+derivatives quickly enough for some derivative of u to become unbounded before viscosity
+erases it. In three dimensions, vortex stretching is the motion that can keep this sharpening
+alive.
+
+
+Vorticity and Vortex Stretching
+   The physical danger, its geometric consequence, and its exact equation are three views of
+one mechanism. Vorticity is
+                                        ω := ∇ × u,
+which measures local rotation. The symmetric strain is
+                                          1              
+                                             ∇u + (∇u)T .
+                                             S :=
+                                          2
+In two dimensions, the stretching term vanishes. In three dimensions, the surrounding velocity
+can extend a rotating structure along its axis. If ω aligns with a positive extensional direction
+of the strain S, then
+                                          ω · Sω > 0,
+so the strain amplifies the vorticity.
+    Because the flow is incompressible,
+                                                 tr S = ∇ · u = 0.
+Extension in one direction must be accompanied by transverse contraction. Suppose the
+rotating structure has transverse width ℓ and the velocity changes by ∆U across that width.
+Its gradient is roughly
+                                                ∆U
+                                        |∇u| ∼      .
+                                                 ℓ
+                                                              2
+If ℓ shrinks while ∆U does not shrink equally fast, the gradient grows. That condition
+matters: thinning by itself does not guarantee increasing gradients.
+    Finite kinetic energy does not prevent this. Energy controls
+                                        Z
+                                              |u(x, t)|2 dx,
+                                         R3
+
+not how rapidly u changes across a tiny distance. A very sharp structure can occupy such
+a small volume that its energy remains finite, or even tends to zero, while its gradients
+diverge. In the general picture, gradients may grow even while the velocity amplitude remains
+bounded.
+   Taking the curl removes pressure because
+
+                                            ∇ × ∇p = 0.
+
+The momentum equation becomes
+
+                      ∂t ω + (u · ∇)ω = (ω · ∇)u + ν∆ω = Sω + ν∆ω.
+
+Here Sω is vortex stretching: strain can amplify the vorticity. The term ν∆ω is viscous
+diffusion: it spreads sharp vorticity variations.
+    Pairing with ω gives
+                            1
+                              (∂t + u · ∇)|ω|2 = ω · Sω + ν ω · ∆ω.
+                            2
+The first term measures amplification by aligned extension. The viscous term is not negative
+at every individual point, since
+                                               ν
+                                ν ω · ∆ω =       ∆|ω|2 − ν|∇ω|2 .
+                                               2
+After integration over R3 , the transport integral and the Laplacian flux vanish by incompress-
+ibility and decay, leaving the viscous dissipation:
+                         1d         2            2
+                                                     Z
+                              ∥ω(t)∥2 + ν ∥∇ω(t)∥2 =     ω · Sω dx.
+                         2 dt                         R3
+
+The danger is not that every vortex automatically stretches forever. Aligned extension might
+persist across shrinking scales, continuing to amplify vorticity while viscosity is trying to
+diffuse the same increasingly sharp structure.
+
+
+Navier–Stokes Scaling
+    The full momentum equation decides how every part of this competition changes as the
+active width shrinks. For λ > 0, set
+
+                    uλ (x, t) := λu(λx, λ2 t),        pλ (x, t) := λ2 p(λx, λ2 t).
+
+
+                                                  3
+This maps a solution with datum u0 to a rescaled solution with datum
+
+                                          uλ,0 (x) = λu0 (λx).
+
+Every term in the momentum equation acquires the same factor:
+                                                                                    
+           ∂t uλ (x, t) = λ3 (∂t u)(λx, λ2 t), (uλ · ∇)uλ (x, t) = λ3 (u · ∇)u (λx, λ2 t),
+           ∇pλ (x, t) = λ3 (∇p)(λx, λ2 t),               ∆uλ (x, t) = λ3 (∆u)(λx, λ2 t).
+
+The equation is preserved because local acceleration, nonlinear transport, pressure, and
+viscosity all scale together. The corresponding spatial, velocity, pressure, and temporal scales
+are
+                      x 7→ λ−1 x,     u 7→ λu,    p 7→ λ2 p,      t 7→ λ−2 t.
+This rescaling compares solutions at different scales. By itself it does not describe repeated
+scale transitions inside one fixed solution.
+
+
+Critical Height
+   The scaling identifies the level at which concentration can be measured without being
+weakened or enlarged by the change of scale. Let Λ := (−∆)1/2 . For a homogeneous Sobolev
+norm,
+                              Λs uλ (x, t) = λ1+s (Λs u)(λx, λ2 t).
+Squaring the L2 norm and changing variables from x to y = λx gives
+                                             Z
+                                                                             2
+                           ∥uλ (t)∥2Ḣ s =        λ2+2s (Λs u)(λx, λ2 t) dx
+                                             R3
+                                                              2
+                                          = λ2s−1 u(λ2 t)            .
+                                                              Ḣ s
+
+Exactly one exponent is unchanged:
+                                                              1
+                                         2s − 1 = 0,        s= .
+                                                              2
+This gives the critical height
+                                         1                 1 1/2   2
+                             H(t) :=       ∥u(t)∥2Ḣ 1/2 =   Λ u(t) .
+                                         2                 2       2
+
+   The kinetic-energy identity supplies the level below this critical height:
+                           1       2
+                                         Z t
+                                                           1
+                             ∥u(t)∥2 + ν     ∥∇u(s)∥22 ds = ∥u0 ∥22 .                                       (2.1.1)
+                           2              0                2
+Writing Hλ for the critical height of uλ , the three levels scale as
+                                 2                                                                  2
+      ∥uλ (t)∥22 = λ−1 u(λ2 t)       ,     Hλ (t) = H(λ2 t),             ∥∇uλ (t)∥22 = λ ∇u(λ2 t)       .
+                                 2                                                                  2
+
+
+
+                                                     4
+Concentration can carry less kinetic energy and larger derivative size while leaving its critical
+reading unchanged. The critical height sits exactly between those two responses to scale.
+   The interpolation inequality makes the same position exact along the fixed solution:
+
+                           2H(t) = ∥u(t)∥2Ḣ 1/2 ≤ ∥u(t)∥2 ∥∇u(t)∥2 .
+
+Since ∥u(t)∥2 ≤ ∥u0 ∥2 , unbounded critical height forces unbounded global L2 derivative size.
+It does not by itself force the pointwise velocity amplitude to become unbounded. The
+endpoint criterion described in Section 1 gives
+
+                            T∗ < ∞          =⇒    sup ∥u(t)∥L3 = ∞.
+                                                 0<t<T∗
+
+Since                                                                q
+                            ∥u(t)∥L3 ≤ C ∥u(t)∥Ḣ 1/2 = C 2H(t),
+a finite maximal time forces H(t) to become unbounded along the terminal approach.
+
+
+Nonlinear Production vs. Viscous Dissipation
+   Scaling identifies the critical height, while the equation determines how that height changes
+along the solution. Write the nonlinear contribution as
+                                             D                             E
+                          P1/2 (t) := − Re Λ1/2 (u · ∇)u , Λ1/2 u                    .
+                                                                             L2
+
+Applying Λ1/2 to the momentum equation and pairing with Λ1/2 u gives a pressure term, a
+nonlinear term, and the viscous term. The pressure term vanishes because Λ commutes with
+spatial derivatives and u is divergence-free:
+                                        D                  E
+                                     Re Λ1/2 ∇p, Λ1/2 u             = 0.
+                                                               L2
+
+The viscous pairing is
+                                 D                E                          2
+                           ν Re Λ1/2 ∆u, Λ1/2 u            = −ν Λ3/2 u           .
+                                                      L2                     2
+
+The critical-height balance is
+                                                           2
+                                 H ′ (t) + ν Λ3/2 u(t)         = P1/2 (t).
+                                                           2
+
+The signed nonlinear transfer is the only source of an increase in H, and viscosity dissipates
+that height through the next spatial derivative. The equation does not guarantee that P1/2 is
+positive. A terminal rise in critical height requires its accumulated positive production to
+outrun the viscous dissipation acting over the same times.
+
+
+
+
+                                                  5
+The Heat Clock
+    Viscosity responds faster when the active width is smaller. This is already exact in the
+linear heat equation. If vt = ν∆v, then over a time increment δt > 0,
+                                                             2
+                                vb(ξ, t + δt) = e−ν|ξ| δt vb(ξ, t).
+For structure concentrated near spatial width r, the active frequencies satisfy |ξ| ≃ r−1 . An
+order-one heat damping occurs when ν|ξ|2 δt is of order one, so the viscous comparison time is
+                                                          r2
+                                            τν (r) ≍         .                         (2.1.2)
+                                                          ν
+Halving the width quarters this clock. If T∗ is a proposed terminal time, the width whose
+heat clock matches the remaining time satisfies
+                                                 q
+                                      rν (t) ≍       ν(T∗ − t).
+The heat calculation attaches a viscous response time to a width already present in the flow.
+It does not create that width or determine how long the nonlinear solution remains there.
+
+
+The Zeno Cascade
+   Now place geometrically shrinking widths beside their heat clocks. Set
+                                                                   rn2
+                                   rn := 2−n r0 ,          τn :=       .
+                                                                   ν
+Substituting these widths into the heat clock in (2.1.2) gives
+                                                    ∞
+                                   r02 −n           X            4r02
+                            τn =      4 ,                 τn =        < ∞.
+                                   ν                n=0          3ν
+Infinitely many comparison clocks fit arithmetically inside a finite total time. This is the
+timing behind the Zeno cascade.
+    The series alone does not produce a cascade. An actual Zeno cascade would require one
+velocity history to form widths
+                                    r0 > r1 > r2 > · · · −→ 0
+at times
+                                t0 < t1 < t2 < · · · ↑ T∗ < ∞,
+with tn+1 − tn following a summable schedule comparable to the clocks τn . Every transition
+would have to occur in the same fluid while viscosity was already acting on the newly formed
+scale. The heat calculation proves the arithmetic possibility; the coupled Navier–Stokes
+evolution has to realize the sequence.
+   Two versions of the terminal picture must remain separate. In the general critical-height
+route, a finite endpoint forces a sequence tn ↑ T∗ with
+                                          H(tn ) −→ ∞.
+
+                                                    6
+The energy bound and interpolation then give
+                                                2H(tn )
+                                 ∥∇u(tn )∥2 ≥           −→ ∞.
+                                                 ∥u0 ∥2
+This is global derivative growth. The conclusion still allows the pointwise velocity amplitude
+to remain bounded while its spatial variation becomes increasingly steep.
+    The critical-spike picture adds a separate fixed-profile assumption. Take a nonzero
+divergence-free profile ϕ ∈ Sσ and set
+                                                        x
+                                                       
+                                                 −1
+                                      uℓ (x) := ℓ ϕ       .
+                                                        ℓ
+Its velocity amplitude, gradient, heat clock, and kinetic energy satisfy
+               Uℓ := ∥uℓ ∥L∞ ∼ ℓ−1 −→ ∞,     ∥∇uℓ ∥L∞ ∼ ℓ−2 −→ ∞,
+                                ℓ2            1
+                           τℓ ≍    −→ 0, Eℓ := ∥uℓ ∥22 ∼ Uℓ2 ℓ3 ∼ ℓ −→ 0.
+                                ν             2
+The spike gets taller and thinner quickly enough for its velocity and gradients to diverge
+while the energy carried by the shrinking profile disappears. At the same time,
+
+                                     ∥uℓ ∥Ḣ 1/2 = ∥ϕ∥Ḣ 1/2 ,
+
+so fixed-profile critical scaling leaves the critical height unchanged. The spike picture is a
+separate amplitude-width model and is not a consequence of critical-height growth.
+    In the Zeno scenario, a possible finite endpoint has now become a velocity field sharpening
+through smaller scales on shorter clocks. What must happen to the velocity’s first response,
+the response of that response, and every later response as those clocks collapse?
+
+2.2    The temporal Tower
+A singularity would not appear beside the velocity field as a separate event. It would be
+a loss of regularity taking shape inside that field as the terminal time is approached. The
+velocity may be growing or sharpening, and the rate at which it changes has a rate of change
+of its own. The same reading continues through every later response. At a fixed spatial
+coordinate, the sequence is
+
+                           u,      ∂t u,     ∂t2 u,      ∂t3 u,   ....
+
+Each row is the Eulerian time derivative of the one before it. They are successive responses
+of the same field, not separate singularity scenarios. Together they form the temporal Tower.
+Write
+                            Vn := ∂tn u,    Qn := ∂tn p,    n ∈ N0 .                   (2.2.1)
+Every finite differentiation below is taken on a strict interval where the solution remains
+classical.
+    Navier–Stokes tells us exactly what those rows contain. For V0 = u,
+
+                                V1 = ν∆V0 − (V0 · ∇)V0 − ∇Q0 .
+
+                                                7
+

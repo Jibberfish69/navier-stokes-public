@@ -24,7 +24,7 @@ d\Omega_N^{graph-driver}
 
 Here \(H_{j,N}\) is the high-shell same-material packet and
 \(\mathcal M_{<j-C,N}\) is the low-band material coefficient made from strain,
-pressure Hessian, coefficient/frame motion, Hodge/Stokes motion, transported
+pressure Hessian, coefficient/frame motion, Helmholtz--Leray/Stokes motion, transported
 collar motion, and annular Cauchy stress service.
 
 The direct storage candidates have the right derivative orientation but fail
@@ -101,7 +101,7 @@ H_{j,N,*}=0
 ```
 
 Second, the relative pressure/collar defect and interface recirculation vanish,
-so the pressure, coefficient, Hodge/Stokes, collar, and annular stress records
+so the pressure, coefficient, Helmholtz--Leray/Stokes, collar, and annular stress records
 are retained as the same packet, not as a different limiting object.
 
 Therefore the limiting graph-driver readout is zero:
@@ -149,7 +149,7 @@ S_{<j-C}\nabla_x^2p,\quad
 S_{<j-C}\dot G,\quad
 S_{<j-C}\dot B_\psi,
 \quad
-\text{Hodge/Stokes and annular stress service}.
+\text{Helmholtz--Leray/Stokes and annular stress service}.
 \tag{PGC.10}
 ```
 
@@ -234,7 +234,7 @@ itself:
 ```
 
 on the original transported material history, with pressure, viscosity,
-incompressibility, velocity, material frame, Hodge/Stokes projection, collar,
+incompressibility, velocity, material frame, Helmholtz--Leray/Stokes projection, collar,
 and annular Cauchy stress kept as one packet.
 
 ## Verdict
