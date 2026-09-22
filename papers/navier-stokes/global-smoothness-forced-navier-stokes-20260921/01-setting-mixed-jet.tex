@@ -528,8 +528,8 @@ initial forced jet, agrees with every lower finite projection, and obeys the
 complete recurrences of Proposition~\ref{prop:formal-mixed-recurrences}.
 \end{theorem}
 
-\begin{proof}[Proof by the retained datum-generated construction]
-The arbitrary prescribed data first generate the complete initial jet:
+\begin{proof}[Proof by forced finite-row transfer]
+The prescribed data first generate the complete initial jet:
 \[
  \begin{aligned}
  A_0&=u_0,\\
@@ -540,10 +540,10 @@ The arbitrary prescribed data first generate the complete initial jet:
  -\nabla P_n+F_n(0).
  \end{aligned}
 \]
-Lemma~\ref{lem:formal-initial-jet} puts every finite row of this jet in every
-finite spatial Sobolev space.  At every finite order, the datum-generated
-construction applies directly to this forced recurrence.  The source is an
-additional prescribed coordinate of the same finite equation graph:
+Lemma~\ref{lem:formal-initial-jet} places every finite row in every finite
+spatial Sobolev space.  Fix \((N,M)\).  Apply the datum-generated
+whole-terminal finite-row construction of \cite[Section~5]{Birnie2026Spine}
+to the complete forced equation graph
 \begin{equation}
  \mathscr E_{n,\alpha}(J,\Pi;F)
  :=J_{n+1,\alpha}
@@ -554,51 +554,39 @@ additional prescribed coordinate of the same finite equation graph:
  -\nu\Delta J_{n,\alpha}-F_{n,\alpha}=0.
  \label{eq:forced-finite-equation-graph}
 \end{equation}
-No velocity or membership from another history enters this graph.  Its new
-finite-order contributions are paid by the prescribed force jet.  In the
-Sobolev energy row,
+The velocity, nonlinear, pressure, and viscous rows are the same finite
+pressure-complete rows used in that construction.  No nonlinear term is
+canceled or removed.  The forced graph adds only the prescribed coordinate
+\(F_{n,\alpha}\) and its normalized pressure potential.  At every fixed order
+their required contributions are finite.  In the Sobolev row,
 \begin{equation}
  2\left|\langle F_n,V_n\rangle_{H^M}\right|
  \le \nu\norm{V_n}_{H^{M+1}}^2
      +\nu^{-1}\norm{F_n}_{H^{M-1}}^2,
  \label{eq:forced-finite-row-source-payment}
 \end{equation}
-and the gradient part of the same row is the finite pressure-source budget
+and the gradient component has the finite pressure-source budget
 \(\mathfrak F^{\rm p}_{n,\alpha,M}(I)\) from
-\eqref{eq:force-pressure-budget}.  Both are finite on \([0,T_*]\) at every
-fixed order because the prescribed force is smooth with Schwartz spatial
-values.  Thus the finite datum construction retains the full nonlinear row,
-viscosity, normalized pressure, and these affine source terms together.
+\eqref{eq:force-pressure-budget}.  Smoothness in time with Schwartz spatial
+values makes both source budgets finite on \([0,T_*]\).  Thus the forced
+finite-row construction has exactly the same terminal output, enlarged by
+finite prescribed-source coordinates:
+\eqref{eq:datum-terminal-adjacent-producer}.
 
-For fixed \((N,M)\), it evolves the coupled rows
-\[
- \bigl(V_n,Q_n,F_n\bigr)_{0\le n\le N+1}
-\]
-with the full binomial transport sum, normalized pressure, viscous term, and
-prescribed force retained. Its whole-terminal adjacent-row output is exactly
-\eqref{eq:datum-terminal-adjacent-producer}. Enlargement of \((N,M)\)
-preserves all lower rows: overlap uniqueness identifies them with the same
-maximal history, and restriction in either index returns the previously
-constructed finite record.  Indeed, spatial differentiation commutes with
-restriction and
-\[
- \mathscr E_{n,\alpha}(J,\Pi;F)|_{N,M}
- =\mathscr E_{n,\alpha}(J|_{N,M},\Pi|_{N,M};F|_{N,M}),
-\]
-while the restrictions of the smooth prescribed force jet agree identically.
-Thus the finite records form one compatible
-whole-terminal family, rather than separately chosen solutions.
+Enlarging \((N,M)\) preserves every lower coordinate.  The triangular temporal
+recurrence, the spatial Leibniz rule, pressure normalization, and the prescribed
+force jet all commute with restriction, while overlap uniqueness identifies
+every finite record with the same maximal forced history.  Hence these records
+form one compatible whole-terminal family rather than separately chosen
+solutions.
 
-Fix finite \((r,m)\). Choose \(N\ge r\) and \(M\ge m\). Sobolev nesting in
-\eqref{eq:datum-terminal-adjacent-producer} gives
-\(V_n\in L^2(I;H^m)\) for \(0\le n\le r\), and hence
-\eqref{eq:direct-datum-terminal-membership}. Since \((r,m)\) was arbitrary,
-this proves \eqref{eq:independent-mixed-intersection}. Spatial
-differentiation supplies every \(J_{n,\alpha}\) from a sufficiently high
-finite spatial projection.
-
-The pressure rows are retained in that same construction. For each fixed
-\((n,m)\), their normalization and terminal membership follow from
+Fix finite \((r,m)\), choose \(N\ge r\) and \(M\ge m\), and project that
+family.  Sobolev nesting in \eqref{eq:datum-terminal-adjacent-producer} gives
+\(V_n\in L^2(I;H^m)\) for \(0\le n\le r\), proving
+\eqref{eq:direct-datum-terminal-membership} and
+\eqref{eq:independent-mixed-intersection}.  Spatial differentiation supplies
+every \(J_{n,\alpha}\) from a sufficiently high projection.  For the normalized
+pressure rows,
 \[
  \|Q_n\|_{L^1(I;H^m)}
  \le C_m^{\rm p}\sum_{a=0}^n\binom na
@@ -606,15 +594,14 @@ The pressure rows are retained in that same construction. For each fixed
  \|V_{n-a}\|_{L^2(I;H^{m+1})}
  +\mathfrak F^{\rm p}_{n,0,m}(I),
 \]
-whose right-hand side is finite by
-\eqref{eq:datum-terminal-adjacent-producer} and the prescribed force class.
-Increasing the finite spatial selection gives the mixed pressure rows. The
-force rows already belong to every stated finite space. Compatibility of the
-finite constructions therefore yields the single record
+and the right-hand side is finite by the same rectangle and force budget.
+The force rows already belong to every stated finite space.  Compatibility
+therefore yields the single record
 \eqref{eq:independent-intersection-record} and completes the proof.
 \end{proof}
 
-The theorem is the terminal output of the datum-to-mixed-jet construction.
-The next section derives the viscous rectangle relationships independently
-from the forced equation and applies them to finite projections of this same
-whole-terminal record.
+The rectangle is the finiteness mechanism: for each selected finite pair it
+contains both adjacent velocity rows, the full binomial transport row,
+normalized pressure, viscosity, and the prescribed force.  The next section
+derives the independent viscous relationships acting on those same finite
+coordinates.
