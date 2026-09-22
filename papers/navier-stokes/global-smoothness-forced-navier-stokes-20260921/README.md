@@ -2,8 +2,8 @@
 
 Thomas Birnie · forced-history manuscript · September 2026
 
-**Status:** proof source complete; 82-page reader PDF and reproducible source
-bundle prepared for the 21 September 2026 public release. The public source,
+**Status:** proof source complete; the 82-page reader PDF and reproducible
+source bundle were publicly released on 21 September 2026. The public source,
 PDF, and release bundle are maintained at
 <https://github.com/Jibberfish69/navier-stokes-public/tree/main/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921>.
 
