@@ -496,17 +496,6 @@ Equivalently, every fixed finite \((r,m)\) satisfies
  :=\sum_{n=0}^r\|V_n\|_{L^2(I;H^m)}^2<\infty.
  \label{eq:direct-datum-terminal-membership}
 \end{equation}
-More precisely, the datum-generated adjacent-row family satisfies, for every
-finite \((N,M)\),
-\begin{equation}
- \mathfrak P_{N,M}[u_0,\nu,f;I]
- :=\sum_{n=0}^{N}\left(
- \|V_n\|_{L^2(I;H^{M+1})}^2
- +\|V_{n+1}\|_{L^2(I;H^{M-1})}^2
- \right)<\infty,
- \label{eq:datum-terminal-adjacent-producer}
-\end{equation}
-where negative spatial indices are understood in the Bessel-potential sense.
 The complete compatible record is
 \begin{equation}
  \cI[u_0,\nu,f]:=
@@ -528,7 +517,7 @@ initial forced jet, agrees with every lower finite projection, and obeys the
 complete recurrences of Proposition~\ref{prop:formal-mixed-recurrences}.
 \end{theorem}
 
-\begin{proof}[Proof by forced finite-row transfer]
+\begin{proof}[Proof by the forced datum-generated construction]
 The prescribed data first generate the complete initial jet:
 \[
  \begin{aligned}
@@ -541,9 +530,9 @@ The prescribed data first generate the complete initial jet:
  \end{aligned}
 \]
 Lemma~\ref{lem:formal-initial-jet} places every finite row in every finite
-spatial Sobolev space.  Fix \((N,M)\).  Apply the datum-generated
-whole-terminal finite-row construction of \cite[Section~5]{Birnie2026Spine}
-to the complete forced equation graph
+spatial Sobolev space.  We now apply the datum-generated columnwise
+intersection construction of \cite[Section~5]{Birnie2026Spine} to the
+complete forced equation graph
 \begin{equation}
  \mathscr E_{n,\alpha}(J,\Pi;F)
  :=J_{n+1,\alpha}
@@ -554,11 +543,16 @@ to the complete forced equation graph
  -\nu\Delta J_{n,\alpha}-F_{n,\alpha}=0.
  \label{eq:forced-finite-equation-graph}
 \end{equation}
-The velocity, nonlinear, pressure, and viscous rows are the same finite
-pressure-complete rows used in that construction.  No nonlinear term is
-canceled or removed.  The forced graph adds only the prescribed coordinate
-\(F_{n,\alpha}\) and its normalized pressure potential.  At every fixed order
-their required contributions are finite.  In the Sobolev row,
+This construction precedes the rectangle estimate.  At each fixed finite
+temporal and spatial order it reads the complete initial jet, constructs the
+corresponding pressure-complete equation rows on \(I\), and preserves their
+restrictions.  The velocity, nonlinear, pressure, and viscous entries are the
+same entries used in the unforced construction.  The forced graph adds the
+prescribed coordinate \(F_{n,\alpha}\) and its normalized pressure potential;
+it does not remove or replace any nonlinear entry.
+
+Both added coordinates lie in the spaces required by every finite row.  In
+the Sobolev pairing,
 \begin{equation}
  2\left|\langle F_n,V_n\rangle_{H^M}\right|
  \le \nu\norm{V_n}_{H^{M+1}}^2
@@ -568,10 +562,16 @@ their required contributions are finite.  In the Sobolev row,
 and the gradient component has the finite pressure-source budget
 \(\mathfrak F^{\rm p}_{n,\alpha,M}(I)\) from
 \eqref{eq:force-pressure-budget}.  Smoothness in time with Schwartz spatial
-values makes both source budgets finite on \([0,T_*]\).  Thus the forced
-finite-row construction has exactly the same terminal output, enlarged by
-finite prescribed-source coordinates:
-\eqref{eq:datum-terminal-adjacent-producer}.
+values makes both source budgets finite on \([0,T_*]\).  Thus every finite
+step of the datum-generated construction remains inside its Sobolev row after
+the source is adjoined.  Running those finite steps for all \((r,m)\) gives
+\begin{equation}
+ V_n\in L^2(I;H^m_\sigma(\R^3))
+ \qquad(0\le n\le r),
+ \label{eq:forced-construction-terminal-rows}
+\end{equation}
+where each \(V_n\) is the actual derivative \(\partial_t^n u\) of the
+original forced history.
 
 Enlarging \((N,M)\) preserves every lower coordinate.  The triangular temporal
 recurrence, the spatial Leibniz rule, pressure normalization, and the prescribed
@@ -580,13 +580,8 @@ every finite record with the same maximal forced history.  Hence these records
 form one compatible whole-terminal family rather than separately chosen
 solutions.
 
-Fix finite \((r,m)\), choose \(N\ge r\) and \(M\ge m\), and project that
-family.  Sobolev nesting in \eqref{eq:datum-terminal-adjacent-producer} gives
-\(V_n\in L^2(I;H^m)\) for \(0\le n\le r\), proving
-\eqref{eq:direct-datum-terminal-membership} and
-\eqref{eq:independent-mixed-intersection}.  Spatial differentiation supplies
-every \(J_{n,\alpha}\) from a sufficiently high projection.  For the normalized
-pressure rows,
+Spatial differentiation supplies every \(J_{n,\alpha}\) from a sufficiently
+high finite construction.  For the normalized pressure rows,
 \[
  \|Q_n\|_{L^1(I;H^m)}
  \le C_m^{\rm p}\sum_{a=0}^n\binom na
@@ -594,14 +589,19 @@ pressure rows,
  \|V_{n-a}\|_{L^2(I;H^{m+1})}
  +\mathfrak F^{\rm p}_{n,0,m}(I),
 \]
-and the right-hand side is finite by the same rectangle and force budget.
+and the right-hand side is finite by
+\eqref{eq:forced-construction-terminal-rows} and the force budget.
 The force rows already belong to every stated finite space.  Compatibility
 therefore yields the single record
-\eqref{eq:independent-intersection-record} and completes the proof.
+\eqref{eq:independent-intersection-record}.  Finally, summing the finitely many
+rows in \eqref{eq:forced-construction-terminal-rows} gives
+\eqref{eq:direct-datum-terminal-membership}; because those rows are the weak
+time derivatives of \(u\), this is exactly
+\eqref{eq:independent-mixed-intersection}.
 \end{proof}
 
-The rectangle is the finiteness mechanism: for each selected finite pair it
-contains both adjacent velocity rows, the full binomial transport row,
-normalized pressure, viscosity, and the prescribed force.  The next section
-derives the independent viscous relationships acting on those same finite
-coordinates.
+The intersection is obtained before any rectangle norm is taken.  For each
+selected finite pair, the next section projects this established membership
+onto its two adjacent velocity rows, derives the whole-terminal rectangle
+bound by restriction and monotone exhaustion, and then evaluates the
+independent viscous relationships on those same coordinates.

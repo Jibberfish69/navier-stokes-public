@@ -168,20 +168,29 @@ at the spatial orders required by (B)--(E), and write
  +\|V_{n+1}\|_{L^2(0,T;H^{M-1})}^2\right).
  \tag{F}
 \]
-Projecting (A) onto these finitely many coordinates gives
+For each finite \((N,M)\), (A) first gives the finite whole-terminal sum
+\[
+ C_{N,M}:=\sum_{n=0}^{N}\left(
+ \|V_n\|_{L^2(0,T_*;H^{M+1})}^2
+ +\|V_{n+1}\|_{L^2(0,T_*;H^{M-1})}^2\right)<\infty.
+\]
+Restriction to \((0,T)\) and monotone exhaustion of the nonnegative norm
+integrals then give
 \[
  \sup_{0<T<T_*}\mathfrak R_{N,M}(T)
- =:C_{N,M}[u_0,\nu,f;T_*]<\infty
+ =\lim_{T\uparrow T_*}\mathfrak R_{N,M}(T)
+ =C_{N,M}<\infty
  \qquad(N,M<\infty).
  \tag{G}
 \]
 The constant may depend on the selected rectangle.  No estimate uniform in
-the infinitely many indices is used.  Starting with the kinetic row, the
-completed critical-height recurrences supply the cofinal spatial faces.  The
-positive-sign square (C), together with (D), supplies the adjacent temporal,
-viscous, and pressure estimates.  Sobolev multiplication is applied within
-that same finite rectangle to its binomial transport face \(B_n\); it does not
-replace the nonlinear term or introduce a second premise.
+the infinitely many indices is used.  Thus (G) is the finite projection of
+the already constructed intersection, not an assumption placed on a local
+solution.  The positive-sign square (C), together with (D), then evaluates
+the adjacent temporal, viscous, and pressure faces on those supplied
+coordinates.  Sobolev multiplication is applied within that same finite
+rectangle to its binomial transport face \(B_n\); it does not replace the
+nonlinear term or introduce a second premise.
 
 Three objects meet here without being confused.  The intersection supplies
 the coordinates and their compatibility.  The equations (B)--(E) supply their
