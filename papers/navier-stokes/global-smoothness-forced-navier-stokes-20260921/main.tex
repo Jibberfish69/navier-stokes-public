@@ -1,0 +1,270 @@
+\ExplSyntaxOn
+\sys_gset_rand_seed:n { 20260824 }
+\ExplSyntaxOff
+
+\DocumentMetadata{
+  lang=en-US,
+  pdfstandard=UA-2,
+  tagging=on
+}
+
+\documentclass[11pt]{article}
+
+\ifdefined\pdftrailerid
+  \pdftrailerid{<a99534ead6621f28ea8ae4312c7ba441><a99534ead6621f28ea8ae4312c7ba441>}
+\fi
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools,mathrsfs}
+\ifdefined\NSMathMLSidecarBuild
+  \usepackage{unicode-math}
+\fi
+\usepackage{microtype}
+\usepackage{needspace}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{calc,decorations.pathreplacing}
+\usepackage[hidelinks]{hyperref}
+
+\tagpdfsetup{
+  tabsorder=structure,
+  role/new-attribute={enumerate}{/O /List /ListNumbering /Decimal}
+}
+\ifdefined\NSMathMLSidecarBuild
+  \tagpdfsetup{
+    math/mathml/luamml/load=true,
+    math/mathml/luamml/write=true
+  }
+\fi
+
+\setlength{\emergencystretch}{2em}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{hypothesis}[theorem]{Theorem}
+\newtheorem*{maintheorem}{Theorem}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\usepackage[nameinlink,noabbrev]{cleveref}
+
+\newcommand{\R}{\mathbb R}
+\newcommand{\N}{\mathbb N}
+\newcommand{\Nzero}{\mathbb N_0}
+\newcommand{\Pp}{\mathbb P}
+\newcommand{\HsSigma}{H^\infty_\sigma}
+\newcommand{\SSigma}{\mathcal S_\sigma}
+\newcommand{\cI}{\mathcal I}
+\newcommand{\cR}{\mathcal R}
+\newcommand{\cP}{\mathcal P}
+\newcommand{\norm}[1]{\left\lVert #1\right\rVert}
+\newcommand{\ip}[2]{\left\langle #1,#2\right\rangle}
+\newcommand{\abs}[1]{\left|#1\right|}
+\newcommand{\dd}{\,\mathrm d}
+
+\hypersetup{
+  pdftitle={Global Smoothness for the Forced Three-Dimensional Incompressible Navier--Stokes Equations},
+  pdfauthor={Thomas Birnie},
+  pdfsubject={Global smoothness from the forced mixed jet, compatible intersection, critical-height rectangles, and same-force continuation},
+  pdfkeywords={Navier--Stokes equations, external force, global smoothness, mixed jet, compatible intersection, critical height, endpoint restart}
+}
+
+\title{Global Smoothness for the Forced Three-Dimensional\\
+Incompressible Navier--Stokes Equations}
+\author{Thomas Birnie}
+\date{September 2026}
+
+\makeatletter
+\renewcommand\tableofcontents{%
+  \section*{Contents}%
+  \@mkboth{\MakeUppercase{Contents}}{\MakeUppercase{Contents}}%
+  \@starttoc{toc}%
+}
+\renewenvironment{thebibliography}[1]
+  {\section*{References}%
+   \addcontentsline{toc}{section}{References}%
+   \@mkboth{\MakeUppercase{References}}{\MakeUppercase{References}}%
+   \list{\@biblabel{\@arabic\c@enumiv}}%
+        {\settowidth\labelwidth{\@biblabel{#1}}%
+         \leftmargin\labelwidth
+         \advance\leftmargin\labelsep
+         \@openbib@code
+         \usecounter{enumiv}%
+         \let\p@enumiv\@empty
+         \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+   \sloppy
+   \clubpenalty4000
+   \@clubpenalty \clubpenalty
+   \widowpenalty4000%
+   \sfcode`\.\@m}
+  {\def\@noitemerr
+    {\@latex@warning{Empty `thebibliography' environment}}%
+   \endlist}
+\makeatother
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Fix a smooth divergence-free finite-energy datum \(u_0\), a viscosity
+\(\nu>0\), and a prescribed
+\(f\in C^\infty([0,\infty);\mathcal S(\R^3;\R^3))\).  The resulting forced
+three-dimensional incompressible Navier--Stokes evolution is carried as one
+pressure-normalized history.  For every finite pair of temporal and spatial
+orders, the datum generates a compatible whole-terminal rectangle containing
+the corresponding adjacent rows of its velocity--pressure--force mixed jet.
+Each rectangle keeps every selected derivative norm finite through the chosen
+finite endpoint, and restriction compatibility assembles the rectangles into
+the complete space--time intersection.  Independently, the critical-height
+construction and the positive-sign viscous tether supply the relationship
+identities on the same coordinates.  Pairing, squaring, and integrating the
+complete forced rows keeps viscosity, the full binomial transport term,
+normalized pressure, and forcing inside the estimates.  Since every finite
+mixed order lies in one of these rectangles, adjacent rows produce one
+\(H^\infty\) endpoint, the forced recurrences determine its
+complete pressure-normalized jet, and local theory restarts the original
+history with the same prescribed absolute-time force.  No finite maximal time
+can occur, and the forced solution is globally smooth and unique.
+\end{abstract}
+\clearpage
+
+\begingroup
+\small
+\tableofcontents
+\par\endgroup
+\clearpage
+
+\input{00-introduction.tex}
+\input{00-how-proof-works.tex}
+\input{00-analytic-framework.tex}
+\input{01-setting-mixed-jet.tex}
+\input{02-compatible-rectangles.tex}
+\input{04-intersection-endpoint-restart.tex}
+\input{03-matrix-forms.tex}
+\input{03-quantitative-consequences.tex}
+\input{05-three-dimensional-applications.tex}
+\input{06-conclusion.tex}
+
+\appendix
+\QuantitativeCatalogue
+
+\section*{Computational assistance}
+This manuscript was prepared with assistance from OpenAI's ChatGPT and Codex.
+The source archive and dated revision history are available at
+\href{https://github.com/Jibberfish69/navier-stokes-public}{%
+  \textcolor{blue}{\underline{github.com/Jibberfish69/navier-stokes-public}}}.
+
+\begin{thebibliography}{99}
+\small
+\raggedright
+
+\bibitem{Aubin1963}
+J.-P. Aubin,
+\emph{Un th\'eor\`eme de compacit\'e},
+C. R. Acad. Sci. Paris \textbf{256} (1963), 5042--5044.
+
+\bibitem{BeiraoDaVeiga1995}
+H. Beir\~ao da Veiga,
+\emph{A new regularity class for the Navier--Stokes equations in \(\R^n\)},
+Chinese Annals of Mathematics, Series B \textbf{16} (1995), no.~4, 407--412,
+\href{https://camath.fudan.edu.cn/cambcn/ch/reader/view_abstract.aspx?file_no=16B401&flag=1}{Journal record}.
+
+\bibitem{Birnie2026Spine}
+T. Birnie,
+\emph{Thomas's one-fluid reversible-intersection proof spine},
+author's proof-construction record (2026), Section~5.
+
+\bibitem{CKN1982}
+L. Caffarelli, R. Kohn, and L. Nirenberg,
+\emph{Partial regularity of suitable weak solutions of the
+Navier--Stokes equations},
+Communications on Pure and Applied Mathematics \textbf{35} (1982), 771--831,
+\href{https://doi.org/10.1002/cpa.3160350604}{doi:10.1002/cpa.3160350604}.
+
+\bibitem{ESS2003}
+L. Escauriaza, G. A. Seregin, and V. \v{S}ver\'ak,
+\emph{$L_{3,\infty}$-solutions of Navier--Stokes equations and backward
+uniqueness},
+Russian Mathematical Surveys \textbf{58} (2003), no.~2, 211--250,
+\href{https://doi.org/10.1070/RM2003v058n02ABEH000609}{doi:10.1070/RM2003v058n02ABEH000609}.
+
+\bibitem{Fefferman2006}
+C. Fefferman,
+\emph{Existence and smoothness of the Navier--Stokes equation},
+in \emph{The Millennium Prize Problems}, Clay Mathematics Institute,
+American Mathematical Society, 2006, pp.~57--67,
+\href{https://www.claymath.org/wp-content/uploads/2022/06/navierstokes.pdf}{Clay problem statement}.
+
+\bibitem{FujitaKato1964}
+H. Fujita and T. Kato,
+\emph{On the Navier--Stokes initial value problem. I},
+Archive for Rational Mechanics and Analysis \textbf{16} (1964), 269--315,
+\href{https://doi.org/10.1007/BF00276188}{doi:10.1007/BF00276188}.
+
+\bibitem{Hopf1951}
+E. Hopf,
+\emph{\"Uber die Anfangswertaufgabe f\"ur die hydrodynamischen
+Grundgleichungen},
+Mathematische Nachrichten \textbf{4} (1950/51), 213--231,
+\href{https://doi.org/10.1002/mana.3210040121}{doi:10.1002/mana.3210040121}.
+
+\bibitem{Kato1984}
+T. Kato,
+\emph{Strong \(L^p\)-solutions of the Navier--Stokes equation in
+\(\mathbb R^m\), with applications to weak solutions},
+Mathematische Zeitschrift \textbf{187} (1984), 471--480,
+\href{https://eudml.org/doc/173504}{EuDML record}.
+
+\bibitem{KochTataru2001}
+H. Koch and D. Tataru,
+\emph{Well-posedness for the Navier--Stokes equations},
+Advances in Mathematics \textbf{157} (2001), no.~1, 22--35,
+\href{https://doi.org/10.1006/aima.2000.1937}{doi:10.1006/aima.2000.1937}.
+
+\bibitem{Leray1934}
+J. Leray,
+\emph{Sur le mouvement d'un liquide visqueux emplissant l'espace},
+Acta Mathematica \textbf{63} (1934), 193--248,
+\href{https://doi.org/10.1007/BF02547354}{doi:10.1007/BF02547354}.
+
+\bibitem{Lieb1983}
+E. H. Lieb,
+\emph{Sharp constants in the Hardy--Littlewood--Sobolev and related
+inequalities},
+Annals of Mathematics \textbf{118} (1983), 349--374,
+\href{https://doi.org/10.2307/2007032}{doi:10.2307/2007032}.
+
+\bibitem{LionsMagenes1972}
+J.-L. Lions and E. Magenes,
+\emph{Non-Homogeneous Boundary Value Problems and Applications}, vol.~I,
+Springer, 1972,
+\href{https://doi.org/10.1007/978-3-642-65161-8}{doi:10.1007/978-3-642-65161-8}.
+
+\bibitem{Serrin1962}
+J. Serrin,
+\emph{On the interior regularity of weak solutions of the Navier--Stokes
+equations},
+Archive for Rational Mechanics and Analysis \textbf{9} (1962), 187--195,
+\href{https://doi.org/10.1007/BF00253344}{doi:10.1007/BF00253344}.
+
+\bibitem{Simon1987}
+J. Simon,
+\emph{Compact sets in the space \(L^p(0,T;B)\)},
+Annali di Matematica Pura ed Applicata \textbf{146} (1986), 65--96,
+\href{https://doi.org/10.1007/BF01762360}{doi:10.1007/BF01762360}.
+
+\bibitem{Tao2013}
+T. Tao,
+\emph{Localisation and compactness properties of the Navier--Stokes global
+regularity problem},
+Analysis \& PDE \textbf{6} (2013), 25--107,
+\href{https://doi.org/10.2140/apde.2013.6.25}{doi:10.2140/apde.2013.6.25}.
+
+\end{thebibliography}
+
+\end{document}
