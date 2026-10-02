@@ -1,0 +1,229 @@
+\section{Source work and its iterated time integrals}
+\label{r:sec:source-primitives}
+
+The source work can be controlled further before invoking any higher
+velocity rectangle. For the base temporal row, write \(W_s=W_{0,s}\)
+and put \(h_s=\Lambda^{2s}\Pp f\). Moving the spatial derivatives onto
+the prescribed field gives \(W_s=\ip{u}{h_s}\). This pairing measures
+how the fluid responds to a smooth spatial weight. Kinetic energy alone bounds this pairing; no higher spatial norm
+of the velocity enters the estimate.
+
+The energy balance implies
+\[
+ \norm{u(t)}_2\le K_T,
+ \qquad K_T=\norm{u_0}_2+\int_0^T\norm{f(t)}_2\dd t.
+\]
+Let \(S_s=\operatorname{Sym}\nabla h_s\). Substitution of the
+momentum equation into the derivative of \(\ip{u}{h_s}\) gives
+\begin{equation}
+ W_s'=\ip{u}{(\partial_t+\nu\Delta)h_s}
+ +\int_{\R^3}u_i u_j(S_s)_{ij}\dd x+\ip{f}{h_s}.
+ \label{r:eq:source-first}
+\end{equation}
+Incompressibility removes the pressure pairing; integration by parts
+moves the transport and viscous derivatives onto \(h_s\).
+Using the matrix operator norm for \(S_s\), define
+\begin{equation}
+ \begin{aligned}
+ \mathsf B_s&:=K_T\norm{h_s}_{L^\infty_tL^2_x},\\
+ \mathsf L_s&:=K_T\norm{(\partial_t+\nu\Delta)h_s}_{L^\infty_tL^2_x}
+ +K_T^2\norm{S_s}_{L^\infty_{t,x}}\\
+ &\quad+\norm{f}_{L^\infty_tL^2_x}\norm{h_s}_{L^\infty_tL^2_x}.
+ \end{aligned}
+ \label{r:eq:source-work-constants}
+\end{equation}
+Every fixed constant is finite under the source assumptions, and
+\(\norm{W_s}_\infty\le\mathsf B_s\),
+\(\norm{W_s'}_\infty\le\mathsf L_s\). The projection need not preserve
+rapid spatial decrease; its boundedness on Sobolev spaces supplies the
+norms used here.
+
+These two bounds control an integrated form of the complete source
+correction at every spatial height. Define
+\begin{equation}
+ \begin{aligned}
+ \mathcal S_{s,k}&:=\sum_{j=0}^{k-1}(-2\nu)^j
+ \partial_t^{k-1-j}W_{s+j},\qquad k\ge2,\\
+ I^0&:=\mathrm{Id},\qquad
+ (I^a g)(t):=\frac1{(a-1)!}\int_0^t(t-v)^{a-1}g(v)\dd v,
+ \quad a\ge1.
+ \end{aligned}
+ \label{r:eq:source-primitive-def}
+\end{equation}
+
+\begin{proposition}[Integrated source correction]
+\label{r:prop:source-primitive}
+For each fixed \(s\ge0\) and integer \(k\ge2\),
+\(I^{k-2}\mathcal S_{s,k}\) is bounded on \((0,T)\) by the datum and
+source. If \(u_0=0\) and the force vanishes near \(t=0\), then
+\begin{equation}
+ \begin{aligned}
+ I^{k-2}\mathcal S_{s,k}
+ &=W_s'-2\nu W_{s+1}
+ +\sum_{j=2}^{k-1}(-2\nu)^jI^{j-1}W_{s+j},\\
+ \norm{I^{k-2}\mathcal S_{s,k}}_\infty
+ &\le\mathsf L_s+
+ \sum_{j=1}^{k-1}\frac{(2\nu)^jT^{j-1}}{(j-1)!}\mathsf B_{s+j}.
+ \end{aligned}
+ \label{r:eq:source-primitive-rest}
+\end{equation}
+No source amplitude restriction or higher velocity estimate is used.
+\end{proposition}
+
+\begin{proof}
+Write \(D=\partial_t\) and \(m=k-2\). Repeated integration gives
+\begin{equation}
+ I^mD^dW=
+ \begin{cases}
+ D^{d-m}W-\displaystyle\sum_{\ell=0}^{m-1}
+ W^{(d-m+\ell)}(0)\dfrac{t^\ell}{\ell!},&d\ge m,\\[5pt]
+ I^{m-d}W-\displaystyle\sum_{\ell=0}^{d-1}
+ W^{(\ell)}(0)\dfrac{t^{m-d+\ell}}{(m-d+\ell)!},&d<m.
+ \end{cases}
+ \label{r:eq:primitive-initial-terms}
+\end{equation}
+Empty sums vanish. In summand \(j\) of \(\mathcal S_{s,k}\), set
+\(d=k-1-j=m+1-j\). The cases \(j=0,1\) leave \(W_s'\) and
+\(-2\nu W_{s+1}\); the other cases leave the integrals in
+\eqref{r:eq:source-primitive-rest}. Each initial correction is a polynomial
+whose coefficients are determined by
+\[
+ W_s^{(\ell)}(0)=\sum_{b=0}^{\ell}\binom\ell b
+ \ip{a_b}{\partial_t^{\ell-b}h_s(0)}.
+\]
+They are finite by \eqref{r:eq:initial}. Equation
+\eqref{r:eq:primitive-initial-terms} specifies every correction for general
+datum. The inequality \(\norm{I^aW}_\infty\le T^a\norm{W}_\infty/a!\)
+proves the bound. For rest datum and forcing that vanishes initially,
+local uniqueness gives a zero initial velocity history. All initial
+corrections vanish, yielding \eqref{r:eq:source-primitive-rest}.
+\end{proof}
+
+The first instance bounds \(W_s'-2\nu W_{s+1}\) directly. The next
+bounds the time integral of
+\(W_s''-2\nu W_{s+1}'+4\nu^2W_{s+2}\). At higher orders the bound
+uses exactly \(k-2\) integrations. It controls the signed source
+contribution in that coordinate, rather than the absolute integral of
+each differentiated term. This specifies which part of the completed
+height calculation is bounded before using the velocity intersection.
+
+\subsection{Source absorption in every temporal row}
+\label{r:sec:all-row-source-absorption}
+
+The kinetic estimate above bounds the pairing with \(u\). At a higher
+temporal row, source work pairs the prescribed \(F_r\) with the response
+\(V_r\). Viscous dissipation controls one additional spatial derivative
+of \(V_r\). Pairing that derivative with one lower source derivative
+allows part of the dissipation to absorb the source work.
+Since \(V_r\) is divergence free,
+\begin{equation}
+ \begin{aligned}
+ W_{r,s}
+ &=\operatorname{Re}\ip{\Lambda^sV_r}{\Lambda^s\Pp F_r}\\
+ &=\operatorname{Re}\ip{\Lambda^{s+1}V_r}
+                         {\Lambda^{s-1}\Pp F_r}.
+ \end{aligned}
+ \label{r:eq:all-row-source-duality}
+\end{equation}
+For the prescribed rapidly decreasing force, the second factor is finite
+at every \(s\ge0\). If \(s<1\), its Fourier weight has a singularity
+at zero, but \(\widehat F_r\) is bounded there and the three-dimensional
+radial integral is \(\int_0^1\rho^{2s}\dd\rho<\infty\).
+The smoothness of the force controls the high frequencies. All these
+bounds are uniform on the prescribed time interval.
+
+Young's inequality now allocates one quarter of the viscous dissipation
+to source work:
+\begin{equation}
+ \begin{aligned}
+ |W_{r,s}|
+ &\le\frac\nu4\norm{\Lambda^{s+1}V_r}_2^2
+       +\frac1\nu\norm{\Lambda^{s-1}\Pp F_r}_2^2\\
+ &=\frac\nu2E_{r,s+1}
+       +\frac1\nu\norm{\Lambda^{s-1}\Pp F_r}_2^2.
+ \end{aligned}
+ \label{r:eq:all-row-source-absorption}
+\end{equation}
+Substitution into the complete height identity gives
+\begin{equation}
+ \partial_tE_{r,s}+\frac{3\nu}{2}E_{r,s+1}
+ \le\mathcal P_{r,s}
+       +\frac1\nu\norm{\Lambda^{s-1}\Pp F_r}_2^2.
+ \label{r:eq:all-row-source-retained-production}
+\end{equation}
+The nonlinear production retains its sign and its full binomial sum.
+The displayed source norm has a finite time integral determined by the
+prescribed force. An absolute integral of \(W_{r,s}\) also requires
+control of the dissipation appearing in
+\eqref{r:eq:all-row-source-absorption}.
+
+The argument can be written for the broader source class
+\(\bigcap_{r,m}H^r_tH^m_x\), without a spatial-decay assumption.
+Use \(J=(1-\Delta)^{1/2}\) and set
+\[
+ A_{r,s}=\tfrac12\norm{J^sV_r}_2^2,
+ \qquad D_{r,s}=\norm{\nabla J^sV_r}_2^2,
+ \qquad
+ \mathcal P^J_{r,s}=-\operatorname{Re}\ip{J^sV_r}{J^sB_r}.
+\]
+Pressure again pairs to zero. The identity
+\(\norm{J^{s+1}V_r}_2^2=D_{r,s}+2A_{r,s}\)
+and Young's inequality yield
+\begin{equation}
+ A'_{r,s}+\frac\nu2D_{r,s}
+ \le\mathcal P^J_{r,s}+\nu A_{r,s}
+       +\frac1{2\nu}\norm{J^{s-1}\Pp F_r}_2^2.
+ \label{r:eq:inhomogeneous-source-absorption}
+\end{equation}
+For \(s<1\), the multiplier defining \(J^{s-1}\) is bounded at
+zero. Multiplying by \(e^{-\nu t}\) and integrating controls the
+source contribution on every strict window with constants independent
+of the time cutoff. The resulting inequality still contains the
+signed integral of \(\mathcal P^J_{r,s}\).
+
+\input{parts/refutation/all-row-source-primitives.tex}
+\input{parts/refutation/recovered-heights.tex}
+\input{parts/refutation/velocity-source-insertions.tex}
+
+\subsection{Time-integrated completion and terminal integrability}
+
+To apply Proposition~\ref{r:prop:source-primitive} to the
+completed-height identity \eqref{r:eq:completed}, take
+\(r=0\), \(k\ge2\), \(m=k-2\), and \(H=E_{0,1/2}\). Define
+\[
+ \mathcal N_{s,k}:=\sum_{j=0}^{k-1}(-2\nu)^j
+ \partial_t^{k-1-j}\mathcal P_{0,s+j}.
+\]
+Applying \(I^m\) to the full completion gives
+\begin{equation}
+ \begin{aligned}
+ (-2\nu)^kI^m C^f_{0,k}
+ &=H''-\sum_{\ell=0}^{m-1}H^{(\ell+2)}(0)\frac{t^\ell}{\ell!}\\
+ &\quad-I^m\mathcal N_{1/2,k}-I^m\mathcal S_{1/2,k}.
+ \end{aligned}
+ \label{r:eq:integrated-completion}
+\end{equation}
+The source term on the last line has the proved finite bound. The energy
+derivative and complete nonlinear term remain in the expression; a bound
+on their combination has not been obtained from that source bound.
+
+A full-interval Sobolev coordinate also specifies an integrability
+requirement. For example, \(V_r\in L^2(0,T;\dot H^{k+1/2})\) means
+\[
+ \int_0^T C^f_{r,k}(t)\dd t
+ =\frac12\int_0^T\norm{V_r(t)}_{\dot H^{k+1/2}}^2\dd t<\infty.
+\]
+This is the meaning of membership at that height. It is stronger than
+the existence of every derivative on \([0,S]\) for each \(S<T\).
+In particular, the full mixed product rule for \(W_{r,s}\) contains both
+source and response factors, even when every source coordinate is finite.
+For \(k\ge4\), boundedness of \(I^{k-2}C^f_{0,k}\) would itself give
+only a weighted terminal integral,
+\[
+ \int_0^T(T-t)^{k-3}C^f_{0,k}(t)\dd t<\infty.
+\]
+The positive Volterra kernel gives this statement by monotone convergence;
+its vanishing terminal weight does not give the unweighted integral above.
+At \(k=2,3\), control of the full right side of
+\eqref{r:eq:integrated-completion} would suffice. These distinctions specify which terminal integrals follow from
+the integrated source estimate.

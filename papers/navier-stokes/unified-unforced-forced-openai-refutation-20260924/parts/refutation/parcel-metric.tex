@@ -1,0 +1,41 @@
+\section{Viscous dissipation and material deformation}\label{r:joined-sec:metric}
+
+The deformation of a material parcel is controlled in an integral
+sense by viscous dissipation. Let $X(a,t)$ follow the parcel initially labeled $a$, let $F=\nabla_aX$, and let $C=F^TF$. The positive matrix $C$ records the lengths and angles of infinitesimal material vectors. Incompressibility preserves volume, while the symmetric velocity gradient $S=(\nabla u+\nabla u^T)/2$ changes this metric:
+\begin{equation}\label{r:joined-eq:metric}
+\dot F=(\nabla u)(X,t)F,\qquad
+\det F=1,\qquad
+\dot C=2F^TS(X,t)F.
+\end{equation}
+The full metric speed has the exact squared norm
+\begin{equation}\label{r:joined-eq:metricspeed}
+\tr(C^{-1}\dot C\,C^{-1}\dot C)=4|S(X,t)|^2.
+\end{equation}
+Indeed, $C^{-1}\dot C=2F^{-1}SF$, and cyclicity of the trace removes the two deformation matrices. After changing variables by the incompressible flow and integrating by parts in space,
+\begin{equation}\label{r:joined-eq:metricaction}
+\frac\nu2\int_0^t\!\int_{\R^3}
+\tr(C^{-1}\dot C\,C^{-1}\dot C)\,da\,ds
+=\nu\int_0^t\norm{\nabla u(s)}_2^2ds.
+\end{equation}
+Here $\norm S_2^2=\frac12\norm{\nabla u}_2^2$. The dissipation integral consequently controls the rate of change
+of the material metric, including shape changes that preserve volume.
+
+The energy budget makes this quantitative through the full time interval. Define
+\begin{equation*}
+F_T=\int_0^T\norm f_2dt,\quad
+M_T=\norm{u_0}_2+F_T,\quad
+K_T=\norm{u_0}_2^2+2M_TF_T.
+\end{equation*}
+The energy identity gives $\sup_t\norm u_2\le M_T$ and
+$2\nu\int_0^T\norm{\nabla u}_2^2\le K_T$.
+If $\sigma_i$ are the singular values of $F$, then the derivatives of $\log\sigma_i$ are diagonal entries of $S$ in a suitable orthonormal frame. Their squared sum is bounded by $|S|^2$. Integrating from $F(a,0)=I$ gives
+\begin{equation*}
+\norm{\log C(a,t)}_F\le2\int_0^t|S(X(a,s),s)|\,ds.
+\end{equation*}
+Repeated singular values are handled by diagonalizing the symmetric variation within each eigenspace. Cauchy--Schwarz and volume preservation now yield the maximal estimate
+\begin{equation}\label{r:joined-eq:maxdistortion}
+\int_{\R^3}\sup_{t<T}\norm{\log C(a,t)}_F^2\,da
+\le\frac{TK_T}{\nu}.
+\end{equation}
+This is a bound over original material labels with the time supremum inside the integral. It rules out infinite distortion on a set of labels of positive measure. It permits concentration onto label sets whose measure tends to zero. A uniform bound over all labels would require further control beyond \eqref{r:joined-eq:maxdistortion}.
+

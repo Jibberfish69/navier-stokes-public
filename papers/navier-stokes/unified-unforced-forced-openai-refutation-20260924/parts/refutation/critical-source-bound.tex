@@ -1,0 +1,238 @@
+\section{A direct bound from the critical source norm}
+\label{r:app:critical-source}
+
+The source can also be tested before velocity-intersection membership is
+known. Begin with a classical forced history on its interval of existence
+and retain the nonlinear current in the critical energy balance. Put
+\[
+ y=\norm u_{\dot H^{1/2}},\qquad
+ z=\norm u_{\dot H^{3/2}},\qquad
+ \beta=\norm{\Pp f}_{\dot H^{-1/2}},\qquad
+ C_*=\frac1{\sqrt2\pi}.
+\]
+The product estimate used in \eqref{r:eq:critical-production}, applied
+before substituting any rectangle bound, gives
+\begin{equation}
+ y y'+(\nu-C_*y)z^2\le\beta z.
+ \label{r:eq:critical-source-energy}
+\end{equation}
+This calculation is on a strict classical interval. It assumes no bound
+on a velocity coordinate at the terminal time.
+
+As long as \(y<\nu/C_*\), completing the square in \(z\) yields
+\[
+ y y'\le\frac{\beta^2}{4(\nu-C_*y)}.
+\]
+Multiplication by the positive denominator makes the left side an exact
+derivative. Define
+\[
+ \Psi(s)=2\nu s^2-\frac43C_*s^3,\qquad
+ B(t)=\int_0^t\beta(s)^2\dd s.
+\]
+Then
+\begin{equation}
+ \Psi(y(t))\le\Psi(y(0))+B(t),\qquad
+ \Psi'(s)=4(\nu-C_*s)s.
+ \label{r:eq:critical-source-primitive}
+\end{equation}
+The function \(\Psi\) is strictly increasing between zero and
+\(\nu/C_*\). At the upper endpoint it takes the value
+\[
+ \Psi(\nu/C_*)=\frac{2\nu^3}{3C_*^2}
+ =\frac{4\pi^2}{3}\nu^3.
+\]
+
+\begin{theorem}[Critical source criterion]\label{r:thm:critical-source}
+Under the datum and source assumptions of this paper, suppose
+\(y_0=\norm{u_0}_{\dot H^{1/2}}<\nu/C_*\) and
+\begin{equation}
+ B(T)<\frac{4\pi^2}{3}\nu^3-\Psi(y_0).
+ \label{r:eq:critical-source-condition}
+\end{equation}
+The forced history extends smoothly through \(T\) and belongs to
+\(\mathscr I_T\). In particular, for rest data the sufficient condition is
+\(B(T)<4\pi^2\nu^3/3\).
+\end{theorem}
+
+\begin{proof}
+Let \(r<\nu/C_*\) be the unique nonnegative number satisfying
+\(\Psi(r)=\Psi(y_0)+B(T)\). If \(y\) first exceeded \(r\) before
+reaching \(\nu/C_*\), \eqref{r:eq:critical-source-primitive} would fail.
+Continuity thus gives \(y\le r\) throughout classical existence up
+to \(T\). At a zero of \(y\), the energy identity for \(y^2\) and
+absolute continuity justify the integrated inequality without dividing
+by \(y\).
+
+Write \(a=\nu-C_*r>0\). Young's inequality in
+\eqref{r:eq:critical-source-energy} now gives
+\[
+ y y'+\frac a2 z^2\le\frac{\beta^2}{2a},\qquad
+ \int_0^S z^2\dd t\le\frac{y_0^2}{a}+\frac{B(T)}{a^2}
+ \quad(S<T).
+\]
+These are bounds obtained from the source and initial datum.
+To see directly how they prevent an endpoint loss, put
+\(Y=\norm{\nabla u}_2\) and \(D=\norm{\Delta u}_2\).
+Differentiation of the momentum equation, integration by parts, and
+incompressibility give
+\[
+ \frac12(Y^2)'+\nu D^2
+ \le\norm{\nabla u}_3\norm{\nabla u}_2
+       \norm{\nabla u}_6+\norm{\Pp f}_2D.
+\]
+Let \(C_S\) be a finite constant in
+\(\norm{\nabla u}_6\le C_S\norm{\Delta u}_2\), and let
+\(C_3=2^{-1/6}\pi^{-1/3}\) as above. Since
+\(\norm{\nabla u}_3\le C_3z\), two applications of Young's inequality
+give
+\[
+ (Y^2)'+\nu D^2
+ \le\frac{2(C_SC_3)^2}{\nu}z^2Y^2
+       +\frac2\nu\norm{\Pp f}_2^2.
+\]
+Gronwall's inequality bounds \(Y\) uniformly. The ordinary energy
+identity also gives
+\(\norm{u(t)}_2\le\norm{u_0}_2+
+\int_0^t\norm{\Pp f(s)}_2\dd s\).
+Thus the full \(H^1\) norm remains bounded.
+
+For completeness, this bound supplies a uniform local continuation time.
+The estimate
+\(\norm{(v\cdot\nabla)w}_{3/2}
+\le C\norm v_{H^1}\norm w_{H^1}\), the boundedness of \(\Pp\)
+on \(L^{3/2}\), and the heat estimates from \(L^{3/2}\) to \(H^1\)
+bound the bilinear mild map on a time interval of length \(h\) by
+\[
+ C_\nu(h^{1/4}+h^{3/4})
+ \norm v_{C_tH^1}\norm w_{C_tH^1}.
+\]
+The two powers integrate the heat factors \(t^{-3/4}\) and
+\(t^{-1/4}\). A contraction ball of fixed radius now has a fixed
+positive existence time, using also the bounded \(H^1\) norm of the
+source. Restarting near a proposed finite endpoint continues the
+history beyond it. Heat smoothing at positive elapsed time and the
+smooth source preserve every finite spatial order; differentiation
+of the equation then preserves the full temporal jet. Together with
+the smooth initial datum and source, this proves \(\mathscr I_T\)
+membership and the endpoint conclusions.
+\end{proof}
+
+The threshold is unchanged by the Navier--Stokes rescaling
+\(u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t)\),
+\(f_\lambda(x,t)=\lambda^3f(\lambda x,\lambda^2t)\).
+The squared \(\dot H^{-1/2}\) source norm gains a factor
+\(\lambda^2\), which its time integral cancels.
+
+\subsection{A necessary \texorpdfstring{\(H^3\)}{H3} source budget}
+
+For a candidate that starts from rest, write
+\[
+ Y(t)=\norm{u(t)}_{H^3},\qquad
+ D(t)=\norm{\nabla u(t)}_{H^3},\qquad
+ g(t)=\norm{\Pp f(t)}_{H^3},\qquad
+ G_T=\int_0^Tg(t)\dd t.
+\]
+On each strict classical interval, the momentum equation and
+\eqref{r:eq:product} give
+\[
+ YY'+\nu D^2\le8c_\infty Y^2D+gY,
+ \qquad c_\infty=(8\pi)^{-1/2}.
+\]
+Completing the entire viscous square yields
+\[
+ 8c_\infty Y^2D-\nu D^2
+ \le\frac{16c_\infty^2}{\nu}Y^4
+ =\frac2{\pi\nu}Y^4.
+\]
+Thus \(Y'\le2Y^3/(\pi\nu)+g\) wherever \(Y>0\).
+At zeros, use \(Y_\varepsilon=(Y^2+\varepsilon^2)^{1/2}\);
+its derivative obeys
+\(Y_\varepsilon'\le2Y_\varepsilon^3/(\pi\nu)+g\).
+
+If \(G_T=\infty\), the finite source condition already fails. Otherwise
+put
+\[
+ Z_\varepsilon(t)=Y_\varepsilon(t)+\int_t^Tg(s)\dd s.
+\]
+Since \(Y_\varepsilon\le Z_\varepsilon\),
+\[
+ Z_\varepsilon'\le\frac2{\pi\nu}Z_\varepsilon^3,
+ \qquad Z_\varepsilon(0)=G_T+\varepsilon.
+\]
+Integrating this scalar comparison and taking \(\varepsilon\downarrow0\)
+gives
+\begin{equation}
+ Y(t)\le
+ \frac{G_T}{\sqrt{1-4G_T^2t/(\pi\nu)}}
+ \quad\text{if}\quad
+ G_T<\sqrt{\frac{\pi\nu}{4T}}.
+ \label{r:eq:direct-H3-budget}
+\end{equation}
+This bound uses the finite source budget and strict-interval equations;
+it assumes neither a terminal velocity norm nor smooth continuation of
+force through \(T\).
+
+The calculated exterior has an unbounded \(L^3\) norm as \(t\uparrow1\).
+Since \(H^3\) controls \(\dot H^{1/2}\), which embeds into \(L^3\),
+its \(H^3\) norm is unbounded as well. Equation~\eqref{r:eq:direct-H3-budget}
+thus proves the following lower bound for its actual residual:
+\begin{equation}
+ G_{\rm OA}\ge\frac{\sqrt{\pi\nu}}2.
+ \label{r:eq:actual-H3-budget-failure}
+\end{equation}
+
+\subsection{Strict failure of the critical source condition}
+
+For the prescribed exterior, cylindrical integration on
+\(\mathcal E_\tau\) gives an explicit critical lower bound:
+\[
+ \int_{\mathcal E_\tau}|u|^3\dd x
+ =C_L\tau^{-4h},\qquad
+ C_L=4\pi d\int_c^{2c}k(y)^3y\dd y>0.
+\]
+The Sobolev inequality implies
+\[
+ \norm u_{\dot H^{1/2}}
+ \ge C_3^{-1}C_L^{1/3}\tau^{-4h/3}\longrightarrow\infty.
+\]
+The viscosity rescaling preserves this divergence. Continuity gives a first
+time \(S<1\) at which
+\(y(S)=\nu/C_*\), with \(y(t)<\nu/C_*\) for \(0\le t<S\).
+Integrate \eqref{r:eq:critical-source-primitive} before \(S\), then pass to
+\(S\) by continuity. The rest datum gives
+\begin{equation}
+ B(S)\ge\Psi(\nu/C_*)=\frac{4\pi^2\nu^3}{3}.
+ \label{r:eq:necessary-source-budget}
+\end{equation}
+The bound follows from the explicit exterior and momentum equation on
+strict subintervals of \([0,1)\).
+
+The residual continues to contribute a positive source norm after this
+crossing. Use the divergence-free test field \(w\) from the fixed
+exterior calculation leading to \eqref{r:eq:actual-pressure-obstruction},
+and write \(\gamma_w:=\lim_{t\uparrow1}\ip{f(t)}w>0\).
+For some \(\eta_1>0\), local convergence on its support gives
+\(\ip{f(t)}w\ge\gamma_w/2\) for \(1-\eta_1<t<1\), independently
+of terminal convergence elsewhere. Homogeneous Sobolev duality gives
+\[
+ \frac{\gamma_w}{2}\le\ip{\Pp f(t)}w
+ \le\norm{\Pp f(t)}_{\dot H^{-1/2}}\norm w_{\dot H^{1/2}}.
+\]
+The test norm is finite and positive because \(w\) is smooth, compactly
+supported, and nonzero. Let \(a=\max\{S,1-\eta_1\}<1\).
+Integrating over \((a,1)\), which is disjoint from \((0,S)\), yields
+\begin{equation}
+ \begin{aligned}
+ B(1)&\ge\frac{4\pi^2\nu^3}{3}
+       +\frac{(1-a)\gamma_w^2}{4\norm w_{\dot H^{1/2}}^2}\\
+     &>\frac{4\pi^2\nu^3}{3}.
+ \end{aligned}
+ \label{r:eq:strict-critical-budget-failure}
+\end{equation}
+For general viscosity, use the rescaled exterior and test field; the
+source budget and positive correction both scale by \(\nu^3\).
+The calculation also permits \(B(1)=\infty\). Thus no global terminal
+source regularity is needed to establish failure of this sufficient
+criterion. The source may be smooth and have finite norms, but these
+particular quantitative estimates do not cover its magnitude. This failure
+does not restrict the global theorem of Part~II.

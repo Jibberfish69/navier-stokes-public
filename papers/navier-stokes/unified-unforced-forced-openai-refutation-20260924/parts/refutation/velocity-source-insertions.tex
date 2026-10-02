@@ -1,0 +1,103 @@
+\subsection{Source insertions in the velocity rows}
+Write
+\[
+g=\mathbb Pf,\qquad g_j=\partial_t^jg,\qquad
+L=\nu\Delta,\qquad
+B(v,w)=\mathbb P((v\cdot\nabla)w),
+\]
+\[
+Q(v,w)=B(v,w)+B(w,v),\qquad
+\mathcal K(u)=Lu-B(u,u),\qquad
+\mathcal A_u h=Lh-Q(u,h).
+\]
+Here \(\mathcal K\) is the spatial differential expression in the
+projected momentum equation, and \(\mathcal A_u\) is its derivative
+with respect to the velocity argument. The Leray projection is
+bounded in every Sobolev norm used below.
+
+The momentum equation is \(V_1=\mathcal K(u)+g\). To differentiate it correctly, use
+\[
+\partial_t\mathcal K(u)=\mathcal A_uV_1,\qquad
+\partial_t(\mathcal A_u h)=\mathcal A_u\partial_t h-Q(V_1,h).
+\]
+In particular, the coefficients of \(\mathcal A_u\) also change with time. Carrying this term gives
+\[
+\begin{aligned}
+V_2&=\mathcal A_u\mathcal K(u)+S_2,\\
+S_2&=\mathcal A_u g+g_1
+=Lg-Q(u,g)+g_1,
+\end{aligned}
+\]
+and then
+\[
+\begin{aligned}
+V_3&=\mathcal A_u^2\mathcal K(u)
+     -Q(\mathcal K(u),\mathcal K(u))+S_3,\\
+S_3&=\mathcal A_u^2g+\mathcal A_u g_1
+     -2Q(\mathcal K(u),g)-Q(g,g)+g_2.
+\end{aligned}
+\]
+These are exact expansions of the full binomial rows. The coefficient two in the formula for \(S_3\) comes from differentiating both the velocity-dependent operator and the velocity argument. The quantities \(S_2,S_3\) collect source insertions into the velocity jet. They contain the prescribed source together with the velocity on which it acts.
+
+The kinetic-energy inequality already bounds the first insertion
+through the terminal time. Put
+\[
+U=\|u_0\|_2+\|f\|_{L^1_tL^2_x},\qquad
+D^2=\nu^{-1}\left(\tfrac12\|u_0\|_2^2
+                      +U\|f\|_{L^1_tL^2_x}\right).
+\]
+The actual forced history satisfies
+\(\sup_{t<T}\|u(t)\|_2\le U\) and
+\(\|\nabla u\|_{L^2_tL^2_x}\le D\).
+Since \(B\) is followed by an \(L^2\)-contractive projection, the formula for \(S_2\) gives
+\[
+\begin{aligned}
+\|S_2\|_{L^2_tL^2_x}
+\le{}&\nu\|\Delta g\|_{L^2_tL^2_x}
+      +\|g_1\|_{L^2_tL^2_x}\\
+&+\|g\|_{L^\infty_{t,x}}D
+ +\|\nabla g\|_{L^\infty_{t,x}}\sqrt{T}\,U
+<\infty.
+\end{aligned}
+\]
+Thus this first force--velocity insertion has a terminal bound independent of the critical velocity rectangle.
+
+The next insertion admits an \(L^2_tH^{-3}_x\) estimate from
+the kinetic bounds. The weaker spatial norm accommodates the
+additional derivatives in this row. Define
+\[
+Z=\|u\|_{L^2_tH^1_x}\le(TU^2+D^2)^{1/2},\qquad
+G=\max_{0\le j\le2}\sup_{t\le T}\|g_j(t)\|_{H^6}.
+\]
+The divergence form and Sobolev duality give
+\[
+\begin{aligned}
+\|Q(u,g)\|_{L^2L^2}&\le C GZ,\\
+\|B(u,u)\|_{L^2H^{-3/2}}&\le C UZ,\\
+\|Q(u,Q(u,g))\|_{L^2H^{-3}}&\le C G UZ,\\
+\|Q(Lu,g)\|_{L^2H^{-2}}&\le C\nu GZ,\\
+\|Q(B(u,u),g)\|_{L^2H^{-5/2}}&\le C G UZ.
+\end{aligned}
+\]
+For the second line use \(u\otimes u\in L^2_tL^{3/2}_x\), obtained from \(u\in L^\infty_tL^2_x\cap L^2_tL^6_x\), and the dual of \(H^{1/2}\hookrightarrow L^3\). For the third line, \(u\otimes Q(u,g)\) belongs to \(L^2_tL^1_x\); pairing its divergence against \(H^3\) is bounded because \(H^2\hookrightarrow L^\infty\). Smooth multiplication by \(g\) and its derivatives gives the final two lines. Expanding \(\mathcal A_u^2g\) in the formula for \(S_3\) now gives
+\[
+\|S_3\|_{L^2_tH^{-3}_x}
+\le C\left[
+\sqrt{T}\bigl((1+\nu+\nu^2)G+G^2\bigr)
++G(1+\nu+U)Z\right]<\infty.
+\]
+The constant \(C\) depends on fixed Sobolev product and multiplier constants. All velocity dependence is contained in the kinetic quantities \(U\) and \(Z\). The two estimates control \(S_2\) and \(S_3\) at the stated spatial heights.
+
+The all-order version is also explicit. Define spatial jet polynomials by
+\[
+\mathcal J_0(v)=v,\qquad
+\mathcal J_{n+1}(v)=D\mathcal J_n(v)[\mathcal K(v)].
+\]
+Here \(D\mathcal J_n(v)[h]\) means the derivative of the spatial polynomial with respect to \(v\) in direction \(h\). Along the actual forced history,
+\[
+V_n=\mathcal J_n(u)+S_n,\qquad S_0=0,
+\]
+\[
+S_{n+1}=D\mathcal J_n(u)[g]+\partial_t S_n.
+\]
+This follows by the chain rule and \(u_t=\mathcal K(u)+g\). Every \(S_n\) is a finite differential expression with at least one source factor. The recurrence retains all velocity factors as well. The bounds above apply at the specified spatial heights.

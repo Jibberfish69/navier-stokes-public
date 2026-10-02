@@ -1,0 +1,2098 @@
+\section{Introduction}\label{r:sec:introduction}
+
+OpenAI's \emph{Finite Time Blowup for Navier--Stokes} proposes a
+three-dimensional flow that starts from rest and develops unbounded
+velocity under a smooth compactly supported force
+\cite[Theorem~1.1]{openai-paper}. Its kinetic energy remains finite
+because the large velocities occupy shrinking spatial regions.
+A comparison based only on the size of the external force or the
+kinetic energy cannot distinguish this concentration from a regular
+flow. The relevant question is whether the proposed solution can
+satisfy the stronger space--time bounds imposed by a regularity theorem
+for its prescribed data.
+
+Part~I relates the temporal derivatives of one unforced velocity field to
+its spatial Sobolev energies. Part~II carries that construction into a new
+forced history and retains every prescribed source row. Viscosity couples the
+energy at order \(1/2\) to dissipation at order \(3/2\), while temporal
+differentiation produces higher spatial orders together with differentiated
+nonlinear and source terms. Both the explicit force work and the velocity's
+nonlinear response remain in the comparison below.
+
+The forced theorem proved in Part~II gives the full-interval solution used
+here.  By Corollary~\ref{r:thm:supplied-forced}, finite collections of its mixed Sobolev norms bound
+the velocity and all the terms in its momentum equation. The proposed
+exterior has divergent positive contributions to precisely these
+norms. Uniqueness identifies a proposed classical solution with the
+regular solution for its data, so the bounds apply before any
+regularity at the candidate's terminal time is assumed.
+
+The source estimates distinguish contributions controlled by the
+initial data and prescribed force from those that require a velocity
+norm. This distinction yields quantitative sufficient conditions for
+continuation, proved in the appendices together with the general-order
+source expansions and product estimates.
+
+\subsection{Force, pressure, and material acceleration}
+
+We work on \(\R^3\), at fixed viscosity \(\nu>0\), with unit density
+and no material boundary. Let \(u_0\) be divergence free and belong to
+\(H^\infty=\bigcap_{m\ge0}H^m\). Fix \(0<T<\infty\). The force
+\(f(x,t)\), measured per unit mass, is smooth through \([0,T]\), and
+all its mixed derivatives decay rapidly in space, uniformly on this
+interval. A subscript \(\sigma\) denotes the divergence-free subspace.
+The whole-space Navier--Stokes system is
+\cite[equations~(1)--(3)]{Fefferman2006}:
+\begin{equation}
+ u_t+(u\cdot\nabla)u+\nabla p-\nu\Delta u=f,
+ \qquad \nabla\cdot u=0,\qquad u(0)=u_0.
+ \label{r:eq:ns}
+\end{equation}
+
+At a fixed location, \(u_t\) records how the velocity changes with time.
+A moving parcel also encounters spatial changes in velocity. Along
+\(\dot X=u(X,t)\), its acceleration is
+\begin{equation}
+ \begin{aligned}
+ \frac{\dd}{\dd t}u(X(t),t)&=D_tu(X(t),t),
+ &D_t&=\partial_t+u\cdot\nabla,\\
+ D_tu&=-\nabla p+\nu\Delta u+f.
+ \end{aligned}
+ \label{r:eq:parcel-law}
+\end{equation}
+Thus the prescribed force contributes to the acceleration alongside
+pressure and viscous stress. Pressure depends on the surrounding velocity
+through incompressibility. Viscosity depends on its spatial curvature.
+These two responses must be retained when asking what a finite external
+force can cause.
+
+Eulerian and material derivatives describe different derivatives of
+the velocity field along fixed points and moving trajectories. With \(V_n=\partial_t^nu\), acceleration is
+\(D_tu=V_1+(V_0\cdot\nabla)V_0\). Every higher parcel derivative is
+also a finite combination of the velocity's mixed derivatives.
+At all finite orders the two derivative families determine each other
+through product and commutator identities.
+Appendix~\ref{r:app:endpoint} proves equality of the two complete Sobolev
+intersections. Finite rectangles of that intersection bound both
+the fixed-location derivatives and the parcel responses.
+
+Differentiating the force along a parcel already exhibits this coupling:
+\[
+ D_tf=\partial_tf+(u\cdot\nabla)f.
+\]
+The spatial variation of a smooth prescribed force is sampled at a rate
+set by the velocity. Higher material derivatives also differentiate that
+velocity. The parcel's acceleration, jerk, and subsequent derivatives
+are calculated within the mixed jet by exact product and commutator
+identities. This relation also appears in the
+Euler formulation \cite[Section~1; Proposition~6.1]{birnie-euler}.
+
+Incompressibility determines the pressure contribution explicitly.
+Let \(\Pp\) denote the orthogonal Leray projection, with Fourier symbol
+\(I-\xi\otimes\xi/|\xi|^2\) for \(\xi\ne0\). Its value at zero
+is immaterial to an \(L^2\)-based norm. Write \(\mathbb Q=I-\Pp\) for
+the gradient projection. Then
+\begin{equation}
+ \begin{aligned}
+ u_t-\nu\Delta u+\Pp\nabla\cdot(u\otimes u)&=\Pp f,\\
+ \nabla p&=(I-\Pp)\bigl[f-(u\cdot\nabla)u\bigr].
+ \end{aligned}
+ \label{r:eq:projected}
+\end{equation}
+Pressure is determined up to a function of time; its gradient is the
+physical quantity in momentum. A conservative force \(f=\nabla\phi\)
+can be absorbed by setting \(q=p-\phi\). The velocity then obeys the
+unforced equation exactly. In particular, rest remains a solution, with
+\(p=\phi\). Boundary-driven flows require additional boundary conditions and are
+outside the whole-space setting of this paper.
+
+
+\subsection{The forced theorem and the comparison principle}
+
+Part~II has already proved global smoothness and uniqueness for every datum
+and force in the class used below. Its theorem gives the following
+closed-interval consequence in the notation of this part.
+
+\begin{corollary}[Finite-horizon forced intersection]
+\label{r:thm:supplied-forced}
+Let \(\nu>0\), \(u_0\in H^\infty_\sigma(\R^3)\), and
+\(f\in C^\infty([0,\infty);\mathcal S(\R^3;\R^3))\). For every finite
+\(T>0\), the unique global pair \((U,P)\) supplied by
+Theorem~\ref{f:thm:ier-global-smoothness} satisfies
+\begin{equation}
+ U\in\bigcap_{r,m\ge0}H^r(0,T;H^m(\R^3)).
+ \label{r:eq:direct-target}
+\end{equation}
+The mixed derivatives satisfy the differentiated momentum and
+incompressibility equations.
+\end{corollary}
+
+\begin{proof}
+Part~II gives the global pressure-normalized solution. On \([0,T]\), its
+persistence argument places each spatial row in \(C([0,T];H^m)\), and the
+complete forced recurrence produces every temporal row. Hence, for every
+finite \(r,m\),
+\[
+ \sum_{n=0}^{r}\norm{\partial_t^nU}_{L^2(0,T;H^m)}^2
+ \le T\sum_{n=0}^{r}
+ \sup_{0\le t\le T}\norm{\partial_t^nU(t)}_{H^m}^2<\infty.
+\]
+Taking the intersection over the finite indices gives
+\eqref{r:eq:direct-target}; the differentiated momentum and incompressibility
+rows are restrictions of the complete forced mixed jet proved in Part~II.
+\end{proof}
+
+To see the comparison principle, let \(v\) be another classical solution
+for these data on \([0,T)\), with finite spatial Sobolev norms on each
+strict subinterval. Uniqueness gives \(v=U\) there. The adjacent norms
+\(U\in L^2(0,T;H^3)\) and \(U_t\in L^2(0,T;H^1)\) imply
+\begin{equation}
+ \sup_{0\le t<T}\norm{v(t)}_\infty^2
+ \le \frac{\norm{u_0}_{H^2}^2+
+       \norm U_{L^2H^3}^2+\norm{U_t}_{L^2H^1}^2}{8\pi}<\infty.
+ \label{r:eq:intro-comparison}
+\end{equation}
+The trace and embedding calculations are proved in
+Section~\ref{r:sec:velocity}; the uniqueness argument is given in
+Section~\ref{r:sec:exclusion}.  Before that argument is applied to the
+candidate of \cite{openai-paper}, Section~\ref{r:sec:force-extension} proves
+that its full localized residual belongs to the prescribed force class of
+Part~II.  Once that source payment has been made, the estimate excludes
+unbounded velocity. The
+critical-height and material calculations below identify further
+norms in which the proposed concentration fails the forced theorem.
+
+\section{Forced mixed derivatives and Sobolev energies}\label{r:sec:forced-rows}
+
+On each compact interval of local smooth existence, define
+\(V_n=\partial_t^nu\) at fixed spatial coordinates. All spatial norms use
+Euclidean vector and Frobenius tensor norms. Throughout the derivative formulas, \(f\) is the prescribed force in \eqref{r:eq:ns}.
+
+Put \(F_n=\partial_t^nf\), \(Q_n=\partial_t^np\), and
+\begin{equation}
+ B_n=\sum_{a=0}^n\binom na(V_a\cdot\nabla)V_{n-a}.
+ \label{r:eq:Bn}
+\end{equation}
+The product rule applied to \eqref{r:eq:ns} gives the forced recurrence already
+derived in Proposition~\ref{f:prop:formal-mixed-recurrences}:
+\begin{equation}
+ V_{n+1}+B_n+\nabla Q_n-\nu\Delta V_n=F_n.
+ \label{r:eq:row}
+\end{equation}
+Applying \(\partial_x^\alpha\) to transport gives the full mixed expansion
+\begin{equation}
+ \partial_x^\alpha B_n
+ =\sum_{a=0}^n\sum_{\beta\le\alpha}
+ \binom na\binom\alpha\beta
+ (\partial_x^\beta V_a\cdot\nabla)
+ \partial_x^{\alpha-\beta}V_{n-a}.
+ \label{r:eq:mixed}
+\end{equation}
+Every force coordinate in this equation is the prescribed derivative
+\(\partial_x^\alpha F_n\).
+
+Taking divergence of \eqref{r:eq:row} gives the pressure Poisson equation.
+In the Sobolev class used below, every nonpressure term of that row belongs
+to \(H^m\), so \(\nabla Q_n\) does too. Applying the orthogonal
+projection \(I-\Pp\) to the full row then fixes its gradient:
+\begin{equation}
+ -\Delta Q_n=\nabla\cdot B_n-\nabla\cdot F_n,
+ \qquad \nabla Q_n=(I-\Pp)(F_n-B_n).
+ \label{r:eq:pressure}
+\end{equation}
+The gradient part of the force contributes to pressure, while its solenoidal
+part remains in the projected velocity equation. Formula \eqref{r:eq:pressure}
+will bound pressure through its gradient, the quantity present in momentum.
+
+
+The input regularity already gives a compatible source intersection:
+\begin{equation}
+ f\in\bigcap_{r,m\ge0}H^r(0,T;H^m(\R^3)).
+ \label{r:eq:force-intersection}
+\end{equation}
+Indeed, each mixed derivative has finite spatial Sobolev norm uniformly on the
+compact time interval, and integration in time preserves finiteness. The
+initial velocity jet is generated recursively by \eqref{r:eq:row}, in the
+form proved in Lemma~\ref{f:lem:formal-initial-jet}:
+\begin{equation}
+ a_0=u_0,\qquad
+ a_{n+1}=\nu\Delta a_n
+ -\Pp\sum_{b=0}^n\binom nb(a_b\cdot\nabla)a_{n-b}
+ +\Pp F_n(0),\qquad a_n=V_n(0).
+ \label{r:eq:initial}
+\end{equation}
+The product bound proved below shows by induction that \(a_n\in H^m\)
+for every finite \(n,m\), when \(u_0\in H^\infty_\sigma\).
+
+\subsection{Viscous coupling of Sobolev orders}
+
+Set \(\Lambda=(-\Delta)^{1/2}\). Its power \(\Lambda^s\) weights a
+Fourier component of wave number \(\xi\) by \(|\xi|^s\). Higher
+Sobolev energies thus measure progressively finer spatial variation;
+only height zero is the ordinary kinetic energy. For a temporal row
+\(r\) and real height \(s\ge0\), define
+\[
+ E_{r,s}=\tfrac12\norm{\Lambda^sV_r}_2^2,\qquad
+ \mathcal P_{r,s}=-\operatorname{Re}\ip{\Lambda^sV_r}{\Lambda^sB_r},
+ \qquad
+ W_{r,s}=\operatorname{Re}\ip{\Lambda^sV_r}{\Lambda^sF_r}.
+\]
+Pairing \eqref{r:eq:row} with \(\Lambda^{2s}V_r\) eliminates the pressure
+gradient by incompressibility. The viscous pairing is
+\(-\nu\norm{\Lambda^{s+1}V_r}_2^2\), giving the exact row balance
+\begin{equation}
+ \partial_tE_{r,s}=-2\nu E_{r,s+1}+\mathcal P_{r,s}+W_{r,s}.
+ \label{r:eq:height}
+\end{equation}
+Differentiating repeatedly exposes the higher spatial heights:
+\begin{equation}
+ \partial_t^kE_{r,s}=(-2\nu)^kE_{r,s+k}
+ +\sum_{j=0}^{k-1}(-2\nu)^j\partial_t^{k-1-j}
+       (\mathcal P_{r,s+j}+W_{r,s+j}),\qquad k\ge1.
+ \label{r:eq:completed}
+\end{equation}
+For \(k=1\) this is \eqref{r:eq:height}. Differentiating the formula for
+\(k\), substituting \eqref{r:eq:height} at height \(s+k\), and collecting
+the added term proves the formula for \(k+1\). Force leaves the viscous
+coefficient of the exposed energy unchanged. At \(r=0,s=1/2\), the
+successive spatial heights are \(1/2,3/2,5/2,\ldots\).
+Here \(\partial_t^kE_{r,s}\) differentiates a scalar energy. It is not
+\(E_{r+k,s}\), the energy of a higher velocity derivative. For example,
+\[
+ \partial_t^2E_{r,s}
+ =\norm{\Lambda^sV_{r+1}}_2^2
+ +\operatorname{Re}\ip{\Lambda^sV_r}{\Lambda^sV_{r+2}}.
+\]
+The mixed velocity rows organize both factors in this expression, and all
+factors in the differentiated nonlinear and force terms.
+
+The work derivatives retain both the response and source jets:
+\begin{equation}
+ \partial_t^\ell W_{r,s}
+ =\sum_{b=0}^\ell\binom\ell b
+ \operatorname{Re}\ip{\Lambda^sV_{r+b}}{\Lambda^sF_{r+\ell-b}}.
+ \label{r:eq:work-jet}
+\end{equation}
+The nonlinear current has the full product rule
+\begin{equation}
+ \partial_t^\ell\mathcal P_{r,s}
+ =-\sum_{a=0}^r\binom ra
+ \sum_{b+c+d=\ell}\frac{\ell!}{b!c!d!}
+ \operatorname{Re}\ip{\Lambda^sV_{r+b}}
+ {\Lambda^s\bigl((V_{a+c}\cdot\nabla)V_{r-a+d}\bigr)}.
+ \label{r:eq:production-jet}
+\end{equation}
+Spatial differentiation uses \eqref{r:eq:mixed} and the multi-index product
+rule. Every source coordinate remains a derivative of the prescribed field
+\(f\); the velocity factor in \eqref{r:eq:work-jet} remains part of the
+response. The source intersection \eqref{r:eq:force-intersection} controls each source factor. Bounds on the velocity factors require coordinates of the velocity history.
+
+These identities hold on every \([0,S]\) within smooth existence.
+If the velocity belongs to the full-interval intersection, the continuous
+limits in Appendix~\ref{r:app:endpoint} extend them to \(T\). All differentiated
+nonlinear and force terms are retained before taking that limit.
+
+
+
+
+\subsection{Forcing corrections at the critical heights}
+
+At the critical starting height, put \(H_r=E_{r,1/2}\). Rearranging the
+forced height identity gives the completed coordinate
+\begin{equation}
+ \begin{aligned}
+ C^f_{r,k}&:=\frac{\partial_t^kH_r}{(-2\nu)^k}\\
+ &\quad-\sum_{j=0}^{k-1}(-2\nu)^{j-k}\partial_t^{k-1-j}
+ (\mathcal P_{r,j+1/2}+W_{r,j+1/2}),\\
+ C^f_{r,k}&=E_{r,k+1/2}.
+ \end{aligned}
+ \label{r:eq:forced-completion}
+\end{equation}
+The factor \((-2\nu)^k\) is unchanged by forcing and is nonzero at every
+finite order. Each next temporal differentiation thus exposes the spatial
+height \(k+1/2\), with its complete nonlinear and source contributions.
+The identity is exact on every interval of smooth existence.
+
+
+At the first two exposed heights, the source correction is bounded
+using kinetic energy and source regularity. Put \(W_s=W_{0,s}\) and
+\(h_s=\Lambda^{2s}\Pp f\). Moving derivatives onto \(h_s\) writes the
+work as \(W_s=\ip u{h_s}\). The energy inequality bounds
+\(\norm u_{L^\infty L^2}\); differentiating this pairing moves the
+transport and diffusion derivatives onto the smooth prescribed field.
+Consequently \(W_s\) and \(W_s'\) have finite bounds
+\(\mathsf B_s\) and \(\mathsf L_s\), defined in
+\eqref{r:eq:source-work-constants} and proved in
+Appendix~\ref{r:sec:source-primitives}.
+Evaluate the completed-height formulas of
+Proposition~\ref{f:prop:completed-height-recurrence} on the forced velocity
+itself, and denote these expressions by
+\begin{equation}
+ \begin{aligned}
+ \widehat C_1[u]
+   &:=-\frac{H'-\mathcal P_{1/2}}{2\nu},\\
+ \widehat C_2[u]
+   &:=\frac{H''-\partial_t\mathcal P_{1/2}
+                   +2\nu\mathcal P_{3/2}}{4\nu^2},
+ \qquad H=E_{0,1/2}.
+ \end{aligned}
+ \label{r:eq:original-form-completions}
+\end{equation}
+Here \(\mathcal P_s=\mathcal P_{0,s}\) and \(W_s=W_{0,s}\).
+Substituting the forced balance, with both time derivatives expanded,
+gives
+\begin{equation}
+ \begin{aligned}
+ \widehat C_1[u]
+   &=E_{0,3/2}-\frac{W_{1/2}}{2\nu},\\
+ \widehat C_2[u]
+   &=E_{0,5/2}
+       +\frac{W_{1/2}'-2\nu W_{3/2}}{4\nu^2}.
+ \end{aligned}
+ \label{r:eq:low-completion-source-shift}
+\end{equation}
+The estimates \eqref{r:eq:source-work-constants} control every source
+expression on the right. With
+\[
+ \delta_1:=\frac{\mathsf B_{1/2}}{2\nu},
+ \qquad
+ \delta_2:=\frac{\mathsf L_{1/2}}{4\nu^2}
+              +\frac{\mathsf B_{3/2}}{2\nu},
+\]
+we obtain, for \(j=1,2\),
+\begin{equation}
+ \norm{C^f_{0,j}-\widehat C_j[u]}_{L^\infty(0,T)}
+ \le\delta_j<\infty.
+ \label{r:eq:low-completion-uniform-difference}
+\end{equation}
+These constants depend on the prescribed force and the kinetic-energy
+bound; no smallness condition is imposed. On a finite interval a bounded
+additive correction belongs to every \(L^p\), \(1\le p\le\infty\).
+Consequently, the exact membership relation is
+\begin{equation}
+ \begin{aligned}
+ C^f_{0,j}\in L^p(0,T)
+   &\quad\Longleftrightarrow\quad
+     \widehat C_j[u]\in L^p(0,T),\\
+ \norm{C^f_{0,j}}_{L^p(0,T)}
+   &\le\norm{\widehat C_j[u]}_{L^p(0,T)}
+            +T^{1/p}\delta_j,
+ \end{aligned}
+ \label{r:eq:low-completion-space-preservation}
+\end{equation}
+where \(T^{1/\infty}=1\). Thus the explicit force correction preserves
+these completed-coordinate spaces, including the unweighted time integral
+at the critical viscous height \(3/2\). Every expression here is evaluated
+on the forced history. The notation \(\widehat C_j[u]\) retains the earlier
+completion formula; it does not replace its argument by an unforced
+solution.
+
+\section{Finite rectangles and uniform Sobolev bounds}\label{r:sec:rectangles}
+
+Assume that the forced solution belongs to the class
+\begin{equation*}
+ u\in\mathscr I_T:=\bigcap_{r,m\ge0}H^r(0,T;H^m(\R^3)).
+ \tag{I}\label{r:eq:I}
+\end{equation*}
+For integers \(N,M\ge0\), collect two adjacent space--time norms in
+\begin{equation}
+ R_{N,M}:=\sum_{n=0}^N
+ \left(\norm{V_n}_{L^2H^{M+1}}^2+
+ \norm{V_{n+1}}_{L^2H^{M-1}}^2\right)<\infty.
+\label{r:eq:rectangle}
+\end{equation}
+This is the velocity part of the finite rectangle in
+Definition~\ref{f:def:finite-rectangle}; its organization by restriction is
+given by Definition~\ref{f:def:compatible-intersection} and
+Theorem~\ref{f:thm:compatible-inverse-intersection}.
+Time norms in this paper are over \((0,T)\). Different finite selections
+agree under restriction because their entries are derivatives of \(u\).
+There is no bound common to all \(N,M\) in the hypothesis.
+For \(M=0\), \(H^{M-1}=H^{-1}\) is the usual dual Sobolev space.
+
+We first convert these integral bounds into uniform bounds on a row. For
+\(v\in L^2H^{m+1}\) with \(v_t\in L^2H^{m-1}\), the Hilbert-pair
+identity is
+\[
+ \frac{\dd}{\dd t}\norm v_{H^m}^2
+ =2\operatorname{Re}\ip{(1-\Delta)^{(m+1)/2}v}
+ {(1-\Delta)^{(m-1)/2}v_t}.
+\]
+For classical rows it follows by differentiation and Plancherel. The identity
+extends to the displayed Hilbert spaces by spatial Fourier truncation and
+time smoothing. To justify the continuous representative, apply the resulting
+estimate to the difference of two truncated fields: their spatial
+\(L^2H^{m+1}\) tails and temporal \(L^2H^{m-1}\) tails tend to zero.
+The truncations are consequently Cauchy in \(C([0,T];H^m)\). Integrate
+the identity in either direction from a time whose squared norm is at most
+its average. Cauchy--Schwarz gives
+\begin{equation}
+ \sup_{0\le t\le T}\norm v_{H^m}^2
+ \le T^{-1}\norm v_{L^2H^m}^2
+ +2\norm v_{L^2H^{m+1}}\norm{v_t}_{L^2H^{m-1}}.
+ \label{r:eq:trace}
+\end{equation}
+Define the finite row constants
+\begin{equation}
+ A_{n,m}:=\sqrt{(1+T^{-1})R_{n,m}},
+ \qquad L_{n,m}:=\sup_{0\le t\le T}\norm{F_n(t)}_{H^m}.
+ \label{r:eq:constants}
+\end{equation}
+The constants \(A_{n,m}\) are distinguished from the initial fields
+\(a_n\) in \eqref{r:eq:initial}.
+Using \(2ab\le a^2+b^2\) in \eqref{r:eq:trace} yields
+\begin{equation}
+ \sup_{0\le t\le T}\norm{V_n(t)}_{H^m}\le A_{n,m}.
+ \label{r:eq:uniform-row}
+\end{equation}
+The estimate includes the endpoint through the continuous trace.
+Its constant depends on the indicated finite rectangle.
+
+\section{Critical production and velocity bounds}\label{r:sec:critical}
+
+The two heights \(1/2\) and \(3/2\) enter together because viscosity
+pairs the critical velocity energy with one additional spatial derivative.
+We now extract both bounds from one finite rectangle and substitute them
+into the nonlinear current. Select \(R=R_{0,1}\), and write \(D=\norm{u_0}_{H^1}^2\).
+Integrating the trace identity from time zero gives
+\[
+ \sup_t\norm u_{H^1}^2\le D+R,
+ \qquad \norm u_{L^2H^2}^2\le R.
+\]
+Since positive homogeneous derivative norms are bounded by these
+inhomogeneous norms,
+\begin{equation}
+ \sup_t\norm u_{\dot H^{1/2}}\le\sqrt{D+R},
+ \qquad \norm u_{L^2\dot H^{3/2}}^2\le R.
+ \label{r:eq:critical-input}
+\end{equation}
+The sharp fractional Sobolev inequality gives
+\[
+ \norm v_3\le C_3\norm{\Lambda^{1/2}v}_2,\qquad
+ C_3=2^{-1/6}\pi^{-1/3}
+\]
+\cite{Lieb1983,frank-lieb}.
+In dimension three at order \(1/2\), the squared form has coefficient
+\(2^{1/3}\pi^{2/3}\) on \(\|v\|_3^2\). The constant also applies
+to Euclidean vectors and Frobenius tensors: the positive scalar kernel
+of \(\Lambda^{-1/2}\) gives
+\(|\Lambda^{-1/2}F|\le\Lambda^{-1/2}|F|\), followed by the scalar
+inequality. This introduces no factor for the number of components.
+H\"older applied to
+\(\mathcal P_{1/2}=-\ip{\Lambda u}{(u\cdot\nabla)u}\)
+and this embedding on its three factors gives
+\[
+ |\mathcal P_{1/2}|
+ \le C_3^3\norm u_{\dot H^{1/2}}
+ \norm u_{\dot H^{3/2}}^2.
+\]
+Substitution of \eqref{r:eq:critical-input} yields
+\begin{equation}
+ \int_0^T|\mathcal P_{1/2}|\dd t
+ \le \frac{\sqrt{D+R}\,R}{\sqrt2\pi}<\infty.
+ \label{r:eq:critical-production}
+\end{equation}
+For rest data on \((0,1)\), this reads
+\[
+ \sup_t E_{1/2}(t)\le R/2,\qquad
+ \int_0^1 E_{3/2}(t)\dd t\le R/2,\qquad
+ \int_0^1|\mathcal P_{1/2}|\dd t\le\frac{R^{3/2}}{\sqrt2\pi}.
+\]
+The first factor in production is uniformly bounded, and its two higher
+spatial factors have a finite time integral. No comparison between the
+size of this bound and viscosity is needed.
+
+The forcing contribution is
+\(W_{1/2}=\ip{\Lambda^{-1/2}f}{\Lambda^{3/2}u}\), so
+\begin{equation}
+ \int_0^T|W_{1/2}|\dd t
+ \le\norm f_{L^2\dot H^{-1/2}}\sqrt R<\infty.
+ \label{r:eq:critical-work}
+\end{equation}
+For completeness, the source's negative homogeneous norm is finite at low
+frequencies as well as high frequencies. Splitting the Fourier integral at
+\(|\xi|=1\), using \(\norm{\widehat f}_\infty\le
+(2\pi)^{-3/2}\norm f_1\), gives
+\[
+ \norm{\Lambda^{-1/2}f}_2^2
+ \le\frac1{4\pi^2}\norm f_1^2+\norm f_2^2.
+\]
+Both terms are uniformly finite under the source assumptions.
+The dual pairing places the velocity at order \(3/2\), the order
+generated by viscous dissipation from the critical energy at \(1/2\).
+Thus forcing enters the critical pair used in Part~II:
+source regularity controls one factor, and the rectangle controls
+the velocity factor. The higher differentiated contributions remain
+those in \eqref{r:eq:work-jet} and \eqref{r:eq:production-jet}.
+Substituting the two integrable currents into the critical balance gives
+\[
+ \frac12\norm{\Lambda^{1/2}u(t)}_2^2
+ +\nu\int_0^t\norm{\Lambda^{3/2}u}_2^2\dd s
+ =\frac12\norm{\Lambda^{1/2}u_0}_2^2
+ +\int_0^t(\mathcal P_{1/2}+W_{1/2})\dd s.
+\]
+
+Write \(F_-=\norm f_{L^2\dot H^{-1/2}}\). Substituting
+\eqref{r:eq:critical-production} and \eqref{r:eq:critical-work} into this
+identity bounds the complete forced critical balance:
+\begin{equation}
+ \begin{aligned}
+ E_{1/2}(t)+2\nu\int_0^t E_{3/2}(s)\dd s
+ &\le E_{1/2}(0)\\
+ &\quad+\frac{\sqrt{D+R}\,R}{\sqrt2\pi}
+       +F_-\sqrt R.
+ \end{aligned}
+ \label{r:eq:forced-critical-bound}
+\end{equation}
+For rest data, \(D=E_{1/2}(0)=0\), so the right side is
+\(R^{3/2}/(\sqrt2\pi)+F_-\sqrt R\).
+Here \(R\) bounds the two critical norms independently of the
+production estimate. The calculation requires no absorption of
+nonlinear production or source work into viscous dissipation.
+
+\subsection{A uniform velocity bound}\label{r:sec:velocity}
+
+The intersection also contains \(R_{0,2}<\infty\). This finite selection
+already controls the speed of the forced fluid, before any estimate of
+the individual momentum terms is needed. Put
+\[
+ a=\norm u_{L^2H^3},\qquad
+ b=\norm{u_t}_{L^2H^1},\qquad R_{0,2}=a^2+b^2.
+\]
+Integrating the Hilbert-pair identity at \(m=2\) from the prescribed
+initial velocity gives
+\begin{equation}
+ \begin{aligned}
+ \norm{u(t)}_{H^2}^2
+ &=\norm{u_0}_{H^2}^2\\
+ &\quad+2\operatorname{Re}\int_0^t
+ \ip{(1-\Delta)^{3/2}u}
+ {(1-\Delta)^{1/2}u_t}\dd s,\\
+ \sup_{0\le t\le T}\norm{u(t)}_{H^2}^2
+ &\le\norm{u_0}_{H^2}^2+2ab\\
+ &\le\norm{u_0}_{H^2}^2+R_{0,2}.
+ \end{aligned}
+ \label{r:eq:velocity-H2}
+\end{equation}
+Use the unitary Fourier transform and
+\(\norm v_{H^s}^2=\int\langle\xi\rangle^{2s}|\widehat v(\xi)|^2\dd\xi\).
+Since
+\[
+ \int_{\R^3}(1+|\xi|^2)^{-2}\dd\xi=\pi^2,
+\]
+Fourier inversion and Cauchy--Schwarz give
+\begin{equation}
+ \norm{\partial_x^\alpha v}_\infty
+ \le c_\infty\norm v_{H^{|\alpha|+2}},
+ \qquad c_\infty=\frac1{\sqrt{8\pi}}.
+ \label{r:eq:embedding}
+\end{equation}
+This holds for vector fields with their Euclidean norm.
+
+Applying \eqref{r:eq:embedding} to the velocity yields
+\begin{equation}
+ \sup_{0\le t\le T}\norm{u(t)}_\infty^2
+ \le\frac{\norm{u_0}_{H^2}^2+R_{0,2}}{8\pi}.
+ \label{r:eq:velocity-bound}
+\end{equation}
+In particular, for a fluid initially at rest,
+\[
+ \sup_{0\le t\le T}\norm{u(t)}_\infty^2
+ \le\frac{R_{0,2}}{8\pi}<\infty.
+\]
+The endpoint belongs to the continuous \(H^2\) trace established in the intersection trace calculation. Thus the intersection supplies a uniform velocity bound
+through the entire finite interval. The additional estimates below
+resolve how acceleration, transport, pressure, and viscosity behave
+individually within that velocity history.
+
+
+\subsection{Higher spatial energies from the critical coordinate}
+\label{r:sec:higher-spatial-source}
+
+The critical coordinate also controls the growth of every higher spatial
+energy. The homogeneous commutator inequality proved in
+Lemma~\ref{f:lem:app-critical-commutator} is
+\begin{equation}
+ |\mathcal P_m|
+ \le K_m\norm{\Lambda^{3/2}u}_2
+          \norm{\Lambda^{m+1}u}_2\norm{\Lambda^mu}_2,
+ \qquad m\ge1.
+ \label{r:eq:actual-spatial-production}
+\end{equation}
+Here \(m\) is an integer and \(K_m\) is finite for each fixed order.
+The inequality applies to the complete spatially differentiated energy
+row, with its multinomial weights. It holds for a divergence-free field
+independently of the force: the pressure gradient remains orthogonal to
+the energy row, and the convection expression is unchanged.
+
+Write
+\[
+ X_m=\norm{\Lambda^mu}_2^2,\qquad
+ Y_m=\norm{\Lambda^{m+1}u}_2^2,\qquad
+ a=\norm{\Lambda^{3/2}u}_2,\qquad
+ b_m=\norm{\Lambda^{m-1}\Pp f}_2.
+\]
+The forced balance is
+\[
+ \frac12X_m'+\nu Y_m=\mathcal P_m+W_m,
+ \qquad
+ W_m=\ip{\Lambda^{m+1}u}{\Lambda^{m-1}\Pp f}.
+\]
+Young's inequality allocates a quarter of the dissipation to each pairing:
+\begin{align}
+ |\mathcal P_m|
+ &\le\frac{\nu}{4}Y_m+\frac{K_m^2}{\nu}a^2X_m,
+ \label{r:eq:actual-nonlinear-absorption}\\
+ |W_m|&\le\frac{\nu}{4}Y_m+\frac1\nu b_m^2.
+ \label{r:eq:actual-source-absorption}
+\end{align}
+Their substitution gives
+\begin{equation}
+ X_m'+\nu Y_m
+ \le\frac{2K_m^2}{\nu}a^2X_m+\frac2\nu b_m^2.
+ \label{r:eq:actual-forced-spatial-row}
+\end{equation}
+The current energy enters linearly. Its coefficient has a finite time
+integral, since \eqref{r:eq:critical-input} gives
+\(\int_0^T a(t)^2\dd t\le R\).
+
+Set
+\[
+ A_m(t)=\frac{2K_m^2}{\nu}\int_0^t a(s)^2\dd s,\qquad
+ \Phi_m=\int_0^T b_m(t)^2\dd t.
+\]
+Multiplying \eqref{r:eq:actual-forced-spatial-row} by \(e^{-A_m(t)}\)
+and integrating gives
+\[
+ e^{-A_m(t)}X_m(t)+\nu\int_0^t e^{-A_m(s)}Y_m(s)\dd s
+ \le X_m(0)+\frac2\nu\int_0^t e^{-A_m(s)}b_m(s)^2\dd s.
+\]
+Since \(A_m\) is nondecreasing and \(A_m(T)\le2K_m^2R/\nu\),
+\begin{equation}
+ \begin{aligned}
+ X_m(t)+\nu\int_0^tY_m(s)\dd s
+ &\le C_m^f(R),\\
+ C_m^f(R)
+ &:=\exp\!\left(\frac{2K_m^2R}{\nu}\right)
+ \left[\norm{\Lambda^mu_0}_2^2+\frac2\nu\Phi_m\right].
+ \end{aligned}
+ \label{r:eq:actual-forced-spatial-bound}
+\end{equation}
+The source assumptions give \(\Phi_m<\infty\), with no restriction on its
+size. Taking the supremum of the energy and the terminal limit of the
+dissipation separately bounds each by \(C_m^f(R)\). The ordinary energy
+bound supplies the low frequencies. Higher temporal rows remain derivatives
+of this velocity and are generated by \eqref{r:eq:row} from these
+spatial bounds and the prescribed source jets.
+
+The factor controlling growth is the time integral of
+\(\norm{\Lambda^{3/2}u}_2^2\). Once this critical quantity is finite,
+the source contributes the finite additive term \(\Phi_m\), and
+Gronwall's inequality bounds every fixed higher spatial order.
+
+\section{Bounds on each momentum term}
+\label{r:sec:individual}
+
+A bounded sum in the momentum equation does not bound its summands:
+large inertial, pressure, and viscous terms can cancel. The mixed
+Sobolev estimates give stronger information. By selecting finitely
+many additional derivatives of \(u\), we can bound each term before
+forming the sum.
+
+\subsection{Spatial product bounds}
+
+For \(s\ge1\),
+\[
+ \langle\xi\rangle^s\le
+ 2^{s-1}\left(\langle\eta\rangle^s+
+ \langle\xi-\eta\rangle^s\right).
+\]
+Apply this to the convolution formula for \(\widehat{a\otimes b}\),
+use Young's convolution inequality, and use
+\(\norm{\widehat a}_1\le\pi\norm a_{H^2}\). The result is
+\begin{equation}
+ \norm{a\otimes b}_{H^s}
+ \le 2^{s-1}c_\infty
+ \left(\norm a_{H^s}\norm b_{H^2}+
+ \norm a_{H^2}\norm b_{H^s}\right).
+ \label{r:eq:product}
+\end{equation}
+For tensors use the Frobenius norm. Divergence is bounded from \(H^{m+1}\)
+to \(H^m\) with constant one. If \(\nabla\cdot a=0\), transport is
+the divergence of the appropriate tensor product. Thus
+\begin{equation}
+ \norm{(a\cdot\nabla)b}_{H^m}
+ \le C_m\norm a_{H^{m+2}}\norm b_{H^{m+2}},
+ \qquad C_m=2^{m+1}c_\infty,\quad m\ge0.
+ \label{r:eq:transport-product}
+\end{equation}
+
+\subsection{The complete momentum row}
+
+For each temporal row and Sobolev height, define
+\begin{equation}
+ S_{n,m}:=C_m\sum_{a=0}^n\binom na
+ A_{a,m+2}A_{n-a,m+2}.
+ \label{r:eq:S}
+\end{equation}
+The finite sum retains both transport factors in every binomial summand.
+
+\begin{theorem}[Individual mixed-term bounds]\label{r:thm:individual}
+Assume \eqref{r:eq:ns}, the source regularity above, and \eqref{r:eq:I}.
+For every \(n,m\ge0\), each term in the differentiated momentum equation
+satisfies
+\begin{align}
+ \sup_t\norm{V_{n+1}(t)}_{H^m}&\le A_{n+1,m},\label{r:eq:time-bound}\\
+ \sup_t\norm{B_n(t)}_{H^m}&\le S_{n,m},\label{r:eq:transport-bound}\\
+ \sup_t\norm{\nabla Q_n(t)}_{H^m}&\le L_{n,m}+S_{n,m},\label{r:eq:pressure-bound}\\
+ \sup_t\norm{\nu\Delta V_n(t)}_{H^m}&\le\nu A_{n,m+2}.\label{r:eq:visc-bound}
+\end{align}
+For \(|\alpha|=k\), their mixed spatial derivatives satisfy
+\begin{align}
+ \norm{\partial_x^\alpha V_{n+1}}_{L^\infty_{t,x}}
+ &\le c_\infty A_{n+1,k+2},\label{r:eq:time-point}\\
+ \norm{\partial_x^\alpha B_n}_{L^\infty_{t,x}}
+ &\le c_\infty S_{n,k+2},\label{r:eq:transport-point}\\
+ \norm{\partial_x^\alpha\nabla Q_n}_{L^\infty_{t,x}}
+ &\le c_\infty(L_{n,k+2}+S_{n,k+2}),\label{r:eq:pressure-point}\\
+ \norm{\nu\partial_x^\alpha\Delta V_n}_{L^\infty_{t,x}}
+ &\le\nu c_\infty A_{n,k+4}.\label{r:eq:visc-point}
+\end{align}
+Every constant on the right is finite and comes from finitely many velocity
+intersection coordinates and prescribed force coordinates.
+\end{theorem}
+
+\begin{proof}
+The first bound is \eqref{r:eq:uniform-row} for temporal row \(n+1\).
+Apply \eqref{r:eq:transport-product} to each summand of \eqref{r:eq:Bn} and
+then apply \eqref{r:eq:uniform-row}; this gives \eqref{r:eq:transport-bound}.
+The Fourier multiplier \(I-\Pp\) has operator norm at most one in every
+\(H^m\). Its application to \eqref{r:eq:pressure} proves
+\eqref{r:eq:pressure-bound}, including the forcing contribution.
+The multiplier bound \(|\xi|^2\le\langle\xi\rangle^2\) proves
+\eqref{r:eq:visc-bound}. Applying \eqref{r:eq:embedding} to these four
+fields gives \eqref{r:eq:time-point}--\eqref{r:eq:visc-point}.
+\end{proof}
+
+For the undifferentiated momentum equation, the calculation is particularly
+concrete. The four individual bounds are
+\begin{align*}
+ \norm{u_t}_{L^\infty_{t,x}}&\le c_\infty A_{1,2},\\
+ \norm{(u\cdot\nabla)u}_{L^\infty_{t,x}}
+ &\le c_\infty C_2 A_{0,4}^2=\frac{A_{0,4}^2}{\pi},\\
+ \norm{\nabla p}_{L^\infty_{t,x}}
+ &\le c_\infty L_{0,2}+\frac{A_{0,4}^2}{\pi},\\
+ \norm{\nu\Delta u}_{L^\infty_{t,x}}
+ &\le\nu c_\infty A_{0,4}.
+\end{align*}
+Here \(C_2=8c_\infty\). These estimates bound each summand before the
+summands are added. The signs in \eqref{r:eq:ns} play no role in their
+finiteness.
+
+
+\subsection{Pressure completion and material acceleration}
+\label{r:sec:orthogonal-acceleration}
+
+Pressure reconstruction separates the material acceleration into
+orthogonal solenoidal and gradient components. Let
+\(\mathbb Q=I-\Pp\), let \(B_0=(u\cdot\nabla)u\), and write
+\(a=D_tu\). Pressure reconstruction in \eqref{r:eq:projected} gives
+\begin{equation}
+ \begin{aligned}
+ \nabla p&=\mathbb Q(f-B_0),\\
+ a&=\nu\Delta u+\Pp f+\mathbb Q B_0,\\
+ \Pp a&=\nu\Delta u+\Pp f,\qquad
+ \mathbb Q a=\mathbb Q B_0.
+ \end{aligned}
+ \label{r:eq:acceleration-projections}
+\end{equation}
+The pressure response removes the gradient component of the applied
+force and fixes the gradient component of material acceleration through
+the velocity. The viscous contribution is divergence free. In every
+Fourier Sobolev inner product, these two components are orthogonal:
+\begin{equation}
+ \norm a_{H^s}^2
+ =\norm{\nu\Delta u+\Pp f}_{H^s}^2
+  +\norm{\mathbb Q B_0}_{H^s}^2.
+ \label{r:eq:acceleration-orthogonal}
+\end{equation}
+This identity also holds for homogeneous norms wherever the displayed
+quantities are finite. For \(f=0\), it reads
+\[
+ \norm{D_tu}_{\dot H^s}^2
+ =\nu^2\norm u_{\dot H^{s+2}}^2
+  +\norm{\nabla p}_{\dot H^s}^2.
+\]
+Pressure cannot cancel the viscous contribution in this global norm.
+With forcing retained, cancellation inside the divergence-free component
+is governed by the complete sum \(\nu\Delta u+\Pp f\).
+
+The critical rectangle gives a quantitative bound for these components.
+Put \(h=\norm u_{\dot H^{1/2}}\), \(d=\norm u_{\dot H^{3/2}}\), and
+\(c_*=(\sqrt2\pi)^{-1}\). The Sobolev inequality used in
+the critical production calculation and its dual give
+\[
+ \norm{B_0}_{\dot H^{-1/2}}
+ \le C_3\norm u_3\norm{\nabla u}_3
+ \le c_*hd.
+\]
+The projector \(\mathbb Q\) has norm one, so this also bounds
+\(\mathbb Q B_0\). There is a stronger spatial estimate for that
+gradient component. Expanding its divergence and using
+\(\nabla\cdot u=0\) puts one derivative on each factor:
+\[
+ \operatorname{div}B_0=\partial_i u_j\,\partial_j u_i.
+\]
+The Fourier symbol of \(\mathbb Q\) and the dual Sobolev inequality
+now imply
+\begin{equation}
+ \begin{aligned}
+ \norm{\mathbb Q B_0}_{\dot H^{1/2}}
+ &=\norm{\operatorname{div}B_0}_{\dot H^{-1/2}}\\
+ &\le C_3\norm{\operatorname{tr}[(\nabla u)^2]}_{3/2}\\
+ &\le C_3\norm{\nabla u}_3^2
+ \le c_*d^2.
+ \end{aligned}
+ \label{r:eq:pressure-critical-gain}
+\end{equation}
+This estimate controls the nonlinear pressure gradient
+\(\nabla p-\mathbb Q f=-\mathbb Q B_0\). It retains the prescribed
+source part of pressure separately.
+
+Use the already selected \(R=R_{0,1}\),
+\(D=\norm{u_0}_{H^1}^2\), and set
+\(F_-^\sigma=\norm{\Pp f}_{L^2\dot H^{-1/2}}\le F_-\).
+Substituting \eqref{r:eq:critical-input} into
+\eqref{r:eq:acceleration-orthogonal} and
+\eqref{r:eq:pressure-critical-gain} yields
+\begin{equation}
+ \begin{aligned}
+ \norm{D_tu}_{L^2\dot H^{-1/2}}^2
+ &\le\bigl(\nu\sqrt R+F_-^\sigma\bigr)^2
+       +\frac{(D+R)R}{2\pi^2},\\
+ \norm{\nabla p-\mathbb Q f}_{L^1\dot H^{1/2}}
+ &\le\frac{R}{\sqrt2\pi}.
+ \end{aligned}
+ \label{r:eq:critical-material-bounds}
+\end{equation}
+These are finite consequences of the two critical coordinates.
+The first bound uses orthogonality to add the squared component norms;
+the second uses incompressibility to control the pressure contribution
+at a higher spatial order. The pointwise acceleration bound below uses
+a stronger finite rectangle.
+
+Ordinary temporal differentiation preserves the two projections:
+\[
+ \partial_t^na
+ =\nu\Delta V_n+\Pp F_n+\mathbb Q B_n.
+\]
+The orthogonal identity follows at each Eulerian temporal row. Repeated
+material differentiation also differentiates the transport operator;
+the commutators retained in Appendix~\ref{r:app:endpoint} give those higher
+parcel derivatives.
+
+\input{parts/refutation/terminal-characterization.tex}
+\input{parts/refutation/forced-domain-propagation.tex}
+
+\subsection{Material derivatives of incompressibility}
+
+Material acceleration is generally not divergence free, even when
+the velocity is. Write \(U_{ij}=\partial_j u_i\).
+Differentiating \(\nabla\cdot u=0\) along a trajectory gives
+\[
+ 0=D_t(\nabla\cdot u)
+   =\nabla\cdot(D_tu)-\operatorname{tr}(U^2).
+\]
+The pressure equation consequently agrees with
+\[
+ \nabla\cdot(D_tu)=\operatorname{tr}(U^2)
+ =-\Delta p+\nabla\cdot f.
+\]
+Every ordinary mixed derivative of \(\nabla\cdot u\) vanishes. Every
+material derivative must retain the transport commutator. With
+\(A_k=D_t^ku\) and \(g_k=\nabla\cdot A_k\), this reads
+\[
+ g_0=0,\qquad
+ g_{k+1}=D_tg_k+\partial_i u_j\,\partial_j(A_k)_i.
+\]
+Thus the acceleration, jerk, and higher parcel responses belong to one
+constraint hierarchy. Appendix~\ref{r:app:endpoint} derives its first
+three rows and the complete conversion to mixed Eulerian derivatives.
+
+For the deformation gradient \(F=\partial_\ell X\), the volume ratio
+\(j=\det F\) obeys \(j_t=0\) and
+\[
+ j_{tt}=\bigl[\nabla\cdot(D_tu)-\operatorname{tr}(U^2)\bigr](X,t)j=0.
+\]
+The term \(\operatorname{tr}(U^2)\) accounts for the changing
+deformation of the parcel. Volume preservation is consistent with a
+nonzero divergence of acceleration. Quantitative bounds on the
+acceleration require Sobolev control of the velocity, as in the
+following corollary.
+
+\begin{corollary}[Momentum and acceleration bounds from \(R_{1,2}\)]
+For a locally smooth solution of \eqref{r:eq:ns} with the stated force,
+the single condition \(R_{1,2}<\infty\) suffices for uniform bounds on
+all four undifferentiated momentum terms. Set
+\[
+ R:=R_{1,2},\qquad A:=\sqrt{(1+T^{-1})R},
+ \qquad F:=L_{0,2},\qquad
+ G:=\sup_t\norm{\Pp f(t)}_{H^2}.
+\]
+Then
+\begin{equation}
+ \begin{aligned}
+ \norm{u_t}_{L^\infty_{t,x}}&\le c_\infty A,\\
+ \norm{(u\cdot\nabla)u}_{L^\infty_{t,x}}&\le A^2/(8\pi),\\
+ \norm{\nabla p}_{L^\infty_{t,x}}&\le A^2/(2\pi)+c_\infty F,\\
+ \norm{\nu\Delta u}_{L^\infty_{t,x}}&\le A^2/(2\pi)+c_\infty(A+G).
+ \end{aligned}
+ \label{r:eq:one-rectangle}
+\end{equation}
+The total material acceleration obeys
+\begin{equation}
+ \norm{D_tu}_{L^\infty_{t,x}}\le c_\infty A+\frac{A^2}{8\pi}.
+ \label{r:eq:material-one-rectangle}
+\end{equation}
+Along each material trajectory,
+\[
+ |u(X(b,t),t)|
+ \le |u_0(b)|+t\left(c_\infty A+\frac{A^2}{8\pi}\right).
+\]
+Also \(R_{0,1}\le R\), so \eqref{r:eq:critical-production} bounds the
+integrated critical production by
+\(\sqrt{D+R}\,R/(\sqrt2\pi)\), with \(D=\norm{u_0}_{H^1}^2\).
+\end{corollary}
+
+\begin{proof}
+The rectangle contains \(u,u_t\in L^2(0,T;H^3)\). The time trace in
+\(H^3\) gives
+\[
+ \sup_t\norm{u(t)}_{H^3}^2
+ \le T^{-1}\norm u_{L^2H^3}^2
+ +2\norm u_{L^2H^3}\norm{u_t}_{L^2H^3}\le A^2.
+\]
+The adjacent pair \(u_t\in L^2H^3\), \(u_{tt}\in L^2H^1\)
+gives \(\sup_t\norm{u_t}_{H^2}\le A\) by \eqref{r:eq:trace}.
+For \(B=(u\cdot\nabla)u\), pointwise embedding gives
+\(\norm B_\infty\le c_\infty^2 A^2\).
+The weighted Fourier convolution used in \eqref{r:eq:product}, applied
+directly to this contraction, also gives
+\[
+ \norm B_{H^2}
+ \le4c_\infty\norm u_{H^2}\norm{\nabla u}_{H^2}
+ \le4c_\infty A^2.
+\]
+Euclidean and Frobenius norms bound the contraction with constant one.
+Finally retain both projected identities,
+\[
+ \nabla p=(I-\Pp)(f-B),\qquad
+ \nu\Delta u=u_t+\Pp B-\Pp f.
+\]
+Their \(H^2\) bounds and \eqref{r:eq:embedding} prove
+\eqref{r:eq:one-rectangle}. Adding \(u_t+B\) proves
+\eqref{r:eq:material-one-rectangle}. The bounded \(H^3\) velocity supplies
+bounded speed and spatial gradient, hence trajectories throughout the
+interval. Integration of their acceleration proves the last bound.
+The critical estimate follows by restriction to \(R_{0,1}\).
+\end{proof}
+
+The finite condition \(R_{1,2}<\infty\) controls both the Eulerian
+momentum terms and the acceleration along trajectories, without a
+smallness restriction. Higher material derivatives are polynomials
+in finitely many mixed Eulerian derivatives. Appendix~\ref{r:app:endpoint}
+proves the two-way conversion between these derivative families,
+gives an explicit rectangle for each requested order, and derives
+their endpoint traces and convergence rates. General production,
+pressure, and acceleration estimates are developed in
+Appendix~\ref{r:sec:recovered-rectangle}.
+
+\section{Exact cancellation in the prescribed exterior}
+\label{r:sec:exact-cancellation}
+
+The proposed construction combines a concentrating core, an exact
+swirling exterior, and spatial cutoffs. We begin with the exterior,
+where all correction fields vanish and the velocity and pressure have
+explicit formulas \cite[p.~116, Step~4; p.~138, Lemma~A.6]{openai-paper}.
+This region already gives positive contributions to the Sobolev norms
+used above. After calculating its momentum balance and integer-order
+growth, we obtain fractional lower bounds that remain valid for any
+interior completion agreeing with this exterior.
+
+Work at viscosity one. Write
+\(\tau=1-t\), \(A=\tfrac12+h\), \(D=\tfrac12-h\), with
+\(0<h<1/100\), and \(b=2^A\kappa>0\).
+The amplitude \(\kappa\) is the constant denoted by \(c_\infty\) in
+that construction, unrelated to our embedding constant. Define
+\begin{equation}
+ H(Z)=\frac1{\Gamma(1+h)}\int_0^\infty
+ e^{-v}v^h(1+Zv)^{-h}\dd v,
+ \qquad K(r,t)=b r^{-2A}H(4\tau/r^2).
+ \label{r:eq:heat-integral}
+\end{equation}
+On its exterior the velocity and pressure are
+\begin{equation}
+ u=K(r,t)e_\theta,\qquad
+ p=-\int_r^\infty K(\rho,t)^2\frac{\dd\rho}{\rho}.
+ \label{r:eq:uncut-exterior}
+\end{equation}
+These fields are smooth for \(r>0,t<1\), and the pressure integral
+converges since its integrand decays as \(\rho^{-3-4h}\).
+
+\begin{proposition}[Exact exterior cancellation and failure of a finite rectangle]
+\label{r:prop:exterior-cancellation}
+The exterior \eqref{r:eq:uncut-exterior} has zero momentum residual.
+On the shrinking annuli specified below, all four individual momentum
+terms grow without bound. Any whole-space velocity agreeing with this
+exterior on those annuli satisfies
+\[
+ R_{0,1}=\int_0^1
+ \bigl(\norm u_{H^2}^2+\norm{u_t}_2^2\bigr)\dd t=\infty.
+\]
+The localized field prescribed in \cite{openai-paper} agrees with the
+exterior on these annuli.
+Its material acceleration also fails to belong to \(L^2_{t,x}\), although
+the exterior trajectories preserve volume and satisfy every differentiated
+material incompressibility identity.
+\end{proposition}
+
+\begin{proof}
+Differentiation under the integral, justified by an integrable exponential
+majorant, gives
+\[
+ H'(Z)=-\frac{h}{\Gamma(1+h)}\int_0^\infty
+ e^{-v}v^{h+1}(1+Zv)^{-h-1}\dd v<0.
+\]
+Thus \(H(0)=1\), \(H'(0)=-h(1+h)\), and \(H\) is positive.
+Integration by parts in \(v\), with vanishing boundary terms, gives
+\[
+ Z^2H''+[1+2(1+h)Z]H'+h(1+h)H=0.
+\]
+Substitution into the radial derivatives of \(K\) proves
+\(K_t=(\partial_{rr}+r^{-1}\partial_r-r^{-2})K\).
+The angular unit vector contributes the last term. Computing transport
+and the pressure derivative now gives the four signed momentum terms:
+\begin{equation}
+ \begin{aligned}
+ u_t&=K_t e_\theta,&
+ (u\cdot\nabla)u&=-K^2r^{-1}e_r,\\
+ \nabla p&=K^2r^{-1}e_r,&
+ -\Delta u&=-K_t e_\theta.
+ \end{aligned}
+ \label{r:eq:exact-pairs}
+\end{equation}
+Their sum is zero on this open region, as is every fixed mixed derivative
+of their sum.
+
+We next locate an open region where the exact localized field has these
+formulas. Its coordinates satisfy
+\(\tau=q(1-\eta^2)\), \(z=q^D\eta\), and \(X=r^2/(2q)\)
+\cite[(3.2)]{openai-paper}.
+Fix \(0<d<1\) and choose \(c>0\) with
+\(c^2(1-d^2)/2>X_{\rm ext}\). Set
+\begin{equation}
+ \mathcal E_\tau=
+ \{c\sqrt\tau<r<2c\sqrt\tau,\quad |z|<d\tau^D\}.
+ \label{r:eq:shrinking-annulus}
+\end{equation}
+Since \(q\ge\tau\), throughout this region
+\[
+ |\eta|\le d,\qquad
+ \tau\le q\le\tau/(1-d^2),\qquad
+ X\ge c^2(1-d^2)/2>X_{\rm ext}.
+\]
+All corrections and the vector potential vanish there
+\cite[p.~116, Step~4]{openai-paper}. For sufficiently small \(\tau\),
+\(q<q_*\), \(2c\sqrt\tau<r_0/2\),
+\(d\tau^D<z_0/2\), and \(\tau<\tau_0/2\).
+Both cutoffs in \cite[(10.3)--(10.5)]{openai-paper} equal one.
+This proves agreement with \eqref{r:eq:uncut-exterior} throughout
+\(\mathcal E_\tau\).
+
+Take the Eulerian derivatives at fixed spatial position before evaluating
+at \(r=y\sqrt\tau\). The positive functions
+\[
+ k(y)=b y^{-2A}H(4/y^2),\qquad
+ j(y)=-4b y^{-2A-2}H'(4/y^2)
+\]
+satisfy
+\begin{equation}
+ \begin{aligned}
+ |u|&=k(y)\tau^{-1/2-h},\\
+ |u_t|=|\Delta u|&=j(y)\tau^{-3/2-h},\\
+ |(u\cdot\nabla)u|=|\nabla p|
+ &=k(y)^2y^{-1}\tau^{-3/2-2h}.
+ \end{aligned}
+ \label{r:eq:exterior-powers}
+\end{equation}
+Every coefficient is strictly positive. The individual terms diverge
+while cancelling exactly as in \eqref{r:eq:exact-pairs}.
+
+Finally integrate over the annulus, rather than infer a Sobolev norm from
+one point. Cylindrical integration and \(r=y\sqrt\tau\) give
+\begin{equation}
+ \begin{aligned}
+ \int_{\mathcal E_\tau}|u_t|^2\dd x
+ &=\int_{\mathcal E_\tau}|\Delta u|^2\dd x\\
+ &=C_{c,d}\tau^{-3/2-3h},\qquad
+ C_{c,d}=4\pi d\int_c^{2c}j(y)^2y\dd y>0.
+ \end{aligned}
+ \label{r:eq:exterior-integral}
+\end{equation}
+The coefficient is finite and positive by continuity and strict positivity
+on the fixed compact interval. Since
+\(\norm u_{H^2}^2\ge\norm{\Delta u}_2^2\), for any sufficiently small
+\(\varepsilon>0\) and \(0<a<\varepsilon\),
+\begin{equation}
+ \int_{1-\varepsilon}^{1-a}
+ (\norm u_{H^2}^2+\norm{u_t}_2^2)\dd t
+ \ge\frac{2C_{c,d}}{1/2+3h}
+ \left(a^{-1/2-3h}-\varepsilon^{-1/2-3h}\right).
+ \label{r:eq:rectangle-divergence}
+\end{equation}
+Letting \(a\downarrow0\) proves the claimed rectangle divergence.
+
+Material differentiation retains the rotation of the cylindrical basis.
+Writing \(a_{\rm mat}=D_tu\), we obtain
+\begin{equation}
+ \begin{aligned}
+ a_{\rm mat}&=-K^2r^{-1}e_r+K_t e_\theta,\\
+ D_ta_{\rm mat}
+ &=-3KK_t r^{-1}e_r+(K_{tt}-K^3r^{-2})e_\theta .
+ \end{aligned}
+ \label{r:eq:exterior-material}
+\end{equation}
+The radial and angular acceleration components are orthogonal. Hence
+\begin{equation}
+ \begin{aligned}
+ \int_{\mathcal E_\tau}|a_{\rm mat}|^2\dd x
+ &=C_{c,d}\tau^{-3/2-3h}
+   +B_{c,d}\tau^{-3/2-5h},\\
+ B_{c,d}&=4\pi d\int_c^{2c}\frac{k(y)^4}{y}\dd y>0 .
+ \end{aligned}
+ \label{r:eq:exterior-material-integral}
+\end{equation}
+Both powers are nonintegrable at zero. This proves the failure of the
+material \(L^2_{t,x}\) coordinate without identifying it with \(u_t\).
+
+To verify volume preservation, follow a trajectory segment that stays
+inside this open exterior. With initial coordinates
+\((r_*,\theta_*,z_*)\), its exact motion is
+\[
+ r(t)=r_*,\qquad z(t)=z_*,\qquad
+ \theta(t)=\theta_*+\Phi(r_*,t),\qquad
+ \Phi(r,t)=\int_{t_0}^t\frac{K(r,s)}r\dd s .
+\]
+Its cylindrical coordinate Jacobian is one; the unchanged radius makes
+its Cartesian volume Jacobian one as well. Every derivative of the volume
+of a transported parcel vanishes. In particular, with
+\(U_{ij}=\partial_j u_i\), direct differentiation gives
+\[
+ \nabla\cdot a_{\rm mat}
+ =-\frac{2KK_r}{r}
+ =\operatorname{tr}(U^2).
+\]
+This is precisely the acceleration constraint derived in
+Appendix~\ref{r:app:endpoint}. Higher orders follow by differentiating the
+identically constant volume Jacobian, or by its material divergence
+recurrence. The growing acceleration norm violates none of these
+identities.
+\end{proof}
+
+The region's kinetic energy instead equals
+\[
+ \int_{\mathcal E_\tau}|u|^2\dd x
+ =4\pi d\left(\int_c^{2c}k(y)^2y\dd y\right)
+ \tau^{1/2-3h}\longrightarrow0.
+\]
+The shrinking volume permits large speeds and derivatives without
+requiring large kinetic energy in that region.
+
+The cancellation has a direct mechanical meaning:
+\(D_tu=\Delta u-\nabla p\) in this exterior.
+The inward acceleration is supplied by pressure, and the change in swirl
+speed is supplied by viscous diffusion. A zero external force does not
+make either contribution zero. Moving them to one side of the momentum
+law produces the two cancelling pairs in \eqref{r:eq:exact-pairs}.
+
+The annulus \(\mathcal E_\tau\) is not a transported parcel: its radii and
+height shrink while exterior parcels retain their own radii and heights.
+Its decreasing volume and growing norms sample different particle labels.
+Diffusion can increase
+velocity at a point by transporting momentum from surrounding fluid;
+its dissipation of total energy is an integral statement.
+
+This exterior occupies a region with a moving inner boundary. It is not
+a global unforced history on \(\R^3\), so applying the unforced
+theorem to this restriction would change that theorem's hypotheses.
+The whole candidate includes an interior and cutoff forcing. The
+exterior calculation depends only on the formulas in the displayed
+region; the interior residual estimate enters the source calculation
+below.
+
+\subsection{Kinetic energy, strain, and critical concentration}
+
+The exterior's acceleration cost can be compared with its strain and
+kinetic costs on the explicit annulus \eqref{r:eq:shrinking-annulus}.
+For the azimuthal velocity \(K(r,t)e_\theta\), the symmetric velocity
+gradient \(S=(\nabla u+\nabla u^{\mathsf T})/2\) has squared norm
+\[
+ |S|^2=\tfrac12(K_r-K/r)^2.
+\]
+Use \(K=\tau^{-A}k(r/\sqrt\tau)\) and cylindrical volume measure
+\(r\,dr\,d\theta\,dz\). Direct substitution gives
+\begin{equation}
+\begin{aligned}
+ \int_{\mathcal E_\tau}|S|^2\,dx
+ &=C_S\tau^{-1/2-3h},\\
+ C_S&=2\pi d\int_c^{2c}(k'(y)-k(y)/y)^2y\,dy>0,\\
+ \int_{\mathcal E_\tau}|u|^2\,dx
+ &=4\pi d\int_c^{2c}|k(y)|^2y\,dy\;\tau^{1/2-3h},\\
+ \int_{\mathcal E_\tau}|u|^3\,dx
+ &=4\pi d\int_c^{2c}|k(y)|^3y\,dy\;\tau^{-4h}.
+\end{aligned}
+\label{r:eq:exterior-strain-critical-costs}
+\end{equation}
+Here \(C_S>0\) because the analytic, decaying heat profile cannot obey
+\(k'=k/y\) throughout an open annulus. The first time integral is finite
+since \(h<1/6\), and the kinetic contribution tends to zero. The
+\(L^3\) contribution grows without bound. This explains how finite
+kinetic energy and finite viscous action coexist with critical
+concentration in the displayed region. Their bounds do not substitute
+for the critical coordinates controlled by the full intersection.
+
+\input{parts/refutation/fractional-exterior.tex}
+
+\subsection{A material trajectory in the vortex core}
+\label{r:sec:axis-trajectory}
+
+The exterior annuli sample different particles as they shrink. Inside the
+core, the stated formulas permit a stronger calculation: one particle
+approaches the origin while its velocity and every material derivative
+increase without bound. We can recover that trajectory directly from
+the velocity on the axis.
+
+The leading construction fixes \(U(0,\eta)=4\eta+j_0\), with
+\(0<j_0\le0.05\)
+\cite[p.~37; (B.1), (B.12)]{openai-paper}.
+Every positive-order axial profile has zero axis value
+\cite[p.~47, Lemma~5.1]{openai-paper}.
+The cutoffs depend on \(q(z,t)\); their additional curl terms are radial
+and leave this axial value unchanged. The wave and mean corrections
+vanish near the axis at each \(t<1\)
+\cite[(5.45); pp.~114--115]{openai-paper}.
+Thus the candidate's exact axis trace, where the final cutoffs equal one,
+is
+\begin{equation}
+ u(0,0,z,t)=q^{-A}(4\eta+j_0)e_z,\qquad
+ z=q^D\eta,\quad 1-t=q(1-\eta^2).
+ \label{r:eq:axis-trace}
+\end{equation}
+
+Define \(H_c(\eta)=D\eta+(1-\eta^2)(4\eta+j_0)\).
+Its values at \(-j_0/4\) and zero have opposite signs, and
+\(H_c'>0\) between them. Let \(\eta_c\) be its unique zero in that
+interval, and put
+\[
+ d_c=1-\eta_c^2,\qquad U_c=4\eta_c+j_0
+       =-\frac{D\eta_c}{d_c}>0.
+\]
+For sufficiently late \(t_0<1\), the curve
+\begin{equation}
+ x_c(t)=\bigl(0,0,\eta_c[(1-t)/d_c]^D\bigr),
+ \qquad t_0\le t<1,
+ \label{r:eq:axis-path}
+\end{equation}
+lies inside the cutoff plateaux and local domain. Differentiating its
+axial component gives
+\[
+ \dot z_c=-D\eta_c d_c^{-D}(1-t)^{-A}
+         =d_c^A U_c(1-t)^{-A}
+         =u_z(x_c(t),t).
+\]
+The curve is a material trajectory, rather than a choice of spatial
+sampling points. Along it, with \(C_c=d_c^AU_c>0\),
+\begin{equation}
+ (D_t^n u)(x_c(t),t)
+ =C_c(A)_n(1-t)^{-A-n}e_z,\qquad n\ge0,
+ \label{r:eq:axis-material-tower}
+\end{equation}
+where \((A)_0=1\) and
+\((A)_n=A(A+1)\cdots(A+n-1)\). Acceleration, jerk, and every
+fixed higher material derivative diverge along this particle. Yet its
+position has a finite limit, since \(A<1\).
+
+This growth remains compatible with local volume preservation. Ordinary
+axial differentiation of \eqref{r:eq:axis-trace} yields
+\[
+ \partial_z u_z(x_c(t),t)=\frac{\beta_c}{1-t},\qquad
+ \beta_c=\frac{d_c[-2A\eta_c U_c+4d_c]}
+                   {1-2h\eta_c^2}>0.
+\]
+Axis symmetry and incompressibility give transverse contraction rates
+\(-\beta_c/[2(1-t)]\), with an additional transverse rotation.
+The linearized flow from \(t_0\) has axial stretch
+\([(1-t_0)/(1-t)]^{\beta_c}\) and transverse length factors
+\([(1-t)/(1-t_0)]^{\beta_c/2}\). Rotation changes neither factor's
+determinant. Their volume product is exactly one at every \(t<1\).
+Unbounded stretch and vanishing transverse widths coexist with constant
+material volume; differentiating that constant produces zero at every
+order.
+
+For the source along this trajectory, assume the core residual estimate
+\cite[(9.20)]{openai-paper}: every finite Eulerian derivative of \(f\)
+is \(O(q^N)\) for every \(N\). Along \eqref{r:eq:axis-path}, each fixed
+derivative of \(x_c\) has only a finite power singularity. The chain
+rule gives
+\[
+ \frac{\dd^k}{\dd t^k}f(x_c(t),t)=O((1-t)^N)
+ \quad\text{for every fixed }k,N\ge0.
+\]
+Under this residual estimate, every fixed material derivative of the
+force approaches zero along the particle, while
+\eqref{r:eq:axis-material-tower} diverges. The momentum law permits this
+distinction because pressure and viscous stresses also contribute to
+the acceleration.
+
+\input{parts/refutation/force-admission.tex}
+
+\section{Strict-subinterval uniqueness and refutation}
+\label{r:sec:exclusion}
+
+A regular solution constructed from the prescribed data constrains every
+classical candidate for those data. This follows from uniqueness before
+any terminal bound on the candidate is assumed.
+
+\begin{theorem}[Exclusion of the proposed finite-time blowup]
+\label{r:thm:openai-exclusion}
+No classical pair with the zero datum, positive viscosity, prescribed force
+\(\widetilde f_{\rm OA}\), and exterior asserted in
+\cite[Theorem~1.1]{openai-paper} can solve that forced initial-value problem
+on \([0,1)\).
+\end{theorem}
+
+\begin{proof}
+Apply Corollary~\ref{r:thm:supplied-forced} to
+\((0,\nu,\widetilde f_{\rm OA})\), and let \(U,P\) be its regular solution on
+\([0,1]\). Let \(v,p\) be a proposed classical
+solution on \([0,1)\), with identical initial datum, prescribed force,
+viscosity, and spatial domain. For the compactly supported candidate in
+OpenAI's Theorem~1.1, every spatial Sobolev norm is finite on each strict
+interval \([0,S]\), \(S<1\). Put \(z=v-U\), \(\pi=p-P\).
+Subtracting their momentum equations gives
+\begin{equation}
+ \begin{aligned}
+ z_t+(v\cdot\nabla)z+(z\cdot\nabla)U+\nabla\pi
+ &=\nu\Delta z,\\
+ \nabla\cdot z=0,\qquad z(0)&=0.
+ \end{aligned}
+ \label{r:eq:candidate-identification}
+\end{equation}
+The prescribed force cancels because both histories solve that one forced
+problem. Pairing with \(z\) eliminates the pressure and the divergence-free
+transport term. With \(L(t)=\norm{\nabla U(t)}_\infty\),
+\[
+ \frac12\frac{\dd}{\dd t}\norm z_2^2+\nu\norm{\nabla z}_2^2
+ =-\int z_i z_j\partial_jU_i\dd x
+ \le L(t)\norm z_2^2.
+\]
+The intersection for \(U\) supplies \(L\in L^1(0,1)\). Gronwall's
+inequality on \([0,S]\) yields
+\[
+ \norm{z(t)}_2^2
+ \le\norm{z(0)}_2^2\exp\left(2\int_0^t L(s)\dd s\right)=0.
+\]
+Since \(S<1\) was arbitrary, \(v=U\) throughout \([0,1)\). Every estimate for \(U\), including its mixed and material
+derivative estimates, consequently applies to \(v\). No terminal regularity of \(v\) was used to
+identify it with \(U\).
+
+For rest data, the finite rectangle \(R_{0,2}[U]\) and
+\eqref{r:eq:velocity-bound} give
+\[
+ \begin{aligned}
+ \sup_{0\le t<1}\norm{v(t)}_\infty^2
+ &=\sup_{0\le t<1}\norm{U(t)}_\infty^2\\
+ &\le\frac{R_{0,2}[U]}{8\pi}<\infty.
+ \end{aligned}
+\]
+This bound excludes the velocity growth in \cite[Theorem~1.1]{openai-paper}.
+Section~\ref{r:sec:orthogonal-acceleration} also bounds the acceleration,
+transport term, pressure gradient, and viscous term individually.
+Each bound follows from finite mixed norms of \(U\), so it applies
+irrespective of cancellation among the momentum terms.
+
+The prescribed exterior already lies outside a lower-order rectangle.
+Equation~\eqref{r:eq:rectangle-divergence} gives a positive contribution
+whose time integral is infinite, so \(R_{0,1}=\infty\).
+Every velocity in \(\mathscr I_1\) instead has \(R_{0,1}<\infty\).
+No velocity containing that exterior belongs to the full-interval
+compatible intersection.
+
+Material coordinates preserve the conclusion.
+Equation~\eqref{r:eq:exterior-material-integral} shows a divergent
+material-acceleration integral, while the exact axis trajectory in
+Section~\ref{r:sec:axis-trajectory} has unbounded velocity and every fixed
+higher material derivative. Incompressibility is retained through the
+volume Jacobian and its differentiated identities. The resulting norm blowup
+is consequently present in both the Eulerian and material descriptions of the
+proposed flow.
+
+Equation~\eqref{r:eq:oa-force-class} gives the compactly supported smooth
+continuation of the candidate's residual. The initial datum is zero and the
+viscosity is positive, so Corollary~\ref{r:thm:supplied-forced} gives the
+regular solution \(U\) used above. In particular,
+\[
+ \sup_{t<1}\norm{v(t)}_\infty^2\le R_{0,2}[U]/(8\pi)<\infty
+\]
+whereas the candidate has unbounded velocity. Its divergent critical
+coordinate in Theorem~\ref{r:joined-thm:criticalexterior} gives a second
+contradiction. Both comparisons use uniqueness on strict subintervals;
+the terminal bounds follow from the global forced theorem proved in Part~II.
+\end{proof}
+
+\subsection{Quantitative source criteria and conservative forcing}
+
+The appendices provide two quantitative source criteria for
+continuation. They also reduce conservative forcing to the unforced
+problem proved in Part~I. Each result
+provides a comparison solution under its own hypotheses.
+For the rest datum and unit terminal time, the two quantitative
+hypotheses are, respectively,
+\begin{equation}
+ \begin{aligned}
+ G_{\rm OA}&:=\int_0^1\norm{\Pp f_{\rm OA}(t)}_{H^3}\dd t
+             <\frac{\pi\sqrt\nu}{8},\\
+ B_{\rm OA}&:=\int_0^1\norm{\Pp f_{\rm OA}(t)}_{\dot H^{-1/2}}^2\dd t
+             <\frac{4\pi^2\nu^3}{3}.
+ \end{aligned}
+ \label{r:eq:candidate-admission}
+\end{equation}
+Either inequality would independently give the displayed finite-horizon
+estimates.
+The explicit source fails both tests. Appendix~\ref{r:app:critical-source}
+checks its actual residual directly and proves
+\begin{equation}
+ \begin{aligned}
+ G_{\rm OA}&\ge\frac{\sqrt{\pi\nu}}2
+                >\frac{\pi\sqrt\nu}{8},\\
+ B_{\rm OA}&>\frac{4\pi^2\nu^3}{3}.
+ \end{aligned}
+ \label{r:eq:necessary-admission-budgets}
+\end{equation}
+The first bound follows from the \(H^3\) energy balance and the
+exterior's growing spatial norm. The second uses the critical energy
+balance up to its first threshold crossing, followed by the nonzero
+source in the fixed cutoff region. Neither calculation assumes terminal
+regularity of the velocity or global smooth continuation of the source.
+Thus the prescribed force lies outside both quantitative source
+classes. Equation~\eqref{r:eq:actual-pressure-obstruction} also excludes
+the conservative-force reduction. Failure of these sufficient conditions does
+not affect Corollary~\ref{r:thm:supplied-forced}, which follows from the
+unrestricted forced theorem of Part~II.
+The first-rectangle criterion in Section~\ref{r:sec:first-rectangle}
+also fails for this candidate: its conclusion would give the finite
+rectangle contradicted by \eqref{r:eq:rectangle-divergence}.
+In each case the unbounded candidate norms prevent application
+of the corresponding sufficient condition.
+
+
+Theorem~\ref{r:thm:openai-exclusion} completes the formal refutation.  The
+appendices that follow retain the two proof-lane coordinate catalogues and the
+auxiliary source, endpoint, material, and quantitative calculations used in
+Part~III.
+\appendix
+
+\section*{Appendix map}
+\addcontentsline{toc}{section}{Appendix map}
+The first catalogue records the canonical coordinates of the unforced proof;
+the second records the distinct canonical coordinates of the forced proof.
+The remaining appendices belong to the refutation and supply its source-work,
+terminal-domain, parcel, and quantitative estimates.  Their placement after
+the refutation does not move any appendix calculation upstream of the theorem
+that uses it.
+
+\UnforcedQuantitativeCatalogue
+\ForcedQuantitativeCatalogue
+
+\input{parts/refutation/source-work-appendix.tex}
+\input{parts/refutation/source-response.tex}
+\input{parts/refutation/terminal-domains.tex}
+\input{parts/refutation/critical-reserve-and-chord-density.tex}
+\input{parts/refutation/first-rectangle.tex}
+\input{parts/refutation/recovered-rectangle-bounds.tex}
+\input{parts/refutation/parcel-metric.tex}
+\input{parts/refutation/angular-momentum-appendix.tex}
+
+
+\section{Endpoint jets and material derivatives}\label{r:app:endpoint}
+
+The intersection also gives \(V_n\in H^1(0,T;H^m)\) at every fixed
+\(n,m\). Its continuous representative has a limit at \(T\).
+Product continuity in the Sobolev spaces used above gives limits for \(B_n\);
+\eqref{r:eq:pressure} gives limits for \(\nabla Q_n\). Viscosity and
+spatial differentiation are continuous between the stated spaces. Each
+momentum term thus extends to the endpoint in every finite spatial norm,
+and \eqref{r:eq:embedding} gives uniform convergence of each fixed spatial
+derivative.
+
+\begin{samepage}
+These limits have quantitative rates. Since
+\(\partial_t B_n=B_{n+1}\), integrating the next row yields, for
+\(|\alpha|=k\),
+\begin{align}
+ \norm{\partial_x^\alpha[V_{n+1}(t)-V_{n+1}(T)]}_\infty
+ &\le c_\infty(T-t)A_{n+2,k+2},\label{r:eq:rate-time}\\
+ \norm{\partial_x^\alpha[B_n(t)-B_n(T)]}_\infty
+ &\le c_\infty(T-t)S_{n+1,k+2},\label{r:eq:rate-transport}\\
+ \norm{\partial_x^\alpha[\nabla Q_n(t)-\nabla Q_n(T)]}_\infty
+ &\le c_\infty(T-t)(L_{n+1,k+2}+S_{n+1,k+2}),\label{r:eq:rate-pressure}\\
+ \norm{\nu\partial_x^\alpha\Delta[V_n(t)-V_n(T)]}_\infty
+ &\le\nu c_\infty(T-t)A_{n+1,k+4}.\label{r:eq:rate-viscosity}
+\end{align}
+\end{samepage}
+To justify the integration, first apply the fundamental theorem on
+\([t,S]\), then let \(S\uparrow T\) in the continuous Sobolev
+representatives. The pressure rate follows by applying \(I-\Pp\) to
+\(F_{n+1}-B_{n+1}\). The rectangle \(R_{n+2,k+4}\), together with the
+displayed source norm, contains all coordinates used by these four rates.
+
+The terminal fields also obey the differentiated equation:
+\[
+ V_{n+1}(T)+B_n(T)+\nabla Q_n(T)-\nu\Delta V_n(T)=F_n(T).
+\]
+All its spatial derivatives agree with the limits of the corresponding
+spatially differentiated rows. The endpoint is a compatible velocity and
+pressure-gradient jet, rather than a collection of unrelated terminal fields.
+
+
+
+\subsection{Material acceleration and its higher derivatives}
+
+The fluid-particle acceleration uses both the first temporal row and
+transport:
+\begin{equation}
+ D_tu=V_1+B_0=-\nabla p+\nu\Delta u+f.
+\label{r:eq:material}
+\end{equation}
+Its uniform bound follows from \eqref{r:eq:material-one-rectangle}.
+The next parcel derivative differentiates both contributions:
+\begin{equation}
+ \begin{aligned}
+ D_t^2u={}&V_2+2(V_0\cdot\nabla)V_1+(V_1\cdot\nabla)V_0\\
+ &+(V_0\cdot\nabla)\bigl[(V_0\cdot\nabla)V_0\bigr].
+ \end{aligned}
+ \label{r:eq:jerk-mixed-jet}
+\end{equation}
+The factor two collects the temporal derivative of transport and the
+transport of \(V_1\). Jerk is already a composite of the mixed jet.
+
+Write \(D=D_t\), \(a=Du\), and \(U_{ij}=\partial_j u_i\).
+Ordinary derivatives commute, so
+\(\nabla\cdot V_n=\partial_t^n(\nabla\cdot u)=0\).
+Moving with the fluid introduces the velocity coefficient:
+\[
+ [D,\partial_i]w=-(\partial_i u_j)\partial_jw.
+\]
+For a smooth scalar or vector field \(w\), expanding the commutators gives
+\begin{equation}
+ \begin{aligned}
+ [D,\nabla]p&=-U^{\mathsf T}\nabla p,\\
+ [D,\Delta]w&=-(\Delta u)\cdot\nabla w
+ -2\sum_i(\partial_i u)\cdot\nabla\partial_i w.
+ \end{aligned}
+ \label{r:eq:material-commutators}
+\end{equation}
+The jerk of the parcel is consequently
+\begin{equation}
+ \begin{aligned}
+ Da={}&\nu\Delta a-\nabla(Dp)+U^{\mathsf T}\nabla p+Df\\
+ &-\nu\left[(\Delta u)\cdot\nabla u
+ +2\sum_i(\partial_i u)\cdot\nabla\partial_i u\right].
+ \end{aligned}
+ \label{r:eq:material-jerk}
+\end{equation}
+Every commutator coefficient is a spatial derivative of this velocity.
+The pressure and viscous terms remain attached to the mixed jet.
+In particular,
+\begin{equation}
+ \begin{aligned}
+ D(\nabla\cdot u)&=\nabla\cdot a-\operatorname{tr}(U^2)=0,\\
+ \nabla\cdot a&=\operatorname{tr}(U^2)
+              =-\Delta p+\nabla\cdot f .
+ \end{aligned}
+ \label{r:eq:acceleration-divergence}
+\end{equation}
+Acceleration's divergence is determined by the velocity gradient and
+the pressure equation. Its sign need not be positive:
+\(\operatorname{tr}(U^2)\) differs from \(|U|_{\mathrm F}^2\).
+The pressure pairing in a material row cannot be deleted using the
+divergence-free property of \(V_1\).
+
+Here spatial divergence and unbounded magnitude are distinct questions:
+\(\nabla\cdot a\ne0\) does not assert that \(|a|\) is infinite.
+Clay's incompressibility condition remains \(\nabla\cdot u=0\).
+Equation~\eqref{r:eq:acceleration-divergence} follows by differentiating
+that condition and is already encoded in its pressure Poisson equation.
+Retaining this identity introduces no additional hypothesis on a smooth
+solution of the original system.
+
+A material parcel still preserves its volume. Let \(X(\ell,t)\) be the
+flow from the particle label \(\ell\), and let
+\(j(\ell,t)=\det\partial_\ell X(\ell,t)\), with \(j(\ell,0)=1\).
+Differentiating the deformation matrix gives
+\(\partial_t(\partial_\ell X)=U(X,t)\partial_\ell X\), so
+\[
+ \partial_tj=(\nabla\cdot u)(X,t)j=0,\qquad j(\ell,t)=1.
+\]
+For a bounded initial parcel \(E\), its volume is
+\(|X(E,t)|=\int_E j(\ell,t)\dd\ell=|E|\).
+Every time derivative of that volume vanishes. At second order the
+Jacobian formula displays the cancellation explicitly:
+\begin{equation}
+ \partial_t^2j
+ =\bigl[\nabla\cdot a-\operatorname{tr}(U^2)
+                 +(\nabla\cdot u)^2\bigr](X,t)j=0.
+ \label{r:eq:parcel-volume}
+\end{equation}
+The nonzero divergence of acceleration is precisely accompanied by
+the changing parcel geometry. It does not create an additional degree
+of freedom or violate incompressibility.
+With the rectangle and constant \(A\) used in
+\eqref{r:eq:material-one-rectangle},
+\[
+ \norm{\nabla\cdot a}_{L^\infty_{t,x}}
+ \le\norm{\nabla u}_{L^\infty_{t,x}}^2
+ \le\frac{A^2}{8\pi}.
+\]
+
+The constraint continues through every material order. Put
+\(w_q=D^qu\) and \(\delta_q=\nabla\cdot w_q\). Expanding the
+divergence of \(Dw_q\) gives the exact recurrence
+\begin{equation}
+ \delta_0=0,\qquad
+ \delta_{q+1}=D\delta_q+\operatorname{tr}(U\nabla w_q).
+ \label{r:eq:material-incompressibility}
+\end{equation}
+For example, \(DU=\nabla a-U^2\), so the jerk satisfies
+\[
+ \nabla\cdot(Da)
+ =3\operatorname{tr}(U\nabla a)-2\operatorname{tr}(U^3).
+\]
+One further differentiation gives, with \(G=U\),
+\(B_1=\nabla a\), and \(B_2=\nabla(Da)\),
+\[
+ \nabla\cdot(D^3u)
+ =4\operatorname{tr}(GB_2)+3\operatorname{tr}(B_1^2)
+ -12\operatorname{tr}(G^2B_1)+6\operatorname{tr}(G^4).
+\]
+This follows from \(DB_k=B_{k+1}-B_kG\) and cyclicity of the trace.
+
+The higher spatial divergences are fixed by the lower material and
+spatial derivatives. Along the flow map, these relations express the
+compatibility of acceleration, jerk, and every subsequent derivative
+with \(j\equiv1\).
+
+For the full recurrence, put
+\(\mathcal L_0=\Delta\), \(\mathcal G_0=\nabla\), and define
+\(\mathcal L_{q+1}=[D,\mathcal L_q]\),
+\(\mathcal G_{q+1}=[D,\mathcal G_q]\). Then
+\begin{equation}
+ \begin{aligned}
+ D^{n+1}u={}&\nu\sum_{q=0}^n\binom nq\mathcal L_qD^{n-q}u\\
+ &-\sum_{q=0}^n\binom nq\mathcal G_qD^{n-q}p+D^nf.
+ \end{aligned}
+ \label{r:eq:material-binomial}
+\end{equation}
+Induction uses \(D(Lw)=L(Dw)+[D,L]w\) and Pascal's identity.
+Every operator coefficient is generated by the velocity in \eqref{r:eq:ns}.
+The first two material source derivatives are
+\[
+ \begin{aligned}
+ Df&=f_t+u\cdot\nabla f,\\
+ D^2f&=f_{tt}+2u\cdot\nabla f_t
+ +a\cdot\nabla f+\sum_{i,j}u_i u_j\partial_{ij}f.
+ \end{aligned}
+\]
+These derivatives measure the force encountered by the moving parcel.
+Their velocity factors are part of the coupled response, while the
+Eulerian derivatives of the prescribed field remain source data.
+Further material derivatives differentiate the velocity coefficients inside
+\(D_t\). Put \(J_{r,\alpha}=\partial_t^r\partial_x^\alpha u\).
+The exact reconstruction rule is
+\begin{equation}
+ D_tJ_{r,\alpha}
+ =J_{r+1,\alpha}+\sum_{\ell=1}^3
+      u_\ell J_{r,\alpha+e_\ell}.
+ \label{r:eq:material-jet-reconstruction}
+\end{equation}
+Start with \(D_t^0u=J_{0,0}\), apply this rule to each factor, and use
+Leibniz's rule for every product. After \(q\) steps, every component of
+\(D_t^qu\) is a polynomial in mixed jet coordinates. Each monomial
+contains at most \(q+1\) velocity factors, and the sum of their
+derivative orders \(r+|\alpha|\) is exactly \(q\). This proves
+the reconstruction at every finite order without introducing
+independent material rows.
+
+The reverse construction is equally explicit. Define the material--spatial
+coordinates \(M_{q,\alpha}=\partial_x^\alpha D_t^qu\). Ordinary
+spatial differentiation increments \(\alpha\). Expanding
+\(\partial_x^\alpha(D_tw)\) for \(w=D_t^qu\) gives
+\begin{equation}
+ \partial_tM_{q,\alpha}
+ =M_{q+1,\alpha}
+ -\sum_{\beta\le\alpha}\binom\alpha\beta
+       (M_{0,\beta}\cdot\nabla)M_{q,\alpha-\beta}.
+ \label{r:eq:eulerian-jet-reconstruction}
+\end{equation}
+Leibniz's rule now generates every ordinary mixed derivative from the
+material--spatial coordinates. These conversion rules relate the Eulerian and material derivative
+algebras. Their different operator orders are accounted for by
+the displayed commutator terms.
+
+\begin{proposition}[Equality of the complete derivative intersections]
+\label{r:prop:material-intersection}
+Let \(0<T<\infty\), and let \(u\) be a smooth vector field on
+\([0,T)\times\R^3\). Define \(D_t=\partial_t+u\cdot\nabla\) from this field.
+Then
+\begin{equation}
+ \begin{aligned}
+ &\partial_t^ru\in L^2(0,T;H^m)
+       &&\text{for every }r,m\ge0\\
+ &\hspace{20mm}\Longleftrightarrow\\[-2mm]
+ &D_t^qu\in L^2(0,T;H^m)
+       &&\text{for every }q,m\ge0.
+ \end{aligned}
+ \label{r:eq:intersection-equivalence}
+\end{equation}
+Here \(r,q,m\) are integers. No commutation of \(D_t\) with spatial
+derivatives is assumed.
+\end{proposition}
+\begin{proof}
+The Eulerian intersection gives
+\(u\in H^1(0,T;H^m)\) at every spatial height, and gives this
+property for each temporal derivative as well. Hilbert-valued time
+embedding supplies their uniform \(H^m\) bounds. The polynomial
+reconstruction \eqref{r:eq:material-jet-reconstruction}, spatial Sobolev
+multiplication, and \(T<\infty\) give every material coordinate in
+\(L^2_tH^m_x\).
+For the reverse implication put \(w_q=D_t^qu\) and
+\(b_{q,m}=\norm{w_q}_{L^2_tH^m_x}\). The exact identity
+\[
+ \partial_tw_q=w_{q+1}-(u\cdot\nabla)w_q
+\]
+first gives a time-integrable derivative. For integer \(m\ge0\),
+Leibniz's rule and \(H^2\hookrightarrow L^\infty\) give a finite
+constant \(C_m\) such that
+\[
+ \norm{v\cdot\nabla w}_{H^m}
+ \le C_m\norm{v}_{H^{m+2}}\norm{w}_{H^{m+2}}.
+\]
+Indeed, in each derivative of the product, the differentiated \(v\)
+factor is bounded in \(L^\infty\) using two additional derivatives,
+and the differentiated \(\nabla w\) factor is bounded in \(L^2\).
+Cauchy--Schwarz in time now yields
+\[
+ \norm{\partial_tw_q}_{L^1_tH^m_x}
+ \le\sqrt T\,b_{q+1,m}+C_m b_{0,m+2}b_{q,m+2}.
+\]
+Thus \(w_q\in W^{1,1}(0,T;H^m)\). Select a time where its
+\(H^m\) norm is at most \(T^{-1/2}b_{q,m}\), or take a limiting
+sequence of such times, and integrate its derivative. This gives the
+finite-coordinate bound
+\begin{equation}
+ \begin{aligned}
+ \sup_{t<T}\norm{w_q(t)}_{H^m}
+ &\le L_{q,m},\\
+ L_{q,m}
+ &:=T^{-1/2}b_{q,m}+\sqrt T\,b_{q+1,m}\\
+ &\hspace{7mm}+C_m b_{0,m+2}b_{q,m+2}.
+ \end{aligned}
+ \label{r:eq:material-reverse-trace}
+\end{equation}
+Every material row now has uniform spatial bounds at every finite
+height. The product reconstruction
+\eqref{r:eq:eulerian-jet-reconstruction} expresses each Eulerian mixed
+derivative using finitely many of those rows and spatial derivatives.
+Sobolev multiplication bounds each product in \(L^\infty_tH^m_x\);
+integration on the finite interval gives its \(L^2_tH^m_x\) norm.
+This proves the reverse implication.
+\end{proof}
+
+The proposition identifies the complete intersection independently
+of construction order. Its reverse trace estimate also shows how a finite
+collection of material coordinates supplies an Eulerian bound.
+For an explicit bound in the other direction, set
+\[
+ K_q=\max_{r+|\alpha|\le q}
+ \norm{\partial_t^r\partial_x^\alpha u}_{L^\infty_{t,x}}<\infty.
+\]
+At the next material differentiation, a product of at most \(q+1\)
+factors produces at most \(4(q+1)\) terms: one time derivative and
+three convective derivatives per factor. Starting with one term at \(q=0\)
+gives the sufficient componentwise coefficient bound \(4^q q!\). Hence
+\begin{equation}
+ \norm{D_t^q u}_{L^\infty_{t,x}}
+ \le\sqrt3\,4^q q!\max(1,K_q)^{q+1}<\infty.
+ \label{r:eq:material-all}
+\end{equation}
+The bound is finite for every fixed order \(q\). More generally,
+applying \(D_t^q\) to a vector field \(w\)
+produces products with one mixed derivative of \(w\) and at most \(q\)
+velocity factors. The identical counting argument bounds it by
+\(\sqrt3\,4^q q!\max(1,K_q)^qK_q^w\), where \(K_q^w\) is the
+maximum of its mixed derivative norms through order \(q\).
+For the prescribed source, set
+\(K_q^f=\max_{r+|\alpha|\le q}
+\norm{\partial_t^r\partial_x^\alpha f}_{L^\infty_{t,x}}\). This gives
+\[
+ \norm{D_t^q f}_{L^\infty_{t,x}}
+ \le\sqrt3\,4^q q!\max(1,K_q)^qK_q^f.
+\]
+These formulas preserve the dependence of a material force derivative on
+the fluid moving through its prescribed spatial field.
+
+The bounded velocity and its bounded spatial gradient give a unique fluid
+trajectory through each initial point on the closed interval. Along that
+trajectory, ordinary time derivatives of \(u(X(t),t)\) are the material
+derivatives just bounded. This connects the Eulerian rows to acceleration
+and its higher material derivatives without identifying
+\(\partial_t^n u\) with \(D_t^n u\).
+
+
+
+\input{parts/refutation/recovered-material-rectangles.tex}
+
+\section{Conservative forcing and pressure adjustment}
+
+A conservative force can be absorbed entirely into pressure.
+Part~I supplies the global unforced history, so this reduction gives forced
+continuation at arbitrary amplitude for conservative sources. Part~II treats
+arbitrary prescribed smooth forcing directly on its own forced history.
+
+\begin{proposition}[Conservative forcing]\label{r:prop:potential}
+Suppose \(\Pp f=0\). Any smooth unforced history with datum \(u_0\)
+gives a forced history with identical velocity and full mixed
+pressure-gradient regularity on \([0,T]\).
+\end{proposition}
+\begin{proof}
+Define the potential by
+\[
+ \widehat\phi(\xi,t)=
+ -\frac{i\xi\cdot\widehat f(\xi,t)}{|\xi|^2}.
+\]
+Its gradient is \(f\). The inverse derivative at zero frequency is
+legitimate in three dimensions for the stated source class. In fact,
+for every integer \(m\ge0\),
+\[
+ \norm\phi_{H^m}^2
+ \le \frac{2^{m-1}}{\pi^2}\norm f_1^2+\norm f_{H^m}^2.
+\]
+Split the Fourier integral at radius one, use
+\(|\widehat f|\le(2\pi)^{-3/2}\|f\|_1\), and evaluate
+\(\int_{|\xi|\le1}|\xi|^{-2}\dd\xi=4\pi\).
+The high-frequency part is bounded by the displayed \(H^m\) norm.
+Every temporal derivative satisfies this estimate as well.
+
+If \(q\) is the unforced pressure, set \(p=q+\phi\).
+The forced momentum equation follows directly, and all velocity
+coordinates are those of the unforced history. The source potential
+supplies the additional pressure jet.
+\end{proof}
+
+The restriction on the force is also necessary if the velocity is to be
+retained. To see the precise obstruction, fix a smooth time and allow the
+pressure to vary. For any pressure \(q\) with an admissible Sobolev gradient,
+its unforced momentum residual is
+\[
+ \mathcal R_q:=u_t+(u\cdot\nabla)u-\nu\Delta u+\nabla q
+ =f+\nabla(q-p).
+\]
+The solenoidal part is independent of that choice:
+\[
+ \Pp\mathcal R_q=\Pp f.
+\]
+Orthogonality of gradient and solenoidal fields in \(H^m\) gives
+\begin{equation}
+ \begin{aligned}
+ \norm{\mathcal R_q}_{H^m}^2
+ &=\norm{\Pp f}_{H^m}^2
+   +\norm{(I-\Pp)f+\nabla(q-p)}_{H^m}^2,\\
+ \inf_q\norm{\mathcal R_q}_{H^m}&=\norm{\Pp f}_{H^m}.
+ \end{aligned}
+ \label{r:eq:pressure-residual-distance}
+\end{equation}
+The infimum is attained at \(q=p-\phi\), where
+\(\nabla\phi=(I-\Pp)f\). The Fourier formula above, applied to the
+original \(f\), produces this potential. Thus pressure can convert the forced velocity
+into an unforced solution exactly when \(\Pp f=0\). Subtracting a source
+coordinate from a completed row does not change this residual of the
+velocity itself.
+
+Pressure normalization also matters in comparisons with periodic forcing
+results. Tao's Proposition~1.7 equates unforced and forced periodic
+regularity when nonperiodic pressure is permitted
+\cite[pp.~28--29]{Tao2013}. Its accelerated Galilean transformation
+does not preserve finite energy or \(H^1(\R^3)\), as stated on page~43.
+That transformation is not the route used here: Part~II proves the compact
+smoothly forced problem directly without importing an unforced velocity.
+
+Proposition~\ref{r:prop:potential} also applies on a final interval if \(\Pp f\) vanishes
+there: use the smooth velocity at its initial time as the datum for
+the unforced continuation, and join by local uniqueness.
+Vanishing of force derivatives at a single spatial point does not
+meet this hypothesis. The next calculation distinguishes those two
+properties in the actual localized source.
+
+\section{The terminal rotational force in OpenAI's construction}
+
+The localized velocity and pressure in \cite[Section~10]{openai-paper}
+define the candidate source through the momentum equation. On the
+regular exterior and cutoffs, these formulas determine its terminal
+rotational component directly.
+
+First set viscosity to one. In the paper's heat exterior, write
+\(\tau=1-t\), \(A=1/2+h\), \(0<h<1/100\). Where the compactly
+supported vector-potential correction is absent, its localized field is
+\begin{equation}
+ u=\chi(r,z)K(r,t)e_\theta,\qquad
+ p=\chi(r,z)p_{\rm ext}(r,t),\qquad
+ K=2^A\kappa r^{-2A}H(4\tau/r^2),
+ \label{r:eq:exterior}
+\end{equation}
+with \(\kappa>0\). This amplitude is unrelated to our Sobolev constant
+\(c_\infty\). The time cutoff equals one near \(t=1\).
+The heat profile obeys
+\[
+ \partial_tK=(\partial_{rr}+r^{-1}\partial_r-r^{-2})K.
+\]
+The radial heat expansion in \cite[Appendix~A, (A.32)--(A.35)]{openai-paper}
+gives, with \((b)_j\) denoting the rising factorial,
+\begin{equation}
+ K_j(r):=\partial_t^jK(r,1)
+ =2^A\kappa\,4^j(h)_j(1+h)_j\,r^{-1-2h-2j}>0.
+ \label{r:eq:heat-jets}
+\end{equation}
+
+The spatial cutoff satisfies \(0\le\chi\le1\), equals one for
+\(r\le r_0/2,\ |z|\le z_0/2\), and has support compactly contained
+in \(r<r_0,\ |z|<z_0\)
+\cite[Section~10, (10.3)--(10.5)]{openai-paper}.
+There is a connected rectangle
+\[
+ \Omega=(r_0/4,2r_0)\times(-\varepsilon,\varepsilon)
+\]
+lying in the heat exterior for all \(t\) sufficiently close to one.
+To verify this region, use the source bound
+\(q\le C_0(\tau+|z|^{1/D})\), \(D=1/2-h>0\), and
+the exterior condition \(X=r^2/(2q)\ge X_{\rm ext}\).
+Here \(q\) is the positive scale function used by that construction;
+\(C_0,q_*,X_{\rm ext}\) are its fixed comparison and exterior constants.
+Choose
+\[
+ q_b=\min\{q_*/2,r_0^2/(64X_{\rm ext})\},\qquad
+ C_0(\eta+\varepsilon^{1/D})<q_b,\quad
+ \varepsilon<z_0/2.
+\]
+Then \(X>2X_{\rm ext}\) on \(\Omega\) for \(1-\eta<t<1\),
+as required by the exact exterior construction
+\cite[Section~10, Step~4, p.~116]{openai-paper}.
+
+The uncut swirl satisfies its azimuthal heat equation. Multiplication
+by \(\chi\) creates spatial gradients at the edge of the cutoff.
+Pressure has no azimuthal component, and axisymmetric pure swirl has
+radial transport acceleration. The entire azimuthal residual is thus
+\begin{equation}
+ f_\theta=-K(\chi_{rr}+r^{-1}\chi_r+\chi_{zz})-2K_r\chi_r.
+ \label{r:eq:cutoff-force}
+\end{equation}
+This is a direct momentum calculation. It identifies the force needed
+to maintain the cutoff of a diffusing swirl.
+
+\begin{proposition}[Nonzero projected terminal jets]\label{r:prop:terminal}
+For the localized source defined above, each finite terminal temporal jet
+\(F_j=\partial_t^jf(\cdot,1)\) has
+\[
+ \Pp F_j\not\equiv0,\qquad j=0,1,2,\ldots.
+\]
+This persists under the viscosity rescaling in the source paper.
+\end{proposition}
+\begin{proof}
+Differentiate \eqref{r:eq:cutoff-force} and use
+\(K_j'/K_j=-(1+2h+2j)/r\). On \(\Omega\),
+\begin{equation}
+ (F_j)_\theta=-K_j
+ \left(\chi_{rr}+\chi_{zz}
+             -\frac{1+4h+4j}{r}\chi_r\right).
+ \label{r:eq:terminal-residual}
+\end{equation}
+If this component vanished throughout \(\Omega\), the cutoff would
+solve the uniformly elliptic equation
+\[
+ \left(\partial_{rr}+\partial_{zz}
+             -\frac{1+4h+4j}{r}\partial_r\right)\chi=0
+\]
+on that connected rectangle. Its coefficients are bounded there,
+since \(r\ge r_0/4\). The cutoff attains its maximum one at the
+interior point \((3r_0/8,0)\), and vanishes at the interior point
+\((3r_0/2,0)\). The strong maximum principle forbids both properties.
+Consequently \((F_j)_\theta\) is nonzero somewhere in \(\Omega\).
+
+Choose a smooth compactly supported \(\psi(r,z)\) in a region where
+this component has strict sign. The three-dimensional test field
+\(w=\psi(r,z)e_\theta\) is smooth, supported away from the axis, and
+divergence free. With its sign chosen appropriately,
+\[
+ \ip{\Pp F_j}{w}=\ip{F_j}{w}
+ =2\pi\int (F_j)_\theta\psi(r,z)\,r\dd r\dd z>0.
+\]
+This proves the projected nonvanishing. The rescaling
+\(f_\nu(x,t)=\sqrt\nu\,f(x/\sqrt\nu,t)\)
+\cite[Section~10, (10.22)]{openai-paper}
+commutes with the Leray projection and preserves that conclusion.
+\end{proof}
+
+The source paper makes its residual flat at the spatial origin at the
+terminal time. Proposition~\ref{r:prop:terminal} locates nonzero terminal
+force elsewhere. Smooth flatness at the proposed singular point is
+compatible with a nonzero field in the surrounding cutoff region.
+The exterior test also gives a quantitative obstruction to that pressure
+conversion, without requiring convergence of the force on the whole space.
+Use the field \(w\) from the proof at \(j=0\), and set
+\[
+ d:=2\pi\int (F_0)_\theta\psi(r,z)\,r\dd r\dd z>0.
+\]
+On the fixed support of \(w\), the heat formula gives
+\(\ip{f(t)}w\to d\). Choose \(\eta_1>0\) so that this pairing is
+at least \(d/2\) for \(1-\eta_1<t<1\). Since every gradient pairs to
+zero with \(w\), Sobolev duality and
+\eqref{r:eq:pressure-residual-distance} give, for each integer \(m\ge0\),
+\begin{equation}
+ \inf_q\norm{\mathcal R_q(t)}_{H^m}
+ =\norm{\Pp f(t)}_{H^m}
+ \ge\frac{d}{2\norm w_{H^{-m}}}>0,
+ \qquad 1-\eta_1<t<1.
+ \label{r:eq:actual-pressure-obstruction}
+\end{equation}
+The positive lower bound prevents any pressure adjustment from
+turning this velocity into an unforced solution on a final interval.
+It is an obstruction to the conservative-force reduction, not a sign
+condition on the total work of the source.
+
+\input{parts/refutation/critical-source-bound.tex}
+
+\clearpage
+\section*{Final conclusion}
+\addcontentsline{toc}{section}{Final conclusion}
+
+The datum-generated compatible intersection proves global smoothness and
+uniqueness first for the unforced equations and then, on a separate history
+carrying its complete source jet, for the forced equations.  The localized
+residual of the field proposed in OpenAI's \emph{Finite Time Blowup for
+Navier--Stokes} belongs to the forced theorem's source class.  The theorem
+produces a global smooth solution for those exact prescribed data, while
+strict-subinterval uniqueness identifies any classical candidate with that
+solution on \([0,1)\).  Its finite velocity and mixed-rectangle bounds are
+incompatible with the proposed field's unbounded velocity and with the
+divergent positive exterior contribution to \(R_{0,1}\) calculated above.  The
+proposed field does not
+solve the stated forced initial-value problem.

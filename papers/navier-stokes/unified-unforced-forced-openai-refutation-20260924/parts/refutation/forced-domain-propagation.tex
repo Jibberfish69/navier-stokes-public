@@ -1,0 +1,185 @@
+% Source: direct-forced-construction-20260910.md, section 8, equations (37)--(43).
+% Pressure normalization: section 2, equation (5), of that source.
+\subsection{From spatial-height integrals to the forced mixed intersection}
+\label{r:sec:forced-domain-propagation}
+
+Let \((u,p)\) be the classical forced history on every strict interval
+\([0,S]\), \(S<T<\infty\), with fixed \(\nu>0\),
+\(u_0\in H^\infty_\sigma(\R^3)\), and the prescribed smooth force whose
+mixed derivatives decay rapidly in space uniformly through \([0,T]\).
+Assume explicitly that every zeroth-row completed height has its
+whole-interval integral:
+\begin{equation}
+ \int_0^T C^f_{0,k}(t)\dd t
+ =\frac12\int_0^T\norm{\Lambda^{k+1/2}u(t)}_2^2\dd t<\infty,
+ \qquad k=0,1,2,\ldots .
+ \label{r:eq:forced-spatial-domain-hypothesis}
+\end{equation}
+The forced momentum equation carries this spatial information to the
+temporal rows. The first step is to recover the low frequencies omitted
+by the homogeneous heights. Put
+\[
+ K_T=\norm{u_0}_2+\int_0^T\norm{f(t)}_2\dd t,
+ \qquad \mathsf S_m=\norm{u}_{L^2(0,T;H^m)}.
+\]
+The kinetic bound gives \(\sup_{t<T}\norm{u(t)}_2\le K_T\).
+For each integer \(m\ge0\), split the Fourier integral at \(|\xi|=1\).
+Below that radius use the kinetic bound; above it use
+\((1+|\xi|^2)^m\le2^m|\xi|^{2m+1}\). This gives
+\begin{equation}
+ \mathsf S_m^2
+ \le2^mTK_T^2+2^{m+1}\int_0^T C^f_{0,m}(t)\dd t<\infty.
+ \label{r:eq:forced-domain-spatial-integrals}
+\end{equation}
+
+These time integrals bound the total change in each spatial norm.
+Indeed, the projected equation is
+\[
+ u_t=\nu\Delta u-\Pp[(u\cdot\nabla)u]+\Pp f.
+\]
+The transport estimate \eqref{r:eq:transport-product} places its nonlinear
+term in \(L^1(0,T;H^m)\), with norm at most
+\(C_m\mathsf S_{m+2}^2\). Its viscous term has \(L^1H^m\) norm at most
+\(\nu\sqrt T\,\mathsf S_{m+2}\). Integrating the equation from the
+initial datum now yields
+\begin{equation}
+ \begin{aligned}
+ \sup_{t<T}\norm{u(t)}_{H^m}
+ &\le\mathsf U_{0,m},\\
+ \mathsf U_{0,m}
+ &:=\norm{u_0}_{H^m}+\nu\sqrt T\,\mathsf S_{m+2}
+       +C_m\mathsf S_{m+2}^2
+       +\norm{\Pp f}_{L^1(0,T;H^m)}<\infty.
+ \end{aligned}
+ \label{r:eq:forced-domain-base-row}
+\end{equation}
+The integral of this \(L^1H^m\) right side supplies the continuous
+representative, so the bound does not assume a terminal trace.
+
+Every finite spatial order is now available in the base row.
+Differentiating the forced equation retains every transport product:
+\begin{equation}
+ \begin{aligned}
+ V_{n+1}&=\nu\Delta V_n-\Pp B_n+\Pp F_n,\\
+ B_n&=\sum_{a=0}^n\binom na(V_a\cdot\nabla)V_{n-a},
+ \qquad V_n=\partial_t^nu,\quad F_n=\partial_t^nf.
+ \end{aligned}
+ \label{r:eq:forced-domain-row-recurrence}
+\end{equation}
+Suppose that rows \(0,\ldots,n\) have uniform bounds at every finite
+spatial order. Applying \eqref{r:eq:transport-product} term by term in
+this finite sum gives the next constants:
+\begin{equation}
+ \begin{aligned}
+ \mathsf U_{n+1,m}:={}&\nu\mathsf U_{n,m+2}\\
+ &+C_m\sum_{a=0}^n\binom na
+       \mathsf U_{a,m+2}\mathsf U_{n-a,m+2}
+       +\norm{\Pp F_n}_{L^\infty(0,T;H^m)}.
+ \end{aligned}
+ \label{r:eq:forced-domain-row-bounds}
+\end{equation}
+The prescribed force makes the last term finite. Induction on \(n\)
+proves
+\(\sup_{t<T}\norm{V_n(t)}_{H^m}\le\mathsf U_{n,m}<\infty\)
+for every fixed pair \(n,m\). At each step only finitely many higher
+spatial orders occur, and each of them was already available in the
+earlier rows. Integrating these uniform bounds gives
+\begin{equation}
+ \sum_{n=0}^r\norm{V_n}_{L^2(0,T;H^m)}^2
+ \le T\sum_{n=0}^r\mathsf U_{n,m}^2<\infty,
+ \qquad
+ u\in\mathscr I_T=\bigcap_{r,m\ge0}H^r(0,T;H^m).
+ \label{r:eq:forced-domain-mixed-intersection}
+\end{equation}
+Conversely, choosing spatial order \(k+1\) in this intersection gives
+\eqref{r:eq:forced-spatial-domain-hypothesis}. The full spatial-height
+domain and the mixed intersection are equivalent for this forced
+history.
+
+Pressure completes the momentum rows without changing the prescribed
+force. Write \(Q_n=\partial_t^np\), and use the decaying pressure
+normalization
+\begin{equation}
+ \begin{aligned}
+ \phi_n&=-(-\Delta)^{-1}\nabla\cdot F_n,\\
+ Q_n&=R_iR_j\sum_{a=0}^n\binom na
+                     V_{a,i}V_{n-a,j}+\phi_n,\\
+ \nabla Q_n&=(I-\Pp)(F_n-B_n),
+ \end{aligned}
+ \label{r:eq:forced-domain-pressure}
+\end{equation}
+where \(R_i\) are the Riesz transforms and repeated spatial indices
+are summed. The force potential is finite in every \(H^M\).
+At low frequencies, \(\widehat F_n\) is uniformly bounded and its
+inverse-derivative multiplier is controlled by
+\(\int_{|\xi|\le1}|\xi|^{-2}\dd\xi=4\pi\).
+At high frequencies, the prescribed Sobolev norms suffice. The smooth
+time dependence of the source gives
+\(\phi_n\in C([0,T];H^M)\) for every fixed \(n,M\).
+
+The Riesz transforms are bounded on \(H^M\), and
+\(H^{M+1}\cdot H^{M+1}\subset H^M\) in three dimensions.
+For every integer \(M\ge0\), these product bounds and
+Cauchy--Schwarz in time give
+\begin{equation}
+ \begin{aligned}
+ &\norm{Q_n}_{L^1H^M}
+       +\norm{\nabla Q_n}_{L^1H^{M-1}}\\
+ &\quad\le c_M\sum_{a=0}^n\binom na
+       \norm{V_a}_{L^2H^{M+1}}\norm{V_{n-a}}_{L^2H^{M+1}}\\
+ &\qquad\quad+\norm{\phi_n}_{L^1H^M}
+       +\norm{\nabla\phi_n}_{L^1H^{M-1}}<\infty.
+ \end{aligned}
+ \label{r:eq:forced-domain-pressure-integrals}
+\end{equation}
+Here all time norms are over \((0,T)\). In particular, \(M=0\)
+uses \(H^{-1}\) for the gradient norm.
+The velocity part of each finite rectangle satisfies
+\begin{equation}
+ R_{N,M}
+ \le T\sum_{n=0}^N
+ \left(\mathsf U_{n,M+1}^2+
+       \mathsf U_{n+1,\max\{M-1,0\}}^2\right)<\infty.
+ \label{r:eq:forced-domain-rectangles}
+\end{equation}
+Each prescribed \(F_n\) belongs to \(L^2(0,T;H^{M-1})\).
+Together with \(Q_0,\ldots,Q_N\) in the spaces just proved and
+\(F_0,\ldots,F_N\), this retains the full forced rectangle
+\((V_0,\ldots,V_{N+1};Q_0,\ldots,Q_N;F_0,\ldots,F_N)\).
+Every retained row obeys
+\[
+ V_{n+1}+B_n+\nabla Q_n-\nu\Delta V_n=F_n,
+ \qquad \nabla\cdot V_n=0.
+\]
+Restriction to a smaller rectangle preserves all derivatives, pressure
+terms, and force coordinates because these entries come from the
+given history.
+
+The next temporal row also controls approach to the endpoint.
+For \(s,t<T\), integration of \(\partial_tV_n=V_{n+1}\) gives
+\begin{equation}
+ \norm{V_n(t)-V_n(s)}_{H^m}
+ \le |t-s|\,\mathsf U_{n+1,m}.
+ \label{r:eq:forced-domain-endpoint}
+\end{equation}
+Each row has an \(H^m\) limit at \(T\). If a trace is taken first in
+a higher Sobolev space, its restriction is this limit by uniqueness
+of the \(H^m\) limit. The traces assemble into one \(H^\infty\) jet,
+with \(u_*=V_0(T)\in H^\infty_\sigma\).
+Product continuity and \eqref{r:eq:forced-domain-pressure} give the
+pressure traces and preserve the complete terminal equation:
+\[
+ V_{n+1}(T)+B_n(T)+\nabla Q_n(T)-\nu\Delta V_n(T)=F_n(T).
+\]
+Choosing \(m>k+3/2\) in \eqref{r:eq:forced-domain-endpoint} gives uniform
+convergence of every spatial derivative of order at most \(k\).
+The finite products in the pressure formula give the corresponding
+limits for pressure and its gradient.
+
+If the force is prescribed smoothly beyond \(T\), local forced
+existence restarts the equation from \(u_*\).
+The outgoing initial jet is fixed by
+\eqref{r:eq:forced-domain-row-recurrence} and
+\eqref{r:eq:forced-domain-pressure}, so it agrees with the incoming
+jet. Local uniqueness joins these histories into a smooth solution
+through \(T\).

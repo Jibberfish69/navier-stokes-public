@@ -1,0 +1,84 @@
+
+\subsection{Equivalent critical continuation conditions}
+\label{r:sec:terminal-characterization}
+
+The projected acceleration and critical dissipation are linked by
+an exact identity. Combined with the spatial energy estimate, it
+characterizes continuation through \(T\) in terms of several
+equivalent quantities.
+Define
+\[
+ \mathcal B_T=\int_0^T\norm u_{\dot H^{3/2}}^2\dd t.
+\]
+Projection of the material momentum law gives the exact identity
+\begin{equation}
+ \mathcal B_T
+ =\nu^{-2}\norm{\Pp(D_tu-f)}_{L^2(0,T;\dot H^{-1/2})}^2.
+ \label{r:eq:projected-response-identity}
+\end{equation}
+The identity follows from \(\Pp(D_tu-f)=\nu\Delta u\) and Plancherel.
+It holds on each strict interval and passes to the nonnegative terminal
+integrals, including the value \(+\infty\).
+
+For the stated smooth datum and source, the following assertions about
+a classical forced history on \([0,T)\) are equivalent:
+\begin{equation}
+ \begin{gathered}
+ u\in\mathscr I_T;\qquad
+ \mathcal B_T<\infty;\qquad
+ \Pp D_tu\in L^2(0,T;\dot H^{-1/2});\\
+ \widehat C_1[u]\in L^1(0,T);\qquad
+ \sup_{t<T}\int_0^t\mathcal P_{1/2}(s)\dd s<\infty.
+ \end{gathered}
+ \label{r:eq:terminal-equivalent-statements}
+\end{equation}
+Here \(\widehat C_1\) is the original completion formula evaluated on
+this forced velocity, as in \eqref{r:eq:original-form-completions}.
+The source has a finite \(L^2\dot H^{-1/2}\) norm, so subtraction of
+\(\Pp f\) preserves the projected-acceleration condition.
+Equation \eqref{r:eq:low-completion-source-shift} identifies the
+completed-coordinate condition with \(\mathcal B_T<\infty\).
+
+For the remaining implications, first suppose \(\mathcal B_T<\infty\).
+At spatial height one, differentiation and incompressibility give
+\[
+ |\mathcal P_1|
+ \le\norm{\nabla u}_3\norm{\nabla u}_2\norm{\nabla u}_6
+ \le K_1\norm u_{\dot H^{3/2}}\norm{\nabla u}_2\norm{\Delta u}_2.
+\]
+Young's inequality in the forced energy balance gives
+\[
+ \frac{\dd}{\dd t}\norm{\nabla u}_2^2+\nu\norm{\Delta u}_2^2
+ \le\frac{2K_1^2}{\nu}\norm u_{\dot H^{3/2}}^2
+               \norm{\nabla u}_2^2
+       +\frac2\nu\norm{\Pp f}_2^2.
+\]
+Thus Gronwall bounds the \(H^1\) norm uniformly through \(T\).
+Local classical existence in \(H^1\), with the prescribed smooth source,
+has a lifespan bounded below by its \(H^1\) bound and a source bound.
+Restarting sufficiently near \(T\) extends the history past \(T\).
+Uniqueness identifies that extension on its overlap.
+Higher spatial differentiation and the momentum recurrence then supply
+every fixed spatial and temporal Sobolev norm on the closed horizon.
+Equivalently, the explicit higher-energy estimates of
+Section~\ref{r:sec:higher-spatial-source} perform this reconstruction.
+This proves \(u\in\mathscr I_T\).
+The reverse implication follows by selecting the finite spatial coordinate.
+
+Finally, the work \(W_{1/2}=\ip u{\Lambda\Pp f}\) is uniformly bounded
+by kinetic energy and a prescribed source norm. The exact critical balance
+is
+\[
+ E_{1/2}(t)+\nu\int_0^t\norm u_{\dot H^{3/2}}^2\dd s
+ =E_{1/2}(0)+\int_0^t\mathcal P_{1/2}\dd s
+                  +\int_0^tW_{1/2}\dd s.
+\]
+A uniform upper bound for the signed production integral controls both
+nonnegative terms on the left, including \(\mathcal B_T\).
+Conversely, membership in \(\mathscr I_T\) gives the absolute production
+bound \eqref{r:eq:critical-production}. This proves all the equivalences.
+
+These equivalences characterize full-interval regularity of a given forced
+solution. For the global solution of Part~II,
+Corollary~\ref{r:thm:supplied-forced} supplies all these conditions and every
+finite-rectangle bound.

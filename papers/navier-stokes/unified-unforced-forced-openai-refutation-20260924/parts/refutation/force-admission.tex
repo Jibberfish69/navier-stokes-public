@@ -1,0 +1,76 @@
+\section{Admission of the candidate force to the forced theorem}
+\label{r:sec:force-extension}
+
+Part~II applies after the momentum residual of the proposed field has been
+placed in its prescribed force class. The cutoff calculation below keeps the
+full localization error, proves uniform bounds for every fixed mixed
+derivative, and produces compatible compactly supported terminal jets.
+
+\input{parts/refutation/localization-source-jets.tex}
+
+Write \(F_j\in C_c^\infty(\R^3;\R^3)\), with
+\(\operatorname{supp}F_j\subset K\), for the terminal field obtained from
+\(\partial_t^j f(\cdot,t)\) as \(t\uparrow1\). The source vanishes near
+\(t=0\), and all its left terminal jets have support in one fixed compact
+set \(K\). These jets can be continued through time one without imposing a
+bound common to all derivative orders.
+
+Choose \(\chi_0\in C_c^\infty(\R)\), equal to one near zero and zero for
+arguments at least one. For \(\sigma=t-1\ge0\), define
+\begin{equation}
+ \widetilde f_{\rm OA}(x,1+\sigma)=\sum_{j=0}^\infty
+ \chi_0(b_j\sigma)\frac{\sigma^j}{j!}F_j(x).
+ \label{r:eq:force-borel}
+\end{equation}
+For \(0\le t<1\), set \(\widetilde f_{\rm OA}(x,t)=f(x,t)\), the full
+localized momentum residual. Formula \eqref{r:eq:force-borel} is the
+extension used in \cite[(10.11)]{openai-paper}. Its full product rule is
+\[
+ \partial_\sigma^m
+ \left(\chi_0(b_j\sigma)\frac{\sigma^j}{j!}\right)
+ =\sum_{\ell=\max(0,m-j)}^m
+ \binom m\ell b_j^\ell\chi_0^{(\ell)}(b_j\sigma)
+ \frac{\sigma^{j-m+\ell}}{(j-m+\ell)!}.
+\]
+On a summand's support, \(\sigma\le b_j^{-1}\), so every product
+\(b_j^\ell\sigma^{j-m+\ell}\) is at most \(b_j^{m-j}\). Writing
+\[
+ C_{j,m}=\sum_{\ell=\max(0,m-j)}^m
+ \binom m\ell\frac{\norm{\chi_0^{(\ell)}}_\infty}{(j-m+\ell)!},
+\]
+we obtain
+\begin{equation}
+ \left\|\partial_x^\alpha\partial_\sigma^m
+ \left[\chi_0(b_j\sigma)\frac{\sigma^j}{j!}F_j\right]\right\|_\infty
+ \le C_{j,m}b_j^{m-j}\norm{F_j}_{C^{|\alpha|}}.
+ \label{r:eq:force-borel-bound}
+\end{equation}
+For each \(j\ge1\), choose \(b_j>b_{j-1}\), with \(b_0=1\), so that
+this bound is at most \(2^{-j}\) for all
+\(|\alpha|+m\le\lfloor j/2\rfloor\). There are finitely many constraints at
+that step, and \(m-j<0\) in each one. Such a choice exists for every finite
+collection of norms of \(F_j\).
+
+For fixed \(\alpha,m\), the differentiated tail beginning at
+\(j\ge\max\{1,2(|\alpha|+m)\}\) is uniformly summable. At
+\(\sigma=0\), the \(m\)-th temporal derivative of the series receives a
+contribution only from \(j=m\), and that contribution is \(F_m\). All left
+and right jets agree. Each term retains support in \(K\) and vanishes for
+\(\sigma\ge1\). Uniform differentiated convergence gives smoothness at the
+joining time and at the outer support boundary. Hence
+\begin{equation}
+ \widetilde f_{\rm OA}\in
+ C_c^\infty(\R^3\times(0,\infty);\R^3)
+ \subset C^\infty([0,\infty);\mathcal S(\R^3;\R^3)),
+ \label{r:eq:oa-force-class}
+\end{equation}
+and its restriction to \(t<1\) is exactly the localized momentum residual.
+For the quantitative integrals below, write
+\begin{equation}
+ f_{\rm OA}:=\widetilde f_{\rm OA}\big|_{[0,1)}=f.
+ \label{r:eq:oa-force-restriction}
+\end{equation}
+Its support lies in \(K\times[0,2]\), and it retains the prescribed initial
+interval of rest. A different smooth continuation beyond time one has the
+same restriction on every \([0,S]\), \(S<1\), so strict-subinterval
+uniqueness gives the same comparison below.

@@ -1,0 +1,491 @@
+\section{Critical growth, source reserve, and chord density}
+\label{r:sec:critical-reserve-density}
+
+The source work at critical order is \(\ip{u}{\Lambda g}\), where
+\(g=\Pp f\). Its spatial derivatives can all be placed on \(g\), so the
+kinetic bound controls how much this term can still add before a prescribed
+finite time. Keeping that remaining contribution with the critical height
+gives a positive quantity whose growth is governed by the nonlinear
+production of the velocity.
+
+Let \(u\) be a classical history on \([0,T)\), with the force smooth through
+\(T\) as in Section~\ref{r:sec:introduction}. All calculations first take place
+on strict classical intervals. Write
+\begin{equation}
+ \begin{aligned}
+ \mathsf K_T&=\norm{u_0}_2+\int_0^T\norm{g(t)}_2\dd t,\\
+ H(t)&=\tfrac12\norm{\Lambda^{1/2}u(t)}_2^2,
+ &D(t)&=\norm{\Lambda^{3/2}u(t)}_2^2.
+ \end{aligned}
+ \label{r:crd-eq:height}
+\end{equation}
+The kinetic work satisfies
+\[
+ \int_0^t\norm{g(s)}_2\norm{u(s)}_2\dd s
+ \le\int_0^t\mathsf K_s\mathsf K_s'\dd s
+ =\tfrac12\bigl(\mathsf K_t^2-\norm{u_0}_2^2\bigr).
+\]
+The norm inequality and the energy identity give
+\begin{equation}
+ \norm{u(t)}_2\le\mathsf K_t,\qquad
+ \norm{u(t)}_2^2+2\nu\int_0^t\norm{\nabla u(s)}_2^2\dd s
+ \le\mathsf K_t^2\le\mathsf K_T^2.
+ \label{r:crd-eq:kinetic}
+\end{equation}
+At critical order, put \(P_H=\mathcal P_{0,1/2}\) and
+\(W=\operatorname{Re}\ip{u}{\Lambda g}\). The exact balance is
+\[
+ H'+\nu D=P_H+W,\qquad
+ |W(t)|\le b_f(t):=\mathsf K_T\norm{\Lambda g(t)}_2.
+\]
+The source assumptions give \(b_f\in L^1(0,T)\). Its remaining integral
+decreases at the rate \(b_f\), so define
+\begin{equation}
+ \mathscr R_f(t)=\int_t^T b_f(s)\dd s,\qquad
+ \Phi=H+\mathscr R_f,\qquad Z_f=b_f-W.
+ \label{r:crd-eq:reserve}
+\end{equation}
+Then
+\begin{equation}
+ \Phi'+\nu D+Z_f=P_H,\qquad
+ Z_f\ge0,\qquad \Phi\ge H\ge0.
+ \label{r:crd-eq:reserve-balance}
+\end{equation}
+The known function \(\mathscr R_f\) is absolutely continuous and tends to
+zero at \(T\). Neither statement requires a terminal value of \(H\).
+The production in \eqref{r:crd-eq:reserve-balance} is still evaluated on the
+forced velocity. The force and its pressure contribution remain in the
+momentum equation.
+
+\subsection{Where critical growth is distributed}
+
+The critical norm measures velocity differences over every separation.
+For a center \(z\), a chord \(y\), and \(0\le\theta\le1\), put
+\[
+ x_+=z+(1-\theta)y,\qquad x_-=z-\theta y,\qquad
+ \delta u_\theta=u(x_+)-u(x_-),\qquad \widehat y=y/|y|.
+\]
+The positive tensor
+\begin{equation}
+ \mathsf T_u(z)=\frac1{\pi^2}\int_0^1\int_{\R^3}
+ \frac{|\delta u_\theta(z,y)|^2}{|y|^4}
+ \widehat y\otimes\widehat y\dd y\dd\theta,\qquad
+ \tau=\tr\mathsf T_u
+ \label{r:crd-eq:tensor}
+\end{equation}
+weights each chord orientation by the squared magnitude of its velocity difference.
+The fractional Fourier identity and the complete transport pairing give
+\begin{equation}
+ \int_{\R^3}\tau\dd z=2\norm{\Lambda^{1/2}u}_2^2=4H,\qquad
+ P_H=-\int_{\R^3}S:\mathsf T_u\dd z,
+ \quad S=\tfrac12(\nabla u+\nabla u^T).
+ \label{r:crd-eq:current}
+\end{equation}
+The transport identity follows by integration in the chord variable and
+averaging the strain along that chord; the local derivation below retains
+the resulting redistribution flux.
+
+Where \(\tau>0\), define \(r=-S:\mathsf T_u/\tau\), and set \(r=0\)
+where \(\tau=0\). Positivity of \(\mathsf T_u\) gives
+\[
+ |r|\le\norm S_{\mathrm{op}}\le |S|_F,\qquad
+ P_H=\int\tau r\dd z.
+\]
+Thus the production samples strain with the nonlocal density \(\tau\).
+For \(H>0\), use the probability measure and its positive sampled rate
+\[
+ \dd\mu_t=\frac{\tau(z,t)\dd z}{4H(t)},\qquad
+ \overline r_+(t)=\int r_+\dd\mu_t.
+\]
+Set \(\overline r_+=0\) when \(H=0\). Finite energy then forces \(u=0\),
+so \(\tau=P_H=D=W=0\); no probability measure is assigned to zero mass.
+Equation~\eqref{r:crd-eq:reserve-balance} gives
+\begin{equation}
+ \Phi'\le P_H\le\int\tau r_+\dd z
+ =4H\overline r_+\le4\Phi\overline r_+.
+ \label{r:crd-eq:sampled-growth}
+\end{equation}
+On an interval \([a,b]\) where \(\Phi>0\), a doubling requires
+\[
+ 4\int_a^b\overline r_+(t)\dd t
+ \ge\log\frac{\Phi(b)}{\Phi(a)}\ge\log2.
+\]
+The rate itself has an ordinary-volume square bound. For each eigenvalue
+\(\lambda_i\) of the trace-free strain \(S\), the other two sum to
+\(-\lambda_i\), so
+\[
+ |S|_F^2\ge\lambda_i^2+\tfrac12\lambda_i^2
+ \quad\text{for every }i,\qquad
+ |r|^2\le\norm S_{\mathrm{op}}^2\le\tfrac23|S|_F^2.
+\]
+Incompressibility gives \(\norm S_2^2=\norm{\nabla u}_2^2/2\), hence
+\begin{equation}
+ \int_0^T\int_{\R^3}|r|^2\dd z\dd t
+ \le\frac{\mathsf K_T^2}{6\nu}.
+ \label{r:crd-eq:rate-budget}
+\end{equation}
+The integral through \(T\) is the monotone limit of strict-subinterval
+integrals.
+
+To compare this volume bound with the density that samples it, put
+\begin{equation}
+ \rho_f=\frac{\tau}{4\Phi},\qquad
+ V_f^{-1}(t)=\int_{\{r>0\}}\rho_f(z,t)^2\dd z,\qquad
+ G_f=\{t:\Phi'(t)>0\}.
+ \label{r:crd-eq:volume}
+\end{equation}
+These definitions apply where \(\Phi>0\); set \(\rho_f=0\) when
+\(\Phi=0\). Its mass is \(H/\Phi\le1\). If
+\(V_{\mathrm{work}}^{-1}=\int_{\{r>0\}}(\tau/(4H))^2\dd z\) for
+\(H>0\), then
+\[
+ V_f^{-1}=(H/\Phi)^2V_{\mathrm{work}}^{-1}.
+\]
+At \(H=0<\Phi\), equation~\eqref{r:crd-eq:reserve-balance} gives
+\(\Phi'=-b_f\le0\), so such times add no positive growth.
+
+On a positive interval, discard the negative part of the logarithmic
+growth and apply Cauchy--Schwarz in space and then in time:
+\begin{equation}
+ \log\frac{\Phi(b)}{\Phi(a)}
+ \le4
+ \left(\int_{[a,b]\cap G_f}\int r_+^2\dd z\dd t\right)^{1/2}
+ \left(\int_{[a,b]\cap G_f}V_f^{-1}\dd t\right)^{1/2}.
+ \label{r:crd-eq:growth-volume}
+\end{equation}
+A finite inverse-volume integral on the growth set thus bounds \(\Phi\)
+from any positive initial value, and bounds \(H\) with it.
+For \(N\) disjoint positive doubling intervals \(I_j\), write
+\[
+ A_j=\int_{I_j\cap G_f}\int r_+^2\dd z\dd t,\qquad
+ C_j=\int_{I_j\cap G_f}V_f^{-1}\dd t.
+\]
+Then \(A_jC_j\ge(\log2)^2/16\). If \(\mathsf K_T>0\), a second
+Cauchy--Schwarz inequality and \eqref{r:crd-eq:rate-budget} give
+\begin{equation}
+ \sum_{j=1}^N C_j
+ \ge\frac{(\log2)^2N^2}{16\sum_{j=1}^N A_j}
+ \ge\frac{3\nu(\log2)^2}{8\mathsf K_T^2}N^2.
+ \label{r:crd-eq:repeated-growth}
+\end{equation}
+Infinite actions are read in the extended sense. If \(\mathsf K_T=0\),
+the velocity is zero and no positive doubling occurs. Repeated growth
+requires increasing concentration of the density that samples strain.
+The evolution of that density must retain the endpoints of each chord.
+
+\subsection{The local density equation and its source}
+
+Write \(p=p_u+p_f\), with
+\[
+ -\Delta p_u=\partial_i u_j\,\partial_j u_i,\qquad
+ \nabla p_f=(I-\Pp)f.
+\]
+Combining \(p_f\) with the prescribed force gives
+\(D_tu=\nu\Delta u-\nabla p_u+g\). Define
+\[
+ a_\pm=u(x_\pm)-u(z),\qquad
+ D_z=\partial_t+u(z)\cdot\nabla_z,
+\]
+and use the chord integral
+\[
+ \mathcal K[F](z)=\frac1{\pi^2}\int_0^1\int_{\R^3}
+             \frac{F(z,\theta,y)}{|y|^4}\dd y\dd\theta.
+\]
+A fixed chord translated by the center velocity does not move with either
+endpoint. Substituting the momentum equation at both endpoints gives
+\begin{equation}
+ \begin{aligned}
+ D_z\delta u_\theta&=\nu\Delta_z\delta u_\theta
+                  +\mathcal R+\delta g_\theta,\\
+ \mathcal R&=-\delta\nabla p_u
+ -(a_+\cdot\nabla)u(x_+)+(a_-\cdot\nabla)u(x_-).
+ \end{aligned}
+ \label{r:crd-eq:chord-momentum}
+\end{equation}
+Since \(\tau=\mathcal K[|\delta u_\theta|^2]\), the product rule yields
+\begin{equation}
+ \begin{aligned}
+ (D_z-\nu\Delta_z)\tau
+   &=\mathcal I_\tau-2\nu Q_\tau+\mathcal F_\tau,\\
+ \mathcal I_\tau&=2\mathcal K[\delta u_\theta\cdot\mathcal R],\\
+ Q_\tau&=\mathcal K[|\delta\nabla u_\theta|^2],\qquad
+ \mathcal F_\tau=2\mathcal K[\delta u_\theta\cdot\delta g_\theta].
+ \end{aligned}
+ \label{r:crd-eq:density}
+\end{equation}
+Pressure and endpoint transport remain together in \(\mathcal I_\tau\).
+The direct force term has an absolute spatial bound. Cauchy--Schwarz
+over all centers, chords, and center parameters gives
+\begin{equation}
+ \norm{\mathcal F_\tau(t)}_1
+ \le4\norm{\Lambda^{1/2}u(t)}_2\norm{\Lambda^{1/2}g(t)}_2
+ =4\sqrt{2H(t)}\,\norm{\Lambda^{1/2}g(t)}_2.
+ \label{r:crd-eq:local-source}
+\end{equation}
+
+The time integral can be bounded before a supremum of \(H\) is known.
+For \(0<s\le1\), Fourier interpolation gives
+\[
+ E_s^{1/s}\le
+ 2^{-1/s}\norm u_2^{2(1-s)/s}\norm{\nabla u}_2^2,
+ \qquad E_s=\tfrac12\norm{\Lambda^su}_2^2.
+\]
+Using \eqref{r:crd-eq:kinetic},
+\begin{equation}
+ \int_0^T E_s^{1/s}\dd t
+ \le2^{-1/s-1}\nu^{-1}\mathsf K_T^{2/s},\qquad
+ \int_0^T H^2\dd t\le\frac{\mathsf K_T^4}{8\nu}.
+ \label{r:crd-eq:low-height}
+\end{equation}
+When \(\mathsf K_T=0\), both sides vanish. Applying H\"older to
+\eqref{r:crd-eq:local-source} now gives
+\begin{equation}
+ \int_0^T\norm{\mathcal F_\tau(t)}_1\dd t
+ \le2^{7/4}\mathsf K_T\nu^{-1/4}
+       \norm{\Lambda^{1/2}g}_{L^{4/3}_tL^2_x}.
+ \label{r:crd-eq:local-source-budget}
+\end{equation}
+The manuscript's smooth source class supplies this norm as well as the
+\(L^1_tH^1_x\) norm used in \eqref{r:crd-eq:reserve}.
+The direct chord forcing has finite absolute mass through \(T\), without
+a terminal critical-height bound.
+
+The integrated density equation has the normalization
+\begin{equation}
+ \int Q_\tau\dd z=2D,\qquad
+ \int\mathcal F_\tau\dd z=4W,\qquad
+ \int\mathcal I_\tau\dd z=4P_H.
+ \label{r:crd-eq:integrated-density}
+\end{equation}
+For each fixed chord, \(\delta u_\theta\) is divergence free in \(z\),
+so its global pairing with \(\delta\nabla p_u\) vanishes.
+Integrating \eqref{r:crd-eq:density} gives
+\(4H'=4P_H-4\nu D+4W\).
+Pressure can still redistribute density locally. To expose that
+redistribution, its flux must be retained before spatial integration.
+
+\subsection{Intrinsic production and redistribution}
+
+Endpoint advection acts on the chord coordinates through
+\[
+ c_\theta\cdot\nabla_z+\delta u_\theta\cdot\nabla_y,\qquad
+ c_\theta=\theta u(x_+)+(1-\theta)u(x_-).
+\]
+Both coordinate divergences vanish by incompressibility. The intrinsic
+integrand in \eqref{r:crd-eq:density} can be written
+\[
+ \nabla_z\cdot\bigl[(u(z)-c_\theta)|\delta u_\theta|^2
+               -2\delta p_\theta\,\delta u_\theta\bigr]
+ -\nabla_y\cdot\bigl(\delta u_\theta|\delta u_\theta|^2\bigr),
+\]
+where \(\delta p_\theta=p_u(x_+)-p_u(x_-)\).
+The first term already has a flux in the center coordinate:
+\begin{equation}
+ J_0=\mathcal K\bigl[(u(z)-c_\theta)|\delta u_\theta|^2
+               -2\delta p_\theta\,\delta u_\theta\bigr].
+ \label{r:crd-eq:first-flux}
+\end{equation}
+Integrating the second term against the radial kernel produces
+\(-4|\delta u_\theta|^2(\delta u_\theta\cdot\widehat y)/|y|\).
+The velocity difference is the integral of its gradient along the chord.
+With \(s(z,y)=\widehat y\cdot S(z)\widehat y\),
+\[
+ \frac{\delta u_\theta\cdot\widehat y}{|y|}
+ =\int_0^1s(z+(\alpha-\theta)y,y)\dd\alpha.
+\]
+Changing the center parameter preserves the endpoints:
+\[
+ \delta u_\alpha(z+(\alpha-\theta)y,y)
+ =\delta u_\theta(z,y).
+\]
+Put \(F_\alpha(z,y)=|\delta u_\alpha(z,y)|^2s(z,y)\).
+Its translation away from \(z\) has the exact divergence form
+\[
+ F_\alpha(z+h,y)-F_\alpha(z,y)
+ =\nabla_z\cdot
+ \left[h\int_0^1F_\alpha(z+\lambda h,y)\dd\lambda\right].
+\]
+With \(h_{\alpha\theta}=(\alpha-\theta)y\), define
+\begin{equation}
+ \begin{aligned}
+ L(z)={}&\frac1{\pi^2}\int_{\R^3}\frac{\dd y}{|y|^4}
+ \int_0^1\int_0^1 h_{\alpha\theta}
+ \left[\int_0^1F_\alpha(z+\lambda h_{\alpha\theta},y)
+                         \dd\lambda\right]\dd\alpha\dd\theta,\\
+ J_{\mathrm{int}}={}&J_0-4L.
+ \end{aligned}
+ \label{r:crd-eq:full-flux}
+\end{equation}
+The untranslated part is \(S:\mathsf T_u\), giving
+\begin{equation}
+ \mathcal I_\tau=-4S:\mathsf T_u+\nabla_z\cdot J_{\mathrm{int}}
+ =4\tau r+\nabla_z\cdot J_{\mathrm{int}}.
+ \label{r:crd-eq:intrinsic-split}
+\end{equation}
+The complete local equation is
+\begin{equation}
+ \partial_t\tau+\nabla_z\cdot(u\tau-J_{\mathrm{int}})
+ -\nu\Delta_z\tau
+ =4\tau r-2\nu Q_\tau+\mathcal F_\tau.
+ \label{r:crd-eq:local-conservation}
+\end{equation}
+The strain at the center controls the displayed production, while
+\(J_{\mathrm{int}}\) retains pressure and the change between chord centers.
+
+These operations can first be performed with
+\(\varepsilon<|y|<R\). The boundary remainder in the chord integration
+obeys
+\[
+ \norm{B_{\varepsilon,R}}_1
+ \le C\bigl(\varepsilon\norm{\nabla u}_3^3
+                 +R^{-2}\norm u_3^3\bigr)\longrightarrow0.
+\]
+No endpoint in \(\theta\) or \(\alpha\) is differentiated.
+On strict smooth time windows the paired differences also give two
+powers of \(|y|\) near zero, and the radial kernel is integrable at
+infinity. These bounds justify the local identities in spatial
+distributions.
+
+The flux itself is absolutely integrable in space on such a window.
+Write \(U=\norm u_2\), \(A=\norm{\nabla u}_2\), and \(B=\norm u_3\).
+Fractional Sobolev embedding and the Fourier kernel identity yield
+\[
+ \int_{\R^3}\frac{\norm{\delta_yu}_3^2}{|y|^4}\dd y
+ \le C\int_{\R^3}
+ \frac{\norm{\Lambda^{1/2}\delta_yu}_2^2}{|y|^4}\dd y
+ \le CA^2.
+\]
+Since \(\norm{u-c_\theta}_3\le2B\), the transport part of \(J_0\)
+has \(L^1\) norm at most \(CBA^2\).
+
+For \(L\), split the chords at length \(\ell>0\).
+The estimate
+\(\norm{\delta_yu}_4^2\le C|y|^{1/2}A^2\) gives
+\(C\ell^{1/2}\norm S_2A^2\) for short chords.
+For long chords, average the squared endpoint velocities in the center
+parameter. For an endpoint fraction \(0<a<1\), changing variables to
+\(h=ay\) gives the kernel
+\[
+ k_\ell(h)=|h|^{-3}\min(1,|h|/\ell),\qquad
+ \norm{k_\ell}_{6/5}^{6/5}=\frac{40\pi}{3}\ell^{-3/5}.
+\]
+H\"older and Young convolution inequalities bound this part by
+\(C\ell^{-1/2}\norm S_2B^2\).
+Choosing \(\ell=(B/A)^2\) for nonzero \(u\) gives
+\(\norm L_1\le C\norm S_2AB\le CBA^2\).
+For the zero field there is no division.
+
+The pressure part of \(J_0\) satisfies
+\[
+ \norm{J_{0,\mathrm{pressure}}}_1
+ \le4\norm{\Lambda^{1/2}p_u}_2\norm{\Lambda^{1/2}u}_2.
+\]
+The pressure multiplier is bounded, and Fourier Cauchy--Schwarz for
+each product \(u_i u_j\) uses
+\[
+ \int_{\R^3}\frac{\dd\eta}{|\eta|^2|\xi-\eta|^2}
+ =C|\xi|^{-1}.
+\]
+Multiplying by \(|\xi|\), integrating in \(\xi\), and applying Tonelli
+gives \(\norm{\Lambda^{1/2}p_u}_2\le CA^2\).
+Finally \(B\le CU^{1/2}A^{1/2}\) and
+\(\norm{\Lambda^{1/2}u}_2\le U^{1/2}A^{1/2}\), so
+\begin{equation}
+ \norm{J_{\mathrm{int}}}_1\le CU^{1/2}A^{5/2},\qquad
+ \int_0^T\norm{J_{\mathrm{int}}}_1^{4/5}\dd t
+ \le C\nu^{-1}\mathsf K_T^{12/5}.
+ \label{r:crd-eq:flux-budget}
+\end{equation}
+The time exponent is \(4/5\). A terminal \(L^1_tL^1_z\) flux estimate
+does not follow from this bound.
+
+\subsection{Diffusion of the normalized density}
+
+Diffusion gives a local constraint on how sharply the density varies.
+Cauchy--Schwarz inside the chord integral gives
+\[
+ |\nabla\tau|^2\le4\tau Q_\tau,\qquad
+ -2\nu Q_\tau\le-\frac\nu2\frac{|\nabla\tau|^2}{\tau}
+ \quad\hbox{where }\tau>0.
+\]
+The intrinsic production in \eqref{r:crd-eq:density} remains alongside
+this favorable term. Its time integral cannot be discarded when estimating
+the diffusion of \(\rho_f\).
+
+On an interval with \(\Phi>0\), put
+\[
+ \psi=\sqrt{\rho_f},\qquad
+ m=\int\rho_f\dd z=\frac H\Phi\le1,\qquad
+ \mathcal J=\int|\nabla\psi|^2\dd z.
+\]
+Differentiating the normalization gives
+\begin{equation}
+ (D_z-\nu\Delta_z)\rho_f
+ =\frac{\mathcal I_\tau+\mathcal F_\tau}{4\Phi}
+ -\frac{\nu Q_\tau}{2\Phi}
+ -\frac{\Phi'}{\Phi}\rho_f.
+ \label{r:crd-eq:normalized-density}
+\end{equation}
+Where \(\tau>0\), its square root satisfies
+\begin{equation}
+ \begin{aligned}
+ (D_z-\nu\Delta_z)\psi
+ ={}&\frac{\mathcal I_\tau+\mathcal F_\tau}{8\Phi\psi}
+ -\frac{\nu}{\psi}
+     \left(\frac{Q_\tau}{4\Phi}-|\nabla\psi|^2\right)
+ -\frac{\Phi'}{2\Phi}\psi.
+ \end{aligned}
+ \label{r:crd-eq:square-root}
+\end{equation}
+The bracket is nonnegative. The derivative of \(\Phi\) retains its full
+sign, and pressure and endpoint transport remain inside \(\mathcal I_\tau\).
+
+The norm derivative inequality extends across zeros by Sobolev approximation,
+and \eqref{r:crd-eq:integrated-density} gives
+\(\mathcal J\le D/(2\Phi)\).
+Let \(S_6\) be a constant in
+\(\norm h_6\le S_6\norm{\nabla h}_2\). Interpolation gives
+\begin{equation}
+ V_f^{-1}\le\norm\psi_4^4
+ \le\min\left\{
+ S_6^3m^{1/2}\mathcal J^{3/2},
+ \frac{S_6^2\norm\tau_{3/2}\mathcal J}{4\Phi}
+ \right\}.
+ \label{r:crd-eq:density-interpolation}
+\end{equation}
+The first estimate uses the \(L^2\) and \(L^6\) norms of \(\psi\);
+the second uses its \(L^3\) and \(L^6\) norms.
+For the chord density,
+\(\norm\tau_{3/2}\le C_\tau\norm{\nabla u}_2^2\):
+Minkowski bounds this norm by
+\(C\int |y|^{-4}\norm{\delta_yu}_3^2\dd y\), which is controlled by
+the fractional estimate used for \(J_0\).
+Substituting these bounds gives
+\begin{equation}
+ V_f^{-1}\le\min\left\{
+ \frac{S_6^3H^{1/2}D^{3/2}}{2^{3/2}\Phi^2},
+ \frac{C_\tau S_6^2\norm{\nabla u}_2^2D}{8\Phi^2}
+ \right\}.
+ \label{r:crd-eq:inverse-volume}
+\end{equation}
+Neither time integral on the right is bounded by
+\eqref{r:crd-eq:kinetic} and \eqref{r:crd-eq:local-source-budget}.
+Even a finite integral of \(\mathcal J\) would give only
+\[
+ \int(V_f^{-1})^{2/3}\dd t\le S_6^2\int\mathcal J\dd t,
+\]
+which has a smaller time exponent than the action in
+\eqref{r:crd-eq:growth-volume}.
+
+For this route, a sufficient additional estimate is
+\[
+ \int_{G_f}V_f^{-1}(t)\dd t<\infty
+\]
+with a bound derived from \(u_0,\nu,f\). The source reserve and the absolute
+chord-source estimate control the direct external contribution.
+The required intrinsic estimate must control how strain samples the density
+under the complete production and redistribution in
+\eqref{r:crd-eq:local-conservation}. The rate bound
+\eqref{r:crd-eq:rate-budget}, the flux bound \eqref{r:crd-eq:flux-budget},
+and the instantaneous diffusion estimates above do not supply that
+time-integrated control.

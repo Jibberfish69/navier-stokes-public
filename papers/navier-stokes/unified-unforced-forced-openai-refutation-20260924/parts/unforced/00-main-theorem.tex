@@ -1,0 +1,32 @@
+\begin{maintheorem}
+For every \(\nu>0\) and every \(u_0\in\HsSigma(\R^3)\), there exists a
+pressure-normalized pair
+\[
+ (u,p)\in C^\infty([0,\infty)\times\R^3;\R^3\times\R)
+\]
+satisfying
+\[
+ \partial_tu+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
+ \qquad \nabla\cdot u=0,
+ \qquad u(0)=u_0,
+ \qquad \lim_{\abs{x}\to\infty}p(t,x)=0,
+\]
+and
+\[
+ \frac12\norm{u(t)}_{L^2}^2
+ +\nu\int_0^t\norm{\nabla u(s)}_{L^2}^2\dd s
+ =\frac12\norm{u_0}_{L^2}^2
+ \qquad(t\ge0).
+\]
+Every global Leray--Hopf pair \((v,q)\) at viscosity \(\nu\) with datum
+\(u_0\), in the sense of Definition~\ref{u:def:app-leray-hopf}, has \(v=u\),
+and \(q=p+c(t)\) distributionally for a scalar distribution \(c\) in time.
+If \(q\) is represented by a locally integrable function with
+\(q(t,\cdot)\in C_0(\R^3)\) for almost every \(t\), then \(q=p\) almost
+everywhere.
+\end{maintheorem}
+
+Every solenoidal Schwartz datum belongs to \(\HsSigma(\R^3)\). Restricted
+to that subclass, the theorem gives the global smooth pair and bounded
+kinetic energy required by the whole-space positive formulation in
+\cite{Fefferman2006}; the theorem's datum class is broader.

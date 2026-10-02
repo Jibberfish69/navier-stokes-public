@@ -1,0 +1,188 @@
+\section{Introduction}
+\label{u:sec:introduction}
+
+Fix \(\nu>0\) and a divergence-free datum
+\(u_0\in H^\infty(\R^3;\R^3)\).  Smooth-data local theory gives a unique
+classical solution on a maximal interval \([0,T_*)\)
+\cite{FujitaKato1964,Kato1984}.  Throughout Part~I, \((u,p)\) denotes that
+solution.  The problem is to decide whether \(T_*\) can be finite.  On each strict
+subinterval \([0,T]\), smoothness already makes every finite Sobolev norm
+finite.  That fact alone says nothing about what happens as \(T\uparrow T_*\):
+the bound may depend on \(T\) and diverge at the endpoint.  The proof must
+instead control the approach to \(T_*\) with constants that do not depend on
+the cutoff.
+
+Leray constructed global finite-energy weak solutions \cite{Leray1934}, and
+Caffarelli, Kohn, and Nirenberg bounded the size of the possible singular set
+for suitable weak solutions \cite{CKN1982}.  Serrin proved regularity under
+scale-balanced spacetime integrability hypotheses \cite{Serrin1962};
+Escauriaza, Seregin, and \v{S}ver\'ak treated the endpoint
+\(L^\infty_tL^3_x\) case \cite{ESS2003}.  Fujita--Kato and Kato supply the
+strong local theory used below at the terminal restart
+\cite{FujitaKato1964,Kato1984}, and Koch--Tataru place small-data
+global well-posedness in the critical space \(\mathrm{BMO}^{-1}\)
+\cite{KochTataru2001}.
+Tao gives a localization and compactness formulation of the global problem
+\cite{Tao2013}.  The regularity criteria show that control of an appropriate
+critical quantity excludes singularity.  The argument below derives the
+required control from the compatible finite rectangles of the maximal
+velocity--pressure history.  Mixed-index exhaustion and the completed
+critical-height relationships use those same rectangles and lead to the same
+all-orders Sobolev membership.
+
+Pressure is part of that derivative structure.  With the decay normalization,
+incompressibility determines it from the current velocity:
+\[
+ -\Delta p=\partial_i\partial_j(u_i u_j),
+ \qquad
+ p=R_iR_j(u_i u_j).
+\]
+Here \(R_i\) are the Riesz transforms, and repeated indices are summed.
+Write
+\[
+ V_n:=\partial_t^nu,
+ \qquad
+ Q_n:=\partial_t^np.
+\]
+Differentiating the equation gives
+\begin{align}
+ Q_n
+ &=R_iR_j\sum_{a=0}^{n}\binom naV_{a,i}V_{n-a,j},
+ \label{u:eq:intro-pressure-recurrence}\\
+ V_{n+1}
+ &=\nu\Delta V_n
+ -\sum_{a=0}^{n}\binom na(V_a\cdot\nabla)V_{n-a}
+ -\nabla Q_n.
+ \label{u:eq:intro-velocity-recurrence}
+\end{align}
+Thus the time derivatives, spatial derivatives, and pressure derivatives are
+coordinates of one solution.  A time derivative raises the order of the
+viscous term by two spatial derivatives and distributes the transport and
+pressure terms among earlier time derivatives.  The resulting estimates must
+track temporal depth and spatial depth independently.
+
+The Sobolev consequences used below have a simple form. For any prescribed
+spatial derivative order \(k\), a Sobolev order
+\(s>k+3/2\) gives a continuous derivative.  Applying this at every finite
+order gives the spatial column
+\[
+ L^2\cap\bigcap_{j\in\Nzero}\dot H^{j+1/2}
+ =\bigcap_{m\in\Nzero}H^m\hookrightarrow C^\infty.
+\]
+The corresponding one-dimensional embedding,
+\(\bigcap_r H^r(0,T_*)\hookrightarrow C^\infty(0,T_*)\), applies to
+the temporal-height column of
+\(H(t)=\tfrac12\norm{\Lambda^{1/2}u(t)}_2^2\).
+The viscous contribution to \(H'\) is
+\(-\nu\norm{\Lambda^{3/2}u}_2^2\).  Each further time derivative exposes
+the next spatial energy together with differentiated transport and pressure
+terms.  Subtracting those terms from \(H^{(k)}\) and dividing by
+\((-2\nu)^k\) recovers \(\tfrac12\norm{\Lambda^{k+1/2}u}_2^2\), as shown
+in Proposition~\ref{u:prop:completed-height-recurrence}.
+
+For finite \(N,M\in\Nzero\), let
+\[
+ \mathcal R_{N,M}[u_0;T_*]
+ :=\bigl((V_n)_{n=0}^{N},(V_{n+1})_{n=0}^{N};(Q_n)_{n=0}^{N}\bigr)
+\]
+be the corresponding pressure-complete rectangle of the maximal history.
+The datum-generated rectangle theorem places these selected rows on the whole
+interval \((0,T_*)\), and enlargement preserves every coordinate already
+present.  Reading the compatible family by its temporal and spatial indices
+gives
+\begin{equation}
+ u\in\bigcap_{r,m\in\Nzero}H^r(0,T_*;H^m)
+ \label{u:eq:intro-all-orders-intersection}
+\end{equation}
+on a proposed finite maximal interval.  Reading the same family through the
+recurrences \eqref{u:eq:intro-pressure-recurrence}--%
+\eqref{u:eq:intro-velocity-recurrence} and the completed heights
+\(R_k=E_{k+1/2}\) first gives
+\(u\in\bigcap_mL^2(0,T_*;H^m)\); the recurrence then recovers every temporal
+and pressure row.  Both readings use the same datum-generated compatible
+family.
+
+The rectangle and its norm are different objects.  The rectangle retains
+\(V_0,\ldots,V_N\), their next time derivatives, and their pressure rows.
+The scalar sum of its selected velocity norms on a strict interval is
+\begin{equation}
+ \mathfrak R_{N,M}(u;T)
+ :=\sum_{n=0}^{N}\norm{V_n}_{L^2(0,T;H^{M+1})}^2
+ +\sum_{n=0}^{N}\norm{V_{n+1}}_{L^2(0,T;H^{M-1})}^2.
+ \label{u:eq:intro-rectangle-norm}
+\end{equation}
+Each term measures one coordinate of that compatible rectangle.  Its
+full-interval membership, written in mixed-row coordinates, gives
+\begin{equation}
+ \sup_{0<T<T_*}\mathfrak R_{N,M}(u;T)
+ \le\sum_{n=0}^N\left(
+ \norm{V_n}_{L^2(0,T_*;H^{M+1})}^2
+ +\norm{V_{n+1}}_{L^2(0,T_*;H^{M-1})}^2\right)<\infty.
+ \label{u:eq:intro-terminal-rectangle}
+\end{equation}
+Theorem~\ref{u:thm:datum-rectangles} proves the finiteness of this rectangle norm.
+The constant may depend on \(N,M\), but is fixed independently of the
+cutoff \(T\).  We do not take a supremum over derivative orders.
+
+Larger rectangles literally restrict to the same rows in every smaller
+rectangle:
+\begin{equation}
+ \left.\mathcal R_{N,M}[u_0;T_*]\right|_{(N',M')}
+ =\mathcal R_{N',M'}[u_0;T_*]
+ \qquad(N'\le N,\ M'\le M).
+ \label{u:eq:intro-compatible-intersection}
+\end{equation}
+Every finite mixed row occurs in a sufficiently large rectangle.
+Theorem~\ref{u:thm:compatible-inverse-intersection} proves this compatibility
+and exhaustion.  The mixed-index route gives
+\eqref{u:eq:intro-all-orders-intersection} directly.  The completed-height
+identities are evaluated on the same rectangles; exhausting their heights gives
+the spatial Sobolev column and then, by the equation, the same mixed
+intersection.
+
+For the velocity-time column, time Sobolev embedding applies to
+\(H^m\)-valued functions: fixing \(m\) in
+\eqref{u:eq:intro-all-orders-intersection} gives
+\(u\in C^\infty(0,T_*;H^m)\).  Taking every finite \(m\) then gives
+joint smoothness in time and space.  The pressure formula and its
+differentiated recurrences determine the pressure rows from these velocity
+rows.  Applying the temporal and spatial embeddings to that full
+pressure-explicit jet gives joint smoothness of \((u,p)\).
+Each complete representation thus has its own smoothness implication;
+their compatibility identifies the derivatives used throughout the proof.
+
+The zeroth time row of \eqref{u:eq:intro-all-orders-intersection} gives, for
+each finite \(m\), \(u\in L^2(0,T_*;H^{m+2})\).  Sobolev multiplication gives
+\[
+ \norm{\Pp\nabla\!\cdot(u\otimes u)}_{H^m}
+ \le C_m\norm u_{H^{m+2}}^2.
+\]
+Since \(T_*<\infty\), the nonlinear term and \(\Delta u\) belong to
+\(L^1(0,T_*;H^m)\); for the linear term, explicitly,
+\[
+ \norm{\Delta u}_{L^1(0,T_*;H^m)}
+ \le T_*^{1/2}\norm u_{L^2(0,T_*;H^{m+2})}.
+\]
+The equation
+\[
+ u_t=\nu\Delta u-\Pp\nabla\!\cdot(u\otimes u)
+\]
+now gives
+\[
+ u\in W^{1,1}(0,T_*;H^m)
+ \hookrightarrow C([0,T_*];H^m)
+ \qquad(m<\infty).
+\]
+The endpoint values agree under the Sobolev inclusions because they are limits
+of one function \(u(t)\).  They define one terminal state
+\[
+ u_*:=u(T_*)\in\bigcap_{m<\infty}H^m.
+\]
+Since \(u_*\in H^\infty_\sigma\), local well-posedness restarts the equation
+at \(T_*\).  Equations \eqref{u:eq:intro-pressure-recurrence}--%
+\eqref{u:eq:intro-velocity-recurrence} recover the endpoint pressure and time
+derivatives.  Uniqueness joins the restarted solution to \(u\), producing an
+extension past \(T_*\).  This contradicts maximality and proves global
+smoothness.
+
+\clearpage

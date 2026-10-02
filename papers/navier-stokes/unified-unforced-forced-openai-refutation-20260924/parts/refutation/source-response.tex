@@ -1,0 +1,220 @@
+\section{Stokes lifting and differentiated source interactions}\label{r:joined-sec:unrestricted}
+
+The prescribed force determines a linear Stokes response with
+finite norms at every fixed order. Separating this response from the
+velocity makes the additional nonlinear interactions explicit.
+Let $z$ solve
+\begin{equation}\label{r:joined-eq:stokeslift}
+z_t-\nu\Delta z=\PP f,\qquad z(0)=0,
+\qquad z(t)=\int_0^t e^{\nu(t-s)\Delta}\PP f(s)\,ds.
+\end{equation}
+The heat semigroup is a contraction in every $H^q$. For $Z_n=\partial_t^nz$,
+\begin{equation}\label{r:joined-eq:liftjets}
+\begin{aligned}
+Z_{n+1}&=\nu\Delta Z_n+\PP F_n,\\
+Z_n(0)&=\sum_{j=0}^{n-1}(\nu\Delta)^{n-1-j}\PP F_j(0)
+\quad(n\ge1),\\
+\sup_{t\le T}\norm{Z_n(t)}_{H^q}
+&\le\norm{Z_n(0)}_{H^q}+\int_0^T\norm{F_n(s)}_{H^q}\,ds.
+\end{aligned}
+\end{equation}
+Every norm in this estimate depends on finitely many derivatives of
+the prescribed force. Set \(v=u-z\). This decomposition separates the
+known Stokes response from the remainder of the forced solution.
+
+With $B(a,b)=\PP[(a\cdot\nabla)b]$, the equation for $v$ is
+\begin{equation}\label{r:joined-eq:liftequation}
+v_t-\nu\Delta v+B(v,v)+B(z,v)+B(v,z)+B(z,z)=0.
+\end{equation}
+Put $W_n=\partial_t^nv$, so $V_n=W_n+Z_n$. Every temporal row becomes
+\begin{equation}\label{r:joined-eq:liftrow}
+\begin{aligned}
+W_{n+1}-\nu\Delta W_n
++\sum_{a=0}^n\binom na\bigl\{
+&B(W_a,W_{n-a})+B(Z_a,W_{n-a})\\
+&+B(W_a,Z_{n-a})+B(Z_a,Z_{n-a})\bigr\}=0.
+\end{aligned}
+\end{equation}
+The binomial self-interaction is retained in full. The other three terms contain a prescribed lift factor. If $\nabla\phi=\QQ f$ and $\pi=p-\phi$, pressure is retained by
+\begin{equation}\label{r:joined-eq:liftpressure}
+-\Delta\partial_t^n\pi
+=\sum_{a=0}^n\binom na
+\partial_i(W_a+Z_a)_j\,
+\partial_j(W_{n-a}+Z_{n-a})_i.
+\end{equation}
+
+\begin{theorem}[Finite-order estimate for the Stokes decomposition]\label{r:joined-thm:lift}
+For a fixed finite $N$ and real $s\ge0$, define
+\begin{equation}\label{r:joined-eq:liftenergy}
+\begin{aligned}
+\mathscr E&=\tfrac12\sum_{n=0}^N\norm{W_n}_{H^s}^2,
+&\mathscr D&=\sum_{n=0}^N\norm{\nabla W_n}_{H^s}^2,\\
+\mathscr Z&=\sum_{a=0}^N\binom Na\norm{Z_a}_{H^{s+2}},
+&G_n&=\sum_{a=0}^n\binom na B(Z_a,Z_{n-a}),\\
+\mathscr G^2&=\sum_{n=0}^N\norm{G_n}_{H^{s-1}}^2.
+\end{aligned}
+\end{equation}
+Let the signed self-production be
+\begin{equation}\label{r:joined-eq:selfproducer}
+\mathscr P_{N,s}(W)
+=-\sum_{n=0}^N\ip{W_n}{
+ \sum_{a=0}^n\binom na B(W_a,W_{n-a})}_{H^s}.
+\end{equation}
+On every strict classical interval,
+\begin{equation}\label{r:joined-eq:unrestrictedrowestimate}
+\mathscr E'+\frac\nu2\mathscr D
+\le\mathscr P_{N,s}(W)
++\left(\nu+\frac{8C_s^2}{\nu}\mathscr Z^2\right)\mathscr E
++\frac{\mathscr G^2}{\nu},
+\end{equation}
+where $C_s=2^{s/2}\pi(2\pi)^{-3/2}$. The two added coefficients have finite time integrals determined entirely by the prescribed force. No smallness condition is used.
+\end{theorem}
+\begin{proof}
+The Fourier weight inequality
+$\langle\xi\rangle^s\le2^{s/2}\langle\eta\rangle^s
+\langle\xi-\eta\rangle^s$
+and Cauchy--Schwarz give
+\begin{equation*}
+\norm{ab}_{H^s}\le C_s\norm a_{H^{s+2}}\norm b_{H^s},
+\end{equation*}
+using $\int\langle\eta\rangle^{-4}d\eta=\pi^2$.
+Since both factors are divergence-free, the divergence form of $B$ gives
+$\norm{B(a,b)}_{H^{s-1}}\le\norm{a\otimes b}_{H^s}$.
+In either cross term, the factor placed at height $s+2$ is $Z$.
+
+Let $L_n$ be the sum of the two cross interactions in \eqref{r:joined-eq:liftrow}. Discrete convolution and $\binom na\le\binom Na$ give
+\begin{equation*}
+\left(\sum_{n=0}^N\norm{L_n}_{H^{s-1}}^2\right)^{1/2}
+\le2C_s\mathscr Z\sqrt{2\mathscr E}.
+\end{equation*}
+Pairing through heights $s-1$ and $s+1$, all added terms are bounded by
+\begin{equation*}
+\sqrt{\mathscr D+2\mathscr E}
+\left(2C_s\mathscr Z\sqrt{2\mathscr E}+\mathscr G\right).
+\end{equation*}
+Young's inequality bounds this by
+$\frac\nu2\mathscr D+\nu\mathscr E
++8C_s^2\mathscr Z^2\mathscr E/\nu+\mathscr G^2/\nu$.
+The remaining pairing is exactly \eqref{r:joined-eq:selfproducer}, proving
+\eqref{r:joined-eq:unrestrictedrowestimate}. Finally,
+$\mathscr G\le C_s\mathscr Z(\sum_{n\le N}\norm{Z_n}_{H^s}^2)^{1/2}$,
+so \eqref{r:joined-eq:liftjets} bounds every added coefficient.
+\end{proof}
+
+The added interactions have coefficients determined by the source,
+and their contribution is at most linear in \(\mathscr E\).
+At \(N=s=0\), incompressibility also cancels the self-production.
+At higher orders, the signed nonlinear term in
+\eqref{r:joined-eq:selfproducer} remains. The estimate controls the
+source-dependent perturbation of the energy equation without giving
+an independent bound for that nonlinear term.
+
+The decomposition must also retain the original initial derivatives.
+For \(a_n=V_n(0)\), the recurrence \eqref{r:eq:initial} reads
+\begin{equation}\label{r:joined-eq:initialjet}
+a_{n+1}=\nu\Delta a_n
+-\PP\sum_{b=0}^{n}\binom nb(a_b\cdot\nabla)a_{n-b}
++\PP F_n(0).
+\end{equation}
+Thus the initial derivatives remain fixed by \(u_0\) and the
+source derivatives at zero. Full-interval regularity for arbitrary
+forcing is supplied by Corollary~\ref{r:thm:supplied-forced}, as a direct
+consequence of the global forced theorem proved in Part~II.
+
+
+\subsection{The force inside differentiated nonlinear production}
+
+The explicit work term does not contain every occurrence of the source after time differentiation. The nonlinear production is evaluated on a forced velocity, so differentiating it inserts the force into each velocity slot. At the second critical-height row this entire insertion can also be controlled from the kinetic budget.
+
+Write $E_s(u)=\frac12\norm u_{\dot H^s}^2$, $g=\PP f$,
+$\mathcal A(u)=\nu\Delta u-B(u,u)$ and
+$\mathcal P_s(u)=-\langle\Lambda^su,\Lambda^sB(u,u)\rangle$.
+The vector field $\mathcal A$ is the unforced right side evaluated at the current velocity; the actual trajectory obeys $u_t=\mathcal A(u)+g$.
+Let $\mathcal J_s=D\mathcal P_s(u)[g]$. Differentiating its three velocity slots gives
+\begin{equation}\label{r:joined-eq:sourceinsertion}
+\begin{aligned}
+\mathcal J_s={}&-\langle\Lambda^sg,\Lambda^s((u\cdot\nabla)u)\rangle\\
+&-\langle\Lambda^su,\Lambda^s((g\cdot\nabla)u)\rangle\\
+&-\langle\Lambda^su,\Lambda^s((u\cdot\nabla)g)\rangle .
+\end{aligned}
+\end{equation}
+The projection has been removed only inside global pairings with solenoidal fields.
+
+Define $U=\sup_{t<T}\norm{u(t)}_2$,
+$D=\norm{\nabla u}_{L^2(0,T;L^2)}$, and
+\begin{equation*}
+a_\rho(t)=(2\pi)^{-3/2}\int_{\R^3}|\xi|^\rho
+|\widehat g(t,\xi)|\,d\xi,\qquad
+h(t)=\norm{u(t)}_{\dot H^{1/2}}.
+\end{equation*}
+Kinetic energy bounds $U$ and $D$ from the prescribed data. Every $a_\rho$ used below is bounded by a sufficiently high source Sobolev norm.
+
+\begin{proposition}[Complete critical source insertion]\label{r:joined-prop:sourceinsertion}
+Without a source smallness condition,
+\begin{equation}\label{r:joined-eq:insertionbound}
+|\mathcal J_{1/2}|\le
+2a_1h^2+a_{3/2}Uh+a_2U^2.
+\end{equation}
+In particular, with $a_\rho^*=\sup_{t\le T}a_\rho(t)$,
+\begin{equation}\label{r:joined-eq:insertionL1}
+\norm{\mathcal J_{1/2}}_{L^1(0,T)}
+\le2a_1^*U\sqrt T\,D
++a_{3/2}^*U^{3/2}T^{3/4}D^{1/2}
++a_2^*TU^2.
+\end{equation}
+\end{proposition}
+\begin{proof}
+In the first pairing of \eqref{r:joined-eq:sourceinsertion}, move all spatial derivatives onto $g$; its absolute value is bounded by $a_2U^2$.
+In the second pairing the undifferentiated transport cancels by $\diver g=0$. Its commutator obeys
+\begin{equation*}
+\norm{[\Lambda^{1/2},g\cdot\nabla]u}_2\le a_1h,
+\end{equation*}
+because
+$\bigl||\xi|^{1/2}-|\eta|^{1/2}\bigr|\,|\eta|
+\le|\xi-\eta|\,|\eta|^{1/2}$
+in its Fourier kernel. Young's convolution inequality proves the bound.
+For the final pairing, splitting the half-derivative Fourier weight gives
+\begin{equation*}
+\norm{\Lambda^{1/2}((u\cdot\nabla)g)}_2
+\le a_1h+a_{3/2}U.
+\end{equation*}
+Summing gives \eqref{r:joined-eq:insertionbound}. Finally, Fourier Cauchy--Schwarz gives $h^2\le U\norm{\nabla u}_2$. Integrating this inequality and its square root proves \eqref{r:joined-eq:insertionL1}.
+\end{proof}
+
+The direct work terms can also be estimated using only kinetic energy and source norms. Set
+$W_s=\langle u,\Lambda^{2s}g\rangle$ and $k_s=\Lambda^{2s}g$.
+Moving derivatives onto the prescribed test field yields
+\begin{equation}\label{r:joined-eq:workderivative}
+\begin{aligned}
+W_s'={}&\langle u,(\partial_t+\nu\Delta)k_s\rangle\\
+&+\int_{\R^3}u_i u_j\,\partial_j(k_s)_i\,dx
++\langle g,k_s\rangle .
+\end{aligned}
+\end{equation}
+Each term is uniformly bounded from $U$ and smooth source norms. The pressure pairing vanishes because $k_s$ is divergence-free.
+
+Let $H(u)=\frac12\norm u_{\dot H^{1/2}}^2$ and write
+$L_{\mathcal A}\Phi=D\Phi[\mathcal A]$ for differentiation of a scalar functional along the unforced vector field. Along the forced history the exact second-height equation is
+\begin{equation}\label{r:joined-eq:generatorcomparison}
+\begin{aligned}
+H''&=L_{\mathcal A}^2H(u)+R_f,\\
+R_f&=\mathcal J_{1/2}+W_{1/2}'-2\nu W_{3/2},
+\qquad R_f\in L^1(0,T).
+\end{aligned}
+\end{equation}
+Thus the source correction hidden inside nonlinear differentiation is controlled along with the explicit work terms. The remaining functional is
+\begin{equation}\label{r:joined-eq:autonomousgenerator}
+L_{\mathcal A}^2H(u)
+=4\nu^2E_{5/2}(u)
++D\mathcal P_{1/2}(u)[\mathcal A(u)]
+-2\nu\mathcal P_{3/2}(u).
+\end{equation}
+The leading viscous coefficient remains positive.
+The remainder depends on the nonlinear evolution of \(u\).
+Subtracting the double time integral of \(R_f\) corrects the scalar
+energy identity, but the velocity still satisfies
+\(u_t=\mathcal A(u)+g\). Thus neither this scalar correction nor the
+Stokes decomposition identifies the forced solution with an unforced
+one. The estimates establish bounded source contributions at the
+stated orders; full-interval control of the nonlinear remainder is
+a separate assertion.

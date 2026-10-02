@@ -1,0 +1,185 @@
+\DocumentMetadata{
+  lang=en-US,
+  pdfstandard=UA-2,
+  tagging=on
+}
+
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools,mathrsfs}
+\usepackage{microtype}
+\usepackage{needspace}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{calc,decorations.pathreplacing}
+\graphicspath{{../documents/how-the-proof-works/rewrite-20260906/figures/}}
+\usepackage[hidelinks]{hyperref}
+
+\tagpdfsetup{
+  tabsorder=structure,
+  role/new-attribute={enumerate}{/O /List /ListNumbering /Decimal}
+}
+
+\setlength{\emergencystretch}{2em}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{hypothesis}[theorem]{Theorem}
+\newtheorem*{maintheorem}{Theorem}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\usepackage[nameinlink,noabbrev]{cleveref}
+
+\newcommand{\R}{\mathbb R}
+\newcommand{\N}{\mathbb N}
+\newcommand{\Nzero}{\mathbb N_0}
+\newcommand{\Pp}{\mathbb P}
+\newcommand{\PP}{\mathbb P}
+\newcommand{\QQ}{\mathbb Q}
+\newcommand{\Dt}{D_t}
+\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\diver}{div}
+\newcommand{\HsSigma}{H^\infty_\sigma}
+\newcommand{\SSigma}{\mathcal S_\sigma}
+\newcommand{\cR}{\mathcal R}
+\newcommand{\cP}{\mathcal P}
+\newcommand{\norm}[1]{\left\lVert #1\right\rVert}
+\newcommand{\ip}[2]{\left\langle #1,#2\right\rangle}
+\newcommand{\abs}[1]{\left|#1\right|}
+\newcommand{\dd}{\,\mathrm d}
+
+\hypersetup{
+  pdftitle={Global Smoothness for the Unforced and Forced Three-Dimensional Incompressible Navier--Stokes Equations, with a Refutation of OpenAI's Finite-Time Blowup Claim},
+  pdfauthor={Thomas Birnie},
+  pdfsubject={Unforced and forced global smoothness, compatible finite rectangles, endpoint continuation, and exclusion of a proposed finite-time blowup},
+  pdfkeywords={Navier--Stokes equations, global smoothness, external force, compatible intersection, finite rectangles, endpoint restart, finite-time blowup}
+}
+
+\title{Global Smoothness for the Unforced and Forced\\
+Three-Dimensional Incompressible Navier--Stokes Equations\\[0.4em]
+\large with a Refutation of OpenAI's Finite-Time Blowup Claim}
+\author{Thomas Birnie}
+\date{September 2026}
+
+\makeatletter
+\renewcommand\tableofcontents{%
+  \section*{Contents}%
+  \@mkboth{\MakeUppercase{Contents}}{\MakeUppercase{Contents}}%
+  \@starttoc{toc}%
+}
+\renewenvironment{thebibliography}[1]
+  {\section*{References}%
+   \addcontentsline{toc}{section}{References}%
+   \@mkboth{\MakeUppercase{References}}{\MakeUppercase{References}}%
+   \list{\@biblabel{\@arabic\c@enumiv}}%
+        {\settowidth\labelwidth{\@biblabel{#1}}%
+         \leftmargin\labelwidth
+         \advance\leftmargin\labelsep
+         \@openbib@code
+         \usecounter{enumiv}%
+         \let\p@enumiv\@empty
+         \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+   \sloppy
+   \clubpenalty4000
+   \@clubpenalty \clubpenalty
+   \widowpenalty4000%
+   \sfcode`\.\@m}
+  {\def\@noitemerr
+    {\@latex@warning{Empty `thebibliography' environment}}%
+   \endlist}
+\makeatother
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Fix \(\nu>0\) and a smooth divergence-free finite-energy datum \(u_0\).
+For the unforced equations, the datum generates one maximal
+pressure-normalized history. At every finite temporal depth and spatial
+height, the datum construction places the corresponding pressure-complete
+rectangle on the whole interval leading to a proposed finite terminal time.
+The compatible rectangles exhaust the mixed Sobolev intersection, while the
+completed critical-height identities recover every spatial row from those
+same finite coordinates. The adjacent rows have a common
+\(H^\infty_\sigma\) endpoint; the equation recovers its complete velocity and
+pressure jet; and the local restart joins to the incoming history, excluding
+a finite maximal time. For a prescribed
+\(f\in C^\infty([0,\infty);\mathcal S(\R^3;\R^3))\), the finite-row
+construction is applied anew to the complete forced graph. The source
+pairing and pressure-potential bounds control every added affine force
+coordinate, the forced rectangles yield the same endpoint regularity, and
+the restart retains the original absolute-time force. This gives a unique
+global smooth solution in both the unforced and forced settings.
+
+The proposed field in OpenAI's \emph{Finite Time Blowup for Navier--Stokes}
+is then tested against the forced theorem. Its full localization residual has
+uniformly bounded finite jets with compatible compactly supported terminal
+values; an explicit Borel construction extends it to a force in
+\(C_c^\infty(\R^3\times(0,\infty))\). The forced theorem supplies a global
+smooth solution for the same zero datum, viscosity, and prescribed force.
+Strict-subinterval uniqueness identifies every claimed classical candidate
+with that solution on \([0,1)\). The resulting finite velocity and mixed
+rectangle bounds contradict both the asserted velocity blowup and the
+divergent positive exterior contribution to \(R_{0,1}\) calculated from the
+proposed field. The field
+cannot solve the stated forced initial-value problem.
+\end{abstract}
+
+\section*{Computational assistance}
+This manuscript was prepared with assistance from OpenAI's ChatGPT and Codex.
+
+\clearpage
+\begingroup
+\small
+\tableofcontents
+\endgroup
+\clearpage
+
+\part{The Unforced Equations}
+\label{paper:part-unforced}
+
+\input{parts/unforced/00-how-proof-works.tex}
+\clearpage
+\input{parts/unforced/00-main-theorem.tex}
+\input{parts/unforced/00-introduction.tex}
+\input{parts/unforced/00-analytic-framework.tex}
+\input{parts/unforced/01-setting-mixed-jet.tex}
+\input{parts/unforced/02-compatible-rectangles.tex}
+\input{parts/unforced/04-intersection-endpoint-restart.tex}
+\input{parts/unforced/03-matrix-forms.tex}
+\input{parts/unforced/03-quantitative-consequences.tex}
+\input{parts/unforced/05-three-dimensional-applications.tex}
+\input{parts/unforced/06-conclusion.tex}
+
+\clearpage
+\part{The Forced Equations}
+\label{paper:part-forced}
+
+\input{parts/forced/00-introduction.tex}
+\input{parts/forced/00-how-proof-works.tex}
+\input{parts/forced/00-analytic-framework.tex}
+\input{parts/forced/01-setting-mixed-jet.tex}
+\input{parts/forced/02-compatible-rectangles.tex}
+\input{parts/forced/04-intersection-endpoint-restart.tex}
+\input{parts/forced/03-matrix-forms.tex}
+\input{parts/forced/03-quantitative-consequences.tex}
+\input{parts/forced/05-three-dimensional-applications.tex}
+\input{parts/forced/06-conclusion.tex}
+
+\clearpage
+\part{Refutation of OpenAI's \emph{Finite Time Blowup for Navier--Stokes}}
+\label{paper:part-refutation}
+
+\input{parts/refutation/body.tex}
+
+\input{references.tex}
+
+\end{document}
