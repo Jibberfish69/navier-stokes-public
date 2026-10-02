@@ -2,7 +2,17 @@
 
 Research notes, theorem development, manuscript sources, manuscripts, and retained revision history by Thomas Birnie.
 
-## Current manuscript
+## Start reading
+
+Thomas Birnie is an independent researcher working on three-dimensional fluid dynamics and noncommutative spacetime.
+
+- [Research collection and reading routes](https://thomas-birnie-research.thomasgbirnie.chatgpt.site): eight public papers and monographs, subject summaries, citations, and a downloadable research brief.
+- [Combined Navier–Stokes paper](https://doi.org/10.6084/m9.figshare.34005666.v1): **Global Smoothness for the Unforced and Forced Three-Dimensional Incompressible Navier–Stokes Equations, with a Refutation of OpenAI’s Finite-Time Blowup Claim**. Begin with its opening “How the Proof Works” section.
+- [Verify the author’s public Figshare record](https://figshare.com/authors/Thomas_Birnie/24727603).
+
+The combined paper presents the author’s proofs of global smoothness and formal arguments refuting the proposed finite-time blowup. DOI-backed public deposit identifies the manuscript and author; it does not establish independent validation.
+
+## Forced manuscript retained in this archive
 
 **Global Smoothness for the Forced Three-Dimensional Incompressible Navier--Stokes Equations**
 
@@ -11,7 +21,7 @@ September 2026 version.
 - [Read the PDF](papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/global-smoothness-forced-navier-stokes.pdf)
 - [LaTeX source](papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/main.tex)
 
-This is the current forced Navier–Stokes manuscript; the other research directories retain historical working material.
+This archive contains the September 2026 forced Navier–Stokes manuscript; the other research directories retain historical working material.
 
 ## Contents
 
@@ -34,3 +44,4 @@ Source histories are joined by new archive commits. Those joins do not represent
 Git timestamps and filesystem modification times are recorded metadata. They are not independent certification of when a result was first written or publicly disclosed.
 
 The directory grouping of retained files is preserved. Shared private infrastructure is outside this release, so tools depending on that infrastructure may need separate adaptation.
+
