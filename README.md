@@ -2,6 +2,17 @@
 
 Research notes, theorem development, manuscript sources, manuscripts, and retained revision history by Thomas Birnie.
 
+## Current manuscript
+
+**Global Smoothness for the Forced Three-Dimensional Incompressible Navier--Stokes Equations**
+
+September 2026 version.
+
+- [Read the PDF](papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/global-smoothness-forced-navier-stokes.pdf)
+- [LaTeX source](papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/main.tex)
+
+This is the current forced Navier–Stokes manuscript; the other research directories retain historical working material.
+
 ## Contents
 
 - `problems/navier-stokes/`: research notes and theorem-development files.
