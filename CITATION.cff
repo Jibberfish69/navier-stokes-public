@@ -9,7 +9,7 @@ url: https://github.com/Jibberfish69/navier-stokes-public
 preferred-citation:
   type: article
   authors: *id001
-  title: Global Smoothness for the Unforced and Forced Three-Dimensional Incompressible
+  title: Global Smoothness for the Three-Dimensional Incompressible
     Navier–Stokes Equations, with a Refutation of OpenAI’s Finite-Time Blowup Claim
   doi: 10.6084/m9.figshare.34005666.v1
   url: https://doi.org/10.6084/m9.figshare.34005666.v1

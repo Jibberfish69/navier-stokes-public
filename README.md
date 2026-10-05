@@ -7,9 +7,9 @@ Research notes, theorem development, manuscript sources, manuscripts, and retain
 Thomas Birnie is an independent researcher working on three-dimensional fluid dynamics and noncommutative spacetime.
 
 - [Research collection and reading routes](https://thomas-birnie-research.thomasgbirnie.chatgpt.site): eight public papers and monographs, subject summaries, citations, and a downloadable research brief.
-- [Combined Navier–Stokes paper](https://doi.org/10.6084/m9.figshare.34005666.v1): **Global Smoothness for the Unforced and Forced Three-Dimensional Incompressible Navier–Stokes Equations, with a Refutation of OpenAI’s Finite-Time Blowup Claim**. Begin with its opening “How the Proof Works” section.
+- [Combined Navier–Stokes paper](https://doi.org/10.6084/m9.figshare.34005666.v1): **Global Smoothness for the Three-Dimensional Incompressible Navier–Stokes Equations, with a Refutation of OpenAI’s Finite-Time Blowup Claim**. Begin with its opening “How the Proof Works” section.
 - [Reading guide: from a narrowing vortex to a terminal-time argument](https://thomas-birnie-research.thomasgbirnie.chatgpt.site/terminal-time-guide.html): follows Part I’s scaling, whole-interval derivative estimates, and endpoint continuation, with links to the published manuscript.
-- [Rebuild the combined manuscript](papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/): original TeX source, source hashes, a tagged LuaLaTeX build route, and a separate pdfLaTeX submission copy.
+- [Rebuild the combined manuscript](papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/): current and original TeX sources, source hashes, a tagged LuaLaTeX build route, and a separate pdfLaTeX submission copy.
 - [Verify the author’s public Figshare record](https://figshare.com/authors/Thomas_Birnie/24727603).
 
 The combined paper presents the author’s proofs of global smoothness and formal arguments refuting the proposed finite-time blowup. DOI-backed public deposit identifies the manuscript and author; it does not establish independent validation.
