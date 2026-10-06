@@ -1,0 +1,569 @@
+{
+  "all_passed": true,
+  "arithmetic": "Exact fractions; formal transport coefficients only",
+  "coefficient_class_cases": [
+    {
+      "columns": 1,
+      "speed_pattern": "all_stopped",
+      "speeds": [
+        "0"
+      ],
+      "stopped_columns": 1,
+      "coefficient_rank": 0,
+      "cancellation_dimension": 1
+    },
+    {
+      "columns": 1,
+      "speed_pattern": "all_forward",
+      "speeds": [
+        "1"
+      ],
+      "stopped_columns": 0,
+      "coefficient_rank": 0,
+      "cancellation_dimension": 1
+    },
+    {
+      "columns": 1,
+      "speed_pattern": "all_reverse",
+      "speeds": [
+        "-1"
+      ],
+      "stopped_columns": 0,
+      "coefficient_rank": 0,
+      "cancellation_dimension": 1
+    },
+    {
+      "columns": 1,
+      "speed_pattern": "forward_and_stopped",
+      "speeds": [
+        "0"
+      ],
+      "stopped_columns": 1,
+      "coefficient_rank": 0,
+      "cancellation_dimension": 1
+    },
+    {
+      "columns": 1,
+      "speed_pattern": "forward_and_reverse",
+      "speeds": [
+        "1"
+      ],
+      "stopped_columns": 0,
+      "coefficient_rank": 0,
+      "cancellation_dimension": 1
+    },
+    {
+      "columns": 1,
+      "speed_pattern": "three_signs",
+      "speeds": [
+        "-1"
+      ],
+      "stopped_columns": 0,
+      "coefficient_rank": 0,
+      "cancellation_dimension": 1
+    },
+    {
+      "columns": 2,
+      "speed_pattern": "all_stopped",
+      "speeds": [
+        "0",
+        "0"
+      ],
+      "stopped_columns": 2,
+      "coefficient_rank": 0,
+      "cancellation_dimension": 3
+    },
+    {
+      "columns": 2,
+      "speed_pattern": "all_forward",
+      "speeds": [
+        "1",
+        "1"
+      ],
+      "stopped_columns": 0,
+      "coefficient_rank": 1,
+      "cancellation_dimension": 2
+    },
+    {
+      "columns": 2,
+      "speed_pattern": "all_reverse",
+      "speeds": [
+        "-1",
+        "-1"
+      ],
+      "stopped_columns": 0,
+      "coefficient_rank": 1,
+      "cancellation_dimension": 2
+    },
+    {
+      "columns": 2,
+      "speed_pattern": "forward_and_stopped",
+      "speeds": [
+        "0",
+        "1"
+      ],
+      "stopped_columns": 1,
+      "coefficient_rank": 1,
+      "cancellation_dimension": 2
+    },
+    {
+      "columns": 2,
+      "speed_pattern": "forward_and_reverse",
+      "speeds": [
+        "1",
+        "-1"
+      ],
+      "stopped_columns": 0,
+      "coefficient_rank": 1,
+      "cancellation_dimension": 2
+    },
+    {
+      "columns": 2,
+      "speed_pattern": "three_signs",
+      "speeds": [
+        "-1",
+        "0"
+      ],
+      "stopped_columns": 1,
+      "coefficient_rank": 1,
+      "cancellation_dimension": 2
+    },
+    {
+      "columns": 3,
+      "speed_pattern": "all_stopped",
+      "speeds": [
+        "0",
+        "0",
+        "0"
+      ],
+      "stopped_columns": 3,
+      "coefficient_rank": 0,
+      "cancellation_dimension": 6
+    },
+    {
+      "columns": 3,
+      "speed_pattern": "all_forward",
+      "speeds": [
+        "1",
+        "1",
+        "1"
+      ],
+      "stopped_columns": 0,
+      "coefficient_rank": 3,
+      "cancellation_dimension": 3
+    },
+    {
+      "columns": 3,
+      "speed_pattern": "all_reverse",
+      "speeds": [
+        "-1",
+        "-1",
+        "-1"
+      ],
+      "stopped_columns": 0,
+      "coefficient_rank": 3,
+      "cancellation_dimension": 3
+    },
+    {
+      "columns": 3,
+      "speed_pattern": "forward_and_stopped",
+      "speeds": [
+        "0",
+        "1",
+        "0"
+      ],
+      "stopped_columns": 2,
+      "coefficient_rank": 2,
+      "cancellation_dimension": 4
+    },
+    {
+      "columns": 3,
+      "speed_pattern": "forward_and_reverse",
+      "speeds": [
+        "1",
+        "-1",
+        "1"
+      ],
+      "stopped_columns": 0,
+      "coefficient_rank": 3,
+      "cancellation_dimension": 3
+    },
+    {
+      "columns": 3,
+      "speed_pattern": "three_signs",
+      "speeds": [
+        "-1",
+        "0",
+        "1"
+      ],
+      "stopped_columns": 1,
+      "coefficient_rank": 3,
+      "cancellation_dimension": 3
+    },
+    {
+      "columns": 4,
+      "speed_pattern": "all_stopped",
+      "speeds": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "stopped_columns": 4,
+      "coefficient_rank": 0,
+      "cancellation_dimension": 10
+    },
+    {
+      "columns": 4,
+      "speed_pattern": "all_forward",
+      "speeds": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "stopped_columns": 0,
+      "coefficient_rank": 6,
+      "cancellation_dimension": 4
+    },
+    {
+      "columns": 4,
+      "speed_pattern": "all_reverse",
+      "speeds": [
+        "-1",
+        "-1",
+        "-1",
+        "-1"
+      ],
+      "stopped_columns": 0,
+      "coefficient_rank": 6,
+      "cancellation_dimension": 4
+    },
+    {
+      "columns": 4,
+      "speed_pattern": "forward_and_stopped",
+      "speeds": [
+        "0",
+        "1",
+        "0",
+        "1"
+      ],
+      "stopped_columns": 2,
+      "coefficient_rank": 5,
+      "cancellation_dimension": 5
+    },
+    {
+      "columns": 4,
+      "speed_pattern": "forward_and_reverse",
+      "speeds": [
+        "1",
+        "-1",
+        "1",
+        "-1"
+      ],
+      "stopped_columns": 0,
+      "coefficient_rank": 6,
+      "cancellation_dimension": 4
+    },
+    {
+      "columns": 4,
+      "speed_pattern": "three_signs",
+      "speeds": [
+        "-1",
+        "0",
+        "1",
+        "-1"
+      ],
+      "stopped_columns": 1,
+      "coefficient_rank": 6,
+      "cancellation_dimension": 4
+    },
+    {
+      "columns": 5,
+      "speed_pattern": "all_stopped",
+      "speeds": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "stopped_columns": 5,
+      "coefficient_rank": 0,
+      "cancellation_dimension": 15
+    },
+    {
+      "columns": 5,
+      "speed_pattern": "all_forward",
+      "speeds": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "stopped_columns": 0,
+      "coefficient_rank": 10,
+      "cancellation_dimension": 5
+    },
+    {
+      "columns": 5,
+      "speed_pattern": "all_reverse",
+      "speeds": [
+        "-1",
+        "-1",
+        "-1",
+        "-1",
+        "-1"
+      ],
+      "stopped_columns": 0,
+      "coefficient_rank": 10,
+      "cancellation_dimension": 5
+    },
+    {
+      "columns": 5,
+      "speed_pattern": "forward_and_stopped",
+      "speeds": [
+        "0",
+        "1",
+        "0",
+        "1",
+        "0"
+      ],
+      "stopped_columns": 3,
+      "coefficient_rank": 7,
+      "cancellation_dimension": 8
+    },
+    {
+      "columns": 5,
+      "speed_pattern": "forward_and_reverse",
+      "speeds": [
+        "1",
+        "-1",
+        "1",
+        "-1",
+        "1"
+      ],
+      "stopped_columns": 0,
+      "coefficient_rank": 10,
+      "cancellation_dimension": 5
+    },
+    {
+      "columns": 5,
+      "speed_pattern": "three_signs",
+      "speeds": [
+        "-1",
+        "0",
+        "1",
+        "-1",
+        "0"
+      ],
+      "stopped_columns": 2,
+      "coefficient_rank": 9,
+      "cancellation_dimension": 6
+    },
+    {
+      "columns": 6,
+      "speed_pattern": "all_stopped",
+      "speeds": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "stopped_columns": 6,
+      "coefficient_rank": 0,
+      "cancellation_dimension": 21
+    },
+    {
+      "columns": 6,
+      "speed_pattern": "all_forward",
+      "speeds": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "stopped_columns": 0,
+      "coefficient_rank": 15,
+      "cancellation_dimension": 6
+    },
+    {
+      "columns": 6,
+      "speed_pattern": "all_reverse",
+      "speeds": [
+        "-1",
+        "-1",
+        "-1",
+        "-1",
+        "-1",
+        "-1"
+      ],
+      "stopped_columns": 0,
+      "coefficient_rank": 15,
+      "cancellation_dimension": 6
+    },
+    {
+      "columns": 6,
+      "speed_pattern": "forward_and_stopped",
+      "speeds": [
+        "0",
+        "1",
+        "0",
+        "1",
+        "0",
+        "1"
+      ],
+      "stopped_columns": 3,
+      "coefficient_rank": 12,
+      "cancellation_dimension": 9
+    },
+    {
+      "columns": 6,
+      "speed_pattern": "forward_and_reverse",
+      "speeds": [
+        "1",
+        "-1",
+        "1",
+        "-1",
+        "1",
+        "-1"
+      ],
+      "stopped_columns": 0,
+      "coefficient_rank": 15,
+      "cancellation_dimension": 6
+    },
+    {
+      "columns": 6,
+      "speed_pattern": "three_signs",
+      "speeds": [
+        "-1",
+        "0",
+        "1",
+        "-1",
+        "0",
+        "1"
+      ],
+      "stopped_columns": 2,
+      "coefficient_rank": 14,
+      "cancellation_dimension": 7
+    }
+  ],
+  "complete_two_time_moving_gap_cases": 144,
+  "gradient_stock_speed_mismatch_cases": 12,
+  "sharp_stock_equality_cases": [
+    {
+      "sqrt_energy_0": "1",
+      "sqrt_energy_1": "1",
+      "gap": "1/2",
+      "sharp_equality": true
+    },
+    {
+      "sqrt_energy_0": "1",
+      "sqrt_energy_1": "1",
+      "gap": "2",
+      "sharp_equality": true
+    },
+    {
+      "sqrt_energy_0": "1",
+      "sqrt_energy_1": "2",
+      "gap": "1/2",
+      "sharp_equality": true
+    },
+    {
+      "sqrt_energy_0": "1",
+      "sqrt_energy_1": "2",
+      "gap": "2",
+      "sharp_equality": true
+    },
+    {
+      "sqrt_energy_0": "1",
+      "sqrt_energy_1": "3",
+      "gap": "1/2",
+      "sharp_equality": true
+    },
+    {
+      "sqrt_energy_0": "1",
+      "sqrt_energy_1": "3",
+      "gap": "2",
+      "sharp_equality": true
+    },
+    {
+      "sqrt_energy_0": "2",
+      "sqrt_energy_1": "1",
+      "gap": "1/2",
+      "sharp_equality": true
+    },
+    {
+      "sqrt_energy_0": "2",
+      "sqrt_energy_1": "1",
+      "gap": "2",
+      "sharp_equality": true
+    },
+    {
+      "sqrt_energy_0": "2",
+      "sqrt_energy_1": "2",
+      "gap": "1/2",
+      "sharp_equality": true
+    },
+    {
+      "sqrt_energy_0": "2",
+      "sqrt_energy_1": "2",
+      "gap": "2",
+      "sharp_equality": true
+    },
+    {
+      "sqrt_energy_0": "2",
+      "sqrt_energy_1": "3",
+      "gap": "1/2",
+      "sharp_equality": true
+    },
+    {
+      "sqrt_energy_0": "2",
+      "sqrt_energy_1": "3",
+      "gap": "2",
+      "sharp_equality": true
+    },
+    {
+      "sqrt_energy_0": "3",
+      "sqrt_energy_1": "1",
+      "gap": "1/2",
+      "sharp_equality": true
+    },
+    {
+      "sqrt_energy_0": "3",
+      "sqrt_energy_1": "1",
+      "gap": "2",
+      "sharp_equality": true
+    },
+    {
+      "sqrt_energy_0": "3",
+      "sqrt_energy_1": "2",
+      "gap": "1/2",
+      "sharp_equality": true
+    },
+    {
+      "sqrt_energy_0": "3",
+      "sqrt_energy_1": "2",
+      "gap": "2",
+      "sharp_equality": true
+    },
+    {
+      "sqrt_energy_0": "3",
+      "sqrt_energy_1": "3",
+      "gap": "1/2",
+      "sharp_equality": true
+    },
+    {
+      "sqrt_energy_0": "3",
+      "sqrt_energy_1": "3",
+      "gap": "2",
+      "sharp_equality": true
+    }
+  ],
+  "scope": "Finite algebra validation; no toy trajectory, alternate NS history, terminal assumption or forcing witness."
+}

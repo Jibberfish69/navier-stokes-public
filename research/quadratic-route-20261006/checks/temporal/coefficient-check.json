@@ -1,0 +1,110 @@
+{
+  "kind": "Exact rational coefficient check; no trajectory or analytic estimate",
+  "depths": [
+    {
+      "N": 0,
+      "generic_raw_equals_zero_extended_half_sum": true,
+      "factorial_hankel_equals_complete_boundary": true,
+      "highest_total_equals_complete_highest_row": true,
+      "symmetric_matrix_variables": 1,
+      "matched_condition_rank": 0,
+      "cancellation_dimension": 1,
+      "unmatched_boundary_terms": 0,
+      "boundary_terms_by_total": {}
+    },
+    {
+      "N": 1,
+      "generic_raw_equals_zero_extended_half_sum": true,
+      "factorial_hankel_equals_complete_boundary": true,
+      "highest_total_equals_complete_highest_row": true,
+      "symmetric_matrix_variables": 3,
+      "matched_condition_rank": 0,
+      "cancellation_dimension": 3,
+      "unmatched_boundary_terms": 1,
+      "boundary_terms_by_total": {
+        "2": 1
+      }
+    },
+    {
+      "N": 2,
+      "generic_raw_equals_zero_extended_half_sum": true,
+      "factorial_hankel_equals_complete_boundary": true,
+      "highest_total_equals_complete_highest_row": true,
+      "symmetric_matrix_variables": 6,
+      "matched_condition_rank": 1,
+      "cancellation_dimension": 5,
+      "unmatched_boundary_terms": 4,
+      "boundary_terms_by_total": {
+        "3": 2,
+        "4": 2
+      }
+    },
+    {
+      "N": 3,
+      "generic_raw_equals_zero_extended_half_sum": true,
+      "factorial_hankel_equals_complete_boundary": true,
+      "highest_total_equals_complete_highest_row": true,
+      "symmetric_matrix_variables": 10,
+      "matched_condition_rank": 3,
+      "cancellation_dimension": 7,
+      "unmatched_boundary_terms": 10,
+      "boundary_terms_by_total": {
+        "4": 3,
+        "5": 4,
+        "6": 3
+      }
+    },
+    {
+      "N": 4,
+      "generic_raw_equals_zero_extended_half_sum": true,
+      "factorial_hankel_equals_complete_boundary": true,
+      "highest_total_equals_complete_highest_row": true,
+      "symmetric_matrix_variables": 15,
+      "matched_condition_rank": 6,
+      "cancellation_dimension": 9,
+      "unmatched_boundary_terms": 20,
+      "boundary_terms_by_total": {
+        "5": 4,
+        "6": 6,
+        "7": 6,
+        "8": 4
+      }
+    },
+    {
+      "N": 5,
+      "generic_raw_equals_zero_extended_half_sum": true,
+      "factorial_hankel_equals_complete_boundary": true,
+      "highest_total_equals_complete_highest_row": true,
+      "symmetric_matrix_variables": 21,
+      "matched_condition_rank": 10,
+      "cancellation_dimension": 11,
+      "unmatched_boundary_terms": 35,
+      "boundary_terms_by_total": {
+        "6": 5,
+        "7": 8,
+        "8": 9,
+        "9": 8,
+        "10": 5
+      }
+    },
+    {
+      "N": 6,
+      "generic_raw_equals_zero_extended_half_sum": true,
+      "factorial_hankel_equals_complete_boundary": true,
+      "highest_total_equals_complete_highest_row": true,
+      "symmetric_matrix_variables": 28,
+      "matched_condition_rank": 15,
+      "cancellation_dimension": 13,
+      "unmatched_boundary_terms": 56,
+      "boundary_terms_by_total": {
+        "7": 6,
+        "8": 10,
+        "9": 12,
+        "10": 12,
+        "11": 10,
+        "12": 6
+      }
+    }
+  ],
+  "all_pass": true
+}

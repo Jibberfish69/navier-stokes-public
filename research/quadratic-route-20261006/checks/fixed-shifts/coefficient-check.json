@@ -1,0 +1,198 @@
+{
+  "all_passed": true,
+  "arithmetic": "Exact fractions and exact multivariate polynomial coefficients",
+  "transport_half_sum_and_classification": [
+    {
+      "distinct_shifts": 1,
+      "coefficient_rank": 0,
+      "cancellation_dimension": 1
+    },
+    {
+      "distinct_shifts": 2,
+      "coefficient_rank": 1,
+      "cancellation_dimension": 2
+    },
+    {
+      "distinct_shifts": 3,
+      "coefficient_rank": 3,
+      "cancellation_dimension": 3
+    },
+    {
+      "distinct_shifts": 4,
+      "coefficient_rank": 6,
+      "cancellation_dimension": 4
+    },
+    {
+      "distinct_shifts": 5,
+      "coefficient_rank": 10,
+      "cancellation_dimension": 5
+    },
+    {
+      "distinct_shifts": 6,
+      "coefficient_rank": 15,
+      "cancellation_dimension": 6
+    },
+    {
+      "distinct_shifts": 7,
+      "coefficient_rank": 21,
+      "cancellation_dimension": 7
+    }
+  ],
+  "finite_grid_checks": [
+    {
+      "maximum_difference_order": 0,
+      "h": "1/2",
+      "inverse_and_congruence": true,
+      "both_ordered_product_rules": true,
+      "optimal_diagonal_extraction": true
+    },
+    {
+      "maximum_difference_order": 0,
+      "h": "1",
+      "inverse_and_congruence": true,
+      "both_ordered_product_rules": true,
+      "optimal_diagonal_extraction": true
+    },
+    {
+      "maximum_difference_order": 0,
+      "h": "2",
+      "inverse_and_congruence": true,
+      "both_ordered_product_rules": true,
+      "optimal_diagonal_extraction": true
+    },
+    {
+      "maximum_difference_order": 1,
+      "h": "1/2",
+      "inverse_and_congruence": true,
+      "both_ordered_product_rules": true,
+      "optimal_diagonal_extraction": true
+    },
+    {
+      "maximum_difference_order": 1,
+      "h": "1",
+      "inverse_and_congruence": true,
+      "both_ordered_product_rules": true,
+      "optimal_diagonal_extraction": true
+    },
+    {
+      "maximum_difference_order": 1,
+      "h": "2",
+      "inverse_and_congruence": true,
+      "both_ordered_product_rules": true,
+      "optimal_diagonal_extraction": true
+    },
+    {
+      "maximum_difference_order": 2,
+      "h": "1/2",
+      "inverse_and_congruence": true,
+      "both_ordered_product_rules": true,
+      "optimal_diagonal_extraction": true
+    },
+    {
+      "maximum_difference_order": 2,
+      "h": "1",
+      "inverse_and_congruence": true,
+      "both_ordered_product_rules": true,
+      "optimal_diagonal_extraction": true
+    },
+    {
+      "maximum_difference_order": 2,
+      "h": "2",
+      "inverse_and_congruence": true,
+      "both_ordered_product_rules": true,
+      "optimal_diagonal_extraction": true
+    },
+    {
+      "maximum_difference_order": 3,
+      "h": "1/2",
+      "inverse_and_congruence": true,
+      "both_ordered_product_rules": true,
+      "optimal_diagonal_extraction": true
+    },
+    {
+      "maximum_difference_order": 3,
+      "h": "1",
+      "inverse_and_congruence": true,
+      "both_ordered_product_rules": true,
+      "optimal_diagonal_extraction": true
+    },
+    {
+      "maximum_difference_order": 3,
+      "h": "2",
+      "inverse_and_congruence": true,
+      "both_ordered_product_rules": true,
+      "optimal_diagonal_extraction": true
+    },
+    {
+      "maximum_difference_order": 4,
+      "h": "1/2",
+      "inverse_and_congruence": true,
+      "both_ordered_product_rules": true,
+      "optimal_diagonal_extraction": true
+    },
+    {
+      "maximum_difference_order": 4,
+      "h": "1",
+      "inverse_and_congruence": true,
+      "both_ordered_product_rules": true,
+      "optimal_diagonal_extraction": true
+    },
+    {
+      "maximum_difference_order": 4,
+      "h": "2",
+      "inverse_and_congruence": true,
+      "both_ordered_product_rules": true,
+      "optimal_diagonal_extraction": true
+    },
+    {
+      "maximum_difference_order": 5,
+      "h": "1/2",
+      "inverse_and_congruence": true,
+      "both_ordered_product_rules": true,
+      "optimal_diagonal_extraction": true
+    },
+    {
+      "maximum_difference_order": 5,
+      "h": "1",
+      "inverse_and_congruence": true,
+      "both_ordered_product_rules": true,
+      "optimal_diagonal_extraction": true
+    },
+    {
+      "maximum_difference_order": 5,
+      "h": "2",
+      "inverse_and_congruence": true,
+      "both_ordered_product_rules": true,
+      "optimal_diagonal_extraction": true
+    },
+    {
+      "maximum_difference_order": 6,
+      "h": "1/2",
+      "inverse_and_congruence": true,
+      "both_ordered_product_rules": true,
+      "optimal_diagonal_extraction": true
+    },
+    {
+      "maximum_difference_order": 6,
+      "h": "1",
+      "inverse_and_congruence": true,
+      "both_ordered_product_rules": true,
+      "optimal_diagonal_extraction": true
+    },
+    {
+      "maximum_difference_order": 6,
+      "h": "2",
+      "inverse_and_congruence": true,
+      "both_ordered_product_rules": true,
+      "optimal_diagonal_extraction": true
+    }
+  ],
+  "explicit_actual_forced_NS_field_check": {
+    "Y_solenoidal": true,
+    "N_Y_Y_equals_minus_4_phi_squared_x_y_0": true,
+    "curl_N_Y_Y_equals_16_z_phi_squared_minus_y_x_0": true,
+    "curl_N_Y_Y_nonzero": true,
+    "X_curlcurl_N_Y_Y_solenoidal": true
+  },
+  "scope": "Finite algebra only; no history simulation, terminal membership assumption or numerical PDE check."
+}

@@ -1,0 +1,129 @@
+{
+  "package": "quadratic-route-research",
+  "scope": "Bounded complete quadratic-route hierarchy; mathematical reports and exact finite checks only.",
+  "reports": 15,
+  "checkers": 3,
+  "recorded_results": 3,
+  "files": [
+    {
+      "path": "COVERAGE.md",
+      "sha256": "c0a661c4c3a1fdb46589f4e0dc1ef50336f7dfa3781a71c8a19520f44c7b7bca",
+      "bytes": 4209
+    },
+    {
+      "path": "README.md",
+      "sha256": "ea0aaf1d4054592940cf15b7a9d39aebc1ddc2f27c790f90cf095e280b79e15d",
+      "bytes": 3042
+    },
+    {
+      "path": "SOURCES.md",
+      "sha256": "c36fb9fed6cde2024bfad77a93dd7eff3bdab85c09d82cd09e3fe33eabd6a1d3",
+      "bytes": 3574
+    },
+    {
+      "path": "checks/adaptive-shifts/coefficient-check.json",
+      "sha256": "79264c064c4259c088bbfe3453663ec443f6303fa601c67bca7772c6928c5b92",
+      "bytes": 11039
+    },
+    {
+      "path": "checks/adaptive-shifts/validate.py",
+      "sha256": "68a728122694e021f81107b5094905bf108b004bed8f812dd759df4342ab1c5a",
+      "bytes": 6130
+    },
+    {
+      "path": "checks/fixed-shifts/coefficient-check.json",
+      "sha256": "c173c1a5ba5be2a09c13f61fa1329ee90dccc9aab818d93351a25dfec3353826",
+      "bytes": 5252
+    },
+    {
+      "path": "checks/fixed-shifts/validate.py",
+      "sha256": "356e2e38d9667d792938ca20b31abf38f1fb85f450dd973f48ce6b1eff3e1f92",
+      "bytes": 7656
+    },
+    {
+      "path": "checks/temporal/coefficient-check.json",
+      "sha256": "c24109d4703488fc316e261d44ff7eb29560726780f4b6aa948d65339387fdc8",
+      "bytes": 3175
+    },
+    {
+      "path": "checks/temporal/validate.py",
+      "sha256": "4ccc8575ffd1dc33998f04e502db59e0090289f2d9c32ea524f6fc170839e526",
+      "bytes": 5042
+    },
+    {
+      "path": "reports/01-temporal-composition.md",
+      "sha256": "61d76393736534e31c464cd7ae3cf014f91f3dfa007cbd6a611830b839398af3",
+      "bytes": 24611
+    },
+    {
+      "path": "reports/02-temporal-coefficients.md",
+      "sha256": "a040264b6f1ccf8992d38708f2a78a6ca8c5afbb66e86789717ad6805449084a",
+      "bytes": 14852
+    },
+    {
+      "path": "reports/03-temporal-forcing.md",
+      "sha256": "fb3b6e26a6ceaa2309f6c79aa6c7a28937cf138321cbf191d49eb8d4bc33482c",
+      "bytes": 16627
+    },
+    {
+      "path": "reports/04-temporal-projective-forms.md",
+      "sha256": "b6352dfde0046a280a06bc6713800c1bf76d6b2293baa0d4b9804ff720dff4ac",
+      "bytes": 23837
+    },
+    {
+      "path": "reports/05-temporal-positive-form-verification.md",
+      "sha256": "969c797149b1bbe673827b8c4a6e73c44921cfe37526d73739bdf162021f70a9",
+      "bytes": 13651
+    },
+    {
+      "path": "reports/06-fixed-shift-composition.md",
+      "sha256": "bebd29047b4ccf9e39f22ffa50eb81e2425dc26ec07a1e15b732a3f18cc40b8f",
+      "bytes": 25572
+    },
+    {
+      "path": "reports/07-fixed-shift-matrix.md",
+      "sha256": "40c36ed11bf31c9c2513ecd5c32832f344b7871a9436702257ad7a15e555b5e4",
+      "bytes": 20137
+    },
+    {
+      "path": "reports/08-difference-pressure-force.md",
+      "sha256": "92d6a25dfa41a0c651d6a4a42138ee29d8773508564b8b3a9dbd6de0448dca23",
+      "bytes": 17792
+    },
+    {
+      "path": "reports/09-shift-kernels-and-covariance.md",
+      "sha256": "67a5bfdb640b9c449d4fcf457b2ee840487075f2aa7e8c43f284494a8fcefb1d",
+      "bytes": 24106
+    },
+    {
+      "path": "reports/10-shift-extraction-verification.md",
+      "sha256": "8dd1281875fdd511a7fe388dc6b35746751a5e67f9090a4ca84ee0859ab9fda7",
+      "bytes": 15415
+    },
+    {
+      "path": "reports/11-fixed-shift-whole-domain.md",
+      "sha256": "8f026bb1c069a4836eb4365b02aaa96bfa257aeaf1fe44be5296541d780ebe4a",
+      "bytes": 20924
+    },
+    {
+      "path": "reports/12-adaptive-shift-matrix.md",
+      "sha256": "7baee01a3368899c28c72826124fdcd19985127089c4b57bf24c5e875061eba5",
+      "bytes": 22070
+    },
+    {
+      "path": "reports/13-adaptive-compensation.md",
+      "sha256": "5ed3bf0f99c01b1d459c76725846cb9e23c9290e5649ac132a991c0bec019d6b",
+      "bytes": 24918
+    },
+    {
+      "path": "reports/14-adaptive-physical-domain.md",
+      "sha256": "6e28febe304e16c4da02ee661bf079f865889cdb4ad5fb5d2619c73736c61173",
+      "bytes": 21203
+    },
+    {
+      "path": "reports/15-adaptive-composition.md",
+      "sha256": "1068938afe3762a79b192e088c20da6df4e4b7de8b25859e529176e5faa284d3",
+      "bytes": 24203
+    }
+  ]
+}
