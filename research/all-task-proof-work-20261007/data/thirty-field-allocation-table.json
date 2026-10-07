@@ -1,0 +1,5874 @@
+{
+  "derivation": "Literal finite evaluation of original assembly J2, B_A=B_u J_A+H_A; not a truncated NS solution. N(left,right) retains its spatial derivative on the right factor.",
+  "primary_source_sha256": "15d1102d14887595cc3be128a7045f08eb977dae9399be40fa52317a6f5817b5",
+  "selected_field_count": 30,
+  "fields": [
+    {
+      "field": [
+        0,
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": -1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "reason": "B00 has one copy; common linearization on u has two"
+        }
+      ]
+    },
+    {
+      "field": [
+        0,
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": []
+    },
+    {
+      "field": [
+        0,
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": []
+    },
+    {
+      "field": [
+        0,
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": []
+    },
+    {
+      "field": [
+        0,
+        [
+          2,
+          0,
+          0
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              2,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              2,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 2,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "field": [
+        0,
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              2,
+              0
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              2,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 2,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "field": [
+        0,
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              2
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              2
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 2,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "field": [
+        0,
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "field": [
+        0,
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "field": [
+        0,
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "field": [
+        1,
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": []
+    },
+    {
+      "field": [
+        1,
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "field": [
+        1,
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "field": [
+        1,
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "field": [
+        1,
+        [
+          2,
+          0,
+          0
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              2,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              2,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              2,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              2,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 2,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              2,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              2,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "field": [
+        1,
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              2,
+              0
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              2,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              2,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              2,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 2,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              2,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "field": [
+        1,
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              2
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              2
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              2
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              2
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 2,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              2
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "field": [
+        1,
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "field": [
+        1,
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "field": [
+        1,
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "field": [
+        2,
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "field": [
+        2,
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "field": [
+        2,
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "field": [
+        2,
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "field": [
+        2,
+        [
+          2,
+          0,
+          0
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              2,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              2,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              2,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 4,
+          "left": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              2,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              2,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            2,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              2,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 2,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              2,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              2,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 4,
+          "left": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              2,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              2,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            2,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "field": [
+        2,
+        [
+          0,
+          2,
+          0
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              2,
+              0
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              2,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              2,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 4,
+          "left": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              2,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              2,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            2,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              2,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 2,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              2,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 4,
+          "left": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              2,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              2,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            2,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "field": [
+        2,
+        [
+          0,
+          0,
+          2
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              2
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              2
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              2
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 4,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              2
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              2
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              2
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 2,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              2
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "coefficient": 4,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              2
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              2
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "field": [
+        2,
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              1,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "field": [
+        2,
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            2,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            2,
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              1,
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              1,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              1,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "field": [
+        2,
+        [
+          0,
+          1,
+          1
+        ]
+      ],
+      "raw_binomial_allocations": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "endpoint": true
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "endpoint": false
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "endpoint": true
+        }
+      ],
+      "H_common_linearization_correction": [
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            0,
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "right": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "coefficient": 2,
+          "left": [
+            1,
+            [
+              0,
+              1,
+              1
+            ]
+          ],
+          "right": [
+            1,
+            [
+              0,
+              0,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              1
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              0,
+              1
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              1,
+              0
+            ]
+          ]
+        },
+        {
+          "coefficient": 1,
+          "left": [
+            2,
+            [
+              0,
+              1,
+              0
+            ]
+          ],
+          "right": [
+            0,
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

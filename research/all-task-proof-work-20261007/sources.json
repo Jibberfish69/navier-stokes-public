@@ -1,0 +1,3502 @@
+{
+  "commit": "816d77982adbd0f04a12313fded1874787e2d992",
+  "scope": "Identity index only; primary contents are not copied and proof coverage remains report-specific.",
+  "sources": [
+    {
+      "source_id": "S001",
+      "title": "all-row-source-primitives.tex",
+      "sha256": "de86fbd3c8967587de4b303bb014fb0852f6e03ae76300252e66f9476c5e641a",
+      "bytes": 2722,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S002",
+      "title": "angular-momentum-appendix.tex",
+      "sha256": "8fe41403512af8311aefc95ed3ba7b13a45561ac26df88bf9ceccdacc21e2b9c",
+      "bytes": 4965,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S003",
+      "title": "forcing-and-compatible-regularity.pdf",
+      "sha256": "59d0624944fd788b8b2e5f443673c57526e4d0e106aa1223ba70d6e19b42b98a",
+      "bytes": 626654,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S004",
+      "title": "critical-source-bound.tex",
+      "sha256": "9362cce6a9712b33b4c00f098b66939e3346e3ba326ed99350c51c0116c91ef2",
+      "bytes": 8862,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S005",
+      "title": "first-rectangle.tex",
+      "sha256": "6cb41d28686ab12ad1648e065a1a9203cb95510393b42be35aea4a0c433a2897",
+      "bytes": 2832,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S006",
+      "title": "forcing-and-compatible-regularity.tex",
+      "sha256": "29299c5b4e56f5ad855d6c827cfbc4cd7f2b83ef14b021a0474972219b898d4f",
+      "bytes": 109334,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        172,
+        1265,
+        2493
+      ]
+    },
+    {
+      "source_id": "S007",
+      "title": "fractional-exterior.tex",
+      "sha256": "f4ed4aaa60c9eadf096fb2a131deae1f0ec35ef844b8f7eb8d1271450c7af6ad",
+      "bytes": 6061,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S008",
+      "title": "localization-source-jets.tex",
+      "sha256": "83aecac91143223ee72ca1bab248e1404ebec1e0b507c5857b659835878ea308",
+      "bytes": 7939,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        1
+      ]
+    },
+    {
+      "source_id": "S009",
+      "title": "parcel-metric.tex",
+      "sha256": "15c6c77fffd36ab9cec23fc0612a5a3f0c1fd4c245ba96f4cbd9736aa217a7c8",
+      "bytes": 2544,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S010",
+      "title": "source-work-appendix.tex",
+      "sha256": "47fa40be0aa5c9f0b8592e37d3d064c46b144448b6e0b6bed66df42b9f154e94",
+      "bytes": 6259,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S011",
+      "title": "before-title.tex",
+      "sha256": "45c2d851ba0b465055f20b7e5570fb9b26825d508f6c5965e1b3f73ad33dc0cb",
+      "bytes": 109208,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S012",
+      "title": "direct-forced-construction-20260910.md",
+      "sha256": "92c0b8a0c5ee8799f5b955f292700d9ad9a62de19294bc8af4740191e22aaaac",
+      "bytes": 20161,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        38,
+        161
+      ]
+    },
+    {
+      "source_id": "S013",
+      "title": "forced-temporal-column-backward-reconstruction.md",
+      "sha256": "9a0699ebf307b6cf60f74a0ee71300d6e0ce3261a2530c3e4249bcfbccec8243",
+      "bytes": 5294,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        1,
+        5
+      ]
+    },
+    {
+      "source_id": "S014",
+      "title": "33511468-v4-68519515.pdf",
+      "sha256": "59d0624944fd788b8b2e5f443673c57526e4d0e106aa1223ba70d6e19b42b98a",
+      "bytes": 626654,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S015",
+      "title": "00-analytic-framework.tex",
+      "sha256": "4827a3f44d6e50cd4c01a7a3d4be4f25ca7de77da453408b27a439087ad3ee95",
+      "bytes": 31421,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/00-analytic-framework.tex"
+    },
+    {
+      "source_id": "S016",
+      "title": "00-how-proof-works.tex",
+      "sha256": "8e29da8b22164e3c213bc8d65efa5562bae1f335a63f741111d2060a13a3db75",
+      "bytes": 8661,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/00-how-proof-works.tex"
+    },
+    {
+      "source_id": "S017",
+      "title": "00-introduction.tex",
+      "sha256": "51db3b90a960e40dfc28dcc5e871cdf4d04f0907ca960fbad760a87bdcd50c65",
+      "bytes": 4153,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/00-introduction.tex"
+    },
+    {
+      "source_id": "S018",
+      "title": "01-setting-mixed-jet.tex",
+      "sha256": "f7e1eeeb1d356f59701da984eb1d974cc4270bffc450504188c2a7263a72c127",
+      "bytes": 20598,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/01-setting-mixed-jet.tex"
+    },
+    {
+      "source_id": "S019",
+      "title": "02-compatible-rectangles.tex",
+      "sha256": "db7b4a7dca43e09a22edff6e4f8543e538805c08b5b7bf20c5532c922b76f912",
+      "bytes": 24826,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/02-compatible-rectangles.tex"
+    },
+    {
+      "source_id": "S020",
+      "title": "03-matrix-forms.tex",
+      "sha256": "c3ae7aeb4d15833195c81a1b1c6fe610a5adcb96d358299f78301c7e202a1076",
+      "bytes": 11858,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/03-matrix-forms.tex"
+    },
+    {
+      "source_id": "S021",
+      "title": "03-quantitative-consequences.tex",
+      "sha256": "0178091b915af5f31deea626b562f77e7afebc36d372a3afd39796dae468ae15",
+      "bytes": 68115,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/03-quantitative-consequences.tex"
+    },
+    {
+      "source_id": "S022",
+      "title": "04-intersection-endpoint-restart.tex",
+      "sha256": "ca16c8f94f8e88ba3c8dd69dcbc8edaf0ba262edb06242ad63c75c451036115b",
+      "bytes": 30305,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/04-intersection-endpoint-restart.tex"
+    },
+    {
+      "source_id": "S023",
+      "title": "05-three-dimensional-applications.tex",
+      "sha256": "37ef5399f842fbc3edc7bad793f72622a1c7e2ea7b4df5f2d72f188c1811c8af",
+      "bytes": 44701,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/05-three-dimensional-applications.tex"
+    },
+    {
+      "source_id": "S024",
+      "title": "06-conclusion.tex",
+      "sha256": "81abd9f9336b890db5cbfb1026b0ff0ff000650e7da084a1952ae45b24f1a5bb",
+      "bytes": 2727,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/06-conclusion.tex"
+    },
+    {
+      "source_id": "S025",
+      "title": "main.tex",
+      "sha256": "73145ebc044c0e0b66f1d7b74698918d3a74af3b3d5ffa6a55987f126d461733",
+      "bytes": 9395,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/main.tex"
+    },
+    {
+      "source_id": "S026",
+      "title": "00-analytic-framework.tex",
+      "sha256": "109261806b2766a5d5d2b5b91cf0d49641817c7d53cfb95c628f29a7d5ea8756",
+      "bytes": 31424,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S027",
+      "title": "00-how-proof-works.tex",
+      "sha256": "f4a5637d72a27cefbdc87e5a4eb9af0a9869817b42ab8d9fd29e9753f011c1a5",
+      "bytes": 8794,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S028",
+      "title": "00-introduction.tex",
+      "sha256": "12e7e5fc6f81fde0a332f730b7940f83ca8b99fcdd5a5f7a8dfc4f2f5a722d7a",
+      "bytes": 4259,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S029",
+      "title": "01-setting-mixed-jet.tex",
+      "sha256": "e152c0a528cd180a8504fab04c940c266b5ef8fb59df6cd598f37a3b5b387221",
+      "bytes": 25254,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S030",
+      "title": "02-compatible-rectangles.tex",
+      "sha256": "908677f4cfba075335cbe4f0f57a31cf95e38a4e5bc16c92cd77959172a25eaa",
+      "bytes": 25563,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S031",
+      "title": "03-matrix-forms.tex",
+      "sha256": "fd8af4dd1e3cc825838921c5372742fe460c4d5916d63c6c3a6036a66274506e",
+      "bytes": 11798,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S032",
+      "title": "03-quantitative-consequences.tex",
+      "sha256": "cc7e32d3c2e2f2d7fb1ecc9aaa97c29456de9e3dbc5dea1ab23bcdad56bd12e6",
+      "bytes": 65540,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S033",
+      "title": "04-intersection-endpoint-restart.tex",
+      "sha256": "8b833ed2fdf3b06e0f3e664f590d38c800d3346becd93664ef0f3aa24f2388cc",
+      "bytes": 26011,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S034",
+      "title": "05-three-dimensional-applications.tex",
+      "sha256": "190d40471b6082729e7df02c5bb2ed55003ec2f5949d627d0324bc12411bcaeb",
+      "bytes": 43769,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S035",
+      "title": "06-conclusion.tex",
+      "sha256": "be992db431bcfc09eff61d1bcbf6ef57c6619bf0ccf8cf16f5a70b29177ece24",
+      "bytes": 2601,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S036",
+      "title": "main.tex",
+      "sha256": "fbbdde292f3fbed532debc83fff344e2caf4155f95f5f220ccb6881bbd305be4",
+      "bytes": 9507,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S037",
+      "title": "openai-navier-stokes.pdf",
+      "sha256": "0e779481c4da40bd28d1e642e1d8ca57447d129610df28dfa5a11e9af8ae228f",
+      "bytes": 2959204,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S038",
+      "title": "openai-navier-stokes.txt",
+      "sha256": "2bc25d7e76b65611bc9d946708c71dc35b254a2e5b293eebc672c491a877b0f4",
+      "bytes": 675470,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        794
+      ]
+    },
+    {
+      "source_id": "S039",
+      "title": "all-row-source-primitives.tex",
+      "sha256": "51c222febc02826ec3b18a27808837ffb8b5f1571c52a2e3354dd527d3acbfeb",
+      "bytes": 6138,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S040",
+      "title": "angular-momentum-appendix.tex",
+      "sha256": "ef14946e20095083295f665f9ed139f96c46d964e861c0513e7270980c582850",
+      "bytes": 4965,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S041",
+      "title": "critical-reserve-and-chord-density.tex",
+      "sha256": "dc8fffc142e6790e605a4fe828dd4c90be9e67cdafb5ec59b412dad22d3a16c2",
+      "bytes": 17777,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S042",
+      "title": "critical-source-bound.tex",
+      "sha256": "9a6962666b2b37d172ae58ffeb4178428de40dbb4137eb8493d04b8ba72b125f",
+      "bytes": 8626,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S043",
+      "title": "first-rectangle.tex",
+      "sha256": "6cb41d28686ab12ad1648e065a1a9203cb95510393b42be35aea4a0c433a2897",
+      "bytes": 2832,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S044",
+      "title": "forced-domain-propagation.tex",
+      "sha256": "cbc2340f442de63562650bff5dac1ceca283f31ca6d6744dc2929baf2ff36e03",
+      "bytes": 7372,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S045",
+      "title": "forcing-and-compatible-regularity.tex",
+      "sha256": "cdbcfcaf79122fe096dde08599d5a6b338edd6b1301f86ad4175a576de645ee5",
+      "bytes": 88373,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S046",
+      "title": "fractional-exterior.tex",
+      "sha256": "3b49d645c1ed15238766adacf97829b5a51d844fea0b3bd0f4d415ec4eb1d5d4",
+      "bytes": 6162,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S047",
+      "title": "localization-source-jets.tex",
+      "sha256": "83aecac91143223ee72ca1bab248e1404ebec1e0b507c5857b659835878ea308",
+      "bytes": 7939,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S048",
+      "title": "parcel-metric.tex",
+      "sha256": "15c6c77fffd36ab9cec23fc0612a5a3f0c1fd4c245ba96f4cbd9736aa217a7c8",
+      "bytes": 2544,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S049",
+      "title": "source-work-appendix.tex",
+      "sha256": "a892cad4da96b0d7c91b6693b4ee9f36b64c30e70f5b29f5b0bb21b6f43eecdc",
+      "bytes": 9189,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S050",
+      "title": "navier-stokes-forced-refined.pdf",
+      "sha256": "94b280a9d3de906348a25d999950848581370d7476188ec92daf47ca1b09388e",
+      "bytes": 666109,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S051",
+      "title": "main.tex",
+      "sha256": "792ef51b150eb289b3c3ffbc3b7492074adae8b678c513c11f90f025f12b2c85",
+      "bytes": 13457,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/manuscript/generated/main.tex"
+    },
+    {
+      "source_id": "S052",
+      "title": "01-setting-mixed-jet.tex",
+      "sha256": "1c074b254362349b94e5f01006b2c7d5f2169778ec12916f78179f5b516a9bd4",
+      "bytes": 9810,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S053",
+      "title": "main.tex",
+      "sha256": "74c9cb08b86c8eadcce82be888a103999830a0cfaf4f408b4c424bbed08461a7",
+      "bytes": 13793,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S054",
+      "title": "01-setting-mixed-jet.tex",
+      "sha256": "665609bccc6425cda5d94a321a88c558458c238674c3a1e2a383e11efc557dec",
+      "bytes": 13863,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S055",
+      "title": "main.tex",
+      "sha256": "0d2021a40da21c951a9d5460724313401550320e9c87eb2651a9421a316c4c03",
+      "bytes": 14201,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S056",
+      "title": "01-setting-mixed-jet.tex",
+      "sha256": "648cbc1274ec657074c67f3d9de1547cc9e8aaa1405222169a2c2fffeaee83af",
+      "bytes": 12824,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S057",
+      "title": "main.tex",
+      "sha256": "d63c6858f98090103b649599ef08ec17982ad1d643ce63255c248cb7ac85cb42",
+      "bytes": 13451,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S058",
+      "title": "01-setting-mixed-jet.tex",
+      "sha256": "7dc83c8a9617348c55ffcfb4cfec816aa4f46f554fc9203f3421fe27732e2817",
+      "bytes": 17609,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S059",
+      "title": "01-setting-mixed-jet.tex",
+      "sha256": "33fe169a14a1e167bdb7992eb28f9947add0477ed4167aaeac5dc272270e13e7",
+      "bytes": 19619,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S060",
+      "title": "main.tex",
+      "sha256": "426cdcee33eb113ef9d8acd0dc64cbf3a68376c55d5449075e6b4d55bd876681",
+      "bytes": 14214,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S061",
+      "title": "01-setting-mixed-jet.tex",
+      "sha256": "665609bccc6425cda5d94a321a88c558458c238674c3a1e2a383e11efc557dec",
+      "bytes": 13863,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S062",
+      "title": "main.tex",
+      "sha256": "0d2021a40da21c951a9d5460724313401550320e9c87eb2651a9421a316c4c03",
+      "bytes": 14201,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S063",
+      "title": "01-setting-mixed-jet.tex",
+      "sha256": "a0eb1cbd83b7892e849f74981035e03cfc355921e9bb927101ed8c424c016244",
+      "bytes": 15188,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S064",
+      "title": "main.tex",
+      "sha256": "0d2021a40da21c951a9d5460724313401550320e9c87eb2651a9421a316c4c03",
+      "bytes": 14201,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S065",
+      "title": "01-setting-mixed-jet.tex",
+      "sha256": "35619822a832cf987a4af3b6c69337b2226e26d1dd54dccc8e78259b9d7813bd",
+      "bytes": 17630,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S066",
+      "title": "main.tex",
+      "sha256": "0d2021a40da21c951a9d5460724313401550320e9c87eb2651a9421a316c4c03",
+      "bytes": 14201,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S067",
+      "title": "01-setting-mixed-jet.tex",
+      "sha256": "5d04180b01dc2f5125210f7d07d8d25f431dcb3f987180600203984d33a25a7b",
+      "bytes": 19384,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S068",
+      "title": "main.tex",
+      "sha256": "0d2021a40da21c951a9d5460724313401550320e9c87eb2651a9421a316c4c03",
+      "bytes": 14201,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S069",
+      "title": "01-setting-mixed-jet.tex",
+      "sha256": "9891e1cc0aea91995705b3f81fdad5a9b9621bd1c8833611379b3121e06ae983",
+      "bytes": 19393,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S070",
+      "title": "01-setting-mixed-jet.tex",
+      "sha256": "8df117334d2855bc1d7dfd2d972270b5844902793822aa9e3a62bb6593ed6c81",
+      "bytes": 16754,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S071",
+      "title": "main.tex",
+      "sha256": "0d2021a40da21c951a9d5460724313401550320e9c87eb2651a9421a316c4c03",
+      "bytes": 14201,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S072",
+      "title": "01-setting-mixed-jet.tex",
+      "sha256": "78de55e1dc05bad6b1a4a3e832b359203a3f9d374d3007d26388a217f8415027",
+      "bytes": 15151,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S073",
+      "title": "main.tex",
+      "sha256": "abea5b73f073cdae024350051e0937a65c6fbfc5f80a7723420dd4ff273158aa",
+      "bytes": 243,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S074",
+      "title": "01-setting-mixed-jet.tex",
+      "sha256": "78de55e1dc05bad6b1a4a3e832b359203a3f9d374d3007d26388a217f8415027",
+      "bytes": 15151,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S075",
+      "title": "main.tex",
+      "sha256": "960850a161472d8949be1120296c137e9f43588d4d00afff8fbdeff708e1dffe",
+      "bytes": 859,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S076",
+      "title": "01-setting-mixed-jet.tex",
+      "sha256": "665609bccc6425cda5d94a321a88c558458c238674c3a1e2a383e11efc557dec",
+      "bytes": 13863,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S077",
+      "title": "main.tex",
+      "sha256": "960850a161472d8949be1120296c137e9f43588d4d00afff8fbdeff708e1dffe",
+      "bytes": 859,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S078",
+      "title": "01-setting-mixed-jet.tex",
+      "sha256": "78de55e1dc05bad6b1a4a3e832b359203a3f9d374d3007d26388a217f8415027",
+      "bytes": 15151,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S079",
+      "title": "main.tex",
+      "sha256": "960850a161472d8949be1120296c137e9f43588d4d00afff8fbdeff708e1dffe",
+      "bytes": 859,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S080",
+      "title": "global-smoothness-unforced-navier-stokes-20260923.pdf",
+      "sha256": "726829ce58f71a78e82f9c81b908af284ed2c0eb1575b8b741f61920ee9738b0",
+      "bytes": 2321401,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S081",
+      "title": "main.tex",
+      "sha256": "4117b1636fabfc81d85d51ee1ce12d85ae4dec08a614c781abb11657fd67c5c3",
+      "bytes": 52,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/documents/manuscripts/audits/repo-tmp/mathml-debug-page3/main.tex"
+    },
+    {
+      "source_id": "S082",
+      "title": "main.tex",
+      "sha256": "4117b1636fabfc81d85d51ee1ce12d85ae4dec08a614c781abb11657fd67c5c3",
+      "bytes": 52,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/documents/manuscripts/audits/repo-tmp/mathml-debug-page3/main.tex"
+    },
+    {
+      "source_id": "S083",
+      "title": "main.tex",
+      "sha256": "048d35d568f8be8735ddbe709f716bae6fe11305d7c7a44a793537f4884f9927",
+      "bytes": 49013,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/documents/manuscripts/mpp-proof/workspace/main.tex"
+    },
+    {
+      "source_id": "S084",
+      "title": "main.tex",
+      "sha256": "f20828786c2c638ed116d2aaf02146fbcd94842ff07ac91827731c919d77ce93",
+      "bytes": 28974,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/documents/manuscripts/one-fluid-history-2026-08-14/main.tex"
+    },
+    {
+      "source_id": "S085",
+      "title": "thomas-one-fluid-reversible-intersection-proof-spine-20260803.md",
+      "sha256": "1d188b224d268bb79f215c47a177ee5a44e6af0b1f0bd726b32c963ee79d3194",
+      "bytes": 89887,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        275,
+        345
+      ]
+    },
+    {
+      "source_id": "S086",
+      "title": "main.tex",
+      "sha256": "d1ea4cfd069006b5bbd6916b5669051ec78d77003e665d2e231c97a1cdfe5ff5",
+      "bytes": 9574,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S087",
+      "title": "00-analytic-framework.tex",
+      "sha256": "109261806b2766a5d5d2b5b91cf0d49641817c7d53cfb95c628f29a7d5ea8756",
+      "bytes": 31424,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        102,
+        418
+      ]
+    },
+    {
+      "source_id": "S088",
+      "title": "00-how-proof-works.tex",
+      "sha256": "3533a34b8cfd77ebff06dd5bed41e215e2b9dcc48144a53a183dc26c005db040",
+      "bytes": 9072,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S089",
+      "title": "00-introduction.tex",
+      "sha256": "7c1beeb669291fb2c971f957faea37e2a6420c3d58ea2e55c5532768662ebbd5",
+      "bytes": 4334,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S090",
+      "title": "01-setting-mixed-jet.tex",
+      "sha256": "a97c15660ecd3afe2293f39d1546989b5458da339ae866b35497c4639c36da05",
+      "bytes": 25437,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S091",
+      "title": "02-compatible-rectangles.tex",
+      "sha256": "ee21d39c6183ef108685dc2f6d4084e13efc42ff6aea314eb8d60042073cc89a",
+      "bytes": 25649,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S092",
+      "title": "03-matrix-forms.tex",
+      "sha256": "2fe29228a8dc137b26d2999a91d81e13b2fe9b868c66e4ecb886ea77251cd492",
+      "bytes": 11876,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S093",
+      "title": "03-quantitative-consequences.tex",
+      "sha256": "39167efcff9f4bec519d72b7c6021868ee3c34a7e36de76822f54b55e5c28784",
+      "bytes": 65523,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S094",
+      "title": "04-intersection-endpoint-restart.tex",
+      "sha256": "63274dc5bf77b3e4444193851d9ff82cff6ec4fa16481f75e73328cc141c0eff",
+      "bytes": 25884,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S095",
+      "title": "05-three-dimensional-applications.tex",
+      "sha256": "190d40471b6082729e7df02c5bb2ed55003ec2f5949d627d0324bc12411bcaeb",
+      "bytes": 43769,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S096",
+      "title": "06-conclusion.tex",
+      "sha256": "087b1efa37e5d443c972cdf2064ed6dec94f3e3392395c80ad15d2134c8e4f76",
+      "bytes": 2583,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S097",
+      "title": "DERIVATION-ORDER.md",
+      "sha256": "664971adfe8be55d44f244c4a3d276fbdf66bcce13daa422bd0b1118463a221c",
+      "bytes": 2894,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S098",
+      "title": "global-smoothness-forced-navier-stokes.pdf",
+      "sha256": "0e7070ef5da0b40c9aca22e6a504790755cb80b4c4871d2974290d73b3944147",
+      "bytes": 1684103,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S099",
+      "title": "main.tex",
+      "sha256": "a8ff5bbb33483ba1c18c15f078dff8b3ed6197790945652b845b655ee6a4c500",
+      "bytes": 9335,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S100",
+      "title": "global-smoothness-forced-navier-stokes-20260923.pdf",
+      "sha256": "353a322248e4785a5d286f3a3fe6f2f8574eb1e5fb24491355a463027e243748",
+      "bytes": 1684210,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S101",
+      "title": "00-analytic-framework.tex",
+      "sha256": "b92e02b2d38f82ed4ffe77ce492646c42f77987b83a1ebcd6df10db4319d0336",
+      "bytes": 29610,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S102",
+      "title": "00-how-proof-works.tex",
+      "sha256": "93cc651b5d14bcf2149d18a9687511acf8c2f204fd70d872a924373ee9674b51",
+      "bytes": 16630,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S103",
+      "title": "00-introduction.tex",
+      "sha256": "a8582a752eb217aad5e2c793587b6f7fa91ec8346372e75edf7ac315f88e736e",
+      "bytes": 8091,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S104",
+      "title": "01-setting-mixed-jet.tex",
+      "sha256": "ddcbeeadae80911b0c258c7c74ad70b847904b7569a904aa41ae153c4dcdc76e",
+      "bytes": 23214,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        377
+      ]
+    },
+    {
+      "source_id": "S105",
+      "title": "02-compatible-rectangles.tex",
+      "sha256": "353f79c71feab7b8ebe15e83fb5c7f62ebd41494d165a391d0d84c1bab064d45",
+      "bytes": 16923,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S106",
+      "title": "03-matrix-forms.tex",
+      "sha256": "f3de507c29df19297b33e70f22da3690d64edf07f4a1ff4143a6f18e1f2ceb50",
+      "bytes": 9357,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        1
+      ]
+    },
+    {
+      "source_id": "S107",
+      "title": "03-quantitative-consequences.tex",
+      "sha256": "82120c881212de03b1d50a3108c201de2afba79bb3988a66d5e32d9e553d7f6c",
+      "bytes": 61281,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        1
+      ]
+    },
+    {
+      "source_id": "S108",
+      "title": "04-intersection-endpoint-restart.tex",
+      "sha256": "ba57c7e216e220f0db7eecd9a71cc4890c89029d35811bc3bd20cfc77c9bb5a3",
+      "bytes": 27309,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S109",
+      "title": "05-three-dimensional-applications.tex",
+      "sha256": "0838b908772b0995bd4df750cfe450d150da20a9441cda0fd7164b674dc03225",
+      "bytes": 40331,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        1
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/manuscript/generated/05-three-dimensional-applications.tex"
+    },
+    {
+      "source_id": "S110",
+      "title": "06-conclusion.tex",
+      "sha256": "68ca8de006b7170102cb09ec04292e28bc4c3b96503632dc1fa749e26f3055a0",
+      "bytes": 2120,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        1
+      ]
+    },
+    {
+      "source_id": "S111",
+      "title": "main.tex",
+      "sha256": "cfd67b83d10cca51fcb1f866f4b377e0f260dea65838b2cb26cbae7fe6c5286a",
+      "bytes": 13719,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S112",
+      "title": "prior-published.pdf",
+      "sha256": "8095b332b81c7ed17926f6dc9d91035047d147f5d0785f441136d54184231a0f",
+      "bytes": 7228583,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S113",
+      "title": "main.tex",
+      "sha256": "ff2066c823d18fde2cd761bbf1922858a80b00ce005c59096cd9f806cc0af9bb",
+      "bytes": 6783,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        60
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/main.tex"
+    },
+    {
+      "source_id": "S114",
+      "title": "00-analytic-framework.tex",
+      "sha256": "fcceff8e43f1661b9d1472959188ed9968c91847eda94685d0193d8f7b645de7",
+      "bytes": 31562,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        102,
+        114,
+        167,
+        192,
+        256,
+        284,
+        342,
+        388,
+        608,
+        648,
+        680,
+        894
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/forced/00-analytic-framework.tex"
+    },
+    {
+      "source_id": "S115",
+      "title": "00-how-proof-works.tex",
+      "sha256": "f75f1c7c33b0a4e237506ebbb7a13e6ec3f3a00d1bdaf0cb3d8dea511b1dacc9",
+      "bytes": 9059,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/forced/00-how-proof-works.tex"
+    },
+    {
+      "source_id": "S116",
+      "title": "00-introduction.tex",
+      "sha256": "e71243c05efd3dd5f9faf85d09065a68f36c1f7b59021e701d18d0fa974aa384",
+      "bytes": 4339,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/forced/00-introduction.tex"
+    },
+    {
+      "source_id": "S117",
+      "title": "01-setting-mixed-jet.tex",
+      "sha256": "9ce0e212e73c2d258abcf9866517e9ccb8328a7dda8b247075e5cefa2aec97f9",
+      "bytes": 28726,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        3,
+        4,
+        15,
+        59,
+        116,
+        125,
+        275,
+        497,
+        559,
+        633,
+        642,
+        728,
+        729
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/forced/01-setting-mixed-jet.tex"
+    },
+    {
+      "source_id": "S118",
+      "title": "02-compatible-rectangles.tex",
+      "sha256": "04bdd4a568a0f6c3f8c1c36109d750999e338024314ba3b7a1b877bf18ffbe46",
+      "bytes": 25859,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        1,
+        13,
+        47,
+        68,
+        103,
+        165,
+        189,
+        255,
+        309,
+        392,
+        442,
+        508,
+        658
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/forced/02-compatible-rectangles.tex"
+    },
+    {
+      "source_id": "S119",
+      "title": "03-matrix-forms.tex",
+      "sha256": "966a4f8f76d0b7ff863ebbc8732822d44ae618b98f5823da79e34a23d76b7950",
+      "bytes": 11980,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        1,
+        13,
+        172
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/forced/03-matrix-forms.tex"
+    },
+    {
+      "source_id": "S120",
+      "title": "03-quantitative-consequences.tex",
+      "sha256": "331840d5590740054afb5f630f9f9849725b1b7caa5289cc2eaf960f1ae1a00b",
+      "bytes": 66261,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        4,
+        346,
+        529,
+        685,
+        807,
+        1018,
+        1063,
+        1313,
+        1548,
+        1745
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/forced/03-quantitative-consequences.tex"
+    },
+    {
+      "source_id": "S121",
+      "title": "04-intersection-endpoint-restart.tex",
+      "sha256": "bea4ee21c0207e2e859dac220283addac59af25e2aa069f1065da86412799fb3",
+      "bytes": 26178,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        1,
+        11,
+        30,
+        114,
+        219,
+        220,
+        356,
+        493,
+        570
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/forced/04-intersection-endpoint-restart.tex"
+    },
+    {
+      "source_id": "S122",
+      "title": "05-three-dimensional-applications.tex",
+      "sha256": "53c827b3440904ed2aab1cc0c52575549a8b04a9233a181b0723ee76baa521bb",
+      "bytes": 44124,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/forced/05-three-dimensional-applications.tex"
+    },
+    {
+      "source_id": "S123",
+      "title": "06-conclusion.tex",
+      "sha256": "337bcac8208e03a6e4e607604746c93f2262b2283fd70ea96705f946671c88ad",
+      "bytes": 2573,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/forced/06-conclusion.tex"
+    },
+    {
+      "source_id": "S124",
+      "title": "all-row-source-primitives.tex",
+      "sha256": "31af40f95ad5c7482e1e0c03d66e47a64184bbf6ebc684e219cd60d50c5f43ed",
+      "bytes": 6166,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        1
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/all-row-source-primitives.tex"
+    },
+    {
+      "source_id": "S125",
+      "title": "angular-momentum-appendix.tex",
+      "sha256": "49ca285cc487c4ec4f4abd943b8b527499170b30fc09eb8a88b660bc207a85bb",
+      "bytes": 4987,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        1
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/angular-momentum-appendix.tex"
+    },
+    {
+      "source_id": "S126",
+      "title": "body.tex",
+      "sha256": "91daf06e22f9acb19b4c466b37956e23fc3e121307e8576c16f74e1583279208",
+      "bytes": 84609,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        110,
+        451,
+        469
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/body.tex"
+    },
+    {
+      "source_id": "S127",
+      "title": "critical-reserve-and-chord-density.tex",
+      "sha256": "74e5a926c54f25edc8283cca90309d20e5d28b5723b181de5c6581d0cb753fee",
+      "bytes": 17867,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        1
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/critical-reserve-and-chord-density.tex"
+    },
+    {
+      "source_id": "S128",
+      "title": "critical-source-bound.tex",
+      "sha256": "e7fbec9fa02c9b05f87ac4d7a5ad9a058537659a17be9137a4bbec193fea80f6",
+      "bytes": 8710,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        1,
+        5
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/critical-source-bound.tex"
+    },
+    {
+      "source_id": "S129",
+      "title": "first-rectangle.tex",
+      "sha256": "ee775532ee883ca4e2354d7ebac88c8d54e6513570e2e1d37ede1c8fb3c8872e",
+      "bytes": 2850,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        5
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/first-rectangle.tex"
+    },
+    {
+      "source_id": "S130",
+      "title": "force-admission.tex",
+      "sha256": "0a30766a9599b3e2d6d552f13b8b9b4e969fa0cf926d067381d2e534c961c74f",
+      "bytes": 3422,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        1
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/force-admission.tex"
+    },
+    {
+      "source_id": "S131",
+      "title": "forced-domain-propagation.tex",
+      "sha256": "f151b43115773123835dd693a0d7f792d2bd13b3617f5f4616a4b154c993aff7",
+      "bytes": 7408,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/forced-domain-propagation.tex"
+    },
+    {
+      "source_id": "S132",
+      "title": "fractional-exterior.tex",
+      "sha256": "1bb26c8edcfdb2b73774c141dbfedcc3983bd10c399bfc2cf1ead46ecdf5c43c",
+      "bytes": 6190,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/fractional-exterior.tex"
+    },
+    {
+      "source_id": "S133",
+      "title": "localization-source-jets.tex",
+      "sha256": "66b4bf6b4f078a676c7466a8b16c100e88d5b278dcfc3254058a19e75078a799",
+      "bytes": 7959,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/localization-source-jets.tex"
+    },
+    {
+      "source_id": "S134",
+      "title": "parcel-metric.tex",
+      "sha256": "32a54e6fa6f194ada8ae7fa51278698de9f125092d94f9c307b65f64e3a7c1d0",
+      "bytes": 2556,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        1
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/parcel-metric.tex"
+    },
+    {
+      "source_id": "S135",
+      "title": "source-work-appendix.tex",
+      "sha256": "0e5762120b5606183022101b9f9804b773b2386d4516da449ee5e2d4b679bedf",
+      "bytes": 9282,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        1
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/source-work-appendix.tex"
+    },
+    {
+      "source_id": "S136",
+      "title": "00-analytic-framework.tex",
+      "sha256": "fe61c1940e5124a63eb953ea71538359675a05d0c40987b468481835c66738e1",
+      "bytes": 29754,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        9,
+        102,
+        115,
+        124,
+        284,
+        330,
+        596,
+        662,
+        699,
+        790,
+        1014
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/unforced/00-analytic-framework.tex"
+    },
+    {
+      "source_id": "S137",
+      "title": "00-how-proof-works.tex",
+      "sha256": "75c4aa43d28b2d8f74ee969e1be677c129b955b6801a907a1d10e6638f2dd059",
+      "bytes": 16646,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/unforced/00-how-proof-works.tex"
+    },
+    {
+      "source_id": "S138",
+      "title": "00-introduction.tex",
+      "sha256": "111b2f7b9970441f80a5ac87ffbf32d731059ead72b3e6f5a88fb51403878a3a",
+      "bytes": 8122,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/unforced/00-introduction.tex"
+    },
+    {
+      "source_id": "S139",
+      "title": "01-setting-mixed-jet.tex",
+      "sha256": "dbd0c274c40b2ab9737ccc6faf7bd2ce29f1ac0d69085266cfafd89db9b1f914",
+      "bytes": 27407,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        4,
+        63,
+        111,
+        209,
+        381,
+        411,
+        457,
+        478,
+        521,
+        533,
+        584,
+        624,
+        627
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/unforced/01-setting-mixed-jet.tex"
+    },
+    {
+      "source_id": "S140",
+      "title": "02-compatible-rectangles.tex",
+      "sha256": "2e1c8e40a0e9fa1b2d50ac6db5680a7259404344d83258e7ff2968386fda8e66",
+      "bytes": 17075,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        14,
+        54,
+        90,
+        149,
+        173,
+        207,
+        316,
+        458
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/unforced/02-compatible-rectangles.tex"
+    },
+    {
+      "source_id": "S141",
+      "title": "03-matrix-forms.tex",
+      "sha256": "5270790de1fdea2b26e8029c5d4a3ca2a78030c4961bf489478e069ab973a3ed",
+      "bytes": 9447,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        1,
+        10,
+        155
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/unforced/03-matrix-forms.tex"
+    },
+    {
+      "source_id": "S142",
+      "title": "03-quantitative-consequences.tex",
+      "sha256": "64deb94a314d6c73416dc2f7e805e38537f0ffbe789f04c48b9008d41dda09e8",
+      "bytes": 62036,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        4,
+        297,
+        472,
+        589,
+        698,
+        896,
+        937,
+        1165,
+        1385,
+        1661
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/unforced/03-quantitative-consequences.tex"
+    },
+    {
+      "source_id": "S143",
+      "title": "04-intersection-endpoint-restart.tex",
+      "sha256": "05e31cbf3b1ff10062e46147b7079d7221744f45a6690d0be52ec3d8c8ab7845",
+      "bytes": 27665,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        10,
+        31,
+        32,
+        112,
+        213,
+        214,
+        351,
+        466,
+        631,
+        648
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/unforced/04-intersection-endpoint-restart.tex"
+    },
+    {
+      "source_id": "S144",
+      "title": "05-three-dimensional-applications.tex",
+      "sha256": "2943a03f971710b2e8dd48adaa0b485230e020866c92a8f173d528d10eee76ba",
+      "bytes": 40682,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/unforced/05-three-dimensional-applications.tex"
+    },
+    {
+      "source_id": "S145",
+      "title": "06-conclusion.tex",
+      "sha256": "98d1bc2dfed15abeb216d955e54386e5aca0b78a720d840af0e25e1668470a62",
+      "bytes": 2124,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/unforced/06-conclusion.tex"
+    },
+    {
+      "source_id": "S146",
+      "title": "PROOF-PROGRAM.md",
+      "sha256": "ffab442e463a8a5bed7890be23e1b038747093369c1c36f4e5488141d5f41013",
+      "bytes": 12543,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        214
+      ]
+    },
+    {
+      "source_id": "S147",
+      "title": "08-thomas-one-fluid-reversible-intersection-proof-spine-20260803.md",
+      "sha256": "2b3821c4ae91cb8843f3192196dcbb2a7c67cfeb7814e2e04611a924c85e90a4",
+      "bytes": 93209,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S148",
+      "title": "complete-mixed-intersection-global-closure-and-upstream-boundary-20260801.md",
+      "sha256": "b145c456b8e8bd49fe78489eeb86b8952e9dd4445560f7024f2dffd48dd7ba4b",
+      "bytes": 19882,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        118,
+        460
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/complete-mixed-intersection-global-closure-and-upstream-boundary-20260801.md"
+    },
+    {
+      "source_id": "S149",
+      "title": "forced-current-source-producer-and-native-rectangle-composition-20260917.md",
+      "sha256": "5058813813600f509d9ad0de7222981908c8591f848c6bc375f38535484bf432",
+      "bytes": 21432,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        150
+      ]
+    },
+    {
+      "source_id": "S150",
+      "title": "forced-datum-rectangle-construction-execution-20260921.md",
+      "sha256": "24b663b7a496053e23189c102059682bf24c5afb893a86f06f1c10759beec950",
+      "bytes": 13731,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        65,
+        161,
+        227,
+        365
+      ]
+    },
+    {
+      "source_id": "S151",
+      "title": "forced-intersection-proof-2026-09-11.md",
+      "sha256": "a565feb2b2a5f66e02c95f5d991ab8bf35f17ab5b0d5ad085b3e13882bf807ad",
+      "bytes": 54597,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        1104
+      ]
+    },
+    {
+      "source_id": "S152",
+      "title": "forced-native-assembly-20260914.md",
+      "sha256": "15d1102d14887595cc3be128a7045f08eb977dae9399be40fa52317a6f5817b5",
+      "bytes": 67369,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        16,
+        18,
+        20,
+        41,
+        45,
+        72,
+        101,
+        214,
+        448,
+        533,
+        534,
+        538,
+        740,
+        787,
+        789,
+        814,
+        1440,
+        1450,
+        1451,
+        1455,
+        1458,
+        1478,
+        1548,
+        1579,
+        1581,
+        1583,
+        1588,
+        1602,
+        1607,
+        1656,
+        1692,
+        1698,
+        1705
+      ]
+    },
+    {
+      "source_id": "S153",
+      "title": "forced-native-proof-custody-20260919.md",
+      "sha256": "be26593f79929a37c9d88ce48ea00a0c5b2f9af919717f2bf9c7d5777d5cc311",
+      "bytes": 75012,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        125,
+        148,
+        150,
+        152,
+        233,
+        264,
+        440,
+        489,
+        1028,
+        1090,
+        1100,
+        1173,
+        1296,
+        2323,
+        2433
+      ]
+    },
+    {
+      "source_id": "S154",
+      "title": "forced-ns-sequential-conversion-20260914.md",
+      "sha256": "a36a74ac23dce9a0385b2ae006be3a42b7356b58c0a198a9497e138d04ba791f",
+      "bytes": 55869,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        45,
+        292,
+        602,
+        637,
+        706,
+        884
+      ]
+    },
+    {
+      "source_id": "S155",
+      "title": "forced-ns-whole-argument-assembly-20260915.md",
+      "sha256": "e1714426943d8c43e5467d2b75811ab02d45697bf593e9d74098e82e96afa330",
+      "bytes": 55697,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        48,
+        89,
+        177
+      ]
+    },
+    {
+      "source_id": "S156",
+      "title": "forced-rectangle-current-contraction-20260913.md",
+      "sha256": "e028e4717136dca99f6f6955ed201d90b53246b9a0c54e223cd83879e319ee8b",
+      "bytes": 32088,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        14,
+        16,
+        36,
+        98,
+        697
+      ]
+    },
+    {
+      "source_id": "S157",
+      "title": "forced-whole-construction-domain-and-source-execution-20260917.md",
+      "sha256": "38e9f2dfd681e328358f803aaaf20e3b6434c9bd976af1c20a0045d9a5bb8095",
+      "bytes": 23131,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        180,
+        181,
+        196,
+        268
+      ]
+    },
+    {
+      "source_id": "S158",
+      "title": "mpp-silver-participation-complement-contrapositive-repair-20260722.md",
+      "sha256": "e531e3ad8e8ff186410b5c2aaa2181a4e3856a1363e61c8f1b27ba51d82c11b4",
+      "bytes": 2733,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        8
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/mpp-silver-participation-complement-contrapositive-repair-20260722.md"
+    },
+    {
+      "source_id": "S159",
+      "title": "thomas-energy-class-reciprocal-negative-space-binomial-tower-and-first-parent-boundary-20260804.md",
+      "sha256": "733cb9f73ce89ff5e023da4d5a9d36970f4512f03df2df3b6945e6701bc16139",
+      "bytes": 13236,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        23
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-energy-class-reciprocal-negative-space-binomial-tower-and-first-parent-boundary-20260804.md"
+    },
+    {
+      "source_id": "S160",
+      "title": "thomas-one-fluid-reversible-intersection-proof-spine-20260803.md",
+      "sha256": "2b3821c4ae91cb8843f3192196dcbb2a7c67cfeb7814e2e04611a924c85e90a4",
+      "bytes": 93209,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        38,
+        69,
+        208,
+        275,
+        825,
+        836,
+        972,
+        1011,
+        1179,
+        1400,
+        1513,
+        1646,
+        1650,
+        1689,
+        1716,
+        1727
+      ]
+    },
+    {
+      "source_id": "S161",
+      "title": "thomas-proof-spine-source-export-20260917.txt",
+      "sha256": "2b3821c4ae91cb8843f3192196dcbb2a7c67cfeb7814e2e04611a924c85e90a4",
+      "bytes": 93209,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S162",
+      "title": "unified-forced-unforced-framework-20260912.md",
+      "sha256": "a269e5bf10e85086a8f52833a368e84043140a5f1c9b932e6b0887a12bcf378e",
+      "bytes": 23743,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        134,
+        275,
+        285,
+        303,
+        398,
+        542,
+        604
+      ]
+    },
+    {
+      "source_id": "S163",
+      "title": "00-analytic-framework.tex",
+      "sha256": "4827a3f44d6e50cd4c01a7a3d4be4f25ca7de77da453408b27a439087ad3ee95",
+      "bytes": 31421,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/00-analytic-framework.tex"
+    },
+    {
+      "source_id": "S164",
+      "title": "00-how-proof-works.tex",
+      "sha256": "8e29da8b22164e3c213bc8d65efa5562bae1f335a63f741111d2060a13a3db75",
+      "bytes": 8661,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/00-how-proof-works.tex"
+    },
+    {
+      "source_id": "S165",
+      "title": "00-introduction.tex",
+      "sha256": "51db3b90a960e40dfc28dcc5e871cdf4d04f0907ca960fbad760a87bdcd50c65",
+      "bytes": 4153,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/00-introduction.tex"
+    },
+    {
+      "source_id": "S166",
+      "title": "01-setting-mixed-jet.tex",
+      "sha256": "f7e1eeeb1d356f59701da984eb1d974cc4270bffc450504188c2a7263a72c127",
+      "bytes": 20598,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/01-setting-mixed-jet.tex"
+    },
+    {
+      "source_id": "S167",
+      "title": "02-compatible-rectangles.tex",
+      "sha256": "db7b4a7dca43e09a22edff6e4f8543e538805c08b5b7bf20c5532c922b76f912",
+      "bytes": 24826,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/02-compatible-rectangles.tex"
+    },
+    {
+      "source_id": "S168",
+      "title": "03-matrix-forms.tex",
+      "sha256": "c3ae7aeb4d15833195c81a1b1c6fe610a5adcb96d358299f78301c7e202a1076",
+      "bytes": 11858,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/03-matrix-forms.tex"
+    },
+    {
+      "source_id": "S169",
+      "title": "03-quantitative-consequences.tex",
+      "sha256": "0178091b915af5f31deea626b562f77e7afebc36d372a3afd39796dae468ae15",
+      "bytes": 68115,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/03-quantitative-consequences.tex"
+    },
+    {
+      "source_id": "S170",
+      "title": "04-intersection-endpoint-restart.tex",
+      "sha256": "ca16c8f94f8e88ba3c8dd69dcbc8edaf0ba262edb06242ad63c75c451036115b",
+      "bytes": 30305,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/04-intersection-endpoint-restart.tex"
+    },
+    {
+      "source_id": "S171",
+      "title": "05-three-dimensional-applications.tex",
+      "sha256": "37ef5399f842fbc3edc7bad793f72622a1c7e2ea7b4df5f2d72f188c1811c8af",
+      "bytes": 44701,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/05-three-dimensional-applications.tex"
+    },
+    {
+      "source_id": "S172",
+      "title": "06-conclusion.tex",
+      "sha256": "81abd9f9336b890db5cbfb1026b0ff0ff000650e7da084a1952ae45b24f1a5bb",
+      "bytes": 2727,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/06-conclusion.tex"
+    },
+    {
+      "source_id": "S173",
+      "title": "DERIVATION-ORDER.md",
+      "sha256": "f8d8124ae400577556971cc2be8d2e902260481c2fec905ea4f1cfa51e2577fa",
+      "bytes": 2768,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/DERIVATION-ORDER.md"
+    },
+    {
+      "source_id": "S174",
+      "title": "global-smoothness-forced-navier-stokes.pdf",
+      "sha256": "e57fe8d1a08ab78ebe50dd91c1fb2cdedb8394f2338192498e65ff8295497d5f",
+      "bytes": 1696426,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/global-smoothness-forced-navier-stokes.pdf"
+    },
+    {
+      "source_id": "S175",
+      "title": "main.tex",
+      "sha256": "73145ebc044c0e0b66f1d7b74698918d3a74af3b3d5ffa6a55987f126d461733",
+      "bytes": 9395,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/main.tex"
+    },
+    {
+      "source_id": "S176",
+      "title": "unified-unforced-forced-openai-refutation.pdf",
+      "sha256": "9f8c7708b1c205dd102067953a72e638b8267c69210bcebf6f5230b390214b94",
+      "bytes": 7228017,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S177",
+      "title": "forced-mixed-column-cofinal-composition-20260917.md",
+      "sha256": "cb75c056930342710f5c0760d2eea2e783238bc848e6a59bdd8f4a201bfaf745",
+      "bytes": 35624,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        124
+      ]
+    },
+    {
+      "source_id": "S178",
+      "title": "forced-native-heat-age-covariance-boundary-20260917.md",
+      "sha256": "61e3d1d05925946b45cf09bf313ff36dc8f7369a1d5fca6c16207c93149ffabd",
+      "bytes": 18718,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        35,
+        152
+      ]
+    },
+    {
+      "source_id": "S179",
+      "title": "forced-native-projected-adjoint-response-20260917.md",
+      "sha256": "2e5101ea31447ccf264633035164f12355ded9110ee4ef06da574a13b8ffc0ee",
+      "bytes": 18119,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        30,
+        77,
+        115
+      ]
+    },
+    {
+      "source_id": "S180",
+      "title": "forced-native-reciprocal-time-regularity-20260917.md",
+      "sha256": "6ef4206b1bcfd03c5870e7f357eab6f56333ddf55ecded3304f1674980f83d62",
+      "bytes": 15690,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        20,
+        54,
+        177
+      ]
+    },
+    {
+      "source_id": "S181",
+      "title": "forced-native-velocity-nonlinearity-coercive-completion-20260917.md",
+      "sha256": "31cb4d70f2261e7c96ed2b052a7d0e725dabd787956bd97a2acad7261701fb42",
+      "bytes": 12787,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        18,
+        86
+      ]
+    },
+    {
+      "source_id": "S182",
+      "title": "forced-physical-extension-20260911.md",
+      "sha256": "c4df07da2bea3cadd3ecd9615fac7d2c104743d71a70cc565811712aafeb7e98",
+      "bytes": 16560,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        13,
+        51,
+        75
+      ]
+    },
+    {
+      "source_id": "S183",
+      "title": "thomas-actual-incidence-all-complement-persistence-and-record-refund-boundary-20260804.md",
+      "sha256": "9c6bd0cb15bad43f45fb4fd0eb9a7aa81448776c1352d6a6a5093bf87c70f5aa",
+      "bytes": 12880,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        47,
+        85
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-actual-incidence-all-complement-persistence-and-record-refund-boundary-20260804.md"
+    },
+    {
+      "source_id": "S184",
+      "title": "thomas-adaptive-material-pair-selector-range-and-receiver-provenance-boundary-20260804.md",
+      "sha256": "dcd950d27f0eb2228c1181b4c9b0d92f9004c92727c6133a34b55bcdfb34904a",
+      "bytes": 11057,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        35,
+        44,
+        201
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-adaptive-material-pair-selector-range-and-receiver-provenance-boundary-20260804.md"
+    },
+    {
+      "source_id": "S185",
+      "title": "thomas-adjoint-future-incidence-backward-heat-first-binomial-boundary-20260804.md",
+      "sha256": "df41f7801fd6f5bdf88a2a8cfcaad863909cd9b6a5f0d82d49698dc2b9f7f069",
+      "bytes": 12469,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        1,
+        39
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-adjoint-future-incidence-backward-heat-first-binomial-boundary-20260804.md"
+    },
+    {
+      "source_id": "S186",
+      "title": "thomas-all-complement-noncoercivity-and-physical-vpi-pair-angle-boundary-20260804.md",
+      "sha256": "78f680e48901c3d883a16b06847ba681576adbcbce416b50d05d4e9b02c903cd",
+      "bytes": 11901,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        36,
+        285
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-all-complement-noncoercivity-and-physical-vpi-pair-angle-boundary-20260804.md"
+    },
+    {
+      "source_id": "S187",
+      "title": "thomas-balanced-axial-wobble-supplier-and-weighted-betchov-boundary-20260804.md",
+      "sha256": "7e1261e6b5a250bb8805d5f4975b6e510c0dc658023842e0ad15ca8348179b8d",
+      "bytes": 17446,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        30,
+        40,
+        85,
+        183,
+        279,
+        341,
+        448,
+        523
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-balanced-axial-wobble-supplier-and-weighted-betchov-boundary-20260804.md"
+    },
+    {
+      "source_id": "S188",
+      "title": "thomas-balanced-pair-radial-covariance-and-turn-down-boundary-20260804.md",
+      "sha256": "c434022c77b4e0f9629588785c76ca0ab8899a9590a8c0f91910c565b97f1b02",
+      "bytes": 17009,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        38,
+        39,
+        40,
+        45,
+        183,
+        253,
+        336
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-balanced-pair-radial-covariance-and-turn-down-boundary-20260804.md"
+    },
+    {
+      "source_id": "S189",
+      "title": "thomas-balanced-rip-cord-coasting-pressure-trace-and-shrinking-label-boundary-20260803.md",
+      "sha256": "8f2d8b6c6702a9e1a702cb0cc6a72b937d94df1f182a33c58d31739cba384dff",
+      "bytes": 13114,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        23,
+        30,
+        310
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-balanced-rip-cord-coasting-pressure-trace-and-shrinking-label-boundary-20260803.md"
+    },
+    {
+      "source_id": "S190",
+      "title": "thomas-band-edge-fim-six-assignment-recombination-and-propagated-ancestry-boundary-20260804.md",
+      "sha256": "a1a10140b4c3a4dd9f0ba96f02ab5dab3d0246bc2455c3287201ea3844a806b0",
+      "bytes": 15814,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        35,
+        41,
+        63,
+        83,
+        115,
+        209,
+        310,
+        428
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-band-edge-fim-six-assignment-recombination-and-propagated-ancestry-boundary-20260804.md"
+    },
+    {
+      "source_id": "S191",
+      "title": "thomas-bpt-dct47-heat-age-covariance-tangent-bridge-20260804.md",
+      "sha256": "8e2b26ba7e7832466f7ddc378bdad199b7c6cf2fc6c30c4d27b93186e8403aff",
+      "bytes": 15282,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        27,
+        37,
+        53,
+        330
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-bpt-dct47-heat-age-covariance-tangent-bridge-20260804.md"
+    },
+    {
+      "source_id": "S192",
+      "title": "thomas-canonical-pulse-double-recruited-parent-synchronization-boundary-20260804.md",
+      "sha256": "c82160f7eacc4df2912ad372012c7abae3eae0df6afe52dcf48d3710f4e7ef03",
+      "bytes": 16787,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        37,
+        116
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-canonical-pulse-double-recruited-parent-synchronization-boundary-20260804.md"
+    },
+    {
+      "source_id": "S193",
+      "title": "thomas-canonical-record-positive-radial-pulse-completion-and-turn-down-action-boundary-20260804.md",
+      "sha256": "64136c927458c5255dc10ffc2a0ad285b534e687ae7b640f9db265ad72dc04c5",
+      "bytes": 13498,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        46,
+        91,
+        110
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-canonical-record-positive-radial-pulse-completion-and-turn-down-action-boundary-20260804.md"
+    },
+    {
+      "source_id": "S194",
+      "title": "thomas-causal-actual-receiver-conormal-pulse-and-complement-refund-boundary-20260804.md",
+      "sha256": "3157f0653615fd6def4e94ee99c11d8aef4467084fc959e291b34ffd6304eed4",
+      "bytes": 15298,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        47,
+        58
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-causal-actual-receiver-conormal-pulse-and-complement-refund-boundary-20260804.md"
+    },
+    {
+      "source_id": "S195",
+      "title": "thomas-complete-binomial-core-response-resummation-and-uniform-radius-boundary-20260804.md",
+      "sha256": "43ff32a73e25c7f0543f02f1381edeea48313739e54b56512172c5eac26bdf83",
+      "bytes": 21577,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        27,
+        35
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-complete-binomial-core-response-resummation-and-uniform-radius-boundary-20260804.md"
+    },
+    {
+      "source_id": "S196",
+      "title": "thomas-conormal-deformation-gradient-high-rate-label-incidence-trichotomy-boundary-20260804.md",
+      "sha256": "10d6d7b835a6797d433bc127c89b0f9872f5a8268a56815e39fe8d73184747ea",
+      "bytes": 18175,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        50,
+        100,
+        160,
+        315
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-conormal-deformation-gradient-high-rate-label-incidence-trichotomy-boundary-20260804.md"
+    },
+    {
+      "source_id": "S197",
+      "title": "thomas-conormal-first-hit-relative-frame-critical-square-boundary-20260804.md",
+      "sha256": "b6147bf749287df94776c9db93d3ecc1552b5296c9c5a3b9354844a9f4be2c56",
+      "bytes": 11409,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        39,
+        47
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-conormal-first-hit-relative-frame-critical-square-boundary-20260804.md"
+    },
+    {
+      "source_id": "S198",
+      "title": "thomas-conormal-objective-incidence-moving-weight-finite-chord-refund-boundary-20260804.md",
+      "sha256": "3c4b6328a4258fa737cf3bc8397f9d4f43fee814a2fe7517632dcd5ca5bc8d37",
+      "bytes": 22820,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        41,
+        49,
+        220
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-conormal-objective-incidence-moving-weight-finite-chord-refund-boundary-20260804.md"
+    },
+    {
+      "source_id": "S199",
+      "title": "thomas-datum-paid-heat-age-endpoint-integrability-and-last-record-spike-dichotomy-20260804.md",
+      "sha256": "985723eb6827430fc40bd5676d3b19d4e40d610f5b2c12bb1d6a9f503c32eea1",
+      "bytes": 14265,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        43,
+        52,
+        280,
+        412
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-datum-paid-heat-age-endpoint-integrability-and-last-record-spike-dichotomy-20260804.md"
+    },
+    {
+      "source_id": "S200",
+      "title": "thomas-dct47-exact-one-form-and-enstrophy-sphere-phase-boundary-20260804.md",
+      "sha256": "0b8df1ec51bd51fd8ca269186ba74c82c075bb594e9e9832ae645674cf6a0272",
+      "bytes": 13716,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        25,
+        37
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-dct47-exact-one-form-and-enstrophy-sphere-phase-boundary-20260804.md"
+    },
+    {
+      "source_id": "S201",
+      "title": "thomas-derivative-covector-incidence-placement-and-amplitude-duality-boundary-20260804.md",
+      "sha256": "23af46086b15921b6f285133bce38e8bde3eae735bfa57536c2d80c63ed50904",
+      "bytes": 12053,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        35,
+        48
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-derivative-covector-incidence-placement-and-amplitude-duality-boundary-20260804.md"
+    },
+    {
+      "source_id": "S202",
+      "title": "thomas-double-duhamel-finite-parent-ratio-high-output-overlap-boundary-20260804.md",
+      "sha256": "9bb14f63f7bf61214ceb054e5874ba73c4dab27d36641638e23bf5a4196e3e73",
+      "bytes": 12677,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        42,
+        119
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-double-duhamel-finite-parent-ratio-high-output-overlap-boundary-20260804.md"
+    },
+    {
+      "source_id": "S203",
+      "title": "thomas-double-recent-core-fixed-selector-imbalance-collar-finite-chord-join-20260804.md",
+      "sha256": "b30ca70005d9c03413c1a2bca1517f4509839ebb5f433e50cc022251f07ae833",
+      "bytes": 15856,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        30,
+        34,
+        38,
+        49,
+        86,
+        247,
+        270,
+        293
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-double-recent-core-fixed-selector-imbalance-collar-finite-chord-join-20260804.md"
+    },
+    {
+      "source_id": "S204",
+      "title": "thomas-dynamic-core-canonical-record-double-recent-parent-ancestry-boundary-20260804.md",
+      "sha256": "10db9e58b4814b25783e8c33b0326c9734fba61aa23d841e5069f6ac7fef3001",
+      "bytes": 17473,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        35,
+        43,
+        140,
+        325,
+        349
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-dynamic-core-canonical-record-double-recent-parent-ancestry-boundary-20260804.md"
+    },
+    {
+      "source_id": "S205",
+      "title": "thomas-dynamic-core-double-recent-lorentz-source-pulse-boundary-20260804.md",
+      "sha256": "5cdb175d9ca2858d7f2744ba014026cfc710fd4388268c0744defbe0efd7beb7",
+      "bytes": 14415,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        50,
+        65
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-dynamic-core-double-recent-lorentz-source-pulse-boundary-20260804.md"
+    },
+    {
+      "source_id": "S206",
+      "title": "thomas-dynamic-core-l8-duality-and-recombined-throughput-boundary-20260804.md",
+      "sha256": "f27238c8a080c491fd08b0a64768ec72a0971d8503215871d583ed519c2703ae",
+      "bytes": 18396,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        26,
+        27,
+        36,
+        167,
+        168,
+        282,
+        348
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-dynamic-core-l8-duality-and-recombined-throughput-boundary-20260804.md"
+    },
+    {
+      "source_id": "S207",
+      "title": "thomas-dynamic-core-time-oriented-three-leg-current-boundary-20260804.md",
+      "sha256": "66c6ecc4b8d3fcf13f167533f4ef852cf41b4f5ba5ab1b0a804becb119cfc65c",
+      "bytes": 17448,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        14,
+        39,
+        41,
+        92,
+        110,
+        129,
+        204,
+        205,
+        213,
+        351
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-dynamic-core-time-oriented-three-leg-current-boundary-20260804.md"
+    },
+    {
+      "source_id": "S208",
+      "title": "thomas-expanding-plane-cofactor-response-and-relative-frame-block-separation-boundary-20260804.md",
+      "sha256": "96ae35057c3fc6138a5f49ddfa0ccd1cf781d7cbb3c0b44c2dd6f9f8e4f53c2d",
+      "bytes": 13605,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        25,
+        56
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-expanding-plane-cofactor-response-and-relative-frame-block-separation-boundary-20260804.md"
+    },
+    {
+      "source_id": "S209",
+      "title": "thomas-finite-ratio-double-duhamel-recent-source-heat-lag-boundary-20260804.md",
+      "sha256": "fb07ef2eac05446063a7caa01f5dd9be639026887d8061a35cc25be0be86d4d9",
+      "bytes": 18504,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        28,
+        37,
+        105,
+        132,
+        142
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-finite-ratio-double-duhamel-recent-source-heat-lag-boundary-20260804.md"
+    },
+    {
+      "source_id": "S210",
+      "title": "thomas-first-binomial-supplier-fixed-selector-strain-finite-chord-join-20260804.md",
+      "sha256": "6e6ba2be909196c866923d6d7cffd640d865eb19518c67cb9ede5eab1b06bcbc",
+      "bytes": 16622,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        30,
+        41
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-first-binomial-supplier-fixed-selector-strain-finite-chord-join-20260804.md"
+    },
+    {
+      "source_id": "S211",
+      "title": "thomas-fixed-radial-selector-full-field-strain-shape-finite-chord-normal-form-20260804.md",
+      "sha256": "380d634eb74854e5d3d00aac897bb3710420ae44f7196fab02d2d75155a5bee3",
+      "bytes": 14726,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        37,
+        75,
+        322,
+        327,
+        374
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-fixed-radial-selector-full-field-strain-shape-finite-chord-normal-form-20260804.md"
+    },
+    {
+      "source_id": "S212",
+      "title": "thomas-full-field-insertion-heat-defect-no-recount-boundary-20260803.md",
+      "sha256": "9cd8d83b22f202272b7425e35fdd7ed127498d4cb58f9ffd7c9a70caf2bf179b",
+      "bytes": 18081,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        43,
+        45,
+        49,
+        97,
+        153,
+        168,
+        170,
+        217,
+        255,
+        377,
+        428,
+        486
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-full-field-insertion-heat-defect-no-recount-boundary-20260803.md"
+    },
+    {
+      "source_id": "S213",
+      "title": "thomas-full-incidence-majority-spine-and-ultra-nonlocal-wedge-20260803.md",
+      "sha256": "b4a22e6e6c383000fdfb7fa01cbb66443e8c260bf98a49bbb12dd3aea775408d",
+      "bytes": 18603,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        15,
+        298,
+        305,
+        321,
+        330,
+        345,
+        515,
+        571,
+        603
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-full-incidence-majority-spine-and-ultra-nonlocal-wedge-20260803.md"
+    },
+    {
+      "source_id": "S214",
+      "title": "thomas-full-longitudinal-pressure-viscous-receiver-and-sign-countercalibration-20260804.md",
+      "sha256": "5daf6815d36f5ebbcc9e2c36eb3ca9bb0235d916a20b8f64ed76149001feca46",
+      "bytes": 18817,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        19,
+        35
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-full-longitudinal-pressure-viscous-receiver-and-sign-countercalibration-20260804.md"
+    },
+    {
+      "source_id": "S215",
+      "title": "thomas-full-signed-current-adjacent-record-endpoint-propagation-and-zero-response-countercalibration-20260804.md",
+      "sha256": "1ad0e330e5f46c470c07fa386a14ab860abbbe77672644bee57eaa8d60e5202c",
+      "bytes": 12881,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        13,
+        40,
+        97
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-full-signed-current-adjacent-record-endpoint-propagation-and-zero-response-countercalibration-20260804.md"
+    },
+    {
+      "source_id": "S216",
+      "title": "thomas-full-signed-current-positive-pulse-recombination-and-turn-down-action-boundary-20260804.md",
+      "sha256": "90c53f87030cbbb5fb8ae76000aedb093ad1822dde541202b9d83604f4aa3988",
+      "bytes": 15733,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        40,
+        44,
+        54,
+        228
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-full-signed-current-positive-pulse-recombination-and-turn-down-action-boundary-20260804.md"
+    },
+    {
+      "source_id": "S217",
+      "title": "thomas-future-incidence-invariant-transverse-projection-gramian-boundary-20260804.md",
+      "sha256": "054cfc1f88717b04004563bc1a7e2359b5ca3ea24660ec7df75cd0a1aaa54f92",
+      "bytes": 15252,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        35,
+        47
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-future-incidence-invariant-transverse-projection-gramian-boundary-20260804.md"
+    },
+    {
+      "source_id": "S218",
+      "title": "thomas-imbalance-interface-material-coarea-selector-refund-boundary-20260804.md",
+      "sha256": "9c51d61895cd00db4197bfa10f09cf5f4cb84e22655e38befb879b05350f3b1b",
+      "bytes": 18324,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        56,
+        280,
+        426
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-imbalance-interface-material-coarea-selector-refund-boundary-20260804.md"
+    },
+    {
+      "source_id": "S219",
+      "title": "thomas-incompressible-reciprocal-tail-suppression-and-time-square-boundary-20260803.md",
+      "sha256": "40c850001d2bba2ca2710847585c438c220edd11f8cb1dc796f4d6265d1d8a22",
+      "bytes": 10090,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        11,
+        19,
+        22,
+        26,
+        86,
+        240,
+        250,
+        252,
+        273,
+        298,
+        305,
+        308
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-incompressible-reciprocal-tail-suppression-and-time-square-boundary-20260803.md"
+    },
+    {
+      "source_id": "S220",
+      "title": "thomas-inherited-source-storage-all-row-binomial-record-boundary-20260804.md",
+      "sha256": "4e6d6d428d781de4777b1d29bc3494dd208c7c2b6b87c7369d32ed130641414a",
+      "bytes": 11538,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        30,
+        38
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-inherited-source-storage-all-row-binomial-record-boundary-20260804.md"
+    },
+    {
+      "source_id": "S221",
+      "title": "thomas-invariant-transverse-first-binomial-commutator-boundary-20260803.md",
+      "sha256": "5460efa11bf5a7a2026659de41d1571056401e3f583926cfac5d4c91a65644ea",
+      "bytes": 13078,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        25,
+        140
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-invariant-transverse-first-binomial-commutator-boundary-20260803.md"
+    },
+    {
+      "source_id": "S222",
+      "title": "thomas-invariant-transverse-future-incidence-forward-backward-gramian-join-boundary-20260804.md",
+      "sha256": "f5fd16e2b9f3fc985640e1274b2cae7a562af2e8cb19ed3d36096c06cc83f028",
+      "bytes": 20006,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        48,
+        62
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-invariant-transverse-future-incidence-forward-backward-gramian-join-boundary-20260804.md"
+    },
+    {
+      "source_id": "S223",
+      "title": "thomas-joined-exterior-material-pair-dynamic-fourier-core-boundary-20260804.md",
+      "sha256": "61f47a62e7aeb7e3c9f443afb2028fe8a776528fc0e582c4789ef8598984f8d6",
+      "bytes": 17104,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        37,
+        46,
+        114,
+        119,
+        121
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-joined-exterior-material-pair-dynamic-fourier-core-boundary-20260804.md"
+    },
+    {
+      "source_id": "S224",
+      "title": "thomas-last-record-source-square-and-first-binomial-supplier-descent-20260804.md",
+      "sha256": "5a07162abf2bd881220da16b17986884529859dcfe569178122fd3e20676794c",
+      "bytes": 16926,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        30,
+        40,
+        109,
+        341,
+        343
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-last-record-source-square-and-first-binomial-supplier-descent-20260804.md"
+    },
+    {
+      "source_id": "S225",
+      "title": "thomas-minimal-signed-prefix-record-normalization-compactness-rigidity-boundary-20260804.md",
+      "sha256": "e8262c51f6f15cda64dc283030c947487cef00d2efcbfa7511aa3f0be9739c1f",
+      "bytes": 15349,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        20,
+        24,
+        30,
+        33
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-minimal-signed-prefix-record-normalization-compactness-rigidity-boundary-20260804.md"
+    },
+    {
+      "source_id": "S226",
+      "title": "thomas-monotone-material-scale-flux-endpoint-and-wobble-boundary-20260804.md",
+      "sha256": "57e47d9bc3e5341f7b543b3fa60845089b96130cf600f1d3c9613ee3c37e2787",
+      "bytes": 15069,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        29,
+        40,
+        245,
+        387
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-monotone-material-scale-flux-endpoint-and-wobble-boundary-20260804.md"
+    },
+    {
+      "source_id": "S227",
+      "title": "thomas-one-fluid-record-microscope-ancestry-reduction-20260803.md",
+      "sha256": "5e34273f5e12bacd5e3f823f96abafe212dd148aa88b734e1280678c9390b8bb",
+      "bytes": 7227,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        152
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-one-fluid-record-microscope-ancestry-reduction-20260803.md"
+    },
+    {
+      "source_id": "S228",
+      "title": "thomas-paradifferential-low-flow-high-band-propagator-and-ancestry-reconvergence-boundary-20260804.md",
+      "sha256": "49ed9854fba4bd77735372d37bada2f2e0a71b5295fa41f710bcc4a42425dd20",
+      "bytes": 13693,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        16,
+        48,
+        63,
+        83,
+        140,
+        313
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-paradifferential-low-flow-high-band-propagator-and-ancestry-reconvergence-boundary-20260804.md"
+    },
+    {
+      "source_id": "S229",
+      "title": "thomas-parent-age-reciprocal-moment-telescope-positivity-boundary-20260803.md",
+      "sha256": "213ec6b89d107a46f7d2d5fc31ba188c45e056abfa8508136de080d7e2057065",
+      "bytes": 19402,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        14,
+        16,
+        27,
+        30,
+        219,
+        418,
+        475,
+        509,
+        532,
+        591,
+        613,
+        615,
+        638,
+        675,
+        696
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-parent-age-reciprocal-moment-telescope-positivity-boundary-20260803.md"
+    },
+    {
+      "source_id": "S230",
+      "title": "thomas-pressure-complete-invariant-transverse-recruitment-reduction-20260803.md",
+      "sha256": "2ae56db7a1ba9d77e3e73e850f6d88ea68b534bd44c2dc874f0ec4d9310dd8ba",
+      "bytes": 13851,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        28
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-pressure-complete-invariant-transverse-recruitment-reduction-20260803.md"
+    },
+    {
+      "source_id": "S231",
+      "title": "thomas-preterminal-compact-roof-sharp-three-label-block-limit-and-diagonal-selection-20260804.md",
+      "sha256": "07d386da86f651ef8fed83ac19f70fa9e357f408520edd63a520367de2399100",
+      "bytes": 14567,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        34,
+        40,
+        172
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-preterminal-compact-roof-sharp-three-label-block-limit-and-diagonal-selection-20260804.md"
+    },
+    {
+      "source_id": "S232",
+      "title": "thomas-primitive-positive-radial-current-causal-turn-down-boundary-20260804.md",
+      "sha256": "5337eb50b44ee7f3fe72d02683da5d1293ae5f6e2b8d0e15ba4ea63c35e9634f",
+      "bytes": 21418,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        62,
+        636
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-primitive-positive-radial-current-causal-turn-down-boundary-20260804.md"
+    },
+    {
+      "source_id": "S233",
+      "title": "thomas-recent-high-source-fixed-selector-six-branch-synchronization-boundary-20260804.md",
+      "sha256": "f5a3f50ce1dc93bba27593e56e7a97faa994ada5f7d4c011644ef72240ecf266",
+      "bytes": 13699,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        55
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-recent-high-source-fixed-selector-six-branch-synchronization-boundary-20260804.md"
+    },
+    {
+      "source_id": "S234",
+      "title": "thomas-recent-source-first-binomial-characteristic-all-row-synchronization-boundary-20260804.md",
+      "sha256": "b0a77c1869a8ba04743ed6d98f4b5770c3430179b911b13743b7c0a323934d86",
+      "bytes": 10813,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        34,
+        225
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-recent-source-first-binomial-characteristic-all-row-synchronization-boundary-20260804.md"
+    },
+    {
+      "source_id": "S235",
+      "title": "thomas-record-pulse-reciprocal-parent-tail-evacuation-and-diagonal-depth-boundary-20260804.md",
+      "sha256": "aaf117d532a6a90c05b1209e769d0b05b9a27f17c55bc2033af4948dbf6e4f0b",
+      "bytes": 14099,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        28,
+        31,
+        40,
+        413,
+        464
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-record-pulse-reciprocal-parent-tail-evacuation-and-diagonal-depth-boundary-20260804.md"
+    },
+    {
+      "source_id": "S236",
+      "title": "thomas-refunded-full-current-mean-winding-and-pressure-response-covariance-boundary-20260804.md",
+      "sha256": "e0105115a73eeb36ce9546ebb5f48805bb4218e304d0323369c266622a2b8570",
+      "bytes": 17685,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        20,
+        60
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-refunded-full-current-mean-winding-and-pressure-response-covariance-boundary-20260804.md"
+    },
+    {
+      "source_id": "S237",
+      "title": "thomas-rhl-binomial-generating-radius-and-resummed-characteristic-no-gain-boundary-20260804.md",
+      "sha256": "e26b13458f64fe7542ab37a976719530070ceaa7e6e8c631eff37640802f0b3a",
+      "bytes": 13129,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        39,
+        161,
+        233
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-rhl-binomial-generating-radius-and-resummed-characteristic-no-gain-boundary-20260804.md"
+    },
+    {
+      "source_id": "S238",
+      "title": "thomas-selector-radius-finite-chord-flux-and-endpoint-boundary-20260804.md",
+      "sha256": "00da73f90ff8d7c636e832c05290c602cfa143c6d5d82e3bcbf2c139818a3e85",
+      "bytes": 13359,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        41,
+        50
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-selector-radius-finite-chord-flux-and-endpoint-boundary-20260804.md"
+    },
+    {
+      "source_id": "S239",
+      "title": "thomas-signed-double-recent-adjoint-source-time-pullback-boundary-20260804.md",
+      "sha256": "8494d7074bc6f1de0823e8b81dd400ba0fd3d4d08dda7b21adb0b9fa59983578",
+      "bytes": 15493,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        1,
+        43,
+        220
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-signed-double-recent-adjoint-source-time-pullback-boundary-20260804.md"
+    },
+    {
+      "source_id": "S240",
+      "title": "thomas-signed-sharp-membership-layer-cake-finite-chord-refund-boundary-20260804.md",
+      "sha256": "540cc241d302cebc84c2421f1716b9b55bd15ea9644215ad39d93ca187ec2865",
+      "bytes": 24217,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        52,
+        435
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-signed-sharp-membership-layer-cake-finite-chord-refund-boundary-20260804.md"
+    },
+    {
+      "source_id": "S241",
+      "title": "thomas-six-assignment-scalar-pair-image-and-material-three-label-kernel-boundary-20260804.md",
+      "sha256": "f77fba07b27279946afcb9a139c74d74f200a1705749d6143cc1d970da55fcd0",
+      "bytes": 20096,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        59,
+        284,
+        286,
+        290,
+        299,
+        317,
+        383
+      ]
+    },
+    {
+      "source_id": "S242",
+      "title": "thomas-strain-shape-pressure-explicit-higher-response-and-finite-chord-obstruction-20260804.md",
+      "sha256": "8c696ec9d52e1251d49c7105573eb6bc815d3a3d5583859a311076952bc5a6ac",
+      "bytes": 16656,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        43,
+        60
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-strain-shape-pressure-explicit-higher-response-and-finite-chord-obstruction-20260804.md"
+    },
+    {
+      "source_id": "S243",
+      "title": "thomas-three-label-tensor-projector-eight-block-refund-and-record-boundary-20260804.md",
+      "sha256": "6870b4b5519e53f42e7c7de797a6262cbc130c6fc67af162652b446de8668ad2",
+      "bytes": 16313,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        36,
+        44,
+        49,
+        72,
+        124,
+        230
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-three-label-tensor-projector-eight-block-refund-and-record-boundary-20260804.md"
+    },
+    {
+      "source_id": "S244",
+      "title": "thomas-uncollapsed-parent-causal-gramian-observability-boundary-20260803.md",
+      "sha256": "1c361892a920ce80ec1a524f4048ae7a3802198bfd92960f1d5f21a59d2b85ea",
+      "bytes": 10805,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        23,
+        35,
+        149
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-uncollapsed-parent-causal-gramian-observability-boundary-20260803.md"
+    },
+    {
+      "source_id": "S245",
+      "title": "global-smoothness-forced-navier-stokes.pdf",
+      "sha256": "e57fe8d1a08ab78ebe50dd91c1fb2cdedb8394f2338192498e65ff8295497d5f",
+      "bytes": 1696426,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/global-smoothness-forced-navier-stokes-20260921/global-smoothness-forced-navier-stokes.pdf"
+    },
+    {
+      "source_id": "S246",
+      "title": "global-smoothness-forced-navier-stokes.pdf",
+      "sha256": "353a322248e4785a5d286f3a3fe6f2f8574eb1e5fb24491355a463027e243748",
+      "bytes": 1684210,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S247",
+      "title": "main.tex",
+      "sha256": "13280cc0e39a2d0a63d7adf8e08960ef0cfc200750298642dc81f2eaebbf64c6",
+      "bytes": 6775,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S248",
+      "title": "00-analytic-framework.tex",
+      "sha256": "fcceff8e43f1661b9d1472959188ed9968c91847eda94685d0193d8f7b645de7",
+      "bytes": 31562,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/forced/00-analytic-framework.tex"
+    },
+    {
+      "source_id": "S249",
+      "title": "00-how-proof-works.tex",
+      "sha256": "f75f1c7c33b0a4e237506ebbb7a13e6ec3f3a00d1bdaf0cb3d8dea511b1dacc9",
+      "bytes": 9059,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/forced/00-how-proof-works.tex"
+    },
+    {
+      "source_id": "S250",
+      "title": "00-introduction.tex",
+      "sha256": "e71243c05efd3dd5f9faf85d09065a68f36c1f7b59021e701d18d0fa974aa384",
+      "bytes": 4339,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/forced/00-introduction.tex"
+    },
+    {
+      "source_id": "S251",
+      "title": "01-setting-mixed-jet.tex",
+      "sha256": "58de09a6760664d064b3e0d232b04f87cb78d7405e29a9b68f19f66724a37d6f",
+      "bytes": 28880,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S252",
+      "title": "02-compatible-rectangles.tex",
+      "sha256": "04bdd4a568a0f6c3f8c1c36109d750999e338024314ba3b7a1b877bf18ffbe46",
+      "bytes": 25859,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/forced/02-compatible-rectangles.tex"
+    },
+    {
+      "source_id": "S253",
+      "title": "03-matrix-forms.tex",
+      "sha256": "966a4f8f76d0b7ff863ebbc8732822d44ae618b98f5823da79e34a23d76b7950",
+      "bytes": 11980,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/forced/03-matrix-forms.tex"
+    },
+    {
+      "source_id": "S254",
+      "title": "03-quantitative-consequences.tex",
+      "sha256": "331840d5590740054afb5f630f9f9849725b1b7caa5289cc2eaf960f1ae1a00b",
+      "bytes": 66261,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/forced/03-quantitative-consequences.tex"
+    },
+    {
+      "source_id": "S255",
+      "title": "04-intersection-endpoint-restart.tex",
+      "sha256": "bea4ee21c0207e2e859dac220283addac59af25e2aa069f1065da86412799fb3",
+      "bytes": 26178,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/forced/04-intersection-endpoint-restart.tex"
+    },
+    {
+      "source_id": "S256",
+      "title": "05-three-dimensional-applications.tex",
+      "sha256": "53c827b3440904ed2aab1cc0c52575549a8b04a9233a181b0723ee76baa521bb",
+      "bytes": 44124,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/forced/05-three-dimensional-applications.tex"
+    },
+    {
+      "source_id": "S257",
+      "title": "06-conclusion.tex",
+      "sha256": "337bcac8208e03a6e4e607604746c93f2262b2283fd70ea96705f946671c88ad",
+      "bytes": 2573,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/forced/06-conclusion.tex"
+    },
+    {
+      "source_id": "S258",
+      "title": "all-row-source-primitives.tex",
+      "sha256": "31af40f95ad5c7482e1e0c03d66e47a64184bbf6ebc684e219cd60d50c5f43ed",
+      "bytes": 6166,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/all-row-source-primitives.tex"
+    },
+    {
+      "source_id": "S259",
+      "title": "angular-momentum-appendix.tex",
+      "sha256": "49ca285cc487c4ec4f4abd943b8b527499170b30fc09eb8a88b660bc207a85bb",
+      "bytes": 4987,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/angular-momentum-appendix.tex"
+    },
+    {
+      "source_id": "S260",
+      "title": "body.tex",
+      "sha256": "91daf06e22f9acb19b4c466b37956e23fc3e121307e8576c16f74e1583279208",
+      "bytes": 84609,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/body.tex"
+    },
+    {
+      "source_id": "S261",
+      "title": "critical-reserve-and-chord-density.tex",
+      "sha256": "74e5a926c54f25edc8283cca90309d20e5d28b5723b181de5c6581d0cb753fee",
+      "bytes": 17867,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/critical-reserve-and-chord-density.tex"
+    },
+    {
+      "source_id": "S262",
+      "title": "critical-source-bound.tex",
+      "sha256": "e7fbec9fa02c9b05f87ac4d7a5ad9a058537659a17be9137a4bbec193fea80f6",
+      "bytes": 8710,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/critical-source-bound.tex"
+    },
+    {
+      "source_id": "S263",
+      "title": "first-rectangle.tex",
+      "sha256": "ee775532ee883ca4e2354d7ebac88c8d54e6513570e2e1d37ede1c8fb3c8872e",
+      "bytes": 2850,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/first-rectangle.tex"
+    },
+    {
+      "source_id": "S264",
+      "title": "force-admission.tex",
+      "sha256": "0a30766a9599b3e2d6d552f13b8b9b4e969fa0cf926d067381d2e534c961c74f",
+      "bytes": 3422,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/force-admission.tex"
+    },
+    {
+      "source_id": "S265",
+      "title": "forced-domain-propagation.tex",
+      "sha256": "f151b43115773123835dd693a0d7f792d2bd13b3617f5f4616a4b154c993aff7",
+      "bytes": 7408,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/forced-domain-propagation.tex"
+    },
+    {
+      "source_id": "S266",
+      "title": "fractional-exterior.tex",
+      "sha256": "1bb26c8edcfdb2b73774c141dbfedcc3983bd10c399bfc2cf1ead46ecdf5c43c",
+      "bytes": 6190,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/fractional-exterior.tex"
+    },
+    {
+      "source_id": "S267",
+      "title": "localization-source-jets.tex",
+      "sha256": "66b4bf6b4f078a676c7466a8b16c100e88d5b278dcfc3254058a19e75078a799",
+      "bytes": 7959,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/localization-source-jets.tex"
+    },
+    {
+      "source_id": "S268",
+      "title": "parcel-metric.tex",
+      "sha256": "32a54e6fa6f194ada8ae7fa51278698de9f125092d94f9c307b65f64e3a7c1d0",
+      "bytes": 2556,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/parcel-metric.tex"
+    },
+    {
+      "source_id": "S269",
+      "title": "recovered-heights.tex",
+      "sha256": "1cabe67547cebcd7c12dc1d8ee1e85998fcb1b5aef9e85464dbf10d37307aff0",
+      "bytes": 4470,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/recovered-heights.tex"
+    },
+    {
+      "source_id": "S270",
+      "title": "recovered-material-rectangles.tex",
+      "sha256": "a80609f0f6c94d2f78e0ad36cc0a417d6cd7cc8d8bcd5dcb826d1d221351b44c",
+      "bytes": 3240,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/recovered-material-rectangles.tex"
+    },
+    {
+      "source_id": "S271",
+      "title": "recovered-rectangle-bounds.tex",
+      "sha256": "fd8ecf532dd794b4977563ac46904d5260544a04e169cac31d90164e6815b735",
+      "bytes": 15015,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/recovered-rectangle-bounds.tex"
+    },
+    {
+      "source_id": "S272",
+      "title": "source-response.tex",
+      "sha256": "df5b99253214522e37fd676d541d8e671656fee3312370b631ab23385a58f027",
+      "bytes": 9918,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/source-response.tex"
+    },
+    {
+      "source_id": "S273",
+      "title": "source-work-appendix.tex",
+      "sha256": "0e5762120b5606183022101b9f9804b773b2386d4516da449ee5e2d4b679bedf",
+      "bytes": 9282,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/source-work-appendix.tex"
+    },
+    {
+      "source_id": "S274",
+      "title": "terminal-characterization.tex",
+      "sha256": "5eb0d08e863e537ec01fdffc96e583b9e56c2b2b4af4904b8bfd5029250e64f4",
+      "bytes": 3601,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/terminal-characterization.tex"
+    },
+    {
+      "source_id": "S275",
+      "title": "terminal-domains.tex",
+      "sha256": "1f3b3cdce125e1d0097901ae252138d81e4949f50aa140aa4c9e1a381fc27daf",
+      "bytes": 3185,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/terminal-domains.tex"
+    },
+    {
+      "source_id": "S276",
+      "title": "velocity-source-insertions.tex",
+      "sha256": "6b229f7e6ff51714837651edb7ddfa97765042dcde8434c3ee075b9d485c174e",
+      "bytes": 4200,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/velocity-source-insertions.tex"
+    },
+    {
+      "source_id": "S277",
+      "title": "00-analytic-framework.tex",
+      "sha256": "fe61c1940e5124a63eb953ea71538359675a05d0c40987b468481835c66738e1",
+      "bytes": 29754,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/unforced/00-analytic-framework.tex"
+    },
+    {
+      "source_id": "S278",
+      "title": "00-how-proof-works.tex",
+      "sha256": "75c4aa43d28b2d8f74ee969e1be677c129b955b6801a907a1d10e6638f2dd059",
+      "bytes": 16646,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/unforced/00-how-proof-works.tex"
+    },
+    {
+      "source_id": "S279",
+      "title": "00-introduction.tex",
+      "sha256": "111b2f7b9970441f80a5ac87ffbf32d731059ead72b3e6f5a88fb51403878a3a",
+      "bytes": 8122,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/unforced/00-introduction.tex"
+    },
+    {
+      "source_id": "S280",
+      "title": "00-main-theorem.tex",
+      "sha256": "c3733fd0ee2de6a4343b0f6db67d873818ac72a61a97bca8ec414ecee65ab078",
+      "bytes": 1116,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/unforced/00-main-theorem.tex"
+    },
+    {
+      "source_id": "S281",
+      "title": "01-setting-mixed-jet.tex",
+      "sha256": "dbd0c274c40b2ab9737ccc6faf7bd2ce29f1ac0d69085266cfafd89db9b1f914",
+      "bytes": 27407,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/unforced/01-setting-mixed-jet.tex"
+    },
+    {
+      "source_id": "S282",
+      "title": "02-compatible-rectangles.tex",
+      "sha256": "2e1c8e40a0e9fa1b2d50ac6db5680a7259404344d83258e7ff2968386fda8e66",
+      "bytes": 17075,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/unforced/02-compatible-rectangles.tex"
+    },
+    {
+      "source_id": "S283",
+      "title": "03-matrix-forms.tex",
+      "sha256": "5270790de1fdea2b26e8029c5d4a3ca2a78030c4961bf489478e069ab973a3ed",
+      "bytes": 9447,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/unforced/03-matrix-forms.tex"
+    },
+    {
+      "source_id": "S284",
+      "title": "03-quantitative-consequences.tex",
+      "sha256": "64deb94a314d6c73416dc2f7e805e38537f0ffbe789f04c48b9008d41dda09e8",
+      "bytes": 62036,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/unforced/03-quantitative-consequences.tex"
+    },
+    {
+      "source_id": "S285",
+      "title": "04-intersection-endpoint-restart.tex",
+      "sha256": "05e31cbf3b1ff10062e46147b7079d7221744f45a6690d0be52ec3d8c8ab7845",
+      "bytes": 27665,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/unforced/04-intersection-endpoint-restart.tex"
+    },
+    {
+      "source_id": "S286",
+      "title": "05-three-dimensional-applications.tex",
+      "sha256": "2943a03f971710b2e8dd48adaa0b485230e020866c92a8f173d528d10eee76ba",
+      "bytes": 40682,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/unforced/05-three-dimensional-applications.tex"
+    },
+    {
+      "source_id": "S287",
+      "title": "06-conclusion.tex",
+      "sha256": "98d1bc2dfed15abeb216d955e54386e5aca0b78a720d840af0e25e1668470a62",
+      "bytes": 2124,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/unforced/06-conclusion.tex"
+    },
+    {
+      "source_id": "S288",
+      "title": "references.tex",
+      "sha256": "0aa3c7685b0659958696c669706e9c1e0ec13a503e6b19ef0f7b40fba0fc3e44",
+      "bytes": 4573,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/references.tex"
+    },
+    {
+      "source_id": "S289",
+      "title": "Derive from u0 (complete short original)",
+      "sha256": "b38542d20b7e931dd3f53298c0f593194b3f41ae3b4fdf9f63b8b8850243f037",
+      "bytes": 11451,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        13,
+        42,
+        60,
+        113
+      ]
+    },
+    {
+      "source_id": "S290",
+      "title": "Unforced mixed-jet construction (complete original compilation 1)",
+      "sha256": "9113bc8ad752abc02883335797d2c4fb4c785e164382dc7de8f9b074159d38ae",
+      "bytes": 132583,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        1319
+      ]
+    },
+    {
+      "source_id": "S291",
+      "title": "Unforced mixed-jet construction (complete original compilation 2)",
+      "sha256": "eb4e2e6c471e60606a9925fc3f88f51fb9722d86109d9cdfb26c931a4f875b40",
+      "bytes": 135631,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        5,
+        14,
+        403,
+        867,
+        891,
+        950,
+        1342,
+        1371,
+        1453,
+        1460,
+        1525,
+        1654
+      ]
+    },
+    {
+      "source_id": "S292",
+      "title": "Forced construction (short original mathematical source)",
+      "sha256": "98f6045861f60f08bb5f55fa908c6db464dba48390502d755f9191b259a3d5ee",
+      "bytes": 6856,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        85
+      ]
+    },
+    {
+      "source_id": "S293",
+      "title": "global-smoothness-forced-navier-stokes.zip",
+      "sha256": "dcafe02e75dec21753dd007b2a467229cd58cf9bb19b131b28e39fcd06e89913",
+      "bytes": 1389884,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": []
+    },
+    {
+      "source_id": "S294",
+      "title": "recovered-heights.tex",
+      "sha256": "1cabe67547cebcd7c12dc1d8ee1e85998fcb1b5aef9e85464dbf10d37307aff0",
+      "bytes": 4470,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        1
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/recovered-heights.tex"
+    },
+    {
+      "source_id": "S295",
+      "title": "recovered-rectangle-bounds.tex",
+      "sha256": "fd8ecf532dd794b4977563ac46904d5260544a04e169cac31d90164e6815b735",
+      "bytes": 15015,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        371
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/recovered-rectangle-bounds.tex"
+    },
+    {
+      "source_id": "S296",
+      "title": "source-response.tex",
+      "sha256": "df5b99253214522e37fd676d541d8e671656fee3312370b631ab23385a58f027",
+      "bytes": 9918,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        1,
+        124,
+        125
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/source-response.tex"
+    },
+    {
+      "source_id": "S297",
+      "title": "terminal-domains.tex",
+      "sha256": "1f3b3cdce125e1d0097901ae252138d81e4949f50aa140aa4c9e1a381fc27daf",
+      "bytes": 3185,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        21
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/terminal-domains.tex"
+    },
+    {
+      "source_id": "S298",
+      "title": "velocity-source-insertions.tex",
+      "sha256": "6b229f7e6ff51714837651edb7ddfa97765042dcde8434c3ee075b9d485c174e",
+      "bytes": 4200,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        1,
+        18
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/velocity-source-insertions.tex"
+    },
+    {
+      "source_id": "S299",
+      "title": "Unforced mixed-jet construction (complete original compilation 1, recovered copy)",
+      "sha256": "9113bc8ad752abc02883335797d2c4fb4c785e164382dc7de8f9b074159d38ae",
+      "bytes": 132583,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        390
+      ]
+    },
+    {
+      "source_id": "S300",
+      "title": "original-producer.tex",
+      "sha256": "3d5bd17bef7098043c1b33c19fa7bf9bb02ddc81c84cadfb190875d9c8631959",
+      "bytes": 12934,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        201
+      ]
+    },
+    {
+      "source_id": "S301",
+      "title": "forced-adjoint-correction-slope-20260917.md",
+      "sha256": "b4d3b84cbc82fd3087828895fb239c3df6b6e205b9ae5aa0764fbba10aebf5ab",
+      "bytes": 10234,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        20
+      ]
+    },
+    {
+      "source_id": "S302",
+      "title": "forced-arbitrary-data-heat-normal-form-closure-attempt-20260917.md",
+      "sha256": "0bb1cae69cf550ad2d782c52604aca7de327b939d13f5eb446ba9f586ac3a0ef",
+      "bytes": 13010,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        18
+      ]
+    },
+    {
+      "source_id": "S303",
+      "title": "forced-custody-terminal-comparison-20260917.md",
+      "sha256": "b715de2748c5b403d935083b0a00b67273034ffb74c142ff52f5109671021e0f",
+      "bytes": 22817,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        27
+      ]
+    },
+    {
+      "source_id": "S304",
+      "title": "forced-first-binomial-compensating-primitive-boundary-20260919.md",
+      "sha256": "70d04446656f6e5055c5f1bdf9fd48373c85f1fc81fa935aa1d6e0c86aae6f34",
+      "bytes": 12266,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        17,
+        18,
+        77,
+        172,
+        398
+      ]
+    },
+    {
+      "source_id": "S305",
+      "title": "forced-fixed-source-gradient-correction-and-cumulative-gram-20260917.md",
+      "sha256": "e2454407fb0c65c168132222d602cf4f79d14e28e75f1c984ac85b983ce97d8a",
+      "bytes": 56980,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        27,
+        28,
+        84,
+        102,
+        227,
+        645
+      ]
+    },
+    {
+      "source_id": "S306",
+      "title": "forced-native-ladder-complete-current-test-20260917.md",
+      "sha256": "673ce00044c632a16c6e3feb61751da5df493c288a853ffd47b18a5d28c85510",
+      "bytes": 13679,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        27,
+        131
+      ]
+    },
+    {
+      "source_id": "S307",
+      "title": "forced-native-rectangle-inverse-and-correction-energy-20260917.md",
+      "sha256": "7b669573777d25bfb019e091bdbdc013147c54a51f69454526a70a0bfbc27737",
+      "bytes": 30605,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        134
+      ]
+    },
+    {
+      "source_id": "S308",
+      "title": "forced-native-source-graph-completion-20260917.md",
+      "sha256": "1ea95239b32e7508e5677bf94847babe9b4cbb2e93dda40487a1b675bb580a98",
+      "bytes": 14381,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        43,
+        60,
+        76,
+        98,
+        198
+      ]
+    },
+    {
+      "source_id": "S309",
+      "title": "forced-native-two-time-gram-and-fractional-terminal-domain-20260917.md",
+      "sha256": "c47674a15aa2985b2c55db20c51049bb9a4570c08569386a4a46111cb6e74a81",
+      "bytes": 15483,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        23,
+        63,
+        148
+      ]
+    },
+    {
+      "source_id": "S310",
+      "title": "forced-ns-auxiliary-recovery-tests-20260915.md",
+      "sha256": "29468a5a3cfd09aaf7fff7380ac342ba91a9688f3a1da7ae14f1dda924390dcb",
+      "bytes": 55895,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        364,
+        500,
+        543,
+        634
+      ]
+    },
+    {
+      "source_id": "S311",
+      "title": "forced-ns-critical-height-integral-assembly-20260915.md",
+      "sha256": "1a88cd6dcea07ab1fd6c6198d970fa5bf98e07c9beb7ddea7f875eee2a5974ae",
+      "bytes": 8108,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        25,
+        29
+      ]
+    },
+    {
+      "source_id": "S312",
+      "title": "forced-ns-rectangle-force-pairing-20260915.md",
+      "sha256": "af8bd68d2417a0fd72de702e016f23e3a9a86bc13ffd93fd3e512094217bdb40",
+      "bytes": 9018,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        57
+      ]
+    },
+    {
+      "source_id": "S313",
+      "title": "forced-stokes-lift-critical-work-stability-20260917.md",
+      "sha256": "77d88b4e9439fefbd5aca56371d6d2f2a8fae06200e4f7d29514e0995c7fdd56",
+      "bytes": 13280,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        28
+      ]
+    },
+    {
+      "source_id": "S314",
+      "title": "mixed-jet-hs-quadratic-convolution-reduction.md",
+      "sha256": "c1871a6e259b7f74ff6899990a6b187f7bad4e60c72c8b3442c247d72c0a407a",
+      "bytes": 7498,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        215
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/mixed-jet-hs-quadratic-convolution-reduction.md"
+    },
+    {
+      "source_id": "S315",
+      "title": "thomas-balanced-rip-cord-material-charge-and-recruitment-tail-20260803.md",
+      "sha256": "4403bdd9bff010f8160721ecf7715f42e5ec5139491ba6ab0f2a34d27fe2ca6d",
+      "bytes": 13117,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        11,
+        23,
+        247,
+        269
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-balanced-rip-cord-material-charge-and-recruitment-tail-20260803.md"
+    },
+    {
+      "source_id": "S316",
+      "title": "thomas-first-signed-prefix-generates-complete-intersection-20260803.md",
+      "sha256": "2d9dae4ad91b5e9bf934aeed82a9d5acf82d79d3f69a1d26fb88089278e89901",
+      "bytes": 10662,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        13,
+        15,
+        18,
+        25,
+        29,
+        73,
+        105
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-first-signed-prefix-generates-complete-intersection-20260803.md"
+    },
+    {
+      "source_id": "S317",
+      "title": "thomas-heterochiral-child-fraction-local-nonlocal-boundary-20260803.md",
+      "sha256": "560edba5183dea021101d34093b92f2f0dd52cc63a9327abbfde4c1020801054",
+      "bytes": 11607,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        231
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-heterochiral-child-fraction-local-nonlocal-boundary-20260803.md"
+    },
+    {
+      "source_id": "S318",
+      "title": "thomas-joined-pressure-viscous-material-coarea-and-critical-scale-jump-boundary-20260803.md",
+      "sha256": "84575e935817061e9a3d5f3491e1f633cb1c59f62f914ec19a4fce135e26274a",
+      "bytes": 14989,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        36,
+        96,
+        98
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-joined-pressure-viscous-material-coarea-and-critical-scale-jump-boundary-20260803.md"
+    },
+    {
+      "source_id": "S319",
+      "title": "thomas-one-fluid-high-pass-prefix-first-moment-reduction-20260803.md",
+      "sha256": "ba04ee3a7d4f2951587ae15e354055b31cb6088da51106da4735f86e8a65a08d",
+      "bytes": 12702,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        16,
+        35,
+        252,
+        255,
+        361,
+        496
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-one-fluid-high-pass-prefix-first-moment-reduction-20260803.md"
+    },
+    {
+      "source_id": "S320",
+      "title": "thomas-pressure-explicit-unweighted-ancestry-first-moment-localization-obstruction-20260803.md",
+      "sha256": "357a0a1df0fcb20d4b6ad3e0694d42f048d393e122e176a0524bad58f06e9f93",
+      "bytes": 22317,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        23,
+        1002,
+        1018
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-pressure-explicit-unweighted-ancestry-first-moment-localization-obstruction-20260803.md"
+    },
+    {
+      "source_id": "S321",
+      "title": "thomas-signed-first-cutoff-moment-three-leg-triad-boundary-20260803.md",
+      "sha256": "0aa69e750686d82babcc37607b71ad047461dfd20ba0f62365c9712dc880aacb",
+      "bytes": 11700,
+      "scope": "Mathematical coverage is limited to the report’s stated source ranges; indexed identity does not certify the entire proof.",
+      "referenced_starting_physical_lines": [
+        174,
+        183
+      ],
+      "verified_public_url": "https://github.com/Jibberfish69/navier-stokes-public/blob/816d77982adbd0f04a12313fded1874787e2d992/problems/navier-stokes/theorem-construction/thomas-signed-first-cutoff-moment-three-leg-triad-boundary-20260803.md"
+    }
+  ]
+}

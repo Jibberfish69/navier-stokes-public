@@ -1,0 +1,494 @@
+{
+  "all_pass": true,
+  "inputs": [
+    {
+      "bytes": 94991,
+      "role": "allocation-table",
+      "sha256": "12cb51569dd1f753dd17128e3035480cb98a5905fdb472597b6d09c0268fe46b"
+    },
+    {
+      "bytes": 38433,
+      "role": "binomial-table",
+      "sha256": "178f5620ef1d901bc631809756cefab614730eca6678c73cdc5244ed07df9436"
+    },
+    {
+      "bytes": 1087,
+      "role": "temporal-record",
+      "sha256": "87735c66fa6c54c38d8895dac534e377f7b961dad935f0df509bdcff83db85b3"
+    }
+  ],
+  "method": "Independent literal binomial evaluation and subtraction of both common-linearization endpoints; rational temporal triple quotient",
+  "recorded_pass_flags_used": false,
+  "scope": "Exact finite ordered coefficients only; no analytic estimate, trajectory, terminal limit, or pressure estimate is verified",
+  "temporal_depths": [
+    {
+      "N": 0,
+      "boundary_terms": 0,
+      "boundary_terms_by_total_degree": {},
+      "recomputed_boundary_identity": true,
+      "recomputed_complete_interior_cancellation": true
+    },
+    {
+      "N": 1,
+      "boundary_terms": 1,
+      "boundary_terms_by_total_degree": {
+        "2": 1
+      },
+      "recomputed_boundary_identity": true,
+      "recomputed_complete_interior_cancellation": true
+    },
+    {
+      "N": 2,
+      "boundary_terms": 4,
+      "boundary_terms_by_total_degree": {
+        "3": 2,
+        "4": 2
+      },
+      "recomputed_boundary_identity": true,
+      "recomputed_complete_interior_cancellation": true
+    },
+    {
+      "N": 3,
+      "boundary_terms": 10,
+      "boundary_terms_by_total_degree": {
+        "4": 3,
+        "5": 4,
+        "6": 3
+      },
+      "recomputed_boundary_identity": true,
+      "recomputed_complete_interior_cancellation": true
+    },
+    {
+      "N": 4,
+      "boundary_terms": 20,
+      "boundary_terms_by_total_degree": {
+        "5": 4,
+        "6": 6,
+        "7": 6,
+        "8": 4
+      },
+      "recomputed_boundary_identity": true,
+      "recomputed_complete_interior_cancellation": true
+    },
+    {
+      "N": 5,
+      "boundary_terms": 35,
+      "boundary_terms_by_total_degree": {
+        "10": 5,
+        "6": 5,
+        "7": 8,
+        "8": 9,
+        "9": 8
+      },
+      "recomputed_boundary_identity": true,
+      "recomputed_complete_interior_cancellation": true
+    },
+    {
+      "N": 6,
+      "boundary_terms": 56,
+      "boundary_terms_by_total_degree": {
+        "10": 12,
+        "11": 10,
+        "12": 6,
+        "7": 6,
+        "8": 10,
+        "9": 12
+      },
+      "recomputed_boundary_identity": true,
+      "recomputed_complete_interior_cancellation": true
+    },
+    {
+      "N": 7,
+      "boundary_terms": 84,
+      "boundary_terms_by_total_degree": {
+        "10": 15,
+        "11": 16,
+        "12": 15,
+        "13": 12,
+        "14": 7,
+        "8": 7,
+        "9": 12
+      },
+      "recomputed_boundary_identity": true,
+      "recomputed_complete_interior_cancellation": true
+    },
+    {
+      "N": 8,
+      "boundary_terms": 120,
+      "boundary_terms_by_total_degree": {
+        "10": 14,
+        "11": 18,
+        "12": 20,
+        "13": 20,
+        "14": 18,
+        "15": 14,
+        "16": 8,
+        "9": 8
+      },
+      "recomputed_boundary_identity": true,
+      "recomputed_complete_interior_cancellation": true
+    }
+  ],
+  "thirty_fields": [
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        0,
+        0,
+        0
+      ],
+      "n": 0,
+      "raw_coefficient_sum": 1,
+      "raw_ordered_allocations": 1,
+      "remainder_ordered_allocations": 1
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        0,
+        0,
+        1
+      ],
+      "n": 0,
+      "raw_coefficient_sum": 2,
+      "raw_ordered_allocations": 2,
+      "remainder_ordered_allocations": 0
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        0,
+        0,
+        2
+      ],
+      "n": 0,
+      "raw_coefficient_sum": 4,
+      "raw_ordered_allocations": 3,
+      "remainder_ordered_allocations": 1
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        0,
+        1,
+        0
+      ],
+      "n": 0,
+      "raw_coefficient_sum": 2,
+      "raw_ordered_allocations": 2,
+      "remainder_ordered_allocations": 0
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        0,
+        1,
+        1
+      ],
+      "n": 0,
+      "raw_coefficient_sum": 4,
+      "raw_ordered_allocations": 4,
+      "remainder_ordered_allocations": 2
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        0,
+        2,
+        0
+      ],
+      "n": 0,
+      "raw_coefficient_sum": 4,
+      "raw_ordered_allocations": 3,
+      "remainder_ordered_allocations": 1
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        1,
+        0,
+        0
+      ],
+      "n": 0,
+      "raw_coefficient_sum": 2,
+      "raw_ordered_allocations": 2,
+      "remainder_ordered_allocations": 0
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        1,
+        0,
+        1
+      ],
+      "n": 0,
+      "raw_coefficient_sum": 4,
+      "raw_ordered_allocations": 4,
+      "remainder_ordered_allocations": 2
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        1,
+        1,
+        0
+      ],
+      "n": 0,
+      "raw_coefficient_sum": 4,
+      "raw_ordered_allocations": 4,
+      "remainder_ordered_allocations": 2
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        2,
+        0,
+        0
+      ],
+      "n": 0,
+      "raw_coefficient_sum": 4,
+      "raw_ordered_allocations": 3,
+      "remainder_ordered_allocations": 1
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        0,
+        0,
+        0
+      ],
+      "n": 1,
+      "raw_coefficient_sum": 2,
+      "raw_ordered_allocations": 2,
+      "remainder_ordered_allocations": 0
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        0,
+        0,
+        1
+      ],
+      "n": 1,
+      "raw_coefficient_sum": 4,
+      "raw_ordered_allocations": 4,
+      "remainder_ordered_allocations": 2
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        0,
+        0,
+        2
+      ],
+      "n": 1,
+      "raw_coefficient_sum": 8,
+      "raw_ordered_allocations": 6,
+      "remainder_ordered_allocations": 4
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        0,
+        1,
+        0
+      ],
+      "n": 1,
+      "raw_coefficient_sum": 4,
+      "raw_ordered_allocations": 4,
+      "remainder_ordered_allocations": 2
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        0,
+        1,
+        1
+      ],
+      "n": 1,
+      "raw_coefficient_sum": 8,
+      "raw_ordered_allocations": 8,
+      "remainder_ordered_allocations": 6
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        0,
+        2,
+        0
+      ],
+      "n": 1,
+      "raw_coefficient_sum": 8,
+      "raw_ordered_allocations": 6,
+      "remainder_ordered_allocations": 4
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        1,
+        0,
+        0
+      ],
+      "n": 1,
+      "raw_coefficient_sum": 4,
+      "raw_ordered_allocations": 4,
+      "remainder_ordered_allocations": 2
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        1,
+        0,
+        1
+      ],
+      "n": 1,
+      "raw_coefficient_sum": 8,
+      "raw_ordered_allocations": 8,
+      "remainder_ordered_allocations": 6
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        1,
+        1,
+        0
+      ],
+      "n": 1,
+      "raw_coefficient_sum": 8,
+      "raw_ordered_allocations": 8,
+      "remainder_ordered_allocations": 6
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        2,
+        0,
+        0
+      ],
+      "n": 1,
+      "raw_coefficient_sum": 8,
+      "raw_ordered_allocations": 6,
+      "remainder_ordered_allocations": 4
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        0,
+        0,
+        0
+      ],
+      "n": 2,
+      "raw_coefficient_sum": 4,
+      "raw_ordered_allocations": 3,
+      "remainder_ordered_allocations": 1
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        0,
+        0,
+        1
+      ],
+      "n": 2,
+      "raw_coefficient_sum": 8,
+      "raw_ordered_allocations": 6,
+      "remainder_ordered_allocations": 4
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        0,
+        0,
+        2
+      ],
+      "n": 2,
+      "raw_coefficient_sum": 16,
+      "raw_ordered_allocations": 9,
+      "remainder_ordered_allocations": 7
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        0,
+        1,
+        0
+      ],
+      "n": 2,
+      "raw_coefficient_sum": 8,
+      "raw_ordered_allocations": 6,
+      "remainder_ordered_allocations": 4
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        0,
+        1,
+        1
+      ],
+      "n": 2,
+      "raw_coefficient_sum": 16,
+      "raw_ordered_allocations": 12,
+      "remainder_ordered_allocations": 10
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        0,
+        2,
+        0
+      ],
+      "n": 2,
+      "raw_coefficient_sum": 16,
+      "raw_ordered_allocations": 9,
+      "remainder_ordered_allocations": 7
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        1,
+        0,
+        0
+      ],
+      "n": 2,
+      "raw_coefficient_sum": 8,
+      "raw_ordered_allocations": 6,
+      "remainder_ordered_allocations": 4
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        1,
+        0,
+        1
+      ],
+      "n": 2,
+      "raw_coefficient_sum": 16,
+      "raw_ordered_allocations": 12,
+      "remainder_ordered_allocations": 10
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        1,
+        1,
+        0
+      ],
+      "n": 2,
+      "raw_coefficient_sum": 16,
+      "raw_ordered_allocations": 12,
+      "remainder_ordered_allocations": 10
+    },
+    {
+      "all_three_recomputed_comparisons_pass": true,
+      "alpha": [
+        2,
+        0,
+        0
+      ],
+      "n": 2,
+      "raw_coefficient_sum": 16,
+      "raw_ordered_allocations": 9,
+      "remainder_ordered_allocations": 7
+    }
+  ]
+}

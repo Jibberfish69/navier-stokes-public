@@ -1,0 +1,862 @@
+{
+  "package": "all-task-proof-work-20261007",
+  "scope": "Additive mathematical work, bounded original execution and scoped reviews; no original/private custody contents.",
+  "local_mathematical_artifacts_represented": 147,
+  "local_derivative_reports": 146,
+  "companion_guides": 9,
+  "baseline_artifacts_accounted": 748,
+  "additional_data": 3,
+  "additional_portable_checkers": 1,
+  "files": [
+    {
+      "path": "COVERAGE.md",
+      "sha256": "b7d0022c2eba3d81893f230c275a82de6a72e53f5cd438e8b1a47a860a0bf51c",
+      "bytes": 215064
+    },
+    {
+      "path": "ERRATA.md",
+      "sha256": "83780f23d42a6976a9b2a2b5a3eb400f7a2f34bea1991aac954d992a01ca713b",
+      "bytes": 753
+    },
+    {
+      "path": "README.md",
+      "sha256": "f9b13e0be802db25907c46013e61a7c84003cb58ee4fae91f725ace6dc9063c5",
+      "bytes": 1703
+    },
+    {
+      "path": "REPORTS.md",
+      "sha256": "bd25fef2efb60db71b12926fe1e7a9b769fca211677821d82211fa8a162ff9cd",
+      "bytes": 25473
+    },
+    {
+      "path": "SOURCES.md",
+      "sha256": "95f44307a235a3a8cef9948dbbaaf389067db3eaef747aaf686c806065c1c036",
+      "bytes": 147935
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "6d265ff1876c6e53bf04241c438a004d9e1ed75b42f9c72926a9f989ef28f2bd",
+      "bytes": 1832
+    },
+    {
+      "path": "SUPERSESSION.md",
+      "sha256": "ebdefe400a86ec1caee8c7aa566dd2e5e381478d99e8f720ca875396f6abe605",
+      "bytes": 5397
+    },
+    {
+      "path": "TEACHING.md",
+      "sha256": "d0565b48e69ad957352624606b2737c3cfbb463717af711e3169ad65c24a605d",
+      "bytes": 2051
+    },
+    {
+      "path": "checks/derived-coefficients/derived-coefficient-result.json",
+      "sha256": "54035d7433e83b250217150d9143b9b43e6e7f136e75179aa6c25e22e27a506b",
+      "bytes": 10730
+    },
+    {
+      "path": "checks/derived-coefficients/validate.py",
+      "sha256": "c6b4481460a6cb39df490992aadcc12ede75041190a4a7392b30d550ada159ba",
+      "bytes": 10360
+    },
+    {
+      "path": "companions/derivations/composed-closure-calculation.md",
+      "sha256": "77c73a65b4a51fa5660c49b0355ffd9e7f0aff034e2d9804f25645334407d85a",
+      "bytes": 18530
+    },
+    {
+      "path": "companions/derivations/coupled-gram-calculation.md",
+      "sha256": "85083a196f7fbcd72c1c78cae618225488dbac97b6a9603ff323e74c1e018d44",
+      "bytes": 23121
+    },
+    {
+      "path": "companions/derivations/simultaneous-construction-and-limiting-topology.md",
+      "sha256": "64fc9e780d3bcfc4766657408e545255bb4c8842904adc3091f35a3d2d4ba3a2",
+      "bytes": 21919
+    },
+    {
+      "path": "companions/learning/appendix-geometry.md",
+      "sha256": "cf05ba97bb7cad2218cfbc84a158dd9688d6173d2fe3d168c1442bcf21a4d88f",
+      "bytes": 59229
+    },
+    {
+      "path": "companions/learning/core.md",
+      "sha256": "0b59d4a791096e5a6f78f1d24432fc78350cd8c7c092a2377204bccb9a9c076a",
+      "bytes": 98950
+    },
+    {
+      "path": "companions/learning/quantitative.md",
+      "sha256": "c4986ff96ea1c6ff8b0aac15139c5b1d3df24ea0e0cfdcf7ef090677f1f9ae1b",
+      "bytes": 52607
+    },
+    {
+      "path": "companions/learning/refutation.md",
+      "sha256": "8f50b6b925bf95c0dc7d82fad56d4945209538c0e0f562c2a69d54ab7bb01462",
+      "bytes": 45099
+    },
+    {
+      "path": "companions/sources/public-source-version-and-ontology-map.md",
+      "sha256": "a99da65e92bfcbec5f4667a3b6c365dded84e9ae5401d8178075eeb30241d4f8",
+      "bytes": 20649
+    },
+    {
+      "path": "companions/teaching/constituent-papers-ontology-and-derivation-guide.md",
+      "sha256": "6090a89d35cbf1e41ddb855d9a06bb591389e347b3052261b1cb2e678a0cbf18",
+      "bytes": 78540
+    },
+    {
+      "path": "coverage.json",
+      "sha256": "68da5b88c6f79cbdf70eecda59bd4c126dc2e6d7b5d8ff29f0ea21b0dae43a60",
+      "bytes": 309163
+    },
+    {
+      "path": "data/temporal-depth-eight-coefficient-check.json",
+      "sha256": "87735c66fa6c54c38d8895dac534e377f7b961dad935f0df509bdcff83db85b3",
+      "bytes": 1087
+    },
+    {
+      "path": "data/thirty-field-allocation-table.json",
+      "sha256": "12cb51569dd1f753dd17128e3035480cb98a5905fdb472597b6d09c0268fe46b",
+      "bytes": 94991
+    },
+    {
+      "path": "data/thirty-field-binomial-check.json",
+      "sha256": "178f5620ef1d901bc631809756cefab614730eca6678c73cdc5244ed07df9436",
+      "bytes": 38433
+    },
+    {
+      "path": "reports/A0015-endpoint-review.md",
+      "sha256": "e7b6e2eabc6e96e71f112d08e922836d9051466289c65286108f2ec189ae16d4",
+      "bytes": 3714
+    },
+    {
+      "path": "reports/A0019-root-review-followup.md",
+      "sha256": "597d556d9c5b1df2790b366565c5cc12d4ac18907791cb08fd46264c28e012ec",
+      "bytes": 2271
+    },
+    {
+      "path": "reports/A0021-root-review.md",
+      "sha256": "04c6d81ace2b7adde3a5de34f5198108a8df7280d00e0b1328d7d7dcd60cd7c7",
+      "bytes": 4544
+    },
+    {
+      "path": "reports/A0029-root-shift-composition-final-review-receipt.md",
+      "sha256": "97ceed7b61422fda29e3ae32e4a63a837f40a6c506e0f9ccaa728aca0c606752",
+      "bytes": 2300
+    },
+    {
+      "path": "reports/A0030-root-shift-composition-independent-review.md",
+      "sha256": "0e85131254f214e9d1a46f0dabfacf9c56678a6580cacb17a37b75a60f305043",
+      "bytes": 6199
+    },
+    {
+      "path": "reports/A0051-root-final-adaptive-independent-review.md",
+      "sha256": "2c0ed1a64e6d6be7b15359c72fe3579e1873f25acc49d6e93fdcadb54691f34f",
+      "bytes": 8083
+    },
+    {
+      "path": "reports/A0065-root-review.md",
+      "sha256": "be0d201c4bc2445404de62df7e0c3cef0038c928a366999737859cf9d668b793",
+      "bytes": 8428
+    },
+    {
+      "path": "reports/A0098-independent-root-review.md",
+      "sha256": "b4741052e4d09c42cac238fdf40067f4e29f111eb3386546e7a6c656b0386656",
+      "bytes": 5388
+    },
+    {
+      "path": "reports/A0112-ber-propagated-ancestry-verification-20261006.md",
+      "sha256": "4d6d8c775bd3161d4211001d379a2f846243e23df76c3ca6e90a1931a419fa22",
+      "bytes": 31631
+    },
+    {
+      "path": "reports/A0114-ber-slow-cut-independent-review-20261006.md",
+      "sha256": "ce8421a87b9643e31460f47319f7dbae5b9bf0992dfe3790456165c550261bdd",
+      "bytes": 14142
+    },
+    {
+      "path": "reports/A0116-brp-original-branch-verification-20261006.md",
+      "sha256": "85b8461534cc51aefec36e55a23934123320d924c24956a5d5f17871894625f3",
+      "bytes": 24574
+    },
+    {
+      "path": "reports/A0118-brp-pressure-ancestry-prerequisites-20261006.md",
+      "sha256": "43186d399a616700660def5578e23726767734963ebcb924d82f658a3c974690",
+      "bytes": 20399
+    },
+    {
+      "path": "reports/A0122-bws-original-branch-verification-20261006.md",
+      "sha256": "01c79c2597ba3c634acb9b0c491d4c8de770c3f330a928e0a71fb36be9af7cf2",
+      "bytes": 34822
+    },
+    {
+      "path": "reports/A0123-causal-gram-execution-20261006.md",
+      "sha256": "385b7ab71def1fc864e0e71553e66e2732902e6c333f72cca4c78eb47b79efa4",
+      "bytes": 19801
+    },
+    {
+      "path": "reports/A0137-cofinal-composition.md",
+      "sha256": "dca2262e1647964a4867b9063d783dba465175abafc64cb2d2c81d1bc1db9dcb",
+      "bytes": 18539
+    },
+    {
+      "path": "reports/A0139-composition-review.md",
+      "sha256": "82ace4e9ee47e51d5766ebab463d8c2806142d2a3818811b82f7c8185212730f",
+      "bytes": 10089
+    },
+    {
+      "path": "reports/A0143-endpoint-proof-teaching.md",
+      "sha256": "b5b33abde5e3aa94f7abdd2b032ec3ff620dca31702daeec41eb556168ff1eb9",
+      "bytes": 22618
+    },
+    {
+      "path": "reports/A0223-forced-teaching-and-source-versions.md",
+      "sha256": "a6977debef26dab40e202a5837776623de408ab1032260a8aa6302d0095c7418",
+      "bytes": 25741
+    },
+    {
+      "path": "reports/A0226-producer-rectangles-heights-and-matrices.md",
+      "sha256": "7686d1eb951b684c688ebf23636dcc7b3a639405ab8472bcd17d22592a494af5",
+      "bytes": 32119
+    },
+    {
+      "path": "reports/A0231-refutation-appendices-teaching.md",
+      "sha256": "a71e1d4a1b7faf3f27a82c8196659c046a882398dbd6047e92e1da33e360267b",
+      "bytes": 16935
+    },
+    {
+      "path": "reports/A0256-refutation-published-v4-proof-reconstruction.md",
+      "sha256": "662e64844b3a7fcd280f1cf702931d6a4d3824559be289682adde9eaa47b3cb3",
+      "bytes": 31651
+    },
+    {
+      "path": "reports/A0272-root-teaching-reconstruction.md",
+      "sha256": "c563cf9988121da32ef26f81a61a636de6aa437ab6061f0ff8a38fc4ead73a9d",
+      "bytes": 46468
+    },
+    {
+      "path": "reports/A0283-unforced-matrix-quantitative-teaching.md",
+      "sha256": "f344ce81e0df5fda8510548ca30ab00317dc5f1f96884e3f5c99e509cc17f6a0",
+      "bytes": 31037
+    },
+    {
+      "path": "reports/A0288-unforced-published-argument-and-source-comparison.md",
+      "sha256": "ddf59a212c6226bdbaccb1181c41090c6b786527b8d778d81950acde78f4581f",
+      "bytes": 28384
+    },
+    {
+      "path": "reports/A0292-continued-joint-proof-verification-20261006.md",
+      "sha256": "8f4d4224789ff99dd830226197c9e6eee23360a46fd845d8d93cd3387240fed7",
+      "bytes": 10136
+    },
+    {
+      "path": "reports/A0293-critical-corner-density-and-source-criterion-20261006.md",
+      "sha256": "a5e28ce6a48f7e9ec4904d9236ef18114b4c93b525a05d152268a11d2bc211c6",
+      "bytes": 10855
+    },
+    {
+      "path": "reports/A0294-critical-corner-dynamic-core-20261006.md",
+      "sha256": "f72284a547d9e68fc3e7220a7246a105eed5267f6fa6206e6f8bda7a3c0808d8",
+      "bytes": 29892
+    },
+    {
+      "path": "reports/A0296-critical-corner-frequency-native-20261006.md",
+      "sha256": "f4debe052884b61e00fe618247216e56ed1b9b677d647412e29057c085728de8",
+      "bytes": 24064
+    },
+    {
+      "path": "reports/A0299-critical-corner-kinetic-test-20261006.md",
+      "sha256": "649aacbade08fd0f36f70da28f67ee066f88c0a9e6681bfde314ef4104975248",
+      "bytes": 21395
+    },
+    {
+      "path": "reports/A0301-critical-corner-n90-storage-20261006.md",
+      "sha256": "25eb66581d00c6ce5e705b54270e5a8c3b82ff77c7385a1455efc4dbb2ac6c39",
+      "bytes": 15245
+    },
+    {
+      "path": "reports/A0302-critical-corner-original-operations-20261006.md",
+      "sha256": "d09bdb52adbe587c01b12b3041f1b7fb85b3335fa4accace93bae0422b1f0793",
+      "bytes": 33416
+    },
+    {
+      "path": "reports/A0303-critical-corner-parent-gram-20261006.md",
+      "sha256": "ba37ab4204731738e87b42a12d933981d762788c3d8328ca31bcc07a86fa62b6",
+      "bytes": 24582
+    },
+    {
+      "path": "reports/A0307-critical-corner-recent-ancestry-20261006.md",
+      "sha256": "6c8ab90adf2aaf9c6afb22d08626ee086774e1836fa9de064408e4b8c4c0c5a8",
+      "bytes": 29533
+    },
+    {
+      "path": "reports/A0312-critical-corner-tensor-refund-20261006.md",
+      "sha256": "bed67f389ae4ab9073201199759e3c77143f087f19bf8904ddd00d2859b9ba80",
+      "bytes": 28103
+    },
+    {
+      "path": "reports/A0313-critical-source-heat-bridge-20261006.md",
+      "sha256": "175155a9a57486cf57daf7ef1f3eb2c4cd4704694db0fd60d719bd8a0532bde8",
+      "bytes": 14637
+    },
+    {
+      "path": "reports/A0314-critical-source-split-execution-20261006.md",
+      "sha256": "95f30ff34ea53fd3636c2da5db029f36ace93c442246abdc44de7fd621776997",
+      "bytes": 18934
+    },
+    {
+      "path": "reports/A0315-critical-split-fixed-output-absolute-20261006.md",
+      "sha256": "8591bb3140bd957eba52de81300bb8b9aa02dcd4df4bf156937fe024ef68cc53",
+      "bytes": 9641
+    },
+    {
+      "path": "reports/A0317-critical-split-gram-execution-20261006.md",
+      "sha256": "f52b529bae4f020ad5b655ab273c4ce84a8c7b94d110fc363b084faeb7e97d9b",
+      "bytes": 15275
+    },
+    {
+      "path": "reports/A0321-critical-split-terminal-tail-20261006.md",
+      "sha256": "a647f3f4cd764d4bc0a9bdd95bf9ef8e97fc0910b79c3ba37cbfb2c5e28dc8d3",
+      "bytes": 19865
+    },
+    {
+      "path": "reports/A0322-critical-split-triangle-native-20261006.md",
+      "sha256": "f3ece92bcfea10612a47c3e5bd49b330350c67d187fb3302797870e03644b1a0",
+      "bytes": 18137
+    },
+    {
+      "path": "reports/A0327-datum-continuation.md",
+      "sha256": "fcad51ae570ef871525ef535251aadc9a452c8c2389f8509f417adb54360f47f",
+      "bytes": 22082
+    },
+    {
+      "path": "reports/A0331-datum-to-r01-upstream-reconstruction-20261006.md",
+      "sha256": "9a4f1317b7843cc7f2ee29623bd88424f22eb8d9c7d8eff449b911b6fcab1ca9",
+      "bytes": 9103
+    },
+    {
+      "path": "reports/A0333-endpoint-averaging-composition-20261006.md",
+      "sha256": "e1b6a3a9032a0f93c215cf341daac38b59dc1861083a0fcfee795bec8cacfd02",
+      "bytes": 13168
+    },
+    {
+      "path": "reports/A0335-endpoint-composition-averaging-20261006.md",
+      "sha256": "10ce61e9da56a54374fa4f018de1695c388597055b04909d0536fa91a0168002",
+      "bytes": 25589
+    },
+    {
+      "path": "reports/A0342-endpoint-composition-dependency-coverage-mathematical-20261006.md",
+      "sha256": "d178dc68cd64dde629158bb3444107ab4b2aaf8812622f467cd3a08601d5347f",
+      "bytes": 45321
+    },
+    {
+      "path": "reports/A0344-endpoint-composition-joint-verification-20261006.md",
+      "sha256": "cf1d354373b73719126121162c95415b4f22e4343c5bd1aab5fa9553c7a27ffd",
+      "bytes": 21156
+    },
+    {
+      "path": "reports/A0346-endpoint-composition-roof-variation-20261006.md",
+      "sha256": "31b930aec66141f5316473ca9c7f5522ec410adb40380bc817b1f92da892d755",
+      "bytes": 20775
+    },
+    {
+      "path": "reports/A0352-endpoint-composition-selection-20261006.md",
+      "sha256": "c06554f076ccf3ac80489e58dc51fdfb5d6d330823230d09ae9c972be5fcb2a2",
+      "bytes": 23124
+    },
+    {
+      "path": "reports/A0354-endpoint-composition-sharp-continuity-20261006.md",
+      "sha256": "45ee8c263e2b4ace929b2c02ff3441a075632f518d29ecb0b2bdfc1320b8d2b9",
+      "bytes": 11717
+    },
+    {
+      "path": "reports/A0356-endpoint.md",
+      "sha256": "17e8803b70d972fbd90bcf6695b1eff9632c2b88793c91a00bd8345e7369fb34",
+      "bytes": 17471
+    },
+    {
+      "path": "reports/A0358-first-rectangle-entry.md",
+      "sha256": "08c1f68011c17179b302f03ec6107f33bed3034997ec042d718aa49ab076d5ed",
+      "bytes": 19241
+    },
+    {
+      "path": "reports/A0359-forced-compensation-execution-20261006.md",
+      "sha256": "fb0f4ce4fca18841bd664134a73b5716823ef6c39b8b1040c98c055859f9785f",
+      "bytes": 18811
+    },
+    {
+      "path": "reports/A0361-forced-construction-acquisition-20261006.md",
+      "sha256": "70c2a297bb5a2ef831a2122eb8a99783485b1784fbd49c5223fef1eb07fba2f7",
+      "bytes": 18905
+    },
+    {
+      "path": "reports/A0362-forced-original-source-operation-20261006.md",
+      "sha256": "15350b5a70084e78ab3a38b5610effe03c8274415e031736c0556c0c17de5259",
+      "bytes": 16970
+    },
+    {
+      "path": "reports/A0365-forced-q-storage-gram-execution-20261006.md",
+      "sha256": "bf0c8ee548c8edc954d462a0238e50ffaa71e1164dc4debf944cd9b2987c728d",
+      "bytes": 12417
+    },
+    {
+      "path": "reports/A0367-forced-square-compensation-review-20261006.md",
+      "sha256": "96b0b12dcd23fe6385eaf5ff2d74abb70420c7995f253ccc6fa815c58910800f",
+      "bytes": 9458
+    },
+    {
+      "path": "reports/A0368-forced.md",
+      "sha256": "15bca6bc4c9962c6039329025b4f96882287b00aa9eac72435946d95978676c4",
+      "bytes": 14364
+    },
+    {
+      "path": "reports/A0369-frs-dcl-external-source-closure-20261006.md",
+      "sha256": "46ff6d795722df104f5ad2c953be9c0d11e259af3cb38c4b18a41dfccc52adbf",
+      "bytes": 16423
+    },
+    {
+      "path": "reports/A0379-gradient-temporal-full-block.md",
+      "sha256": "9547b47aa25af9185efb0c9faf15e2639a1c8ca771dc8d08a8a0ba65f971391d",
+      "bytes": 20340
+    },
+    {
+      "path": "reports/A0381-joint-gradient-temporal-check.md",
+      "sha256": "af7b5f21d40b32026d4dd0500e925b919acaa5fc87fa24aa0160620eba905f0a",
+      "bytes": 12484
+    },
+    {
+      "path": "reports/A0385-gradient-temporal-joint-square-execution.md",
+      "sha256": "9e939730df590b22613ae1f12242e8600945a50e91c1c826bb16ab88444c6f09",
+      "bytes": 16522
+    },
+    {
+      "path": "reports/A0392-gradient-temporal-pressure-square-comparison.md",
+      "sha256": "fe025c99b00c6beb0a6a0ff33681d5d60f759e96bf033702bbea1532e807f1ae",
+      "bytes": 19199
+    },
+    {
+      "path": "reports/A0395-actual-gradient-temporal-joined-test.md",
+      "sha256": "e6530994ed2719a8f8c135d5b174bc45fcb465b6c969a474ef5ec9b9786a94b6",
+      "bytes": 16548
+    },
+    {
+      "path": "reports/A0401-joined-distributional-passage-20261006.md",
+      "sha256": "bd7e3ab994954fe512dd770e63776159c7a5dacbc938905d05028247a85d1bae",
+      "bytes": 13600
+    },
+    {
+      "path": "reports/A0405-joined-parent-age-uniformity-20261006.md",
+      "sha256": "e4bd19dc31ad8fad900c3f8344f1983be1333425f2c5a1d98071a4887fdde88d",
+      "bytes": 17193
+    },
+    {
+      "path": "reports/A0406-joined-prescribed-force-payment-20261006.md",
+      "sha256": "353ec1198af4d2fe95d0fb079753166cbb80bc255fbbae16d19bc44577396331",
+      "bytes": 9933
+    },
+    {
+      "path": "reports/A0408-joined-reciprocal-distribution-and-endpoint-20261006.md",
+      "sha256": "329128e656b2c37a76db209bb82faab64e4e13c5c8cffe5989c0c5d85ed46fc8",
+      "bytes": 17126
+    },
+    {
+      "path": "reports/A0409-joined-terminal-weight-check-20261006.md",
+      "sha256": "de74a7a51da1d82b00923db92c03fc9c7ee168366cdd143f87c62592d79b1cbd",
+      "bytes": 15326
+    },
+    {
+      "path": "reports/A0410-joint-gram-signed-work.md",
+      "sha256": "d67556b17391a0e4e56e9d003f08f27b9fd20fb2c7c1d219a9a0b9e8d6fd0f26",
+      "bytes": 18785
+    },
+    {
+      "path": "reports/A0411-joint-invariant-gram-execution-20261006.md",
+      "sha256": "af2605e050afbc0c8245d29221fd525d30e8d3c7537eb7efd10f3b15dc817966",
+      "bytes": 8079
+    },
+    {
+      "path": "reports/A0413-learned-original-construction.md",
+      "sha256": "8a3fbe5332e6542f84d0617d58c414bfae1b97207acc94a4fafc503fa8a62a1d",
+      "bytes": 15313
+    },
+    {
+      "path": "reports/A0416-native-construction-verification-20261006.md",
+      "sha256": "c1e0207a40dad1c53f6c50b154e0b2f6fda4c07fba3fc83753251d50877605bc",
+      "bytes": 13908
+    },
+    {
+      "path": "reports/A0418-causal-material-coupled-producer-attempt.md",
+      "sha256": "19c3ab47113d1f3c566d9c4005d2b6e41f59c3eae7245be9a4e0f557d9c1d84d",
+      "bytes": 19825
+    },
+    {
+      "path": "reports/A0424-operator-metric-validation.md",
+      "sha256": "45301bf4934373b1b9c387dc7edd648f8263fff6f639f111d515b08140128e4d",
+      "bytes": 13355
+    },
+    {
+      "path": "reports/A0429-reciprocal-stock-weighted-compactness.md",
+      "sha256": "0f2daf32de2e7fa94c3cb83f66c098246935b5a166c090e6a4967ccec4ec7da8",
+      "bytes": 16290
+    },
+    {
+      "path": "reports/A0430-whole-terminal-compactness-attempt.md",
+      "sha256": "9f7622b5d7172bc6428eb8d8d43a5e8af281b4259a9ddc8f39b809652e5b6677",
+      "bytes": 19188
+    },
+    {
+      "path": "reports/A0434-joint-first-binomial-gram-storage.md",
+      "sha256": "e9e4ce443fd79b5b8dece39d5239b07d17014617e3c432c1b23efcf7fc4ef02b",
+      "bytes": 19899
+    },
+    {
+      "path": "reports/A0435-joint-storage-positivity-clarification.md",
+      "sha256": "4225795ba75f2d0433419340d30c2097a22d58b7311a3e1089beb0509d49bc27",
+      "bytes": 1454
+    },
+    {
+      "path": "reports/A0442-cofinal-positive-ladder-execution.md",
+      "sha256": "06ae51597c2681910155d3af25fd27954fcf4c4120b0a3e27476647bf00ed28f",
+      "bytes": 17259
+    },
+    {
+      "path": "reports/A0449-datum-to-terminal-execution.md",
+      "sha256": "4f40023c90eaceedbe76de0a96d4835c54a0187d2df304196f31244b40d5100c",
+      "bytes": 16252
+    },
+    {
+      "path": "reports/A0452-weighted-native-first-rectangle.md",
+      "sha256": "7dd3d958e3ea1a570a562b3537a6f7bbb0d3c718e452989a123a1088677aa59f",
+      "bytes": 13371
+    },
+    {
+      "path": "reports/A0454-summability-execution.md",
+      "sha256": "81ce50ff9f895dfce06a220565a5d6446b760f5d6aca763fe7dcd2162f48ec10",
+      "bytes": 18624
+    },
+    {
+      "path": "reports/A0460-assembly-native-operation-execution.md",
+      "sha256": "c65ec8827e114352d72a273bf5f287d95a61e39d6730cabb16f20dea6ea209bb",
+      "bytes": 20822
+    },
+    {
+      "path": "reports/A0468-forced-native-witness-comparison.md",
+      "sha256": "03a2c1721f2a5af7951e0bad77add81af27ba460d292a35ddb7def629b4503d6",
+      "bytes": 25610
+    },
+    {
+      "path": "reports/A0480-native-production-operations-and-terminal-scope.md",
+      "sha256": "d219dc0c170273fc7df236ac61ae72515d78d83bbaeea7928c13f842f72a5147",
+      "bytes": 18231
+    },
+    {
+      "path": "reports/A0495-native-witness-comparison-and-operation.md",
+      "sha256": "25065cdd8f0b3d9711f30033594f13ecda2fe71b1c11fcebcc7e2872af12e366",
+      "bytes": 29165
+    },
+    {
+      "path": "reports/A0500-mathematical-source-excerpts.md",
+      "sha256": "2468bc1b45b19772c5ce53071fdbdef24cfe8e63075d68c8aea769a88f6c30f2",
+      "bytes": 40181
+    },
+    {
+      "path": "reports/A0502-native-producer-witness-comparison-erratum.md",
+      "sha256": "d1b1e0db7764c7de25202a3e3bc6a11c38c36e85c132892cce3837907e2a26e8",
+      "bytes": 1452
+    },
+    {
+      "path": "reports/A0503-native-producer-witness-comparison.md",
+      "sha256": "64b44d7659c9c99f3d022376f63232038dfb0123a560bb3c1419fc5a127f8139",
+      "bytes": 22756
+    },
+    {
+      "path": "reports/A0509-navier-stokes-proof-audit.md",
+      "sha256": "fe4c163fd45fde84ca611236dc0b69d4abadcfbc853013ef09e1a8c985a4782b",
+      "bytes": 12523
+    },
+    {
+      "path": "reports/A0510-next-original-joined-operation-20261006.md",
+      "sha256": "992952f1adca5364148c4f5fe1fe6661e7867647b52d058d273e56e9b3bbedf5",
+      "bytes": 9550
+    },
+    {
+      "path": "reports/A0513-nonlinear-height-gram-custody-20261006.md",
+      "sha256": "d1f030c9e55b7975241cd4fd372d281d1dd209e9cede40a43f19bba6ca530b43",
+      "bytes": 22151
+    },
+    {
+      "path": "reports/A0521-nonlinear-proof-custody-reconciliation-20261006.md",
+      "sha256": "5ecf4c0d27560d600733c4f37223254adb464a89acef19cd4c5dc4a3973306c3",
+      "bytes": 12031
+    },
+    {
+      "path": "reports/A0525-original-membership-execution.md",
+      "sha256": "e9d217f354a049b963b85e245f29fe24d6d78b931faf0384a7dbf8565b6db781",
+      "bytes": 16428
+    },
+    {
+      "path": "reports/A0527-original-production-reexecution.md",
+      "sha256": "2c479b129c206b7b461fb645ecc20f895f7526e050641cf0ba636af1ce40b731",
+      "bytes": 13646
+    },
+    {
+      "path": "reports/A0528-original-proof-execution-20261006.md",
+      "sha256": "74b19e2a87b24fec85165149f79f9a825bc878565a8dbde28c947da4ebd4dd56",
+      "bytes": 19462
+    },
+    {
+      "path": "reports/A0530-original-proof-reconstruction.md",
+      "sha256": "72442360345d991536319020a060d853efa2b88ae6043a3ca673e1247a82d8d0",
+      "bytes": 11237
+    },
+    {
+      "path": "reports/A0531-plf-original-branch-verification-20261006.md",
+      "sha256": "9e28ead05b076aeec92d201732d32f6ed740798d449d371408fc5432750fedec",
+      "bytes": 31826
+    },
+    {
+      "path": "reports/A0533-primitives.md",
+      "sha256": "84afdea72a66070edf8217013e598b2f8a11a2014693428c8e35a7930ff03e03",
+      "bytes": 7468
+    },
+    {
+      "path": "reports/A0534-producer-operation-budgets.md",
+      "sha256": "fcceccc2cb0678802eb7cff8cf65d5249f050937e071311615ff43061c38d611",
+      "bytes": 13965
+    },
+    {
+      "path": "reports/A0535-producer.md",
+      "sha256": "2a7973fbec6a542e80723bebb4936b75d3370c32c6f9dc71c6b60a0808a37b8e",
+      "bytes": 19464
+    },
+    {
+      "path": "reports/A0537-reciprocal-columns.md",
+      "sha256": "4cdaf208455bb668d98e614db25f674d86c1f1914ea48ea927a1ac16b3d7672b",
+      "bytes": 16837
+    },
+    {
+      "path": "reports/A0538-rectangles.md",
+      "sha256": "aca07a9759d0d86398ae72ddd035c82aafee436bcf195bc3f6d57fe55015cffa",
+      "bytes": 14818
+    },
+    {
+      "path": "reports/A0543-remaining-original-branches-composed-verification-20261006.md",
+      "sha256": "f4c1cf75fda08ea87d260a304c5d90c4bb606b1e1fe4da3c4ffaabf518af8e7f",
+      "bytes": 32338
+    },
+    {
+      "path": "reports/A0544-response-remainder-dependency-map-20261006.md",
+      "sha256": "bdc2d562bd99ab46bb78e12cbe3643ce166d8971244e961ec37311a246065004",
+      "bytes": 28611
+    },
+    {
+      "path": "reports/A0546-response-remainder-gate-continuations-20261006.md",
+      "sha256": "4483f25c1ecf63e4ab898e23effc01c56dc688172113e1674eddf2ae27d987c1",
+      "bytes": 31732
+    },
+    {
+      "path": "reports/A0551-response-remainder-material-continuations-20261006.md",
+      "sha256": "06f909f98397b6a0fce99992ab828d1d3799ccc57759bfc4e9662f787f8a46a1",
+      "bytes": 32924
+    },
+    {
+      "path": "reports/A0556-response-remainder-original-verification-20261006.md",
+      "sha256": "ea6621d0db5c7b010e7eeb87b6fd5ef6f0d3728b7dbcf0f841c106d08935d9a7",
+      "bytes": 28896
+    },
+    {
+      "path": "reports/A0557-response-remainder-phase-covariance-20261006.md",
+      "sha256": "2663d21022ffedbe918fa2889c74e3e919106fa732df78119543285558272913",
+      "bytes": 13608
+    },
+    {
+      "path": "reports/A0559-response-remainder-resummation-and-radial-20261006.md",
+      "sha256": "7625079ef797f77f2514049ed33a79c49eb78418294785c131e728133bb5dc9d",
+      "bytes": 13309
+    },
+    {
+      "path": "reports/A0562-response-remainder-source-insertions-20261006.md",
+      "sha256": "6411d7ceeb960526cc61f39963030caeacacd8b2a28c46bc3b5a855a15c51263",
+      "bytes": 23065
+    },
+    {
+      "path": "reports/A0563-response-remainder-storage-continuations-20261006.md",
+      "sha256": "80db165e5238a53dbeee26b1003cdac8dd30843bf6b627df010c146ea378272d",
+      "bytes": 37115
+    },
+    {
+      "path": "reports/A0576-rpt24-direct-consumer-verification-20261006.md",
+      "sha256": "7874d0922ac0f62a48cebec9c1fbcdc947ff282a7a1c7aad4216db12e920dc86",
+      "bytes": 18281
+    },
+    {
+      "path": "reports/A0577-rpt24-exact-finding-and-consumers-20261006.md",
+      "sha256": "546bf86671b831b31faf8c868d140d4f0edc6f7821cb3ae155f3dbe8a9da24c9",
+      "bytes": 17099
+    },
+    {
+      "path": "reports/A0579-rpt24-exhaustion-source-preservation-supplement-20261006.md",
+      "sha256": "745dcd3ba7b4f49d83a8ac9522f4613b11b1bdc8d3d73feacf998f7331a95f96",
+      "bytes": 2898
+    },
+    {
+      "path": "reports/A0583-september-covariance-projected-adjoint-20261006.md",
+      "sha256": "919dbfeacb188b7093429b445ee385395b47b915d295c0244131de77c8e2fef1",
+      "bytes": 25377
+    },
+    {
+      "path": "reports/A0584-signed-source-coupling.md",
+      "sha256": "29a0254b349334227e807fddc88a174855bbbfb1d75226bad0b092e27e6c2896",
+      "bytes": 15241
+    },
+    {
+      "path": "reports/A0585-full-signed-strain-check.md",
+      "sha256": "fd10e40330d4838ce6c0ef02079c2ebdb65437870e486e9a0a95101d10c0f189",
+      "bytes": 12690
+    },
+    {
+      "path": "reports/A0592-independent-signed-strain-evolution.md",
+      "sha256": "23cf9a7613a850aa135704fb564639125f6419dd0fffda326173e4f80b48e99a",
+      "bytes": 16536
+    },
+    {
+      "path": "reports/A0597-signed-strain-complete-pairing.md",
+      "sha256": "e30613c5cfdfcbc0e00fc3bdc56221422eebe1df89dd76044c1446d9f8b3cf30",
+      "bytes": 18494
+    },
+    {
+      "path": "reports/A0602-pressure-material-signed-strain-evolution.md",
+      "sha256": "fc2046fcbded54ab35dec308fc3ed0cf06cf4a822e26a86fad34769b7a68ee9c",
+      "bytes": 16211
+    },
+    {
+      "path": "reports/A0604-actual-signed-strain-evolution-and-pairing.md",
+      "sha256": "4efc2eedd80919fa0f77752efadc12d0092598436cd3452e58ddd5e250d553f0",
+      "bytes": 21934
+    },
+    {
+      "path": "reports/A0609-source-proof-composition.md",
+      "sha256": "7cffb8035cb676e54ddf3c65fa0013d29cd4f9d394ac346c3971d7afb9120d52",
+      "bytes": 18257
+    },
+    {
+      "path": "reports/A0610-terminal-compactness.md",
+      "sha256": "0b046a027dfddd7be268a4c47ae89815736a6e02399b217df75340238f2d00d2",
+      "bytes": 30816
+    },
+    {
+      "path": "reports/A0614-thirty-field-algebra.md",
+      "sha256": "f1f3845b985686f1b8bf323b6486f8757e7043403bc17acaa09c9492c14dcd83",
+      "bytes": 14483
+    },
+    {
+      "path": "reports/A0615-forced-lambda-positive-lift-check.md",
+      "sha256": "9a494d3c033761733c4942daf0b664a5188c7fb2caecd52f685d897b877e0844",
+      "bytes": 6203
+    },
+    {
+      "path": "reports/A0619-thirty-field-exact-combination.md",
+      "sha256": "419059295f3badb7f73a56154cc3b6a42befdd66eba72bee598af17fa5709840",
+      "bytes": 16307
+    },
+    {
+      "path": "reports/A0627-thirty-field-complete-contraction.md",
+      "sha256": "3e163c0af6ddb967027737127f2bc9a1e813b173ddfe9e74305e9db18620ebf9",
+      "bytes": 21574
+    },
+    {
+      "path": "reports/A0632-thirty-field-full-corner-gram.md",
+      "sha256": "ddb2b3ddaf946619e8c35f9ab06a1c24971784d8bfbb0df5483d1028586dabe9",
+      "bytes": 24586
+    },
+    {
+      "path": "reports/A0636-thirty-fields-definition-and-boundaries.md",
+      "sha256": "625624a1883373d61973ff93b3a6f3926653438ffb4c23bef51ef46425856bd3",
+      "bytes": 12939
+    },
+    {
+      "path": "reports/A0637-actual-thirty-field-contraction.md",
+      "sha256": "979a17a4dd9b3296eb95ce6fce16c74b4b472eb79dbb02c5faeca0adba2a7450",
+      "bytes": 18982
+    },
+    {
+      "path": "reports/A0644-two-high-named-operation-closure-check-20261006.md",
+      "sha256": "6530b92d1c259ca158ce352501f5ac09992b6a8849e9bf7e046c1b6635689015",
+      "bytes": 28836
+    },
+    {
+      "path": "reports/A0694-ww-episode-material-execution-20261006.md",
+      "sha256": "d41b4cbb407b0bf866308ba3e205df1ce2256b957861926a564a3fe15de29a2d",
+      "bytes": 35962
+    },
+    {
+      "path": "reports/A0697-ww-high-high-derived-payment-20261006.md",
+      "sha256": "db64961e009d7b3f169c701dbdc56aaff690304dc7089183d5d4bf936c3af2be",
+      "bytes": 23447
+    },
+    {
+      "path": "reports/A0699-ww-original-closure-and-derived-payment-20261006.md",
+      "sha256": "abdd034048b7b88e0394727bfc3db70557892f90f99c8a8edc9bba1cd2ec9e73",
+      "bytes": 24221
+    },
+    {
+      "path": "reports/A0703-ww-reciprocal-first-prefix-execution-20261006.md",
+      "sha256": "446b9e8db1ae5c04270fdbb0f7960a35bb021a1d2069b03b5e6958637fb0f183",
+      "bytes": 25435
+    },
+    {
+      "path": "reports/A0706-ww-source-mass-modal-execution-20261006.md",
+      "sha256": "c417ed4abb43b5fa96f65ec17b5f2d3c7b5e506b08f6420f204767563257c344",
+      "bytes": 33270
+    },
+    {
+      "path": "reports/A0708-ww-transport-heat-execution-20261006.md",
+      "sha256": "02fb0eacddf2b9bab4dcdf0f70ba274370a91e6d4bd74f419cb97de9b9f956fc",
+      "bytes": 27555
+    },
+    {
+      "path": "reports/A0713-first-clock-jet-and-drift.md",
+      "sha256": "c46b0e5f641295f1188675083478502349b2fb167e24f837c3555096bc51bec0",
+      "bytes": 4406
+    },
+    {
+      "path": "reports/A0717-normalized-field-and-action.md",
+      "sha256": "d393eed7045e544e0c59dd69aeeed9727182a9a970d5c821022d734e818ea9ec",
+      "bytes": 8889
+    },
+    {
+      "path": "reports/A0721-clock-normalized-field-and-terminal-cone.md",
+      "sha256": "32294d454b125f72db625a956d22145fdff76e93b5fb1be02d04fdd2ea5e18da",
+      "bytes": 18191
+    },
+    {
+      "path": "reports/A0729-zero-reciprocal-joint-strain-necessity.md",
+      "sha256": "d50fe45d2ffe56a472026710348bb9bec9e8677cd17b74cf88559c4c6e6e57b4",
+      "bytes": 17430
+    },
+    {
+      "path": "reports/A0734-kinetic-trace-radial-action-and-strain-records.md",
+      "sha256": "7984d1c5d2b5c07112170667aa95d1dd30021eec358b748fd474aaabf0693f02",
+      "bytes": 16302
+    },
+    {
+      "path": "reports/A0737-actual-zero-stock-terminal-action.md",
+      "sha256": "b66437781bc7ade8107e6bf0412fedc854137e56e6dfaa779064f059824862d8",
+      "bytes": 17186
+    },
+    {
+      "path": "reports/A0743-zero-stock-terminal-profiles.md",
+      "sha256": "fe817a3c4d84874e0cc9887b2c4bc51f45fbc53e4674cce256b29d2b1dbfe71d",
+      "bytes": 13944
+    },
+    {
+      "path": "reports/A0748-zero-stock-coupled-terminal-results.md",
+      "sha256": "c2da9d2334c37473f7af7c62987c638a51afec5ebf3632b643f293b708c4209a",
+      "bytes": 17472
+    },
+    {
+      "path": "sources.json",
+      "sha256": "4f4624ee3fb11c8ec6376056b1d2b753ee76f01f0dcc054b97df534d48c82952",
+      "bytes": 180264
+    }
+  ]
+}
