@@ -28,8 +28,7 @@
 }
 \makeatother
 
-\section*{How the Proof Works}
-\addcontentsline{toc}{section}{How the Proof Works}
+\part{How the Proof Works}
 \label{u:guide:how-proof-works}
 
 The three-dimensional Navier--Stokes regularity problem asks whether a smooth fluid flow can lose its smoothness in finite time. We start with smooth, divergence-free initial velocity \(u_0\), finite energy, and positive viscosity. The fluid evolves according to
@@ -40,23 +39,16 @@ The three-dimensional Navier--Stokes regularity problem asks whether a smooth fl
 
 The problem starts with a vortex.
 
-Strain within the surrounding flow can stretch a vortex. As the vortex lengthens, incompressibility makes it thinner, and the fluid can spin faster as its rotation concentrates into the smaller cross-section. Viscosity spreads the vorticity while the surrounding flow continues pulling on the vortex. Even if the vortex loses circulation, its rotation can intensify if its cross-section shrinks fast enough. The narrowing and the viscous spreading happen together, and the danger lies in how their rates develop.
+As it lengthens, it thins and spins faster and faster as it gets smaller.
 
-Physically, we never witness a singularity in a real fluid. What we actually
-see is a vortex spinning faster and faster, getting thinner and thinner as
-it stretches, until it dissipates into the surrounding fluid and disappears
-altogether.
+The danger is that the narrowing could continue toward zero width, with the
+velocity changing more and more sharply across the shrinking core. The
+equations describe an idealized continuum, with no minimum radius built into
+the model.
 
-So the intuition is that, perhaps, as the vortex thins out and speeds up,
-viscosity does something to overcome the strain that keeps concentrating it.
-The equations describe an idealized continuum, with no minimum radius
-built into the model, to allow the vortex to narrow toward an infinitesimally
-small radius. To study what happens
-there, we rescale the equations and examine how viscosity and nonlinear
-transport behave as the vortex becomes smaller and faster.
-
-Contract lengths by a factor \(\lambda>1\), increase the velocity by
-\(\lambda\), and run the motion \(\lambda^2\) times as fast:
+To examine how the equations behave at smaller scales, contract lengths by a
+factor \(\lambda>1\), increase the velocity by \(\lambda\), and run the motion
+\(\lambda^2\) times as fast:
 \[
  u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
  \qquad p_\lambda(x,t)=\lambda^2p(\lambda x,\lambda^2t).
@@ -210,89 +202,155 @@ the full smoothness condition:
  =H^\infty(\mathbb R^3)\hookrightarrow C_b^\infty(\mathbb R^3).
 \]
 
-For the flow from \(u_0\in H^\infty_\sigma(\mathbb R^3)\), choose any finite
-temporal depth \(N\) and spatial height \(M\).  The datum-generated rectangle
-theorem retains the corresponding pressure-complete coordinates of this
-history on the whole interval leading to a proposed finite maximal time
-\(T_*\).  This finite record is \(\cR_{N,M}[u_0;T_*]\); enlarging \(N\) or
-\(M\) leaves every common coordinate unchanged.  Exhausting the compatible
-family by mixed
-temporal and spatial indices gives
+Fix one \(u_0\in H^\infty_\sigma(\mathbb R^3)\) and one
+\(\nu>0\). Write \(I=(0,T_*)\) for the interval leading to a proposed
+finite maximal time. The equation relates the evolving velocity to its
+prescribed initial value through
 \[
- u\in\bigcap_{r,m\ge0}H^r(0,T_*;H^m(\mathbb R^3)).
+ \begin{aligned}
+ u(t)&=u_0+\int_0^t
+ \bigl[\nu\Delta u(s)-(u(s)\cdot\nabla)u(s)-\nabla p(s)\bigr]\,ds,\\
+ p(t)&=R_iR_j\bigl(u_i(t)u_j(t)\bigr),
+ \qquad 0\le t<T_*.
+ \end{aligned}
 \]
-Evaluating and exhausting the completed heights on those same rectangles gives every half-integer spatial row
-in \eqref{u:eq:completed-height-recurrence}; the low/high-frequency Sobolev split
-recovers every integer spatial row, and the original recurrence recovers the
-temporal and pressure rows.  Both passages reach the same all-orders Sobolev
-intersection by using the same velocity and pressure rows of the
-pressure-complete history.  Each finite norm is finite on \((0,T_*)\); no
-common bound over all orders is asserted.
+The pressure formula completes the evolution equation using the velocity
+throughout space. It fixes the normalized pressure at every time, including
+its initial value. The first temporal response is
+\[
+ V_1(t)=\nu\Delta u(t)-(u(t)\cdot\nabla)u(t)-\nabla Q_0(t).
+\]
+Differentiating the pressure product determines \(Q_1(t)\); substituting
+\(V_1(t)\) and \(Q_1(t)\) into the next velocity equation determines
+\(V_2(t)\). Continuing the binomial recurrences above gives every temporal
+row, with the original \(\nu\), every transport factor, and every pressure
+response retained. Spatial differentiation then gives
+\[
+ J_{n,\alpha}(t,x)=\partial_x^\alpha V_n(t,x),
+ \qquad
+ \Pi_{n,\alpha}(t,x)=\partial_x^\alpha Q_n(t,x).
+\]
+These are fields on \(I\times\mathbb R^3\). Evaluating their equations
+at \(t=0\) gives the complete initial jet determined by \(u_0\);
+leaving \(t,x\) free retains the evolving mixed jet.
 
-\begin{minipage}{\linewidth}
+A finite cut retains the equations together with their dependent
+coordinates. For a row indexed by \((n,\alpha)\), these include
+\[
+ J_{n+1,\alpha},\qquad
+ J_{n,\alpha+2e_\ell},\qquad
+ \Pi_{n,\alpha+e_\ell},
+ \qquad 1\le\ell\le3,
+\]
+and every transport factor
+\[
+ J_{a,\beta,i},\qquad
+ J_{n-a,\alpha-\beta+e_i},
+ \qquad a\le n,\quad\beta\le\alpha.
+\]
+The pressure entries retain all factors in their differentiated Riesz
+product formula. Every retained coordinate is a derivative of the
+original history, including the outer temporal and spatial entries.
+
+The whole-terminal output of
+Theorem~\ref{u:thm:datum-finite-blocks} concerns this prescribed history.
+Every finite cut of its constructed jet has the adjacent memberships
+\[
+ \begin{aligned}
+ V_n&\in L^2(I;H^{M+1}),\\
+ V_{n+1}&\in L^2(I;H^{M-1}),
+ \qquad 0\le n\le N,
+ \end{aligned}
+\]
+for each finite \(N,M\). Selecting those entries gives
+\(\cR_{N,M}[u_0;T_*]\) by projection of the constructed jet. Increasing
+\(N,M\) changes which derivative coordinates are retained; every cut keeps
+the full time interval \(I\). Their finite norm measures that
+whole-interval output:
+\[
+ \begin{aligned}
+ \mathfrak R_{N,M}(u;T_*)
+ &=\sum_{n=0}^{N}\Bigl(
+   \|V_n\|_{L^2(I;H^{M+1})}^2\\
+ &\hspace{36mm}+\|V_{n+1}\|_{L^2(I;H^{M-1})}^2\Bigr)<\infty.
+ \end{aligned}
+\]
+Each selected membership includes finiteness of its defining integral on
+\(I\). Restricting the integration to \((0,T)\), with \(T<T_*\), can
+only decrease this sum. Theorem~\ref{u:thm:datum-rectangles} records the
+resulting finite-coordinate estimate.
+
+Pressure completion also gives a quantitative readout at each selected
+order. The product estimate and Cauchy--Schwarz in time give
+\[
+ \begin{aligned}
+ \|Q_n\|_{L^1(I;H^M)}
+ &\le C_M^{\rm p}\sum_{a=0}^{n}\binom na
+       \|V_a\|_{L^2(I;H^{M+1})}\\
+ &\hspace{35mm}\cdot\|V_{n-a}\|_{L^2(I;H^{M+1})}<\infty.
+ \end{aligned}
+\]
+For a mixed pressure coordinate, distribute the spatial derivatives between
+both factors as well. Increasing the selected spatial order includes every
+factor needed for any fixed \(\Pi_{n,\alpha}\).
+
+Enlarging a finite cut preserves its existing fields. An entry with indices
+\((n,\alpha)\) is always \(\partial_x^\alpha\partial_t^n u\), and its
+pressure entry always comes from the differentiated normalized pressure
+formula. Deleting the outer indices recovers the smaller cut exactly.
+The initial faces agree because the recurrences begin with the original
+\(u_0\). This is the restriction compatibility used in
+Theorem~\ref{u:thm:compatible-inverse-intersection}.
+
+Now fix any finite temporal order \(r\) and spatial order \(m\).
+Choose a cut containing \(V_0,\ldots,V_r\) in \(L^2(I;H^m)\).
+Its adjacent equations identify those fields as the weak temporal
+derivatives of \(u\), so
+\[
+ \|u\|_{H^r(I;H^m)}^2
+ =\sum_{n=0}^{r}\|V_n\|_{L^2(I;H^m)}^2<\infty.
+\]
+Every finite pair \((r,m)\) is covered, giving
+\[
+ u\in\bigcap_{r,m\ge0}H^r(I;H^m(\mathbb R^3)).
+\]
+The intersection retains all these compatible memberships. Its definition
+requires each finite norm to be finite; it introduces no sum over
+infinitely many derivative orders and no constant common to the tower.
+
 \phantomsection\label{u:guide:mixed-jet-map}
-One compatible rectangle family has two exhaustive readings:
-\begin{center}
-\begin{tikzpicture}[
-  every node/.style={draw,rounded corners=2pt,align=center,
-    font=\small,inner sep=7pt,minimum height=1.05cm},
-  every path/.style={line width=0.6pt},
-  >=stealth
-]
-\node[text width=6.6cm] (datum) at (0,0)
-  {Initial datum and governing equation};
-\node[text width=6.6cm] (blocks) at (0,-1.4)
-  {One compatible family \(\{\cR_{N,M}\}_{N,M\in\Nzero}\)};
-\node[text width=5.2cm] (mixed) at (-3.7,-3.05)
-  {Direct exhaustion over mixed indices \((N,M)\)};
-\node[text width=5.2cm] (heights) at (3.7,-3.05)
-  {Completed-height identities on the same rectangles};
-\node[text width=6.6cm] (intersection) at (0,-4.7)
-  {The same all-orders Sobolev intersection};
-\draw[->] (datum) -- (blocks);
-\draw[->] (blocks.south) -- (mixed.north);
-\draw[->] (blocks.south) -- (heights.north);
-\draw[->] (mixed.south) -- (intersection.north west);
-\draw[->] (heights.south) -- (intersection.north east);
-\end{tikzpicture}
-\end{center}
-The branches neither create separate fluids nor separate rectangles.  For
-every \((N,M)\), both use \(\cR_{N,M}[u_0;T_*]\), and every larger rectangle
-restricts to the same velocity and pressure rows in each smaller one.  The
-completed-height branch only orders identities among coordinates already
-belonging to that rectangle.
-\end{minipage}
-
-Choosing a temporal depth \(N\) and spatial height \(M\) selects a finite
-rectangle \(\mathcal R_{N,M}\) directly from the mixed jet, retaining the
-velocity and pressure coordinates and their governing relationships.
-The datum-generated rectangle theorem places its selected rows on
-\((0,T_*)\):
+The critical-height construction begins independently from the governing
+energy identity. Differentiating \(H=E_{1/2}\) and substituting the full
+velocity--pressure rows gives
 \[
- V_n\in L^2(0,T_*;H^{M+1}),\qquad
- V_{n+1}\in L^2(0,T_*;H^{M-1}),\qquad 0\le n\le N,
+ \begin{aligned}
+ (-2\nu)^k E_{k+1/2}
+ &=H^{(k)}
+   -\sum_{j=0}^{k-1}(-2\nu)^j
+       \partial_t^{\,k-1-j}\mathcal P_{j+1/2},
+ \qquad k\ge1.
+ \end{aligned}
 \]
-with \(Q_n\in L^1(0,T_*;H^M)\). Their whole-interval norms are finite.
-Restricting to \((0,T)\) can only decrease those norms, so their finite
-sum is bounded independently of \(T<T_*\).
-
-This is the finite-coordinate estimate proved in
-Theorem~\ref{u:thm:datum-rectangles}.  Letting \((N,M)\) range through every
-finite pair gives the mixed-index exhaustion.  Letting the completed height
-range through every finite \(k\) gives the spatial exhaustion in
-Corollary~\ref{u:cor:datum-critical-height-completion}; the equation lifts it
-back to the same mixed intersection.  Theorem~\ref{u:thm:compatible-inverse-intersection}
-proves that the rectangles are compatible and exhaust all finite mixed rows.
+Finite selections of these scalar relationships form the critical-height
+rectangles. The mixed-coordinate records come from differentiating the
+velocity and pressure fields. Each operation uses the governing equations
+on the prescribed history and can be performed before taking an
+all-orders intersection. Their overlapping velocity and pressure entries agree because
+both concern the prescribed history. Evaluating the height relationships
+on the constructed whole-interval jet reads its half-integer spatial
+energies. The finite-energy row controls low frequencies, and arbitrarily
+high half-integer weights control every finite integer Sobolev order.
+Corollary~\ref{u:cor:datum-critical-height-completion} makes this spatial
+exhaustion explicit; Proposition~\ref{u:prop:spatial-column-reconstruction}
+uses the full equation to recover the temporal and pressure rows. The two
+constructions thus retain their independent origins while their compatible
+outputs can be used together.
 
 \Needspace{8\baselineskip}
 Viscosity gives the relationship between these rows. The term
 \(\nu\Delta V_n\) connects the next time derivative to two more spatial
 derivatives, with transport and pressure retained. Positive \(\nu\) lets us
-recover that spatial contribution from each complete row. The spreading we
-pictured at the start is viscosity acting on differences in velocity across
-the vortex; in the energy identity, its contribution
-\(-\nu\|\Lambda^{s+1}u\|_2^2\) measures the spatial variation that is
-becoming steeper as the vortex narrows.
+recover that spatial contribution from each complete row. 
 
 In particular, choose a height large enough to put \(V_{n+1}\) in
 \(L^2(0,T_*;H^m)\). Between two late times,
@@ -309,6 +367,7 @@ and normalized pressure reaching their compatible endpoints. Local existence
 continues from \(u_*\), and uniqueness joins that continuation to the
 incoming flow. A finite \(T_*\) cannot be maximal.
 
+\Needspace{6\baselineskip}
 \phantomsection\label{u:guide:finite-estimates}
 The finite estimates now come from whichever rectangle contains the
 orders they require. For temporal order \(r\), spatial derivative order

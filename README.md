@@ -7,7 +7,9 @@ Research notes, theorem development, manuscript sources, manuscripts, and retain
 Thomas Birnie is an independent researcher working on three-dimensional fluid dynamics and noncommutative spacetime.
 
 - [Research collection and reading routes](https://thomas-birnie-research.thomasgbirnie.chatgpt.site): eight public papers and monographs, subject summaries, citations, and a downloadable research brief.
-- [Combined Navier–Stokes paper](https://doi.org/10.6084/m9.figshare.34005666.v1): **Global Smoothness for the Three-Dimensional Incompressible Navier–Stokes Equations, with a Refutation of OpenAI’s Finite-Time Blowup Claim**. Begin with its opening “How the Proof Works” section.
+- [Combined Navier–Stokes paper](https://doi.org/10.6084/m9.figshare.34005666.v3): **Global Smoothness for the Three-Dimensional Incompressible Navier–Stokes Equations, with a Refutation of OpenAI’s Finite-Time Blowup Claim**. Begin with its opening “How the Proof Works” part.
+- [Download the current 230-page PDF](papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/unified-unforced-forced-openai-refutation.pdf): the October 17 edition, byte-identical to Figshare version 3.
+- [Portable custody object](proof/): source snapshots, offline reader tools, and a ZIP for transfer to another AI.
 - [Reading guide: from a narrowing vortex to a terminal-time argument](https://thomas-birnie-research.thomasgbirnie.chatgpt.site/terminal-time-guide.html): follows Part I’s scaling, whole-interval derivative estimates, and endpoint continuation, with links to the published manuscript.
 - [Rebuild the combined manuscript](papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/): current and original TeX sources, source hashes, a tagged LuaLaTeX build route, and a separate pdfLaTeX submission copy.
 - [Verify the author’s public Figshare record](https://figshare.com/authors/Thomas_Birnie/24727603).
@@ -29,6 +31,7 @@ This archive contains the September 2026 forced Navier–Stokes manuscript; the 
 
 - `problems/navier-stokes/`: research notes and theorem-development files.
 - `papers/navier-stokes/`: manuscript sources, documents, and paper artifacts.
+- `proof/`: the current portable custody object, reader instructions, and release hashes.
 - `workspaces/VSC-workspaces/navier-stokes/`: the manuscript workspace.
 - `archive/navier-stokes/`: earlier NS source material.
 - `provenance/`: retained commit mappings and the captured file inventory.

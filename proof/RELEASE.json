@@ -1,0 +1,72 @@
+{
+  "format": "ns-custody-public-release-v1",
+  "release_date": "2026-10-19",
+  "manuscript_doi": "10.6084/m9.figshare.34005666.v3",
+  "manuscript_pdf_sha256": "31f35fb35777dfb44f965509a16bb885840933a1f6b75113d11c4e4fbdc5f297",
+  "source_count": 58,
+  "transition_count": 16,
+  "current_manuscript_inputs_included": 42,
+  "source_refresh": [
+    {
+      "id": "manuscript:parts/refutation/critical-reserve-and-chord-density.tex",
+      "path": "papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/critical-reserve-and-chord-density.tex",
+      "old_sha256": "74e5a926c54f25edc8283cca90309d20e5d28b5723b181de5c6581d0cb753fee",
+      "new_sha256": "a6bb68a809e21b30ae5c6f411379b546abfc0f2ec4a5084a0b8c558725d6d079",
+      "old_line_count": 491,
+      "new_line_count": 491,
+      "active_workspace_references": 0
+    },
+    {
+      "id": "manuscript:parts/refutation/source-work-appendix.tex",
+      "path": "papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/parts/refutation/source-work-appendix.tex",
+      "old_sha256": "0e5762120b5606183022101b9f9804b773b2386d4516da449ee5e2d4b679bedf",
+      "new_sha256": "d43d337cdbe54968f825d627afd27666d5b0215bc827ee7f75d6b9b6e30ad6cd",
+      "old_line_count": 229,
+      "new_line_count": 227,
+      "active_workspace_references": 0
+    }
+  ],
+  "active_annotations_workflows_and_locators_unchanged": true,
+  "readable_markdown_unchanged": true,
+  "default_workflow_outputs_unchanged": true,
+  "integrity": {
+    "runtime_verify": {
+      "errors": [],
+      "manifest_present": true,
+      "ok": true,
+      "source_count": 58,
+      "standing": "Byte integrity and navigation checks do not validate mathematics or establish reader understanding.",
+      "transition_count": 16,
+      "workspace_digest": "4edee5faa8dbd6a217b1f4bf8060966941e876a2609c3e33f56ca95c16b5ffad"
+    },
+    "runtime_member_hashes": true,
+    "source_envelope_hashes": true,
+    "runtime_zip_crc": true,
+    "handoff_zip_crc": true,
+    "handoff_manifest_hashes": true,
+    "standalone_bundle_consistency": true
+  },
+  "prior_recipient_material_included": false,
+  "files": {
+    "NS.proof.pyz": {
+      "bytes": 655590,
+      "sha256": "52ec8d7311acf117218e9841c68ad58855b97acf0eb5b1d81d74522847ef0ca2"
+    },
+    "NS.proof-handoff.zip": {
+      "bytes": 1749822,
+      "sha256": "3169740dd9f5de18736336df6b7d853a7d4852f9aecf2091998c4c58e0412060"
+    },
+    "NS.proof.md": {
+      "bytes": 423244,
+      "sha256": "68a313b78ad185e8d84b54775be497eeb1ffb4f3327214bb01e9b39f691d27ba"
+    },
+    "NS.proof.html": {
+      "bytes": 2643620,
+      "sha256": "a7d808a5b387a15e0ce0e3ecebf6604992036a041f743d21cc5e3b8b477a2d40"
+    },
+    "START.md": {
+      "bytes": 1991,
+      "sha256": "6e135adc58feb8d6d7d834f6c2b4b3a81f66235ccec26c69907ac56849aca5a3"
+    }
+  }
+}

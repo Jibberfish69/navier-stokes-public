@@ -242,19 +242,40 @@ For every \(n,m\in\Nzero\) and \(\alpha\in\Nzero^3\),
 \end{lemma}
 
 \begin{proof}
-Equations \eqref{u:eq:formal-initial-base}--\eqref{u:eq:formal-initial-velocity}
-are \eqref{u:eq:formal-temporal-pressure-row} and
-\eqref{u:eq:formal-temporal-velocity-row} at \(t=0\).  Assume
-\(V_0^0,\ldots,V_n^0\in\bigcap_{m\ge0}H^m\).  Lemmas
-\ref{u:lem:sobolev-product} and \ref{u:lem:riesz-leray} give
+The initial velocity fixes the pressure before the first temporal response is
+calculated:
 \[
- Q_n^0\in\bigcap_{m\ge0}H^m,
+ Q_0^0=R_iR_j(u_{0,i}u_{0,j}),
  \qquad
- V_{n+1}^0\in\bigcap_{m\ge0}H^m.
+ V_1^0=\nu\Delta u_0-(u_0\cdot\nabla)u_0-\nabla Q_0^0.
 \]
-Induction starts from \(u_0\in\HsSigma\).  Spatial differentiation and
-\eqref{u:eq:formal-mixed-pressure-row} give the claims for
-\(J_{n,\alpha}^0\) and \(\Pi_{n,\alpha}^0\).
+Differentiating the pressure product places the first temporal response on
+either velocity factor. Substitution into the next velocity row gives
+\[
+ \begin{aligned}
+ Q_1^0&=R_iR_j
+ \bigl(V_{1,i}^0u_{0,j}+u_{0,i}V_{1,j}^0\bigr),\\
+ V_2^0&=\nu\Delta V_1^0
+ -(V_1^0\cdot\nabla)u_0
+ -(u_0\cdot\nabla)V_1^0-\nabla Q_1^0.
+ \end{aligned}
+\]
+At temporal order \(n\), the product rule distributes the \(n\)
+derivatives between the two velocity factors in \(\binom na\) ways.
+Thus the already determined values \(V_0^0,\ldots,V_n^0\) determine
+\(Q_n^0\) through \eqref{u:eq:formal-initial-pressure}, and then determine
+\(V_{n+1}^0\) through \eqref{u:eq:formal-initial-velocity}.
+
+Fix any finite spatial order \(m\). The datum belongs to every higher
+Sobolev space needed by these finitely many products and derivatives.
+Lemmas~\ref{u:lem:sobolev-product} and \ref{u:lem:riesz-leray} place
+\(Q_n^0\) and \(V_{n+1}^0\) in \(H^m\). Induction from
+\(V_0^0=u_0\) proves the assertion at every finite \(n,m\).
+Spatial differentiation gives the initial mixed coordinates
+\(J_{n,\alpha}^0=\partial_x^\alpha V_n^0\) and
+\(\Pi_{n,\alpha}^0=\partial_x^\alpha Q_n^0\).
+The original classical history obeys these differentiated equations, so its
+initial traces are exactly the values just calculated.
 \end{proof}
 
 \begin{theorem}[Finite-row pressure estimates]
@@ -375,7 +396,7 @@ The inequality \(2xy\le x^2+y^2\) proves
 \end{proof}
 
 
-\subsection{One compatible rectangle family and its two exhaustions}
+\subsection{The datum-generated jet and its compatible finite records}
 \label{u:sec:independent-intersection}
 
 Start with \(u_0\in\HsSigma(\R^3)\) and \(\nu>0\).
@@ -394,19 +415,41 @@ initial mixed jet. Along the history, those rows are the actual
 distributional derivatives of \(u,p\), with the full transport and pressure
 terms retained.
 
-On every strict subinterval \((0,T)\), \(T<T_*\), ordinary persistence of
-the classical history identifies all of these rows and gives finite norms at
-each fixed pair of indices.  That strict-horizon statement is not the producer
-of the whole-terminal result.  When a finite maximal time is proposed, put
-\(I=(0,T_*)\).  The datum-generated whole-terminal theorem below is the
-producing theorem.  At each fixed finite temporal depth and spatial height it
-takes the datum, viscosity, complete initial face, and closed
-pressure-complete equation graph, and it supplies the adjacent
-whole-terminal memberships at that finite pair.  Their finitely many squared
-norms form the whole-terminal rectangle norm; restriction and monotone
-convergence then identify its strict-cutoff supremum.  Mixed-index exhaustion,
-completed-height exhaustion, terminal tracing, and restart all occur after
-that output has been obtained.
+On every strict subinterval \((0,T)\), \(T<T_*\), persistence of the
+classical history identifies these rows and gives finite norms at each fixed
+pair of indices. For a proposed finite maximal time, put \(I=(0,T_*)\).
+The construction uses the datum, fixed viscosity, complete initial jet, and
+pressure-complete equations on \(I\).
+
+The derivative order leaves the governing variables free. For example,
+\(V_1(t,x)\) is determined by the velocity, its spatial derivatives, and
+its normalized pressure at \((t,x)\); evaluating that identity at \(t=0\)
+gives the initial value calculated above. Repeated differentiation retains
+\((t,x)\) in every row. It describes the responses of the evolving field
+throughout its interval.
+
+The viscous term makes the temporal and spatial descriptions meet in each
+complete equation:
+\begin{equation}
+ \nu\Delta V_n
+ =V_{n+1}
+ +\sum_{a=0}^{n}\binom na(V_a\cdot\nabla)V_{n-a}
+ +\nabla Q_n.
+ \label{u:eq:complete-row-spatial-recovery}
+\end{equation}
+The two additional spatial derivatives occur together with the next temporal
+response and the full transport--pressure sum. This is the field relation
+behind the spatial orders exposed by the critical-height calculation in
+Proposition~\ref{u:prop:completed-height-recurrence}.
+
+There are two constructions from these equations. The direct mixed-jet
+construction retains the compatible temporal and spatial coordinates and
+their Sobolev memberships. Differentiating the critical height and
+substituting the mixed rows instead produces relationships among those
+coordinates; finite selections of the relationships form rectangles.
+Their common origin fixes every overlapping velocity and pressure entry.
+Either representation can be used at its stated scope without making the
+other construction its prerequisite.
 
 \begin{theorem}[Datum-generated whole-terminal finite rectangles]
 \label{u:thm:datum-finite-blocks}
@@ -425,19 +468,18 @@ and the datum-generated construction produces, for \(0\le n\le N\),
  V_{n+1}\in L^2(I;H^{M-1}).
  \label{u:eq:independent-adjacent-finite-rows}
 \end{equation}
-For \(0<S\le T_*\), define its velocity norm by
+Define its velocity norm on \(I\) by
 \begin{equation}
- \mathfrak R_{N,M}(u;S)
+ \mathfrak R_{N,M}(u;T_*)
  :=\sum_{n=0}^{N}\left(
- \norm{V_n}_{L^2(0,S;H^{M+1})}^2
- +\norm{V_{n+1}}_{L^2(0,S;H^{M-1})}^2
+ \norm{V_n}_{L^2(I;H^{M+1})}^2
+ +\norm{V_{n+1}}_{L^2(I;H^{M-1})}^2
  \right).
  \label{u:eq:independent-datum-block-output}
 \end{equation}
 The theorem's whole-terminal output is
 \begin{equation}
- \sup_{0<S<T_*}\mathfrak R_{N,M}(u;S)
- =\mathfrak R_{N,M}(u;T_*)<\infty
+ \mathfrak R_{N,M}(u;T_*)<\infty
  \qquad(N,M<\infty).
  \label{u:eq:datum-whole-terminal-producer}
 \end{equation}
@@ -518,17 +560,21 @@ reads the solenoidal evolution, and applying \(I-\Pp\) reads the normalized
 pressure equation.  The initial face, every nonlinear factor, the viscous
 coordinates, and the pressure coordinates are therefore present together.
 
-The datum-generated columnwise construction now acts on this one complete
-finite record.  For each \(n=0,\ldots,N\), it supplies
+The datum-generated whole-terminal jet already contains its compatible
+Sobolev coordinates on \(I\). Selecting this finite record projects that
+constructed jet onto the rows \(V_n,V_{n+1},Q_n\), while retaining the
+original time interval. Its adjacent velocity coordinates read
 \[
  V_n\in L^2(I;H^{M+1}),
  \qquad
  V_{n+1}\in L^2(I;H^{M-1}).
 \]
-These are the whole-terminal memberships in
-\eqref{u:eq:independent-adjacent-finite-rows}; they precede every cutoff norm
-and every terminal trace.  The adjacent entry is the weak temporal derivative
-of the preceding entry by \eqref{u:eq:finite-equation-graph}.
+For every \(n=0,\ldots,N\), these are components of the constructed
+whole-terminal jet, as recorded in
+\eqref{u:eq:independent-adjacent-finite-rows}. The finite selection preserves
+their memberships and the identity \(\partial_tV_n=V_{n+1}\).
+Equation~\eqref{u:eq:finite-equation-graph} retains their complete
+transport, pressure, and viscous coupling.
 
 For this fixed finite pair, form the sum of the defining squared norms:
 \begin{equation}
@@ -541,19 +587,17 @@ For this fixed finite pair, form the sum of the defining squared norms:
 \end{equation}
 Each displayed membership asserts finiteness of its defining squared norm,
 and the sum has only finitely many terms.
-Restriction to \((0,S)\) decreases each nonnegative integral.  Increasing
-\(S\) to \(T_*\) and applying monotone convergence to the finite sum gives
+The whole-terminal norm is
 \begin{equation}
- \sup_{0<S<T_*}\mathfrak R_{N,M}(u;S)
- =\mathfrak R_{N,M}(u;T_*)
+ \mathfrak R_{N,M}(u;T_*)
  =C_{N,M}[u_0,\nu;I]<\infty.
  \label{u:eq:finite-graph-uniform-cutoff-output}
 \end{equation}
 The constant belongs to the selected finite pair; no constant common to the
-infinite tower is asserted.  This proves
-\eqref{u:eq:datum-whole-terminal-producer} in the same order as the
-construction: memberships, finite norm, restriction, monotone terminal
-realization.
+infinite tower is asserted. This calculation writes the constructed jet's
+whole-terminal memberships as the finite norm in
+\eqref{u:eq:datum-whole-terminal-producer}. Its finiteness is retained under
+the coordinate projection on \(I\).
 
 Taking \(N\ge n\) and \(M=m\) gives the two memberships in
 \eqref{u:eq:independent-adjacent-finite-rows}.  Taking
@@ -575,7 +619,7 @@ identifies their realizations.  Deleting the outer coordinates therefore
 recovers the smaller rectangle.  Time restriction preserves those same
 coordinates, while \eqref{u:eq:finite-graph-output} and
 \eqref{u:eq:finite-graph-uniform-cutoff-output} identify their
-whole-terminal norms and strict-cutoff realizations.
+whole-terminal norms.
 \end{proof}
 
 Its two cofinal readings are consequences of the same finite-row output,

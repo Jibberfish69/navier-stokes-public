@@ -1,0 +1,40 @@
+{
+  "release_date": "2026-10-19",
+  "manuscript_revision_date": "2026-10-17",
+  "title": "Global Smoothness for the Three-Dimensional Incompressible Navier–Stokes Equations, with a Refutation of OpenAI’s Finite-Time Blowup Claim",
+  "doi": "10.6084/m9.figshare.34005666.v3",
+  "native_pdf": {
+    "path": "unified-unforced-forced-openai-refutation.pdf",
+    "sha256": "31f35fb35777dfb44f965509a16bb885840933a1f6b75113d11c4e4fbdc5f297",
+    "bytes": 7273555,
+    "pages": 230,
+    "figshare_file_id": 70354722
+  },
+  "current_source": {
+    "path": "current-source.zip",
+    "sha256": "69987de76037749e0e4b9cab6624fab90e454a0f323ae6aed54899af4db95302",
+    "input_count": 42,
+    "manifest": "CURRENT-SOURCE-SHA256.json"
+  },
+  "portable_pdf": {
+    "path": "pdflatex-submission.pdf",
+    "sha256": "5814f0a001bf38da5c26f1627df1fd1506c4b12f533a8a81421ece5bf07e4497",
+    "pages": 232
+  },
+  "portable_source": {
+    "path": "pdflatex-submission-source.zip",
+    "sha256": "7f2d432901bf2f552b8cbee62d6c4c125495eead40a890eda2d9c43fde7b6e64",
+    "body_inputs_match_native": 41
+  },
+  "included_revisions": [
+    "Title correction removing Unforced and Forced",
+    "Independent opening overview part",
+    "October 17 manuscript exposition and membership-dependency custody revisions"
+  ],
+  "verification": {
+    "native_build_exit": 0,
+    "portable_build_exit": 0,
+    "native_pdf_matches_figshare_v3": true,
+    "source_inputs_match_current_canonical_bytes": 42
+  }
+}

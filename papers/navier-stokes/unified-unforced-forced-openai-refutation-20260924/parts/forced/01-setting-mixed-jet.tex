@@ -480,19 +480,9 @@ in its stated strict-horizon Sobolev space. Restriction compatibility makes
 the resulting family one mixed jet of one velocity.
 \end{proof}
 
-This compact-horizon result identifies the rows of the one forced history.
-The next theorem gives their stronger whole-terminal realization directly on
-\(I=(0,T_*)\).  Restriction to \((0,T)\), followed by \(T\uparrow T_*\), is
-a consequence of that realization.
-
-For the whole-terminal step, keep this same forced history and fix finite
-\((N,M)\).  The theorem below is the forced producing theorem.  Its analytic
-input is the one prescribed triple \((u_0,\nu,f)\), its finite initial jet, and
-the closed velocity--pressure--force graph.  It first supplies the adjacent
-whole-terminal velocity memberships at that finite pair.  Their finite norm
-sum then gives the bound uniform in every strict cutoff by restriction and
-monotone convergence.  No unforced row, norm, history, or terminal value enters
-this construction.
+At a proposed finite maximal time, put \(I=(0,T_*)\) and fix finite
+\(N,M\). The prescribed triple \((u_0,\nu,f)\), its initial mixed jet, and
+the complete velocity--pressure--force equations determine the record below.
 
 \begin{theorem}[Datum-generated compatible forced finite rectangles]
 \label{f:thm:datum-finite-blocks}
@@ -514,19 +504,18 @@ The forced construction produces, for \(0\le n\le N\),
  V_{n+1}\in L^2(I;H^{M-1}).
  \label{f:eq:independent-adjacent-finite-rows}
 \end{equation}
-For \(0<S\le T_*\), define its velocity norm by
+Define its velocity norm on \(I\) by
 \begin{equation}
- \mathfrak R_{N,M}(u;S)
+ \mathfrak R_{N,M}(u;T_*)
  :=\sum_{n=0}^{N}\left(
- \norm{V_n}_{L^2(0,S;H^{M+1})}^2
- +\norm{V_{n+1}}_{L^2(0,S;H^{M-1})}^2
+ \norm{V_n}_{L^2(I;H^{M+1})}^2
+ +\norm{V_{n+1}}_{L^2(I;H^{M-1})}^2
  \right).
  \label{f:eq:forced-restricted-block-norm}
 \end{equation}
 The forced whole-terminal output is
 \begin{equation}
- \sup_{0<S<T_*}\mathfrak R_{N,M}(u;S)
- =\mathfrak R_{N,M}(u;T_*)<\infty
+ \mathfrak R_{N,M}(u;T_*)<\infty
  \qquad(N,M<\infty).
  \label{f:eq:forced-datum-block-output}
 \end{equation}
@@ -640,7 +629,7 @@ gradient component has the finite budget
 force-induced pressure coordinate are paid inside this finite forced record.
 
 The initial face, complete dependency cover, two projections, and prescribed
-affine source now form the input to the forced columnwise construction.
+affine source now form the input to the forced datum construction.
 Applied to this one graph and this one history, it supplies, for every
 \(n=0,\ldots,N\),
 \[
@@ -649,9 +638,7 @@ Applied to this one graph and this one history, it supplies, for every
  V_{n+1}\in L^2(I;H^{M-1}).
 \]
 These are the memberships in
-\eqref{f:eq:independent-adjacent-finite-rows}.  They are produced after the
-force pairing and pressure-source payments above and before any terminal trace
-or restart.
+\eqref{f:eq:independent-adjacent-finite-rows}.
 
 For this fixed finite pair, form the sum of their defining squared norms:
 \[
@@ -661,19 +648,13 @@ For this fixed finite pair, form the sum of their defining squared norms:
   +\norm{V_{n+1}}_{L^2(I;H^{M-1})}^2
  \right)<\infty.
 \]
-Restriction to \((0,S)\) decreases each nonnegative integral.  Increasing
-\(S\) to \(T_*\) and applying monotone convergence to the finite sum gives
+These norms give
 \begin{equation}
- \sup_{0<S<T_*}\mathfrak R_{N,M}(u;S)
- =\mathfrak R_{N,M}(u;T_*)
+ \mathfrak R_{N,M}(u;T_*)
  =C^f_{N,M}[u_0,\nu,f;I]<\infty.
  \label{f:eq:forced-uniform-cutoff-output}
 \end{equation}
-This proves \eqref{f:eq:forced-datum-block-output} in the construction's
-actual order: prescribed triple, complete forced graph, force payments,
-whole-terminal memberships, finite norm, restriction, monotone terminal
-realization.  The scalar is the velocity norm of
-\(\cR_{N,M}[u_0,\nu,f;T_*]\); the record also retains the pressure and
+This proves \eqref{f:eq:forced-datum-block-output}. The record also retains the pressure and
 prescribed-force coordinates constrained by
 \eqref{f:eq:forced-finite-equation-graph}.
 

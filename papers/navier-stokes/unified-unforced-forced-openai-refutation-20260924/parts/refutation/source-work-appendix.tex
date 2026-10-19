@@ -203,18 +203,15 @@ Applying \(I^m\) to the full completion gives
  \end{aligned}
  \label{r:eq:integrated-completion}
 \end{equation}
-The source term on the last line has the proved finite bound. The energy
-derivative and complete nonlinear term remain in the expression; a bound
-on their combination has not been obtained from that source bound.
-
-A full-interval Sobolev coordinate also specifies an integrability
-requirement. For example, \(V_r\in L^2(0,T;\dot H^{k+1/2})\) means
+Proposition~\ref{r:prop:source-primitive} bounds the explicit source term
+on the last line. For the forced history in
+Corollary~\ref{r:thm:supplied-forced}, restriction of its mixed jet to
+\((0,T)\) gives the unweighted terminal integrals at every finite height.
+For finite \(r,k\), this jet gives \(V_r\in L^2(0,T;\dot H^{k+1/2})\), so
 \[
  \int_0^T C^f_{r,k}(t)\dd t
  =\frac12\int_0^T\norm{V_r(t)}_{\dot H^{k+1/2}}^2\dd t<\infty.
 \]
-This is the meaning of membership at that height. It is stronger than
-the existence of every derivative on \([0,S]\) for each \(S<T\).
 In particular, the full mixed product rule for \(W_{r,s}\) contains both
 source and response factors, even when every source coordinate is finite.
 For \(k\ge4\), boundedness of \(I^{k-2}C^f_{0,k}\) would itself give
@@ -224,6 +221,7 @@ only a weighted terminal integral,
 \]
 The positive Volterra kernel gives this statement by monotone convergence;
 its vanishing terminal weight does not give the unweighted integral above.
-At \(k=2,3\), control of the full right side of
-\eqref{r:eq:integrated-completion} would suffice. These distinctions specify which terminal integrals follow from
-the integrated source estimate.
+At \(k=2,3\), a bound on the full right side of
+\eqref{r:eq:integrated-completion} yields the unweighted integral directly.
+For larger \(k\), that bound controls the weighted integral, while
+the constructed mixed jet supplies the unweighted one.
