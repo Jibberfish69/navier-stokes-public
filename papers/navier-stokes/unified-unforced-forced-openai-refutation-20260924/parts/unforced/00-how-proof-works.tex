@@ -1,6 +1,6 @@
 \begingroup
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{1.0\baselineskip}
+\setlength{\parskip}{0.5\baselineskip}
 \setlength{\abovedisplayskip}{8pt}
 \setlength{\belowdisplayskip}{8pt}
 \setlength{\abovedisplayshortskip}{8pt}
@@ -9,24 +9,6 @@
 \clubpenalty=10000
 \widowpenalty=10000
 \displaywidowpenalty=10000
-\makeatletter
-\let\NSNativeDisplay\[
-\long\def\[#1\]{%
-  \par\nobreak\vskip8pt\nointerlineskip
-  \begingroup
-  \parskip=0pt \predisplaypenalty=10000 \postdisplaypenalty=10000
-  \baselineskip=0pt \lineskip=0pt \lineskiplimit=0pt
-  \abovedisplayskip=0pt \belowdisplayskip=0pt
-  \abovedisplayshortskip=0pt \belowdisplayshortskip=0pt
-  \NSNativeDisplay \relax{\normalbaselines #1}\]
-  \par
-  \endgroup
-  \nobreak\vskip8pt\nointerlineskip
-  \parskip=0pt
-  \AddToHookNext{para/begin}{\ifdefined\NSNativeDisplay\setlength{\parskip}{1.0\baselineskip}\fi}%
-  \ignorespaces
-}
-\makeatother
 
 \part{How the Proof Works}
 \label{u:guide:how-proof-works}
@@ -37,67 +19,151 @@ The three-dimensional Navier--Stokes regularity problem asks whether a smooth fl
 \qquad \nabla\cdot u=0.
 \]
 
+\subsection*{Critical Height and Rescaling}
+
 The problem starts with a vortex.
 
 As it lengthens, it thins and spins faster and faster as it gets smaller.
 
-The danger is that the narrowing could continue toward zero width, with the
-velocity changing more and more sharply across the shrinking core. The
-equations describe an idealized continuum, with no minimum radius built into
-the model.
+The concern is that it could keep doing this, with each contraction taking
+less time than the one before, until the core reaches zero width and the
+speed becomes unbounded. Infinitely many contractions could then fit into
+a finite time.
+This is a Zeno cascade (``Zeno'' for infinitely many stages in finite time;
+``cascade'' for the progression to smaller scales).
 
-To examine how the equations behave at smaller scales, contract lengths by a
-factor \(\lambda>1\), increase the velocity by \(\lambda\), and run the motion
-\(\lambda^2\) times as fast:
+The equations have no minimum vortex width. To follow this possibility
+down through the scales, we need to compare a vortex with a smaller,
+faster version that still satisfies the equation. Reducing lengths by
+\(\lambda>1\) requires multiplying velocity by \(\lambda\) and running
+the evolution \(\lambda^2\) times as fast:
 \[
  u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
  \qquad p_\lambda(x,t)=\lambda^2p(\lambda x,\lambda^2t).
 \]
-All terms in the momentum equation scale by \(\lambda^3\), preserving
-the balance between transport and viscosity at fixed \(\nu\). The velocity
-gradients scale by \(\lambda^2\), since the increase in speed is compressed
-into a smaller distance.
-
-Yet the energy decreases, because the \(\lambda^2\) increase in velocity
-squared is outweighed by the \(\lambda^{-3}\) decrease in volume:
+The chain rule gives, with every right-hand side evaluated at
+\((\lambda x,\lambda^2t)\),
 \[
- E[u_\lambda](t)=\lambda^{-1}E[u](\lambda^2t),
- \qquad E[u]=\frac12\int_{\mathbb R^3}|u|^2\,dx.
+ \begin{aligned}
+ \partial_tu_\lambda&=\lambda^3\partial_tu,
+ & (u_\lambda\cdot\nabla)u_\lambda&=\lambda^3(u\cdot\nabla)u,\\
+ \nabla p_\lambda&=\lambda^3\nabla p,
+ & \nu\Delta u_\lambda&=\lambda^3\nu\Delta u.
+ \end{aligned}
 \]
-
-A Sobolev norm includes the growing spatial derivatives in the measurement.
-Its order \(s\) contributes \(\lambda^s\), alongside the
-\(\lambda^{-1/2}\) from the velocity's \(L^2\) scaling:
-\[
- \|u_\lambda(\cdot,t)\|_{\dot H^s}
- =\lambda^{s-1/2}\|u(\cdot,\lambda^2t)\|_{\dot H^s}.
-\]
-The exponent \(s-\tfrac12\) describes measurement sensitivity. Below
-\(s=\tfrac12\), smaller scales are discounted; above it,
-they are magnified. At \(s=\tfrac12\), dynamically equivalent rescaled
-vortices receive the same reading. That scale-calibrated measurement is
-critical because zooming changes the vortex but not its measured size.
-
-If each contraction generated another, the time rescaling would give the
-stages progressively shorter durations:
+Every term acquires a factor \(\lambda^3\), leaving the equation unchanged
+at fixed viscosity \(\nu\).
+If a flow repeated this contraction, its stage durations would satisfy
 \[
  \tau_j=\lambda^{-2j}\tau_0,
  \qquad \sum_{j=0}^{\infty}\tau_j
  =\frac{\tau_0}{1-\lambda^{-2}}<\infty.
 \]
-The infinitely many stages would accumulate at a finite time, with the
-radius tending to zero and the velocity and its gradients growing without
-bound. This is the hypothetical Zeno cascade. The critical norm follows it
-without making the cascade cheaper or more expensive solely because each
-stage occurs at a smaller scale.
+For the energy measurement, squared speed grows by \(\lambda^2\), but
+volume shrinks by \(\lambda^3\), giving
+\[
+ E[u_\lambda](t)=\lambda^{-1}E[u](\lambda^2t),
+ \qquad E[u]=\frac12\int_{\mathbb R^3}|u|^2\,dx.
+\]
+\Needspace{10\baselineskip}
+The smaller, faster vortex has less energy. A bound on total energy can
+miss precisely the concentration we are concerned about. The measurement
+has to include how sharply the velocity changes across the shrinking core.
+
+A Sobolev norm gives these finer changes more weight. In the Fourier
+description of the velocity, a large spatial frequency \(|\xi|\) means
+variation across a short distance. Weighting each frequency by
+\(|\xi|^s\) gives the homogeneous Sobolev norm of order \(s\):
+\[
+ \|u(t)\|_{\dot H^s}^2
+ =\int_{\mathbb R^3}|\xi|^{2s}|\widehat u(\xi,t)|^2\,d\xi,
+ \qquad \Lambda=(-\Delta)^{1/2}.
+\]
+Here \(\widehat u\) is the Fourier transform of the velocity, and
+\(\Lambda^s\) multiplies it by \(|\xi|^s\). Integer orders measure
+ordinary spatial derivatives; fractional orders give intermediate weights
+to fine structure.
+
+The order \(s\) determines how much weight the fine scales receive.
+We can find the point where that weight exactly offsets the loss of
+volume. In the Fourier transform, the velocity factor
+contributes \(\lambda\) and the change of spatial variables contributes
+\(\lambda^{-3}\). Substituting the resulting transform into the norm
+and then setting \(\xi=\lambda\eta\) gives
+\[
+ \begin{aligned}
+ \widehat{u_\lambda}(\xi,t)
+ &=\lambda^{-2}\widehat u(\xi/\lambda,\lambda^2t),\\
+ \|u_\lambda(t)\|_{\dot H^s}^2
+ &=\lambda^{-4}\int_{\mathbb R^3}|\xi|^{2s}
+      |\widehat u(\xi/\lambda,\lambda^2t)|^2\,d\xi\\
+ &=\lambda^{-4}\lambda^{2s}\lambda^3
+      \|u(\lambda^2t)\|_{\dot H^s}^2
+ =\lambda^{2s-1}\|u(\lambda^2t)\|_{\dot H^s}^2.
+ \end{aligned}
+\]
+The frequency weight contributes \(\lambda^{2s}\), balancing the
+remaining factor \(\lambda^{-1}\) precisely when \(2s-1=0\).
+The dividing height is \(s=\tfrac12\).
+For \(s<\tfrac12\), contraction reduces the norm; for \(s>\tfrac12\),
+it increases the norm. At the dividing height \(s=\tfrac12\), the norm is
+unchanged by the equation's rescaling. This lets us use one bound at every
+vortex width, without shrinking the region of fast-moving fluid making the
+bound easier to satisfy.
+
+This is why the critical height matters: concentration cannot make this
+measurement smaller simply by occupying less space. But its value can
+still change as the fluid evolves. Transport and viscosity both acquired
+a factor \(\lambda^3\), so the rescaling has not decided which controls
+that change.
+
+The equation gives their contributions to the critical energy directly.
+Pair it with \(\Lambda u\)
+and integrate the viscous term by parts. The pressure pairing vanishes
+because \(\nabla\cdot\Lambda u=0\), giving
+\[
+ \frac12\frac{d}{dt}\|u\|_{\dot H^{1/2}}^2
+ +\nu\|u\|_{\dot H^{3/2}}^2
+ =-\operatorname{Re}\langle\Lambda u,(u\cdot\nabla)u\rangle.
+\]
+The positive term on the left measures viscous dissipation. The transport
+term on the right can increase the critical energy. To compare their sizes,
+use H\"older's inequality and the classical Sobolev inequality
+\(\|w\|_{L^3}\le C_3\|w\|_{\dot H^{1/2}}\) on each of the three factors:
+\[
+ \begin{aligned}
+ |\langle\Lambda u,(u\cdot\nabla)u\rangle|
+ &\le\|\Lambda u\|_{L^3}\|u\|_{L^3}\|\nabla u\|_{L^3}\\
+ &\le C\|u\|_{\dot H^{1/2}}\|u\|_{\dot H^{3/2}}^2,
+ \qquad C=C_3^3.
+ \end{aligned}
+\]
+Both contributions contain the \(\dot H^{3/2}\) size. Their relative
+strength is governed by the critical \(\dot H^{1/2}\) norm itself.
+Substitution into the balance makes this explicit:
+\[
+ \frac12\frac{d}{dt}\|u\|_{\dot H^{1/2}}^2
+ +\bigl(\nu-C\|u\|_{\dot H^{1/2}}\bigr)
+       \|u\|_{\dot H^{3/2}}^2\le0.
+\]
+\Needspace{7\baselineskip}
+When \(C\|u\|_{\dot H^{1/2}}<\nu\), the coefficient is positive and
+the critical energy decreases. If it starts below this threshold, the
+decrease keeps it there. For arbitrary initial size, the coefficient need
+not be positive, so this estimate cannot establish viscous control of the
+nonlinear contribution. The classical difficulty is to bound the critical
+norm throughout the evolution without assuming it is already small.
+
+\subsection*{Following One Fluid Motion}
 
 If a singularity were to actually form, the velocity would have to blow up,
 which means the acceleration would have to blow up, followed by its jerk,
 and so on, and so on.
 
-Differentiate the equation in time at fixed spatial coordinates, once
-and then again. Each time derivative of transport can fall on either
-velocity factor, giving
+\interlinepenalty=10000
+
+The equation already contains the velocity and its time derivative.
+Differentiate the whole equation in time, once and then again:
 \[
  \begin{aligned}
  &\partial_tu=\nu\Delta u-(u\cdot\nabla)u-\nabla p,\\
@@ -108,9 +174,9 @@ velocity factor, giving
    -(u\cdot\nabla)\partial_t^2u-\nabla\partial_t^2p.
  \end{aligned}
 \]
-Continuing gives the temporal derivative tower. Writing the derivatives at
-fixed spatial coordinates as \(V_n=\partial_t^nu\) and
-\(Q_n=\partial_t^np\), its general row is
+The derivatives distribute across the two velocity factors, producing the
+binomial coefficients. With \(V_n=\partial_t^nu\) and
+\(Q_n=\partial_t^np\), the general form is
 \[
  \begin{aligned}
  V_{n+1}&=\nu\Delta V_n
@@ -119,26 +185,39 @@ fixed spatial coordinates as \(V_n=\partial_t^nu\) and
    \sum_{a=0}^{n}\binom na V_{a,i}V_{n-a,j}.
  \end{aligned}
 \]
-Taking the divergence fixes the pressure equation, and decay at spatial
-infinity fixes its normalization. Every temporal row is also a spatial
-field. Taking its spatial derivatives gives the mixed jet
-\(J_{n,\alpha}=\partial_x^\alpha\partial_t^nu\), with pressure derivatives
-\(\Pi_{n,\alpha}=\partial_x^\alpha\partial_t^np\). The product rule now
-acts in both directions:
+Taking the divergence gives the second equation; decay at spatial infinity
+fixes the pressure. Every \(V_n\) is a derivative of the original velocity,
+and every \(Q_n\) is determined by its velocity products. All of these
+derivatives belong to one fluid.
+
+But the vortex is also narrowing across space. Each time derivative is a
+spatial field, with its own spatial derivatives. Retaining those gives
+\[
+ J_{n,\alpha}=\partial_x^\alpha\partial_t^nu,
+ \qquad \Pi_{n,\alpha}=\partial_x^\alpha\partial_t^np.
+\]
+Here \(\alpha\) records the spatial directions and derivative orders.
+Together the fields form the mixed jet. The product rule acts in both
+time and space:
 \[
  J_{n+1,\alpha}=\nu\Delta J_{n,\alpha}-\nabla\Pi_{n,\alpha}
  -\sum_{a=0}^{n}\sum_{\beta\le\alpha}
    \binom na\binom\alpha\beta
    (J_{a,\beta}\cdot\nabla)J_{n-a,\alpha-\beta}.
 \]
-The mixed jet keeps the velocity and pressure derivatives as fields.
-We now take a scalar energy measurement of \(u\):
+The two binomial factors count where those derivatives land. Pressure,
+viscosity, and transport remain together in every equation. These time
+derivatives are taken at fixed positions; along a moving fluid particle,
+the derivative is \(D_t=\partial_t+u\cdot\nabla\). The transport already
+present in the equations accounts for that motion.
+
+Return to the critical energy. We left it in a balance involving the
+spatial order \(3/2\). Write the energy at a general height \(s\) as
 \[
- E_s=\frac12\|\Lambda^su\|_2^2,
- \qquad \Lambda=(-\Delta)^{1/2}.
+ E_s=\frac12\|\Lambda^su\|_2^2.
 \]
-The row \(n=0,\alpha=0\) is the Navier--Stokes equation for \(u\).
-Differentiating \(E_s\), substituting that row, and integrating by parts gives
+Its time derivative comes from the velocity equation. Substitution and
+integration by parts give
 \[
  \begin{aligned}
  E_s'
@@ -147,19 +226,14 @@ Differentiating \(E_s\), substituting that row, and integrating by parts gives
  &=-2\nu E_{s+1}+\mathcal P_s,
  \end{aligned}
 \]
-\Needspace{5\baselineskip}
-where the transport and pressure contributions are
+with the transport and pressure contributions collected in
 \[
  \mathcal P_s=-\operatorname{Re}\langle\Lambda^su,
  \Lambda^s((u\cdot\nabla)u+\nabla p)\rangle.
 \]
-One time derivative of the energy has brought in an energy one spatial
-Sobolev level higher. The Laplacian contributes two spatial derivatives;
-integration by parts places one additional derivative on each velocity
-factor in the squared norm.
-
-At the critical height, set \(H=E_{1/2}\). Repeating the energy identity
-at each newly exposed height gives
+The viscous term contains \(E_{s+1}\): integration by parts put one
+of the Laplacian's two derivatives on each velocity factor. Starting
+from \(H=E_{1/2}\), differentiation of that next energy gives
 \[
  \begin{aligned}
  H'&=-2\nu E_{3/2}+\mathcal P_{1/2},\\
@@ -171,41 +245,55 @@ at each newly exposed height gives
            \partial_t^{\,n-1-j}\mathcal P_{j+1/2}.
  \end{aligned}
 \]
-The higher mixed-jet rows organize the velocity and pressure derivatives
-inside \(\partial_t^k\mathcal P_s\). Here \(H^{(n)}\) differentiates the
-critical energy; it is not the energy of \(\partial_t^nu\).
-
-Each step up in the time derivatives of \(H\) brings in one higher spatial
-Sobolev order. At temporal order \(n\), the energy identity exposes
-\(E_{n+1/2}\), so the sequence \(H,H',H'',\ldots\) takes us through
-the spatial levels
+The higher we go in time derivatives, the higher we go in Sobolev space.
+Every step brings another factor \(-2\nu\), with the complete transport
+and pressure derivatives alongside it. All of those terms are determined
+by the mixed jet of this fluid. The spatial heights run through
 \[
  H^{1/2},\qquad H^{3/2},\qquad H^{5/2},\qquad H^{7/2},\qquad\ldots.
 \]
-
-\phantomsection\label{u:guide:intersection}
-Recall the Sobolev embedding theorem: in three dimensions, enough spatial
-Sobolev regularity gives bounded, continuous derivatives through order \(k\):
+We began with a vortex getting smaller and spinning faster, with its
+velocity changing more sharply across the core. The higher Sobolev
+orders measure precisely those sharp changes. Above height
+\(k+\tfrac32\), Sobolev embedding bounds the ordinary spatial
+derivatives through order \(k\):
 \[
  H^s(\mathbb R^3)\hookrightarrow C_b^k(\mathbb R^3),
  \qquad s>k+\tfrac32.
 \]
+Any chosen derivative is covered by a sufficiently high finite level.
 
-As we go up the temporal tower, membership at the corresponding spatial
-levels gives more regularity and brings us closer to smoothness. A vortex
-approaching blowup would make us expect the opposite: its spatial derivatives
-should be growing without bound. Requiring membership at every height gives
-the full smoothness condition:
+\phantomsection\label{u:guide:intersection}
+Continuing through all finite orders reaches the full smoothness condition:
 \[
  L^2\cap\bigcap_{n\ge0}\dot H^{n+1/2}(\mathbb R^3)
  =\bigcap_{m\ge0}H^m(\mathbb R^3)
  =H^\infty(\mathbb R^3)\hookrightarrow C_b^\infty(\mathbb R^3).
 \]
+The \(L^2\) term retains the large spatial scales; the increasing Sobolev
+orders retain the small ones. This is the full spatial regularity of the
+fluid.
 
-Fix one \(u_0\in H^\infty_\sigma(\mathbb R^3)\) and one
-\(\nu>0\). Write \(I=(0,T_*)\) for the interval leading to a proposed
-finite maximal time. The equation relates the evolving velocity to its
-prescribed initial value through
+See, the intuition here is what matters: when you follow a vortex down to
+its smallest scales, highest frequencies, and fastest velocities, you are
+following its successive time derivatives. For a singularity to occur,
+you would expect the spatial regularity to break down as you go up in
+those time derivatives. But what we see here is that viscosity relates
+that faster motion to more spatial regularity, not less. This is the
+opposite of what you would expect from a singularity or blowup.
+
+\Needspace{10\baselineskip}
+\vspace{2\baselineskip}
+\subsection*{Proof and Application}
+
+Establishing this regularity through a proposed singular time requires bounds
+on the coupled derivatives throughout the motion.
+
+Fix one \(u_0\in H^\infty_\sigma(\mathbb R^3)\) and one \(\nu>0\).
+The subscript \(\sigma\) records incompressibility. Suppose the smooth
+motion ends at a finite time \(T_*\), and write \(I=(0,T_*)\).
+The initial velocity determines the pressure and, through the equation,
+the subsequent changes in velocity:
 \[
  \begin{aligned}
  u(t)&=u_0+\int_0^t
@@ -214,47 +302,47 @@ prescribed initial value through
  \qquad 0\le t<T_*.
  \end{aligned}
 \]
-The pressure formula completes the evolution equation using the velocity
-throughout space. It fixes the normalized pressure at every time, including
-its initial value. The first temporal response is
+Here \(R_iR_j\) solves the pressure Poisson equation with its decaying
+normalization. Substitution gives the first time derivative,
 \[
- V_1(t)=\nu\Delta u(t)-(u(t)\cdot\nabla)u(t)-\nabla Q_0(t).
+ V_1(t)=\nu\Delta u(t)-(u(t)\cdot\nabla)u(t)-\nabla Q_0(t),
 \]
-Differentiating the pressure product determines \(Q_1(t)\); substituting
-\(V_1(t)\) and \(Q_1(t)\) into the next velocity equation determines
-\(V_2(t)\). Continuing the binomial recurrences above gives every temporal
-row, with the original \(\nu\), every transport factor, and every pressure
-response retained. Spatial differentiation then gives
+then differentiation of the pressure product gives \(Q_1\), and the
+next velocity equation gives \(V_2\). At \(t=0\), this recurrence
+generates every initial derivative from \(u_0\). Throughout the motion,
+it gives the mixed fields
 \[
  J_{n,\alpha}(t,x)=\partial_x^\alpha V_n(t,x),
  \qquad
  \Pi_{n,\alpha}(t,x)=\partial_x^\alpha Q_n(t,x).
 \]
-These are fields on \(I\times\mathbb R^3\). Evaluating their equations
-at \(t=0\) gives the complete initial jet determined by \(u_0\);
-leaving \(t,x\) free retains the evolving mixed jet.
 
-A finite cut retains the equations together with their dependent
-coordinates. For a row indexed by \((n,\alpha)\), these include
-\[
- J_{n+1,\alpha},\qquad
- J_{n,\alpha+2e_\ell},\qquad
- \Pi_{n,\alpha+e_\ell},
- \qquad 1\le\ell\le3,
-\]
-and every transport factor
-\[
- J_{a,\beta,i},\qquad
- J_{n-a,\alpha-\beta+e_i},
- \qquad a\le n,\quad\beta\le\alpha.
-\]
-The pressure entries retain all factors in their differentiated Riesz
-product formula. Every retained coordinate is a derivative of the
-original history, including the outer temporal and spatial entries.
+Arrange the time derivatives down the rows of a matrix and the spatial
+orders across its columns. Any chosen calculation uses a finite depth
+\(N\) and height \(M\), which the paper calls a rectangle. Each entry
+still depends on all of space and on the entire interval \(I\).
+Its equation retains the neighbouring derivatives in the Laplacian,
+both factors of every transport product, and the pressure determined by
+those factors.
 
-The whole-terminal output of
-Theorem~\ref{u:thm:datum-finite-blocks} concerns this prescribed history.
-Every finite cut of its constructed jet has the adjacent memberships
+The viscous relationship is an exact relation between entries of this
+matrix. Rearranging the time equation gives
+\[
+ \nu\Delta V_n=V_{n+1}
+ +\sum_{a=0}^{n}\binom na(V_a\cdot\nabla)V_{n-a}
+ +\nabla Q_n.
+\]
+The next time response is tied to two more spatial derivatives, together
+with the complete transport and pressure sum. The initial jet fixes where
+every row begins. The construction retains these equations together on
+\(I\), with pressure fixed by its velocity products, and takes finite
+records of their compatible Sobolev realization. Increasing a rectangle
+reads more derivatives of this motion.
+
+A bound that deteriorates as \(t\) approaches \(T_*\) would still
+leave the possible singularity unresolved. The whole-interval construction
+result in Theorem~\ref{u:thm:datum-finite-blocks} establishes the paired
+memberships on \(I=(0,T_*)\):
 \[
  \begin{aligned}
  V_n&\in L^2(I;H^{M+1}),\\
@@ -262,11 +350,9 @@ Every finite cut of its constructed jet has the adjacent memberships
  \qquad 0\le n\le N,
  \end{aligned}
 \]
-for each finite \(N,M\). Selecting those entries gives
-\(\cR_{N,M}[u_0;T_*]\) by projection of the constructed jet. Increasing
-\(N,M\) changes which derivative coordinates are retained; every cut keeps
-the full time interval \(I\). Their finite norm measures that
-whole-interval output:
+for every finite \(N,M\). The paired heights \(M+1\) and \(M-1\)
+differ by the Laplacian's two derivatives. The rectangle
+\(\cR_{N,M}[u_0;T_*]\) has finite size
 \[
  \begin{aligned}
  \mathfrak R_{N,M}(u;T_*)
@@ -275,53 +361,68 @@ whole-interval output:
  &\hspace{36mm}+\|V_{n+1}\|_{L^2(I;H^{M-1})}^2\Bigr)<\infty.
  \end{aligned}
 \]
-Each selected membership includes finiteness of its defining integral on
-\(I\). Restricting the integration to \((0,T)\), with \(T<T_*\), can
-only decrease this sum. Theorem~\ref{u:thm:datum-rectangles} records the
-resulting finite-coordinate estimate.
+Each finite depth and height has its own bound. Restricting the integral
+to an earlier time can only decrease it.
 
-Pressure completion also gives a quantitative readout at each selected
-order. The product estimate and Cauchy--Schwarz in time give
+Time integration alone can allow a tall, narrow spike. Here the adjacent
+row also controls the rate of change. Differentiating the squared
+\(H^M\) norm and splitting its spatial weights gives
+\[
+ \frac{d}{dt}\|V_n(t)\|_{H^M}^2
+ =2\operatorname{Re}\langle
+ (1-\Delta)^{(M+1)/2}V_n,
+ (1-\Delta)^{(M-1)/2}V_{n+1}\rangle_{L^2}.
+\]
+The two factors are precisely the pair in the rectangle. Integration,
+Cauchy--Schwarz, and \(2ab\le a^2+b^2\) give
+\[
+ \sup_{0\le t<T_*}\|V_n(t)\|_{H^M}^2
+ \le\|V_n(0)\|_{H^M}^2
+ +\|V_n\|_{L^2(I;H^{M+1})}^2
+ +\|V_{n+1}\|_{L^2(I;H^{M-1})}^2.
+\]
+The initial value is fixed by \(u_0\), and the integrals remain finite
+through \(T_*\). The row is bounded at every time, including the approach
+to the proposed singularity. Increasing the rectangle gives this control
+at each further derivative order.
+
+Pressure follows the velocity products in its Poisson equation. A spatial
+product estimate, followed by Cauchy--Schwarz in time, gives
 \[
  \begin{aligned}
  \|Q_n\|_{L^1(I;H^M)}
  &\le C_M^{\rm p}\sum_{a=0}^{n}\binom na
        \|V_a\|_{L^2(I;H^{M+1})}\\
- &\hspace{35mm}\cdot\|V_{n-a}\|_{L^2(I;H^{M+1})}<\infty.
+ &\hspace{35mm}\cdot\|V_{n-a}\|_{L^2(I;H^{M+1})}<\infty,
  \end{aligned}
 \]
-For a mixed pressure coordinate, distribute the spatial derivatives between
-both factors as well. Increasing the selected spatial order includes every
-factor needed for any fixed \(\Pi_{n,\alpha}\).
+where \(C_M^{\rm p}\) is the spatial product constant. Spatial
+differentiation distributes the derivatives across those factors, so a
+sufficiently large rectangle covers every chosen pressure derivative too.
 
-Enlarging a finite cut preserves its existing fields. An entry with indices
-\((n,\alpha)\) is always \(\partial_x^\alpha\partial_t^n u\), and its
-pressure entry always comes from the differentiated normalized pressure
-formula. Deleting the outer indices recovers the smaller cut exactly.
-The initial faces agree because the recurrences begin with the original
-\(u_0\). This is the restriction compatibility used in
-Theorem~\ref{u:thm:compatible-inverse-intersection}.
+The rectangles agree where they overlap: an entry \((n,\alpha)\)
+always means \(\partial_x^\alpha\partial_t^nu\), beginning with the
+derivatives generated by \(u_0\). Enlarging the matrix preserves its
+existing entries. This compatibility lets us collect their bounds without
+changing the fluid being described.
 
-Now fix any finite temporal order \(r\) and spatial order \(m\).
-Choose a cut containing \(V_0,\ldots,V_r\) in \(L^2(I;H^m)\).
-Its adjacent equations identify those fields as the weak temporal
-derivatives of \(u\), so
+Choose any time order \(r\) and spatial order \(m\). A large enough
+rectangle contains \(V_0,\ldots,V_r\) in \(L^2(I;H^m)\), giving
 \[
  \|u\|_{H^r(I;H^m)}^2
  =\sum_{n=0}^{r}\|V_n\|_{L^2(I;H^m)}^2<\infty.
 \]
-Every finite pair \((r,m)\) is covered, giving
+Since every finite pair \((r,m)\) is covered,
 \[
  u\in\bigcap_{r,m\ge0}H^r(I;H^m(\mathbb R^3)).
 \]
-The intersection retains all these compatible memberships. Its definition
-requires each finite norm to be finite; it introduces no sum over
-infinitely many derivative orders and no constant common to the tower.
+The full intersection means that each finite number of time and spatial
+derivatives has a finite norm through \(T_*\). Every membership concerns
+the fluid that began at \(u_0\).
 
 \phantomsection\label{u:guide:mixed-jet-map}
-The critical-height construction begins independently from the governing
-energy identity. Differentiating \(H=E_{1/2}\) and substituting the full
-velocity--pressure rows gives
+The critical-height equations express the spatial side of this construction.
+Rearranging the identity already derived isolates each higher spatial energy:
 \[
  \begin{aligned}
  (-2\nu)^k E_{k+1/2}
@@ -331,75 +432,92 @@ velocity--pressure rows gives
  \qquad k\ge1.
  \end{aligned}
 \]
-Finite selections of these scalar relationships form the critical-height
-rectangles. The mixed-coordinate records come from differentiating the
-velocity and pressure fields. Each operation uses the governing equations
-on the prescribed history and can be performed before taking an
-all-orders intersection. Their overlapping velocity and pressure entries agree because
-both concern the prescribed history. Evaluating the height relationships
-on the constructed whole-interval jet reads its half-integer spatial
-energies. The finite-energy row controls low frequencies, and arbitrarily
-high half-integer weights control every finite integer Sobolev order.
-Corollary~\ref{u:cor:datum-critical-height-completion} makes this spatial
-exhaustion explicit; Proposition~\ref{u:prop:spatial-column-reconstruction}
-uses the full equation to recover the temporal and pressure rows. The two
-constructions thus retain their independent origins while their compatible
-outputs can be used together.
+Positive \(\nu\) makes its coefficient nonzero. Finite selections form
+the critical-height rectangles, obtained by differentiating the scalar
+energy. The mixed rectangles come from differentiating the velocity and
+pressure fields. Their common entries agree because both calculations
+use the original equation for \(u\).
 
-\Needspace{8\baselineskip}
-Viscosity gives the relationship between these rows. The term
-\(\nu\Delta V_n\) connects the next time derivative to two more spatial
-derivatives, with transport and pressure retained. Positive \(\nu\) lets us
-recover that spatial contribution from each complete row. 
+On the constructed whole-interval jet, these identities recover its
+half-integer spatial energies. Kinetic energy covers low frequencies;
+a weight of order \(k+\tfrac12\ge m\) covers the high frequencies
+needed for any chosen integer order \(m\). Together they give every
+finite spatial Sobolev order.
 
-In particular, choose a height large enough to put \(V_{n+1}\) in
-\(L^2(0,T_*;H^m)\). Between two late times,
+The equation also lets us recover the other rows from this complete
+spatial information. At any chosen height \(m\), two additional spatial
+orders give
 \[
- \|V_n(t)-V_n(s)\|_{H^m}
- \le(t-s)^{1/2}\|V_{n+1}\|_{L^2(s,t;H^m)},
- \qquad s<t<T_*.
+ \begin{aligned}
+ \|(u\cdot\nabla)u\|_{L^1(I;H^m)}
+ &\le C_m\|u\|_{L^2(I;H^{m+2})}^2,\\
+ \|\Delta u\|_{L^1(I;H^m)}
+ &\le\sqrt{T_*}\|u\|_{L^2(I;H^{m+2})},
+ \end{aligned}
 \]
-The remaining change tends to zero, so the row reaches an \(H^m\) limit.
-Limits at different spatial heights agree under restriction. For the
-velocity they identify a smooth endpoint
-\(u_*\in H^\infty_\sigma(\mathbb R^3)\), with the higher temporal rows
-and normalized pressure reaching their compatible endpoints. Local existence
-continues from \(u_*\), and uniqueness joins that continuation to the
-incoming flow. A finite \(T_*\) cannot be maximal.
+with \(C_m\) depending on the spatial order. The pressure formula gives
+an integrable pressure gradient as well. The right-hand side of the
+velocity equation is now integrable through \(T_*\), so its integral
+gives a continuous terminal velocity at every height. The recurrences
+then give \(Q_0,V_1\), followed by \(Q_1,V_2\), and so on.
+The time and spatial descriptions recover one another with viscosity,
+pressure, and transport present throughout.
 
-\Needspace{6\baselineskip}
+There is still a distinction between boundedness before \(T_*\) and
+reaching a state from which the fluid can continue. The next time row
+settles it. Integrating \(V_{n+1}\) between two late times gives
+\[
+ \begin{aligned}
+ \|V_n(t)-V_n(s)\|_{H^m}
+ &\le\int_s^t\|V_{n+1}(\tau)\|_{H^m}\,d\tau\\
+ &\le(t-s)^{1/2}\|V_{n+1}\|_{L^2(s,t;H^m)},
+ \qquad s<t<T_*.
+ \end{aligned}
+\]
+The remaining change tends to zero. Each row reaches a limit in every
+finite \(H^m\), and the limits at different heights agree. The velocity
+reaches a smooth divergence-free state
+\(u_*\in H^\infty_\sigma(\mathbb R^3)\). The pressure formula and
+differentiated equations pass to these limits, giving its complete velocity
+and pressure jet.
+
+Local existence starts a smooth solution from \(u_*\). Its derivatives
+match the incoming ones, and uniqueness joins the continuation to the
+incoming motion. The fluid passes through \(T_*\). It cannot be a
+finite maximal time.
+
 \phantomsection\label{u:guide:finite-estimates}
-The finite estimates now come from whichever rectangle contains the
-orders they require. For temporal order \(r\), spatial derivative order
-\(k\), and finite time \(T\), choose \(m>k+\tfrac32\). Continuity in
-\(H^m\) and Sobolev embedding give
+Each finite part of the matrix also gives concrete bounds on any finite
+interval \([0,T]\). For a time
+derivative of order \(r\) and a spatial derivative of order \(k\), choose
+\(m>k+\tfrac32\). Sobolev embedding then bounds its largest size
+anywhere in the fluid:
 \[
  \sup_{0\le t\le T}\|\partial_t^ru(t)\|_{W^{k,\infty}}
  \le C_{m,k}\sup_{0\le t\le T}\|\partial_t^ru(t)\|_{H^m}<\infty.
 \]
-In particular, the accumulated velocity gradient is finite. For two material
-trajectories, this gives
+Here \(C_{m,k}\) is the embedding constant. In particular, the velocity
+gradient has a finite time integral. That gradient bounds how quickly
+neighbouring fluid particles approach each other. For particles starting
+at \(a\) and \(b\), integration along their trajectories gives
 \[
  |X(a,t)-X(b,t)|\ge |a-b|
  \exp\!\left(-\int_0^t\|\nabla u(s)\|_\infty\,ds\right)>0.
 \]
-\Needspace{4\baselineskip}
 The vortex can stretch and narrow, but a positive material separation
-retains a positive lower bound throughout each finite interval.  The two
-compatible exhaustions give the regularity, and each finite rectangle retains
-the estimates at the orders where they are used.
+retains a positive lower bound throughout each finite interval.
 
 So, for example, choose the rectangle with \(N=0\) and \(M=1\).
-Write the sizes of its velocity and time-derivative entries as
+It contains the velocity in \(L^2(0,T;H^2)\) and its time derivative in
+\(L^2(0,T;L^2)\). Write their sizes as
 \[
  \begin{aligned}
  A_T&=\left(\int_0^T\|u(t)\|_{H^2}^2\,dt\right)^{1/2},\\
  B_T&=\left(\int_0^T\|\partial_tu(t)\|_2^2\,dt\right)^{1/2}.
  \end{aligned}
 \]
-The time-derivative entry controls the change in the \(H^1\) trace.
-Pairing \(\partial_tu\) with \((1-\Delta)u\), then applying
-Cauchy--Schwarz in time, gives, for \(0\le t\le T\),
+The adjacent-row calculation now bounds the \(H^1\) norm at every
+time. Pair \(u_t\) with \((1-\Delta)u\) and integrate:
 \[
  \begin{aligned}
  \|u(t)\|_{H^1}^2
@@ -409,26 +527,27 @@ Cauchy--Schwarz in time, gives, for \(0\le t\le T\),
  &\le\|u_0\|_{H^1}^2+2A_TB_T.
  \end{aligned}
 \]
-\Needspace{6\baselineskip}
-With the unitary Fourier normalization, the quantitative spatial
-\(H^1\hookrightarrow L^3\) estimate is
+These two entries give three familiar regularity estimates. First, the
+\(L^3\) velocity norm is unchanged by the vortex rescaling, so it
+measures concentration across scales. The spatial embedding
 \[
- \|f\|_{L^3}\le\frac{\|f\|_{H^1}}{2^{5/6}\pi^{1/6}}.
+ \|f\|_{L^3}\le\frac{\|f\|_{H^1}}{2^{5/6}\pi^{1/6}}
 \]
-Applying it to the trace just obtained gives the
-Escauriaza--Seregin--\v{S}ver\'ak endpoint estimate:
+turns the \(H^1\) bound into the Escauriaza--Seregin--\v{S}ver\'ak
+endpoint estimate. The numerical constants here use the paper's unitary
+Fourier normalization:
 \[
  \sup_{0\le t\le T}\|u(t)\|_{L^3}
  \le \frac{\bigl(\|u_0\|_{H^1}^2+2A_TB_T\bigr)^{1/2}}
               {2^{5/6}\pi^{1/6}}.
 \]
 
-The \(H^2\) entry also controls peak speed at each time. The spatial
-estimate is
+Second, the \(H^2\) entry bounds the largest speed anywhere in the fluid:
 \[
  \|u(t)\|_{L^\infty}\le\frac{\|u(t)\|_{H^2}}{\sqrt{8\pi}}.
 \]
-Squaring and integrating gives the Serrin estimate:
+Its squared time integral is already contained in \(A_T^2\), giving
+the Serrin estimate,
 \[
  \left(\int_0^T\|u(t)\|_{L^\infty}^2\,dt\right)^{1/2}
  \le\frac1{\sqrt{8\pi}}
@@ -436,12 +555,15 @@ Squaring and integrating gives the Serrin estimate:
  =\frac{A_T}{\sqrt{8\pi}}.
 \]
 
-For the gradient, the spatial \(H^2\hookrightarrow W^{1,3}\) estimate gives
+\Needspace{9\baselineskip}
+Third, the spatial \(H^2\hookrightarrow W^{1,3}\) estimate bounds
+the velocity gradient:
 \[
  \|\nabla u(t)\|_{L^3}
  \le\frac{\sqrt3\,7^{1/6}}{2^{5/3}\pi^{1/6}}\|u(t)\|_{H^2}.
 \]
-Integrating its square gives the Beir\~ao da Veiga estimate~\cite{BeiraoDaVeiga1995}:
+Its squared time integral is again bounded by \(A_T^2\), giving the
+Beir\~ao da Veiga estimate~\cite{BeiraoDaVeiga1995}:
 \[
  \left(\int_0^T\|\nabla u(t)\|_{L^3}^2\,dt\right)^{1/2}
  \le\frac{\sqrt3\,7^{1/6}}{2^{5/3}\pi^{1/6}}
@@ -451,5 +573,150 @@ Integrating its square gives the Beir\~ao da Veiga estimate~\cite{BeiraoDaVeiga1
 \phantomsection\label{u:guide:how-proof-ends}
 The memberships measured by \(\mathfrak R_{0,1}\) give all three estimates.
 Choosing higher rectangles extends the calculation to higher derivatives.
+
+An external force changes the acceleration of the fluid. It enters both
+the velocity equation and the pressure that enforces incompressibility:
+\[
+ \begin{aligned}
+ u_t+(u\cdot\nabla)u+\nabla p&=\nu\Delta u+f,
+ &\nabla\cdot u&=0,\\
+ -\Delta p&=\partial_i\partial_j(u_i u_j)-\nabla\cdot f.
+ \end{aligned}
+\]
+Fix the initial velocity, positive viscosity, and the prescribed force
+\(f\). The forced theorem takes \(f\) smooth through each finite
+time, with its mixed derivatives decaying rapidly in space, uniformly on
+finite intervals:
+\(f\in C^\infty([0,\infty);\mathcal S(\mathbb R^3;\mathbb R^3))\).
+A smooth force with compact support in space and time belongs to this
+class. Its size enters the bounds. Writing \(F_n=\partial_t^nf\),
+the differentiated equations become
+\[
+ \begin{aligned}
+ V_{n+1}&=\nu\Delta V_n
+ -\sum_{a=0}^{n}\binom na(V_a\cdot\nabla)V_{n-a}
+ -\nabla Q_n+F_n,\\
+ -\Delta Q_n&=\partial_i\partial_j
+   \sum_{a=0}^{n}\binom na V_{a,i}V_{n-a,j}-\nabla\cdot F_n.
+ \end{aligned}
+\]
+Spatial differentiation adds \(\partial_x^\alpha F_n\) to each mixed
+row. The initial recurrence uses \(F_n(0)\) alongside \(u_0\), and
+the pressure responds to the force through its divergence.
+
+In the energy balance, the additional term is the work done by the force:
+\[
+ E_s'=-2\nu E_{s+1}+\mathcal P_s+W_s,
+ \qquad
+ W_s=\operatorname{Re}\langle\Lambda^su,\Lambda^sf\rangle.
+\]
+The viscous coefficient stays \(-2\nu\). Repeated differentiation
+now includes the derivatives of the force work:
+\[
+ H^{(k)}=(-2\nu)^k E_{k+1/2}
+ +\sum_{j=0}^{k-1}(-2\nu)^j
+  \partial_t^{\,k-1-j}(\mathcal P_{j+1/2}+W_{j+1/2}).
+\]
+Every derivative of \(W_s\) pairs velocity derivatives with known
+derivatives of \(f\). Their contribution to a selected row can be
+bounded directly. Split the spatial weights between \(V_n\) and
+\(F_n\), then apply Cauchy--Schwarz and Young's inequality:
+\[
+ 2\bigl|\langle V_n,F_n\rangle_{H^M}\bigr|
+ \le\nu\|V_n\|_{H^{M+1}}^2
+      +\nu^{-1}\|F_n\|_{H^{M-1}}^2.
+\]
+The first term is absorbed at the spatial order of the viscous estimate.
+The second has a finite time integral because the force is prescribed
+and smooth through \(T_*\). Its pressure contribution is controlled by
+the Poisson formula. Retaining these source terms, the forced construction
+supplies the paired whole-interval bounds
+\[
+ \mathfrak R^f_{N,M}(u;T_*)
+ =\sum_{n=0}^{N}\left(
+ \|V_n\|_{L^2(I;H^{M+1})}^2
+ +\|V_{n+1}\|_{L^2(I;H^{M-1})}^2\right)<\infty
+\]
+for every finite \(N,M\). The bounds now depend on the force as well
+as \(u_0\) and \(\nu\). The adjacent-row calculation again gives
+bounds at every time, and compatibility collects the finite orders into
+\[
+ u\in\bigcap_{r,m\ge0}H^r(I;H^m(\mathbb R^3)).
+\]
+
+Integrating the next time derivative makes the remaining change tend to
+zero at \(T_*\). The fluid reaches a smooth state \(u_*\), with
+pressure and higher derivatives fixed by the forced recurrence and the
+values \(F_n(T_*)\). Local existence continues from that state with
+the prescribed \(f(t)\) at its original time. The derivatives agree
+across \(T_*\), and uniqueness joins the incoming and outgoing motion.
+The proposed singular time is again an ordinary time of the flow.
+
+The bounds reach each term of the momentum equation individually:
+\[
+ \sup_{0\le t\le T}\left(
+ \|u_t\|_{H^m}+\|(u\cdot\nabla)u\|_{H^m}
+ +\|\nabla p\|_{H^m}+\nu\|\Delta u\|_{H^m}
+ \right)<\infty,
+ \qquad m<\infty.
+\]
+The time derivative is a row of the matrix; the Laplacian uses two more
+spatial orders; transport is a product of controlled derivatives; pressure
+is determined by the velocity and force. Sobolev embedding bounds their
+pointwise sizes too. Thus each term stays finite, even when the terms
+partly cancel in the equation.
+
+OpenAI's proposed blowup starts from rest, uses a smooth force with compact support,
+and concentrates increasing velocity into a shrinking region while keeping
+kinetic energy finite.\footnote{OpenAI,
+\href{https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf}{\emph{Finite Time Blowup for Navier--Stokes}},
+Theorem~1.1 and Section~10, especially (10.20)--(10.21).}
+This returns to the opening problem: total energy can remain finite while
+velocity concentrates into a smaller region. Write \(v\) for the
+proposed velocity and put its proposed singular time at \(t=1\).
+With \(\tau=1-t\), its claimed growth in (10.21) implies
+\[
+ \|v(1-\tau)\|_{L^\infty}\ge c\,\tau^{-A}\longrightarrow\infty,
+ \qquad c>0,\quad A>0.
+\]
+The relevant bound is on the largest speed. If the proposed force has
+its stated smooth extension through \(t=1\), denote it by
+\(f_{\rm OA}\). The forced theorem gives a smooth solution \((U,P)\)
+from rest for that force and viscosity, through \(t=1\).
+
+Before \(t=1\), both \(v\) and \(U\) solve the prescribed initial
+value problem. Their difference \(z=v-U\) starts at zero. Subtracting
+the equations cancels the force; pairing with \(z\) and using
+incompressibility gives
+\[
+ \frac12\frac{d}{dt}\|z\|_2^2+\nu\|\nabla z\|_2^2
+ \le\|\nabla U\|_\infty\|z\|_2^2,
+ \qquad z(0)=0.
+\]
+The coefficient has a finite time integral, so Gronwall's inequality
+keeps the difference zero. On every closed interval ending before \(1\),
+\(v=U\).
+
+The rectangle \(N=0,M=2\) contains \(U\) at spatial height \(3\)
+and \(U_t\) at height \(1\). Their adjacent-row trace bounds
+\(H^2\) at every time, which bounds the speed. With zero initial velocity,
+\[
+ \begin{aligned}
+ \mathfrak R^f_{0,2}[U]
+ &=\|U\|_{L^2(0,1;H^3)}^2
+   +\|U_t\|_{L^2(0,1;H^1)}^2<\infty,\\
+ \sup_{0\le t<1}\|v(t)\|_{L^\infty}^2
+ &=\sup_{0\le t<1}\|U(t)\|_{L^\infty}^2
+ \le\frac{\mathfrak R^f_{0,2}[U]}{8\pi}<\infty.
+ \end{aligned}
+\]
+The proposed divergence contradicts this finite bound. Under the stated
+smooth-force hypothesis, the flow continues smoothly through \(t=1\);
+the divergent field cannot solve that initial value problem.
+
+The vortex can stretch, narrow, and gain energy from the force. Its velocity,
+pressure, and derivatives remain coupled throughout that motion. The
+finite bounds obtained from their viscous relationship survive down through
+the scales, and the fluid reaches a smooth state from which it continues.
 
 \endgroup
