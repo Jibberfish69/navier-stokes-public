@@ -1,5 +1,22 @@
 # NS proof: start here
 
+## Current presentation PDFs
+
+- [Latest proof excerpt](presentations/how-the-proof-works-ns-excerpt.pdf)
+
+- [Revised main paper](presentations/unified-unforced-forced-openai-refutation.pdf)
+
+The retained Markdown, HTML and executable proof files are unchanged.
+
+Begin with **Recovered argument** in the HTML viewer. In the executable, read the source-recovery entry with either command:
+
+```sh
+python3 NS.proof.pyz work --branch unforced --entry recovered
+python3 NS.proof.pyz work --branch forced --entry recovered
+```
+
+This entry develops the recovered source argument with original speaker and source attribution. Historical optional and withdrawn branches remain separate.
+
 This bundle contains the proof exposition, mathematical sources and tools for
 reading them. No prior recipient explanations, evaluation reports or saved
 reader notes are included.

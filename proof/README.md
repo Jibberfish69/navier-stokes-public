@@ -2,9 +2,18 @@
 
 [Download the complete ZIP](NS.proof-handoff.zip) · [Read the instructions](START.md) · [Current manuscript](../papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/)
 
-The October 19, 2026 release contains 58 source snapshots and 16 argument transitions.
-It includes all 42 inputs of the current manuscript.
-[RELEASE.json](RELEASE.json) records the source refresh, edition details, and file hashes.
+The October 20, 2026 release contains 242 retained source snapshots and 20 argument transitions.
+The ZIP and its seven loose members are published byte for byte from the supplied package.
+[RELEASE.json](RELEASE.json) records the package, presentation attachments, archived edition, and file hashes.
+
+## Current presentation PDFs
+
+- [How the Proof Works: 11-page excerpt](presentations/how-the-proof-works-ns-excerpt.pdf)
+- [Revised main paper: 234 pages](presentations/unified-unforced-forced-openai-refutation.pdf)
+
+The current manuscript's 42 TeX inputs have a [separate source archive](../papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/current-source.zip).
+The retained proof-source snapshots remain exactly as supplied in this custody package.
+The [Figshare record](https://doi.org/10.6084/m9.figshare.34005666) currently holds version 3; its October 20 update is pending.
 
 ## Choose a format
 
@@ -15,8 +24,7 @@ It includes all 42 inputs of the current manuscript.
 | [NS.proof.pyz](NS.proof.pyz) | Run the offline reader with Python 3. |
 | [NS.proof.html](NS.proof.html) | Download this viewer and open it in a local browser. |
 
-The ZIP contains the text, Python archive, HTML viewer, instructions, and a manifest.
-It excludes earlier recipient explanations, evaluation reports, and saved reader notes.
+The ZIP includes these reading formats, [START.md](START.md), [HANDOFF.json](HANDOFF.json), and both presentation PDFs.
 
 ## Use the offline reader
 
@@ -27,18 +35,23 @@ From the directory that contains `NS.proof.pyz`, run this command:
 python3 NS.proof.pyz verify
 ```
 
-To read the unforced construction, run this command:
+To read the recovered unforced construction, run this command:
 
 ```sh
-python3 NS.proof.pyz work --branch unforced --entry datum
+python3 NS.proof.pyz work --branch unforced --entry recovered
 ```
 
-To read the forced construction, run this command:
+To read the recovered forced construction, run this command:
 
 ```sh
-python3 NS.proof.pyz work --branch forced --entry datum
+python3 NS.proof.pyz work --branch forced --entry recovered
 ```
 
 [START.md](START.md) lists the other reading routes and the prompt for a new receiving AI.
-[SHA256SUMS](SHA256SUMS) contains the release file hashes.
-The `verify` command verifies archive integrity and source bytes.
+[SHA256SUMS](SHA256SUMS) contains the current release file hashes.
+The `verify` command checks archive integrity and retained source bytes.
+
+## Earlier public edition
+
+[The October 19 edition with 58 sources](archive/2026-10-19-58-sources/) preserves all eight previously published files without changes.
+[The archive index](archive/README.md) links its original ZIP and release record.
