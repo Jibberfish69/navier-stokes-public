@@ -2,7 +2,7 @@
 
 **Global Smoothness for the Three-Dimensional Incompressible Navier–Stokes Equations, with a Refutation of OpenAI’s Finite-Time Blowup Claim** — Thomas Birnie.
 
-[Read the current PDF](unified-unforced-forced-openai-refutation.pdf) · [Figshare record](https://doi.org/10.6084/m9.figshare.34005666) · [Custody object](../../../proof/)
+[Read the current PDF](unified-unforced-forced-openai-refutation.pdf) · [Figshare version 4](https://doi.org/10.6084/m9.figshare.34005666.v4) · [Custody object](../../../proof/)
 
 ## How the Proof Works excerpt
 
@@ -14,7 +14,7 @@ Use the complete manuscript source to rebuild it in context.
 
 The current manuscript revision is dated October 20, 2026. It includes the revised opening guide and prose cleanup in existing inputs.
 The tagged native PDF has 234 letter-size pages.
-The Figshare record currently holds the earlier version 3; its October 20 update is pending.
+Its bytes match the public [Figshare version 4](https://doi.org/10.6084/m9.figshare.34005666.v4) download.
 [CURRENT-RELEASE.json](CURRENT-RELEASE.json) records the PDF hashes, source hashes, and edition details.
 
 [Download the current source ZIP](current-source.zip), or use the 42 TeX inputs in this directory.

@@ -13,7 +13,7 @@ The ZIP and its seven loose members are published byte for byte from the supplie
 
 The current manuscript's 42 TeX inputs have a [separate source archive](../papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/current-source.zip).
 The retained proof-source snapshots remain exactly as supplied in this custody package.
-The [Figshare record](https://doi.org/10.6084/m9.figshare.34005666) currently holds version 3; its October 20 update is pending.
+The [Figshare version 4](https://doi.org/10.6084/m9.figshare.34005666.v4) download matches the revised main paper PDF in this package.
 
 ## Choose a format
 

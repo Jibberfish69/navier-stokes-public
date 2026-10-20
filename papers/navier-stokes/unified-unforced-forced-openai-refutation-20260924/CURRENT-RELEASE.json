@@ -2,13 +2,14 @@
   "release_date": "2026-10-20",
   "manuscript_revision_date": "2026-10-20",
   "title": "Global Smoothness for the Three-Dimensional Incompressible Navier\u2013Stokes Equations, with a Refutation of OpenAI\u2019s Finite-Time Blowup Claim",
-  "doi": "10.6084/m9.figshare.34005666",
+  "doi": "10.6084/m9.figshare.34005666.v4",
   "native_pdf": {
     "path": "unified-unforced-forced-openai-refutation.pdf",
     "sha256": "b57b52b3ec74ecc45e2bf9bb7a301ab367ac20ef928ab9a9a143ccc406320e14",
     "bytes": 7411132,
     "pages": 234,
-    "tagged": true
+    "tagged": true,
+    "figshare_file_id": 70404168
   },
   "current_source": {
     "path": "current-source.zip",
@@ -37,7 +38,8 @@
     "portable_build_exit": 0,
     "source_inputs_match_current_canonical_bytes": 42,
     "portable_body_inputs_match_native": 41,
-    "guide_source_matches_manuscript_input": true
+    "guide_source_matches_manuscript_input": true,
+    "native_pdf_matches_figshare_v4": true
   },
   "excerpt": {
     "path": "excerpt/how-the-proof-works-ns-excerpt.pdf",
@@ -49,8 +51,14 @@
   },
   "figshare": {
     "article_id": 34005666,
-    "latest_published_version": 3,
-    "october_20_update": "pending",
-    "current_native_pdf_deposited": false
+    "latest_published_version": 4,
+    "doi": "10.6084/m9.figshare.34005666.v4",
+    "published_date": "2026-10-20T19:49:29Z",
+    "file_id": 70404168,
+    "download_url": "https://ndownloader.figshare.com/files/70404168",
+    "bytes": 7411132,
+    "sha256": "b57b52b3ec74ecc45e2bf9bb7a301ab367ac20ef928ab9a9a143ccc406320e14",
+    "october_20_update": "published",
+    "current_native_pdf_deposited": true
   }
 }

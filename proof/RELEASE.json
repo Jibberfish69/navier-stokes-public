@@ -7,14 +7,18 @@
   "authoritative_bundle_sha256": "f2d39ee70b7548d206e0d49c6d6b566c812a6057708463a061ed2f78fa67b030",
   "proof_members_preserved_from_authoritative_bundle": true,
   "all_seven_loose_members_match_bundle": true,
-  "manuscript_doi": "10.6084/m9.figshare.34005666",
+  "manuscript_doi": "10.6084/m9.figshare.34005666.v4",
   "manuscript_pdf_sha256": "b57b52b3ec74ecc45e2bf9bb7a301ab367ac20ef928ab9a9a143ccc406320e14",
   "figshare": {
     "article_id": 34005666,
-    "published_version": 3,
-    "published_version_doi": "10.6084/m9.figshare.34005666.v3",
-    "published_version_pdf_sha256": "31f35fb35777dfb44f965509a16bb885840933a1f6b75113d11c4e4fbdc5f297",
-    "october_20_update": "pending"
+    "published_version": 4,
+    "published_version_doi": "10.6084/m9.figshare.34005666.v4",
+    "published_version_pdf_sha256": "b57b52b3ec74ecc45e2bf9bb7a301ab367ac20ef928ab9a9a143ccc406320e14",
+    "published_date": "2026-10-20T19:49:29Z",
+    "file_id": 70404168,
+    "download_url": "https://ndownloader.figshare.com/files/70404168",
+    "bytes": 7411132,
+    "october_20_update": "published"
   },
   "presentation_attachments": [
     {
