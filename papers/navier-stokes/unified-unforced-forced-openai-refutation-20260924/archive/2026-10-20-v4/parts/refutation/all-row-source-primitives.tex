@@ -1,0 +1,184 @@
+\subsection{The source primitive at every temporal row}
+\label{r:sec:all-row-primitives}
+
+For \(h_s=\Lambda^{2s}\Pp f\), the kinetic bound also controls
+the full direct source current at every finite temporal row.
+Set
+
+\[
+M_{s,k}(t)=\operatorname{Re}\langle u(t),\partial_t^kh_s(t)\rangle.
+\]
+
+The exact binomial transfer is
+
+\[
+W_{r,s}
+=\sum_{b=0}^r(-1)^b\binom rb
+\partial_t^{r-b}M_{s,r+b}.
+\]
+
+To verify all indices and signs, expand the derivative on the right. The coefficient of
+$\langle V_a,\partial_t^{2r-a}h_s\rangle$ is
+
+\[
+\sum_{b=0}^{r-a}(-1)^b\binom rb\binom{r-b}{a}
+=\binom ra\sum_{b=0}^{r-a}(-1)^b\binom{r-a}{b}.
+\]
+
+It is zero for $a<r$ and one for $a=r$. The surviving term is
+$\langle V_r,\partial_t^rh_s\rangle=W_{r,s}$.
+
+The momentum calculation in \eqref{r:eq:source-first} also applies to
+every prescribed test field \(g_{s,k}=\partial_t^kh_s\). It gives
+\begin{equation}
+\begin{aligned}
+ M_{s,k}'={}&\operatorname{Re}\ip{u}{(\partial_t+\nu\Delta)g_{s,k}}\\
+ &+\int_{\R^3}u_i u_j(\operatorname{Sym}\nabla g_{s,k})_{ij}\dd x
+ +\operatorname{Re}\ip{f}{g_{s,k}}.
+ \label{r:eq:all-row-test-derivative}
+\end{aligned}
+\end{equation}
+Thus both the test pairing and its first time derivative are bounded
+by kinetic energy and prescribed source norms:
+\begin{equation}
+\begin{aligned}
+ \norm{M_{s,k}}_\infty&\le\mathsf B_{s,k}
+ :=K_T\norm{g_{s,k}}_{L^\infty_tL^2_x},\\
+ \norm{M_{s,k}'}_\infty&\le\mathsf L_{s,k}
+ :=K_T\norm{(\partial_t+\nu\Delta)g_{s,k}}_{L^\infty_tL^2_x}\\
+ &\quad+K_T^2\norm{\operatorname{Sym}\nabla g_{s,k}}_{L^\infty_{t,x},\mathrm{op}}
+ +\norm{f}_{L^\infty_tL^2_x}\norm{g_{s,k}}_{L^\infty_tL^2_x}.
+ \label{r:eq:all-row-test-bounds}
+\end{aligned}
+\end{equation}
+The additional derivative bound removes two integrations from the
+source primitive at every temporal row. Write the complete source
+correction as
+\[
+ \mathcal F_{r,s,n}:=\sum_{j=0}^{n-1}(-2\nu)^j
+ \partial_t^{n-1-j}W_{r,s+j},\qquad n\ge1.
+\]
+
+\begin{proposition}[Source correction with two fewer integrations]
+\label{r:prop:all-row-sharp-primitive}
+For every fixed \(r\ge0\), \(n\ge1\), and \(s\ge0\), the complete
+source correction satisfies
+\begin{equation}
+ \norm{I^{\max(n+r-2,0)}\mathcal F_{r,s,n}}_{L^\infty(0,T)}<\infty.
+ \label{r:eq:all-row-sharp-primitive}
+\end{equation}
+The bound uses \(\nu,T\), the kinetic bound, prescribed force norms,
+and finitely many initial jets. No restriction on the force amplitude
+or higher velocity norm is required.
+\end{proposition}
+
+\begin{proof}
+Substitution of the binomial transfer into the complete source
+correction gives
+\begin{equation}
+ \mathcal F_{r,s,n}
+ =\sum_{j=0}^{n-1}\sum_{b=0}^r(-2\nu)^j(-1)^b\binom rb
+ \partial_t^{n+r-1-j-b}M_{s+j,r+b}.
+ \label{r:eq:all-row-source-transfer}
+\end{equation}
+When \((r,n)=(0,1)\), this is \(M_{s,0}\), already bounded by
+\eqref{r:eq:all-row-test-bounds}. Otherwise put \(q=n+r-2\). For
+\(0\le v\le q+1\), repeated integration gives
+\begin{equation}
+ I^q\partial_t^{q+1-v}M=\mathcal J_{q,v}[M],\qquad
+ \mathcal J_{q,v}[M]=
+ \begin{cases}
+ M'-\displaystyle\sum_{\ell=0}^{q-1}
+ M^{(\ell+1)}(0)\dfrac{t^\ell}{\ell!},&v=0,\\[7pt]
+ M-\displaystyle\sum_{\ell=0}^{q-1}
+ M^{(\ell)}(0)\dfrac{t^\ell}{\ell!},&v=1,\\[7pt]
+ I^{v-1}M-\displaystyle\sum_{\ell=0}^{q-v}
+ M^{(\ell)}(0)\dfrac{t^{v-1+\ell}}{(v-1+\ell)!},&v\ge2.
+ \end{cases}
+ \label{r:eq:all-row-sharp-integration}
+\end{equation}
+Empty sums vanish. In summand \((j,b)\) of
+\eqref{r:eq:all-row-source-transfer}, take \(v=j+b\). The first two
+branches are bounded by \(\mathsf L_{s+j,r+b}\) and
+\(\mathsf B_{s+j,r+b}\), together with their initial polynomials.
+For the third branch,
+\[
+ \norm{I^{v-1}M_{s,k}}_\infty
+ \le\frac{T^{v-1}}{(v-1)!}\mathsf B_{s,k}.
+\]
+Every initial coefficient is finite: the product rule writes it as
+\[
+ M_{s,k}^{(\ell)}(0)
+ =\sum_{c=0}^{\ell}\binom\ell c
+ \operatorname{Re}\ip{V_c(0)}{g_{s,k+\ell-c}(0)},
+\]
+and \eqref{r:eq:initial} determines each \(V_c(0)\) from the smooth
+datum and prescribed force jet. There are finitely many summands for
+each fixed \((r,s,n)\), proving \eqref{r:eq:all-row-sharp-primitive}.
+\end{proof}
+
+For the nonnegative integrated height identity below, it remains useful
+to write the source correction after \(n+r\) integrations explicitly.
+Apply $I^{n+r}$ to \(\mathcal F_{r,s,n}\). For $0\le j<n$ and $0\le b\le r$, put $q=j+b+1$. The integration formula \eqref{r:eq:primitive-initial-terms}, with total integration order $n+r$, gives
+
+\[
+\begin{aligned}
+&I^{n+r}
+\partial_t^{n-1-j+r-b}M_{s+j,r+b}(t)\\
+&\quad=I^qM_{s+j,r+b}(t)
+-\sum_{\ell=0}^{n+r-2-j-b}
+M_{s+j,r+b}^{(\ell)}(0)
+\frac{t^{q+\ell}}{(q+\ell)!}.
+\end{aligned}
+\]
+
+An upper index of \(-1\) means an empty sum. Multiplying the preceding identity by
+$(-2\nu)^j(-1)^b\binom rb$ and summing gives the entire source current, with no terminal derivative.
+
+\Needspace{10\baselineskip}
+For an explicit bound, set
+
+\[
+S_{s,k}=\sup_{0\le t\le T}\|\partial_t^kh_s(t)\|_2.
+\]
+
+Then $|M_{s,k}|\le K_TS_{s,k}$ and
+\[
+\sup_{t<T}|I^{n+r}\mathcal F_{r,s,n}(t)|\le B_{r,s,n},
+\]
+where
+
+\[
+\begin{aligned}
+B_{r,s,n}:=
+\sum_{j=0}^{n-1}\sum_{b=0}^r
+(2\nu)^j\binom rb
+\Bigg[
+&K_TS_{s+j,r+b}\frac{T^{j+b+1}}{(j+b+1)!}\\
+&+\sum_{\ell=0}^{n+r-2-j-b}
+|M_{s+j,r+b}^{(\ell)}(0)|
+\frac{T^{j+b+1+\ell}}{(j+b+1+\ell)!}
+\Bigg]<\infty .
+\end{aligned}
+\]
+
+Every initial jet is finite by the forced recurrence and smooth initial data. This establishes finite integrated direct forcing in every temporal row and at every spatial height, separately for each finite $r,s,n$.
+
+Write
+\(\mathcal N_{r,s,n}=\sum_{j=0}^{n-1}(-2\nu)^j
+\partial_t^{n-1-j}\mathcal P_{r,s+j}\).
+For odd \(n\), integrating \eqref{r:eq:completed} $n+r$ times gives
+
+\[
+\begin{aligned}
+I^rE_{r,s}
++(2\nu)^nI^{n+r}E_{r,s+n}
+={}&I^rT_{r,s,n}
++I^{n+r}\mathcal N_{r,s,n}\\
+&+I^{n+r}\mathcal F_{r,s,n},
+\end{aligned}
+\]
+
+where
+$T_{r,s,n}(t)=\sum_{\ell=0}^{n-1}E_{r,s}^{(\ell)}(0)t^\ell/\ell!$.
+Both left-hand terms are nonnegative. Thus divergence of $I^rE_{r,s}$ requires an unbounded upper value of $I^{n+r}\mathcal N_{r,s,n}$ at every odd $n$. For $r>0$, this conclusion requires divergence of the indicated time integral; pointwise divergence of $E_{r,s}$ alone is insufficient.

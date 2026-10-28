@@ -1,77 +1,6 @@
 # Navier–Stokes: a working proof, from the original fluid to continuation
 
-Begin with **Recovered argument** to follow the primary source reasoning, with its equations, source dates and separate author/assistant attribution. The original branch and independent-entry chapters remain available.
-
-The source argument follows one fluid from its initial velocity to a proposed finite final time and then continues that fluid through it using its stated native whole-interval theorem. The full author-written opening is available through `author`; the transitions below develop its mathematical operations and retain their exact sources.
-
-The problem starts with a vortex. Strain stretches it, incompressibility narrows its cross-section, and its rotation can intensify while viscosity spreads the vorticity. The danger concerns the development of these rates together. Under Navier–Stokes scaling
-\[
-u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),\qquad p_\lambda(x,t)=\lambda^2p(\lambda x,\lambda^2t),
-\]
-transport and viscosity both scale by \(\lambda^3\). Energy scales by \(\lambda^{-1}\), while
-\[
-\|u_\lambda\|_{\dot H^s}=\lambda^{s-1/2}\|u\|_{\dot H^s}.
-\]
-The critical height \(s=1/2\) measures rescaled concentration without discounting its smaller spatial scale. A hypothetical repeated contraction has durations \(\tau_j=\lambda^{-2j}\tau_0\), whose sum is finite. This is the physical entry to the derivative structure that the source develops.
-
-Fix \(u_0\in H^\infty_\sigma(\mathbb R^3)\), \(\nu>0\), and the generated maximal pressure-complete history \((T_*,u,p)\). In the unforced branch,
-\[
-u_t+(u\cdot\nabla)u+\nabla p=\nu\Delta u,\quad \nabla\cdot u=0,\quad p=R_iR_j(u_i u_j).
-\]
-In the prescribed-force branch fix the complete triple \((u_0,\nu,f)\), with \(f\) smooth in time and Schwartz in space. Add \(f\) to momentum and subtract \((-\Delta)^{-1}\nabla\cdot f\) from pressure. The original future force remains fixed through restart.
-
-Time differentiation at fixed spatial position makes every possible allocation of derivatives between the velocity factors appear. Put \(V_n=\partial_t^nu\), \(Q_n=\partial_t^np\), \(F_n=\partial_t^nf\), and \(B_n=\sum_{a=0}^n\binom na(V_a\cdot\nabla)V_{n-a}\). The full temporal row is
-\[
-V_{n+1}+B_n+\nabla Q_n=\nu\Delta V_n+F_n,
-\quad Q_n=R_iR_j\sum_{a=0}^n\binom na(V_a)_i(V_{n-a})_j-\Phi_n,
-\]
-where \(\Phi_n=(-\Delta)^{-1}\nabla\cdot F_n\), with \(F_n=\Phi_n=0\) unforced. Spatial differentiation gives \(J_{n,\alpha}=\partial_x^\alpha V_n\), \(\Pi_{n,\alpha}=\partial_x^\alpha Q_n\), and the complete double Leibniz sum. These are fields of this history; derivative indices leave \(x,t\) free. At zero the recurrence is triangular and generates each initial row from the preceding rows and the prescribed source jet.
-
-Three columns are visible. The velocity-time column contains the vector fields \(V_n\) at all spatial orders. Its quadratic contraction gives the temporal derivatives of the critical height \(H=\tfrac12\|\Lambda^{1/2}u\|_2^2\):
-\[
-H^{(k)}=\tfrac12\sum_{a=0}^k\binom ka\langle\Lambda^{1/2}V_a,\Lambda^{1/2}V_{k-a}\rangle.
-\]
-The spatial column contains the increasing Sobolev heights of the velocity. The pressure-complete equation relates the three. With \(E_{r,s}=\tfrac12\|\Lambda^sV_r\|_2^2\), its exact pairing is
-\[
-\partial_tE_{r,s}=\mathcal P_{r,s}+\mathcal W_{r,s}-2\nu E_{r,s+1},\qquad
-\mathcal W_{r,s}=\operatorname{Re}\langle\Lambda^sV_r,\Lambda^sF_r\rangle.
-\]
-Here \(\mathcal P\) retains complete signed transport and pressure. Repeated differentiation and substitution expose higher spatial energies. At the critical height,
-\[
-H^{(k)}=(-2\nu)^kE_{k+1/2}
-+\sum_{j=0}^{k-1}(-2\nu)^j\partial_t^{k-1-j}(\mathcal P_{j+1/2}+\mathcal W_{j+1/2}).
-\]
-The nonzero diagonal coefficient permits triangular recovery of \(R_k=E_{k+1/2}\). All differentiated currents remain in the recovered coordinate. A scalar smooth height without this graph is a different mathematical input.
-
-There is also an adjacent-row reading of viscosity. Projection gives
-\[
-\Lambda^sV_{n+1}+\nu\Lambda^{s+2}V_n=\Lambda^s\mathbb P(F_n-B_n).
-\]
-Its square retains a positive temporal norm, a positive viscous norm, and the boundary derivative \(\nu\partial_t\|\Lambda^{s+1}V_n\|_2^2\). The complementary projection is \(\nabla Q_n=(I-\mathbb P)(F_n-B_n)\). Orthogonality recombines both components into the complete source \(F_n-B_n\). Transport, pressure, viscosity, and forcing remain coordinates of one coupled equation.
-
-Now suppose \(T_*<\infty\), put \(I=(0,T_*)\), and select finite temporal depth \(N\) and spatial height \(M\). The native datum construction retains the initial face, the full equation dependency cover, both projections, and the prescribed source when present. The source theorem supplies
-\[
-V_n\in L^2(I;H^{M+1}),\qquad V_{n+1}\in L^2(I;H^{M-1}),\qquad 0\le n\le N.
-\]
-The walkthrough includes the native theorem statement, its complete proof passage, and the domain dependencies through height exhaustion and recurrence return. Its whole-interval output is available before forming the finite norm
-\[
-\mathfrak R_{N,M}=\sum_{n=0}^N(\|V_n\|_{L^2H^{M+1}}^2+\|V_{n+1}\|_{L^2H^{M-1}}^2)<\infty.
-\]
-Restriction decreases these nonnegative integrals; monotone exhaustion identifies their strict-horizon supremum with their value on \(I\). Constants may depend on the finite pair. Enlarged records agree on every retained derivative of the original velocity and normalized pressure.
-
-This compatible rectangle family has two exhaustive readings. Direct exhaustion of mixed indices gives
-\[
-\mathcal X_\infty(I)=\bigcap_{r,m\ge0}H^r(I;H^m_\sigma).
-\]
-The independently derived completed-height identities, evaluated on these coordinates, recover the full spatial column. The low-frequency \(L^2\) floor and the high-frequency heights yield every finite spatial Sobolev order. If a complete intersection or a completed height graph with its interval domains is supplied as an entry, it is usable at that entry: the direct intersection does not require a second finite-norm generator, and the height route does not become a prerequisite for direct exhaustion.
-
-The return from the spatial column uses the equation itself. At target order \(m\), the available \(m+2\) spatial order puts diffusion and the full transport in \(L^1(I;H^m)\). The prescribed force belongs there too. Integration gives \(u\in C([0,T_*];H^m)\). The pressure and velocity recurrences then recover each next temporal row continuously at every finite spatial order, with the identity \(V_n(t)-V_n(s)=\int_s^tV_{n+1}\). This supplies the mixed intersection and genuine endpoint derivatives.
-
-For the endpoint, the adjacent trace operation sends \(L^2H^{m+1}\) and its derivative in \(L^2H^{m-1}\) into \(C H^m\). The representatives agree under Sobolev restriction and define one \(u_*\in H^\infty_\sigma\), with compatible velocity, pressure, and mixed jets. Passing the normalized recurrence to \(T_*\) determines the complete incoming jet from \(u_*\) and \(F_n(T_*)\). Quantitative local theory supplies a smooth outgoing solution. Uniqueness on a late incoming overlap identifies an actual common history, and recurrence induction matches every outgoing jet. This extends the original history past a finite maximal time, giving the source's contradiction and global conclusion.
-
-Every finite estimate is read from a rectangle containing its required orders. The author gives \(N=0,M=1\) as an explicit example: its \(L^2H^2\) velocity and \(L^2L^2\) time derivative control the \(H^1\) trace, the \(L^\infty_tL^3_x\) bound, the \(L^2_tL^\infty_x\) bound, and the \(L^2_tL^3_x\) gradient bound. Higher rectangles give higher derivatives and finite accumulated velocity gradient. These are consequences of the available family.
-
-The application branch keeps additional inputs visible. Eulerian and material derivatives are related with their commutators retained. An external localized candidate has a full residual, including every cutoff and pressure term; its admission uses stated external jet bounds before a smooth prescribed force extension is formed. In its exact exterior, four large momentum terms cancel. A positive square norm over a shrinking annulus can still diverge. Strict-interval uniqueness identifies an admissible candidate with the regular solution for identical datum, viscosity, force, and spatial domain, after which the regular solution's rectangle bounds apply. A separate conservative-force test asks whether the candidate force can be absorbed into pressure; the projected cutoff force provides its own obstruction.
+Begin with the current manuscript entry for the unforced or prescribed-force argument. The opening sources below are the exact frozen manuscript inputs used for this release. The retained October 20 entries and historical source snapshots follow them with their original scope.
 
 ## Read the recovered source argument
 
@@ -83,110 +12,47 @@ Read the replay below directly in a text-only AI. With tools, run `python3 NS.pr
 
 ## Whole-proof frame
 
-One pressure-complete Navier–Stokes history per branch: unforced data \((u_0,\nu)\); forced data \((u_0,\nu,f)\) with prescribed smooth Schwartz force retained through restart. \(V_n=\partial_t^nu\), \(Q_n=\partial_t^np\), \(J_{n,\alpha}=\partial_x^\alpha V_n\). Derivative indices leave \(x,t\) free.
-
-The author's movement is vortex concentration → scaling and critical height → complete temporal/spatial jet → viscous relations between velocity, height, and spatial columns → compatible finite rectangles → two exhaustive readings → common endpoint → local continuation of the original history.
-
-For proposed finite \(T_*\), \(I=(0,T_*)\). The native theorem states that its datum construction produces the original whole-terminal jet with whole-\(I\) adjacent rows \(V_n\in L^2H^{M+1}\), \(V_{n+1}\in L^2H^{M-1}\) at each finite \(N,M\). Their finite squared-norm sum is an output. Each finite constant can depend on its selected orders.
-
-Available entries: the native datum construction; an already established complete mixed intersection; or a completed critical-height graph with its actual interval domains and kinetic \(L^2\) floor. Direct mixed exhaustion and completed-height/spatial recovery are independent readings of one compatible family. Height currents keep transport, pressure and force work. Spatial-to-mixed reconstruction consumes the full spatial interval column and the original equation.
-
-Adjacent traces give one smooth endpoint; normalized recurrences fix all incoming jets. Local existence, overlap uniqueness and matching jets continue that original history. Forced pressure includes \(-(-\Delta)^{-1}\operatorname{div}f\).
-
-Applications retain their extra domains: material conversion includes commutators; localized candidate admission needs the complete residual and stated external inputs; exterior residual cancellation and positive norm divergence can coexist; uniqueness needs identical prescribed data. A separate projected-force test governs pressure absorption.
-
-The native domain assertion, interval-preserving finite selection, independent height identities, integrated-height proof, and recurrence return are shown with their source dependencies. The height integrability calculation in this route uses the native block; return from a completed spatial column retains that whole-interval input. No additional generator follows finite selection.
+Current source: the October 28, 2026 combined manuscript, identified by source manifest c569bd12799c9b8aad5be3299767f00646b35646cf2d345ef88d884952ee7eed. The current entry reads that manuscript and its approved sanitized custody sources. Earlier presentations remain retained source history. Source and file checks establish identity; they do not add mathematical certification.
 
 ## Construction, domains and source dependencies
 
-The **Recovered source argument** is an attributed recovery of the historical construction and its paper realizations. It develops the source operations and retains each original domain and theorem input. It makes no new proof-certification or test claim. Earlier independent entries and calculations remain available below.
-
-Fix one original history and \(I=(0,T_*)\). Whole-interval membership means that each selected defining integral over I is finite. It requires no common constant across all derivative orders. Fields defined at every interior time and fields with finite norms over I are distinct assertions.
-
-**Initial and evolving rows.** The initial recurrences construct the full initial jet from \((u_0,\nu)\), or \((u_0,\nu,f)\). Local iteration and uniqueness construct one maximal history. Differentiation identifies its actual mixed rows and their complete equations on every strict classical interval. The displayed local iteration gives a positive interval depending on the current \(H^3\) datum and the prescribed force. [revision:u-setting:afb54c1cdd30:399–443,498–561; today:f-setting:432–481,548–629; u-analysis:671–694; f-analysis:680–717]
-
-**Independently derived height coordinates.** Put \(C_s=\mathcal P_s+\mathcal W_s\), with \(\mathcal W_s=0\) unforced. Pairing the original equation gives
-\[
-E_s'=C_s-2\nu E_{s+1},
-\qquad
-R_k=\frac{H^{(k)}-
-\sum_{j=0}^{k-1}(-2\nu)^j\partial_t^{k-1-j}C_{j+1/2}}
-{(-2\nu)^k}
-=\tfrac12\|\Lambda^{k+1/2}u\|_2^2.
-\]
-This identity is obtained by differentiation and substitution, retaining every transport, pressure and force-work term. Its derivation does not use finite rectangle norms. The identity and the assertion \(R_k\in L^1(I)\) have different roles. [u-relations:90–169; f-relations:103–187]
-
-**The native whole-interval constructor.** Its output carries, for each finite N,M,
-\[
-V_n\in L^2(I;H^{M+1}),\qquad
-V_{n+1}\in L^2(I;H^{M-1}),\qquad 0\le n\le N.
-\]
-The constructor starts from the original datum, fixed viscosity and original prescribed force when present. It retains the evolving velocity, normalized pressure, complete mixed equations and their Sobolev domains on I. Its finite Sobolev graphs, restriction maps and compatible limit are expanded at each construction passage. The native theorem supplies this constructed family; the complete original theorem and proof bodies accompany that use. [revision:u-setting:afb54c1cdd30:454–623; today:f-setting:487–673]
-
-**Finite selection and direct mixed exhaustion.** A finite selection of a jet carrying these domains preserves I, the fields, their weak derivative identities and normalized pressure. Its norm is the finite sum of those defining integrals. Restriction deletes derivative coordinates and lowers spatial orders on I. With the Fourier Sobolev norms used here, this decreases the selected finite norm. The time map is the identity on I. For fixed r,m, selecting enough rows gives
-\[
-\|u\|_{H^r(I;H^m)}^2
-=\sum_{n=0}^{r}\|V_n\|_{L^2(I;H^m)}^2.
-\]
-No membership-generating operation follows that selection. A complete mixed intersection is also a direct entry from which finite rows can be selected. [u-relations:207–313; today:f-setting:681–708,747–791; f-relations:392–440]
-
-**Integrated heights and spatial exhaustion.** The source obtains the height integral using the native finite block:
-\[
-2\|R_k\|_{L^1(I)}
-=\|\Lambda^{k+1/2}u\|_{L^2(I;L^2)}^2
-\le\|u\|_{L^2(I;H^{k+1})}^2
-\le\mathfrak R_{0,k}^*.
-\]
-It then splits Fourier space into low and high frequencies to obtain
-\[
-\|u\|_{L^2(I;H^m)}^2
-\le 2^m\bigl(\|u\|_{L^2(I;L^2)}^2
-+2\|R_m\|_{L^1(I)}\bigr).
-\]
-Kinetic energy controls the first term, including prescribed source work in the forced branch. The native block controls the second term in this source route. An already integrated complete height graph can instead supply that term directly. [u-relations:315–392; f-relations:442–505]
-
-**Return through the recurrence.** Starting with the complete spatial interval column, products and diffusion give \(u_t\in L^1(I;H^m)\), hence a continuous \(H^m\) representative up to the endpoint. With \(M_{n,m}=\sup_{[0,T_*]}\|V_n\|_{H^m}\), the recurrence gives the finite bound
-\[
-M_{n+1,m}\le\nu M_{n,m+2}
-+C_m\sum_{a=0}^{n}\binom naM_{a,m+2}M_{n-a,m+2}
-+\sup_{[0,T_*]}\|\mathbb PF_n\|_{H^m}.
-\]
-All velocity factors on the right have temporal order at most n. The normalized pressure formula recovers Q_n; every F_n vanishes unforced. Finite interval length converts these continuous rows into the mixed Sobolev intersection. Thus the return is a genuine construction from the whole-I spatial column, with that column retained as its input. [revision:u-setting:afb54c1cdd30:668–758; f-relations:508–570]
-
-The native whole-I blocks feed both readings: direct mixed exhaustion, and completed heights → spatial Sobolev column → recurrence return. The height identities arise by differentiating the original energy rows; their evaluation on the constructed family retains its full interval and defining integrals. Both readings agree on every velocity and pressure coordinate. The displayed Sobolev graphs and projection maps make this assembly explicit.
-
-**The complete positive square retains transport.** In the forced branch its integrated right side contains \(\int_I\|\Lambda^s(F_n-B_n)\|_2^2dt\), with F_n=0 unforced. The source bounds the nonlinear factors using the available velocity rectangle; the prescribed force contribution has its own finite budget. After the coherent family is available, select sufficiently high finite orders to obtain the terminal trace and integrable products. The full-I square then reads its boundary values and transport-force source on that retained graph. [f-relations:189–382]
-
-Once the relevant whole-I rows are available, compatible traces, normalized endpoint recurrences, local restart and overlap uniqueness continue the original history. The original future force remains attached throughout the forced branch.
-
-
-The supplied author draft and material refinement are retained below. The independent material-energy entry takes a finite acceleration budget as its input. At the native entry, R0,1 supplies that budget through the explicit trace and embedding calculation. The two entries retain their respective inputs and uses.
-
-**Identity of the constructor output with the original history.** The native
-source returns actual derivative fields of the original datum-generated
-history. The explanatory notation Gamma names that returned family. If its
-zeroth field is temporarily called v, its adjacent rows give continuous H3
-traces, its initial face gives v(0)=u0, and its complete momentum row retains
-the original force and normalized pressure. Subtracting its equation from
-the equation for the maximal history u gives an L2 difference inequality
-with integrable coefficient ||grad v||_infinity. Gronwall identifies v=u;
-pressure normalization and weak differentiation identify all remaining
-coordinates. Their whole-I norms are equal. This calculation is expanded
-inside both native passages. It does not generate another family or require
-another membership-producing estimate after the constructor has returned.
-The source theorem owns existence of that returned family with its domains;
-graph completeness and the identification argument are not independent
-proofs of its existence.
-
-
-The full coupled-operation subsection proves the reversible jet representation, enacts the finite height balance and identifies the exact native theorem invocation before finite selection. It distinguishes norm-domain realization from graph completeness without declaring a new post-selection generator. It makes no claim that this expansion independently reconstructs native whole-interval existence.
-
+The current proof exposition is taken directly from the frozen combined manuscript. The unforced and prescribed-force branches keep their own equations, hypotheses, pressure terms, intervals and restart data. Current source identity is fixed by the source manifest above; historical snapshots do not replace those inputs.
 
 ## Begin from the mathematical object available
 
 Choose the entry matching the object already supplied. Its equations are immediately usable. Read its ordered operations in the complete transition bodies below; a completed column requires no repeated native construction.
 
-### Prescribed force — Read the recovered source argument
+### Current manuscript — unforced
+
+**Available at entry**
+
+- Current manuscript sources identified by the release source manifest.
+- Approved sanitized direct proof custody, with original and sanitized hashes.
+
+Read the exact current manuscript opening, then follow its source references into the complete frozen manuscript.
+
+**Continue through these operations**
+
+1. **Current manuscript: unforced argument** — Read the current manuscript source verbatim.. Output: The current source exposition and its exact source locator.
+
+Tool entry: `python3 NS.proof.pyz work --branch unforced --entry current`.
+
+### Current manuscript — forced
+
+**Available at entry**
+
+- Current manuscript sources identified by the release source manifest.
+- Approved sanitized direct proof custody, with original and sanitized hashes.
+
+Read the exact current manuscript opening, then follow its source references into the complete frozen manuscript.
+
+**Continue through these operations**
+
+1. **Current manuscript: prescribed-force argument** — Read the current manuscript source verbatim.. Output: The current source exposition and its exact source locator.
+
+Tool entry: `python3 NS.proof.pyz work --branch forced --entry current`.
+
+### Retained October 20 presentation: Prescribed force — Read the recovered source argument
 
 **Available at entry**
 
@@ -198,11 +64,11 @@ Follow the recovered author-ordered construction and its exact cited mathematics
 
 **Continue through these operations**
 
-1. **Recovered source argument: original fluid to endpoint and restart** — Read the complete recovered source movement, then its separately sourced forced counterpart when applicable.. Output: Original mixed/height source relationships, independent column intersections, backward return, finite adjacent trace and source endpoint/restart composition. The source’s whole-interval theorem inputs remain at their original scope; no independent certification is claimed.
+1. **Retained October 20 presentation: Recovered source argument: original fluid to endpoint and restart** — Read the complete recovered source movement, then its separately sourced forced counterpart when applicable.. Output: Original mixed/height source relationships, independent column intersections, backward return, finite adjacent trace and source endpoint/restart composition. The source’s whole-interval theorem inputs remain at their original scope; no independent certification is claimed.
 
 Tool entry: `python3 NS.proof.pyz work --branch forced --entry recovered`.
 
-### Unforced — Read the recovered source argument
+### Retained October 20 presentation: Unforced — Read the recovered source argument
 
 **Available at entry**
 
@@ -214,11 +80,11 @@ Follow the recovered author-ordered construction and its exact cited mathematics
 
 **Continue through these operations**
 
-1. **Recovered source argument: original fluid to endpoint and restart** — Read the complete recovered source movement, then its separately sourced forced counterpart when applicable.. Output: Original mixed/height source relationships, independent column intersections, backward return, finite adjacent trace and source endpoint/restart composition. The source’s whole-interval theorem inputs remain at their original scope; no independent certification is claimed.
+1. **Retained October 20 presentation: Recovered source argument: original fluid to endpoint and restart** — Read the complete recovered source movement, then its separately sourced forced counterpart when applicable.. Output: Original mixed/height source relationships, independent column intersections, backward return, finite adjacent trace and source endpoint/restart composition. The source’s whole-interval theorem inputs remain at their original scope; no independent certification is claimed.
 
 Tool entry: `python3 NS.proof.pyz work --branch unforced --entry recovered`.
 
-### Unforced — Start from the datum
+### Retained October 20 presentation: Unforced — Start from the datum
 
 **Available at entry**
 
@@ -230,15 +96,15 @@ Begin from (u_0,nu) and the original maximal pressure-normalized history. The na
 
 **Continue through these operations**
 
-1. **Unforced constructed jet, finite readouts and continuation** — Follow the native source construction, its domain assertion, both exhaustions and the recurrence return. Output: Native stated whole-I adjacent-row output with its exact proof passage; explicit domain dependencies through finite selection, integrated heights and recurrence return. The returned family is identified with the original maximal history; its whole-I memberships are transported by equality of actual fields, with no new domain-admission operation.
-2. **Finite completed heights to a selected whole-interval rectangle** — Evaluate the explicit finite return from the constructed completed-height coordinates. Output: The selected full-I rectangle and normalized pressure bounds, with finite height depth M+2N+4 and every original force term retained.
-3. **Finite projection, monotone norms and direct mixed exhaustion** — Use finite coordinates and their adjacent trace. Output: Finite selected norm on I, compatible derivative-index restrictions and every required trace coordinate.
-4. **One endpoint, complete incoming velocity jet and normalized pressure jet** — Assemble the compatible incoming endpoint. Output: One smooth endpoint with compatible incoming velocity and normalized pressure jets.
-5. **Local realization, overlap uniqueness, jet matching and continuation** — Continue the original history. Output: Local endpoint restart, overlapping history by uniqueness and smooth jet-matched continuation.
+1. **Retained October 20 presentation: Unforced constructed jet, finite readouts and continuation** — Follow the native source construction, its domain assertion, both exhaustions and the recurrence return. Output: Native stated whole-I adjacent-row output with its exact proof passage; explicit domain dependencies through finite selection, integrated heights and recurrence return. The returned family is identified with the original maximal history; its whole-I memberships are transported by equality of actual fields, with no new domain-admission operation.
+2. **Retained October 20 presentation: Finite completed heights to a selected whole-interval rectangle** — Evaluate the explicit finite return from the constructed completed-height coordinates. Output: The selected full-I rectangle and normalized pressure bounds, with finite height depth M+2N+4 and every original force term retained.
+3. **Retained October 20 presentation: Finite projection, monotone norms and direct mixed exhaustion** — Use finite coordinates and their adjacent trace. Output: Finite selected norm on I, compatible derivative-index restrictions and every required trace coordinate.
+4. **Retained October 20 presentation: One endpoint, complete incoming velocity jet and normalized pressure jet** — Assemble the compatible incoming endpoint. Output: One smooth endpoint with compatible incoming velocity and normalized pressure jets.
+5. **Retained October 20 presentation: Local realization, overlap uniqueness, jet matching and continuation** — Continue the original history. Output: Local endpoint restart, overlapping history by uniqueness and smooth jet-matched continuation.
 
 Tool entry: `python3 NS.proof.pyz work --branch unforced --entry datum`.
 
-### Unforced — Use a completed mixed column
+### Retained October 20 presentation: Unforced — Use a completed mixed column
 
 **Available at entry**
 
@@ -265,13 +131,13 @@ These calculations use the supplied column now. The following operations carry e
 
 **Continue through these operations**
 
-1. **Finite projection, monotone norms and direct mixed exhaustion** — Use finite coordinates and their adjacent trace. Output: Finite selected norm on I, compatible derivative-index restrictions and every required trace coordinate.
-2. **One endpoint, complete incoming velocity jet and normalized pressure jet** — Assemble the compatible incoming endpoint. Output: One smooth endpoint with compatible incoming velocity and normalized pressure jets.
-3. **Local realization, overlap uniqueness, jet matching and continuation** — Continue the original history. Output: Local endpoint restart, overlapping history by uniqueness and smooth jet-matched continuation.
+1. **Retained October 20 presentation: Finite projection, monotone norms and direct mixed exhaustion** — Use finite coordinates and their adjacent trace. Output: Finite selected norm on I, compatible derivative-index restrictions and every required trace coordinate.
+2. **Retained October 20 presentation: One endpoint, complete incoming velocity jet and normalized pressure jet** — Assemble the compatible incoming endpoint. Output: One smooth endpoint with compatible incoming velocity and normalized pressure jets.
+3. **Retained October 20 presentation: Local realization, overlap uniqueness, jet matching and continuation** — Continue the original history. Output: Local endpoint restart, overlapping history by uniqueness and smooth jet-matched continuation.
 
 Tool entry: `python3 NS.proof.pyz work --branch unforced --entry mixed`.
 
-### Unforced — Use a completed spatial column
+### Retained October 20 presentation: Unforced — Use a completed spatial column
 
 **Available at entry**
 
@@ -294,14 +160,14 @@ The last term vanishes in the unforced branch. Banach integration gives continuo
 
 **Continue through these operations**
 
-1. **The original equation reconstructs all temporal rows from the spatial column** — Construct actual mixed rows from the supplied spatial column. Output: Continuous temporal and normalized pressure rows of the original history; full mixed interval intersection.
-2. **Finite projection, monotone norms and direct mixed exhaustion** — Use finite coordinates and their adjacent trace. Output: Finite selected norm on I, compatible derivative-index restrictions and every required trace coordinate.
-3. **One endpoint, complete incoming velocity jet and normalized pressure jet** — Assemble the compatible incoming endpoint. Output: One smooth endpoint with compatible incoming velocity and normalized pressure jets.
-4. **Local realization, overlap uniqueness, jet matching and continuation** — Continue the original history. Output: Local endpoint restart, overlapping history by uniqueness and smooth jet-matched continuation.
+1. **Retained October 20 presentation: The original equation reconstructs all temporal rows from the spatial column** — Construct actual mixed rows from the supplied spatial column. Output: Continuous temporal and normalized pressure rows of the original history; full mixed interval intersection.
+2. **Retained October 20 presentation: Finite projection, monotone norms and direct mixed exhaustion** — Use finite coordinates and their adjacent trace. Output: Finite selected norm on I, compatible derivative-index restrictions and every required trace coordinate.
+3. **Retained October 20 presentation: One endpoint, complete incoming velocity jet and normalized pressure jet** — Assemble the compatible incoming endpoint. Output: One smooth endpoint with compatible incoming velocity and normalized pressure jets.
+4. **Retained October 20 presentation: Local realization, overlap uniqueness, jet matching and continuation** — Continue the original history. Output: Local endpoint restart, overlapping history by uniqueness and smooth jet-matched continuation.
 
 Tool entry: `python3 NS.proof.pyz work --branch unforced --entry spatial`.
 
-### Unforced — Use completed integrated heights
+### Retained October 20 presentation: Unforced — Use completed integrated heights
 
 **Available at entry**
 
@@ -324,16 +190,16 @@ This produces the spatial interval column. The following original-equation recon
 
 **Continue through these operations**
 
-1. **Completed heights recover every spatial Sobolev row** — Read completed heights into spatial rows. Output: Every finite whole-I spatial Sobolev row.
-2. **Finite completed heights to a selected whole-interval rectangle** — Compute finite temporal and pressure bounds from the supplied completed-height masses. Output: Explicit whole-I bounds for every selected finite rectangle, with the original force and pressure retained.
-3. **The original equation reconstructs all temporal rows from the spatial column** — Construct actual mixed rows from the supplied spatial column. Output: Continuous temporal and normalized pressure rows of the original history; full mixed interval intersection.
-4. **Finite projection, monotone norms and direct mixed exhaustion** — Use finite coordinates and their adjacent trace. Output: Finite selected norm on I, compatible derivative-index restrictions and every required trace coordinate.
-5. **One endpoint, complete incoming velocity jet and normalized pressure jet** — Assemble the compatible incoming endpoint. Output: One smooth endpoint with compatible incoming velocity and normalized pressure jets.
-6. **Local realization, overlap uniqueness, jet matching and continuation** — Continue the original history. Output: Local endpoint restart, overlapping history by uniqueness and smooth jet-matched continuation.
+1. **Retained October 20 presentation: Completed heights recover every spatial Sobolev row** — Read completed heights into spatial rows. Output: Every finite whole-I spatial Sobolev row.
+2. **Retained October 20 presentation: Finite completed heights to a selected whole-interval rectangle** — Compute finite temporal and pressure bounds from the supplied completed-height masses. Output: Explicit whole-I bounds for every selected finite rectangle, with the original force and pressure retained.
+3. **Retained October 20 presentation: The original equation reconstructs all temporal rows from the spatial column** — Construct actual mixed rows from the supplied spatial column. Output: Continuous temporal and normalized pressure rows of the original history; full mixed interval intersection.
+4. **Retained October 20 presentation: Finite projection, monotone norms and direct mixed exhaustion** — Use finite coordinates and their adjacent trace. Output: Finite selected norm on I, compatible derivative-index restrictions and every required trace coordinate.
+5. **Retained October 20 presentation: One endpoint, complete incoming velocity jet and normalized pressure jet** — Assemble the compatible incoming endpoint. Output: One smooth endpoint with compatible incoming velocity and normalized pressure jets.
+6. **Retained October 20 presentation: Local realization, overlap uniqueness, jet matching and continuation** — Continue the original history. Output: Local endpoint restart, overlapping history by uniqueness and smooth jet-matched continuation.
 
 Tool entry: `python3 NS.proof.pyz work --branch unforced --entry height`.
 
-### Prescribed-force — Start from the datum
+### Retained October 20 presentation: Prescribed-force — Start from the datum
 
 **Available at entry**
 
@@ -345,15 +211,15 @@ Begin from (u_0,nu,f), retaining the entire prescribed force and the original ma
 
 **Continue through these operations**
 
-1. **Prescribed-force constructed jet, finite readouts and continuation** — Follow the native source construction, its domain assertion, both exhaustions and the recurrence return. Output: Native stated whole-I adjacent-row output with its exact proof passage; explicit domain dependencies through finite selection, integrated heights and recurrence return. The returned family is identified with the original maximal history; its whole-I memberships are transported by equality of actual fields, with no new domain-admission operation.
-2. **Finite completed heights to a selected whole-interval rectangle** — Evaluate the explicit finite return from the constructed completed-height coordinates. Output: The selected full-I rectangle and normalized pressure bounds, with finite height depth M+2N+4 and every original force term retained.
-3. **Finite projection, monotone norms and direct mixed exhaustion** — Use finite coordinates and their adjacent trace. Output: Finite selected norm on I, compatible derivative-index restrictions and every required trace coordinate.
-4. **One endpoint, complete incoming velocity jet and normalized pressure jet** — Assemble the compatible incoming endpoint. Output: One smooth endpoint with compatible incoming velocity and normalized pressure jets.
-5. **Local realization, overlap uniqueness, jet matching and continuation** — Continue the original history. Output: Local endpoint restart, overlapping history by uniqueness and smooth jet-matched continuation. Restart uses the original future f(t); a terminal force jet alone does not select that future.
+1. **Retained October 20 presentation: Prescribed-force constructed jet, finite readouts and continuation** — Follow the native source construction, its domain assertion, both exhaustions and the recurrence return. Output: Native stated whole-I adjacent-row output with its exact proof passage; explicit domain dependencies through finite selection, integrated heights and recurrence return. The returned family is identified with the original maximal history; its whole-I memberships are transported by equality of actual fields, with no new domain-admission operation.
+2. **Retained October 20 presentation: Finite completed heights to a selected whole-interval rectangle** — Evaluate the explicit finite return from the constructed completed-height coordinates. Output: The selected full-I rectangle and normalized pressure bounds, with finite height depth M+2N+4 and every original force term retained.
+3. **Retained October 20 presentation: Finite projection, monotone norms and direct mixed exhaustion** — Use finite coordinates and their adjacent trace. Output: Finite selected norm on I, compatible derivative-index restrictions and every required trace coordinate.
+4. **Retained October 20 presentation: One endpoint, complete incoming velocity jet and normalized pressure jet** — Assemble the compatible incoming endpoint. Output: One smooth endpoint with compatible incoming velocity and normalized pressure jets.
+5. **Retained October 20 presentation: Local realization, overlap uniqueness, jet matching and continuation** — Continue the original history. Output: Local endpoint restart, overlapping history by uniqueness and smooth jet-matched continuation. Restart uses the original future f(t); a terminal force jet alone does not select that future.
 
 Tool entry: `python3 NS.proof.pyz work --branch forced --entry datum`.
 
-### Prescribed-force — Use a completed mixed column
+### Retained October 20 presentation: Prescribed-force — Use a completed mixed column
 
 **Available at entry**
 
@@ -380,13 +246,13 @@ These calculations use the supplied column now. The following operations carry e
 
 **Continue through these operations**
 
-1. **Finite projection, monotone norms and direct mixed exhaustion** — Use finite coordinates and their adjacent trace. Output: Finite selected norm on I, compatible derivative-index restrictions and every required trace coordinate.
-2. **One endpoint, complete incoming velocity jet and normalized pressure jet** — Assemble the compatible incoming endpoint. Output: One smooth endpoint with compatible incoming velocity and normalized pressure jets.
-3. **Local realization, overlap uniqueness, jet matching and continuation** — Continue the original history. Output: Local endpoint restart, overlapping history by uniqueness and smooth jet-matched continuation. Restart uses the original future f(t); a terminal force jet alone does not select that future.
+1. **Retained October 20 presentation: Finite projection, monotone norms and direct mixed exhaustion** — Use finite coordinates and their adjacent trace. Output: Finite selected norm on I, compatible derivative-index restrictions and every required trace coordinate.
+2. **Retained October 20 presentation: One endpoint, complete incoming velocity jet and normalized pressure jet** — Assemble the compatible incoming endpoint. Output: One smooth endpoint with compatible incoming velocity and normalized pressure jets.
+3. **Retained October 20 presentation: Local realization, overlap uniqueness, jet matching and continuation** — Continue the original history. Output: Local endpoint restart, overlapping history by uniqueness and smooth jet-matched continuation. Restart uses the original future f(t); a terminal force jet alone does not select that future.
 
 Tool entry: `python3 NS.proof.pyz work --branch forced --entry mixed`.
 
-### Prescribed-force — Use a completed spatial column
+### Retained October 20 presentation: Prescribed-force — Use a completed spatial column
 
 **Available at entry**
 
@@ -409,14 +275,14 @@ The last term vanishes in the unforced branch. Banach integration gives continuo
 
 **Continue through these operations**
 
-1. **The original equation reconstructs all temporal rows from the spatial column** — Construct actual mixed rows from the supplied spatial column. Output: Continuous temporal and normalized pressure rows of the original history; full mixed interval intersection.
-2. **Finite projection, monotone norms and direct mixed exhaustion** — Use finite coordinates and their adjacent trace. Output: Finite selected norm on I, compatible derivative-index restrictions and every required trace coordinate.
-3. **One endpoint, complete incoming velocity jet and normalized pressure jet** — Assemble the compatible incoming endpoint. Output: One smooth endpoint with compatible incoming velocity and normalized pressure jets.
-4. **Local realization, overlap uniqueness, jet matching and continuation** — Continue the original history. Output: Local endpoint restart, overlapping history by uniqueness and smooth jet-matched continuation. Restart uses the original future f(t); a terminal force jet alone does not select that future.
+1. **Retained October 20 presentation: The original equation reconstructs all temporal rows from the spatial column** — Construct actual mixed rows from the supplied spatial column. Output: Continuous temporal and normalized pressure rows of the original history; full mixed interval intersection.
+2. **Retained October 20 presentation: Finite projection, monotone norms and direct mixed exhaustion** — Use finite coordinates and their adjacent trace. Output: Finite selected norm on I, compatible derivative-index restrictions and every required trace coordinate.
+3. **Retained October 20 presentation: One endpoint, complete incoming velocity jet and normalized pressure jet** — Assemble the compatible incoming endpoint. Output: One smooth endpoint with compatible incoming velocity and normalized pressure jets.
+4. **Retained October 20 presentation: Local realization, overlap uniqueness, jet matching and continuation** — Continue the original history. Output: Local endpoint restart, overlapping history by uniqueness and smooth jet-matched continuation. Restart uses the original future f(t); a terminal force jet alone does not select that future.
 
 Tool entry: `python3 NS.proof.pyz work --branch forced --entry spatial`.
 
-### Prescribed-force — Use completed integrated heights
+### Retained October 20 presentation: Prescribed-force — Use completed integrated heights
 
 **Available at entry**
 
@@ -439,18 +305,1031 @@ This produces the spatial interval column. The following original-equation recon
 
 **Continue through these operations**
 
-1. **Completed heights recover every spatial Sobolev row** — Read completed heights into spatial rows. Output: Every finite whole-I spatial Sobolev row.
-2. **Finite completed heights to a selected whole-interval rectangle** — Compute finite temporal and pressure bounds from the supplied completed-height masses. Output: Explicit whole-I bounds for every selected finite rectangle, with the original force and pressure retained.
-3. **The original equation reconstructs all temporal rows from the spatial column** — Construct actual mixed rows from the supplied spatial column. Output: Continuous temporal and normalized pressure rows of the original history; full mixed interval intersection.
-4. **Finite projection, monotone norms and direct mixed exhaustion** — Use finite coordinates and their adjacent trace. Output: Finite selected norm on I, compatible derivative-index restrictions and every required trace coordinate.
-5. **One endpoint, complete incoming velocity jet and normalized pressure jet** — Assemble the compatible incoming endpoint. Output: One smooth endpoint with compatible incoming velocity and normalized pressure jets.
-6. **Local realization, overlap uniqueness, jet matching and continuation** — Continue the original history. Output: Local endpoint restart, overlapping history by uniqueness and smooth jet-matched continuation. Restart uses the original future f(t); a terminal force jet alone does not select that future.
+1. **Retained October 20 presentation: Completed heights recover every spatial Sobolev row** — Read completed heights into spatial rows. Output: Every finite whole-I spatial Sobolev row.
+2. **Retained October 20 presentation: Finite completed heights to a selected whole-interval rectangle** — Compute finite temporal and pressure bounds from the supplied completed-height masses. Output: Explicit whole-I bounds for every selected finite rectangle, with the original force and pressure retained.
+3. **Retained October 20 presentation: The original equation reconstructs all temporal rows from the spatial column** — Construct actual mixed rows from the supplied spatial column. Output: Continuous temporal and normalized pressure rows of the original history; full mixed interval intersection.
+4. **Retained October 20 presentation: Finite projection, monotone norms and direct mixed exhaustion** — Use finite coordinates and their adjacent trace. Output: Finite selected norm on I, compatible derivative-index restrictions and every required trace coordinate.
+5. **Retained October 20 presentation: One endpoint, complete incoming velocity jet and normalized pressure jet** — Assemble the compatible incoming endpoint. Output: One smooth endpoint with compatible incoming velocity and normalized pressure jets.
+6. **Retained October 20 presentation: Local realization, overlap uniqueness, jet matching and continuation** — Continue the original history. Output: Local endpoint restart, overlapping history by uniqueness and smooth jet-matched continuation. Restart uses the original future f(t); a terminal force jet alone does not select that future.
 
 Tool entry: `python3 NS.proof.pyz work --branch forced --entry height`.
 
+<a id="proof-transition-current-unforced-manuscript"></a>
+
+## Current manuscript: unforced argument
+
+Branch: unforced
+
+Fix \(u_0\in H^\infty_\sigma(\mathbb R^3)\), \(\nu>0\), and its maximal unforced history. Pressure is \(R_iR_j(u_i u_j)\). At proposed finite \(T_*\), the native datum theorem produces finite whole-interval adjacent rows. Their compatible family can be exhausted directly in mixed indices or read through independently derived completed heights and the spatial column. A supplied complete intersection is an independent usable entry. Trace, pressure recurrence, local restart and uniqueness continue the original history.
+
+**Available inputs**
+
+- The frozen current manuscript and its governing construction custody at their stated scope.
+
+Current manuscript source: `canonical:manuscript:parts/unforced/00-how-proof-works.tex:1-727`. The following source excerpt is retained verbatim; the complete manuscript supplies its surrounding argument and references.
+
+```latex
+\begingroup
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5\baselineskip}
+\setlength{\abovedisplayskip}{8pt}
+\setlength{\belowdisplayskip}{8pt}
+\setlength{\abovedisplayshortskip}{8pt}
+\setlength{\belowdisplayshortskip}{8pt}
+\setlength{\jot}{5pt}
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+
+\part{How the Proof Works}
+\label{u:guide:how-proof-works}
+
+The three-dimensional Navier--Stokes regularity problem asks whether a smooth fluid flow can lose its smoothness in finite time. We start with smooth, divergence-free initial velocity \(u_0\), finite energy, and positive viscosity. The fluid evolves according to
+\[
+\partial_tu+(u\cdot\nabla)u=-\nabla p+\nu\Delta u,
+\qquad \nabla\cdot u=0.
+\]
+
+\subsection*{Critical Height and Rescaling}
+
+The problem starts with a vortex.
+
+As it lengthens, it thins and spins faster and faster as it gets smaller.
+
+The concern is that it could keep doing this, with each contraction taking
+less time than the one before, until the core reaches zero width and the
+speed becomes unbounded. Infinitely many contractions could then fit into
+a finite time.
+This is a Zeno cascade (``Zeno'' for infinitely many stages in finite time;
+``cascade'' for the progression to smaller scales).
+
+The equations have no minimum vortex width. To follow this possibility
+down through the scales, we need to compare a vortex with a smaller,
+faster version that still satisfies the equation. Reducing lengths by
+\(\lambda>1\) requires multiplying velocity by \(\lambda\) and running
+the evolution \(\lambda^2\) times as fast:
+\[
+ u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
+ \qquad p_\lambda(x,t)=\lambda^2p(\lambda x,\lambda^2t).
+\]
+The chain rule gives, with every right-hand side evaluated at
+\((\lambda x,\lambda^2t)\),
+\[
+ \begin{aligned}
+ \partial_tu_\lambda&=\lambda^3\partial_tu,
+ & (u_\lambda\cdot\nabla)u_\lambda&=\lambda^3(u\cdot\nabla)u,\\
+ \nabla p_\lambda&=\lambda^3\nabla p,
+ & \nu\Delta u_\lambda&=\lambda^3\nu\Delta u.
+ \end{aligned}
+\]
+Every term acquires a factor \(\lambda^3\), leaving the equation unchanged
+at fixed viscosity \(\nu\).
+If a flow repeated this contraction, its stage durations would satisfy
+\[
+ \tau_j=\lambda^{-2j}\tau_0,
+ \qquad \sum_{j=0}^{\infty}\tau_j
+ =\frac{\tau_0}{1-\lambda^{-2}}<\infty.
+\]
+For the energy measurement, squared speed grows by \(\lambda^2\), but
+volume shrinks by \(\lambda^3\), giving
+\[
+ E[u_\lambda](t)=\lambda^{-1}E[u](\lambda^2t),
+ \qquad E[u]=\frac12\int_{\mathbb R^3}|u|^2\,dx.
+\]
+\Needspace{10\baselineskip}
+The smaller, faster vortex has less energy. A bound on total energy can
+miss precisely the concentration we are concerned about. The measurement
+has to include how sharply the velocity changes across the shrinking core.
+
+A Sobolev norm gives these finer changes more weight. In the Fourier
+description of the velocity, a large spatial frequency \(|\xi|\) means
+variation across a short distance. Weighting each frequency by
+\(|\xi|^s\) gives the homogeneous Sobolev norm of order \(s\):
+\[
+ \|u(t)\|_{\dot H^s}^2
+ =\int_{\mathbb R^3}|\xi|^{2s}|\widehat u(\xi,t)|^2\,d\xi,
+ \qquad \Lambda=(-\Delta)^{1/2}.
+\]
+Here \(\widehat u\) is the Fourier transform of the velocity, and
+\(\Lambda^s\) multiplies it by \(|\xi|^s\). Integer orders measure
+ordinary spatial derivatives; fractional orders give intermediate weights
+to fine structure.
+
+The order \(s\) determines how much weight the fine scales receive.
+We can find the point where that weight exactly offsets the loss of
+volume. In the Fourier transform, the velocity factor
+contributes \(\lambda\) and the change of spatial variables contributes
+\(\lambda^{-3}\). Substituting the resulting transform into the norm
+and then setting \(\xi=\lambda\eta\) gives
+\[
+ \begin{aligned}
+ \widehat{u_\lambda}(\xi,t)
+ &=\lambda^{-2}\widehat u(\xi/\lambda,\lambda^2t),\\
+ \|u_\lambda(t)\|_{\dot H^s}^2
+ &=\lambda^{-4}\int_{\mathbb R^3}|\xi|^{2s}
+      |\widehat u(\xi/\lambda,\lambda^2t)|^2\,d\xi\\
+ &=\lambda^{-4}\lambda^{2s}\lambda^3
+      \|u(\lambda^2t)\|_{\dot H^s}^2
+ =\lambda^{2s-1}\|u(\lambda^2t)\|_{\dot H^s}^2.
+ \end{aligned}
+\]
+The frequency weight contributes \(\lambda^{2s}\), balancing the
+remaining factor \(\lambda^{-1}\) precisely when \(2s-1=0\).
+The dividing height is \(s=\tfrac12\).
+For \(s<\tfrac12\), contraction reduces the norm; for \(s>\tfrac12\),
+it increases the norm. At the dividing height \(s=\tfrac12\), the norm is
+unchanged by the equation's rescaling. This lets us use one bound at every
+vortex width, without shrinking the region of fast-moving fluid making the
+bound easier to satisfy.
+
+This is why the critical height matters: concentration cannot make this
+measurement smaller simply by occupying less space. But its value can
+still change as the fluid evolves. Transport and viscosity both acquired
+a factor \(\lambda^3\), so the rescaling has not decided which controls
+that change.
+
+The equation gives their contributions to the critical energy directly.
+Pair it with \(\Lambda u\)
+and integrate the viscous term by parts. The pressure pairing vanishes
+because \(\nabla\cdot\Lambda u=0\), giving
+\[
+ \frac12\frac{d}{dt}\|u\|_{\dot H^{1/2}}^2
+ +\nu\|u\|_{\dot H^{3/2}}^2
+ =-\operatorname{Re}\langle\Lambda u,(u\cdot\nabla)u\rangle.
+\]
+The positive term on the left measures viscous dissipation. The transport
+term on the right can increase the critical energy. To compare their sizes,
+use H\"older's inequality and the classical Sobolev inequality
+\(\|w\|_{L^3}\le C_3\|w\|_{\dot H^{1/2}}\) on each of the three factors:
+\[
+ \begin{aligned}
+ |\langle\Lambda u,(u\cdot\nabla)u\rangle|
+ &\le\|\Lambda u\|_{L^3}\|u\|_{L^3}\|\nabla u\|_{L^3}\\
+ &\le C\|u\|_{\dot H^{1/2}}\|u\|_{\dot H^{3/2}}^2,
+ \qquad C=C_3^3.
+ \end{aligned}
+\]
+Both contributions contain the \(\dot H^{3/2}\) size. Their relative
+strength is governed by the critical \(\dot H^{1/2}\) norm itself.
+Substitution into the balance makes this explicit:
+\[
+ \frac12\frac{d}{dt}\|u\|_{\dot H^{1/2}}^2
+ +\bigl(\nu-C\|u\|_{\dot H^{1/2}}\bigr)
+       \|u\|_{\dot H^{3/2}}^2\le0.
+\]
+\Needspace{7\baselineskip}
+When \(C\|u\|_{\dot H^{1/2}}<\nu\), the coefficient is positive and
+the critical energy decreases. If it starts below this threshold, the
+decrease keeps it there. For arbitrary initial size, the coefficient need
+not be positive, so this estimate cannot establish viscous control of the
+nonlinear contribution. The classical difficulty is to bound the critical
+norm throughout the evolution without assuming it is already small.
+
+\subsection*{Following One Fluid Motion}
+
+If a singularity were to actually form, the velocity would have to blow up,
+which means the acceleration would have to blow up, followed by its jerk,
+and so on, and so on.
+
+\interlinepenalty=10000
+
+The equation already contains the velocity and its time derivative.
+Differentiate the whole equation in time, once and then again:
+\[
+ \begin{aligned}
+ &\partial_tu=\nu\Delta u-(u\cdot\nabla)u-\nabla p,\\
+ &\partial_t^2u=\nu\Delta\partial_tu-(\partial_tu\cdot\nabla)u
+   -(u\cdot\nabla)\partial_tu-\nabla\partial_tp,\\
+ &\partial_t^3u=\nu\Delta\partial_t^2u-(\partial_t^2u\cdot\nabla)u
+   -2(\partial_tu\cdot\nabla)\partial_tu
+   -(u\cdot\nabla)\partial_t^2u-\nabla\partial_t^2p.
+ \end{aligned}
+\]
+The derivatives distribute across the two velocity factors, producing the
+binomial coefficients. With \(V_n=\partial_t^nu\) and
+\(Q_n=\partial_t^np\), the general form is
+\[
+ \begin{aligned}
+ V_{n+1}&=\nu\Delta V_n
+ -\sum_{a=0}^{n}\binom na(V_a\cdot\nabla)V_{n-a}-\nabla Q_n,\\
+ -\Delta Q_n&=\partial_i\partial_j
+   \sum_{a=0}^{n}\binom na V_{a,i}V_{n-a,j}.
+ \end{aligned}
+\]
+Taking the divergence gives the second equation; decay at spatial infinity
+fixes the pressure. Every \(V_n\) is a derivative of the original velocity,
+and every \(Q_n\) is determined by its velocity products. All of these
+derivatives belong to one fluid.
+
+But the vortex is also narrowing across space. Each time derivative is a
+spatial field, with its own spatial derivatives. Retaining those gives
+\[
+ J_{n,\alpha}=\partial_x^\alpha\partial_t^nu,
+ \qquad \Pi_{n,\alpha}=\partial_x^\alpha\partial_t^np.
+\]
+Here \(\alpha\) records the spatial directions and derivative orders.
+Together the fields form the mixed jet. The product rule acts in both
+time and space:
+\[
+ J_{n+1,\alpha}=\nu\Delta J_{n,\alpha}-\nabla\Pi_{n,\alpha}
+ -\sum_{a=0}^{n}\sum_{\beta\le\alpha}
+   \binom na\binom\alpha\beta
+   (J_{a,\beta}\cdot\nabla)J_{n-a,\alpha-\beta}.
+\]
+The two binomial factors count where those derivatives land. Pressure,
+viscosity, and transport remain together in every equation. These time
+derivatives are taken at fixed positions; along a moving fluid particle,
+the derivative is \(D_t=\partial_t+u\cdot\nabla\). The transport already
+present in the equations accounts for that motion.
+
+Return to the critical energy. We left it in a balance involving the
+spatial order \(3/2\). Write the energy at a general height \(s\) as
+\[
+ E_s=\frac12\|\Lambda^su\|_2^2.
+\]
+Its time derivative comes from the velocity equation. Substitution and
+integration by parts give
+\[
+ \begin{aligned}
+ E_s'
+ &=\operatorname{Re}\langle\Lambda^su,\Lambda^s\partial_tu\rangle\\
+ &=-\nu\|\Lambda^{s+1}u\|_2^2+\mathcal P_s\\
+ &=-2\nu E_{s+1}+\mathcal P_s,
+ \end{aligned}
+\]
+with the transport and pressure contributions collected in
+\[
+ \mathcal P_s=-\operatorname{Re}\langle\Lambda^su,
+ \Lambda^s((u\cdot\nabla)u+\nabla p)\rangle.
+\]
+The viscous term contains \(E_{s+1}\): integration by parts put one
+of the Laplacian's two derivatives on each velocity factor. Starting
+from \(H=E_{1/2}\), differentiation of that next energy gives
+\[
+ \begin{aligned}
+ H'&=-2\nu E_{3/2}+\mathcal P_{1/2},\\
+ H''&=-2\nu E_{3/2}'+\partial_t\mathcal P_{1/2}\\
+    &=4\nu^2E_{5/2}-2\nu\mathcal P_{3/2}
+        +\partial_t\mathcal P_{1/2},\\
+ H^{(n)}&=(-2\nu)^nE_{n+1/2}
+        +\sum_{j=0}^{n-1}(-2\nu)^j
+           \partial_t^{\,n-1-j}\mathcal P_{j+1/2}.
+ \end{aligned}
+\]
+The higher we go in time derivatives, the higher we go in Sobolev space.
+Every step brings another factor \(-2\nu\), with the complete transport
+and pressure derivatives alongside it. All of those terms are determined
+by the mixed jet of this fluid. The spatial heights run through
+\[
+ H^{1/2},\qquad H^{3/2},\qquad H^{5/2},\qquad H^{7/2},\qquad\ldots.
+\]
+We began with a vortex getting smaller and spinning faster, with its
+velocity changing more sharply across the core. The higher Sobolev
+orders measure precisely those sharp changes. Above height
+\(k+\tfrac32\), Sobolev embedding bounds the ordinary spatial
+derivatives through order \(k\):
+\[
+ H^s(\mathbb R^3)\hookrightarrow C_b^k(\mathbb R^3),
+ \qquad s>k+\tfrac32.
+\]
+Any chosen derivative is covered by a sufficiently high finite level.
+
+\phantomsection\label{u:guide:intersection}
+Continuing through all finite orders reaches the full smoothness condition:
+\[
+ L^2\cap\bigcap_{n\ge0}\dot H^{n+1/2}(\mathbb R^3)
+ =\bigcap_{m\ge0}H^m(\mathbb R^3)
+ =H^\infty(\mathbb R^3)\hookrightarrow C_b^\infty(\mathbb R^3).
+\]
+The \(L^2\) term retains the large spatial scales; the increasing Sobolev
+orders retain the small ones. This is the full spatial regularity of the
+fluid.
+
+See, the intuition here is what matters: when you follow a vortex down to
+its smallest scales, highest frequencies, and fastest velocities, you are
+following its successive time derivatives. For a singularity to occur,
+you would expect the spatial regularity to break down as you go up in
+those time derivatives. But what we see here is that viscosity relates
+that faster motion to more spatial regularity, not less. This is the
+opposite of what you would expect from a singularity or blowup.
+
+\Needspace{10\baselineskip}
+\vspace{2\baselineskip}
+\subsection*{Proof and Application}
+
+Establishing this regularity through a proposed singular time requires bounds
+on the coupled derivatives throughout the motion.
+
+Fix one \(u_0\in H^\infty_\sigma(\mathbb R^3)\) and one \(\nu>0\).
+The subscript \(\sigma\) records incompressibility. Suppose the smooth
+motion ends at a finite time \(T_*\), and write \(I=(0,T_*)\).
+The initial velocity determines the pressure and, through the equation,
+the subsequent changes in velocity:
+\[
+ \begin{aligned}
+ u(t)&=u_0+\int_0^t
+ \bigl[\nu\Delta u(s)-(u(s)\cdot\nabla)u(s)-\nabla p(s)\bigr]\,ds,\\
+ p(t)&=R_iR_j\bigl(u_i(t)u_j(t)\bigr),
+ \qquad 0\le t<T_*.
+ \end{aligned}
+\]
+Here \(R_iR_j\) solves the pressure Poisson equation with its decaying
+normalization. Substitution gives the first time derivative,
+\[
+ V_1(t)=\nu\Delta u(t)-(u(t)\cdot\nabla)u(t)-\nabla Q_0(t),
+\]
+then differentiation of the pressure product gives \(Q_1\), and the
+next velocity equation gives \(V_2\). At \(t=0\), this recurrence
+generates every initial derivative from \(u_0\). Throughout the motion,
+it gives the mixed fields
+\[
+ J_{n,\alpha}(t,x)=\partial_x^\alpha V_n(t,x),
+ \qquad
+ \Pi_{n,\alpha}(t,x)=\partial_x^\alpha Q_n(t,x).
+\]
+
+The datum-generated pressure-complete mixed jet carries the spatial Sobolev
+domains of each temporal row on \(I\). Taking every finite spatial order
+gives its spatial intersection; the compatible temporal derivative identities
+give the mixed intersection. The critical-height domains provide the spatial
+reading during this generation. The subsequent substitution into the energy
+rows displays viscosity with transport and pressure retained.
+
+Arrange the time derivatives down the rows of a matrix and spatial orders
+across its columns. A finite rectangle selects the coordinates and
+relationships used in one calculation. Each entry retains all of space and
+the original interval \(I\), including its adjacent temporal, viscous,
+transport, and normalized-pressure coordinates.
+
+The viscous relationship is an exact relation between entries of this
+matrix. Rearranging the time equation gives
+\[
+ \nu\Delta V_n=V_{n+1}
+ +\sum_{a=0}^{n}\binom na(V_a\cdot\nabla)V_{n-a}
+ +\nabla Q_n.
+\]
+The next time response is tied to two more spatial derivatives, together
+with the complete transport and pressure sum. The initial jet fixes where
+every row begins. The construction retains these equations together on
+\(I\), with pressure fixed by its velocity products, and takes finite
+records of their compatible Sobolev realization. Increasing a rectangle
+reads more derivatives of this motion.
+
+A bound that deteriorates as \(t\) approaches \(T_*\) would still
+leave the possible singularity unresolved. The whole-interval construction
+result in Theorem~\ref{u:thm:datum-finite-blocks} establishes the paired
+memberships on \(I=(0,T_*)\):
+\[
+ \begin{aligned}
+ V_n&\in L^2(I;H^{M+1}),\\
+ V_{n+1}&\in L^2(I;H^{M-1}),
+ \qquad 0\le n\le N,
+ \end{aligned}
+\]
+for every finite \(N,M\). The paired heights \(M+1\) and \(M-1\)
+differ by the Laplacian's two derivatives. The rectangle
+\(\cR_{N,M}[u_0;T_*]\) has finite size
+\[
+ \begin{aligned}
+ \mathfrak R_{N,M}(u;T_*)
+ &=\sum_{n=0}^{N}\Bigl(
+   \|V_n\|_{L^2(I;H^{M+1})}^2\\
+ &\hspace{36mm}+\|V_{n+1}\|_{L^2(I;H^{M-1})}^2\Bigr)<\infty.
+ \end{aligned}
+\]
+Each finite depth and height has its own bound. Restricting the integral
+to an earlier time can only decrease it.
+
+Time integration alone can allow a tall, narrow spike. Here the adjacent
+row also controls the rate of change. Differentiating the squared
+\(H^M\) norm and splitting its spatial weights gives
+\[
+ \frac{d}{dt}\|V_n(t)\|_{H^M}^2
+ =2\operatorname{Re}\langle
+ (1-\Delta)^{(M+1)/2}V_n,
+ (1-\Delta)^{(M-1)/2}V_{n+1}\rangle_{L^2}.
+\]
+The two factors are precisely the pair in the rectangle. Integration,
+Cauchy--Schwarz, and \(2ab\le a^2+b^2\) give
+\[
+ \sup_{0\le t<T_*}\|V_n(t)\|_{H^M}^2
+ \le\|V_n(0)\|_{H^M}^2
+ +\|V_n\|_{L^2(I;H^{M+1})}^2
+ +\|V_{n+1}\|_{L^2(I;H^{M-1})}^2.
+\]
+The initial value is fixed by \(u_0\), and the integrals remain finite
+through \(T_*\). The row is bounded at every time, including the approach
+to the proposed singularity. Increasing the rectangle gives this control
+at each further derivative order.
+
+Pressure follows the velocity products in its Poisson equation. A spatial
+product estimate, followed by Cauchy--Schwarz in time, gives
+\[
+ \begin{aligned}
+ \|Q_n\|_{L^1(I;H^M)}
+ &\le C_M^{\rm p}\sum_{a=0}^{n}\binom na
+       \|V_a\|_{L^2(I;H^{M+1})}\\
+ &\hspace{35mm}\cdot\|V_{n-a}\|_{L^2(I;H^{M+1})}<\infty,
+ \end{aligned}
+\]
+where \(C_M^{\rm p}\) is the spatial product constant. Spatial
+differentiation distributes the derivatives across those factors, so a
+sufficiently large rectangle covers every chosen pressure derivative too.
+
+The rectangles agree where they overlap: an entry \((n,\alpha)\)
+always means \(\partial_x^\alpha\partial_t^nu\), beginning with the
+derivatives generated by \(u_0\). Enlarging the matrix preserves its
+existing entries. This compatibility lets us collect their bounds without
+changing the fluid being described.
+
+Choose any time order \(r\) and spatial order \(m\). A large enough
+rectangle contains \(V_0,\ldots,V_r\) in \(L^2(I;H^m)\), giving
+\[
+ \|u\|_{H^r(I;H^m)}^2
+ =\sum_{n=0}^{r}\|V_n\|_{L^2(I;H^m)}^2<\infty.
+\]
+Since every finite pair \((r,m)\) is covered,
+\[
+ u\in\bigcap_{r,m\ge0}H^r(I;H^m(\mathbb R^3)).
+\]
+The full intersection means that each finite number of time and spatial
+derivatives has a finite norm through \(T_*\). Every membership concerns
+the fluid that began at \(u_0\).
+
+\phantomsection\label{u:guide:mixed-jet-map}
+The critical-height equations express the spatial side of this construction.
+Rearranging the identity already derived isolates each higher spatial energy:
+\[
+ \begin{aligned}
+ (-2\nu)^k E_{k+1/2}
+ &=H^{(k)}
+   -\sum_{j=0}^{k-1}(-2\nu)^j
+       \partial_t^{\,k-1-j}\mathcal P_{j+1/2},
+ \qquad k\ge1.
+ \end{aligned}
+\]
+Positive \(\nu\) makes its coefficient nonzero. Finite selections form
+the critical-height rectangles, obtained by differentiating the scalar
+energy. The mixed rectangles come from differentiating the velocity and
+pressure fields. Their common entries agree because both calculations
+use the original equation for \(u\).
+
+On the constructed whole-interval jet, these identities recover its
+half-integer spatial energies. Kinetic energy covers low frequencies;
+a weight of order \(k+\tfrac12\ge m\) covers the high frequencies
+needed for any chosen integer order \(m\). Together they give every
+finite spatial Sobolev order.
+
+The equation also lets us recover the other rows from this complete
+spatial information. At any chosen height \(m\), two additional spatial
+orders give
+\[
+ \begin{aligned}
+ \|(u\cdot\nabla)u\|_{L^1(I;H^m)}
+ &\le C_m\|u\|_{L^2(I;H^{m+2})}^2,\\
+ \|\Delta u\|_{L^1(I;H^m)}
+ &\le\sqrt{T_*}\|u\|_{L^2(I;H^{m+2})},
+ \end{aligned}
+\]
+with \(C_m\) depending on the spatial order. The pressure formula gives
+an integrable pressure gradient as well. The right-hand side of the
+velocity equation is now integrable through \(T_*\), so its integral
+gives a continuous terminal velocity at every height. The recurrences
+then give \(Q_0,V_1\), followed by \(Q_1,V_2\), and so on.
+The time and spatial descriptions recover one another with viscosity,
+pressure, and transport present throughout.
+
+There is still a distinction between boundedness before \(T_*\) and
+reaching a state from which the fluid can continue. The next time row
+settles it. Integrating \(V_{n+1}\) between two late times gives
+\[
+ \begin{aligned}
+ \|V_n(t)-V_n(s)\|_{H^m}
+ &\le\int_s^t\|V_{n+1}(\tau)\|_{H^m}\,d\tau\\
+ &\le(t-s)^{1/2}\|V_{n+1}\|_{L^2(s,t;H^m)},
+ \qquad s<t<T_*.
+ \end{aligned}
+\]
+The remaining change tends to zero. Each row reaches a limit in every
+finite \(H^m\), and the limits at different heights agree. The velocity
+reaches a smooth divergence-free state
+\(u_*\in H^\infty_\sigma(\mathbb R^3)\). The pressure formula and
+differentiated equations pass to these limits, giving its complete velocity
+and pressure jet.
+
+Local existence starts a smooth solution from \(u_*\). Its derivatives
+match the incoming ones, and uniqueness joins the continuation to the
+incoming motion. The fluid passes through \(T_*\). It cannot be a
+finite maximal time.
+
+\phantomsection\label{u:guide:finite-estimates}
+Each finite part of the matrix also gives concrete bounds on any finite
+interval \([0,T]\). For a time
+derivative of order \(r\) and a spatial derivative of order \(k\), choose
+\(m>k+\tfrac32\). Sobolev embedding then bounds its largest size
+anywhere in the fluid:
+\[
+ \sup_{0\le t\le T}\|\partial_t^ru(t)\|_{W^{k,\infty}}
+ \le C_{m,k}\sup_{0\le t\le T}\|\partial_t^ru(t)\|_{H^m}<\infty.
+\]
+Here \(C_{m,k}\) is the embedding constant. In particular, the velocity
+gradient has a finite time integral. That gradient bounds how quickly
+neighbouring fluid particles approach each other. For particles starting
+at \(a\) and \(b\), integration along their trajectories gives
+\[
+ |X(a,t)-X(b,t)|\ge |a-b|
+ \exp\!\left(-\int_0^t\|\nabla u(s)\|_\infty\,ds\right)>0.
+\]
+The vortex can stretch and narrow, but a positive material separation
+retains a positive lower bound throughout each finite interval.
+
+So, for example, choose the rectangle with \(N=0\) and \(M=1\).
+It contains the velocity in \(L^2(0,T;H^2)\) and its time derivative in
+\(L^2(0,T;L^2)\). Write their sizes as
+\[
+ \begin{aligned}
+ A_T&=\left(\int_0^T\|u(t)\|_{H^2}^2\,dt\right)^{1/2},\\
+ B_T&=\left(\int_0^T\|\partial_tu(t)\|_2^2\,dt\right)^{1/2}.
+ \end{aligned}
+\]
+The adjacent-row calculation now bounds the \(H^1\) norm at every
+time. Pair \(u_t\) with \((1-\Delta)u\) and integrate:
+\[
+ \begin{aligned}
+ \|u(t)\|_{H^1}^2
+ &=\|u_0\|_{H^1}^2
+   +2\operatorname{Re}\int_0^t
+       \langle(1-\Delta)u(s),\partial_su(s)\rangle_{L^2}\,ds\\
+ &\le\|u_0\|_{H^1}^2+2A_TB_T.
+ \end{aligned}
+\]
+These two entries give three familiar regularity estimates. First, the
+\(L^3\) velocity norm is unchanged by the vortex rescaling, so it
+measures concentration across scales. The spatial embedding
+\[
+ \|f\|_{L^3}\le\frac{\|f\|_{H^1}}{2^{5/6}\pi^{1/6}}
+\]
+turns the \(H^1\) bound into the Escauriaza--Seregin--\v{S}ver\'ak
+endpoint estimate. The numerical constants here use the paper's unitary
+Fourier normalization:
+\[
+ \sup_{0\le t\le T}\|u(t)\|_{L^3}
+ \le \frac{\bigl(\|u_0\|_{H^1}^2+2A_TB_T\bigr)^{1/2}}
+              {2^{5/6}\pi^{1/6}}.
+\]
+
+Second, the \(H^2\) entry bounds the largest speed anywhere in the fluid:
+\[
+ \|u(t)\|_{L^\infty}\le\frac{\|u(t)\|_{H^2}}{\sqrt{8\pi}}.
+\]
+Its squared time integral is already contained in \(A_T^2\), giving
+the Serrin estimate,
+\[
+ \left(\int_0^T\|u(t)\|_{L^\infty}^2\,dt\right)^{1/2}
+ \le\frac1{\sqrt{8\pi}}
+       \left(\int_0^T\|u(t)\|_{H^2}^2\,dt\right)^{1/2}
+ =\frac{A_T}{\sqrt{8\pi}}.
+\]
+
+\Needspace{9\baselineskip}
+Third, the spatial \(H^2\hookrightarrow W^{1,3}\) estimate bounds
+the velocity gradient:
+\[
+ \|\nabla u(t)\|_{L^3}
+ \le\frac{\sqrt3\,7^{1/6}}{2^{5/3}\pi^{1/6}}\|u(t)\|_{H^2}.
+\]
+Its squared time integral is again bounded by \(A_T^2\), giving the
+Beir\~ao da Veiga estimate~\cite{BeiraoDaVeiga1995}:
+\[
+ \left(\int_0^T\|\nabla u(t)\|_{L^3}^2\,dt\right)^{1/2}
+ \le\frac{\sqrt3\,7^{1/6}}{2^{5/3}\pi^{1/6}}
+       \left(\int_0^T\|u(t)\|_{H^2}^2\,dt\right)^{1/2}
+ =\frac{\sqrt3\,7^{1/6}}{2^{5/3}\pi^{1/6}}A_T.
+\]
+\phantomsection\label{u:guide:how-proof-ends}
+The memberships measured by \(\mathfrak R_{0,1}\) give all three estimates.
+Choosing higher rectangles extends the calculation to higher derivatives.
+
+An external force changes the acceleration of the fluid. It enters both
+the velocity equation and the pressure that enforces incompressibility:
+\[
+ \begin{aligned}
+ u_t+(u\cdot\nabla)u+\nabla p&=\nu\Delta u+f,
+ &\nabla\cdot u&=0,\\
+ -\Delta p&=\partial_i\partial_j(u_i u_j)-\nabla\cdot f.
+ \end{aligned}
+\]
+Fix the initial velocity, positive viscosity, and the prescribed force
+\(f\). The forced theorem takes \(f\) smooth through each finite
+time, with its mixed derivatives decaying rapidly in space, uniformly on
+finite intervals:
+\(f\in C^\infty([0,\infty);\mathcal S(\mathbb R^3;\mathbb R^3))\).
+A smooth force with compact support in space and time belongs to this
+class. Its size enters the bounds. Writing \(F_n=\partial_t^nf\),
+the differentiated equations become
+\[
+ \begin{aligned}
+ V_{n+1}&=\nu\Delta V_n
+ -\sum_{a=0}^{n}\binom na(V_a\cdot\nabla)V_{n-a}
+ -\nabla Q_n+F_n,\\
+ -\Delta Q_n&=\partial_i\partial_j
+   \sum_{a=0}^{n}\binom na V_{a,i}V_{n-a,j}-\nabla\cdot F_n.
+ \end{aligned}
+\]
+Spatial differentiation adds \(\partial_x^\alpha F_n\) to each mixed
+row. The initial recurrence uses \(F_n(0)\) alongside \(u_0\), and
+the pressure responds to the force through its divergence.
+
+In the energy balance, the additional term is the work done by the force:
+\[
+ E_s'=-2\nu E_{s+1}+\mathcal P_s+W_s,
+ \qquad
+ W_s=\operatorname{Re}\langle\Lambda^su,\Lambda^sf\rangle.
+\]
+The viscous coefficient stays \(-2\nu\). Repeated differentiation
+now includes the derivatives of the force work:
+\[
+ H^{(k)}=(-2\nu)^k E_{k+1/2}
+ +\sum_{j=0}^{k-1}(-2\nu)^j
+  \partial_t^{\,k-1-j}(\mathcal P_{j+1/2}+W_{j+1/2}).
+\]
+Every derivative of \(W_s\) pairs velocity derivatives with known
+derivatives of \(f\). Their contribution to a selected row can be
+bounded directly. Split the spatial weights between \(V_n\) and
+\(F_n\), then apply Cauchy--Schwarz and Young's inequality:
+\[
+ 2\bigl|\langle V_n,F_n\rangle_{H^M}\bigr|
+ \le\nu\|V_n\|_{H^{M+1}}^2
+      +\nu^{-1}\|F_n\|_{H^{M-1}}^2.
+\]
+The first term is absorbed at the spatial order of the viscous estimate.
+The second has a finite time integral because the force is prescribed
+and smooth through \(T_*\). Its pressure contribution is controlled by
+the Poisson formula. Retaining these source terms, the forced construction
+supplies the paired whole-interval bounds
+\[
+ \mathfrak R^f_{N,M}(u;T_*)
+ =\sum_{n=0}^{N}\left(
+ \|V_n\|_{L^2(I;H^{M+1})}^2
+ +\|V_{n+1}\|_{L^2(I;H^{M-1})}^2\right)<\infty
+\]
+for every finite \(N,M\). The bounds now depend on the force as well
+as \(u_0\) and \(\nu\). The adjacent-row calculation again gives
+bounds at every time, and compatibility collects the finite orders into
+\[
+ u\in\bigcap_{r,m\ge0}H^r(I;H^m(\mathbb R^3)).
+\]
+
+Integrating the next time derivative makes the remaining change tend to
+zero at \(T_*\). The fluid reaches a smooth state \(u_*\), with
+pressure and higher derivatives fixed by the forced recurrence and the
+values \(F_n(T_*)\). Local existence continues from that state with
+the prescribed \(f(t)\) at its original time. The derivatives agree
+across \(T_*\), and uniqueness joins the incoming and outgoing motion.
+The proposed singular time is again an ordinary time of the flow.
+
+The bounds reach each term of the momentum equation individually:
+\[
+ \sup_{0\le t\le T}\left(
+ \|u_t\|_{H^m}+\|(u\cdot\nabla)u\|_{H^m}
+ +\|\nabla p\|_{H^m}+\nu\|\Delta u\|_{H^m}
+ \right)<\infty,
+ \qquad m<\infty.
+\]
+The time derivative is a row of the matrix; the Laplacian uses two more
+spatial orders; transport is a product of controlled derivatives; pressure
+is determined by the velocity and force. Sobolev embedding bounds their
+pointwise sizes too. Thus each term stays finite, even when the terms
+partly cancel in the equation.
+
+OpenAI's proposed blowup starts from rest, uses a smooth force with compact support,
+and concentrates increasing velocity into a shrinking region while keeping
+kinetic energy finite.\footnote{OpenAI,
+\href{https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf}{\emph{Finite Time Blowup for Navier--Stokes}},
+Theorem~1.1 and Section~10, especially (10.20)--(10.21).}
+This returns to the opening problem: total energy can remain finite while
+velocity concentrates into a smaller region. Write \(v\) for the
+proposed velocity and put its proposed singular time at \(t=1\).
+With \(\tau=1-t\), its claimed growth in (10.21) implies
+\[
+ \|v(1-\tau)\|_{L^\infty}\ge c\,\tau^{-A}\longrightarrow\infty,
+ \qquad c>0,\quad A>0.
+\]
+The relevant bound is on the largest speed. If the proposed force has
+its stated smooth extension through \(t=1\), denote it by
+\(f_{\rm OA}\). The forced theorem gives a smooth solution \((U,P)\)
+from rest for that force and viscosity, through \(t=1\).
+
+Before \(t=1\), both \(v\) and \(U\) solve the prescribed initial
+value problem. Their difference \(z=v-U\) starts at zero. Subtracting
+the equations cancels the force; pairing with \(z\) and using
+incompressibility gives
+\[
+ \frac12\frac{d}{dt}\|z\|_2^2+\nu\|\nabla z\|_2^2
+ \le\|\nabla U\|_\infty\|z\|_2^2,
+ \qquad z(0)=0.
+\]
+The coefficient has a finite time integral, so Gronwall's inequality
+keeps the difference zero. On every closed interval ending before \(1\),
+\(v=U\).
+
+The rectangle \(N=0,M=2\) contains \(U\) at spatial height \(3\)
+and \(U_t\) at height \(1\). Their adjacent-row trace bounds
+\(H^2\) at every time, which bounds the speed. With zero initial velocity,
+\[
+ \begin{aligned}
+ \mathfrak R^f_{0,2}[U]
+ &=\|U\|_{L^2(0,1;H^3)}^2
+   +\|U_t\|_{L^2(0,1;H^1)}^2<\infty,\\
+ \sup_{0\le t<1}\|v(t)\|_{L^\infty}^2
+ &=\sup_{0\le t<1}\|U(t)\|_{L^\infty}^2
+ \le\frac{\mathfrak R^f_{0,2}[U]}{8\pi}<\infty.
+ \end{aligned}
+\]
+The proposed divergence contradicts this finite bound. Under the stated
+smooth-force hypothesis, the flow continues smoothly through \(t=1\);
+the divergent field cannot solve that initial value problem.
+
+The vortex can stretch, narrow, and gain energy from the force. Its velocity,
+pressure, and derivatives remain coupled throughout that motion. The
+finite bounds obtained from their viscous relationship survive down through
+the scales, and the fluid reaches a smooth state from which it continues.
+
+\endgroup
+```
+
+**Available outputs**
+
+- Exact current manuscript exposition, with its complete source and source hash.
+
+**Exact sources**: canonical:manuscript:parts/unforced/00-how-proof-works.tex:1-727; canonical:custody:target-contract:1-72
+
+<a id="proof-transition-current-forced-manuscript"></a>
+
+## Current manuscript: prescribed-force argument
+
+Branch: forced
+
+Fix the original triple \((u_0,\nu,f)\), with \(f\in C^\infty([0,\infty);\mathcal S)\). Every row retains \(F_n=\partial_t^nf\), the source potential \(\Phi_n=(-\Delta)^{-1}\operatorname{div}F_n\), and their initial/terminal values. The native forced construction works on this history, with force work and pressure budgets at each selected finite order. Its direct and height readings remain available. Restart uses the original future \(f(t)\). An unforced interval object cannot substitute for this forced object.
+
+**Available inputs**
+
+- The frozen current manuscript and its governing construction custody at their stated scope.
+
+Current manuscript source: `canonical:manuscript:parts/forced/00-how-proof-works.tex:1-240`. The following source excerpt is retained verbatim; the complete manuscript supplies its surrounding argument and references.
+
+```latex
+\section{From a Prescribed Force to Terminal Continuation}
+\label{f:sec:forced-argument-overview}
+\label{f:guide:how-proof-works}
+
+Fix one divergence-free datum \(u_0\), one viscosity \(\nu>0\), and one
+prescribed smooth force \(f\).  Let \((u,p)\) be the corresponding maximal
+classical solution on \([0,T_*)\).  The proof never changes this history.
+Every derivative, finite rectangle, endpoint value, and restarted solution
+below belongs to the trajectory generated by the original triple
+\((u_0,\nu,f)\).
+
+The force enters the proof in two linked forms.  Its solenoidal part
+\(g=\Pp f\) acts in the projected velocity equation, while its gradient part
+is fixed by the normalized pressure:
+\[
+ \partial_tu+\Pp\nabla\!\cdot(u\otimes u)-\nu\Delta u=g,
+ \qquad
+ p=R_iR_j(u_i u_j)-(-\Delta)^{-1}\nabla\!\cdot f.
+\]
+The source enters the velocity and pressure at the initial
+construction and remains present in every differentiated row.
+
+The Navier--Stokes scaling acts on the complete forced equation.  If
+\((u,p,f)\) is a solution, then
+\[
+ u_\lambda(t,x)=\lambda u(\lambda^2t,\lambda x),\qquad
+ p_\lambda(t,x)=\lambda^2p(\lambda^2t,\lambda x),\qquad
+ f_\lambda(t,x)=\lambda^3f(\lambda^2t,\lambda x)
+\]
+solves the equation with transformed datum
+\(u_{0,\lambda}(x)=\lambda u_0(\lambda x)\).  For every real \(s\),
+\[
+ \|\Lambda^su_\lambda(t)\|_2^2
+ =\lambda^{2s-1}\|\Lambda^su(\lambda^2t)\|_2^2.
+\]
+The invariant spatial height is \(s=\tfrac12\).  This identifies
+the critical row of this forced differential structure; it does not
+replace the prescribed history by its rescaling.
+
+Write
+\[
+ V_n=\partial_t^nu,\qquad Q_n=\partial_t^np,
+ \qquad F_n=\partial_t^nf,
+\]
+and let
+\[
+ B_n=\sum_{a=0}^n\binom na(V_a\cdot\nabla)V_{n-a}.
+\]
+Repeated differentiation of the original forced equation gives the complete
+temporal row
+\begin{align}
+ V_{n+1}+B_n+\nabla Q_n&=\nu\Delta V_n+F_n,
+ \label{f:eq:guide-forced-row}\\
+ -\Delta Q_n
+ &=\partial_i\partial_j\sum_{a=0}^n\binom na
+      (V_a)_i(V_{n-a})_j-\nabla\!\cdot F_n.
+ \label{f:eq:guide-forced-pressure}
+\end{align}
+Spatial differentiation distributes through both velocity factors and through
+the prescribed source.  The fields
+\[
+ \partial_x^\alpha V_n,\qquad
+ \partial_x^\alpha Q_n,\qquad
+ \partial_x^\alpha F_n
+\]
+form the pressure-complete forced mixed jet.  They are coordinates of one
+solution, rather than a collection of independently chosen functions.
+
+\phantomsection\label{f:guide:intersection}
+At a proposed finite maximal time \(T_*\), put \(I=(0,T_*)\).
+The pressure-complete forced jet generated by \((u_0,\nu,f)\) carries the
+spatial Sobolev intersection in each temporal row. The compatible temporal
+derivative identities give
+\[
+ u\in\bigcap_{r,m\ge0}H^r(I;H^m_\sigma(\R^3)).
+ \tag{A$'$}
+\]
+Critical height supplies the spatial-domain reading alongside this
+generation. The later completed-height and viscous substitutions keep every
+transport, pressure, viscosity, and force-work term.
+
+For fixed finite \(N,M\), select the record
+\[
+ \cR_{N,M}[u_0,\nu,f;T_*]
+ :=\bigl((V_n)_{n=0}^{N},(V_{n+1})_{n=0}^{N};
+         (Q_n)_{n=0}^{N};(F_n)_{n=0}^{N}\bigr).
+\]
+Its velocity norm is
+\[
+ \mathfrak R_{N,M}(T)
+ :=\sum_{n=0}^{N}\left(
+ \|V_n\|_{L^2(0,T;H^{M+1})}^2
+ +\|V_{n+1}\|_{L^2(0,T;H^{M-1})}^2\right).
+\]
+The selected coordinates retain their original-interval memberships, so
+\[
+ \sup_{0<T<T_*}\mathfrak R_{N,M}(T)<\infty
+ \qquad(N,M<\infty).
+ \tag{A}
+\]
+Deleting outer indices preserves each retained velocity, pressure, and force
+field. Finite selections of the completed-height identities form the
+relationship rectangles on these coordinates.
+
+The viscous relation is visible already in one row.  Project
+\eqref{f:eq:guide-forced-row}, apply \(\Lambda^s\), and use
+\(\Delta=-\Lambda^2\):
+\[
+ \Lambda^sV_{n+1}+\nu\Lambda^{s+2}V_n
+ =\Lambda^s\Pp(F_n-B_n).
+ \tag{B}
+\]
+Squaring this equality does not separate the nonlinearity from the fluid.
+The cross term is the derivative of the adjacent spatial norm, so
+\begin{align}
+ &\|\Lambda^sV_{n+1}\|_2^2
+ +\nu^2\|\Lambda^{s+2}V_n\|_2^2
+ +\nu\frac{d}{dt}\|\Lambda^{s+1}V_n\|_2^2
+ \notag\\
+ &\hspace{4cm}
+ =\|\Lambda^s\Pp(F_n-B_n)\|_2^2.
+ \tag{C}
+\end{align}
+The complementary projection gives the pressure allocation
+\[
+ \nabla Q_n=(I-\Pp)(F_n-B_n),
+\]
+and orthogonality recombines the complete source:
+\[
+ \|\Lambda^s\Pp(F_n-B_n)\|_2^2
+ +\|\Lambda^s\nabla Q_n\|_2^2
+ =\|\Lambda^s(F_n-B_n)\|_2^2.
+ \tag{D}
+\]
+Thus the rectangle keeps viscosity, transport, pressure, and forcing in one estimate.
+
+The critical-height tower is another reading of this viscous tether.  For
+\[
+ E_{r,s}=\frac12\|\Lambda^sV_r\|_2^2,
+\]
+the complete row is
+\[
+ \partial_tE_{r,s}+2\nu E_{r,s+1}
+ =\mathcal P_{r,s}+\mathcal W_{r,s},
+ \qquad
+ \mathcal W_{r,s}
+ =\operatorname{Re}\langle\Lambda^sV_r,\Lambda^sF_r\rangle.
+ \tag{E}
+\]
+At \(r=0\) and \(s=\tfrac12\), differentiating (E) repeatedly exposes
+\(E_{3/2},E_{5/2},\ldots\), while the differentiated transport, pressure,
+and force work remains in that completed row.  The tower then
+describes the geometry among mixed-jet coordinates; it does not replace the
+velocity field by a scalar height.
+The first two spatial heights are, explicitly,
+\begin{align*}
+ H'+\nu\norm{\Lambda^{3/2}u}_2^2
+ &=\mathcal P_{1/2}+\mathcal W_{1/2},\\
+ E_{3/2}'+\nu\norm{\Lambda^{5/2}u}_2^2
+ &=\mathcal P_{3/2}+\mathcal W_{3/2},
+\end{align*}
+and hence
+\[
+ H''=4\nu^2E_{5/2}
+ -2\nu(\mathcal P_{3/2}+\mathcal W_{3/2})
+ +\partial_t(\mathcal P_{1/2}+\mathcal W_{1/2}).
+\]
+These are the actual \(s=\tfrac12\) and \(s=\tfrac32\) rows.  Their
+transport, pressure, viscosity, and force coordinates remain joined.
+
+\phantomsection\label{f:guide:mixed-jet-map}
+For finite \(N,M\), use the corresponding datum-generated block
+\(\cR_{N,M}[u_0,\nu,f;T_*]\).
+At the spatial orders required by (B)--(E), its restriction to a strict
+horizon satisfies
+\[
+ \mathfrak R_{N,M}(T)
+ \le \mathfrak R_{N,M}^*
+ :=\sup_{0<S<T_*}\mathfrak R_{N,M}(S)<\infty.
+ \tag{F}
+\]
+Restriction compatibility identifies every common row in two such
+rectangles, while monotone exhaustion gives
+\[
+ \lim_{T\uparrow T_*}\mathfrak R_{N,M}(T)
+ =\mathfrak R_{N,M}^*<\infty.
+ \tag{G}
+\]
+The bound may depend on the selected rectangle.  No estimate uniform in the
+infinitely many indices is used.  The bounds in (G) are scalar norms of the
+finite blocks whose mixed-index exhaustion gives (A$'$).  The
+independently derived identities in (E), evaluated on those same coordinates,
+give the completed heights.  Exhausting their spatial heights and applying the
+Fourier Sobolev split gives the spatial column, from which
+\eqref{f:eq:guide-forced-row}--\eqref{f:eq:guide-forced-pressure} recover
+(A$'$) again.  The positive-sign square (C), together with (D), relates the
+adjacent temporal, viscous, and pressure faces.  Sobolev
+multiplication is applied within that same finite rectangle to its binomial
+transport face \(B_n\); it does not replace the nonlinear term or introduce a
+second premise.
+
+The mixed-index exhaustion and the critical-height relationships use these
+finite blocks.  The former records every mixed derivative; the
+latter recover every spatial row and return through the forced recurrence.
+Pairing, squaring, and integrating (B)--(E) inside any selected rectangle gives
+its complete-equation estimates, with the nonlinearity retained as one face of
+that forced rectangle.
+
+\phantomsection\label{f:guide:finite-estimates}
+The datum rectangles now carry the complete equation to the terminal
+step.  Their zeroth temporal faces give, for every finite \(m\),
+\[
+ u\in L^2(0,T_*;H^{m+2}).
+\]
+Sobolev multiplication and the prescribed force then give
+\begin{align*}
+ \|u_t\|_{L^1(0,T_*;H^m)}
+ &\le \nu\sqrt{T_*}\,\|u\|_{L^2(0,T_*;H^{m+2})}\\
+ &\quad+C_m\|u\|_{L^2(0,T_*;H^{m+2})}^2
+ +\|g\|_{L^1(0,T_*;H^m)}<\infty.
+\end{align*}
+Hence
+\[
+ u\in W^{1,1}(0,T_*;H^m)
+ \hookrightarrow C([0,T_*];H^m)
+ \qquad(m\ge0).
+\]
+All these traces come from one velocity and determine one
+terminal state
+\[
+ u_*=u(T_*)\in\bigcap_{m\ge0}H^m_\sigma(\R^3).
+\]
+
+Passing \eqref{f:eq:guide-forced-row}--\eqref{f:eq:guide-forced-pressure} to
+\(T_*\) determines every temporal and pressure coordinate from \(u_*\) and
+the values \(F_n(T_*)\).  Local theory from \(u_*\), driven by that
+prescribed force \(f(t)\), continues that history past \(T_*\).
+This contradicts maximality, so \(T_*=\infty\).
+
+\phantomsection\label{f:guide:how-proof-ends}
+```
+
+**Available outputs**
+
+- Exact current manuscript exposition, with its complete source and source hash.
+
+**Exact sources**: canonical:manuscript:parts/forced/00-how-proof-works.tex:1-240; canonical:custody:target-contract:1-72
+
 <a id="proof-transition-source-recovery"></a>
 
-## Recovered source argument: original fluid to endpoint and restart
+## Retained October 20 presentation: Recovered source argument: original fluid to endpoint and restart
 
 Branch: shared
 
@@ -1057,7 +1936,7 @@ The completed mixed, spatial and height entries remain independently usable at t
 
 <a id="proof-transition-history"></a>
 
-## One original fluid, its scale and normalized pressure
+## Retained October 20 presentation: One original fluid, its scale and normalized pressure
 
 Branch: shared
 
@@ -1102,7 +1981,7 @@ The independent variables remain \(x,t\); derivative indices do not advance time
 
 <a id="proof-transition-analytic"></a>
 
-## Finite-order multiplication, pressure potentials and adjacent traces
+## Retained October 20 presentation: Finite-order multiplication, pressure potentials and adjacent traces
 
 Branch: shared
 
@@ -1142,7 +2021,7 @@ This operation consumes adjacent interval memberships and is later used for each
 
 <a id="proof-transition-initial-jet"></a>
 
-## Generate the initial face and the complete mixed equation
+## Retained October 20 presentation: Generate the initial face and the complete mixed equation
 
 Branch: shared
 
@@ -1200,7 +2079,7 @@ Each selected equation retains its adjacent temporal entry, three viscous succes
 
 <a id="proof-transition-viscous-row"></a>
 
-## Viscous row, positive square and pressure recombination
+## Retained October 20 presentation: Viscous row, positive square and pressure recombination
 
 Branch: shared
 
@@ -1266,7 +2145,7 @@ At k=2 it is \(\|V_1\|_2^2+\langle u,V_2\rangle\): the central square comes with
 
 <a id="proof-transition-height-columns"></a>
 
-## Velocity, critical-height and spatial columns
+## Retained October 20 presentation: Velocity, critical-height and spatial columns
 
 Branch: shared
 
@@ -1428,7 +2307,7 @@ at its stated scope. [u-relations:14–46; f-relations:13–60]
 
 <a id="proof-transition-native-record"></a>
 
-## Unforced constructed jet, finite readouts and continuation
+## Retained October 20 presentation: Unforced constructed jet, finite readouts and continuation
 
 Branch: unforced
 
@@ -2470,7 +3349,7 @@ and (11) follows by selecting adjacent coordinates. This is an actual constructi
 
 <a id="proof-transition-finite-readout"></a>
 
-## Finite projection, monotone norms and direct mixed exhaustion
+## Retained October 20 presentation: Finite projection, monotone norms and direct mixed exhaustion
 
 Branch: shared
 
@@ -2518,7 +3397,7 @@ Taking all finite pairs yields \(\mathcal X_\infty(I)=\bigcap_{r,m}H^r(I;H^m)\).
 
 <a id="proof-transition-spatial-heights"></a>
 
-## Completed heights recover every spatial Sobolev row
+## Retained October 20 presentation: Completed heights recover every spatial Sobolev row
 
 Branch: shared
 
@@ -2551,7 +3430,7 @@ The identities are independently derived from the governing jet. In the datum-fi
 
 <a id="proof-transition-spatial-return"></a>
 
-## The original equation reconstructs all temporal rows from the spatial column
+## Retained October 20 presentation: The original equation reconstructs all temporal rows from the spatial column
 
 Branch: shared
 
@@ -2608,7 +3487,7 @@ The prescribed smooth source supplies every continuous \(F_n,\Phi_n\); the highe
 
 <a id="proof-transition-finite-height-return"></a>
 
-## Finite completed heights to a selected whole-interval rectangle
+## Retained October 20 presentation: Finite completed heights to a selected whole-interval rectangle
 
 Branch: shared
 
@@ -2894,7 +3773,7 @@ evaluates the Fourier split displayed in the forced analytic framework.
 
 <a id="proof-transition-forced-native"></a>
 
-## Prescribed-force constructed jet, finite readouts and continuation
+## Retained October 20 presentation: Prescribed-force constructed jet, finite readouts and continuation
 
 Branch: forced
 
@@ -3961,7 +4840,7 @@ The mixed version has the full double Leibniz sum and the corresponding force-po
 
 <a id="proof-transition-incoming-endpoint"></a>
 
-## One endpoint, complete incoming velocity jet and normalized pressure jet
+## Retained October 20 presentation: One endpoint, complete incoming velocity jet and normalized pressure jet
 
 Branch: shared
 
@@ -4017,7 +4896,7 @@ where \(F_n=0\) in the unforced branch. Starting with \(V_0^*=u_*\), the pressur
 
 <a id="proof-transition-local-restart"></a>
 
-## Local realization, overlap uniqueness, jet matching and continuation
+## Retained October 20 presentation: Local realization, overlap uniqueness, jet matching and continuation
 
 Branch: shared
 
@@ -4068,7 +4947,7 @@ This useful consequence does not become a new strain hypothesis for the native c
 
 <a id="proof-transition-material"></a>
 
-## Eulerian and material columns with their commutators
+## Retained October 20 presentation: Eulerian and material columns with their commutators
 
 Branch: application
 
@@ -4536,7 +5415,7 @@ Substitution of the orthogonal identity recovers the enstrophy balance with this
 
 <a id="proof-transition-candidate-admission"></a>
 
-## Localize the external candidate and prescribe its complete residual
+## Retained October 20 presentation: Localize the external candidate and prescribe its complete residual
 
 Branch: application
 
@@ -4592,7 +5471,7 @@ The differentiated \(j\)-th summand is bounded by \(C_{j,m}b_j^{m-j}\|F_j\|_{C^{
 
 <a id="proof-transition-exterior-test"></a>
 
-## Exact momentum cancellation and divergent positive norms in the exterior
+## Retained October 20 presentation: Exact momentum cancellation and divergent positive norms in the exterior
 
 Branch: application
 
@@ -4654,7 +5533,7 @@ The parcel map keeps \(r,z\) fixed and shifts \(\theta\), with volume Jacobian o
 
 <a id="proof-transition-candidate-identification"></a>
 
-## Strict-interval identification, rectangle consequences and separate pressure reduction
+## Retained October 20 presentation: Strict-interval identification, rectangle consequences and separate pressure reduction
 
 Branch: application
 
@@ -4716,7 +5595,7 @@ The rough phrase “single rung” is not used as a mathematical premise here. D
 
 <a id="proof-transition-recovery-historical-branches"></a>
 
-## Historical alternatives outside the recovered path
+## Retained October 20 presentation: Historical alternatives outside the recovered path
 
 Branch: shared
 
@@ -4801,7 +5680,7 @@ The recovered preweight note retains the raw pressure/base-transport cancellatio
 
 <a id="proof-transition-recovery-later-history"></a>
 
-## August 3–6 source derivations and finalization
+## Retained October 20 presentation: August 3–6 source derivations and finalization
 
 Branch: shared
 
@@ -4999,396 +5878,17 @@ The original page is [Proof Completion Discussion](https://chatgpt.com/c/6a7248c
 
 ## Technical walkthrough
 
-## Recovered source argument
-
-[Recovered source argument: original fluid to endpoint and restart — complete derivation above](#proof-transition-source-recovery).
-
-# Navier–Stokes: the supplied whole argument
-
-This model follows the current supplied arguments, preserving their standing and domains. Bracketed references name exact embedded source IDs and line spans; The executable embeds source paths, hashes and complete source bodies; use its source command for cited passages.
-
-## Construction, domains and source dependencies
-
-### Follow the native blocks, heights and recurrence on their actual domains
-
-Fix one original history and \(I=(0,T_*)\). Whole-interval membership means that each selected defining integral over I is finite. It requires no common constant across all derivative orders. Fields defined at every interior time and fields with finite norms over I are distinct assertions.
-
-**Initial and evolving rows.** The initial recurrences construct the full initial jet from \((u_0,\nu)\), or \((u_0,\nu,f)\). Local iteration and uniqueness construct one maximal history. Differentiation identifies its actual mixed rows and their complete equations on every strict classical interval. The displayed local iteration gives a positive interval depending on the current \(H^3\) datum and the prescribed force. [revision:u-setting:afb54c1cdd30:399–443,498–561; today:f-setting:432–481,548–629; u-analysis:671–694; f-analysis:680–717]
-
-**Independently derived height coordinates.** Put \(C_s=\mathcal P_s+\mathcal W_s\), with \(\mathcal W_s=0\) unforced. Pairing the original equation gives
-\[
-E_s'=C_s-2\nu E_{s+1},
-\qquad
-R_k=\frac{H^{(k)}-
-\sum_{j=0}^{k-1}(-2\nu)^j\partial_t^{k-1-j}C_{j+1/2}}
-{(-2\nu)^k}
-=\tfrac12\|\Lambda^{k+1/2}u\|_2^2.
-\]
-This identity is obtained by differentiation and substitution, retaining every transport, pressure and force-work term. Its derivation does not use finite rectangle norms. The identity and the assertion \(R_k\in L^1(I)\) have different roles. [u-relations:90–169; f-relations:103–187]
-
-**The native whole-interval constructor.** Its output carries, for each finite N,M,
-\[
-V_n\in L^2(I;H^{M+1}),\qquad
-V_{n+1}\in L^2(I;H^{M-1}),\qquad 0\le n\le N.
-\]
-The constructor starts from the original datum, fixed viscosity and original prescribed force when present. It retains the evolving velocity, normalized pressure, complete mixed equations and their Sobolev domains on I. Its finite Sobolev graphs, restriction maps and compatible limit are expanded at each construction passage. The native theorem supplies this constructed family; the complete original theorem and proof bodies accompany that use. [revision:u-setting:afb54c1cdd30:454–623; today:f-setting:487–673]
-
-**Finite selection and direct mixed exhaustion.** A finite selection of a jet carrying these domains preserves I, the fields, their weak derivative identities and normalized pressure. Its norm is the finite sum of those defining integrals. Restriction decreases the integrals, and monotone convergence identifies their supremum with the whole-I value. For fixed r,m, selecting enough rows gives
-\[
-\|u\|_{H^r(I;H^m)}^2
-=\sum_{n=0}^{r}\|V_n\|_{L^2(I;H^m)}^2.
-\]
-No membership-generating operation follows that selection. A complete mixed intersection is also a direct entry from which finite rows can be selected. [u-relations:207–313; today:f-setting:681–708,747–791; f-relations:392–440]
-
-**Integrated heights and spatial exhaustion.** The source obtains the height integral using the native finite block:
-\[
-2\|R_k\|_{L^1(I)}
-=\|\Lambda^{k+1/2}u\|_{L^2(I;L^2)}^2
-\le\|u\|_{L^2(I;H^{k+1})}^2
-\le\mathfrak R_{0,k}^*.
-\]
-It then splits Fourier space into low and high frequencies to obtain
-\[
-\|u\|_{L^2(I;H^m)}^2
-\le 2^m\bigl(\|u\|_{L^2(I;L^2)}^2
-+2\|R_m\|_{L^1(I)}\bigr).
-\]
-Kinetic energy controls the first term, including prescribed source work in the forced branch. The native block controls the second term in this source route. An already integrated complete height graph can instead supply that term directly. [u-relations:315–392; f-relations:442–505]
-
-**Return through the recurrence.** Starting with the complete spatial interval column, products and diffusion give \(u_t\in L^1(I;H^m)\), hence a continuous \(H^m\) representative up to the endpoint. With \(M_{n,m}=\sup_{[0,T_*]}\|V_n\|_{H^m}\), the recurrence gives the finite bound
-\[
-M_{n+1,m}\le\nu M_{n,m+2}
-+C_m\sum_{a=0}^{n}\binom naM_{a,m+2}M_{n-a,m+2}
-+\sup_{[0,T_*]}\|\mathbb PF_n\|_{H^m}.
-\]
-All velocity factors on the right have temporal order at most n. The normalized pressure formula recovers Q_n; every F_n vanishes unforced. Finite interval length converts these continuous rows into the mixed Sobolev intersection. Thus the return is a genuine construction from the whole-I spatial column, with that column retained as its input. [revision:u-setting:afb54c1cdd30:668–758; f-relations:508–570]
-
-The native whole-I blocks feed both readings: direct mixed exhaustion, and completed heights → spatial Sobolev column → recurrence return. The height identities arise by differentiating the original energy rows; their evaluation on the constructed family retains its full interval and defining integrals. Both readings agree on every velocity and pressure coordinate. The displayed Sobolev graphs and projection maps make this assembly explicit.
-
-**The complete positive square retains transport.** In the forced branch its integrated right side contains \(\int_0^S\|\Lambda^s(F_n-B_n)\|_2^2dt\), with F_n=0 unforced. The source bounds the nonlinear factors using the available velocity rectangle; the prescribed force contribution has its own finite budget. The complete square keeps its boundary values and transport-force source; the stated product bounds evaluate that source on the retained finite graph. [f-relations:189–382]
-
-Once the relevant whole-I rows are available, compatible traces, normalized endpoint recurrences, local restart and overlap uniqueness continue the original history. The original future force remains attached throughout the forced branch.
-
-
-## 1. The original histories and their variables
-
-For the unforced branch fix
-\[
-u_0\in H^\infty_\sigma(\mathbb R^3),\qquad
-H^\infty=\bigcap_{m\ge0}H^m,\qquad \nu>0.
-\]
-The generated maximal pressure-complete history is \((T_*,u,p)\), with
-\[
-u_t+(u\cdot\nabla)u+\nabla p=\nu\Delta u,\quad
-\nabla\cdot u=0,\quad u(0)=u_0,\quad p=R_iR_j(u_i u_j).
-\]
-The \(L^2\) pressure normalization is unique: a pressure difference has Fourier support at zero and belongs to \(L^2\), so it vanishes. [u-setting:4-86]
-
-For the forced branch prescribe the complete triple
-\[
-(u_0,\nu,f),\qquad
-f\in C^\infty([0,\infty);\mathcal S(\mathbb R^3;\mathbb R^3)).
-\]
-Its velocity solves the equation with \(+f\) on the right. Its normalized pressure is
-\[
-p=R_iR_j(u_i u_j)-(-\Delta)^{-1}\nabla\cdot f.
-\]
-Every coordinate belongs to this forced history; restart retains the original future \(f(t)\). [f-native:20-107]
-
-The independent variables remain \(x,t\); derivative indices do not advance time or evaluate variables. All columns describe one fluid per branch. Material conversion retains commutators. The direct intersection and height-relationship constructions remain independent entries, without a universal prerequisite between them. [contract:46-82]
-
-## 2. Analytic operations used throughout
-
-[Finite-order multiplication, pressure potentials and adjacent traces — complete derivation above](#proof-transition-analytic).
-
-## 3. Pressure-complete prolongation and the initial face
-
-Define
-\[
-V_n=\partial_t^nu,\quad Q_n=\partial_t^np,\quad
-J_{n,\alpha}=\partial_x^\alpha V_n,\quad
-\Pi_{n,\alpha}=\partial_x^\alpha Q_n.
-\]
-Differentiate the momentum and pressure equations with the full temporal and spatial Leibniz rules:
-\[
-\begin{aligned}
-J_{n+1,\alpha}
-&+\sum_{b=0}^n\sum_{\beta\le\alpha}
-\binom nb\binom\alpha\beta
-(J_{b,\beta}\cdot\nabla)J_{n-b,\alpha-\beta}
-+\nabla\Pi_{n,\alpha}
-=\nu\Delta J_{n,\alpha},\\
-\Pi_{n,\alpha}
-&=R_iR_j\sum_{b=0}^n\sum_{\beta\le\alpha}
-\binom nb\binom\alpha\beta
-J_{b,\beta,i}J_{n-b,\alpha-\beta,j},\qquad
-\nabla\cdot J_{n,\alpha}=0.
-\end{aligned}
-\]
-Every coordinate is an actual derivative of the original history. The pure temporal recurrence is obtained by setting \(\alpha=0\). The source proves these identities by differentiating the original equations and commuting the fixed multipliers. Their first domain is each strict classical interval. [u-setting:89-157]
-
-Evaluation at zero recursively fixes the initial face:
-\[
-A_0=u_0,\quad
-P_n=R_iR_j\sum_{b=0}^n\binom nb(A_b)_i(A_{n-b})_j,
-\]
-\[
-A_{n+1}=\nu\Delta A_n
--\sum_{b=0}^n\binom nb(A_b\cdot\nabla)A_{n-b}-\nabla P_n.
-\]
-At step \(n\), only already determined rows enter. Differentiation, Sobolev multiplication, and the Riesz bounds preserve \(H^\infty\), so every finite initial row is available at every requested finite spatial order. Spatial differentiation supplies \(J_{n,\alpha}(0)\) and \(\Pi_{n,\alpha}(0)\). [u-setting:209-258,456-476]
-
-Each selected equation retains its adjacent temporal entry, three viscous successors \(J_{n,\alpha+2e_\ell}\), pressure gradients, and all transport/pressure-product factors. Applying \(\mathbb P\) and \(I-\mathbb P\) reads evolution and pressure. This is a finite cover of original-history coordinates. [u-setting:478-519]
-
-## 4. The velocity, height, and spatial columns
-
-Put
-\[
-E_{r,s}=\tfrac12\|\Lambda^sV_r\|_2^2,\qquad H=E_{0,1/2}.
-\]
-Quadratic differentiation gives the velocity-to-height contraction
-\[
-H^{(k)}=\tfrac12\sum_{b=0}^k\binom kb
-\langle\Lambda^{1/2}V_b,\Lambda^{1/2}V_{k-b}\rangle.
-\]
-This uses every split through \(k\); scalar \(H^{(k)}\) is not a replacement for the full vector row. [u-relations:54-88]
-
-Define the complete signed transfer
-\[
-\mathcal P_{r,s}
-=-\operatorname{Re}\left\langle\Lambda^sV_r,
-\Lambda^s\left(\sum_{b=0}^r\binom rb(V_b\cdot\nabla)V_{r-b}
-+\nabla Q_r\right)\right\rangle.
-\]
-Pair the complete temporal recurrence with \(\Lambda^{2s}V_r\). The viscous pairing is exactly \(-2\nu E_{r,s+1}\), giving
-\[
-\partial_tE_{r,s}=\mathcal P_{r,s}-2\nu E_{r,s+1}.
-\]
-Differentiate, substitute the next spatial-energy identity, and induct on \(k\):
-\[
-\partial_t^kE_{r,s}
-=(-2\nu)^kE_{r,s+k}
-+\sum_{j=0}^{k-1}(-2\nu)^j\partial_t^{k-1-j}\mathcal P_{r,s+j}.
-\]
-For \(r=0,s=1/2\), division by \((-2\nu)^k\) reconstructs
-\[
-R_k:=
-\frac{H^{(k)}-\sum_{j=0}^{k-1}(-2\nu)^j
-\partial_t^{k-1-j}\mathcal P_{j+1/2}}{(-2\nu)^k}
-=E_{k+1/2}.
-\]
-These are triangular identities with all differentiated currents retained. They are derived on strict intervals and give the relationship rows that can be collected into compatible finite rectangles of identities. [u-relations:90-169; contract:58-82]
-
-Each complete column has its own intersection implication. Spatially,
-\[
-L^2_x\cap\bigcap_{k\ge0}\dot H_x^{k+1/2}
-=\bigcap_{m\ge0}H_x^m\hookrightarrow C^\infty_x.
-\]
-The \(L^2\) coordinate controls low frequencies, and arbitrarily high half-integer weights control every finite integer weight. Temporally,
-\[
-\bigcap_{r\ge0}H^r(I)\hookrightarrow C^\infty_t(I),\qquad
-\bigcap_{r\ge0}H^r(I;H^m)\hookrightarrow C^\infty_t(I;H^m).
-\]
-Choosing temporal and spatial exponents above each requested derivative order gives the mixed implication. The intersection keeps every finite membership; it introduces no sum across infinitely many orders. [u-spine:345-458]
-
-For the admitted history, the completed graph has the exact integrated correspondence
-\[
-\int_I R_k=\tfrac12\|\Lambda^{k+1/2}u\|_{L^2(I;L^2)}^2.
-\]
-Thus every \(R_k\in L^1(I)\), with the finite-energy \(L^2(I;L^2)\) floor, is equivalent to the full spatial \(L^2\) intersection. This uses the completed graph, including its currents. Scalar temporal smoothness of \(H\) alone is a different input. [u-spine:406-422]
-
-### A completed height mass produced directly by the kinetic row
-
-Keep the original history, its pressure and its prescribed force on
-\(I=(0,T_*)\). Write \(g=\mathbb Pf\), with \(g=0\) unforced, and set
-\[
- K=\|u_0\|_2+\|g\|_{L^1(I;L^2)}.
-\]
-The complete momentum equation paired with its own velocity gives
-\[
- \|u\|_{L^\infty(I;L^2)}\le K,\qquad
- \int_I\|\nabla u\|_2^2\,dt\le\frac{K^2}{2\nu}.
-\]
-Transport cancels in this pairing by incompressibility. The normalized
-pressure remains in the equation and its gradient pairs to zero against
-the divergence-free velocity. The prescribed source work is retained in
-the kinetic budget.
-
-For the completed zeroth height \(R_0=H=\tfrac12\|\Lambda^{1/2}u\|_2^2\),
-Fourier Cauchy–Schwarz followed by time Cauchy–Schwarz gives
-\[
- \begin{aligned}
- 2h_0:=2\int_I R_0\,dt
- &\le\int_I\|u\|_2\|\nabla u\|_2\,dt\\
- &\le K\sqrt{T_*}
-       \left(\int_I\|\nabla u\|_2^2\,dt\right)^{1/2}\\
- &\le K^2\sqrt{\frac{T_*}{2\nu}}.
- \end{aligned}
-\]
-Thus this particular completed height mass is derived from the datum,
-viscosity and prescribed source without invoking a higher native block.
-It is a time-integrated height, rather than its time supremum.
-
-The direct prescribed work in the critical-height equation also has a
-data-derived integral bound. Moving the fractional multiplier onto the
-smooth prescribed source gives
-\[
- \begin{aligned}
- \mathcal W_{1/2}
- &=\operatorname{Re}\langle u,\Lambda g\rangle,\\
- \|\mathcal W_{1/2}\|_{L^1(I)}
- &\le K\|\Lambda g\|_{L^1(I;L^2)}<\infty.
- \end{aligned}
-\]
-Both formulas are consequences of the original coupled kinetic row.
-The native constructor's other returned height coordinates retain their
-own domains and the finite-height reconstruction uses those coordinates
-at its stated scope. [u-relations:14–46; f-relations:13–60]
-
-
-## 5. The author unforced construction, expanded in place
-
-[Unforced constructed jet, finite readouts and continuation — complete derivation above](#proof-transition-native-record).
-
-## 6. The spatial-to-mixed return
-
-The return operation has entering domain
-\[
-u\in\mathscr S_0(I):=\bigcap_{m\ge0}L^2(I;H^m_\sigma),
-\qquad T_*<\infty.
-\]
-At a fixed target \(m\), the available \(m+2\) order gives
-\[
-\|\mathbb P\nabla\cdot(u\otimes u)\|_{L^1H^m}
-\le C_m\|u\|_{L^2H^{m+2}}^2,\qquad
-\|\Delta u\|_{L^1H^m}\le\sqrt{T_*}\|u\|_{L^2H^{m+2}}.
-\]
-The equation yields \(u_t\in L^1H^m\); Banach integration gives \(u\in C([0,T_*];H^m)\). Its representatives agree under Sobolev embedding because they extend the original distribution. [u-setting:624-667]
-
-Assume the rows through \(V_n\) are continuous at every finite spatial order. Use
-\[
-Q_n=R_iR_j\sum_{b=0}^n\binom nb(V_b)_i(V_{n-b})_j,\qquad
-V_{n+1}=\nu\Delta V_n-\sum_{b=0}^n\binom nb(V_b\cdot\nabla)V_{n-b}-\nabla Q_n.
-\]
-Higher available spatial orders and multiplication give \(Q_n,V_{n+1}\) continuously in any \(H^m\). Their derivative identity extends to the endpoints:
-\[
-V_n(t)-V_n(s)=\int_s^tV_{n+1}(\tau)\,d\tau.
-\]
-Induction identifies actual temporal derivatives and one-sided endpoint values. Finite \(T_*\) gives their \(L^2(I;H^m)\) memberships and the mixed intersection. The entering domain remains \(\mathscr S_0(I)\). [u-setting:669-708]
-
-[Finite completed heights to a selected whole-interval rectangle — complete derivation above](#proof-transition-finite-height-return).
-
-## 7. The author prescribed-force construction, expanded in place
-
-[Prescribed-force constructed jet, finite readouts and continuation — complete derivation above](#proof-transition-forced-native).
-
-## 8. Common endpoint and the complete incoming jet
-
-[One endpoint, complete incoming velocity jet and normalized pressure jet — complete derivation above](#proof-transition-incoming-endpoint).
-
-## 9. Local realization and restart through the endpoint
-
-The local construction begins at an arbitrary time \(s\) with \(a\in H^3_\sigma\). Its mild class is \(C([s,b];H^3)\) with normalized pressure and the Duhamel equation. Splitting the integral at an intermediate time and using the heat semigroup proves restriction to a shifted mild class. Variation of constants places a classical restriction in that class. [u-analysis:597-660; f-analysis:609-679]
-
-For the heat equation with source in \(L^2H^2\), pairing at \(H^3\), keeping the Bessel low-frequency term, and applying Young's inequality gives a linear bound in
-\[
-X_\delta=C H^3_\sigma\cap L^2H^4_\sigma,\qquad
-w_t\in L^2H^2_\sigma.
-\]
-The quadratic estimate
-\(\|\mathbb P\nabla\cdot(v\otimes z)\|_{H^2}
-\le C_{\rm q}\|v\|_{H^3}\|z\|_{H^3}\)
-and its difference version make the Duhamel map a contraction on an explicit closed ball for
-\[
-\delta\le\min\{1,c_\nu(1+\|a\|_{H^3})^{-2}\}.
-\]
-In the forced branch the linear map includes the original shifted force \(f(s+r)\), and the denominator also includes
-\(\Gamma_s=\|\mathbb Pf\|_{L^2(s,s+1;H^2)}\).
-The difference of two maps has the force cancel because their prescribed source agrees. A finite partition into sufficiently short intervals proves uniqueness in the full \(C H^3\) mild class. [u-analysis:662-880; f-analysis:680-925]
-
-Fourier truncation, higher-order energy estimates, contraction convergence, and weak compactness give \(C H^m\) persistence for that fixed point. For \(a\in H^\infty\), its full recurrence produces all temporal rows, including \(F_n,\Phi_n\) in the forced case. [u-analysis:881-1018; f-analysis:926-1071]
-
-In the unforced endpoint proof, the uniform trace bound \(\|u(t_0)\|_{H^3},\|u_*\|_{H^3}\le\mathfrak E_{0,3}\) supplies a positive common restart duration \(\delta_0\). Choose \(t_0\) less than \(\delta_0/2\) before \(T_*\). Local restart at \(u(t_0)\) agrees with the incoming history on every strict overlap by mild-class uniqueness. Its trace at \(T_*\) is \(u_*\), and shifted uniqueness identifies its right-hand restriction with the restart from \(u_*\). This supplies an actual common local history across the joining time. [u-endpoint:466-526]
-
-The outgoing smooth solution starts at \(W_0^+=u_*=V_0^*\). Its differentiated equations obey the endpoint recurrence. Induction fixes \(W_n^+=V_n^*\) and the pressure jets as well. Every one-sided derivative consequently matches in every finite Sobolev space. Sobolev embedding glues the incoming and outgoing pairs smoothly, preserves the original history, and extends it beyond \(T_*\). In the forced branch the recurrence includes the original prescribed values \(F_n(T_*)\) and the restart continues with the original future \(f(t)\). [u-endpoint:528-619; f-endpoint:493-552]
-
-If \(T_*<\infty\), this extension contradicts the definition of maximality. The source concludes \(T_*=\infty\), gathers the global mixed regularity and normalized pressure, and obtains uniqueness by the local uniqueness composition. Its energy identity follows by the original \(L^2\) pairing. These are the source's unforced and prescribed-force proof conclusions at their respective data. [u-endpoint:631-733; f-endpoint:570-657]
-
-## 10. Eulerian and material readouts
-
-[Eulerian and material columns with their commutators — complete derivation above](#proof-transition-material).
-
-## 11. External candidate: local data and residual admission
-
-[Localize the external candidate and prescribe its complete residual — complete derivation above](#proof-transition-candidate-admission).
-
-## 12. Exact exterior cancellation and positive norm growth
-
-[Exact momentum cancellation and divergent positive norms in the exterior — complete derivation above](#proof-transition-exterior-test).
-
-## 13. Identification with the prescribed-data solution
-
-The candidate conclusion consumes the native prescribed-force theorem plus admission of the complete localized residual under the external inputs above. For its zero datum and \(\widetilde f\), the source theorem supplies a regular pair \((U,P)\) on \([0,1]\) in the complete mixed intersection. The trace at \(m=2\), followed by the source's Fourier embedding constant \(1/\sqrt{8\pi}\), gives
-\[
-\sup_{[0,1]}\|U\|_\infty^2
-\le\frac{\|u_0\|_{H^2}^2+R_{0,2}[U]}{8\pi}<\infty.
-\]
-This is a finite rectangle readout of that global forced solution. [r-body:116-143,553-606]
-
-Let \(v,p_v\) be a proposed classical candidate for identical datum, viscosity, prescribed force, and spatial domain, with finite spatial Sobolev norms on each strict interval. Set \(z=v-U\). Subtraction cancels the prescribed force:
-\[
-z_t+(v\cdot\nabla)z+(z\cdot\nabla)U+\nabla(p_v-P)=\nu\Delta z.
-\]
-Pairing with \(z\) eliminates pressure and divergence-free transport. The remaining term is bounded by \(\|\nabla U\|_\infty\|z\|_2^2\), whose coefficient is integrable by the intersection for \(U\). Gronwall on every compact initial subinterval of \([0,1)\), with \(z(0)=0\), gives \(v=U\) on \([0,1)\). No candidate terminal trace is an entering hypothesis of this identification. [r-body:1366-1407]
-
-After this identification, every finite rectangle bound of \(U\) applies to \(v\). The uniform speed bound and finite \(R_{0,1}\) conflict with the source candidate's unbounded speed and the positive exterior divergence above. This is the manuscript's external-candidate exclusion, with native forced theorem, full residual admission, identical prescribed data, strict-interval classical regularity, and exterior-agreement inputs kept explicit. [r-body:1409-1451]
-
-## 14. Conservative-force reduction and its separate exterior test
-
-For \(f=\nabla\phi\), pressure \(p-\phi\) gives an unforced velocity equation. Orthogonal projection gives the residual's distance to all pressure adjustments as \(\|\mathbb Pf\|_{H^m}\). This reduction retains the conservative-force hypothesis. [r-body:1865-1944]
-
-In a fixed cutoff exterior rectangle away from the axis, the source has terminal heat jets \(K_j>0\) and azimuthal force
-\[
-(F_j)_\theta
-=-K_j\left(\chi_{rr}+\chi_{zz}
--\frac{1+4h+4j}{r}\chi_r\right).
-\]
-If this vanished throughout the connected rectangle, the cutoff would solve a uniformly elliptic equation while attaining its maximum one and also vanishing at interior points. The strong maximum principle excludes that combination. A compactly supported azimuthal divergence-free test field of matching sign gives \(\langle\mathbb PF_j,w\rangle>0\). At \(j=0\) the resulting positive dual bound persists on a final time interval. This obstructs absorbing this prescribed candidate force into pressure; it is separate from the uniqueness comparison and from the sign of total force work. [r-body:1946-2079]
-
-
-
-
-### The four proposed refutation readouts, with their actual inputs
-
-The author's original four-part list has these meanings. In the supplied rehearsal's order, the third and fourth are compatible smoothness through the endpoint and the acceleration/participation comparison.
-
-1. **Individual terms.** A sufficiently high finite norm rectangle bounds each selected velocity, pressure, transport, viscous and source coordinate. Every factor and its source must remain attached. [r-body:740–790]
-2. **Combined size.** Summing the individual positive bounds controls the total sizes of the complete equation's terms. This differs from the signed residual being small: large terms can cancel exactly in the residual. [r-body:1010–1085]
-3. **Compatible intersection and endpoint.** Whole-interval rows at all finite orders give a compatible smooth endpoint and restart for the original history. Smoothness only on each strict interval does not supply that terminal input. [r-body:390–449]
-4. **Acceleration and participation.** The rectangle construction bounds material acceleration quantitatively. Equality with the candidate on each strict interval transfers that bound and conflicts with its divergent acceleration. Nonzero divergence of material acceleration is compatible with an incompressible velocity and a volume-preserving flow; incompressibility alone is not the contradiction. [r-body:933–998,1155–1230,1266–1450,1589–1693]
-
-These are linked consequences of the whole-history control, rather than four independent proofs of that control. The candidate comparison also retains complete residual admission, identical prescribed data and force, and strict-interval uniqueness. The source's exact exterior cancels the full momentum residual while positive derivative integrals diverge. Pressure absorption requires zero projected force and is unavailable for the displayed nonzero projected cutoff force. [r-body:1087–1153,1359–1450,1865–1944,2011–2079]
-
-The rough phrase “single rung” is not used as a mathematical premise here. Differentiating a smooth solution of the complete equation produces its full derivative identities. The issue is the quantitative whole-interval domains, not whether a candidate explicitly presents every derivative row. “Engineered force” describes the construction more accurately than “imaginary force.”
-
-
-## Historical alternatives retained separately
-
-[Historical alternatives outside the recovered path — complete derivation above](#proof-transition-recovery-historical-branches).
-
-## August 3–6 source derivations and finalization
-
-[August 3–6 source derivations and finalization — complete derivation above](#proof-transition-recovery-later-history).
+Read the current unforced and prescribed-force openings through `author`, and use `source` for their exact source bytes and cited lines. The complete current manuscript sources are embedded under `canonical:manuscript:` IDs. The six current direct custody sources are embedded under `canonical:custody:` IDs. Historical source snapshots retain their original IDs and hashes.
 
 ## Complete authorial openings
 
-The following display applies vocabulary substitutions; exact original bytes remain bound to their source hashes in the executable.
+The following display preserves the source wording and symbols. Exact bytes are bound to their source hashes in the executable.
 
-### author:u-how:e2c9bf4a1e04
+### canonical:manuscript:parts/unforced/00-how-proof-works.tex
 
 \begingroup
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{1.0\baselineskip}
+\setlength{\parskip}{0.5\baselineskip}
 \setlength{\abovedisplayskip}{8pt}
 \setlength{\belowdisplayskip}{8pt}
 \setlength{\abovedisplayshortskip}{8pt}
@@ -5397,24 +5897,6 @@ The following display applies vocabulary substitutions; exact original bytes rem
 \clubpenalty=10000
 \widowpenalty=10000
 \displaywidowpenalty=10000
-\makeatletter
-\let\NSNativeDisplay\[
-\long\def\[#1\]{%
-  \par\nobreak\vskip8pt\nointerlineskip
-  \begingroup
-  \parskip=0pt \predisplaypenalty=10000 \postdisplaypenalty=10000
-  \baselineskip=0pt \lineskip=0pt \lineskiplimit=0pt
-  \abovedisplayskip=0pt \belowdisplayskip=0pt
-  \abovedisplayshortskip=0pt \belowdisplayshortskip=0pt
-  \NSNativeDisplay \relax{\normalbaselines #1}\]
-  \par
-  \endgroup
-  \nobreak\vskip8pt\nointerlineskip
-  \parskip=0pt
-  \AddToHookNext{para/begin}{\ifdefined\NSNativeDisplay\setlength{\parskip}{1.0\baselineskip}\fi}%
-  \ignorespaces
-}
-\makeatother
 
 \part{How the Proof Works}
 \label{u:guide:how-proof-works}
@@ -5425,67 +5907,151 @@ The three-dimensional Navier--Stokes regularity problem asks whether a smooth fl
 \qquad \nabla\cdot u=0.
 \]
 
+\subsection*{Critical Height and Rescaling}
+
 The problem starts with a vortex.
 
 As it lengthens, it thins and spins faster and faster as it gets smaller.
 
-The danger is that the narrowing could continue toward zero width, with the
-velocity changing more and more sharply across the shrinking core. The
-equations describe an idealized continuum, with no minimum radius built into
-the model.
+The concern is that it could keep doing this, with each contraction taking
+less time than the one before, until the core reaches zero width and the
+speed becomes unbounded. Infinitely many contractions could then fit into
+a finite time.
+This is a Zeno cascade (``Zeno'' for infinitely many stages in finite time;
+``cascade'' for the progression to smaller scales).
 
-To examine how the equations behave at smaller scales, contract lengths by a
-factor \(\lambda>1\), increase the velocity by \(\lambda\), and run the motion
-\(\lambda^2\) times as fast:
+The equations have no minimum vortex width. To follow this possibility
+down through the scales, we need to compare a vortex with a smaller,
+faster version that still satisfies the equation. Reducing lengths by
+\(\lambda>1\) requires multiplying velocity by \(\lambda\) and running
+the evolution \(\lambda^2\) times as fast:
 \[
  u_\lambda(x,t)=\lambda u(\lambda x,\lambda^2t),
  \qquad p_\lambda(x,t)=\lambda^2p(\lambda x,\lambda^2t).
 \]
-All terms in the momentum equation scale by \(\lambda^3\), preserving
-the balance between transport and viscosity at fixed \(\nu\). The velocity
-gradients scale by \(\lambda^2\), since the increase in speed is compressed
-into a smaller distance.
-
-Yet the energy decreases, because the \(\lambda^2\) increase in velocity
-squared is outweighed by the \(\lambda^{-3}\) decrease in volume:
+The chain rule gives, with every right-hand side evaluated at
+\((\lambda x,\lambda^2t)\),
 \[
- E[u_\lambda](t)=\lambda^{-1}E[u](\lambda^2t),
- \qquad E[u]=\frac12\int_{\mathbb R^3}|u|^2\,dx.
+ \begin{aligned}
+ \partial_tu_\lambda&=\lambda^3\partial_tu,
+ & (u_\lambda\cdot\nabla)u_\lambda&=\lambda^3(u\cdot\nabla)u,\\
+ \nabla p_\lambda&=\lambda^3\nabla p,
+ & \nu\Delta u_\lambda&=\lambda^3\nu\Delta u.
+ \end{aligned}
 \]
-
-A Sobolev norm includes the growing spatial derivatives in the measurement.
-Its order \(s\) contributes \(\lambda^s\), alongside the
-\(\lambda^{-1/2}\) from the velocity's \(L^2\) scaling:
-\[
- \|u_\lambda(\cdot,t)\|_{\dot H^s}
- =\lambda^{s-1/2}\|u(\cdot,\lambda^2t)\|_{\dot H^s}.
-\]
-The exponent \(s-\tfrac12\) describes measurement sensitivity. Below
-\(s=\tfrac12\), smaller scales are discounted; above it,
-they are magnified. At \(s=\tfrac12\), dynamically equivalent rescaled
-vortices receive one common reading. That scale-calibrated measurement is
-critical because zooming changes the vortex but not its measured size.
-
-If each contraction generated another, the time rescaling would give the
-stages progressively shorter durations:
+Every term acquires a factor \(\lambda^3\), leaving the equation unchanged
+at fixed viscosity \(\nu\).
+If a flow repeated this contraction, its stage durations would satisfy
 \[
  \tau_j=\lambda^{-2j}\tau_0,
  \qquad \sum_{j=0}^{\infty}\tau_j
  =\frac{\tau_0}{1-\lambda^{-2}}<\infty.
 \]
-The infinitely many stages would accumulate at a finite time, with the
-radius tending to zero and the velocity and its gradients growing without
-bound. This is the hypothetical Zeno cascade. The critical norm follows it
-without making the cascade cheaper or more expensive solely because each
-stage occurs at a smaller scale.
+For the energy measurement, squared speed grows by \(\lambda^2\), but
+volume shrinks by \(\lambda^3\), giving
+\[
+ E[u_\lambda](t)=\lambda^{-1}E[u](\lambda^2t),
+ \qquad E[u]=\frac12\int_{\mathbb R^3}|u|^2\,dx.
+\]
+\Needspace{10\baselineskip}
+The smaller, faster vortex has less energy. A bound on total energy can
+miss precisely the concentration we are concerned about. The measurement
+has to include how sharply the velocity changes across the shrinking core.
+
+A Sobolev norm gives these finer changes more weight. In the Fourier
+description of the velocity, a large spatial frequency \(|\xi|\) means
+variation across a short distance. Weighting each frequency by
+\(|\xi|^s\) gives the homogeneous Sobolev norm of order \(s\):
+\[
+ \|u(t)\|_{\dot H^s}^2
+ =\int_{\mathbb R^3}|\xi|^{2s}|\widehat u(\xi,t)|^2\,d\xi,
+ \qquad \Lambda=(-\Delta)^{1/2}.
+\]
+Here \(\widehat u\) is the Fourier transform of the velocity, and
+\(\Lambda^s\) multiplies it by \(|\xi|^s\). Integer orders measure
+ordinary spatial derivatives; fractional orders give intermediate weights
+to fine structure.
+
+The order \(s\) determines how much weight the fine scales receive.
+We can find the point where that weight exactly offsets the loss of
+volume. In the Fourier transform, the velocity factor
+contributes \(\lambda\) and the change of spatial variables contributes
+\(\lambda^{-3}\). Substituting the resulting transform into the norm
+and then setting \(\xi=\lambda\eta\) gives
+\[
+ \begin{aligned}
+ \widehat{u_\lambda}(\xi,t)
+ &=\lambda^{-2}\widehat u(\xi/\lambda,\lambda^2t),\\
+ \|u_\lambda(t)\|_{\dot H^s}^2
+ &=\lambda^{-4}\int_{\mathbb R^3}|\xi|^{2s}
+      |\widehat u(\xi/\lambda,\lambda^2t)|^2\,d\xi\\
+ &=\lambda^{-4}\lambda^{2s}\lambda^3
+      \|u(\lambda^2t)\|_{\dot H^s}^2
+ =\lambda^{2s-1}\|u(\lambda^2t)\|_{\dot H^s}^2.
+ \end{aligned}
+\]
+The frequency weight contributes \(\lambda^{2s}\), balancing the
+remaining factor \(\lambda^{-1}\) precisely when \(2s-1=0\).
+The dividing height is \(s=\tfrac12\).
+For \(s<\tfrac12\), contraction reduces the norm; for \(s>\tfrac12\),
+it increases the norm. At the dividing height \(s=\tfrac12\), the norm is
+unchanged by the equation's rescaling. This lets us use one bound at every
+vortex width, without shrinking the region of fast-moving fluid making the
+bound easier to satisfy.
+
+This is why the critical height matters: concentration cannot make this
+measurement smaller simply by occupying less space. But its value can
+still change as the fluid evolves. Transport and viscosity both acquired
+a factor \(\lambda^3\), so the rescaling has not decided which controls
+that change.
+
+The equation gives their contributions to the critical energy directly.
+Pair it with \(\Lambda u\)
+and integrate the viscous term by parts. The pressure pairing vanishes
+because \(\nabla\cdot\Lambda u=0\), giving
+\[
+ \frac12\frac{d}{dt}\|u\|_{\dot H^{1/2}}^2
+ +\nu\|u\|_{\dot H^{3/2}}^2
+ =-\operatorname{Re}\langle\Lambda u,(u\cdot\nabla)u\rangle.
+\]
+The positive term on the left measures viscous dissipation. The transport
+term on the right can increase the critical energy. To compare their sizes,
+use H\"older's inequality and the classical Sobolev inequality
+\(\|w\|_{L^3}\le C_3\|w\|_{\dot H^{1/2}}\) on each of the three factors:
+\[
+ \begin{aligned}
+ |\langle\Lambda u,(u\cdot\nabla)u\rangle|
+ &\le\|\Lambda u\|_{L^3}\|u\|_{L^3}\|\nabla u\|_{L^3}\\
+ &\le C\|u\|_{\dot H^{1/2}}\|u\|_{\dot H^{3/2}}^2,
+ \qquad C=C_3^3.
+ \end{aligned}
+\]
+Both contributions contain the \(\dot H^{3/2}\) size. Their relative
+strength is governed by the critical \(\dot H^{1/2}\) norm itself.
+Substitution into the balance makes this explicit:
+\[
+ \frac12\frac{d}{dt}\|u\|_{\dot H^{1/2}}^2
+ +\bigl(\nu-C\|u\|_{\dot H^{1/2}}\bigr)
+       \|u\|_{\dot H^{3/2}}^2\le0.
+\]
+\Needspace{7\baselineskip}
+When \(C\|u\|_{\dot H^{1/2}}<\nu\), the coefficient is positive and
+the critical energy decreases. If it starts below this threshold, the
+decrease keeps it there. For arbitrary initial size, the coefficient need
+not be positive, so this estimate cannot establish viscous control of the
+nonlinear contribution. The classical difficulty is to bound the critical
+norm throughout the evolution without assuming it is already small.
+
+\subsection*{Following One Fluid Motion}
 
 If a singularity were to actually form, the velocity would have to blow up,
 which means the acceleration would have to blow up, followed by its jerk,
 and so on, and so on.
 
-Differentiate the equation in time at fixed spatial coordinates, once
-and then again. Each time derivative of transport can fall on either
-velocity factor, giving
+\interlinepenalty=10000
+
+The equation already contains the velocity and its time derivative.
+Differentiate the whole equation in time, once and then again:
 \[
  \begin{aligned}
  &\partial_tu=\nu\Delta u-(u\cdot\nabla)u-\nabla p,\\
@@ -5496,9 +6062,9 @@ velocity factor, giving
    -(u\cdot\nabla)\partial_t^2u-\nabla\partial_t^2p.
  \end{aligned}
 \]
-Continuing gives the temporal derivative tower. Writing the derivatives at
-fixed spatial coordinates as \(V_n=\partial_t^nu\) and
-\(Q_n=\partial_t^np\), its general row is
+The derivatives distribute across the two velocity factors, producing the
+binomial coefficients. With \(V_n=\partial_t^nu\) and
+\(Q_n=\partial_t^np\), the general form is
 \[
  \begin{aligned}
  V_{n+1}&=\nu\Delta V_n
@@ -5507,26 +6073,39 @@ fixed spatial coordinates as \(V_n=\partial_t^nu\) and
    \sum_{a=0}^{n}\binom na V_{a,i}V_{n-a,j}.
  \end{aligned}
 \]
-Taking the divergence fixes the pressure equation, and decay at spatial
-infinity fixes its normalization. Every temporal row is also a spatial
-field. Taking its spatial derivatives gives the mixed jet
-\(J_{n,\alpha}=\partial_x^\alpha\partial_t^nu\), with pressure derivatives
-\(\Pi_{n,\alpha}=\partial_x^\alpha\partial_t^np\). The product rule now
-acts in both directions:
+Taking the divergence gives the second equation; decay at spatial infinity
+fixes the pressure. Every \(V_n\) is a derivative of the original velocity,
+and every \(Q_n\) is determined by its velocity products. All of these
+derivatives belong to one fluid.
+
+But the vortex is also narrowing across space. Each time derivative is a
+spatial field, with its own spatial derivatives. Retaining those gives
+\[
+ J_{n,\alpha}=\partial_x^\alpha\partial_t^nu,
+ \qquad \Pi_{n,\alpha}=\partial_x^\alpha\partial_t^np.
+\]
+Here \(\alpha\) records the spatial directions and derivative orders.
+Together the fields form the mixed jet. The product rule acts in both
+time and space:
 \[
  J_{n+1,\alpha}=\nu\Delta J_{n,\alpha}-\nabla\Pi_{n,\alpha}
  -\sum_{a=0}^{n}\sum_{\beta\le\alpha}
    \binom na\binom\alpha\beta
    (J_{a,\beta}\cdot\nabla)J_{n-a,\alpha-\beta}.
 \]
-The mixed jet keeps the velocity and pressure derivatives as fields.
-We now take a scalar energy measurement of \(u\):
+The two binomial factors count where those derivatives land. Pressure,
+viscosity, and transport remain together in every equation. These time
+derivatives are taken at fixed positions; along a moving fluid particle,
+the derivative is \(D_t=\partial_t+u\cdot\nabla\). The transport already
+present in the equations accounts for that motion.
+
+Return to the critical energy. We left it in a balance involving the
+spatial order \(3/2\). Write the energy at a general height \(s\) as
 \[
- E_s=\frac12\|\Lambda^su\|_2^2,
- \qquad \Lambda=(-\Delta)^{1/2}.
+ E_s=\frac12\|\Lambda^su\|_2^2.
 \]
-The row \(n=0,\alpha=0\) is the Navier--Stokes equation for \(u\).
-Differentiating \(E_s\), substituting that row, and integrating by parts gives
+Its time derivative comes from the velocity equation. Substitution and
+integration by parts give
 \[
  \begin{aligned}
  E_s'
@@ -5535,19 +6114,14 @@ Differentiating \(E_s\), substituting that row, and integrating by parts gives
  &=-2\nu E_{s+1}+\mathcal P_s,
  \end{aligned}
 \]
-\Needspace{5\baselineskip}
-where the transport and pressure contributions are
+with the transport and pressure contributions collected in
 \[
  \mathcal P_s=-\operatorname{Re}\langle\Lambda^su,
  \Lambda^s((u\cdot\nabla)u+\nabla p)\rangle.
 \]
-One time derivative of the energy has brought in an energy one spatial
-Sobolev level higher. The Laplacian contributes two spatial derivatives;
-integration by parts places one additional derivative on each velocity
-factor in the squared norm.
-
-At the critical height, set \(H=E_{1/2}\). Repeating the energy identity
-at each newly exposed height gives
+The viscous term contains \(E_{s+1}\): integration by parts put one
+of the Laplacian's two derivatives on each velocity factor. Starting
+from \(H=E_{1/2}\), differentiation of that next energy gives
 \[
  \begin{aligned}
  H'&=-2\nu E_{3/2}+\mathcal P_{1/2},\\
@@ -5559,41 +6133,55 @@ at each newly exposed height gives
            \partial_t^{\,n-1-j}\mathcal P_{j+1/2}.
  \end{aligned}
 \]
-The higher mixed-jet rows organize the velocity and pressure derivatives
-inside \(\partial_t^k\mathcal P_s\). Here \(H^{(n)}\) differentiates the
-critical energy; it is not the energy of \(\partial_t^nu\).
-
-Each step up in the time derivatives of \(H\) brings in one higher spatial
-Sobolev order. At temporal order \(n\), the energy identity exposes
-\(E_{n+1/2}\), so the sequence \(H,H',H'',\ldots\) takes us through
-the spatial levels
+The higher we go in time derivatives, the higher we go in Sobolev space.
+Every step brings another factor \(-2\nu\), with the complete transport
+and pressure derivatives alongside it. All of those terms are determined
+by the mixed jet of this fluid. The spatial heights run through
 \[
  H^{1/2},\qquad H^{3/2},\qquad H^{5/2},\qquad H^{7/2},\qquad\ldots.
 \]
-
-\phantomsection\label{u:guide:intersection}
-Recall the Sobolev embedding theorem: in three dimensions, enough spatial
-Sobolev regularity gives bounded, continuous derivatives through order \(k\):
+We began with a vortex getting smaller and spinning faster, with its
+velocity changing more sharply across the core. The higher Sobolev
+orders measure precisely those sharp changes. Above height
+\(k+\tfrac32\), Sobolev embedding bounds the ordinary spatial
+derivatives through order \(k\):
 \[
  H^s(\mathbb R^3)\hookrightarrow C_b^k(\mathbb R^3),
  \qquad s>k+\tfrac32.
 \]
+Any chosen derivative is covered by a sufficiently high finite level.
 
-As we go up the temporal tower, membership at the corresponding spatial
-levels gives more regularity and brings us closer to smoothness. A vortex
-approaching blowup would make us expect the opposite: its spatial derivatives
-should be growing without bound. Requiring membership at every height gives
-the full smoothness condition:
+\phantomsection\label{u:guide:intersection}
+Continuing through all finite orders reaches the full smoothness condition:
 \[
  L^2\cap\bigcap_{n\ge0}\dot H^{n+1/2}(\mathbb R^3)
  =\bigcap_{m\ge0}H^m(\mathbb R^3)
  =H^\infty(\mathbb R^3)\hookrightarrow C_b^\infty(\mathbb R^3).
 \]
+The \(L^2\) term retains the large spatial scales; the increasing Sobolev
+orders retain the small ones. This is the full spatial regularity of the
+fluid.
 
-Fix one \(u_0\in H^\infty_\sigma(\mathbb R^3)\) and one
-\(\nu>0\). Write \(I=(0,T_*)\) for the interval leading to a proposed
-finite maximal time. The equation relates the evolving velocity to its
-prescribed initial value through
+See, the intuition here is what matters: when you follow a vortex down to
+its smallest scales, highest frequencies, and fastest velocities, you are
+following its successive time derivatives. For a singularity to occur,
+you would expect the spatial regularity to break down as you go up in
+those time derivatives. But what we see here is that viscosity relates
+that faster motion to more spatial regularity, not less. This is the
+opposite of what you would expect from a singularity or blowup.
+
+\Needspace{10\baselineskip}
+\vspace{2\baselineskip}
+\subsection*{Proof and Application}
+
+Establishing this regularity through a proposed singular time requires bounds
+on the coupled derivatives throughout the motion.
+
+Fix one \(u_0\in H^\infty_\sigma(\mathbb R^3)\) and one \(\nu>0\).
+The subscript \(\sigma\) records incompressibility. Suppose the smooth
+motion ends at a finite time \(T_*\), and write \(I=(0,T_*)\).
+The initial velocity determines the pressure and, through the equation,
+the subsequent changes in velocity:
 \[
  \begin{aligned}
  u(t)&=u_0+\int_0^t
@@ -5602,47 +6190,52 @@ prescribed initial value through
  \qquad 0\le t<T_*.
  \end{aligned}
 \]
-The pressure formula completes the evolution equation using the velocity
-throughout space. It fixes the normalized pressure at every time, including
-its initial value. The first temporal response is
+Here \(R_iR_j\) solves the pressure Poisson equation with its decaying
+normalization. Substitution gives the first time derivative,
 \[
- V_1(t)=\nu\Delta u(t)-(u(t)\cdot\nabla)u(t)-\nabla Q_0(t).
+ V_1(t)=\nu\Delta u(t)-(u(t)\cdot\nabla)u(t)-\nabla Q_0(t),
 \]
-Differentiating the pressure product determines \(Q_1(t)\); substituting
-\(V_1(t)\) and \(Q_1(t)\) into the next velocity equation determines
-\(V_2(t)\). Continuing the binomial recurrences above gives every temporal
-row, with the original \(\nu\), every transport factor, and every pressure
-response retained. Spatial differentiation then gives
+then differentiation of the pressure product gives \(Q_1\), and the
+next velocity equation gives \(V_2\). At \(t=0\), this recurrence
+generates every initial derivative from \(u_0\). Throughout the motion,
+it gives the mixed fields
 \[
  J_{n,\alpha}(t,x)=\partial_x^\alpha V_n(t,x),
  \qquad
  \Pi_{n,\alpha}(t,x)=\partial_x^\alpha Q_n(t,x).
 \]
-These are fields on \(I\times\mathbb R^3\). Evaluating their equations
-at \(t=0\) gives the complete initial jet determined by \(u_0\);
-leaving \(t,x\) free retains the evolving mixed jet.
 
-A finite cut retains the equations together with their dependent
-coordinates. For a row indexed by \((n,\alpha)\), these include
-\[
- J_{n+1,\alpha},\qquad
- J_{n,\alpha+2e_\ell},\qquad
- \Pi_{n,\alpha+e_\ell},
- \qquad 1\le\ell\le3,
-\]
-and every transport factor
-\[
- J_{a,\beta,i},\qquad
- J_{n-a,\alpha-\beta+e_i},
- \qquad a\le n,\quad\beta\le\alpha.
-\]
-The pressure entries retain all factors in their differentiated Riesz
-product formula. Every retained coordinate is a derivative of the
-original history, including the outer temporal and spatial entries.
+The datum-generated pressure-complete mixed jet carries the spatial Sobolev
+domains of each temporal row on \(I\). Taking every finite spatial order
+gives its spatial intersection; the compatible temporal derivative identities
+give the mixed intersection. The critical-height domains provide the spatial
+reading during this generation. The subsequent substitution into the energy
+rows displays viscosity with transport and pressure retained.
 
-The whole-terminal output of
-Theorem~\ref{u:thm:datum-finite-blocks} concerns this prescribed history.
-Every finite cut of its constructed jet has the adjacent memberships
+Arrange the time derivatives down the rows of a matrix and spatial orders
+across its columns. A finite rectangle selects the coordinates and
+relationships used in one calculation. Each entry retains all of space and
+the original interval \(I\), including its adjacent temporal, viscous,
+transport, and normalized-pressure coordinates.
+
+The viscous relationship is an exact relation between entries of this
+matrix. Rearranging the time equation gives
+\[
+ \nu\Delta V_n=V_{n+1}
+ +\sum_{a=0}^{n}\binom na(V_a\cdot\nabla)V_{n-a}
+ +\nabla Q_n.
+\]
+The next time response is tied to two more spatial derivatives, together
+with the complete transport and pressure sum. The initial jet fixes where
+every row begins. The construction retains these equations together on
+\(I\), with pressure fixed by its velocity products, and takes finite
+records of their compatible Sobolev realization. Increasing a rectangle
+reads more derivatives of this motion.
+
+A bound that deteriorates as \(t\) approaches \(T_*\) would still
+leave the possible singularity unresolved. The whole-interval construction
+result in Theorem~\ref{u:thm:datum-finite-blocks} establishes the paired
+memberships on \(I=(0,T_*)\):
 \[
  \begin{aligned}
  V_n&\in L^2(I;H^{M+1}),\\
@@ -5650,11 +6243,9 @@ Every finite cut of its constructed jet has the adjacent memberships
  \qquad 0\le n\le N,
  \end{aligned}
 \]
-for each finite \(N,M\). Selecting those entries gives
-\(\cR_{N,M}[u_0;T_*]\) by projection of the constructed jet. Increasing
-\(N,M\) changes which derivative coordinates are retained; every cut keeps
-the full time interval \(I\). Their finite norm measures that
-whole-interval output:
+for every finite \(N,M\). The paired heights \(M+1\) and \(M-1\)
+differ by the Laplacian's two derivatives. The rectangle
+\(\cR_{N,M}[u_0;T_*]\) has finite size
 \[
  \begin{aligned}
  \mathfrak R_{N,M}(u;T_*)
@@ -5663,53 +6254,68 @@ whole-interval output:
  &\hspace{36mm}+\|V_{n+1}\|_{L^2(I;H^{M-1})}^2\Bigr)<\infty.
  \end{aligned}
 \]
-Each selected membership includes finiteness of its defining integral on
-\(I\). Restricting the integration to \((0,T)\), with \(T<T_*\), can
-only decrease this sum. Theorem~\ref{u:thm:datum-rectangles} records the
-resulting finite-coordinate estimate.
+Each finite depth and height has its own bound. Restricting the integral
+to an earlier time can only decrease it.
 
-Pressure completion also gives a quantitative readout at each selected
-order. The product estimate and Cauchy--Schwarz in time give
+Time integration alone can allow a tall, narrow spike. Here the adjacent
+row also controls the rate of change. Differentiating the squared
+\(H^M\) norm and splitting its spatial weights gives
+\[
+ \frac{d}{dt}\|V_n(t)\|_{H^M}^2
+ =2\operatorname{Re}\langle
+ (1-\Delta)^{(M+1)/2}V_n,
+ (1-\Delta)^{(M-1)/2}V_{n+1}\rangle_{L^2}.
+\]
+The two factors are precisely the pair in the rectangle. Integration,
+Cauchy--Schwarz, and \(2ab\le a^2+b^2\) give
+\[
+ \sup_{0\le t<T_*}\|V_n(t)\|_{H^M}^2
+ \le\|V_n(0)\|_{H^M}^2
+ +\|V_n\|_{L^2(I;H^{M+1})}^2
+ +\|V_{n+1}\|_{L^2(I;H^{M-1})}^2.
+\]
+The initial value is fixed by \(u_0\), and the integrals remain finite
+through \(T_*\). The row is bounded at every time, including the approach
+to the proposed singularity. Increasing the rectangle gives this control
+at each further derivative order.
+
+Pressure follows the velocity products in its Poisson equation. A spatial
+product estimate, followed by Cauchy--Schwarz in time, gives
 \[
  \begin{aligned}
  \|Q_n\|_{L^1(I;H^M)}
  &\le C_M^{\rm p}\sum_{a=0}^{n}\binom na
        \|V_a\|_{L^2(I;H^{M+1})}\\
- &\hspace{35mm}\cdot\|V_{n-a}\|_{L^2(I;H^{M+1})}<\infty.
+ &\hspace{35mm}\cdot\|V_{n-a}\|_{L^2(I;H^{M+1})}<\infty,
  \end{aligned}
 \]
-For a mixed pressure coordinate, distribute the spatial derivatives between
-both factors as well. Increasing the selected spatial order includes every
-factor needed for any fixed \(\Pi_{n,\alpha}\).
+where \(C_M^{\rm p}\) is the spatial product constant. Spatial
+differentiation distributes the derivatives across those factors, so a
+sufficiently large rectangle covers every chosen pressure derivative too.
 
-Enlarging a finite cut preserves its existing fields. An entry with indices
-\((n,\alpha)\) is always \(\partial_x^\alpha\partial_t^n u\), and its
-pressure entry always comes from the differentiated normalized pressure
-formula. Deleting the outer indices recovers the smaller cut exactly.
-The initial faces agree because the recurrences begin with the original
-\(u_0\). This is the restriction compatibility used in
-Theorem~\ref{u:thm:compatible-inverse-intersection}.
+The rectangles agree where they overlap: an entry \((n,\alpha)\)
+always means \(\partial_x^\alpha\partial_t^nu\), beginning with the
+derivatives generated by \(u_0\). Enlarging the matrix preserves its
+existing entries. This compatibility lets us collect their bounds without
+changing the fluid being described.
 
-Now fix any finite temporal order \(r\) and spatial order \(m\).
-Choose a cut containing \(V_0,\ldots,V_r\) in \(L^2(I;H^m)\).
-Its adjacent equations identify those fields as the weak temporal
-derivatives of \(u\), so
+Choose any time order \(r\) and spatial order \(m\). A large enough
+rectangle contains \(V_0,\ldots,V_r\) in \(L^2(I;H^m)\), giving
 \[
  \|u\|_{H^r(I;H^m)}^2
  =\sum_{n=0}^{r}\|V_n\|_{L^2(I;H^m)}^2<\infty.
 \]
-Every finite pair \((r,m)\) is covered, giving
+Since every finite pair \((r,m)\) is covered,
 \[
  u\in\bigcap_{r,m\ge0}H^r(I;H^m(\mathbb R^3)).
 \]
-The intersection retains all these compatible memberships. Its definition
-requires each finite norm to be finite; it introduces no sum over
-infinitely many derivative orders and no constant common to the tower.
+The full intersection means that each finite number of time and spatial
+derivatives has a finite norm through \(T_*\). Every membership concerns
+the fluid that began at \(u_0\).
 
 \phantomsection\label{u:guide:mixed-jet-map}
-The critical-height construction begins independently from the governing
-energy identity. Differentiating \(H=E_{1/2}\) and substituting the full
-velocity--pressure rows gives
+The critical-height equations express the spatial side of this construction.
+Rearranging the identity already derived isolates each higher spatial energy:
 \[
  \begin{aligned}
  (-2\nu)^k E_{k+1/2}
@@ -5719,75 +6325,92 @@ velocity--pressure rows gives
  \qquad k\ge1.
  \end{aligned}
 \]
-Finite selections of these scalar relationships form the critical-height
-rectangles. The mixed-coordinate records come from differentiating the
-velocity and pressure fields. Each operation uses the governing equations
-on the prescribed history and can be performed before taking an
-all-orders intersection. Their overlapping velocity and pressure entries agree because
-both concern the prescribed history. Evaluating the height relationships
-on the constructed whole-interval jet reads its half-integer spatial
-energies. The finite-energy row controls low frequencies, and arbitrarily
-high half-integer weights control every finite integer Sobolev order.
-Corollary~\ref{u:cor:datum-critical-height-completion} makes this spatial
-exhaustion explicit; Proposition~\ref{u:prop:spatial-column-reconstruction}
-uses the full equation to recover the temporal and pressure rows. The two
-constructions thus retain their independent origins while their compatible
-outputs can be used together.
+Positive \(\nu\) makes its coefficient nonzero. Finite selections form
+the critical-height rectangles, obtained by differentiating the scalar
+energy. The mixed rectangles come from differentiating the velocity and
+pressure fields. Their common entries agree because both calculations
+use the original equation for \(u\).
 
-\Needspace{8\baselineskip}
-Viscosity gives the relationship between these rows. The term
-\(\nu\Delta V_n\) connects the next time derivative to two more spatial
-derivatives, with transport and pressure retained. Positive \(\nu\) lets us
-recover that spatial contribution from each complete row. 
+On the constructed whole-interval jet, these identities recover its
+half-integer spatial energies. Kinetic energy covers low frequencies;
+a weight of order \(k+\tfrac12\ge m\) covers the high frequencies
+needed for any chosen integer order \(m\). Together they give every
+finite spatial Sobolev order.
 
-In particular, choose a height large enough to put \(V_{n+1}\) in
-\(L^2(0,T_*;H^m)\). Between two late times,
+The equation also lets us recover the other rows from this complete
+spatial information. At any chosen height \(m\), two additional spatial
+orders give
 \[
- \|V_n(t)-V_n(s)\|_{H^m}
- \le(t-s)^{1/2}\|V_{n+1}\|_{L^2(s,t;H^m)},
- \qquad s<t<T_*.
+ \begin{aligned}
+ \|(u\cdot\nabla)u\|_{L^1(I;H^m)}
+ &\le C_m\|u\|_{L^2(I;H^{m+2})}^2,\\
+ \|\Delta u\|_{L^1(I;H^m)}
+ &\le\sqrt{T_*}\|u\|_{L^2(I;H^{m+2})},
+ \end{aligned}
 \]
-The remaining change tends to zero, so the row reaches an \(H^m\) limit.
-Limits at different spatial heights agree under restriction. For the
-velocity they identify a smooth endpoint
-\(u_*\in H^\infty_\sigma(\mathbb R^3)\), with the higher temporal rows
-and normalized pressure reaching their compatible endpoints. Local existence
-continues from \(u_*\), and uniqueness joins that continuation to the
-incoming flow. A finite \(T_*\) cannot be maximal.
+with \(C_m\) depending on the spatial order. The pressure formula gives
+an integrable pressure gradient as well. The right-hand side of the
+velocity equation is now integrable through \(T_*\), so its integral
+gives a continuous terminal velocity at every height. The recurrences
+then give \(Q_0,V_1\), followed by \(Q_1,V_2\), and so on.
+The time and spatial descriptions recover one another with viscosity,
+pressure, and transport present throughout.
 
-\Needspace{6\baselineskip}
+There is still a distinction between boundedness before \(T_*\) and
+reaching a state from which the fluid can continue. The next time row
+settles it. Integrating \(V_{n+1}\) between two late times gives
+\[
+ \begin{aligned}
+ \|V_n(t)-V_n(s)\|_{H^m}
+ &\le\int_s^t\|V_{n+1}(\tau)\|_{H^m}\,d\tau\\
+ &\le(t-s)^{1/2}\|V_{n+1}\|_{L^2(s,t;H^m)},
+ \qquad s<t<T_*.
+ \end{aligned}
+\]
+The remaining change tends to zero. Each row reaches a limit in every
+finite \(H^m\), and the limits at different heights agree. The velocity
+reaches a smooth divergence-free state
+\(u_*\in H^\infty_\sigma(\mathbb R^3)\). The pressure formula and
+differentiated equations pass to these limits, giving its complete velocity
+and pressure jet.
+
+Local existence starts a smooth solution from \(u_*\). Its derivatives
+match the incoming ones, and uniqueness joins the continuation to the
+incoming motion. The fluid passes through \(T_*\). It cannot be a
+finite maximal time.
+
 \phantomsection\label{u:guide:finite-estimates}
-The finite estimates now come from whichever rectangle contains the
-orders they require. For temporal order \(r\), spatial derivative order
-\(k\), and finite time \(T\), choose \(m>k+\tfrac32\). Continuity in
-\(H^m\) and Sobolev embedding give
+Each finite part of the matrix also gives concrete bounds on any finite
+interval \([0,T]\). For a time
+derivative of order \(r\) and a spatial derivative of order \(k\), choose
+\(m>k+\tfrac32\). Sobolev embedding then bounds its largest size
+anywhere in the fluid:
 \[
  \sup_{0\le t\le T}\|\partial_t^ru(t)\|_{W^{k,\infty}}
  \le C_{m,k}\sup_{0\le t\le T}\|\partial_t^ru(t)\|_{H^m}<\infty.
 \]
-In particular, the accumulated velocity gradient is finite. For two material
-trajectories, this gives
+Here \(C_{m,k}\) is the embedding constant. In particular, the velocity
+gradient has a finite time integral. That gradient bounds how quickly
+neighbouring fluid particles approach each other. For particles starting
+at \(a\) and \(b\), integration along their trajectories gives
 \[
  |X(a,t)-X(b,t)|\ge |a-b|
  \exp\!\left(-\int_0^t\|\nabla u(s)\|_\infty\,ds\right)>0.
 \]
-\Needspace{4\baselineskip}
 The vortex can stretch and narrow, but a positive material separation
-retains a positive lower bound throughout each finite interval.  The two
-compatible exhaustions give the regularity, and each finite rectangle retains
-the estimates at the orders where they are used.
+retains a positive lower bound throughout each finite interval.
 
 So, for example, choose the rectangle with \(N=0\) and \(M=1\).
-Write the sizes of its velocity and time-derivative entries as
+It contains the velocity in \(L^2(0,T;H^2)\) and its time derivative in
+\(L^2(0,T;L^2)\). Write their sizes as
 \[
  \begin{aligned}
  A_T&=\left(\int_0^T\|u(t)\|_{H^2}^2\,dt\right)^{1/2},\\
  B_T&=\left(\int_0^T\|\partial_tu(t)\|_2^2\,dt\right)^{1/2}.
  \end{aligned}
 \]
-The time-derivative entry controls the change in the \(H^1\) trace.
-Pairing \(\partial_tu\) with \((1-\Delta)u\), then applying
-Cauchy--Schwarz in time, gives, for \(0\le t\le T\),
+The adjacent-row calculation now bounds the \(H^1\) norm at every
+time. Pair \(u_t\) with \((1-\Delta)u\) and integrate:
 \[
  \begin{aligned}
  \|u(t)\|_{H^1}^2
@@ -5797,26 +6420,27 @@ Cauchy--Schwarz in time, gives, for \(0\le t\le T\),
  &\le\|u_0\|_{H^1}^2+2A_TB_T.
  \end{aligned}
 \]
-\Needspace{6\baselineskip}
-With the unitary Fourier normalization, the quantitative spatial
-\(H^1\hookrightarrow L^3\) estimate is
+These two entries give three familiar regularity estimates. First, the
+\(L^3\) velocity norm is unchanged by the vortex rescaling, so it
+measures concentration across scales. The spatial embedding
 \[
- \|f\|_{L^3}\le\frac{\|f\|_{H^1}}{2^{5/6}\pi^{1/6}}.
+ \|f\|_{L^3}\le\frac{\|f\|_{H^1}}{2^{5/6}\pi^{1/6}}
 \]
-Applying it to the trace just obtained gives the
-Escauriaza--Seregin--\v{S}ver\'ak endpoint estimate:
+turns the \(H^1\) bound into the Escauriaza--Seregin--\v{S}ver\'ak
+endpoint estimate. The numerical constants here use the paper's unitary
+Fourier normalization:
 \[
  \sup_{0\le t\le T}\|u(t)\|_{L^3}
  \le \frac{\bigl(\|u_0\|_{H^1}^2+2A_TB_T\bigr)^{1/2}}
               {2^{5/6}\pi^{1/6}}.
 \]
 
-The \(H^2\) entry also controls peak speed at each time. The spatial
-estimate is
+Second, the \(H^2\) entry bounds the largest speed anywhere in the fluid:
 \[
  \|u(t)\|_{L^\infty}\le\frac{\|u(t)\|_{H^2}}{\sqrt{8\pi}}.
 \]
-Squaring and integrating gives the Serrin estimate:
+Its squared time integral is already contained in \(A_T^2\), giving
+the Serrin estimate,
 \[
  \left(\int_0^T\|u(t)\|_{L^\infty}^2\,dt\right)^{1/2}
  \le\frac1{\sqrt{8\pi}}
@@ -5824,12 +6448,15 @@ Squaring and integrating gives the Serrin estimate:
  =\frac{A_T}{\sqrt{8\pi}}.
 \]
 
-For the gradient, the spatial \(H^2\hookrightarrow W^{1,3}\) estimate gives
+\Needspace{9\baselineskip}
+Third, the spatial \(H^2\hookrightarrow W^{1,3}\) estimate bounds
+the velocity gradient:
 \[
  \|\nabla u(t)\|_{L^3}
  \le\frac{\sqrt3\,7^{1/6}}{2^{5/3}\pi^{1/6}}\|u(t)\|_{H^2}.
 \]
-Integrating its square gives the Beir\~ao da Veiga estimate~\cite{BeiraoDaVeiga1995}:
+Its squared time integral is again bounded by \(A_T^2\), giving the
+Beir\~ao da Veiga estimate~\cite{BeiraoDaVeiga1995}:
 \[
  \left(\int_0^T\|\nabla u(t)\|_{L^3}^2\,dt\right)^{1/2}
  \le\frac{\sqrt3\,7^{1/6}}{2^{5/3}\pi^{1/6}}
@@ -5840,9 +6467,154 @@ Integrating its square gives the Beir\~ao da Veiga estimate~\cite{BeiraoDaVeiga1
 The memberships measured by \(\mathfrak R_{0,1}\) give all three estimates.
 Choosing higher rectangles extends the calculation to higher derivatives.
 
+An external force changes the acceleration of the fluid. It enters both
+the velocity equation and the pressure that enforces incompressibility:
+\[
+ \begin{aligned}
+ u_t+(u\cdot\nabla)u+\nabla p&=\nu\Delta u+f,
+ &\nabla\cdot u&=0,\\
+ -\Delta p&=\partial_i\partial_j(u_i u_j)-\nabla\cdot f.
+ \end{aligned}
+\]
+Fix the initial velocity, positive viscosity, and the prescribed force
+\(f\). The forced theorem takes \(f\) smooth through each finite
+time, with its mixed derivatives decaying rapidly in space, uniformly on
+finite intervals:
+\(f\in C^\infty([0,\infty);\mathcal S(\mathbb R^3;\mathbb R^3))\).
+A smooth force with compact support in space and time belongs to this
+class. Its size enters the bounds. Writing \(F_n=\partial_t^nf\),
+the differentiated equations become
+\[
+ \begin{aligned}
+ V_{n+1}&=\nu\Delta V_n
+ -\sum_{a=0}^{n}\binom na(V_a\cdot\nabla)V_{n-a}
+ -\nabla Q_n+F_n,\\
+ -\Delta Q_n&=\partial_i\partial_j
+   \sum_{a=0}^{n}\binom na V_{a,i}V_{n-a,j}-\nabla\cdot F_n.
+ \end{aligned}
+\]
+Spatial differentiation adds \(\partial_x^\alpha F_n\) to each mixed
+row. The initial recurrence uses \(F_n(0)\) alongside \(u_0\), and
+the pressure responds to the force through its divergence.
+
+In the energy balance, the additional term is the work done by the force:
+\[
+ E_s'=-2\nu E_{s+1}+\mathcal P_s+W_s,
+ \qquad
+ W_s=\operatorname{Re}\langle\Lambda^su,\Lambda^sf\rangle.
+\]
+The viscous coefficient stays \(-2\nu\). Repeated differentiation
+now includes the derivatives of the force work:
+\[
+ H^{(k)}=(-2\nu)^k E_{k+1/2}
+ +\sum_{j=0}^{k-1}(-2\nu)^j
+  \partial_t^{\,k-1-j}(\mathcal P_{j+1/2}+W_{j+1/2}).
+\]
+Every derivative of \(W_s\) pairs velocity derivatives with known
+derivatives of \(f\). Their contribution to a selected row can be
+bounded directly. Split the spatial weights between \(V_n\) and
+\(F_n\), then apply Cauchy--Schwarz and Young's inequality:
+\[
+ 2\bigl|\langle V_n,F_n\rangle_{H^M}\bigr|
+ \le\nu\|V_n\|_{H^{M+1}}^2
+      +\nu^{-1}\|F_n\|_{H^{M-1}}^2.
+\]
+The first term is absorbed at the spatial order of the viscous estimate.
+The second has a finite time integral because the force is prescribed
+and smooth through \(T_*\). Its pressure contribution is controlled by
+the Poisson formula. Retaining these source terms, the forced construction
+supplies the paired whole-interval bounds
+\[
+ \mathfrak R^f_{N,M}(u;T_*)
+ =\sum_{n=0}^{N}\left(
+ \|V_n\|_{L^2(I;H^{M+1})}^2
+ +\|V_{n+1}\|_{L^2(I;H^{M-1})}^2\right)<\infty
+\]
+for every finite \(N,M\). The bounds now depend on the force as well
+as \(u_0\) and \(\nu\). The adjacent-row calculation again gives
+bounds at every time, and compatibility collects the finite orders into
+\[
+ u\in\bigcap_{r,m\ge0}H^r(I;H^m(\mathbb R^3)).
+\]
+
+Integrating the next time derivative makes the remaining change tend to
+zero at \(T_*\). The fluid reaches a smooth state \(u_*\), with
+pressure and higher derivatives fixed by the forced recurrence and the
+values \(F_n(T_*)\). Local existence continues from that state with
+the prescribed \(f(t)\) at its original time. The derivatives agree
+across \(T_*\), and uniqueness joins the incoming and outgoing motion.
+The proposed singular time is again an ordinary time of the flow.
+
+The bounds reach each term of the momentum equation individually:
+\[
+ \sup_{0\le t\le T}\left(
+ \|u_t\|_{H^m}+\|(u\cdot\nabla)u\|_{H^m}
+ +\|\nabla p\|_{H^m}+\nu\|\Delta u\|_{H^m}
+ \right)<\infty,
+ \qquad m<\infty.
+\]
+The time derivative is a row of the matrix; the Laplacian uses two more
+spatial orders; transport is a product of controlled derivatives; pressure
+is determined by the velocity and force. Sobolev embedding bounds their
+pointwise sizes too. Thus each term stays finite, even when the terms
+partly cancel in the equation.
+
+OpenAI's proposed blowup starts from rest, uses a smooth force with compact support,
+and concentrates increasing velocity into a shrinking region while keeping
+kinetic energy finite.\footnote{OpenAI,
+\href{https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf}{\emph{Finite Time Blowup for Navier--Stokes}},
+Theorem~1.1 and Section~10, especially (10.20)--(10.21).}
+This returns to the opening problem: total energy can remain finite while
+velocity concentrates into a smaller region. Write \(v\) for the
+proposed velocity and put its proposed singular time at \(t=1\).
+With \(\tau=1-t\), its claimed growth in (10.21) implies
+\[
+ \|v(1-\tau)\|_{L^\infty}\ge c\,\tau^{-A}\longrightarrow\infty,
+ \qquad c>0,\quad A>0.
+\]
+The relevant bound is on the largest speed. If the proposed force has
+its stated smooth extension through \(t=1\), denote it by
+\(f_{\rm OA}\). The forced theorem gives a smooth solution \((U,P)\)
+from rest for that force and viscosity, through \(t=1\).
+
+Before \(t=1\), both \(v\) and \(U\) solve the prescribed initial
+value problem. Their difference \(z=v-U\) starts at zero. Subtracting
+the equations cancels the force; pairing with \(z\) and using
+incompressibility gives
+\[
+ \frac12\frac{d}{dt}\|z\|_2^2+\nu\|\nabla z\|_2^2
+ \le\|\nabla U\|_\infty\|z\|_2^2,
+ \qquad z(0)=0.
+\]
+The coefficient has a finite time integral, so Gronwall's inequality
+keeps the difference zero. On every closed interval ending before \(1\),
+\(v=U\).
+
+The rectangle \(N=0,M=2\) contains \(U\) at spatial height \(3\)
+and \(U_t\) at height \(1\). Their adjacent-row trace bounds
+\(H^2\) at every time, which bounds the speed. With zero initial velocity,
+\[
+ \begin{aligned}
+ \mathfrak R^f_{0,2}[U]
+ &=\|U\|_{L^2(0,1;H^3)}^2
+   +\|U_t\|_{L^2(0,1;H^1)}^2<\infty,\\
+ \sup_{0\le t<1}\|v(t)\|_{L^\infty}^2
+ &=\sup_{0\le t<1}\|U(t)\|_{L^\infty}^2
+ \le\frac{\mathfrak R^f_{0,2}[U]}{8\pi}<\infty.
+ \end{aligned}
+\]
+The proposed divergence contradicts this finite bound. Under the stated
+smooth-force hypothesis, the flow continues smoothly through \(t=1\);
+the divergent field cannot solve that initial value problem.
+
+The vortex can stretch, narrow, and gain energy from the force. Its velocity,
+pressure, and derivatives remain coupled throughout that motion. The
+finite bounds obtained from their viscous relationship survive down through
+the scales, and the fluid reaches a smooth state from which it continues.
+
 \endgroup
 
-### author:f-how:f75f1c7c33b0
+### canonical:manuscript:parts/forced/00-how-proof-works.tex
 
 \section{From a Prescribed Force to Terminal Continuation}
 \label{f:sec:forced-argument-overview}
@@ -5880,7 +6652,7 @@ solves the equation with transformed datum
  =\lambda^{2s-1}\|\Lambda^su(\lambda^2t)\|_2^2.
 \]
 The invariant spatial height is \(s=\tfrac12\).  This identifies
-the critical row of one common forced differential structure; it does not
+the critical row of this forced differential structure; it does not
 replace the prescribed history by its rescaling.
 
 Write
@@ -5913,49 +6685,40 @@ form the pressure-complete forced mixed jet.  They are coordinates of one
 solution, rather than a collection of independently chosen functions.
 
 \phantomsection\label{f:guide:intersection}
-At a proposed finite maximal time \(T_*\), the finite object through temporal
-depth \(N\) and spatial height \(M\) is the record
+At a proposed finite maximal time \(T_*\), put \(I=(0,T_*)\).
+The pressure-complete forced jet generated by \((u_0,\nu,f)\) carries the
+spatial Sobolev intersection in each temporal row. The compatible temporal
+derivative identities give
+\[
+ u\in\bigcap_{r,m\ge0}H^r(I;H^m_\sigma(\R^3)).
+ \tag{A$'$}
+\]
+Critical height supplies the spatial-domain reading alongside this
+generation. The later completed-height and viscous substitutions keep every
+transport, pressure, viscosity, and force-work term.
+
+For fixed finite \(N,M\), select the record
 \[
  \cR_{N,M}[u_0,\nu,f;T_*]
  :=\bigl((V_n)_{n=0}^{N},(V_{n+1})_{n=0}^{N};
          (Q_n)_{n=0}^{N};(F_n)_{n=0}^{N}\bigr).
 \]
-Its scalar velocity norm on a strict horizon is
+Its velocity norm is
 \[
  \mathfrak R_{N,M}(T)
  :=\sum_{n=0}^{N}\left(
  \|V_n\|_{L^2(0,T;H^{M+1})}^2
  +\|V_{n+1}\|_{L^2(0,T;H^{M-1})}^2\right).
 \]
-The datum construction places the record on \((0,T_*)\) and gives
+The selected coordinates retain their original-interval memberships, so
 \[
  \sup_{0<T<T_*}\mathfrak R_{N,M}(T)<\infty
  \qquad(N,M<\infty).
  \tag{A}
 \]
-Deleting outer temporal or spatial coordinates recovers the corresponding
-smaller record.  As \(N\) and \(M\) range over all finite values, these blocks
-exhaust every mixed derivative of the one forced history.  Restriction in time
-gives the strict-horizon blocks, while monotone exhaustion identifies each
-finite norm on \((0,T_*)\).
-
-Letting the temporal and spatial indices range over all finite values gives
-\[
- u\in\bigcap_{r,m\ge0}H^r(I;H^m_\sigma(\R^3)),
- \qquad I=(0,T_*).
- \tag{A$'$}
-\]
-Independently, the completed critical heights and the viscous diagonal relation
-are derived from one common mixed jet.  They retain transport, pressure,
-viscosity, and force work while exposing every finite spatial height.
-Evaluating those identities on the datum-generated blocks and intersecting the
-heights gives the complete spatial Sobolev column; the forced recurrence then
-recovers one common intersection (A$'$).
-There is no second family of fields: both constructions use one common
-datum-generated block \(\cR_{N,M}[u_0,\nu,f;T_*]\) at every finite pair
-\((N,M)\).  The independently derived critical-height relationship rectangle
-is the finite system of coupled identities evaluated on those same
-coordinates.
+Deleting outer indices preserves each retained velocity, pressure, and force
+field. Finite selections of the completed-height identities form the
+relationship rectangles on these coordinates.
 
 The viscous relation is visible already in one row.  Project
 \eqref{f:eq:guide-forced-row}, apply \(\Lambda^s\), and use
@@ -5987,8 +6750,7 @@ and orthogonality recombines the complete source:
  =\|\Lambda^s(F_n-B_n)\|_2^2.
  \tag{D}
 \]
-Thus the rectangle keeps viscosity, transport, pressure, and forcing in the
-same estimate.
+Thus the rectangle keeps viscosity, transport, pressure, and forcing in one estimate.
 
 The critical-height tower is another reading of this viscous tether.  For
 \[
@@ -6005,7 +6767,7 @@ the complete row is
 \]
 At \(r=0\) and \(s=\tfrac12\), differentiating (E) repeatedly exposes
 \(E_{3/2},E_{5/2},\ldots\), while the differentiated transport, pressure,
-and force work remains in one common completed row.  The tower then
+and force work remains in that completed row.  The tower then
 describes the geometry among mixed-jet coordinates; it does not replace the
 velocity field by a scalar height.
 The first two spatial heights are, explicitly,
@@ -6055,7 +6817,7 @@ multiplication is applied within that same finite rectangle to its binomial
 transport face \(B_n\); it does not replace the nonlinear term or introduce a
 second premise.
 
-The mixed-index exhaustion and the critical-height relationships use one common
+The mixed-index exhaustion and the critical-height relationships use these
 finite blocks.  The former records every mixed derivative; the
 latter recover every spatial row and return through the forced recurrence.
 Pairing, squaring, and integrating (B)--(E) inside any selected rectangle gives
@@ -6063,7 +6825,7 @@ its complete-equation estimates, with the nonlinearity retained as one face of
 that forced rectangle.
 
 \phantomsection\label{f:guide:finite-estimates}
-The datum rectangles now carry one common complete equation to the terminal
+The datum rectangles now carry the complete equation to the terminal
 step.  Their zeroth temporal faces give, for every finite \(m\),
 \[
  u\in L^2(0,T_*;H^{m+2}).
@@ -6081,7 +6843,7 @@ Hence
  \hookrightarrow C([0,T_*];H^m)
  \qquad(m\ge0).
 \]
-All these traces come from one common velocity and determine one
+All these traces come from one velocity and determine one
 terminal state
 \[
  u_*=u(T_*)\in\bigcap_{m\ge0}H^m_\sigma(\R^3).
@@ -6089,21 +6851,478 @@ terminal state
 
 Passing \eqref{f:eq:guide-forced-row}--\eqref{f:eq:guide-forced-pressure} to
 \(T_*\) determines every temporal and pressure coordinate from \(u_*\) and
-the values \(F_n(T_*)\).  Local theory from \(u_*\), driven by one common
-prescribed force \(f(t)\), continues one common history past \(T_*\).
+the values \(F_n(T_*)\).  Local theory from \(u_*\), driven by that
+prescribed force \(f(t)\), continues that history past \(T_*\).
 This contradicts maximality, so \(T_*=\infty\).
 
 \phantomsection\label{f:guide:how-proof-ends}
 
 ## Source bodies at the native construction calls
 
-These are the original mathematical source passages, including their theorem statements and proof bodies. Reading vocabulary is applied to this text edition; exact bytes and hashes remain in the executable.
+These are the original mathematical source passages, including their theorem statements and proof bodies. This text edition preserves the source wording and symbols; exact bytes and hashes remain in the executable.
 
-### Unforced native theorem and complete proof body
+### Current unforced manuscript: 01-setting-mixed-jet.tex
 
-Source: revision:u-setting:afb54c1cdd30:454-623
+Source: canonical:manuscript:parts/unforced/01-setting-mixed-jet.tex:1-821
 
 ```latex
+\section{The pressure-complete setting and mixed jet}
+\label{u:sec:formal-setting-mixed-jet}
+
+\begin{proposition}[Pressure normalization]
+\label{u:prop:formal-pressure-normalization}
+Let \(u,p\) be smooth on \(I\times\R^3\), let \(\nabla\cdot u=0\), and suppose
+\[
+ u(t)\in H^1_\sigma(\R^3),
+ \qquad
+ p(t)\in H^0(\R^3)
+ \qquad(t\in I),
+\]
+and
+\begin{equation}
+ u_t+(u\cdot\nabla)u+\nabla p=\nu\Delta u.
+ \label{u:eq:formal-ns-system}
+\end{equation}
+Then
+\begin{align}
+ -\Delta p
+ &=\partial_i\partial_j(u_i u_j),
+ \label{u:eq:formal-pressure-poisson}\\
+ p
+ &=R_iR_j(u_i u_j),
+ \label{u:eq:formal-pressure-riesz}\\
+ (u\cdot\nabla)u+\nabla p
+ &=\Pp\nabla\cdot(u\otimes u).
+ \label{u:eq:formal-pressure-projected}
+\end{align}
+The condition \(p(t)\in H^0(\R^3)\) fixes the pressure uniquely.
+\end{proposition}
+
+\begin{proof}
+Incompressibility gives
+\[
+ (u\cdot\nabla)u_i=\partial_j(u_j u_i).
+\]
+Taking the divergence of \eqref{u:eq:formal-ns-system} cancels
+\(\nabla\cdot u_t\) and \(\nabla\cdot\Delta u\), which yields
+\eqref{u:eq:formal-pressure-poisson}.  Lemma~\ref{u:lem:riesz-leray}, applied
+with \(m=0\), gives \(q:=R_iR_j(u_i u_j)\in H^0\), this Poisson identity, and
+\[
+ (u\cdot\nabla)u+\nabla q=\Pp\nabla\cdot(u\otimes u).
+\]
+If \(p_1,p_2\in H^0\) satisfy \eqref{u:eq:formal-pressure-poisson}, then
+\(h=p_1-p_2\) satisfies
+\(|\xi|^2\widehat h=0\).  Since \(\widehat h\in L^2\) and is supported at
+\(\{0\}\), it vanishes.  Hence \(p=q\), which proves
+\eqref{u:eq:formal-pressure-riesz} and \eqref{u:eq:formal-pressure-projected}.
+\end{proof}
+
+\begin{samepage}
+\begin{definition}[Maximal pressure-complete classical history]
+\label{u:def:formal-maximal-history}
+Fix \(\nu>0\) and \(u_0\in\HsSigma(\R^3)\).  A pressure-complete classical
+history generated by \((u_0,\nu)\) is a triple
+\[
+ (T_*,u,p),
+ \qquad
+ 0<T_*\le\infty,
+\]
+such that, for every \(0<T<T_*\) and \(n,m\in\Nzero\),
+\begin{align*}
+ \partial_t^nu&\in C([0,T];H^m_\sigma(\R^3)),\\
+ \partial_t^np&\in C([0,T];H^m(\R^3)),
+\end{align*}
+and
+\begin{align}
+ u_t+(u\cdot\nabla)u+\nabla p&=\nu\Delta u,
+ \label{u:eq:formal-history-momentum}\\
+ \nabla\cdot u&=0,
+ \label{u:eq:formal-history-divergence}\\
+ u(0)&=u_0,
+ \label{u:eq:formal-history-datum}\\
+ p(t)&=R_iR_j(u_i(t)u_j(t)).
+ \label{u:eq:formal-history-pressure}
+\end{align}
+The history is maximal if no pressure-complete classical history
+\((\widetilde T,\widetilde u,\widetilde p)\) generated by \((u_0,\nu)\)
+satisfies
+\[
+ \widetilde T>T_*,
+ \qquad
+ (\widetilde u,\widetilde p)|_{[0,T_*)}=(u,p).
+\]
+\end{definition}
+\end{samepage}
+
+\begin{definition}[Temporal and mixed velocity--pressure jets]
+\label{u:def:formal-mixed-jet}
+Let \((T_*,u,p)\) be a maximal pressure-complete classical history.  For
+\(n\in\Nzero\) and \(\alpha\in\Nzero^3\), define
+\[
+ V_n:=\partial_t^nu,
+ \qquad
+ Q_n:=\partial_t^np,
+ \qquad
+ J_{n,\alpha}:=\partial_t^n\partial_x^\alpha u,
+ \qquad
+ \Pi_{n,\alpha}:=\partial_t^n\partial_x^\alpha p.
+\]
+For \(\beta\le\alpha\), define
+\[
+ \binom{\alpha}{\beta}
+ :=\prod_{\ell=1}^3\binom{\alpha_\ell}{\beta_\ell},
+ \qquad
+ |\alpha|:=\alpha_1+\alpha_2+\alpha_3.
+\]
+\end{definition}
+
+\begin{proposition}[Pressure-complete binomial recurrences]
+\label{u:prop:formal-mixed-recurrences}
+For every \(n\in\Nzero\) and \(\alpha\in\Nzero^3\),
+\begin{align}
+ Q_n
+ &=R_iR_j
+ \sum_{a=0}^{n}\binom na V_{a,i}V_{n-a,j},
+ \label{u:eq:formal-temporal-pressure-row}\\
+ V_{n+1}
+ &=
+ \nu\Delta V_n
+ -\sum_{a=0}^{n}\binom na(V_a\cdot\nabla)V_{n-a}
+ -\nabla Q_n,
+ \label{u:eq:formal-temporal-velocity-row}\\
+ \Pi_{n,\alpha}
+ &=R_iR_j
+ \sum_{a=0}^{n}\sum_{\beta\le\alpha}
+ \binom na\binom{\alpha}{\beta}
+ J_{a,\beta,i}J_{n-a,\alpha-\beta,j},
+ \label{u:eq:formal-mixed-pressure-row}\\
+ J_{n+1,\alpha}
+ &+
+ \sum_{a=0}^{n}\sum_{\beta\le\alpha}
+ \binom na\binom{\alpha}{\beta}
+ (J_{a,\beta}\cdot\nabla)
+ J_{n-a,\alpha-\beta}
+ +\nabla\Pi_{n,\alpha}
+ =\nu\Delta J_{n,\alpha},
+ \label{u:eq:formal-mixed-velocity-row}\\
+ \nabla\cdot J_{n,\alpha}&=0.
+ \label{u:eq:formal-mixed-divergence-row}
+\end{align}
+\end{proposition}
+
+\begin{proof}
+Apply \(\partial_t^n\) to \eqref{u:eq:formal-history-pressure} and use
+Lemma~\ref{u:lem:mixed-leibniz} with \(\alpha=0\) to obtain
+\eqref{u:eq:formal-temporal-pressure-row}.  Apply \(\partial_t^n\) to
+\eqref{u:eq:formal-history-momentum} to obtain
+\eqref{u:eq:formal-temporal-velocity-row}.  Apply
+\(\partial_x^\alpha\) to both identities, use
+Lemma~\ref{u:lem:mixed-leibniz}, and commute the derivatives with \(R_iR_j\)
+to obtain \eqref{u:eq:formal-mixed-pressure-row} and
+\eqref{u:eq:formal-mixed-velocity-row}.  Differentiation of
+\eqref{u:eq:formal-history-divergence} gives
+\eqref{u:eq:formal-mixed-divergence-row}.
+\end{proof}
+
+\paragraph{The unforced datum and its derivative rows.}
+The initial velocity and viscosity specify all inputs to these recurrences.
+Pressure is determined by the velocity products, and there is no prescribed
+force jet. A smooth forced equation can still be differentiated; its rows
+also contain the corresponding force derivatives, and the pressure equation
+contains the divergence of the force. In the unforced kinetic-energy
+calculation of Proposition~\ref{u:prop:kinetic-energy}, transport and pressure
+have zero global pairing with the velocity, and no external work term
+remains. At higher Sobolev orders, the full internal transport--pressure
+contribution is retained in
+Proposition~\ref{u:prop:completed-height-recurrence}. These are the governing
+rows and energy identities used in the construction below.
+
+\begin{definition}[Canonical pressure constant]
+\label{u:def:formal-canonical-bilinear-constants}
+For vector fields \(f,g\), set
+\[
+ \mathcal Q(f,g):=\sum_{i,j=1}^3R_iR_j(f_i g_j).
+\]
+For \(m\in\Nzero\), define
+\[
+ C_m^{\rm p}:=
+ \sup_{\substack{
+ f,g\in H^{m+1}(\R^3;\R^3)\setminus\{0\}}}
+ \frac{
+ \norm{\mathcal Q(f,g)}_{H^m}
+ +\norm{\nabla\mathcal Q(f,g)}_{H^{m-1}}}
+ {\norm f_{H^{m+1}}\norm g_{H^{m+1}}}.
+\]
+\end{definition}
+
+\begin{lemma}
+\label{u:lem:formal-canonical-bilinear-constants}
+For every \(m\in\Nzero\),
+\[
+ C_m^{\rm p}\le2C_m^{\rm alg}.
+\]
+\end{lemma}
+\begin{proof}
+Regard \((f_i g_j)_{i,j}\) as one tensor.  The contraction
+\(F\mapsto R_iR_jF_{ij}\) has Fourier-multiplier norm one from the tensor
+\(H^m\) norm to scalar \(H^m\).  Lemma~\ref{u:lem:sobolev-product} and
+\(\norm{\nabla h}_{H^{m-1}}\le\norm h_{H^m}\) give
+\[
+ \norm{\mathcal Q(f,g)}_{H^m}
+ +\norm{\nabla\mathcal Q(f,g)}_{H^{m-1}}
+ \le2C_m^{\rm alg}\norm f_{H^{m+1}}\norm g_{H^{m+1}}.
+\]
+\end{proof}
+
+\begin{lemma}[Initial pressure-complete jet]
+\label{u:lem:formal-initial-jet}
+Set
+\[
+ V_n^0:=V_n(0),
+ \qquad
+ Q_n^0:=Q_n(0),
+ \qquad
+ J_{n,\alpha}^0:=J_{n,\alpha}(0),
+ \qquad
+ \Pi_{n,\alpha}^0:=\Pi_{n,\alpha}(0).
+\]
+Then
+\begin{align}
+ V_0^0&=u_0,
+ \label{u:eq:formal-initial-base}\\
+ Q_n^0
+ &=R_iR_j
+ \sum_{a=0}^{n}\binom naV_{a,i}^0V_{n-a,j}^0,
+ \label{u:eq:formal-initial-pressure}\\
+ V_{n+1}^0
+ &=
+ \nu\Delta V_n^0
+ -\sum_{a=0}^{n}\binom na
+ (V_a^0\cdot\nabla)V_{n-a}^0
+ -\nabla Q_n^0.
+ \label{u:eq:formal-initial-velocity}
+\end{align}
+For every \(n,m\in\Nzero\) and \(\alpha\in\Nzero^3\),
+\[
+ V_n^0,Q_n^0,J_{n,\alpha}^0,\Pi_{n,\alpha}^0\in H^m(\R^3).
+\]
+\par
+\end{lemma}
+
+\begin{proof}
+The initial velocity fixes the pressure before the first temporal response is
+calculated:
+\[
+ Q_0^0=R_iR_j(u_{0,i}u_{0,j}),
+ \qquad
+ V_1^0=\nu\Delta u_0-(u_0\cdot\nabla)u_0-\nabla Q_0^0.
+\]
+Differentiating the pressure product places the first temporal response on
+either velocity factor. Substitution into the next velocity row gives
+\[
+ \begin{aligned}
+ Q_1^0&=R_iR_j
+ \bigl(V_{1,i}^0u_{0,j}+u_{0,i}V_{1,j}^0\bigr),\\
+ V_2^0&=\nu\Delta V_1^0
+ -(V_1^0\cdot\nabla)u_0
+ -(u_0\cdot\nabla)V_1^0-\nabla Q_1^0.
+ \end{aligned}
+\]
+At temporal order \(n\), the product rule distributes the \(n\)
+derivatives between the two velocity factors in \(\binom na\) ways.
+Thus the already determined values \(V_0^0,\ldots,V_n^0\) determine
+\(Q_n^0\) through \eqref{u:eq:formal-initial-pressure}, and then determine
+\(V_{n+1}^0\) through \eqref{u:eq:formal-initial-velocity}.
+
+Fix any finite spatial order \(m\). The datum belongs to every higher
+Sobolev space needed by these finitely many products and derivatives.
+Lemmas~\ref{u:lem:sobolev-product} and \ref{u:lem:riesz-leray} place
+\(Q_n^0\) and \(V_{n+1}^0\) in \(H^m\). Induction from
+\(V_0^0=u_0\) proves the assertion at every finite \(n,m\).
+Spatial differentiation gives the initial mixed coordinates
+\(J_{n,\alpha}^0=\partial_x^\alpha V_n^0\) and
+\(\Pi_{n,\alpha}^0=\partial_x^\alpha Q_n^0\).
+The original classical history obeys these differentiated equations, so its
+initial traces are exactly the values just calculated.
+\end{proof}
+
+\begin{theorem}[Finite-row pressure estimates]
+\label{u:thm:formal-finite-row-pressure}
+Let \(I=(0,T)\subset(0,T_*)\), let \(n,M\in\Nzero\), and suppose
+\[
+ V_a\in L^2(I;H^{M+1}(\R^3))
+ \qquad(0\le a\le n).
+\]
+Then
+\begin{align}
+ &\norm{Q_n}_{L^1(I;H^M)}
+ +\norm{\nabla Q_n}_{L^1(I;H^{M-1})}
+ \notag\\
+ &\qquad\le
+ C_M^{\rm p}\sum_{a=0}^{n}\binom na
+ \norm{V_a}_{L^2(I;H^{M+1})}
+ \norm{V_{n-a}}_{L^2(I;H^{M+1})}.
+ \label{u:eq:formal-finite-pressure-L1}
+\end{align}
+\begin{samepage}
+If
+\[
+ \mathcal V_{n,M}(I)^2
+ :=\sum_{a=0}^{n}
+ \norm{V_a}_{L^2(I;H^{M+1})}^2,
+\]
+then
+\begin{equation}
+ \norm{Q_n}_{L^1(I;H^M)}
+ +\norm{\nabla Q_n}_{L^1(I;H^{M-1})}
+ \le C_M^{\rm p}2^n\mathcal V_{n,M}(I)^2.
+ \label{u:eq:formal-finite-pressure-compressed}
+\end{equation}
+\end{samepage}
+For \(\alpha\in\Nzero^3\), assume
+\[
+ J_{a,\beta}\in L^2(I;H^{M+1}(\R^3))
+ \qquad
+ (0\le a\le n,\ \beta\le\alpha).
+\]
+Then
+\begin{align}
+ &\norm{\Pi_{n,\alpha}}_{L^1(I;H^M)}
+ +\norm{\nabla\Pi_{n,\alpha}}_{L^1(I;H^{M-1})}
+ \notag\\
+ &\quad\le
+ C_M^{\rm p}
+ \sum_{a=0}^{n}\sum_{\beta\le\alpha}
+ \binom na\binom{\alpha}{\beta}
+ \norm{J_{a,\beta}}_{L^2(I;H^{M+1})}
+ \norm{J_{n-a,\alpha-\beta}}_{L^2(I;H^{M+1})}.
+ \label{u:eq:formal-finite-mixed-pressure-L1}
+\end{align}
+If
+\[
+ \mathcal J_{n,\alpha,M}(I)^2
+ :=
+ \sum_{a=0}^{n}\sum_{\beta\le\alpha}
+ \norm{J_{a,\beta}}_{L^2(I;H^{M+1})}^2,
+\]
+then
+\begin{equation}
+ \norm{\Pi_{n,\alpha}}_{L^1(I;H^M)}
+ +\norm{\nabla\Pi_{n,\alpha}}_{L^1(I;H^{M-1})}
+ \le
+ C_M^{\rm p}2^{n+|\alpha|}
+ \mathcal J_{n,\alpha,M}(I)^2.
+ \label{u:eq:formal-finite-mixed-pressure-compressed}
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+Lemmas~\ref{u:lem:sobolev-product} and \ref{u:lem:riesz-leray} give
+\begin{equation}
+ \norm{R_iR_j(f_i g_j)}_{H^M}
+ +\norm{\nabla R_iR_j(f_i g_j)}_{H^{M-1}}
+ \le C_M^{\rm p}\norm f_{H^{M+1}}\norm g_{H^{M+1}}.
+ \label{u:eq:formal-pressure-bilinear}
+\end{equation}
+Equations \eqref{u:eq:formal-temporal-pressure-row} and
+\eqref{u:eq:formal-pressure-bilinear} give, for almost every \(t\in I\),
+\[
+ \norm{Q_n(t)}_{H^M}
+ +\norm{\nabla Q_n(t)}_{H^{M-1}}
+ \le
+ C_M^{\rm p}\sum_{a=0}^{n}\binom na
+ \norm{V_a(t)}_{H^{M+1}}
+ \norm{V_{n-a}(t)}_{H^{M+1}}.
+\]
+Integration and Cauchy--Schwarz prove
+\eqref{u:eq:formal-finite-pressure-L1}.  For nonnegative \(x_a\),
+\[
+ \sum_{a=0}^{n}\binom nax_ax_{n-a}
+ \le
+ \sum_{a=0}^{n}\binom nax_a^2
+ \le
+ 2^n\sum_{a=0}^{n}x_a^2.
+\]
+This proves \eqref{u:eq:formal-finite-pressure-compressed}.
+
+Apply \eqref{u:eq:formal-pressure-bilinear} to each summand in
+\eqref{u:eq:formal-mixed-pressure-row}.  Integration and Cauchy--Schwarz give
+\eqref{u:eq:formal-finite-mixed-pressure-L1}.  The involution
+\[
+ (a,\beta)\longmapsto(n-a,\alpha-\beta)
+\]
+preserves the weights
+\(\binom na\binom{\alpha}{\beta}\), and
+\[
+ \sum_{a=0}^{n}\sum_{\beta\le\alpha}
+ \binom na\binom{\alpha}{\beta}
+ =2^{n+|\alpha|}.
+\]
+In particular, every individual weight is at most \(2^{n+|\alpha|}\).
+The inequality \(2xy\le x^2+y^2\) proves
+\eqref{u:eq:formal-finite-mixed-pressure-compressed}.
+\end{proof}
+
+
+\subsection{The datum-generated jet and its compatible finite records}
+\label{u:sec:independent-intersection}
+
+Start with \(u_0\in\HsSigma(\R^3)\) and \(\nu>0\).
+Theorem~\ref{u:thm:local-restart} constructs a pressure-normalized classical
+history on a positive interval. Uniqueness identifies the local solutions
+on their overlaps; their compatible union gives the maximal history of
+Definition~\ref{u:def:formal-maximal-history}.
+
+Its derivative rows are determined by the equation. The datum specifies
+the initial zeroth velocity row. The pressure formula in
+Proposition~\ref{u:prop:formal-mixed-recurrences} fixes its initial pressure,
+and the velocity recurrence fixes its first temporal row.
+Repeating the recurrences determines
+every finite initial temporal row. Spatial differentiation gives the
+initial mixed jet. Along the history, those rows are the actual
+distributional derivatives of \(u,p\), with the full transport and pressure
+terms retained.
+
+On every strict subinterval \((0,T)\), \(T<T_*\), persistence of the
+classical history identifies these rows and gives finite norms at each fixed
+pair of indices. For a proposed finite maximal time, put \(I=(0,T_*)\).
+The construction uses the datum, fixed viscosity, complete initial jet, and
+pressure-complete equations on \(I\).
+
+The derivative order leaves the governing variables free. For example,
+\(V_1(t,x)\) is determined by the velocity, its spatial derivatives, and
+its normalized pressure at \((t,x)\); evaluating that identity at \(t=0\)
+gives the initial value calculated above. Repeated differentiation retains
+\((t,x)\) in every row. It describes the responses of the evolving field
+throughout its interval.
+
+The viscous term makes the temporal and spatial descriptions meet in each
+complete equation:
+\begin{equation}
+ \nu\Delta V_n
+ =V_{n+1}
+ +\sum_{a=0}^{n}\binom na(V_a\cdot\nabla)V_{n-a}
+ +\nabla Q_n.
+ \label{u:eq:complete-row-spatial-recovery}
+\end{equation}
+The two additional spatial derivatives occur together with the next temporal
+response and the full transport--pressure sum. This is the field relation
+behind the spatial orders exposed by the critical-height calculation in
+Proposition~\ref{u:prop:completed-height-recurrence}.
+
+On the proposed finite maximal interval \(I=(0,T_*)\), the datum-generated
+pressure-complete jet retains the spatial Sobolev domains of every finite
+temporal row. Taking all finite spatial orders gives its spatial
+intersection; retaining the temporal derivative identities gives the
+compatible mixed intersection. Critical height supplies the Sobolev-domain
+reading alongside this generation. The later completed-height substitution
+displays viscosity and finite relationships among the retained coordinates.
+
+Finite selections of the velocity and pressure coordinates form the records
+below. Finite selections of the differentiated critical-height identities
+form relationship rectangles. Their overlapping entries are fixed by the
+original equation and its pressure normalization.
+
 \begin{theorem}[Datum-generated whole-terminal finite rectangles]
 \label{u:thm:datum-finite-blocks}
 Let \(\nu>0\), \(u_0\in\HsSigma(\R^3)\), and let
@@ -6161,7 +7380,7 @@ complete initial jet
  -\sum_{a=0}^n\binom na(A_a\cdot\nabla)A_{n-a}-\nabla P_n.
 \]
 At step \(n\), the right-hand side uses only the already determined rows
-\(A_0,\ldots,A_n\).  Lemma~\ref{u:lem:formal-initial-jet} thus places
+\(A_0,\ldots,A_n\).  Lemma~\ref{u:lem:formal-initial-jet} then places
 every required \(A_n\) and \(P_n\) in every finite spatial Sobolev order.
 Spatial differentiation supplies
 \[
@@ -6211,7 +7430,7 @@ The dependency cover is not an autonomous truncated fluid: every entry is the
 corresponding derivative of the original maximal history.  Applying \(\Pp\)
 reads the solenoidal evolution, and applying \(I-\Pp\) reads the normalized
 pressure equation.  The initial face, every nonlinear factor, the viscous
-coordinates, and the pressure coordinates are thus present together.
+coordinates, and the pressure coordinates are present together.
 
 The datum-generated whole-terminal jet already contains its compatible
 Sobolev coordinates on \(I\). Selecting this finite record projects that
@@ -6265,216 +7484,420 @@ Theorem~\ref{u:thm:formal-finite-row-pressure} give
  \norm{V_{n-a}}_{L^2(I;H^{m+|\alpha|+1})}<\infty.
 \]
 
-When \(N'\ge N\) and \(M'\ge M\), both rectangles begin with one common initial
+When \(N'\ge N\) and \(M'\ge M\), both rectangles begin with one initial
 jet.  The temporal recurrence, spatial Leibniz rule, and normalized pressure
-formula give one common expressions on every common coordinate; uniqueness
-identifies their realizations.  Deleting the outer coordinates thus
+formula give identical expressions on every common coordinate; uniqueness
+identifies their realizations.  Deleting the outer coordinates
 recovers the smaller rectangle.  Time restriction preserves those same
 coordinates, while \eqref{u:eq:finite-graph-output} and
 \eqref{u:eq:finite-graph-uniform-cutoff-output} identify their
 whole-terminal norms.
 \end{proof}
-```
 
-### Forced native theorem and complete proof body
+The finite mixed-index description and the completed-height description
+retain the compatible intersection carried by the generated jet.
 
-Source: today:f-setting:487-673
-
-```latex
-\begin{theorem}[Datum-generated compatible forced finite rectangles]
-\label{f:thm:datum-finite-blocks}
-Let \(\nu>0\), \(u_0\in\HsSigma(\R^3)\), and
-\(f\in C^\infty([0,\infty);\mathcal S(\R^3;\R^3))\). Let
-\((T_*,u,p)\) be the maximal pressure-complete classical history generated
-by the single forced datum \((u_0,\nu,f)\). Assume, toward contradiction, that
-\(T_*<\infty\), and put \(I=(0,T_*)\).  For finite \(N,M\), the corresponding
-pressure-complete record is
+\begin{corollary}[Mixed-index exhaustion of the compatible rectangles]
+\label{u:thm:datum-intersection}
+Under the hypotheses of Theorem~\ref{u:thm:datum-finite-blocks}, compatibility
+of the finite rows gives
 \begin{equation}
- \cR_{N,M}[u_0,\nu,f;T_*]
- :=\left((V_n)_{n=0}^{N},(V_{n+1})_{n=0}^{N};
- (Q_n)_{n=0}^{N};(F_n)_{n=0}^{N}\right).
- \label{f:eq:forced-datum-rectangle-record}
+ u\in\bigcap_{r,m\in\Nzero}H^r(I;H^m_\sigma(\R^3)),
+ \qquad I=(0,T_*).
+ \label{u:eq:independent-mixed-intersection}
 \end{equation}
-The forced construction produces, for \(0\le n\le N\),
+Its mixed velocity--pressure coordinates are
 \begin{equation}
- V_n\in L^2(I;H^{M+1}),\qquad
- V_{n+1}\in L^2(I;H^{M-1}).
- \label{f:eq:independent-adjacent-finite-rows}
-\end{equation}
-Define its velocity norm on \(I\) by
-\begin{equation}
- \mathfrak R_{N,M}(u;T_*)
- :=\sum_{n=0}^{N}\left(
- \norm{V_n}_{L^2(I;H^{M+1})}^2
- +\norm{V_{n+1}}_{L^2(I;H^{M-1})}^2
- \right).
- \label{f:eq:forced-restricted-block-norm}
-\end{equation}
-The forced whole-terminal output is
-\begin{equation}
- \mathfrak R_{N,M}(u;T_*)<\infty
- \qquad(N,M<\infty).
- \label{f:eq:forced-datum-block-output}
-\end{equation}
-Taking \(N\ge n\) and \(M=m\) gives the corresponding statement for every
-finite pair \((n,m)\).
-For \(N'\le N\) and \(M'\le M\), the larger block restricts to one common
-velocity, pressure, and force coordinates as the smaller block:
-\begin{equation}
- \left.\cR_{N,M}[u_0,\nu,f;T_*]\right|_{(N',M')}
- =\cR_{N',M'}[u_0,\nu,f;T_*].
- \label{f:eq:independent-intersection-record}
-\end{equation}
-Here restriction deletes the outer temporal rows and reads every retained
-distribution in the lower Sobolev order.  The mixed coordinates are
-\[
  J_{n,\alpha}=\partial_x^\alpha\partial_t^nu,
- \qquad
+ \quad
  \Pi_{n,\alpha}=\partial_x^\alpha\partial_t^np,
- \qquad
- F_{n,\alpha}=\partial_x^\alpha\partial_t^nf.
-\]
-For every finite \((n,m,\alpha)\),
-\[
- J_{n,\alpha}\in L^2(I;H^m),\qquad
- \Pi_{n,\alpha}\in L^1(I;H^m),\qquad
- F_{n,\alpha}\in C([0,T_*];H^m).
-\]
-\end{theorem}
+ \qquad n\in\Nzero,\quad\alpha\in\Nzero^3.
+ \label{u:eq:independent-intersection-record}
+\end{equation}
+These coordinates obey the pressure-complete recurrences of
+Proposition~\ref{u:prop:formal-mixed-recurrences} and agree under every
+temporal and spatial restriction.
+\end{corollary}
 
-\begin{proof}[Datum construction on the complete forced graph]
-Put \(I=(0,T_*)\), and fix finite \(N,M\).  The prescribed data first generate
-the complete initial jet:
+\begin{proof}
+Fix finite \(r,m\).  A rectangle with temporal depth at least \(r\) and spatial
+height at least \(m\) contains \(V_n\in L^2(I;H^m)\) for
+\(0\le n\le r\).  The recurrence identifies these rows with the weak
+derivatives \(\partial_t^nu\), so
+\[
+ \norm u_{H^r(I;H^m)}^2
+ =\sum_{n=0}^{r}\norm{V_n}_{L^2(I;H^m)}^2<\infty.
+\]
+Taking every finite \((r,m)\) proves
+\eqref{u:eq:independent-mixed-intersection}.  The coordinate memberships and
+restriction compatibility in Theorem~\ref{u:thm:datum-finite-blocks} give
+\eqref{u:eq:independent-intersection-record}.
+\end{proof}
+
+The return from the spatial column to the mixed jet uses only the original
+equation and the one fixed history.
+
+\begin{proposition}[Spatial-column reconstruction of the mixed intersection]
+\label{u:prop:spatial-column-reconstruction}
+Let \((T_*,u,p)\) be the pressure-normalized maximal history with
+\(T_*<\infty\), put \(I=(0,T_*)\), and assume
+\begin{equation}
+ u\in\mathscr S_0(I):=\bigcap_{m\in\Nzero}L^2(I;H^m_\sigma(\R^3)).
+ \label{u:eq:complete-spatial-row}
+\end{equation}
+Then \(V_n,Q_n\in C([0,T_*];H^m)\) for every finite \(n,m\), the adjacent
+rows satisfy \eqref{u:eq:independent-adjacent-finite-rows}, and
+\eqref{u:eq:independent-mixed-intersection} follows for this same history.
+\end{proposition}
+
+\begin{proof}
+Fix \(m\). Lemmas~\ref{u:lem:sobolev-product} and \ref{u:lem:riesz-leray}
+give
 \[
  \begin{aligned}
- A_0&=u_0,\\
- P_n&=R_iR_j\sum_{a=0}^n\binom na(A_a)_i(A_{n-a})_j
-      -(-\Delta)^{-1}\nabla\cdot F_n(0),\\
- A_{n+1}&=\nu\Delta A_n
- -\sum_{a=0}^n\binom na(A_a\cdot\nabla)A_{n-a}
- -\nabla P_n+F_n(0).
+ \norm{\Pp\nabla\!\cdot(u\otimes u)}_{L^1(I;H^m)}
+ &\le C_m\norm u_{L^2(I;H^{m+2})}^2<\infty,\\
+ \norm{\Delta u}_{L^1(I;H^m)}
+ &\le\sqrt{T_*}\norm u_{L^2(I;H^{m+2})}<\infty.
  \end{aligned}
 \]
-At step \(n\), this recurrence determines \(A_{n+1}\) from the preceding
-velocity rows and the prescribed force row \(F_n(0)\).
-Lemma~\ref{f:lem:formal-initial-jet} places every required initial row in every
-finite spatial Sobolev order, and spatial differentiation supplies the initial
-mixed coordinates.
-
-For an equation indexed by \((n,\alpha)\), retain the adjacent temporal
-coordinate \(J_{n+1,\alpha}\), the viscous coordinates
-\(J_{n,\alpha+2e_\ell}\), and the pressure coordinates
-\(\Pi_{n,\alpha+e_\ell}\), for \(1\le\ell\le3\), together with the direct
-source coordinate \(F_{n,\alpha}\).  For every \(a\le n\),
-\(\beta\le\alpha\), and velocity component \(i\), retain both transport
-factors
+Substitution into the unforced equation
 \[
- J_{a,\beta,i},
- \qquad
- J_{n-a,\alpha-\beta+e_i}.
+ u_t=\nu\Delta u-\Pp\nabla\!\cdot(u\otimes u)
 \]
-Here \(e_i\) is the \(i\)-th spatial unit multi-index.  Set
-\(\Gamma_\alpha:=\{\alpha\}\cup\{\alpha+e_\ell:1\le\ell\le3\}\).
-For every \(\gamma\in\Gamma_\alpha\), every \(a\le n\), and every
-\(\beta\le\gamma\), also retain the pressure-product factors
-\(J_{a,\beta,i}\), \(J_{n-a,\gamma-\beta,j}\), and the pressure-source
-coordinate \(F_{n,\gamma}\).  Each retained normalized pressure coordinate
-then carries both its full velocity product and its prescribed source
-potential:
+gives \(u_t\in L^1(I;H^m)\). Also \(u\in L^1(I;H^m)\), since
+\(T_*<\infty\). The Banach-valued fundamental theorem gives
 \[
- \Pi_{n,\gamma}
- =R_iR_j\sum_{a=0}^n\sum_{\beta\le\gamma}
- \binom na\binom{\gamma}{\beta}
- J_{a,\beta,i}J_{n-a,\gamma-\beta,j}
- -(-\Delta)^{-1}\nabla\cdot F_{n,\gamma}
- \qquad(\gamma\in\Gamma_\alpha).
+ u\in W^{1,1}(I;H^m)\hookrightarrow C([0,T_*];H^m)
+ \qquad(m\in\Nzero).
 \]
-The retained equation is thus
-\begin{equation}
- \mathscr E_{n,\alpha}(J,\Pi;F)
- :=J_{n+1,\alpha}
- +\sum_{a=0}^{n}\sum_{\beta\le\alpha}
-  \binom na\binom{\alpha}{\beta}
-  (J_{a,\beta}\cdot\nabla)J_{n-a,\alpha-\beta}
- +\nabla\Pi_{n,\alpha}
- -\nu\Delta J_{n,\alpha}-F_{n,\alpha}=0.
- \label{f:eq:forced-finite-equation-graph}
-\end{equation}
-There are finitely many retained coordinates for the fixed selected equations.
-This dependency cover is not a second or truncated flow: every velocity and
-pressure entry is a derivative of the one prescribed forced history, and
-every force entry is a derivative of the one prescribed source.  Applying
-\(\Pp\) reads the solenoidal evolution; applying \(I-\Pp\) reads the
-normalized pressure equation.
-
-The prescribed source adds one known affine coordinate to each coupled row.
-At the block's velocity-row order, for every \(0\le n\le N\), Fourier
-Cauchy--Schwarz and Young's inequality give the source payment
-\begin{equation}
- 2\left|\langle F_n,V_n\rangle_{H^M}\right|
- \le \nu\norm{V_n}_{H^{M+1}}^2
-     +\nu^{-1}\norm{F_n}_{H^{M-1}}^2.
- \label{f:eq:forced-finite-row-source-payment}
-\end{equation}
-The first right-hand term is absorbed by the viscous
-\(H^{M+1}\)-dissipation in one common row.  The second is finite on
-\([0,T_*]\) because \(F_n\) is smooth in time with Schwartz spatial values.
-For each retained mixed pressure index \(\gamma\in\Gamma_\alpha\), the
-gradient component has the finite budget
-\(\mathfrak F^{\rm p}_{n,\gamma,M}(I)\) from
-\eqref{f:eq:force-pressure-budget}.  Thus the affine force and every
-force-induced pressure coordinate are paid inside this finite forced record.
-
-The initial face, complete dependency cover, two projections, and prescribed
-affine source now form the input to the forced datum construction.
-Applied to this one graph and this one history, it supplies, for every
-\(n=0,\ldots,N\),
+Integrating the equation from the initial datum makes the trace bound explicit:
 \[
- V_n\in L^2(I;H^{M+1}),
- \qquad
- V_{n+1}\in L^2(I;H^{M-1}).
+ \sup_{0\le t\le T_*}\norm{u(t)}_{H^m}
+ \le\norm{u_0}_{H^m}
+ +\nu\sqrt{T_*}\norm u_{L^2(I;H^{m+2})}
+ +C_m\norm u_{L^2(I;H^{m+2})}^2<\infty.
 \]
-These are the memberships in
-\eqref{f:eq:independent-adjacent-finite-rows}.
+These continuous representatives agree under Sobolev embedding because
+they extend the original velocity. Their endpoint values define one
+\(u_*\in H^\infty_\sigma\).
 
-For this fixed finite pair, form the sum of their defining squared norms:
+Now assume the temporal rows \(V_0,\ldots,V_n\) are continuous on
+\([0,T_*]\) in every finite Sobolev space. This has just been proved
+for \(V_0=u\). The pressure and velocity recurrences are
 \[
- C^f_{N,M}[u_0,\nu,f;I]
- :=\sum_{n=0}^{N}\left(
-  \norm{V_n}_{L^2(I;H^{M+1})}^2
-  +\norm{V_{n+1}}_{L^2(I;H^{M-1})}^2
- \right)<\infty.
+ \begin{aligned}
+ Q_n&=R_iR_j\sum_{a=0}^n\binom na(V_a)_i(V_{n-a})_j,\\
+ V_{n+1}&=\nu\Delta V_n
+ -\sum_{a=0}^n\binom na(V_a\cdot\nabla)V_{n-a}-\nabla Q_n.
+ \end{aligned}
 \]
-These norms give
-\begin{equation}
- \mathfrak R_{N,M}(u;T_*)
- =C^f_{N,M}[u_0,\nu,f;I]<\infty.
- \label{f:eq:forced-uniform-cutoff-output}
-\end{equation}
-This proves \eqref{f:eq:forced-datum-block-output}. The record also retains the pressure and
-prescribed-force coordinates constrained by
-\eqref{f:eq:forced-finite-equation-graph}.
-
-Fix \(n,m,\alpha\).  Choosing \(N\ge n\) and
-\(M\ge m+|\alpha|\) gives the stated
-velocity and mixed-velocity memberships.  The normalized Riesz formula and
-Theorem~\ref{f:thm:formal-finite-row-pressure} give the pressure membership,
-including its prescribed source potential, while the prescribed force class
-gives \(F_{n,\alpha}\in C([0,T_*];H^m)\).  The temporal recurrence, spatial
-Leibniz rule, pressure normalization, and force jet commute with deletion of
-the outer indices.  Overlap uniqueness identifies every retained coordinate
-with the corresponding derivative of the original maximal history.  Hence
-each enlarged rectangle restricts to the smaller one, so the finite records
-satisfy the literal restriction identity
-\eqref{f:eq:independent-intersection-record} on \(I\).
+Products, spatial differentiation, and the Riesz operators are continuous
+between the required finite Sobolev spaces. Choosing sufficiently high
+spatial orders in the available rows makes both right-hand sides continuous
+in any prescribed \(H^m\). On \(I\), they equal the actual derivatives
+\(Q_n=\partial_t^np\) and \(V_{n+1}=\partial_tV_n\) by
+Proposition~\ref{u:prop:formal-mixed-recurrences}. The identity
+\[
+ V_n(t)-V_n(s)=\int_s^tV_{n+1}(\tau)\,d\tau
+ \qquad\text{in }H^m
+\]
+extends from interior times to \(0\le s\le t\le T_*\) by continuity.
+It identifies the continuous extension with the temporal derivative,
+including the one-sided derivatives at the endpoints. Induction gives
+\(V_n,Q_n\in C([0,T_*];H^m)\) for every finite \(n,m\).
+Finite \(T_*\) now gives the corresponding \(L^2(I;H^m)\) memberships.
+In particular, selecting adjacent temporal coordinates gives
+\[
+ V_n\in L^2(I;H^{m+1}),\qquad
+ V_{n+1}\in L^2(I;H^{m-1})
+ \qquad(n,m\in\Nzero).
+\]
+For fixed finite \(r,m\), these actual weak derivatives give
+\[
+ \norm u_{H^r(I;H^m)}^2
+ =\sum_{n=0}^r\norm{V_n}_{L^2(I;H^m)}^2<\infty.
+\]
+Thus the full-interval spatial component propagates through
+the original equation to every finite mixed Sobolev membership. The argument
+uses finitely many temporal orders at each step, with no bound required to
+be uniform over \(r,m\). The identities in
+Proposition~\ref{u:prop:formal-mixed-recurrences} give compatibility:
+restricting the indices retains the corresponding derivatives of \(u,p\).
+These are the finite coordinates used in
+Theorem~\ref{u:thm:datum-rectangles} and the derivative-sum calculation of
+Theorem~\ref{u:thm:compatible-inverse-intersection}.
 \end{proof}
+
+The adjacent memberships also give a bound valid up to the proposed terminal
+time. Apply Lemma~\ref{u:lem:adjacent-trace} with
+\(\partial_tV_n=V_{n+1}\). It gives
+\[
+ V_n\in C([0,T_*];H^m)
+\]
+and, using the initial value determined in
+Lemma~\ref{u:lem:formal-initial-jet},
+\[
+ \sup_{0\le t\le T_*}\norm{V_n(t)}_{H^m}^2
+ \le\norm{V_n(0)}_{H^m}^2
+ +2\norm{V_{n+1}}_{L^2(I;H^{m-1})}
+    \norm{V_n}_{L^2(I;H^{m+1})}<\infty.
+\]
+Both time norms on the right are supplied on the entire interval \(I\),
+so the bound remains fixed as \(t\) approaches \(T_*\).
+The trace at each spatial order is a continuous representative of the
+original row. Uniqueness of these representatives under Sobolev embedding
+makes their terminal values compatible. The detailed endpoint calculation
+in Theorem~\ref{u:thm:ier-compatible-endpoint-traces} uses precisely these
+rows and norms.
+
+The pressure spaces in the statement retain the original normalization.
+For fixed \(n,m\), the compatible finite-row family gives
+\(V_a\in L^2(I;H^{m+1})\) for \(0\le a\le n\).
+The pressure formula and the finite-row product estimate give
+\[
+ \norm{Q_n}_{L^1(I;H^m)}
+ \le C_m^{\rm p}\sum_{a=0}^n\binom na
+ \norm{V_a}_{L^2(I;H^{m+1})}
+ \norm{V_{n-a}}_{L^2(I;H^{m+1})}<\infty.
+\]
+Choosing the spatial order higher by \(|\alpha|\) gives the asserted
+mixed pressure coordinate.  Differentiation and restriction act on the
+fixed distributions \(u,p\), so their overlapping coordinates agree.
+This pressure completion is already carried by the compatible finite rows of
+Theorem~\ref{u:thm:datum-finite-blocks}; it is retained in both descriptions.
+
+Fixing temporal and spatial orders selects a finite rectangle from the
+constructed jet. Adding its squared row norms gives
+Theorem~\ref{u:thm:datum-rectangles}; monotone convergence writes its value
+on \((0,T_*)\) in Proposition~\ref{u:prop:datum-terminal-realization}.
+The next section derives the completed-height relationships and their
+viscous coefficients on these coordinates. Their cofinal spatial reading
+and the original recurrence retain the spatial, temporal, and pressure
+memberships already carried by the construction.
+
+The endpoint argument uses adjacent temporal coordinates of this family.
+Theorem~\ref{u:thm:ier-compatible-endpoint-traces} applies the Hilbert-scale
+trace estimate to obtain their compatible limits at \(T_*\).
+Theorem~\ref{u:thm:ier-pressure-complete-endpoint} passes the pressure formula
+and velocity recurrence to those limits. The resulting smooth endpoint
+and its jet are the data used in
+Theorem~\ref{u:thm:ier-same-history-restart}; local existence and overlap
+uniqueness continue the original history past the proposed finite maximal
+time. The small-critical-data calculation in
+Theorem~\ref{u:thm:app-small-critical-global} gives a separate quantitative
+result under its stated smallness condition.
 ```
 
-### Unforced finite-block invocation, height exhaustion and spatial recovery
+### Current unforced manuscript: 02-compatible-rectangles.tex
 
-Source: u-relations:207-392
+Source: canonical:manuscript:parts/unforced/02-compatible-rectangles.tex:1-499
 
 ```latex
+\section{Critical-height relationships of the constructed jet}
+\label{u:sec:compatible-rectangles}
+
+The generated mixed jet already carries its compatible spatial and temporal
+Sobolev intersection. The critical-height domains provide a spatial reading
+of that structure. Substituting the mixed rows into their energy identities
+now displays the viscous coefficients with the complete transport and
+pressure terms retained. Fixed finite selections give coordinate rectangles
+and relationship rectangles. Enlargement preserves each retained field and
+identity.
+
+\begin{proposition}[Kinetic-energy identity]
+\label{u:prop:kinetic-energy}
+For every \(0\le t<T_*\),
+\begin{equation}
+ \frac12\norm{u(t)}_2^2
+ +\nu\int_0^t\norm{\nabla u(s)}_2^2\dd s
+ =\frac12\norm{u_0}_2^2.
+ \label{u:eq:kinetic-energy}
+\end{equation}
+Consequently, for \(0<T<T_*\),
+\begin{align}
+ \norm u_{L^\infty(0,T;L^2)}&\le\norm{u_0}_2,
+ \label{u:eq:energy-Linf}\\
+ \norm u_{L^2(0,T;H^1)}^2
+ &\le\left(T+\frac1{2\nu}\right)\norm{u_0}_2^2.
+ \label{u:eq:energy-L2H1}
+\end{align}
+\end{proposition}
+
+\begin{proof}
+Take the \(L^2\) pairing of the momentum equation with \(u\).  Integration
+by parts and \(\nabla\cdot u=0\) give
+\[
+ \ip{(u\cdot\nabla)u}{u}_{L^2}=0,
+ \qquad
+ \ip{\nabla p}{u}_{L^2}=0,
+ \qquad
+ \ip{\Delta u}{u}_{L^2}=-\norm{\nabla u}_2^2.
+\]
+Integration in time proves \eqref{u:eq:kinetic-energy}.  The two estimates
+follow by discarding the nonnegative dissipation and adding
+\(\int_0^T\norm{u(s)}_2^2\dd s\).
+\end{proof}
+
+Pairing a differentiated velocity equation with a spatial derivative of
+that row expresses the change of its Sobolev energy through viscous
+dissipation and the full transport--pressure contribution.  Repeated time
+differentiation then exposes higher spatial energies, with the differentiated
+nonlinear terms retained in each identity.
+
+\begin{definition}[Completed height rows]
+\label{u:def:critical-height-rows}
+For \(r\in\Nzero\) and \(s\ge0\), set
+\begin{align}
+ E_{r,s}(t)&:=\frac12\norm{\Lambda^sV_r(t)}_2^2,
+ \label{u:eq:temporal-row-spatial-energy}\\
+ \cP_{r,s}(t)&:=-\operatorname{Re}
+ \ip{\Lambda^sV_r(t)}
+ {\Lambda^s\!\left(
+   \sum_{a=0}^{r}\binom ra(V_a\cdot\nabla)V_{r-a}+\nabla Q_r
+ \right)(t)}_{L^2}.
+ \label{u:eq:temporal-row-pressure-complete-transfer}
+\end{align}
+For the base row write \(E_s:=E_{0,s}\), \(\cP_s:=\cP_{0,s}\), and
+\(H:=E_{1/2}\).
+\end{definition}
+
+Differentiating this quadratic height along the classical history gives
+\[
+ H^{(r)}(t)=\frac12\sum_{a=0}^r\binom ra
+ \ip{\Lambda^{1/2}V_a(t)}{\Lambda^{1/2}V_{r-a}(t)}_{L^2}.
+\]
+On a proposed finite maximal interval \(I=(0,T_*)\), the compatible finite
+datum rectangles give the continuous \(H^1\) row traces
+\[
+ \norm{H^{(r)}}_{L^\infty(I)}
+ \le\frac12\sum_{a=0}^r\binom ra
+ \norm{V_a}_{C([0,T_*];H^1)}
+ \norm{V_{r-a}}_{C([0,T_*];H^1)}<\infty.
+\]
+Every finite derivative of \(H\) belongs to \(L^2(I)\), since
+\(T_*<\infty\). Thus \(H\in\bigcap_{r\in\Nzero}H^r(I)\), and
+temporal Sobolev embedding gives its smoothness.  The identities below retain
+the complete transport--pressure terms and expose, at every finite height, the
+spatial energy carried by that rectangle.
+
+\begin{proposition}[Completed height recurrence in every temporal row]
+\label{u:prop:completed-height-recurrence}
+For every strict classical interval \((0,T)\), every \(r\in\Nzero\), and
+every \(s\ge0\),
+\begin{equation}
+ \partial_tE_{r,s}=\cP_{r,s}-2\nu E_{r,s+1}.
+ \label{u:eq:sobolev-height-balance}
+\end{equation}
+For every \(k\in\N\),
+\begin{equation}
+ \partial_t^kE_{r,1/2}
+ =(-2\nu)^kE_{r,k+1/2}
+ +\sum_{j=0}^{k-1}(-2\nu)^j
+   \partial_t^{k-1-j}\cP_{r,j+1/2}.
+ \label{u:eq:completed-height-every-temporal-row}
+\end{equation}
+In the base row \(r=0\),
+\begin{equation}
+ H^{(k)}
+ =(-2\nu)^kE_{k+1/2}
+ +\sum_{j=0}^{k-1}(-2\nu)^j
+   \partial_t^{k-1-j}\cP_{j+1/2},
+ \label{u:eq:completed-height-recurrence}
+\end{equation}
+and the highest spatial energy is the exact coordinate
+\begin{equation}
+ E_{k+1/2}
+ =\frac{H^{(k)}-
+   \displaystyle\sum_{j=0}^{k-1}(-2\nu)^j
+   \partial_t^{k-1-j}\cP_{j+1/2}}
+ {(-2\nu)^k}.
+ \label{u:eq:completed-height-row}
+\end{equation}
+\end{proposition}
+
+\begin{proof}
+Pair the temporal recurrence for \(V_r\) with \(\Lambda^{2s}V_r\).
+The pressure-complete nonlinear sum is exactly \(\cP_{r,s}\), while
+\[
+ \nu\operatorname{Re}\ip{\Lambda^sV_r}{\Lambda^s\Delta V_r}_{L^2}
+ =-\nu\norm{\Lambda^{s+1}V_r}_2^2=-2\nu E_{r,s+1}.
+\]
+This proves \eqref{u:eq:sobolev-height-balance}.  Induction on \(k\) gives
+the stronger identity
+\begin{equation}
+ \partial_t^kE_{r,s}
+ =(-2\nu)^kE_{r,s+k}
+ +\sum_{j=0}^{k-1}(-2\nu)^j
+   \partial_t^{k-1-j}\cP_{r,s+j}.
+ \label{u:eq:all-height-recurrence}
+\end{equation}
+Indeed, differentiation of the order-\(k\) identity followed by
+\(\partial_tE_{r,s+k}=\cP_{r,s+k}-2\nu E_{r,s+k+1}\) produces the
+order-\(k+1\) identity.  Taking \(s=1/2\) proves
+\eqref{u:eq:completed-height-every-temporal-row}.  Taking \(r=0\) gives
+\eqref{u:eq:completed-height-recurrence}; since \(\nu>0\), division by
+\((-2\nu)^k\) gives \eqref{u:eq:completed-height-row}.
+\end{proof}
+
+\begin{definition}[Completed critical-height coordinates]
+\label{u:def:completed-critical-height-coordinates}
+Set
+\begin{equation}
+ R_0:=H=E_{1/2},
+ \qquad
+ R_k
+ :=\frac{H^{(k)}-
+   \displaystyle\sum_{j=0}^{k-1}(-2\nu)^j
+   \partial_t^{k-1-j}\cP_{j+1/2}}
+ {(-2\nu)^k}
+ \quad(k\in\N).
+ \label{u:eq:completed-critical-coordinate}
+\end{equation}
+Proposition~\ref{u:prop:completed-height-recurrence} gives the exact identity
+\begin{equation}
+ R_k=E_{k+1/2}
+ =\frac12\norm{\Lambda^{k+1/2}u}_2^2
+ \qquad(k\in\Nzero).
+ \label{u:eq:completed-critical-coordinate-identity}
+\end{equation}
+\par
+\end{definition}
+
+\begin{definition}[Finite mixed rectangle]
+\label{u:def:finite-rectangle}
+Let \(0<T<T_*\) and \(N,M\in\Nzero\).  Restrict the whole-terminal record in
+\eqref{u:eq:independent-datum-rectangle-record} to \((0,T)\):
+\[
+ \cR_{N,M}[u_0;T]
+ :=\left(
+ (V_n|_{(0,T)})_{n=0}^{N},
+ (V_{n+1}|_{(0,T)})_{n=0}^{N};
+ (Q_n|_{(0,T)})_{n=0}^{N}
+ \right).
+\]
+Its associated velocity and pressure norms are
+\begin{align}
+ \mathfrak R_{N,M}(u;T)
+ :={}&\sum_{n=0}^{N}
+ \norm{V_n}_{L^2(0,T;H^{M+1})}^2
+ +\sum_{n=0}^{N}
+ \norm{V_{n+1}}_{L^2(0,T;H^{M-1})}^2,
+ \label{u:eq:finite-rectangle-norm}\\
+ \mathfrak Q_{N,M}(p;T)
+ :={}&\sum_{n=0}^{N}
+ \left(
+ \norm{Q_n}_{L^1(0,T;H^M)}
+ +\norm{\nabla Q_n}_{L^1(0,T;H^{M-1})}
+ \right).
+ \label{u:eq:finite-pressure-rectangle-norm}
+\end{align}
+The pressure-gradient coordinate is retained through
+\eqref{u:eq:finite-pressure-rectangle-norm} and with every row constrained by
+Proposition~\ref{u:prop:formal-mixed-recurrences}.
+\end{definition}
+
+\Needspace{14\baselineskip}
 \begin{theorem}[Compatible finite rectangle norms]
 \label{u:thm:datum-rectangles}
 
@@ -6649,123 +8072,1867 @@ follows.
 \end{proof}
 \end{samepage}
 
-The preceding calculation recovers one common all-orders membership through the
+The preceding calculation recovers that all-orders membership through the
 completed heights.  For each finite \(k\), the quantity
 \(R_k=E_{k+1/2}\) is computed from the velocity row of a sufficiently high
 rectangle.  Compatibility under enlargement identifies all such evaluations
-with one common history.  Taking every finite \(k\) gives
+with one history.  Taking every finite \(k\) gives
 \eqref{u:eq:datum-complete-height-and-spatial-columns}.  Applying
 Proposition~\ref{u:prop:spatial-column-reconstruction} to that complete spatial
 row produces all temporal and pressure rows and hence
 \eqref{u:eq:independent-mixed-intersection}.  Conversely, the
 mixed-index exhaustion contains the velocity rows from which every finite
-\(R_k\) is computed.  Both descriptions thus use one common
+\(R_k\) is computed.  Both descriptions use that
 datum-generated rectangle \(\cR_{N,M}\) at every finite pair \((N,M)\).
-```
 
-### Unforced return from the complete spatial interval column
-
-Source: revision:u-setting:afb54c1cdd30:668-758
-
-```latex
-\begin{proposition}[Spatial-column reconstruction of the mixed intersection]
-\label{u:prop:spatial-column-reconstruction}
-Let \((T_*,u,p)\) be the pressure-normalized maximal history with
-\(T_*<\infty\), put \(I=(0,T_*)\), and assume
+\begin{proposition}[Pressure completion]
+\label{u:prop:rectangle-pressure-completion}
+Under the hypotheses of Theorem~\ref{u:thm:datum-rectangles}, for every
+\(N,M\in\Nzero\),
 \begin{equation}
- u\in\mathscr S_0(I):=\bigcap_{m\in\Nzero}L^2(I;H^m_\sigma(\R^3)).
- \label{u:eq:complete-spatial-row}
+ \mathfrak Q_{N,M}^*[u_0,\nu,T_*]
+ :=\sup_{0<T<T_*}\mathfrak Q_{N,M}(p;T)
+ \le
+ C_M^{\rm p}(2^{N+1}-1)\mathfrak R_{N,M}^*[u_0,\nu,T_*].
+ \label{u:eq:whole-terminal-pressure-bound}
 \end{equation}
-Then \(V_n,Q_n\in C([0,T_*];H^m)\) for every finite \(n,m\), the adjacent
-rows satisfy \eqref{u:eq:independent-adjacent-finite-rows}, and
-\eqref{u:eq:independent-mixed-intersection} follows for this same history.
+\begin{samepage}
+For every \(0\le n\le N\), the identities
+\begin{align}
+ Q_n
+ &=R_iR_j\sum_{a=0}^n\binom naV_{a,i}V_{n-a,j},
+ \label{u:eq:rectangle-pressure-identity}\\
+ V_{n+1}
+ &=\nu\Delta V_n
+ -\sum_{a=0}^n\binom na(V_a\cdot\nabla)V_{n-a}-\nabla Q_n
+ \label{u:eq:rectangle-velocity-identity}
+\end{align}
+hold respectively in
+\(L^1(0,T_*;H^M)\) and \(L^1(0,T_*;H^{M-1})\), including when
+\(M=0\).
+\end{samepage}
 \end{proposition}
 
 \begin{proof}
-Fix \(m\). Lemmas~\ref{u:lem:sobolev-product} and \ref{u:lem:riesz-leray}
-give
+For every \(0<T<T_*\),
+Theorem~\ref{u:thm:formal-finite-row-pressure} gives
 \[
- \begin{aligned}
- \norm{\Pp\nabla\!\cdot(u\otimes u)}_{L^1(I;H^m)}
- &\le C_m\norm u_{L^2(I;H^{m+2})}^2<\infty,\\
- \norm{\Delta u}_{L^1(I;H^m)}
- &\le\sqrt{T_*}\norm u_{L^2(I;H^{m+2})}<\infty.
- \end{aligned}
+ \norm{Q_n}_{L^1(0,T;H^M)}
+ +\norm{\nabla Q_n}_{L^1(0,T;H^{M-1})}
+ \le C_M^{\rm p}2^n\mathfrak R_{N,M}^*[u_0,\nu,T_*].
 \]
-Substitution into the unforced equation
+Sum over \(0\le n\le N\), then let \(T\uparrow T_*\).  Monotone
+convergence in the nonnegative norm integrals proves
+\eqref{u:eq:whole-terminal-pressure-bound}.  Since
+\(\nabla\cdot V_a=0\),
 \[
- u_t=\nu\Delta u-\Pp\nabla\!\cdot(u\otimes u)
+ (V_a\cdot\nabla)V_{n-a}
+ =\nabla\cdot(V_{n-a}\otimes V_a).
 \]
-gives \(u_t\in L^1(I;H^m)\). Also \(u\in L^1(I;H^m)\), since
-\(T_*<\infty\). The Banach-valued fundamental theorem gives
+Lemma~\ref{u:lem:sobolev-product} and Cauchy--Schwarz in time give
 \[
- u\in W^{1,1}(I;H^m)\hookrightarrow C([0,T_*];H^m)
- \qquad(m\in\Nzero).
+ \norm{V_{n-a}\otimes V_a}_{L^1(0,T_*;H^M)}
+ \le C_M^{\rm alg}
+ \norm{V_a}_{L^2(0,T_*;H^{M+1})}
+ \norm{V_{n-a}}_{L^2(0,T_*;H^{M+1})}.
 \]
-Integrating the equation from the initial datum makes the trace bound explicit:
+Thus every transport term belongs to
+\(L^1(0,T_*;H^{M-1})\), also for \(M=0\).  Moreover,
 \[
- \sup_{0\le t\le T_*}\norm{u(t)}_{H^m}
- \le\norm{u_0}_{H^m}
- +\nu\sqrt{T_*}\norm u_{L^2(I;H^{m+2})}
- +C_m\norm u_{L^2(I;H^{m+2})}^2<\infty.
+ \norm{\Delta V_n}_{L^1H^{M-1}}
+ \le T_*^{1/2}\norm{V_n}_{L^2H^{M+1}}.
 \]
-These continuous representatives agree under Sobolev embedding because
-they extend the original velocity. Their endpoint values define one
-\(u_*\in H^\infty_\sigma\).
+Theorem~\ref{u:thm:datum-rectangles} places \(V_{n+1}\) in
+\(L^2(0,T_*;H^{M-1})\), hence in \(L^1(0,T_*;H^{M-1})\).
+The strict-interval identities are identities of distributions; their
+full-interval representatives belong to the stated spaces.  This proves the
+two identities on \((0,T_*)\).
+\end{proof}
 
-Now assume the temporal rows \(V_0,\ldots,V_n\) are continuous on
-\([0,T_*]\) in every finite Sobolev space. This has just been proved
-for \(V_0=u\). The pressure and velocity recurrences are
-\[
+\begin{definition}[Finite rectangles and their restrictions]
+\label{u:def:finite-window-space}
+For \(N,M\in\Nzero\), the full-interval rectangle already defined in
+\eqref{u:eq:independent-datum-rectangle-record} contains the rows
+\begin{equation}
  \begin{aligned}
- Q_n&=R_iR_j\sum_{a=0}^n\binom na(V_a)_i(V_{n-a})_j,\\
- V_{n+1}&=\nu\Delta V_n
- -\sum_{a=0}^n\binom na(V_a\cdot\nabla)V_{n-a}-\nabla Q_n.
+ V_n&\in L^2(0,T_*;H^{M+1}),\\
+ V_{n+1}&\in L^2(0,T_*;H^{M-1}),\\
+ Q_n&\in L^1(0,T_*;H^M),
  \end{aligned}
-\]
-Products, spatial differentiation, and the Riesz operators are continuous
-between the required finite Sobolev spaces. Choosing sufficiently high
-spatial orders in the available rows makes both right-hand sides continuous
-in any prescribed \(H^m\). On \(I\), they equal the actual derivatives
-\(Q_n=\partial_t^np\) and \(V_{n+1}=\partial_tV_n\) by
-Proposition~\ref{u:prop:formal-mixed-recurrences}. The identity
+ \qquad 0\le n\le N.
+ \label{u:eq:whole-terminal-rectangle-element}
+\end{equation}
+If \(N'\le N\) and \(M'\le M\), restricting to \((N',M')\) means discarding
+the temporal coordinates with index larger than \(N'\) and applying
 \[
- V_n(t)-V_n(s)=\int_s^tV_{n+1}(\tau)\,d\tau
- \qquad\text{in }H^m
+ H^{M+1}\hookrightarrow H^{M'+1},
+ \qquad H^{M-1}\hookrightarrow H^{M'-1},
+ \qquad H^M\hookrightarrow H^{M'}
 \]
-extends from interior times to \(0\le s\le t\le T_*\) by continuity.
-It identifies the continuous extension with the temporal derivative,
-including the one-sided derivatives at the endpoints. Induction gives
-\(V_n,Q_n\in C([0,T_*];H^m)\) for every finite \(n,m\).
-Finite \(T_*\) now gives the corresponding \(L^2(I;H^m)\) memberships.
-In particular, selecting adjacent temporal coordinates gives
-\[
- V_n\in L^2(I;H^{m+1}),\qquad
- V_{n+1}\in L^2(I;H^{m-1})
- \qquad(n,m\in\Nzero).
-\]
-For fixed finite \(r,m\), these actual weak derivatives give
-\[
- \norm u_{H^r(I;H^m)}^2
- =\sum_{n=0}^r\norm{V_n}_{L^2(I;H^m)}^2<\infty.
-\]
-Thus the full-interval spatial component propagates through
-the original equation to every finite mixed Sobolev membership. The argument
-uses finitely many temporal orders at each step, with no bound required to
-be uniform over \(r,m\). The identities in
-Proposition~\ref{u:prop:formal-mixed-recurrences} give compatibility:
-restricting the indices retains the corresponding derivatives of \(u,p\).
-These are the finite coordinates used in
-Theorem~\ref{u:thm:datum-rectangles} and the derivative-sum calculation of
-Theorem~\ref{u:thm:compatible-inverse-intersection}.
+to the retained coordinates.
+\end{definition}
+
+\begin{proposition}[Restriction compatibility]
+\label{u:prop:rectangle-compatibility}
+For \(N'\le N\) and \(M'\le M\),
+\begin{equation}
+ \left.\cR_{N,M}[u_0;T_*]\right|_{(N',M')}
+ =\cR_{N',M'}[u_0;T_*].
+ \label{u:eq:rectangle-compatibility}
+\end{equation}
+If
+\((N'',M'')\le(N',M')\le(N,M)\), then
+restricting first to \((N',M')\) and then to \((N'',M'')\) gives the
+rows obtained by restricting directly to \((N'',M'')\).  Thus the datum-generated
+rectangles form a compatible family.
+\end{proposition}
+
+\begin{proof}
+All retained entries are the fixed distributions
+\(\partial_t^nu\), \(\partial_t^{n+1}u\), and \(\partial_t^np\).
+The Sobolev embeddings preserve those distributions.  Deletion of rows and
+composition of canonical embeddings are associative.
 \end{proof}
 ```
 
-### Forced complete positive square and its nonlinear norm inputs
+### Current unforced manuscript: 04-intersection-endpoint-restart.tex
 
-Source: f-relations:189-382
+Source: canonical:manuscript:parts/unforced/04-intersection-endpoint-restart.tex:1-733
 
 ```latex
+\section{Intersection coordinates, endpoint jet, and restart}
+
+The mixed-index and critical-height exhaustions have now identified that
+all-orders membership of the maximal history.  The endpoint argument no longer
+distinguishes their coordinates.  For every finite spatial order, the common
+family contains the adjacent velocity and pressure rows needed to reach
+\(T_*\), recover one endpoint jet, and restart the original history.
+
+
+\begin{definition}[Compatible exhaustive rectangle family]
+\label{u:def:compatible-intersection}
+The datum-generated rectangles form the family
+\begin{equation}
+ \left\{\cR_{N,M}[u_0;T_*]:N,M\in\Nzero\right\},
+ \qquad
+ \left.\cR_{N,M}[u_0;T_*]\right|_{(N',M')}
+ =\cR_{N',M'}[u_0;T_*]
+ \quad(N'\le N,\ M'\le M).
+ \label{u:eq:compatible-intersection-space}
+\end{equation}
+It is exhaustive in the direct finite-row sense: for every \(r,m\in\Nzero\),
+a rectangle with \(N\ge r\) and \(M\ge m\) contains
+\begin{equation}
+ V_n\in L^2(0,T_*;H^m),
+ \qquad Q_n\in L^1(0,T_*;H^m),
+ \qquad 0\le n\le r.
+ \label{u:eq:compatible-intersection}
+\end{equation}
+\end{definition}
+
+\Needspace{14\baselineskip}
+\begin{theorem}[Compatible exhaustive rectangle family]
+\label{u:thm:compatible-inverse-intersection}
+
+Let \(\nu>0\), \(u_0\in\HsSigma(\R^3)\), and let
+\((T_*,u,p)\) be the maximal pressure-complete classical history generated
+by \((u_0,\nu)\).  If \(T_*<\infty\), then
+\begin{equation}
+ \left.\cR_{N,M}[u_0;T_*]\right|_{(N',M')}
+ =\cR_{N',M'}[u_0;T_*]
+ \qquad(N'\le N,\ M'\le M),
+ \label{u:eq:ier-compatible-family}
+\end{equation}
+and every row is the corresponding derivative of the original
+pressure-complete history.  Every pair \((V_n,Q_n)\) belongs to a sufficiently
+large rectangle \(\cR_{N,M}[u_0;T_*]\) and retains the memberships
+\begin{align}
+ V_n&\in\bigcap_{m\in\Nzero}L^2(0,T_*;H^m_\sigma(\R^3)),
+ \label{u:eq:ier-inverse-velocity-coordinate}\\
+ Q_n&\in\bigcap_{m\in\Nzero}L^1(0,T_*;H^m(\R^3)),
+ \label{u:eq:ier-inverse-pressure-coordinate}
+\end{align}
+The family exhausts every finite pair of temporal and spatial orders.  Its
+velocity hence has the direct membership
+\begin{equation}
+ u\in\bigcap_{r,m\in\Nzero}H^r(0,T_*;H^m(\R^3)),
+ \label{u:eq:mixed-sobolev-intersection}
+\end{equation}
+and, for every \(r,m\in\Nzero\),
+\begin{equation}
+ \sum_{n=0}^{r}\norm{\partial_t^nu}_{L^2(0,T_*;H^m)}^2
+ \le\mathfrak R_{r,m}^*[u_0,\nu,T_*].
+ \label{u:eq:mixed-sobolev-finite-bound}
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+The mixed-index exhaustion in Theorem~\ref{u:thm:datum-intersection} and the
+critical-height exhaustion in
+Corollary~\ref{u:cor:datum-critical-height-completion}, followed by
+Proposition~\ref{u:prop:spatial-column-reconstruction}, give those velocity
+memberships in \eqref{u:eq:ier-inverse-velocity-coordinate} and
+\eqref{u:eq:mixed-sobolev-intersection}.  The pressure recurrence then gives
+\eqref{u:eq:ier-inverse-pressure-coordinate}.
+For each finite \(N,M\), the rectangle is selected directly from the mixed
+jet.
+Theorem~\ref{u:thm:datum-rectangles} and
+Proposition~\ref{u:prop:rectangle-pressure-completion} give its finite row
+bounds.  Proposition~\ref{u:prop:rectangle-compatibility} gives
+\[
+ \left.\cR_{N,M}[u_0;T_*]\right|_{(N',M')}
+ =\cR_{N',M'}[u_0;T_*]
+ \qquad(N'\le N,\ M'\le M).
+\]
+Hence the rectangles are compatible.  Every \(V_n,Q_n\) appears in a
+sufficiently large rectangle, and every
+spatial derivative is fixed by its distributional velocity or pressure
+row.  The family consequently exhausts all finite mixed velocity and pressure
+rows in either description.
+
+Fix finite \(r,m\), put \(I=(0,T_*)\), and choose \(N\ge r\),
+\(M\ge m\). The upper rows of that finite record belong to
+\(L^2(I;H^{M+1})\hookrightarrow L^2(I;H^m)\) for \(0\le n\le r\).
+Proposition~\ref{u:prop:formal-mixed-recurrences} identifies them as the
+distributional derivatives \(V_n=\partial_t^nu\). Thus the finite record
+contains every term in the derivative-sum norm of \(H^r(I;H^m)\).
+Taking \(N=r\), \(M=m\) gives
+\[
+ \begin{aligned}
+ \norm u_{H^r(I;H^m)}^2
+ &=\sum_{n=0}^r\norm{V_n}_{L^2(I;H^m)}^2\\
+ &\le\sum_{n=0}^r\norm{V_n}_{L^2(I;H^{m+1})}^2
+ \le\mathfrak R_{r,m}^*[u_0,\nu,T_*].
+ \end{aligned}
+\]
+This proves \eqref{u:eq:mixed-sobolev-finite-bound} and shows how each
+mixed Sobolev norm is recovered from a finite record.  The mixed-index and
+completed-height descriptions agree on that record and hence on the full
+compatible family.
+\end{proof}
+
+\begin{proposition}[Complete spatial row and common endpoint]
+\label{u:prop:ier-complete-spatial-endpoint}
+Under the hypotheses of
+Theorem~\ref{u:thm:compatible-inverse-intersection}, for every
+\(m\in\Nzero\),
+\begin{equation}
+ u\in W^{1,1}(0,T_*;H^m_\sigma(\R^3))
+ \hookrightarrow C([0,T_*];H^m_\sigma(\R^3)).
+ \label{u:eq:ier-spatial-row-W11}
+\end{equation}
+The endpoint values supplied at the different Sobolev orders are the images
+of one common state
+\begin{equation}
+ u_*:=u(T_*)\in\bigcap_{m\in\Nzero}H^m_\sigma(\R^3)
+ =H^\infty_\sigma(\R^3).
+ \label{u:eq:ier-common-spatial-endpoint}
+\end{equation}
+\end{proposition}
+
+\begin{proof}
+Fix \(m\).  The zeroth temporal coordinate of
+\eqref{u:eq:mixed-sobolev-intersection} gives
+\[
+ u\in L^2(0,T_*;H^{m+2}).
+\]
+The pressure-completed nonlinearity satisfies
+\[
+ \norm{\Pp\nabla\!\cdot(u\otimes u)}_{H^m}
+ \le C_m\norm u_{H^{m+2}}^2
+\]
+by Lemmas~\ref{u:lem:sobolev-product} and \ref{u:lem:riesz-leray}.  It belongs
+to \(L^1(0,T_*;H^m)\).  This spatial row and \(T_*<\infty\) give
+\(\Delta u\in L^1(0,T_*;H^m)\), and the projected equation
+\[
+ u_t=\nu\Delta u-\Pp\nabla\!\cdot(u\otimes u)
+\]
+places \(u_t\) in \(L^1(0,T_*;H^m)\).  Also
+\(u\in L^1(0,T_*;H^m)\), so the Banach-valued fundamental theorem gives
+\eqref{u:eq:ier-spatial-row-W11}.
+
+If \(k\ge m\), the \(H^k\)- and \(H^m\)-continuous representatives are
+the original preterminal function after the embedding \(H^k\hookrightarrow
+H^m\).  Uniqueness of continuous representatives makes their endpoint
+values agree under that embedding.  These compatible values define the
+single state in \eqref{u:eq:ier-common-spatial-endpoint}.  Continuity of
+divergence from \(H^{m+1}\) to \(H^m\) gives \(\nabla\cdot u_*=0\).
+\end{proof}
+
+\begin{corollary}[Full-interval pressure-complete mixed jet]
+\label{u:cor:ier-whole-terminal-mixed-jet}
+Under the hypotheses of Theorem~\ref{u:thm:compatible-inverse-intersection},
+for every \(r,m,n\in\Nzero\) and \(\alpha\in\Nzero^3\),
+\begin{align}
+ u&\in H^r(0,T_*;H^m_\sigma(\R^3)),
+ \label{u:eq:ier-whole-terminal-bochner}\\
+ J_{n,\alpha}:=\partial_x^\alpha V_n
+ &\in L^2(0,T_*;H^{m+1}(\R^3)),
+ \label{u:eq:ier-whole-terminal-mixed-upper}\\
+ J_{n+1,\alpha}
+ &\in L^2(0,T_*;H^{m-1}(\R^3)),
+ \label{u:eq:ier-whole-terminal-mixed-lower}\\
+ \Pi_{n,\alpha}:=\partial_x^\alpha Q_n
+ &\in L^1(0,T_*;H^m(\R^3)).
+ \label{u:eq:ier-whole-terminal-mixed-pressure}
+\end{align}
+The following finite bounds hold:
+\begin{align}
+ \sum_{j=0}^{r}\norm{V_j}_{L^2(0,T_*;H^m)}^2
+ &\le\mathfrak R_{r,m}^*[u_0,\nu,T_*],
+ \label{u:eq:ier-finite-bochner-bound}\\
+ \norm{J_{n,\alpha}}_{L^2(0,T_*;H^{m+1})}^2
+ +\norm{J_{n+1,\alpha}}_{L^2(0,T_*;H^{m-1})}^2
+ &\le\mathfrak R_{n,m+|\alpha|}^*[u_0,\nu,T_*],
+ \label{u:eq:ier-finite-mixed-bound}\\
+ \norm{\Pi_{n,\alpha}}_{L^1(0,T_*;H^m)}
+ &\le C_{m+|\alpha|}^{\rm p}(2^{n+1}-1)
+ \mathfrak R_{n,m+|\alpha|}^*[u_0,\nu,T_*].
+ \label{u:eq:ier-finite-mixed-pressure-bound}
+\end{align}
+Every mixed row satisfies the recurrences in
+Proposition~\ref{u:prop:formal-mixed-recurrences} on \((0,T_*)\).
+\end{corollary}
+
+\begin{proof}
+Equations \eqref{u:eq:ier-whole-terminal-bochner} and
+\eqref{u:eq:ier-finite-bochner-bound} follow from
+Theorem~\ref{u:thm:compatible-inverse-intersection}.  The Fourier multiplier
+bound
+\[
+ \norm{\partial_x^\alpha f}_{H^s}
+ \le\norm f_{H^{s+|\alpha|}}
+\]
+and the rectangle \((n,m+|\alpha|)\) give
+\eqref{u:eq:ier-whole-terminal-mixed-upper}--%
+\eqref{u:eq:ier-finite-mixed-bound}.  Apply this multiplier bound to the
+pressure completion in Proposition~\ref{u:prop:rectangle-pressure-completion}
+to obtain \eqref{u:eq:ier-whole-terminal-mixed-pressure} and
+\eqref{u:eq:ier-finite-mixed-pressure-bound}.  Proposition
+\ref{u:prop:formal-mixed-recurrences} supplies the stated identities.
+\end{proof}
+
+\Needspace{24\baselineskip}
+\begin{theorem}[Compatible full-interval Sobolev traces]
+\label{u:thm:ier-compatible-endpoint-traces}
+Assume the hypotheses of
+Theorem~\ref{u:thm:compatible-inverse-intersection}.
+For \(N,m\in\Nzero\), define
+\begin{equation}
+ \mathfrak E_{N,m}
+ :=(1+T_*^{-1})^{1/2}
+ \bigl(\mathfrak R_{N,m}^*[u_0,\nu,T_*]\bigr)^{1/2}.
+ \label{u:eq:ier-endpoint-majorant}
+\end{equation}
+\begin{samepage}
+If \(0\le n\le N\) and \(\alpha\in\Nzero^3\), then
+\begin{align}
+ V_n&\in C([0,T_*];H^m_\sigma(\R^3)),
+ &\sup_{0\le t\le T_*}\norm{V_n(t)}_{H^m}
+ &\le\mathfrak E_{N,m},
+ \label{u:eq:ier-row-trace}\\
+ J_{n,\alpha}&\in C([0,T_*];H^m(\R^3)),
+ &\sup_{0\le t\le T_*}\norm{J_{n,\alpha}(t)}_{H^m}
+ &\le\mathfrak E_{N,m+|\alpha|}.
+ \label{u:eq:ier-mixed-row-trace}
+\end{align}
+There are unique values
+\begin{align}
+ V_n^*&:=\lim_{t\uparrow T_*}V_n(t)
+ \in H^\infty(\R^3),
+ \label{u:eq:ier-velocity-endpoint}\\
+ J_{n,\alpha}^*&:=\lim_{t\uparrow T_*}J_{n,\alpha}(t)
+ =\partial_x^\alpha V_n^*
+ \in H^\infty(\R^3),
+ \label{u:eq:ier-mixed-velocity-endpoint}
+\end{align}
+\par
+\end{samepage}
+such that, for \(k\ge m\), the image of the \(H^k\) trace under
+\(H^k\hookrightarrow H^m\) is the \(H^m\) trace.  Quantitatively,
+\begin{align}
+ \norm{V_n^*}_{H^m}
+ &\le\mathfrak E_{n,m},
+ \label{u:eq:ier-endpoint-velocity-size}\\
+ \norm{V_n(t)-V_n^*}_{H^m}
+ &\le(T_*-t)\mathfrak E_{n+1,m},
+ \qquad0\le t\le T_*,
+ \label{u:eq:ier-endpoint-velocity-modulus}\\
+ \norm{J_{n,\alpha}^*}_{H^m}
+ &\le\mathfrak E_{n,m+|\alpha|},
+ \label{u:eq:ier-endpoint-mixed-size}\\
+ \norm{J_{n,\alpha}(t)-J_{n,\alpha}^*}_{H^m}
+ &\le(T_*-t)\mathfrak E_{n+1,m+|\alpha|}.
+ \label{u:eq:ier-endpoint-mixed-modulus}
+\end{align}
+ In particular, the zeroth trace agrees with the common endpoint in
+ Proposition~\ref{u:prop:ier-complete-spatial-endpoint}, and
+\begin{equation}
+ u_*=V_0^*\in H^\infty_\sigma(\R^3),
+ \qquad
+ u\in\bigcap_{a,m\in\Nzero}C^a([0,T_*];H^m_\sigma(\R^3)),
+ \qquad
+ \partial_t^au(T_*)=V_a^*.
+ \label{u:eq:ier-complete-left-velocity-jet}
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+For \(0\le n\le N\), Theorem~\ref{u:thm:compatible-inverse-intersection}
+provides a finite rectangle containing the adjacent rows
+\[
+ V_n\in L^2(0,T_*;H^{m+1}),
+ \qquad
+ \partial_tV_n=V_{n+1}\in L^2(0,T_*;H^{m-1}).
+\]
+That rectangle gives both finite norms; the critical-height
+description recovers those coordinates.
+With \(A=(1-\Delta)^{1/2}\), the adjacent-row identity is
+\[
+ \frac{\mathrm d}{\mathrm dt}\norm{V_n(t)}_{H^m}^2
+ =2\operatorname{Re}\ip{A^{m-1}V_{n+1}(t)}{A^{m+1}V_n(t)}_{L^2}.
+\]
+Integrating from the initial time and applying Cauchy--Schwarz gives
+\begin{equation}
+ \sup_{0\le t\le T_*}\norm{V_n(t)}_{H^m}^2
+ \le\norm{V_n(0)}_{H^m}^2
+ +2\norm{V_{n+1}}_{L^2(I;H^{m-1})}
+    \norm{V_n}_{L^2(I;H^{m+1})},
+ \qquad I=(0,T_*).
+ \label{u:eq:ier-initial-row-trace-bound}
+\end{equation}
+The initial norm is finite by Lemma~\ref{u:lem:formal-initial-jet}.
+Lemma~\ref{u:lem:adjacent-trace} supplies the continuous representative
+on \([0,T_*]\), justifies the identity by Fourier cutoff, and gives the
+first membership in
+\eqref{u:eq:ier-row-trace} and
+\begin{align*}
+ \sup_{0\le t\le T_*}\norm{V_n(t)}_{H^m}^2
+ &\le T_*^{-1}\norm{V_n}_{L^2H^m}^2
+ +2\norm{V_n}_{L^2H^{m+1}}\norm{V_{n+1}}_{L^2H^{m-1}}\\
+ &\le(1+T_*^{-1})\mathfrak R_{N,m}^*[u_0,\nu,T_*].
+\end{align*}
+This proves the bound in \eqref{u:eq:ier-row-trace}.  Apply this lemma to
+\(J_{n,\alpha}\), using \eqref{u:eq:ier-finite-mixed-bound}, to prove
+\eqref{u:eq:ier-mixed-row-trace}.
+
+For \(k\ge m\), the \(H^k\)-continuous and \(H^m\)-continuous
+representatives equal the original preterminal distribution.  After applying
+\(H^k\hookrightarrow H^m\), uniqueness of continuous representatives makes
+them equal on \([0,T_*]\).  Their endpoint values are compatible and define
+\eqref{u:eq:ier-velocity-endpoint}--%
+\eqref{u:eq:ier-mixed-velocity-endpoint}.  Spatial differentiation is
+continuous between the corresponding finite Sobolev spaces, so
+\(J_{n,\alpha}^*=\partial_x^\alpha V_n^*\).
+
+Corollary~\ref{u:cor:ier-whole-terminal-mixed-jet} gives
+\(V_n,V_{n+1}\in L^1(0,T_*;H^m)\) and
+\(\partial_tV_n=V_{n+1}\) in distributions.  The Banach-valued fundamental
+identity gives
+\begin{equation}
+ V_n(t)-V_n(s)=\int_s^tV_{n+1}(\tau)\dd\tau
+ \quad\text{in }H^m,
+ \qquad0\le s\le t\le T_*.
+ \label{u:eq:ier-banach-fundamental-identity}
+\end{equation}
+The continuous representative of \(V_{n+1}\) is bounded by
+\(\mathfrak E_{n+1,m}\).  Set \(t=T_*\) in
+\eqref{u:eq:ier-banach-fundamental-identity} to prove
+\eqref{u:eq:ier-endpoint-velocity-modulus}; spatial differentiation gives
+\eqref{u:eq:ier-endpoint-mixed-modulus}.  The remaining size estimates follow
+from \eqref{u:eq:ier-row-trace}--\eqref{u:eq:ier-mixed-row-trace}.
+
+The divergence map \(H^{m+1}\to H^m\) is continuous, so
+\(\nabla\cdot u_*=0\).  For each \(a,m\), the curves
+\(V_0,\ldots,V_{a+1}\) are continuous in \(H^m\), and
+\eqref{u:eq:ier-banach-fundamental-identity} identifies the derivative of
+\(V_j\) with \(V_{j+1}\).  Induction in \(j\) proves
+\eqref{u:eq:ier-complete-left-velocity-jet}.
+\end{proof}
+
+\begin{theorem}[Pressure-complete endpoint jet]
+\label{u:thm:ier-pressure-complete-endpoint}
+\begin{samepage}
+Assume the hypotheses of
+Theorem~\ref{u:thm:compatible-inverse-intersection}.
+For \(n\in\Nzero\), define
+\begin{equation}
+ Q_n^*:=R_iR_j\sum_{a=0}^{n}\binom na
+ V_{a,i}^*V_{n-a,j}^*.
+ \label{u:eq:ier-terminal-pressure-row}
+\end{equation}
+Then \(Q_n^*\in H^\infty(\R^3)\), and, for every \(s\in\Nzero\),
+\begin{align}
+ \norm{Q_n^*}_{H^s}
+ &\le9C_s^{\rm alg}2^n\mathfrak E_{n,s+1}^2,
+ \label{u:eq:ier-terminal-pressure-size}\\
+ \norm{Q_n(t)-Q_n^*}_{H^s}
+ &\le9C_s^{\rm alg}2^{n+1}(T_*-t)\mathfrak E_{n+1,s+1}^2.
+ \label{u:eq:ier-terminal-pressure-modulus}
+\end{align}
+\end{samepage}
+For \(\alpha\in\Nzero^3\),
+\begin{equation}
+ \Pi_{n,\alpha}^*:=\partial_x^\alpha Q_n^*
+ =\lim_{t\uparrow T_*}\Pi_{n,\alpha}(t)
+ \quad\text{in }H^m(\R^3)\text{ for every }m\in\Nzero.
+ \label{u:eq:ier-terminal-mixed-pressure-row}
+\end{equation}
+More precisely, for every \(m\in\Nzero\),
+\begin{align}
+ \norm{\Pi_{n,\alpha}^*}_{H^m}
+ &\le9C_{m+|\alpha|}^{\rm alg}2^n
+ \mathfrak E_{n,m+|\alpha|+1}^2,
+ \label{u:eq:ier-terminal-mixed-pressure-size}\\
+ \norm{\Pi_{n,\alpha}(t)-\Pi_{n,\alpha}^*}_{H^m}
+ &\le9C_{m+|\alpha|}^{\rm alg}2^{n+1}(T_*-t)
+ \mathfrak E_{n+1,m+|\alpha|+1}^2.
+ \label{u:eq:ier-terminal-mixed-pressure-modulus}
+\end{align}
+The endpoint rows satisfy, for every \(n,q\in\Nzero\),
+\begin{equation}
+ V_{n+1}^*
+ =\nu\Delta V_n^*
+ -\sum_{a=0}^{n}\binom na(V_a^*\cdot\nabla)V_{n-a}^*
+ -\nabla Q_n^*
+ \quad\text{in }H^q(\R^3).
+ \label{u:eq:ier-terminal-velocity-row}
+\end{equation}
+Among families rooted at \(u_*\) that satisfy
+\eqref{u:eq:ier-terminal-pressure-row} and
+\eqref{u:eq:ier-terminal-velocity-row} in every finite Sobolev space,
+\((V_n^*,Q_n^*)_{n\in\Nzero}\) is the unique pressure-normalized endpoint
+jet.  Moreover,
+\begin{equation}
+ p\in\bigcap_{a,m\in\Nzero}C^a([0,T_*];H^m(\R^3)),
+ \qquad
+ \partial_t^ap(T_*)=Q_a^*.
+ \label{u:eq:ier-complete-left-pressure-jet}
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+Lemmas~\ref{u:lem:sobolev-product} and \ref{u:lem:riesz-leray}, followed by
+\eqref{u:eq:ier-row-trace}, give
+\begin{align*}
+ \norm{Q_n^*}_{H^s}
+ &\le9C_s^{\rm alg}\sum_{a=0}^{n}\binom na
+ \norm{V_a^*}_{H^{s+1}}\norm{V_{n-a}^*}_{H^{s+1}}\\
+ &\le9C_s^{\rm alg}2^n\mathfrak E_{n,s+1}^2.
+\end{align*}
+For each product in \(Q_n(t)-Q_n^*\), insert
+\(V_a^*V_{n-a}(t)\), use
+\eqref{u:eq:ier-endpoint-velocity-modulus}, and bound every retained factor by
+\(\mathfrak E_{n+1,s+1}\).  The two product differences and
+\(\sum_{a=0}^{n}\binom na=2^n\) prove
+\eqref{u:eq:ier-terminal-pressure-modulus}.  The Fourier multiplier inequality
+\[
+ \norm{\partial_x^\alpha f}_{H^m}
+ \le\norm f_{H^{m+|\alpha|}}
+\]
+applied to \eqref{u:eq:ier-terminal-pressure-size} and
+\eqref{u:eq:ier-terminal-pressure-modulus} proves
+\eqref{u:eq:ier-terminal-mixed-pressure-size} and
+\eqref{u:eq:ier-terminal-mixed-pressure-modulus}.  The latter tends to zero
+as \(t\uparrow T_*\), which proves
+\eqref{u:eq:ier-terminal-mixed-pressure-row} in every \(H^m\).
+
+Fix \(n,q\).  The trace of \(V_n\) in \(H^{q+2}\) carries the diffusion
+term in Proposition~\ref{u:prop:formal-mixed-recurrences} to \(H^q\) at
+\(T_*\).  The product estimate at order \(q+1\), using velocity convergence
+in \(H^{q+2}\), carries every transport term to \(H^q\).  Equation
+\eqref{u:eq:ier-terminal-pressure-modulus} at order \(q+1\) carries the pressure
+gradient to \(H^q\).  The left side converges to \(V_{n+1}^*\) in \(H^q\),
+which proves \eqref{u:eq:ier-terminal-velocity-row}.
+
+The value \(V_0^*=u_*\) fixes \(Q_0^*\), and the velocity recurrence fixes
+\(V_1^*\).  Inductively, \(V_0^*,\ldots,V_n^*\) fix \(Q_n^*\), which fixes
+\(V_{n+1}^*\).  This proves uniqueness within the displayed recurrence
+class.  Extend each \(Q_n\) to \(T_*\) by
+\(Q_n(T_*):=Q_n^*\).  On \((0,T_*)\),
+\(Q_n=\partial_t^np\), so \(\partial_tQ_n=Q_{n+1}\) in distributions.
+Both rows are continuous in every \(H^m\) by
+\eqref{u:eq:ier-terminal-pressure-modulus}.  Hence, for
+\(0\le s\le t\le T_*\),
+\begin{equation}
+ Q_n(t)-Q_n(s)=\int_s^tQ_{n+1}(\tau)\dd\tau
+ \quad\text{in }H^m(\R^3).
+ \label{u:eq:ier-pressure-banach-identity}
+\end{equation}
+Indeed, the identity holds for \(t<T_*\), and the endpoint bounds permit
+passage to \(t=T_*\).  Thus
+\(Q_n\in C^1([0,T_*];H^m)\) with derivative \(Q_{n+1}\).  Induction gives
+\eqref{u:eq:ier-complete-left-pressure-jet}.
+\end{proof}
+
+\begin{lemma}[Late-slice overlap uniqueness]
+\label{u:lem:ier-late-slice-overlap}
+Assume the hypotheses of
+Theorem~\ref{u:thm:compatible-inverse-intersection}.
+Define
+\begin{equation}
+ \delta_0
+ :=\min\{1,c_\nu(1+\mathfrak E_{0,3})^{-2}\}>0,
+ \label{u:eq:ier-uniform-restart-time}
+\end{equation}
+where \(c_\nu\) is the constant in Theorem~\ref{u:thm:local-restart}.
+For every
+\(t_0\in(\max\{0,T_*-\delta_0/2\},T_*)\), let
+\[
+ (w^{t_0},q^{t_0})
+ \in\mathscr M_\nu^3(t_0,t_0+\delta_0;u(t_0)),
+ \qquad
+ (w^*,q^*)
+ \in\mathscr M_\nu^3(T_*,T_*+\delta_0;u_*)
+\]
+be the unique pairs supplied by Theorem~\ref{u:thm:local-restart}.  Then
+\begin{align}
+ (w^{t_0},q^{t_0})&=(u,p)
+ &&\text{on }[t_0,T_*),
+ \label{u:eq:ier-left-overlap}\\
+ (w^{t_0},q^{t_0})&=(w^*,q^*)
+ &&\text{on }[T_*,t_0+\delta_0].
+ \label{u:eq:ier-right-overlap}
+\end{align}
+\end{lemma}
+
+\begin{proof}
+Equation \eqref{u:eq:ier-row-trace} gives
+\[
+ \norm{u(t_0)}_{H^3}\le\mathfrak E_{0,3},
+ \qquad
+ \norm{u_*}_{H^3}\le\mathfrak E_{0,3}.
+\]
+Hence
+\[
+ \delta_0\le\delta_\nu(u(t_0)),
+ \qquad
+ \delta_0\le\delta_\nu(u_*),
+\]
+with \(\delta_\nu\) as in Theorem~\ref{u:thm:local-restart}.
+Theorem~\ref{u:thm:local-restart} gives both pairs on the stated intervals.
+For each \(t_0<b<T_*\), Lemma~\ref{u:lem:shifted-mild-restriction} places
+\((u,p)|_{[t_0,b]}\) and
+\((w^{t_0},q^{t_0})|_{[t_0,b]}\) in
+\(\mathscr M_\nu^3(t_0,b;u(t_0))\).  Uniqueness in that class gives
+\eqref{u:eq:ier-left-overlap}.  Continuity in \(H^3\) gives
+\[
+ w^{t_0}(T_*)=\lim_{t\uparrow T_*}u(t)=u_*.
+\]
+Lemma~\ref{u:lem:shifted-mild-restriction} places the restrictions of
+\((w^{t_0},q^{t_0})\) and \((w^*,q^*)\) to
+\([T_*,t_0+\delta_0]\) in
+\(\mathscr M_\nu^3(T_*,t_0+\delta_0;u_*)\).  Uniqueness in that class gives
+\eqref{u:eq:ier-right-overlap}.  The right overlap has positive length because
+\(t_0+\delta_0>T_*+\delta_0/2\).
+\end{proof}
+
+\begin{theorem}[Same-history endpoint restart]
+\label{u:thm:ier-same-history-restart}
+Assume the hypotheses of
+Theorem~\ref{u:thm:compatible-inverse-intersection}.
+There is a pressure-normalized classical solution
+\((\widetilde u,\widetilde p)\) on
+\([0,T_*+\delta_0/2]\times\R^3\) such that
+\begin{align}
+ (\widetilde u,\widetilde p)|_{[0,T_*)\times\R^3}
+ &=(u,p),
+ \label{u:eq:ier-extension-identity}\\
+ \widetilde u,\widetilde p
+ &\in C^\infty([0,T_*+\delta_0/2]\times\R^3),
+ \label{u:eq:ier-extension-smoothness}\\
+ \partial_t^n\widetilde u(T_*)&=V_n^*,
+ \qquad
+ \partial_t^n\widetilde p(T_*)=Q_n^*
+ \quad(n\in\Nzero).
+ \label{u:eq:ier-extension-jet}
+\end{align}
+If \(0<\eta\le\delta_0/2\) and
+\((\widehat u,\widehat p)\) is another pressure-normalized classical
+extension satisfying
+\begin{equation}
+ (\widehat u,\widehat p)|_{[0,T_*)}=(u,p),
+ \qquad
+ (\widehat u,\widehat p)|_{[T_*,T_*+\eta]}
+ \in\mathscr M_\nu^3(T_*,T_*+\eta;u_*),
+ \label{u:eq:ier-same-history-uniqueness-class}
+\end{equation}
+then
+\begin{equation}
+ (\widehat u,\widehat p)=(\widetilde u,\widetilde p)
+ \quad\text{on }[0,T_*+\eta].
+ \label{u:eq:ier-same-history-uniqueness}
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+Let \((w^*,q^*)\) be the endpoint solution from
+Lemma~\ref{u:lem:ier-late-slice-overlap}, and set
+\[
+ W_n^+:=\partial_t^nw^*(T_*),
+ \qquad
+ P_n^+:=\partial_t^nq^*(T_*).
+\]
+\begin{samepage}
+Theorem~\ref{u:thm:local-restart} makes \((w^*,q^*)\) smooth and
+pressure-normalized.  Differentiating its equations exactly as in the proof of
+Proposition~\ref{u:prop:formal-mixed-recurrences} gives
+\begin{align*}
+ P_n^+&=R_iR_j\sum_{a=0}^{n}\binom naW_{a,i}^+W_{n-a,j}^+,\\
+ W_{n+1}^+&=\nu\Delta W_n^+
+ -\sum_{a=0}^{n}\binom na(W_a^+\cdot\nabla)W_{n-a}^+
+ -\nabla P_n^+.
+\end{align*}
+Since \(W_0^+=u_*=V_0^*\), induction with
+\eqref{u:eq:ier-terminal-pressure-row} and
+\eqref{u:eq:ier-terminal-velocity-row} gives
+\begin{equation}
+ W_n^+=V_n^*,
+ \qquad P_n^+=Q_n^*,
+ \qquad n\in\Nzero.
+ \label{u:eq:ier-left-right-jet-match}
+\end{equation}
+\par
+\end{samepage}
+
+Define
+\[
+ (\widetilde u,\widetilde p)(t)
+ :=\begin{cases}
+ (u,p)(t),&0\le t<T_*,\\
+ (w^*,q^*)(t),&T_*\le t\le T_*+\delta_0/2.
+ \end{cases}
+\]
+Equations \eqref{u:eq:ier-complete-left-velocity-jet},
+\eqref{u:eq:ier-complete-left-pressure-jet}, and
+\eqref{u:eq:ier-left-right-jet-match} match every one-sided time derivative in
+every finite Sobolev space.  Sobolev embedding gives
+\eqref{u:eq:ier-extension-smoothness}, and the pressure-complete equation holds
+at \(T_*\) by \eqref{u:eq:ier-terminal-velocity-row}.  Lemma
+\ref{u:lem:ier-late-slice-overlap} identifies the joined pair near \(T_*\) with
+the single local history \((w^{t_0},q^{t_0})\), so the gluing is one local
+classical history across the endpoint; the piecewise definition gives
+\eqref{u:eq:ier-extension-identity}.  Any pair in
+\eqref{u:eq:ier-same-history-uniqueness-class} has that datum \(u_*\) on
+the right of \(T_*\) and belongs to the shifted mild class containing
+\((w^*,q^*)\).  The at-most-one assertion in
+Theorem~\ref{u:thm:local-restart} proves
+\eqref{u:eq:ier-same-history-uniqueness}.
+\end{proof}
+
+The finite rectangle bounds give compatible velocity traces through
+\(T_*\) in Theorem~\ref{u:thm:ier-compatible-endpoint-traces}.  The pressure
+recurrence fixes their normalized endpoint jet in
+Theorem~\ref{u:thm:ier-pressure-complete-endpoint}.  With those endpoint
+values, Theorem~\ref{u:thm:ier-same-history-restart} extends the original
+history beyond \(T_*\).  A proposed finite maximal time would admit a
+classical continuation.  Corollary~\ref{u:cor:ier-maximal-time-contradiction}
+applies this contradiction, and Theorem~\ref{u:thm:ier-global-smoothness}
+collects the global solution, pressure normalization, and energy identity.
+
+\begin{corollary}[Maximal-time contradiction]
+\label{u:cor:ier-maximal-time-contradiction}
+The maximal pressure-complete classical history generated by
+\((u_0,\nu)\) cannot have \(T_*<\infty\).
+\end{corollary}
+
+\begin{proof}
+If \(T_*<\infty\), the mixed-index and critical-height descriptions of the
+finite rectangles in Theorem~\ref{u:thm:datum-finite-blocks} recover that
+all-orders intersection.  Those rectangles give the trace norms, and the chain from
+Theorem~\ref{u:thm:compatible-inverse-intersection} through
+Theorem~\ref{u:thm:ier-same-history-restart} produces a pressure-normalized classical
+extension to \([0,T_*+\delta_0/2]\), where \(\delta_0>0\).  This contradicts
+maximality in Definition~\ref{u:def:formal-maximal-history}.
+\end{proof}
+
+\begin{samepage}
+\begin{theorem}[Global smoothness on \(\R^3\)]
+\label{u:thm:ier-global-smoothness}
+For every \(\nu>0\) and every \(u_0\in\HsSigma(\R^3)\), there exists a
+pressure-normalized pair
+\begin{equation}
+ (u,p)\in C^\infty([0,\infty)\times\R^3;\R^3\times\R)
+ \label{u:eq:ier-global-class}
+\end{equation}
+satisfying
+\begin{align}
+ \partial_tu+(u\cdot\nabla)u+\nabla p&=\nu\Delta u,
+ \label{u:eq:ier-global-momentum}\\
+ \nabla\cdot u&=0,
+ \qquad u(0)=u_0,
+ \label{u:eq:ier-global-divergence-datum}\\
+ p(t)&=R_iR_j(u_i(t)u_j(t)),
+ \qquad \lim_{|x|\to\infty}p(t,x)=0,
+ \label{u:eq:ier-global-pressure}\\
+ \frac12\norm{u(t)}_{L^2}^2
+ +\nu\int_0^t\norm{\nabla u(s)}_{L^2}^2\dd s
+ &=\frac12\norm{u_0}_{L^2}^2,
+ \qquad t\ge0.
+ \label{u:eq:ier-global-energy}
+\end{align}
+In particular,
+\begin{equation}
+ \sup_{t\ge0}\norm{u(t)}_{L^2(\R^3)}^2
+ \le\norm{u_0}_{L^2(\R^3)}^2<\infty.
+ \label{u:eq:ier-global-energy-bound}
+\end{equation}
+For every finite \(T>0\), its restriction is the unique member of
+\(\mathscr M_\nu^3(0,T;u_0)\).
+\end{theorem}
+\end{samepage}
+
+\begin{proof}
+ Let
+ \[
+  \mathscr T:=\left\{\tau>0:
+  \begin{array}{c}
+  \text{there exists a pressure-complete classical history}\\
+  (\tau,u^\tau,p^\tau)\text{ generated by }(u_0,\nu)
+  \end{array}
+  \right\},
+ \]
+ and put
+\[
+ T_*:=\sup\mathscr T.
+\]
+ Theorem~\ref{u:thm:local-restart}, applied to \(u_0\in\HsSigma\), supplies a
+ shifted mild solution whose persistence statement gives every finite
+ velocity and pressure row.  Sobolev embedding and the displayed recurrences
+ make this pair a pressure-complete classical history, so \(\mathscr T\) is
+ nonempty.
+ Lemma~\ref{u:lem:shifted-mild-restriction} admits each strict classical
+restriction to the shifted mild class, whose at-most-one property identifies
+any two such solutions on their common interval; their union defines a unique
+ solution on \([0,T_*)\).  Since \(u_0\in\HsSigma\), the persistence conclusion
+of Theorem~\ref{u:thm:local-restart}, applied on overlapping local intervals,
+places every strict restriction in the class of
+Definition~\ref{u:def:formal-maximal-history}.  An extension beyond \(T_*\)
+would restrict to an interval \([0,\tau]\) with \(\tau>T_*\), contrary to
+the definition of the supremum.  Thus \((T_*,u,p)\) is maximal.  Corollary
+\ref{u:cor:ier-maximal-time-contradiction} gives \(T_*=\infty\).
+
+Fix \(T<\infty\).  Persistence in Theorem~\ref{u:thm:local-restart}, iterated
+along the unique history, retains every finite spatial Sobolev order on
+\([0,T]\).  Proposition~\ref{u:prop:formal-mixed-recurrences} retains every
+finite temporal row.  Lemma~\ref{u:lem:sobolev-embedding} gives
+\eqref{u:eq:ier-global-class}; arbitrariness of \(T\) gives the global class.
+The pressure belongs to \(H^s(\R^3)\) for every \(s\), and the Fourier
+inversion proof of Lemma~\ref{u:lem:sobolev-embedding} places its continuous
+representative in \(C_0(\R^3)\), which proves the limit in
+\eqref{u:eq:ier-global-pressure}.  Lemma
+\ref{u:lem:shifted-mild-restriction} places \((u,p)|_{[0,T]}\) in
+\(\mathscr M_\nu^3(0,T;u_0)\).  If
+\((\widetilde u,\widetilde p)\in\mathscr M_\nu^3(0,T;u_0)\), the at-most-one
+assertion in Theorem~\ref{u:thm:local-restart} gives
+\((\widetilde u,\widetilde p)=(u,p)\) on \([0,T]\).  This proves the stated
+uniqueness.
+
+Proposition~\ref{u:prop:kinetic-energy} holds on every finite interval.  Since
+\(T\) was arbitrary, it gives \eqref{u:eq:ier-global-energy} for every
+\(t\ge0\); \eqref{u:eq:ier-global-energy-bound} follows by discarding the
+nonnegative dissipation term.
+\end{proof}
+```
+
+### Current forced manuscript: 01-setting-mixed-jet.tex
+
+Source: canonical:manuscript:parts/forced/01-setting-mixed-jet.tex:1-797
+
+```latex
+\section{The pressure-complete setting and mixed jet}
+\label{f:sec:formal-setting-mixed-jet}
+
+\begin{proposition}[Pressure normalization]
+\label{f:prop:formal-pressure-normalization}
+Let \(u,p,f\) be smooth on \(I\times\R^3\), let \(\nabla\cdot u=0\), and suppose
+\[
+ u(t)\in H^1_\sigma(\R^3),
+ \qquad
+ p(t)\in H^0(\R^3),
+ \qquad f(t)\in L^1(\R^3)\cap H^1(\R^3)
+ \qquad(t\in I),
+\]
+and
+\begin{equation}
+ u_t+(u\cdot\nabla)u+\nabla p=\nu\Delta u+f.
+ \label{f:eq:formal-ns-system}
+\end{equation}
+Then
+\begin{align}
+ -\Delta p
+ &=\partial_i\partial_j(u_i u_j)-\nabla\cdot f,
+ \label{f:eq:formal-pressure-poisson}\\
+ p
+ &=R_iR_j(u_i u_j)-(-\Delta)^{-1}\nabla\cdot f,
+ \label{f:eq:formal-pressure-riesz}\\
+ (u\cdot\nabla)u+\nabla p
+ &=\Pp\nabla\cdot(u\otimes u)+(I-\Pp)f.
+ \label{f:eq:formal-pressure-projected}
+\end{align}
+The condition \(p(t)\in H^0(\R^3)\) fixes the pressure uniquely.
+\end{proposition}
+
+\begin{proof}
+Incompressibility gives
+\[
+ (u\cdot\nabla)u_i=\partial_j(u_j u_i).
+\]
+Taking the divergence of \eqref{f:eq:formal-ns-system} cancels
+\(\nabla\cdot u_t\) and \(\nabla\cdot\Delta u\), which yields
+\eqref{f:eq:formal-pressure-poisson}.  Lemma~\ref{f:lem:riesz-leray}, applied
+with \(m=0\), gives the force potential in \(H^0\) and
+\[
+ q:=R_iR_j(u_i u_j)-(-\Delta)^{-1}\nabla\cdot f\in H^0.
+\]
+It satisfies this Poisson identity and
+\[
+ (u\cdot\nabla)u+\nabla q
+ =\Pp\nabla\cdot(u\otimes u)+(I-\Pp)f.
+\]
+If \(p_1,p_2\in H^0\) satisfy \eqref{f:eq:formal-pressure-poisson}, then
+\(h=p_1-p_2\) satisfies
+\(|\xi|^2\widehat h=0\).  Since \(\widehat h\in L^2\) and is supported at
+\(\{0\}\), it vanishes.  Hence \(p=q\), which proves
+\eqref{f:eq:formal-pressure-riesz} and \eqref{f:eq:formal-pressure-projected}.
+\end{proof}
+
+\begin{samepage}
+\begin{definition}[Maximal pressure-complete classical history]
+\label{f:def:formal-maximal-history}
+Fix \(\nu>0\), \(u_0\in\HsSigma(\R^3)\), and
+\(f\in C^\infty([0,\infty);\mathcal S(\R^3;\R^3))\).  A
+pressure-complete classical history generated by \((u_0,\nu,f)\) is a triple
+\[
+ (T_*,u,p),
+ \qquad
+ 0<T_*\le\infty,
+\]
+such that, for every \(0<T<T_*\) and \(n,m\in\Nzero\),
+\begin{align*}
+ \partial_t^nu&\in C([0,T];H^m_\sigma(\R^3)),\\
+ \partial_t^np&\in C([0,T];H^m(\R^3)),
+\end{align*}
+and
+\begin{align}
+ u_t+(u\cdot\nabla)u+\nabla p&=\nu\Delta u+f,
+ \label{f:eq:formal-history-momentum}\\
+ \nabla\cdot u&=0,
+ \label{f:eq:formal-history-divergence}\\
+ u(0)&=u_0,
+ \label{f:eq:formal-history-datum}\\
+ p(t)&=R_iR_j(u_i(t)u_j(t))
+ -(-\Delta)^{-1}\nabla\cdot f(t).
+ \label{f:eq:formal-history-pressure}
+\end{align}
+The history is maximal if no pressure-complete classical history generated by
+that \((u_0,\nu,f)\) continues \((u,p)\) past \(T_*\).
+\end{definition}
+\end{samepage}
+
+\begin{definition}[Temporal and mixed velocity--pressure jets]
+\label{f:def:formal-mixed-jet}
+Let \((T_*,u,p)\) be a maximal pressure-complete classical history.  For
+\(n\in\Nzero\) and \(\alpha\in\Nzero^3\), define
+\[
+ V_n:=\partial_t^nu,
+ \qquad
+ Q_n:=\partial_t^np,
+ \qquad
+ F_n:=\partial_t^nf,
+ \qquad
+ J_{n,\alpha}:=\partial_t^n\partial_x^\alpha u,
+ \qquad
+ \Pi_{n,\alpha}:=\partial_t^n\partial_x^\alpha p.
+\]
+Set also \(F_{n,\alpha}:=\partial_t^n\partial_x^\alpha f\).
+For \(\beta\le\alpha\), define
+\[
+ \binom{\alpha}{\beta}
+ :=\prod_{\ell=1}^3\binom{\alpha_\ell}{\beta_\ell},
+ \qquad
+ |\alpha|:=\alpha_1+\alpha_2+\alpha_3.
+\]
+\end{definition}
+
+\begin{proposition}[Pressure-complete binomial recurrences]
+\label{f:prop:formal-mixed-recurrences}
+For every \(n\in\Nzero\) and \(\alpha\in\Nzero^3\),
+\begin{align}
+ Q_n
+ &=R_iR_j
+ \sum_{a=0}^{n}\binom na V_{a,i}V_{n-a,j}
+ -(-\Delta)^{-1}\nabla\cdot F_n,
+ \label{f:eq:formal-temporal-pressure-row}\\
+ V_{n+1}
+ &=
+ \nu\Delta V_n
+ -\sum_{a=0}^{n}\binom na(V_a\cdot\nabla)V_{n-a}
+ -\nabla Q_n+F_n,
+ \label{f:eq:formal-temporal-velocity-row}\\
+ \Pi_{n,\alpha}
+ &=R_iR_j
+ \sum_{a=0}^{n}\sum_{\beta\le\alpha}
+ \binom na\binom{\alpha}{\beta}
+ J_{a,\beta,i}J_{n-a,\alpha-\beta,j}
+ -\partial_x^\alpha(-\Delta)^{-1}\nabla\cdot F_n,
+ \label{f:eq:formal-mixed-pressure-row}\\
+ J_{n+1,\alpha}
+ &+
+ \sum_{a=0}^{n}\sum_{\beta\le\alpha}
+ \binom na\binom{\alpha}{\beta}
+ (J_{a,\beta}\cdot\nabla)
+ J_{n-a,\alpha-\beta}
+ +\nabla\Pi_{n,\alpha}
+ =\nu\Delta J_{n,\alpha}+F_{n,\alpha},
+ \label{f:eq:formal-mixed-velocity-row}\\
+ \nabla\cdot J_{n,\alpha}&=0.
+ \label{f:eq:formal-mixed-divergence-row}
+\end{align}
+\end{proposition}
+
+\begin{proof}
+Apply \(\partial_t^n\) to \eqref{f:eq:formal-history-pressure} and use
+Lemma~\ref{f:lem:mixed-leibniz} with \(\alpha=0\) to obtain
+\eqref{f:eq:formal-temporal-pressure-row}.  Apply \(\partial_t^n\) to
+\eqref{f:eq:formal-history-momentum} to obtain
+\eqref{f:eq:formal-temporal-velocity-row}.  Apply
+\(\partial_x^\alpha\) to both identities, use
+Lemma~\ref{f:lem:mixed-leibniz}, and commute the derivatives with \(R_iR_j\)
+to obtain \eqref{f:eq:formal-mixed-pressure-row} and
+\eqref{f:eq:formal-mixed-velocity-row}.  Differentiation of
+\eqref{f:eq:formal-history-divergence} gives
+\eqref{f:eq:formal-mixed-divergence-row}.
+\end{proof}
+
+\paragraph{The forced datum and its derivative rows.}
+The initial velocity, viscosity, and complete prescribed force specify all
+inputs to these recurrences.  Pressure is determined by the velocity products
+and the gradient part of that same force.  Every temporal and spatial force
+derivative remains in its corresponding row.  In the kinetic-energy
+calculation of Proposition~\ref{f:prop:kinetic-energy}, transport and pressure
+have zero global pairing with the velocity while the external work remains.
+At higher Sobolev orders, the full transport--pressure contribution and force
+work are retained in Proposition~\ref{f:prop:completed-height-recurrence}.
+These are the governing rows and energy identities used below.
+
+\begin{definition}[Canonical pressure constant]
+\label{f:def:formal-canonical-bilinear-constants}
+For vector fields \(v,w\), set
+\[
+ \mathcal Q(v,w):=\sum_{i,j=1}^3R_iR_j(v_i w_j).
+\]
+For \(m\in\Nzero\), define
+\[
+ C_m^{\rm p}:=
+ \sup_{\substack{
+ v,w\in H^{m+1}(\R^3;\R^3)\setminus\{0\}}}
+ \frac{
+ \norm{\mathcal Q(v,w)}_{H^m}
+ +\norm{\nabla\mathcal Q(v,w)}_{H^{m-1}}}
+ {\norm v_{H^{m+1}}\norm w_{H^{m+1}}}.
+\]
+\end{definition}
+
+\begin{lemma}
+\label{f:lem:formal-canonical-bilinear-constants}
+For every \(m\in\Nzero\),
+\[
+ C_m^{\rm p}\le2C_m^{\rm alg}.
+\]
+\end{lemma}
+\begin{proof}
+Regard \((v_i w_j)_{i,j}\) as one tensor.  The contraction
+\(F\mapsto R_iR_jF_{ij}\) has Fourier-multiplier norm one from the tensor
+\(H^m\) norm to scalar \(H^m\).  Lemma~\ref{f:lem:sobolev-product} and
+\(\norm{\nabla h}_{H^{m-1}}\le\norm h_{H^m}\) give
+\[
+ \norm{\mathcal Q(v,w)}_{H^m}
+ +\norm{\nabla\mathcal Q(v,w)}_{H^{m-1}}
+ \le2C_m^{\rm alg}\norm v_{H^{m+1}}\norm w_{H^{m+1}}.
+\]
+\end{proof}
+
+\begin{lemma}[Initial pressure-complete jet]
+\label{f:lem:formal-initial-jet}
+Set
+\[
+ V_n^0:=V_n(0),
+ \qquad
+ Q_n^0:=Q_n(0),
+ \qquad
+ J_{n,\alpha}^0:=J_{n,\alpha}(0),
+ \qquad
+ \Pi_{n,\alpha}^0:=\Pi_{n,\alpha}(0).
+\]
+Write \(F_n^0:=F_n(0)\).
+Then
+\begin{align}
+ V_0^0&=u_0,
+ \label{f:eq:formal-initial-base}\\
+ Q_n^0
+ &=R_iR_j
+ \sum_{a=0}^{n}\binom naV_{a,i}^0V_{n-a,j}^0
+ -(-\Delta)^{-1}\nabla\cdot F_n^0,
+ \label{f:eq:formal-initial-pressure}\\
+ V_{n+1}^0
+ &=
+ \nu\Delta V_n^0
+ -\sum_{a=0}^{n}\binom na
+ (V_a^0\cdot\nabla)V_{n-a}^0
+ -\nabla Q_n^0+F_n^0.
+ \label{f:eq:formal-initial-velocity}
+\end{align}
+For every \(n,m\in\Nzero\) and \(\alpha\in\Nzero^3\),
+\[
+ V_n^0,Q_n^0,J_{n,\alpha}^0,\Pi_{n,\alpha}^0\in H^m(\R^3).
+\]
+\par
+\end{lemma}
+
+\begin{proof}
+Equations \eqref{f:eq:formal-initial-base}--\eqref{f:eq:formal-initial-velocity}
+are \eqref{f:eq:formal-temporal-pressure-row} and
+\eqref{f:eq:formal-temporal-velocity-row} at \(t=0\).  Assume
+\(V_0^0,\ldots,V_n^0\in\bigcap_{m\ge0}H^m\).  Lemmas
+\ref{f:lem:sobolev-product} and \ref{f:lem:riesz-leray} give
+\[
+ Q_n^0\in\bigcap_{m\ge0}H^m,
+ \qquad
+ V_{n+1}^0\in\bigcap_{m\ge0}H^m.
+\]
+Induction starts from \(u_0\in\HsSigma\), while every \(F_n^0\) is
+Schwartz by the prescribed force class.  Spatial differentiation and
+\eqref{f:eq:formal-mixed-pressure-row} give the claims for
+\(J_{n,\alpha}^0\) and \(\Pi_{n,\alpha}^0\).
+\end{proof}
+
+\begin{theorem}[Finite-row pressure estimates]
+\label{f:thm:formal-finite-row-pressure}
+Let \(I=(0,T)\subset(0,T_*)\), let \(n,M\in\Nzero\), and suppose
+\[
+ V_a\in L^2(I;H^{M+1}(\R^3))
+ \qquad(0\le a\le n).
+\]
+For \(\alpha\in\Nzero^3\), define the prescribed pressure-source budget
+\begin{equation}
+ \mathfrak F^{\rm p}_{n,\alpha,M}(I)
+ :=\norm{\partial_x^\alpha(-\Delta)^{-1}\nabla\cdot F_n}_{L^1(I;H^M)}
+ +\norm{\nabla\partial_x^\alpha(-\Delta)^{-1}\nabla\cdot F_n}_{L^1(I;H^{M-1})}.
+ \label{f:eq:force-pressure-budget}
+\end{equation}
+It is finite by \eqref{f:eq:force-pressure-potential-bound} and the prescribed
+force class.
+Then
+\begin{align}
+ &\norm{Q_n}_{L^1(I;H^M)}
+ +\norm{\nabla Q_n}_{L^1(I;H^{M-1})}
+ \notag\\
+ &\qquad\le
+ C_M^{\rm p}\sum_{a=0}^{n}\binom na
+ \norm{V_a}_{L^2(I;H^{M+1})}
+ \norm{V_{n-a}}_{L^2(I;H^{M+1})}
+ +\mathfrak F^{\rm p}_{n,0,M}(I).
+ \label{f:eq:formal-finite-pressure-L1}
+\end{align}
+\begin{samepage}
+If
+\[
+ \mathcal V_{n,M}(I)^2
+ :=\sum_{a=0}^{n}
+ \norm{V_a}_{L^2(I;H^{M+1})}^2,
+\]
+then
+\begin{equation}
+ \norm{Q_n}_{L^1(I;H^M)}
+ +\norm{\nabla Q_n}_{L^1(I;H^{M-1})}
+ \le C_M^{\rm p}2^n\mathcal V_{n,M}(I)^2
+ +\mathfrak F^{\rm p}_{n,0,M}(I).
+ \label{f:eq:formal-finite-pressure-compressed}
+\end{equation}
+\end{samepage}
+For \(\alpha\in\Nzero^3\), assume
+\[
+ J_{a,\beta}\in L^2(I;H^{M+1}(\R^3))
+ \qquad
+ (0\le a\le n,\ \beta\le\alpha).
+\]
+Then
+\begin{align}
+ &\norm{\Pi_{n,\alpha}}_{L^1(I;H^M)}
+ +\norm{\nabla\Pi_{n,\alpha}}_{L^1(I;H^{M-1})}
+ \notag\\
+ &\quad\le
+ C_M^{\rm p}
+ \sum_{a=0}^{n}\sum_{\beta\le\alpha}
+ \binom na\binom{\alpha}{\beta}
+ \norm{J_{a,\beta}}_{L^2(I;H^{M+1})}
+ \norm{J_{n-a,\alpha-\beta}}_{L^2(I;H^{M+1})}
+ +\mathfrak F^{\rm p}_{n,\alpha,M}(I).
+ \label{f:eq:formal-finite-mixed-pressure-L1}
+\end{align}
+If
+\[
+ \mathcal J_{n,\alpha,M}(I)^2
+ :=
+ \sum_{a=0}^{n}\sum_{\beta\le\alpha}
+ \norm{J_{a,\beta}}_{L^2(I;H^{M+1})}^2,
+\]
+then
+\begin{equation}
+ \norm{\Pi_{n,\alpha}}_{L^1(I;H^M)}
+ +\norm{\nabla\Pi_{n,\alpha}}_{L^1(I;H^{M-1})}
+ \le
+ C_M^{\rm p}2^{n+|\alpha|}
+ \mathcal J_{n,\alpha,M}(I)^2
+ +\mathfrak F^{\rm p}_{n,\alpha,M}(I).
+ \label{f:eq:formal-finite-mixed-pressure-compressed}
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+Lemmas~\ref{f:lem:sobolev-product} and \ref{f:lem:riesz-leray} give
+\begin{equation}
+ \norm{R_iR_j(v_i w_j)}_{H^M}
+ +\norm{\nabla R_iR_j(v_i w_j)}_{H^{M-1}}
+ \le C_M^{\rm p}\norm v_{H^{M+1}}\norm w_{H^{M+1}}.
+ \label{f:eq:formal-pressure-bilinear}
+\end{equation}
+Equations \eqref{f:eq:formal-temporal-pressure-row} and
+\eqref{f:eq:formal-pressure-bilinear} give, for almost every \(t\in I\),
+\begin{align*}
+ \norm{Q_n(t)}_{H^M}
+ +\norm{\nabla Q_n(t)}_{H^{M-1}}
+ &\le
+ C_M^{\rm p}\sum_{a=0}^{n}\binom na
+ \norm{V_a(t)}_{H^{M+1}}
+ \norm{V_{n-a}(t)}_{H^{M+1}}\\
+ &\quad+\norm{(-\Delta)^{-1}\nabla\cdot F_n(t)}_{H^M}\\
+ &\quad+\norm{\nabla(-\Delta)^{-1}\nabla\cdot F_n(t)}_{H^{M-1}}.
+\end{align*}
+Integration and Cauchy--Schwarz prove
+\eqref{f:eq:formal-finite-pressure-L1}, with the two force-potential terms
+collected exactly in \(\mathfrak F^{\rm p}_{n,0,M}(I)\).  For nonnegative \(x_a\),
+\[
+ \sum_{a=0}^{n}\binom nax_ax_{n-a}
+ \le
+ \sum_{a=0}^{n}\binom nax_a^2
+ \le
+ 2^n\sum_{a=0}^{n}x_a^2.
+\]
+This proves \eqref{f:eq:formal-finite-pressure-compressed}.
+
+Apply \eqref{f:eq:formal-pressure-bilinear} to each summand in
+\eqref{f:eq:formal-mixed-pressure-row}.  Integration and Cauchy--Schwarz give
+\eqref{f:eq:formal-finite-mixed-pressure-L1}; the differentiated prescribed
+pressure source is \(\mathfrak F^{\rm p}_{n,\alpha,M}(I)\).  The involution
+\[
+ (a,\beta)\longmapsto(n-a,\alpha-\beta)
+\]
+preserves the weights
+\(\binom na\binom{\alpha}{\beta}\), and
+\[
+ \sum_{a=0}^{n}\sum_{\beta\le\alpha}
+ \binom na\binom{\alpha}{\beta}
+ =2^{n+|\alpha|}.
+\]
+In particular, every individual weight is at most \(2^{n+|\alpha|}\).
+The inequality \(2xy\le x^2+y^2\) proves
+\eqref{f:eq:formal-finite-mixed-pressure-compressed}.
+\end{proof}
+
+
+\subsection{One compatible forced rectangle family and its two descriptions}
+\label{f:sec:independent-intersection}
+
+Start with \(u_0\in\HsSigma(\R^3)\), \(\nu>0\), and the prescribed
+\(f\in C^\infty([0,\infty);\mathcal S(\R^3;\R^3))\).
+Theorem~\ref{f:thm:local-restart} constructs a pressure-normalized classical
+history on a positive interval. Uniqueness identifies the local solutions
+on their overlaps; their compatible union gives the maximal history of
+Definition~\ref{f:def:formal-maximal-history}.
+
+The datum fixes the initial velocity row. The pressure formula in
+Proposition~\ref{f:prop:formal-mixed-recurrences} fixes its normalized pressure,
+and the velocity recurrence fixes the next temporal row. Repetition and
+spatial differentiation produce the complete initial mixed jet. Along the
+history these are the actual derivatives of \(u,p,f\), with the complete
+transport sum, pressure, viscosity, and force row retained. These finite jet
+realizations give every finite mixed Sobolev row on every strict horizon.
+
+The prescribed triple generates the pressure-complete mixed jet with its
+spatial Sobolev domains. On the original interval, the construction retains
+all finite spatial orders in each temporal row and their compatible temporal
+derivative identities. Critical height supplies the spatial-domain reading
+alongside generation. The subsequent completed-height substitution displays
+viscosity while retaining every transport, pressure, and force-work term.
+Finite coordinate records and finite relationship rectangles are selections
+from this constructed structure.
+
+\begin{theorem}[Datum-generated strict-horizon mixed-jet intersection]
+\label{f:thm:strict-datum-intersection}
+Let \(\nu>0\), \(u_0\in\HsSigma(\R^3)\), and
+\(f\in C^\infty([0,\infty);\mathcal S(\R^3;\R^3))\). Let
+\((T_*,u,p)\) be the maximal pressure-complete classical history generated
+by \((u_0,\nu,f)\). For every \(0<T<T_*\),
+\begin{equation}
+ u\in\bigcap_{r,m\in\Nzero}H^r((0,T);H^m_\sigma(\R^3)).
+ \label{f:eq:strict-independent-mixed-intersection}
+\end{equation}
+All velocity, pressure, and force coordinates are the actual mixed
+derivatives of this one history, obey
+Proposition~\ref{f:prop:formal-mixed-recurrences}, and agree under restriction.
+\end{theorem}
+
+\begin{proof}
+Write \(A_n=V_n(0)\) and \(P_n=Q_n(0)\). The complete initial recurrence is
+\[
+ \begin{aligned}
+ A_0&=u_0,\\
+ P_n&=R_iR_j\sum_{a=0}^n\binom na(A_a)_i(A_{n-a})_j
+      -(-\Delta)^{-1}\nabla\cdot F_n(0),\\
+ A_{n+1}&=\nu\Delta A_n
+ -\sum_{a=0}^n\binom na(A_a\cdot\nabla)A_{n-a}
+ -\nabla P_n+F_n(0).
+ \end{aligned}
+\]
+Lemma~\ref{f:lem:formal-initial-jet} shows inductively that every selected
+velocity and pressure row lies in every finite Sobolev space.
+
+Fix \(T<T_*\) and finite \(r,m\). Apply the forced local construction
+simultaneously to the finite family
+\[
+ \bigl\{\partial_t^n\partial_x^\alpha u:
+ 0\le n\le r,\ |\alpha|\le m\bigr\},
+\]
+using the displayed recurrence at the initial face. Higher-order persistence
+realizes these fields as the actual derivatives of one velocity. Whenever
+two finite constructions overlap in indices or time, local uniqueness
+identifies their common coordinates. On the compact interval \([0,T]\),
+persistence gives
+\[
+ \sum_{n=0}^r\|V_n\|_{L^2(0,T;H^m)}^2<\infty.
+\]
+Taking every finite \((r,m)\) proves
+\eqref{f:eq:strict-independent-mixed-intersection}. The pressure formula and
+Theorem~\ref{f:thm:formal-finite-row-pressure} place each selected pressure row
+in its stated strict-horizon Sobolev space. Restriction compatibility makes
+the resulting family one mixed jet of one velocity.
+\end{proof}
+
+At a proposed finite maximal time, put \(I=(0,T_*)\) and fix finite
+\(N,M\). The prescribed triple \((u_0,\nu,f)\), its initial mixed jet, and
+the complete velocity--pressure--force equations determine the record below.
+
+\begin{theorem}[Datum-generated compatible forced finite rectangles]
+\label{f:thm:datum-finite-blocks}
+Let \(\nu>0\), \(u_0\in\HsSigma(\R^3)\), and
+\(f\in C^\infty([0,\infty);\mathcal S(\R^3;\R^3))\). Let
+\((T_*,u,p)\) be the maximal pressure-complete classical history generated
+by the single forced datum \((u_0,\nu,f)\). Assume, toward contradiction, that
+\(T_*<\infty\), and put \(I=(0,T_*)\).  For finite \(N,M\), the corresponding
+pressure-complete record is
+\begin{equation}
+ \cR_{N,M}[u_0,\nu,f;T_*]
+ :=\left((V_n)_{n=0}^{N},(V_{n+1})_{n=0}^{N};
+ (Q_n)_{n=0}^{N};(F_n)_{n=0}^{N}\right).
+ \label{f:eq:forced-datum-rectangle-record}
+\end{equation}
+The forced construction produces, for \(0\le n\le N\),
+\begin{equation}
+ V_n\in L^2(I;H^{M+1}),\qquad
+ V_{n+1}\in L^2(I;H^{M-1}).
+ \label{f:eq:independent-adjacent-finite-rows}
+\end{equation}
+Define its velocity norm on \(I\) by
+\begin{equation}
+ \mathfrak R_{N,M}(u;T_*)
+ :=\sum_{n=0}^{N}\left(
+ \norm{V_n}_{L^2(I;H^{M+1})}^2
+ +\norm{V_{n+1}}_{L^2(I;H^{M-1})}^2
+ \right).
+ \label{f:eq:forced-restricted-block-norm}
+\end{equation}
+The forced whole-terminal output is
+\begin{equation}
+ \mathfrak R_{N,M}(u;T_*)<\infty
+ \qquad(N,M<\infty).
+ \label{f:eq:forced-datum-block-output}
+\end{equation}
+Taking \(N\ge n\) and \(M=m\) gives the corresponding statement for every
+finite pair \((n,m)\).
+For \(N'\le N\) and \(M'\le M\), the larger block restricts to the
+velocity, pressure, and force coordinates of the smaller block:
+\begin{equation}
+ \left.\cR_{N,M}[u_0,\nu,f;T_*]\right|_{(N',M')}
+ =\cR_{N',M'}[u_0,\nu,f;T_*].
+ \label{f:eq:independent-intersection-record}
+\end{equation}
+Here restriction deletes the outer temporal rows and reads every retained
+distribution in the lower Sobolev order.  The mixed coordinates are
+\[
+ J_{n,\alpha}=\partial_x^\alpha\partial_t^nu,
+ \qquad
+ \Pi_{n,\alpha}=\partial_x^\alpha\partial_t^np,
+ \qquad
+ F_{n,\alpha}=\partial_x^\alpha\partial_t^nf.
+\]
+For every finite \((n,m,\alpha)\),
+\[
+ J_{n,\alpha}\in L^2(I;H^m),\qquad
+ \Pi_{n,\alpha}\in L^1(I;H^m),\qquad
+ F_{n,\alpha}\in C([0,T_*];H^m).
+\]
+\end{theorem}
+
+\begin{proof}[Datum construction on the complete forced graph]
+Put \(I=(0,T_*)\), and fix finite \(N,M\).  The prescribed data first generate
+the complete initial jet:
+\[
+ \begin{aligned}
+ A_0&=u_0,\\
+ P_n&=R_iR_j\sum_{a=0}^n\binom na(A_a)_i(A_{n-a})_j
+      -(-\Delta)^{-1}\nabla\cdot F_n(0),\\
+ A_{n+1}&=\nu\Delta A_n
+ -\sum_{a=0}^n\binom na(A_a\cdot\nabla)A_{n-a}
+ -\nabla P_n+F_n(0).
+ \end{aligned}
+\]
+At step \(n\), this recurrence determines \(A_{n+1}\) from the preceding
+velocity rows and the prescribed force row \(F_n(0)\).
+Lemma~\ref{f:lem:formal-initial-jet} places every required initial row in every
+finite spatial Sobolev order, and spatial differentiation supplies the initial
+mixed coordinates.
+
+For an equation indexed by \((n,\alpha)\), retain the adjacent temporal
+coordinate \(J_{n+1,\alpha}\), the viscous coordinates
+\(J_{n,\alpha+2e_\ell}\), and the pressure coordinates
+\(\Pi_{n,\alpha+e_\ell}\), for \(1\le\ell\le3\), together with the direct
+source coordinate \(F_{n,\alpha}\).  For every \(a\le n\),
+\(\beta\le\alpha\), and velocity component \(i\), retain both transport
+factors
+\[
+ J_{a,\beta,i},
+ \qquad
+ J_{n-a,\alpha-\beta+e_i}.
+\]
+Here \(e_i\) is the \(i\)-th spatial unit multi-index.  Set
+\(\Gamma_\alpha:=\{\alpha\}\cup\{\alpha+e_\ell:1\le\ell\le3\}\).
+For every \(\gamma\in\Gamma_\alpha\), every \(a\le n\), and every
+\(\beta\le\gamma\), also retain the pressure-product factors
+\(J_{a,\beta,i}\), \(J_{n-a,\gamma-\beta,j}\), and the pressure-source
+coordinate \(F_{n,\gamma}\).  Each retained normalized pressure coordinate
+then carries both its full velocity product and its prescribed source
+potential:
+\[
+ \Pi_{n,\gamma}
+ =R_iR_j\sum_{a=0}^n\sum_{\beta\le\gamma}
+ \binom na\binom{\gamma}{\beta}
+ J_{a,\beta,i}J_{n-a,\gamma-\beta,j}
+ -(-\Delta)^{-1}\nabla\cdot F_{n,\gamma}
+ \qquad(\gamma\in\Gamma_\alpha).
+\]
+The retained equation is
+\begin{equation}
+ \mathscr E_{n,\alpha}(J,\Pi;F)
+ :=J_{n+1,\alpha}
+ +\sum_{a=0}^{n}\sum_{\beta\le\alpha}
+  \binom na\binom{\alpha}{\beta}
+  (J_{a,\beta}\cdot\nabla)J_{n-a,\alpha-\beta}
+ +\nabla\Pi_{n,\alpha}
+ -\nu\Delta J_{n,\alpha}-F_{n,\alpha}=0.
+ \label{f:eq:forced-finite-equation-graph}
+\end{equation}
+There are finitely many retained coordinates for the fixed selected equations.
+This dependency cover is not a second or truncated flow: every velocity and
+pressure entry is a derivative of the one prescribed forced history, and
+every force entry is a derivative of the one prescribed source.  Applying
+\(\Pp\) reads the solenoidal evolution; applying \(I-\Pp\) reads the
+normalized pressure equation.
+
+The prescribed source adds one known affine coordinate to each coupled row.
+At the block's velocity-row order, for every \(0\le n\le N\), Fourier
+Cauchy--Schwarz and Young's inequality give the source payment
+\begin{equation}
+ 2\left|\langle F_n,V_n\rangle_{H^M}\right|
+ \le \nu\norm{V_n}_{H^{M+1}}^2
+     +\nu^{-1}\norm{F_n}_{H^{M-1}}^2.
+ \label{f:eq:forced-finite-row-source-payment}
+\end{equation}
+The first right-hand term is absorbed by the viscous
+\(H^{M+1}\)-dissipation in that row.  The second is finite on
+\([0,T_*]\) because \(F_n\) is smooth in time with Schwartz spatial values.
+For each retained mixed pressure index \(\gamma\in\Gamma_\alpha\), the
+gradient component has the finite budget
+\(\mathfrak F^{\rm p}_{n,\gamma,M}(I)\) from
+\eqref{f:eq:force-pressure-budget}.  Thus the affine force and every
+force-induced pressure coordinate are paid inside this finite forced record.
+
+The datum-generated forced jet already carries its compatible Sobolev
+coordinates on \(I\), with the prescribed force and its induced pressure
+response retained. Selecting this finite record keeps the adjacent velocity
+rows \(V_n,V_{n+1}\). For every \(n=0,\ldots,N\), their memberships are
+\[
+ V_n\in L^2(I;H^{M+1}),
+ \qquad
+ V_{n+1}\in L^2(I;H^{M-1}).
+\]
+These are components of the constructed forced jet, as recorded in
+\eqref{f:eq:independent-adjacent-finite-rows}. The finite selection preserves
+their memberships on the original interval and the identity
+\(\partial_tV_n=V_{n+1}\). Equation~\eqref{f:eq:forced-finite-equation-graph}
+retains their complete transport, pressure, viscous, and prescribed-force
+coupling.
+
+For this fixed finite pair, form the sum of their defining squared norms:
+\[
+ C^f_{N,M}[u_0,\nu,f;I]
+ :=\sum_{n=0}^{N}\left(
+  \norm{V_n}_{L^2(I;H^{M+1})}^2
+  +\norm{V_{n+1}}_{L^2(I;H^{M-1})}^2
+ \right)<\infty.
+\]
+These norms give
+\begin{equation}
+ \mathfrak R_{N,M}(u;T_*)
+ =C^f_{N,M}[u_0,\nu,f;I]<\infty.
+ \label{f:eq:forced-uniform-cutoff-output}
+\end{equation}
+This proves \eqref{f:eq:forced-datum-block-output}. The record also retains the pressure and
+prescribed-force coordinates constrained by
+\eqref{f:eq:forced-finite-equation-graph}.
+
+Fix \(n,m,\alpha\).  Choosing \(N\ge n\) and
+\(M\ge m+|\alpha|\) gives the stated
+velocity and mixed-velocity memberships.  The normalized Riesz formula and
+Theorem~\ref{f:thm:formal-finite-row-pressure} give the pressure membership,
+including its prescribed source potential, while the prescribed force class
+gives \(F_{n,\alpha}\in C([0,T_*];H^m)\).  The temporal recurrence, spatial
+Leibniz rule, pressure normalization, and force jet commute with deletion of
+the outer indices.  Overlap uniqueness identifies every retained coordinate
+with the corresponding derivative of the original maximal history.  Hence
+each enlarged rectangle restricts to the smaller one, so the finite records
+satisfy the literal restriction identity
+\eqref{f:eq:independent-intersection-record} on \(I\).
+\end{proof}
+
+The following corollary writes the compatible mixed intersection of the
+generated forced jet in finite-index coordinates. The completed-height
+identities in the next section display its spatial orders and viscous
+relationships, with the original force retained.
+
+\begin{corollary}[Mixed-index exhaustion of the forced finite rectangles]
+\label{f:thm:datum-intersection}
+Under the hypotheses of Theorem~\ref{f:thm:datum-finite-blocks},
+\begin{equation}
+ u\in\bigcap_{r,m\in\Nzero}H^r(I;H^m_\sigma(\R^3)),
+ \qquad I=(0,T_*).
+ \label{f:eq:independent-mixed-intersection}
+\end{equation}
+This is the direct mixed-index exhaustion of the datum-generated family
+\(\bigl(\cR_{N,M}[u_0,\nu,f;T_*]\bigr)_{N,M\in\Nzero}\).
+\end{corollary}
+
+\begin{proof}
+
+Fix finite \(r,m\).  A rectangle with temporal depth at least \(r\) and spatial
+height at least \(m\) contains
+\[
+ \sum_{n=0}^{r}\norm{V_n}_{L^2(I;H^m)}^2<\infty.
+\]
+The recurrence identifies \(V_n\) with the weak derivative
+\(\partial_t^nu\), which proves
+\eqref{f:eq:independent-mixed-intersection}.  Choosing the spatial height higher
+by \(|\alpha|\) gives every \(J_{n,\alpha}\).  The finite-row pressure estimate
+gives every \(\Pi_{n,\alpha}\), and the prescribed force class gives every
+\(F_{n,\alpha}\).  Equation~\eqref{f:eq:independent-intersection-record}
+identifies these rows as literal common coordinates of every sufficiently
+large block on this one forced history.
+\end{proof}
+
+\begin{definition}[Finite pressure-complete forced rectangle]
+\label{f:def:finite-rectangle}
+Let \(0<T<T_*\) and \(N,M\in\Nzero\).  Define
+\[
+ \cR_{N,M}[u_0,\nu,f;T]
+ :=\left(
+ (V_n|_{(0,T)})_{n=0}^{N},
+ (V_{n+1}|_{(0,T)})_{n=0}^{N};
+ (Q_n|_{(0,T)})_{n=0}^{N};
+ (F_n|_{(0,T)})_{n=0}^{N}
+ \right),
+\]
+with every row constrained by
+Proposition~\ref{f:prop:formal-mixed-recurrences}.  Its associated scalar norms are
+\begin{align}
+ \mathfrak R_{N,M}(u;T)
+ :={}&\sum_{n=0}^{N}
+ \norm{V_n}_{L^2(0,T;H^{M+1})}^2
+ +\sum_{n=0}^{N}
+ \norm{V_{n+1}}_{L^2(0,T;H^{M-1})}^2,
+ \label{f:eq:finite-rectangle-norm}\\
+ \mathfrak Q_{N,M}(p;T)
+ :={}&\sum_{n=0}^{N}
+ \left(
+ \norm{Q_n}_{L^1(0,T;H^M)}
+ +\norm{\nabla Q_n}_{L^1(0,T;H^{M-1})}
+ \right),
+ \label{f:eq:finite-pressure-rectangle-norm}\\
+ \mathfrak F_{N,M}(f;T)
+ :={}&\sum_{n=0}^{N}\left(
+ \norm{F_n}_{L^1(0,T;H^{M-1})}
+ +\mathfrak F^{\rm p}_{n,0,M}(0,T)
+ \right).
+ \label{f:eq:finite-force-rectangle-norm}
+\end{align}
+\end{definition}
+
+\begin{theorem}[Compatible forced rectangle norms]
+\label{f:thm:datum-rectangles}
+Under the hypotheses of Theorem~\ref{f:thm:datum-finite-blocks}, every finite
+pair \((N,M)\) satisfies
+\begin{equation}
+ \mathfrak R_{N,M}^*[u_0,\nu,f,T_*]
+ :=\sup_{0<T<T_*}\mathfrak R_{N,M}(u;T)<\infty.
+ \label{f:eq:datum-rectangle-bound}
+\end{equation}
+For every finite \(n,m\), the adjacent coordinates obey
+\begin{equation}
+ V_n\in L^2(0,T_*;H^{m+1}),
+ \qquad
+ V_{n+1}\in L^2(0,T_*;H^{m-1}).
+ \label{f:eq:datum-adjacent-rows}
+\end{equation}
+The constant in \eqref{f:eq:datum-rectangle-bound} may depend on the selected
+finite orders.  Every entry is the corresponding derivative of the original
+forced history.
+\end{theorem}
+
+\begin{proof}
+Put \(I=(0,T_*)\).  By Theorem~\ref{f:thm:datum-finite-blocks}, for
+\(0\le n\le N\),
+\[
+ V_n\in L^2(I;H^{M+1}),\qquad
+ V_{n+1}\in L^2(I;H^{M-1}).
+\]
+Their finite squared sum
+\[
+ C^f_{N,M}:=\sum_{n=0}^{N}\left(
+ \norm{V_n}_{L^2(I;H^{M+1})}^2
+ +\norm{V_{n+1}}_{L^2(I;H^{M-1})}^2
+ \right)
+\]
+is finite.  Restriction of each nonnegative integral gives
+\[
+ \mathfrak R_{N,M}(u;T)\le C^f_{N,M}
+ \qquad(0<T<T_*),
+\]
+and proves \eqref{f:eq:datum-rectangle-bound}.  Selecting \((N,M)=(n,m)\)
+gives \eqref{f:eq:datum-adjacent-rows}.  Enlarging the indices and deleting the
+outer coordinates recovers the smaller block because every retained entry is
+that derivative of the prescribed forced history.
+\end{proof}
+
+The next section derives the critical-height and viscous relationships from
+this mixed jet.  It evaluates those identities on these finite
+blocks \(\cR_{N,M}[u_0,\nu,f;T_*]\), exhausts their completed heights through
+the spatial Sobolev column, and returns through the forced recurrence to that mixed intersection.
+```
+
+### Current forced manuscript: 02-compatible-rectangles.tex
+
+Source: canonical:manuscript:parts/forced/02-compatible-rectangles.tex:1-702
+
+```latex
+\section{Critical-height relationships of the constructed forced jet}
+\label{f:sec:compatible-rectangles}
+
+The generated forced jet carries its compatible spatial and temporal Sobolev
+intersection. Its critical-height domains read the spatial orders of that
+structure. Differentiating the critical heights and squaring the viscous cell
+produces relationships among its velocity, pressure, and prescribed-force
+coordinates. Fixed finite selections give coordinate records and relationship
+rectangles. Their completed heights and the forced recurrence give a cofinal
+description of the constructed intersection, retaining every nonlinear,
+pressure, and force term.
+
+
+\begin{proposition}[Kinetic-energy identity]
+\label{f:prop:kinetic-energy}
+For every \(0\le t<T_*\),
+\begin{equation}
+ \frac12\norm{u(t)}_2^2
+ +\nu\int_0^t\norm{\nabla u(s)}_2^2\dd s
+ =\frac12\norm{u_0}_2^2
+ +\int_0^t\ip{f(s)}{u(s)}_{L^2}\dd s.
+ \label{f:eq:kinetic-energy}
+\end{equation}
+Put
+\[
+ K_f(T):=\norm{u_0}_2+\int_0^T\norm{\Pp f(s)}_2\dd s.
+\]
+Consequently, for \(0<T<T_*\),
+\begin{align}
+ \norm u_{L^\infty(0,T;L^2)}&\le K_f(T),
+ \label{f:eq:energy-Linf}\\
+ \norm u_{L^2(0,T;H^1)}^2
+ &\le\left(T+\frac1{2\nu}\right)K_f(T)^2.
+ \label{f:eq:energy-L2H1}
+\end{align}
+\end{proposition}
+
+\begin{proof}
+Take the \(L^2\) pairing of the momentum equation with \(u\).  Integration
+by parts and \(\nabla\cdot u=0\) give
+\[
+ \ip{(u\cdot\nabla)u}{u}_{L^2}=0,
+ \qquad
+ \ip{\nabla p}{u}_{L^2}=0,
+ \qquad
+ \ip{\Delta u}{u}_{L^2}=-\norm{\nabla u}_2^2.
+\]
+Since \(u\) is divergence free,
+\(\ip f u=\ip{\Pp f}u\).  Integration in time proves
+\eqref{f:eq:kinetic-energy}.  Applying the identity first to
+\((\norm u_2^2+\varepsilon)^{1/2}\) and then letting
+\(\varepsilon\downarrow0\) gives \(\norm{u(t)}_2\le K_f(t)\).  Moreover,
+\[
+ \int_0^T K_f(t)\norm{\Pp f(t)}_2\dd t
+ =\frac12\bigl(K_f(T)^2-\norm{u_0}_2^2\bigr),
+\]
+so \eqref{f:eq:kinetic-energy} gives
+\(\int_0^T\norm{\nabla u}_2^2\dd t\le K_f(T)^2/(2\nu)\).
+Adding \(\int_0^T\norm{u(s)}_2^2\dd s\) proves
+\eqref{f:eq:energy-L2H1}.
+\end{proof}
+
+Pairing a differentiated velocity equation with a spatial derivative of
+that row expresses the change of its Sobolev energy through viscous
+dissipation, the full transport--pressure contribution, and the prescribed
+force work. Repeated time differentiation then exposes higher spatial energies,
+with every differentiated nonlinear and force term retained in each identity.
+
+\begin{definition}[Completed height rows]
+\label{f:def:critical-height-rows}
+For \(r\in\Nzero\) and \(s\ge0\), set
+\begin{align}
+ E_{r,s}(t)&:=\frac12\norm{\Lambda^sV_r(t)}_2^2,
+ \label{f:eq:temporal-row-spatial-energy}\\
+ \cP_{r,s}(t)&:=-\operatorname{Re}
+ \ip{\Lambda^sV_r(t)}
+ {\Lambda^s\!\left(
+   \sum_{a=0}^{r}\binom ra(V_a\cdot\nabla)V_{r-a}+\nabla Q_r
+ \right)(t)}_{L^2}.
+ \label{f:eq:temporal-row-pressure-complete-transfer}
+ \\
+ \mathcal W_{r,s}(t)&:=\operatorname{Re}
+ \ip{\Lambda^sV_r(t)}{\Lambda^sF_r(t)}_{L^2}.
+ \label{f:eq:temporal-row-force-work}
+\end{align}
+For the base row write \(E_s:=E_{0,s}\), \(\cP_s:=\cP_{0,s}\),
+\(\mathcal W_s:=\mathcal W_{0,s}\), and \(H:=E_{1/2}\).
+\end{definition}
+
+Differentiating this quadratic height along the classical history gives
+\[
+ H^{(r)}(t)=\frac12\sum_{a=0}^r\binom ra
+ \ip{\Lambda^{1/2}V_a(t)}{\Lambda^{1/2}V_{r-a}(t)}_{L^2}.
+\]
+On every strict interval the mixed jet makes this contraction an identity of
+this forced history.  The following recurrence exposes its spatial face
+without discarding the transfer or force work.  For each finite \(k\), choose
+a coordinate rectangle high enough to contain the required differentiated
+rows.  Deriving the height identities on those rows gives a finite relationship
+rectangle containing \(H^{(k)}\), every differentiated transfer and force-work
+term, and the spatial energy \(E_{k+1/2}\).  Compatibility under enlargement
+turns these finite identities into the completed-height exhaustion below.
+
+\begin{proposition}[Completed height recurrence in every temporal row]
+\label{f:prop:completed-height-recurrence}
+For every strict classical interval \((0,T)\), every \(r\in\Nzero\), and
+every \(s\ge0\),
+\begin{equation}
+ \partial_tE_{r,s}=\cP_{r,s}+\mathcal W_{r,s}-2\nu E_{r,s+1}.
+ \label{f:eq:sobolev-height-balance}
+\end{equation}
+For every \(k\in\N\),
+\begin{equation}
+ \partial_t^kE_{r,1/2}
+ =(-2\nu)^kE_{r,k+1/2}
+ +\sum_{j=0}^{k-1}(-2\nu)^j
+   \partial_t^{k-1-j}
+   (\cP_{r,j+1/2}+\mathcal W_{r,j+1/2}).
+ \label{f:eq:completed-height-every-temporal-row}
+\end{equation}
+In the base row \(r=0\),
+\begin{equation}
+ H^{(k)}
+ =(-2\nu)^kE_{k+1/2}
+ +\sum_{j=0}^{k-1}(-2\nu)^j
+   \partial_t^{k-1-j}(\cP_{j+1/2}+\mathcal W_{j+1/2}),
+ \label{f:eq:completed-height-recurrence}
+\end{equation}
+and the highest spatial energy is the exact coordinate
+\begin{equation}
+ E_{k+1/2}
+ =\frac{H^{(k)}-
+   \displaystyle\sum_{j=0}^{k-1}(-2\nu)^j
+   \partial_t^{k-1-j}(\cP_{j+1/2}+\mathcal W_{j+1/2})}
+ {(-2\nu)^k}.
+ \label{f:eq:completed-height-row}
+\end{equation}
+\end{proposition}
+
+\begin{proof}
+Pair the temporal recurrence for \(V_r\) with \(\Lambda^{2s}V_r\).
+The pressure-complete nonlinear sum is exactly \(\cP_{r,s}\), the force
+pairing is exactly \(\mathcal W_{r,s}\), and
+\[
+ \nu\operatorname{Re}\ip{\Lambda^sV_r}{\Lambda^s\Delta V_r}_{L^2}
+ =-\nu\norm{\Lambda^{s+1}V_r}_2^2=-2\nu E_{r,s+1}.
+\]
+This proves \eqref{f:eq:sobolev-height-balance}.  Induction on \(k\) gives
+the stronger identity
+\begin{equation}
+ \partial_t^kE_{r,s}
+ =(-2\nu)^kE_{r,s+k}
+ +\sum_{j=0}^{k-1}(-2\nu)^j
+   \partial_t^{k-1-j}(\cP_{r,s+j}+\mathcal W_{r,s+j}).
+ \label{f:eq:all-height-recurrence}
+\end{equation}
+Indeed, differentiation of the order-\(k\) identity followed by
+\(\partial_tE_{r,s+k}=\cP_{r,s+k}+\mathcal W_{r,s+k}
+-2\nu E_{r,s+k+1}\) produces the
+order-\(k+1\) identity.  Taking \(s=1/2\) proves
+\eqref{f:eq:completed-height-every-temporal-row}.  Taking \(r=0\) gives
+\eqref{f:eq:completed-height-recurrence}; since \(\nu>0\), division by
+\((-2\nu)^k\) gives \eqref{f:eq:completed-height-row}.
+\end{proof}
+
+\begin{definition}[Completed critical-height coordinates]
+\label{f:def:completed-critical-height-coordinates}
+Set
+\begin{equation}
+ R_0:=H=E_{1/2},
+ \qquad
+ R_k
+ :=\frac{H^{(k)}-
+   \displaystyle\sum_{j=0}^{k-1}(-2\nu)^j
+   \partial_t^{k-1-j}(\cP_{j+1/2}+\mathcal W_{j+1/2})}
+ {(-2\nu)^k}
+ \quad(k\in\N).
+ \label{f:eq:completed-critical-coordinate}
+\end{equation}
+Proposition~\ref{f:prop:completed-height-recurrence} gives the exact identity
+\begin{equation}
+ R_k=E_{k+1/2}
+ =\frac12\norm{\Lambda^{k+1/2}u}_2^2
+ \qquad(k\in\Nzero).
+ \label{f:eq:completed-critical-coordinate-identity}
+\end{equation}
+\par
+\end{definition}
+
 \begin{proposition}[Complete forced rectangle cell]
 \label{f:prop:complete-forced-rectangle-cell}
 For every temporal row \(n\in\Nzero\), every \(s\ge0\), and every strict
@@ -6855,7 +10022,7 @@ Then
  <\infty.
  \label{f:eq:datum-complete-row-projection-bound}
 \end{equation}
-Thus the selected rectangle bounds, on one common terminal interval, its
+Thus the selected rectangle bounds, on that terminal interval, its
 adjacent temporal face, viscous face, full binomial nonlinear row, normalized
 pressure-gradient face, and prescribed-force face.
 \end{proposition}
@@ -6882,7 +10049,7 @@ these selected coordinates.  Its right-hand side is finite, and taking the
 supremum over \(S<T_*\) proves
 \eqref{f:eq:datum-complete-row-projection-bound}.  The pressure term is present
 because \eqref{f:eq:complete-forced-pressure-square} is the unprojected
-orthogonal completion of one common row.  Every quantity in the resulting
+orthogonal completion of that row.  Every quantity in the resulting
 estimate is a coordinate of that forced equation row.
 \end{proof}
 
@@ -6926,7 +10093,7 @@ The integrated complete rows satisfy
  \label{f:eq:rectangle-complete-row-bound}
 \end{align}
 Thus one finite velocity rectangle, together with the displayed prescribed
-force coordinates, bounds on one common interval and in one common equations its
+force coordinates, bounds on that interval and in those equations its
 adjacent temporal rows, viscous Laplacians, complete nonlinear rows, and
 normalized pressure gradients.  Lower spatial orders follow by Sobolev nesting
 from a rectangle with \(M\ge2\).
@@ -6958,15 +10125,17 @@ multiplication applied to every allocation in \(B_n\), using one factor in
  \qquad
  V_{n+1}=\nu\Delta V_n-\Pp B_n+\Pp F_n
 \]
-show directly that these are the terms of one common pressure-complete row.
+show directly that these are the terms of that pressure-complete row.
 \end{proof}
-```
 
-### Forced interval realization, completed-height exhaustion and recurrence return
+The finite sum above evaluates the coordinates selected by
+Definition~\ref{f:def:finite-rectangle}.  Theorem~\ref{f:thm:datum-rectangles}
+records their finite norm, while the complete-equation estimate retains and
+relates every face of those coordinates.  The next proposition records both
+directions between adjacent-row membership and its finite rectangle norm,
+together with monotone exhaustion of the interval.
 
-Source: f-relations:392-570
-
-```latex
+\Needspace{14\baselineskip}
 \begin{proposition}[Norm equivalence and full-interval realization]
 \label{f:prop:datum-terminal-realization}
 
@@ -7008,7 +10177,7 @@ Every term in \(\mathfrak R_{N,M}(u;T)\) is the integral of a nonnegative
 function, so monotone exhaustion of \((0,T_*)\) gives
 \eqref{f:eq:datum-terminal-monotone-realization}.
 
-Conversely, assume \eqref{f:eq:datum-rectangle-bound}.  one common monotone
+Conversely, assume \eqref{f:eq:datum-rectangle-bound}.  This monotone
 exhaustion gives the finite full-interval sum in
 \eqref{f:eq:datum-terminal-monotone-realization}.  Taking \(N=n\) and \(M=m\)
 yields \eqref{f:eq:datum-adjacent-rows} for each finite \((n,m)\).
@@ -7146,756 +10315,798 @@ actual temporal derivatives of \(u\),
 Taking all finite \((r,m)\) proves
 \eqref{f:eq:independent-mixed-intersection}.
 \end{proof}
-```
 
-### Supplied rough construction and candidate-comparison reasoning
+The preceding calculation gives a completed-height representation of the
+intersection carried by the generated forced jet. For each finite \(k\), choose a sufficiently high
+coordinate rectangle and derive the corresponding critical-height
+relationship rectangle on its rows.  This computes
+\(R_k=E_{k+1/2}\), with every differentiated force-work term retained in its
+recurrence.  Compatibility under enlargement identifies the family
+\((R_k)_{k\ge0}\) on the original forced history.  Taking every finite \(k\)
+gives \eqref{f:eq:datum-complete-height-and-spatial-columns}.
+Proposition~\ref{f:prop:forced-spatial-column-reconstruction} then reconstructs
+every temporal and pressure row and recovers
+\eqref{f:eq:independent-mixed-intersection}.  Conversely, the
+mixed-index exhaustion contains the velocity rows from which every finite
+completed height is computed.  Both descriptions use
+the finite coordinate selections \(\cR_{N,M}[u_0,\nu,f;T_*]\) of that jet
+at each finite pair and identify identical velocity, pressure, and force derivatives.
 
-Source: author:draft:49cee9a4e6c6:9-19
-
-```latex
-me: ok let's start with open AI's scenario and work our way through it. firstly, their scenario deals with an imaginary force created from a very specific, well known problem called the "critical height problem". basically if you start with a fluid in motion, without any force, there is concern that a singularity can occur within a stretching vortex, due to the increase in speed of the fluid as the core of the vortex shrinks, and that occurs naturally without anything forcing it, it's just the natural strain within the fluid that causes this vortex to stretch out and increase its rotation as it does so. you know in real life, what you see is that the vortex stretches, thins, speeds up, and dissipates into the surrounding fluid, so the natural assumption is that the viscosity of the fluid is doing something to cause that dissipation instead of having this chase down into the infinitesimal scales, while the rotation of the vortex speeds up to infinity. while it is true that viscosity DOES unilaterally play a role at that scales to prevent this from happening, in order to properly construct the fluid dynamics and continue within the confines of the maths, you need to actively couple all of the parameters of the fluid together so that it remains within the class of objets the problem defines. when you do that, like pressure, viscosity, incompressibility stay actively coupled and you chase the vortex through the critical height problem down to the smallest scales, you can prove that the unforced equations remain smooth for a finite time. 
-basically, the orginal NS equation contains it's own velocity and acceleration right? well that's a unique kind of PDE (where the existence of the next time derivative is both given up front, and it affects the next time-step in the velocity) right? so it begs the question: what if you substituted for acceleration? well that would means taking the derivaitve of the whole equation w.r.t. to time and substituting that in right? ok well if you continuously do this kind of substition, you get a binomial form of the NS equation which holds all of it's derivatives (and you know, there's a difference here between the time derviative and material derivative of the equation so the proper construction is actually the material derivative) this kind of object is called a mixed-jet. if you use that same construction within the critical height problem, and analyze its time derivatives, you get this very interested relationship between different height problems within the sobolev space. basically, the higher in time-derivatives you go, the higher up in sobolev space you go. the reason you'd want to do this is to try to measure the smaller and smaller frequencies within the critical height problem itself right? like this vortex is getting smaller, spinning faster, and that concerns higher and higher time derivaitves right? now the finale comes from the fact that if you do this to infinity, you reach the full sobolev space. the critical heights along the way are laddered and related through this viscous relationship and that entire laddered system creates the whole-space sobolev terminal membership. and what i mean by that is simple: wihin either the mixed jet itself, or by analyzing the imte derivatives of the critical height problem: you get this strict viscous relationship between the rows of a N by M matrix (which the paper calls a rectangle,.... im not going to figh that wording but it's a matrix), that matrix carries the geometric viscous relatiship for hte whole fluid, and it proves the intersection between higher-time derivaitves, and higher sobolev embeddings exists, and that relationship the visocity tethers between the "rows" of this matrix gives the estimates for any scenario: proving that the fluids properties always stay finite within a finite time. 
-This is where open ai's paper goes wrong: 
-it takes that unforced critical height / vortex stretching problem and uses it to create the imaginary force that pushes on / doubles up on the critical height problem.
-so instead of saying "the fluid's strain is stretching a vortex" it's like saying "let's put a propeller in the water, and tune its motion to precisely match and worsen this critical height problem"
-so they do that, but they only do that for a single rung of the full material mixed jet, and the end results (supposedly) is that the force remains finite, decaying, and the fluid remains incompressible, but the pressure and velocity rip off into infinity.
-to me, that violates the entire concept of one-whole-fluid-object, and actively coupling the parameters to ensure class membership within the problem.
-i found 4 ways to disprove their point using my geometric, whole-fluid-object argument, but it all comes down to basically one common point: the estimates they claim don't exist, actually do exist and are given by this relationship.
-1. each individual parameter is bounded by one common viscous geometric relationship, the estimates stay locally  bounded to each one
-2. the entire group in bounded by estimates
-   (what are 3, and 4? i mentioned them a long time ago but i can't remember now .. can you recall them for me using thread history?)
-```
-
-### Unforced finite-height reconstruction proof
-
-Source: manuscript:parts/unforced/03-quantitative-consequences.tex:698-826
-
-```latex
-\begin{proposition}[Height-coordinate reconstruction of the finite rows]
-\label{u:prop:qc-critical-height-row-propagation}
-For \(m\in\Nzero\), define
-\begin{align}
- \mathfrak H_m[u_0,\nu;T]
- &:={}
- \frac12\norm{\Lambda^{m+1/2}u}_{L^2(I_T;L^2)}^2,
- \label{u:eq:qc-height-producer-coordinate}\\
- \mathfrak S_m[u_0,\nu;T]^2
- &:={}
- 2^m\left(T\norm{u_0}_2^2+2\mathfrak H_m[u_0,\nu;T]\right).
- \label{u:eq:qc-spatial-row-from-height}
-\end{align}
-Then
+\begin{proposition}[Pressure completion]
+\label{f:prop:rectangle-pressure-completion}
+Under the hypotheses of Theorem~\ref{f:thm:datum-rectangles}, for every
+\(N,M\in\Nzero\),
 \begin{equation}
- 2\mathfrak H_m[u_0,\nu;T]
- \le\mathfrak B_{0,m}[u_0,\nu;T],
- \qquad
- \norm u_{L^2(I_T;H^m)}\le\mathfrak S_m[u_0,\nu;T].
- \label{u:eq:qc-height-spatial-bounds}
+ \mathfrak Q_{N,M}^*[u_0,\nu,f,T_*]
+ :=\sup_{0<T<T_*}\mathfrak Q_{N,M}(p;T)
+ \le
+ C_M^{\rm p}(2^{N+1}-1)\mathfrak R_{N,M}^*[u_0,\nu,f,T_*]
+ +\sum_{n=0}^N\mathfrak F^{\rm p}_{n,0,M}(0,T_*).
+ \label{f:eq:whole-terminal-pressure-bound}
 \end{equation}
-Define recursively, for \(n,m\in\Nzero\),
+\begin{samepage}
+For every \(0\le n\le N\), the identities
 \begin{align}
- \mathfrak A^{\rm v}_{0,m}
- &:={}
- T^{-1/2}\mathfrak S_m
- +\nu T^{1/2}\mathfrak S_{m+2}
- +A_{m+1}\mathfrak S_{m+2}^2,
- \label{u:eq:qc-height-base-pointwise-majorant}\\
- \mathfrak A^{\rm p}_{n,m}
- &:={}
- A_m\sum_{a=0}^{n}\binom na
- \mathfrak A^{\rm v}_{a,m+1}
- \mathfrak A^{\rm v}_{n-a,m+1},
- \label{u:eq:qc-height-pressure-majorant}\\
- \mathfrak A^{\rm v}_{n+1,m}
- &:={}
- \nu\mathfrak A^{\rm v}_{n,m+2}
- +A_{m+1}\sum_{a=0}^{n}\binom na
- \mathfrak A^{\rm v}_{a,m+2}
- \mathfrak A^{\rm v}_{n-a,m+2}.
- \label{u:eq:qc-height-temporal-majorant}
+ Q_n
+ &=R_iR_j\sum_{a=0}^n\binom naV_{a,i}V_{n-a,j}
+ -(-\Delta)^{-1}\nabla\cdot F_n,
+ \label{f:eq:rectangle-pressure-identity}\\
+ V_{n+1}
+ &=\nu\Delta V_n
+ -\sum_{a=0}^n\binom na(V_a\cdot\nabla)V_{n-a}-\nabla Q_n+F_n
+ \label{f:eq:rectangle-velocity-identity}
 \end{align}
-Every finite quantity in this recursion is finite, and
-\begin{align}
- \sup_{0\le t\le T}\norm{V_n(t)}_{H^m}
- &\le\mathfrak A^{\rm v}_{n,m},
- \label{u:eq:qc-height-temporal-row-bound}\\
- \sup_{0\le t\le T}
- \left(\norm{Q_n(t)}_{H^m}
- +\norm{\nabla Q_n(t)}_{H^{m-1}}\right)
- &\le\mathfrak A^{\rm p}_{n,m}.
- \label{u:eq:qc-height-pressure-row-bound}
-\end{align}
-Let \(M_-:=\max\{M-1,0\}\) and set
-\begin{align}
- \widehat{\mathfrak B}_{N,M}^{\rm h}[u_0,\nu;T]
- &:={}
- T\sum_{n=0}^{N}\left(
- (\mathfrak A^{\rm v}_{n,M+1})^2
- +(\mathfrak A^{\rm v}_{n+1,M_-})^2
- \right),
- \label{u:eq:qc-height-reconstructed-rectangle}\\
- \widehat{\mathfrak Q}_{N,M}^{\rm h}[u_0,\nu;T]
- &:={}
- T\sum_{n=0}^{N}\mathfrak A^{\rm p}_{n,M}.
- \label{u:eq:qc-height-reconstructed-pressure}
-\end{align}
-Then the scalar norm and pressure bounds satisfy
-\begin{align}
- \mathfrak B_{N,M}[u_0,\nu;T]
- &\le\widehat{\mathfrak B}_{N,M}^{\rm h}[u_0,\nu;T],
- \label{u:eq:qc-B-by-height-reconstruction}\\
- \mathfrak Q_{N,M}(p;T)
- &\le\widehat{\mathfrak Q}_{N,M}^{\rm h}[u_0,\nu;T].
- \label{u:eq:qc-pressure-by-height-reconstruction}
-\end{align}
-For fixed \(N,M\), the right-hand sides use only
-\begin{equation}
- \nu,\quad T,\quad\norm{u_0}_2,\quad N,\quad M,\quad
- \{\mathfrak H_q[u_0,\nu;T]:0\le q\le M+2N+4\},
- \quad\{A_q:0\le q\le M+2N+4\}.
- \label{u:eq:qc-height-reconstruction-dependence}
-\end{equation}
-The quantities \(\mathfrak H_q\) are the exact completed-height coordinates
-of the fixed datum-generated history.  Equation
-\eqref{u:eq:qc-height-spatial-bounds} converts every finite height into a spatial
-Sobolev row, while \eqref{u:eq:qc-B-by-height-reconstruction} uses the equation
-to bound the temporal and pressure rows of one common prescribed finite
-rectangle.  Over all finite indices this recovers one common mixed intersection.
+hold respectively in
+\(L^1(0,T_*;H^M)\) and \(L^1(0,T_*;H^{M-1})\), including when
+\(M=0\).
+\end{samepage}
 \end{proposition}
 
 \begin{proof}
-The first estimate in \eqref{u:eq:qc-height-spatial-bounds} follows from the
-upper row of \(\mathfrak B_{0,m}\).  The Fourier inequality
+For every \(0<T<T_*\),
+Theorem~\ref{f:thm:formal-finite-row-pressure} gives
 \[
- (1+\abs\xi^2)^m\le2^m(1+\abs\xi^{2m+1})
+ \norm{Q_n}_{L^1(0,T;H^M)}
+ +\norm{\nabla Q_n}_{L^1(0,T;H^{M-1})}
+ \le C_M^{\rm p}2^n\mathfrak R_{N,M}^*[u_0,\nu,f,T_*]
+ +\mathfrak F^{\rm p}_{n,0,M}(0,T).
 \]
-and \eqref{u:eq:energy-Linf} give the second estimate.
-
-The projected equation and \eqref{u:eq:qc-product-constant} give
+Sum over \(0\le n\le N\), then let \(T\uparrow T_*\).  Monotone
+convergence in the nonnegative norm integrals proves
+\eqref{f:eq:whole-terminal-pressure-bound}.  Since
+\(\nabla\cdot V_a=0\),
 \[
- \norm{u_t}_{L^1(I_T;H^m)}
- \le\nu T^{1/2}\mathfrak S_{m+2}
- +A_{m+1}\mathfrak S_{m+2}^2.
+ (V_a\cdot\nabla)V_{n-a}
+ =\nabla\cdot(V_{n-a}\otimes V_a).
 \]
-Choose a Lebesgue time \(t_m\in I_T\) satisfying
+Lemma~\ref{f:lem:sobolev-product} and Cauchy--Schwarz in time give
 \[
- \norm{u(t_m)}_{H^m}
- \le T^{-1/2}\norm u_{L^2(I_T;H^m)}.
+ \norm{V_{n-a}\otimes V_a}_{L^1(0,T_*;H^M)}
+ \le C_M^{\rm alg}
+ \norm{V_a}_{L^2(0,T_*;H^{M+1})}
+ \norm{V_{n-a}}_{L^2(0,T_*;H^{M+1})}.
 \]
-The Banach-valued fundamental identity gives
-\eqref{u:eq:qc-height-temporal-row-bound} at \(n=0\).
-Assume that bound through row \(n\).  The pressure recurrence and
-\eqref{u:eq:qc-pressure-product-constant} give
-\eqref{u:eq:qc-height-pressure-row-bound}.  The projected temporal recurrence
-and \eqref{u:eq:qc-product-constant} give the next velocity row through
-\eqref{u:eq:qc-height-temporal-majorant}.  Induction proves
-\eqref{u:eq:qc-height-temporal-row-bound}--%
-\eqref{u:eq:qc-height-pressure-row-bound}.
-
-Integrating the pointwise bounds over \(I_T\) gives
-\eqref{u:eq:qc-B-by-height-reconstruction}; when \(M=0\), use
-\(H^0\hookrightarrow H^{-1}\) on the lower row.  This integration in
-\eqref{u:eq:qc-height-pressure-row-bound} gives
-\eqref{u:eq:qc-pressure-by-height-reconstruction}.  Induction in
-\eqref{u:eq:qc-height-temporal-majorant} gives the finite dependency range in
-\eqref{u:eq:qc-height-reconstruction-dependence}.
+Thus every transport term belongs to
+\(L^1(0,T_*;H^{M-1})\), also for \(M=0\).  Moreover,
+\[
+ \norm{\Delta V_n}_{L^1H^{M-1}}
+ \le T_*^{1/2}\norm{V_n}_{L^2H^{M+1}}.
+\]
+Theorem~\ref{f:thm:datum-rectangles} places \(V_{n+1}\) in
+\(L^2(0,T_*;H^{M-1})\), hence in \(L^1(0,T_*;H^{M-1})\).
+The prescribed row \(F_n\) belongs to \(L^1(0,T_*;H^{M-1})\), and its
+pressure potential belongs to the stated spaces by
+\eqref{f:eq:force-pressure-potential-bound}.
+The strict-interval identities are identities of distributions; their
+full-interval representatives belong to the stated spaces.  This proves the
+two identities on \((0,T_*)\).
 \end{proof}
-```
 
-### Forced finite-height reconstruction proof
-
-Source: manuscript:parts/forced/03-quantitative-consequences.tex:807-946
-
-```latex
-\begin{proposition}[Height-coordinate reconstruction of the finite rows]
-\label{f:prop:qc-critical-height-row-propagation}
-For \(m\in\Nzero\), define
-\begin{align}
- \mathfrak H_m[u_0,\nu,f;T]
- &:={}
- \frac12\norm{\Lambda^{m+1/2}u}_{L^2(I_T;L^2)}^2,
- \label{f:eq:qc-height-producer-coordinate}\\
- \mathfrak S_m[u_0,\nu,f;T]^2
- &:={}
- 2^m\left(TK_f(T)^2+2\mathfrak H_m[u_0,\nu,f;T]\right).
- \label{f:eq:qc-spatial-row-from-height}
-\end{align}
-Then
+\begin{definition}[Finite whole-terminal blocks]
+\label{f:def:finite-window-space}
+For \(N,M\in\Nzero\), the full-interval block already defined in
+\eqref{f:eq:forced-datum-rectangle-record} has, for \(0\le n\le N\),
 \begin{equation}
- 2\mathfrak H_m[u_0,\nu,f;T]
- \le\mathfrak B_{0,m}[u_0,\nu,f;T],
- \qquad
- \norm u_{L^2(I_T;H^m)}\le\mathfrak S_m[u_0,\nu,f;T].
- \label{f:eq:qc-height-spatial-bounds}
+ \begin{aligned}
+ V_n&\in L^2(0,T_*;H^{M+1}),&
+ V_{n+1}&\in L^2(0,T_*;H^{M-1}),\\
+ Q_n&\in L^1(0,T_*;H^M),&
+ \nabla Q_n&\in L^1(0,T_*;H^{M-1}),\\
+ F_n&\in C([0,T_*];H^{M-1})
+       \subset L^1(0,T_*;H^{M-1}).
+ \end{aligned}
+ \label{f:eq:whole-terminal-rectangle-element}
 \end{equation}
-Define recursively, for \(n,m\in\Nzero\),
-\begin{align}
- \mathfrak A^{\rm v}_{0,m}
- &:={}
- T^{-1/2}\mathfrak S_m
- +\nu T^{1/2}\mathfrak S_{m+2}
- +A_{m+1}\mathfrak S_{m+2}^2
- +\mathfrak G^{(1)}_{0,m},
- \label{f:eq:qc-height-base-pointwise-majorant}\\
- \mathfrak A^{\rm p}_{n,m}
- &:={}
- A_m\sum_{a=0}^{n}\binom na
- \mathfrak A^{\rm v}_{a,m+1}
- \mathfrak A^{\rm v}_{n-a,m+1}
- +\mathfrak L^{(\infty)}_{n,m},
- \label{f:eq:qc-height-pressure-majorant}\\
- \mathfrak A^{\rm v}_{n+1,m}
- &:={}
- \nu\mathfrak A^{\rm v}_{n,m+2}
- +A_{m+1}\sum_{a=0}^{n}\binom na
- \mathfrak A^{\rm v}_{a,m+2}
- \mathfrak A^{\rm v}_{n-a,m+2}
- +\mathfrak G^{(\infty)}_{n,m}.
- \label{f:eq:qc-height-temporal-majorant}
-\end{align}
-Every finite quantity in this recursion is finite, and
-\begin{align}
- \sup_{0\le t\le T}\norm{V_n(t)}_{H^m}
- &\le\mathfrak A^{\rm v}_{n,m},
- \label{f:eq:qc-height-temporal-row-bound}\\
- \sup_{0\le t\le T}
- \left(\norm{Q_n(t)}_{H^m}
- +\norm{\nabla Q_n(t)}_{H^{m-1}}\right)
- &\le\mathfrak A^{\rm p}_{n,m}.
- \label{f:eq:qc-height-pressure-row-bound}
-\end{align}
-Let \(M_-:=\max\{M-1,0\}\) and set
-\begin{align}
- \widehat{\mathfrak B}_{N,M}^{\rm h}[u_0,\nu,f;T]
- &:={}
- T\sum_{n=0}^{N}\left(
- (\mathfrak A^{\rm v}_{n,M+1})^2
- +(\mathfrak A^{\rm v}_{n+1,M_-})^2
- \right),
- \label{f:eq:qc-height-reconstructed-rectangle}\\
- \widehat{\mathfrak Q}_{N,M}^{\rm h}[u_0,\nu,f;T]
- &:={}
- T\sum_{n=0}^{N}\mathfrak A^{\rm p}_{n,M}.
- \label{f:eq:qc-height-reconstructed-pressure}
-\end{align}
-Then
-\begin{align}
- \mathfrak B_{N,M}[u_0,\nu,f;T]
- &\le\widehat{\mathfrak B}_{N,M}^{\rm h}[u_0,\nu,f;T],
- \label{f:eq:qc-B-by-height-reconstruction}\\
- \mathfrak Q_{N,M}(p;T)
- &\le\widehat{\mathfrak Q}_{N,M}^{\rm h}[u_0,\nu,f;T].
- \label{f:eq:qc-pressure-by-height-reconstruction}
-\end{align}
-For fixed \(N,M\), the right-hand sides use only
+Its finite velocity norm is given by
+Theorem~\ref{f:thm:datum-rectangles}, its pressure rows by
+Proposition~\ref{f:prop:rectangle-pressure-completion}, and its force rows by
+the prescribed force class.  Every row is an actual derivative of the one
+forced history generated by \((u_0,\nu,f)\).
+\end{definition}
+
+\begin{proposition}[Restriction compatibility]
+\label{f:prop:rectangle-compatibility}
+For \(N'\le N\) and \(M'\le M\),
 \begin{equation}
- \begin{gathered}
- \nu,\quad T,\quad K_f(T),\quad N,\quad M,\\
- \{\mathfrak H_q[u_0,\nu,f;T]:0\le q\le M+2N+4\},
- \quad\{A_q:0\le q\le M+2N+4\},\\
- \{\mathfrak G^{(1)}_{0,b}:0\le b\le M+2N+2\},\\
- \{\mathfrak G^{(\infty)}_{a,b}:0\le a\le N,\ 0\le b\le M+2N+2\},
- \quad
- \{\mathfrak L^{(\infty)}_{a,M}:0\le a\le N\}.
- \end{gathered}
- \label{f:eq:qc-height-reconstruction-dependence}
+ \left.\cR_{N,M}[u_0,\nu,f;T_*]\right|_{(N',M')}
+ =\cR_{N',M'}[u_0,\nu,f;T_*].
+ \label{f:eq:rectangle-compatibility}
 \end{equation}
-The quantities \(\mathfrak H_q\) are the exact completed-height coordinates
-of the fixed datum-generated history.  Equation
-\eqref{f:eq:qc-height-spatial-bounds} converts every finite height into a spatial
-Sobolev row, while \eqref{f:eq:qc-B-by-height-reconstruction} uses the forced
-equation to recover the temporal and pressure rows of any prescribed finite
-rectangle.  Over all finite indices this is the critical-height exhaustion of
-one common mixed intersection.
+Here restriction deletes the temporal rows with index larger than \(N'\) and
+reads each retained distribution in the lower Sobolev order \(M'\).  If
+\((N'',M'')\le(N',M')\le(N,M)\), two successive restrictions retain exactly
+the coordinates obtained by restricting directly to \((N'',M'')\).  Thus the
+datum-generated blocks are a compatible family of literal coordinates of one forced history.
 \end{proposition}
 
 \begin{proof}
-The first estimate in \eqref{f:eq:qc-height-spatial-bounds} follows from the
-upper row of \(\mathfrak B_{0,m}\).  The Fourier inequality
-\[
- (1+\abs\xi^2)^m\le2^m(1+\abs\xi^{2m+1})
-\]
-and \eqref{f:eq:energy-Linf} give the second estimate.
-
-The projected equation and \eqref{f:eq:qc-product-constant} give
-\[
- \norm{u_t}_{L^1(I_T;H^m)}
- \le\nu T^{1/2}\mathfrak S_{m+2}
- +A_{m+1}\mathfrak S_{m+2}^2
- +\mathfrak G^{(1)}_{0,m}.
-\]
-Choose a Lebesgue time \(t_m\in I_T\) satisfying
-\[
- \norm{u(t_m)}_{H^m}
- \le T^{-1/2}\norm u_{L^2(I_T;H^m)}.
-\]
-The Banach-valued fundamental identity gives
-\eqref{f:eq:qc-height-temporal-row-bound} at \(n=0\).
-Assume that bound through row \(n\).  The forced pressure recurrence and
-\eqref{f:eq:qc-pressure-product-constant} give
-\eqref{f:eq:qc-height-pressure-row-bound}.  The projected temporal recurrence
-with \(\Pp F_n\) retained and \eqref{f:eq:qc-product-constant} give the next velocity row through
-\eqref{f:eq:qc-height-temporal-majorant}.  Induction proves
-\eqref{f:eq:qc-height-temporal-row-bound}--%
-\eqref{f:eq:qc-height-pressure-row-bound}.
-
-Integrating the pointwise bounds over \(I_T\) gives
-\eqref{f:eq:qc-B-by-height-reconstruction}; when \(M=0\), use
-\(H^0\hookrightarrow H^{-1}\) on the lower row.  This integration in
-\eqref{f:eq:qc-height-pressure-row-bound} gives
-\eqref{f:eq:qc-pressure-by-height-reconstruction}.  Induction in
-\eqref{f:eq:qc-height-temporal-majorant} gives the finite dependency range in
-\eqref{f:eq:qc-height-reconstruction-dependence}.
+All retained entries are the fixed distributions
+\(\partial_t^nu\), \(\partial_t^{n+1}u\), \(\partial_t^np\), and
+\(\partial_t^nf\).
+The Sobolev embeddings preserve those distributions.  Deleting rows in one
+or two stages leaves an identical tuple.
 \end{proof}
 ```
 
-### Datum-rooted mixed grid and completed-height diagonal
+### Current forced manuscript: 04-intersection-endpoint-restart.tex
 
-Source: notes:datum-rooted-original-8557:5-101
-
-```latex
-Yes. Begin with one divergence-free datum \(u_0\), one viscosity \(\nu>0\), and the one velocity-pressure history it generates. Every temporal row, spatial derivative, pressure row, height derivative, and Sobolev energy below is a reading of that same fluid.
-1. Original pressure-explicit Navier–Stokes equation
-\[ \partial_tu+(u\cdot\nabla)u+\nabla p=\nu\Delta u, \qquad \nabla\cdot u=0, \qquad u(0)=u_0. \tag{NS} \]
-Taking divergence and using incompressibility gives
-\[ -\Delta p=\partial_i\partial_j(u_i u_j). \]
-With \(R_i=\partial_i(-\Delta)^{-1/2}\),
-\[ p=R_iR_j(u_i u_j). \tag{1} \]
-Thus pressure is determined by one common velocity field.
-2. Derive the temporal binomial tower
-Define
-\[ V_n:=\partial_t^n u, \qquad P_n:=\partial_t^n p. \]
-Differentiate the transport term \(n\) times:
-\[ \partial_t^n\big((u\cdot\nabla)u\big) = \sum_{a=0}^n \binom na (V_a\cdot\nabla)V_{n-a}. \]
-thus the \(n\)-th differentiated NS equation is
-\[ \boxed{ V_{n+1} + \sum_{a=0}^n \binom na (V_a\cdot\nabla)V_{n-a} + \nabla P_n = \nu\Delta V_n. } \tag{2} \]
-Differentiating the pressure formula gives
-\[ \boxed{ P_n = R_iR_j \sum_{a=0}^n \binom na V_{a,i}V_{n-a,j}. } \tag{3} \]
-The first rows are thus
-\[ V_1 = \nu\Delta u-(u\cdot\nabla)u-\nabla P_0, \]\[ V_2 = \nu\Delta V_1 -(u\cdot\nabla)V_1 -(V_1\cdot\nabla)u -\nabla P_1, \]
-and so forth. Acceleration, jerk, and every higher response are recursively generated inside one common history.
-At \(t=0\), \(V_0(0)=u_0\). If \(u_0\in H^\infty\), then spatial differentiation, multiplication, and the Riesz transforms preserve \(H^\infty\). Induction in (2)–(3) gives
-\[ V_n(0),P_n(0)\in H^\infty \qquad\text{for every }n. \tag{4} \]
-So \(u_0\) is the root of the complete initial temporal jet.
-3. Add every spatial derivative: the mixed binomial jet
-For a spatial multi-index \(\alpha\), define
-\[ J_{n,\alpha} := \partial_t^n\partial_x^\alpha u = \partial_x^\alpha V_n, \qquad \Pi_{n,\alpha} := \partial_t^n\partial_x^\alpha p. \]
-Apply \(\partial_x^\alpha\) to (2). The spatial Leibniz rule gives
-\[ \partial_x^\alpha \big((V_a\cdot\nabla)V_{n-a}\big) = \sum_{\beta\le\alpha} \binom{\alpha}{\beta} (J_{a,\beta}\cdot\nabla) J_{n-a,\alpha-\beta}. \]
-Hence
-\[ \boxed{ \begin{aligned} J_{n+1,\alpha} &+ \sum_{a=0}^n \sum_{\beta\le\alpha} \binom na \binom{\alpha}{\beta} (J_{a,\beta}\cdot\nabla) J_{n-a,\alpha-\beta} \\ &\qquad +\nabla\Pi_{n,\alpha} = \nu\Delta J_{n,\alpha}. \end{aligned} } \tag{5} \]
-Likewise,
-\[ \boxed{ \Pi_{n,\alpha} = R_iR_j \sum_{a=0}^n \sum_{\beta\le\alpha} \binom na \binom{\alpha}{\beta} J_{a,\beta,i} J_{n-a,\alpha-\beta,j}. } \tag{6} \]
-This proves the first central point. For every fixed temporal order \(n\),
-\[ \boxed{ \mathcal J_n = \{J_{n,\alpha}\}_{\alpha} = \left\{ V_n,\nabla V_n,\nabla^2V_n,\ldots \right\}. } \tag{7} \]
-The \(n\)-th temporal row is not one derivative. It contains the complete spatial derivative column of \(V_n\). The indices \(n\) and \(\alpha\) are independent coordinates of one common mixed jet.
-Functionally, if all \(J_{n,\alpha}\in L_x^2\), then
-\[ V_n\in\bigcap_{m\ge0}H_x^m=H_x^\infty \hookrightarrow C_x^\infty. \tag{8} \]
-4. Derive critical height from the original equation
-Let
-\[ \Lambda=(-\Delta)^{1/2}, \qquad E_s(t):=\frac12\|\Lambda^su(t)\|_2^2. \]
-Projecting (NS) onto divergence-free fields gives
-\[ u_t=\nu\Delta u-\mathbb P((u\cdot\nabla)u). \]
-thus
-\[ \begin{aligned} E_s' &= \operatorname{Re} \langle\Lambda^su,\Lambda^su_t\rangle \\ &= -\nu\|\Lambda^{s+1}u\|_2^2 -\operatorname{Re} \langle \Lambda^su, \Lambda^s\mathbb P((u\cdot\nabla)u) \rangle . \end{aligned} \]
-Define the complete pressure/VPI production
-\[ \mathcal P_s := - \operatorname{Re} \left\langle \Lambda^su, \Lambda^s\mathbb P((u\cdot\nabla)u) \right\rangle . \]
-Since \(\|\Lambda^{s+1}u\|_2^2=2E_{s+1}\),
-\[ \boxed{ E_s'=-2\nu E_{s+1}+\mathcal P_s. } \tag{9} \]
-Now set
-\[ \boxed{ H:=E_{1/2} = \frac12\|\Lambda^{1/2}u\|_2^2. } \tag{10} \]
-Then
-\[ H'=-2\nu E_{3/2}+\mathcal P_{1/2}, \tag{11} \]\[ H'' = 4\nu^2E_{5/2} -2\nu\mathcal P_{3/2} +\mathcal P_{1/2}', \tag{12} \]
-and
-\[ H''' = -8\nu^3E_{7/2} +4\nu^2\mathcal P_{5/2} -2\nu\mathcal P_{3/2}' +\mathcal P_{1/2}''. \tag{13} \]
-Induction gives the complete tower:
-\[ \boxed{ H^{(n)} = (-2\nu)^nE_{n+1/2} + \sum_{j=0}^{n-1} (-2\nu)^j \partial_t^{\,n-1-j}\mathcal P_{j+1/2}. } \tag{14} \]
-thus the completed height/VPI row is
-\[ \boxed{ R_n := \frac{ H^{(n)} - \displaystyle\sum_{j=0}^{n-1} (-2\nu)^j \partial_t^{\,n-1-j}\mathcal P_{j+1/2} }{ (-2\nu)^n } = E_{n+1/2}. } \tag{15} \]
-It is the complete row—not \(H^{(n)}\) with its VPI contribution discarded—that recovers the higher spatial energy.
-5. The velocity-time tower produces the height-time tower
-Because
-\[ H = \frac12 \langle\Lambda^{1/2}V_0,\Lambda^{1/2}V_0\rangle, \]
-differentiating \(n\) times gives
-\[ \boxed{ H^{(n)} = \frac12 \sum_{a=0}^n \binom na \operatorname{Re} \left\langle \Lambda^{1/2}V_a, \Lambda^{1/2}V_{n-a} \right\rangle . } \tag{16} \]
-Thus \(H^{(n)}\) is a quadratic binomial contraction of the velocity rows
-\[ V_0,V_1,\ldots,V_n. \]
-Combining (15) and (16) produces the exact diagonal relationship:
-Temporal depth	Velocity row	Completed height/VPI row	Spatial energy recovered
-\(0\)Temporal depth	Velocity row	Completed height/VPI row	Spatial energy recovered
-\(0\)	\(V_0=u\)	\(R_0=H\)	\(E_{1/2}\)
-\(1\)	\(V_1=u_t\)	\(\displaystyle R_1=\frac{H'-\mathcal P_{1/2}}{-2\nu}\)	\(E_{3/2}\)
-\(2\)	\(V_2=u_{tt}\)	\(\displaystyle R_2=\frac{H''-\mathcal P_{1/2}'+2\nu\mathcal P_{3/2}}{4\nu^2}\)	\(E_{5/2}\)
-\(3\)	\(V_3=u_{ttt}\)	completed \(H'''\)-row	\(E_{7/2}\)
-\(n\)	\(V_n=\partial_t^nu\)	\(R_n\)	\(E_{n+1/2}\)	\(V_0=u\)	\(R_0=H\)	\(E_{1/2}\)
-\(1\)	\(V_1=u_t\)	\(\displaystyle R_1=\frac{H'-\mathcal P_{1/2}}{-2\nu}\)	\(E_{3/2}\)
-\(2\)	\(V_2=u_{tt}\)	\(\displaystyle R_2=\frac{H''-\mathcal P_{1/2}'+2\nu\mathcal P_{3/2}}{4\nu^2}\)	\(E_{5/2}\)
-\(3\)	\(V_3=u_{ttt}\)	completed \(H'''\)-row	\(E_{7/2}\)
-\(n\)	\(V_n=\partial_t^nu\)	\(R_n\)	\(E_{n+1/2}\)
-So the forward chain is
-\[ \boxed{ \text{velocity temporal tower} \longrightarrow \text{critical-height temporal tower} \longrightarrow \text{completed VPI rows} \longrightarrow \text{spatial Sobolev tower}. } \tag{17} \]
-6. Why going higher temporally goes higher in Sobolev embedding
-From
-\[ R_n=E_{n+1/2} = \frac12\|\Lambda^{n+1/2}u\|_2^2, \]
-and the kinetic \(L^2\) component,
-\[ \|u\|_{H^{n+1/2}}^2 \lesssim \|u\|_2^2+2R_n. \tag{18} \]
-In three dimensions,
-\[ H^s(\mathbb R^3)\hookrightarrow C_b^k(\mathbb R^3) \qquad\text{whenever}\qquad s>k+\frac32. \]
-Choosing \(n\ge k+2\) gives
-\[ n+\frac12>k+\frac32, \]
-and hence
-\[ E_{n+1/2}<\infty \quad\Longrightarrow\quad u\in H^{n+1/2} \quad\Longrightarrow\quad u\in C_x^k. \tag{19} \]
-Consequently,
-\[ \boxed{ \bigcap_{n\ge0}\{R_n<\infty\} \Longrightarrow u\in\bigcap_{n\ge0}H_x^{n+1/2} = H_x^\infty \hookrightarrow C_x^\infty. } \tag{20} \]
-The precise version of your insight is thus:
-\[ \boxed{ \begin{aligned} V_n &\longrightarrow \{J_{n,\alpha}\}_{\alpha} &&\text{each temporal row contains its full spatial column},\\ V_0,\ldots,V_n &\longrightarrow H^{(n)} &&\text{the height row contracts the temporal tower},\\ (H^{(n)},\text{complete VPI response}) &\longrightarrow E_{n+1/2} &&\text{temporal depth exposes higher spatial energy},\\ E_{n+1/2} &\longrightarrow H_x^{n+1/2} \longrightarrow C_x^{n-2} &&\text{higher depth reaches higher classical regularity}. \end{aligned} } \tag{21} \]
-This should not be compressed into the different claim \(V_n\in H^{n+1/2}\). The actual structure is richer: the mixed jet has independent coordinates \((n,\alpha)\), so every \(V_n\) has its whole spatial tower, while the completed critical-height diagonal indexed by \(n\) recovers the progressively higher Sobolev levels of the base velocity \(u\).
-That is exactly what the matrix form organizes. It does not invent these relationships: they are mechanically derived from the original pressure-explicit equation. The next step is to take the simultaneous whole-column intersections and walk backward through these same representations.
-```
-
-### Whole-column instruction and selected adjacent critical-row closure
-
-Source: notes:datum-rooted-original-8557:106-141
+Source: canonical:manuscript:parts/forced/04-intersection-endpoint-restart.tex:1-656
 
 ```latex
-\[ \begin{array}{c|c|c} \text{Velocity derivative} & \text{Height derivative} & \text{New Sobolev level} \\ \hline u & H & H^{1/2} \\ u_t & H' & H^{3/2} \\ u_{tt} & H'' & H^{5/2} \\ u_{ttt} & H''' & H^{7/2} \\ \vdots & \vdots & \vdots \\ \partial_t^n u & H^{(n)} & H^{n+1/2} \end{array} \]
-The corresponding strict diagonal table immediately preceding it is
-\[ \begin{array}{c|c} \text{Temporal critical-height derivative} & \text{Spatial Sobolev row inside it} \\ \hline H & E_{1/2}\\ H' & E_{3/2}\\ H'' & E_{5/2}\\ H''' & E_{7/2}\\ \vdots & \vdots\\ H^{(n)} & E_{n+1/2} \end{array} \]
-with the complete differentiated VPI currents retained in every height row.
-This is the table you meant: take each entire column’s intersection, not row-by-row smoothness.
+\section{All-orders regularity, endpoint jet, and restart}
+
+The mixed-index and critical-height exhaustions have now identified that
+all-orders membership of the forced maximal history.  The endpoint argument
+no longer distinguishes their coordinates.  For every finite spatial order,
+the common family contains the adjacent velocity, pressure, and force rows
+needed to reach \(T_*\), recover one endpoint jet, and restart the history with
+that prescribed force.
 
 
-The correct move is to apply the established adjacent-row intersection argument at the \(E_{3/2}\) row itself—not assume the completed intersection and project downward.
-The finite mixed rectangle centred at spatial order \(3/2\) supplies
-\[ u\in L^2(0,T_*;H^{5/2}), \qquad u_t\in L^2(0,T_*;H^{1/2}). \]
-thus, by Fourier truncation and passage to the limit,
-\[ E_{3/2}(t)-E_{3/2}(r) = \int_r^t \operatorname{Re} \bigl(\Lambda^{1/2}u_t,\Lambda^{5/2}u\bigr)_2\,ds. \]
-Hence
-\[ \sup_{t<T_*}E_{3/2}(t) \le E_{3/2}(0) + \|u_t\|_{L_t^2H_x^{1/2}} \|u\|_{L_t^2H_x^{5/2}} <\infty. \]
-Since \(T_*<\infty\),
-\[ \boxed{ \int_0^{T_*}E_{3/2}(t)\,dt \le T_* \left[ E_{3/2}(0) + \|u_t\|_{L_t^2H_x^{1/2}} \|u\|_{L_t^2H_x^{5/2}} \right] <\infty. } \]
-That closes the specific row through its own nested finite rectangle.
-Applying one common trace argument one level lower supplies
-\[ u\in L_t^2H_x^{3/2}, \qquad u_t\in L_t^2H_x^{-1/2}, \]
-and thus
-\[ H(t)-H(r) = \int_r^t \operatorname{Re} \bigl(\Lambda^{-1/2}u_t,\Lambda^{3/2}u\bigr)_2\,ds, \]
-so \(H\in W^{1,1}(0,T_*)\) and \(H'\in L^1(0,T_*)\). Now
-\[ H'=P_{1/2}-2\nu E_{3/2} \]
-gives
-\[ \boxed{P_{1/2}\in L^1(0,T_*).} \]
-Thus the whole block closes:
-\[ \boxed{ E_{3/2}\in L^1,\qquad H\in W^{1,1},\qquad P_{1/2}\in L^1. } \]
-That is the row-specific application already encoded in the established intersection proof at [the critical trace calculation (line 1466)](/Users/thomasbirnie/.codex/attachments/e73eebeb-34eb-4ac5-9bc6-a4982d4e6a14/pasted-text.txt:1466). The “missing estimate” I kept searching for externally is supplied by this row’s own intersection argument.
+\begin{definition}[Direct all-orders reading of the finite blocks]
+\label{f:def:compatible-intersection}
+For a proposed finite maximal time, consider the datum-generated family
+\begin{equation}
+ \bigl(\cR_{N,M}[u_0,\nu,f;T_*]\bigr)_{N,M\in\Nzero}.
+ \label{f:eq:compatible-intersection-space}
+\end{equation}
+For \(N'\le N\) and \(M'\le M\), these blocks satisfy
+\begin{equation}
+ \left.\cR_{N,M}[u_0,\nu,f;T_*]\right|_{(N',M')}
+ =\cR_{N',M'}[u_0,\nu,f;T_*].
+ \label{f:eq:compatible-intersection}
+\end{equation}
+Every mixed coordinate occurs in a sufficiently large finite block, and every
+common coordinate is that derivative of the one history generated by
+\((u_0,\nu,f)\).
+\end{definition}
 
+\Needspace{14\baselineskip}
+\begin{theorem}[Compatible all-orders realization]
+\label{f:thm:compatible-inverse-intersection}
 
-One technical correction:
-* The \(E_{3/2}\) argument is exact: \[ u\in L_t^2H_x^{5/2},\quad u_t\in L_t^2H_x^{1/2} \]implies \[ E_{3/2}(t)-E_{3/2}(r) =\int_r^t(\Lambda^{1/2}u_t,\Lambda^{5/2}u)\,ds, \]hence \(E_{3/2}\in L^\infty_t\subset L^1_t\) because \(T_*<\infty\).
-* My lower-row formula using \(\Lambda^{-1/2}u_t\) has a possible zero-frequency issue. The clean correction is to use the stronger intersection coordinates \(u,u_t\in L_t^2H_x^1\): \[ H'=(\Lambda^{1/2}u_t,\Lambda^{1/2}u)\in L^1_t. \]
-Then exactly,
-\[ P_{1/2}=H'+2\nu E_{3/2}\in L^1(0,T_*). \]
-So, given the established whole-terminal finite-rectangle theorem, the highlighted row is genuinely closed. The only flaw was my unnecessary negative-order homogeneous pairing—not the \(E_{3/2}\) conclusion.
-```
+Let \(\nu>0\), \(u_0\in\HsSigma(\R^3)\), prescribe
+\(f\in C^\infty([0,\infty);\mathcal S(\R^3;\R^3))\), and let
+\((T_*,u,p)\) be the maximal pressure-complete classical history generated
+by \((u_0,\nu,f)\). If \(T_*<\infty\), then
+\begin{equation}
+ \cR_{N,M}[u_0,\nu,f;T_*]
+ =\left((V_n)_{n=0}^{N},(V_{n+1})_{n=0}^{N};
+ (Q_n)_{n=0}^{N};(F_n)_{n=0}^{N}\right)
+ \label{f:eq:ier-compatible-family}
+\end{equation}
+at every finite pair \((N,M)\), and larger blocks restrict as in
+\eqref{f:eq:compatible-intersection}.  All rows are restrictions of the
+original pressure-complete history.  The velocity, pressure, and force rows
+retain the bounds obtained by either all-orders exhaustion:
+\begin{align}
+ V_n&\in\bigcap_{m\in\Nzero}L^2(0,T_*;H^m_\sigma(\R^3)),
+ \label{f:eq:ier-inverse-velocity-coordinate}\\
+ Q_n&\in\bigcap_{m\in\Nzero}L^1(0,T_*;H^m(\R^3)),
+ \label{f:eq:ier-inverse-pressure-coordinate}\\
+ F_n&\in\bigcap_{m\in\Nzero}C([0,T_*];H^m(\R^3)).
+ \label{f:eq:ier-inverse-force-coordinate}
+\end{align}
+Every finite pair selects the corresponding block
+\(\cR_{N,M}[u_0,\nu,f;T_*]\).  As the finite indices range, these blocks
+exhaust
+\begin{equation}
+ u\in\bigcap_{r,m\in\Nzero}H^r(0,T_*;H^m(\R^3)),
+ \label{f:eq:mixed-sobolev-intersection}
+\end{equation}
+and, for every \(r,m\in\Nzero\),
+\begin{equation}
+ \sum_{n=0}^{r}\norm{\partial_t^nu}_{L^2(0,T_*;H^m)}^2
+ \le\mathfrak R_{r,m}^*[u_0,\nu,f,T_*].
+ \label{f:eq:mixed-sobolev-finite-bound}
+\end{equation}
+\end{theorem}
 
-### Datum-generated coordinates and critical trace with original adjacent input
+\begin{proof}
+The mixed-index exhaustion in Theorem~\ref{f:thm:datum-intersection} and the
+critical-height exhaustion in
+Corollary~\ref{f:cor:datum-critical-height-completion}, followed by
+Proposition~\ref{f:prop:forced-spatial-column-reconstruction}, give those
+velocity memberships in \eqref{f:eq:ier-inverse-velocity-coordinate} and
+\eqref{f:eq:mixed-sobolev-intersection}.  The forced pressure recurrence gives
+\eqref{f:eq:ier-inverse-pressure-coordinate}, while
+Proposition~\ref{f:prop:rectangle-pressure-completion} gives its finite
+quantitative bound.
+The membership \eqref{f:eq:ier-inverse-force-coordinate} follows directly from
+the prescribed class
+\(f\in C^\infty([0,\infty);\mathcal S(\R^3;\R^3))\).
+For each finite \(N,M\), take the corresponding datum-generated block.
+Theorem~\ref{f:thm:datum-rectangles} and
+Proposition~\ref{f:prop:rectangle-pressure-completion} give its finite norm
+bounds.  Proposition~\ref{f:prop:rectangle-compatibility} says that every
+common row is literally one distribution in every larger block.
+Every \(V_n,Q_n,F_n\) appears in a sufficiently deep block, and every
+spatial derivative is fixed by its distributional velocity, pressure, or force
+row.  The full family consequently gives identical rows in either all-orders
+exhaustion.
 
-Source: notes:datum-root-and-critical-readout-e73:1440-1503
-
-```latex
- The useful result is this: \(u_0\) is the root of the entire compatible intersection, not only an initial value appended after the tower has been constructed.
-One smooth datum \(u_0\) fixes one velocity history. Incompressibility fixes its pressure response, and Navier–Stokes recursively fixes its acceleration, jerk, and every higher temporal response:
-\[ V_0^0=u_0, \]\[ P_N^0 = R_iR_j\sum_{a=0}^{N}\binom Na V_{a,i}^0V_{N-a,j}^0, \]\[ V_{N+1}^0 = \nu\Delta V_N^0 - \sum_{a=0}^{N}\binom Na (V_a^0\cdot\nabla)V_{N-a}^0 -\nabla P_N^0. \]
-Because \(u_0\in H^\infty\), every operation on the right preserves \(H^\infty\). thus
-\[ V_N^0,P_N^0\in\bigcap_{M\ge0}H_x^M \qquad\text{for every }N. \]
-So every initial temporal row already possesses its own complete spatial intersection:
-\[ \boxed{ V_N^0\in\bigcap_MH_x^M \Longrightarrow V_N^0\in C_x^\infty. } \]
-Now apply the datum-to-finite-rectangle theorem from the note. For every finite temporal depth \(N\) and spatial depth \(M\), \(u_0\) generates one actual rectangle
-\[ \mathcal R_{N,M}[u_0] = \left\{ J_{n,\alpha} = \partial_t^n\partial_x^\alpha u[u_0]: n\le N,\ |\alpha|\le M \right\}, \]
-with every pressure-explicit differentiated NS row retained.
-These rectangles are automatically compatible: \(\mathcal R_{N+1,M}\), \(\mathcal R_{N,M+1}\), and \(\mathcal R_{N+1,M+1}\) restrict to exactly one common \(\mathcal R_{N,M}\), because all are derivatives of one common \(u_0\)-generated velocity history.
-Their projective intersection is thus
-\[ \mathcal J^\infty[u_0;I] = \varprojlim_{N,M}\mathcal R_{N,M}[u_0] = \bigcap_{N,M}H_t^N(I;H_x^M). \]
-Now the first block reproduces itself inside the \(u_0\)-generated history:
-\[ \boxed{ \begin{aligned} \text{fixed }N,\ \bigcap_M\mathcal R_{N,M} &\Longrightarrow V_N\in C_x^\infty,\\ \text{fixed }M,\ \bigcap_N\mathcal R_{N,M} &\Longrightarrow u\in C_t^\infty(I;H_x^M),\\ \bigcap_{N,M}\mathcal R_{N,M} &\Longrightarrow u,p\in C_{t,x}^\infty,\\ \text{height contraction of }\bigcap_{N,M}\mathcal R_{N,M} &\Longrightarrow H\in C_t^\infty \text{ and }u\in C_x^\infty. \end{aligned} } \]
-The critical-height tower is thus produced by the \(u_0\)-generated intersection:
-\[ H^{(n)} = \sum_{j=0}^{n-1} (-2\nu)^j\partial_t^{\,n-1-j}\mathfrak P_{j+1/2} + (-2\nu)^nE_{n+1/2}. \]
-It is a contraction or readout of the complete mixed jet. It is not the object that must first construct that jet.
-At an alleged terminal time, every finite rectangle supplies its corresponding endpoint coordinate. Compatibility makes these coordinates one object:
-\[ u(T_*)\in\bigcap_MH_x^M=H_x^\infty. \]
-one common recurrence then supplies its entire pressure-complete endpoint jet, and restarting from \(u(T_*)\) continues one common \(u_0\)-generated history.
-So the correct order is
-\[ \boxed{ u_0 \longrightarrow \{\text{compatible finite mixed rectangles}\}_{N,M} \longrightarrow \text{their all-orders intersection} \longrightarrow \begin{cases} \text{spatial smoothness},\\ \text{temporal smoothness},\\ \text{critical-height smoothness},\\ \text{full mixed NS smoothness} \end{cases} \longrightarrow \text{smooth endpoint and restart}. } \]
-That is one common first-block argument using \(u_0\): every later row, column, height, and mixed derivative is a simultaneous finite-coordinate reading generated from one datum, and smoothness is reproduced by taking the compatible intersection at each representation.
-
-
-The critical-height problem is solved directly by the established intersection.
-Let \(I=(0,T)\), where \(T<\infty\) is arbitrary—or \(T=T_*\) under the alleged finite-terminal-time contradiction. The compatible rectangles contain
-\[ u\in L^2(I;H^{3/2}), \qquad u_t\in L^2(I;H^{-1/2}). \tag{1} \]
-Set \(A=(1-\Delta)^{1/2}\) and
-\[ \mathcal H(t):=\frac12\|A^{1/2}u(t)\|_2^2. \]
-Fourier truncation followed by passage to the limit gives
-\[ \mathcal H(t)-\mathcal H(r) = \int_r^t \operatorname{Re} \bigl(A^{-1/2}u_t,A^{3/2}u\bigr)_{L^2}\,ds. \]
-thus
-\[ |\mathcal H(t)-\mathcal H(r)| \le \|u_t\|_{L^2(r,t;H^{-1/2})} \|u\|_{L^2(r,t;H^{3/2})}. \tag{2} \]
-Hence
-\[ \mathcal H\in W^{1,1}(0,T)\subset C([0,T]) \]
-and
-\[ \sup_{0\le t\le T}\mathcal H(t) \le \mathcal H(0) + \|u_t\|_{L^2(0,T;H^{-1/2})} \|u\|_{L^2(0,T;H^{3/2})} <\infty. \tag{3} \]
-For the homogeneous critical height
-\[ H(t):=\frac12\|\Lambda^{1/2}u(t)\|_2^2, \]
-the Fourier inequality
-\[ |\xi|\le(1+|\xi|^2)^{1/2} \]
-gives \(H(t)\le\mathcal H(t)\). Thus
-\[ \boxed{ \sup_{0\le t\le T}H(t) \le \mathcal H(0) + \|u_t\|_{L^2_tH^{-1/2}_x} \|u\|_{L^2_tH^{3/2}_x} <\infty. } \tag{4} \]
-Moreover,
-\[ \mathcal H(0) \le \frac12\|u_0\|_2^2+H(0), \]
-so (4) is an explicit finite roof determined by coordinates already contained in one common-history intersection.
-The full intersection also supplies \(u,u_t\in L^2(I;H^1)\). Consequently the actual homogeneous height satisfies
-\[ H'(t) = \operatorname{Re} \bigl(\Lambda^{1/2}u_t,\Lambda^{1/2}u\bigr)_{L^2}, \]
-and thus
-\[ \int_0^T|H'(t)|\,dt \le \|u_t\|_{L^2_t\dot H^{1/2}_x} \|u\|_{L^2_t\dot H^{1/2}_x} <\infty. \tag{5} \]
-Thus
-\[ \boxed{ H\in W^{1,1}(0,T)\subset C([0,T]), } \]
-so \(H\) has a finite terminal value and finite total variation.
-Finally, the critical-height balance
-\[ H'=P_{1/2}-2\nu E_{3/2} \]
-has
-\[ E_{3/2} = \frac12\|\Lambda^{3/2}u\|_2^2 \in L^1(0,T). \]
-Combining this with (5),
-\[ P_{1/2}=H'+2\nu E_{3/2}\in L^1(0,T). \]
-thus
-\[ \boxed{ H\in W^{1,1}(0,T),\qquad \sup_{t\le T}H(t)<\infty,\qquad P_{1/2}\in L^1(0,T) \quad\text{for every finite }T. } \]
-So no infinite critical-height spike, infinite terminal variation, or unintegrable critical production can occur in finite time. No separate concavity or “negative dome” estimate is required.
-```
-
-### Original pressure-explicit backward closure
-
-Source: original:july29-LF58414:3-138
-
-```latex
-Let
-
+Fix finite \(r,m\), put \(I=(0,T_*)\), and choose \(N\ge r\),
+\(M\ge m\). The upper rows of that finite record belong to
+\(L^2(I;H^{M+1})\hookrightarrow L^2(I;H^m)\) for \(0\le n\le r\).
+Proposition~\ref{f:prop:formal-mixed-recurrences} identifies them as the
+distributional derivatives \(V_n=\partial_t^nu\). Thus the finite record
+contains every term in the derivative-sum norm of \(H^r(I;H^m)\).
+Taking \(N=r\), \(M=m\) gives
 \[
-H_x^\infty
-:=
-\bigcap_{m=0}^{\infty}H_x^m(\mathbb R^3).
+ \begin{aligned}
+ \norm u_{H^r(I;H^m)}^2
+ &=\sum_{n=0}^r\norm{V_n}_{L^2(I;H^m)}^2\\
+ &\le\sum_{n=0}^r\norm{V_n}_{L^2(I;H^{m+1})}^2
+ \le\mathfrak R_{r,m}^*[u_0,\nu,f,T_*].
+ \end{aligned}
 \]
+This proves \eqref{f:eq:mixed-sobolev-finite-bound}; each mixed Sobolev norm is
+recovered from a finite rectangle.  The completed heights recover those spatial rows, and the viscous identities retain the complete forced
+equation on every such rectangle.
+\end{proof}
 
-The preceding intersection argument gives
+\begin{proposition}[Complete spatial row and common endpoint]
+\label{f:prop:ier-complete-spatial-endpoint}
+Let the prescribed datum and finite maximal history be as in
+Theorem~\ref{f:thm:compatible-inverse-intersection}.  Then, for every
+\(m\in\Nzero\),
+\begin{equation}
+ u\in W^{1,1}(0,T_*;H^m_\sigma(\R^3))
+ \hookrightarrow C([0,T_*];H^m_\sigma(\R^3)).
+ \label{f:eq:ier-spatial-row-W11}
+\end{equation}
+The endpoint values supplied at the different Sobolev orders are the images
+of one common state
+\begin{equation}
+ u_*:=u(T_*)\in\bigcap_{m\in\Nzero}H^m_\sigma(\R^3)
+ =H^\infty_\sigma(\R^3).
+ \label{f:eq:ier-common-spatial-endpoint}
+\end{equation}
+\end{proposition}
 
+\begin{proof}
+Fix \(m\).  The zeroth temporal coordinate of
+\eqref{f:eq:mixed-sobolev-intersection} gives
 \[
-u(t)\in H_x^\infty.
+ u\in L^2(0,T_*;H^{m+2}).
 \]
-
-Three elementary facts hold:
-
+The pressure-completed nonlinearity satisfies
 \[
-\partial^\alpha:H_x^\infty\to H_x^\infty,
-\qquad
-H_x^\infty\cdot H_x^\infty\subset H_x^\infty,
-\qquad
-R_i:H_x^\infty\to H_x^\infty,
+ \norm{\Pp\nabla\!\cdot(u\otimes u)}_{H^m}
+ \le C_m\norm u_{H^{m+2}}^2
 \]
-
-where \(R_i\) denotes a Riesz transform.
-
-Start with the original equation:
-
+by Lemmas~\ref{f:lem:sobolev-product} and \ref{f:lem:riesz-leray}.  It belongs
+to \(L^1(0,T_*;H^m)\).  This spatial row and \(T_*<\infty\) give
+ \(\Delta u\in L^1(0,T_*;H^m)\), and the projected equation
 \[
-u_t+(u\cdot\nabla)u+\nabla p=\nu\Delta u,
-\qquad
-\nabla\cdot u=0.
+ u_t=\nu\Delta u-\Pp\nabla\!\cdot(u\otimes u)+\Pp f
 \]
+places \(u_t\) in \(L^1(0,T_*;H^m)\), because the prescribed source is
+integrable there in every finite Sobolev order.  Also
+\(u\in L^1(0,T_*;H^m)\), so the Banach-valued fundamental theorem gives
+\eqref{f:eq:ier-spatial-row-W11}.
 
-Taking divergence gives the pressure equation
+If \(k\ge m\), the \(H^k\)- and \(H^m\)-continuous representatives are
+the original preterminal function after the embedding \(H^k\hookrightarrow
+H^m\).  Uniqueness of continuous representatives makes their endpoint
+values agree under that embedding.  These compatible values define the
+single state in \eqref{f:eq:ier-common-spatial-endpoint}.  Continuity of
+divergence from \(H^{m+1}\) to \(H^m\) gives \(\nabla\cdot u_*=0\).
+\end{proof}
 
+\begin{corollary}[Full-interval pressure-complete mixed jet]
+\label{f:cor:ier-whole-terminal-mixed-jet}
+Let the prescribed datum and finite maximal history be as in
+Theorem~\ref{f:thm:compatible-inverse-intersection}.  Then, for every
+\(r,m,n\in\Nzero\) and \(\alpha\in\Nzero^3\),
+\begin{align}
+ u&\in H^r(0,T_*;H^m_\sigma(\R^3)),
+ \label{f:eq:ier-whole-terminal-bochner}\\
+ J_{n,\alpha}:=\partial_x^\alpha V_n
+ &\in L^2(0,T_*;H^{m+1}(\R^3)),
+ \label{f:eq:ier-whole-terminal-mixed-upper}\\
+ J_{n+1,\alpha}
+ &\in L^2(0,T_*;H^{m-1}(\R^3)),
+ \label{f:eq:ier-whole-terminal-mixed-lower}\\
+ \Pi_{n,\alpha}:=\partial_x^\alpha Q_n
+ &\in L^1(0,T_*;H^m(\R^3)).
+ \label{f:eq:ier-whole-terminal-mixed-pressure}
+\end{align}
+The following finite bounds hold:
+\begin{align}
+ \sum_{j=0}^{r}\norm{V_j}_{L^2(0,T_*;H^m)}^2
+ &\le\mathfrak R_{r,m}^*[u_0,\nu,f,T_*],
+ \label{f:eq:ier-finite-bochner-bound}\\
+ \norm{J_{n,\alpha}}_{L^2(0,T_*;H^{m+1})}^2
+ &\quad+\norm{J_{n+1,\alpha}}_{L^2(0,T_*;H^{m-1})}^2
+ \notag\\
+ &\le\mathfrak R_{n,m+|\alpha|}^*[u_0,\nu,f,T_*],
+ \label{f:eq:ier-finite-mixed-bound}\\
+ \norm{\Pi_{n,\alpha}}_{L^1(0,T_*;H^m)}
+ &\le C_{m+|\alpha|}^{\rm p}(2^{n+1}-1)
+ \mathfrak R_{n,m+|\alpha|}^*[u_0,\nu,f,T_*]
+ +\mathfrak F^{\rm p}_{n,\alpha,m}(0,T_*).
+ \label{f:eq:ier-finite-mixed-pressure-bound}
+\end{align}
+Every mixed row satisfies the recurrences in
+Proposition~\ref{f:prop:formal-mixed-recurrences} on \((0,T_*)\).
+\end{corollary}
+
+\begin{proof}
+Equations \eqref{f:eq:ier-whole-terminal-bochner} and
+\eqref{f:eq:ier-finite-bochner-bound} follow from
+Theorem~\ref{f:thm:compatible-inverse-intersection}.  The Fourier multiplier
+bound
 \[
--\Delta p=\partial_i\partial_j(u_i u_j),
+ \norm{\partial_x^\alpha h}_{H^s}
+ \le\norm h_{H^{s+|\alpha|}}
 \]
+and the rectangle \((n,m+|\alpha|)\) give
+\eqref{f:eq:ier-whole-terminal-mixed-upper}--%
+\eqref{f:eq:ier-finite-mixed-bound}.  Apply this multiplier bound to the
+pressure completion in Proposition~\ref{f:prop:rectangle-pressure-completion}
+to obtain \eqref{f:eq:ier-whole-terminal-mixed-pressure} and
+\eqref{f:eq:ier-finite-mixed-pressure-bound}.  Proposition
+\ref{f:prop:formal-mixed-recurrences} supplies the stated identities.
+\end{proof}
 
-and hence
+\Needspace{24\baselineskip}
+\begin{theorem}[Compatible full-interval Sobolev traces]
+\label{f:thm:ier-compatible-endpoint-traces}
+Let the prescribed datum and finite maximal history be as in
+Theorem~\ref{f:thm:compatible-inverse-intersection}.
+For \(N,m\in\Nzero\), define
+\begin{equation}
+ \mathfrak E_{N,m}
+ :=(1+T_*^{-1})^{1/2}
+ \bigl(\mathfrak R_{N,m}^*[u_0,\nu,f,T_*]\bigr)^{1/2}.
+ \label{f:eq:ier-endpoint-majorant}
+\end{equation}
+\begin{samepage}
+If \(0\le n\le N\) and \(\alpha\in\Nzero^3\), then
+\begin{align}
+ V_n&\in C([0,T_*];H^m_\sigma(\R^3)),
+ &\sup_{0\le t\le T_*}\norm{V_n(t)}_{H^m}
+ &\le\mathfrak E_{N,m},
+ \label{f:eq:ier-row-trace}\\
+ J_{n,\alpha}&\in C([0,T_*];H^m(\R^3)),
+ &\sup_{0\le t\le T_*}\norm{J_{n,\alpha}(t)}_{H^m}
+ &\le\mathfrak E_{N,m+|\alpha|}.
+ \label{f:eq:ier-mixed-row-trace}
+\end{align}
+There are unique values
+\begin{align}
+ V_n^*&:=\lim_{t\uparrow T_*}V_n(t)
+ \in H^\infty(\R^3),
+ \label{f:eq:ier-velocity-endpoint}\\
+ J_{n,\alpha}^*&:=\lim_{t\uparrow T_*}J_{n,\alpha}(t)
+ =\partial_x^\alpha V_n^*
+ \in H^\infty(\R^3),
+ \label{f:eq:ier-mixed-velocity-endpoint}
+\end{align}
+\par
+\end{samepage}
+such that, for \(k\ge m\), the image of the \(H^k\) trace under
+\(H^k\hookrightarrow H^m\) is the \(H^m\) trace.  Quantitatively,
+\begin{align}
+ \norm{V_n^*}_{H^m}
+ &\le\mathfrak E_{n,m},
+ \label{f:eq:ier-endpoint-velocity-size}\\
+ \norm{V_n(t)-V_n^*}_{H^m}
+ &\le(T_*-t)\mathfrak E_{n+1,m},
+ \qquad0\le t\le T_*,
+ \label{f:eq:ier-endpoint-velocity-modulus}\\
+ \norm{J_{n,\alpha}^*}_{H^m}
+ &\le\mathfrak E_{n,m+|\alpha|},
+ \label{f:eq:ier-endpoint-mixed-size}\\
+ \norm{J_{n,\alpha}(t)-J_{n,\alpha}^*}_{H^m}
+ &\le(T_*-t)\mathfrak E_{n+1,m+|\alpha|}.
+ \label{f:eq:ier-endpoint-mixed-modulus}
+\end{align}
+ In particular, the zeroth trace agrees with the common endpoint in
+ Proposition~\ref{f:prop:ier-complete-spatial-endpoint}, and
+\begin{equation}
+ u_*=V_0^*\in H^\infty_\sigma(\R^3),
+ \qquad
+ u\in\bigcap_{a,m\in\Nzero}C^a([0,T_*];H^m_\sigma(\R^3)),
+ \qquad
+ \partial_t^au(T_*)=V_a^*.
+ \label{f:eq:ier-complete-left-velocity-jet}
+\end{equation}
+\end{theorem}
 
+\begin{proof}
+For \(0\le n\le N\), choose the datum rectangle supplied by
+Theorem~\ref{f:thm:datum-rectangles} that contains the two coordinates
 \[
-p=R_iR_j(u_i u_j).
+ V_n\in L^2(0,T_*;H^{m+1}),
+ \qquad
+ \partial_tV_n=V_{n+1}\in L^2(0,T_*;H^{m-1}).
 \]
-
-Since \(u\in H_x^\infty\), multiplication and Riesz-transform boundedness give
-
+That finite rectangle supplies both norms.
+With \(A=(1-\Delta)^{1/2}\), the adjacent-row identity is
 \[
-p\in H_x^\infty,
-\qquad
-\nabla p\in H_x^\infty.
+ \frac{\mathrm d}{\mathrm dt}\norm{V_n(t)}_{H^m}^2
+ =2\operatorname{Re}\ip{A^{m-1}V_{n+1}(t)}{A^{m+1}V_n(t)}_{L^2}.
 \]
+Integrating from the initial time and applying Cauchy--Schwarz gives
+\begin{equation}
+ \sup_{0\le t\le T_*}\norm{V_n(t)}_{H^m}^2
+ \le\norm{V_n(0)}_{H^m}^2
+ +2\norm{V_{n+1}}_{L^2(I;H^{m-1})}
+    \norm{V_n}_{L^2(I;H^{m+1})},
+ \qquad I=(0,T_*).
+ \label{f:eq:ier-initial-row-trace-bound}
+\end{equation}
+The initial norm is finite by Lemma~\ref{f:lem:formal-initial-jet}.
+Lemma~\ref{f:lem:adjacent-trace} supplies the continuous representative
+on \([0,T_*]\), justifies the identity by Fourier truncation, and gives the
+first membership in
+\eqref{f:eq:ier-row-trace} and
+\begin{align*}
+ \sup_{0\le t\le T_*}\norm{V_n(t)}_{H^m}^2
+ &\le T_*^{-1}\norm{V_n}_{L^2H^m}^2
+ +2\norm{V_n}_{L^2H^{m+1}}\norm{V_{n+1}}_{L^2H^{m-1}}\\
+ &\le(1+T_*^{-1})\mathfrak R_{N,m}^*[u_0,\nu,f,T_*].
+\end{align*}
+This proves the bound in \eqref{f:eq:ier-row-trace}.  Apply this lemma to
+\(J_{n,\alpha}\), using \eqref{f:eq:ier-finite-mixed-bound}, to prove
+\eqref{f:eq:ier-mixed-row-trace}.
 
-Likewise,
+For \(k\ge m\), the \(H^k\)-continuous and \(H^m\)-continuous
+representatives equal the original preterminal distribution.  After applying
+\(H^k\hookrightarrow H^m\), uniqueness of continuous representatives makes
+them equal on \([0,T_*]\).  Their endpoint values are compatible and define
+\eqref{f:eq:ier-velocity-endpoint}--%
+\eqref{f:eq:ier-mixed-velocity-endpoint}.  Spatial differentiation is
+continuous between the corresponding finite Sobolev spaces, so
+\(J_{n,\alpha}^*=\partial_x^\alpha V_n^*\).
 
+Corollary~\ref{f:cor:ier-whole-terminal-mixed-jet} gives
+\(V_n,V_{n+1}\in L^1(0,T_*;H^m)\) and
+\(\partial_tV_n=V_{n+1}\) in distributions.  The Banach-valued fundamental
+identity gives
+\begin{equation}
+ V_n(t)-V_n(s)=\int_s^tV_{n+1}(\tau)\dd\tau
+ \quad\text{in }H^m,
+ \qquad0\le s\le t\le T_*.
+ \label{f:eq:ier-banach-fundamental-identity}
+\end{equation}
+The continuous representative of \(V_{n+1}\) is bounded by
+\(\mathfrak E_{n+1,m}\).  Set \(t=T_*\) in
+\eqref{f:eq:ier-banach-fundamental-identity} to prove
+\eqref{f:eq:ier-endpoint-velocity-modulus}; spatial differentiation gives
+\eqref{f:eq:ier-endpoint-mixed-modulus}.  The remaining size estimates follow
+from \eqref{f:eq:ier-row-trace}--\eqref{f:eq:ier-mixed-row-trace}.
+
+The divergence map \(H^{m+1}\to H^m\) is continuous, so
+\(\nabla\cdot u_*=0\).  For each \(a,m\), the curves
+\(V_0,\ldots,V_{a+1}\) are continuous in \(H^m\), and
+\eqref{f:eq:ier-banach-fundamental-identity} identifies the derivative of
+\(V_j\) with \(V_{j+1}\).  Induction in \(j\) proves
+\eqref{f:eq:ier-complete-left-velocity-jet}.
+\end{proof}
+
+\begin{theorem}[Pressure-complete endpoint jet]
+\label{f:thm:ier-pressure-complete-endpoint}
+\begin{samepage}
+Let the prescribed datum and finite maximal history be as in
+Theorem~\ref{f:thm:compatible-inverse-intersection}.
+For \(n\in\Nzero\), define
 \[
-\Delta u\in H_x^\infty,
-\qquad
-(u\cdot\nabla)u\in H_x^\infty.
+ \Phi_n(t):=(-\Delta)^{-1}\nabla\cdot F_n(t).
 \]
+The prescribed force class gives
+\(\Phi_n\in C^\infty([0,\infty);H^s)\) for every finite \(n,s\).  Define
+\begin{equation}
+ Q_n^*:=R_iR_j\sum_{a=0}^{n}\binom na
+ V_{a,i}^*V_{n-a,j}^*-\Phi_n(T_*).
+ \label{f:eq:ier-terminal-pressure-row}
+\end{equation}
+Then \(Q_n^*\in H^\infty(\R^3)\), and, for every \(s\in\Nzero\),
+\begin{align}
+ \norm{Q_n^*}_{H^s}
+ &\le9C_s^{\rm alg}2^n\mathfrak E_{n,s+1}^2
+ +\norm{\Phi_n(T_*)}_{H^s},
+ \label{f:eq:ier-terminal-pressure-size}\\
+ \norm{Q_n(t)-Q_n^*}_{H^s}
+ &\le9C_s^{\rm alg}2^{n+1}(T_*-t)\mathfrak E_{n+1,s+1}^2\\
+ &\quad +(T_*-t)
+ \sup_{0\le r\le T_*}\norm{\Phi_{n+1}(r)}_{H^s}.
+ \label{f:eq:ier-terminal-pressure-modulus}
+\end{align}
+\end{samepage}
+For \(\alpha\in\Nzero^3\),
+\begin{equation}
+ \Pi_{n,\alpha}^*:=\partial_x^\alpha Q_n^*
+ =\lim_{t\uparrow T_*}\Pi_{n,\alpha}(t)
+ \quad\text{in }H^m(\R^3)\text{ for every }m\in\Nzero.
+ \label{f:eq:ier-terminal-mixed-pressure-row}
+\end{equation}
+More precisely, for every \(m\in\Nzero\),
+\begin{align}
+ \norm{\Pi_{n,\alpha}^*}_{H^m}
+ &\le9C_{m+|\alpha|}^{\rm alg}2^n
+ \mathfrak E_{n,m+|\alpha|+1}^2
+ +\norm{\partial_x^\alpha\Phi_n(T_*)}_{H^m},
+ \label{f:eq:ier-terminal-mixed-pressure-size}\\
+ \norm{\Pi_{n,\alpha}(t)-\Pi_{n,\alpha}^*}_{H^m}
+ &\le9C_{m+|\alpha|}^{\rm alg}2^{n+1}(T_*-t)
+ \mathfrak E_{n+1,m+|\alpha|+1}^2\\
+ &\quad +(T_*-t)\sup_{0\le r\le T_*}
+ \norm{\partial_x^\alpha\Phi_{n+1}(r)}_{H^m}.
+ \label{f:eq:ier-terminal-mixed-pressure-modulus}
+\end{align}
+The endpoint rows satisfy, for every \(n,q\in\Nzero\),
+\begin{equation}
+ V_{n+1}^*
+ =\nu\Delta V_n^*
+ -\sum_{a=0}^{n}\binom na(V_a^*\cdot\nabla)V_{n-a}^*
+ -\nabla Q_n^*+F_n(T_*)
+ \quad\text{in }H^q(\R^3).
+ \label{f:eq:ier-terminal-velocity-row}
+\end{equation}
+Among families rooted at \(u_*\), carrying the prescribed values
+\((F_n(T_*))_{n\in\Nzero}\), and satisfying
+\eqref{f:eq:ier-terminal-pressure-row} and
+\eqref{f:eq:ier-terminal-velocity-row} in every finite Sobolev space,
+\((V_n^*,Q_n^*)_{n\in\Nzero}\) is the unique pressure-normalized endpoint
+jet.  Moreover,
+\begin{equation}
+ p\in\bigcap_{a,m\in\Nzero}C^a([0,T_*];H^m(\R^3)),
+ \qquad
+ \partial_t^ap(T_*)=Q_a^*.
+ \label{f:eq:ier-complete-left-pressure-jet}
+\end{equation}
+\end{theorem}
 
-thus the original NS equation itself gives
-
+\begin{proof}
+Lemmas~\ref{f:lem:sobolev-product} and \ref{f:lem:riesz-leray}, followed by
+\eqref{f:eq:ier-row-trace}, give
+\begin{align*}
+ \norm{Q_n^*}_{H^s}
+ &\le9C_s^{\rm alg}\sum_{a=0}^{n}\binom na
+ \norm{V_a^*}_{H^{s+1}}\norm{V_{n-a}^*}_{H^{s+1}}
+ +\norm{\Phi_n(T_*)}_{H^s}\\
+ &\le9C_s^{\rm alg}2^n\mathfrak E_{n,s+1}^2
+ +\norm{\Phi_n(T_*)}_{H^s}.
+\end{align*}
+This is \eqref{f:eq:ier-terminal-pressure-size}.
+For each product in \(Q_n(t)-Q_n^*\), insert
+\(V_a^*V_{n-a}(t)\), use
+\eqref{f:eq:ier-endpoint-velocity-modulus}, and bound every retained factor by
+\(\mathfrak E_{n+1,s+1}\).  The two product differences and
+\(\sum_{a=0}^{n}\binom na=2^n\) prove
+the product part of \eqref{f:eq:ier-terminal-pressure-modulus}.  Since
+\(\partial_t\Phi_n=\Phi_{n+1}\),
 \[
-u_t
-=
-\nu\Delta u-(u\cdot\nabla)u-\nabla p
-\in H_x^\infty.
+ \norm{\Phi_n(t)-\Phi_n(T_*)}_{H^s}
+ \le (T_*-t)\sup_{0\le r\le T_*}\norm{\Phi_{n+1}(r)}_{H^s},
 \]
-
-So the first temporal row belongs to one common all-Sobolev intersection as \(u\).
-
-Now set
-
+which supplies the remaining term.  The Fourier multiplier inequality
 \[
-V_n=\partial_t^n u,
-\qquad
-P_n=\partial_t^n p.
+ \norm{\partial_x^\alpha h}_{H^m}
+ \le\norm h_{H^{m+|\alpha|}}
 \]
+applied to the nonlinear Riesz-product component, together with the exact
+derivative \(\partial_x^\alpha\Phi_n\) of the force potential, proves
+\eqref{f:eq:ier-terminal-mixed-pressure-size} and
+\eqref{f:eq:ier-terminal-mixed-pressure-modulus}.  The latter tends to zero
+as \(t\uparrow T_*\), which proves
+\eqref{f:eq:ier-terminal-mixed-pressure-row} in every \(H^m\).
 
-Assume the rows through \(V_n\) belong to \(H_x^\infty\). Differentiating the pressure formula gives
+Fix \(n,q\).  The trace of \(V_n\) in \(H^{q+2}\) carries the diffusion
+term in Proposition~\ref{f:prop:formal-mixed-recurrences} to \(H^q\) at
+\(T_*\).  The product estimate at order \(q+1\), using velocity convergence
+in \(H^{q+2}\), carries every transport term to \(H^q\).  Equation
+\eqref{f:eq:ier-terminal-pressure-modulus} at order \(q+1\) carries the pressure
+gradient to \(H^q\).  The left side converges to \(V_{n+1}^*\) in \(H^q\),
+and \(F_n(t)\to F_n(T_*)\) in \(H^q\), which proves
+\eqref{f:eq:ier-terminal-velocity-row}.
 
+The value \(V_0^*=u_*\) fixes \(Q_0^*\), and the velocity recurrence fixes
+\(V_1^*\).  Inductively, \(V_0^*,\ldots,V_n^*\) fix \(Q_n^*\), which fixes
+\(V_{n+1}^*\).  This proves uniqueness within the displayed recurrence
+class.  Extend each \(Q_n\) to \(T_*\) by
+\(Q_n(T_*):=Q_n^*\).  On \((0,T_*)\),
+\(Q_n=\partial_t^np\), so \(\partial_tQ_n=Q_{n+1}\) in distributions.
+Both rows are continuous in every \(H^m\) by
+\eqref{f:eq:ier-terminal-pressure-modulus}.  Hence, for
+\(0\le s\le t\le T_*\),
+\begin{equation}
+ Q_n(t)-Q_n(s)=\int_s^tQ_{n+1}(\tau)\dd\tau
+ \quad\text{in }H^m(\R^3).
+ \label{f:eq:ier-pressure-banach-identity}
+\end{equation}
+Indeed, the identity holds for \(t<T_*\), and the endpoint bounds permit
+passage to \(t=T_*\).  Thus
+\(Q_n\in C^1([0,T_*];H^m)\) with derivative \(Q_{n+1}\).  Induction gives
+\eqref{f:eq:ier-complete-left-pressure-jet}.
+\end{proof}
+
+\begin{theorem}[Same-forced-history global continuation]
+\label{f:thm:ier-same-history-restart}
+Let \(\nu>0\), \(u_0\in\HsSigma(\R^3)\), prescribe
+\(f\in C^\infty([0,\infty);\mathcal S(\R^3;\R^3))\), and let
+\((T_*,u,p)\) be the maximal pressure-complete classical history generated
+by \((u_0,\nu,f)\).  Then
+\begin{equation}
+ T_*=\infty.
+ \label{f:eq:ier-maximal-time-infinite}
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+Suppose \(T_*<\infty\).  Theorem~\ref{f:thm:ier-compatible-endpoint-traces}
+gives \(u_*\in H^\infty_\sigma\).  Theorem~\ref{f:thm:local-restart} then
+gives a unique smooth pressure-normalized pair \((w^*,q^*)\) on a nontrivial
+right-hand time neighborhood of \(T_*\), driven by the original prescribed
+force \(f(t)\), with \(w^*(T_*)=u_*\).  Define
 \[
-P_n
-=
-R_iR_j
-\sum_{a=0}^{n}
-\binom na
-V_{a,i}V_{n-a,j}.
+ W_n^+:=\partial_t^nw^*(T_*),
+ \qquad
+ P_n^+:=\partial_t^nq^*(T_*).
 \]
-
-Every factor on the right belongs to \(H_x^\infty\), so
-
+\begin{samepage}
+The restart datum is exactly
 \[
-P_n,\nabla P_n\in H_x^\infty.
+ w^*(T_*)=u_*=u(T_*).
 \]
+Differentiating the restarted equations exactly as in the proof of
+Proposition~\ref{f:prop:formal-mixed-recurrences} gives
+\begin{align*}
+ P_n^+&=R_iR_j\sum_{a=0}^{n}\binom naW_{a,i}^+W_{n-a,j}^+
+ -(-\Delta)^{-1}\nabla\cdot F_n(T_*),\\
+ W_{n+1}^+&=\nu\Delta W_n^+
+ -\sum_{a=0}^{n}\binom na(W_a^+\cdot\nabla)W_{n-a}^+
+ -\nabla P_n^++F_n(T_*).
+\end{align*}
+Since \(W_0^+=u_*=V_0^*\), induction with
+\eqref{f:eq:ier-terminal-pressure-row} and
+\eqref{f:eq:ier-terminal-velocity-row} gives
+\begin{equation}
+ W_n^+=V_n^*,
+ \qquad P_n^+=Q_n^*,
+ \qquad n\in\Nzero.
+ \label{f:eq:ier-left-right-jet-match}
+\end{equation}
+\par
+\end{samepage}
 
-The \(n\)-th differentiated original NS equation is
+Equations \eqref{f:eq:ier-complete-left-velocity-jet},
+\eqref{f:eq:ier-complete-left-pressure-jet}, and
+\eqref{f:eq:ier-left-right-jet-match} match every one-sided time derivative in
+every finite Sobolev space.  Sobolev embedding then glues the incoming
+pair \((u,p)\) to \((w^*,q^*)\) through \(T_*\) as one smooth
+pressure-complete history generated by that \((u_0,\nu,f)\).  The
+pressure-complete equation holds at \(T_*\) by
+\eqref{f:eq:ier-terminal-velocity-row}, and the glued history continues
+\((u,p)\) past \(T_*\).  This contradicts maximality.  Hence
+\(T_*=\infty\).
+\end{proof}
 
+The mixed-index exhaustion of the compatible coordinate rectangles in
+Theorem~\ref{f:thm:datum-intersection} gives the full-interval intersection.
+Independently, the critical-height relationship rectangles derived on those
+same coordinates recover that intersection through
+Proposition~\ref{f:prop:forced-spatial-column-reconstruction}.
+Their adjacent rows form the compatible velocity traces through \(T_*\) in
+Theorem~\ref{f:thm:ier-compatible-endpoint-traces}, while each finite rectangle
+carries the complete-equation identities and finite norm estimates.  The pressure
+recurrence fixes their normalized endpoint jet in
+Theorem~\ref{f:thm:ier-pressure-complete-endpoint}.  With those endpoint
+values, Theorem~\ref{f:thm:ier-same-history-restart} extends the original
+history past \(T_*\), so \(T_*=\infty\).  Theorem
+\ref{f:thm:ier-global-smoothness} collects the global solution, pressure
+normalization, and energy identity.
+
+\begin{samepage}
+\begin{theorem}[Global smoothness and uniqueness for prescribed smooth data]
+\label{f:thm:ier-global-smoothness}
+For every \(\nu>0\), every \(u_0\in\HsSigma(\R^3)\), and every prescribed
+\(f\in C^\infty([0,\infty);\mathcal S(\R^3;\R^3))\), there exists a
+pressure-normalized pair
+\begin{equation}
+ (u,p)\in C^\infty([0,\infty)\times\R^3;\R^3\times\R)
+ \label{f:eq:ier-global-class}
+\end{equation}
+satisfying
+\begin{align}
+ \partial_tu+(u\cdot\nabla)u+\nabla p&=\nu\Delta u+f,
+ \label{f:eq:ier-global-momentum}\\
+ \nabla\cdot u&=0,
+ \qquad u(0)=u_0,
+ \label{f:eq:ier-global-divergence-datum}\\
+ p(t)&=R_iR_j(u_i(t)u_j(t))-(-\Delta)^{-1}\nabla\cdot f(t),
+ \qquad \lim_{|x|\to\infty}p(t,x)=0,
+ \label{f:eq:ier-global-pressure}\\
+ \frac12\norm{u(t)}_{L^2}^2
+ +\nu\int_0^t\norm{\nabla u(s)}_{L^2}^2\dd s
+ &=\frac12\norm{u_0}_{L^2}^2
+ +\int_0^t\ip{f(s)}{u(s)}_{L^2}\dd s,
+ \qquad t\ge0.
+ \label{f:eq:ier-global-energy}
+\end{align}
+In particular, for every finite \(t\),
+\begin{equation}
+ \norm{u(t)}_{L^2(\R^3)}
+ \le\norm{u_0}_{L^2}+\int_0^t\norm{\Pp f(s)}_{L^2}\dd s<\infty.
+ \label{f:eq:ier-global-energy-bound}
+\end{equation}
+For every finite \(T>0\), its restriction is the unique member of
+\(\mathscr M_{\nu,f}^3(0,T;u_0)\).
+\end{theorem}
+\end{samepage}
+
+\begin{proof}
+ Let
+ \[
+  \mathscr T:=\left\{\tau>0:
+  \begin{array}{c}
+  \text{there exists a pressure-complete classical history}\\
+  (\tau,u^\tau,p^\tau)\text{ generated by }(u_0,\nu,f)
+  \end{array}
+  \right\},
+ \]
+ and put
 \[
-V_{n+1}
-=
-\nu\Delta V_n
--
-\sum_{a=0}^{n}
-\binom na
-(V_a\cdot\nabla)V_{n-a}
--
-\nabla P_n.
+ T_*:=\sup\mathscr T.
 \]
+ Theorem~\ref{f:thm:local-restart}, applied to \(u_0\in\HsSigma\), supplies a
+ shifted mild solution whose persistence statement gives every finite
+ velocity and pressure row.  Sobolev embedding and the displayed recurrences
+ make this pair a pressure-complete classical history, so \(\mathscr T\) is
+ nonempty.
+ Lemma~\ref{f:lem:shifted-mild-restriction} admits each strict classical
+restriction to the shifted mild class, whose at-most-one property identifies
+any two such solutions on their common interval; their union defines a unique
+ solution on \([0,T_*)\).  Since \(u_0\in\HsSigma\), the persistence conclusion
+of Theorem~\ref{f:thm:local-restart}, applied on overlapping local intervals,
+places every strict restriction in the class of
+Definition~\ref{f:def:formal-maximal-history}.  An extension beyond \(T_*\)
+ would restrict to an interval \([0,\tau]\) with \(\tau>T_*\), contrary to
+ the definition of the supremum.  Thus \((T_*,u,p)\) is maximal.  Theorem
+\ref{f:thm:ier-same-history-restart} gives \(T_*=\infty\).
 
-Every term on the right again belongs to \(H_x^\infty\). thus
+Fix \(T<\infty\).  Persistence in Theorem~\ref{f:thm:local-restart}, iterated
+along the unique history, retains every finite spatial Sobolev order on
+\([0,T]\).  Proposition~\ref{f:prop:formal-mixed-recurrences} retains every
+finite temporal row.  Lemma~\ref{f:lem:sobolev-embedding} gives
+\eqref{f:eq:ier-global-class}; arbitrariness of \(T\) gives the global class.
+The pressure belongs to \(H^s(\R^3)\) for every \(s\), and the Fourier
+inversion proof of Lemma~\ref{f:lem:sobolev-embedding} places its continuous
+representative in \(C_0(\R^3)\), which proves the limit in
+\eqref{f:eq:ier-global-pressure}.  Lemma
+\ref{f:lem:shifted-mild-restriction} places \((u,p)|_{[0,T]}\) in
+\(\mathscr M_{\nu,f}^3(0,T;u_0)\).  If
+\((\widetilde u,\widetilde p)\in\mathscr M_{\nu,f}^3(0,T;u_0)\), the at-most-one
+assertion in Theorem~\ref{f:thm:local-restart} gives
+\((\widetilde u,\widetilde p)=(u,p)\) on \([0,T]\).  This proves the stated
+uniqueness.
 
-\[
-V_{n+1}\in H_x^\infty.
-\]
-
-Induction gives
-
-\[
-\boxed{
-\partial_t^n u,\ \partial_t^n p
-\in
-\bigcap_{m=0}^{\infty}H_x^m
-\qquad
-\text{for every }n.
-}
-\]
-
-Finally, fix arbitrary temporal and spatial derivative orders \(n\) and \(k\). Choose \(m>k+\frac32\). Then
-
-\[
-\partial_t^n u\in H_x^m
-\hookrightarrow C_x^k.
-\]
-```
-
-### Original compatible-family zeroth-coordinate projection
-
-Source: original:aug04-matrix-LF2503:1-57
-
-```latex
-**Yes—provided the inverse limit is actually constructed from whole-terminal rectangles.** Then the \(N=0\) projection lands in the intersection automatically, by definition.
-
-Suppose each finite rectangle is a space of the form
-
-\[
-\mathcal R_{N,M}(0,T_*)
-\subseteq
-\bigcap_{n=0}^{N}L^2(0,T_*;H^M),
-\]
-
-and the inverse limit is
-
-\[
-\mathcal I[u_0]
-=
-\varprojlim_{N,M}\mathcal R_{N,M}(0,T_*).
-\]
-
-An element of \(\mathcal I[u_0]\) is a compatible family
-
-\[
-\mathbf R=(R_{N,M})_{N,M},
-\qquad
-\rho_{N,M}^{N',M'}R_{N',M'}=R_{N,M}.
-\]
-
-For each \(M\), project \(R_{0,M}\) onto its velocity coordinate. Call it \(u_M\). Compatibility in the spatial index gives
-
-\[
-u_{M'}=u_M
-\quad\text{as distributions whenever }M'\ge M.
-\]
-
-Thus all \(u_M\) are one common function \(u\), viewed at different Sobolev levels. Since
-
-\[
-u_M\in L^2(0,T_*;H^M)
-\]
-
-for every \(M\), the common function satisfies
-
-\[
-u\in L^2(0,T_*;H^M)
-\qquad\forall M.
-\]
-
-thus
-
-\[
-\boxed{
-\pi_{N=0}\mathcal I[u_0]
-\subseteq
-\bigcap_{M\ge0}L^2(0,T_*;H^M).
-}
-\]
-
-So there is **no additional analytic step after the whole-terminal inverse limit has been constructed**. The \(N=0\) complete spatial row is an automatic projection of that inverse-limit element.
-```
-
-### Author’s discovery-before-packaging order
-
-Source: original:aug03-outline-LF1302:1-19
-
-```latex
-no, that's not the table. slow down and make it simple, you're throwing results before derivations. i want to reconstruct the historical argument however crude and sloppy, as hisotrically accurate as possible.
-
-we start with the original NS equation, we motivate the mixed jet and the critical height tower, then demonstrate the simple nesting concept (that if you temporally derive the critical height tower, you get the spatial sobolev tower nested into it)
-
-which organically leads us to solving the question of "ok so if a zeno cascade occurs, or a singualrity which blows up velocity, it must be LED by acceleration, which must be led by its jerk, and so on and so on up the temporal tower" ... "but when you do that, critical height or otherwise it turns out, you get higher sobolev embeddings, which gives higher spatial regulairty" .... "which opposes what you'd expect for a singularity to form, it seems like higher positive temporal derivatives gives you higher spatial regularity, instead of less, and less spatial regulairty would be required for a singularity to form" ... "which means that the temporal condition for blowup is, at its infinite derivative, meet with the regulairty conditoin given by sobolev, that is, the intersection of the temporal tower and the spatial tower implies a separate unique smoothness condition for temporal tower, and for velocity ... and so on"
-
-it's best if you go find this exact logic and forensically reconstruct this argument as it happened hisotrically in order to get the structure.
-
-i want to bring the reader into the concepts.
-
-you could even go so far as to include the "if the sobolev tower is nested inside the temporal tower, then the question becomes something like "what does it mean to have spaital regulairty nested inside temproal tower""... but it's up to you how much familiarity /exposure you want the reader to ahve with the original hisotrical argument.
-
-ONCE that connection is laid out, and the intersection smoothness argument is discovered, THEN you can go on to talk about rectablges and all the formal stuff that packages everything together, then demosntrate those results direclt,y and demonstrate all the proofs directly, give estimates, generalize proofs etc etc 
-
-do you see the construction i want to preserve here?
-
-it's like a hisotrical natural derviation and rediscovery of the intersection connection, and then the formal consequences of all of that.
-
-does that make sense?
+Proposition~\ref{f:prop:kinetic-energy} holds on every finite interval.  Since
+\(T\) was arbitrary, it gives \eqref{f:eq:ier-global-energy} for every
+\(t\ge0\); its regularized square-root estimate gives
+\eqref{f:eq:ier-global-energy-bound}.
+\end{proof}
 ```

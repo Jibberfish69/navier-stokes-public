@@ -24,11 +24,11 @@ global well-posedness in the critical space \(\mathrm{BMO}^{-1}\)
 \cite{KochTataru2001}.
 Tao gives a localization and compactness formulation of the global problem
 \cite{Tao2013}.  The regularity criteria show that control of an appropriate
-critical quantity excludes singularity.  The argument below derives the
-required control from the compatible finite rectangles of the maximal
-velocity--pressure history.  Mixed-index exhaustion and the completed
-critical-height relationships use those same rectangles and lead to that
-all-orders Sobolev membership.
+critical quantity excludes singularity.  The argument below follows the datum-generated pressure-complete mixed jet
+with its spatial Sobolev intersection. Its compatible temporal rows give the
+mixed intersection. Completed-height substitution displays viscosity within
+that structure, and finite rectangles retain the coordinates used in its
+estimates.
 
 Pressure is part of that derivative structure.  With the decay normalization,
 incompressibility determines it from the current velocity:
@@ -80,27 +80,26 @@ terms.  Subtracting those terms from \(H^{(k)}\) and dividing by
 \((-2\nu)^k\) recovers \(\tfrac12\norm{\Lambda^{k+1/2}u}_2^2\), as shown
 in Proposition~\ref{u:prop:completed-height-recurrence}.
 
-For finite \(N,M\in\Nzero\), let
-\[
- \mathcal R_{N,M}[u_0;T_*]
- :=\bigl((V_n)_{n=0}^{N},(V_{n+1})_{n=0}^{N};(Q_n)_{n=0}^{N}\bigr)
-\]
-be the corresponding pressure-complete rectangle of the maximal history.
-The datum-generated rectangle theorem places these selected rows on the whole
-interval \((0,T_*)\), and enlargement preserves every coordinate already
-present.  Reading the compatible family by its temporal and spatial indices
-gives
+The datum-generated mixed jet carries the spatial Sobolev intersection in
+each temporal row on the original interval. Retaining the compatible
+temporal derivative identities gives
 \begin{equation}
- u\in\bigcap_{r,m\in\Nzero}H^r(0,T_*;H^m)
+ u\in\bigcap_{r,m\in\Nzero}H^r(0,T_*;H^m).
  \label{u:eq:intro-all-orders-intersection}
 \end{equation}
-on a proposed finite maximal interval.  Reading this family through the
-recurrences \eqref{u:eq:intro-pressure-recurrence}--%
-\eqref{u:eq:intro-velocity-recurrence} and the completed heights
-\(R_k=E_{k+1/2}\) first gives
-\(u\in\bigcap_mL^2(0,T_*;H^m)\); the recurrence then recovers every temporal
-and pressure row.  Both readings use one datum-generated compatible
-family.
+The critical-height domains read the spatial part of this jet. The completed
+identities then display the viscous relationship while retaining transport
+and normalized pressure.
+
+For finite \(N,M\in\Nzero\), select the pressure-complete record
+\[
+ \mathcal R_{N,M}[u_0;T_*]
+ :=\bigl((V_n)_{n=0}^{N},(V_{n+1})_{n=0}^{N};(Q_n)_{n=0}^{N}\bigr).
+\]
+It is a finite coordinate reading of that constructed intersection.
+Enlargement preserves every coordinate already present. The mixed-index
+description and the completed-height identities retain this one history
+at their respective orders.
 
 The rectangle and its norm are different objects.  The rectangle retains
 \(V_0,\ldots,V_N\), their next time derivatives, and their pressure rows.
@@ -133,12 +132,11 @@ rectangle:
  \label{u:eq:intro-compatible-intersection}
 \end{equation}
 Every finite mixed row occurs in a sufficiently large rectangle.
-Theorem~\ref{u:thm:compatible-inverse-intersection} proves this compatibility
-and exhaustion.  The mixed-index route gives
-\eqref{u:eq:intro-all-orders-intersection} directly.  The completed-height
-identities are evaluated on these rectangles; exhausting their heights gives
-the spatial Sobolev column and then, by the equation, that mixed
-intersection.
+Theorem~\ref{u:thm:compatible-inverse-intersection} verifies that these
+records restrict to the derivatives of the constructed jet. The completed
+height identities read its cofinal spatial Sobolev orders; the original
+equation retains the compatible temporal and pressure rows. These are
+representations of \eqref{u:eq:intro-all-orders-intersection}.
 
 For the velocity-time column, time Sobolev embedding applies to
 \(H^m\)-valued functions: fixing \(m\) in

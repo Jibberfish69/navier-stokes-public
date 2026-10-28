@@ -1,0 +1,44 @@
+{
+  "format": "navier-stokes-canonical-release/1",
+  "release_date": "2026-10-28",
+  "manuscript": "papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/unified-unforced-forced-openai-refutation.pdf",
+  "manuscript_release": {
+    "path": "papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/CURRENT-RELEASE.json",
+    "bytes": 2683,
+    "sha256": "f8f1fdb02e5f35a05006b760c7d2b1b0f8e22435a03e1850d6343ca1227e0d9a"
+  },
+  "source_manifest": {
+    "path": "papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/CURRENT-SOURCE-SHA256.json",
+    "source_manifest_sha256": "c569bd12799c9b8aad5be3299767f00646b35646cf2d345ef88d884952ee7eed",
+    "bytes": 4758,
+    "sha256": "0d77b04ca9c6bb76d4852a119eed85578835725916952eea1ab6c14254b25bc5"
+  },
+  "portable_custody": {
+    "path": "proof/NS.proof-handoff.zip",
+    "bytes": 7687990,
+    "sha256": "cab0a005ed5e18c7c477f28b51505112a333f1db83c2884214b3e4287a0f8a05"
+  },
+  "custody_release": {
+    "path": "proof/RELEASE.json",
+    "bytes": 2853,
+    "sha256": "657e4335df01c994e42cf826779bf9f532fa292decd16dc328a9ba7f5a843308"
+  },
+  "current_direct_custody": "proof/current-sources/SOURCE-INDEX.json",
+  "doi": "10.6084/m9.figshare.34005666",
+  "figshare_sync": {
+    "status": "pending-current-edition-publication",
+    "article_id": 34005666,
+    "latest_verified_published_version": 4,
+    "latest_verified_published_doi": "10.6084/m9.figshare.34005666.v4",
+    "latest_verified_published_pdf_sha256": "b57b52b3ec74ecc45e2bf9bb7a301ab367ac20ef928ab9a9a143ccc406320e14"
+  },
+  "historical_material": [
+    "archive/",
+    "problems/",
+    "research/",
+    "workspaces/",
+    "proof/archive/",
+    "papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/archive"
+  ],
+  "authority_scope": "Current source and distribution identity. The manuscript and its governing proof sources retain their stated mathematical scope."
+}

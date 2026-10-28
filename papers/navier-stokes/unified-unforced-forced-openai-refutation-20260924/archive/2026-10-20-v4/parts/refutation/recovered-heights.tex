@@ -1,0 +1,114 @@
+\subsection{Source work in the first two temporal rows}
+\label{r:app:recovered-source-work}
+The source work has a useful bound before any higher velocity rectangle is
+read off. This includes mixed spatial derivatives and the first temporal
+row. Keep the actual forced velocity, set \(V_r=\partial_t^ru\) and
+\(F_r=\partial_t^rf\), and write
+\[
+ U_*:=\|u_0\|_2+\int_0^T\|f(t)\|_2\dd t.
+\]
+The kinetic identity gives \(\sup_{t<T}\|u(t)\|_2\le U_*\).
+For a spatial multi-index \(\alpha\) and a real height \(s\ge0\), introduce
+the nonnegative self-adjoint multiplier
+\[
+ M_{\alpha,s}=(-1)^{|\alpha|}\partial_x^{2\alpha}\Lambda^{2s},
+ \qquad
+ \widehat{M_{\alpha,s}v}(\xi)
+   =\xi^{2\alpha}|\xi|^{2s}\widehat v(\xi).
+\]
+Spatial self-adjointness gives the exact source pairing
+\begin{equation}
+ W_{r,\alpha,s}
+ :=\ip{\Lambda^s\partial^\alpha V_r}
+          {\Lambda^s\partial^\alpha F_r}
+ =\ip{V_r}{M_{\alpha,s}F_r}.
+ \label{r:eq:recovered-mixed-source-work}
+\end{equation}
+All pairings in this section mean their real parts. At \(r=0\), every
+spatial derivative can thus be carried by the prescribed source:
+\begin{equation}
+ \int_0^T|W_{0,\alpha,s}|\dd t
+ \le U_*\int_0^T\|M_{\alpha,s}f\|_2\dd t<\infty.
+ \label{r:eq:recovered-source-row-zero}
+\end{equation}
+The constant is finite at each chosen order. This estimate consumes no
+viscous dissipation and requires no higher velocity norm.
+
+For \(r=1\), let \(h=M_{\alpha,s}\Pp F_1\). This is a prescribed smooth
+solenoidal field. Pairing the original momentum equation with \(h\),
+moving spatial derivatives to \(h\), and using incompressibility gives
+\begin{equation}
+ W_{1,\alpha,s}
+ =\nu\ip{u}{\Delta h}
+  +\int_{\mathbb R^3}u_i u_j(\operatorname{Sym}\nabla h)_{ij}\dd x
+  +\ip{f}{h}.
+ \label{r:eq:recovered-source-row-one-identity}
+\end{equation}
+Pressure contributes zero because \(\nabla\cdot h=0\). The transport term
+has the displayed positive sign after integration by parts; contraction
+with \(u\otimes u\) removes the antisymmetric part of \(\nabla h\).
+Consequently,
+\begin{align}
+ \int_0^T|W_{1,\alpha,s}|\dd t
+ \le{}&\nu U_*\int_0^T\|\Delta h\|_2\dd t\notag\\
+ &+U_*^2\int_0^T
+       \|\operatorname{Sym}\nabla h\|_{L^\infty_x,\mathrm{op}}\dd t
+   +\int_0^T\|f\|_2\|h\|_2\dd t<\infty.
+ \label{r:eq:recovered-source-row-one-bound}
+\end{align}
+Every quantity on the right is fixed by the datum, viscosity, and source.
+Sobolev boundedness of \(\Pp\), followed by an adequately high spatial
+embedding, controls these norms. No spatial support or rapid-decay
+property of \(\Pp f\) is required. The estimate imposes no restriction on
+force amplitude.
+
+The higher temporal rows have an exact finite reduction. For \(r\ge1\),
+put
+\[
+ B_{r,\alpha,s}
+ =\sum_{j=0}^{r-1}(-1)^j
+   \ip{V_{r-1-j}}{M_{\alpha,s}F_{r+j}}.
+\]
+Differentiating this sum cancels adjacent terms and leaves
+\[
+ B_{r,\alpha,s}'
+ =W_{r,\alpha,s}
+  +(-1)^{r-1}\ip{u}{M_{\alpha,s}F_{2r}}.
+\]
+Hence
+\begin{equation}
+ \int_0^tW_{r,\alpha,s}\dd v
+ =B_{r,\alpha,s}(t)-B_{r,\alpha,s}(0)
+  +(-1)^r\int_0^t\ip{u}{M_{\alpha,s}F_{2r}}\dd v.
+ \label{r:eq:recovered-source-temporal-telescope}
+\end{equation}
+The terminal pairings involve temporal velocity rows strictly below
+\(r\). If \(K_j=\sup_{t<T}\|V_j(t)\|_2\) for \(j<r\), the explicit bound
+is
+\begin{align}
+ \sup_{t<T}\left|\int_0^tW_{r,\alpha,s}\dd v\right|
+ \le{}&2\sum_{j=0}^{r-1}K_{r-1-j}
+           \sup_{t\le T}\|M_{\alpha,s}F_{r+j}(t)\|_2\notag\\
+ &+U_*\int_0^T\|M_{\alpha,s}F_{2r}\|_2\dd t.
+ \label{r:eq:recovered-source-temporal-bound}
+\end{align}
+At \(r=1\), only the kinetic bound is needed. At larger \(r\), the stated
+lower temporal norms enter explicitly; the datum-generated intersection
+supplies them in the principal argument. Formula
+\eqref{r:eq:recovered-source-temporal-bound} controls a signed integral,
+while \eqref{r:eq:recovered-source-row-one-bound} controls its absolute
+integral at the first temporal row.
+
+For completeness, with
+\(E_{r,\alpha,s}=\|\Lambda^s\partial^\alpha V_r\|_2^2/2\),
+the corresponding energy identity can be written
+\[
+ \partial_t(E_{r,\alpha,s}-B_{r,\alpha,s})
+ =-\nu\|\Lambda^{s+1}\partial^\alpha V_r\|_2^2
+   +\mathcal P_{r,\alpha,s}
+   +(-1)^r\ip{u}{M_{\alpha,s}F_{2r}}.
+\]
+Here \(\mathcal P_{r,\alpha,s}\) retains the complete differentiated
+nonlinear row and its pressure completion. This identity changes the
+recorded scalar by an explicitly bounded pairing when the lower rows are
+bounded. It leaves the underlying velocity and its equation intact.

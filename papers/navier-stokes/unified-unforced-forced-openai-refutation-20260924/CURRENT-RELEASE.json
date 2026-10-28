@@ -1,64 +1,66 @@
 {
-  "release_date": "2026-10-20",
-  "manuscript_revision_date": "2026-10-20",
-  "title": "Global Smoothness for the Three-Dimensional Incompressible Navier\u2013Stokes Equations, with a Refutation of OpenAI\u2019s Finite-Time Blowup Claim",
-  "doi": "10.6084/m9.figshare.34005666.v4",
+  "release_date": "2026-10-28",
+  "title": "Global Smoothness for the Three-Dimensional Incompressible Navier–Stokes Equations, with a Refutation of OpenAI’s Finite-Time Blowup Claim",
+  "doi": "10.6084/m9.figshare.34005666",
+  "source_manifest_sha256": "c569bd12799c9b8aad5be3299767f00646b35646cf2d345ef88d884952ee7eed",
   "native_pdf": {
     "path": "unified-unforced-forced-openai-refutation.pdf",
-    "sha256": "b57b52b3ec74ecc45e2bf9bb7a301ab367ac20ef928ab9a9a143ccc406320e14",
-    "bytes": 7411132,
-    "pages": 234,
-    "tagged": true,
-    "figshare_file_id": 70404168
+    "bytes": 7401019,
+    "sha256": "85f60cef81c0203aba28af0d32602dd83dd4b3fce4dc351db611d60dd65bb86f",
+    "pages": 233
   },
   "current_source": {
     "path": "current-source.zip",
-    "sha256": "6e8a1c544bd64e08949140c707cf0c5d7fd2d43a02c164811ca8ebcd9f8bebdf",
     "input_count": 42,
-    "manifest": "CURRENT-SOURCE-SHA256.json"
+    "manifest": "CURRENT-SOURCE-SHA256.json",
+    "bytes": 235977,
+    "sha256": "b040526294ae13cb047c34c51c2552c4d7a0380fafb4657501f75d94dff1b261"
   },
   "portable_pdf": {
     "path": "pdflatex-submission.pdf",
-    "sha256": "cbb98c3255820140ab40904128b3364b22724b33ec7bfa32aad8638d779ee071",
-    "bytes": 1735754,
-    "pages": 236
+    "bytes": 1733881,
+    "sha256": "29da0a8f40891f09c0e63f17808a039ff88a08419d491731d980b14f2dd491a7",
+    "pages": 235
   },
   "portable_source": {
     "path": "pdflatex-submission-source.zip",
-    "sha256": "8643e87dfe83d1e9cd51fbb94708ed14d94a8dd953c0cbb96ba50853284ba278",
-    "body_inputs_match_native": 41
-  },
-  "included_revisions": [
-    "Revised How the Proof Works opening guide",
-    "Literal wording cleanup in existing prose; mathematics and labels outside the revised guide preserved",
-    "Native tagging build compatibility for the guide footnote"
-  ],
-  "verification": {
-    "native_build_exit": 0,
-    "portable_build_exit": 0,
-    "source_inputs_match_current_canonical_bytes": 42,
-    "portable_body_inputs_match_native": 41,
-    "guide_source_matches_manuscript_input": true,
-    "native_pdf_matches_figshare_v4": true
+    "body_inputs_match_native": 41,
+    "bytes": 235883,
+    "sha256": "c451df25bd5d712d882ee5b6c8be6dcfd7c72ed9a971be72ca72737aac655176"
   },
   "excerpt": {
     "path": "excerpt/how-the-proof-works-ns-excerpt.pdf",
-    "sha256": "09f8465e92842eb3d3e3b7b305972f7f2734284b4f120fb97d932a22aca7c3e8",
-    "bytes": 333831,
-    "pages": 11,
     "source": "excerpt/guide.tex",
-    "source_sha256": "75b7aba18dca44df76eae09c0dad8bc1053723b6e5858ebc852c52a18cf59ae2"
+    "source_archive": "excerpt/source.zip",
+    "bytes": 310541,
+    "sha256": "38684f750a724ea2de42c11eb778d5b4e3c8bd952c7aeec5cfca2823ffc8aaba",
+    "pages": 11
   },
-  "figshare": {
+  "governing_custody": {
+    "path": "../../../proof/current-sources/SOURCE-INDEX.json",
+    "snapshot_id": "ee5d59524e6bff69aa405d9123cc8b4c7c3fcb34b5f2dc347b9994a154c2e674"
+  },
+  "previous_edition": {
+    "path": "archive/2026-10-20-v4/",
+    "doi": "10.6084/m9.figshare.34005666.v4"
+  },
+  "figshare_sync": {
+    "status": "pending-current-edition-publication",
     "article_id": 34005666,
-    "latest_published_version": 4,
-    "doi": "10.6084/m9.figshare.34005666.v4",
-    "published_date": "2026-10-20T19:49:29Z",
-    "file_id": 70404168,
-    "download_url": "https://ndownloader.figshare.com/files/70404168",
-    "bytes": 7411132,
-    "sha256": "b57b52b3ec74ecc45e2bf9bb7a301ab367ac20ef928ab9a9a143ccc406320e14",
-    "october_20_update": "published",
-    "current_native_pdf_deposited": true
+    "latest_verified_published_version": 4,
+    "latest_verified_published_doi": "10.6084/m9.figshare.34005666.v4",
+    "latest_verified_published_pdf_sha256": "b57b52b3ec74ecc45e2bf9bb7a301ab367ac20ef928ab9a9a143ccc406320e14"
+  },
+  "verification": {
+    "source_inputs": 42,
+    "portable_identical_body_inputs": 41,
+    "excerpt_source_identical_to_current_guide": true,
+    "receipt": "CURRENT-VERIFICATION.json",
+    "scope": "Source identity, build and presentation checks; no new theorem certification or submission approval.",
+    "receipt_sha256": "7d440c4856bab80a40cbd1530a7369c6e4eb00bbb6294ff1b6b171175de9b844",
+    "final_source_fidelity": "passed-within-reviewed-scope",
+    "native_visual_review": "all-233-pages-at-110-dpi",
+    "excerpt_visual_review": "all-11-pages-at-110-dpi",
+    "portable_visual_review": "selected-pages"
   }
 }

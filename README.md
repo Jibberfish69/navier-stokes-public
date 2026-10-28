@@ -2,20 +2,18 @@
 
 Research notes, theorem development, manuscript sources, manuscripts, and retained revision history by Thomas Birnie.
 
-## Start reading
+## Current proof
 
-Thomas Birnie is an independent researcher working on three-dimensional fluid dynamics and noncommutative spacetime.
+[CANONICAL.json](CANONICAL.json) identifies the current combined manuscript, its 42 source inputs, the portable custody object and the governing sanitized proof sources by their hashes.
 
-- [Research collection and reading routes](https://thomas-birnie-research.thomasgbirnie.chatgpt.site): eight public papers and monographs, subject summaries, citations, and a downloadable research brief.
-- [Combined Navier–Stokes paper](papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/unified-unforced-forced-openai-refutation.pdf): **Global Smoothness for the Three-Dimensional Incompressible Navier–Stokes Equations, with a Refutation of OpenAI’s Finite-Time Blowup Claim**. Begin with its opening “How the Proof Works” part.
-- [Read the revised 11-page “How the Proof Works” excerpt](papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/excerpt/how-the-proof-works-ns-excerpt.pdf): the October 20, 2026 revision, with its [guide source](papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/excerpt/guide.tex).
-- [Download the current 234-page PDF](papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/unified-unforced-forced-openai-refutation.pdf): the October 20 edition, including the revised opening guide, byte-identical to [Figshare version 4](https://doi.org/10.6084/m9.figshare.34005666.v4).
-- [Portable custody object](proof/): source snapshots, offline reader tools, and a ZIP for transfer to another AI.
-- [Reading guide: from a narrowing vortex to a terminal-time argument](https://thomas-birnie-research.thomasgbirnie.chatgpt.site/terminal-time-guide.html): follows Part I’s scaling, whole-interval derivative estimates, and endpoint continuation, with links to the published manuscript.
-- [Rebuild the combined manuscript](papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/): current and original TeX sources, source hashes, a tagged LuaLaTeX build route, and a separate pdfLaTeX submission copy.
-- [Verify the author’s public Figshare record](https://figshare.com/authors/Thomas_Birnie/24727603).
+- [Read the current combined manuscript](papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/unified-unforced-forced-openai-refutation.pdf). Begin with “How the Proof Works.”
+- [Read that opening as a standalone excerpt](papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/excerpt/how-the-proof-works-ns-excerpt.pdf).
+- [Download the current manuscript source](papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/current-source.zip), or [rebuild the manuscript](papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/).
+- [Download the portable proof object](proof/NS.proof-handoff.zip) and [read its instructions](proof/START.md).
+- [Read the current sanitized proof-source index](proof/current-sources/SOURCE-INDEX.json).
+- [Figshare record](https://doi.org/10.6084/m9.figshare.34005666). The current Git edition is dated October 28, 2026; the manifest records whether that exact PDF has also reached Figshare.
 
-The combined paper presents the author’s proofs of global smoothness and formal arguments refuting the proposed finite-time blowup. DOI-backed public deposit identifies the manuscript and author; it does not establish independent validation.
+Earlier papers, source snapshots, attempts and working notes remain in the retained research directories and edition archives. Their source dates and original scope remain available. The current reading route starts with the manuscript and sources identified above.
 
 ## Forced manuscript retained in this archive
 

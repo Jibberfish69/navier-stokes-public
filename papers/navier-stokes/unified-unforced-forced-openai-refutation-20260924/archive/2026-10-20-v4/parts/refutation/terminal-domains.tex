@@ -1,0 +1,82 @@
+
+\subsection{Graph domains of the Stokes linearization}
+\label{r:sec:linear-domains}
+
+The linearization around the smooth Stokes response has the
+parabolic graph domain of the heat operator.
+Write \(w=z\) for the prescribed Stokes response in
+\eqref{r:joined-eq:stokeslift}, and define
+\[
+ K_wv=\Pp[(w\cdot\nabla)v+(v\cdot\nabla)w],
+ \qquad L_w=\partial_t-\nu\Delta+K_w.
+\]
+For an integer \(m\ge0\), let
+\[
+ \mathcal E_m(0,S)=
+ C([0,S];H^m_\sigma)\cap L^2(0,S;H^{m+1}_\sigma),
+ \qquad v_t\in L^2(0,S;H^{m-1}_\sigma).
+\]
+The derivative condition is included in the definition of \(\mathcal E_m\).
+
+\begin{proposition}[Linear graph domains]
+For \(0<S\le T\), the initial-trace graph completions of \(L_w\) and
+\(L_0=\partial_t-\nu\Delta\) both equal \(\mathcal E_m(0,S)\).
+Their norms are equivalent with constants bounded independently of \(S\):
+\begin{equation}
+ \begin{aligned}
+ &\norm v_{CH^m}+\norm v_{L^2H^{m+1}}
+       +\norm{v_t}_{L^2H^{m-1}}\\
+ &\qquad\le C_{m,\nu,T,w}
+ \left(\norm{v(0)}_{H^m}+\norm{L_wv}_{L^2H^{m-1}}\right).
+ \end{aligned}
+ \label{r:eq:linear-domain-bound}
+\end{equation}
+Every coefficient in the constant is determined by finitely many prescribed
+source norms, with no restriction on their size.
+\end{proposition}
+
+\begin{proof}
+Product differentiation and the divergence form at \(m=0\) give
+\[
+ \norm{K_wv}_{H^{m-1}}
+ \le C_m\norm w_{W^{m+1,\infty}}\norm v_{H^m}.
+\]
+Put \(r=L_wv\), and pair the equation at height \(m\), distributing
+the duality between \(H^{m-1}\) and \(H^{m+1}\).
+Since
+\(\norm{\nabla v}_{H^m}^2=\norm v_{H^{m+1}}^2-\norm v_{H^m}^2\),
+Young's inequality yields
+\[
+ \frac{\dd}{\dd t}\norm v_{H^m}^2+\nu\norm v_{H^{m+1}}^2
+ \le C_{m,\nu,w}\norm v_{H^m}^2+C_\nu\norm r_{H^{m-1}}^2.
+\]
+Gronwall and integration give the first two norms in
+\eqref{r:eq:linear-domain-bound}; the equation gives the third.
+The exponential factor is bounded by its value at \(T\).
+Conversely, each member of \(\mathcal E_m\) has \(L_wv\in L^2H^{m-1}\)
+by the product bound. Approximation of its initial trace and residual,
+followed by the difference estimate, gives the graph completion.
+Existence for the approximating linear problems follows from the heat
+integral equation on a finite partition, on which its smooth bounded
+coefficients give contraction. The energy estimate joins those intervals.
+\end{proof}
+
+Temporal differentiation retains the earlier lift rows. If
+\(W_n=\partial_t^nv\), \(Z_a=\partial_t^aw\), and
+\(h_w=-\Pp[(w\cdot\nabla)w]\), the exact equation is
+\[
+ L_wW_n+\sum_{a=0}^n\binom na
+       \Pp[(W_a\cdot\nabla)W_{n-a}]
+ =\partial_t^nh_w-\sum_{a=1}^n\binom na K_{Z_a}W_{n-a}.
+\]
+For \(c_{a,m}=C_m\sup_{t\le T}\norm{Z_a}_{W^{m+1,\infty}}\),
+\[
+ \norm{\partial_t^n(K_wv)}_{L^2H^{m-1}}
+ \le\sum_{a=0}^n\binom na c_{a,m}\norm{W_{n-a}}_{L^2H^m}.
+\]
+The adjacent pair has parabolic degree \(2n+m+1\); each velocity
+factor on this right side has degree at most \(2n+m\).
+At the base corner, kinetic energy already supplies the lower row.
+These source contributions preserve the terminal linear domain.
+The nonlinear self-interaction remains in the displayed equation, so
+the domain estimate does not identify \(v\) with an unforced solution.

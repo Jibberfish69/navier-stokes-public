@@ -1,0 +1,190 @@
+\subsection{The localization residual}
+
+Multiplication by a spatial cutoff changes the fluid's velocity gradients.
+The resulting force must include those changes, including the correction
+needed to preserve incompressibility. OpenAI's local representation is
+\(v=\operatorname{curl}\mathcal A+B e_\theta\), with \(B\) independent
+of the angle. Its localization is exactly
+\begin{equation}
+ u=cv+w,\qquad w=\nabla c\times\mathcal A,\qquad p=c\pi,
+ \qquad c=\chi_x\chi_t.
+ \label{r:eq:localization-fields}
+\end{equation}
+Here \(\pi\) is the local pressure, and \(c\) is axisymmetric.
+This is \cite[(10.4)]{openai-paper}: the curl acts on \(c\mathcal A\),
+while the swirl is multiplied directly by \(c\). In particular,
+\(\nabla\cdot u=0\). Introducing a vector potential for the exterior
+swirl and localizing that additional potential would change the field.
+
+Write \(\mathcal R_\nu(v,\pi)=v_t+(v\cdot\nabla)v-\nu\Delta v+\nabla\pi\).
+Expanding \eqref{r:eq:localization-fields} gives the entire localization error:
+\begin{equation}
+\begin{aligned}
+ f-c\mathcal R_\nu(v,\pi)
+ ={}&(c_t-\nu\Delta c)v-2\nu\sum_{i=1}^3(\partial_i c)\partial_i v
+       +\pi\nabla c\\
+ &+(c^2-c)(v\cdot\nabla)v+c(v\cdot\nabla c)v\\
+ &+w_t-\nu\Delta w+c(v\cdot\nabla)w\\
+ &+c(w\cdot\nabla)v+(w\cdot\nabla)w.
+\end{aligned}
+\label{r:eq:localization-residual}
+\end{equation}
+The apparent additional product \((w\cdot\nabla c)v\) vanishes because
+\((\nabla c\times\mathcal A)\cdot\nabla c=0\).
+Every remaining term belongs to the prescribed force. Where
+both cutoffs are constant at one, \(w=0\) and the error vanishes.
+Where they vanish on a neighborhood, the localized fields vanish too.
+The extra force is confined to the transitions between these regions.
+
+In the heat exterior, near time one, \(\mathcal A=0\) and
+\(v=K e_\theta\). The formula becomes a concrete force field:
+\begin{equation}
+\begin{aligned}
+ f={}&\left[\chi_x(1-\chi_x)\frac{K^2}{r}
+                 +\pi\partial_r\chi_x\right]e_r
+        +\pi\partial_z\chi_x e_z\\
+ &-\nu\left[2(\partial_r\chi_x)K_r
+       +K\left(\partial_{rr}\chi_x+r^{-1}\partial_r\chi_x
+                         +\partial_{zz}\chi_x\right)\right]e_\theta.
+\end{aligned}
+\label{r:eq:exterior-cutoff-force-full}
+\end{equation}
+The radial force accounts for the changed centrifugal balance and the
+pressure cutoff. The axial term comes from the pressure cutoff alone.
+The angular force accounts for diffusion across the tapered swirl.
+All three vanish where \(\chi_x\) is constant at one. The bounds below
+control every finite derivative on their transition support.
+
+For a space--time region \(\Sigma\), define the finite mixed-jet
+seminorm
+\[
+ \mathcal J_m(F;\Sigma)
+ =\sum_{|\gamma|\le m}\frac{\norm{\partial^\gamma F}_{L^\infty(\Sigma)}}{\gamma!},
+ \qquad \gamma\in\mathbb N_0^4.
+\]
+The four entries of \(\gamma\) count three spatial derivatives and one
+temporal derivative. The multinomial product rule gives
+\(\mathcal J_m(FG)\le\mathcal J_m(F)\mathcal J_m(G)\), also for dot
+and cross products. Each coordinate derivative obeys
+\(\mathcal J_m(\partial_i F)\le(m+1)\mathcal J_{m+1}(F)\).
+
+On a transition region put
+\[
+ \begin{aligned}
+ C_m&=\mathcal J_m(c),& V_m&=\mathcal J_m(v),\\
+ A_m&=\mathcal J_m(\mathcal A),& P_m&=\mathcal J_m(\pi).
+ \end{aligned}
+ \qquad
+ U_m=C_mV_m+3(m+1)C_{m+1}A_m.
+\]
+Then \(\mathcal J_m(u)\le U_m\) and
+\(\mathcal J_m(p)\le C_mP_m\). Differentiating the full momentum
+residual gives the explicit force-jet bound
+\begin{equation}
+\begin{aligned}
+ \mathcal J_m(f)\le{}&(m+1)U_{m+1}
+       +3(m+1)U_mU_{m+1}\\
+ &+3\nu(m+1)(m+2)U_{m+2}
+       +3(m+1)C_{m+1}P_{m+1}.
+\end{aligned}
+\label{r:eq:localized-jet-bound}
+\end{equation}
+This bounds every fixed temporal and spatial source derivative once the
+local field jets on the transition have been bounded. It requires no
+constant shared by infinitely many orders.
+
+\subsection{Uniform derivative bounds on the cutoff transitions}
+
+The relevant bounds follow from the actual support geometry. The cutoff
+in \cite[p.~118]{openai-paper} equals one for
+\(r\le r_0/2\), \(|z|\le z_0/2\), and has compact support inside
+\(r<r_0\), \(|z|<z_0\). Every spatial cutoff error in
+\eqref{r:eq:localization-residual}, including \(c^2-c\) near time one,
+is supported where
+\[
+ r\ge r_0/2\quad\hbox{or}\quad |z|\ge z_0/2.
+\]
+The construction's coordinates satisfy
+\[
+ \tau=q(1-\eta^2),\quad z=q^D\eta,\quad
+ X=\frac{r^2}{2q},\quad |\eta|\le1,
+ \qquad D=\frac12-h>0.
+\]
+On the axial transition, \(q\ge |z|^{1/D}\) yields
+\[
+ q\ge q_z:=(z_0/2)^{1/D}>0.
+\]
+This remains true as \(r\) tends to zero. On the radial transition,
+any correction inside \(X\le X_{\rm ext}\) satisfies
+\[
+ q=\frac{r^2}{2X}\ge q_r:=\frac{r_0^2}{8X_{\rm ext}}>0.
+\]
+Thus every interior correction meeting a spatial transition has
+\(q\ge\min(q_z,q_r)>0\). The cutoff choices also ensure
+\(q<q_*/2\), by \cite[(10.3)]{openai-paper}. This is precisely the
+closed scale range covered by Theorem~3.1(ii) of that paper.
+
+The one-sided interior bound has a concrete finite-order meaning.
+On \(q\ge\delta>0\), only finitely many summands in
+\cite[(9.21)]{openai-paper} survive, since their cutoff scales tend to
+infinity. The finite representatives, fixed phase labels, and closed
+parameter bounds are those specified in Proposition~9.9, Step~3.
+Coordinate conversion has denominator
+\(1-2h\eta^2\ge1-2h>0\). At the axis, the potential is represented
+in Cartesian coordinates as \(a(r^2,z,t)(-x_2,x_1,0)\), as in
+\cite[(10.1)]{openai-paper}. These are the stated interior inputs to
+the finite numbers \(V_m,A_m,P_m\) in \eqref{r:eq:localized-jet-bound}.
+
+If \(q\) approaches zero on the remaining radial transition, the field
+is instead in \(X\ge X_{\rm ext}\). There
+\(\mathcal A=0\), \(v=K e_\theta\), and
+\(\pi=-\int_r^\infty K^2\dd\rho/\rho\).
+The heat-profile formula gives
+\[
+ |\partial_\tau^jK|\le C_jr^{-1-2h-2j},\qquad
+ |\partial_\tau^j\pi|
+ \le\frac{C_j}{2+4h+2j}r^{-2-4h-2j}.
+\]
+Their further spatial derivatives are bounded at \(r\ge r_0/2\).
+Temporal cutoff derivatives occur only where
+\(\tau_0/2\le\tau\le\tau_0\), which gives \(q\ge\tau_0/2\).
+Every transition thus supplies finite jets for
+\eqref{r:eq:localized-jet-bound}.
+
+Near the proposed singular point both cutoffs equal one. The source is
+then the local residual itself. Theorem~3.1(iii) supplies its all-orders
+flatness on \(X\le X_{\rm ext}\); beyond that region the residual is
+exactly zero. Combining this input with the transition bounds proves
+\begin{equation}
+ \sup_{x\in\R^3,\,0\le t<1}|\partial_x^\alpha\partial_t^j f(x,t)|<\infty
+ \qquad\hbox{for every finite }\alpha,j.
+ \label{r:eq:localized-source-jets}
+\end{equation}
+One additional time derivative in this bound makes each preceding jet
+uniformly Cauchy as \(t\uparrow1\). Uniform spatial derivative limits
+give compatible smooth terminal fields with fixed compact support.
+Let \(K\subset\mathbb R^3\) be a fixed compact set containing these supports.
+The source's finite Sobolev coordinates can now be bounded explicitly.
+Put
+\[
+ M_{N,M}=\max_{0\le j\le N,\ |\alpha|\le M}
+ \sup_{x,t<1}|\partial_x^\alpha\partial_t^j f(x,t)|.
+\]
+Expanding the integer Fourier weight \((1+|\xi|^2)^M\), whose
+nonnegative multinomial coefficients sum to \(4^M\), gives
+\begin{equation}
+ \sum_{j=0}^N\norm{\partial_t^jf}_{L^2(0,1;H^M)}^2
+ \le (N+1)4^M|K|M_{N,M}^2<\infty.
+ \label{r:eq:localized-source-rectangle}
+\end{equation}
+Thus the actual localized source belongs to every finite mixed Sobolev
+coordinate under the stated local inputs. The next construction extends
+its terminal fields through time one.
+
+Localization thus preserves source smoothness under the interior
+hypotheses of \cite[Theorem~3.1]{openai-paper}. The local residual
+estimate \cite[(3.4)]{openai-paper}, based on the finite-stage estimate
+\cite[(9.18)]{openai-paper}, is an input to this conclusion; the
+calculation above bounds the additional terms produced by the cutoffs.
+
+\subsection{Continuing the terminal force jets}

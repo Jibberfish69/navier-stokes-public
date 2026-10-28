@@ -1,0 +1,85 @@
+\subsection{Explicit rectangles for finite material orders}
+\label{r:sec:material-target-rectangle}
+
+The finite footprint of the material jet gives an explicit answer when
+the desired derivative orders are specified. Fix integers \(N,K,m\ge0\)
+and put
+\[
+ J_*=N+K,\qquad q=\max(m,2),\qquad Q=q+K,
+ \qquad R=R_{J_*,Q}.
+\]
+Define
+\[
+ d_0=\max_{0\le j\le J_*}\|V_j(0)\|_{H^Q},\qquad
+ X=\sqrt R,\qquad Z=\sqrt{d_0^2+R}.
+\]
+The initial recurrence \eqref{r:eq:initial} includes the initial source
+derivatives and makes \(d_0\) finite. Each temporal row in this selection
+has a continuous \(H^Q\) representative, with
+\begin{equation}
+\begin{aligned}
+ \sup_{0\le t\le T}\|V_j(t)\|_{H^Q}^2
+ &\le\|V_j(0)\|_{H^Q}^2
+ +2\|V_j\|_{L^2H^{Q+1}}\|V_{j+1}\|_{L^2H^{Q-1}}\\
+ &\le d_0^2+R=Z^2.
+\end{aligned}
+\label{r:eq:material-target-trace}
+\end{equation}
+This follows by pairing the two adjacent Sobolev coordinates when
+differentiating the squared \(H^Q\) norm. The Hilbert triple
+\(H^{Q+1}\subset H^Q\subset H^{Q-1}\) also supplies continuity.
+
+Every scalar component of \(D_t^ku\) is a sum of monomials
+\[
+ c\prod_{\ell=1}^{r}\partial_x^{\beta_\ell}V_{j_\ell},
+ \quad 1\le r\le k+1,\quad
+ \sum_\ell j_\ell=k+1-r,\quad
+ \sum_\ell|\beta_\ell|=r-1.
+\]
+A temporal derivative increments one temporal index. Transport adds
+one velocity factor and one spatial derivative. This proves the
+displayed footprint by induction. After \(n\) ordinary temporal
+derivatives, its temporal total is \(n+k+1-r\). The unique linear term
+is \(V_{n+k}\); every nonlinear term has strictly lower temporal indices.
+
+For integer \(q\ge2\), a scalar Sobolev algebra constant is
+\[
+ K_q=2^q(2\pi)^{-3/2}
+ \left(\pi^{3/2}\frac{\Gamma(q-3/2)}{\Gamma(q)}\right)^{1/2}.
+\]
+Indeed, the weight inequality
+\(\langle\xi\rangle^q\le2^{q-1}
+(\langle\eta\rangle^q+\langle\xi-\eta\rangle^q)\), Fourier
+convolution, and Cauchy--Schwarz with
+\(\int\langle\xi\rangle^{-2q}d\xi
+=\pi^{3/2}\Gamma(q-3/2)/\Gamma(q)\) give
+\(\|vw\|_{H^q}\le K_q\|v\|_{H^q}\|w\|_{H^q}\).
+
+For each component, the total absolute monomial coefficient in
+\(D_t^ku\) is at most \(4^k k!\). A monomial with \(r\) factors
+produces at most \(r\) temporal terms and \(3r\) transport terms
+at the next material derivative. Applying \(n\) further temporal
+derivatives costs at most \((k+1)^n\). Set
+\[
+ L_{n,k,m}=\sqrt3\,4^k k!(k+1)^n\max(1,K_q)^k.
+\]
+The factor \(\sqrt3\) combines the three scalar components. Since each
+spatial factor has order at most \(K\), its \(H^q\) norm is bounded
+by its parent's \(H^Q\) norm. Place one factor in \(L^2_tH^q_x\)
+and all others in \(L^\infty_tH^q_x\). For every \(n\le N\),
+\(k\le K\), this proves
+\begin{equation}
+\begin{aligned}
+ \|\partial_t^nD_t^ku\|_{L^2(0,T;H^m)}
+ &\le L_{n,k,m}X\max(1,Z)^k,\\
+ \sup_{0\le t\le T}\|\partial_t^nD_t^ku(t)\|_{H^m}
+ &\le L_{n,k,m}Z\max(1,Z)^k.
+\end{aligned}
+\label{r:eq:material-target-bounds}
+\end{equation}
+Continuity of the factors and of multiplication in \(H^q\) gives a
+continuous \(H^m\) terminal trace. Replacing \(m\) by \(m+b\)
+also controls spatial derivatives through order \(b\).
+Every desired finite material order thus has a specified finite
+rectangle within the full intersection. The constants may depend on
+those requested orders.

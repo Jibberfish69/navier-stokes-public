@@ -1,0 +1,74 @@
+{
+  "canonical:custody:live-theorem-edge": {
+    "id": "canonical:custody:live-theorem-edge",
+    "path": "problems/navier-stokes/live-theorem-edge.yaml",
+    "origin": "approved-sanitized-proof-source-20261028",
+    "sha256": "bad9a5706b2e5a6e5dab3a04b11f62fd3c93dfe903431ea113f7ca021353fae2",
+    "line_count": 227,
+    "source_sha256": "c30bda556b51324984e051098201d0413ceb7fe1d3cc5f2e5304e458bb6b933b",
+    "sanitized_sha256": "bad9a5706b2e5a6e5dab3a04b11f62fd3c93dfe903431ea113f7ca021353fae2",
+    "snapshot_id": "ee5d59524e6bff69aa405d9123cc8b4c7c3fcb34b5f2dc347b9994a154c2e674",
+    "citation_line_scope": "Lines refer to the sanitized document, with original source hashes retained for owner verification.",
+    "download": "live-theorem-edge.yaml"
+  },
+  "canonical:custody:target-contract": {
+    "id": "canonical:custody:target-contract",
+    "path": "problems/navier-stokes/target-operating-contract.yaml",
+    "origin": "approved-sanitized-proof-source-20261028",
+    "sha256": "4627005656b0241742fb481dab46ec74a0b56b5256a2d688c3d605756800af0d",
+    "line_count": 72,
+    "source_sha256": "01066728128c507bdb4e3623eaa891702c2c022e625407a18a48336dc9e490e1",
+    "sanitized_sha256": "4627005656b0241742fb481dab46ec74a0b56b5256a2d688c3d605756800af0d",
+    "snapshot_id": "ee5d59524e6bff69aa405d9123cc8b4c7c3fcb34b5f2dc347b9994a154c2e674",
+    "citation_line_scope": "Lines refer to the sanitized document, with original source hashes retained for owner verification.",
+    "download": "target-contract.yaml"
+  },
+  "canonical:custody:closure": {
+    "id": "canonical:custody:closure",
+    "path": "problems/navier-stokes/theorem-construction/complete-mixed-intersection-global-closure-and-upstream-boundary-20260801.md",
+    "origin": "approved-sanitized-proof-source-20261028",
+    "sha256": "cccf64a44560b3a19288a2a100e32ea21311072a613c4a0f66d579bb6af53737",
+    "line_count": 834,
+    "source_sha256": "cccf64a44560b3a19288a2a100e32ea21311072a613c4a0f66d579bb6af53737",
+    "sanitized_sha256": "cccf64a44560b3a19288a2a100e32ea21311072a613c4a0f66d579bb6af53737",
+    "snapshot_id": "ee5d59524e6bff69aa405d9123cc8b4c7c3fcb34b5f2dc347b9994a154c2e674",
+    "citation_line_scope": "Lines refer to the sanitized document, with original source hashes retained for owner verification.",
+    "download": "closure.md"
+  },
+  "canonical:custody:forced-custody": {
+    "id": "canonical:custody:forced-custody",
+    "path": "problems/navier-stokes/theorem-construction/forced-native-proof-custody-20260919.md",
+    "origin": "approved-sanitized-proof-source-20261028",
+    "sha256": "2ff978a8bfd4ae5284fea9f4fdcc8582675f565197e185dcd0b891fb02f95162",
+    "line_count": 2444,
+    "source_sha256": "2ff978a8bfd4ae5284fea9f4fdcc8582675f565197e185dcd0b891fb02f95162",
+    "sanitized_sha256": "2ff978a8bfd4ae5284fea9f4fdcc8582675f565197e185dcd0b891fb02f95162",
+    "snapshot_id": "ee5d59524e6bff69aa405d9123cc8b4c7c3fcb34b5f2dc347b9994a154c2e674",
+    "citation_line_scope": "Lines refer to the sanitized document, with original source hashes retained for owner verification.",
+    "download": "forced-custody.md"
+  },
+  "canonical:custody:proof-spine": {
+    "id": "canonical:custody:proof-spine",
+    "path": "problems/navier-stokes/theorem-construction/thomas-one-fluid-reversible-intersection-proof-spine-20260803.md",
+    "origin": "approved-sanitized-proof-source-20261028",
+    "sha256": "769a0d3f7960251e0a55523eb3ce73f990975dd10ec640ea3e6318a7ba401d87",
+    "line_count": 1967,
+    "source_sha256": "3c23a4fa9ad17b2c627b62ff680bd98fde62a5eaced7f8c4169e43613b44abce",
+    "sanitized_sha256": "769a0d3f7960251e0a55523eb3ce73f990975dd10ec640ea3e6318a7ba401d87",
+    "snapshot_id": "ee5d59524e6bff69aa405d9123cc8b4c7c3fcb34b5f2dc347b9994a154c2e674",
+    "citation_line_scope": "Lines refer to the sanitized document, with original source hashes retained for owner verification.",
+    "download": "proof-spine.md"
+  },
+  "canonical:custody:theorem-packet": {
+    "id": "canonical:custody:theorem-packet",
+    "path": "problems/navier-stokes/theorem-packet.yaml",
+    "origin": "approved-sanitized-proof-source-20261028",
+    "sha256": "71fa972ebcdae3feb06c7526ca992ef3286361fe604bbbd36c40a051631ef679",
+    "line_count": 46,
+    "source_sha256": "71fa972ebcdae3feb06c7526ca992ef3286361fe604bbbd36c40a051631ef679",
+    "sanitized_sha256": "71fa972ebcdae3feb06c7526ca992ef3286361fe604bbbd36c40a051631ef679",
+    "snapshot_id": "ee5d59524e6bff69aa405d9123cc8b4c7c3fcb34b5f2dc347b9994a154c2e674",
+    "citation_line_scope": "Lines refer to the sanitized document, with original source hashes retained for owner verification.",
+    "download": "theorem-packet.yaml"
+  }
+}

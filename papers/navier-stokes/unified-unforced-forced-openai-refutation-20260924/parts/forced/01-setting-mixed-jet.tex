@@ -418,16 +418,14 @@ history these are the actual derivatives of \(u,p,f\), with the complete
 transport sum, pressure, viscosity, and force row retained. These finite jet
 realizations give every finite mixed Sobolev row on every strict horizon.
 
-At a proposed finite maximal time, fix finite temporal and spatial orders and
-close that index set under the adjacent temporal row, the viscous derivatives,
-every Leibniz allocation, the normalized pressure coordinate, and the
-prescribed force row.  The datum construction produces that finite
-pressure-complete record on \(I=(0,T_*)\), and coordinate deletion recovers
-every smaller record.  Ranging through the mixed indices exhausts every
-finite temporal and spatial order and gives the direct all-orders mixed
-Sobolev membership.  The next section independently derives the
-completed-height and viscous identities and evaluates them on these same
-coordinates.
+The prescribed triple generates the pressure-complete mixed jet with its
+spatial Sobolev domains. On the original interval, the construction retains
+all finite spatial orders in each temporal row and their compatible temporal
+derivative identities. Critical height supplies the spatial-domain reading
+alongside generation. The subsequent completed-height substitution displays
+viscosity while retaining every transport, pressure, and force-work term.
+Finite coordinate records and finite relationship rectangles are selections
+from this constructed structure.
 
 \begin{theorem}[Datum-generated strict-horizon mixed-jet intersection]
 \label{f:thm:strict-datum-intersection}
@@ -628,17 +626,21 @@ gradient component has the finite budget
 \eqref{f:eq:force-pressure-budget}.  Thus the affine force and every
 force-induced pressure coordinate are paid inside this finite forced record.
 
-The initial face, complete dependency cover, two projections, and prescribed
-affine source now form the input to the forced datum construction.
-Applied to this one graph and this one history, it supplies, for every
-\(n=0,\ldots,N\),
+The datum-generated forced jet already carries its compatible Sobolev
+coordinates on \(I\), with the prescribed force and its induced pressure
+response retained. Selecting this finite record keeps the adjacent velocity
+rows \(V_n,V_{n+1}\). For every \(n=0,\ldots,N\), their memberships are
 \[
  V_n\in L^2(I;H^{M+1}),
  \qquad
  V_{n+1}\in L^2(I;H^{M-1}).
 \]
-These are the memberships in
-\eqref{f:eq:independent-adjacent-finite-rows}.
+These are components of the constructed forced jet, as recorded in
+\eqref{f:eq:independent-adjacent-finite-rows}. The finite selection preserves
+their memberships on the original interval and the identity
+\(\partial_tV_n=V_{n+1}\). Equation~\eqref{f:eq:forced-finite-equation-graph}
+retains their complete transport, pressure, viscous, and prescribed-force
+coupling.
 
 For this fixed finite pair, form the sum of their defining squared norms:
 \[
@@ -672,11 +674,10 @@ satisfy the literal restriction identity
 \eqref{f:eq:independent-intersection-record} on \(I\).
 \end{proof}
 
-The datum-generated blocks admit two all-orders readings.  Ranging over their
-mixed indices gives the following intersection.  The next section independently
-derives the completed-height identities and uses their coordinates to recover
-the spatial column before the forced recurrence reconstructs those mixed
-rows.
+The following corollary writes the compatible mixed intersection of the
+generated forced jet in finite-index coordinates. The completed-height
+identities in the next section display its spatial orders and viscous
+relationships, with the original force retained.
 
 \begin{corollary}[Mixed-index exhaustion of the forced finite rectangles]
 \label{f:thm:datum-intersection}

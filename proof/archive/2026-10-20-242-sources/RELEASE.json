@@ -1,0 +1,132 @@
+{
+  "format": "ns-custody-public-release-v2",
+  "release_date": "2026-10-20",
+  "package_format": "proof-workspace-handoff/3",
+  "source_count": 242,
+  "transition_count": 20,
+  "authoritative_bundle_sha256": "f2d39ee70b7548d206e0d49c6d6b566c812a6057708463a061ed2f78fa67b030",
+  "proof_members_preserved_from_authoritative_bundle": true,
+  "all_seven_loose_members_match_bundle": true,
+  "manuscript_doi": "10.6084/m9.figshare.34005666.v4",
+  "manuscript_pdf_sha256": "b57b52b3ec74ecc45e2bf9bb7a301ab367ac20ef928ab9a9a143ccc406320e14",
+  "figshare": {
+    "article_id": 34005666,
+    "published_version": 4,
+    "published_version_doi": "10.6084/m9.figshare.34005666.v4",
+    "published_version_pdf_sha256": "b57b52b3ec74ecc45e2bf9bb7a301ab367ac20ef928ab9a9a143ccc406320e14",
+    "published_date": "2026-10-20T19:49:29Z",
+    "file_id": 70404168,
+    "download_url": "https://ndownloader.figshare.com/files/70404168",
+    "bytes": 7411132,
+    "october_20_update": "published"
+  },
+  "presentation_attachments": [
+    {
+      "path": "presentations/how-the-proof-works-ns-excerpt.pdf",
+      "title": "Latest proof excerpt",
+      "sha256": "09f8465e92842eb3d3e3b7b305972f7f2734284b4f120fb97d932a22aca7c3e8",
+      "bytes": 333831,
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "presentations/unified-unforced-forced-openai-refutation.pdf",
+      "title": "Revised main paper",
+      "sha256": "b57b52b3ec74ecc45e2bf9bb7a301ab367ac20ef928ab9a9a143ccc406320e14",
+      "bytes": 7411132,
+      "media_type": "application/pdf"
+    }
+  ],
+  "separate_current_manuscript_source": {
+    "path": "../papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/current-source.zip",
+    "input_count": 42,
+    "sha256": "6e8a1c544bd64e08949140c707cf0c5d7fd2d43a02c164811ca8ebcd9f8bebdf"
+  },
+  "prior_public_edition": {
+    "release_date": "2026-10-19",
+    "source_count": 58,
+    "path": "archive/2026-10-19-58-sources/",
+    "files_preserved_without_changes": true,
+    "files": {
+      "NS.proof-handoff.zip": {
+        "bytes": 1749822,
+        "sha256": "3169740dd9f5de18736336df6b7d853a7d4852f9aecf2091998c4c58e0412060"
+      },
+      "NS.proof.html": {
+        "bytes": 2643620,
+        "sha256": "a7d808a5b387a15e0ce0e3ecebf6604992036a041f743d21cc5e3b8b477a2d40"
+      },
+      "NS.proof.md": {
+        "bytes": 423244,
+        "sha256": "68a313b78ad185e8d84b54775be497eeb1ffb4f3327214bb01e9b39f691d27ba"
+      },
+      "NS.proof.pyz": {
+        "bytes": 655590,
+        "sha256": "52ec8d7311acf117218e9841c68ad58855b97acf0eb5b1d81d74522847ef0ca2"
+      },
+      "README.md": {
+        "bytes": 1738,
+        "sha256": "f8392651cb426ac00de260f2f5e30c983255474924f4b8b1d2ae6bf6c21b4659"
+      },
+      "RELEASE.json": {
+        "bytes": 2836,
+        "sha256": "0e9c98d16a5f36312a788e5530b662ca6566f33aa5604f6ac6d128a407dce69b"
+      },
+      "SHA256SUMS": {
+        "bytes": 399,
+        "sha256": "32e7b5aa43ef0ec9dbb826ecec599473d10ea0fb0bff8157cfa5b1204f48a819"
+      },
+      "START.md": {
+        "bytes": 1991,
+        "sha256": "6e135adc58feb8d6d7d834f6c2b4b3a81f66235ccec26c69907ac56849aca5a3"
+      }
+    }
+  },
+  "integrity": {
+    "runtime_verify": {
+      "ok": true,
+      "errors": [],
+      "manifest_present": true,
+      "source_count": 242,
+      "transition_count": 20,
+      "workspace_digest": "2b2dfea90195e45f007bd5f7daac1afc3c4a6c79524c818105bff2fbec90e8ad"
+    },
+    "handoff_zip_crc": true,
+    "handoff_manifest_hashes": true,
+    "loose_bundle_member_bytes": true
+  },
+  "prior_recipient_material_included": false,
+  "files": {
+    "NS.proof-handoff.zip": {
+      "bytes": 6585700,
+      "sha256": "f2d39ee70b7548d206e0d49c6d6b566c812a6057708463a061ed2f78fa67b030"
+    },
+    "NS.proof.html": {
+      "bytes": 4464658,
+      "sha256": "29d06bc12ac35b1790f29e067a6e7cd5377962d5b31a98271d127c6854e44198"
+    },
+    "NS.proof.md": {
+      "bytes": 442593,
+      "sha256": "4dfa76b9e4703c2574864ac55adff69cf0521d013646ed66a6e7a4515831d35e"
+    },
+    "NS.proof.pyz": {
+      "bytes": 1173286,
+      "sha256": "ad2d20f71df23e1d8ec7eb279f2dc22243b7bbe206569d16f4862f12a6826301"
+    },
+    "START.md": {
+      "bytes": 2669,
+      "sha256": "7e7a15b1be47412185ddaa4454de8ad5be072918190c75a2730c96d17ddec039"
+    },
+    "presentations/how-the-proof-works-ns-excerpt.pdf": {
+      "bytes": 333831,
+      "sha256": "09f8465e92842eb3d3e3b7b305972f7f2734284b4f120fb97d932a22aca7c3e8"
+    },
+    "presentations/unified-unforced-forced-openai-refutation.pdf": {
+      "bytes": 7411132,
+      "sha256": "b57b52b3ec74ecc45e2bf9bb7a301ab367ac20ef928ab9a9a143ccc406320e14"
+    },
+    "HANDOFF.json": {
+      "bytes": 2159,
+      "sha256": "ef6bbb9a9767a8763e4f2d61b0aa38d632a5b948b129498657fc4d0637050934"
+    }
+  }
+}

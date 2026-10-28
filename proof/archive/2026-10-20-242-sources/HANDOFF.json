@@ -1,0 +1,43 @@
+{
+  "format": "proof-workspace-handoff/3",
+  "contents": "Proof exposition, mathematical sources, runtime and offline views.",
+  "prior_recipient_material_included": false,
+  "source_recovery_entry": "source-recovery",
+  "source_recovery_scope": "Attributed historical and paper-source integration; no new theorem certification or test result.",
+  "text_entry": "NS.proof.md",
+  "tool_entry": "NS.proof.pyz",
+  "source_count": 242,
+  "members": {
+    "NS.proof.html": "29d06bc12ac35b1790f29e067a6e7cd5377962d5b31a98271d127c6854e44198",
+    "NS.proof.md": "4dfa76b9e4703c2574864ac55adff69cf0521d013646ed66a6e7a4515831d35e",
+    "NS.proof.pyz": "ad2d20f71df23e1d8ec7eb279f2dc22243b7bbe206569d16f4862f12a6826301",
+    "START.md": "7e7a15b1be47412185ddaa4454de8ad5be072918190c75a2730c96d17ddec039",
+    "presentations/how-the-proof-works-ns-excerpt.pdf": "09f8465e92842eb3d3e3b7b305972f7f2734284b4f120fb97d932a22aca7c3e8",
+    "presentations/unified-unforced-forced-openai-refutation.pdf": "b57b52b3ec74ecc45e2bf9bb7a301ab367ac20ef928ab9a9a143ccc406320e14"
+  },
+  "presentation_attachments": [
+    {
+      "path": "presentations/how-the-proof-works-ns-excerpt.pdf",
+      "title": "Latest proof excerpt",
+      "sha256": "09f8465e92842eb3d3e3b7b305972f7f2734284b4f120fb97d932a22aca7c3e8",
+      "bytes": 333831,
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "presentations/unified-unforced-forced-openai-refutation.pdf",
+      "title": "Revised main paper",
+      "sha256": "b57b52b3ec74ecc45e2bf9bb7a301ab367ac20ef928ab9a9a143ccc406320e14",
+      "bytes": 7411132,
+      "media_type": "application/pdf"
+    }
+  ],
+  "presentation_update": {
+    "scope": "Current presentation PDFs attached; proof files and source records unchanged.",
+    "base_bundle_sha256": "db9e9bd4849ca776e942ea800ebb10224c85725c10035cb89e5c8925833bf72b",
+    "unchanged_proof_members": {
+      "NS.proof.md": "4dfa76b9e4703c2574864ac55adff69cf0521d013646ed66a6e7a4515831d35e",
+      "NS.proof.html": "29d06bc12ac35b1790f29e067a6e7cd5377962d5b31a98271d127c6854e44198",
+      "NS.proof.pyz": "ad2d20f71df23e1d8ec7eb279f2dc22243b7bbe206569d16f4862f12a6826301"
+    }
+  }
+}

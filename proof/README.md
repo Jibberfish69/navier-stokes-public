@@ -1,57 +1,17 @@
-# Portable Navier–Stokes custody object
+# Current Navier–Stokes proof object
 
-[Download the complete ZIP](NS.proof-handoff.zip) · [Read the instructions](START.md) · [Current manuscript](../papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/)
+[Download the complete ZIP](NS.proof-handoff.zip) · [Read the instructions](START.md) · [Current manuscript](../papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/) · [Canonical release record](../CANONICAL.json)
 
-The October 20, 2026 release contains 242 retained source snapshots and 20 argument transitions.
-The ZIP and its seven loose members are published byte for byte from the supplied package.
-[RELEASE.json](RELEASE.json) records the package, presentation attachments, archived edition, and file hashes.
+The October 28, 2026 object contains 290 source snapshots: the earlier 242 records unchanged, the 42 current manuscript inputs, and six approved sanitized governing proof sources. Its current entries reproduce the frozen manuscript openings verbatim. Earlier reader routes remain labeled with their retained October 20 presentation date.
 
-## Current presentation PDFs
-
-- [How the Proof Works: 11-page excerpt](presentations/how-the-proof-works-ns-excerpt.pdf)
-- [Revised main paper: 234 pages](presentations/unified-unforced-forced-openai-refutation.pdf)
-
-The current manuscript's 42 TeX inputs have a [separate source archive](../papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/current-source.zip).
-The retained proof-source snapshots remain exactly as supplied in this custody package.
-The [Figshare version 4](https://doi.org/10.6084/m9.figshare.34005666.v4) download matches the revised main paper PDF in this package.
-
-## Choose a format
-
-| Format | Use |
-| --- | --- |
-| [NS.proof.md](NS.proof.md) | Attach this readable text file to an AI chat. |
-| [NS.proof-handoff.zip](NS.proof-handoff.zip) | Give this bundle to an AI that can extract files and run Python. |
-| [NS.proof.pyz](NS.proof.pyz) | Run the offline reader with Python 3. |
-| [NS.proof.html](NS.proof.html) | Download this viewer and open it in a local browser. |
-
-The ZIP includes these reading formats, [START.md](START.md), [HANDOFF.json](HANDOFF.json), and both presentation PDFs.
-
-## Use the offline reader
-
-Python 3 is the only requirement. The reader needs no network connection or additional packages.
-From the directory that contains `NS.proof.pyz`, run this command:
+The ZIP includes the current 233-page paper, the 11-page opening excerpt, the complete current source ZIP, and the offline reader in Markdown, HTML and executable formats. [RELEASE.json](RELEASE.json) and [SHA256SUMS](SHA256SUMS) bind these copies by their hashes.
 
 ```sh
 python3 NS.proof.pyz verify
+python3 NS.proof.pyz work --branch unforced --entry current
+python3 NS.proof.pyz work --branch forced --entry current
 ```
 
-To read the recovered unforced construction, run this command:
+The source viewer preserves source wording and symbols. [The current direct-source index](current-sources/SOURCE-INDEX.json) records the original owner-source hash and the sanitized public-source hash separately.
 
-```sh
-python3 NS.proof.pyz work --branch unforced --entry recovered
-```
-
-To read the recovered forced construction, run this command:
-
-```sh
-python3 NS.proof.pyz work --branch forced --entry recovered
-```
-
-[START.md](START.md) lists the other reading routes and the prompt for a new receiving AI.
-[SHA256SUMS](SHA256SUMS) contains the current release file hashes.
-The `verify` command checks archive integrity and retained source bytes.
-
-## Earlier public edition
-
-[The October 19 edition with 58 sources](archive/2026-10-19-58-sources/) preserves all eight previously published files without changes.
-[The archive index](archive/README.md) links its original ZIP and release record.
+[Earlier editions](archive/README.md) retain the prior public releases unchanged. The [Figshare record](https://doi.org/10.6084/m9.figshare.34005666) remains linked by its unversioned DOI; the release record states whether the exact current PDF has been deposited there.

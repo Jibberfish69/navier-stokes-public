@@ -1,0 +1,109 @@
+\section{Angular momentum and the role of symmetry}
+\label{r:sec:angular}
+
+The distinction between the leading vortex and the completed velocity
+matters to the comparison. The background in OpenAI's construction is
+axisymmetric. Its wave potentials contain factors
+\(e^{ikm\Phi}\), with \(\Phi=p\theta+\varphi\) and nonzero integer
+angular frequency \(kmp\)
+\cite[(6.27), (7.3), (7.38)]{openai-paper}. Taking their curls retains
+these harmonics. They enter the realized and localized velocity through
+\cite[(9.21), (10.4)]{openai-paper}; the final spatial cutoff does not
+average them over the angle. The complete field is nonaxisymmetric.
+
+One can see exactly why that distinction affects a force bound. Define
+angular momentum per unit mass about the axis by
+\(\Gamma=ru_\theta\). The angular component of \eqref{r:eq:ns}, including
+the derivatives of the cylindrical basis vectors, gives for \(r>0\)
+\begin{equation}
+ \begin{aligned}
+ \left(\partial_t+u_r\partial_r
+       +\frac{u_\theta}{r}\partial_\theta+u_z\partial_z\right)\Gamma
+ &=\nu\left(\partial_{rr}-\frac1r\partial_r
+       +\frac1{r^2}\partial_{\theta\theta}+\partial_{zz}\right)\Gamma\\
+ &\quad-\partial_\theta p
+       +\frac{2\nu}{r}\partial_\theta u_r+rf_\theta.
+ \end{aligned}
+ \label{r:eq:angular-full}
+\end{equation}
+Indeed, multiplying the angular momentum equation for \(u_\theta\) by
+\(r\) combines its geometric term \(u_ru_\theta\) with the material
+derivative of \(r\). The vector Laplacian contributes
+\(2\nu r^{-1}\partial_\theta u_r\). Pressure supplies the torque
+\(-\partial_\theta p\). These terms describe internal momentum transfer;
+they are present even when the prescribed force is small.
+
+\begin{proposition}[A force bound for axisymmetric angular momentum]
+\label{r:prop:angular-max}
+Suppose \(u,p,f\) are axisymmetric, solve \eqref{r:eq:ns} from rest, and
+\(u\) is bounded on every \(\R^3\times[0,S]\), \(S<T\).
+If \(G(t):=\int_0^t\norm{rf_\theta(s)}_\infty\dd s\) is finite through
+\(T\), then
+\begin{equation}
+ \norm{ru_\theta(t)}_\infty\le G(t),\qquad 0\le t<T.
+ \label{r:eq:angular-max}
+\end{equation}
+There is no source-amplitude restriction in this bound.
+\end{proposition}
+
+\begin{proof}
+Under these symmetry assumptions the angular derivatives in
+\eqref{r:eq:angular-full} vanish. The resulting scalar operator is
+\[
+ L=\partial_t+u_r\partial_r+u_z\partial_z
+       -\nu(\partial_{rr}-r^{-1}\partial_r+\partial_{zz}).
+\]
+Fix \(S<T\) and let \(M_S=\sup_{[0,S]\times\R^3}|u|\).
+For \(\Psi=1+r^2+z^2\) and \(c=M_S+2\nu+1\), direct differentiation
+gives
+\[
+ L(e^{ct}\Psi)
+ =e^{ct}\bigl(c\Psi+2ru_r+2zu_z-2\nu\bigr)>0.
+\]
+Here \(2M_S\sqrt{r^2+z^2}\le M_S\Psi\).
+Compare \(\pm\Gamma\) with \(G(t)+\epsilon e^{ct}\Psi\).
+The comparison functions dominate initially. At the axis,
+\(\Gamma=0\) by Cartesian smoothness; at spatial infinity their
+quadratic growth dominates \(|\Gamma|\le M_Sr\).
+Apply the scalar maximum principle on bounded cylinders away from the
+axis, using the integral of the maximum of \(|rf_\theta|\) on each
+cylinder as the temporal barrier. That integral is at most \(G\).
+For sufficiently large outer radius the quadratic barrier dominates the
+outer boundary values; at a sufficiently small excluded axial radius,
+\(|\Gamma|\le M_Sr\) is dominated by the positive barrier.
+Exhausting the domain gives
+\(\pm\Gamma\le G+\epsilon e^{ct}\Psi\) on \([0,S]\).
+Let \(\epsilon\downarrow0\) and then use the arbitrariness of \(S<T\).
+\end{proof}
+
+Smooth rapidly decreasing forcing satisfies the hypothesis on \(G\).
+This estimate would exclude an axisymmetric realization of the exterior
+growth calculated in Section~\ref{r:sec:exact-cancellation}, since there \(ru_\theta\) grows like
+\((1-t)^{-h}\). It does not assert global regularity for every
+axisymmetric velocity: a bound on \(ru_\theta\) is not a uniform bound
+on \(u_\theta\) near the axis.
+
+Nor does angular averaging turn the completed nonaxisymmetric field into
+a solution of the axisymmetric equation. Write a bar for angular average
+and a prime for the fluctuation about that average. Averaging the
+conservative form of \eqref{r:eq:angular-full} gives exactly
+\begin{equation}
+ \begin{aligned}
+ \partial_t\bar\Gamma+\bar u_r\partial_r\bar\Gamma
+       +\bar u_z\partial_z\bar\Gamma
+ &=\nu(\partial_{rr}-r^{-1}\partial_r+\partial_{zz})\bar\Gamma
+       +r\bar f_\theta\\
+ &\quad-\frac1r\partial_r
+       \left(r\overline{u_r'\Gamma'}\right)
+       -\partial_z\overline{u_z'\Gamma'}.
+ \end{aligned}
+ \label{r:eq:angular-mean}
+\end{equation}
+The pressure torque and angular viscous derivative average to zero, but
+the products in the transport flux do not. Two zero-mean harmonics can
+have a nonzero averaged product. OpenAI's covariance construction uses
+precisely these products to supply momentum flux
+\cite[(7.23), (9.11)]{openai-paper}. A force-only estimate for
+\(\bar\Gamma\) would have to control the two fluctuation fluxes in
+\eqref{r:eq:angular-mean}. Dropping them would change the equation being
+compared.

@@ -1,0 +1,87 @@
+
+\section{A sufficient condition from the squared momentum equation}
+\label{r:sec:first-rectangle}
+
+The temporal and viscous terms can be separated directly in an integrated
+identity. Write
+\[
+ \mathcal G=\Pp f-\Pp[(u\cdot\nabla)u],
+ \qquad u_t-\nu\Delta u=\mathcal G.
+\]
+For a strict classical horizon \(S<T\), put
+\[
+ X(S)=\int_0^S(\norm{u_t}_2^2+\nu^2\norm{\Delta u}_2^2)\dd t,
+ \qquad G_0=\norm{\nabla u_0}_2^2.
+\]
+The cross term in the squared equation is an endpoint energy:
+\begin{equation}
+ X(S)+\nu\norm{\nabla u(S)}_2^2
+ =\nu G_0+\int_0^S\norm{\mathcal G}_2^2\dd t.
+ \label{r:eq:first-rectangle-exact}
+\end{equation}
+Indeed, \(-2\ip{u_t}{\Delta u}=\partial_t\norm{\nabla u}_2^2\).
+This identity retains the full projected nonlinear term.
+
+Set
+\[
+ U=\norm{u_0}_2+\int_0^T\norm f_2\dd t,\qquad
+ L=TU^2+U^2/\nu,\qquad
+ \Phi=\int_0^T\norm{\Pp f}_2^2\dd t.
+\]
+The kinetic balance gives \(\sup_t\norm u_2\le U\) and
+\(\nu\int_0^S\norm{\nabla u}_2^2\dd t\le U^2/2\).
+Using the Bessel Sobolev norm,
+\[
+ \norm u_{H^2}^2=\norm u_2^2+2\norm{\nabla u}_2^2+\norm{\Delta u}_2^2.
+\]
+Consequently the first rectangle
+\(R_{0,1}(S)=\int_0^S(\norm u_{H^2}^2+\norm{u_t}_2^2)\dd t\)
+satisfies
+\begin{equation}
+ \begin{aligned}
+ R_{0,1}(S)&\le L+\max(1,\nu^{-2})X(S),\\
+ X(S)&\le\max(1,\nu^2)R_{0,1}(S).
+ \end{aligned}
+ \label{r:eq:first-rectangle-equivalence}
+\end{equation}
+A bound for the full \(\mathcal G\) integral thus supplies both
+velocity coordinates without first assuming that rectangle.
+
+The gradient trace identity and Young's inequality also give
+\[
+ \sup_{t\le S}\norm{\nabla u(t)}_2^2\le G_0+X(S)/\nu,
+ \qquad
+ \int_0^S\norm u_{H^2}^2\dd t\le L+X(S)/\nu^2.
+\]
+Fourier inversion gives
+\(\norm u_\infty^2\le\norm u_{H^2}^2/(8\pi)\), proved explicitly in
+\eqref{r:eq:embedding}. Since
+\(\norm{(u\cdot\nabla)u}_2\le\norm u_\infty\norm{\nabla u}_2\),
+substitution into \eqref{r:eq:first-rectangle-exact} yields
+\begin{equation}
+ X(S)\le\nu G_0+2\Phi+
+ \frac{(G_0+X(S)/\nu)(L+X(S)/\nu^2)}{4\pi}.
+ \label{r:eq:first-rectangle-polynomial}
+\end{equation}
+This proves a quantified criterion directly from the data. Define
+\[
+ a=\frac1{4\pi\nu^3},\qquad
+ b=\frac{G_0/\nu^2+L/\nu}{4\pi},\qquad
+ c=\nu G_0+2\Phi+\frac{G_0L}{4\pi}.
+\]
+If \(b<1\) and \((1-b)^2>4ac\), then
+\begin{equation}
+ \sup_{S<T}X(S)\le
+ \frac{1-b-\sqrt{(1-b)^2-4ac}}{2a}.
+ \label{r:eq:first-rectangle-root}
+\end{equation}
+To see this, rewrite \eqref{r:eq:first-rectangle-polynomial} as
+\(aX^2+(b-1)X+c\ge0\). Its two roots enclose a forbidden interval.
+The continuous function \(X\), starting from zero, cannot cross that interval.
+For rest datum the criterion becomes
+\[
+ \frac{U^2(T+\nu^{-1})}{4\pi\nu}
+ +\sqrt{\frac{2\Phi}{\pi\nu^3}}<1.
+\]
+The bound is uniform through \(T\). Without the stated root separation,
+\eqref{r:eq:first-rectangle-polynomial} does not supply an upper bound.

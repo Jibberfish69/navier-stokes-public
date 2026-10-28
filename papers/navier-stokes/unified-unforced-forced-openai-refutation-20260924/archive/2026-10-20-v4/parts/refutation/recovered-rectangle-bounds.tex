@@ -1,0 +1,416 @@
+% Recovered from direct-forced-intersection.md, lines 466--516, and
+% navier-stokes-pressure-material-investigation.md, lines 141--212,
+% 553--763, and 821--868.  The main paper uses B_n for full transport.
+% This fragment preserves that notation; projected transport is \Pp B_n.
+% All norms in time are over (0,T).  Insert after the basic rectangle,
+% product, pressure-projection, and acceleration identities are available.
+
+\section{General bounds for production, pressure, and acceleration}\label{r:sec:recovered-rectangle}
+\label{r:sec:recovered-rectangle-bounds}
+
+The selected rectangles control more than the critical energy and the
+pointwise momentum terms.  Each temporal row has its own nonlinear
+production and source work.  Retaining the full binomial row lets us bound
+these quantities together, and then use the two pressure projections to
+resolve how transport contributes to material acceleration.
+
+\subsection{The production and work of all temporal rows}
+
+Fix nonnegative integers \(N,m\).  The pressure work in row \(r\) vanishes
+after pairing with the solenoidal field \(V_r\).  The product estimate
+\eqref{r:eq:transport-product} gives
+\begin{equation}
+ |\mathcal P_{r,m}|
+ \le C_m\norm{V_r}_{H^m}
+ \sum_{a=0}^r\binom ra
+ \norm{V_a}_{H^{m+2}}\norm{V_{r-a}}_{H^{m+2}},
+ \qquad C_m=2^{m+1}c_\infty.
+ \label{r:eq:all-row-production-point}
+\end{equation}
+The two factors in every summand are retained: temporal differentiation
+does not preserve every cancellation of the zeroth row.
+
+Write
+\[
+ D_{N,m}:=\sum_{r=0}^N\norm{V_r(0)}_{H^m}^2.
+\]
+Integrating the adjacent trace identity from time zero and using
+\(2ab\le a^2+b^2\) gives
+\begin{equation}
+ \max_{r\le N}\norm{V_r}_{L^\infty H^m}
+ \le\sqrt{D_{N,m}+R_{N,m}}.
+ \label{r:eq:all-row-initial-trace}
+\end{equation}
+For \(x_a=\norm{V_a}_{L^2H^{m+2}}\), time Cauchy--Schwarz and the
+binomial symmetry give
+\[
+ \sum_{a=0}^r\binom ra x_ax_{r-a}
+ \le 2^r\sum_{a=0}^N x_a^2
+ \le 2^rR_{N,m+1}.
+\]
+We can now integrate \eqref{r:eq:all-row-production-point} and sum the full nonlinear contribution through row \(N\):
+\begin{equation}
+ \sum_{r=0}^N\norm{\mathcal P_{r,m}}_{L^1}
+ \le C_m(2^{N+1}-1)
+ \sqrt{D_{N,m}+R_{N,m}}\,R_{N,m+1}.
+ \label{r:eq:all-row-production-integral}
+\end{equation}
+This bounds the absolute production in every selected row, including
+each signed prefix integral.
+
+The source work admits a bound with one adjacent spatial derivative
+placed on each side of the pairing.  Since
+\[
+ W_{r,m}
+ =\operatorname{Re}\ip{\Lambda^{m+1}V_r}{\Lambda^{m-1}F_r},
+\]
+define
+\[
+ \mathcal F_{N,m-1}^{\rm work}
+ :=\left(\sum_{r=0}^N
+ \norm{\Lambda^{m-1}F_r}_{L^2L^2}^2\right)^{1/2}.
+\]
+Cauchy--Schwarz first in time and then over the finite rows yields
+\begin{equation}
+ \sum_{r=0}^N\norm{W_{r,m}}_{L^1}
+ \le\mathcal F_{N,m-1}^{\rm work}\sqrt{R_{N,m}}.
+ \label{r:eq:all-row-force-work}
+\end{equation}
+At \(m=0\), the source coordinate is \(\dot H^{-1}\).  The assumed
+spatial decay supplies its low frequencies.  For each fixed temporal
+order \(\ell\), differentiation of the pairing gives the further bound
+\begin{equation}
+ \begin{aligned}
+ \norm{\partial_t^\ell W_{r,m}}_{L^1}
+ &\le\sum_{a=0}^{\ell}\binom\ell a
+ \norm{\Lambda^{m+1}V_{r+a}}_{L^2L^2}
+ \norm{\Lambda^{m-1}F_{r+\ell-a}}_{L^2L^2}.
+ \end{aligned}
+ \label{r:eq:all-row-force-work-derivatives}
+\end{equation}
+Every factor is a finite coordinate of the velocity or the prescribed
+source.  The constants may depend on \(N,m,\ell\); the calculation
+requires no bound uniform over all derivative orders.
+
+\subsection{Projected transport from products and adjacent rows}
+
+The pressure projection also gives direct integral estimates for the
+nonlinear field, before it is paired with velocity.  Put
+\[
+ X_{a,j}:=\norm{V_a}_{L^2H^j}.
+\]
+For every nonnegative integer \(M\), choose the finite product constant
+\(C_M^{\rm alg}\) in
+\[
+ \norm{v\otimes w}_{H^M}
+ \le C_M^{\rm alg}\norm v_{H^{M+1}}\norm w_{H^{M+1}}.
+\]
+For \(M=0\), this follows from \(H^1\subset L^4\) and H\"older;
+at higher integer orders it follows by the finite Leibniz expansion
+and the Sobolev product bounds.  Tensor divergence maps \(H^M\) to
+\(H^{M-1}\) with norm at most one, and both \(\Pp\) and
+\(\mathbb Q=I-\Pp\) are contractions in these Fourier Sobolev norms.
+Applying them to the full transport row gives
+\begin{equation}
+ \begin{aligned}
+ \norm{\Pp B_n}_{L^1H^{M-1}},\quad
+ \norm{\mathbb Q B_n}_{L^1H^{M-1}}
+ &\le C_M^{\rm alg}
+ \sum_{a=0}^n\binom na X_{a,M+1}X_{n-a,M+1}\\
+ &\le C_M^{\rm alg}2^nR_{N,M},\qquad n\le N.
+ \end{aligned}
+ \label{r:eq:projected-transport-product-integral}
+\end{equation}
+Here and below the two quantities separated by a comma each obey the
+displayed bound.
+
+Let \(Q_n^u\) denote the normalized nonlinear pressure in row \(n\),
+so that \(\nabla Q_n^u=-\mathbb Q B_n\).  Its scalar reconstruction
+is a double Riesz transform of the binomial tensor sum.  The multiplier
+has norm at most one from the Frobenius tensor norm to the scalar
+norm.  The product estimate consequently gives
+\begin{equation}
+ \begin{aligned}
+ \norm{Q_n^u}_{L^1H^M}
+ +\norm{\nabla Q_n^u}_{L^1H^{M-1}}
+ &\le 2C_M^{\rm alg}
+ \sum_{a=0}^n\binom na X_{a,M+1}X_{n-a,M+1}\\
+ &\le 2C_M^{\rm alg}2^nR_{N,M}.
+ \end{aligned}
+ \label{r:eq:nonlinear-pressure-product-integral}
+\end{equation}
+The total pressure gradient includes \(\mathbb QF_n\) as well.
+
+Using the next temporal coordinate gives a stronger time norm for the
+projected transport.  The momentum row itself reads
+\[
+ \Pp B_n-\Pp F_n=\nu\Delta V_n-V_{n+1}.
+\]
+Its two terms on the right belong to the adjacent rectangle, so
+\[
+ \norm{\Pp B_n-\Pp F_n}_{L^2H^m}
+ \le\nu X_{n,m+2}+X_{n+1,m}.
+\]
+Scalar Cauchy--Schwarz with coefficients \((\nu,1)\), followed by
+summation over \(n\), gives the explicit complete-row bound
+\begin{equation}
+ \left(\sum_{n=0}^N
+ \norm{\Pp B_n-\Pp F_n}_{L^2H^m}^2\right)^{1/2}
+ \le\sqrt{\nu^2+1}\,R_{N,m+1}^{1/2}.
+ \label{r:eq:projected-transport-adjacent}
+\end{equation}
+The right side retains the next temporal row.  This is the direct
+bound of the nonlinear field participating in the equation along the
+selected history.
+
+The spatial recovery in that equation is also explicit.  The Fourier
+inequality \((1+|\xi|^2)^2\le2(1+|\xi|^4)\) implies
+\begin{equation}
+ \norm{V_n}_{H^{m+2}}
+ \le\sqrt2\left[
+ \norm{V_n}_{H^m}
+ +\nu^{-1}\norm{V_{n+1}+\Pp B_n-\Pp F_n}_{H^m}\right].
+ \label{r:eq:adjacent-spatial-recovery}
+\end{equation}
+Both the temporal derivative and the complete projected nonlinear
+response remain in this recovery of two spatial derivatives.
+
+\subsection{Higher pressure rows and their time norms}
+
+The pressure gain in \eqref{r:eq:pressure-critical-gain} extends to every
+temporal row.  For two solenoidal fields, expanding the divergence gives
+\[
+ \operatorname{div}((v\cdot\nabla)w)
+ =\partial_i v_j\,\partial_j w_i.
+\]
+This expression is symmetric under exchanging \(v,w\).  The gradient
+projection has the exact norm relation
+\[
+ \norm{\mathbb Q((v\cdot\nabla)w)}_{\dot H^{1/2}}
+ =\norm{\partial_i v_j\,\partial_j w_i}_{\dot H^{-1/2}}.
+\]
+With \(c_*=(\sqrt2\pi)^{-1}\), the Sobolev inequality and its dual
+bound the right side by
+\(c_*\norm v_{\dot H^{3/2}}\norm w_{\dot H^{3/2}}\).
+Apply this to every binomial summand:
+\begin{equation}
+ \norm{\nabla Q_n^u}_{\dot H^{1/2}}
+ \le c_*\sum_{a=0}^n\binom na
+ \norm{V_a}_{\dot H^{3/2}}\norm{V_{n-a}}_{\dot H^{3/2}}.
+ \label{r:eq:pressure-all-temporal-endpoint}
+\end{equation}
+The symmetry also gives
+\begin{equation}
+ \begin{aligned}
+ \norm{\mathbb Q((v\cdot\nabla)w)}_{\dot H^{-1/2}}
+ \le c_*\min\bigl\{&
+ \norm v_{\dot H^{1/2}}\norm w_{\dot H^{3/2}},\\
+ &\norm w_{\dot H^{1/2}}\norm v_{\dot H^{3/2}}\bigr\}.
+ \end{aligned}
+ \label{r:eq:pressure-factor-exchange}
+\end{equation}
+Either assignment of the two heights is available for the pressure
+component because its divergence retains a derivative on both factors.
+
+For the zeroth row, put
+\[
+ h(t)=\norm{u(t)}_{\dot H^{1/2}},\qquad
+ d(t)=\norm{u(t)}_{\dot H^{3/2}},\qquad
+ H_*:=\norm h_{L^\infty},\quad D_*:=\norm d_{L^2}.
+\]
+The bounds \(\norm{B_0}_{\dot H^{-1/2}}\le c_*hd\) and
+\(\norm{\mathbb QB_0}_{\dot H^{1/2}}\le c_*d^2\) give
+\begin{equation}
+ \begin{aligned}
+ \norm{\Pp B_0}_{L^2\dot H^{-1/2}},\quad
+ \norm{\mathbb QB_0}_{L^2\dot H^{-1/2}}
+ &\le c_*H_*D_*,\\
+ \norm{\mathbb QB_0}_{L^1\dot H^{1/2}}
+ &\le c_*D_*^2.
+ \end{aligned}
+ \label{r:eq:pressure-time-endpoints}
+\end{equation}
+Interpolating the two spatial norms at each time gives
+\[
+ \norm{\mathbb QB_0(t)}_2
+ \le c_*h(t)^{1/2}d(t)^{3/2}.
+\]
+Raising this to the power \(4/3\) and integrating yields
+\begin{equation}
+ \norm{\mathbb QB_0}_{L^{4/3}L^2}
+ \le c_*H_*^{1/2}D_*^{3/2}.
+ \label{r:eq:pressure-intermediate-time}
+\end{equation}
+The critical rectangle supplies \(H_*\le\sqrt{D+R}\) and
+\(D_*\le\sqrt R\), so the last right side is
+\(c_*(D+R)^{1/4}R^{3/4}\).  A Sobolev and H\"older estimate also
+gives the \(L^{4/3}L^2\) conclusion for full transport.  The additional
+pressure regularity is its \(L^1\dot H^{1/2}\) endpoint; total forced
+pressure still includes the prescribed gradient source.
+
+\subsection{Material acceleration from the first rectangle}
+
+The orthogonal acceleration identity can be evaluated in \(L^2_x\)
+using \(R_{0,1}\).  Set
+\[
+ \mathsf A:=\norm u_{L^2H^2},\qquad
+ \mathsf B:=\norm{u_t}_{L^2L^2},\qquad
+ \mathsf Z:=\left(\norm{u_0}_{H^1}^2
+                   +2\mathsf A\mathsf B\right)^{1/2}.
+\]
+The adjacent trace gives \(\norm u_{L^\infty H^1}\le\mathsf Z\).
+Use the homogeneous Sobolev constants
+\[
+ S_6=\frac{2^{2/3}}{\sqrt3\pi^{2/3}},\qquad
+ S_3=2^{-1/6}\pi^{-1/3}.
+\]
+H\"older in space and then in time gives
+\begin{equation}
+ \begin{aligned}
+ \norm{B_0}_{L^2L^2}
+ &\le\norm u_{L^\infty L^6}\norm{\nabla u}_{L^2L^3}\\
+ &\le S_6S_3\mathsf Z\mathsf A
+ =\frac1\pi\sqrt{\frac23}\,\mathsf Z\mathsf A.
+ \end{aligned}
+ \label{r:eq:first-rectangle-transport-L2}
+\end{equation}
+In unforced flow, viscosity supplies the solenoidal part of acceleration
+and the pressure response supplies its gradient part.  Their squared
+norms add by \eqref{r:eq:acceleration-orthogonal}.  We obtain
+\begin{equation}
+ \norm{D_tu}_{L^2L^2}
+ \le\mathsf A\sqrt{\nu^2+\frac{2\mathsf Z^2}{3\pi^2}},
+ \qquad f=0.
+ \label{r:eq:first-rectangle-acceleration-L2}
+\end{equation}
+For the forced equation, retain the prescribed solenoidal source in
+\eqref{r:eq:acceleration-orthogonal}. The resulting bound at this first
+rectangle is
+\begin{equation}
+ \norm{D_tu}_{L^2L^2}^2
+ \le\left(\nu\mathsf A+\norm{\Pp f}_{L^2L^2}\right)^2
+ +\frac{2}{3\pi^2}\mathsf Z^2\mathsf A^2.
+ \label{r:eq:first-rectangle-forced-acceleration-L2}
+\end{equation}
+The triangle inequality bounds the solenoidal component, while the
+preceding transport estimate bounds the orthogonal gradient component.
+The adjacent row also gives
+\(\norm{\Pp B_0}_{L^2L^2}\le\nu\mathsf A+\mathsf B\) when
+\(f=0\).  These bounds use the first rectangle, while the earlier
+pointwise acceleration bound selects the stronger \(R_{1,2}\).
+
+At critical negative-half order, the orthogonal identity gives a
+particularly precise unforced coefficient:
+\begin{equation}
+ \nu d(t)\le\norm{D_tu(t)}_{\dot H^{-1/2}}
+ \le\sqrt{\nu^2+\frac{h(t)^2}{2\pi^2}}\,d(t),
+ \qquad f=0.
+ \label{r:eq:critical-acceleration-two-sided}
+\end{equation}
+The lower bound retains the solenoidal viscous component, and the upper
+bound uses \(\norm{\mathbb QB_0}_{\dot H^{-1/2}}\le c_*hd\).
+Integration gives
+\[
+ \norm{D_tu}_{L^2\dot H^{-1/2}}
+ \le\sqrt{\nu^2+\frac{H_*^2}{2\pi^2}}\,D_*,\qquad f=0.
+\]
+For general forcing, the solenoidal component is
+\(\nu\Delta u+\Pp f\); retaining it gives
+\begin{equation}
+ \norm{D_tu}_{L^2\dot H^{-1/2}}^2
+ \le\left(\nu D_*+\norm{\Pp f}_{L^2\dot H^{-1/2}}\right)^2
+       +c_*^2H_*^2D_*^2.
+ \label{r:eq:critical-acceleration-general-coordinates}
+\end{equation}
+Its substitution from \(R_{0,1}\) is
+\eqref{r:eq:critical-material-bounds}.
+
+\subsection{Acceleration at a higher adjacent height}
+
+To place the full acceleration in \(L^2H^{1/2}\), select the stronger
+adjacent coordinates
+\begin{equation}
+ u\in L^2H^{5/2},\qquad u_t\in L^2H^{1/2}.
+ \label{r:eq:stronger-acceleration-coordinates}
+\end{equation}
+Higher integer rectangles supply both by Sobolev inclusion.  The
+inhomogeneous pairing
+\(2\ip{(1-\Delta)^{5/4}u}{(1-\Delta)^{1/4}u_t}\)
+gives the continuous \(H^{3/2}\) trace and
+\begin{equation}
+ \sup_{0\le t\le T}\norm{u(t)}_{H^{3/2}}^2
+ \le\norm{u_0}_{H^{3/2}}^2
+ +2\norm u_{L^2H^{5/2}}\norm{u_t}_{L^2H^{1/2}}.
+ \label{r:eq:stronger-acceleration-trace}
+\end{equation}
+For the pressure component, the negative-half estimate controls
+frequencies below one and the positive-half estimate controls those
+above one.  Together they give a continuous quadratic map from
+\(H^{3/2}\) into \(H^{1/2}\).  Thus
+\(\mathbb QB_0\in C([0,T];H^{1/2})\), with
+\begin{equation}
+ \norm{\mathbb QB_0}_{L^2H^{1/2}}
+ \le C\norm u_{L^\infty H^{3/2}}
+         \norm u_{L^2H^{3/2}}.
+ \label{r:eq:stronger-pressure-time}
+\end{equation}
+If \(\Pp f\in L^2H^{1/2}\), all components of
+\(a=\nu\Delta u+\Pp f+\mathbb QB_0\) now belong to
+\(L^2H^{1/2}\).  The projected momentum row separately yields
+\begin{equation}
+ \norm{\Pp B_0}_{L^2H^{1/2}}
+ \le\nu\norm u_{L^2H^{5/2}}
+ +\norm{u_t}_{L^2H^{1/2}}
+ +\norm{\Pp f}_{L^2H^{1/2}}.
+ \label{r:eq:stronger-projected-transport}
+\end{equation}
+The \(L^2H^{5/2}\) bound controls the viscous term in
+\(L^2H^{1/2}\), while the adjacent temporal bound yields
+the continuous \(H^{3/2}\) trace.
+
+\subsection{Unforced action and spatial recovery}
+
+For \(f=0\), squaring the projected equation in
+\(\dot H^{-1/2}\) retains an exact relation between the temporal
+and viscous actions.  Since
+\[
+ \Pp B_0=\nu\Delta u-u_t,\qquad
+ \ip{\Delta u}{u_t}_{\dot H^{-1/2}}
+ =-\frac12\frac{\dd}{\dd t}h^2,
+\]
+we have
+\begin{equation}
+ \nu\frac{\dd}{\dd t}h^2+\nu^2d^2
+ +\norm{u_t}_{\dot H^{-1/2}}^2
+ =\norm{\Pp B_0}_{\dot H^{-1/2}}^2,
+ \qquad f=0.
+ \label{r:eq:unforced-critical-action}
+\end{equation}
+Add \(\norm{\mathbb QB_0}_{\dot H^{-1/2}}^2\) to both sides.
+Orthogonality of the two transport projections and the acceleration
+identity give
+\begin{equation}
+ \nu\frac{\dd}{\dd t}h^2
+ +\norm{u_t}_{\dot H^{-1/2}}^2
+ +\norm{D_tu}_{\dot H^{-1/2}}^2
+ =\norm{B_0}_{\dot H^{-1/2}}^2,
+ \qquad f=0.
+ \label{r:eq:unforced-material-critical-action}
+\end{equation}
+These identities retain the complete nonlinear action on the right.
+Adding the pressure square also adds its contribution there; the
+operation supplies no additional sign for critical production.
+
+The solenoidal acceleration determines the viscous spatial derivative
+when \(\nu>0\).  In unforced flow,
+\(\Pp a=\nu\Delta u\), so the Fourier estimate used in
+\eqref{r:eq:adjacent-spatial-recovery} gives
+\begin{equation}
+ \norm u_{H^{m+2}}
+ \le\sqrt2\left(\norm u_{H^m}
+                  +\nu^{-1}\norm a_{H^m}\right),
+ \qquad f=0.
+ \label{r:eq:unforced-spatial-recovery-from-acceleration}
+\end{equation}
+This last relation recovers the spatial coordinate from the full
+acceleration at that height, with the lower velocity norm retained.

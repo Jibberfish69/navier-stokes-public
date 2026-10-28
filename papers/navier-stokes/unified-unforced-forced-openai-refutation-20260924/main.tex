@@ -101,23 +101,23 @@ Incompressible Navier--Stokes Equations\\[0.4em]
 \maketitle
 
 \begin{abstract}
-Fix \(\nu>0\) and a smooth divergence-free finite-energy datum \(u_0\).
-For the unforced equations, the datum generates one maximal
-pressure-normalized history. At every finite temporal depth and spatial
-height, the datum construction places the corresponding pressure-complete
-rectangle on the whole interval leading to a proposed finite terminal time.
-The compatible rectangles exhaust the mixed Sobolev intersection, while the
-completed critical-height identities recover every spatial row from those
-same finite coordinates. The adjacent rows have a common
-\(H^\infty_\sigma\) endpoint; the equation recovers its complete velocity and
-pressure jet; and the local restart joins to the incoming history, excluding
-a finite maximal time. For a prescribed
-\(f\in C^\infty([0,\infty);\mathcal S(\R^3;\R^3))\), the finite-row
-construction is applied anew to the complete forced graph. The source
-pairing and pressure-potential bounds control every added affine force
-coordinate, the forced rectangles yield that endpoint regularity, and
-the restart retains the original absolute-time force. This gives a unique
-global smooth solution in both the unforced and forced settings.
+Fix \(\nu>0\) and \(u_0\in H^\infty_\sigma(\R^3)\), a divergence-free
+datum belonging to every finite Sobolev order.
+The pressure-complete equation generates one mixed jet carrying its spatial
+Sobolev intersection on the original interval. Compatible temporal rows give
+the full mixed Sobolev intersection. The critical-height domains read its
+spatial orders; completed-height substitution then displays viscosity with
+transport and pressure retained. Finite rectangles select the coordinates
+and relationships used at any prescribed orders. Their adjacent rows reach
+a common \(H^\infty_\sigma\) endpoint, and the pressure-complete recurrence
+matches a local restart to the incoming history, excluding a finite maximal
+time. For a prescribed
+\(f\in C^\infty([0,\infty);\mathcal S(\R^3;\R^3))\), the construction
+retains the original force and its induced pressure response in every row.
+The forced jet carries its compatible intersection, its finite records
+inherit the required norms, and the restart keeps the prescribed
+absolute-time force. This gives a unique global smooth solution in the
+unforced and forced settings.
 
 The proposed field in OpenAI's \emph{Finite Time Blowup for Navier--Stokes}
 is then tested against the forced theorem. Its full localization residual has

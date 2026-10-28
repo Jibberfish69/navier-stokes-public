@@ -1,0 +1,129 @@
+\subsection{Positive lower bounds at fractional Sobolev orders}
+
+The exterior also determines lower bounds at the precise fractional heights used by the intersection argument. These bounds use pairs of points lying entirely in that region. No choice of the unknown interior can cancel their contribution.
+
+\begin{theorem}[Critical mixed-row lower bounds]\label{r:joined-thm:criticalexterior}
+Suppose a smooth whole-space velocity agrees with \eqref{r:eq:uncut-exterior} on the prescribed exterior for all sufficiently late times. For every fixed pair of integers $n,m\ge0$, there are $c_{n,m}>0$ and $\delta_{n,m}>0$ such that
+\begin{equation}\label{r:joined-eq:criticalexterior}
+\norm{\partial_t^n u(1-\tau)}_{\dot H^{m+1/2}}^2
+\ge c_{n,m}\tau^{-2n-m-3h}
+\qquad(0<\tau<\delta_{n,m}).
+\end{equation}
+The constants are allowed to depend on the two derivative orders. The bound also holds, with changed constants, after subtracting any history smooth through time one whose finite mixed Sobolev norms are bounded. In particular,
+\begin{equation}\label{r:joined-eq:criticalexteriorbase}
+\begin{aligned}
+\norm{u(1-\tau)}_{\dot H^{1/2}}^2&\ge c_0\tau^{-3h},\\
+\norm{u(1-\tau)}_{\dot H^{3/2}}^2&\ge c_1\tau^{-1-3h}.
+\end{aligned}
+\end{equation}
+Thus the critical dissipation integral diverges at the proposed singular time.
+\end{theorem}
+
+\begin{proof}
+For a scalar function $F$ on $\R^3$, the positive fractional seminorm formula is
+\begin{equation}\label{r:joined-eq:gagliardopairs}
+\norm F_{\dot H^{1/2}}^2
+=\frac1{2\pi^2}
+\iint_{\R^3\times\R^3}
+\frac{|F(x)-F(y)|^2}{|x-y|^4}\,dx\,dy .
+\end{equation}
+It follows by Plancherel and
+$\int_{\R^3}(1-\cos(\xi\cdot z))|z|^{-4}dz=\pi^2|\xi|$.
+In particular any selected set of pairs supplies a lower bound.
+
+Differentiate the heat profile in \eqref{r:eq:uncut-exterior}. On the exterior,
+\[
+\partial_t^n u
+=\tau^{-A-n}k_n(r/\sqrt\tau)e_\theta,
+\]
+where
+\begin{equation*}
+\begin{aligned}
+k_n(\rho)
+={}&\frac{b4^n(h)_n}{\Gamma(1+h)}
+\rho^{-2A-2n}\\
+&\times\int_0^\infty e^{-v}v^{h+n}
+(1+4v/\rho^2)^{-h-n}\,dv .
+\end{aligned}
+\end{equation*}
+Here $(a)_n$ denotes the rising factorial, with $(a)_0=1$. For each fixed $m$,
+\[
+\begin{aligned}
+k_n^{(m)}(\rho)
+&=(-1)^m d_{n,m}\rho^{-2A-2n-m}
+\bigl(1+O_{n,m}(\rho^{-2})\bigr),\\
+d_{n,m}&=b4^n(h)_n(1+h)_n(2A+2n)_m>0.
+\end{aligned}
+\]
+The expansion, including its derivatives, follows from the exponentially integrable profile formula. Choose a fixed sufficiently large $c$. At transverse points $(c,0)$ and $(2c,0)$, the second component of
+$\partial_1^m[k_n(r)e_\theta]$ equals $k_n^{(m)}(c)$ and $k_n^{(m)}(2c)$. Their difference is nonzero. Two small fixed transverse patches retain a strictly positive gap.
+
+Scale both patches by $\sqrt\tau$. Choose the first axial coordinate in an interval of length proportional to $\tau^D$, and the second within a distance proportional to $\sqrt\tau$ of it. Since $D<1/2$, both axial coordinates remain in the exterior slab for small $\tau$. The transverse patches can be placed in the exact exterior by taking $c$ large, and the physical localization cutoffs equal one there for sufficiently small $\tau$. The selected pair set has measure bounded below by a positive constant times
+$\tau^{5/2+D}$. Its distances are at most a fixed multiple of $\sqrt\tau$. For $F=\partial_1^m\partial_t^n u_2$, the squared difference on those pairs is at least
+$c'\tau^{-2A-2n-m}$.
+Formula \eqref{r:joined-eq:gagliardopairs} now gives
+\[
+\norm F_{\dot H^{1/2}}^2
+\ge c''\tau^{5/2+D-2-2A-2n-m}
+=c''\tau^{-2n-m-3h}.
+\]
+The Fourier multiplier inequality
+$|\xi_1|^{2m}|\xi|\le|\xi|^{2m+1}$
+proves \eqref{r:joined-eq:criticalexterior}. Finally, the triangle inequality shows that subtracting a history with bounded mixed Sobolev norms preserves each divergent lower bound for small enough $\tau$.
+\end{proof}
+
+The first pressure-complete nonlinear prefix must also grow. Define
+\[
+P_{1/2}(t)
+=-\ip{\Lambda^{1/2}u}
+{\Lambda^{1/2}\PP((u\cdot\nabla)u)}.
+\]
+For $t_0<1$ fixed sufficiently late, the exact critical balance gives
+\begin{equation*}
+\begin{aligned}
+\int_{t_0}^{t}P_{1/2}(s)\,ds
+={}&E_{1/2}(t)-E_{1/2}(t_0)\\
+&+\nu\int_{t_0}^{t}\norm u_{\dot H^{3/2}}^2\,ds
+-\int_{t_0}^{t}\ip{u}{\Lambda\PP f}\,ds .
+\end{aligned}
+\end{equation*}
+The last integral is bounded by the kinetic budget and the smooth source. Inserting \eqref{r:joined-eq:criticalexteriorbase} yields constants $c_*>0$ and $C_*<\infty$ such that
+\begin{equation}\label{r:joined-eq:exteriorcriticalprefix}
+\int_{t_0}^{1-\tau}P_{1/2}(s)\,ds
+\ge c_*\tau^{-3h}-C_* .
+\end{equation}
+Every completion satisfying the stated forced equation must obey this
+lower bound. Its signed critical production consequently has an
+unbounded time integral, contradicting the finite production bound
+for a solution in the full intersection. The exterior calculation
+establishes the lower bound independently of that membership premise.
+
+
+\subsection{Divergence of the positive time convolutions}
+
+The mixed-row lower bound also supplies the integrated divergence
+required in Section~\ref{r:sec:all-row-primitives}. Write
+\(H_r=E_{r,1/2}=\tfrac12\|\partial_t^r u\|_{\dot H^{1/2}}^2\).
+For a constant \(d_r>0\), Theorem~\ref{r:joined-thm:criticalexterior} gives
+\[
+ H_r(1-\tau)\ge d_r\tau^{-2r-3h}
+\]
+when \(\tau\) is sufficiently small. Let \(I^r\) denote the
+\(r\)-fold integral from time zero, defined in
+\eqref{r:eq:source-primitive-def}. For \(r\ge1\), its convolution
+kernel is positive. Restrict its lag
+\(\ell=(1-\tau)-a\) to \([\tau,2\tau]\). On that interval,
+\(1-a=\tau+\ell\le3\tau\), the kernel is at least
+\(\tau^{r-1}/(r-1)!\), and the interval has length \(\tau\). Thus
+\begin{equation}
+ I^rH_r(1-\tau)
+ \ge\frac{d_r3^{-2r-3h}}{(r-1)!}\tau^{-r-3h}
+ \longrightarrow\infty.
+\label{r:eq:positive-row-convolution}
+\end{equation}
+The case \(r=0\) uses the original pointwise lower bound. The source
+primitive and initial polynomial in the odd-row identity stay bounded.
+Consequently every odd completed height requires unbounded upper
+nonlinear production for a whole-space solution with this exterior.
+The conclusion uses the positive convolution explicitly; it does not
+infer integrated divergence from pointwise growth alone.

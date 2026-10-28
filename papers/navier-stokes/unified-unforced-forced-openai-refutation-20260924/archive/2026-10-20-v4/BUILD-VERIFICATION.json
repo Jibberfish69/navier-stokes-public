@@ -1,0 +1,14 @@
+{
+  "exact_extracted_text_equal": true,
+  "warning_lines": [
+    "Package inputenc Warning: inputenc package ignored with utf8 based engines.",
+    "Package tagpdf Warning: The package unicode-math is missing"
+  ],
+  "pages": 229,
+  "render_dpi": 72,
+  "rendered_pages_compared": 229,
+  "exact_png_matches": 229,
+  "mismatched_pages": [],
+  "source_inputs_unchanged": true,
+  "pdf_bytes_equal_claim": false
+}
