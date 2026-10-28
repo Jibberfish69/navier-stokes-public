@@ -221,6 +221,34 @@ class CanonicalReleaseTests(unittest.TestCase):
         replace_zip_member(reader, "sources.json", json.dumps(sources).encode())
         self.assert_failed_with("Historical source removed or overwritten: contract")
 
+    def test_direct_custody_owner_hash_cannot_change_only_in_the_public_index(self):
+        path = self.root / self.canonical["current_direct_custody"]
+        index = json.loads(path.read_text())
+        index[next(iter(index))]["source_sha256"] = "0" * 64
+        write_json(path, index)
+        self.assert_failed_with("Direct custody metadata differs from its reader envelope:")
+
+    def test_direct_custody_index_cannot_drop_one_source(self):
+        path = self.root / self.canonical["current_direct_custody"]
+        index = json.loads(path.read_text())
+        index.pop(next(iter(index)))
+        write_json(path, index)
+        self.assert_failed_with("Direct custody index source set differs")
+
+    def test_direct_custody_index_cannot_be_empty(self):
+        path = self.root / self.canonical["current_direct_custody"]
+        write_json(path, {})
+        self.assert_failed_with("Direct custody index source set differs")
+
+    def test_direct_custody_path_and_snapshot_metadata_are_bound(self):
+        path = self.root / self.canonical["current_direct_custody"]
+        index = json.loads(path.read_text())
+        record = index[next(iter(index))]
+        record["path"] = "problems/navier-stokes/different-source.md"
+        record["snapshot_id"] = "0" * 64
+        write_json(path, index)
+        self.assert_failed_with("Direct custody metadata differs from its reader envelope:")
+
     def test_destination_cannot_claim_current_with_old_artifact_hash(self):
         entry = copy.deepcopy(self.ledger["destinations"]["git"])
         entry["artifacts"]["native_pdf"]["sha256"] = "0" * 64

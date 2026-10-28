@@ -123,6 +123,35 @@ def version_sources(previous: dict, inputs: dict[str, bytes], source_id: str,
     return result, aliases
 
 
+def version_custody_sources(previous: dict, documents: dict, snapshot_id: str) -> tuple[dict, dict]:
+    """Version both sanitized content and the provenance that identifies it."""
+    result = copy.deepcopy(previous)
+    aliases = {}
+    for role, item in documents.items():
+        raw = item["text"].encode()
+        source_path = Path(item["path"])
+        if source_path.is_absolute() or ".." in source_path.parts or not item["path"].startswith(("papers/navier-stokes/", "problems/navier-stokes/")):
+            raise PrepareError("Approved custody source path is outside the public proof namespace")
+        if not re.fullmatch(r"[0-9a-f]{64}", item.get("source_sha256", "")):
+            raise PrepareError("Approved custody owner-source hash is missing or invalid")
+        if digest(raw) != item["sanitized_sha256"] or re.search(r"/Users/|\.codex/sessions/|rollout-\d", item["text"]):
+            raise PrepareError("Approved custody source digest or privacy check failed")
+        metadata = {"path": item["path"], "origin": "approved-sanitized-proof-source",
+            "sha256": digest(raw), "source_sha256": item["source_sha256"],
+            "sanitized_sha256": item["sanitized_sha256"], "snapshot_id": snapshot_id,
+            "line_count": len(raw.decode().splitlines())}
+        binding = json.dumps({"role": role, **metadata}, sort_keys=True, separators=(",", ":")).encode()
+        sid = "custody:" + digest(binding) + ":" + role
+        record = {"id": sid, **metadata, "content_b64": base64.b64encode(raw).decode()}
+        if sid in result and result[sid] != record:
+            raise PrepareError("Immutable custody source ID collision")
+        result[sid] = record
+        aliases[role] = sid
+    if any(result[key] != record for key, record in previous.items()):
+        raise PrepareError("A previous custody source envelope was modified")
+    return result, aliases
+
+
 def freeze_sources(args) -> dict:
     """Write one exact source snapshot before any build or artifact audit."""
     output = args.output.resolve()
@@ -328,26 +357,7 @@ def rebuild_reader(root: Path, proof: Path, inputs: dict[str, bytes], source_id:
         if set(selected) != set(custody_aliases):
             raise PrepareError("The approved custody snapshot omits a governing source role")
         custody_snapshot = library["snapshot_id"]
-        for role, item in selected.items():
-            raw = item["text"].encode()
-            source_path = Path(item["path"])
-            if source_path.is_absolute() or ".." in source_path.parts or not item["path"].startswith(("papers/navier-stokes/", "problems/navier-stokes/")):
-                raise PrepareError("Approved custody source path is outside the public proof namespace")
-            if not re.fullmatch(r"[0-9a-f]{64}", item.get("source_sha256", "")):
-                raise PrepareError("Approved custody owner-source hash is missing or invalid")
-            if digest(raw) != item["sanitized_sha256"] or re.search(r"/Users/|\.codex/sessions/|rollout-\d", item["text"]):
-                raise PrepareError("Approved custody source digest or privacy check failed")
-            sid = "custody:" + item["sanitized_sha256"] + ":" + role
-            custody_aliases[role] = sid
-            if sid in sources:
-                if base64.b64decode(sources[sid]["content_b64"]) != raw:
-                    raise PrepareError("Immutable custody source ID collision")
-            else:
-                sources[sid] = {"id": sid, "path": item["path"],
-                    "origin": "approved-sanitized-proof-source", "sha256": digest(raw),
-                    "source_sha256": item["source_sha256"], "sanitized_sha256": item["sanitized_sha256"],
-                    "snapshot_id": custody_snapshot, "line_count": len(raw.decode().splitlines()),
-                    "content_b64": base64.b64encode(raw).decode()}
+        sources, custody_aliases = version_custody_sources(sources, selected, custody_snapshot)
     workspace["canonical_release"] = {"date": release_date,
         "source_manifest_sha256": source_id, "manuscript_path": manuscript_path,
         "manuscript_sources": aliases, "custody_sources": custody_aliases,

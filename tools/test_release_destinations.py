@@ -8,7 +8,7 @@ from unittest.mock import patch
 import test_canonical_release as fixtures
 from canonical_release import release_context, verify_release
 import release_destinations as delivery
-from working_source import verify_working
+from working_source import verify_authority, verify_working
 
 
 class DestinationTests(unittest.TestCase):
@@ -106,6 +106,33 @@ class DestinationTests(unittest.TestCase):
         source = directory / "main.tex"
         source.write_bytes(source.read_bytes() + b"\n% pending edit\n")
         self.assertFalse(verify_working(self.root, directory)["ok"])
+
+    def test_governing_source_edit_blocks_publishing(self):
+        authority = self.root / "owner-authority"
+        authority.mkdir()
+        file = authority / "proof.md"
+        file.write_bytes(b"Declared governing source.\n")
+        import hashlib
+        index = {"direct-proof": {"path": "proof.md", "source_sha256": hashlib.sha256(file.read_bytes()).hexdigest()}}
+        self.assertTrue(verify_authority(authority, index)["ok"])
+        file.write_bytes(b"Updated governing source.\n")
+        result = verify_authority(authority, index)
+        self.assertFalse(result["ok"])
+        self.assertEqual(result["changed"], ["direct-proof"])
+
+    def test_missing_governing_source_cannot_be_marked_current(self):
+        authority = self.root / "missing-owner-authority"
+        authority.mkdir()
+        result = verify_working(self.root, self.fixture.directory, authority)
+        self.assertFalse(result["ok"])
+        self.assertTrue(result["authority_changed"])
+
+    def test_rewritten_authority_index_cannot_bypass_its_frozen_envelopes(self):
+        index = self.root / self.context["canonical"]["current_direct_custody"]
+        index.write_text("{}\n")
+        result = verify_working(self.root, self.fixture.directory)
+        self.assertFalse(result["ok"])
+        self.assertTrue(result["release_errors"])
 
 
 if __name__ == "__main__":

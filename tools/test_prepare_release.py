@@ -9,10 +9,26 @@ import subprocess
 from argparse import Namespace
 
 from canonical_release import digest, source_digest
-from prepare_release import PrepareError, audit_receipt, copy_baseline, freeze_sources, source_closure, version_sources, write_prepared_files
+from prepare_release import PrepareError, audit_receipt, copy_baseline, freeze_sources, source_closure, version_sources, version_custody_sources, write_prepared_files
 
 
 class PrepareChecks(unittest.TestCase):
+    def test_custody_provenance_versions_without_changing_sanitized_text(self):
+        raw = b'Proof source fixture.\n'
+        document = {'path': 'problems/navier-stokes/proof.md', 'text': raw.decode(),
+                    'source_sha256': 'a' * 64, 'sanitized_sha256': digest(raw)}
+        first, first_map = version_custody_sources({}, {'proof-spine': document}, '1' * 64)
+        second, second_map = version_custody_sources(first, {'proof-spine': document}, '2' * 64)
+        changed_owner = dict(document, source_sha256='b' * 64)
+        third, third_map = version_custody_sources(second, {'proof-spine': changed_owner}, '2' * 64)
+        self.assertNotEqual(first_map['proof-spine'], second_map['proof-spine'])
+        self.assertNotEqual(second_map['proof-spine'], third_map['proof-spine'])
+        self.assertTrue(all(third[key] == value for key, value in first.items()))
+        self.assertTrue(all(third[key] == value for key, value in second.items()))
+        self.assertEqual(base64.b64decode(third[third_map['proof-spine']]['content_b64']), raw)
+        self.assertEqual(third[third_map['proof-spine']]['source_sha256'], 'b' * 64)
+        self.assertEqual(third[third_map['proof-spine']]['snapshot_id'], '2' * 64)
+
     def test_freeze_preserves_master_and_detects_a_later_edit(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp) / 'project'

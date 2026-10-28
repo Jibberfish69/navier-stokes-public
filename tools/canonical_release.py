@@ -23,6 +23,7 @@ DESTINATION_ARTIFACTS = {"git": ["native_pdf", "custody_zip", "current_source"],
                          "rob_email": ["custody_zip"]}
 OBSERVED_ARTIFACT_FIELDS = {"sha256", "bytes", "url", "resolved_host"}
 WORKFLOW_ROLES = {"owner", "prepare", "destination_recorder", "documentation", "push_gate", "ci"}
+DIRECT_CUSTODY_ROLES = {"live-theorem-edge", "target-contract", "closure", "forced-custody", "proof-spine", "theorem-packet"}
 
 
 def digest(data: bytes) -> str:
@@ -252,10 +253,36 @@ class ReleaseCheck:
 
         index_path = self.path(canonical["current_direct_custody"])
         index = self.read_json(index_path)
-        for name, record in index.items():
+        custody_map = workspace["canonical_release"].get("custody_sources")
+        if custody_map is None:
+            custody_map = {name.rsplit(":", 1)[-1]: name for name in sources if name.startswith("canonical:custody:")}
+        self.require(isinstance(custody_map, dict) and set(custody_map) == DIRECT_CUSTODY_ROLES,
+                     "Direct custody source roles are incomplete")
+        if not isinstance(custody_map, dict):
+            raise ValueError("Direct custody source map must be an object")
+        self.require(len(set(custody_map.values())) == len(custody_map), "Direct custody source map reuses an ID")
+        self.require(bool(index) and set(index) == set(custody_map.values()), "Direct custody index source set differs")
+        snapshot_id = workspace["canonical_release"].get("custody_snapshot_id")
+        self.require(re.fullmatch(r"[0-9a-f]{64}", str(snapshot_id)) is not None, "Direct custody snapshot identity is missing")
+        for role, name in custody_map.items():
+            envelope = sources.get(name, {})
+            record = index.get(name, {})
+            self.require(name.rsplit(":", 1)[-1] == role, f"Direct custody role differs: {role}")
+            self.require({key: value for key, value in record.items() if key != "download"} ==
+                         {key: value for key, value in envelope.items() if key != "content_b64"},
+                         f"Direct custody metadata differs from its reader envelope: {name}")
+            self.require(record.get("id") == name and envelope.get("id") == name,
+                         f"Direct custody source ID differs: {name}")
+            self.require(record.get("snapshot_id") == snapshot_id, f"Direct custody snapshot differs: {name}")
+            self.require(re.fullmatch(r"[0-9a-f]{64}", str(record.get("source_sha256", ""))) is not None,
+                         f"Direct custody owner-source identity is missing: {name}")
+            if not record.get("download"):
+                self.require(False, f"Direct custody download path is missing: {name}")
+                continue
             data = self.path(record["download"], index_path.parent).read_bytes()
             self.require(digest(data) == record["sha256"], f"Direct custody source differs: {name}")
-            self.require(sources.get(name, {}).get("sha256") == record["sha256"], f"Direct custody reader link differs: {name}")
+            self.require(digest(data) == record.get("sanitized_sha256"), f"Direct custody sanitized identity differs: {name}")
+            self.require(data == base64.b64decode(envelope.get("content_b64", "")), f"Direct custody reader bytes differ: {name}")
         sums = proof_directory / "SHA256SUMS"
         for line in sums.read_text().splitlines():
             expected, name = line.split(None, 1)

@@ -14,12 +14,15 @@ File checks preserve identity and scope. They do not establish a mathematical th
 Run this command in the public repository checkout:
 
 ```sh
-python3 tools/working_source.py install --source-root /path/to/working-manuscript
+python3 tools/working_source.py install \
+  --source-root /path/to/working-manuscript \
+  --authority-root /path/to/research-repository
 ```
 
 The command preserves an existing custom hook directory and stops for integration.
 The installed push hook verifies the actual commits that Git will send.
 It also detects changes in the linked working manuscript.
+The optional authority link detects changes in the governing proof sources.
 GitHub Actions runs the release checks on pushes and pull requests.
 
 ## Freeze and prepare an update
@@ -57,6 +60,7 @@ The command rejects stale review evidence and mismatched copies.
 It adds immutable source identifiers, retains earlier records and records the parent release.
 It resets destination states to pending.
 It does not publish or send messages.
+If governing sources change, supply an approved sanitized snapshot with `--custody-library`.
 
 Copy the candidate files into the publishing checkout. Preserve its `.git` directory.
 Stage every release file, including archived PDFs.
