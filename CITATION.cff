@@ -9,5 +9,5 @@ preferred-citation:
   type: article
   authors: *authors
   title: Global Smoothness for the Three-Dimensional Incompressible Navier–Stokes Equations, with a Refutation of OpenAI’s Finite-Time Blowup Claim
-  url: https://github.com/Jibberfish69/navier-stokes-public/blob/29212b2dc6430eedd737682565675a3ef29a8e6b/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/unified-unforced-forced-openai-refutation.pdf
   year: 2026
+  url: https://raw.githubusercontent.com/Jibberfish69/navier-stokes-public/29212b2dc6430eedd737682565675a3ef29a8e6b/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/unified-unforced-forced-openai-refutation.pdf

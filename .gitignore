@@ -1,0 +1,10 @@
+# Private observation inputs stay outside the public release.
+/.canonical-evidence/
+/DISTRIBUTION.lock
+.canonical-*.tmp
+**/__pycache__/
+*.pyc
+
+# Preserve verified historical PDFs despite machine-level PDF exclusions.
+!proof/archive/**/*.pdf
+!papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/archive/**/*.pdf

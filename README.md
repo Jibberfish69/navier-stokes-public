@@ -6,6 +6,8 @@ Research notes, theorem development, manuscript sources, manuscripts, and retain
 
 [CANONICAL.json](CANONICAL.json) identifies the current combined manuscript, its 42 source inputs, the portable custody object and the governing sanitized proof sources by their hashes.
 
+[RELEASE-WORKFLOW.md](RELEASE-WORKFLOW.md) controls future updates. [DISTRIBUTION.json](DISTRIBUTION.json) records which destinations match the current source release.
+
 - [Read the current combined manuscript](papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/unified-unforced-forced-openai-refutation.pdf). Begin with “How the Proof Works.”
 - [Read that opening as a standalone excerpt](papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/excerpt/how-the-proof-works-ns-excerpt.pdf).
 - [Download the current manuscript source](papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/current-source.zip), or [rebuild the manuscript](papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/).

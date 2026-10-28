@@ -1,0 +1,76 @@
+{
+  "format": "navier-stokes-distribution/1",
+  "source_manifest_sha256": "c569bd12799c9b8aad5be3299767f00646b35646cf2d345ef88d884952ee7eed",
+  "required_destinations": [
+    "git",
+    "figshare",
+    "rob_reader",
+    "rob_email"
+  ],
+  "destinations": {
+    "git": {
+      "status": "verified-current",
+      "source_manifest_sha256": "c569bd12799c9b8aad5be3299767f00646b35646cf2d345ef88d884952ee7eed",
+      "expected_artifacts": [
+        "native_pdf",
+        "custody_zip",
+        "current_source"
+      ],
+      "artifacts": {
+        "native_pdf": {
+          "url": "https://raw.githubusercontent.com/Jibberfish69/navier-stokes-public/29212b2dc6430eedd737682565675a3ef29a8e6b/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/unified-unforced-forced-openai-refutation.pdf",
+          "resolved_host": "raw.githubusercontent.com",
+          "sha256": "85f60cef81c0203aba28af0d32602dd83dd4b3fce4dc351db611d60dd65bb86f",
+          "bytes": 7401019
+        },
+        "custody_zip": {
+          "url": "https://raw.githubusercontent.com/Jibberfish69/navier-stokes-public/29212b2dc6430eedd737682565675a3ef29a8e6b/proof/NS.proof-handoff.zip",
+          "resolved_host": "raw.githubusercontent.com",
+          "sha256": "cab0a005ed5e18c7c477f28b51505112a333f1db83c2884214b3e4287a0f8a05",
+          "bytes": 7687990
+        },
+        "current_source": {
+          "url": "https://raw.githubusercontent.com/Jibberfish69/navier-stokes-public/29212b2dc6430eedd737682565675a3ef29a8e6b/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/current-source.zip",
+          "resolved_host": "raw.githubusercontent.com",
+          "sha256": "b040526294ae13cb047c34c51c2552c4d7a0380fafb4657501f75d94dff1b261",
+          "bytes": 235977
+        }
+      },
+      "verified_at_utc": "2026-10-28T16:44:35.358171Z",
+      "evidence": {
+        "path": "release/receipts/git-c569bd12799c-b6993f677cbe.json",
+        "sha256": "b6993f677cbe4be9ba1e1184f5cdbf27aef1f2517f7427211e1129ce2cb0ac5f",
+        "mode": "download-verified"
+      },
+      "previous_evidence": {
+        "path": "release/receipts/git-c569bd12799c-01f63ff4b200.json",
+        "sha256": "01f63ff4b200eb320e0d42c57eafd52e98f928a6310194780f07558176ef18a0",
+        "mode": "download-verified"
+      }
+    },
+    "figshare": {
+      "status": "older-edition",
+      "source_manifest_sha256": "c569bd12799c9b8aad5be3299767f00646b35646cf2d345ef88d884952ee7eed",
+      "expected_artifacts": [
+        "native_pdf"
+      ],
+      "reason": "The publicdeposit remains an older edition. Figshare sign-in was deferred at the user request."
+    },
+    "rob_reader": {
+      "status": "blocked",
+      "source_manifest_sha256": "c569bd12799c9b8aad5be3299767f00646b35646cf2d345ef88d884952ee7eed",
+      "expected_artifacts": [
+        "source_manifest"
+      ],
+      "reason": "The source-routing repair is prepared and tested. Installation awaits explicit shared-file scope authorization."
+    },
+    "rob_email": {
+      "status": "prepared",
+      "source_manifest_sha256": "c569bd12799c9b8aad5be3299767f00646b35646cf2d345ef88d884952ee7eed",
+      "expected_artifacts": [
+        "custody_zip"
+      ],
+      "reason": "An unsent replacement reply links immutable current artifacts. No send evidence is recorded."
+    }
+  }
+}

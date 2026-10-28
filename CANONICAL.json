@@ -40,5 +40,16 @@
     "proof/archive/",
     "papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/archive"
   ],
-  "authority_scope": "Current source and distribution identity. The manuscript and its governing proof sources retain their stated mathematical scope."
+  "authority_scope": "Current source and distribution identity. The manuscript and its governing proof sources retain their stated mathematical scope.",
+  "distribution": "DISTRIBUTION.json",
+  "release_workflow": {
+    "owner": "tools/canonical_release.py",
+    "prepare": "tools/prepare_release.py",
+    "destination_recorder": "tools/release_destinations.py",
+    "documentation": "RELEASE-WORKFLOW.md",
+    "push_gate": ".githooks/pre-push",
+    "ci": ".github/workflows/canonical-release.yml",
+    "push_checker": "tools/check_push.py",
+    "working_source": "tools/working_source.py"
+  }
 }

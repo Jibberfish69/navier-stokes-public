@@ -1,0 +1,4 @@
+#!/bin/sh
+set -eu
+release_root=$(git rev-parse --show-toplevel)
+python3 "$release_root/tools/check_push.py" --root "$release_root"

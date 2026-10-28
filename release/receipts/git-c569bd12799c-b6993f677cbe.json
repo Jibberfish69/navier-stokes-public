@@ -1,0 +1,30 @@
+{
+  "format": "navier-stokes-destination-observation/1",
+  "mode": "download-verified",
+  "destination": "git",
+  "source_manifest_sha256": "c569bd12799c9b8aad5be3299767f00646b35646cf2d345ef88d884952ee7eed",
+  "verified_at_utc": "2026-10-28T16:44:35.358171Z",
+  "artifacts": {
+    "native_pdf": {
+      "url": "https://raw.githubusercontent.com/Jibberfish69/navier-stokes-public/29212b2dc6430eedd737682565675a3ef29a8e6b/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/unified-unforced-forced-openai-refutation.pdf",
+      "resolved_host": "raw.githubusercontent.com",
+      "sha256": "85f60cef81c0203aba28af0d32602dd83dd4b3fce4dc351db611d60dd65bb86f",
+      "bytes": 7401019
+    },
+    "custody_zip": {
+      "url": "https://raw.githubusercontent.com/Jibberfish69/navier-stokes-public/29212b2dc6430eedd737682565675a3ef29a8e6b/proof/NS.proof-handoff.zip",
+      "resolved_host": "raw.githubusercontent.com",
+      "sha256": "cab0a005ed5e18c7c477f28b51505112a333f1db83c2884214b3e4287a0f8a05",
+      "bytes": 7687990
+    },
+    "current_source": {
+      "url": "https://raw.githubusercontent.com/Jibberfish69/navier-stokes-public/29212b2dc6430eedd737682565675a3ef29a8e6b/papers/navier-stokes/unified-unforced-forced-openai-refutation-20260924/current-source.zip",
+      "resolved_host": "raw.githubusercontent.com",
+      "sha256": "b040526294ae13cb047c34c51c2552c4d7a0380fafb4657501f75d94dff1b261",
+      "bytes": 235977
+    }
+  },
+  "observation": {
+    "commit": "29212b2dc6430eedd737682565675a3ef29a8e6b"
+  }
+}
